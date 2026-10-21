@@ -53,7 +53,10 @@ const icon = {
 
 const CAT_ICONS = {
   supplement: '<rect x="3" y="8.5" width="18" height="7" rx="3.5" transform="rotate(-35 12 12)"/><path d="M9.6 8.6L14.4 15.4"/>',
-  it: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>',
+  it: '<rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/>',
+  audio: '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/>',
+  toy: '<rect x="3" y="10" width="18" height="10" rx="1.5"/><rect x="6" y="6.5" width="4" height="3.5" rx="1"/><rect x="14" y="6.5" width="4" height="3.5" rx="1"/>',
+  food: '<path d="M8 3h8v3l2 3v11a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V9l2-3z"/><path d="M6 12h12"/>',
   home: '<path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M16 10h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8 3v3M11 3v3"/>',
   apparel: '<path d="M8 3l-5 4 3 3 2-1v12h8V9l2 1 3-3-5-4a4 4 0 0 1-8 0z"/>',
   book: '<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7"/>'
@@ -63,6 +66,8 @@ const catIcon = (k) => `<svg width="28" height="28" viewBox="0 0 24 24" fill="no
 // ---------- 상품 판정 ----------
 // 원화로 파는 쇼핑몰(아이허브 한국 등)은 priceKrw·shipKrw를 넣으면 달러로 바꿔 면세 한도를 판단해요
 function normalize(p) {
+  const amzTag = site.affiliateIds && site.affiliateIds.amazon;
+  if (p.store === 'amazon' && amzTag && p.buyUrl && !/[?&]tag=/.test(p.buyUrl)) p = { ...p, buyUrl: p.buyUrl + (p.buyUrl.includes('?') ? '&' : '?') + 'tag=' + encodeURIComponent(amzTag) };
   if (p.priceKrw == null) return p;
   return { ...p, priceUsd: p.priceKrw / FX, shipUsd: (p.shipKrw || 0) / FX, krwPriced: true };
 }
@@ -347,7 +352,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
   } else {
     const limit = ev.limit;
     hero = ev.kind === 'break'
-      ? `<div class="vhero v-check"><span class="vword">$${ev.breakeven} 이하</span><div><b>${esc(p.storeName)} 가격이 이 가격 이하면 직구각</b><span>국내 최저가 ₩${krw(p.domesticKrw)}, 배송비 $${p.shipUsd}, 면세 한도 $${limit} 기준</span></div></div>`
+      ? `<div class="vhero v-check"><span class="vword">$${ev.breakeven} 이하</span><div><b>${esc(p.storeName)} 가격이 이 가격 이하면 직구각</b><span>국내 최저가 ₩${krw(p.domesticKrw)}, 배송비 ${p.shipNote ? esc(p.shipNote) : '$' + p.shipUsd}, 면세 한도 $${limit} 기준</span></div></div>`
       : `<div class="vhero v-bad"><span class="vword">국내가 나음</span><div><b>배송비가 가격 차이보다 커요</b><span>국내 최저가 ₩${krw(p.domesticKrw)} · 배송비 $${p.shipUsd} 기준</span></div></div>`;
     money = `
 <div class="compare">
@@ -355,8 +360,8 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
   <div class="cmp is-main"><span>직구각 기준 가격</span><b>${ev.kind === 'break' ? '$' + ev.breakeven + ' 이하' : '없음'}</b><small>20% 이상, ₩${krw(RULE.minSaveKrw)} 이상 쌀 때</small></div>
 </div>
 <form class="mini-calc" data-mini-calc data-domestic="${p.domesticKrw}" data-ship="${p.shipUsd}" data-origin="${p.origin}" data-method="${p.method}" data-category="${p.category}">
-  <label for="mc-price"><b>지금 아마존 가격을 넣어 보세요</b><span>아마존에서 본 달러 가격을 그대로 입력하면 바로 판정해요.</span></label>
-  <div class="mc-row"><span class="mc-unit">$</span><input id="mc-price" type="number" inputmode="decimal" min="0" step="0.01" placeholder="예: 119.99"></div>
+  <label for="mc-price"><b>지금 ${esc(p.storeName)} 가격을 넣어 보세요</b><span>${esc(p.storeName)}에서 본 가격을 그대로 넣으면 바로 판정해요. 원화(KRW)로 보이면 ₩를 골라 주세요.</span></label>
+  <div class="mc-row"><select class="mc-cur" aria-label="통화"><option value="usd">$</option><option value="krw">₩</option></select><input id="mc-price" type="number" inputmode="decimal" min="0" step="any" placeholder="예: 119.99"></div>
   <div class="mc-out" aria-live="polite"></div>
 </form>`;
   }
@@ -370,7 +375,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
 <div class="pd">
   <div class="pd-left">
     <div class="pd-img">${icon.image}<span>상품 이미지</span></div>
-    ${summary ? `<div class="ai-box"><div class="ai-head"><span class="ai-tag">AI 요약</span><b>직구 전에 알아둘 3줄</b></div><ol>${summary}</ol><small>요약은 참고용이에요. 국내 직구 후기와 제조사 정보를 바탕으로 정리해요.</small></div>` : ''}
+    ${summary ? `<div class="ai-box"><div class="ai-head"><span class="ai-tag">AI 요약</span><b>직구 전에 알아둘 3줄</b></div><ol>${summary}</ol><small>요약은 참고용이에요. 가격 확인 결과와 제조사·쇼핑몰 정보를 바탕으로 정리했어요.</small></div>` : ''}
   </div>
   <div class="pd-right">
     <div class="pd-head"><span class="store-chip static">${esc(p.storeName)}</span><h1>${esc(p.name)}</h1><span class="muted small">${p.sample ? '예시 가격 · ' : ''}${esc(p.checkedAt || kstToday().replace(/-/g, '.'))} 기준 가격</span></div>

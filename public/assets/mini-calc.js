@@ -7,10 +7,14 @@ const FX = Number(document.querySelector('meta[name="jg-fx"]')?.content) || 1347
 document.querySelectorAll('[data-mini-calc]').forEach((form) => {
   const d = form.dataset;
   const input = form.querySelector('input');
+  const cur = form.querySelector('.mc-cur');
   const out = form.querySelector('.mc-out');
   form.addEventListener('submit', (e) => e.preventDefault());
-  input.addEventListener('input', () => {
-    const price = Number(input.value);
+  const run = () => {
+    const raw = Number(input.value);
+    const isKrw = cur && cur.value === 'krw';
+    input.placeholder = isKrw ? '예: 159,000' : '예: 119.99';
+    const price = isKrw ? raw / FX : raw;
     if (!price) { out.textContent = ''; return; }
     const c = landedCost({ priceUsd: price, shipUsd: Number(d.ship), origin: d.origin, method: d.method, category: d.category, fx: FX });
     const j = judge(Number(d.domestic), c.total);
@@ -21,5 +25,7 @@ document.querySelectorAll('[data-mini-calc]').forEach((form) => {
     b.className = { good: 'v-good-text', meh: 'v-meh-text', bad: 'v-bad-text' }[j.verdict];
     b.textContent = label;
     out.append(b, ` · 최종 체감가 ₩${krw(c.total)} (${c.dutyFree ? '면세' : '관부가세 ₩' + krw(c.duty + c.vat) + ' 포함'}) · ${why}`);
-  });
+  };
+  input.addEventListener('input', run);
+  if (cur) cur.addEventListener('change', run);
 });

@@ -376,3 +376,4 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .s-img { width: 72px; height: 72px; }
   .s-form input { height: 52px; }
 }
+.mc-cur { height: 40px; border: 0; background: var(--bg2); border-radius: 8px; font: inherit; font-weight: 800; padding: 0 8px; color: var(--ink); cursor: pointer; }

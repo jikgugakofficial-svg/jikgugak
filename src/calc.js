@@ -7,7 +7,10 @@ export const CATEGORIES = {
   home: { label: '주방·생활용품', sub: '관세 8% 예시', rate: 0.08, listClearance: true },
   apparel: { label: '의류·신발', sub: '관세 13%', rate: 0.13, listClearance: true },
   supplement: { label: '건강기능식품', sub: '관세 8% · 목록통관 배제', rate: 0.08, listClearance: false },
-  book: { label: '도서', sub: '관세 0%', rate: 0, listClearance: true }
+  book: { label: '도서', sub: '관세 0%', rate: 0, listClearance: true },
+  audio: { label: '음향기기 (헤드폰·이어폰)', sub: '관세 8%', rate: 0.08, listClearance: true },
+  toy: { label: '완구·레고', sub: '관세 8%', rate: 0.08, listClearance: true },
+  food: { label: '식품·프로틴', sub: '관세 8% · 목록통관 배제', rate: 0.08, listClearance: false }
 };
 
 export const DEFAULT_RULE = { minSaveKrw: 10000, minSavePct: 0.2 };
