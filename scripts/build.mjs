@@ -279,9 +279,17 @@ function pageProduct(p) {
   const ev = p.ev;
   const v = VERDICT[ev.verdict];
   const cat = CATEGORIES[p.category];
-  const out = p.buyUrl
-    ? `<a href="${esc(p.buyUrl)}" class="btn btn-buy" data-out rel="sponsored nofollow noopener" target="_blank">${esc(p.store === 'amazon' ? STORES.amazon.cta : ev.kind === 'priced' ? `${p.storeName}에서 ₩${krw(ev.cost.total)}에 사기` : `${p.storeName}에서 보기`)}</a>`
-    : `<span class="btn btn-buy is-disabled" aria-disabled="true">구매 링크 준비 중</span>`;
+  // 구매 버튼: 직구가 손해면 국내(쿠팡 등) 링크를 먼저, 아니면 해외 링크를 먼저 보여줘요
+  const domesticFirst = ev.verdict === 'bad';
+  const overseasLabel = p.store === 'amazon' ? STORES.amazon.cta : ev.kind === 'priced' ? `${p.storeName}에서 ₩${krw(ev.cost.total)}에 사기` : `${p.storeName}에서 보기`;
+  const domesticLabel = `국내 최저가 ₩${krw(p.domesticKrw)}에 사기${p.domesticStore ? ` (${p.domesticStore})` : ''}`;
+  const linkBtn = (url, label, primary) => `<a href="${esc(url)}" class="btn ${primary ? 'btn-buy' : 'btn-line'}" data-out rel="sponsored nofollow noopener" target="_blank">${esc(label)}</a>`;
+  const btns = [];
+  const overseas = p.buyUrl ? { url: p.buyUrl, label: overseasLabel } : null;
+  const domestic = p.domesticUrl ? { url: p.domesticUrl, label: domesticLabel } : null;
+  const order = domesticFirst ? [domestic, overseas] : [overseas, domestic];
+  order.filter(Boolean).forEach((b, i) => btns.push(linkBtn(b.url, b.label, i === 0)));
+  const out = btns.length ? btns.join('\n      ') : `<span class="btn btn-buy is-disabled" aria-disabled="true">구매 링크 준비 중</span>`;
   let hero, money;
   if (ev.kind === 'priced') {
     const c = ev.cost;
