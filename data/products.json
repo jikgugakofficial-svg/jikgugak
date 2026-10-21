@@ -1,0 +1,159 @@
+[
+  {
+    "slug": "multivitamin-120",
+    "name": "종합비타민 120정",
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": 22.40,
+    "shipUsd": 3.90,
+    "domesticKrw": 54900,
+    "domesticSource": "네이버쇼핑 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["목록통관 배제 품목", "6병까지 자가사용 인정", "반품 시 국제배송비 부담"],
+    "summary": [
+      "전압·A/S 걱정이 없는 품목이라 직구 부담이 적어요.",
+      "건강기능식품이라 미국발이어도 $150 기준이에요. 다른 상품과 한 상자에 섞지 마세요.",
+      "[국내 직구 후기에서 뽑은 맛·복용감 요약이 들어가요]"
+    ]
+  },
+  {
+    "slug": "omega3-1000-180",
+    "name": "오메가3 1000mg 180캡슐",
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": 17.90,
+    "shipUsd": 3.90,
+    "domesticKrw": 46000,
+    "domesticSource": "네이버쇼핑 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["목록통관 배제 품목", "6병까지 자가사용 인정"],
+    "summary": [
+      "같은 함량 기준으로 비교했어요. 캡슐 수가 다른 상품과 헷갈리지 마세요.",
+      "건강기능식품이라 미국발이어도 $150 기준이에요.",
+      "[국내 직구 후기 요약이 들어가요]"
+    ]
+  },
+  {
+    "slug": "ereader-wifi",
+    "name": "전자책 리더기 (와이파이)",
+    "store": "amazon",
+    "category": "it",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 10,
+    "domesticKrw": 219000,
+    "domesticSource": "네이버쇼핑 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["프리볼트 충전기 확인", "전파인증: 모델별 1대", "국내 A/S 불가"],
+    "summary": [
+      "충전은 USB라 전압 걱정이 적어요.",
+      "무선기기는 같은 모델 1대까지만 개인 통관이 쉬워요.",
+      "[국내 직구 후기 요약이 들어가요]"
+    ]
+  },
+  {
+    "slug": "wireless-charging-stand-3in1",
+    "name": "3in1 무선 충전 스탠드",
+    "store": "aliexpress",
+    "category": "it",
+    "origin": "other",
+    "method": "post",
+    "priceUsd": 6.99,
+    "shipUsd": 0,
+    "domesticKrw": 29900,
+    "domesticSource": "쿠팡 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["어댑터 별도 구매", "배송 1~3주", "국내 A/S 불가"],
+    "summary": [
+      "국내 판매품과 같은 공장 제품인 경우가 많아요. 사진과 출력(W)을 꼭 비교하세요.",
+      "어댑터는 빠져 있는 경우가 많아요.",
+      "[국내 직구 후기 요약이 들어가요]"
+    ]
+  },
+  {
+    "slug": "hand-coffee-grinder",
+    "name": "핸드드립 커피 그라인더",
+    "store": "amazon",
+    "category": "home",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 10,
+    "domesticKrw": 89000,
+    "domesticSource": "네이버쇼핑 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["전기 불필요", "반품 시 국제배송비 부담"],
+    "summary": [
+      "전기를 쓰지 않아 전압 문제가 없어요.",
+      "날(버) 재질과 분쇄 단계 수가 국내 판매 모델과 같은지 확인하세요.",
+      "[국내 직구 후기 요약이 들어가요]"
+    ]
+  },
+  {
+    "slug": "cable-organizer-kit-30",
+    "name": "케이블 정리 키트 30종",
+    "store": "aliexpress",
+    "category": "home",
+    "origin": "other",
+    "method": "post",
+    "priceUsd": 2.99,
+    "shipUsd": 0,
+    "domesticKrw": 12900,
+    "domesticSource": "쿠팡 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["배송 1~3주"],
+    "summary": [
+      "싸지만 차액이 크지 않아요. 급하면 국내 구매가 나아요.",
+      "[국내 직구 후기 요약이 들어가요]"
+    ]
+  },
+  {
+    "slug": "protein-bar-12",
+    "name": "단백질 바 12개입",
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": 15.90,
+    "shipUsd": 3.90,
+    "domesticKrw": 24900,
+    "domesticSource": "쿠팡 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["식품류: 목록통관 배제"],
+    "summary": [
+      "국내 정식 수입품이 할인 중이라 지금은 국내가 더 싸요.",
+      "[국내 직구 후기 요약이 들어가요]"
+    ]
+  },
+  {
+    "slug": "english-paperback",
+    "name": "영어 원서 페이퍼백",
+    "store": "amazon",
+    "category": "book",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 10,
+    "domesticKrw": 21000,
+    "domesticSource": "온라인 서점 최저가",
+    "buyUrl": "",
+    "sample": true,
+    "risks": ["무게 대비 배송비 큼"],
+    "summary": [
+      "책 한 권은 배송비가 가격 차이보다 커서 국내 서점이 나아요.",
+      "여러 권을 한 번에 사면 다시 계산해 보세요."
+    ]
+  }
+]

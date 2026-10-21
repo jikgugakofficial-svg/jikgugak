@@ -1,0 +1,20 @@
+{
+  "siteName": "직구각",
+  "siteUrl": "https://jikgugak.com",
+  "tagline": "직구할 각인지 3초 판정",
+  "description": "관세·부가세·배송비까지 더한 해외직구 최종 체감가를 국내 최저가와 비교해 직구할 각인지 판정해 드려요.",
+  "fx": {
+    "usdKrw": 1347.03,
+    "label": "과세환율 1,347.03원/달러 (2026.10.11~10.17 관세청 고시)"
+  },
+  "rule": {
+    "minSaveKrw": 15000,
+    "minSavePct": 0.2
+  },
+  "featuredEvent": "black-friday",
+  "contactEmail": "[문의 이메일 주소]",
+  "operator": "[운영자 이름]",
+  "ga4Id": "",
+  "googleVerification": "",
+  "naverVerification": ""
+}

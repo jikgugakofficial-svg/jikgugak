@@ -1,0 +1,15 @@
+{
+  "name": "jikgugak",
+  "version": "0.1.0",
+  "private": true,
+  "description": "직구각 — 해외직구 최종 체감가(관부가세·배송비 포함)와 국내 최저가를 비교해 직구할 각인지 판정하는 사이트",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && node scripts/serve.mjs",
+    "test": "node scripts/test-calc.mjs"
+  }
+}
