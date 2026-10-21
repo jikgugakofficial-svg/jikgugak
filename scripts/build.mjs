@@ -208,7 +208,7 @@ function card(p) {
     price = `<div class="break-box">아마존가 <b>$${ev.breakeven} 이하</b>면 직구각<br><span>현재가는 아마존에서 확인하세요</span></div>`;
   }
   return `<a class="card" href="/p/${esc(p.slug)}" data-verdict="${ev.verdict}" data-cat="${esc(p.category)}" data-name="${esc(p.name)}">
-  <div class="card-img"><span class="store-chip">${esc(p.storeName)}</span>${icon.image}<span>상품 이미지</span></div>
+  <div class="card-img"><span class="store-chip">${esc(p.storeName)}</span>${p.sample ? '<span class="sample-chip">예시</span>' : ''}${icon.image}<span>상품 이미지</span></div>
   <div class="card-name">${esc(p.name)}</div>
   <div class="card-dom">국내 최저가 ₩${krw(p.domesticKrw)}</div>
   ${price}
@@ -216,7 +216,7 @@ function card(p) {
 </a>`;
 }
 
-const sampleNote = items.some((p) => p.sample) ? ' · 가격은 예시예요' : '';
+const sampleNote = items.some((p) => p.sample) ? " · '예시' 표시 상품은 가격 확인 전이에요" : '';
 
 // ---------- 페이지: 홈 ----------
 function pageHome() {
@@ -361,7 +361,7 @@ ${ev.breakeven != null && ev.verdict !== 'good' ? `<p class="muted small">이 �
     ${summary ? `<div class="ai-box"><div class="ai-head"><span class="ai-tag">AI 요약</span><b>직구 전에 알아둘 3줄</b></div><ol>${summary}</ol><small>요약은 참고용이에요. 국내 직구 후기와 제조사 정보를 바탕으로 정리해요.</small></div>` : ''}
   </div>
   <div class="pd-right">
-    <div class="pd-head"><span class="store-chip static">${esc(p.storeName)}</span><h1>${esc(p.name)}</h1><span class="muted small">${p.sample ? '예시 가격 · ' : ''}${kstToday().replace(/-/g, '.')} 기준</span></div>
+    <div class="pd-head"><span class="store-chip static">${esc(p.storeName)}</span><h1>${esc(p.name)}</h1><span class="muted small">${p.sample ? '예시 가격 · ' : ''}${esc(p.checkedAt || kstToday().replace(/-/g, '.'))} 기준 가격</span></div>
     ${hero}
     ${money}
     ${risks ? `<div class="risks">${risks}</div>` : ''}

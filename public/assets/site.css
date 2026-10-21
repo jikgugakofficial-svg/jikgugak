@@ -132,6 +132,7 @@ b { font-weight: 800; }
 .card-img { position: relative; aspect-ratio: 1 / 1; background: var(--img); border: 1px solid #ECEEF1; border-radius: var(--radius); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--muted); font-size: 13px; transition: border-color .15s; }
 .card:hover .card-img { border-color: var(--brand); }
 .store-chip { position: absolute; top: 10px; left: 10px; background: #fff; border: 1px solid var(--line); color: var(--ink); font-size: 12px; font-weight: 700; padding: 4px 8px; border-radius: 8px; }
+.sample-chip { position: absolute; top: 10px; right: 10px; background: var(--ink); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 7px; border-radius: 6px; }
 .store-chip.static { position: static; align-self: flex-start; font-size: 13px; }
 .card-name { font-size: 15px; font-weight: 500; line-height: 1.4; min-height: 42px; }
 .card-dom { font-size: 13px; color: var(--muted); }

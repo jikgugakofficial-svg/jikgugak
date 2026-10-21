@@ -10,7 +10,7 @@ export const CATEGORIES = {
   book: { label: '도서', sub: '관세 0%', rate: 0, listClearance: true }
 };
 
-export const DEFAULT_RULE = { minSaveKrw: 15000, minSavePct: 0.2 };
+export const DEFAULT_RULE = { minSaveKrw: 10000, minSavePct: 0.2 };
 
 // 원 미만 버림 (관세청 계산 방식과 같게)
 const won = (n) => Math.floor(n);
@@ -40,7 +40,7 @@ export function landedCost({ priceUsd, shipUsd = 0, origin, method, category, fx
   return { limit, dutyFree, price, ship, goodsKrw, shipKrw, duty, vat, total, signal, rate: cat.rate };
 }
 
-// 판정: 20% 이상 그리고 15,000원 이상 싸면 직구각, 조금이라도 싸면 애매, 아니면 국내가 나음
+// 판정: 20% 이상 그리고 10,000원 이상 싸면 직구각, 조금이라도 싸면 애매, 아니면 국내가 나음
 export function judge(domesticKrw, totalKrw, rule = DEFAULT_RULE) {
   const dom = Number(domesticKrw) || 0;
   if (dom <= 0) return { verdict: 'none', diff: 0, pct: 0 };

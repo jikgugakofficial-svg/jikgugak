@@ -8,7 +8,7 @@
     "label": "과세환율 1,347.03원/달러 (2026.10.11~10.17 관세청 고시)"
   },
   "rule": {
-    "minSaveKrw": 15000,
+    "minSaveKrw": 10000,
     "minSavePct": 0.2
   },
   "featuredEvent": "black-friday",
