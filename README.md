@@ -8,6 +8,7 @@
 | --- | --- |
 | `/` | 홈 · 오늘의 직구각, 카테고리·판정 필터, 검색 |
 | `/p/상품주소` | 판정 상세 · 체감가 영수증, 면세 신호등, 리스크, 구매 버튼 |
+| `/search?q=검색어` | 검색 · 판정한 상품 + 네이버쇼핑 실시간 국내 최저가, 해외 가격 넣고 바로 판정 |
 | `/calculator` | 관세 계산기 |
 | `/calendar` | 세일 캘린더 (구글 캘린더 추가, `.ics` 구독) |
 | `/guide` | 직구 가이드 · 영문 주소, 통관부호, 면세 한도, 합산과세 |
@@ -47,7 +48,7 @@
 ### `data/settings.json` · 사이트 설정
 
 - `fx.usdKrw`, `fx.label`: 관세청 과세환율. 매주 [UNI-PASS](https://unipass.customs.go.kr/)에서 확인해 바꿔 주세요.
-- `rule`: 직구각 판정 기준 (기본: 20% 이상, 15,000원 이상 저렴)
+- `rule`: 직구각 판정 기준 (기본: 20% 이상, 10,000원 이상 저렴)
 - `contactEmail`, `operator`: 문의 메일과 운영자 이름 (지금은 `[ ]` 빈칸)
 - `ga4Id`: 구글 애널리틱스 측정 ID (`G-`로 시작)
 - `googleVerification`, `naverVerification`: 서치 콘솔·서치어드바이저 소유 확인 코드
@@ -55,6 +56,15 @@
 ### `data/events.json` · 세일 캘린더
 
 행사 이름, 날짜(`YYYY-MM-DD`), 쇼핑몰, 한 줄 안내. `settings.json`의 `featuredEvent`에 적힌 행사가 홈 배너에 나옵니다.
+
+## 실시간 검색 켜기 (네이버 검색 API)
+
+`api/search.js`가 네이버쇼핑 검색 API로 국내 최저가를 가져옵니다. 키는 **Vercel → 프로젝트 → Settings → Environment Variables**에만 넣으세요 (저장소·채팅에 적지 않기).
+
+- `NAVER_CLIENT_ID`
+- `NAVER_CLIENT_SECRET`
+
+넣은 뒤 다시 배포(Redeploy)하면 켜집니다. 키가 없으면 검색 화면은 '곧 열려요' 안내를 보여 줍니다.
 
 ## 내 컴퓨터에서 미리 보기 (선택)
 

@@ -9,7 +9,14 @@ const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'd
 const port = Number(process.env.PORT) || 4173;
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.xml': 'application/xml', '.txt': 'text/plain', '.ics': 'text/calendar', '.webmanifest': 'application/manifest+json' };
 
-http.createServer((req, res) => {
+const root = path.resolve(dist, '..');
+http.createServer(async (req, res) => {
+  if (req.url.startsWith('/api/')) {
+    // Vercel 서버 함수(api/*.js)를 그대로 불러서 실행
+    const name = new URL(req.url, 'http://x').pathname.slice(5).replace(/[^a-z0-9-]/gi, '');
+    const f = path.join(root, 'api', name + '.js');
+    if (fs.existsSync(f)) return (await import(f)).default(req, res);
+  }
   const urlPath = decodeURIComponent(new URL(req.url, 'http://x').pathname);
   const candidates = [urlPath, urlPath + '.html', path.join(urlPath, 'index.html')];
   for (const c of candidates) {

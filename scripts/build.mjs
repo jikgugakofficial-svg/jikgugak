@@ -118,7 +118,7 @@ const NAV = [
   { href: '/guide', label: '직구 가이드' }
 ];
 
-function layout({ title, description, urlPath, body, scripts = [], current = '' }) {
+function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false }) {
   const fullTitle = title ? `${title} | ${site.siteName}` : `${site.siteName} | ${site.tagline}`;
   const desc = description || site.description;
   const nav = NAV.map((n) => `<a href="${n.href}" class="navlink${current === n.href ? ' is-current' : ''}"${current === n.href ? ' aria-current="page"' : ''}>${esc(n.label)}</a>`).join('');
@@ -135,6 +135,7 @@ function layout({ title, description, urlPath, body, scripts = [], current = '' 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(desc)}">
+${noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="canonical" href="${esc(absUrl(urlPath))}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(site.siteName)}">
@@ -161,9 +162,9 @@ ${ga}
 <header class="site-header">
   <div class="wrap header-row">
     <a href="/" class="logo" aria-label="${esc(site.siteName)} 홈">${icon.logo}<span class="logo-word">${esc(site.siteName)}</span><span class="logo-tag">직구할 각인지<br>3초 판정</span></a>
-    <form class="search" role="search" action="/" method="get">
+    <form class="search" role="search" action="/search" method="get">
       <label for="q" class="sr-only">상품 검색</label>
-      <input id="q" name="q" type="search" placeholder="상품명으로 직구각 판정 찾기" autocomplete="off">
+      <input id="q" name="q" type="search" placeholder="아무 상품이나 검색해서 직구각 판정" autocomplete="off">
       <button type="submit" aria-label="검색">${icon.search}</button>
     </form>
   </div>
@@ -425,6 +426,51 @@ function pageCalculator() {
   return layout({ title: '해외직구 관세 계산기', description: '미국 $200, 그 외 $150 면세 한도와 관세·부가세를 계산하고 국내 최저가와 비교해 직구할 각인지 판정해요.', urlPath: '/calculator', body, current: '/calculator', scripts: ['/assets/calculator.js'] });
 }
 
+// ---------- 페이지: 검색 (판정한 상품 + 네이버쇼핑 실시간 국내 최저가) ----------
+function pageSearch() {
+  const catOpts = Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)} (${esc(c.sub)})</option>`).join('');
+  const body = `
+<div class="page-head"><h1 class="display" data-s-title>직구각 검색</h1><p class="muted" data-s-sub>상품명을 검색하면 국내 최저가를 찾아 드려요. 해외 가격만 넣으면 바로 판정해요.</p></div>
+<form class="s-form" action="/search" method="get" role="search">
+  <label for="sq" class="sr-only">상품 검색</label>
+  <input id="sq" name="q" type="search" placeholder="예: 에어팟 프로, 오메가3, 로지텍 마우스" autocomplete="off">
+  <button type="submit" class="btn btn-buy">검색</button>
+</form>
+<section class="block" data-s-curated hidden>
+  <h2 class="h2">직구각이 이미 판정한 상품</h2>
+  <div class="grid">${items.map(card).join('\n')}</div>
+</section>
+<section class="block" data-s-live hidden data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}" data-amz-tag="${esc((site.affiliateIds && site.affiliateIds.amazon) || "")}">
+  <div class="block-head"><div><h2 class="h2">국내 최저가</h2><span class="muted small">네이버쇼핑 검색 결과 · 해외직구·중고·렌탈 제외</span></div></div>
+  <p class="s-status" data-s-status role="status" aria-live="polite"></p>
+  <ol class="s-list" data-s-list></ol>
+</section>
+<template id="s-row">
+  <li class="s-item">
+    <div class="s-main">
+      <img class="s-img" alt="" loading="lazy" width="88" height="88">
+      <div class="s-info">
+        <a class="s-title" target="_blank" rel="noopener"></a>
+        <div class="s-meta"><b class="s-price"></b><span class="s-mall"></span></div>
+        <button type="button" class="btn btn-ink small s-open">해외 가격 넣고 판정하기</button>
+      </div>
+    </div>
+    <div class="s-judge" hidden>
+      <div class="s-grid">
+        <div class="field"><label>해외 가격</label><div class="s-money"><div class="seg s-cur"><button type="button" data-cur="krw" aria-pressed="true">원(₩)</button><button type="button" data-cur="usd" aria-pressed="false">달러($)</button></div><input class="s-price-in" type="number" inputmode="decimal" min="0" step="any" placeholder="알리·아이허브는 원, 아마존은 달러"></div></div>
+        <div class="field"><label>국제 배송비</label><input class="s-ship-in" type="number" inputmode="decimal" min="0" step="any" value="0"><small>무료면 0, 단위는 위와 같아요</small></div>
+        <div class="field"><label>어디서 보내나요?</label><div class="seg s-origin"><button type="button" data-origin="other" aria-pressed="true">중국 등 (알리)</button><button type="button" data-origin="us" aria-pressed="false">미국 (아마존·아이허브)</button></div></div>
+        <div class="field"><label>품목</label><select class="s-cat">${catOpts}</select></div>
+      </div>
+      <div class="s-result" aria-live="polite"></div>
+      <div class="s-find"><span class="muted small">해외 가격 찾아보기</span><a class="s-ali" target="_blank" rel="noopener">알리익스프레스</a><a class="s-iherb" target="_blank" rel="noopener">아이허브</a><a class="s-amz" target="_blank" rel="noopener">아마존</a></div>
+    </div>
+  </li>
+</template>
+<p class="muted small">국내 최저가는 네이버쇼핑 검색 결과로, 배송비·카드 할인은 빠져 있을 수 있어요. 같은 모델인지 꼭 확인하세요. ${esc(site.fx.label)}.</p>`;
+  return layout({ title: '직구각 검색', description: '아무 상품이나 검색하면 국내 최저가를 찾고, 해외 가격을 넣으면 관부가세까지 계산해 직구각인지 판정해요.', urlPath: '/search', body, noindex: true, scripts: ['/assets/search.js'] });
+}
+
 // ---------- 페이지: 세일 캘린더 ----------
 function gcalLink(e) {
   const d = e.date.replace(/-/g, '');
@@ -563,6 +609,7 @@ fs.copyFileSync(path.join(root, 'src', 'calc.js'), path.join(dist, 'assets', 'ca
 const write = (rel, content) => { const f = path.join(dist, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, content); };
 write('index.html', pageHome());
 write('calculator.html', pageCalculator());
+write('search.html', pageSearch());
 write('calendar.html', pageCalendar());
 write('calendar.ics', calendarIcs());
 write('guide.html', pageGuide());
