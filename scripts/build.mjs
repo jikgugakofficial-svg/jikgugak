@@ -301,9 +301,13 @@ function pageProduct(p) {
   const btns = [];
   const overseas = p.buyUrl ? { url: p.buyUrl, label: overseasLabel } : null;
   const domestic = p.domesticUrl ? { url: p.domesticUrl, label: domesticLabel } : null;
-  const order = domesticFirst ? [domestic, overseas] : [overseas, domestic];
-  order.filter(Boolean).forEach((b, i) => btns.push(linkBtn(b.url, b.label, i === 0)));
-  const out = btns.length ? btns.join('\n      ') : `<span class="btn btn-buy is-disabled" aria-disabled="true">구매 링크 준비 중</span>`;
+  // 판정이 추천하는 쪽이 첫 번째(빨간) 버튼. 그 링크가 아직 없으면 '준비 중'으로 두고, 다른 쪽은 보조 버튼으로
+  const preferred = domesticFirst ? domestic : overseas;
+  const other = domesticFirst ? overseas : domestic;
+  if (preferred) btns.push(linkBtn(preferred.url, preferred.label, true));
+  else btns.push(`<span class="btn btn-buy is-disabled" aria-disabled="true">${esc(domesticFirst ? '국내 구매 링크 준비 중' : `${p.storeName} 구매 링크 준비 중`)}</span>`);
+  if (other) btns.push(linkBtn(other.url, other.label, false));
+  const out = btns.join('\n      ');
   let hero, money;
   if (ev.kind === 'priced') {
     const c = ev.cost;
