@@ -13,8 +13,9 @@
   },
   "featuredEvent": "black-friday",
   "contactEmail": "[문의 이메일 주소]",
-  "operator": "[운영자 이름]",
+  "operator": "한승호",
   "ga4Id": "",
   "googleVerification": "",
-  "naverVerification": ""
+  "naverVerification": "",
+  "businessName": "직구각"
 }

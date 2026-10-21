@@ -161,7 +161,7 @@ ${body}
     <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
     <p lang="en">As an Amazon Associate I earn from qualifying purchases.</p>
     <p>표시된 관부가세와 체감가는 예상치이며, 최종 세액은 세관 고지를 따릅니다. ${esc(site.fx.label)}.</p>
-    <p class="muted">© ${BUILT.getFullYear()} ${esc(site.siteName)} · 운영 ${esc(site.operator)}</p>
+    <p class="muted">© ${BUILT.getFullYear()} ${esc(site.businessName || site.siteName)} · 운영자 ${esc(site.operator)}</p>
   </div>
 </footer>
 <nav class="tabbar" aria-label="하단 메뉴">
@@ -503,7 +503,7 @@ function pagePrivacy() {
   const body = `
 <div class="page-head"><h1 class="display">개인정보처리방침</h1><p class="muted">시행일: [시행일]</p></div>
 <article class="prose">
-<p>${esc(site.operator)}(이하 '운영자')은 직구각 서비스를 운영하며, 이용자의 개인정보를 소중히 다룹니다.</p>
+<p>${esc(site.businessName || site.siteName)}(운영자 ${esc(site.operator)}, 이하 '운영자')은 직구각 서비스를 운영하며, 이용자의 개인정보를 소중히 다룹니다.</p>
 <h2>1. 수집하는 정보</h2>
 <p>직구각은 회원가입이 없으며, 이름·연락처·주소·개인통관고유부호를 수집하거나 저장하지 않아요. 관세 계산기에 입력한 값은 이용자의 브라우저 안에서만 계산돼요.</p>
 <p>서비스 개선을 위해 방문 기록(접속 페이지, 브라우저 종류, 대략적 지역 등)이 분석 도구(Google Analytics)를 통해 쿠키로 수집될 수 있어요.</p>
