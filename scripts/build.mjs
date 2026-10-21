@@ -92,7 +92,14 @@ function evaluate(p) {
     : j.verdict === 'meh' ? `차액 ₩${krw(j.diff)}, 배송 기간 감안`
     : `국내가 ₩${krw(-j.diff)} 더 싸요`;
   const be = breakevenUsd({ ...ctx, domesticKrw: p.domesticKrw, shipUsd: p.shipUsd }, RULE);
-  return { kind: 'priced', verdict: j.verdict, limit, cost, diff: j.diff, pct, pctNum, note, breakeven: be };
+  // 원화 결제 상품은 손익분기도 원화로: 목표 체감가 − 배송비 (면세 한도 안일 때만, 아니면 달러 값을 환산)
+  let beKrw = null;
+  if (p.krwPriced) {
+    const target = Math.min(p.domesticKrw * (1 - RULE.minSavePct), p.domesticKrw - RULE.minSaveKrw);
+    const free = Math.floor((target - (p.shipKrw || 0)) / 10) * 10;
+    beKrw = free <= 0 ? null : free / FX <= limit ? free : (be == null ? null : Math.floor(be * FX / 10) * 10);
+  }
+  return { kind: 'priced', verdict: j.verdict, limit, cost, diff: j.diff, pct, pctNum, note, breakeven: be, beKrw };
 }
 const items = products.map(normalize).map((p) => ({ ...p, ev: evaluate(p), storeName: (STORES[p.store] || { name: p.store }).name }));
 
@@ -205,7 +212,7 @@ function card(p) {
   if (ev.kind === 'priced') {
     price = `<div class="card-price"><span class="${ev.diff > 0 ? 'pct-down' : 'pct-up'}">${ev.pct}</span><b>₩${krw(ev.cost.total)}</b></div><div class="card-sub">관부가세·배송비 포함 체감가</div>`;
   } else if (ev.kind === 'break') {
-    price = `<div class="break-box">아마존가 <b>$${ev.breakeven} 이하</b>면 직구각<br><span>현재가는 아마존에서 확인하세요</span></div>`;
+    price = `<div class="break-box">${esc(p.storeName)}가 <b>$${ev.breakeven} 이하</b>면 직구각<br><span>현재가는 ${esc(p.storeName)}에서 확인하세요</span></div>`;
   }
   return `<a class="card" href="/p/${esc(p.slug)}" data-verdict="${ev.verdict}" data-cat="${esc(p.category)}" data-name="${esc(p.name)}">
   <div class="card-img"><span class="store-chip">${esc(p.storeName)}</span>${p.sample ? '<span class="sample-chip">예시</span>' : ''}${icon.image}<span>상품 이미지</span></div>
@@ -224,7 +231,7 @@ function pageHome() {
   const upcoming = events.filter((e) => daysUntil(e.date) >= 0).slice(0, 3);
   const ticker = items.slice(0, 6).map((p) => {
     const v = VERDICT[p.ev.verdict];
-    const t = p.ev.kind === 'break' ? `아마존가 $${p.ev.breakeven} 이하면 직구각` : p.ev.kind === 'priced' ? `${v.label} ${p.ev.pct}` : v.label;
+    const t = p.ev.kind === 'break' ? `${p.storeName}가 $${p.ev.breakeven} 이하면 직구각` : p.ev.kind === 'priced' ? `${v.label} ${p.ev.pct}` : v.label;
     return `<a href="/p/${esc(p.slug)}" class="tick">${esc(p.name)} <b class="${v.cls}-text">${esc(t)}</b></a>`;
   }).join('<span class="tick-sep" aria-hidden="true">|</span>');
   const usedCats = [...new Set(items.map((p) => p.category))];
@@ -335,11 +342,11 @@ function pageProduct(p) {
   <small>${esc(site.fx.label)} · 최종 세액은 세관 고지를 따라요</small>
 </div>
 <div class="signal"><div class="lights" aria-hidden="true"><i class="${sig[0]}"></i><i class="${sig[1]}"></i><i class="${sig[2]}"></i></div><span>${sigText}</span></div>
-${ev.breakeven != null && ev.verdict !== 'good' ? `<p class="muted small">이 상품은 해외 가격이 <b>$${ev.breakeven} 이하</b>로 내려가면 직구각이에요.</p>` : ''}`;
+${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != null) ? `<p class="muted small">이 상품은 ${esc(p.storeName)} 가격이 <b>${p.krwPriced ? '₩' + krw(ev.beKrw) : '$' + ev.breakeven} 이하</b>로 내려가면 직구각이에요.</p>` : ''}`;
   } else {
     const limit = ev.limit;
     hero = ev.kind === 'break'
-      ? `<div class="vhero v-check"><span class="vword">$${ev.breakeven} 이하</span><div><b>아마존가가 이 가격 이하면 직구각</b><span>국내 최저가 ₩${krw(p.domesticKrw)}, 배송비 $${p.shipUsd}, 면세 한도 $${limit} 기준</span></div></div>`
+      ? `<div class="vhero v-check"><span class="vword">$${ev.breakeven} 이하</span><div><b>${esc(p.storeName)} 가격이 이 가격 이하면 직구각</b><span>국내 최저가 ₩${krw(p.domesticKrw)}, 배송비 $${p.shipUsd}, 면세 한도 $${limit} 기준</span></div></div>`
       : `<div class="vhero v-bad"><span class="vword">국내가 나음</span><div><b>배송비가 가격 차이보다 커요</b><span>국내 최저가 ₩${krw(p.domesticKrw)} · 배송비 $${p.shipUsd} 기준</span></div></div>`;
     money = `
 <div class="compare">
