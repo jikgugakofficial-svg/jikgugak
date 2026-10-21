@@ -61,6 +61,12 @@ const CAT_ICONS = {
 const catIcon = (k) => `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D23A10" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CAT_ICONS[k] || CAT_ICONS.home}</svg>`;
 
 // ---------- 상품 판정 ----------
+// 원화로 파는 쇼핑몰(아이허브 한국 등)은 priceKrw·shipKrw를 넣으면 달러로 바꿔 면세 한도를 판단해요
+function normalize(p) {
+  if (p.priceKrw == null) return p;
+  return { ...p, priceUsd: p.priceKrw / FX, shipUsd: (p.shipKrw || 0) / FX, krwPriced: true };
+}
+
 function evaluate(p) {
   const ctx = { origin: p.origin, method: p.method, category: p.category, fx: FX };
   const limit = dutyFreeLimit(ctx);
@@ -71,6 +77,14 @@ function evaluate(p) {
       : { kind: 'break', verdict: 'check', limit, breakeven: be, note: '아마존에서 현재가 확인' };
   }
   const cost = landedCost({ ...ctx, priceUsd: p.priceUsd, shipUsd: p.shipUsd });
+  if (p.krwPriced) {
+    // 원화 결제는 낸 금액 그대로를 과세가격으로 써서 영수증 합계가 1원도 어긋나지 않게
+    const cif = p.priceKrw + (p.shipKrw || 0);
+    cost.goodsKrw = p.priceKrw; cost.shipKrw = p.shipKrw || 0;
+    cost.duty = cost.dutyFree ? 0 : Math.floor(cif * cost.rate);
+    cost.vat = cost.dutyFree ? 0 : Math.floor((cif + cost.duty) * 0.1);
+    cost.total = cif + cost.duty + cost.vat;
+  }
   const j = judge(p.domesticKrw, cost.total, RULE);
   const pctNum = Math.round(Math.abs(j.pct) * 100);
   const pct = j.diff > 0 ? '-' + pctNum + '%' : '+' + pctNum + '%';
@@ -80,7 +94,7 @@ function evaluate(p) {
   const be = breakevenUsd({ ...ctx, domesticKrw: p.domesticKrw, shipUsd: p.shipUsd }, RULE);
   return { kind: 'priced', verdict: j.verdict, limit, cost, diff: j.diff, pct, pctNum, note, breakeven: be };
 }
-const items = products.map((p) => ({ ...p, ev: evaluate(p), storeName: (STORES[p.store] || { name: p.store }).name }));
+const items = products.map(normalize).map((p) => ({ ...p, ev: evaluate(p), storeName: (STORES[p.store] || { name: p.store }).name }));
 
 const VERDICT = {
   good: { label: '직구각', cls: 'v-good', icon: icon.check },
@@ -309,8 +323,8 @@ function pageProduct(p) {
 </div>
 <div class="receipt">
   <b class="r-title">체감가 영수증</b>
-  <div class="r-row"><span>상품가 ${usd(c.price)}</span><span>₩${krw(c.goodsKrw)}</span></div>
-  <div class="r-row"><span>국제 배송비 ${usd(c.ship)}</span><span>₩${krw(c.shipKrw)}</span></div>
+  <div class="r-row"><span>${p.krwPriced ? `상품가 (원화 결제, ${usd(c.price)} 상당)` : `상품가 ${usd(c.price)}`}</span><span>₩${krw(p.krwPriced ? p.priceKrw : c.goodsKrw)}</span></div>
+  <div class="r-row"><span>${p.krwPriced ? (p.shipKrw ? '국제 배송비' : `국제 배송비${p.shipNote ? ' · ' + esc(p.shipNote) : ''}`) : `국제 배송비 ${usd(c.ship)}`}</span><span>₩${krw(p.krwPriced ? (p.shipKrw || 0) : c.shipKrw)}</span></div>
   <div class="r-row"><span>관세 ${Math.round(c.rate * 100)}%</span><span${c.dutyFree ? ' class="ok"' : ''}>₩${krw(c.duty)}${c.dutyFree ? ' · 면세' : ''}</span></div>
   <div class="r-row"><span>부가세 10%</span><span${c.dutyFree ? ' class="ok"' : ''}>₩${krw(c.vat)}${c.dutyFree ? ' · 면세' : ''}</span></div>
   <div class="r-total"><span>합계</span><span>₩${krw(c.total)}</span></div>
