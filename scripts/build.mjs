@@ -501,7 +501,7 @@ function pageDisclosure() {
 }
 function pagePrivacy() {
   const body = `
-<div class="page-head"><h1 class="display">개인정보처리방침</h1><p class="muted">시행일: [시행일]</p></div>
+<div class="page-head"><h1 class="display">개인정보처리방침</h1><p class="muted">시행일: ${esc(site.privacyEffective)}</p></div>
 <article class="prose">
 <p>${esc(site.businessName || site.siteName)}(운영자 ${esc(site.operator)}, 이하 '운영자')은 직구각 서비스를 운영하며, 이용자의 개인정보를 소중히 다룹니다.</p>
 <h2>1. 수집하는 정보</h2>
