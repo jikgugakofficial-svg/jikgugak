@@ -485,7 +485,7 @@ function pageSearch() {
     <div class="s-cp-head"><b>① 쿠팡 최저가 찾기</b><span class="muted small">검색어를 복사해서 아래 쿠팡 검색창에 붙여 넣고 검색하세요</span></div>
     <div class="s-cp-row"><code class="s-cp-q" data-s-cp-q></code><button type="button" class="btn btn-ink small" data-s-cp-copy>검색어 복사</button><span class="s-cp-msg small" data-s-cp-msg role="status" aria-live="polite"></span></div>
     <iframe class="s-cp-frame" src="${esc(site.coupangSearchWidget)}" width="100%" height="75" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="쿠팡 검색" loading="lazy"></iframe>
-    <p class="muted small">이 검색창은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+    <p class="muted small">이 검색창은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 검색 결과가 열리지 않으면 <a data-s-cp-plain target="_blank" rel="noopener">쿠팡에서 직접 검색</a>해 주세요.</p>
   </div>` : ''}
   <div class="s-more" data-s-more hidden><span class="muted small">국내 최저가 찾아보기</span>${site.coupangSearchWidget ? '' : '<a data-s-coupang target="_blank" rel="noopener">쿠팡에서 검색</a>'}<a data-s-naver target="_blank" rel="noopener">네이버쇼핑에서 검색</a></div>
   ${site.affiliateIds && site.affiliateIds.amazon ? `<div class="s-more" data-s-amazon-wrap hidden><span class="muted small">미국 직구도 보기</span><a data-s-amazon data-tag="${esc(site.affiliateIds.amazon)}" target="_blank" rel="sponsored noopener">아마존에서 검색</a><span class="muted small">아마존 가격을 계산기에 넣으면 판정해 드려요</span></div>` : ''}

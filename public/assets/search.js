@@ -13,7 +13,12 @@ const coupangSearch = (t) => `https://www.coupang.com/np/search?q=${encodeURICom
 
 // 쿠팡 검색 위젯(파트너스 공식 위젯): 위젯 안에는 글자를 넣을 수 없어서 검색어를 복사해 붙여 넣게 도와요
 const cp = live.querySelector('[data-s-cp]');
-function setCpQuery(t) { if (cp) cp.querySelector('[data-s-cp-q]').textContent = t; }
+function setCpQuery(t) {
+  if (!cp) return;
+  cp.querySelector('[data-s-cp-q]').textContent = t;
+  const plain = cp.querySelector('[data-s-cp-plain]');
+  if (plain) plain.href = `https://www.coupang.com/np/search?q=${encodeURIComponent(t)}`;
+}
 async function copyText(t) {
   try { await navigator.clipboard.writeText(t); return true; } catch {
     const ta = document.createElement('textarea'); ta.value = t; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
