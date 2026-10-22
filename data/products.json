@@ -297,7 +297,8 @@
       "지금은 쿠팡이 현실적인 선택이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6498210958",
-    "image": "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4792/4405323d7be036469ab4aa7bff01e8c986ee748bf9d9e5dea00ca0904396.jpg"
+    "image": "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4792/4405323d7be036469ab4aa7bff01e8c986ee748bf9d9e5dea00ca0904396.jpg",
+    "unavailable": "10.22 기준 아마존에서 한국 배송이 안 돼요"
   },
   {
     "store": "amazon",

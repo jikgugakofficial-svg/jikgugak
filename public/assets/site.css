@@ -486,3 +486,4 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .pd .risks { order: 6; }
   .pd .buy { order: 7; }
 }
+.warn-line { display: block; margin-top: 6px; color: var(--meh); font-weight: 700; }

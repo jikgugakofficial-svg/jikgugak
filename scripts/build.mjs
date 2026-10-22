@@ -85,7 +85,7 @@ function evaluate(p) {
     const be = breakevenUsd({ ...ctx, domesticKrw: p.domesticKrw, shipUsd: p.shipUsd }, RULE);
     return be == null
       ? { kind: 'nobreak', verdict: 'bad', limit, note: '배송비가 차액보다 커요' }
-      : { kind: 'break', verdict: 'check', limit, breakeven: be, note: '아마존에서 현재가 확인' };
+      : { kind: 'break', verdict: 'check', limit, breakeven: be, note: '아마존에서 현재가 확인', underFreeShip: /\$49/.test(p.shipNote || '') && be < 49 };
   }
   const cost = landedCost({ ...ctx, priceUsd: p.priceUsd, shipUsd: p.shipUsd });
   if (p.krwPriced) {
@@ -244,7 +244,7 @@ function card(p) {
   if (ev.kind === 'priced') {
     price = `<div class="card-price"><span class="${ev.diff > 0 ? 'pct-down' : 'pct-up'}">${ev.pct}</span><b>₩${krw(ev.cost.total)}</b></div><div class="card-sub">관부가세·배송비 포함 체감가</div>`;
   } else if (ev.kind === 'break') {
-    price = `<div class="break-box">${esc(p.storeName)}가 <b>$${ev.breakeven} 이하</b>면 직구각<br><span>현재가는 ${esc(p.storeName)}에서 확인하세요</span></div>`;
+    price = `<div class="break-box">${esc(p.storeName)}가 <b>$${ev.breakeven} 이하</b>면 직구각<br><span>${p.unavailable ? esc(p.unavailable) : ev.underFreeShip ? '$49 이상 합배송 기준 · 단품은 배송비 별도' : `현재가는 ${esc(p.storeName)}에서 확인하세요`}</span></div>`;
   }
   return `<a class="card" href="/p/${esc(p.slug)}" data-verdict="${ev.verdict}" data-cat="${esc(p.category)}" data-name="${esc(p.name)}">
   <div class="card-img"><span class="store-chip">${esc(p.storeName)}</span>${p.sample ? '<span class="sample-chip">예시</span>' : ''}${imgBlock(p)}</div>
@@ -338,7 +338,7 @@ function pageProduct(p) {
   const domesticLabel = `국내 최저가 ₩${krw(p.domesticKrw)}에 사기${p.domesticStore ? ` (${p.domesticStore})` : ''}`;
   const linkBtn = (url, label, primary) => `<a href="${esc(url)}" class="btn ${primary ? 'btn-buy' : 'btn-line'}" data-out rel="sponsored nofollow noopener" target="_blank">${esc(label)}</a>`;
   const btns = [];
-  const overseas = p.buyUrl ? { url: p.buyUrl, label: overseasLabel } : null;
+  const overseas = p.buyUrl && !p.unavailable ? { url: p.buyUrl, label: overseasLabel } : null;
   const partsHtml = (p.parts || []).length ? `<div class="parts" id="parts"><b>${esc(p.storeName)}에서 하나씩 담기</b>${p.parts.map((x) => `<a href="${esc(x.url)}" data-out rel="sponsored nofollow noopener" target="_blank">${esc(x.name)}<span>₩${krw(x.priceKrw)}</span></a>`).join('')}</div>` : '';
   const domestic = p.domesticUrl ? { url: p.domesticUrl, label: domesticLabel } : null;
   // 판정이 추천하는 쪽이 첫 번째(빨간) 버튼. 그 링크가 아직 없으면 '준비 중'으로 두고, 다른 쪽은 보조 버튼으로
@@ -346,7 +346,7 @@ function pageProduct(p) {
   const other = domesticFirst ? overseas : domestic;
   if (preferred) btns.push(linkBtn(preferred.url, preferred.label, true));
   else if (!domesticFirst && partsHtml) btns.push(`<a href="#parts" class="btn btn-buy">${esc(p.storeName)}에서 ${p.parts.length}개 담기 · ₩${krw(ev.cost.total)}</a>`);
-  else btns.push(`<span class="btn btn-buy is-disabled" aria-disabled="true">${esc(domesticFirst ? '국내 구매 링크 준비 중' : `${p.storeName} 구매 링크 준비 중`)}</span>`);
+  else btns.push(`<span class="btn btn-buy is-disabled" aria-disabled="true">${esc(p.unavailable && !domesticFirst ? `${p.storeName} 지금 한국 배송 불가` : domesticFirst ? '국내 구매 링크 준비 중' : `${p.storeName} 구매 링크 준비 중`)}</span>`);
   if (other) btns.push(linkBtn(other.url, other.label, false));
   const out = btns.join('\n      ') + partsHtml;
   let hero, money;
@@ -380,7 +380,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
   } else {
     const limit = ev.limit;
     hero = ev.kind === 'break'
-      ? `<div class="vhero v-check"><span class="vword">$${ev.breakeven} 이하</span><div><b>${esc(p.storeName)} 가격이 이 가격 이하면 직구각</b><span>국내 최저가 ₩${krw(p.domesticKrw)}, 배송비 ${p.shipNote ? esc(p.shipNote) : '$' + p.shipUsd}, 면세 한도 $${limit} 기준</span></div></div>`
+      ? `<div class="vhero v-check"><span class="vword">$${ev.breakeven} 이하</span><div><b>${esc(p.storeName)} 가격이 이 가격 이하면 직구각</b><span>국내 최저가 ₩${krw(p.domesticKrw)}, 배송비 ${p.shipNote ? esc(p.shipNote) : '$' + p.shipUsd}, 면세 한도 $${limit} 기준</span>${ev.underFreeShip ? `<span class="warn-line">이 기준은 다른 상품과 함께 $49 이상 담아 배송비가 0원일 때예요. 이것만 사면 배송비만큼 기준이 더 낮아져요.</span>` : ''}${p.unavailable ? `<span class="warn-line">${esc(p.unavailable)}</span>` : ''}</div></div>`
       : `<div class="vhero v-bad"><span class="vword">국내가 나음</span><div><b>배송비가 가격 차이보다 커요</b><span>국내 최저가 ₩${krw(p.domesticKrw)} · 배송비 $${p.shipUsd} 기준</span></div></div>`;
     money = `
 <div class="compare">
