@@ -103,12 +103,12 @@
     "domesticUrl": "",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
     "sample": false,
-    "checkedAt": "2026.10.22 오전",
+    "checkedAt": "2026.10.22 오후",
     "slug": "iherb-cgn-lactobif-30-60",
     "name": "캘리포니아골드뉴트리션 락토비프 30 유산균 60캡슐",
     "priceKrw": 24807,
-    "domesticKrw": 39880,
-    "domesticSource": "쿠팡 1개 ₩29,980 + 배송비 ₩9,900",
+    "domesticKrw": 40000,
+    "domesticSource": "쿠팡 1개, 무료배송",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
       "6병까지 자가사용 인정",
@@ -119,7 +119,7 @@
       "다른 영양제와 ₩40,000 이상 함께 담으면 배송비가 0원이 돼서 ₩15,073 싸져요.",
       "유산균은 제품 안내의 보관 방법을 꼭 확인하세요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/8221125227",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8221125227?itemId=14708941467&vendorItemId=95973420287",
     "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009"
   },
   {
@@ -351,7 +351,7 @@
     "name": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
     "category": "audio",
     "domesticKrw": 459000,
-    "domesticSource": "쿠팡, 무료배송 · 내일 도착",
+    "domesticSource": "쿠팡 와우 할인가, 무료배송 · 내일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0F3PQHWTZ",
     "risks": [
       "$200 넘으면 관세 8% + 부가세 10%",
