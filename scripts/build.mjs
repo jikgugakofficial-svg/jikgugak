@@ -391,7 +391,12 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
   }
   const risks = (p.risks || []).map((r) => `<span class="risk">${icon.warn}${esc(r)}</span>`).join('');
   // 요약 문장 속 {be}·{beKrw}는 빌드할 때 손익분기 값으로 바꿔요(가격·환율이 바뀌어도 문장이 맞게)
-  const fill = (s) => s.replace(/\{be\}/g, ev.breakeven != null ? '$' + ev.breakeven : '-').replace(/\{beKrw\}/g, ev.beKrw != null ? '₩' + krw(ev.beKrw) : '-');
+  const fill = (s) => s
+    .replace(/\{be\}/g, ev.breakeven != null ? '$' + ev.breakeven : '-')
+    .replace(/\{beKrw\}/g, ev.beKrw != null ? '₩' + krw(ev.beKrw) : '-')
+    .replace(/\{diff\}/g, ev.kind === 'priced' ? '₩' + krw(Math.abs(ev.diff)) : '-')
+    .replace(/\{pct\}/g, ev.kind === 'priced' ? ev.pctNum + '%' : '-')
+    .replace(/\{total\}/g, ev.kind === 'priced' ? '₩' + krw(ev.cost.total) : '-');
   const summary = (p.summary || []).map((s) => `<li>${esc(fill(s))}</li>`).join('');
   const desc = ev.kind === 'priced'
     ? `${p.name} 해외직구 최종 체감가 ₩${krw(ev.cost.total)} vs 국내 최저가 ₩${krw(p.domesticKrw)}. ${v.label} 판정과 관부가세 계산.`
