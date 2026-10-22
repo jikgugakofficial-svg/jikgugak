@@ -175,7 +175,7 @@ ${ga}
   </div>
   <nav class="wrap main-nav" aria-label="주요 메뉴">
     ${nav}
-    ${bf && daysUntil(bf.date) >= 0 ? `<a href="/calendar" class="navlink hot">${esc(bf.name)}<span class="pill-hot" data-dday="${bf.date}">${ddayText(bf.date)}</span></a>` : ''}
+    ${bf && daysUntil(bf.date) >= 0 ? `<a href="/blackfriday" class="navlink hot${current === '/blackfriday' ? ' is-current' : ''}">${esc(bf.name)}<span class="pill-hot" data-dday="${bf.date}">${ddayText(bf.date)}</span></a>` : ''}
   </nav>
 </header>
 <main id="main" class="wrap main">
@@ -250,7 +250,7 @@ function pageHome() {
         <span class="hero-pill">${esc(bf.name)} 특집</span>
         <h1>올해 ${esc(bf.name === '블랙프라이데이' ? '블프' : bf.name)},<br>직구각인 것만<br>골라 드려요</h1>
         <p>관세·배송비까지 더한 최종 체감가로<br>국내 최저가와 바로 비교해요.</p>
-        <div class="hero-btns"><a href="#today" class="btn btn-yellow">판정 모아보기</a><a href="/calendar" class="btn btn-ghost">세일 캘린더</a></div>
+        <div class="hero-btns"><a href="/blackfriday" class="btn btn-yellow">블프 직구각 모음</a><a href="/calendar" class="btn btn-ghost">세일 캘린더</a></div>
       </div>
       <div class="dday-circle"><span>${esc(bf.name)}까지</span><b data-dday="${bf.date}">${ddayText(bf.date)}</b><span>${Number(bf.date.slice(5, 7))}월 ${Number(bf.date.slice(8))}일 ${weekday(bf.date)}요일</span></div>
     </div>
@@ -476,6 +476,63 @@ function pageSearch() {
   return layout({ title: '직구각 검색', description: '아무 상품이나 검색하면 국내 최저가를 찾고, 해외 가격을 넣으면 관부가세까지 계산해 직구각인지 판정해요.', urlPath: '/search', body, noindex: true, scripts: ['/assets/search.js'] });
 }
 
+// ---------- 페이지: 블프 직구각 모음 ----------
+function pageBlackFriday() {
+  const bf = events.find((e) => e.id === 'black-friday');
+  const cm = events.find((e) => e.id === 'cyber-monday');
+  const sd = events.find((e) => e.id === 'singles-day');
+  const good = items.filter((p) => p.ev.verdict === 'good');
+  const targets = items.filter((p) => p.ev.kind === 'break');
+  const domestic = items.filter((p) => p.ev.verdict === 'bad' || p.ev.verdict === 'meh');
+  const rows = targets.map((p) => `<tr>
+    <th scope="row"><a href="/p/${esc(p.slug)}">${esc(p.name)}</a><span class="muted small">${esc(p.storeName)}</span></th>
+    <td>₩${krw(p.domesticKrw)}</td>
+    <td><b class="bf-target">$${p.ev.breakeven} 이하</b></td>
+    <td><a class="btn btn-line small" href="/p/${esc(p.slug)}">가격 넣고 판정</a></td>
+  </tr>`).join('\n');
+  const body = `
+<section class="bf-hero">
+  <div>
+    <span class="hero-pill">${esc(String(BUILT.getFullYear()))} 블랙프라이데이</span>
+    <h1>블프 직구각 모음</h1>
+    <p>관세·부가세·배송비까지 더한 체감가로 골랐어요. 블프 당일엔 목표가만 확인하고 바로 사세요.</p>
+    <div class="bf-dates">${[sd, bf, cm].filter(Boolean).map((e) => `<span><b>${md(e.date)}</b> ${esc(e.name)} <i data-dday="${e.date}">${ddayText(e.date)}</i></span>`).join('')}</div>
+  </div>
+  <div class="dday-circle"><span>블프까지</span><b data-dday="${bf.date}">${ddayText(bf.date)}</b><span>${Number(bf.date.slice(5, 7))}월 ${Number(bf.date.slice(8))}일 ${weekday(bf.date)}요일</span></div>
+</section>
+
+<section class="block" aria-labelledby="bf-now">
+  <div class="block-head"><div><h2 id="bf-now" class="h2 big">지금 사도 직구각</h2><span class="muted small">블프를 기다릴 필요 없이 이미 국내보다 20% 이상 싼 상품</span></div></div>
+  <div class="grid">${good.map(card).join('\n')}</div>
+</section>
+
+<section class="block" aria-labelledby="bf-target">
+  <div class="block-head"><div><h2 id="bf-target" class="h2 big">블프 목표가</h2><span class="muted small">해외 가격이 이 밑으로 떨어지면 직구각이에요. 국내 최저가 기준으로 계산했어요.</span></div></div>
+  <div class="bf-table-wrap"><table class="bf-table">
+    <thead><tr><th scope="col">상품</th><th scope="col">국내 최저가</th><th scope="col">직구각 목표가</th><th scope="col"><span class="sr-only">판정</span></th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table></div>
+</section>
+
+<section class="block" aria-labelledby="bf-dom">
+  <div class="block-head"><div><h2 id="bf-dom" class="h2 big">블프에도 국내가 나은 것</h2><span class="muted small">해외가 싸 보여도 배송비·세금을 더하면 국내와 비슷하거나 더 비싸요</span></div></div>
+  <div class="grid">${domestic.map(card).join('\n')}</div>
+</section>
+
+<section class="guide-strip" aria-labelledby="bf-check">
+  <h2 id="bf-check" class="h2">블프 결제 전 5가지 체크</h2>
+  <ol class="bf-checks">
+    <li><b>면세 한도</b> 미국에서 특송으로 오면 $200, 그 외 나라·영양제·식품은 $150까지 면세예요.</li>
+    <li><b>합산과세</b> 같은 날 같은 나라에서 산 여러 주문이 한 번에 들어오면 합쳐서 세금을 매길 수 있어요. 주문을 하루 이상 띄우세요.</li>
+    <li><b>달러로 결제</b> 아마존이 원화로 결제하자고 하면 거절하고 달러를 고르세요. 환전 수수료를 아껴요.</li>
+    <li><b>무료배송 기준</b> 아마존은 한국행 무료배송 상품을 $49 이상 담아야 배송비가 0원이에요.</li>
+    <li><b>통관부호</b> 개인통관고유부호가 유효한지, 이름·전화번호가 주문 정보와 같은지 미리 확인하세요. <a href="/guide#pccc">확인하는 법</a></li>
+  </ol>
+  <div class="hero-btns"><a class="btn btn-ink" href="/calendar">세일 일정 캘린더에 넣기</a><a class="btn btn-line" href="/calculator">관세 계산기</a></div>
+</section>`;
+  return layout({ title: '블랙프라이데이 직구각 모음', description: '2026 블랙프라이데이 해외직구, 관부가세까지 더한 체감가로 직구할 상품과 국내가 나은 상품, 블프 목표가를 정리했어요.', urlPath: '/blackfriday', body, current: '/blackfriday' });
+}
+
 // ---------- 페이지: 세일 캘린더 ----------
 function gcalLink(e) {
   const d = e.date.replace(/-/g, '');
@@ -616,6 +673,7 @@ write('index.html', pageHome());
 write('calculator.html', pageCalculator());
 write('search.html', pageSearch());
 write('calendar.html', pageCalendar());
+write('blackfriday.html', pageBlackFriday());
 write('calendar.ics', calendarIcs());
 write('guide.html', pageGuide());
 write('disclosure.html', pageDisclosure());
@@ -623,7 +681,7 @@ write('privacy.html', pagePrivacy());
 write('404.html', page404());
 for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
 
-const urls = ['/', '/calculator', '/calendar', '/guide', ...items.map((p) => `/p/${p.slug}`), '/disclosure', '/privacy'];
+const urls = ['/', '/blackfriday', '/calculator', '/calendar', '/guide', ...items.map((p) => `/p/${p.slug}`), '/disclosure', '/privacy'];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${absUrl(u)}</loc><lastmod>${kstToday()}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 

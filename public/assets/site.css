@@ -377,3 +377,29 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .s-form input { height: 52px; }
 }
 .mc-cur { height: 40px; border: 0; background: var(--bg2); border-radius: 8px; font: inherit; font-weight: 800; padding: 0 8px; color: var(--ink); cursor: pointer; }
+
+/* 블프 모음 */
+.bf-hero { display: flex; justify-content: space-between; align-items: center; gap: 24px; background: var(--brand); color: #fff; border-radius: 24px; padding: 36px 40px; margin: 8px 0 8px; position: relative; }
+.bf-hero h1 { font-family: var(--display); font-weight: 400; font-size: 52px; line-height: 1.1; margin: 12px 0 10px; }
+.bf-hero p { margin: 0 0 18px; opacity: .92; }
+.bf-dates { display: flex; flex-wrap: wrap; gap: 8px; }
+.bf-dates span { background: rgba(0,0,0,.18); border-radius: 999px; padding: 8px 14px; font-size: 14px; }
+.bf-dates i { font-style: normal; font-weight: 800; color: var(--yellow); margin-left: 4px; }
+.bf-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; }
+.bf-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.bf-table th, .bf-table td { padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.bf-table thead th { background: var(--bg2); font-size: 13px; color: var(--sub); font-weight: 700; }
+.bf-table tbody tr:last-child th, .bf-table tbody tr:last-child td { border-bottom: 0; }
+.bf-table tbody th a { color: var(--ink); font-weight: 700; text-decoration: none; display: block; }
+.bf-table tbody th a:hover { color: var(--brand); }
+.bf-target { color: var(--brand); font-size: 18px; font-weight: 900; white-space: nowrap; }
+.bf-table td:nth-child(2) { white-space: nowrap; }
+.bf-checks { margin: 16px 0 24px; padding-left: 22px; display: flex; flex-direction: column; gap: 10px; line-height: 1.6; }
+.bf-checks b { margin-right: 6px; }
+@media (max-width: 760px) {
+  .bf-hero { flex-direction: column; align-items: flex-start; padding: 24px 20px; }
+  .bf-hero h1 { font-size: 38px; }
+  .bf-hero .dday-circle { position: absolute; top: 20px; right: 16px; }
+  .bf-table th, .bf-table td { padding: 12px 10px; font-size: 14px; }
+  .bf-table td:last-child { display: none; }
+}
