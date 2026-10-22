@@ -6,7 +6,8 @@ export const ACCESSORY_WORDS = [
   '케이스', '커버', '키링', '열쇠고리', '키체인', '스트랩', '랜야드', '보호필름', '필름', '강화유리', '거치대', '홀더',
   '스티커', '파우치', '이어팁', '이어캡', '폼팁', '스킨', '교체용', '부품', '후크', '목걸이', '데칼', '범퍼', '프로텍터', '디스플레이 케이스', '진열장',
   'case', 'cover', 'keychain', 'keyring', 'strap', 'lanyard', 'film', 'protector', 'holder', 'sticker', 'pouch', 'skin',
-  'replacement', 'decal', 'bumper'
+  'replacement', 'decal', 'bumper',
+  '분실 방지', '분실방지', '로프', '끈', '클리너', '청소', '이어훅', '이어패드', '교체형', '충전 스탠드', '충전 스테이션', '충전 패드', '충전기 패드', '무선 충전', 'cleaner', 'cleaning', 'earhook'
 ];
 // 정품이 아닌 호환·유사품 신호(살짝만 내려요)
 const COMPAT_WORDS = ['호환', '스타일', '유사', 'compatible', 'style', 'for '];
@@ -60,8 +61,10 @@ export function analyze(item, q) {
   const accWord = ACCESSORY_WORDS.find((w) => tl.includes(w) && !qLower.includes(w));
   // "에어팟용", "아이폰 15용" 처럼 검색어 바로 뒤에 '용'이 붙으면 그 제품에 끼우는 액세서리
   const forUse = tokens.some((t) => t.length > 1 && !/^\d+$/.test(t) && new RegExp(`${t}[0-9a-z ]{0,8}용`).test(tl)) && !/용/.test(qLower);
+  // "12/13/14/15", "2 3 4" 처럼 여러 모델 번호를 늘어놓은 상품명은 호환 액세서리인 경우가 많아요
+  const modelList = /(\d+\s*[\/,]\s*){2,}\d+/.test(tl) || /(^|\s)(\d{1,2}\s+){3,}\d{1,2}(\s|$|용)/.test(tl);
   const compat = COMPAT_WORDS.some((w) => tl.includes(w) && !qLower.includes(w.trim()));
-  return { coverage, relevant, full, accessory: Boolean(accWord || forUse), accWord: accWord || (forUse ? '~용' : ''), compat };
+  return { coverage, relevant, full, accessory: Boolean(accWord || forUse || modelList), accWord: accWord || (forUse ? '~용' : modelList ? '여러 모델' : ''), compat };
 }
 
 const median = (arr) => { const s = [...arr].sort((a, b) => a - b); return s.length ? s[Math.floor(s.length / 2)] : 0; };

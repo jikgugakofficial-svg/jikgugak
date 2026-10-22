@@ -34,3 +34,11 @@ assert.deepEqual(queryVariants('에어팟2'), ['에어팟 2', 'airpods 2']);
 // 영어 상품명도 한글 검색어에 걸려요
 assert.equal(rank2([mk('Apple AirPods 2nd gen wireless', 90000)], '에어팟').length, 1);
 console.log('관련도 필터 점검 통과');
+const ap = rank2([
+  mk('아이폰 12/13/14/15/16/17용 3 in 1 무선 충전 스탠드 에어팟', 19750, 900),
+  mk('AirPods 3 2 1 Pro 분실 방지 실리콘 이어폰 로프', 1574, 5000),
+  mk('클리너 키트 이어폰 청소 펜 에어팟 프로 2 3 4 브러쉬', 2020, 8000)
+], '에어팟2');
+assert.ok(ap.every((x) => x.accessory), 'AirPods 액세서리는 모두 액세서리로');
+assert.ok(rank2([mk('샤오미 로봇청소기 S10', 300000)], '로봇청소기')[0].accessory === false, '검색어에 있는 말은 액세서리로 안 봐요');
+console.log('액세서리 판별 점검 통과');
