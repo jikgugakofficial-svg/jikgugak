@@ -123,7 +123,8 @@ const NAV = [
   { href: '/guide', label: '직구 가이드' }
 ];
 
-function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false }) {
+function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false, image = '' }) {
+  const ogImage = image || absUrl('/og.png');
   const fullTitle = title ? `${title} | ${site.siteName}` : `${site.siteName} | ${site.tagline}`;
   const desc = description || site.description;
   const nav = NAV.map((n) => `<a href="${n.href}" class="navlink${current === n.href ? ' is-current' : ''}"${current === n.href ? ' aria-current="page"' : ''}>${esc(n.label)}</a>`).join('');
@@ -149,6 +150,8 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${esc(absUrl(urlPath))}">
 <meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="${esc(ogImage)}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#D23A10">
 <meta name="jg-fx" content="${FX}">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -185,7 +188,7 @@ ${body}
 <footer class="site-footer" id="disclosure-footer">
   <div class="wrap footer-in">
     <div class="footer-links"><a href="/disclosure">광고·제휴 고지</a><a href="/privacy">개인정보처리방침</a><a href="/guide">직구 가이드</a><a href="mailto:${esc(site.contactEmail)}">문의하기</a></div>
-    <p>직구각은 쿠팡 파트너스, 아마존 어소시에이트, 아이허브, 알리익스프레스 제휴 프로그램에 참여하고 있으며, 링크를 통한 구매 시 수수료를 받을 수 있습니다.</p>
+    <p>직구각은 쿠팡 파트너스, 아마존 어소시에이트, 알리익스프레스${(site.affiliatePending || []).includes('iherb') ? '' : ', 아이허브'} 제휴 프로그램에 참여하고 있으며, 링크를 통한 구매 시 수수료를 받을 수 있습니다.</p>
     <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
     <p lang="en">As an Amazon Associate I earn from qualifying purchases.</p>
     <p>표시된 관부가세와 체감가는 예상치이며, 최종 세액은 세관 고지를 따릅니다. ${esc(site.fx.label)}.</p>
@@ -214,6 +217,16 @@ function verdictBar(ev) {
   return `<div class="vbar ${v.cls}">${v.icon}${esc(label + ev.note)}</div>`;
 }
 
+// 상품 사진: 제휴 프로그램(쿠팡 파트너스·알리 제휴 API)이 제공하는 상품 이미지. 없으면 회색 자리표시
+const productImages = (p) => (p.image ? [p.image] : (p.parts || []).map((x) => x.image).filter(Boolean)).slice(0, 4);
+function imgBlock(p, eager = false) {
+  const imgs = productImages(p);
+  if (!imgs.length) return `${icon.image}<span>상품 이미지</span>`;
+  const attrs = `alt="" referrerpolicy="no-referrer" decoding="async"${eager ? '' : ' loading="lazy"'}`;
+  if (imgs.length === 1) return `<img class="p-photo" src="${esc(imgs[0])}" ${attrs}>`;
+  return `<div class="p-photos n${imgs.length}">${imgs.map((u) => `<img src="${esc(u)}" ${attrs}>`).join('')}</div>`;
+}
+
 function card(p) {
   const ev = p.ev;
   let price = '';
@@ -223,7 +236,7 @@ function card(p) {
     price = `<div class="break-box">${esc(p.storeName)}가 <b>$${ev.breakeven} 이하</b>면 직구각<br><span>현재가는 ${esc(p.storeName)}에서 확인하세요</span></div>`;
   }
   return `<a class="card" href="/p/${esc(p.slug)}" data-verdict="${ev.verdict}" data-cat="${esc(p.category)}" data-name="${esc(p.name)}">
-  <div class="card-img"><span class="store-chip">${esc(p.storeName)}</span>${p.sample ? '<span class="sample-chip">예시</span>' : ''}${icon.image}<span>상품 이미지</span></div>
+  <div class="card-img"><span class="store-chip">${esc(p.storeName)}</span>${p.sample ? '<span class="sample-chip">예시</span>' : ''}${imgBlock(p)}</div>
   <div class="card-name">${esc(p.name)}</div>
   <div class="card-dom">국내 최저가 ₩${krw(p.domesticKrw)}</div>
   ${price}
@@ -380,7 +393,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
 <nav class="crumbs" aria-label="현재 위치"><a href="/">홈</a><span aria-hidden="true">›</span><a href="/?cat=${esc(p.category)}">${esc(cat.label)}</a><span aria-hidden="true">›</span><span>${esc(p.name)}</span></nav>
 <div class="pd">
   <div class="pd-left">
-    <div class="pd-img">${icon.image}<span>상품 이미지</span></div>
+    <div class="pd-img">${imgBlock(p, true)}</div>
     ${summary ? `<div class="ai-box"><div class="ai-head"><span class="ai-tag">AI 요약</span><b>직구 전에 알아둘 3줄</b></div><ol>${summary}</ol><small>요약은 참고용이에요. 가격 확인 결과와 제조사·쇼핑몰 정보를 바탕으로 정리했어요.</small></div>` : ''}
   </div>
   <div class="pd-right">
@@ -399,7 +412,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
   <h2 id="before-title">결제 전 30초 체크</h2>
   <div><a href="/guide#address">영문 주소 넣는 법</a><a href="/guide#pccc">통관부호 유효기간 확인</a><a href="/guide#combine">합산과세 피하기</a></div>
 </section>`;
-  return layout({ title: `${p.name} 직구 판정`, description: desc, urlPath: `/p/${p.slug}`, body, scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
+  return layout({ title: `${p.name} 직구 판정`, description: desc, urlPath: `/p/${p.slug}`, body, image: p.image || '', scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
 }
 
 // ---------- 페이지: 관세 계산기 ----------
@@ -673,7 +686,7 @@ function pageDisclosure() {
 <article class="prose">
 <p>직구각은 상품을 직접 팔지 않아요. 상품 페이지의 구매 버튼은 제휴 링크이고, 그 링크로 구매가 이뤄지면 직구각이 쇼핑몰로부터 수수료를 받을 수 있어요. <b>구매하는 분이 내는 가격은 똑같아요.</b></p>
 <h2>참여 중인 제휴 프로그램</h2>
-<ul><li>쿠팡 파트너스</li><li>아마존 어소시에이트 (Amazon Associates)</li><li>아이허브 제휴 프로그램</li><li>알리익스프레스 제휴 프로그램</li></ul>
+<ul><li>쿠팡 파트너스</li><li>아마존 어소시에이트 (Amazon Associates)</li><li>아이허브 제휴 프로그램${(site.affiliatePending || []).includes('iherb') ? ' (승인 대기 중 — 승인 전 아이허브 링크는 수수료가 없는 일반 링크예요)' : ''}</li><li>알리익스프레스 제휴 프로그램</li></ul>
 <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
 <p lang="en">As an Amazon Associate I earn from qualifying purchases.</p>
 <h2>판정 기준</h2>
@@ -691,11 +704,14 @@ function pagePrivacy() {
 <h2>1. 수집하는 정보</h2>
 <p>직구각은 회원가입이 없으며, 이름·연락처·주소·개인통관고유부호를 수집하거나 저장하지 않아요. 관세 계산기에 입력한 값은 이용자의 브라우저 안에서만 계산돼요.</p>
 <p>서비스 개선을 위해 방문 기록(접속 페이지, 브라우저 종류, 대략적 지역 등)이 분석 도구(Google Analytics)를 통해 쿠키로 수집될 수 있어요.</p>
-<h2>2. 제휴 링크와 쿠키</h2>
+<p>사이트는 Vercel(미국)에서 운영돼요. 보안과 오류 확인을 위해 접속 기록(IP 주소, 접속 시각, 요청한 주소, 브라우저 정보)이 Vercel 서버에 일정 기간 자동으로 남아요.</p>
+<h2>2. 검색 기능</h2>
+<p>검색창에 입력한 검색어는 상품 가격을 찾기 위해 직구각 서버와 알리익스프레스 제휴 API로 전달돼요. 검색어는 이용자를 식별하는 정보와 연결해 저장하지 않으며, 같은 검색의 결과를 빠르게 보여 주기 위해 잠시 보관(캐시)될 수 있어요. 검색창에 이름·연락처·통관부호 같은 개인정보는 넣지 마세요.</p>
+<h2>3. 제휴 링크와 쿠키</h2>
 <p>구매 링크를 누르면 이동한 쇼핑몰(쿠팡, 아마존, 아이허브, 알리익스프레스 등)이 추천 경로 확인을 위해 쿠키를 설정할 수 있어요. 이 쿠키는 각 쇼핑몰의 개인정보처리방침을 따릅니다.</p>
-<h2>3. 쿠키 거부</h2>
+<h2>4. 쿠키 거부</h2>
 <p>브라우저 설정에서 쿠키 저장을 거부하거나 삭제할 수 있어요.</p>
-<h2>4. 문의</h2>
+<h2>5. 문의</h2>
 <p>개인정보 관련 문의: ${esc(site.contactEmail)}</p>
 </article>`;
   return layout({ title: '개인정보처리방침', urlPath: '/privacy', body });

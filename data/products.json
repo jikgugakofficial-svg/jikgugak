@@ -27,7 +27,8 @@
       "다른 영양제와 ₩40,000 이상 함께 담으면 배송비가 0원이 돼서 ₩14,638 싸져요. 4종 묶음 페이지를 참고하세요."
     ],
     "domesticCheckUrl": "",
-    "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118"
+    "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118",
+    "image": "https://t3c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/fbe4/e2cb0ed89a842866d7525cce105e672b9511eede61d574bb04bef4537ea6.jpg"
   },
   {
     "store": "iherb",
@@ -57,7 +58,8 @@
       "쿠팡 2개 묶음은 개당 ₩24,160이라, 2개 이상 살 거면 국내가 더 싸요."
     ],
     "domesticCheckUrl": "",
-    "overseasCheckUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567"
+    "overseasCheckUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
+    "image": "https://t3a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/b0d6/9515842614ac05139eea59b1080df8f6099f794d6dfdbf9ea0b9c5db7cc7.png"
   },
   {
     "store": "iherb",
@@ -87,7 +89,8 @@
       "D3·K2만 필요하면 쿠팡이 나아요."
     ],
     "domesticCheckUrl": "",
-    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056"
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
+    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/product/image/vendoritem/2018/08/16/3086571660/9d03b5ba-e7f4-443e-858c-3f878166ac03.jpg"
   },
   {
     "store": "iherb",
@@ -152,17 +155,20 @@
       {
         "name": "오메가3 프리미엄 100정",
         "url": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118",
-        "priceKrw": 16532
+        "priceKrw": 16532,
+        "image": "https://t3c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/fbe4/e2cb0ed89a842866d7525cce105e672b9511eede61d574bb04bef4537ea6.jpg"
       },
       {
         "name": "닥터스베스트 마그네슘 240정",
         "url": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
-        "priceKrw": 27946
+        "priceKrw": 27946,
+        "image": "https://t3a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/b0d6/9515842614ac05139eea59b1080df8f6099f794d6dfdbf9ea0b9c5db7cc7.png"
       },
       {
         "name": "나우푸드 D3 & K2 120캡슐",
         "url": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
-        "priceKrw": 11647
+        "priceKrw": 11647,
+        "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/product/image/vendoritem/2018/08/16/3086571660/9d03b5ba-e7f4-443e-858c-3f878166ac03.jpg"
       },
       {
         "name": "락토비프 30 유산균 60캡슐",
@@ -198,7 +204,8 @@
       "유그린 공식 스토어(Ugreen Official Store) 판매 상품이라 정품 걱정이 적어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6908511046",
-    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005008093143399.html"
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005008093143399.html",
+    "image": "https://thumbnail3.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2436530817535232-addcf7bc-3e1b-4314-b967-2b118856e381.jpg"
   },
   {
     "store": "aliexpress",
@@ -228,7 +235,8 @@
       "쿠팡에도 중국 발송 상품이 ₩43,000대에 있는데, 이것도 사실상 직구라 국내 재고 상품과 따로 봤어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8721422294",
-    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007099240050.html"
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007099240050.html",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9d0c285127124820ae8fda27a0cc0b34k.jpg"
   },
   {
     "store": "aliexpress",
@@ -257,7 +265,8 @@
       "{beKrw} 이하로 떨어지면 그때 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6572373138",
-    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005042789596.html"
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005042789596.html",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9921e38de06b44d6b6630cacd7d25a5dF.jpg"
   },
   {
     "store": "amazon",
@@ -286,7 +295,8 @@
       "아마존가가 {be} 이하면 직구각인데, 평소 할인가가 이 근처라 블프에 노려볼 만해요.",
       "$49 무료배송을 맞추려면 다른 레고(예: 꽃다발 10280)와 같이 담으세요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/6498210958"
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6498210958",
+    "image": "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4792/4405323d7be036469ab4aa7bff01e8c986ee748bf9d9e5dea00ca0904396.jpg"
   },
   {
     "store": "amazon",
@@ -314,7 +324,8 @@
       "레고 꽃다발 중 가장 많이 팔리는 세트라 블프 할인 대상에 자주 올라요.",
       "다육식물 10309와 같이 담으면 $49 무료배송을 넘기기 쉬워요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/4899605928"
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/4899605928",
+    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/0a4d/27f2ee94ab39653c5f514260e9688269f6eab7ceb18e3ba99833a11602a0.jpg"
   },
   {
     "store": "amazon",
@@ -343,7 +354,8 @@
       "아마존가가 {be} 이하로 떨어져야 세금을 내고도 직구각이에요.",
       "블프 할인 폭을 보고 판단하세요. 대부분은 쿠팡이 나아요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/8832674019"
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8832674019",
+    "image": "https://t4c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2025/06/11/15/5/0777b6da-f969-41ac-aecd-24bb062c8577.jpg"
   },
   {
     "store": "amazon",
@@ -371,7 +383,8 @@
       "아마존가가 {be} 이하일 때만 직구각이에요.",
       "국내 정식 유통품(₩133,650)보다 로켓직구가 훨씬 싸요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/7242698793"
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7242698793",
+    "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2a64/235c763e7e1395a4c9f6d0863df2e2afdca73686b061bd67982bc337dd40.jpg"
   },
   {
     "store": "amazon",
@@ -400,7 +413,8 @@
       "아마존가가 {be} 이하이면서 다른 상품과 합쳐 $49를 넘길 때만 직구각이에요.",
       "사이즈는 남녀 공용 미국 표기라 꼭 환산표를 확인하세요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/7320672616"
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7320672616",
+    "image": "https://thumbnail2.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/7bb9/a0fc0e0cd7869ef2b891f5518767342e227840dcf6aeaecdf9ddeaa4ac99.jpg"
   },
   {
     "store": "amazon",
@@ -428,7 +442,8 @@
       "아마존가가 {be} 이하일 때만 직구각인데, 그 가격은 드물어요.",
       "국내에 없는 한정 색상을 원할 때만 직구를 고려하세요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/6792297030"
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6792297030",
+    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/546431400333345-045c410e-d40c-491b-bf2c-8a11e3401ea1.jpg"
   },
   {
     "store": "amazon",
@@ -456,7 +471,8 @@
       "아마존가가 {be} 이하일 때만 직구각이에요.",
       "같은 C3S라도 ESP(에스프레소용)는 다른 모델이니 확인하세요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/7320682315"
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7320682315",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/be44/f41b0a13c2682fa4da25e62113c7f2c2015f05232539584d746c65e768d6.jpg"
   },
   {
     "store": "iherb",
@@ -485,6 +501,7 @@
       "프로틴은 아이허브보다 쿠팡 로켓직구 할인을 먼저 확인하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6714215076",
-    "overseasCheckUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509"
+    "overseasCheckUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
+    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/ef52/d91d305aaffc7a8c89f2a83a4504341d079bb081d8e963ed6f34698ee12d.jpg"
   }
 ]

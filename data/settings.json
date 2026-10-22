@@ -18,12 +18,15 @@
   "googleVerification": "5sq5k5bbKZ4Ly9TjBycNe3yXPpQyrdcXIoY_r_6qB3w",
   "naverVerification": "4b61a1b730dcb6d3134979cca0da8865c951e3f4",
   "businessName": "직구각",
-  "privacyEffective": "2026년 10월 21일",
+  "privacyEffective": "2026년 10월 22일",
   "affiliateIds": {
     "coupang": "AF5913304",
     "amazon": "jikgugak-20",
     "iherb": "",
     "aliexpress": ""
   },
-  "impactVerification": "3c749995-efc0-4f20-b72d-0e2bb61a5252"
+  "impactVerification": "3c749995-efc0-4f20-b72d-0e2bb61a5252",
+  "affiliatePending": [
+    "iherb"
+  ]
 }

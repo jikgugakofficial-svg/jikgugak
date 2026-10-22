@@ -73,7 +73,15 @@ export default async function handler(req, res) {
       rating: p.evaluate_rate || '',
       shop: p.shop_name || '',
       category: p.first_level_category_name || ''
-    })).filter((p) => p.price > 0).slice(0, 12);
+    })).filter((p) => p.price > 0);
+    // 액세서리 정리: 가격이 중간값의 25%도 안 되는 상품(케이스·케이블 등)은 아래로 내려요
+    const sortedPrices = list2 => list2.map((x) => x.price).sort((a, b) => a - b);
+    const ps = sortedPrices(items);
+    const median = ps.length ? ps[Math.floor(ps.length / 2)] : 0;
+    const main = items.filter((x) => x.price >= median * 0.25);
+    const minor = items.filter((x) => x.price < median * 0.25).map((x) => ({ ...x, accessory: true }));
+    items.length = 0; items.push(...main, ...minor);
+    items.splice(12);
     return send(res, 200, { ok: true, q, source: 'aliexpress', items }, 3600);
   } catch (e) {
     return send(res, 502, { ok: false, reason: 'error' });

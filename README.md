@@ -53,6 +53,7 @@
 - `rule`: 직구각 판정 기준 (기본: 20% 이상, 10,000원 이상 저렴)
 - `contactEmail`, `operator`: 문의 메일과 운영자 이름 (지금은 `[ ]` 빈칸)
 - `ga4Id`: 구글 애널리틱스 측정 ID (`G-`로 시작)
+- `affiliatePending`: 아직 승인 대기 중인 제휴(예: `["iherb"]`). 승인되면 지우세요 — 광고 고지 문구가 자동으로 바뀌어요.
 - `googleVerification`, `naverVerification`: 서치 콘솔·서치어드바이저 소유 확인 코드
 
 ### `data/events.json` · 세일 캘린더
