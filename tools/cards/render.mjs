@@ -18,12 +18,15 @@ const handle = deck.handle || '@jikgugak';
 const slides = deck.slides || [];
 const N = slides.length;
 const imgCache = {};
+const imgRatio = {};
 async function dataUrl(rel) {
   if (!rel) return '';
   if (!imgCache[rel]) {
     const buf = await readFile(path.join(dir, rel));
     const ext = rel.toLowerCase().endsWith('.png') ? 'png' : 'jpeg';
     imgCache[rel] = `data:image/${ext};base64,${buf.toString('base64')}`;
+    // PNG 가로세로 비율: 넓은 캡처는 통째로(contain), 긴 캡처는 위쪽부터 칸 너비에 맞춰(cover)
+    if (ext === 'png' && buf.length > 24) imgRatio[rel] = buf.readUInt32BE(16) / buf.readUInt32BE(20);
   }
   return imgCache[rel];
 }
@@ -67,7 +70,7 @@ function slideHtml(s, i) {
       inner = `<h2 class="cta-t">${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}<div class="cta-btn">${br(s.button || '프로필 링크 → jikgugak.com')}</div>`;
       return `<section class="slide ctaslide">${n}${inner}${foot}</section>`;
     case 'shot': // 사이트 화면 캡처를 크게 보여 주는 장
-      inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2 class="shot-t">${br(s.title)}</h2><div class="shot"><img src="${imgCache[s.image] || ''}" alt=""></div>${s.body ? `<p class="body shot-b">${br(s.body)}</p>` : ''}`;
+      inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2 class="shot-t">${br(s.title)}</h2><div class="shot${(imgRatio[s.image] || 0) >= 1.25 ? ' wide' : ''}"><img src="${imgCache[s.image] || ''}" alt=""></div>${s.body ? `<p class="body shot-b">${br(s.body)}</p>` : ''}`;
       return `<section class="slide shotslide">${n}<div class="content">${inner}</div>${foot}</section>`;
     default: // point
       inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2>${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}${s.big ? `<div class="big">${br(s.big)}</div>` : ''}${s.image ? `<div class="pt-img"><img src="${imgCache[s.image]}" alt=""></div>` : ''}`;
@@ -89,7 +92,7 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .big{font-size:150px;font-weight:900;color:#D23A10;letter-spacing:-3px}
 .cover{background:#D23A10;color:#fff;justify-content:center;gap:36px}
 .cover .foot{color:rgba(255,255,255,.85)} .cover .mark b{color:#FFE14D}
-.ad{position:absolute;top:70px;left:90px;font-size:30px;font-weight:700;background:rgba(0,0,0,.18);padding:8px 18px;border-radius:999px}
+.ad{position:absolute;top:70px;left:90px;font-size:32px;font-weight:700;background:rgba(0,0,0,.18);padding:8px 18px;border-radius:999px}
 .kicker{font-size:44px;font-weight:800;color:#FFE14D}
 .cover-t{font-size:118px;line-height:1.14;font-weight:900;letter-spacing:-4px}
 .cover-s{font-size:46px;line-height:1.45;font-weight:600;opacity:.95}
@@ -102,9 +105,10 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .shotslide .content{justify-content:flex-start;gap:28px;min-height:0}
 .shot-t{font-size:70px}
 .shot{flex:1 1 0;min-height:0;position:relative;background:#F5F6F8;border-radius:36px;overflow:hidden}
-.shot img{position:absolute;inset:28px;width:calc(100% - 56px);height:calc(100% - 56px);object-fit:contain;object-position:center top;border-radius:20px;filter:drop-shadow(0 12px 24px rgba(22,24,29,.14))}
+.shot img{position:absolute;inset:28px;width:calc(100% - 56px);height:calc(100% - 56px);object-fit:cover;object-position:center top;border-radius:20px;filter:drop-shadow(0 12px 24px rgba(22,24,29,.14))}
+.shot.wide img{object-fit:contain}
 .shot-b{font-size:42px}
-.series{position:absolute;top:70px;right:90px;font-size:30px;font-weight:800;color:#FFE14D;letter-spacing:1px}
+.series{position:absolute;top:66px;right:90px;font-size:38px;font-weight:800;color:#FFE14D;letter-spacing:1px}
 .swipe{position:absolute;right:90px;bottom:120px;font-size:32px;font-weight:800;color:#fff;opacity:.9}
 .cover-vs{display:flex;align-items:center;gap:22px;margin-top:10px}
 .cover-vs i{font-style:normal;font-weight:900;font-size:40px;color:#FFE14D}
