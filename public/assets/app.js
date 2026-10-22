@@ -16,7 +16,8 @@ function kstToday() {
 }
 document.querySelectorAll('[data-dday]').forEach((el) => {
   const d = Math.round((Date.parse(el.dataset.dday) - Date.parse(kstToday())) / 864e5);
-  el.textContent = d > 0 ? 'D-' + d : d === 0 ? 'D-DAY' : '종료';
+  const end = el.dataset.ddayEnd ? Math.round((Date.parse(el.dataset.ddayEnd) - Date.parse(kstToday())) / 864e5) : d;
+  el.textContent = d > 0 ? 'D-' + d : d === 0 ? 'D-DAY' : end >= 0 ? '진행 중' : '종료';
 });
 
 // 공유: 휴대폰이면 공유 시트(카카오톡 나와의 채팅으로 PC에 보내기 가능), 아니면 링크 복사

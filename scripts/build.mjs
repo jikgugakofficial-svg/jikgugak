@@ -175,7 +175,7 @@ ${ga}
   </div>
   <nav class="wrap main-nav" aria-label="주요 메뉴">
     ${nav}
-    ${bf && daysUntil(bf.date) >= 0 ? `<a href="/blackfriday" class="navlink hot${current === '/blackfriday' ? ' is-current' : ''}">${esc(bf.name)}<span class="pill-hot" data-dday="${bf.date}">${ddayText(bf.date)}</span></a>` : ''}
+    ${bf && daysUntil(bf.date) >= 0 ? `<a href="/sale" class="navlink hot${current === '/sale' ? ' is-current' : ''}">${esc(bf.name)}<span class="pill-hot" data-dday="${bf.date}">${ddayText(bf.date)}</span></a>` : ''}
   </nav>
 </header>
 <main id="main" class="wrap main">
@@ -234,7 +234,7 @@ const sampleNote = items.some((p) => p.sample) ? " · '예시' 표시 상품은 
 // ---------- 페이지: 홈 ----------
 function pageHome() {
   const bf = events.find((e) => e.id === site.featuredEvent) || events[0];
-  const upcoming = events.filter((e) => daysUntil(e.date) >= 0).slice(0, 3);
+  const upcoming = events.filter((e) => e.scope !== 'domestic' && daysUntil(e.end || e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 3);
   const ticker = items.slice(0, 6).map((p) => {
     const v = VERDICT[p.ev.verdict];
     const t = p.ev.kind === 'break' ? `${p.storeName}가 $${p.ev.breakeven} 이하면 직구각` : p.ev.kind === 'priced' ? `${v.label} ${p.ev.pct}` : v.label;
@@ -250,7 +250,7 @@ function pageHome() {
         <span class="hero-pill">${esc(bf.name)} 특집</span>
         <h1>올해 ${esc(bf.name === '블랙프라이데이' ? '블프' : bf.name)},<br>직구각인 것만<br>골라 드려요</h1>
         <p>관세·배송비까지 더한 최종 체감가로<br>국내 최저가와 바로 비교해요.</p>
-        <div class="hero-btns"><a href="/blackfriday" class="btn btn-yellow">블프 직구각 모음</a><a href="/calendar" class="btn btn-ghost">세일 캘린더</a></div>
+        <div class="hero-btns"><a href="/sale" class="btn btn-yellow">세일 직구각 모음</a><a href="/calendar" class="btn btn-ghost">세일 캘린더</a></div>
       </div>
       <div class="dday-circle"><span>${esc(bf.name)}까지</span><b data-dday="${bf.date}">${ddayText(bf.date)}</b><span>${Number(bf.date.slice(5, 7))}월 ${Number(bf.date.slice(8))}일 ${weekday(bf.date)}요일</span></div>
     </div>
@@ -476,93 +476,116 @@ function pageSearch() {
   return layout({ title: '직구각 검색', description: '아무 상품이나 검색하면 국내 최저가를 찾고, 해외 가격을 넣으면 관부가세까지 계산해 직구각인지 판정해요.', urlPath: '/search', body, noindex: true, scripts: ['/assets/search.js'] });
 }
 
-// ---------- 페이지: 블프 직구각 모음 ----------
-function pageBlackFriday() {
-  const bf = events.find((e) => e.id === 'black-friday');
-  const cm = events.find((e) => e.id === 'cyber-monday');
-  const sd = events.find((e) => e.id === 'singles-day');
+// ---------- 세일 일정 도우미 ----------
+const evEnd = (e) => e.end || e.date;
+const evRange = (e) => (e.end ? `${md(e.date)}~${md(e.end)}` : md(e.date));
+const evDday = (e) => { const d = daysUntil(e.date); return d > 0 ? 'D-' + d : d === 0 ? 'D-DAY' : daysUntil(evEnd(e)) >= 0 ? '진행 중' : '종료'; };
+const ddayAttr = (e) => `data-dday="${e.date}"${e.end ? ` data-dday-end="${e.end}"` : ''}`;
+const upcoming = events.filter((e) => daysUntil(evEnd(e)) >= 0).sort((a, b) => a.date.localeCompare(b.date));
+const STATUS = { confirmed: '날짜 확정', expected: '예상 · 작년 기준' };
+const SCOPE = { overseas: '해외 직구', domestic: '국내 쇼핑몰' };
+const nextSaleFor = (storeName) => upcoming.find((e) => e.scope === 'overseas' && e.stores.includes(storeName));
+
+// ---------- 페이지: 세일 직구각 모음 ----------
+function pageSale() {
+  const big = upcoming.find((e) => e.scope === 'overseas' && e.status === 'confirmed') || upcoming[0];
+  const chips = upcoming.slice(0, 5).map((e) => `<span><b>${evRange(e)}</b> ${esc(e.name)} <i ${ddayAttr(e)}>${evDday(e)}</i></span>`).join('');
   const good = items.filter((p) => p.ev.verdict === 'good');
   const targets = items.filter((p) => p.ev.kind === 'break');
   const domestic = items.filter((p) => p.ev.verdict === 'bad' || p.ev.verdict === 'meh');
-  const rows = targets.map((p) => `<tr>
+  const rows = targets.map((p) => {
+    const sale = nextSaleFor(p.storeName);
+    return `<tr>
     <th scope="row"><a href="/p/${esc(p.slug)}">${esc(p.name)}</a><span class="muted small">${esc(p.storeName)}</span></th>
     <td>₩${krw(p.domesticKrw)}</td>
     <td><b class="bf-target">$${p.ev.breakeven} 이하</b></td>
-    <td><a class="btn btn-line small" href="/p/${esc(p.slug)}">가격 넣고 판정</a></td>
-  </tr>`).join('\n');
+    <td>${sale ? `${esc(sale.name)}<span class="muted small">${evRange(sale)}</span>` : '-'}</td>
+  </tr>`;
+  }).join('\n');
   const body = `
 <section class="bf-hero">
   <div>
-    <span class="hero-pill">${esc(String(BUILT.getFullYear()))} 블랙프라이데이</span>
-    <h1>블프 직구각 모음</h1>
-    <p>관세·부가세·배송비까지 더한 체감가로 골랐어요. 블프 당일엔 목표가만 확인하고 바로 사세요.</p>
-    <div class="bf-dates">${[sd, bf, cm].filter(Boolean).map((e) => `<span><b>${md(e.date)}</b> ${esc(e.name)} <i data-dday="${e.date}">${ddayText(e.date)}</i></span>`).join('')}</div>
+    <span class="hero-pill">다가오는 세일 ${upcoming.length}개</span>
+    <h1>세일 직구각 모음</h1>
+    <p>관세·부가세·배송비까지 더한 체감가로 골랐어요. 세일 당일엔 목표가만 확인하고 바로 사세요.</p>
+    <div class="bf-dates">${chips}</div>
   </div>
-  <div class="dday-circle"><span>블프까지</span><b data-dday="${bf.date}">${ddayText(bf.date)}</b><span>${Number(bf.date.slice(5, 7))}월 ${Number(bf.date.slice(8))}일 ${weekday(bf.date)}요일</span></div>
+  ${big ? `<div class="dday-circle"><span>${esc(big.name)}까지</span><b ${ddayAttr(big)}>${evDday(big)}</b><span>${Number(big.date.slice(5, 7))}월 ${Number(big.date.slice(8))}일 ${weekday(big.date)}요일</span></div>` : ''}
 </section>
 
-<section class="block" aria-labelledby="bf-now">
-  <div class="block-head"><div><h2 id="bf-now" class="h2 big">지금 사도 직구각</h2><span class="muted small">블프를 기다릴 필요 없이 이미 국내보다 20% 이상 싼 상품</span></div></div>
+<section class="block" aria-labelledby="sale-now">
+  <div class="block-head"><div><h2 id="sale-now" class="h2 big">지금 사도 직구각</h2><span class="muted small">세일을 기다릴 필요 없이 이미 국내보다 20% 이상 싼 상품</span></div></div>
   <div class="grid">${good.map(card).join('\n')}</div>
 </section>
 
-<section class="block" aria-labelledby="bf-target">
-  <div class="block-head"><div><h2 id="bf-target" class="h2 big">블프 목표가</h2><span class="muted small">해외 가격이 이 밑으로 떨어지면 직구각이에요. 국내 최저가 기준으로 계산했어요.</span></div></div>
+<section class="block" aria-labelledby="sale-target">
+  <div class="block-head"><div><h2 id="sale-target" class="h2 big">세일 목표가</h2><span class="muted small">해외 가격이 이 밑으로 떨어지면 직구각이에요. 국내 최저가 기준으로 계산했어요.</span></div></div>
   <div class="bf-table-wrap"><table class="bf-table">
-    <thead><tr><th scope="col">상품</th><th scope="col">국내 최저가</th><th scope="col">직구각 목표가</th><th scope="col"><span class="sr-only">판정</span></th></tr></thead>
+    <thead><tr><th scope="col">상품</th><th scope="col">국내 최저가</th><th scope="col">직구각 목표가</th><th scope="col">노릴 세일</th></tr></thead>
     <tbody>${rows}</tbody>
   </table></div>
 </section>
 
-<section class="block" aria-labelledby="bf-dom">
-  <div class="block-head"><div><h2 id="bf-dom" class="h2 big">블프에도 국내가 나은 것</h2><span class="muted small">해외가 싸 보여도 배송비·세금을 더하면 국내와 비슷하거나 더 비싸요</span></div></div>
+<section class="block" aria-labelledby="sale-dom">
+  <div class="block-head"><div><h2 id="sale-dom" class="h2 big">세일에도 국내가 나은 것</h2><span class="muted small">해외가 싸 보여도 배송비·세금을 더하면 국내와 비슷하거나 더 비싸요. 11번가 십일절·빅스마일데이 땐 국내가 더 내려가요.</span></div></div>
   <div class="grid">${domestic.map(card).join('\n')}</div>
 </section>
 
-<section class="guide-strip" aria-labelledby="bf-check">
-  <h2 id="bf-check" class="h2">블프 결제 전 5가지 체크</h2>
+<section class="guide-strip" aria-labelledby="sale-check">
+  <h2 id="sale-check" class="h2">세일 결제 전 5가지 체크</h2>
   <ol class="bf-checks">
     <li><b>면세 한도</b> 미국에서 특송으로 오면 $200, 그 외 나라·영양제·식품은 $150까지 면세예요.</li>
     <li><b>합산과세</b> 같은 날 같은 나라에서 산 여러 주문이 한 번에 들어오면 합쳐서 세금을 매길 수 있어요. 주문을 하루 이상 띄우세요.</li>
-    <li><b>달러로 결제</b> 아마존이 원화로 결제하자고 하면 거절하고 달러를 고르세요. 환전 수수료를 아껴요.</li>
-    <li><b>무료배송 기준</b> 아마존은 한국행 무료배송 상품을 $49 이상 담아야 배송비가 0원이에요.</li>
+    <li><b>달러로 결제</b> 해외 쇼핑몰이 원화로 결제하자고 하면 거절하고 현지 통화를 고르세요. 환전 수수료를 아껴요.</li>
+    <li><b>무료배송 기준</b> 아마존은 한국행 무료배송 상품을 $49 이상, 아이허브는 ₩40,000 이상 담아야 배송비가 0원이에요.</li>
     <li><b>통관부호</b> 개인통관고유부호가 유효한지, 이름·전화번호가 주문 정보와 같은지 미리 확인하세요. <a href="/guide#pccc">확인하는 법</a></li>
   </ol>
-  <div class="hero-btns"><a class="btn btn-ink" href="/calendar">세일 일정 캘린더에 넣기</a><a class="btn btn-line" href="/calculator">관세 계산기</a></div>
+  <div class="hero-btns"><a class="btn btn-ink" href="/calendar">세일 일정 전체 보기</a><a class="btn btn-line" href="/calculator">관세 계산기</a></div>
 </section>`;
-  return layout({ title: '블랙프라이데이 직구각 모음', description: '2026 블랙프라이데이 해외직구, 관부가세까지 더한 체감가로 직구할 상품과 국내가 나은 상품, 블프 목표가를 정리했어요.', urlPath: '/blackfriday', body, current: '/blackfriday' });
+  return layout({ title: '세일 직구각 모음', description: '광군제·블랙프라이데이·사이버먼데이·박싱데이 등 해외직구 세일 때 관부가세까지 더한 체감가로 직구할 상품과 목표가를 정리했어요.', urlPath: '/sale', body, current: '/sale' });
 }
 
 // ---------- 페이지: 세일 캘린더 ----------
 function gcalLink(e) {
   const d = e.date.replace(/-/g, '');
-  const next = new Date(Date.parse(e.date) + 864e5).toISOString().slice(0, 10).replace(/-/g, '');
+  const next = new Date(Date.parse(evEnd(e)) + 864e5).toISOString().slice(0, 10).replace(/-/g, '');
   const q = new URLSearchParams({ action: 'TEMPLATE', text: `${e.name} (${e.stores})`, dates: `${d}/${next}`, details: `${e.note}\n${absUrl('/calendar')}` });
   return 'https://calendar.google.com/calendar/render?' + q.toString();
 }
 function pageCalendar() {
-  const rows = events.map((e) => {
-    const past = daysUntil(e.date) < 0;
-    return `<li class="ev${past ? ' is-past' : ''}">
+  const rows = upcoming.map((e) => `<li class="ev" data-scope="${e.scope}">
   <div class="ev-date"><b>${md(e.date)}</b><span>${weekday(e.date)}요일</span></div>
-  <div class="ev-body"><div class="ev-title"><b>${esc(e.name)}</b><span class="ev-dday" data-dday="${e.date}">${ddayText(e.date)}</span></div><span class="ev-store">${esc(e.stores)}</span><p>${esc(e.note)}</p></div>
-  ${past ? '' : `<a class="btn btn-line small" href="${esc(gcalLink(e))}" target="_blank" rel="noopener">구글 캘린더에 추가</a>`}
-</li>`;
-  }).join('\n');
+  <div class="ev-body">
+    <div class="ev-title"><b>${esc(e.name)}</b><span class="ev-dday" ${ddayAttr(e)}>${evDday(e)}</span></div>
+    <div class="ev-tags"><span class="ev-tag ${e.scope}">${SCOPE[e.scope]}</span><span class="ev-tag ${e.status}">${STATUS[e.status]}</span><span class="ev-range">${evRange(e)}</span></div>
+    <span class="ev-store">${esc(e.stores)}</span><p>${esc(e.note)}</p>
+  </div>
+  <a class="btn btn-line small" href="${esc(gcalLink(e))}" target="_blank" rel="noopener">구글 캘린더에 추가</a>
+</li>`).join('\n');
   const body = `
-<div class="page-head"><h1 class="display">세일 캘린더</h1><p class="muted">직구하기 좋은 날을 한눈에. 캘린더에 넣어 두면 놓치지 않아요.</p>
+<div class="page-head"><h1 class="display">세일 캘린더</h1><p class="muted">해외 직구 세일과, 국내가가 내려가는 국내 쇼핑몰 세일까지 한눈에. 캘린더에 넣어 두면 놓치지 않아요.</p>
 <a class="btn btn-ink small" href="/calendar.ics">내 캘린더에 전체 구독 (.ics)</a></div>
+<div class="filters ev-filters" role="group" aria-label="세일 종류로 거르기">
+  <button type="button" data-ev-filter="all" aria-pressed="true">전체</button>
+  <button type="button" data-ev-filter="overseas" aria-pressed="false">해외 직구</button>
+  <button type="button" data-ev-filter="domestic" aria-pressed="false">국내 쇼핑몰</button>
+</div>
 <ol class="events">${rows}</ol>
-<p class="muted small">행사 날짜와 할인 내용은 쇼핑몰 공식 발표에 따라 바뀔 수 있어요.</p>`;
-  return layout({ title: '해외직구 세일 캘린더', description: '광군제, 블랙프라이데이, 사이버먼데이 등 해외직구 세일 일정을 한눈에 보고 캘린더에 추가하세요.', urlPath: '/calendar', body, current: '/calendar' });
+<p class="muted small">'예상'은 작년 일정을 기준으로 적었고, 쇼핑몰이 날짜를 발표하면 바로 '확정'으로 바꿔요. 할인 내용은 쇼핑몰 공식 발표를 따라요.</p>
+<script type="module">
+const bs=[...document.querySelectorAll('[data-ev-filter]')];
+bs.forEach((b)=>b.addEventListener('click',()=>{bs.forEach((x)=>x.setAttribute('aria-pressed',String(x===b)));document.querySelectorAll('.ev').forEach((li)=>{li.hidden=b.dataset.evFilter!=='all'&&li.dataset.scope!==b.dataset.evFilter;});}));
+</script>`;
+  return layout({ title: '해외직구 세일 캘린더', description: '광군제, 블랙프라이데이, 사이버먼데이, 박싱데이, 프라임데이와 11번가 십일절·빅스마일데이까지 직구 세일 일정을 한눈에 보고 캘린더에 추가하세요.', urlPath: '/calendar', body, current: '/calendar' });
 }
 function calendarIcs() {
   const stamp = BUILT.toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
   const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//jikgugak//sale calendar//KO', 'CALSCALE:GREGORIAN', 'X-WR-CALNAME:직구각 세일 캘린더'];
-  for (const e of events) {
+  for (const e of upcoming) {
     const d = e.date.replace(/-/g, '');
-    const next = new Date(Date.parse(e.date) + 864e5).toISOString().slice(0, 10).replace(/-/g, '');
-    lines.push('BEGIN:VEVENT', `UID:${e.id}-${d}@jikgugak`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${next}`, `SUMMARY:${e.name} (${e.stores})`, `DESCRIPTION:${e.note.replace(/[,;]/g, (m) => '\\' + m)}`, 'END:VEVENT');
+    const next = new Date(Date.parse(evEnd(e)) + 864e5).toISOString().slice(0, 10).replace(/-/g, '');
+    const desc = `${e.status === 'expected' ? '[예상] ' : ''}${e.note}`;
+    lines.push('BEGIN:VEVENT', `UID:${e.id}@jikgugak`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${next}`, `SUMMARY:${e.name} (${e.stores})`, `DESCRIPTION:${desc.replace(/[,;]/g, (m) => '\\' + m)}`, 'END:VEVENT');
   }
   lines.push('END:VCALENDAR');
   return lines.join('\r\n') + '\r\n';
@@ -673,7 +696,7 @@ write('index.html', pageHome());
 write('calculator.html', pageCalculator());
 write('search.html', pageSearch());
 write('calendar.html', pageCalendar());
-write('blackfriday.html', pageBlackFriday());
+write('sale.html', pageSale());
 write('calendar.ics', calendarIcs());
 write('guide.html', pageGuide());
 write('disclosure.html', pageDisclosure());
@@ -681,7 +704,7 @@ write('privacy.html', pagePrivacy());
 write('404.html', page404());
 for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
 
-const urls = ['/', '/blackfriday', '/calculator', '/calendar', '/guide', ...items.map((p) => `/p/${p.slug}`), '/disclosure', '/privacy'];
+const urls = ['/', '/sale', '/calculator', '/calendar', '/guide', ...items.map((p) => `/p/${p.slug}`), '/disclosure', '/privacy'];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${absUrl(u)}</loc><lastmod>${kstToday()}</lastmod></url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 

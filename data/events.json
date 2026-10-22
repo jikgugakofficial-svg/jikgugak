@@ -1,23 +1,157 @@
 [
   {
+    "id": "naver-nupda-2026",
+    "name": "네이버 넾다세일",
+    "date": "2026-10-29",
+    "end": "2026-11-11",
+    "stores": "네이버 플러스스토어",
+    "scope": "domestic",
+    "status": "expected",
+    "note": "작년엔 10월 29일~11월 11일. 국내가가 내려가니 직구 전에 한 번 더 비교하세요."
+  },
+  {
+    "id": "11st-grand-2026",
+    "name": "11번가 그랜드 십일절",
+    "date": "2026-11-01",
+    "end": "2026-11-11",
+    "stores": "11번가",
+    "scope": "domestic",
+    "status": "expected",
+    "note": "매년 11월 1일~11일. 국내 최저가가 가장 많이 내려가는 기간이에요."
+  },
+  {
+    "id": "bigsmile-2026-11",
+    "name": "빅스마일데이",
+    "date": "2026-11-01",
+    "end": "2026-11-11",
+    "stores": "G마켓 · 옥션",
+    "scope": "domestic",
+    "status": "expected",
+    "note": "작년엔 11번가 십일절과 같은 기간이었어요."
+  },
+  {
+    "id": "korea-sale-festa-2026",
+    "name": "코리아세일페스타",
+    "date": "2026-11-09",
+    "end": "2026-11-30",
+    "stores": "국내 유통사 전반",
+    "scope": "domestic",
+    "status": "expected",
+    "note": "정부 주관 국내 할인 행사. 정확한 날짜는 10월 말~11월 초에 발표돼요."
+  },
+  {
     "id": "singles-day",
     "name": "광군제",
     "date": "2026-11-11",
     "stores": "알리익스프레스",
-    "note": "알리 연중 최대 할인. 장바구니를 미리 채워 두세요."
+    "scope": "overseas",
+    "status": "confirmed",
+    "note": "알리 연중 최대 할인. 11월 초부터 시작하고 11일 당일 쿠폰이 가장 커요. 장바구니를 미리 채워 두세요."
+  },
+  {
+    "id": "amazon-bf-week-2026",
+    "name": "아마존 블프 위크",
+    "date": "2026-11-20",
+    "end": "2026-11-30",
+    "stores": "아마존",
+    "scope": "overseas",
+    "status": "expected",
+    "note": "작년엔 블프 1주일 전부터 할인을 시작했어요. 레고·헤드폰 목표가를 확인하세요."
   },
   {
     "id": "black-friday",
     "name": "블랙프라이데이",
     "date": "2026-11-27",
     "stores": "아마존 · 아이허브 · 미국 쇼핑몰 전반",
-    "note": "미국 특송 목록통관은 $200까지 면세. 영양제는 $150 기준이에요."
+    "scope": "overseas",
+    "status": "confirmed",
+    "note": "미국 특송 목록통관은 $200까지 면세. 영양제·식품은 $150 기준이에요."
+  },
+  {
+    "id": "iherb-bf-2026",
+    "name": "아이허브 블프·사이버먼데이",
+    "date": "2026-11-27",
+    "end": "2026-12-01",
+    "stores": "아이허브",
+    "scope": "overseas",
+    "status": "expected",
+    "note": "영양제는 6병·$150 기준. 큰 주문은 날짜를 나눠 합산과세를 피하세요."
   },
   {
     "id": "cyber-monday",
     "name": "사이버먼데이",
     "date": "2026-11-30",
     "stores": "아마존 · 전자기기 쇼핑몰",
+    "scope": "overseas",
+    "status": "confirmed",
     "note": "블프 때 놓친 전자기기 할인이 다시 나오는 날이에요."
+  },
+  {
+    "id": "rakuten-super-sale-2026-12",
+    "name": "라쿠텐 슈퍼세일",
+    "date": "2026-12-04",
+    "end": "2026-12-11",
+    "stores": "라쿠텐 (일본)",
+    "scope": "overseas",
+    "status": "expected",
+    "note": "3·6·9·12월 분기마다 열리는 일본 최대 세일. 일본발은 $150 기준이에요."
+  },
+  {
+    "id": "boxing-day-2026",
+    "name": "박싱데이",
+    "date": "2026-12-26",
+    "stores": "영국 · 캐나다 · 호주 쇼핑몰",
+    "scope": "overseas",
+    "status": "confirmed",
+    "note": "연말 재고 정리 세일. 미국 외 나라는 $150 기준이에요."
+  },
+  {
+    "id": "ali-anniversary-2027",
+    "name": "알리 애니버서리 세일",
+    "date": "2027-03-26",
+    "end": "2027-03-31",
+    "stores": "알리익스프레스",
+    "scope": "overseas",
+    "status": "expected",
+    "note": "알리 생일(3월 28일) 전후 세일. 광군제 다음으로 큰 행사예요."
+  },
+  {
+    "id": "bigsmile-2027-05",
+    "name": "빅스마일데이 (상반기)",
+    "date": "2027-05-07",
+    "end": "2027-05-19",
+    "stores": "G마켓 · 옥션",
+    "scope": "domestic",
+    "status": "expected",
+    "note": "매년 5월 열리는 상반기 빅스마일데이. 날짜는 4월 말에 발표돼요."
+  },
+  {
+    "id": "618-2027",
+    "name": "618 미드이어 세일",
+    "date": "2027-06-18",
+    "stores": "알리익스프레스 · 중국 쇼핑몰",
+    "scope": "overseas",
+    "status": "expected",
+    "note": "중국 상반기 최대 쇼핑데이. 6월 초부터 할인이 시작돼요."
+  },
+  {
+    "id": "prime-day-2027",
+    "name": "아마존 프라임데이",
+    "date": "2027-07-13",
+    "end": "2027-07-16",
+    "stores": "아마존",
+    "scope": "overseas",
+    "status": "expected",
+    "note": "매년 7월 중순. 프라임 회원 전용이라 미리 가입 여부를 확인하세요. 날짜는 6월에 발표돼요."
+  },
+  {
+    "id": "prime-big-deal-2027",
+    "name": "아마존 프라임 빅딜데이",
+    "date": "2027-10-05",
+    "end": "2027-10-06",
+    "stores": "아마존",
+    "scope": "overseas",
+    "status": "expected",
+    "note": "10월 초 가을 프라임 세일. 블프 전 미리 사기 좋은 날이에요."
   }
 ]
