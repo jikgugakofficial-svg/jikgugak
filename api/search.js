@@ -42,7 +42,8 @@ export default async function handler(req, res) {
   const biz = {
     keywords: q,
     page_no: '1',
-    page_size: '12',
+    page_size: '20',
+    sort: 'LAST_VOLUME_DESC', // 많이 팔린 순: 검색어와 무관한 신규·무판매 상품이 위로 오는 걸 막아요
     target_currency: 'KRW',
     target_language: 'KO',
     ship_to_country: 'KR',
@@ -72,7 +73,7 @@ export default async function handler(req, res) {
       rating: p.evaluate_rate || '',
       shop: p.shop_name || '',
       category: p.first_level_category_name || ''
-    })).filter((p) => p.price > 0);
+    })).filter((p) => p.price > 0).slice(0, 12);
     return send(res, 200, { ok: true, q, source: 'aliexpress', items }, 3600);
   } catch (e) {
     return send(res, 502, { ok: false, reason: 'error' });
