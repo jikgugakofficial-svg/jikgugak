@@ -26,3 +26,11 @@ assert.ok(/케이스/.test(r2[0].title), '케이스 검색은 케이스가 1위'
 const r3 = rank([mk('갤럭시 버즈 2024', 50000), mk('갤럭시 버즈 2 프로', 60000)], '버즈2');
 assert.equal(r3[0].title, '갤럭시 버즈 2 프로');
 console.log('검색 순위 점검 통과');
+// 관련 없는 상품(숫자만 겹침)은 빠져요
+import { rank as rank2, queryVariants } from '../src/rank.js';
+const junk = rank2([mk('남성 시계 200m 방수 2', 51000), mk('에어팟 2세대 무선 이어폰', 89000)], '에어팟2');
+assert.equal(junk.length, 1);
+assert.deepEqual(queryVariants('에어팟2'), ['에어팟 2', 'airpods 2']);
+// 영어 상품명도 한글 검색어에 걸려요
+assert.equal(rank2([mk('Apple AirPods 2nd gen wireless', 90000)], '에어팟').length, 1);
+console.log('관련도 필터 점검 통과');

@@ -17,6 +17,17 @@ const deck = JSON.parse(await readFile(path.join(dir, 'cards.json'), 'utf8'));
 const handle = deck.handle || '@jikgugak';
 const slides = deck.slides || [];
 const N = slides.length;
+const imgCache = {};
+async function dataUrl(rel) {
+  if (!rel) return '';
+  if (!imgCache[rel]) {
+    const buf = await readFile(path.join(dir, rel));
+    const ext = rel.toLowerCase().endsWith('.png') ? 'png' : 'jpeg';
+    imgCache[rel] = `data:image/${ext};base64,${buf.toString('base64')}`;
+  }
+  return imgCache[rel];
+}
+for (const s of slides) if (s.image) await dataUrl(s.image);
 const esc = (s = '') => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const br = (s = '') => esc(s).replace(/\n/g, '<br>');
 
@@ -32,8 +43,9 @@ function slideHtml(s, i) {
         ${s.kicker ? `<div class="kicker">${br(s.kicker)}</div>` : ''}
         <h1 class="cover-t">${br(s.title)}</h1>
         ${s.sub ? `<p class="cover-s">${br(s.sub)}</p>` : ''}
-        ${s.badge ? `<div class="badge">${br(s.badge)}</div>` : ''}`;
-      return `<section class="slide cover">${inner}${foot}</section>`;
+        ${s.badge ? `<div class="badge">${br(s.badge)}</div>` : ''}
+        ${s.image ? `<div class="cover-img"><img src="${imgCache[s.image]}" alt=""></div>` : ''}`;
+      return `<section class="slide cover${s.image ? ' has-img' : ''}">${inner}${foot}</section>`;
     case 'compare':
       inner = `<h2>${br(s.title)}</h2>
         <div class="rows">${(s.rows || []).map(([label, value, tone]) => `<div class="row ${tone || ''}"><span>${br(label)}</span><b>${br(value)}</b></div>`).join('')}</div>
@@ -52,7 +64,7 @@ function slideHtml(s, i) {
       inner = `<h2 class="cta-t">${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}<div class="cta-btn">${br(s.button || '프로필 링크 → jikgugak.com')}</div>`;
       return `<section class="slide ctaslide">${n}${inner}${foot}</section>`;
     default: // point
-      inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2>${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}${s.big ? `<div class="big">${br(s.big)}</div>` : ''}`;
+      inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2>${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}${s.big ? `<div class="big">${br(s.big)}</div>` : ''}${s.image ? `<div class="pt-img"><img src="${imgCache[s.image]}" alt=""></div>` : ''}`;
   }
   return `<section class="slide">${n}<div class="content">${inner}</div>${foot}</section>`;
 }
@@ -75,6 +87,11 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .kicker{font-size:44px;font-weight:800;color:#FFE14D}
 .cover-t{font-size:118px;line-height:1.14;font-weight:900;letter-spacing:-4px}
 .cover-s{font-size:46px;line-height:1.45;font-weight:600;opacity:.95}
+.cover.has-img{justify-content:flex-start;padding-top:140px;gap:26px}
+.cover.has-img .cover-t{font-size:104px}
+.cover-img{margin-top:auto;align-self:center;width:520px;height:520px;background:#fff;border-radius:44px;padding:26px;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.cover-img img,.pt-img img{width:100%;height:100%;object-fit:contain;display:block}
+.pt-img{align-self:center;width:420px;height:420px;background:#fff;border:3px solid #E6E8EC;border-radius:36px;padding:20px}
 .badge{align-self:flex-start;background:#FFE14D;color:#16181D;font-size:40px;font-weight:900;padding:16px 30px;border-radius:999px}
 .rows{display:flex;flex-direction:column;gap:22px}
 .row{display:flex;justify-content:space-between;align-items:center;gap:30px;background:#F5F6F8;border-radius:28px;padding:38px 46px;font-size:46px;font-weight:600}
@@ -106,7 +123,7 @@ await page.setContent(html, { waitUntil: 'load' });
 const els = await page.$$('section.slide');
 const overflow = [];
 for (let i = 0; i < els.length; i++) {
-  const over = await els[i].evaluate((el) => [...el.querySelectorAll('h1,h2,.body,.rows,.recap,.vbox,.big,.cover-s,.badge,.cta-btn')].some((c) => c.scrollWidth > c.clientWidth + 2 || c.getBoundingClientRect().bottom > el.getBoundingClientRect().bottom - 140));
+  const over = await els[i].evaluate((el) => [...el.querySelectorAll('h1,h2,.body,.rows,.recap,.vbox,.big,.cover-s,.badge,.cta-btn,.cover-img,.pt-img')].some((c) => c.scrollWidth > c.clientWidth + 2 || c.getBoundingClientRect().bottom > el.getBoundingClientRect().bottom - 140));
   if (over) overflow.push(i + 1);
   await els[i].screenshot({ path: path.join(outDir, String(i + 1).padStart(2, '0') + '.png') });
 }

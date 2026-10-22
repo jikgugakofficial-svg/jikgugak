@@ -77,8 +77,10 @@ if (q) {
           : '가격을 불러오지 못했어요. 잠시 뒤 다시 검색해 주세요.';
         return;
       }
-      if (!d.items.length) { statusEl.textContent = '알리익스프레스에서 상품을 찾지 못했어요. 영어나 다른 이름으로 검색해 보세요.'; return; }
-      statusEl.textContent = '';
+      if (!d.items.length) { statusEl.textContent = '알리익스프레스에서 이 상품을 찾지 못했어요. 모델명이나 영어 이름으로 검색해 보세요.'; return; }
+      statusEl.textContent = d.mainFound === false
+        ? '알리익스프레스에는 이 상품 본품이 거의 없고 액세서리·호환품만 보여요. 정품은 쿠팡·아마존 가격과 비교해 보세요.'
+        : '';
       d.items.forEach((it) => list.appendChild(row(it)));
     })
     .catch(() => { statusEl.textContent = '가격을 불러오지 못했어요. 잠시 뒤 다시 검색해 주세요.'; });

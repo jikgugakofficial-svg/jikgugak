@@ -2,7 +2,7 @@
 // 알리익스프레스 제휴 API(aliexpress.affiliate.product.query)로 상품·원화 가격·제휴 링크를 가져와요.
 // 키는 Vercel 환경 변수 ALI_APP_KEY, ALI_APP_SECRET(, ALI_TRACKING_ID)에만 넣어요. 코드·저장소에는 절대 적지 않아요.
 import crypto from 'node:crypto';
-import { rank } from '../src/rank.js';
+import { rank, queryVariants } from '../src/rank.js';
 
 const API = 'https://api-sg.aliexpress.com/sync';
 
@@ -64,10 +64,12 @@ export default async function handler(req, res) {
 
   try {
     // 두 가지로 찾아 합쳐요: 기본(검색어 관련도) + 많이 팔린 순. 순위는 src/rank.js가 다시 매겨요.
-    const [byRel, byVol] = await Promise.all([query(base), query({ ...base, sort: 'LAST_VOLUME_DESC' })]);
-    if (byRel.error && byVol.error) return send(res, 502, { ok: false, reason: 'upstream', detail: byRel.error });
+    // 검색어 후보(원래 말 + 영어로 바꾼 말) × (관련도순, 판매순)
+    const variants = queryVariants(q).slice(0, 2);
+    const results = await Promise.all(variants.flatMap((kw) => [query({ ...base, keywords: kw }), query({ ...base, keywords: kw, sort: 'LAST_VOLUME_DESC' })]));
+    if (results.every((r) => r.error)) return send(res, 502, { ok: false, reason: 'upstream', detail: results[0].error });
     const seen = new Set();
-    const items = [...(byRel.list || []), ...(byVol.list || [])].map((p) => ({
+    const items = results.flatMap((r) => r.list || []).map((p) => ({
       id: String(p.product_id),
       title: p.product_title,
       price: num(p.target_sale_price || p.sale_price),
@@ -84,7 +86,8 @@ export default async function handler(req, res) {
       const { _score, _why, ...rest } = x;
       return rest;
     });
-    return send(res, 200, { ok: true, q, source: 'aliexpress', items: ranked, ...(debug ? { pool: items.length } : {}) }, debug ? 0 : 3600);
+    const mainFound = ranked.some((x) => !x.accessory);
+    return send(res, 200, { ok: true, q, source: 'aliexpress', items: ranked, mainFound, ...(debug ? { pool: items.length, variants } : {}) }, debug ? 0 : 3600);
   } catch (e) {
     return send(res, 502, { ok: false, reason: 'error' });
   }
