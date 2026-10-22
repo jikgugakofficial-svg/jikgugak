@@ -450,7 +450,7 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .p-photos.n3 img { height: auto; aspect-ratio: 1 / 1; }
 
 /* 쿠팡 검색 위젯 + 검색어 복사 */
-.s-cp { margin: 0 0 16px; padding: 16px; border: 1px solid var(--line-strong); border-radius: var(--radius); background: #fff; transition: box-shadow .3s; }
+.s-cp { margin: 0; padding: 14px; border: 1px solid var(--line-strong); border-radius: var(--radius); background: #fff; transition: box-shadow .3s; }
 .s-cp[hidden] { display: none; }
 .s-cp.flash { box-shadow: 0 0 0 3px var(--yellow); }
 .s-cp-head { display: flex; flex-direction: column; gap: 2px; margin-bottom: 10px; }
@@ -459,3 +459,6 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .s-cp-msg { color: var(--ink); font-weight: 700; }
 .s-cp-frame { display: block; width: 100%; border: 0; }
 .linklike { background: none; border: 0; padding: 0; color: inherit; text-decoration: underline; cursor: pointer; font: inherit; text-align: left; }
+.s-tap { cursor: pointer; }
+.s-item.open { border-color: var(--line-strong); }
+.s-cp-slot:empty { display: none; }

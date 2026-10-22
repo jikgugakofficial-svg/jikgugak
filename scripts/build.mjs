@@ -482,7 +482,7 @@ function pageSearch() {
   <p class="s-status" data-s-status role="status" aria-live="polite"></p>
   <ol class="s-list" data-s-list></ol>
   ${site.coupangSearchWidget ? `<div class="s-cp" id="s-cp" data-s-cp hidden>
-    <div class="s-cp-head"><b>쿠팡 가격도 확인해 보세요</b><span class="muted small">검색어를 복사해서 아래 쿠팡 검색창에 붙여 넣으면 돼요</span></div>
+    <div class="s-cp-head"><b>① 쿠팡 최저가 찾기</b><span class="muted small">검색어를 복사해서 아래 쿠팡 검색창에 붙여 넣고 검색하세요</span></div>
     <div class="s-cp-row"><code class="s-cp-q" data-s-cp-q></code><button type="button" class="btn btn-ink small" data-s-cp-copy>검색어 복사</button><span class="s-cp-msg small" data-s-cp-msg role="status" aria-live="polite"></span></div>
     <iframe class="s-cp-frame" src="${esc(site.coupangSearchWidget)}" width="100%" height="75" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" title="쿠팡 검색" loading="lazy"></iframe>
     <p class="muted small">이 검색창은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
@@ -501,8 +501,9 @@ function pageSearch() {
       </div>
     </div>
     <div class="s-judge" hidden>
+      <div class="s-cp-slot"></div>
       <div class="s-grid">
-        <div class="field"><label>국내 최저가 (원)</label><input class="s-dom-in" type="number" inputmode="numeric" min="0" step="100" placeholder="쿠팡·네이버 최저가"><small>${site.coupangSearchWidget ? '<button type="button" class="linklike s-dom-copy">이 상품 검색어 복사 → 쿠팡에서 찾기</button>' : '<a class="s-dom-coupang" target="_blank" rel="noopener">쿠팡에서 같은 상품 찾기</a>'}</small></div>
+        <div class="field"><label>${site.coupangSearchWidget ? '② ' : ''}국내 최저가 (원)</label><input class="s-dom-in" type="number" inputmode="numeric" min="0" step="100" placeholder="쿠팡·네이버 최저가">${site.coupangSearchWidget ? '<small>위 쿠팡 검색에서 찾은 가격을 넣어 주세요</small>' : '<small><a class="s-dom-coupang" target="_blank" rel="noopener">쿠팡에서 같은 상품 찾기</a></small>'}</div>
         <div class="field"><label>국제 배송비 (원)</label><input class="s-ship-in" type="number" inputmode="numeric" min="0" step="100" value="0"><small>무료배송이면 0</small></div>
         <div class="field s-wide"><label>품목</label><select class="s-cat">${catOpts}</select></div>
       </div>

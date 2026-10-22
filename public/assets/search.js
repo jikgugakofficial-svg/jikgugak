@@ -23,12 +23,18 @@ async function copyText(t) {
 async function copyForCoupang(t) {
   setCpQuery(t);
   const ok = await copyText(t);
-  const msg = cp.querySelector('[data-s-cp-msg]');
-  msg.textContent = ok ? '복사했어요! 아래 쿠팡 검색창에 붙여 넣고 검색하세요.' : '복사가 안 되면 위 검색어를 길게 눌러 복사해 주세요.';
+  cp.querySelector('[data-s-cp-msg]').textContent = ok ? '복사했어요! 아래 쿠팡 검색창에 붙여 넣으세요.' : '복사가 안 되면 검색어를 길게 눌러 복사해 주세요.';
   cp.classList.add('flash'); setTimeout(() => cp.classList.remove('flash'), 1200);
-  cp.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 if (cp) cp.querySelector('[data-s-cp-copy]').addEventListener('click', () => copyForCoupang(cp.querySelector('[data-s-cp-q]').textContent));
+// 펼친 상품 아래로 쿠팡 위젯을 옮겨요(위젯은 하나만 두고 위치만 바꿔요)
+function attachCp(li, query) {
+  if (!cp) return;
+  li.querySelector('.s-cp-slot').appendChild(cp);
+  cp.hidden = false;
+  setCpQuery(query);
+  cp.querySelector('[data-s-cp-msg]').textContent = '';
+}
 
 document.getElementById('sq').value = q;
 const headerQ = document.getElementById('q');
@@ -54,7 +60,6 @@ if (q) {
   const more = live.querySelector('[data-s-more]');
   const cpLink = live.querySelector('[data-s-coupang]');
   if (cpLink) cpLink.href = coupangSearch(q);
-  if (cp) { cp.hidden = false; setCpQuery(q); }
   live.querySelector('[data-s-naver]').href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(q)}`;
   more.hidden = false;
   const amz = live.querySelector('[data-s-amazon]');
@@ -110,8 +115,6 @@ function row(it) {
   $('.s-buy').href = it.link;
   const domCp = $('.s-dom-coupang');
   if (domCp) domCp.href = coupangSearch(shortQuery(it.title));
-  const domCopy = $('.s-dom-copy');
-  if (domCopy) domCopy.addEventListener('click', () => copyForCoupang(shortQuery(it.title)));
   const cat = $('.s-cat');
   cat.value = guessCat(it.category);
   const result = $('.s-result');
@@ -131,12 +134,23 @@ function row(it) {
     result.innerHTML = `<b class="s-vword">${V[1]}</b><span>${V[2]}</span><small>해외 체감가 ₩${krw(total)} (${c.dutyFree ? `면세 한도 $${c.limit} 안` : `한도 $${c.limit} 초과 · 관부가세 ₩${krw(total - cif)} 포함`})</small>`;
   }
 
-  $('.s-open').addEventListener('click', () => {
+  function toggle(open) {
     const j = $('.s-judge');
-    j.hidden = !j.hidden;
-    $('.s-open').textContent = j.hidden ? '국내가 넣고 판정' : '판정 닫기';
-    if (!j.hidden) { render(); $('.s-dom-in').focus(); }
-  });
+    const willOpen = open ?? j.hidden;
+    if (willOpen) {
+      // 다른 펼친 상품은 닫아요(쿠팡 위젯이 한 곳에만 있도록)
+      list.querySelectorAll('.s-item.open').forEach((o) => { if (o !== li) o.closeJudge(); });
+      attachCp(li, shortQuery(it.title));
+    }
+    j.hidden = !willOpen;
+    li.classList.toggle('open', willOpen);
+    $('.s-open').textContent = willOpen ? '판정 닫기' : '국내가 넣고 판정';
+    if (willOpen) { render(); li.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  }
+  li.closeJudge = () => toggle(false);
+  $('.s-open').addEventListener('click', () => toggle());
+  // 사진·상품명을 눌러도 펼쳐져요
+  for (const el of [$('.s-title'), li.querySelector('.s-img')]) if (el) { el.classList.add('s-tap'); el.addEventListener('click', () => toggle(true)); }
   cat.addEventListener('change', render);
   $('.s-dom-in').addEventListener('input', render);
   $('.s-ship-in').addEventListener('input', render);
