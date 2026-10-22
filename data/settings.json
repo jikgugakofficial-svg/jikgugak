@@ -29,5 +29,10 @@
   "affiliatePending": [
     "iherb"
   ],
-  "coupangSearchWidget": "https://coupa.ng/cqkFM5"
+  "coupangSearchWidget": "https://coupa.ng/cqkFM5",
+  "payFx": {
+    "usdKrw": 1325.5,
+    "date": "2026-10-22",
+    "label": "결제 환율(매매기준율) 1,325.50원/달러 (2026.10.22 한국수출입은행)"
+  }
 }

@@ -1,0 +1,26 @@
+# 카드뉴스 이미지 규격 (card-designer)
+
+- 크기 1080×1350(4:5) PNG. 글자는 32px 이상(폰에서 1/3 크기로 보임). 바깥 120px 안쪽에만 중요한 글자.
+- 색: 직구각 빨강 #D23A10 · 노랑 #FFE14D · 잉크 #16181D · 판정색(직구각 초록 #0E7C4A, 애매 #8A5A00, 국내가 나음 파랑 #2F5FD0).
+- 브랜드 로고·상품 사진은 넣지 않아요(사진이 꼭 필요하면 운영자가 제휴 프로그램 이미지를 직접 붙이도록 `instagram.md`에 메모).
+- 제작: `content/<폴더>/cards.json` 작성 → `node tools/cards/render.mjs content/<폴더>` → `cards/01.png …`, `cards/deck.html`.
+- 렌더가 "⚠ 글자가 넘칠 수 있는 장"을 알려 주면 문구를 줄이고 다시 렌더. 마지막엔 PNG를 Read로 직접 열어 눈으로 확인.
+
+## cards.json
+```json
+{
+  "handle": "@jikgugak",
+  "ad": true,
+  "alt": "표지 대체 텍스트",
+  "slides": [
+    { "type": "cover", "kicker": "작은 윗글", "title": "6~12자 훅\n두 줄까지", "sub": "한 줄 약속", "badge": "선택: 노란 배지" },
+    { "type": "point", "label": "선택: 노란 라벨", "title": "제목 7~15자", "body": "설명 40자 이내", "big": "선택: 큰 숫자" },
+    { "type": "compare", "title": "비교 제목", "rows": [["쿠팡", "₩71,570", "dim"], ["아마존가 이하면 직구각", "$43", "hi"]], "note": "작은 주석" },
+    { "type": "verdict", "verdict": "good|meh|bad|wait", "word": "선택: 판정 단어 바꾸기", "line": "판정 아래 한 줄", "title": "제목", "body": "설명" },
+    { "type": "recap", "title": "정리", "items": ["한 줄", "한 줄", "한 줄"] },
+    { "type": "cta", "title": "저장해 두세요", "body": "한 줄", "button": "프로필 링크 → jikgugak.com" }
+  ]
+}
+```
+- rows 세 번째 값: `hi`(빨강 강조) · `good`(초록) · `dim`(흐리게) · 비우면 회색.
+- 줄바꿈은 `\n`. 한 장의 글자 수가 많으면 두 장으로 나눠요.

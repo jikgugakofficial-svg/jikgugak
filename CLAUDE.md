@@ -6,7 +6,8 @@
 - `data/products.json` 상품, `data/events.json` 세일 일정, `data/settings.json` 환율·판정 기준·제휴 ID
 - `src/calc.js` 관세·판정 계산(사이트와 브라우저가 같이 씀), `scripts/build.mjs` 정적 사이트 생성 → `dist/`
 - `api/search.js` 알리 제휴 API 검색(Vercel 서버 함수, 키는 Vercel 환경 변수에만)
-- `content/` 홍보 글 초안, `docs/faq.md` 고객 문의 답변 기준
+- `content/YYYY-MM-DD-주제/` 홍보 세트(brief·blog·instagram·threads·cards), `docs/marketing/` 말투·플레이북·검수표·카드 규격, `tools/cards/render.mjs` 카드 이미지 생성
+- `docs/faq.md` 고객 문의 답변 기준
 - 확인: `npm test`(계산) → `npm run build` → `node scripts/audit.mjs`(점검). 배포는 main에 push하면 Vercel이 자동으로 해요.
 
 ## 판정 규칙
@@ -31,7 +32,12 @@
 | sale-scout | 세일 일정 확인·추가, 주간 환율 | haiku |
 | site-inspector | 빌드·점검·화면 확인, 문제 보고(수정 안 함) | haiku |
 | product-scout | 새 상품 후보 발굴·판정 초안 | sonnet |
-| content-writer | 블로그·인스타·스레드 글 초안 | sonnet |
+| **마케팅팀** (`docs/marketing/` 가이드 공용) | | |
+| marketing-lead (팀장) | 홍보 기획안·주간 계획, 결과물 최종 검수(숫자·규칙·말투)·직접 수정 | opus |
+| trend-scout | 소재·상위 글 구조·훅 패턴 조사 | haiku |
+| blog-writer | 네이버 블로그 글 | sonnet |
+| social-writer | 인스타 카드뉴스 문구·캡션·릴스 대본·스레드 | sonnet |
+| card-designer | 카드뉴스 이미지(1080×1350) 제작·확인 | sonnet |
 | cs-responder | 고객 문의 답장 초안(발송 안 함) | sonnet |
 
 매니저(메인 세션)가 일을 나눠 맡기고, 결과를 검토한 뒤 커밋·푸시해요. 직원은 커밋·푸시하지 않아요.
@@ -48,7 +54,7 @@
 | 가격·판정이 틀렸다, 가격 바뀌었나, 정기 가격 점검 | price-checker → site-inspector |
 | 세일·행사·캘린더·블프·환율 | sale-scout → site-inspector |
 | 상품 추가, 이런 상품도 판정해 줘, 상품이 적다 | product-scout → (매니저가 제휴 링크 생성) → site-inspector |
-| 홍보, 블로그, 인스타, 스레드, 방문자 늘리기 | content-writer (필요하면 product-scout로 소재 먼저) |
+| 홍보, 블로그, 인스타, 스레드, 카드뉴스, 방문자 늘리기 | (소재가 없으면 trend-scout) → marketing-lead 기획 → blog-writer·social-writer 동시 → card-designer → marketing-lead 검수 → 운영자에게 게시 승인 요청 |
 | 고객 문의·메일·댓글·DM 내용, 답장 | cs-responder (판정 오류 신고면 price-checker 추가) |
 | 사이트 확인, 점검, 배포 전, 뭔가 이상하다 | site-inspector → 문제 유형별 직원 |
 | 코드·디자인·화면 수정, 새 기능 | 매니저가 직접 (끝나면 site-inspector) |
