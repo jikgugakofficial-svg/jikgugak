@@ -42,3 +42,9 @@ const ap = rank2([
 assert.ok(ap.every((x) => x.accessory), 'AirPods 액세서리는 모두 액세서리로');
 assert.ok(rank2([mk('샤오미 로봇청소기 S10', 300000)], '로봇청소기')[0].accessory === false, '검색어에 있는 말은 액세서리로 안 봐요');
 console.log('액세서리 판별 점검 통과');
+import { comparability } from '../src/rank.js';
+assert.equal(comparability('베이스어스 EP10 NC 노이즈 캔슬링 이어폰').comparable, true);
+assert.equal(comparability('로지텍 G304 라이트스피드 무선 게이밍 마우스').model, 'g304');
+assert.equal(comparability('무선 블루투스 이어폰 5.3 TWS 65W 고속 충전').comparable, false);
+assert.equal(comparability('8 in 1 USB C 허브 확장 멀티포트 4K 100W').comparable, false);
+console.log('비교 가능 판별 점검 통과');

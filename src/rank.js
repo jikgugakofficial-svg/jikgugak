@@ -20,6 +20,23 @@ export const ALIASES = {
   '키보드': ['keyboard'], '마우스': ['mouse'], '이어폰': ['earphone', 'earbuds'], '헤드폰': ['headphone', 'headphones'], '충전기': ['charger'],
   '보조배터리': ['power bank'], '허브': ['hub'], '텀블러': ['tumbler'], '스탠리': ['stanley'], '크록스': ['crocs'], '프로틴': ['protein'], '그라인더': ['grinder']
 };
+// 국내(쿠팡 등)에서도 같은 모델을 찾을 수 있는 브랜드
+export const BRANDS = ['baseus', 'ugreen', 'anker', 'xiaomi', 'redmi', 'mi ', 'qcy', 'lenovo', 'logitech', 'sony', 'samsung', 'apple', 'lego', 'dyson', 'nintendo',
+  'soundpeats', 'edifier', 'haylou', 'tronsmart', 'realme', 'oneplus', 'huawei', 'honor', 'tp-link', 'orico', 'essager', 'hoco', 'joyroom', 'remax', '70mai',
+  'dreame', 'roborock', 'ecovacs', 'insta360', 'dji', 'fifine', 'maono', 'keychron', 'royal kludge', 'akko', 'ajazz', 'redragon', 'aula', 'attack shark',
+  'philips', 'braun', 'jbl', 'bose', 'garmin', 'amazfit', 'xiaomi', 'ulefone', 'blackview', 'xteink', 'trimui', 'anbernic', 'miyoo', 'powkiddy', 'timemore', 'stanley',
+  '베이스어스', '유그린', '앤커', '샤오미', '레드미', '큐씨와이', '레노버', '로지텍', '소니', '삼성', '애플', '레고', '다이슨', '닌텐도', '사운드피츠', '에디파이어',
+  '하이루', '키크론', '로보락', '드리미', '어메이즈핏', '필립스', '타임모어', '스탠리', '앤버닉'];
+const SPEC = /^\d+(\.\d+)?(w|mah|hz|khz|k|p|gb|tb|mm|cm|m|g|kg|v|a|ml|l|pcs|pc|in|ft|db|mbps|gbps|x|ch|bit)$/;
+const NOT_MODEL = /^(usb\d*|tws|rgb|pd\d*|qc\d*|bt\d*|anc|hdmi\d*|ipx\d|ip\d+|type-?c|usb-?c|wifi\d*|wi-?fi\d*|5g|4g|3d|2in1|3in1|\d+in\d+|mp\d|h\d{3}|ddr\d|nvme|m2|1st|2nd|3rd|\d+th|v\d(\.\d)?|\d+s)$/;
+// 상품명에서 브랜드·모델명 찾기 (둘 중 하나라도 있으면 국내 같은 상품과 비교할 수 있어요)
+export function comparability(title) {
+  const tl = String(title || '').toLowerCase();
+  const brand = BRANDS.find((b) => (/[a-z]/.test(b) ? new RegExp(`(^|[^a-z])${b.trim()}([^a-z]|$)`).test(tl) : tl.includes(b)));
+  const words = tl.split(/[\s,()/|\[\]+]+/).map((w) => w.replace(/^[^a-z0-9]+|[^a-z0-9-]+$/g, ''));
+  const model = words.find((w) => w.length >= 2 && w.length <= 12 && /[a-z]/.test(w) && /\d/.test(w) && !SPEC.test(w) && !NOT_MODEL.test(w));
+  return { brand: brand ? brand.trim() : '', model: model || '', comparable: Boolean(brand || model) };
+}
 const lower = (s) => String(s || '').toLowerCase();
 const compact = (s) => lower(s).replace(/[\s\-_/·,.()[\]{}+]+/g, '');
 
@@ -77,12 +94,13 @@ export function rank(items, q, { limit = 12 } = {}) {
   for (const r of rows) {
     const cheap = ref > 0 && r.it.price < ref * 0.3;
     r.flag = r.a.accessory || cheap;
-    r.score = r.a.coverage * 3 + (r.a.full ? 1 : 0) - (r.a.accessory ? 3 : 0) - (cheap ? 1.5 : 0) - (r.a.compat ? 0.5 : 0) + Math.log10((r.it.orders || 0) + 1) * 0.3;
+    r.cmp = comparability(r.it.title);
+    r.score = (r.cmp.comparable ? 0.7 : 0) + r.a.coverage * 3 + (r.a.full ? 1 : 0) - (r.a.accessory ? 3 : 0) - (cheap ? 1.5 : 0) - (r.a.compat ? 0.5 : 0) + Math.log10((r.it.orders || 0) + 1) * 0.3;
   }
   rows.sort((x, y) => y.score - x.score);
   return rows.slice(0, limit).map((r) => {
     const cheap = ref > 0 && r.it.price < ref * 0.3;
     const note = r.a.accessory ? '액세서리일 수 있어요' : r.a.compat ? '정품이 아닌 호환·유사품일 수 있어요' : cheap ? '다른 결과보다 훨씬 싸요 · 구성 확인' : '';
-    return { ...r.it, accessory: r.flag, note, _score: Math.round(r.score * 100) / 100, _why: [r.a.accWord, r.a.compat ? '호환' : '', cheap ? '저가' : '', `일치 ${Math.round(r.a.coverage * 100)}%`].filter(Boolean).join(' ') };
+    return { ...r.it, accessory: r.flag, note, brand: r.cmp.brand, model: r.cmp.model, comparable: r.cmp.comparable, _score: Math.round(r.score * 100) / 100, _why: [r.a.accWord, r.a.compat ? '호환' : '', cheap ? '저가' : '', `일치 ${Math.round(r.a.coverage * 100)}%`].filter(Boolean).join(' ') };
   });
 }

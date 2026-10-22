@@ -462,3 +462,7 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .s-tap { cursor: pointer; }
 .s-item.open { border-color: var(--line-strong); }
 .s-cp-slot:empty { display: none; }
+.s-cmp { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+.s-cmp.yes { background: var(--good-tint); color: var(--good); }
+.s-cmp.no { background: var(--bg2); color: var(--sub); }
+.s-result span { display: block; margin-top: 4px; }

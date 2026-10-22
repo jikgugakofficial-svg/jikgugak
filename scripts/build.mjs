@@ -473,6 +473,7 @@ function pageSearch() {
   <input id="sq" name="q" type="search" placeholder="예: 무선 이어폰, USB-C 허브, 레고" autocomplete="off">
   <button type="submit" class="btn btn-buy">검색</button>
 </form>
+<p class="s-tip muted small">브랜드·모델명으로 검색하면 국내 같은 상품과 비교하기 쉬워요. 예: ${['베이스어스 65W', '로지텍 G304', 'QCY T13', '유그린 허브', '레고 10280'].map((k) => `<a href="/search?q=${encodeURIComponent(k)}">${esc(k)}</a>`).join(' · ')}</p>
 <section class="block" data-s-curated hidden>
   <h2 class="h2">직구각이 이미 판정한 상품</h2>
   <div class="grid">${items.map(card).join('\n')}</div>

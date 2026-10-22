@@ -119,6 +119,16 @@ function row(it) {
   $('.s-price').textContent = '₩' + krw(it.price);
   if (it.original > it.price) $('.s-orig').textContent = '₩' + krw(it.original); else $('.s-orig').remove();
   $('.s-mall').textContent = [it.note || (it.accessory ? '액세서리일 수 있어요' : ''), it.orders ? `${krw(it.orders)}개 판매` : '', it.rating ? `평점 ${it.rating}` : ''].filter(Boolean).join(' · ');
+  // 국내에 같은 상품이 있을지: 브랜드·모델명이 있으면 비교 가능, 노브랜드면 '비슷한 상품'으로
+  const tag = document.createElement('span');
+  tag.className = 's-cmp ' + (it.comparable ? 'yes' : 'no');
+  const ident = [it.brand, it.model ? it.model.toUpperCase() : ''].filter(Boolean).join(' ');
+  tag.textContent = it.comparable ? `국내 비교 가능${ident ? ' · ' + ident : ''}` : '노브랜드 · 국내 같은 상품이 드물어요';
+  $('.s-meta').appendChild(tag);
+  if (!it.comparable) {
+    const lab = li.querySelector('.s-dom-in').closest('.field').querySelector('label');
+    lab.textContent = lab.textContent.replace('국내 최저가', '비슷한 국내 상품 가격');
+  }
   $('.s-buy').href = it.link;
   const domCp = $('.s-dom-coupang');
   if (domCp) domCp.href = coupangSearch(shortQuery(it.title));
@@ -129,11 +139,15 @@ function row(it) {
   function render() {
     const dom = Number($('.s-dom-in').value);
     const ship = Number($('.s-ship-in').value) || 0;
-    if (!dom) { result.className = 's-result'; result.innerHTML = `국내 최저가를 넣으면 알리 가격 <b>₩${krw(it.price)}</b>와 비교해요.`; return; }
     const c = landedCost({ priceUsd: it.price / FX, shipUsd: ship / FX, origin: 'other', method: 'express', category: cat.value, fx: FX });
     const cif = Math.floor(it.price + ship);
     const duty = c.dutyFree ? 0 : Math.floor(cif * c.rate);
     const total = c.dutyFree ? cif : cif + duty + Math.floor((cif + duty) * 0.1);
+    if (!dom) {
+      result.className = 's-result';
+      result.innerHTML = `직구 최종가 <b>₩${krw(total)}</b> <small>(${c.dutyFree ? `면세 한도 $${c.limit} 안 · 관부가세 0원` : `한도 $${c.limit} 초과 · 관부가세 ₩${krw(total - cif)} 포함`})</small><span>${it.comparable ? '쿠팡에서 같은 모델 가격을 찾아 넣으면 판정해요.' : '노브랜드라 똑같은 국내 상품은 드물어요. 비슷한 국내 상품 가격을 넣으면 얼마나 아끼는지 보여 드려요.'}</span>`;
+      return;
+    }
     const j = judge(dom, total, RULE);
     const pct = Math.round(Math.abs(j.pct) * 100);
     const V = { good: ['v-good', '직구각', `국내보다 ${pct}% 싸요 · ₩${krw(j.diff)} 아껴요`], meh: ['v-meh', '애매', `₩${krw(j.diff)} 싸지만 배송 기간·반품을 생각하면 애매해요`], bad: ['v-bad', '국내가 나음', `국내가 ₩${krw(-j.diff)} 더 싸요`] }[j.verdict] || ['', '-', ''];
