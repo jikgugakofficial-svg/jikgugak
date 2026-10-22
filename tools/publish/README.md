@@ -26,4 +26,4 @@ GitHub Actions(`.github/workflows/publish.yml`)가 push 직후와 매시 7분에
 - `THREADS_TOKEN`: 스레드 장기 토큰(Meta 앱 Threads 사용 사례 → 사용자 토큰 생성기)
 - `GH_PAT`: 토큰 자동 연장용(이 저장소 Secrets 읽기·쓰기만 준 fine-grained 토큰). `refresh-tokens.yml`이 매주 월요일 연장해요. 토큰은 60일 안 쓰면 만료.
 
-네이버 블로그는 공식 API가 없어서, 운영자 승인 뒤 매니저가 Claude in Chrome(운영자 크롬)으로 올려요.
+네이버 블로그는 공식 API가 없고 Claude 브라우저에서도 열리지 않아서, 매니저가 붙여 넣기용 게시 키트를 만들고 운영자가 직접 올려요.
