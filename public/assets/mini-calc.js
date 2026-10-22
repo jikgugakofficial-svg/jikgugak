@@ -3,6 +3,7 @@
 import { landedCost, judge, formatKrw as krw } from './calc.js';
 
 const FX = Number(document.querySelector('meta[name="jg-fx"]')?.content) || 1347.03;
+const PAYFX = Number(document.querySelector('meta[name="jg-payfx"]')?.content) || FX;
 
 document.querySelectorAll('[data-mini-calc]').forEach((form) => {
   const d = form.dataset;
@@ -14,9 +15,9 @@ document.querySelectorAll('[data-mini-calc]').forEach((form) => {
     const raw = Number(input.value);
     const isKrw = cur && cur.value === 'krw';
     input.placeholder = isKrw ? '예: 159,000' : '예: 119.99';
-    const price = isKrw ? raw / FX : raw;
+    const price = isKrw ? raw / PAYFX : raw;
     if (!price) { out.textContent = ''; return; }
-    const c = landedCost({ priceUsd: price, shipUsd: Number(d.ship), origin: d.origin, method: d.method, category: d.category, fx: FX });
+    const c = landedCost({ priceUsd: price, shipUsd: Number(d.ship), origin: d.origin, method: d.method, category: d.category, fx: FX, payFx: PAYFX });
     const j = judge(Number(d.domestic), c.total);
     const label = { good: '직구각', meh: '애매', bad: '국내가 나음' }[j.verdict];
     const why = j.verdict === 'bad' ? `국내가 ₩${krw(-j.diff)} 더 싸요` : `₩${krw(j.diff)} 아껴요`;

@@ -34,4 +34,15 @@ assert.equal(breakevenUsd({ domesticKrw: 219000, shipUsd: 10, origin: 'us', meth
 assert.equal(breakevenUsd({ domesticKrw: 89000, shipUsd: 10, origin: 'us', method: 'express', category: 'home', fx }), 42);
 assert.equal(breakevenUsd({ domesticKrw: 21000, shipUsd: 10, origin: 'us', method: 'express', category: 'book', fx }), null);
 
+// 결제 환율이 다르면: 결제액은 결제 환율, 세금은 과세 환율
+const two = landedCost({ priceUsd: 160, shipUsd: 20, origin: 'other', method: 'express', category: 'apparel', fx, payFx: 1400 });
+assert.equal(two.goodsKrw + two.shipKrw, 252000);
+assert.equal(two.duty, 31520);
+assert.equal(two.vat, 27398);
+assert.equal(two.total, 252000 + 31520 + 27398);
+// 결제 환율을 안 주면 예전과 같아요
+assert.equal(landedCost({ priceUsd: 22.4, shipUsd: 3.9, origin: 'us', method: 'express', category: 'supplement', fx }).total, 35426);
+// 손익분기도 결제 환율 반영 (면세 구간): 219000×0.8=175200 / 1400 − 10 = 115.1 → 115
+assert.equal(breakevenUsd({ domesticKrw: 219000, shipUsd: 10, origin: 'us', method: 'express', category: 'it', fx, payFx: 1400 }), 115);
+
 console.log('계산 규칙 점검 통과');

@@ -9,5 +9,11 @@
       "destination": "/sale",
       "permanent": true
     }
+  ],
+  "crons": [
+    {
+      "path": "/api/rebuild",
+      "schedule": "30 2 * * *"
+    }
   ]
 }

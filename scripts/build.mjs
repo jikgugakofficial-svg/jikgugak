@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CATEGORIES, landedCost, judge, breakevenUsd, dutyFreeLimit, formatKrw } from '../src/calc.js';
+import { loadRates } from './fx.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
@@ -12,7 +13,12 @@ const readJson = (f) => JSON.parse(fs.readFileSync(path.join(root, 'data', f), '
 const site = readJson('settings.json');
 const products = readJson('products.json');
 const events = readJson('events.json').sort((a, b) => a.date.localeCompare(b.date));
-const FX = site.fx.usdKrw;
+// 환율: 관세 계산은 관세청 과세환율(FX), 달러 결제 금액은 매매기준율(PAYFX). 빌드 때 최신값을 받아와요.
+const RATES = await loadRates(site);
+site.fx = RATES.customs;
+const FX = RATES.customs.usdKrw;
+const PAYFX = (RATES.pay && RATES.pay.usdKrw) || FX;
+const FX_LABEL = [RATES.customs.label, RATES.pay ? RATES.pay.label : ''].filter(Boolean).join(' · ');
 const RULE = site.rule;
 const BUILT = new Date();
 
@@ -73,7 +79,7 @@ function normalize(p) {
 }
 
 function evaluate(p) {
-  const ctx = { origin: p.origin, method: p.method, category: p.category, fx: FX };
+  const ctx = { origin: p.origin, method: p.method, category: p.category, fx: FX, payFx: PAYFX };
   const limit = dutyFreeLimit(ctx);
   if (p.priceUsd == null) {
     const be = breakevenUsd({ ...ctx, domesticKrw: p.domesticKrw, shipUsd: p.shipUsd }, RULE);
@@ -154,6 +160,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#D23A10">
 <meta name="jg-fx" content="${FX}">
+<meta name="jg-payfx" content="${PAYFX}">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/icon-192.png">
@@ -191,7 +198,7 @@ ${body}
     <p>직구각은 쿠팡 파트너스, 아마존 어소시에이트, 알리익스프레스${(site.affiliatePending || []).includes('iherb') ? '' : ', 아이허브'} 제휴 프로그램에 참여하고 있으며, 링크를 통한 구매 시 수수료를 받을 수 있습니다.</p>
     <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
     <p lang="en">As an Amazon Associate I earn from qualifying purchases.</p>
-    <p>표시된 관부가세와 체감가는 예상치이며, 최종 세액은 세관 고지를 따릅니다. ${esc(site.fx.label)}.</p>
+    <p>표시된 관부가세와 체감가는 예상치이며, 최종 세액은 세관 고지를 따릅니다. ${esc(FX_LABEL)}.</p>
     <p class="muted">© ${BUILT.getFullYear()} ${esc(site.businessName || site.siteName)} · 운영자 ${esc(site.operator)}</p>
   </div>
 </footer>
@@ -420,7 +427,7 @@ function pageCalculator() {
   const cats = Object.entries(CATEGORIES).map(([k, c], i) => `<button type="button" data-cat="${k}" aria-pressed="${i === 0}"><b>${esc(c.label)}</b><small>${esc(c.sub)}</small></button>`).join('');
   const body = `
 <div class="page-head"><h1 class="display">관세 계산기</h1><p class="muted">상품가와 국내 최저가만 넣으면 직구각인지 바로 판정해요.</p></div>
-<div class="calc" data-calc data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
+<div class="calc" data-calc data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
   <section class="calc-in" aria-label="입력">
     <fieldset><legend>어디서 보내나요?</legend><div class="seg" data-group="origin"><button type="button" data-val="us" aria-pressed="true">미국</button><button type="button" data-val="other" aria-pressed="false">그 외 (중국·일본·유럽)</button></div></fieldset>
     <fieldset><legend>어떻게 배송되나요?</legend><div class="seg" data-group="method"><button type="button" data-val="express" aria-pressed="true">특송·쇼핑몰 직배송</button><button type="button" data-val="post" aria-pressed="false">우편 (EMS 등)</button></div></fieldset>
@@ -444,7 +451,7 @@ function pageCalculator() {
       <div class="r-total"><span>최종 체감가</span><span data-r="total">-</span></div>
     </div>
     <div class="be" data-out-be></div>
-    <p class="muted small">${esc(site.fx.label)}. 관세율은 품목별 기본세율 예시이며, 실제 세율과 최종 세액은 <a href="https://unipass.customs.go.kr/csp/index.do" target="_blank" rel="noopener">관세청 예상세액 조회</a>와 세관 고지를 따릅니다.</p>
+    <p class="muted small">${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이며, 실제 세율과 최종 세액은 <a href="https://unipass.customs.go.kr/csp/index.do" target="_blank" rel="noopener">관세청 예상세액 조회</a>와 세관 고지를 따릅니다.</p>
   </section>
 </div>`;
   return layout({ title: '해외직구 관세 계산기', description: '미국 $200, 그 외 $150 면세 한도와 관세·부가세를 계산하고 국내 최저가와 비교해 직구할 각인지 판정해요.', urlPath: '/calculator', body, current: '/calculator', scripts: ['/assets/calculator.js'] });
@@ -464,7 +471,7 @@ function pageSearch() {
   <h2 class="h2">직구각이 이미 판정한 상품</h2>
   <div class="grid">${items.map(card).join('\n')}</div>
 </section>
-<section class="block" data-s-live hidden data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
+<section class="block" data-s-live hidden data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
   <div class="block-head"><div><h2 class="h2">알리익스프레스 실시간 가격</h2><span class="muted small">원화 판매가 기준 · 신규 회원 할인·쿠폰은 빠져 있어요</span></div></div>
   <p class="s-status" data-s-status role="status" aria-live="polite"></p>
   <ol class="s-list" data-s-list></ol>
@@ -745,4 +752,5 @@ write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="htt
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 
 console.log(`빌드 완료: 페이지 ${8 + items.length}개 → dist/`);
+console.log(`  환율: 과세 ${FX} (${RATES.customs.source}) · 결제 ${PAYFX} (${RATES.pay ? RATES.pay.source : '과세환율과 같음'})`);
 for (const p of items) console.log(`  ${p.name.padEnd(20)} ${VERDICT[p.ev.verdict].label}${p.ev.kind === 'priced' ? ` (₩${krw(p.ev.cost.total)} vs ₩${krw(p.domesticKrw)})` : p.ev.kind === 'break' ? ` (손익분기 $${p.ev.breakeven})` : ''}`);

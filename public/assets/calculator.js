@@ -3,6 +3,7 @@ import { CATEGORIES, landedCost, judge, breakevenUsd, formatKrw as krw } from '.
 
 const root = document.querySelector('[data-calc]');
 const FX = Number(root.dataset.fx);
+const PAYFX = Number(root.dataset.payfx) || FX; // 결제 금액은 매매기준율, 관세는 과세환율
 const RULE = { minSaveKrw: Number(root.dataset.minKrw), minSavePct: Number(root.dataset.minPct) };
 const state = { origin: 'us', method: 'express', category: Object.keys(CATEGORIES)[0] };
 const $ = (s) => root.querySelector(s);
@@ -35,7 +36,7 @@ function render() {
   const price = Number(inputs.price.value) || 0;
   const ship = Number(inputs.ship.value) || 0;
   const dom = Number(inputs.dom.value) || 0;
-  const ctx = { origin: state.origin, method: state.method, category: state.category, fx: FX };
+  const ctx = { origin: state.origin, method: state.method, category: state.category, fx: FX, payFx: PAYFX };
   const c = landedCost({ ...ctx, priceUsd: price, shipUsd: ship });
   const j = judge(dom, c.total, RULE);
 

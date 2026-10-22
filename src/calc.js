@@ -24,19 +24,23 @@ export function dutyFreeLimit({ origin, method, category }) {
 }
 
 // 해외 최종 체감가(원). 면세 판단은 국제 배송비를 뺀 물품가격으로, 과세는 배송비 포함 전체에.
-export function landedCost({ priceUsd, shipUsd = 0, origin, method, category, fx }) {
+// fx = 관세청 주간 과세환율(관세·부가세 계산용), payFx = 결제 환율(매매기준율, 달러 결제 금액 계산용).
+// payFx를 안 주면 과세환율로 결제 금액도 계산해요.
+export function landedCost({ priceUsd, shipUsd = 0, origin, method, category, fx, payFx }) {
+  const pay = Number(payFx) || fx;
   const cat = CATEGORIES[category] || CATEGORIES.home;
   const limit = dutyFreeLimit({ origin, method, category });
   const price = Math.max(0, Number(priceUsd) || 0);
   const ship = Math.max(0, Number(shipUsd) || 0);
   const dutyFree = price <= limit;
   // 과세가격은 달러 합계를 한 번에 원화로 바꿔요. 영수증 줄이 합계와 맞도록 배송비 줄은 차액으로 표시.
-  const cif = won((price + ship) * fx);
-  const goodsKrw = won(price * fx);
-  const shipKrw = cif - goodsKrw;
+  const cif = won((price + ship) * fx); // 과세가격(관세청 환율)
+  const paid = won((price + ship) * pay); // 실제 결제 금액(결제 환율)
+  const goodsKrw = won(price * pay);
+  const shipKrw = paid - goodsKrw;
   const duty = dutyFree ? 0 : won(cif * cat.rate);
   const vat = dutyFree ? 0 : won((cif + duty) * 0.1);
-  const total = cif + duty + vat;
+  const total = paid + duty + vat;
   let signal = 'green';
   if (!dutyFree) signal = 'red';
   else if (price > limit * 0.85) signal = 'yellow';
@@ -55,17 +59,19 @@ export function judge(domesticKrw, totalKrw, rule = DEFAULT_RULE) {
 }
 
 // 손익분기 상품가(달러): 이 가격 이하면 직구각. 어떤 가격이어도 안 되면 null.
-export function breakevenUsd({ domesticKrw, shipUsd = 0, origin, method, category, fx }, rule = DEFAULT_RULE) {
+export function breakevenUsd({ domesticKrw, shipUsd = 0, origin, method, category, fx, payFx }, rule = DEFAULT_RULE) {
+  const pay = Number(payFx) || fx;
   const cat = CATEGORIES[category] || CATEGORIES.home;
   const limit = dutyFreeLimit({ origin, method, category });
   const dom = Number(domesticKrw) || 0;
   const ship = Math.max(0, Number(shipUsd) || 0);
   const target = Math.min(dom * (1 - rule.minSavePct), dom - rule.minSaveKrw);
   if (target <= 0) return null;
-  const freeMax = target / fx - ship;
+  const freeMax = target / pay - ship;
   if (freeMax <= 0) return null;
   if (freeMax <= limit) return Math.floor(freeMax);
-  const taxedMax = target / (fx * (1 + cat.rate) * 1.1) - ship;
+  // 과세: 결제액(결제 환율) + 관세·부가세(과세 환율) = (가격+배송비) × (pay + fx × (1.1 × (1 + 관세율) − 1))
+  const taxedMax = target / (pay + fx * (1.1 * (1 + cat.rate) - 1)) - ship;
   return Math.floor(taxedMax > limit ? taxedMax : limit);
 }
 
