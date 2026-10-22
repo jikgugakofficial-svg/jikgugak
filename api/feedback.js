@@ -1,19 +1,25 @@
-// 방문자 의견(평점·의견·선택 이메일)을 운영자 메일로 보내요. Resend(이메일 발송 서비스) 사용.
-// 필요한 Vercel 환경 변수: RESEND_API_KEY(Resend에서 만든 키)
-// 선택: FEEDBACK_TO(받는 주소, 기본 jikgugak.official@gmail.com), FEEDBACK_FROM(보내는 주소, 기본 onboarding@resend.dev — 도메인 인증 전엔 Resend 가입 메일로만 보낼 수 있어요)
-const TO = process.env.FEEDBACK_TO || 'jikgugak.official@gmail.com';
-const FROM = process.env.FEEDBACK_FROM || '직구각 의견함 <onboarding@resend.dev>';
+// 방문자 의견(평점·의견·선택 이메일)을 저장해요. 운영자는 jikgugak.com/admin 에서 봐요.
+// 저장: Upstash Redis(api/_lib/store.js). 선택: RESEND_API_KEY가 있으면 운영자 메일로도 보내요.
+import { redis, storeReady, readBody, YEAR } from './_lib/store.js';
 
-function readBody(req) {
-  if (req.body && typeof req.body === 'object') return Promise.resolve(req.body);
-  return new Promise((resolve) => {
-    let raw = '';
-    req.on('data', (c) => { raw += c; if (raw.length > 20000) req.destroy(); });
-    req.on('end', () => { try { resolve(JSON.parse(raw || '{}')); } catch { resolve({}); } });
-    req.on('error', () => resolve({}));
-  });
-}
 const clean = (s, n) => String(s || '').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '').trim().slice(0, n);
+
+async function mail(rec) {
+  const key = process.env.RESEND_API_KEY;
+  if (!key) return;
+  const stars = rec.rating ? '★'.repeat(rec.rating) + '☆'.repeat(5 - rec.rating) : '평점 없음';
+  await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      from: process.env.FEEDBACK_FROM || '직구각 의견함 <onboarding@resend.dev>',
+      to: [process.env.FEEDBACK_TO || 'jikgugak.official@gmail.com'],
+      subject: `[직구각 의견] ${stars}${rec.message ? ' · ' + rec.message.split('\n')[0].slice(0, 40) : ''}`,
+      text: `평점: ${stars}\n페이지: ${rec.page || '-'}\n답장 이메일: ${rec.email || '(안 남김)'}\n\n${rec.message || '(의견 없음)'}`,
+      ...(rec.email ? { reply_to: rec.email } : {}),
+    }),
+  }).catch(() => {});
+}
 
 export default async function handler(req, res) {
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -23,49 +29,29 @@ export default async function handler(req, res) {
 
   const b = await readBody(req);
   if (b.website) return send(200, { ok: true }); // 스팸 봇용 숨은 칸
-  const rating = Math.max(0, Math.min(5, Math.round(Number(b.rating) || 0)));
-  const message = clean(b.message, 2000);
-  const email = clean(b.email, 200);
-  const page = clean(b.page, 200);
-  const kind = clean(b.kind, 20) || 'feedback';
-  if (!rating && !message) return send(400, { ok: false, reason: 'empty' });
-  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return send(400, { ok: false, reason: 'email' });
-
-  const key = process.env.RESEND_API_KEY;
-  if (!key) return send(503, { ok: false, reason: 'not_configured' });
-
-  const stars = rating ? '★'.repeat(rating) + '☆'.repeat(5 - rating) : '평점 없음';
-  const first = message.split('\n')[0].slice(0, 40);
-  const when = new Date(Date.now() + 9 * 3600e3).toISOString().replace('T', ' ').slice(0, 16) + ' KST';
-  const text = [
-    `평점: ${stars}${rating ? ` (${rating}/5)` : ''}`,
-    `받은 때: ${when}`,
-    `보낸 페이지: ${page || '-'}`,
-    `답장 이메일: ${email || '(안 남김)'}`,
-    `종류: ${kind}`,
-    '',
-    message || '(의견 없음)',
-  ].join('\n');
+  const rec = {
+    id: Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
+    at: new Date().toISOString(),
+    rating: Math.max(0, Math.min(5, Math.round(Number(b.rating) || 0))),
+    message: clean(b.message, 2000),
+    email: clean(b.email, 200),
+    page: clean(b.page, 200),
+    kind: clean(b.kind, 20) || 'feedback',
+    status: 'new',
+  };
+  if (!rec.rating && !rec.message) return send(400, { ok: false, reason: 'empty' });
+  if (rec.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(rec.email)) return send(400, { ok: false, reason: 'email' });
+  if (!storeReady()) return send(503, { ok: false, reason: 'not_configured' });
 
   try {
-    const r = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        from: FROM,
-        to: [TO],
-        subject: `[직구각 의견] ${stars}${first ? ' · ' + first : ''}`,
-        text,
-        ...(email ? { reply_to: email } : {}),
-      }),
-    });
-    if (!r.ok) {
-      console.error('resend', r.status, (await r.text()).slice(0, 300));
-      return send(502, { ok: false, reason: 'send_failed' });
-    }
-    return send(200, { ok: true });
+    await redis([
+      ['SET', `fb:${rec.id}`, JSON.stringify(rec), 'EX', String(YEAR)],
+      ['ZADD', 'fb:index', String(Date.now()), rec.id],
+    ]);
   } catch (e) {
-    console.error('resend error', e && e.message);
-    return send(502, { ok: false, reason: 'send_failed' });
+    console.error('feedback store', e.message);
+    return send(502, { ok: false, reason: 'store_failed' });
   }
+  await mail(rec);
+  return send(200, { ok: true });
 }

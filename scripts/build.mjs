@@ -770,7 +770,7 @@ function pagePrivacy() {
 <p>브라우저 설정에서 쿠키 저장을 거부하거나 삭제할 수 있어요.</p>
 <h2 id="feedback">5. 의견 보내기</h2>
 <p>사이트의 '의견 보내기'에서 남긴 평점·의견과, 선택해서 적은 이메일 주소, 보낸 페이지 주소를 받아요. 의견을 확인하고 답장하며 사이트를 고치는 데만 써요. 이메일을 남기지 않아도 의견을 보낼 수 있어요.</p>
-<p>보낸 내용은 이메일 발송 서비스 Resend(미국)를 거쳐 운영자 메일함(${esc(site.contactEmail)}, Google Gmail)으로 전달돼요. 처리가 끝난 의견은 받은 날부터 1년 안에 지우고, 그 전에 지워 달라고 하시면 바로 지워요.</p>
+<p>보낸 내용은 사이트 운영사 Vercel과 연결된 데이터 저장 서비스 Upstash(Redis)에 저장되고, 운영자만 비밀번호로 볼 수 있어요. 받은 날부터 1년이 지나면 자동으로 지워지고, 그 전에 지워 달라고 하시면 바로 지워요(${esc(site.contactEmail)}).</p>
 <p>베타 안내와 의견 창을 다시 띄우지 않기 위해, 본 페이지 수와 창을 본 날짜를 이용자의 브라우저(로컬 저장소)에만 저장해요. 서버로 보내지 않아요.</p>
 <h2>6. 문의</h2>
 <p>개인정보 관련 문의: ${esc(site.contactEmail)}</p>
@@ -808,7 +808,7 @@ for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
 
 const urls = ['/', '/sale', '/calculator', '/calendar', '/guide', ...items.map((p) => `/p/${p.slug}`), '/disclosure', '/privacy'];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${absUrl(u)}</loc><lastmod>${kstToday()}</lastmod></url>`).join('\n')}\n</urlset>\n`);
-write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
+write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 
 console.log(`빌드 완료: 페이지 ${8 + items.length}개 → dist/`);
 console.log(`  환율: 과세 ${FX} (${RATES.customs.source}) · 결제 ${PAYFX} (${RATES.pay ? RATES.pay.source : '과세환율과 같음'})`);

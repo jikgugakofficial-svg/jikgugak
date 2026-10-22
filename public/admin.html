@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>의견함 | 직구각 운영</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root { --bg:#F5F6F8; --card:#fff; --ink:#16181D; --sub:#4B5563; --muted:#6B7280; --line:#E5E7EB; --brand:#D23A10; --star:#F5A524; --ok:#1E7A46; --new:#2563EB; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 'Pretendard Variable', Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; word-break: keep-all; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 24px max(16px, env(safe-area-inset-left)) 64px; display: flex; flex-direction: column; gap: 16px; }
+h1 { margin: 0; font-size: 24px; letter-spacing: -0.02em; }
+h1 small { font-size: 13px; font-weight: 700; color: var(--brand); margin-left: 6px; }
+.muted { color: var(--muted); }
+.login, .bar { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+input[type=password] { flex: 1 1 220px; font: inherit; border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+button { font: inherit; font-weight: 700; border: 1px solid var(--line); background: #fff; color: var(--ink); border-radius: 10px; padding: 8px 14px; cursor: pointer; }
+button.primary { background: var(--ink); color: #fff; border-color: var(--ink); }
+button[aria-pressed=true] { background: var(--ink); color: #fff; border-color: var(--ink); }
+button.danger { color: #B42318; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.stat { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+.stat b { display: block; font-size: 24px; font-variant-numeric: tabular-nums; }
+.stat span { font-size: 13px; color: var(--muted); }
+.list { display: flex; flex-direction: column; gap: 10px; }
+.item { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.item.done { opacity: .62; }
+.top { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; font-size: 13px; color: var(--muted); }
+.stars { color: var(--star); font-size: 17px; letter-spacing: 1px; }
+.pill { font-size: 12px; font-weight: 800; border-radius: 999px; padding: 2px 8px; }
+.pill.new { background: #DBEAFE; color: var(--new); }
+.pill.done { background: #DCFCE7; color: var(--ok); }
+.msg { margin: 0; white-space: pre-wrap; font-size: 15.5px; color: var(--ink); }
+.mail { font-size: 14px; }
+.acts { display: flex; flex-wrap: wrap; gap: 6px; }
+.empty { text-align: center; padding: 40px 16px; color: var(--muted); background: var(--card); border: 1px dashed var(--line); border-radius: 14px; }
+.err { color: #B42318; font-weight: 700; }
+@media (max-width: 520px) { .stat b { font-size: 20px; } .stat { padding: 12px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>직구각 의견함 <small>운영자 전용</small></h1>
+
+  <form class="login" id="login" hidden>
+    <label for="key" class="muted" style="flex-basis:100%">운영자 비밀번호(ADMIN_KEY)를 넣으면 이 기기에 기억해 둬요.</label>
+    <input id="key" type="password" autocomplete="current-password" placeholder="ADMIN_KEY">
+    <button class="primary" type="submit">열기</button>
+    <p class="err" id="loginErr" style="flex-basis:100%;margin:0"></p>
+  </form>
+
+  <section id="main" hidden>
+    <div class="stats">
+      <div class="stat"><b id="sNew">0</b><span>새 의견</span></div>
+      <div class="stat"><b id="sAll">0</b><span>전체</span></div>
+      <div class="stat"><b id="sAvg">-</b><span>평균 별점</span></div>
+    </div>
+    <div class="bar" style="margin-top:12px">
+      <button type="button" data-f="new" aria-pressed="true">새 의견</button>
+      <button type="button" data-f="all" aria-pressed="false">전체</button>
+      <button type="button" data-f="done" aria-pressed="false">처리 완료</button>
+      <span style="flex:1"></span>
+      <button type="button" id="reload">새로고침</button>
+      <button type="button" id="logout">이 기기에서 잊기</button>
+    </div>
+    <div class="list" id="list" style="margin-top:12px"></div>
+  </section>
+</div>
+<script>
+const $ = (s) => document.querySelector(s);
+const store = { get: (k) => { try { return localStorage.getItem(k); } catch { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} }, del: (k) => { try { localStorage.removeItem(k); } catch {} } };
+let key = store.get('jg_admin') || '';
+let items = [];
+let filter = 'new';
+const esc = (s) => String(s || '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const kst = (iso) => { const d = new Date(new Date(iso).getTime() + 9 * 3600e3); return d.toISOString().slice(0, 16).replace('T', ' '); };
+const KIND = { beta: '베타 안내에서', auto: '둘러본 뒤 창', menu: '의견 보내기 메뉴' };
+
+async function api(method, body) {
+  const r = await fetch('/api/admin-feedback', { method, headers: { 'x-admin-key': key, 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
+  const d = await r.json().catch(() => ({}));
+  if (!r.ok || !d.ok) throw Object.assign(new Error(d.reason || 'error'), { reason: d.reason, status: r.status });
+  return d;
+}
+function showLogin(msg) { $('#main').hidden = true; $('#login').hidden = false; $('#loginErr').textContent = msg || ''; $('#key').focus(); }
+async function load() {
+  try {
+    const d = await api('GET');
+    items = d.items;
+    $('#login').hidden = true; $('#main').hidden = false;
+    render();
+  } catch (e) {
+    if (e.status === 401) { store.del('jg_admin'); return showLogin('비밀번호가 맞지 않아요.'); }
+    const why = { admin_not_configured: 'Vercel에 ADMIN_KEY(12자 이상)가 아직 없어요.', store_not_configured: '의견 저장소(Upstash Redis)가 아직 연결되지 않았어요.' }[e.reason] || '불러오지 못했어요. 잠시 뒤 다시 해 주세요.';
+    showLogin(why);
+  }
+}
+function render() {
+  const rated = items.filter((x) => x.rating);
+  $('#sNew').textContent = items.filter((x) => x.status !== 'done').length;
+  $('#sAll').textContent = items.length;
+  $('#sAvg').textContent = rated.length ? (rated.reduce((a, x) => a + x.rating, 0) / rated.length).toFixed(1) + ' ★' : '-';
+  const list = items.filter((x) => filter === 'all' || (filter === 'done' ? x.status === 'done' : x.status !== 'done'));
+  if (!list.length) { $('#list').innerHTML = `<div class="empty">${filter === 'new' ? '새 의견이 없어요.' : '아직 없어요.'}</div>`; return; }
+  $('#list').innerHTML = list.map((x) => `
+    <article class="item ${x.status === 'done' ? 'done' : ''}" data-id="${esc(x.id)}">
+      <div class="top">
+        <span class="stars" aria-label="별점 ${x.rating}점">${x.rating ? '★'.repeat(x.rating) + '<span style="color:#D9DCE1">' + '★'.repeat(5 - x.rating) + '</span>' : '<span class="muted">별점 없음</span>'}</span>
+        <span class="pill ${x.status === 'done' ? 'done' : 'new'}">${x.status === 'done' ? '처리 완료' : '새 의견'}</span>
+        <span>${esc(kst(x.at))}</span>
+        <span>${esc(x.page || '-')}</span>
+        <span>${esc(KIND[x.kind] || x.kind)}</span>
+      </div>
+      <p class="msg">${x.message ? esc(x.message) : '<span class="muted">(의견 없이 별점만)</span>'}</p>
+      ${x.email ? `<div class="mail">답장 이메일: <b>${esc(x.email)}</b> <button type="button" data-copy="${esc(x.email)}">복사</button></div>` : ''}
+      <div class="acts">
+        ${x.status === 'done' ? '<button type="button" data-act="new">다시 새 의견으로</button>' : '<button type="button" class="primary" data-act="done">처리 완료</button>'}
+        <button type="button" class="danger" data-act="del">삭제</button>
+      </div>
+    </article>`).join('');
+}
+$('#login').addEventListener('submit', (e) => { e.preventDefault(); key = $('#key').value.trim(); if (!key) return; store.set('jg_admin', key); load(); });
+document.querySelectorAll('[data-f]').forEach((b) => b.addEventListener('click', () => { filter = b.dataset.f; document.querySelectorAll('[data-f]').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); render(); }));
+$('#reload').addEventListener('click', load);
+$('#logout').addEventListener('click', () => { store.del('jg_admin'); key = ''; showLogin('이 기기에서 비밀번호를 지웠어요.'); });
+$('#list').addEventListener('click', async (e) => {
+  const c = e.target.closest('[data-copy]');
+  if (c) { try { await navigator.clipboard.writeText(c.dataset.copy); c.textContent = '복사됨'; } catch { c.textContent = '길게 눌러 복사'; } return; }
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  const id = b.closest('[data-id]').dataset.id;
+  if (b.dataset.act === 'del') {
+    if (b.dataset.sure !== '1') { b.dataset.sure = '1'; b.textContent = '정말 삭제?'; return; }
+    await api('POST', { id, action: 'delete' }).catch(() => {});
+    items = items.filter((x) => x.id !== id);
+  } else {
+    await api('POST', { id, action: b.dataset.act }).catch(() => {});
+    items = items.map((x) => (x.id === id ? { ...x, status: b.dataset.act } : x));
+  }
+  render();
+});
+key ? load() : showLogin();
+</script>
+</body>
+</html>

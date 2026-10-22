@@ -8,6 +8,7 @@
 - `api/search.js` 알리 제휴 API 검색(Vercel 서버 함수, 키는 Vercel 환경 변수에만)
 - `content/YYYY-MM-DD-주제/` 홍보 세트(brief·blog·instagram·threads·cards), `docs/marketing/` 말투·플레이북·검수표·카드 규격, `tools/cards/render.mjs` 카드 이미지 생성
 - `docs/faq.md` 고객 문의 답변 기준
+- 방문자 의견: 베타 안내·의견 창(`public/assets/app.js`) → `api/feedback.js`가 Upstash Redis에 저장(1년 자동 삭제) → 운영자는 `jikgugak.com/admin`(ADMIN_KEY)에서 확인. 환경 변수: KV_REST_API_URL·KV_REST_API_TOKEN·ADMIN_KEY(선택 RESEND_API_KEY면 메일도)
 - 확인: `npm test`(계산) → `npm run build` → `node scripts/audit.mjs`(점검). 배포는 main에 push하면 Vercel이 자동으로 해요.
 
 ## 판정 규칙
