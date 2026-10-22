@@ -63,6 +63,9 @@ function slideHtml(s, i) {
     case 'cta':
       inner = `<h2 class="cta-t">${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}<div class="cta-btn">${br(s.button || '프로필 링크 → jikgugak.com')}</div>`;
       return `<section class="slide ctaslide">${n}${inner}${foot}</section>`;
+    case 'shot': // 사이트 화면 캡처를 크게 보여 주는 장
+      inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2 class="shot-t">${br(s.title)}</h2><div class="shot"><img src="${imgCache[s.image] || ''}" alt=""></div>${s.body ? `<p class="body shot-b">${br(s.body)}</p>` : ''}`;
+      return `<section class="slide shotslide">${n}<div class="content">${inner}</div>${foot}</section>`;
     default: // point
       inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2>${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}${s.big ? `<div class="big">${br(s.big)}</div>` : ''}${s.image ? `<div class="pt-img"><img src="${imgCache[s.image]}" alt=""></div>` : ''}`;
   }
@@ -92,6 +95,12 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .cover-img{margin-top:auto;align-self:center;width:520px;height:520px;background:#fff;border-radius:44px;padding:26px;box-shadow:0 18px 40px rgba(0,0,0,.18)}
 .cover-img img,.pt-img img{width:100%;height:100%;object-fit:contain;display:block}
 .pt-img{align-self:center;width:420px;height:420px;background:#fff;border:3px solid #E6E8EC;border-radius:36px;padding:20px}
+.shotslide{padding:120px 100px 150px}
+.shotslide .content{justify-content:flex-start;gap:28px}
+.shot-t{font-size:70px}
+.shot{flex:1;min-height:0;display:flex;align-items:flex-start;justify-content:center;background:#F5F6F8;border-radius:36px;padding:28px;overflow:hidden}
+.shot img{max-width:100%;max-height:100%;object-fit:contain;border-radius:20px;box-shadow:0 12px 32px rgba(22,24,29,.14);background:#fff}
+.shot-b{font-size:42px}
 .badge{align-self:flex-start;background:#FFE14D;color:#16181D;font-size:40px;font-weight:900;padding:16px 30px;border-radius:999px}
 .rows{display:flex;flex-direction:column;gap:22px}
 .row{display:flex;justify-content:space-between;align-items:center;gap:30px;background:#F5F6F8;border-radius:28px;padding:38px 46px;font-size:46px;font-weight:600}
@@ -123,7 +132,7 @@ await page.setContent(html, { waitUntil: 'load' });
 const els = await page.$$('section.slide');
 const overflow = [];
 for (let i = 0; i < els.length; i++) {
-  const over = await els[i].evaluate((el) => [...el.querySelectorAll('h1,h2,.body,.rows,.recap,.vbox,.big,.cover-s,.badge,.cta-btn,.cover-img,.pt-img')].some((c) => c.scrollWidth > c.clientWidth + 2 || c.getBoundingClientRect().bottom > el.getBoundingClientRect().bottom - 140));
+  const over = await els[i].evaluate((el) => [...el.querySelectorAll('h1,h2,.body,.rows,.recap,.vbox,.big,.cover-s,.badge,.cta-btn,.cover-img,.pt-img,.shot')].some((c) => c.scrollWidth > c.clientWidth + 2 || c.getBoundingClientRect().bottom > el.getBoundingClientRect().bottom - 140));
   if (over) overflow.push(i + 1);
   await els[i].screenshot({ path: path.join(outDir, String(i + 1).padStart(2, '0') + '.png') });
 }
