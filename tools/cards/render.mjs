@@ -96,10 +96,10 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .cover-img img,.pt-img img{width:100%;height:100%;object-fit:contain;display:block}
 .pt-img{align-self:center;width:420px;height:420px;background:#fff;border:3px solid #E6E8EC;border-radius:36px;padding:20px}
 .shotslide{padding:120px 100px 150px}
-.shotslide .content{justify-content:flex-start;gap:28px}
+.shotslide .content{justify-content:flex-start;gap:28px;min-height:0}
 .shot-t{font-size:70px}
-.shot{flex:1;min-height:0;display:flex;align-items:flex-start;justify-content:center;background:#F5F6F8;border-radius:36px;padding:28px;overflow:hidden}
-.shot img{max-width:100%;max-height:100%;object-fit:contain;border-radius:20px;box-shadow:0 12px 32px rgba(22,24,29,.14);background:#fff}
+.shot{flex:1 1 0;min-height:0;position:relative;background:#F5F6F8;border-radius:36px;overflow:hidden}
+.shot img{position:absolute;inset:28px;width:calc(100% - 56px);height:calc(100% - 56px);object-fit:contain;object-position:center top;border-radius:20px;filter:drop-shadow(0 12px 24px rgba(22,24,29,.14))}
 .shot-b{font-size:42px}
 .badge{align-self:flex-start;background:#FFE14D;color:#16181D;font-size:40px;font-weight:900;padding:16px 30px;border-radius:999px}
 .rows{display:flex;flex-direction:column;gap:22px}

@@ -487,3 +487,6 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .pd .buy { order: 7; }
 }
 .warn-line { display: block; margin-top: 6px; color: var(--meh); font-weight: 700; }
+/* 긴 주의 문구가 모바일 화면 밖으로 밀어내지 않게 */
+.risk { white-space: normal; max-width: 100%; }
+@media (max-width: 760px) { .pd > *, .pd-left > *, .pd-right > * { min-width: 0; max-width: 100%; } }
