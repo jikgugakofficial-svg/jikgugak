@@ -131,7 +131,8 @@ function layout({ title, description, urlPath, body, scripts = [], current = '',
   const ga = site.ga4Id ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(site.ga4Id)}"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(site.ga4Id)}');</script>` : '';
   const verify = [
     site.googleVerification ? `<meta name="google-site-verification" content="${esc(site.googleVerification)}">` : '',
-    site.naverVerification ? `<meta name="naver-site-verification" content="${esc(site.naverVerification)}">` : ''
+    site.naverVerification ? `<meta name="naver-site-verification" content="${esc(site.naverVerification)}">` : '',
+    site.impactVerification ? `<meta name="impact-site-verification" value="${esc(site.impactVerification)}">` : ''
   ].join('');
   return `<!doctype html>
 <html lang="ko">
