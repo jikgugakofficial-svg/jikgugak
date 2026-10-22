@@ -8,6 +8,7 @@ on:
     paths: ['content/**/publish.json']
   schedule:
     - cron: '7 * * * *'
+    - cron: '53 8 * * *'   # 매일 17:53 KST 예약분(v1 게시 시각)
   workflow_dispatch:
     inputs:
       mode:
