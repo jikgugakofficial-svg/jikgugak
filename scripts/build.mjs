@@ -205,7 +205,7 @@ ${ga}
 </head>
 <body>
 <a class="skip" href="#main">본문으로 건너뛰기</a>
-<div class="disclose-bar">직구각의 링크로 구매하면 제휴 수수료를 받을 수 있어요. 구매 가격은 똑같아요. <a href="/disclosure">자세히</a></div>
+<div class="disclose-bar">직구각의 링크로 구매하면 제휴 수수료를 받을 수 있어요. 구매 가격은 똑같아요. <a href="/disclosure">자세히</a><span class="beta-note"> · <b>베타 서비스</b>예요 <a href="#" data-feedback>의견 보내기</a></span></div>
 <header class="site-header">
   <div class="wrap header-row">
     <a href="/" class="logo" aria-label="${esc(site.siteName)} 홈">${icon.logo}<span class="logo-word">${esc(site.siteName)}</span><span class="logo-tag">직구할 각인지<br>3초 판정</span></a>
@@ -229,7 +229,7 @@ ${adRail()}
 </div>
 <footer class="site-footer" id="disclosure-footer">
   <div class="wrap footer-in">
-    <div class="footer-links"><a href="/disclosure">광고·제휴 고지</a><a href="/privacy">개인정보처리방침</a><a href="/guide">직구 가이드</a><a href="mailto:${esc(site.contactEmail)}">문의하기</a></div>
+    <div class="footer-links"><a href="#" data-feedback>의견 보내기</a><a href="/disclosure">광고·제휴 고지</a><a href="/privacy">개인정보처리방침</a><a href="/guide">직구 가이드</a><a href="mailto:${esc(site.contactEmail)}">문의하기</a></div>
     <p>직구각은 쿠팡 파트너스, 아마존 어소시에이트, 알리익스프레스${(site.affiliatePending || []).includes('iherb') ? '' : ', 아이허브'} 제휴 프로그램에 참여하고 있으며, 링크를 통한 구매 시 수수료를 받을 수 있습니다.</p>
     <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
     <p lang="en">As an Amazon Associate I earn from qualifying purchases.</p>
@@ -759,7 +759,7 @@ function pagePrivacy() {
 <article class="prose">
 <p>${esc(site.businessName || site.siteName)}(운영자 ${esc(site.operator)}, 이하 '운영자')은 직구각 서비스를 운영하며, 이용자의 개인정보를 소중히 다룹니다.</p>
 <h2>1. 수집하는 정보</h2>
-<p>직구각은 회원가입이 없으며, 이름·연락처·주소·개인통관고유부호를 수집하거나 저장하지 않아요. 관세 계산기에 입력한 값은 이용자의 브라우저 안에서만 계산돼요.</p>
+<p>직구각은 회원가입이 없으며, 이름·주소·개인통관고유부호를 수집하지 않아요. 연락처(이메일)는 이용자가 의견 보내기에서 직접 남긴 경우에만 받아요(아래 6번). 관세 계산기에 입력한 값은 이용자의 브라우저 안에서만 계산돼요.</p>
 <p>서비스 개선을 위해 방문 기록(접속 페이지, 브라우저 종류, 대략적 지역 등)이 분석 도구(Google Analytics)를 통해 쿠키로 수집될 수 있어요.</p>
 <p>사이트는 Vercel(미국)에서 운영돼요. 보안과 오류 확인을 위해 접속 기록(IP 주소, 접속 시각, 요청한 주소, 브라우저 정보)이 Vercel 서버에 일정 기간 자동으로 남아요.</p>
 <h2>2. 검색 기능</h2>
@@ -768,7 +768,11 @@ function pagePrivacy() {
 <p>구매 링크를 누르면 이동한 쇼핑몰(쿠팡, 아마존, 아이허브, 알리익스프레스 등)이 추천 경로 확인을 위해 쿠키를 설정할 수 있어요. 이 쿠키는 각 쇼핑몰의 개인정보처리방침을 따릅니다.</p>
 <h2>4. 쿠키 거부</h2>
 <p>브라우저 설정에서 쿠키 저장을 거부하거나 삭제할 수 있어요.</p>
-<h2>5. 문의</h2>
+<h2 id="feedback">5. 의견 보내기</h2>
+<p>사이트의 '의견 보내기'에서 남긴 평점·의견과, 선택해서 적은 이메일 주소, 보낸 페이지 주소를 받아요. 의견을 확인하고 답장하며 사이트를 고치는 데만 써요. 이메일을 남기지 않아도 의견을 보낼 수 있어요.</p>
+<p>보낸 내용은 이메일 발송 서비스 Resend(미국)를 거쳐 운영자 메일함(${esc(site.contactEmail)}, Google Gmail)으로 전달돼요. 처리가 끝난 의견은 받은 날부터 1년 안에 지우고, 그 전에 지워 달라고 하시면 바로 지워요.</p>
+<p>베타 안내와 의견 창을 다시 띄우지 않기 위해, 본 페이지 수와 창을 본 날짜를 이용자의 브라우저(로컬 저장소)에만 저장해요. 서버로 보내지 않아요.</p>
+<h2>6. 문의</h2>
 <p>개인정보 관련 문의: ${esc(site.contactEmail)}</p>
 </article>`;
   return layout({ title: '개인정보처리방침', urlPath: '/privacy', body });

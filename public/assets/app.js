@@ -108,3 +108,112 @@ document.addEventListener('click', (e) => {
   new IntersectionObserver((es) => { buyVisible = es[0].isIntersecting; update(); }).observe(buy);
   window.addEventListener('scroll', update, { passive: true });
 })();
+
+// ---------- 베타 안내(첫 방문 1번) · 의견 보내기(둘러본 뒤 1번) ----------
+// 저장값: jg_beta(안내 본 날), jg_pv(본 페이지 수), jg_t0(첫 방문 시각), jg_fb(의견 창 띄운 날), jg_fb_done(보냄)
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem(k, String(v)); } catch { /* 저장 안 돼도 동작 */ } },
+};
+const contactMail = (document.querySelector('a[href^="mailto:"]') || {}).href?.replace('mailto:', '') || 'jikgugak.official@gmail.com';
+const track = (name, params) => { try { window.gtag && window.gtag('event', name, params || {}); } catch { /* 분석 없음 */ } };
+
+function sheet(html, cls = '') {
+  const wrap = document.createElement('div');
+  wrap.className = 'fb-wrap ' + cls;
+  wrap.innerHTML = `<div class="fb-box" role="dialog" aria-modal="true">${html}</div>`;
+  const close = () => { wrap.remove(); document.removeEventListener('keydown', onKey); };
+  function onKey(e) { if (e.key === 'Escape') close(); }
+  wrap.addEventListener('click', (e) => { if (e.target === wrap || e.target.closest('[data-fb-close]')) close(); });
+  document.addEventListener('keydown', onKey);
+  document.body.appendChild(wrap);
+  return { wrap, close };
+}
+
+function openBeta() {
+  const { wrap, close } = sheet(`
+    <span class="fb-badge">BETA</span>
+    <h2 id="fb-t">직구각은 지금 베타 서비스예요</h2>
+    <p>관세·배송비까지 더한 최종가 비교를 매일 다듬고 있어요. 불편한 점이나 있었으면 하는 기능을 알려 주시면 <b>적극 반영해서</b> 더 좋은 사이트로 만들게요.</p>
+    <div class="fb-btns"><button type="button" class="btn btn-ink" data-act="fb">의견 보내기</button><button type="button" class="btn btn-line" data-fb-close>둘러볼게요</button></div>`, 'fb-beta');
+  wrap.querySelector('.fb-box').setAttribute('aria-labelledby', 'fb-t');
+  wrap.querySelector('[data-act="fb"]').addEventListener('click', () => { close(); openFeedback('beta'); });
+  wrap.querySelector('[data-fb-close]').focus();
+  track('beta_notice_view');
+}
+
+function openFeedback(from = 'menu') {
+  const { wrap, close } = sheet(`
+    <button type="button" class="fb-x" data-fb-close aria-label="닫기">×</button>
+    <h2 id="fb-t2">직구각, 써 보니 어떠세요?</h2>
+    <p class="fb-sub">베타 기간 동안 보내 주신 의견을 하나하나 읽고 반영해요.</p>
+    <form class="fb-form" novalidate>
+      <fieldset class="fb-stars"><legend>사이트 평가</legend>
+        <div class="fb-star-row">${[1, 2, 3, 4, 5].map((n) => `<label><input type="radio" name="rating" value="${n}"><span aria-hidden="true">★</span><span class="sr-only">${n}점</span></label>`).join('')}<span class="fb-star-txt" aria-live="polite"></span></div>
+      </fieldset>
+      <label class="fb-l" for="fb-msg">좋았던 점, 불편한 점, 원하는 기능</label>
+      <textarea id="fb-msg" name="message" rows="4" maxlength="2000" placeholder="예) 아이허브 상품도 검색되면 좋겠어요"></textarea>
+      <label class="fb-l" for="fb-mail">답장 받을 이메일 <span class="muted">(선택)</span></label>
+      <input id="fb-mail" name="email" type="email" maxlength="200" autocomplete="email" placeholder="you@example.com">
+      <input class="fb-hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="fb-note">의견과 이메일은 답변과 사이트 개선에만 써요. <a href="/privacy#feedback">개인정보처리방침</a></p>
+      <button type="submit" class="btn btn-ink">보내기</button>
+      <p class="fb-msg" role="status"></p>
+    </form>`, 'fb-main');
+  wrap.querySelector('.fb-box').setAttribute('aria-labelledby', 'fb-t2');
+  const form = wrap.querySelector('form');
+  const status = wrap.querySelector('.fb-msg');
+  const words = ['', '별로예요', '아쉬워요', '보통이에요', '좋아요', '최고예요'];
+  form.addEventListener('change', (e) => { if (e.target.name === 'rating') wrap.querySelector('.fb-star-txt').textContent = words[e.target.value]; });
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const body = { rating: Number(fd.get('rating') || 0), message: String(fd.get('message') || ''), email: String(fd.get('email') || ''), website: String(fd.get('website') || ''), page: location.pathname, kind: from };
+    if (!body.rating && !body.message.trim()) { status.textContent = '별점이나 의견 중 하나는 남겨 주세요.'; return; }
+    const btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true; status.textContent = '보내는 중이에요…';
+    try {
+      const r = await fetch('/api/feedback', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+      const d = await r.json().catch(() => ({}));
+      if (!d.ok) throw new Error(d.reason || 'fail');
+      store.set('jg_fb_done', 1);
+      track('feedback_submit', { rating: body.rating, from });
+      form.innerHTML = `<p class="fb-done">고마워요! 보내 주신 의견은 운영자가 직접 읽고 반영할게요.</p><button type="button" class="btn btn-line" data-fb-close>닫기</button>`;
+    } catch (err) {
+      btn.disabled = false;
+      status.innerHTML = `지금은 보내지 못했어요. <b>${contactMail}</b>로 메일 주시면 똑같이 반영할게요.`;
+    }
+  });
+  setTimeout(() => form.querySelector('input[name="rating"]').focus(), 50);
+  track('feedback_open', { from });
+}
+document.addEventListener('click', (e) => {
+  const t = e.target.closest && e.target.closest('[data-feedback]');
+  if (t) { e.preventDefault(); openFeedback('menu'); }
+});
+
+(() => {
+  const now = Date.now();
+  const pv = Number(store.get('jg_pv') || 0) + 1;
+  store.set('jg_pv', pv);
+  if (!store.get('jg_t0')) store.set('jg_t0', now);
+  const inapp = document.querySelector('.inapp');
+  // 1) 첫 방문: 베타 안내 (페이지가 그려진 뒤 잠깐 있다가)
+  if (!store.get('jg_beta')) {
+    store.set('jg_beta', new Date().toISOString().slice(0, 10));
+    setTimeout(() => { if (!document.querySelector('.fb-wrap, .inapp')) openBeta(); }, 1200);
+    return;
+  }
+  // 2) 둘러본 뒤: 4번째 페이지부터, 또는 첫 방문 후 3분이 지난 2번째 페이지부터. 의견을 보냈으면 다시 안 띄우고, 닫았으면 14일 뒤에 한 번 더.
+  if (store.get('jg_fb_done') || inapp) return;
+  const last = Number(store.get('jg_fb') || 0);
+  if (last && now - last < 14 * 864e5) return;
+  const t0 = Number(store.get('jg_t0') || now);
+  if (pv >= 4 || (pv >= 2 && now - t0 > 3 * 60e3)) {
+    setTimeout(() => {
+      if (document.querySelector('.fb-wrap, .inapp')) return;
+      store.set('jg_fb', Date.now());
+      openFeedback('auto');
+    }, 20000);
+  }
+})();
