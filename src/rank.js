@@ -35,7 +35,7 @@ export const BRANDS = ['baseus', 'ugreen', 'anker', 'xiaomi', 'redmi', 'mi ', 'q
   '베이스어스', '유그린', '앤커', '샤오미', '레드미', '큐씨와이', '레노버', '로지텍', '소니', '삼성', '애플', '레고', '다이슨', '닌텐도', '사운드피츠', '에디파이어',
   '하이루', '키크론', '로보락', '드리미', '어메이즈핏', '필립스', '타임모어', '스탠리', '앤버닉'];
 const SPEC = /^\d+(\.\d+)?(w|mah|hz|khz|k|p|gb|tb|mm|cm|m|g|kg|v|a|ml|l|pcs|pc|in|ft|db|mbps|gbps|x|ch|bit)$/;
-const NOT_MODEL = /^(usb\d*|tws|rgb|pd\d*|qc\d*|bt\d*|anc|hdmi\d*|ipx\d|ip\d+|type-?c|usb-?c|wifi\d*|wi-?fi\d*|5g|4g|3d|2in1|3in1|\d+in\d+|mp\d|h\d{3}|ddr\d|nvme|m2|1st|2nd|3rd|\d+th|v\d(\.\d)?|\d+s)$/;
+const NOT_MODEL = /^(usb\d*(\.\d)?|tws|rgb|pd\d*w?|qc\d*(\.\d)?|bt\d*|anc|hdmi\d*|ipx\d|ip\d+|type-?c|usb-?c|wifi\d*|wi-?fi\d*|5g|4g|3d|\d+-?in-?\d+|mp\d|h\d{3}|ddr\d|nvme|m2|1st|2nd|3rd|\d+th|v\d(\.\d)?|\d+s|\d+k\d*(hz)?|\d+p\d*|rj\d+|\d+gen\d*|gen\d+|\d+ch|x\d+|\d+x)$/;
 // 상품명에서 브랜드·모델명 찾기 (둘 중 하나라도 있으면 국내 같은 상품과 비교할 수 있어요)
 export function comparability(title) {
   const tl = String(title || '').toLowerCase();

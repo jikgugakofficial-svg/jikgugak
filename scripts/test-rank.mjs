@@ -50,3 +50,7 @@ assert.equal(comparability('8 in 1 USB C 허브 확장 멀티포트 4K 100W').co
 console.log('비교 가능 판별 점검 통과');
 assert.equal(rank2([mk('샤오미 스마트 밴드 10 글로벌 버전 AMOLED', 50000)], 'xiaomi smart band 10').length, 1, '영어 검색어도 한글 상품명에 걸려요');
 console.log('영어↔한글 점검 통과');
+assert.equal(comparability('UGREEN Uno USB C 허브 6 인 1, 4K60Hz, PD100W, 10Gbps, USB3.2').model, '', '사양 숫자는 모델명이 아니에요');
+assert.equal(comparability('UGREEN 12-in-1 USB 허브 4K120Hz').model, '');
+assert.equal(comparability('UGREEN 12-in-1 USB 허브').comparable, true, '브랜드만 있어도 비교 가능');
+console.log('모델명 판별 점검 통과');

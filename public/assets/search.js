@@ -122,7 +122,7 @@ function row(it) {
   // 국내에 같은 상품이 있을지: 브랜드·모델명이 있으면 비교 가능, 노브랜드면 '비슷한 상품'으로
   const tag = document.createElement('span');
   tag.className = 's-cmp ' + (it.comparable ? 'yes' : 'no');
-  const ident = [it.brand, it.model ? it.model.toUpperCase() : ''].filter(Boolean).join(' ');
+  const ident = [it.brand ? (/[a-z]/.test(it.brand) ? it.brand.toUpperCase() : it.brand) : '', it.model ? it.model.toUpperCase() : ''].filter(Boolean).join(' ');
   tag.textContent = it.comparable ? `국내 비교 가능${ident ? ' · ' + ident : ''}` : '노브랜드 · 국내 같은 상품이 드물어요';
   $('.s-meta').appendChild(tag);
   if (!it.comparable) {
