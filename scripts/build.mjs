@@ -175,7 +175,7 @@ ${ga}
   </div>
   <nav class="wrap main-nav" aria-label="주요 메뉴">
     ${nav}
-    ${bf && daysUntil(bf.date) >= 0 ? `<a href="/sale" class="navlink hot${current === '/sale' ? ' is-current' : ''}">${esc(bf.name)}<span class="pill-hot" data-dday="${bf.date}">${ddayText(bf.date)}</span></a>` : ''}
+    ${upcoming[0] ? `<a href="/sale" class="navlink hot${current === '/sale' ? ' is-current' : ''}" data-next-sale><span data-ns-name>${esc(upcoming[0].name)}</span><span class="pill-hot" data-ns-dday>${evDday(upcoming[0])}</span></a>` : ''}
   </nav>
 </header>
 <main id="main" class="wrap main">
@@ -198,6 +198,7 @@ ${body}
   <a href="/guide"${current === '/guide' ? ' aria-current="page"' : ''}>${icon.guide}가이드</a>
 </nav>
 <div class="toast" role="status" aria-live="polite" hidden></div>
+<script type="application/json" id="jg-sales">${JSON.stringify(upcoming.map((e) => ({ n: e.name, d: e.date, e: e.end || '', s: shortStores(e), k: e.scope }))).replace(/</g, '\\u003c')}</script>
 <script type="module" src="/assets/app.js"></script>
 ${scripts.map((s) => `<script type="module" src="${s}"></script>`).join('\n')}
 </body>
@@ -234,7 +235,7 @@ const sampleNote = items.some((p) => p.sample) ? " · '예시' 표시 상품은 
 // ---------- 페이지: 홈 ----------
 function pageHome() {
   const bf = events.find((e) => e.id === site.featuredEvent) || events[0];
-  const upcoming = events.filter((e) => e.scope !== 'domestic' && daysUntil(e.end || e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 3);
+  const upcomingAll = upcoming;
   const ticker = items.slice(0, 6).map((p) => {
     const v = VERDICT[p.ev.verdict];
     const t = p.ev.kind === 'break' ? `${p.storeName}가 $${p.ev.breakeven} 이하면 직구각` : p.ev.kind === 'priced' ? `${v.label} ${p.ev.pct}` : v.label;
@@ -247,14 +248,14 @@ function pageHome() {
   <div class="hero-main">
     <div class="hero-top">
       <div class="hero-copy">
-        <span class="hero-pill">${esc(bf.name)} 특집</span>
-        <h1>올해 ${esc(bf.name === '블랙프라이데이' ? '블프' : bf.name)},<br>직구각인 것만<br>골라 드려요</h1>
+        <span class="hero-pill">다가오는 세일 ${upcomingAll.length}개</span>
+        <h1>세일할 땐,<br>직구각인 것만<br>골라 드려요</h1>
         <p>관세·배송비까지 더한 최종 체감가로<br>국내 최저가와 바로 비교해요.</p>
         <div class="hero-btns"><a href="/sale" class="btn btn-yellow">세일 직구각 모음</a><a href="/calendar" class="btn btn-ghost">세일 캘린더</a></div>
       </div>
-      <div class="dday-circle"><span>${esc(bf.name)}까지</span><b data-dday="${bf.date}">${ddayText(bf.date)}</b><span>${Number(bf.date.slice(5, 7))}월 ${Number(bf.date.slice(8))}일 ${weekday(bf.date)}요일</span></div>
+      ${nextSaleCircle()}
     </div>
-    <div class="hero-events">${upcoming.map((e) => `<span><b>${md(e.date)}</b> ${esc(e.name)}</span>`).join('')}</div>
+    <div class="hero-events">${upcomingAll.slice(0, 4).map((e) => `<span><b>${e.end ? md(e.date) + '~' + md(e.end) : md(e.date)}</b> ${esc(e.name)}</span>`).join('')}</div>
   </div>
   <a href="/calculator" class="hero-calc">
     <span class="hc-title">${icon.calc}<b>3초 관세 계산</b></span>
@@ -486,9 +487,24 @@ const STATUS = { confirmed: '날짜 확정', expected: '예상 · 작년 기준'
 const SCOPE = { overseas: '해외 직구', domestic: '국내 쇼핑몰' };
 const nextSaleFor = (storeName) => upcoming.find((e) => e.scope === 'overseas' && e.stores.includes(storeName));
 
+// 가장 가까운 세일 D-day 원: 빌드 때 값을 넣고, 브라우저에서 오늘 날짜로 다시 골라요(app.js)
+const weekdayLong = (iso) => `${Number(iso.slice(5, 7))}월 ${Number(iso.slice(8))}일 ${weekday(iso)}요일`;
+const shortStores = (e) => e.stores.split(' · ').slice(0, 2).join(' · ');
+function nextSaleCircle() {
+  const nx = upcoming[0];
+  if (!nx) return '';
+  const ongoing = daysUntil(nx.date) <= 0;
+  return `<div class="dday-circle ns-circle" data-next-sale>
+  <span class="ns-scope ${nx.scope}" data-ns-scope>${SCOPE[nx.scope]}</span>
+  <span class="ns-stores" data-ns-stores>${esc(shortStores(nx))}</span>
+  <b data-ns-dday>${evDday(nx)}</b>
+  <span class="ns-name" data-ns-name>${esc(nx.name)}</span>
+  <span class="ns-date" data-ns-date>${ongoing && nx.end ? `${md(nx.end)}까지` : weekdayLong(nx.date)}</span>
+</div>`;
+}
+
 // ---------- 페이지: 세일 직구각 모음 ----------
 function pageSale() {
-  const big = upcoming.find((e) => e.scope === 'overseas' && e.status === 'confirmed') || upcoming[0];
   const chips = upcoming.slice(0, 5).map((e) => `<span><b>${evRange(e)}</b> ${esc(e.name)} <i ${ddayAttr(e)}>${evDday(e)}</i></span>`).join('');
   const good = items.filter((p) => p.ev.verdict === 'good');
   const targets = items.filter((p) => p.ev.kind === 'break');
@@ -510,7 +526,7 @@ function pageSale() {
     <p>관세·부가세·배송비까지 더한 체감가로 골랐어요. 세일 당일엔 목표가만 확인하고 바로 사세요.</p>
     <div class="bf-dates">${chips}</div>
   </div>
-  ${big ? `<div class="dday-circle"><span>${esc(big.name)}까지</span><b ${ddayAttr(big)}>${evDday(big)}</b><span>${Number(big.date.slice(5, 7))}월 ${Number(big.date.slice(8))}일 ${weekday(big.date)}요일</span></div>` : ''}
+  ${nextSaleCircle()}
 </section>
 
 <section class="block" aria-labelledby="sale-now">

@@ -20,6 +20,27 @@ document.querySelectorAll('[data-dday]').forEach((el) => {
   el.textContent = d > 0 ? 'D-' + d : d === 0 ? 'D-DAY' : end >= 0 ? '진행 중' : '종료';
 });
 
+// 가장 가까운 세일: 빌드 후 날짜가 지나도 오늘 기준으로 다시 골라요
+try {
+  const raw = document.getElementById('jg-sales');
+  const today = kstToday();
+  const list = raw ? JSON.parse(raw.textContent).filter((e) => (e.e || e.d) >= today).sort((a, b) => a.d.localeCompare(b.d)) : [];
+  const nx = list[0];
+  if (nx) {
+    const days = Math.round((Date.parse(nx.d) - Date.parse(today)) / 864e5);
+    const md = (iso) => `${Number(iso.slice(5, 7))}.${Number(iso.slice(8))}`;
+    const long = (iso) => `${Number(iso.slice(5, 7))}월 ${Number(iso.slice(8))}일 ${'일월화수목금토'[new Date(iso + 'T00:00:00Z').getUTCDay()]}요일`;
+    const set = (root, sel, text) => root.querySelectorAll(sel).forEach((el) => { el.textContent = text; });
+    document.querySelectorAll('[data-next-sale]').forEach((root) => {
+      set(root, '[data-ns-name]', nx.n);
+      set(root, '[data-ns-dday]', days > 0 ? 'D-' + days : days === 0 ? 'D-DAY' : '진행 중');
+      set(root, '[data-ns-stores]', nx.s);
+      set(root, '[data-ns-date]', days <= 0 && nx.e ? `${md(nx.e)}까지` : long(nx.d));
+      root.querySelectorAll('[data-ns-scope]').forEach((el) => { el.textContent = nx.k === 'domestic' ? '국내 쇼핑몰' : '해외 직구'; el.className = 'ns-scope ' + nx.k; });
+    });
+  }
+} catch { /* 세일 정보가 없어도 화면은 그대로 */ }
+
 // 공유: 휴대폰이면 공유 시트(카카오톡 나와의 채팅으로 PC에 보내기 가능), 아니면 링크 복사
 async function copy(text) {
   try { await navigator.clipboard.writeText(text); return true; } catch { return false; }
