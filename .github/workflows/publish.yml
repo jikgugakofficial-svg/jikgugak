@@ -1,0 +1,31 @@
+# 승인된 홍보 글을 Postiz로 인스타그램·스레드에 올려요.
+# content/<폴더>/publish.json 의 "approved": true 인 것만, 아직 올리지 않은 것만 처리해요.
+# 비밀값 POSTIZ_API_KEY 는 GitHub 저장소 Settings → Secrets and variables → Actions 에만 넣어요.
+name: publish
+on:
+  push:
+    branches: [main]
+    paths: ['content/**/publish.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: publish
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install -g postiz
+      - name: Publish approved posts
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: node tools/publish/run.mjs
+      - name: Save results
+        run: |
+          git config user.name "jikgugak-bot"
+          git config user.email "jikgugak.official@gmail.com"
+          git add content/**/publish-result.json || true
+          git diff --cached --quiet || (git commit -m "게시 결과 기록 [skip ci]" && git push)
