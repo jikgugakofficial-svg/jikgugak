@@ -490,3 +490,37 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 /* 긴 주의 문구가 모바일 화면 밖으로 밀어내지 않게 */
 .risk { white-space: normal; max-width: 100%; }
 @media (max-width: 760px) { .pd > *, .pd-left > *, .pd-right > * { min-width: 0; max-width: 100%; } }
+
+/* ---------- 환율판·사이드 광고 (넓은 화면 양옆 레일, 그 밖엔 홈 환율 띠) ---------- */
+.rail { display: none; }
+.ticks { display: flex; flex-direction: column; gap: 10px; }
+.fx-strip { border: 1px solid var(--line); border-radius: 14px; padding: 10px 16px; display: flex; align-items: center; gap: 16px; overflow-x: auto; white-space: nowrap; scrollbar-width: none; font-size: 14px; }
+.fx-strip::-webkit-scrollbar { display: none; }
+.fx-strip .fx-i b { font-variant-numeric: tabular-nums; }
+.fx-c { font-style: normal; font-size: 12px; font-weight: 700; color: var(--muted, #6b6b6b); font-variant-numeric: tabular-nums; }
+.fx-c.up { color: #D23A10; }
+.fx-c.down { color: #2563EB; }
+@media (min-width: 1640px) {
+  .shell { display: grid; grid-template-columns: 1fr minmax(0, 1200px) 1fr; align-items: start; }
+  .shell > .main { grid-column: 2; grid-row: 1; width: 100%; }
+  .rail { display: flex; flex-direction: column; gap: 12px; position: sticky; top: 24px; margin-top: 32px; grid-row: 1; }
+  .rail-l { grid-column: 1; justify-self: end; width: 196px; }
+  .rail-r { grid-column: 3; justify-self: start; width: 160px; }
+  .fx-strip { display: none; }
+}
+.fx-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
+.fx-k { font-size: 13px; font-weight: 700; color: var(--muted, #6b6b6b); }
+.fx-v { font-size: 24px; font-weight: 900; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.fx-v small { font-size: 13px; font-weight: 700; margin-left: 2px; }
+.fx-u { font-size: 12px; color: var(--muted, #6b6b6b); display: flex; gap: 6px; align-items: center; }
+.fx-src { margin: 0; font-size: 11.5px; line-height: 1.5; color: var(--muted, #6b6b6b); }
+.fx-cta { font-size: 13px; font-weight: 800; color: var(--brand); }
+.ad-label { font-size: 11px; color: var(--muted, #6b6b6b); }
+.ad-frame { display: block; border: 0; border-radius: 8px; max-width: 100%; }
+@media (max-width: 760px) {
+  .fx-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px 10px; white-space: normal; padding: 12px 14px; }
+  .fx-strip .ticker-pill { grid-column: 1 / -1; justify-self: start; }
+  .fx-strip .fx-i { display: flex; flex-direction: column; font-size: 12px; line-height: 1.35; }
+  .fx-strip .fx-i b { font-size: 15px; }
+  .fx-strip .fx-i.muted { grid-column: 1 / -1; flex-direction: row; font-size: 11px; }
+}

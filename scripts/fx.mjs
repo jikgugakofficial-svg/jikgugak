@@ -18,20 +18,35 @@ async function getText(url, ms = 8000) {
   }
 }
 
-// 매매기준율: 주말·공휴일·오전 11시 전에는 빈 값이 와서 최근 7일을 거슬러 찾아요
+// 매매기준율: 주말·공휴일·오전 11시 전에는 빈 값이 와서 최근 10일을 거슬러 찾아요.
+// 홈 환율판용으로 달러·위안(CNH)·엔(100엔)과 직전 영업일 대비 변동도 같이 만들어요.
+const BOARD = [['usd', 'USD'], ['cny', 'CNH'], ['jpy', 'JPY(100)']];
+async function eximbankDay(key, d) {
+  const text = await getText(`https://oapi.koreaexim.go.kr/site/program/financial/exchangeJSON?authkey=${encodeURIComponent(key)}&searchdate=${ymd(d)}&data=AP01`);
+  let rows;
+  try { rows = JSON.parse(text); } catch { return null; }
+  if (!Array.isArray(rows) || !rows.length) return null;
+  const pick = (u) => { const r = rows.find((x) => x.cur_unit === u); return r && num(r.deal_bas_r) > 0 ? num(r.deal_bas_r) : null; };
+  const out = {};
+  for (const [k, u] of BOARD) out[k] = pick(u);
+  return out.usd ? out : null;
+}
 async function eximbankUsd(key) {
-  for (let i = 0; i < 7; i++) {
+  const days = [];
+  for (let i = 0; i < 10 && days.length < 2; i++) {
     const d = kstDate(i);
-    const text = await getText(`https://oapi.koreaexim.go.kr/site/program/financial/exchangeJSON?authkey=${encodeURIComponent(key)}&searchdate=${ymd(d)}&data=AP01`);
-    let rows;
-    try { rows = JSON.parse(text); } catch { continue; }
-    const usd = Array.isArray(rows) && rows.find((r) => r.cur_unit === 'USD');
-    if (usd && num(usd.deal_bas_r) > 0) {
-      const v = num(usd.deal_bas_r);
-      return { usdKrw: v, date: d, label: `결제 환율(매매기준율) ${v.toLocaleString('ko-KR', { minimumFractionDigits: 2 })}원/달러 (${dot(d)} 한국수출입은행)` };
-    }
+    const r = await eximbankDay(key, d);
+    if (r) days.push({ d, r });
   }
-  return null;
+  if (!days.length) return null;
+  const [cur, prev] = days;
+  const v = cur.r.usd;
+  const board = { date: cur.d, items: {} };
+  for (const [k] of BOARD) {
+    if (!cur.r[k]) continue;
+    board.items[k] = { v: cur.r[k], chg: prev && prev.r[k] ? Math.round((cur.r[k] - prev.r[k]) * 100) / 100 : null };
+  }
+  return { usdKrw: v, date: cur.d, board, label: `결제 환율(매매기준율) ${v.toLocaleString('ko-KR', { minimumFractionDigits: 2 })}원/달러 (${dot(cur.d)} 한국수출입은행)` };
 }
 
 // 과세환율: 공공데이터포털 '관세청_관세환율정보(GW)' (자동승인). 수입(weekFxrtTpcd=2) 기준, 오늘이 속한 주의 값을 줘요.
@@ -49,7 +64,7 @@ async function customsUsd(key) {
     if (v > 0) {
       const s = start ? `${start.slice(0, 4)}-${start.slice(4, 6)}-${start.slice(6, 8)}` : d;
       const end = new Date(Date.parse(s) + 6 * 864e5).toISOString().slice(0, 10);
-      return { usdKrw: v, label: `과세환율 ${v.toLocaleString('ko-KR', { minimumFractionDigits: 2 })}원/달러 (${dot(s)}~${end.slice(5).replace('-', '.')} 관세청 고시)` };
+      return { usdKrw: v, period: `${dot(s)}~${end.slice(5).replace('-', '.')}`, label: `과세환율 ${v.toLocaleString('ko-KR', { minimumFractionDigits: 2 })}원/달러 (${dot(s)}~${end.slice(5).replace('-', '.')} 관세청 고시)` };
     }
   }
   return null;

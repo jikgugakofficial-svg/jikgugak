@@ -34,5 +34,11 @@
     "usdKrw": 1325.5,
     "date": "2026-10-22",
     "label": "결제 환율(매매기준율) 1,325.50원/달러 (2026.10.22 한국수출입은행)"
+  },
+  "sideAd": {
+    "label": "쿠팡 파트너스",
+    "src": "https://ads-partners.coupang.com/widgets.html?id=1042219&template=carousel&trackingCode=AF5913304&subId=&width=160&height=600&tsource=",
+    "width": 160,
+    "height": 600
   }
 }

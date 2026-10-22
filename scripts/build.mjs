@@ -20,6 +20,28 @@ const FX = RATES.customs.usdKrw;
 const PAYFX = (RATES.pay && RATES.pay.usdKrw) || FX;
 const FX_LABEL = [RATES.customs.label, RATES.pay ? RATES.pay.label : ''].filter(Boolean).join(' · ');
 const RULE = site.rule;
+// 홈·사이드 환율판(매매기준율, 한국수출입은행). API가 안 되면 저장된 달러 값만 보여 줘요.
+const FXB = RATES.pay && RATES.pay.board ? RATES.pay.board : (RATES.pay ? { date: RATES.pay.date, items: { usd: { v: RATES.pay.usdKrw, chg: null } } } : null);
+const FX_NAMES = { usd: ['달러', '1달러'], cny: ['위안', '1위안'], jpy: ['엔', '100엔'] };
+const fxNum = (v) => v.toLocaleString('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const fxChg = (c) => (c == null ? '' : c === 0 ? '<i class="fx-c">0.00</i>' : `<i class="fx-c ${c > 0 ? 'up' : 'down'}">${c > 0 ? '▲' : '▼'} ${fxNum(Math.abs(c))}</i>`);
+const fxDate = () => (FXB && FXB.date ? FXB.date.slice(5).replace('-', '.') : '');
+function fxRail() {
+  if (!FXB) return '';
+  const cards = Object.entries(FXB.items).map(([k, it]) => `<div class="fx-card"><span class="fx-k">오늘 원/${FX_NAMES[k][0]} 환율</span><b class="fx-v">${fxNum(it.v)}<small>원</small></b><span class="fx-u">${FX_NAMES[k][1]} 기준 ${fxChg(it.chg)}</span></div>`).join('');
+  const customs = RATES.customs && RATES.customs.usdKrw ? `<br>관세 계산은 과세환율 ${fxNum(RATES.customs.usdKrw)}원${RATES.customs.period ? `(${esc(RATES.customs.period)})` : ''}` : '';
+  return `<aside class="rail rail-l" aria-label="오늘 환율">${cards}<p class="fx-src">${fxDate()} 매매기준율 · 한국수출입은행${customs}</p><a class="fx-cta" href="/calculator">이 환율로 관세 계산 →</a></aside>`;
+}
+function fxStrip() {
+  if (!FXB) return '';
+  const items = Object.entries(FXB.items).map(([k, it]) => `<span class="fx-i">${FX_NAMES[k][1]} <b>${fxNum(it.v)}원</b> ${fxChg(it.chg)}</span>`).join('');
+  return `<section class="fx-strip" aria-label="오늘 환율"><span class="ticker-pill">오늘 환율</span>${items}<span class="fx-i muted">${fxDate()} 매매기준율</span></section>`;
+}
+function adRail() {
+  const a = site.sideAd;
+  if (!a || !a.src) return '';
+  return `<aside class="rail rail-r" aria-label="광고"><span class="ad-label">광고${a.label ? ' · ' + esc(a.label) : ''}</span><iframe class="ad-frame" src="${esc(a.src)}" width="${a.width || 160}" height="${a.height || 600}" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" loading="lazy" title="광고"></iframe></aside>`;
+}
 const BUILT = new Date();
 
 const STORES = {
@@ -198,9 +220,13 @@ ${ga}
     ${upcoming[0] ? `<a href="/sale" class="navlink hot${current === '/sale' ? ' is-current' : ''}" data-next-sale><span data-ns-name>${esc(upcoming[0].name)}</span><span class="pill-hot" data-ns-dday>${evDday(upcoming[0])}</span></a>` : ''}
   </nav>
 </header>
+<div class="shell">
+${fxRail()}
 <main id="main" class="wrap main">
 ${body}
 </main>
+${adRail()}
+</div>
 <footer class="site-footer" id="disclosure-footer">
   <div class="wrap footer-in">
     <div class="footer-links"><a href="/disclosure">광고·제휴 고지</a><a href="/privacy">개인정보처리방침</a><a href="/guide">직구 가이드</a><a href="mailto:${esc(site.contactEmail)}">문의하기</a></div>
@@ -298,7 +324,7 @@ function pageHome() {
   </a>
 </section>
 
-<section class="ticker" aria-label="최근 판정"><span class="ticker-pill">최근 판정</span>${ticker}</section>
+<div class="ticks"><section class="ticker" aria-label="최근 판정"><span class="ticker-pill">최근 판정</span>${ticker}</section>${fxStrip()}</div>
 
 <section aria-labelledby="cat-title" class="block">
   <h2 id="cat-title" class="h2">카테고리별 직구각</h2>
