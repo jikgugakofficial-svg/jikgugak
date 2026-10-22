@@ -64,7 +64,7 @@ async function customsUsd(key) {
     if (v > 0) {
       const s = start ? `${start.slice(0, 4)}-${start.slice(4, 6)}-${start.slice(6, 8)}` : d;
       const end = new Date(Date.parse(s) + 6 * 864e5).toISOString().slice(0, 10);
-      return { usdKrw: v, period: `${dot(s)}~${end.slice(5).replace('-', '.')}`, label: `과세환율 ${v.toLocaleString('ko-KR', { minimumFractionDigits: 2 })}원/달러 (${dot(s)}~${end.slice(5).replace('-', '.')} 관세청 고시)` };
+      return { usdKrw: v, period: `${dot(s).slice(5)}~${end.slice(5).replace('-', '.')}`, label: `과세환율 ${v.toLocaleString('ko-KR', { minimumFractionDigits: 2 })}원/달러 (${dot(s)}~${end.slice(5).replace('-', '.')} 관세청 고시)` };
     }
   }
   return null;
