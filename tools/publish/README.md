@@ -12,7 +12,7 @@ GitHub Actions(`.github/workflows/publish.yml`)가 push 직후와 매시 7분에
   "schedule": "2026-10-23T11:00:00Z",
   "channels": {
     "instagram": { "images": ["publish/01.jpg", "publish/02.jpg"], "text": "캡션 #광고" },
-    "threads": { "texts": ["첫 글 #광고", "이어지는 글(답글로 붙어요)"] }
+    "threads": { "texts": ["첫 글 #광고", "이어지는 글(답글로 붙어요)"], "topicTag": "해외직구" }
   }
 }
 ```

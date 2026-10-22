@@ -65,6 +65,7 @@ async function postThreads(me, spec) {
     if (t.length > 500) throw new Error('스레드 글은 500자 이하');
     const params = { media_type: 'TEXT', text: t };
     if (prev) params.reply_to_id = prev;
+    else if (spec.topicTag) params.topic_tag = spec.topicTag; // 스레드 주제 태그(글당 1개, # 없이)
     const c = (await call(TH, `/${me}/threads`, THREADS_TOKEN, params, 'POST')).id;
     await sleep(5000);
     prev = (await call(TH, `/${me}/threads_publish`, THREADS_TOKEN, { creation_id: c }, 'POST')).id;
