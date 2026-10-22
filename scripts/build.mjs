@@ -315,14 +315,16 @@ function pageProduct(p) {
   const linkBtn = (url, label, primary) => `<a href="${esc(url)}" class="btn ${primary ? 'btn-buy' : 'btn-line'}" data-out rel="sponsored nofollow noopener" target="_blank">${esc(label)}</a>`;
   const btns = [];
   const overseas = p.buyUrl ? { url: p.buyUrl, label: overseasLabel } : null;
+  const partsHtml = (p.parts || []).length ? `<div class="parts" id="parts"><b>${esc(p.storeName)}에서 하나씩 담기</b>${p.parts.map((x) => `<a href="${esc(x.url)}" data-out rel="sponsored nofollow noopener" target="_blank">${esc(x.name)}<span>₩${krw(x.priceKrw)}</span></a>`).join('')}</div>` : '';
   const domestic = p.domesticUrl ? { url: p.domesticUrl, label: domesticLabel } : null;
   // 판정이 추천하는 쪽이 첫 번째(빨간) 버튼. 그 링크가 아직 없으면 '준비 중'으로 두고, 다른 쪽은 보조 버튼으로
   const preferred = domesticFirst ? domestic : overseas;
   const other = domesticFirst ? overseas : domestic;
   if (preferred) btns.push(linkBtn(preferred.url, preferred.label, true));
+  else if (!domesticFirst && partsHtml) btns.push(`<a href="#parts" class="btn btn-buy">${esc(p.storeName)}에서 ${p.parts.length}개 담기 · ₩${krw(ev.cost.total)}</a>`);
   else btns.push(`<span class="btn btn-buy is-disabled" aria-disabled="true">${esc(domesticFirst ? '국내 구매 링크 준비 중' : `${p.storeName} 구매 링크 준비 중`)}</span>`);
   if (other) btns.push(linkBtn(other.url, other.label, false));
-  const out = btns.join('\n      ');
+  const out = btns.join('\n      ') + partsHtml;
   let hero, money;
   if (ev.kind === 'priced') {
     const c = ev.cost;
@@ -368,7 +370,9 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
 </form>`;
   }
   const risks = (p.risks || []).map((r) => `<span class="risk">${icon.warn}${esc(r)}</span>`).join('');
-  const summary = (p.summary || []).map((s) => `<li>${esc(s)}</li>`).join('');
+  // 요약 문장 속 {be}·{beKrw}는 빌드할 때 손익분기 값으로 바꿔요(가격·환율이 바뀌어도 문장이 맞게)
+  const fill = (s) => s.replace(/\{be\}/g, ev.breakeven != null ? '$' + ev.breakeven : '-').replace(/\{beKrw\}/g, ev.beKrw != null ? '₩' + krw(ev.beKrw) : '-');
+  const summary = (p.summary || []).map((s) => `<li>${esc(fill(s))}</li>`).join('');
   const desc = ev.kind === 'priced'
     ? `${p.name} 해외직구 최종 체감가 ₩${krw(ev.cost.total)} vs 국내 최저가 ₩${krw(p.domesticKrw)}. ${v.label} 판정과 관부가세 계산.`
     : `${p.name} 해외직구 손익분기 가격과 국내 최저가 ₩${krw(p.domesticKrw)} 비교.`;

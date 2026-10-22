@@ -435,3 +435,8 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .s-more { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
 .s-more[hidden] { display: none; }
 .s-more a { border: 1px solid var(--line-strong); border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 700; color: var(--ink); text-decoration: none; }
+.parts { display: flex; flex-direction: column; gap: 8px; border: 1px solid var(--line); border-radius: 14px; padding: 14px; scroll-margin-top: 80px; }
+.parts b { font-size: 15px; }
+.parts a { display: flex; justify-content: space-between; gap: 12px; padding: 12px 14px; border-radius: 10px; background: var(--bg2); color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; }
+.parts a span { font-weight: 800; white-space: nowrap; }
+.parts a:hover { color: var(--brand); }
