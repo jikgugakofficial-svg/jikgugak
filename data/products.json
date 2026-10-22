@@ -278,7 +278,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OAxXpVmK",
     "sample": false,
-    "checkedAt": "2026.10.21 저녁",
+    "checkedAt": "2026.10.22 오후",
     "slug": "amazon-lego-10309-succulents",
     "name": "레고 보태니컬 다육식물 10309",
     "category": "toy",
@@ -286,14 +286,15 @@
     "domesticSource": "쿠팡 ₩60,730 + 배송비 ₩10,000",
     "buyUrl": "https://www.amazon.com/dp/B09Q4GWMZQ",
     "risks": [
+      "10.22 기준 아마존에서 한국 배송이 안 돼요",
       "US$49 미만이면 배송비 별도",
       "결제는 원화 말고 달러로 (환전 수수료)",
       "배송 1~4주"
     ],
     "summary": [
       "국내는 재고가 적어 쿠팡도 배송비 포함 ₩70,730이에요.",
-      "아마존가가 {be} 이하면 직구각이에요. 블프 세일 때 이 가격 아래로 내려오는지 확인해 보세요.",
-      "$49 무료배송을 맞추려면 다른 레고(예: 꽃다발 10280)와 같이 담으세요."
+      "10월 22일 확인 기준 아마존에서 한국으로 배송이 안 돼요. 다시 열리면 {be} 이하일 때 직구각이에요.",
+      "지금은 쿠팡이 현실적인 선택이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6498210958",
     "image": "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4792/4405323d7be036469ab4aa7bff01e8c986ee748bf9d9e5dea00ca0904396.jpg"
@@ -323,7 +324,7 @@
     "summary": [
       "아마존가가 {be} 이하로 내려오면 직구각이에요.",
       "손익분기 {be}가 $49 무료배송 기준보다 낮아서, 꽃다발만 담으면 배송비가 따로 붙어요.",
-      "다육식물 10309와 같이 담으면 $49 무료배송을 넘기기 쉬워요."
+      "다른 아마존 상품과 한 주문에 담아 $49를 넘기면 배송비가 없어요(다육식물 10309는 10.22 기준 한국 배송 불가)."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/4899605928",
     "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/0a4d/27f2ee94ab39653c5f514260e9688269f6eab7ceb18e3ba99833a11602a0.jpg"
@@ -504,5 +505,187 @@
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6714215076",
     "overseasCheckUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
     "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/ef52/d91d305aaffc7a8c89f2a83a4504341d079bb081d8e963ed6f34698ee12d.jpg"
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.22 오후",
+    "slug": "amazon-sennheiser-hd600",
+    "name": "젠하이저 HD 600 오픈형 헤드폰",
+    "category": "audio",
+    "shipNote": "미국→한국 무료 배송(10.22 확인)",
+    "domesticKrw": 328970,
+    "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
+    "domesticUrl": "https://link.coupang.com/a/h28aa541IG",
+    "buyUrl": "https://www.amazon.com/dp/B00004SY4H",
+    "risks": [
+      "$200 넘으면 관세 8% + 부가세 10%",
+      "아마존 재고가 적고 판매자가 자주 바뀌어요",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "같은 HD 600(오픈형 유선)끼리 비교했어요. 쿠팡은 와우 쿠폰가 기준이에요.",
+      "아마존가가 {be} 이하면 직구각이에요. 면세 한도 $200 바로 아래라 세금도 안 붙어요.",
+      "$200을 1달러라도 넘으면 배송비까지 포함해 관부가세가 붙으니 결제 금액을 꼭 확인하세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8542629824",
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/592600798107144-b1b13ee5-140a-411c-81e5-7bcb35befc89.jpg"
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.22 오후",
+    "slug": "amazon-bose-qc-ultra-headphones-2",
+    "name": "보스 QC 울트라 헤드폰 2세대",
+    "category": "audio",
+    "shipNote": "미국→한국 무료 배송(10.22 확인)",
+    "domesticKrw": 482700,
+    "domesticSource": "쿠팡, 로켓배송",
+    "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
+    "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
+    "risks": [
+      "$200 넘으면 관세 8% + 부가세 10%",
+      "1세대와 헷갈리지 않게 '2nd Gen' 확인",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "보스 QC 울트라 헤드폰 2세대끼리 비교했어요(1세대 아님).",
+      "아마존가가 {be} 이하로 내려와야 관부가세를 내고도 직구각이에요.",
+      "블프 노캔 헤드폰 단골 특가라 세일 때 이 기준만 기억하세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg"
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.22 오후",
+    "slug": "amazon-audio-technica-ath-m50x",
+    "name": "오디오테크니카 ATH-M50x 모니터 헤드폰",
+    "category": "audio",
+    "shipNote": "미국→한국 무료 배송(10.22 확인)",
+    "domesticKrw": 208000,
+    "domesticSource": "쿠팡, 무료배송",
+    "domesticUrl": "https://link.coupang.com/a/h28cvy7hQX",
+    "buyUrl": "https://www.amazon.com/dp/B00HVLUR86",
+    "risks": [
+      "색상(블랙·화이트·한정판) 같은지 확인",
+      "결제는 원화 말고 달러로 (환전 수수료)",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "ATH-M50x 블랙(분리형 케이블)끼리 비교했어요.",
+      "아마존가가 {be} 이하면 직구각이에요.",
+      "$200 아래라면 관부가세가 없어서 세일 때 차이가 크게 날 수 있어요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/301650987",
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2019/09/02/12/2/c0e12dc2-a813-4e70-872c-d86f43f3ace6.jpg"
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.22 오후",
+    "slug": "amazon-aeropress-original",
+    "name": "에어로프레스 오리지널 커피메이커",
+    "category": "home",
+    "shipNote": "US$49 이상 무료 배송(적합 상품)",
+    "domesticKrw": 47600,
+    "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
+    "domesticUrl": "https://link.coupang.com/a/h28cEN7ILQ",
+    "buyUrl": "https://www.amazon.com/dp/B0047BIWSK",
+    "risks": [
+      "US$49 미만이면 배송비 별도",
+      "XL·토트백 세트와 헷갈리지 않게 '오리지널' 확인",
+      "결제는 원화 말고 달러로 (환전 수수료)"
+    ],
+    "summary": [
+      "에어로프레스 오리지널(XL 아님) 단품끼리 비교했어요.",
+      "손익분기 {be}가 $49 무료배송 기준보다 낮아서, 이것만 담으면 배송비가 따로 붙어요.",
+      "쿠팡 로켓배송 가격이 낮은 편이라 대부분은 국내가 나아요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8123350236",
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2026/04/09/9/3/967bb3f5-813a-4587-9a60-4bf5f2326724.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "category": "audio",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(10.22 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h28efNTYlM",
+    "sample": false,
+    "checkedAt": "2026.10.22 오후",
+    "slug": "ali-qcy-h3-anc-headphones",
+    "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
+    "priceKrw": 29671,
+    "domesticKrw": 42600,
+    "domesticSource": "쿠팡, 로켓배송",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
+    "risks": [
+      "배송 1~2주",
+      "신규 회원가(₩28,197)는 첫 구매 때만",
+      "국내 A/S 받기 어려워요"
+    ],
+    "summary": [
+      "QCY 공식 스토어의 H3 ANC(H3 Pro 아님)와 쿠팡 같은 모델을 비교했어요.",
+      "알리 일반가로도 쿠팡보다 {diff}({pct}) 싸요.",
+      "색상만 같은지 확인하면 기다릴 만한 차이예요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7876965230",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005012204345276.html",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf5da90c2a779438c913fc947ea574660F.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "category": "it",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(10.22 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
+    "sample": false,
+    "checkedAt": "2026.10.22 오후",
+    "slug": "ali-xiaomi-smart-band-10-pro",
+    "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
+    "priceKrw": 105200,
+    "domesticKrw": 86130,
+    "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
+    "risks": [
+      "알리 판매자는 공식 스토어가 아니에요",
+      "글로벌·중국 내수 버전 구분",
+      "배송 1~2주"
+    ],
+    "summary": [
+      "글로벌 버전 밴드 10 프로끼리 비교했어요.",
+      "쿠팡이 {diff} 더 싸서 지금은 국내가 나아요.",
+      "알리가 {beKrw} 아래로 떨어지는 광군제 특가 때만 다시 볼 만해요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9644182900",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006405553471.html",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc47cf6caefa1456f98e040cc4890ba062.jpg"
   }
 ]
