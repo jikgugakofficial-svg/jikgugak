@@ -48,3 +48,5 @@ assert.equal(comparability('로지텍 G304 라이트스피드 무선 게이밍 �
 assert.equal(comparability('무선 블루투스 이어폰 5.3 TWS 65W 고속 충전').comparable, false);
 assert.equal(comparability('8 in 1 USB C 허브 확장 멀티포트 4K 100W').comparable, false);
 console.log('비교 가능 판별 점검 통과');
+assert.equal(rank2([mk('샤오미 스마트 밴드 10 글로벌 버전 AMOLED', 50000)], 'xiaomi smart band 10').length, 1, '영어 검색어도 한글 상품명에 걸려요');
+console.log('영어↔한글 점검 통과');

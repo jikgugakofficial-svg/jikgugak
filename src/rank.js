@@ -18,8 +18,15 @@ export const ALIASES = {
   '갤럭시': ['galaxy'], '버즈': ['buds'], '갤럭시버즈': ['galaxy buds'], '레고': ['lego'], '다이슨': ['dyson'], '닌텐도': ['nintendo'], '스위치': ['switch'],
   '로지텍': ['logitech'], '소니': ['sony'], '샤오미': ['xiaomi'], '앤커': ['anker'], '베이스어스': ['baseus'], '유그린': ['ugreen'], '큐씨와이': ['qcy'],
   '키보드': ['keyboard'], '마우스': ['mouse'], '이어폰': ['earphone', 'earbuds'], '헤드폰': ['headphone', 'headphones'], '충전기': ['charger'],
-  '보조배터리': ['power bank'], '허브': ['hub'], '텀블러': ['tumbler'], '스탠리': ['stanley'], '크록스': ['crocs'], '프로틴': ['protein'], '그라인더': ['grinder']
+  '보조배터리': ['power bank'], '허브': ['hub'], '텀블러': ['tumbler'], '스탠리': ['stanley'], '크록스': ['crocs'], '프로틴': ['protein'], '그라인더': ['grinder'],
+  '스마트': ['smart'], '밴드': ['band'], '워치': ['watch'], '램프': ['lamp'], '헤드셋': ['headset'], '프로': ['pro'], '맥스': ['max'], '미니': ['mini'],
+  '캡슐': ['capsule'], '보위': ['bowie'], '키크론': ['keychron'], '사운드피츠': ['soundpeats'], '사운드코어': ['soundcore'], '오왈라': ['owala'],
+  '넥소드': ['nexode'], '스페이스': ['space'], '원': ['one'], '무선': ['wireless'], '기계식': ['mechanical'], '독거미': ['aula'], '에어로프레스': ['aeropress'],
+  '칼하트': ['carhartt'], '비니': ['beanie'], '젠하이저': ['sennheiser'], '보스': ['bose'], '오디오테크니카': ['audio-technica', 'audiotechnica'], '삼성': ['samsung']
 };
+// 영어 → 한글 (알리 상품명이 한국어로 번역돼 있을 때도 영어 검색어가 걸리게)
+const REVERSE = {};
+for (const [ko, ens] of Object.entries(ALIASES)) for (const en of ens) (REVERSE[en.replace(/\s+/g, '')] ||= []).push(ko);
 // 국내(쿠팡 등)에서도 같은 모델을 찾을 수 있는 브랜드
 export const BRANDS = ['baseus', 'ugreen', 'anker', 'xiaomi', 'redmi', 'mi ', 'qcy', 'lenovo', 'logitech', 'sony', 'samsung', 'apple', 'lego', 'dyson', 'nintendo',
   'soundpeats', 'edifier', 'haylou', 'tronsmart', 'realme', 'oneplus', 'huawei', 'honor', 'tp-link', 'orico', 'essager', 'hoco', 'joyroom', 'remax', '70mai',
@@ -52,7 +59,7 @@ export function tokenize(q) {
 function hasToken(titleLower, titleCompact, t) {
   if (/^\d+$/.test(t)) return new RegExp(`(^|[^0-9])${t}([^0-9]|$)`).test(titleLower); // 숫자는 2가 2024에 걸리지 않게
   if (titleCompact.includes(t)) return true;
-  return (ALIASES[t] || []).some((a) => titleCompact.includes(a.replace(/\s+/g, '')));
+  return (ALIASES[t] || []).some((a) => titleCompact.includes(a.replace(/\s+/g, ''))) || (REVERSE[t] || []).some((k) => titleCompact.includes(k));
 }
 
 // 알리 API에 보낼 검색어 후보: 원래 검색어(한글·숫자 띄움) + 영어로 바꾼 검색어
@@ -72,7 +79,8 @@ export function analyze(item, q) {
   const coverage = tokens.length ? hits / tokens.length : 0;
   const words = tokens.filter((t) => !/^\d+$/.test(t));
   const wordHits = words.filter((t) => hasToken(tl, tc, t)).length;
-  const relevant = words.length ? wordHits === words.length : hits > 0; // 숫자 말고 '이름'은 다 들어 있어야 관련 상품
+  // 숫자 말고 '이름'이 들어 있어야 관련 상품: 단어 2개 이하면 전부, 3개 이상이면 60% 이상
+  const relevant = words.length ? wordHits / words.length >= (words.length <= 2 ? 1 : 0.6) : hits > 0;
   const full = qc.length > 1 && tc.includes(qc);
   const qLower = lower(q);
   const accWord = ACCESSORY_WORDS.find((w) => tl.includes(w) && !qLower.includes(w));
