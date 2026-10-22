@@ -30,12 +30,12 @@ function fxRail() {
   if (!FXB) return '';
   const cards = Object.entries(FXB.items).map(([k, it]) => `<div class="fx-card"><span class="fx-k">오늘 원/${FX_NAMES[k][0]} 환율</span><b class="fx-v">${fxNum(it.v)}<small>원</small></b><span class="fx-u">${FX_NAMES[k][1]} 기준 ${fxChg(it.chg)}</span></div>`).join('');
   const customs = RATES.customs && RATES.customs.usdKrw ? `<br>관세 계산은 과세환율 ${fxNum(RATES.customs.usdKrw)}원${RATES.customs.period ? `(${esc(RATES.customs.period)})` : ''}` : '';
-  return `<aside class="rail rail-l" aria-label="오늘 환율">${cards}<p class="fx-src">${fxDate()} 매매기준율 · 한국수출입은행${customs}</p><a class="fx-cta" href="/calculator">이 환율로 관세 계산 →</a></aside>`;
+  return `<aside class="rail rail-l" aria-label="오늘 환율">${cards}<p class="fx-trust">직구각은 매일 고시되는 공식 환율에 자동 연동해 가격을 비교해요.</p><p class="fx-src">${fxDate()} 매매기준율 · 한국수출입은행${customs}</p><a class="fx-cta" href="/calculator">이 환율로 관세 계산 →</a></aside>`;
 }
 function fxStrip() {
   if (!FXB) return '';
   const items = Object.entries(FXB.items).map(([k, it]) => `<span class="fx-i">${FX_NAMES[k][1]} <b>${fxNum(it.v)}원</b> ${fxChg(it.chg)}</span>`).join('');
-  return `<section class="fx-strip" aria-label="오늘 환율"><span class="ticker-pill">오늘 환율</span>${items}<span class="fx-i muted">${fxDate()} 매매기준율</span></section>`;
+  return `<section class="fx-strip" aria-label="오늘 환율"><span class="ticker-pill">오늘 환율</span>${items}<span class="fx-i muted">${fxDate()} 매매기준율 · 공식 환율 자동 연동</span></section>`;
 }
 function adRail() {
   const a = site.sideAd;
