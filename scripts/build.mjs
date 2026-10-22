@@ -436,45 +436,44 @@ function pageCalculator() {
 function pageSearch() {
   const catOpts = Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)} (${esc(c.sub)})</option>`).join('');
   const body = `
-<div class="page-head"><h1 class="display" data-s-title>직구각 검색</h1><p class="muted" data-s-sub>상품명을 검색하면 국내 최저가를 찾아 드려요. 해외 가격만 넣으면 바로 판정해요.</p></div>
+<div class="page-head"><h1 class="display" data-s-title>직구각 검색</h1><p class="muted" data-s-sub>상품명을 검색하면 알리익스프레스 실시간 가격을 찾아 드려요. 국내 최저가만 넣으면 관부가세까지 계산해 바로 판정해요.</p></div>
 <form class="s-form" action="/search" method="get" role="search">
   <label for="sq" class="sr-only">상품 검색</label>
-  <input id="sq" name="q" type="search" placeholder="예: 에어팟 프로, 오메가3, 로지텍 마우스" autocomplete="off">
+  <input id="sq" name="q" type="search" placeholder="예: 무선 이어폰, USB-C 허브, 레고" autocomplete="off">
   <button type="submit" class="btn btn-buy">검색</button>
 </form>
 <section class="block" data-s-curated hidden>
   <h2 class="h2">직구각이 이미 판정한 상품</h2>
   <div class="grid">${items.map(card).join('\n')}</div>
 </section>
-<section class="block" data-s-live hidden data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}" data-amz-tag="${esc((site.affiliateIds && site.affiliateIds.amazon) || "")}">
-  <div class="block-head"><div><h2 class="h2">국내 최저가</h2><span class="muted small">네이버쇼핑 검색 결과 · 해외직구·중고·렌탈 제외</span></div></div>
+<section class="block" data-s-live hidden data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
+  <div class="block-head"><div><h2 class="h2">알리익스프레스 실시간 가격</h2><span class="muted small">원화 판매가 기준 · 신규 회원 할인·쿠폰은 빠져 있어요</span></div></div>
   <p class="s-status" data-s-status role="status" aria-live="polite"></p>
   <ol class="s-list" data-s-list></ol>
+  <div class="s-more" data-s-more hidden><span class="muted small">국내 최저가 찾아보기</span><a data-s-coupang target="_blank" rel="noopener">쿠팡에서 검색</a><a data-s-naver target="_blank" rel="noopener">네이버쇼핑에서 검색</a></div>
 </section>
 <template id="s-row">
   <li class="s-item">
     <div class="s-main">
       <img class="s-img" alt="" loading="lazy" width="88" height="88">
       <div class="s-info">
-        <a class="s-title" target="_blank" rel="noopener"></a>
-        <div class="s-meta"><b class="s-price"></b><span class="s-mall"></span></div>
-        <button type="button" class="btn btn-ink small s-open">해외 가격 넣고 판정하기</button>
+        <span class="s-title"></span>
+        <div class="s-meta"><b class="s-price"></b><s class="s-orig"></s><span class="s-mall"></span></div>
+        <div class="s-btns"><button type="button" class="btn btn-ink small s-open">국내가 넣고 판정</button><a class="btn btn-line small s-buy" target="_blank" rel="sponsored noopener">알리에서 보기</a></div>
       </div>
     </div>
     <div class="s-judge" hidden>
       <div class="s-grid">
-        <div class="field"><label>해외 가격</label><div class="s-money"><div class="seg s-cur"><button type="button" data-cur="krw" aria-pressed="true">원(₩)</button><button type="button" data-cur="usd" aria-pressed="false">달러($)</button></div><input class="s-price-in" type="number" inputmode="decimal" min="0" step="any" placeholder="알리·아이허브는 원, 아마존은 달러"></div></div>
-        <div class="field"><label>국제 배송비</label><input class="s-ship-in" type="number" inputmode="decimal" min="0" step="any" value="0"><small>무료면 0, 단위는 위와 같아요</small></div>
-        <div class="field"><label>어디서 보내나요?</label><div class="seg s-origin"><button type="button" data-origin="other" aria-pressed="true">중국 등 (알리)</button><button type="button" data-origin="us" aria-pressed="false">미국 (아마존·아이허브)</button></div></div>
-        <div class="field"><label>품목</label><select class="s-cat">${catOpts}</select></div>
+        <div class="field"><label>국내 최저가 (원)</label><input class="s-dom-in" type="number" inputmode="numeric" min="0" step="100" placeholder="쿠팡·네이버 최저가"><small><a class="s-dom-coupang" target="_blank" rel="noopener">쿠팡에서 같은 상품 찾기</a></small></div>
+        <div class="field"><label>국제 배송비 (원)</label><input class="s-ship-in" type="number" inputmode="numeric" min="0" step="100" value="0"><small>무료배송이면 0</small></div>
+        <div class="field s-wide"><label>품목</label><select class="s-cat">${catOpts}</select></div>
       </div>
       <div class="s-result" aria-live="polite"></div>
-      <div class="s-find"><span class="muted small">해외 가격 찾아보기</span><a class="s-ali" target="_blank" rel="noopener">알리익스프레스</a><a class="s-iherb" target="_blank" rel="noopener">아이허브</a><a class="s-amz" target="_blank" rel="noopener">아마존</a></div>
     </div>
   </li>
 </template>
-<p class="muted small">국내 최저가는 네이버쇼핑 검색 결과로, 배송비·카드 할인은 빠져 있을 수 있어요. 같은 모델인지 꼭 확인하세요. ${esc(site.fx.label)}.</p>`;
-  return layout({ title: '직구각 검색', description: '아무 상품이나 검색하면 국내 최저가를 찾고, 해외 가격을 넣으면 관부가세까지 계산해 직구각인지 판정해요.', urlPath: '/search', body, noindex: true, scripts: ['/assets/search.js'] });
+<p class="muted small">알리 가격은 제휴 API로 받아온 원화 판매가예요. 회원·쿠폰·옵션에 따라 실제 결제가는 다를 수 있어요. 직구각의 링크로 구매하면 제휴 수수료를 받을 수 있어요. ${esc(site.fx.label)}.</p>`;
+  return layout({ title: '직구각 검색', description: '아무 상품이나 검색하면 알리익스프레스 실시간 가격을 찾고, 국내 최저가와 관부가세까지 계산해 직구각인지 판정해요.', urlPath: '/search', body, noindex: true, scripts: ['/assets/search.js'] });
 }
 
 // ---------- 세일 일정 도우미 ----------
