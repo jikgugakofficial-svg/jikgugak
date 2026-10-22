@@ -2,6 +2,7 @@
 // 알리익스프레스 제휴 API(aliexpress.affiliate.product.query)로 상품·원화 가격·제휴 링크를 가져와요.
 // 키는 Vercel 환경 변수 ALI_APP_KEY, ALI_APP_SECRET(, ALI_TRACKING_ID)에만 넣어요. 코드·저장소에는 절대 적지 않아요.
 import crypto from 'node:crypto';
+import { rank } from '../src/rank.js';
 
 const API = 'https://api-sg.aliexpress.com/sync';
 
@@ -39,30 +40,34 @@ export default async function handler(req, res) {
   const secret = process.env.ALI_APP_SECRET;
   if (!key || !secret) return send(res, 503, { ok: false, reason: 'not_configured' });
 
-  const biz = {
+  const base = {
     keywords: q,
     page_no: '1',
-    page_size: '20',
-    sort: 'LAST_VOLUME_DESC', // 많이 팔린 순: 검색어와 무관한 신규·무판매 상품이 위로 오는 걸 막아요
+    page_size: '50',
     target_currency: 'KRW',
     target_language: 'KO',
     ship_to_country: 'KR',
     tracking_id: process.env.ALI_TRACKING_ID || 'default'
   };
+  const debug = url.searchParams.get('debug') === '1';
 
-  try {
+  async function query(biz) {
     let data = await call('aliexpress.affiliate.product.query', biz, { key, secret });
     if (data && data.error_response && /sign/i.test(JSON.stringify(data.error_response))) {
       data = await call('aliexpress.affiliate.product.query', biz, { key, secret }, 'md5');
     }
     const rr = data && data.aliexpress_affiliate_product_query_response && data.aliexpress_affiliate_product_query_response.resp_result;
-    if (!rr) return send(res, 502, { ok: false, reason: 'upstream', detail: data && data.error_response ? data.error_response.code || data.error_response.msg : 'no_result' });
-    if (String(rr.resp_code) !== '200') {
-      // 검색 결과가 없을 때도 resp_code가 200이 아닐 수 있어요
-      return send(res, 200, { ok: true, q, source: 'aliexpress', items: [] }, 1800);
-    }
-    const list = (rr.result && rr.result.products && rr.result.products.product) || [];
-    const items = list.map((p) => ({
+    if (!rr) return { error: data && data.error_response ? data.error_response.code || data.error_response.msg : 'no_result' };
+    if (String(rr.resp_code) !== '200') return { list: [] }; // 결과 없음도 200이 아닐 수 있어요
+    return { list: (rr.result && rr.result.products && rr.result.products.product) || [] };
+  }
+
+  try {
+    // 두 가지로 찾아 합쳐요: 기본(검색어 관련도) + 많이 팔린 순. 순위는 src/rank.js가 다시 매겨요.
+    const [byRel, byVol] = await Promise.all([query(base), query({ ...base, sort: 'LAST_VOLUME_DESC' })]);
+    if (byRel.error && byVol.error) return send(res, 502, { ok: false, reason: 'upstream', detail: byRel.error });
+    const seen = new Set();
+    const items = [...(byRel.list || []), ...(byVol.list || [])].map((p) => ({
       id: String(p.product_id),
       title: p.product_title,
       price: num(p.target_sale_price || p.sale_price),
@@ -73,16 +78,13 @@ export default async function handler(req, res) {
       rating: p.evaluate_rate || '',
       shop: p.shop_name || '',
       category: p.first_level_category_name || ''
-    })).filter((p) => p.price > 0);
-    // 액세서리 정리: 가격이 중간값의 25%도 안 되는 상품(케이스·케이블 등)은 아래로 내려요
-    const sortedPrices = list2 => list2.map((x) => x.price).sort((a, b) => a - b);
-    const ps = sortedPrices(items);
-    const median = ps.length ? ps[Math.floor(ps.length / 2)] : 0;
-    const main = items.filter((x) => x.price >= median * 0.25);
-    const minor = items.filter((x) => x.price < median * 0.25).map((x) => ({ ...x, accessory: true }));
-    items.length = 0; items.push(...main, ...minor);
-    items.splice(12);
-    return send(res, 200, { ok: true, q, source: 'aliexpress', items }, 3600);
+    })).filter((p) => p.price > 0 && !seen.has(p.id) && seen.add(p.id));
+    const ranked = rank(items, q, { limit: 12 }).map((x) => {
+      if (debug) return x;
+      const { _score, _why, ...rest } = x;
+      return rest;
+    });
+    return send(res, 200, { ok: true, q, source: 'aliexpress', items: ranked, ...(debug ? { pool: items.length } : {}) }, debug ? 0 : 3600);
   } catch (e) {
     return send(res, 502, { ok: false, reason: 'error' });
   }

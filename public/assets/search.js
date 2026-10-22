@@ -111,7 +111,7 @@ function row(it) {
   $('.s-title').textContent = it.title;
   $('.s-price').textContent = '₩' + krw(it.price);
   if (it.original > it.price) $('.s-orig').textContent = '₩' + krw(it.original); else $('.s-orig').remove();
-  $('.s-mall').textContent = [it.accessory ? '액세서리일 수 있어요' : '', it.orders ? `${krw(it.orders)}개 판매` : '', it.rating ? `평점 ${it.rating}` : ''].filter(Boolean).join(' · ');
+  $('.s-mall').textContent = [it.note || (it.accessory ? '액세서리일 수 있어요' : ''), it.orders ? `${krw(it.orders)}개 판매` : '', it.rating ? `평점 ${it.rating}` : ''].filter(Boolean).join(' · ');
   $('.s-buy').href = it.link;
   const domCp = $('.s-dom-coupang');
   if (domCp) domCp.href = coupangSearch(shortQuery(it.title));
