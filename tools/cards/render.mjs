@@ -3,6 +3,8 @@
 // 규격과 슬라이드 종류는 docs/marketing/card-spec.md 참고. 브랜드 로고·남의 사진은 넣지 않아요.
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { ensureFonts } from './fonts.mjs';
+ensureFonts();
 
 async function loadPlaywright() {
   for (const m of ['playwright', '/opt/npm-tools/node_modules/playwright/index.mjs']) {
