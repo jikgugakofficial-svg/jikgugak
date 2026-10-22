@@ -12,15 +12,15 @@
     {
       "type": "shot",
       "label": "나머지 반",
-      "title": "국내가 더 싸면\n그렇다고 말해요",
-      "image": "img/02-home-bad-top.png",
-      "body": "국내가 낫다고 솔직하게 알려 줘요"
+      "title": "국내가 이기는\n상품도 있어요",
+      "image": "img/02-home-bad-d3k2-badge.png",
+      "body": "관세·배송비를 더해 국내가 싸면\n'국내가 나음'이라고 그대로 보여 줘요"
     },
     {
       "type": "shot",
       "title": "직구가 싼 경우엔\n이렇게 보여요",
       "image": "img/03-product-compare.png",
-      "body": "같은 모델끼리, 관세·부가세·배송비 더한 가격이에요"
+      "body": "같은 모델끼리,\n관세·부가세·배송비 더한 가격이에요"
     },
     {
       "type": "compare",
@@ -54,7 +54,7 @@
       "type": "shot",
       "title": "내 상품도\n직접 계산",
       "image": "img/05-calculator.png",
-      "body": "가격을 넣으면 판정과 면세 한도 신호등이 나와요(화면은 예시)"
+      "body": "가격을 넣으면 판정과\n면세 한도 신호등이 나와요(화면은 예시)"
     },
     {
       "type": "shot",

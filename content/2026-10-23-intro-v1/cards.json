@@ -11,9 +11,9 @@
     },
     {
       "type": "shot",
-      "title": "검색 한 번에\n최종가와 판정",
+      "title": "국내가 옆에\n해외 최종가",
       "image": "img/03-product-compare.png",
-      "body": "국내가 vs 해외 최종가를 나란히 보여 줘요\n관세·부가세·배송비 포함"
+      "body": "관세·부가세·배송비까지 더해서\n나란히 놓고 판정해요"
     },
     {
       "type": "shot",
@@ -47,7 +47,7 @@
       "type": "shot",
       "title": "내 상품도\n직접 계산",
       "image": "img/05-calculator.png",
-      "body": "가격을 넣으면 판정과 면세 한도 신호등이 나와요(화면은 예시)"
+      "body": "가격을 넣으면 판정과\n면세 한도 신호등이 나와요(화면은 예시)"
     },
     {
       "type": "shot",
