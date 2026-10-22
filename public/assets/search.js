@@ -36,6 +36,11 @@ if (q) {
   live.querySelector('[data-s-coupang]').href = coupangSearch(q);
   live.querySelector('[data-s-naver]').href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(q)}`;
   more.hidden = false;
+  const amz = live.querySelector('[data-s-amazon]');
+  if (amz) {
+    amz.href = `https://www.amazon.com/s?k=${encodeURIComponent(q)}&tag=${encodeURIComponent(amz.dataset.tag)}`;
+    live.querySelector('[data-s-amazon-wrap]').hidden = false;
+  }
   statusEl.textContent = '알리익스프레스 가격을 찾는 중이에요…';
   fetch('/api/search?q=' + encodeURIComponent(q))
     .then((r) => r.json().catch(() => ({ ok: false })))

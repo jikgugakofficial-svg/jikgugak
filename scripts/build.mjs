@@ -161,6 +161,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <meta name="theme-color" content="#D23A10">
 <meta name="jg-fx" content="${FX}">
 <meta name="jg-payfx" content="${PAYFX}">
+<meta name="jg-fxsrc" content="${esc(((RATES.customs && RATES.customs.source) || 'settings') + '/' + ((RATES.pay && RATES.pay.source) || 'settings'))}">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/icon-192.png">
@@ -481,6 +482,7 @@ function pageSearch() {
   <p class="s-status" data-s-status role="status" aria-live="polite"></p>
   <ol class="s-list" data-s-list></ol>
   <div class="s-more" data-s-more hidden><span class="muted small">국내 최저가 찾아보기</span><a data-s-coupang target="_blank" rel="noopener">쿠팡에서 검색</a><a data-s-naver target="_blank" rel="noopener">네이버쇼핑에서 검색</a></div>
+  ${site.affiliateIds && site.affiliateIds.amazon ? `<div class="s-more" data-s-amazon-wrap hidden><span class="muted small">미국 직구도 보기</span><a data-s-amazon data-tag="${esc(site.affiliateIds.amazon)}" target="_blank" rel="sponsored noopener">아마존에서 검색</a><span class="muted small">아마존 가격을 계산기에 넣으면 판정해 드려요</span></div>` : ''}
 </section>
 <template id="s-row">
   <li class="s-item">
@@ -502,7 +504,7 @@ function pageSearch() {
     </div>
   </li>
 </template>
-<p class="muted small">알리 가격은 제휴 API로 받아온 원화 판매가예요. 회원·쿠폰·옵션에 따라 실제 결제가는 다를 수 있어요. 직구각의 링크로 구매하면 제휴 수수료를 받을 수 있어요. ${esc(site.fx.label)}.</p>`;
+<p class="muted small">알리 가격은 제휴 API로 받아온 원화 판매가예요. 회원·쿠폰·옵션에 따라 실제 결제가는 다를 수 있어요. 알리·아마존 링크로 구매하면 직구각이 제휴 수수료를 받을 수 있어요(구매가는 같아요). ${esc(site.fx.label)}.</p>`;
   return layout({ title: '직구각 검색', description: '아무 상품이나 검색하면 알리익스프레스 실시간 가격을 찾고, 국내 최저가와 관부가세까지 계산해 직구각인지 판정해요.', urlPath: '/search', body, noindex: true, scripts: ['/assets/search.js'] });
 }
 
