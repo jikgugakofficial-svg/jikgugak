@@ -133,7 +133,7 @@
     "domesticUrl": "",
     "buyUrl": "",
     "sample": false,
-    "checkedAt": "2026.10.22 오전",
+    "checkedAt": "2026.10.22 오후",
     "slug": "iherb-supplement-4-bundle",
     "name": "아이허브 영양제 4종 한 번에 담기 (오메가3·마그네슘·D3K2·유산균)",
     "priceKrw": 80932,
@@ -175,6 +175,12 @@
         "url": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
         "priceKrw": 24807
       }
+    ],
+    "domesticFrom": [
+      "iherb-cgn-omega3-premium-100",
+      "iherb-doctors-best-magnesium-240",
+      "iherb-now-vitamin-d3-k2-120",
+      "iherb-cgn-lactobif-30-60"
     ]
   },
   {

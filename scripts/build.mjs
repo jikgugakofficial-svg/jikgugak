@@ -74,6 +74,11 @@ const catIcon = (k) => `<svg width="28" height="28" viewBox="0 0 24 24" fill="no
 function normalize(p) {
   const amzTag = site.affiliateIds && site.affiliateIds.amazon;
   if (p.store === 'amazon' && amzTag && p.buyUrl && !/[?&]tag=/.test(p.buyUrl)) p = { ...p, buyUrl: p.buyUrl + (p.buyUrl.includes('?') ? '&' : '?') + 'tag=' + encodeURIComponent(amzTag) };
+  // 묶음 상품: 국내가를 구성 상품들의 국내가 합으로 자동 계산(구성 상품 가격이 바뀌면 같이 바뀌게)
+  if (Array.isArray(p.domesticFrom) && p.domesticFrom.length) {
+    const parts = p.domesticFrom.map((slug) => products.find((x) => x.slug === slug));
+    if (parts.every((x) => x && x.domesticKrw)) p = { ...p, domesticKrw: parts.reduce((a, x) => a + x.domesticKrw, 0) };
+  }
   if (p.priceKrw == null) return p;
   return { ...p, priceUsd: p.priceKrw / FX, shipUsd: (p.shipKrw || 0) / FX, krwPriced: true };
 }
@@ -550,7 +555,7 @@ function nextSaleCircle() {
 function pageSale() {
   const chips = upcoming.slice(0, 5).map((e) => `<span><b>${evRange(e)}</b> ${esc(e.name)} <i ${ddayAttr(e)}>${evDday(e)}</i></span>`).join('');
   const good = items.filter((p) => p.ev.verdict === 'good');
-  const targets = items.filter((p) => p.ev.kind === 'break');
+  const targets = items.filter((p) => p.ev.kind === 'break' && !p.unavailable); // 지금 한국 배송이 안 되는 상품은 목표가 표에서 빼요
   const domestic = items.filter((p) => p.ev.verdict === 'bad' || p.ev.verdict === 'meh');
   const rows = targets.map((p) => {
     const sale = nextSaleFor(p.storeName);
@@ -594,7 +599,7 @@ function pageSale() {
   <h2 id="sale-check" class="h2">세일 결제 전 5가지 체크</h2>
   <ol class="bf-checks">
     <li><b>면세 한도</b> 미국에서 특송으로 오면 $200, 그 외 나라·영양제·식품은 $150까지 면세예요.</li>
-    <li><b>합산과세</b> 같은 날 같은 나라에서 산 여러 주문이 한 번에 들어오면 합쳐서 세금을 매길 수 있어요. 주문을 하루 이상 띄우세요.</li>
+    <li><b>합산과세</b> 같은 판매자에게서 같은 날 산 물건은 나눠 받아도 금액을 합쳐서 면세 여부를 따져요. 한도가 걱정되면 판매자를 나누거나 구매 날짜를 다르게 하세요.</li>
     <li><b>달러로 결제</b> 해외 쇼핑몰이 원화로 결제하자고 하면 거절하고 현지 통화를 고르세요. 환전 수수료를 아껴요.</li>
     <li><b>무료배송 기준</b> 아마존은 한국행 무료배송 상품을 $49 이상, 아이허브는 ₩40,000 이상 담아야 배송비가 0원이에요.</li>
     <li><b>통관부호</b> 개인통관고유부호가 유효한지, 이름·전화번호가 주문 정보와 같은지 미리 확인하세요. <a href="/guide#pccc">확인하는 법</a></li>
