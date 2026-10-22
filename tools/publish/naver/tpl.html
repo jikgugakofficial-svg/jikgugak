@@ -1,0 +1,129 @@
+<title>네이버 게시 키트</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+<style>
+/* 한 줄 작업대: 위에서 아래로 붙여 넣는 순서 그대로, 왼쪽 번호 레일 */
+:root{
+  --bg:#F6F4F2; --panel:#FFFFFF; --ink:#1B1A19; --mute:#6B6560; --line:#E4DFDA;
+  --brand:#D43B12; --brand-ink:#FFFFFF; --ok:#1E7A46; --slot-bg:#FFF4D6; --slot-ink:#6B4B00;
+  --sans:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+  --mono:ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#161413; --panel:#211E1C; --ink:#F2EEEA; --mute:#A9A19A; --line:#38322E;
+  --brand:#FF6A3D; --brand-ink:#1B0D06; --ok:#5BC98A; --slot-bg:#3A2F12; --slot-ink:#FFDD8A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#161413; --panel:#211E1C; --ink:#F2EEEA; --mute:#A9A19A; --line:#38322E;
+  --brand:#FF6A3D; --brand-ink:#1B0D06; --ok:#5BC98A; --slot-bg:#3A2F12; --slot-ink:#FFDD8A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.7 var(--sans);word-break:keep-all;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:760px;margin:0 auto;display:grid;gap:28px}
+header h1{margin:0;font-size:26px;font-weight:900;letter-spacing:-.02em;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--mute)}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--brand)}
+.step{display:grid;grid-template-columns:36px 1fr;gap:14px}
+.num{width:32px;height:32px;border-radius:50%;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font-weight:900;font-size:15px}
+.step>div{min-width:0;display:grid;gap:10px}
+.step h2{margin:3px 0 0;font-size:18px;font-weight:700}
+.hint{margin:0;color:var(--mute);font-size:14px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;min-width:0}
+.titlebox{font-size:18px;font-weight:700}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{font:inherit;font-size:14px;font-weight:700;border:0;border-radius:8px;padding:9px 14px;background:var(--brand);color:var(--brand-ink);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn:focus-visible,.chip:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.msg{font-size:13px;color:var(--ok);min-height:1em}
+#post{max-height:520px;overflow:auto}
+#post h3{font-size:17px;margin:22px 0 6px}
+#post p{margin:0 0 12px}
+#post table{border-collapse:collapse;width:100%;margin:6px 0 14px;font-size:14px}
+#post th,#post td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+#post ol{padding-left:20px}
+.slot{background:var(--slot-bg);color:var(--slot-ink);border-radius:6px;padding:6px 10px;font-weight:700;font-size:14px}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.pic{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;display:grid;gap:8px;align-content:start}
+.pic img{width:100%;border-radius:6px;border:1px solid var(--line);max-height:320px;object-fit:cover;object-position:top}
+.pic-num{font-weight:900;color:var(--brand)}
+.pic figcaption{font-size:13px;color:var(--mute);line-height:1.5}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:5px 12px;cursor:pointer}
+.check{margin:0;padding-left:20px;display:grid;gap:4px}
+code{font-family:var(--mono);font-size:13px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">네이버 블로그 · {{SET}}</div>
+  <h1>네이버 게시 키트</h1>
+  <p>위에서부터 순서대로 복사해서 네이버 글쓰기 창에 붙여 넣으면 돼요. 사진 {{NPICS}}장은 본문 속 노란 칸 자리에 넣어요.</p>
+</header>
+
+<section class="step"><span class="num">1</span><div>
+  <h2>제목</h2>
+  <div class="box titlebox" id="title">{{TITLE}}</div>
+  <div class="row"><button class="btn" data-copy-el="title">제목 복사</button><span class="msg" data-msg="title"></span></div>
+</div></section>
+
+<section class="step"><span class="num">2</span><div>
+  <h2>본문</h2>
+  <p class="hint">"본문 복사"를 누르고 글쓰기 창 본문에 Ctrl+V(맥은 ⌘+V). 굵은 글씨·소제목·표가 그대로 들어가요. 맨 위 광고 문구 두 줄은 지우지 마세요.</p>
+  <div class="row"><button class="btn" id="copyBody">본문 복사</button><span class="msg" data-msg="body"></span></div>
+  <div class="box" id="post">{{BODY}}</div>
+</div></section>
+
+<section class="step"><span class="num">3</span><div>
+  <h2>사진 넣기</h2>
+  <p class="hint">본문의 노란 <b>[사진 N 넣기]</b> 줄을 클릭하고, 같은 번호 사진을 "복사" → 그 자리에 Ctrl+V. 사진이 들어가면 노란 줄은 지워요. 복사 버튼이 안 되면 사진을 오른쪽 클릭 → "이미지 복사".</p>
+  <div class="gal">{{GALLERY}}</div>
+</div></section>
+
+<section class="step"><span class="num">4</span><div>
+  <h2>태그</h2>
+  <p class="hint">태그 칸에 하나씩 입력하고 Enter. 칩을 누르면 그 태그가 복사돼요.</p>
+  <div class="chips">{{TAGS}}</div>
+  <div class="row"><button class="btn ghost" data-copy-text="{{TAGS_ALL}}">태그 전체 복사</button><span class="msg" data-msg="tags"></span></div>
+</div></section>
+
+<section class="step"><span class="num">5</span><div>
+  <h2>발행 전 확인</h2>
+  <div class="box"><ul class="check">
+    <li>맨 위 광고 문구 두 줄이 그대로 있어요</li>
+    <li>노란 [사진 N 넣기] 줄이 남아 있지 않아요(7곳)</li>
+    <li>링크는 맨 아래 <code>https://www.jikgugak.com</code> 하나예요</li>
+    <li>카테고리를 고르고, 공개 설정은 "전체 공개"</li>
+    <li>바로 올리지 않으려면 발행 창의 "예약"으로 시간을 정해요</li>
+  </ul></div>
+</div></section>
+</div>
+
+<script>
+function flash(key, text){ const m=document.querySelector('[data-msg="'+key+'"]'); if(m){ m.textContent=text; setTimeout(()=>{ m.textContent=''; },2500);} }
+function selectEl(el){ const r=document.createRange(); r.selectNodeContents(el); const s=getSelection(); s.removeAllRanges(); s.addRange(r); return s; }
+async function copyText(t,key){ try{ await navigator.clipboard.writeText(t); flash(key,'복사했어요'); }catch(e){ flash(key,'복사가 막혔어요. 글자를 드래그해서 Ctrl+C 하세요'); } }
+document.querySelectorAll('[data-copy-el]').forEach(b=>b.addEventListener('click',()=>copyText(document.getElementById(b.dataset.copyEl).innerText.trim(), b.dataset.copyEl)));
+document.querySelectorAll('[data-copy-text]').forEach(b=>b.addEventListener('click',()=>copyText(b.dataset.copyText,'tags')));
+document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>copyText(b.dataset.copy,'tags')));
+document.getElementById('copyBody').addEventListener('click', async ()=>{
+  const el=document.getElementById('post');
+  const htmlStr='<div>'+el.innerHTML.replace(/<p class="slot">/g,'<p style="background:#FFF4D6;font-weight:bold">')+'</div>';
+  try{
+    if(!window.ClipboardItem) throw 0;
+    await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([htmlStr],{type:'text/html'}),'text/plain':new Blob([el.innerText],{type:'text/plain'})})]);
+    flash('body','본문을 복사했어요'); return;
+  }catch(e){}
+  try{ const s=selectEl(el); const ok=document.execCommand('copy'); s.removeAllRanges(); if(ok){ flash('body','본문을 복사했어요'); return; } }catch(e){}
+  selectEl(el); flash('body','본문을 선택해 뒀어요. Ctrl+C 하세요');
+});
+document.querySelectorAll('[data-copyimg]').forEach(b=>b.addEventListener('click', async ()=>{
+  const img=document.getElementById(b.dataset.copyimg);
+  try{
+    const c=document.createElement('canvas'); c.width=img.naturalWidth; c.height=img.naturalHeight; c.getContext('2d').drawImage(img,0,0);
+    const blob=await new Promise(r=>c.toBlob(r,'image/png'));
+    await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);
+    b.textContent='복사했어요'; setTimeout(()=>{ b.textContent=b.dataset.copyimg.replace('pic','사진 ')+' 복사'; },2000);
+  }catch(e){ b.textContent='오른쪽 클릭 → 이미지 복사'; }
+}));
+</script>

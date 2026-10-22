@@ -51,6 +51,11 @@ const shot = async (name, clip) => { await p.screenshot({ path: OUT + name, clip
 // 상품 판정: 판정 박스 + 국내/해외 가격 비교(상품명 제목 제외)
 await go('/p/ali-ugreen-7in1-usbc-hub.html');
 await shot('03-product-compare.png', await box(['.vhero', '.cmp']));
+await shot('03-product.png', await box(['.pd-head', '.vhero', '.cmp']));
+
+// 홈 첫 화면(헤더 + 히어로) — 블로그용
+await go('/');
+await shot('01-home-blog.png', await box(['.site-header', '.hero'], 0));
 
 // 계산기(기본 예시 값), 위쪽 판정·신호등·영수증 앞부분
 await go('/calculator.html', 600);
@@ -73,5 +78,7 @@ await go('/calendar.html');
 await go('/');
 { const f = await p.$('[data-filter="bad"]'); if (f) { await f.click(); await p.waitForTimeout(300); } }
 { const r = await p.evaluate(() => { const c = document.querySelector('a.card[href*="vitamin-d3-k2"]'); const rr = c.getBoundingClientRect(); const t = [...c.querySelectorAll('*')].find((e) => /국내 최저가/.test(e.textContent) && !e.children.length); const ty = t ? t.getBoundingClientRect().top : rr.top; return { x: rr.left, y: ty + scrollY, w: rr.width, h: rr.bottom - ty }; }); await shot('02-home-bad-d3k2-badge.png', { x: Math.max(0, r.x - 4), y: r.y - 10, width: Math.min(390, r.w + 8), height: r.h + 14 }); }
+
+{ const r = await p.evaluate(() => { const rr = document.querySelector('a.card[href*="vitamin-d3-k2"]').getBoundingClientRect(); return { x: rr.left, y: rr.top + scrollY, w: rr.width, h: rr.height }; }); await shot('02-home-bad-d3k2.png', { x: Math.max(0, r.x - 8), y: r.y - 8, width: Math.min(390, r.w + 16), height: r.h + 16 }); }
 
 await b.close();
