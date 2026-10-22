@@ -16,7 +16,7 @@ async function loadPlaywright() {
 const dir = process.argv[2];
 if (!dir) { console.error('사용법: node tools/cards/render.mjs content/<폴더>'); process.exit(1); }
 const deck = JSON.parse(await readFile(path.join(dir, 'cards.json'), 'utf8'));
-const handle = deck.handle || '@jikgugak';
+const handle = deck.handle || '@jikgugak.official';
 const slides = deck.slides || [];
 const N = slides.length;
 const imgCache = {};

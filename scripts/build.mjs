@@ -757,6 +757,11 @@ fs.mkdirSync(path.join(dist, 'p'), { recursive: true });
 fs.cpSync(path.join(root, 'public'), dist, { recursive: true });
 fs.mkdirSync(path.join(dist, 'assets'), { recursive: true });
 fs.copyFileSync(path.join(root, 'src', 'calc.js'), path.join(dist, 'assets', 'calc.js'));
+// 승인된 SNS 게시물 이미지(content/<폴더>/publish/*.jpg)를 공개 주소로: 인스타 API가 이미지를 URL로만 받아요
+for (const d of fs.existsSync(path.join(root, 'content')) ? fs.readdirSync(path.join(root, 'content')) : []) {
+  const src = path.join(root, 'content', d, 'publish');
+  if (fs.existsSync(src)) fs.cpSync(src, path.join(dist, 'social', d), { recursive: true });
+}
 
 const write = (rel, content) => { const f = path.join(dist, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, content); };
 write('index.html', pageHome());

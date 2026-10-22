@@ -1,0 +1,27 @@
+# 인스타·스레드 토큰은 60일이면 만료돼요. 매주 월요일에 연장하고 새 토큰을 비밀값에 다시 저장해요.
+# 비밀값 저장에는 GH_PAT(이 저장소 Secrets 읽기·쓰기 권한만 준 fine-grained 토큰)가 필요해요.
+name: refresh-tokens
+on:
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh and store
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -e
+          if [ -n "$IG_TOKEN" ]; then
+            NEW=$(curl -sf "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$IG_TOKEN" | jq -r .access_token)
+            if [ -n "$NEW" ] && [ "$NEW" != null ]; then echo "::add-mask::$NEW"; printf %s "$NEW" | gh secret set IG_TOKEN -R "$REPO"; echo "IG 연장됨"; else echo "IG 연장 실패"; fi
+          fi
+          if [ -n "$THREADS_TOKEN" ]; then
+            NEW=$(curl -sf "https://graph.threads.net/refresh_access_token?grant_type=th_refresh_token&access_token=$THREADS_TOKEN" | jq -r .access_token)
+            if [ -n "$NEW" ] && [ "$NEW" != null ]; then echo "::add-mask::$NEW"; printf %s "$NEW" | gh secret set THREADS_TOKEN -R "$REPO"; echo "Threads 연장됨"; else echo "Threads 연장 실패"; fi
+          fi

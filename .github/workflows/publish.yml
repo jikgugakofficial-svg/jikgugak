@@ -1,12 +1,18 @@
-# 승인된 홍보 글을 Postiz로 인스타그램·스레드에 올려요.
-# content/<폴더>/publish.json 의 "approved": true 인 것만, 아직 올리지 않은 것만 처리해요.
-# 비밀값 POSTIZ_API_KEY 는 GitHub 저장소 Settings → Secrets and variables → Actions 에만 넣어요.
+# 승인된 홍보 글을 Meta 공식 API로 인스타그램·스레드에 올려요.
+# content/<폴더>/publish.json 의 "approved": true 이고, 예약 시간이 지났고, 아직 안 올린 것만 처리해요.
+# 비밀값 IG_TOKEN·THREADS_TOKEN 은 GitHub 저장소 Settings → Secrets and variables → Actions 에만 넣어요.
 name: publish
 on:
   push:
     branches: [main]
     paths: ['content/**/publish.json']
+  schedule:
+    - cron: '7 * * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'publish(게시) 또는 check(연결 확인만)'
+        default: check
 permissions:
   contents: write
 concurrency: publish
@@ -18,14 +24,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install -g postiz
-      - name: Publish approved posts
+      - name: Publish or check
         env:
-          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
-        run: node tools/publish/run.mjs
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+        run: node tools/publish/run.mjs ${{ github.event.inputs.mode == 'check' && 'check' || '' }}
       - name: Save results
         run: |
           git config user.name "jikgugak-bot"
           git config user.email "jikgugak.official@gmail.com"
-          git add content/**/publish-result.json || true
-          git diff --cached --quiet || (git commit -m "게시 결과 기록 [skip ci]" && git push)
+          git add -A content/ || true
+          git diff --cached --quiet || (git commit -m "게시 결과 기록 [skip ci]" && git pull --rebase && git push)

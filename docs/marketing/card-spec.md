@@ -9,7 +9,7 @@
 ## cards.json
 ```json
 {
-  "handle": "@jikgugak",
+  "handle": "@jikgugak.official",
   "ad": true,
   "alt": "표지 대체 텍스트",
   "slides": [

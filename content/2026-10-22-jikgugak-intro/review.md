@@ -218,7 +218,7 @@ products.json 수정 뒤 `npm run build`를 다시 돌려 숫자를 dist 페이�
 2. 이미지 순서 `cards/01.png` → `10.png`
 3. 캡션은 instagram.md 코드 블록 그대로(첫 줄 끝 #광고 지우지 않기)
 4. 대체 텍스트: cards.json `alt` 문장을 표지에
-5. 계정 핸들이 `@jikgugak`가 아니면 cards.json `handle`을 바꿔 다시 렌더(팀에 요청)
+5. 계정 핸들이 `@jikgugak.official`가 아니면 cards.json `handle`을 바꿔 다시 렌더(팀에 요청)
 
 **네이버 블로그**
 1. 제목은 1번 "해외직구 관세 계산기, 가입 없이 국내 최저가까지 한 번에 비교"

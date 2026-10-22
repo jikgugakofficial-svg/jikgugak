@@ -1,7 +1,7 @@
 # 인스타 카드뉴스: 직구각 사이트 소개
 
 - 작성: social-writer · 2026-10-22 · 기준: brief.md 팩트 시트 + 매니저 실물 확인(10.22 오후) 반영
-- 핸들: @jikgugak (미정, 정해지면 교체)
+- 핸들: @jikgugak.official (미정, 정해지면 교체)
 
 ## 표지 훅 3개와 점수 (brief-v2 반영, 시리즈 1/5)
 
@@ -80,7 +80,7 @@
 - 게시할 때 **"유료 광고 포함" 표시 켜기.** 캡션 첫 줄 끝 `#광고`는 지우지 않기.
 - 이미지 순서 `cards/01.png` ~ `10.png`. 표지는 광고 표시 자동.
 - 대체 텍스트(alt)는 cards.json의 `alt` 문장을 표지에 넣어요.
-- 핸들 `@jikgugak`은 계정이 정해지면 cards.json의 handle을 바꿔 다시 렌더해요.
+- 핸들 `@jikgugak.official`은 계정이 정해지면 cards.json의 handle을 바꿔 다시 렌더해요.
 - 캡처 상태(팀장 검수 10.22):
   - `img/08-calendar.png`: D-day 숨김 확인. 광군제 11.11(수) 날짜 확정만 보여요.
   - `img/06-amazon.png`는 아래 박스 글자가 반쯤 잘려 있어서, 노란 기준선 배너까지만 자른 `img/06-amazon-banner.png`를 카드 6장·블로그에 써요. 아마존 가격 숫자 없음.
