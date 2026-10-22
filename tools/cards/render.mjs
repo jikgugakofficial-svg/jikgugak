@@ -44,7 +44,10 @@ function slideHtml(s, i) {
         <h1 class="cover-t">${br(s.title)}</h1>
         ${s.sub ? `<p class="cover-s">${br(s.sub)}</p>` : ''}
         ${s.badge ? `<div class="badge">${br(s.badge)}</div>` : ''}
-        ${s.image ? `<div class="cover-img"><img src="${imgCache[s.image]}" alt=""></div>` : ''}`;
+        ${s.vs ? `<div class="cover-vs">${s.vs.map(([k, v], j) => `<div class="vs-box${j === s.vs.length - 1 ? ' hi' : ''}"><span>${br(k)}</span><b>${br(v)}</b></div>`).join('<i>vs</i>')}</div>` : ''}
+        ${s.image ? `<div class="cover-img"><img src="${imgCache[s.image]}" alt=""></div>` : ''}
+        ${deck.series ? `<div class="series">${esc(deck.series)}</div>` : ''}
+        ${s.swipe !== false && deck.swipe !== false ? `<div class="swipe">넘겨서 확인 →</div>` : ''}`;
       return `<section class="slide cover${s.image ? ' has-img' : ''}">${inner}${foot}</section>`;
     case 'compare':
       inner = `<h2>${br(s.title)}</h2>
@@ -101,6 +104,14 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .shot{flex:1 1 0;min-height:0;position:relative;background:#F5F6F8;border-radius:36px;overflow:hidden}
 .shot img{position:absolute;inset:28px;width:calc(100% - 56px);height:calc(100% - 56px);object-fit:contain;object-position:center top;border-radius:20px;filter:drop-shadow(0 12px 24px rgba(22,24,29,.14))}
 .shot-b{font-size:42px}
+.series{position:absolute;top:70px;right:90px;font-size:30px;font-weight:800;color:#FFE14D;letter-spacing:1px}
+.swipe{position:absolute;right:90px;bottom:120px;font-size:32px;font-weight:800;color:#fff;opacity:.9}
+.cover-vs{display:flex;align-items:center;gap:22px;margin-top:10px}
+.cover-vs i{font-style:normal;font-weight:900;font-size:40px;color:#FFE14D}
+.vs-box{flex:1;background:rgba(255,255,255,.14);border-radius:28px;padding:26px 30px;display:flex;flex-direction:column;gap:6px}
+.vs-box span{font-size:34px;font-weight:700;opacity:.9}
+.vs-box b{font-size:62px;font-weight:900;letter-spacing:-2px}
+.vs-box.hi{background:#FFE14D;color:#16181D}
 .badge{align-self:flex-start;background:#FFE14D;color:#16181D;font-size:40px;font-weight:900;padding:16px 30px;border-radius:999px}
 .rows{display:flex;flex-direction:column;gap:22px}
 .row{display:flex;justify-content:space-between;align-items:center;gap:30px;background:#F5F6F8;border-radius:28px;padding:38px 46px;font-size:46px;font-weight:600}
