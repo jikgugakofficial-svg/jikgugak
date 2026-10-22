@@ -11,6 +11,25 @@ const tpl = document.getElementById('s-row');
 const norm = (s) => s.toLowerCase().replace(/\s+/g, '');
 const coupangSearch = (t) => `https://www.coupang.com/np/search?q=${encodeURIComponent(t)}`;
 
+// 쿠팡 검색 위젯(파트너스 공식 위젯): 위젯 안에는 글자를 넣을 수 없어서 검색어를 복사해 붙여 넣게 도와요
+const cp = live.querySelector('[data-s-cp]');
+function setCpQuery(t) { if (cp) cp.querySelector('[data-s-cp-q]').textContent = t; }
+async function copyText(t) {
+  try { await navigator.clipboard.writeText(t); return true; } catch {
+    const ta = document.createElement('textarea'); ta.value = t; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select(); let ok = false; try { ok = document.execCommand('copy'); } catch {} ta.remove(); return ok;
+  }
+}
+async function copyForCoupang(t) {
+  setCpQuery(t);
+  const ok = await copyText(t);
+  const msg = cp.querySelector('[data-s-cp-msg]');
+  msg.textContent = ok ? '복사했어요! 아래 쿠팡 검색창에 붙여 넣고 검색하세요.' : '복사가 안 되면 위 검색어를 길게 눌러 복사해 주세요.';
+  cp.classList.add('flash'); setTimeout(() => cp.classList.remove('flash'), 1200);
+  cp.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+if (cp) cp.querySelector('[data-s-cp-copy]').addEventListener('click', () => copyForCoupang(cp.querySelector('[data-s-cp-q]').textContent));
+
 document.getElementById('sq').value = q;
 const headerQ = document.getElementById('q');
 if (headerQ) headerQ.value = q;
@@ -33,7 +52,9 @@ if (q) {
   // 2) 알리 실시간 가격
   live.hidden = false;
   const more = live.querySelector('[data-s-more]');
-  live.querySelector('[data-s-coupang]').href = coupangSearch(q);
+  const cpLink = live.querySelector('[data-s-coupang]');
+  if (cpLink) cpLink.href = coupangSearch(q);
+  if (cp) { cp.hidden = false; setCpQuery(q); }
   live.querySelector('[data-s-naver]').href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(q)}`;
   more.hidden = false;
   const amz = live.querySelector('[data-s-amazon]');
@@ -87,7 +108,10 @@ function row(it) {
   if (it.original > it.price) $('.s-orig').textContent = '₩' + krw(it.original); else $('.s-orig').remove();
   $('.s-mall').textContent = [it.accessory ? '액세서리일 수 있어요' : '', it.orders ? `${krw(it.orders)}개 판매` : '', it.rating ? `평점 ${it.rating}` : ''].filter(Boolean).join(' · ');
   $('.s-buy').href = it.link;
-  $('.s-dom-coupang').href = coupangSearch(shortQuery(it.title));
+  const domCp = $('.s-dom-coupang');
+  if (domCp) domCp.href = coupangSearch(shortQuery(it.title));
+  const domCopy = $('.s-dom-copy');
+  if (domCopy) domCopy.addEventListener('click', () => copyForCoupang(shortQuery(it.title)));
   const cat = $('.s-cat');
   cat.value = guessCat(it.category);
   const result = $('.s-result');
