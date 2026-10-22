@@ -10,7 +10,7 @@
     "domesticUrl": "https://link.coupang.com/a/h1CZEniThk",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118",
     "sample": false,
-    "checkedAt": "2026.10.22 오전",
+    "checkedAt": "2026.10.22 오후",
     "slug": "iherb-cgn-omega3-premium-100",
     "name": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
     "priceKrw": 16532,
@@ -26,7 +26,7 @@
       "하나만 사면 배송비 ₩6,000이 붙어 {diff}({pct}) 싸요. 직구각 기준(₩10,000)에 아깝게 못 미쳐요.",
       "다른 영양제와 ₩40,000 이상 함께 담으면 배송비가 0원이 돼서 ₩14,638 싸져요. 4종 묶음 페이지를 참고하세요."
     ],
-    "domesticCheckUrl": "",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9228033952",
     "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118",
     "image": "https://t3c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/fbe4/e2cb0ed89a842866d7525cce105e672b9511eede61d574bb04bef4537ea6.jpg"
   },
@@ -405,12 +405,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OGtLL1Ay",
     "sample": false,
-    "checkedAt": "2026.10.21 저녁",
+    "checkedAt": "2026.10.22 오후",
     "slug": "amazon-crocs-classic-clog",
     "name": "크록스 클래식 클로그 10001",
     "category": "apparel",
-    "domesticKrw": 45900,
-    "domesticSource": "쿠팡 최저 옵션(색상·사이즈별 ₩45,900~), 무료배송",
+    "domesticKrw": 47690,
+    "domesticSource": "쿠팡 와우 쿠폰가, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0014C0LUC",
     "risks": [
       "미국 사이즈 표기 (M/W)",
