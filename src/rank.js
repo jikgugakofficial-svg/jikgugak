@@ -7,7 +7,7 @@ export const ACCESSORY_WORDS = [
   '스티커', '파우치', '이어팁', '이어캡', '폼팁', '스킨', '교체용', '부품', '후크', '목걸이', '데칼', '범퍼', '프로텍터', '디스플레이 케이스', '진열장',
   'case', 'cover', 'keychain', 'keyring', 'strap', 'lanyard', 'film', 'protector', 'holder', 'sticker', 'pouch', 'skin',
   'replacement', 'decal', 'bumper',
-  '분실 방지', '분실방지', '로프', '끈', '클리너', '청소', '이어훅', '이어패드', '교체형', '충전 스탠드', '충전 스테이션', '충전 패드', '충전기 패드', '무선 충전', 'cleaner', 'cleaning', 'earhook'
+  '분실 방지', '분실방지', '로프', '끈', '클리너', '청소', '이어훅', '이어패드', '교체형', '충전 스탠드', '충전 스테이션', '충전 패드', '충전기 패드', '무선 충전', 'cleaner', 'cleaning', 'earhook', '귀마개', '메모리폼', '이어 팁', '이어 패드', '교체 배터리', '배터리 교체', 'ear tips', 'eartips', 'ear tip'
 ];
 // 정품이 아닌 호환·유사품 신호(살짝만 내려요)
 const COMPAT_WORDS = ['호환', '스타일', '유사', 'compatible', 'style', 'for '];
