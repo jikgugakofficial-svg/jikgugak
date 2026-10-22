@@ -113,6 +113,9 @@ function evaluate(p) {
   return { kind: 'priced', verdict: j.verdict, limit, cost, diff: j.diff, pct, pctNum, note, breakeven: be, beKrw };
 }
 const items = products.map(normalize).map((p) => ({ ...p, ev: evaluate(p), storeName: (STORES[p.store] || { name: p.store }).name }));
+// 방문자가 좋은 거래부터 보게: 직구각(아끼는 금액 큰 순) → 애매 → 현재가 확인(아마존) → 국내가 나음
+const V_ORDER = { good: 0, meh: 1, check: 2, bad: 3 };
+const ordered = [...items].sort((a, b) => (V_ORDER[a.ev.verdict] ?? 9) - (V_ORDER[b.ev.verdict] ?? 9) || ((b.ev.diff || 0) - (a.ev.diff || 0)));
 
 const VERDICT = {
   good: { label: '직구각', cls: 'v-good', icon: icon.check },
@@ -308,7 +311,7 @@ function pageHome() {
     </div>
   </div>
   <p class="search-note" hidden></p>
-  <div class="grid">${items.map(card).join('\n')}</div>
+  <div class="grid">${ordered.map(card).join('\n')}</div>
   <p class="empty" hidden>조건에 맞는 상품이 없어요. 다른 필터를 눌러 보세요.</p>
 </section>
 
@@ -419,6 +422,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
       ${out}
       <button type="button" class="btn btn-line" data-share data-title="${esc(p.name + ' 직구 판정')}">${icon.share}PC로 보내기 · 공유</button>
     </div>
+    ${preferred ? `<div class="buybar" data-buybar hidden><div class="bb-v ${esc(v.cls)}"><b>${esc(v.label)}</b><span>${esc(ev.kind === 'priced' ? `₩${krw(ev.cost.total)} vs 국내 ₩${krw(p.domesticKrw)}` : ev.breakeven ? `${p.storeName}가 $${ev.breakeven} 이하면 직구각` : '')}</span></div>${linkBtn(preferred.url, domesticFirst ? '국내에서 사기' : p.store === 'amazon' ? '현재가 보기' : '사러 가기', true)}</div>` : ''}
   </div>
 </div>
 <section class="before" aria-labelledby="before-title">

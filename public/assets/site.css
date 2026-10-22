@@ -466,3 +466,23 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .s-cmp.yes { background: var(--good-tint); color: var(--good); }
 .s-cmp.no { background: var(--bg2); color: var(--sub); }
 .s-result span { display: block; margin-top: 4px; }
+
+/* 상품 페이지 하단 구매 바 */
+.buybar { position: fixed; left: 50%; transform: translateX(-50%); bottom: 16px; width: min(560px, calc(100vw - 24px)); display: flex; align-items: center; gap: 12px; padding: 10px 10px 10px 16px; background: #fff; border: 1px solid var(--line-strong); border-radius: 18px; box-shadow: 0 10px 30px rgba(22,24,29,.16); z-index: 45; }
+.buybar[hidden] { display: none; }
+.buybar .bb-v { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.25; background: none !important; }
+.buybar .bb-v b { font-size: 15px; }
+.buybar .bb-v span { font-size: 12px; color: var(--sub); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.buybar .bb-v.v-good b { color: var(--good); } .buybar .bb-v.v-meh b { color: var(--meh); } .buybar .bb-v.v-bad b { color: var(--bad); } .buybar .bb-v.v-check b { color: var(--brand); }
+.buybar .btn { flex: none; min-height: 44px; padding: 0 18px; width: auto; }
+@media (max-width: 760px) { .buybar { bottom: calc(72px + env(safe-area-inset-bottom)); } }
+
+/* 모바일 상품 페이지: 사진 → 상품명 → 판정·가격을 먼저, AI 요약은 그 다음 */
+@media (max-width: 760px) {
+  .pd { display: flex; flex-direction: column; gap: 18px; }
+  .pd-left, .pd-right { display: contents; }
+  .pd .pd-img { order: -1; }
+  .pd .ai-box { order: 5; }
+  .pd .risks { order: 6; }
+  .pd .buy { order: 7; }
+}

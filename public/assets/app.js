@@ -97,3 +97,14 @@ document.addEventListener('click', (e) => {
     iosGuide(href);
   }
 });
+
+// 상품 페이지: 구매 버튼이 화면 밖에 있으면 아래에 '사러 가기' 바를 띄워요
+(() => {
+  const bar = document.querySelector('[data-buybar]');
+  const buy = document.querySelector('.pd .buy');
+  if (!bar || !buy || !('IntersectionObserver' in window)) return;
+  let buyVisible = true;
+  const update = () => { bar.hidden = buyVisible || window.scrollY < 300; };
+  new IntersectionObserver((es) => { buyVisible = es[0].isIntersecting; update(); }).observe(buy);
+  window.addEventListener('scroll', update, { passive: true });
+})();
