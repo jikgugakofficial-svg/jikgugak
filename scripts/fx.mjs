@@ -1,6 +1,6 @@
 // 빌드할 때 최신 환율을 받아와요. 키가 없거나 실패하면 data/settings.json 값을 그대로 써요(빌드는 절대 멈추지 않음).
 // - 결제 환율(매매기준율): 한국수출입은행 환율 API, Vercel 환경 변수 KOREAEXIM_KEY
-// - 과세환율(관세청 주간 고시): 관세청 UNI-PASS 관세환율 API, Vercel 환경 변수 UNIPASS_FX_KEY
+// - 과세환율(관세청 주간 고시): 공공데이터포털 관세청_관세환율정보(GW), Vercel 환경 변수 DATA_GO_KR_KEY
 const kstDate = (offsetDays = 0) => new Date(Date.now() + 9 * 3600e3 - offsetDays * 864e5).toISOString().slice(0, 10);
 const ymd = (iso) => iso.replace(/-/g, '');
 const dot = (iso) => iso.replace(/-/g, '.');
@@ -34,11 +34,14 @@ async function eximbankUsd(key) {
   return null;
 }
 
-// 과세환율: 수입(imexTp=2) 기준, 응답 XML에서 USD 줄을 찾아요
-async function unipassUsd(key) {
+// 과세환율: 공공데이터포털 '관세청_관세환율정보(GW)' (자동승인). 수입(weekFxrtTpcd=2) 기준, 오늘이 속한 주의 값을 줘요.
+// 포털 키는 Decoding 키(특수문자 그대로)든 Encoding 키(%2B 등)든 그대로 넣어도 되게 처리해요.
+async function customsUsd(key) {
   const d = kstDate(0);
-  const xml = await getText(`https://unipass.customs.go.kr:38010/ext/rest/trifFxrtInfoQry/retrieveTrifFxrtInfo?crkyCn=${encodeURIComponent(key)}&qryYymmDd=${ymd(d)}&imexTp=2`);
-  const blocks = xml.split(/<trifFxrtInfoQryRsltVo>/i).slice(1);
+  const k = /%[0-9A-F]{2}/i.test(key) ? key : encodeURIComponent(key);
+  const xml = await getText(`https://apis.data.go.kr/1220000/retrieveTrifFxrtInfo/getRetrieveTrifFxrtInfo?serviceKey=${k}&aplyBgnDt=${ymd(d)}&weekFxrtTpcd=2`);
+  const blocks = xml.split(/<item>/i).slice(1);
+  if (!blocks.length) throw new Error('응답에 환율 없음: ' + xml.replace(/\s+/g, ' ').slice(0, 160));
   for (const b of blocks) {
     if (!/<currSgn>\s*USD\s*<\/currSgn>/i.test(b)) continue;
     const v = num((b.match(/<fxrt>([^<]+)<\/fxrt>/i) || [])[1]);
@@ -57,8 +60,9 @@ export async function loadRates(site) {
   if (process.env.KOREAEXIM_KEY) {
     try { const r = await eximbankUsd(process.env.KOREAEXIM_KEY); if (r) out.pay = { ...r, source: 'koreaexim' }; } catch (e) { console.warn('결제 환율 받기 실패, 저장된 값 사용:', e.message); }
   }
-  if (process.env.UNIPASS_FX_KEY) {
-    try { const r = await unipassUsd(process.env.UNIPASS_FX_KEY); if (r) out.customs = { ...r, source: 'unipass' }; } catch (e) { console.warn('과세환율 받기 실패, 저장된 값 사용:', e.message); }
+  const customsKey = process.env.DATA_GO_KR_KEY;
+  if (customsKey) {
+    try { const r = await customsUsd(customsKey); if (r) out.customs = { ...r, source: 'customs' }; } catch (e) { console.warn('과세환율 받기 실패, 저장된 값 사용:', e.message); }
   }
   return out;
 }

@@ -49,7 +49,7 @@
 
 ### `data/settings.json` · 사이트 설정
 
-- `fx.usdKrw`, `fx.label`: 관세청 과세환율. 매주 [UNI-PASS](https://unipass.customs.go.kr/)에서 확인해 바꿔 주세요.
+- `fx.usdKrw`, `fx.label`: 관세청 과세환율. `DATA_GO_KR_KEY`가 있으면 빌드 때 자동으로 받아요. 없거나 실패할 때 쓰는 기본값이에요.
 - `rule`: 직구각 판정 기준 (기본: 20% 이상, 10,000원 이상 저렴)
 - `contactEmail`, `operator`: 문의 메일과 운영자 이름 (지금은 `[ ]` 빈칸)
 - `ga4Id`: 구글 애널리틱스 측정 ID (`G-`로 시작)
@@ -76,7 +76,7 @@
 | 변수 | 하는 일 | 받는 곳 |
 | --- | --- | --- |
 | `KOREAEXIM_KEY` | 결제 환율(매매기준율) 자동 | 한국수출입은행 환율 API 인증키 |
-| `UNIPASS_FX_KEY` | 과세환율 자동 | 관세청 UNI-PASS 오픈API 관세환율정보 인증키 |
+| `DATA_GO_KR_KEY` | 과세환율 자동 | 공공데이터포털 일반 인증키(관세청_관세환율정보(GW) 활용신청, 자동승인) |
 | `VERCEL_DEPLOY_HOOK` | 매일 다시 만들기 | Vercel → Settings → Git → Deploy Hooks |
 | `CRON_SECRET` | 다시 만들기 요청 보호 | 아무 긴 문자열 |
 
