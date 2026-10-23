@@ -1,0 +1,32 @@
+# 인스타·스레드 성과를 Meta 공식 API로 읽어 content/_insights/ 에 기록해요(읽기만 해요).
+# 매일 23:10 KST에 돌고, content/_insights/request.txt 를 바꿔 push하면 바로 한 번 돌아요.
+name: insights
+on:
+  schedule:
+    - cron: '10 14 * * *'
+  push:
+    branches: [main]
+    paths: ['content/_insights/request.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: insights
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Read insights
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+        run: node tools/publish/insights.mjs
+      - name: Save
+        run: |
+          git config user.name "jikgugak-bot"
+          git config user.email "jikgugak.official@gmail.com"
+          git add -A content/_insights || true
+          git diff --cached --quiet || (git commit -m "인스타·스레드 성과 기록 [skip ci]" && git pull --rebase && git push)
