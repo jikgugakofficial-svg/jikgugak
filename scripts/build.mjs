@@ -461,7 +461,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
   <h2 id="before-title">결제 전 30초 체크</h2>
   <div><a href="/guide#address">영문 주소 넣는 법</a><a href="/guide#pccc">통관부호 유효기간 확인</a><a href="/guide#combine">합산과세 피하기</a></div>
 </section>`;
-  return layout({ title: `${p.name} 직구 판정`, description: desc, urlPath: `/p/${p.slug}`, body, image: p.image || '', scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
+  return layout({ title: `${p.name} 직구 vs 쿠팡 최종가, 관세 포함`, description: desc, urlPath: `/p/${p.slug}`, body, image: p.image || '', scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
 }
 
 // ---------- 페이지: 관세 계산기 ----------
@@ -807,8 +807,10 @@ write('privacy.html', pagePrivacy());
 write('404.html', page404());
 for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
 
-const urls = ['/', '/sale', '/calculator', '/calendar', '/guide', ...items.map((p) => `/p/${p.slug}`), '/disclosure', '/privacy'];
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${absUrl(u)}</loc><lastmod>${kstToday()}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+// lastmod는 내용이 실제로 바뀌는 날만: 상품은 가격 확인일, 홈·세일·캘린더는 매일(환율·D-day), 나머지는 생략
+const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
+const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/calculator', ''], ['/guide', ''], ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smap.map(([u, d]) => `  <url><loc>${absUrl(u)}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 
 console.log(`빌드 완료: 페이지 ${8 + items.length}개 → dist/`);
