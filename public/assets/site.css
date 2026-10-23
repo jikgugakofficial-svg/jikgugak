@@ -503,11 +503,11 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .fx-c { font-style: normal; font-size: 12px; font-weight: 700; color: var(--muted, #6b6b6b); font-variant-numeric: tabular-nums; }
 .fx-c.up { color: #D23A10; }
 .fx-c.down { color: #2563EB; }
-@media (min-width: 1640px) {
-  .shell { display: grid; grid-template-columns: 1fr minmax(0, 1200px) 1fr; align-items: start; }
+@media (min-width: 1360px) {
+  .shell { display: grid; grid-template-columns: minmax(180px, 1fr) minmax(0, 1200px) minmax(180px, 1fr); column-gap: 8px; padding: 0 12px; align-items: start; }
   .shell > .main { grid-column: 2; grid-row: 1; width: 100%; }
   .rail { display: flex; flex-direction: column; gap: 12px; position: sticky; top: 24px; margin-top: 32px; grid-row: 1; }
-  .rail-l { grid-column: 1; justify-self: end; width: 196px; }
+  .rail-l { grid-column: 1; justify-self: end; width: min(196px, 100%); }
   .rail-r { grid-column: 3; justify-self: start; width: 160px; }
   .fx-strip { display: none; }
 }
