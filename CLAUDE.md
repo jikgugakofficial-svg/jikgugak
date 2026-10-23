@@ -2,6 +2,8 @@
 
 직구각(www.jikgugak.com)은 해외직구 최종 체감가(상품가 + 국제 배송비 + 관세·부가세)를 국내 최저가와 비교해 "직구각 / 애매 / 국내가 나음"을 판정하는 제휴 사이트예요. 운영자는 한승호(비개발자 1인 창업자), 문의 메일은 jikgugak.official@gmail.com.
 
+**새 세션은 일을 시작하기 전에 `docs/status.md`(지금 상황·할 일·결정 사항)를 먼저 읽고, 일을 끝내면 그 파일을 고쳐 둬요.**
+
 ## 구조
 - `data/products.json` 상품, `data/events.json` 세일 일정, `data/settings.json` 환율·판정 기준·제휴 ID
 - `src/calc.js` 관세·판정 계산(사이트와 브라우저가 같이 씀), `scripts/build.mjs` 정적 사이트 생성 → `dist/`
