@@ -82,7 +82,7 @@ const icon = {
   image: '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#9AA0AB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></svg>',
   share: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>',
   warn: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8A5A00" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17v.5"/></svg>',
-  logo: '<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="3" y="3" width="10" height="10" rx="2" fill="#FFE14D"/><path d="M5 4V25H26" fill="none" stroke="#D23A10" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+  logo: '<svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="4" y="17" width="10" height="10" rx="2" fill="#1F2E57"/><path d="M4 5H25V26" fill="none" stroke="#D23A10" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 };
 
 const CAT_ICONS = {
@@ -337,7 +337,7 @@ function pageHome() {
         <span class="hero-pill">다가오는 세일 ${upcomingAll.length}개</span>
         <h1>세일할 땐,<br>직구각인 것만<br>골라 드려요</h1>
         <p>관세·배송비까지 더한 최종 체감가로<br>국내 최저가와 바로 비교해요.</p>
-        <div class="hero-btns"><a href="/sale" class="btn btn-yellow">세일 직구각 모음</a><a href="/calendar" class="btn btn-ghost">세일 캘린더</a></div>
+        <div class="hero-btns"><a href="/sale" class="btn btn-point">세일 직구각 모음</a><a href="/calendar" class="btn btn-ghost">세일 캘린더</a></div>
       </div>
       ${nextSaleCircle()}
     </div>
