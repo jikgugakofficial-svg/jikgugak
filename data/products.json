@@ -223,10 +223,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DNoucYgu",
     "sample": false,
-    "checkedAt": "2026.10.21 저녁",
+    "checkedAt": "2026.10.23 오전",
     "slug": "ali-aula-f75-keyboard",
     "name": "AULA F75 무선 기계식 키보드 (씨솔트블루·회목축)",
-    "priceKrw": 47722,
+    "priceKrw": 54200,
     "domesticKrw": 57750,
     "domesticSource": "쿠팡 같은 색상·축, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c4P9xsVT",
@@ -237,7 +237,7 @@
     ],
     "summary": [
       "같은 씨솔트블루·회목축 구성끼리 비교했어요.",
-      "알리가 {diff} 싸지만 {pct}라 직구각 기준(20%)엔 조금 못 미쳐요. {beKrw} 이하로 떨어지면 직구각이에요.",
+      "알리가 {diff} 싸지만 {pct}라 직구각 기준(20%)엔 한참 못 미쳐요. {beKrw} 이하로 떨어지면 직구각이에요.",
       "쿠팡에도 중국 발송 상품이 ₩43,000대에 있는데, 이것도 사실상 직구라 국내 재고 상품과 따로 봤어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8721422294",
@@ -316,7 +316,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OCD5ApR6",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.23 오전",
     "slug": "amazon-lego-10280-flower-bouquet",
     "name": "레고 보태니컬 플라워 부케 10280",
     "category": "toy",
@@ -326,7 +326,7 @@
     "risks": [
       "US$49 미만이면 배송비 별도",
       "결제는 원화 말고 달러로 (환전 수수료)",
-      "10.22 주문 기준 도착 예정 11월 13~28일 (선물이면 날짜 확인)"
+      "10.23 주문 기준 도착 예정 11월 16일~12월 2일 (선물이면 날짜 확인)"
     ],
     "summary": [
       "아마존가가 {be} 이하로 내려오면 직구각이에요.",
@@ -405,11 +405,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OGtLL1Ay",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.23 오전",
     "slug": "amazon-crocs-classic-clog",
     "name": "크록스 클래식 클로그 10001",
     "category": "apparel",
-    "domesticKrw": 47690,
+    "domesticKrw": 48220,
     "domesticSource": "쿠팡 와우 쿠폰가, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0014C0LUC",
     "risks": [
@@ -551,27 +551,29 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.23 오전",
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
-    "shipNote": "미국→한국 무료 배송(10.22 확인)",
+    "shipNote": "미국→한국 배송 불가(10.23 확인)",
     "domesticKrw": 482700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
     "risks": [
+      "10.23 기준 아마존에서 한국 배송이 안 돼요",
       "$200 넘으면 관세 8% + 부가세 10%",
       "1세대와 헷갈리지 않게 '2nd Gen' 확인",
       "국내 정식 A/S 불가"
     ],
     "summary": [
       "보스 QC 울트라 헤드폰 2세대끼리 비교했어요(1세대 아님).",
-      "아마존가가 {be} 이하로 내려와야 관부가세를 내고도 직구각이에요.",
+      "10월 23일 확인 기준 아마존에서 한국으로 배송이 안 돼요. 다시 열리면 {be} 이하일 때 관부가세를 내고도 직구각이에요.",
       "블프 노캔 헤드폰 단골 특가라 세일 때 이 기준만 기억하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
-    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg"
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
+    "unavailable": "10.23 기준 아마존에서 한국 배송이 안 돼요"
   },
   {
     "store": "amazon",
@@ -674,10 +676,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.23 오전",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 105200,
+    "priceKrw": 92721,
     "domesticKrw": 86130,
     "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
