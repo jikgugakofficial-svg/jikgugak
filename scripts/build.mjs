@@ -202,6 +202,7 @@ ${verify}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="/assets/site.css">
 ${ga}
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script><script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <a class="skip" href="#main">본문으로 건너뛰기</a>
