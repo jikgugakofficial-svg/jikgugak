@@ -62,6 +62,12 @@ if (q) {
   const none = document.querySelector('[data-s-none]');
   if (none) none.hidden = hit > 0;
 
+  // 인기 검색어 집계(같은 검색어는 이 탭에서 한 번만 세요)
+  try {
+    const k = 'jg_sq_' + norm(q);
+    if (!sessionStorage.getItem(k)) { sessionStorage.setItem(k, '1'); fetch('/api/trending', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ q }), keepalive: true }).catch(() => {}); }
+  } catch { /* 저장 안 돼도 검색은 그대로 */ }
+
   // 2) 알리 실시간 가격
   live.hidden = false;
   const more = live.querySelector('[data-s-more]');

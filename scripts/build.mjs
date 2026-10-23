@@ -26,11 +26,17 @@ const FX_NAMES = { usd: ['달러', '1달러'], cny: ['위안', '1위안'], jpy: 
 const fxNum = (v) => v.toLocaleString('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const fxChg = (c) => (c == null ? '' : c === 0 ? '<i class="fx-c">0.00</i>' : `<i class="fx-c ${c > 0 ? 'up' : 'down'}">${c > 0 ? '▲' : '▼'} ${fxNum(Math.abs(c))}</i>`);
 const fxDate = () => (FXB && FXB.date ? FXB.date.slice(5).replace('-', '.') : '');
+
+// 인기 검색어(최근 7일, /api/trending). 데이터가 모일 때까지는 추천 검색어를 보여 줘요(제목도 '추천'으로)
+function trendBlock(cls = '') {
+  const list = (site.trendFallback || []).slice(0, 5);
+  return `<div class="trend ${cls}" data-trending><div class="trend-head"><b data-trend-title>추천 검색어</b><span class="muted" data-trend-sub>직구각에서 비교해 보세요</span></div><ol class="trend-list" data-trend-list>${list.map((q, i) => `<li><a href="/search?q=${encodeURIComponent(q)}"><i>${i + 1}</i>${esc(q)}</a></li>`).join('')}</ol></div>`;
+}
 function fxRail() {
   if (!FXB) return '';
   const cards = Object.entries(FXB.items).map(([k, it]) => `<div class="fx-card"><span class="fx-k">오늘 원/${FX_NAMES[k][0]} 환율</span><b class="fx-v">${fxNum(it.v)}<small>원</small></b><span class="fx-u">${FX_NAMES[k][1]} 기준 ${fxChg(it.chg)}</span></div>`).join('');
   const customs = RATES.customs && RATES.customs.usdKrw ? `<br>관세 계산은 과세환율 ${fxNum(RATES.customs.usdKrw)}원${RATES.customs.period ? `(${esc(RATES.customs.period)})` : ''}` : '';
-  return `<aside class="rail rail-l" aria-label="오늘 환율">${cards}<p class="fx-trust">직구각은 매일 고시되는 공식 환율에 자동 연동해 가격을 비교해요.</p><p class="fx-src">${fxDate()} 매매기준율 · 한국수출입은행${customs}</p><a class="fx-cta" href="/calculator">이 환율로 관세 계산 →</a></aside>`;
+  return `<aside class="rail rail-l" aria-label="인기 검색어와 오늘 환율">${trendBlock('in-rail')}${cards}<p class="fx-trust">직구각은 매일 고시되는 공식 환율에 자동 연동해 가격을 비교해요.</p><p class="fx-src">${fxDate()} 매매기준율 · 한국수출입은행${customs}</p><a class="fx-cta" href="/calculator">이 환율로 관세 계산 →</a></aside>`;
 }
 function fxStrip() {
   if (!FXB) return '';
@@ -532,7 +538,8 @@ function pageSearch() {
   <input id="sq" name="q" type="search" placeholder="예: 무선 이어폰, USB-C 허브, 레고" autocomplete="off">
   <button type="submit" class="btn btn-buy">검색</button>
 </form>
-<p class="s-tip muted small">브랜드·모델명으로 검색하면 국내 같은 상품과 비교하기 쉬워요. 예: ${['베이스어스 65W', '로지텍 G304', 'QCY T13', '유그린 허브', '레고 10280'].map((k) => `<a href="/search?q=${encodeURIComponent(k)}">${esc(k)}</a>`).join(' · ')}</p>
+<p class="s-tip muted small">브랜드·모델명으로 검색하면 국내 같은 상품과 비교하기 쉬워요.</p>
+${trendBlock('in-search')}
 <section class="block" data-s-curated hidden>
   <div class="block-head"><div><h2 class="h2">직구각 등록 상품 가격 비교</h2><span class="muted small">같은 모델끼리 국내 최저가와 해외 최종가(관세·배송비 포함)를 나란히 비교해요</span></div></div>
   <div class="cmp-list">${items.map(compareCard).join('\n')}</div>
@@ -838,7 +845,7 @@ function pagePrivacy() {
 <p>서비스 개선을 위해 방문 통계(접속 페이지, 유입 경로, 브라우저 종류, 대략적 국가)를 Vercel Web Analytics로 집계해요. 쿠키를 쓰지 않고, 개인을 알아볼 수 없는 형태로만 모아요.</p>
 <p>사이트는 Vercel(미국)에서 운영돼요. 보안과 오류 확인을 위해 접속 기록(IP 주소, 접속 시각, 요청한 주소, 브라우저 정보)이 Vercel 서버에 일정 기간 자동으로 남아요.</p>
 <h2>2. 검색 기능</h2>
-<p>검색창에 입력한 검색어는 상품 가격을 찾기 위해 직구각 서버와 알리익스프레스 제휴 API로 전달돼요. 검색어는 이용자를 식별하는 정보와 연결해 저장하지 않으며, 같은 검색의 결과를 빠르게 보여 주기 위해 잠시 보관(캐시)될 수 있어요. 검색창에 이름·연락처·통관부호 같은 개인정보는 넣지 마세요.</p>
+<p>검색창에 입력한 검색어는 상품 가격을 찾기 위해 직구각 서버와 알리익스프레스 제휴 API로 전달돼요. 검색어는 이용자를 식별하는 정보와 연결해 저장하지 않으며, 같은 검색의 결과를 빠르게 보여 주기 위해 잠시 보관(캐시)될 수 있어요. 인기 검색어 순위를 만들기 위해 검색어와 검색 횟수만 날짜별로 8일 동안 저장해요. 검색창에 이름·연락처·통관부호 같은 개인정보는 넣지 마세요.</p>
 <h2>3. 제휴 링크와 쿠키</h2>
 <p>구매 링크를 누르면 이동한 쇼핑몰(쿠팡, 아마존, 아이허브, 알리익스프레스 등)이 추천 경로 확인을 위해 쿠키를 설정할 수 있어요. 이 쿠키는 각 쇼핑몰의 개인정보처리방침을 따릅니다.</p>
 <h2>4. 쿠키 거부</h2>

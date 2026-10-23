@@ -632,3 +632,16 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .cal-n { margin-left: 4px; font-size: 12px; padding: 1px 6px; }
 }
 .cal-ev.gap { background: transparent; }
+
+/* ---------- 인기·추천 검색어 ---------- */
+.trend { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; background: #fff; display: flex; flex-direction: column; gap: 6px; }
+.trend-head { display: flex; flex-direction: column; gap: 0; }
+.trend-head b { font-size: 14px; }
+.trend-head .muted { font-size: 11.5px; }
+.trend-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+.trend-list a { display: flex; gap: 8px; align-items: baseline; padding: 4px 0; color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.trend-list a:hover { color: var(--brand); }
+.trend-list i { font-style: normal; font-weight: 900; color: var(--brand); width: 14px; flex: 0 0 14px; text-align: right; font-variant-numeric: tabular-nums; }
+.trend.in-search { margin: 4px 0 16px; }
+.trend.in-search .trend-list { flex-direction: row; flex-wrap: wrap; gap: 6px 14px; }
+.trend.in-search .trend-head { flex-direction: row; gap: 8px; align-items: baseline; }

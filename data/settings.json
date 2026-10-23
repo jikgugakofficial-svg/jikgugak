@@ -43,5 +43,12 @@
     "src": "https://ads-partners.coupang.com/widgets.html?id=1042219&template=carousel&trackingCode=AF5913304&subId=&width=160&height=600&tsource=",
     "width": 160,
     "height": 600
-  }
+  },
+  "trendFallback": [
+    "유그린 허브",
+    "레고 꽃다발",
+    "비타민 D3",
+    "삼성 T7",
+    "QCY 이어폰"
+  ]
 }

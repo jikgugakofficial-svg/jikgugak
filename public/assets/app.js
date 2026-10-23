@@ -220,3 +220,20 @@ document.addEventListener('click', (e) => {
 
 // 크롬의 "앱 설치" 자동 안내(미니 인포바)는 띄우지 않아요. 원하는 사람은 크롬 메뉴 → 홈 화면에 추가로 설치할 수 있어요.
 window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); });
+
+// 인기 검색어: 최근 7일 실제 검색이 5개 이상 모이면 '추천 검색어'를 '인기 검색어'로 바꿔 보여요
+(async () => {
+  const boxes = [...document.querySelectorAll('[data-trending]')];
+  if (!boxes.length) return;
+  if (boxes.every((b) => !b.offsetParent)) return; // 화면에 안 보이면(좁은 화면의 레일) 부르지 않아요
+  try {
+    const d = await fetch('/api/trending').then((r) => r.json());
+    if (!d.ok || !d.enough) return;
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    for (const b of boxes) {
+      b.querySelector('[data-trend-title]').textContent = '인기 검색어';
+      b.querySelector('[data-trend-sub]').textContent = '최근 7일 직구각 검색';
+      b.querySelector('[data-trend-list]').innerHTML = d.items.map((x, i) => `<li><a href="/search?q=${encodeURIComponent(x.q)}"><i>${i + 1}</i>${esc(x.q)}</a></li>`).join('');
+    }
+  } catch { /* 추천 검색어 그대로 */ }
+})();
