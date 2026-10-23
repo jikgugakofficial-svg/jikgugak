@@ -217,3 +217,6 @@ document.addEventListener('click', (e) => {
     }, 20000);
   }
 })();
+
+// 크롬의 "앱 설치" 자동 안내(미니 인포바)는 띄우지 않아요. 원하는 사람은 크롬 메뉴 → 홈 화면에 추가로 설치할 수 있어요.
+window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); });
