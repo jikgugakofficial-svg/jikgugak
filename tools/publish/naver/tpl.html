@@ -35,7 +35,7 @@ header p{margin:6px 0 0;color:var(--mute)}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
 .btn:focus-visible,.chip:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
 .msg{font-size:13px;color:var(--ok);min-height:1em}
-#post{max-height:520px;overflow:auto}
+#post{max-height:560px;overflow:auto;background:#FFFFFF;color:#222}
 #post h3{font-size:17px;margin:22px 0 6px}
 #post p{margin:0 0 12px}
 #post table{border-collapse:collapse;width:100%;margin:6px 0 14px;font-size:14px}
@@ -69,14 +69,14 @@ code{font-family:var(--mono);font-size:13px}
 
 <section class="step"><span class="num">2</span><div>
   <h2>본문</h2>
-  <p class="hint">"본문 복사"를 누르고 글쓰기 창 본문에 Ctrl+V(맥은 ⌘+V). 굵은 글씨·소제목·표가 그대로 들어가요. 맨 위 광고 문구 두 줄은 지우지 마세요.</p>
+  <p class="hint">"본문 복사"를 누르고 글쓰기 창 본문 첫 줄을 클릭한 뒤 Ctrl+V(맥은 ⌘+V). 아래 미리보기와 똑같은 모양(왼쪽 정렬·소제목·표)으로 들어가요. 회색 [사진 N 자리] 줄에 사진을 넣고 그 줄은 지워요. 맨 위 회색 광고 문구 두 줄은 지우지 마세요.</p>
   <div class="row"><button class="btn" id="copyBody">본문 복사</button><span class="msg" data-msg="body"></span></div>
   <div class="box" id="post">{{BODY}}</div>
 </div></section>
 
 <section class="step"><span class="num">3</span><div>
   <h2>사진 넣기</h2>
-  <p class="hint">본문의 노란 <b>[사진 N 넣기]</b> 줄을 클릭하고, 같은 번호 사진을 "복사" → 그 자리에 Ctrl+V. 사진이 들어가면 노란 줄은 지워요. 복사 버튼이 안 되면 사진을 오른쪽 클릭 → "이미지 복사".</p>
+  <p class="hint">본문의 회색 <b>[사진 N 자리]</b> 줄을 클릭하고, 같은 번호 사진을 "복사" → 그 자리에 Ctrl+V. 사진이 들어가면 그 회색 줄은 지워요. 복사 버튼이 안 되면 사진을 오른쪽 클릭 → "이미지 복사".</p>
   <div class="gal">{{GALLERY}}</div>
 </div></section>
 
@@ -91,7 +91,7 @@ code{font-family:var(--mono);font-size:13px}
   <h2>발행 전 확인</h2>
   <div class="box"><ul class="check">
     <li>맨 위 광고 문구 두 줄이 그대로 있어요</li>
-    <li>노란 [사진 N 넣기] 줄이 남아 있지 않아요({{NPICS}}곳)</li>
+    <li>회색 [사진 N 자리] 줄이 남아 있지 않아요({{NPICS}}곳)</li>
     <li>링크는 맨 아래 <code>https://www.jikgugak.com</code> 하나예요</li>
     <li>카테고리를 고르고, 공개 설정은 "전체 공개"</li>
     <li>바로 올리지 않으려면 발행 창의 "예약"으로 시간을 정해요</li>
@@ -108,7 +108,7 @@ document.querySelectorAll('[data-copy-text]').forEach(b=>b.addEventListener('cli
 document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>copyText(b.dataset.copy,'tags')));
 document.getElementById('copyBody').addEventListener('click', async ()=>{
   const el=document.getElementById('post');
-  const htmlStr='<div>'+el.innerHTML.replace(/<p class="slot">/g,'<p style="background:#FFF4D6;font-weight:bold">')+'</div>';
+  const htmlStr=el.innerHTML;
   try{
     if(!window.ClipboardItem) throw 0;
     await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([htmlStr],{type:'text/html'}),'text/plain':new Blob([el.innerText],{type:'text/plain'})})]);
