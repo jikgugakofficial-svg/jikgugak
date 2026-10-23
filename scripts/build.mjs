@@ -219,7 +219,7 @@ ${ga}
   </div>
   <nav class="wrap main-nav" aria-label="주요 메뉴">
     ${nav}
-    ${upcoming[0] ? `<a href="/sale" class="navlink hot${current === '/sale' ? ' is-current' : ''}" data-next-sale><span data-ns-name>${esc(upcoming[0].name)}</span><span class="pill-hot" data-ns-dday>${evDday(upcoming[0])}</span></a>` : ''}
+    ${upcomingMajor[0] ? `<a href="/sale" class="navlink hot${current === '/sale' ? ' is-current' : ''}" data-next-sale><span data-ns-name>${esc(upcomingMajor[0].name)}</span><span class="pill-hot" data-ns-dday>${evDday(upcomingMajor[0])}</span></a>` : ''}
   </nav>
 </header>
 <div class="shell">
@@ -246,7 +246,7 @@ ${adRail()}
   <a href="/guide"${current === '/guide' ? ' aria-current="page"' : ''}>${icon.guide}가이드</a>
 </nav>
 <div class="toast" role="status" aria-live="polite" hidden></div>
-<script type="application/json" id="jg-sales">${JSON.stringify(upcoming.map((e) => ({ n: e.name, d: e.date, e: e.end || '', s: shortStores(e), k: e.scope }))).replace(/</g, '\\u003c')}</script>
+<script type="application/json" id="jg-sales">${JSON.stringify(upcomingMajor.map((e) => ({ n: e.name, d: e.date, e: e.end || '', s: shortStores(e), k: e.scope }))).replace(/</g, '\\u003c')}</script>
 <script type="module" src="/assets/app.js"></script>
 ${scripts.map((s) => `<script type="module" src="${s}"></script>`).join('\n')}
 </body>
@@ -315,6 +315,7 @@ const sampleNote = items.some((p) => p.sample) ? " · '예시' 표시 상품은 
 function pageHome() {
   const bf = events.find((e) => e.id === site.featuredEvent) || events[0];
   const upcomingAll = upcoming;
+  const majors = upcomingMajor;
   const ticker = items.slice(0, 6).map((p) => {
     const v = VERDICT[p.ev.verdict];
     const t = p.ev.kind === 'break' ? `${p.storeName}가 $${p.ev.breakeven} 이하면 직구각` : p.ev.kind === 'priced' ? `${v.label} ${p.ev.pct}` : v.label;
@@ -334,7 +335,7 @@ function pageHome() {
       </div>
       ${nextSaleCircle()}
     </div>
-    <div class="hero-events">${upcomingAll.slice(0, 4).map((e) => `<span><b>${e.end ? md(e.date) + '~' + md(e.end) : md(e.date)}</b> ${esc(e.name)}</span>`).join('')}</div>
+    <div class="hero-events">${majors.slice(0, 4).map((e) => `<span><b>${e.end ? md(e.date) + '~' + md(e.end) : md(e.date)}</b> ${esc(e.name)}</span>`).join('')}</div>
   </div>
   <a href="/calculator" class="hero-calc">
     <span class="hc-title">${icon.calc}<b>3초 관세 계산</b></span>
@@ -585,6 +586,10 @@ const evRange = (e) => (e.end ? `${md(e.date)}~${md(e.end)}` : md(e.date));
 const evDday = (e) => { const d = daysUntil(e.date); return d > 0 ? 'D-' + d : d === 0 ? 'D-DAY' : daysUntil(evEnd(e)) >= 0 ? '진행 중' : '종료'; };
 const ddayAttr = (e) => `data-dday="${e.date}"${e.end ? ` data-dday-end="${e.end}"` : ''}`;
 const upcoming = events.filter((e) => daysUntil(evEnd(e)) >= 0).sort((a, b) => a.date.localeCompare(b.date));
+// 홈·상단 D-day는 전국적인 대형 세일만(events.json의 major). 표시가 하나도 없으면 전체에서 골라요
+const MAJOR_FALLBACK = ['singles-day', 'black-friday', 'cyber-monday', '11st-grand-2026', 'korea-sale-festa-2026'];
+const isMajor = (e) => (events.some((x) => 'major' in x) ? e.major === true : MAJOR_FALLBACK.includes(e.id));
+const upcomingMajor = upcoming.filter(isMajor).length ? upcoming.filter(isMajor) : upcoming;
 const STATUS = { confirmed: '날짜 확정', expected: '예상 · 작년 기준' };
 const SCOPE = { overseas: '해외 직구', domestic: '국내 쇼핑몰' };
 const nextSaleFor = (storeName) => upcoming.find((e) => e.scope === 'overseas' && e.stores.includes(storeName));
@@ -593,7 +598,7 @@ const nextSaleFor = (storeName) => upcoming.find((e) => e.scope === 'overseas' &
 const weekdayLong = (iso) => `${Number(iso.slice(5, 7))}월 ${Number(iso.slice(8))}일 ${weekday(iso)}요일`;
 const shortStores = (e) => e.stores.split(' · ').slice(0, 2).join(' · ');
 function nextSaleCircle() {
-  const nx = upcoming[0];
+  const nx = upcomingMajor[0];
   if (!nx) return '';
   const ongoing = daysUntil(nx.date) <= 0;
   return `<div class="dday-circle ns-circle" data-next-sale>
@@ -702,31 +707,41 @@ function gcalLink(e) {
   const q = new URLSearchParams({ action: 'TEMPLATE', text: `${e.name} (${e.stores})`, dates: `${d}/${next}`, details: `${e.note}\n${absUrl('/calendar')}` });
   return 'https://calendar.google.com/calendar/render?' + q.toString();
 }
+const SALE_CATS = { general: '종합몰', fashion: '의류·신발', electronics: '가전·디지털', beauty: '뷰티', health: '영양제·건강', living: '리빙', kids: '유아동·완구' };
+const evCats = (e) => (Array.isArray(e.cats) && e.cats.length ? e.cats : ['general']);
 function pageCalendar() {
-  const rows = upcoming.map((e) => `<li class="ev" data-scope="${e.scope}">
+  const rows = upcoming.map((e) => `<li class="ev" data-scope="${e.scope}" data-cats="${esc(evCats(e).join(' '))}" data-id="${esc(e.id)}">
   <div class="ev-date"><b>${md(e.date)}</b><span>${weekday(e.date)}요일</span></div>
   <div class="ev-body">
-    <div class="ev-title"><b>${esc(e.name)}</b><span class="ev-dday" ${ddayAttr(e)}>${evDday(e)}</span></div>
-    <div class="ev-tags"><span class="ev-tag ${e.scope}">${SCOPE[e.scope]}</span><span class="ev-tag ${e.status}">${STATUS[e.status]}</span><span class="ev-range">${evRange(e)}</span></div>
+    <div class="ev-title"><i class="ev-dot c-${esc(evCats(e).find((c) => c !== 'general') || 'general')}" aria-hidden="true"></i><b>${esc(e.name)}</b><span class="ev-dday" ${ddayAttr(e)}>${evDday(e)}</span>${isMajor(e) ? '<span class="ev-major">대형 세일</span>' : ''}</div>
+    <div class="ev-tags"><span class="ev-tag ${e.scope}">${SCOPE[e.scope]}</span><span class="ev-tag ${e.status}">${STATUS[e.status]}</span>${evCats(e).map((c) => `<span class="ev-tag cat">${esc(SALE_CATS[c] || c)}</span>`).join('')}<span class="ev-range">${evRange(e)}</span></div>
     <span class="ev-store">${esc(e.stores)}</span><p>${esc(e.note)}</p>
   </div>
   <a class="btn btn-line small" href="${esc(gcalLink(e))}" target="_blank" rel="noopener">구글 캘린더에 추가</a>
 </li>`).join('\n');
+  const data = upcoming.map((e) => ({ id: e.id, n: e.name, d: e.date, e: e.end || e.date, k: e.scope, c: evCats(e), m: isMajor(e), st: e.status }));
+  const catBtns = [['all', '전체'], ...Object.entries(SALE_CATS)].map(([k, l], i) => `<button type="button" class="cal-chip${k === 'all' ? '' : ' c-' + k}" data-cal-cat="${k}" aria-pressed="${i === 0}">${k === 'all' ? '' : '<i aria-hidden="true"></i>'}${esc(l)}</button>`).join('');
   const body = `
-<div class="page-head"><h1 class="display">세일 캘린더</h1><p class="muted">해외 직구 세일과, 국내가가 내려가는 국내 쇼핑몰 세일까지 한눈에. 캘린더에 넣어 두면 놓치지 않아요.</p>
+<div class="page-head"><h1 class="display">세일 캘린더</h1><p class="muted">해외 직구 세일부터 국내에서 많이 쓰는 쇼핑몰·브랜드 세일까지 한 달 달력으로 보여 드려요. 카테고리와 국내·해외로 골라 보세요.</p>
 <a class="btn btn-ink small" href="/calendar.ics">내 캘린더에 전체 구독 (.ics)</a></div>
-<div class="filters ev-filters" role="group" aria-label="세일 종류로 거르기">
-  <button type="button" data-ev-filter="all" aria-pressed="true">전체</button>
-  <button type="button" data-ev-filter="overseas" aria-pressed="false">해외 직구</button>
-  <button type="button" data-ev-filter="domestic" aria-pressed="false">국내 쇼핑몰</button>
+<div class="cal-filters">
+  <div class="cal-cats" role="group" aria-label="카테고리">${catBtns}</div>
+  <div class="filters ev-filters" role="group" aria-label="국내·해외">
+    <button type="button" data-ev-filter="all" aria-pressed="true">국내·해외 전체</button>
+    <button type="button" data-ev-filter="domestic" aria-pressed="false">국내 쇼핑몰·브랜드</button>
+    <button type="button" data-ev-filter="overseas" aria-pressed="false">해외 직구</button>
+  </div>
 </div>
+<section class="cal" aria-label="세일 달력">
+  <div class="cal-head"><button type="button" class="cal-nav" data-cal-prev aria-label="이전 달">‹</button><h2 class="cal-title" data-cal-title aria-live="polite"></h2><button type="button" class="cal-nav" data-cal-next aria-label="다음 달">›</button></div>
+  <div class="cal-grid" data-cal-grid></div>
+  <p class="muted small cal-hint">날짜를 누르면 그날 진행 중인 세일만 아래에 보여 줘요. 색은 카테고리예요.</p>
+</section>
+<div class="cal-day" data-cal-day hidden><b data-cal-day-title></b><button type="button" class="linklike" data-cal-day-clear>전체 일정 보기</button></div>
 <ol class="events">${rows}</ol>
 <p class="muted small">'예상'은 작년 일정을 기준으로 적었고, 쇼핑몰이 날짜를 발표하면 바로 '확정'으로 바꿔요. 할인 내용은 쇼핑몰 공식 발표를 따라요.</p>
-<script type="module">
-const bs=[...document.querySelectorAll('[data-ev-filter]')];
-bs.forEach((b)=>b.addEventListener('click',()=>{bs.forEach((x)=>x.setAttribute('aria-pressed',String(x===b)));document.querySelectorAll('.ev').forEach((li)=>{li.hidden=b.dataset.evFilter!=='all'&&li.dataset.scope!==b.dataset.evFilter;});}));
-</script>`;
-  return layout({ title: '해외직구 세일 캘린더', description: '광군제, 블랙프라이데이, 사이버먼데이, 박싱데이, 프라임데이와 11번가 십일절·빅스마일데이까지 직구 세일 일정을 한눈에 보고 캘린더에 추가하세요.', urlPath: '/calendar', body, current: '/calendar' });
+<script type="application/json" id="jg-events">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
+  return layout({ title: '세일 캘린더: 해외직구·국내 쇼핑몰 세일 일정', description: '광군제·블랙프라이데이·사이버먼데이 같은 해외 직구 세일과 무신사·올리브영·11번가 등 국내 쇼핑몰 세일 일정을 달력으로 한눈에. 카테고리·국내/해외로 골라 보세요.', urlPath: '/calendar', body, current: '/calendar', scripts: ['/assets/calendar.js'] });
 }
 function calendarIcs() {
   const stamp = BUILT.toISOString().replace(/[-:]/g, '').replace(/\.\d+Z$/, 'Z');
