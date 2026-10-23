@@ -288,6 +288,27 @@ function card(p) {
 </a>`;
 }
 
+// 검색 결과 맨 위 비교 카드: 등록 상품의 국내·해외 가격을 한 줄씩 나란히(API가 열리면 같은 칸에 실시간 가격을 채워요)
+function compareCard(p) {
+  const ev = p.ev; const v = VERDICT[ev.verdict];
+  const keys = [p.name, p.slug.replace(/-/g, ' '), p.storeName, p.domesticStore || '', (p.keywords || []).join(' ')].join(' ');
+  const out = (url, label) => (url ? `<a href="${esc(url)}" class="btn btn-line small" data-out rel="sponsored nofollow noopener" target="_blank">${esc(label)}</a>` : '');
+  const overseasCell = ev.kind === 'priced'
+    ? `<b>₩${krw(ev.cost.total)}</b><small>관부가세·배송비 포함 최종가</small>`
+    : ev.kind === 'break'
+      ? `<b>$${ev.breakeven} 이하면 직구각</b><small>${p.unavailable ? esc(p.unavailable) : `현재가는 ${esc(p.storeName)}에서 확인`}</small>`
+      : '<b>-</b>';
+  const diff = ev.kind === 'priced' ? `<span class="${ev.diff > 0 ? 'pct-down' : 'pct-up'}">${ev.diff > 0 ? '직구가' : '국내가'} ₩${krw(Math.abs(ev.diff))} 저렴</span>` : '';
+  return `<article class="cmp-card" data-s-item data-name="${esc(keys)}">
+  <a class="cmp-head" href="/p/${esc(p.slug)}">${imgBlock(p)}<div><span class="cmp-name">${esc(p.name)}</span><span class="cmp-verdict ${v.cls}">${esc(v.label)}</span> ${diff}</div></a>
+  <div class="cmp-rows">
+    <div class="cmp-row"><span class="cmp-store">${esc(p.domesticStore || '국내 최저가')}</span><span class="cmp-val"><b>₩${krw(p.domesticKrw)}</b><small>국내 최저가</small></span>${out(p.domesticUrl, '쿠팡에서 보기')}</div>
+    <div class="cmp-row"><span class="cmp-store">${esc(p.storeName)}</span><span class="cmp-val">${overseasCell}</span>${p.unavailable ? '' : out(p.buyUrl, p.storeName + '에서 보기')}</div>
+  </div>
+  <div class="cmp-foot"><span class="muted small">${esc(p.checkedAt || '')} 확인 가격 · 하루 두 번 다시 확인해요</span><a href="/p/${esc(p.slug)}" class="small">판정 자세히 →</a></div>
+</article>`;
+}
+
 const sampleNote = items.some((p) => p.sample) ? " · '예시' 표시 상품은 가격 확인 전이에요" : '';
 
 // ---------- 페이지: 홈 ----------
@@ -512,8 +533,13 @@ function pageSearch() {
 </form>
 <p class="s-tip muted small">브랜드·모델명으로 검색하면 국내 같은 상품과 비교하기 쉬워요. 예: ${['베이스어스 65W', '로지텍 G304', 'QCY T13', '유그린 허브', '레고 10280'].map((k) => `<a href="/search?q=${encodeURIComponent(k)}">${esc(k)}</a>`).join(' · ')}</p>
 <section class="block" data-s-curated hidden>
-  <h2 class="h2">직구각이 이미 판정한 상품</h2>
-  <div class="grid">${items.map(card).join('\n')}</div>
+  <div class="block-head"><div><h2 class="h2">직구각 등록 상품 가격 비교</h2><span class="muted small">같은 모델끼리 국내 최저가와 해외 최종가(관세·배송비 포함)를 나란히 비교해요</span></div></div>
+  <div class="cmp-list">${items.map(compareCard).join('\n')}</div>
+</section>
+<section class="s-none" data-s-none hidden>
+  <b>직구각에 등록된 상품이 아직 없어요</b>
+  <p class="muted small">아래 알리익스프레스 실시간 가격과 쿠팡 검색으로 직접 비교할 수 있어요. 자주 찾는 상품이면 판정 페이지로 만들어 드릴게요.</p>
+  <a href="#" class="btn btn-line small" data-feedback>이 상품 판정해 달라고 요청하기</a>
 </section>
 <section class="block" data-s-live hidden data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
   <div class="block-head"><div><h2 class="h2">알리익스프레스 실시간 가격</h2><span class="muted small">원화 판매가 기준 · 신규 회원 할인·쿠폰은 빠져 있어요</span></div></div>

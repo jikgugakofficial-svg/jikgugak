@@ -52,13 +52,15 @@ if (q) {
   // 1) 이미 판정한 상품
   const words = q.split(/\s+/).map(norm).filter(Boolean);
   let hit = 0;
-  for (const c of document.querySelectorAll('[data-s-curated] .card')) {
+  for (const c of document.querySelectorAll('[data-s-curated] [data-s-item]')) {
     const name = norm(c.dataset.name);
     const ok = words.every((w) => name.includes(w)) || name.includes(norm(q));
     c.hidden = !ok;
     if (ok) hit++;
   }
   document.querySelector('[data-s-curated]').hidden = hit === 0;
+  const none = document.querySelector('[data-s-none]');
+  if (none) none.hidden = hit > 0;
 
   // 2) 알리 실시간 가격
   live.hidden = false;

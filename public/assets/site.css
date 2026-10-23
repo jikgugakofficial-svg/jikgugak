@@ -558,3 +558,30 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .fb-wrap { align-items: flex-end; padding: 0; }
   .fb-box { max-width: none; border-radius: 20px 20px 0 0; padding-bottom: calc(22px + env(safe-area-inset-bottom, 0px)); max-height: 90vh; }
 }
+
+/* ---------- 검색: 등록 상품 비교 카드 ---------- */
+.cmp-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.cmp-card { border: 1px solid var(--line); border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 10px; background: #fff; min-width: 0; }
+.cmp-card[hidden] { display: none; }
+.cmp-head { display: flex; gap: 12px; align-items: center; color: inherit; text-decoration: none; }
+.cmp-head .card-img, .cmp-head img { width: 64px; height: 64px; flex: 0 0 64px; border-radius: 10px; object-fit: cover; }
+.cmp-head > div { min-width: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.cmp-name { font-weight: 800; font-size: 15px; line-height: 1.35; flex-basis: 100%; }
+.cmp-verdict { font-size: 12px; font-weight: 900; padding: 2px 8px; border-radius: 999px; }
+.cmp-verdict.v-good { background: #DCFCE7; color: #1E7A46; }
+.cmp-verdict.v-meh { background: #FEF3C7; color: #92400E; }
+.cmp-verdict.v-bad { background: #DBEAFE; color: #1D4ED8; }
+.cmp-verdict.v-check { background: #F3F4F6; color: #374151; }
+.cmp-head .pct-down, .cmp-head .pct-up { font-size: 12px; font-weight: 800; }
+.cmp-rows { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.cmp-row { display: grid; grid-template-columns: 84px 1fr auto; gap: 10px; align-items: center; padding: 10px 12px; }
+.cmp-row + .cmp-row { border-top: 1px solid var(--line); }
+.cmp-store { font-size: 13px; font-weight: 800; color: var(--sub, #4B5563); }
+.cmp-val { display: flex; flex-direction: column; min-width: 0; }
+.cmp-val b { font-size: 16px; font-variant-numeric: tabular-nums; }
+.cmp-val small { font-size: 11.5px; color: var(--muted); }
+.cmp-foot { display: flex; justify-content: space-between; gap: 8px; align-items: center; flex-wrap: wrap; }
+.s-none { border: 1px dashed var(--line); border-radius: 16px; padding: 16px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; margin-bottom: 8px; }
+.s-none p { margin: 0; }
+@media (max-width: 420px) { .cmp-row { grid-template-columns: 72px 1fr; } .cmp-row .btn { grid-column: 1 / -1; justify-self: start; } .cmp-list { grid-template-columns: 1fr; } }
+.s-none[hidden] { display: none; }
