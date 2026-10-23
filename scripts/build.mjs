@@ -156,7 +156,8 @@ const NAV = [
   { href: '/', label: '오늘의 직구각' },
   { href: '/calendar', label: '세일 캘린더' },
   { href: '/calculator', label: '관세 계산기' },
-  { href: '/guide', label: '직구 가이드' }
+  { href: '/guide', label: '직구 가이드' },
+  { href: '/domestic', label: '쿠팡이 더 싼 것' }
 ];
 
 function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false, image = '' }) {
@@ -459,7 +460,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
 </div>
 <section class="before" aria-labelledby="before-title">
   <h2 id="before-title">결제 전 30초 체크</h2>
-  <div><a href="/guide#address">영문 주소 넣는 법</a><a href="/guide#pccc">통관부호 유효기간 확인</a><a href="/guide#combine">합산과세 피하기</a></div>
+  <div><a href="/guide#address">영문 주소 넣는 법</a><a href="/guide#pccc">통관부호 유효기간 확인</a><a href="/guide#combine">합산과세 주의</a></div>
 </section>`;
   return layout({ title: `${p.name} 직구 vs 쿠팡 최종가, 관세 포함`, description: desc, urlPath: `/p/${p.slug}`, body, image: p.image || '', scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
 }
@@ -626,7 +627,7 @@ function pageSale() {
   <h2 id="sale-check" class="h2">세일 결제 전 5가지 체크</h2>
   <ol class="bf-checks">
     <li><b>면세 한도</b> 미국에서 특송으로 오면 $200, 그 외 나라·영양제·식품은 $150까지 면세예요.</li>
-    <li><b>합산과세</b> 같은 판매자에게서 같은 날 산 물건은 나눠 받아도 금액을 합쳐서 면세 여부를 따져요. 한도가 걱정되면 판매자를 나누거나 구매 날짜를 다르게 하세요.</li>
+    <li><b>합산과세</b> 같은 판매자에게서 같은 날 산 물건은 나눠 받아도 금액을 합쳐서 면세 여부를 따져요. 한도를 넘으면 세금까지 더한 최종가로 국내가와 비교하세요.</li>
     <li><b>달러로 결제</b> 해외 쇼핑몰이 원화로 결제하자고 하면 거절하고 현지 통화를 고르세요. 환전 수수료를 아껴요.</li>
     <li><b>무료배송 기준</b> 아마존은 한국행 무료배송 상품을 $49 이상, 아이허브는 ₩40,000 이상 담아야 배송비가 0원이에요.</li>
     <li><b>통관부호</b> 개인통관고유부호가 유효한지, 이름·전화번호가 주문 정보와 같은지 미리 확인하세요. <a href="/guide#pccc">확인하는 법</a></li>
@@ -634,6 +635,38 @@ function pageSale() {
   <div class="hero-btns"><a class="btn btn-ink" href="/calendar">세일 일정 전체 보기</a><a class="btn btn-line" href="/calculator">관세 계산기</a></div>
 </section>`;
   return layout({ title: '세일 직구각 모음', description: '광군제·블랙프라이데이·사이버먼데이·박싱데이 등 해외직구 세일 때 관부가세까지 더한 체감가로 직구할 상품과 목표가를 정리했어요.', urlPath: '/sale', body, current: '/sale' });
+}
+
+// ---------- 페이지: 직구보다 국내(쿠팡)가 싼 상품 ----------
+function pageDomestic() {
+  const bad = items.filter((p) => p.ev.verdict === 'bad');
+  const meh = items.filter((p) => p.ev.verdict === 'meh');
+  const body = `
+<div class="page-head">
+  <h1 class="display">직구보다 쿠팡이 싼 상품</h1>
+  <p class="muted">해외 가격표만 보면 싸 보여도, 국제 배송비와 관세·부가세를 더하면 쿠팡이 같거나 더 싼 상품이 있어요. 같은 모델·같은 구성끼리 최종가로 비교했어요. 이런 상품은 기다리지 말고 국내에서 사는 게 나아요.</p>
+</div>
+
+<section class="block" aria-labelledby="dom-bad">
+  <div class="block-head"><div><h2 id="dom-bad" class="h2 big">국내가 나음</h2><span class="muted small">관부가세·배송비까지 더하면 쿠팡이 같거나 더 싸요 · 가격은 각 상품 페이지의 확인 날짜 기준</span></div></div>
+  <div class="grid">${bad.map(card).join('\n')}</div>
+</section>
+
+${meh.length ? `<section class="block" aria-labelledby="dom-meh">
+  <div class="block-head"><div><h2 id="dom-meh" class="h2 big">애매: 차이가 작아요</h2><span class="muted small">해외가 조금 싸지만 20%·₩10,000 기준엔 못 미쳐요. 배송 기다림·반품 번거로움을 생각하면 국내도 괜찮아요</span></div></div>
+  <div class="grid">${meh.map(card).join('\n')}</div>
+</section>` : ''}
+
+<section class="guide-strip" aria-labelledby="dom-why">
+  <h2 id="dom-why" class="h2">왜 직구가 더 비싸질까요</h2>
+  <ol class="bf-checks">
+    <li><b>배송비</b> 아이허브는 ₩40,000 미만이면 배송비 ₩6,000이 붙어요. 싼 상품 하나만 사면 배송비가 가격 차이를 다 먹어요.</li>
+    <li><b>관세·부가세</b> 면세 한도(미국 특송 $200, 그 외·영양제·식품 $150)를 넘으면 배송비까지 포함한 전체에 세금이 붙어요.</li>
+    <li><b>국내 할인</b> 쿠팡 와우·로켓배송 가격이 해외 정가보다 낮은 상품도 많아요.</li>
+  </ol>
+  <div class="hero-btns"><a class="btn btn-ink" href="/calculator">내 상품 계산해 보기</a><a class="btn btn-line" href="/sale">세일 직구각 모음</a></div>
+</section>`;
+  return layout({ title: '직구보다 쿠팡이 싼 상품', description: '관세·부가세·국제 배송비까지 더하면 해외직구보다 쿠팡이 같거나 더 싼 상품 모음. 같은 모델끼리 최종가로 비교했어요.', urlPath: '/domestic', body, current: '/domestic' });
 }
 
 // ---------- 페이지: 세일 캘린더 ----------
@@ -800,6 +833,7 @@ write('calculator.html', pageCalculator());
 write('search.html', pageSearch());
 write('calendar.html', pageCalendar());
 write('sale.html', pageSale());
+write('domestic.html', pageDomestic());
 write('calendar.ics', calendarIcs());
 write('guide.html', pageGuide());
 write('disclosure.html', pageDisclosure());
@@ -809,7 +843,7 @@ for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
 
 // lastmod는 내용이 실제로 바뀌는 날만: 상품은 가격 확인일, 홈·세일·캘린더는 매일(환율·D-day), 나머지는 생략
 const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
-const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/calculator', ''], ['/guide', ''], ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
+const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smap.map(([u, d]) => `  <url><loc>${absUrl(u)}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 
