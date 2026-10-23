@@ -199,9 +199,9 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <meta name="jg-fx" content="${FX}">
 <meta name="jg-payfx" content="${PAYFX}">
 <meta name="jg-fxsrc" content="${esc(((RATES.customs && RATES.customs.source) || 'settings') + '/' + ((RATES.pay && RATES.pay.source) || 'settings'))}">
-<link rel="icon" href="/icon.svg" type="image/svg+xml">
-<link rel="manifest" href="/manifest.webmanifest">
-<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="icon" href="/icon.svg?v=2" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest?v=2">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
 ${verify}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
