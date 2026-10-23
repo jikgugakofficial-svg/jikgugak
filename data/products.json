@@ -38,28 +38,28 @@
     "shipKrw": 6000,
     "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
     "domesticStore": "쿠팡",
-    "domesticUrl": "https://link.coupang.com/a/h1C1u1gfqS",
+    "domesticUrl": "https://link.coupang.com/a/h4WKRubd2i",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.10.22 오전",
+    "checkedAt": "2026.10.23 오후",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 27946,
-    "domesticKrw": 33400,
-    "domesticSource": "쿠팡 1개, 무료배송",
+    "domesticKrw": 23450,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
       "6병까지 자가사용 인정",
       "₩40,000 이상 담으면 배송비 ₩6,000 절약"
     ],
     "summary": [
-      "하나만 사면 배송비 ₩6,000 때문에 국내가 {diff} 더 싸요.",
-      "다른 영양제와 함께 담아 무료배송이 되면 아이허브가 ₩5,454 싸지만 차이가 작아요.",
-      "쿠팡 2개 묶음은 개당 ₩24,160이라, 2개 이상 살 거면 국내가 더 싸요."
+      "닥터스베스트 고흡수 마그네슘 240정(1정당 100mg)끼리 비교했어요. 바코드(UPC)까지 같은 제품이고, 국내는 쿠팡 로켓직구예요.",
+      "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
+      "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
     ],
-    "domesticCheckUrl": "",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9782739758?itemId=29287928451",
     "overseasCheckUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
-    "image": "https://t3a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/b0d6/9515842614ac05139eea59b1080df8f6099f794d6dfdbf9ea0b9c5db7cc7.png"
+    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/f840/fbd69e4f74d016d89d7d9c878b67c2ceadeb0698054fc60ae05d41a47dcf.png"
   },
   {
     "store": "iherb",
@@ -137,7 +137,7 @@
     "slug": "iherb-supplement-4-bundle",
     "name": "아이허브 영양제 4종 한 번에 담기 (오메가3·마그네슘·D3K2·유산균)",
     "priceKrw": 80932,
-    "domesticKrw": 114940,
+    "domesticKrw": 104990,
     "domesticSource": "쿠팡 각 1개, 배송비 포함 합계",
     "risks": [
       "4병: 6병 이하라 자가사용 인정",
