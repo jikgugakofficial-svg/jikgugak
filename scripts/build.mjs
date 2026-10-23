@@ -713,7 +713,7 @@ function pageCalendar() {
   const rows = upcoming.map((e) => `<li class="ev" data-scope="${e.scope}" data-cats="${esc(evCats(e).join(' '))}" data-id="${esc(e.id)}">
   <div class="ev-date"><b>${md(e.date)}</b><span>${weekday(e.date)}요일</span></div>
   <div class="ev-body">
-    <div class="ev-title"><i class="ev-dot c-${esc(evCats(e).find((c) => c !== 'general') || 'general')}" aria-hidden="true"></i><b>${esc(e.name)}</b><span class="ev-dday" ${ddayAttr(e)}>${evDday(e)}</span>${isMajor(e) ? '<span class="ev-major">대형 세일</span>' : ''}</div>
+    <div class="ev-title"><i class="ev-dot c-${esc(evCats(e)[0])}" aria-hidden="true"></i><b>${esc(e.name)}</b><span class="ev-dday" ${ddayAttr(e)}>${evDday(e)}</span>${isMajor(e) ? '<span class="ev-major">대형 세일</span>' : ''}</div>
     <div class="ev-tags"><span class="ev-tag ${e.scope}">${SCOPE[e.scope]}</span><span class="ev-tag ${e.status}">${STATUS[e.status]}</span>${evCats(e).map((c) => `<span class="ev-tag cat">${esc(SALE_CATS[c] || c)}</span>`).join('')}<span class="ev-range">${evRange(e)}</span></div>
     <span class="ev-store">${esc(e.stores)}</span><p>${esc(e.note)}</p>
   </div>

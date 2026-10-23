@@ -7,7 +7,7 @@ const items = [...document.querySelectorAll('.events .ev')];
 const KST = () => new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 const today = KST();
 const iso = (y, m, d) => `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
-const MAIN = (ev) => ev.c.find((c) => c !== 'general') || 'general';
+const MAIN = (ev) => ev.c[0] || 'general'; // 첫 카테고리(종합몰이면 종합몰 색)
 
 let cat = 'all';
 let scope = 'all';
