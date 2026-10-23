@@ -14,7 +14,7 @@ for (const f of files){
   if(!/<h1/.test(h)) issues.push(rel+': no h1');
   if((h.match(/<h1/g)||[]).length>1) issues.push(rel+': multiple h1');
   for (const m of h.matchAll(/href="(\/[^"]*)"/g)) if(!exists(m[1])) issues.push(rel+': broken internal link '+m[1]);
-  for (const m of h.matchAll(/src="(\/[^"]*)"/g)) if(!exists(m[1])) issues.push(rel+': missing asset '+m[1]);
+  for (const m of h.matchAll(/src="(\/[^"]*)"/g)) if(!m[1].startsWith("/_vercel/") && !exists(m[1])) issues.push(rel+': missing asset '+m[1]);
   if(/undefined|NaN|\[object Object\]/.test(h.replace(/<script[\s\S]*?<\/script>/g,''))) issues.push(rel+': contains undefined/NaN');
   for (const m of h.matchAll(/<img(?![^>]*alt=)[^>]*>/g)) issues.push(rel+': img without alt');
   if(!/og:image/.test(h)) { if(rel==='/index.html') issues.push('ALL: no og:image (공유 미리보기 이미지 없음)'); }
