@@ -758,5 +758,318 @@
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6888265108",
     "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2d42/de34ba528a8c1be90129dfed16a37fb8f92b63737646a07990eba8e013a8.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4Bn2RFL0C",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-now-magnesium-glycinate-180",
+    "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
+    "priceKrw": 24875,
+    "domesticKrw": 20370,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약"
+    ],
+    "summary": [
+      "나우푸드 마그네슘 글리시네이트 타블렛 180정(1정당 100mg)끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
+      "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/1366689007?itemId=23951551099&vendorItemId=70393847331",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
+    "image": "https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/367b/3bcda494c1d373480d8e03d131c6b95cd807ec1823ddb4df27216312d744.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상 무료",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BodRaPiC",
+    "buyUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-sr-omega3-triple-180",
+    "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
+    "priceKrw": 74508,
+    "domesticKrw": 48510,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상이라 배송비 없음"
+    ],
+    "summary": [
+      "스포츠리서치 오메가3 트리플 스트렝스(1040mg) 소프트젤 180정끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "배송비 없이도 아이허브가 쿠팡 로켓직구보다 {diff}({pct}) 비싸요.",
+      "이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6854281548?itemId=24019532759&vendorItemId=4765824657",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
+    "image": "https://thumbnail9.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/7f62/65a06ce6692195875f1f3ff8d5f7e4355e234c129e8c9f9d4abec9c9da12.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상 무료",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
+    "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-jarrow-dophilus-eps-120",
+    "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
+    "priceKrw": 52122,
+    "domesticKrw": 33180,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상이라 배송비 없음",
+      "받은 뒤 보관 방법 확인"
+    ],
+    "summary": [
+      "자로우 도피러스 EPS 100억 CFU 베지 캡슐 120정끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "배송비 없이도 아이허브가 쿠팡 로켓직구보다 {diff}({pct}) 비싸요.",
+      "이 제품은 쿠팡 로켓직구를 먼저 보세요. 유산균은 제품 안내의 보관 방법을 꼭 확인하세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7626263931?itemId=18376283146&vendorItemId=3179568952",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/cfa2/7dafe44671c57f8be5145390677f5323075274c7f90689288b368766a4e1.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상 무료",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
+    "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-jarrow-fem-dophilus-1b-60",
+    "name": "자로우 펨도필러스 10억 CFU 60캡슐",
+    "priceKrw": 45315,
+    "domesticKrw": 31670,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상이라 배송비 없음",
+      "받은 뒤 보관 방법 확인"
+    ],
+    "summary": [
+      "자로우 펨도필러스 10억 CFU 60캡슐끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "배송비 없이도 아이허브가 쿠팡 로켓직구보다 {diff}({pct}) 비싸요.",
+      "이 제품은 쿠팡 로켓직구를 먼저 보세요. 유산균은 제품 안내의 보관 방법을 꼭 확인하세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8336583914?itemId=15790615828&vendorItemId=3161168955",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
+    "image": "https://t4c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/a658fa6128ccd3ecc81aa2c4a605819291144f81dcd2a124b12f040560ba_1751522002256.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BoGlkQCW",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-milk-thistle-extract-300-mg-200-veg-capsules/13870",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-now-silymarin-300-200",
+    "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
+    "priceKrw": 33318,
+    "domesticKrw": 24840,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약"
+    ],
+    "summary": [
+      "나우푸드 실리마린 밀크시슬 300mg 베지 캡슐 200정끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
+      "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7156986260?itemId=13254294391&vendorItemId=3180741512",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-milk-thistle-extract-300-mg-200-veg-capsules/13870",
+    "image": "https://thumbnail14.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/e864/11b9f6b38a90dd8446a0fb5fb4328ce5b3a6ba9b4d33f3002f13c9cdde0d.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BxmVuzgy",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-now-l-arginine-1000-120",
+    "name": "나우푸드 L-아르기닌 1000mg 120정",
+    "priceKrw": 23320,
+    "domesticKrw": 17100,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약"
+    ],
+    "summary": [
+      "나우푸드 L-아르기닌 1000mg(1정당) 타블렛 120정끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
+      "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7066907732?itemId=5013025207&vendorItemId=3180741511",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
+    "image": "https://t3a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/5ba5dd52fb4e878a9657c2b4d486dacd31f79228b65c79961a11726b738a_1750902763029.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상 무료",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BxF2x1i0",
+    "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-jarrow-fem-dophilus-5b-60",
+    "name": "자로우 펨도필러스 50억 CFU 60캡슐",
+    "priceKrw": 58027,
+    "domesticKrw": 31370,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상이라 배송비 없음",
+      "받은 뒤 보관 방법 확인"
+    ],
+    "summary": [
+      "자로우 펨도필러스 50억 CFU 60캡슐끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "배송비 없이도 아이허브가 쿠팡 로켓직구보다 {diff}({pct}) 비싸요.",
+      "이 제품은 쿠팡 로켓직구를 먼저 보세요. 유산균은 제품 안내의 보관 방법을 꼭 확인하세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6960887991?itemId=18566924182&vendorItemId=5118205758",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
+    "image": "https://thumbnail4.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/6e93c75c-ebaa-4bfb-a1a9-3571a8f23999_fixing_v2_1751346510416.png"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-now-zinc-50-250",
+    "name": "나우푸드 아연 50mg 250정",
+    "priceKrw": 13983,
+    "domesticKrw": 10550,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약"
+    ],
+    "summary": [
+      "나우푸드 아연 50mg 250정끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
+      "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6395389697?itemId=12107900018&vendorItemId=3086574774",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
+    "image": "https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4553/1b3252124dc55ad0a529351865657d2d415e0dd73b9e35c2c91498554b1e.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상 무료",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BzH8wHKu",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-ultra-omega-3-fish-oil-180-fish-softgels/96436",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-now-ultra-omega3-180",
+    "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
+    "priceKrw": 46657,
+    "domesticKrw": 33890,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상이라 배송비 없음"
+    ],
+    "summary": [
+      "나우푸드 울트라 오메가-3(소프트젤 1정 EPA 500mg·DHA 250mg) 180정끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "배송비 없이도 아이허브가 쿠팡 로켓직구보다 {diff}({pct}) 비싸요.",
+      "이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9392378613?itemId=12932887739&vendorItemId=70393847077",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-ultra-omega-3-fish-oil-180-fish-softgels/96436",
+    "image": "https://thumbnail2.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/b644/1ba79ee7ac43d1f92b0ac28c5ec5dba00551024b2a98ec91ec6306425752.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h4BJD6VK8G",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
+    "sample": false,
+    "checkedAt": "2026.10.23 오전",
+    "slug": "iherb-now-magnesium-caps-400-180",
+    "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
+    "priceKrw": 18653,
+    "domesticKrw": 15660,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약"
+    ],
+    "summary": [
+      "나우푸드 마그네슘 캡슐 400mg 베지 캡슐 180정끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
+      "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/26208?itemId=65370&vendorItemId=3085763155",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
+    "image": "https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/7ce8/b7b7f43cb3ad3178294ee9af58c6757b0d9a5fba23b677a3bc933c6c9e44.jpg"
   }
 ]
