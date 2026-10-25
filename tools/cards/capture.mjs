@@ -2,7 +2,7 @@
 //   node tools/cards/capture.mjs <출력 폴더>
 // 폰트는 카드와 같은 Pretendard 하나로 통일해요(제목용 검은고딕도 Pretendard 굵게로 바꿔 찍음).
 // 폰트 파일은 tools/cards/fonts/에 있고, 없으면 자동 설치해요.
-import { mkdirSync } from 'node:fs';
+import { mkdirSync, readFileSync, existsSync } from 'node:fs';
 import { ensureFonts } from './fonts.mjs';
 ensureFonts();
 let chromium;
@@ -25,11 +25,18 @@ const SEARCH = {
 const FONT_CSS = `
   *{font-family:'Pretendard Variable',Pretendard,sans-serif!important}
   .logo-word,.hero h1,.dday-circle b,.num,.vword,.display,.ev-date b,.s-vword,.bf-hero h1{font-weight:800!important;letter-spacing:-0.02em}
-  .card-img,.s-img,.tabbar,.buybar,.topbar,.ev-dday,.p-photo{display:none!important}`;
+  .tabbar,.buybar,.topbar,.ev-dday{display:none!important}${process.env.HIDE_IMG ? '.card-img,.s-img,.p-photo{display:none!important}' : ''}`;
 
 const b = await chromium.launch();
 const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2 });
-await ctx.route(/coupangcdn|aliexpress-media|alicdn|googleapis|gstatic|jsdelivr|coupa\.ng/, (r) => r.abort());
+// 상품 사진은 content/_assets/products/ 에 내려받아 둔 제휴 이미지로 채워요(작업 공간에선 이미지 서버가 막혀 있어요).
+const IMG_MAP = existsSync('content/_assets/products/map.json') ? JSON.parse(readFileSync('content/_assets/products/map.json', 'utf8')) : {};
+await ctx.route(/coupangcdn|aliexpress-media|alicdn/, (r) => {
+  const f = IMG_MAP[r.request().url()];
+  if (f && existsSync(f)) return r.fulfill({ contentType: f.endsWith('.png') ? 'image/png' : 'image/jpeg', body: readFileSync(f) });
+  return r.abort();
+});
+await ctx.route(/googleapis|gstatic|jsdelivr|coupa\.ng/, (r) => r.abort());
 await ctx.route('**/api/search*', (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify(SEARCH) }));
 const p = await ctx.newPage();
 
