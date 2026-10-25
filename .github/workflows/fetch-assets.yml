@@ -1,0 +1,26 @@
+# 상품 사진(제휴 프로그램 제공 이미지)을 저장소로 내려받아요. 카드뉴스·캡처 작업용이에요.
+# content/_assets/request.txt 를 바꿔 push하면 돌아요.
+name: fetch-assets
+on:
+  push:
+    branches: [main]
+    paths: ['content/_assets/request.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: fetch-assets
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node tools/assets/fetch-product-images.mjs
+      - name: Save
+        run: |
+          git config user.name "jikgugak-bot"
+          git config user.email "jikgugak.official@gmail.com"
+          git add -A content/_assets || true
+          git diff --cached --quiet || (git commit -m "상품 사진 내려받기 [skip ci]" && git pull --rebase && git push)
