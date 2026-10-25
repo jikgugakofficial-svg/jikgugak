@@ -72,12 +72,12 @@
     "domesticUrl": "https://link.coupang.com/a/h1C2dCAIbQ",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "iherb-now-vitamin-d3-k2-120",
     "name": "나우푸드 비타민 D3 & K2 120캡슐",
     "priceKrw": 11647,
-    "domesticKrw": 10370,
-    "domesticSource": "쿠팡, 1개(120정)",
+    "domesticKrw": 10240,
+    "domesticSource": "쿠팡 로켓직구 1개(120정) 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
       "6병까지 자가사용 인정",
@@ -103,11 +103,11 @@
     "domesticUrl": "",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "iherb-cgn-lactobif-30-60",
     "name": "캘리포니아골드뉴트리션 락토비프 30 유산균 60캡슐",
-    "priceKrw": 24807,
-    "domesticKrw": 40000,
+    "priceKrw": 31803,
+    "domesticKrw": 50000,
     "domesticSource": "쿠팡 1개, 무료배송",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -115,8 +115,8 @@
       "받은 뒤 보관 방법 확인"
     ],
     "summary": [
-      "아이허브는 배송비 ₩6,000을 더해도 쿠팡보다 {diff}({pct}) 싸요. 직구각 기준(₩10,000)에 아깝게 못 미쳐요.",
-      "다른 영양제와 ₩40,000 이상 함께 담아 배송비가 0원이 되면 차이가 ₩15,193으로 커져요.",
+      "아이허브는 배송비 ₩6,000을 더해도 쿠팡보다 {diff}({pct}) 싸서 직구각이에요.",
+      "다른 영양제와 ₩40,000 이상 함께 담아 배송비가 0원이 되면 ₩6,000이 더 아껴져요.",
       "유산균은 제품 안내의 보관 방법을 꼭 확인하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8221125227?itemId=14708941467&vendorItemId=95973420287",
@@ -133,11 +133,11 @@
     "domesticUrl": "",
     "buyUrl": "",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "iherb-supplement-4-bundle",
     "name": "아이허브 영양제 4종 한 번에 담기 (오메가3·마그네슘·D3K2·유산균)",
-    "priceKrw": 80932,
-    "domesticKrw": 104990,
+    "priceKrw": 87928,
+    "domesticKrw": 114860,
     "domesticSource": "쿠팡 각 1개, 배송비 포함 합계",
     "risks": [
       "4병: 6병 이하라 자가사용 인정",
@@ -173,7 +173,7 @@
       {
         "name": "락토비프 30 유산균 60캡슐",
         "url": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
-        "priceKrw": 24807
+        "priceKrw": 31803
       }
     ],
     "domesticFrom": [
@@ -193,10 +193,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DMeNTa7V",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 33400,
+    "priceKrw": 29296,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -223,10 +223,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DNoucYgu",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "ali-aula-f75-keyboard",
     "name": "AULA F75 무선 기계식 키보드 (씨솔트블루·회목축)",
-    "priceKrw": 54200,
+    "priceKrw": 54100,
     "domesticKrw": 57750,
     "domesticSource": "쿠팡 같은 색상·축, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c4P9xsVT",
@@ -254,11 +254,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DN5oKDg4",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 21119,
-    "domesticKrw": 22660,
+    "priceKrw": 20619,
+    "domesticKrw": 21870,
     "domesticSource": "쿠팡, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
     "risks": [
@@ -284,7 +284,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OAxXpVmK",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "amazon-lego-10309-succulents",
     "name": "레고 보태니컬 다육식물 10309",
     "category": "toy",
@@ -292,19 +292,18 @@
     "domesticSource": "쿠팡 ₩60,730 + 배송비 ₩10,000",
     "buyUrl": "https://www.amazon.com/dp/B09Q4GWMZQ",
     "risks": [
-      "10.22 기준 아마존에서 한국 배송이 안 돼요",
+      "10.25 기준 아마존 직판은 품절이고 제3자 판매자 상품만 한국 배송돼요",
       "US$49 미만이면 배송비 별도",
       "결제는 원화 말고 달러로 (환전 수수료)",
       "배송 1~4주"
     ],
     "summary": [
       "국내는 재고가 적어 쿠팡도 배송비 포함 ₩70,730이에요.",
-      "10월 22일 확인 기준 아마존에서 한국으로 배송이 안 돼요. 다시 열리면 {be} 이하일 때 직구각이에요.",
+      "10월 25일 확인 기준 아마존 직판은 품절이고 제3자 판매자 상품만 한국으로 배송돼요. {be} 이하일 때 직구각이에요.",
       "지금은 쿠팡이 현실적인 선택이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6498210958",
-    "image": "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4792/4405323d7be036469ab4aa7bff01e8c986ee748bf9d9e5dea00ca0904396.jpg",
-    "unavailable": "10.22 기준 아마존에서 한국 배송이 안 돼요"
+    "image": "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/4792/4405323d7be036469ab4aa7bff01e8c986ee748bf9d9e5dea00ca0904396.jpg"
   },
   {
     "store": "amazon",
@@ -331,7 +330,7 @@
     "summary": [
       "아마존가가 {be} 이하로 내려오면 직구각이에요.",
       "손익분기 {be}가 $49 무료배송 기준보다 낮아서, 꽃다발만 담으면 배송비가 따로 붙어요.",
-      "다른 아마존 상품과 한 주문에 담아 $49를 넘기면 배송비가 없어요(다육식물 10309는 10.22 기준 한국 배송 불가)."
+      "다른 아마존 상품과 한 주문에 담아 $49를 넘기면 배송비가 없어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/4899605928",
     "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/0a4d/27f2ee94ab39653c5f514260e9688269f6eab7ceb18e3ba99833a11602a0.jpg"
@@ -376,7 +375,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OFhB1bmS",
     "sample": false,
-    "checkedAt": "2026.10.21 저녁",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "amazon-logitech-mx-master-3s",
     "name": "로지텍 MX Master 3S 무선 마우스",
     "category": "it",
@@ -390,7 +389,7 @@
     "summary": [
       "쿠팡 로켓직구가 이미 직구 가격이라 아마존이 이기기 어려워요.",
       "아마존가가 {be} 이하일 때만 직구각이에요.",
-      "국내 정식 유통품(₩133,650)보다 로켓직구가 훨씬 싸요."
+      "국내 정식 유통품보다 로켓직구가 훨씬 싸요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7242698793",
     "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2a64/235c763e7e1395a4c9f6d0863df2e2afdca73686b061bd67982bc337dd40.jpg"
@@ -405,11 +404,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OGtLL1Ay",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "amazon-crocs-classic-clog",
     "name": "크록스 클래식 클로그 10001",
     "category": "apparel",
-    "domesticKrw": 48220,
+    "domesticKrw": 47220,
     "domesticSource": "쿠팡 와우 쿠폰가, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0014C0LUC",
     "risks": [
@@ -494,20 +493,20 @@
     "domesticUrl": "https://link.coupang.com/a/h2OJC6rAQu",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
     "sample": false,
-    "checkedAt": "2026.10.22 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "iherb-on-gold-standard-whey-5lb",
     "name": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
     "priceKrw": 164128,
-    "domesticKrw": 133950,
-    "domesticSource": "쿠팡 로켓직구 (미국발), 무료배송",
+    "domesticKrw": 169600,
+    "domesticSource": "쿠팡 해외 판매자 1개, 무료배송",
     "risks": [
       "식품이라 미국발도 $150 기준",
       "맛마다 가격 다름"
     ],
     "summary": [
       "같은 2.27kg(5lb)끼리 비교했어요.",
-      "쿠팡 로켓직구(미국발)가 아이허브보다 {diff} 싸요.",
-      "프로틴은 아이허브보다 쿠팡 로켓직구 할인을 먼저 확인하세요."
+      "쿠팡은 지금 해외 판매자 상품이라, 아이허브가 {diff}({pct}) 싸지만 차이가 작아서 애매해요.",
+      "프로틴은 쿠팡 로켓직구 할인이 다시 올라오는지 먼저 확인하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6714215076",
     "overseasCheckUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
@@ -551,29 +550,29 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
-    "shipNote": "미국→한국 배송 불가(10.23 확인)",
+    "shipNote": "미국→한국 배송 불가(10.25 확인)",
     "domesticKrw": 482700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
     "risks": [
-      "10.23 기준 아마존에서 한국 배송이 안 돼요",
+      "10.25 기준 아마존에서 한국 배송이 안 돼요",
       "$200 넘으면 관세 8% + 부가세 10%",
       "1세대와 헷갈리지 않게 '2nd Gen' 확인",
       "국내 정식 A/S 불가"
     ],
     "summary": [
       "보스 QC 울트라 헤드폰 2세대끼리 비교했어요(1세대 아님).",
-      "10월 23일 확인 기준 아마존에서 한국으로 배송이 안 돼요. 다시 열리면 {be} 이하일 때 관부가세를 내고도 직구각이에요.",
+      "10월 25일 확인 기준 아마존에서 한국으로 배송이 안 돼요. 다시 열리면 {be} 이하일 때 관부가세를 내고도 직구각이에요.",
       "블프 노캔 헤드폰 단골 특가라 세일 때 이 기준만 기억하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
-    "unavailable": "10.23 기준 아마존에서 한국 배송이 안 돼요"
+    "unavailable": "10.25 기준 아마존에서 한국 배송이 안 돼요"
   },
   {
     "store": "amazon",
@@ -583,13 +582,13 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "amazon-audio-technica-ath-m50x",
     "name": "오디오테크니카 ATH-M50x 모니터 헤드폰",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(10.22 확인)",
-    "domesticKrw": 208000,
-    "domesticSource": "쿠팡, 무료배송",
+    "domesticKrw": 153000,
+    "domesticSource": "쿠팡 해외 판매자, 무료배송 · 도착 약 1~2주",
     "domesticUrl": "https://link.coupang.com/a/h28cvy7hQX",
     "buyUrl": "https://www.amazon.com/dp/B00HVLUR86",
     "risks": [
@@ -645,16 +644,16 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28efNTYlM",
     "sample": false,
-    "checkedAt": "2026.10.22 오후",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-    "priceKrw": 29671,
-    "domesticKrw": 42600,
+    "priceKrw": 29620,
+    "domesticKrw": 39900,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
     "risks": [
       "배송 1~2주",
-      "신규 회원가(₩28,197)는 첫 구매 때만",
+      "신규 회원가(₩28,150)는 첫 구매 때만",
       "국내 A/S 받기 어려워요"
     ],
     "summary": [
@@ -676,11 +675,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 92721,
-    "domesticKrw": 86130,
+    "priceKrw": 92521,
+    "domesticKrw": 92810,
     "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
     "risks": [
@@ -690,8 +689,8 @@
     ],
     "summary": [
       "글로벌 버전 밴드 10 프로끼리 비교했어요.",
-      "쿠팡이 {diff} 더 싸서 지금은 국내가 나아요.",
-      "알리가 {beKrw} 아래로 떨어지는 광군제 특가 때만 다시 볼 만해요."
+      "알리가 쿠팡보다 {diff} 싸지만 사실상 같은 값이라 1~2주 배송을 기다릴 만큼은 아니에요.",
+      "알리가 {beKrw} 아래로 떨어지는 광군제 특가 때만 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9644182900",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006405553471.html",
@@ -707,22 +706,22 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h4yGpGCik0",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "amazon-lego-10313-wildflower-bouquet",
     "name": "레고 보태니컬 들꽃 부케 10313",
     "category": "toy",
-    "domesticKrw": 60900,
-    "domesticSource": "쿠팡 로켓배송(정가 ₩89,900), 무료배송 · 재고 2개",
+    "domesticKrw": 78900,
+    "domesticSource": "쿠팡 판매자 배송, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0BGQL5B3Q",
     "risks": [
       "US$49 미만이면 배송비 별도",
-      "10.23 기준 아마존 직판은 품절이고 제3자 판매자 상품만 한국 배송돼요",
-      "쿠팡 재고가 2개뿐이라 품절되면 국내가가 올라요",
+      "10.25 기준 아마존 직판은 품절이고 제3자 판매자 상품만 한국 배송돼요",
+      "쿠팡 가격이 자주 바뀌어요",
       "결제는 원화 말고 달러로 (환전 수수료)"
     ],
     "summary": [
-      "레고 아이콘 들꽃 부케 10313(939피스) 같은 세트끼리 비교했어요. 국내는 쿠팡 로켓배송 ₩60,900(정가 ₩89,900)이에요.",
-      "쿠팡이 정가보다 많이 내려가 있어서, 아마존가가 {be} 이하로 내려와야 직구각이에요.",
+      "레고 아이콘 들꽃 부케 10313(939피스) 같은 세트끼리 비교했어요. 국내는 쿠팡 판매자 배송 상품이에요(로켓배송 아님).",
+      "아마존가가 {be} 이하로 내려와야 직구각이에요.",
       "{be}가 $49 무료배송 기준보다 낮아서 부케만 담으면 배송비가 따로 붙어요. 레고 10280 같은 다른 아마존 상품과 한 주문에 $49를 넘기면 배송비가 없어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7063125250",
@@ -770,11 +769,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4Bn2RFL0C",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24875,
-    "domesticKrw": 20370,
+    "domesticKrw": 22400,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -801,11 +800,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BodRaPiC",
     "buyUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 74508,
-    "domesticKrw": 48510,
+    "domesticKrw": 47920,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -832,11 +831,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.10.23 오전",
+    "checkedAt": "2026.10.25 저녁",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 52122,
-    "domesticKrw": 33180,
+    "domesticKrw": 32770,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
