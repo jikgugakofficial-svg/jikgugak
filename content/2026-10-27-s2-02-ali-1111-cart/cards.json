@@ -31,8 +31,8 @@
       "type": "shot",
       "label": "QCY T13",
       "title": "이어폰도 6%",
-      "image": "img/t13-compare.png",
-      "body": "₩1,251 차이라 애매. ₩11,870 이하면 직구각이에요"
+      "image": "img/t13-verdict.png",
+      "body": "쿠팡 ₩21,870, 알리 ₩20,619.\n알리 ₩11,870 이하면 직구각이에요"
     },
     {
       "type": "point",
@@ -45,8 +45,8 @@
       "type": "shot",
       "label": "유그린 7in1 허브",
       "title": "이건 지금도 직구각",
-      "image": "img/ugreen-compare.png",
-      "body": "같은 구성끼리 ₩30,604(51%) 싸요"
+      "image": "img/ugreen-verdict.png",
+      "body": "쿠팡 ₩59,900, 알리 ₩29,296.\n같은 구성끼리 ₩30,604 싸요"
     },
     {
       "type": "compare",
@@ -61,14 +61,9 @@
           "알리 일반가",
           "₩29,620",
           "hi"
-        ],
-        [
-          "신규 회원가(안 씀)",
-          "₩28,150",
-          ""
         ]
       ],
-      "note": "QCY H3 ANC(H3 Pro 아님), 10.25. ₩10,280(26%) 싸요.\n신규 회원가는 첫 구매 때만이라 판정에 안 써요"
+      "note": "QCY H3 ANC(H3 Pro 아님), 10.25 기준.\n₩10,280(26%) 싸서 직구각이에요"
     },
     {
       "type": "point",

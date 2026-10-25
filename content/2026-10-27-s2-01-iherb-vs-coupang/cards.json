@@ -21,10 +21,10 @@
       "image": "img/sr-omega3.jpg"
     },
     {
-      "type": "shot",
-      "title": "16개 중 13개",
-      "image": "img/domestic-list.png",
-      "body": "직구각이 비교한 아이허브 단품 16개 중 13개가 국내가 나음"
+      "type": "point",
+      "label": "결제 버튼 누르기 전",
+      "title": "아이허브가\n늘 싼 건 아니에요",
+      "body": "같은 제품·같은 정 수끼리\n배송비까지 더해 비교했어요"
     },
     {
       "type": "shot",
