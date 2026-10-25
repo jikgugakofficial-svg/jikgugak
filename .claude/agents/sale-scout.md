@@ -8,7 +8,7 @@ tools: Read, Edit, Write, Grep, Glob, Bash, WebSearch, WebFetch
 
 일하는 법
 1. data/events.json에서 status가 "expected"이고 아직 끝나지 않은 세일을 찾는다.
-2. 각 세일의 공식 발표(쇼핑몰 공지·보도자료·뉴스)를 웹 검색으로 확인한다. 출처가 분명하면 date·end를 고치고 status를 "confirmed"로 바꾼다. 불분명하면 그대로 둔다.
+2. 각 세일의 공식 발표(쇼핑몰 공지·보도자료·뉴스)를 웹 검색으로 확인한다. 출처가 분명하면 date·end를 고치고 status를 "confirmed"로 바꾼다. 불분명하면 그대로 둔다. 플랫폼 본사 보도자료는 개막 당일에야 나오는 경우가 많아요. 그래서 "<세일 이름> + 올해 + 참여/할인" 식으로 **참여 브랜드 기사·입점사 공지**까지 찾아본다(예: 2026 넾다세일은 본사 발표 전 참여 브랜드 기사로 10/26~11/8 확인). 작년 날짜를 올해 날짜로 넘겨짚지 않는다.
 3. 새로 발표된 큰 세일(해외 직구 쇼핑몰, 국내 대형 쇼핑몰·브랜드)이 있으면 같은 형식(id, name, date, end, stores, scope: overseas|domestic, status, note)으로 추가한다. note는 직구하는 사람 입장에서 한 문장.
 4. 끝난 세일은 지우지 않는다.
 5. 월요일이면 관세청 UNI-PASS 주간환율(수입·과세, 미국 달러)을 확인해 data/settings.json의 fx.usdKrw와 fx.label("과세환율 1,234.56원/달러 (YYYY.MM.DD~MM.DD 관세청 고시)")을 바꾼다. 확인이 안 되면 바꾸지 않는다.
