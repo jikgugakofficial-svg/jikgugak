@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-24T14:27:51.761Z",
+  "at": "2026-10-25T14:28:05.230Z",
   "window": "최근 7일",
   "instagram": {
     "profile": {
@@ -10,20 +10,38 @@
       "website": "https://www.jikgugak.com",
       "followers_count": 0,
       "follows_count": 5,
-      "media_count": 3,
+      "media_count": 4,
       "account_type": "BUSINESS",
       "id": "28724042543919894"
     },
     "account7d": {
       "reach": 5,
       "views": 5,
-      "profile_views": 8,
+      "profile_views": 10,
       "website_clicks": 1,
       "accounts_engaged": 0,
       "total_interactions": 0,
       "profile_links_taps": 0
     },
     "media": [
+      {
+        "permalink": "https://www.instagram.com/p/De6XG5yEb8s/",
+        "timestamp": "2026-10-25T09:14:33+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "아이허브는 ₩40,000 미만이면 배송비 ₩6,000이 붙어요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 0,
+          "views": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "follows": 0
+        }
+      },
       {
         "permalink": "https://www.instagram.com/p/De3yRfNm0CP/",
         "timestamp": "2026-10-24T09:14:11+0000",
@@ -99,13 +117,28 @@
     },
     "posts": [
       {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De6XI2skclI",
+        "timestamp": "2026-10-25T09:14:48+0000",
+        "topicTag": "면세한도",
+        "hasLink": true,
+        "firstLine": "(광고) 면세 한도는 $150이에요. 미국 특송은 $200이고, 한도를 넘으면 배송비 포함 전체에 세금이 붙",
+        "insights": {
+          "views": 23,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
         "permalink": "https://www.threads.com/@jikgugak.official/post/De3yTNsG3QI",
         "timestamp": "2026-10-24T09:14:25+0000",
         "topicTag": "광군제",
         "hasLink": true,
         "firstLine": "(광고) 광군제 11.11 전에 하나만 정해 두세요. 할인율이 아니라 최종가로 비교하기로요.",
         "insights": {
-          "views": 5,
+          "views": 8,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -120,7 +153,7 @@
         "hasLink": false,
         "firstLine": "직구 관세, 가입 없이 바로 계산할 수 있어요.",
         "insights": {
-          "views": 48,
+          "views": 49,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -135,7 +168,7 @@
         "hasLink": true,
         "firstLine": "쿠팡에서 결제하기 전에, 해외 최종가부터 한 번만 검색해 보세요.",
         "insights": {
-          "views": 38,
+          "views": 39,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -145,6 +178,17 @@
       }
     ],
     "replies": [
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De6XK-SEaiX",
+        "timestamp": "2026-10-25T09:15:05+0000",
+        "hasLink": false,
+        "firstLine": "한도와 함께 볼 게 배송비예요. 아이허브는 ₩40,000 미만 주문에 배송비 ₩6,000이 붙어서, 살 게 ",
+        "insights": {
+          "views": 2,
+          "likes": 0,
+          "replies": 0
+        }
+      },
       {
         "permalink": "https://www.threads.com/@jikgugak.official/post/De3yVijm0Gw",
         "timestamp": "2026-10-24T09:14:44+0000",
