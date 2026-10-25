@@ -2,16 +2,17 @@
   {
     "id": "naver-nupda-2026",
     "name": "네이버 넾다세일",
-    "date": "2026-10-29",
-    "end": "2026-11-11",
+    "date": "2026-10-26",
+    "end": "2026-11-08",
     "stores": "네이버 플러스스토어",
     "scope": "domestic",
-    "status": "expected",
-    "note": "작년엔 10월 29일~11월 11일. 국내가가 내려가니 직구 전에 한 번 더 비교하세요.",
+    "status": "confirmed",
+    "note": "10월 26일(월)~11월 8일(일) 2주간 열려요. 참여 브랜드가 행사 기간을 이렇게 안내했어요. 국내가가 내려가니 직구 전에 한 번 더 비교하세요.",
     "cats": [
       "general"
     ],
-    "major": false
+    "major": false,
+    "source": "https://www.greened.kr/news/articleView.html?idxno=352792"
   },
   {
     "id": "ssg-day-2026",
