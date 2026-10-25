@@ -43,6 +43,16 @@ function slideHtml(s, i) {
   const foot = `<div class="foot"><span class="mark"><b>직구각</b> jikgugak.com</span><span>${esc(handle)}</span></div>`;
   let inner = '';
   switch (s.type) {
+    case 'shock': // 자극적인 표지: 아주 큰 숫자 한 개 + 짧은 제목 + 도장 + 상품 사진
+      inner = `${deck.ad ? '<div class="ad">광고 · 제휴 링크 포함</div>' : ''}
+        <div class="sk-top">${s.kicker ? `<div class="kicker">${br(s.kicker)}</div>` : ''}
+        <div class="sk-big${s.strike ? ' strike' : ''}" style="font-size:${Math.min(250, Math.floor(800 / (Math.max(...String(s.big).split('\n').map((l) => l.length)) * 0.6)))}px">${br(s.big)}</div>
+        <h1 class="sk-t">${br(s.title)}</h1>
+        ${s.sub ? `<p class="sk-s">${br(s.sub)}</p>` : ''}</div>
+        ${s.image ? `<div class="sk-img"><img src="${imgCache[s.image]}" alt=""></div>` : ''}
+        ${s.stamp ? `<div class="sk-stamp">${br(s.stamp)}</div>` : ''}
+        ${s.swipe !== false && deck.swipe !== false ? `<div class="swipe">넘겨서 확인 →</div>` : ''}`;
+      return `<section class="slide cover shock${s.image ? ' has-img' : ''}">${inner}${foot}</section>`;
     case 'cover':
       inner = `${deck.ad ? '<div class="ad">광고 · 제휴 링크 포함</div>' : ''}
         ${s.kicker ? `<div class="kicker">${br(s.kicker)}</div>` : ''}
@@ -102,6 +112,17 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .cover.has-img .cover-t{font-size:104px}
 .cover-img{margin-top:auto;align-self:center;width:520px;height:520px;background:#fff;border-radius:44px;padding:26px;box-shadow:0 18px 40px rgba(0,0,0,.18)}
 .cover-vs ~ .cover-img{width:330px;height:330px;padding:18px;border-radius:36px}
+.shock{justify-content:flex-start;padding-top:150px}
+.sk-top{display:flex;flex-direction:column;gap:14px;position:relative;z-index:2}
+.sk-big{line-height:1;font-weight:900;letter-spacing:-0.04em;color:#fff;margin:4px 0;text-shadow:0 10px 0 rgba(0,0,0,.14);white-space:nowrap}
+.sk-big.strike{position:relative;align-self:flex-start;color:rgba(255,255,255,.92)}
+.sk-big.strike:after{content:'';position:absolute;left:-12px;right:-12px;top:52%;height:20px;background:#1F2E57;transform:rotate(-6deg);border-radius:12px}
+.sk-t{font-size:96px;line-height:1.14;font-weight:900;letter-spacing:-4px}
+.sk-s{font-size:40px;font-weight:600;opacity:.92;margin-top:4px}
+.sk-img{position:absolute;right:90px;bottom:205px;width:340px;height:340px;background:#fff;border-radius:44px;padding:22px;box-shadow:0 24px 50px rgba(0,0,0,.25);transform:rotate(4deg);z-index:1}
+.sk-img img{width:100%;height:100%;object-fit:contain;display:block}
+.sk-stamp{position:absolute;left:120px;bottom:210px;z-index:3;background:#1F2E57;color:#fff;font-size:46px;font-weight:900;padding:22px 34px;border-radius:24px;transform:rotate(-6deg);box-shadow:0 14px 30px rgba(0,0,0,.25);border:5px solid #fff}
+.shock .swipe{bottom:110px}
 .cover-img img,.pt-img img{width:100%;height:100%;object-fit:contain;display:block}
 .pt-img{align-self:center;width:420px;height:420px;background:#fff;border:3px solid #E6E8EC;border-radius:36px;padding:20px}
 .shotslide{padding:120px 100px 150px}
