@@ -101,6 +101,7 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .cover.has-img{justify-content:flex-start;padding-top:140px;gap:26px}
 .cover.has-img .cover-t{font-size:104px}
 .cover-img{margin-top:auto;align-self:center;width:520px;height:520px;background:#fff;border-radius:44px;padding:26px;box-shadow:0 18px 40px rgba(0,0,0,.18)}
+.cover-vs ~ .cover-img{width:330px;height:330px;padding:18px;border-radius:36px}
 .cover-img img,.pt-img img{width:100%;height:100%;object-fit:contain;display:block}
 .pt-img{align-self:center;width:420px;height:420px;background:#fff;border:3px solid #E6E8EC;border-radius:36px;padding:20px}
 .shotslide{padding:120px 100px 150px}
