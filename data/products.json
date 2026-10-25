@@ -1071,5 +1071,36 @@
     "domesticCheckUrl": "https://www.coupang.com/vp/products/26208?itemId=65370&vendorItemId=3085763155",
     "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "image": "https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/7ce8/b7b7f43cb3ad3178294ee9af58c6757b0d9a5fba23b677a3bc933c6c9e44.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/h8rx3CeVbg",
+    "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
+    "sample": false,
+    "checkedAt": "2026.10.25 저녁",
+    "slug": "iherb-on-micronized-creatine-caps-100",
+    "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
+    "priceKrw": 29651,
+    "domesticKrw": 27760,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약"
+    ],
+    "summary": [
+      "옵티멈뉴트리션 미분화 크레아틴 캡슐 100정(1정당 1.25g, 2정 2.5g)끼리 비교했어요. 국내는 쿠팡 로켓직구예요.",
+      "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
+      "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
+    ],
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/65105319?itemId=18840511862&vendorItemId=3531655111",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
+    "image": "https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/e73a/3f8b4e6296c12a2ec484447e82a6975a630f94e49f4cf7e2552fa3f2390a.jpg"
   }
 ]
