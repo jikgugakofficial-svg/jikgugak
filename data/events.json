@@ -17,17 +17,18 @@
     "id": "ssg-day-2026",
     "name": "쓱데이",
     "date": "2026-10-30",
-    "end": "2026-11-09",
+    "end": "2026-11-08",
     "stores": "SSG닷컴 · G마켓 · 옥션 · 이마트",
     "scope": "domestic",
-    "status": "expected",
-    "note": "작년엔 10월 30일~11월 9일 11일간 열렸어요. 가전·혼수 가구도 할인에 들어가니 국내 최저가와 비교해 보세요.",
+    "status": "confirmed",
+    "note": "SSG닷컴 공식 안내로 10월 30일(금)~11월 8일(일) 10일간이에요. 가전·혼수 가구도 할인에 들어가니 국내 최저가와 비교해 보세요.",
     "cats": [
       "general",
       "electronics",
       "living"
     ],
-    "major": false
+    "major": false,
+    "source": "https://www.ssg.com/hub/ssgday-2026-info"
   },
   {
     "id": "lottehimart-gajeonjeol-2026",
@@ -42,6 +43,21 @@
       "electronics"
     ],
     "major": false
+  },
+  {
+    "id": "korea-grand-festival-2026",
+    "name": "2026 코리아 그랜드 페스티벌",
+    "date": "2026-10-29",
+    "end": "2026-11-15",
+    "stores": "전국 유통·온라인몰 참여 (범정부 행사)",
+    "scope": "domestic",
+    "status": "confirmed",
+    "note": "중기부 등 정부가 여는 18일간 전국 소비 행사예요. 10월 29일 안동에서 개막해요. 참여 쇼핑몰마다 할인 폭이 달라서 직구 가격과 따로 비교해 보세요.",
+    "cats": [
+      "general"
+    ],
+    "major": false,
+    "source": "https://news.tf.co.kr/read/ogmeta/2356847.htm"
   },
   {
     "id": "11st-grand-2026",
@@ -80,7 +96,7 @@
     "stores": "국내 유통사 전반",
     "scope": "domestic",
     "status": "expected",
-    "note": "정부 주관 국내 할인 행사. 정확한 날짜는 10월 말~11월 초에 발표돼요.",
+    "note": "정부 주관 국내 할인 행사. 2026년엔 '코리아 그랜드 페스티벌'(10/29~11/15) 안에서 함께 운영된다는 보도가 있어요. 날짜는 아직 확인 전이라 발표를 기다려요.",
     "cats": [
       "general",
       "fashion",
@@ -270,7 +286,7 @@
     "stores": "아마존",
     "scope": "overseas",
     "status": "expected",
-    "note": "매년 7월 중순. 프라임 회원 전용이라 미리 가입 여부를 확인하세요. 날짜는 6월에 발표돼요.",
+    "note": "2026년엔 6월 23~26일로 앞당겨 열렸어요(아마존 공식 발표). 2027년 날짜는 미정이니 6월 발표를 확인하세요. 프라임 회원 전용이에요.",
     "cats": [
       "general",
       "electronics"
