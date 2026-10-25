@@ -1,0 +1,72 @@
+{
+  "handle": "@jikgugak.official",
+  "ad": true,
+  "alt": "QCY H3 ANC 헤드폰 알리 신규 회원가 ₩28,150과 직구각이 쓰는 일반가 ₩29,620을 나란히 놓은 비교 표지. 큰 글씨는 \"더 싼 가격을 일부러 안 써요\". 광고 표시가 붙어 있어요.",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "최저가 누르기 전",
+      "title": "더 싼 가격을\n일부러 안 써요",
+      "sub": "QCY H3 ANC 헤드폰, 10.25 기준",
+      "vs": [
+        [
+          "알리\n신규 회원가",
+          "₩28,150"
+        ],
+        [
+          "직구각이 쓰는\n일반가",
+          "₩29,620"
+        ]
+      ],
+      "image": "img/qcy-h3.jpg"
+    },
+    {
+      "type": "shot",
+      "label": "QCY H3 ANC · 직구각",
+      "title": "신규 회원가는 한 번뿐",
+      "image": "img/h3-compare.png",
+      "body": "첫 구매 때만 되는 값이라 안 써요.\n일반가로도 ₩10,280 싸요"
+    },
+    {
+      "type": "point",
+      "label": "모델명",
+      "title": "끝 글자까지 같게",
+      "body": "H3와 H3 Pro는 다른 헤드폰.\n밴드는 글로벌·중국 내수가 달라요"
+    },
+    {
+      "type": "shot",
+      "label": "유그린 7in1 허브",
+      "title": "구성까지 같게",
+      "image": "img/ugreen-compare.png",
+      "body": "HDMI 4K60·랜·PD 100W끼리 비교해도 ₩30,604 싸요"
+    },
+    {
+      "type": "shot",
+      "label": "나우 마그네슘 글리시네이트",
+      "title": "영양제는 정 수·함량",
+      "image": "img/mg-glycinate-compare.png",
+      "body": "180정·1정당 100mg끼리 비교하니 국내가 ₩8,475 더 쌌어요"
+    },
+    {
+      "type": "point",
+      "label": "비슷한 이름",
+      "title": "아마존도 이름 확인",
+      "body": "에어로프레스는 오리지널과 XL, 타임모어 C3S는 ESP가 달라요"
+    },
+    {
+      "type": "point",
+      "label": "A/S · 삼성 T7",
+      "title": "같은 제품, 다른 유통",
+      "body": "미국 모델은 국내 A/S가 어려울 수 있어요.\n국내 공식인증품과 비교해요"
+    },
+    {
+      "type": "recap",
+      "title": "저장해 두세요",
+      "items": [
+        "모델명 끝 글자·세대까지 같은지",
+        "구성·용량(정 수·함량)까지 같은지",
+        "신규 회원가·쿠폰가 말고 일반가로"
+      ]
+    }
+  ]
+}
