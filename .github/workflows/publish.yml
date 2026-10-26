@@ -9,6 +9,7 @@ on:
   schedule:
     - cron: '7 * * * *'
     - cron: '53 8 * * *'   # 매일 17:53 KST 예약분(v1 게시 시각)
+    - cron: '23 3 * * *'   # 매일 12:23 KST 예약분(스레드 낮 글)
   workflow_dispatch:
     inputs:
       mode:
