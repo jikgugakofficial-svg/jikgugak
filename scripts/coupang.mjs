@@ -5,10 +5,17 @@
 //                                                     data/coupang-prices.json 에 API 가격과 사이트 기록값 차이를 남겨요.
 //                                                     products.json 은 고치지 않아요(사람이 보고 반영).
 //   node scripts/coupang.mjs report [일수]          → 클릭·주문·수익 리포트 → data/coupang-report.json
+//   node scripts/coupang.mjs discover               → 자동 후보 발굴 1개: data/candidate-seeds.json 에서 검색어를 하나 꺼내
+//                                                     알리(사이트 /api/search)·쿠팡(검색 1회) 가격을 받아 같은 모델끼리 짝지어
+//                                                     data/candidates.json 에 남겨요. 사이트에 바로 올리지 않아요(확인 뒤 등록).
+//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 1개 + prices 남은 횟수
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { hasKeys, search, deeplink, report, productIdOf, searchBudgetLeft, readGuard } from './lib/coupang.mjs';
+import { landedCost, judge } from '../src/calc.js';
+import { variantMismatch } from '../src/variants.js';
 
-const [mode = 'check', ...cliArgs] = process.argv.slice(2);
+const [modeArg = 'check', ...cliArgs] = process.argv.slice(2);
+const mode = modeArg;
 const args = cliArgs.length ? cliArgs : String(process.env.ARGS || '').split(/\s+/).filter(Boolean);
 const readJson = (f, d) => { try { return existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : d; } catch { return d; } };
 const writeJson = (f, v) => writeFileSync(f, JSON.stringify(v, null, 2) + '\n');
@@ -45,9 +52,67 @@ if (mode === 'deeplink') {
   summary(out.map((r) => `${r.originalUrl}\n→ ${r.shortenUrl}`).join('\n'));
 }
 
-if (mode === 'prices') {
+const out = [];
+const budgetMsg = () => { const g = readGuard(); return g.stoppedAt ? `검색 멈춤 상태예요(${g.stopReason}). 사람이 확인한 뒤 data/coupang-guard.json 의 stoppedAt 을 지워야 다시 돌아요.` : '이번 1시간 검색 횟수를 다 썼어요.'; };
+
+// ---------- 자동 후보 발굴 ----------
+const settings = readJson('data/settings.json', {});
+const FX = Number(settings.fx?.usdKrw) || 1330;
+const RULE = { minSaveKrw: settings.rule?.minSaveKrw ?? 10000, minSavePct: settings.rule?.minSavePct ?? 0.2 };
+const lc = (t) => String(t || '').toLowerCase().replace(/\s+/g, '');
+const hasModel = (title, seed) => lc(title).includes(lc(seed.brand)) && String(seed.model).split(/\s+/).every((w) => lc(title).includes(lc(w))) && !variantMismatch(seed.q, title);
+async function discover() {
+  const seeds = readJson('data/candidate-seeds.json', { seeds: [] }).seeds || [];
+  if (!seeds.length) { out.push('후보 검색어 목록(data/candidate-seeds.json)이 비어 있어요.'); return; }
+  if (searchBudgetLeft() <= 0) { out.push('후보 발굴: ' + budgetMsg()); return; }
+  const file = 'data/candidates.json';
+  const state = readJson(file, { note: '자동 후보(보고용). 같은 모델·옵션 확인 전이라 사이트에 바로 올리지 않아요. 가격은 API 대표 옵션 값일 수 있어요.', items: {} });
+  const registered = products.map((p) => lc(p.name));
+  // 한 번도 안 찾은 것 → 3일 넘게 지난 것 순서
+  const due = seeds.filter((s) => !registered.some((n) => n.includes(lc(s.model)) && n.includes(lc(s.brand))))
+    .map((s) => ({ s, at: state.items[s.q]?.at || '' }))
+    .filter((x) => !x.at || Date.now() - Date.parse(x.at) > 3 * 86400_000)
+    .sort((a, b) => a.at.localeCompare(b.at));
+  if (!due.length) { out.push('후보 발굴: 지금 다시 찾을 검색어가 없어요(3일 안에 다 찾음).'); return; }
+  const seed = due[0].s;
+  const item = { q: seed.q, brand: seed.brand, model: seed.model, cat: seed.cat, why: seed.why, at: new Date().toISOString(), status: 'new' };
+  // 알리: 사이트 검색 API(알리 제휴 API, 키는 Vercel에만)
+  let ali = [];
+  try {
+    const d = await (await fetch('https://www.jikgugak.com/api/search?q=' + encodeURIComponent(seed.q))).json();
+    ali = (d.items || []).filter((x) => !x.accessory && hasModel(x.title, seed)).sort((a, b) => (b.orders || 0) - (a.orders || 0)).slice(0, 3)
+      .map((x) => ({ id: x.id, title: x.title, price: x.price, orders: x.orders || 0, rating: x.rating || '', image: x.image || '', url: `https://ko.aliexpress.com/item/${x.id}.html` }));
+  } catch (e) { item.aliError = String(e.message).slice(0, 120); }
+  // 쿠팡: 공식 검색 API 1회
+  let cp = [];
+  try {
+    const hits = await search(seed.q, 10);
+    cp = hits.map((h) => h._item).filter((x) => hasModel(x.name, seed)).sort((a, b) => a.price - b.price).slice(0, 3)
+      .map((x) => ({ id: x.id, name: x.name, price: x.price, rocket: x.rocket, image: x.image, url: `https://www.coupang.com/vp/products/${x.id}` }));
+    item.coupangTop = hits.length;
+  } catch (e) { item.coupangError = String(e.message).slice(0, 160); }
+  item.ali = ali; item.coupang = cp;
+  if (ali.length && cp.length) {
+    const a = ali[0], c = cp[0];
+    const cost = landedCost({ priceUsd: a.price / FX, shipUsd: 0, origin: 'other', method: 'express', category: seed.cat || 'it', fx: FX });
+    const cif = Math.floor(a.price);
+    const total = cost.dutyFree ? cif : cif + Math.floor(cif * cost.rate) + Math.floor((cif + Math.floor(cif * cost.rate)) * 0.1);
+    const j = judge(c.price, total, RULE);
+    item.best = { aliId: a.id, coupangId: c.id, aliTotal: total, coupangPrice: c.price, verdict: j.verdict, diff: j.diff, pct: Math.round(j.pct * 100) };
+  } else item.status = !ali.length && !cp.length ? 'none' : !ali.length ? 'no_ali' : 'no_coupang';
+  state.items[seed.q] = item;
+  state.updatedAt = new Date().toISOString();
+  writeJson(file, state);
+  const V = { good: '직구각', meh: '애매', bad: '국내가 나음' };
+  out.push(`후보 발굴 '${seed.q}': ${item.best ? `${V[item.best.verdict]} (알리 최종 ${item.best.aliTotal.toLocaleString('ko-KR')}원 / 쿠팡 ${item.best.coupangPrice.toLocaleString('ko-KR')}원)` : { none: '알리·쿠팡 모두 같은 모델 못 찾음', no_ali: '알리에서 같은 모델 못 찾음', no_coupang: '쿠팡에서 같은 모델 못 찾음' }[item.status]}${item.coupangError ? ' · ' + item.coupangError : ''}`);
+}
+
+if (mode === 'discover') { await discover(); summary(out.join('\n')); }
+if (mode === 'hourly') { await discover(); }
+
+if (mode === 'prices' || mode === 'hourly') {
   const want = Math.min(Number(args[0]) || 4, searchBudgetLeft());
-  if (want <= 0) { const g = readGuard(); summary(g.stoppedAt ? `검색 멈춤 상태예요(${g.stopReason}). 사람이 확인한 뒤 data/coupang-guard.json 의 stoppedAt 을 지워야 다시 돌아요.` : '이번 1시간 검색 횟수를 다 썼어요.'); process.exit(0); }
+  if (want <= 0) { out.push('가격 대조: ' + budgetMsg()); summary(out.join('\n')); process.exit(0); }
   const file = 'data/coupang-prices.json';
   const state = readJson(file, { note: '쿠팡 파트너스 검색 API 대조 결과(보고용). 사이트 가격은 products.json 이 기준이에요.', items: {} });
   const queue = products
@@ -82,7 +147,8 @@ if (mode === 'prices') {
       lines.push(`- 인기 검색어 '${x.q}': ${w.ok ? `쿠팡 ${w.items.length}개${w.stale ? '(지난 결과)' : ''}` : w.reason || '실패'}`);
     }
   } catch { lines.push('- 인기 검색어 미리 찾기 실패'); }
-  summary(`가격 대조 ${queue.length}개 (보고만, 사이트 반영 안 함)\n` + lines.join('\n'));
+  out.push(`가격 대조 ${queue.length}개 (보고만, 사이트 반영 안 함)`, ...lines);
+  summary(out.join('\n'));
 }
 
 if (mode === 'report') {

@@ -1,6 +1,7 @@
 // 검색: 직구각이 판정한 상품을 먼저 보여 주고, 알리익스프레스 실시간 가격으로 '아무 상품이나' 판정
 import { landedCost, judge, formatKrw as krw } from './calc.js';
 import { parseShopLink } from './links.js';
+import { variantMismatch } from './variants.js';
 
 const q = (new URLSearchParams(location.search).get('q') || '').trim();
 const live = document.querySelector('[data-s-live]');
@@ -68,17 +69,6 @@ const cpFail = (reason) => ({
   busy: '쿠팡 가격을 찾는 사람이 많아 잠시 쉬고 있어요. 조금 뒤 다시 보거나, 쿠팡에서 직접 검색해 주세요.',
   paused: '쿠팡 가격 검색을 잠시 멈췄어요. 쿠팡에서 직접 검색해 주세요.'
 }[reason] || '');
-
-// 이름 끝 등급(Pro·Max·Plus·Ultra·Lite·Mini·SE 등)이 한쪽에만 있으면 다른 모델일 가능성이 커요
-const VARIANTS = [['pro', '프로'], ['max', '맥스'], ['plus', '플러스', '\\+'], ['ultra', '울트라'], ['lite', '라이트'], ['mini', '미니'], ['se'], ['air', '에어'], ['neo', '네오']];
-function variantsOf(t) {
-  const s = ' ' + String(t).toLowerCase().replace(/[()\[\],/_-]/g, ' ') + ' ';
-  return VARIANTS.filter((names) => names.some((n) => new RegExp(`[\\s\\d]${n}(?=[\\s\\d])`).test(s))).map((n) => n[0]);
-}
-function variantMismatch(a, b) {
-  const x = variantsOf(a), y = variantsOf(b);
-  return x.some((v) => !y.includes(v)) || y.some((v) => !x.includes(v));
-}
 
 // 국내 기준 가격: 쿠팡 결과에서 하나 고르면 알리 상품마다 그 가격과 비교한 판정을 바로 보여 줘요
 let picked = null;

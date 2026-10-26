@@ -18,7 +18,8 @@ function writeGuard(g) { writeFileSync(GUARD, JSON.stringify(g, null, 2) + '\n')
 export function searchBudgetLeft(now = Date.now()) {
   const g = readGuard();
   if (g.stoppedAt) return 0;
-  const recent = (g.calls || []).filter((t) => now - Date.parse(t) < 3600_000);
+  // 50분 창: GitHub 예약 실행이 1시간보다 조금 일찍 돌아도 횟수를 쓸 수 있게(사이트 4회와 합쳐도 1시간 10회 아래)
+  const recent = (g.calls || []).filter((t) => now - Date.parse(t) < 50 * 60_000);
   return Math.max(0, SEARCH_PER_HOUR - recent.length);
 }
 
