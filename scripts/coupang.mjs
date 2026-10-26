@@ -67,6 +67,8 @@ const hasWord = (title, w) => new RegExp(`(^|[^a-z0-9])${esc(String(w).toLowerCa
 const BRAND_KO = { logitech: ['로지텍'], anker: ['앤커'], ugreen: ['유그린'], baseus: ['베이스어스'], xiaomi: ['샤오미'], redmi: ['레드미', '샤오미'], amazfit: ['어메이즈핏', '어매이즈핏'], soundcore: ['사운드코어', '앤커'], edifier: ['에디파이어'], qcy: ['큐씨와이'], aula: ['아울라'], naturehike: ['네이처하이크'], mchose: ['엠초즈'] };
 const brandOk = (title, brand) => [brand, ...(BRAND_KO[String(brand).toLowerCase()] || []), ...(String(brand).toLowerCase() === 'soundcore' ? ['anker'] : [])].some((b) => hasWord(title, b));
 const hasModel = (title, seed) => brandOk(title, seed.brand) && String(seed.model).split(/\s+/).every((w) => hasWord(title, w)) && !variantMismatch(seed.q, title);
+// 본품이 아닌 것(교체 부품·케이스·필름 등)은 빼요
+const ACCESSORY = /(피트|스케이트|케이스|커버|파우치|필름|보호|스킨|그립|테이프|교체|호환|스트랩|밴드 줄|이어팁|이어패드|거치대|스탠드|키캡|리시버|동글|feet|skate|case|cover|pouch|film|protector|skin|grip|tape|replacement|compatible|strap|ear ?tips?|ear ?pads?|holder|stand|keycaps?|receiver|dongle)/i;
 async function discover() {
   const seeds = readJson('data/candidate-seeds.json', { seeds: [] }).seeds || [];
   if (!seeds.length) { out.push('후보 검색어 목록(data/candidate-seeds.json)이 비어 있어요.'); return; }
@@ -86,17 +88,19 @@ async function discover() {
   let ali = [];
   try {
     const d = await (await fetch('https://www.jikgugak.com/api/search?q=' + encodeURIComponent(seed.q))).json();
-    ali = (d.items || []).filter((x) => !x.accessory && hasModel(x.title, seed)).sort((a, b) => (b.orders || 0) - (a.orders || 0)).slice(0, 3)
+    ali = (d.items || []).filter((x) => !x.accessory && !ACCESSORY.test(x.title) && hasModel(x.title, seed)).sort((a, b) => (b.orders || 0) - (a.orders || 0)).slice(0, 3)
       .map((x) => ({ id: x.id, title: x.title, price: x.price, orders: x.orders || 0, rating: x.rating || '', image: x.image || '', url: `https://ko.aliexpress.com/item/${x.id}.html` }));
   } catch (e) { item.aliError = String(e.message).slice(0, 120); }
   // 쿠팡: 공식 검색 API 1회
   let cp = [];
   try {
     const hits = await search(seed.q, 10);
-    cp = hits.map((h) => h._item).filter((x) => hasModel(x.name, seed)).sort((a, b) => a.price - b.price).slice(0, 3)
+    cp = hits.map((h) => h._item).filter((x) => !ACCESSORY.test(x.name) && hasModel(x.name, seed)).sort((a, b) => a.price - b.price).slice(0, 3)
       .map((x) => ({ id: x.id, name: x.name, price: x.price, rocket: x.rocket, image: x.image, url: `https://www.coupang.com/vp/products/${x.id}` }));
     item.coupangTop = hits.length;
   } catch (e) { item.coupangError = String(e.message).slice(0, 160); }
+  // 알리가 쿠팡 최저가의 35%도 안 되면 본품이 아닐 가능성이 커서 빼요
+  if (cp.length) ali = ali.filter((a) => a.price >= cp[0].price * 0.35);
   item.ali = ali; item.coupang = cp;
   if (ali.length && cp.length) {
     const a = ali[0], c = cp[0];
