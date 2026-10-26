@@ -175,11 +175,14 @@ function row(it) {
   cat.value = guessCat(it.category);
   const result = $('.s-result');
 
+  const priceIn = $('.s-price-in');
+  if (priceIn) priceIn.value = it.price;
   function render() {
     const dom = Number($('.s-dom-in').value);
+    const price = (priceIn && Number(priceIn.value)) || it.price;
     const ship = Number($('.s-ship-in').value) || 0;
-    const c = landedCost({ priceUsd: it.price / FX, shipUsd: ship / FX, origin: 'other', method: 'express', category: cat.value, fx: FX });
-    const cif = Math.floor(it.price + ship);
+    const c = landedCost({ priceUsd: price / FX, shipUsd: ship / FX, origin: 'other', method: 'express', category: cat.value, fx: FX });
+    const cif = Math.floor(price + ship);
     const duty = c.dutyFree ? 0 : Math.floor(cif * c.rate);
     const total = c.dutyFree ? cif : cif + duty + Math.floor((cif + duty) * 0.1);
     if (!dom) {
@@ -252,5 +255,6 @@ function row(it) {
   cat.addEventListener('change', render);
   $('.s-dom-in').addEventListener('input', render);
   $('.s-ship-in').addEventListener('input', render);
+  if (priceIn) priceIn.addEventListener('input', render);
   return li;
 }

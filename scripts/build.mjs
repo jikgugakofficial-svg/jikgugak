@@ -666,6 +666,7 @@ ${trendBlock('in-search')}
       <div class="s-cp-slot"></div>
       <div class="s-grid">
         <div class="field"><label>${site.coupangSearchWidget ? '② ' : ''}국내 최저가 (원)</label><input class="s-dom-in" type="number" inputmode="numeric" min="0" step="100" placeholder="쿠팡·네이버 최저가">${site.coupangSearchWidget ? '<small>위 쿠팡 검색에서 찾은 가격을 넣어 주세요</small>' : '<small><a class="s-dom-coupang" target="_blank" rel="noopener">쿠팡에서 같은 상품 찾기</a></small>'}</div>
+        <div class="field"><label>알리 가격 (원)</label><input class="s-price-in" type="number" inputmode="numeric" min="0" step="10"><small>색·용량 등 옵션마다 가격이 달라요. 알리에서 고른 옵션 가격으로 바꿔 주세요</small></div>
         <div class="field"><label>국제 배송비 (원)</label><input class="s-ship-in" type="number" inputmode="numeric" min="0" step="100" value="0"><small>무료배송이면 0</small></div>
         <div class="field s-wide"><label>품목</label><select class="s-cat">${catOpts}</select></div>
       </div>
