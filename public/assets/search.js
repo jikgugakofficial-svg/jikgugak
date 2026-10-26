@@ -134,13 +134,14 @@ if (q && link) {
   document.getElementById('sq').focus();
 }
 
-// 알리 카테고리 → 직구각 품목 (대략)
-function guessCat(c = '') {
-  const s = c.toLowerCase();
-  if (/phone|computer|electronic|consumer|office|security/.test(s)) return 'it';
-  if (/toy|hobb/.test(s)) return 'toy';
-  if (/cloth|apparel|shoe|bag|jewel|watch|wig/.test(s)) return 'apparel';
-  if (/beauty|health/.test(s)) return 'home';
+// 알리 카테고리(한국어로 와요)·상품명 → 직구각 품목 (대략, 사용자가 바꿀 수 있어요)
+function guessCat(c = '', title = '') {
+  const s = (c + ' ' + title).toLowerCase();
+  if (/이어폰|헤드폰|헤드셋|이어버드|스피커|earphone|earbud|headphone|headset|speaker/.test(s)) return 'audio';
+  if (/영양제|비타민|보충제|supplement|vitamin/.test(s)) return 'supplement';
+  if (/장난감|완구|취미|레고|toy|hobb|lego/.test(s)) return 'toy';
+  if (/의류|신발|가방|쥬얼리|주얼리|시계|가발|패션|cloth|apparel|shoe|bag|jewel|watch|wig/.test(s)) return 'apparel';
+  if (/컴퓨터|오피스|사무|전자|휴대폰|핸드폰|가전|보안|자동차 전자|phone|computer|electronic|consumer|office|security/.test(s)) return 'it';
   return 'home';
 }
 // 쿠팡 검색어: 영문·숫자 모델명 위주로 짧게
@@ -174,7 +175,7 @@ function row(it) {
   const domCp = $('.s-dom-coupang');
   if (domCp) domCp.href = coupangSearch(shortQuery(it.title));
   const cat = $('.s-cat');
-  cat.value = guessCat(it.category);
+  cat.value = guessCat(it.category, it.title);
   const result = $('.s-result');
 
   const priceIn = $('.s-price-in');
