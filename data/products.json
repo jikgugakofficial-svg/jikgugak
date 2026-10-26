@@ -694,12 +694,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28efNTYlM",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.10.26",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
     "priceKrw": 29620,
-    "domesticKrw": 39900,
-    "domesticSource": "쿠팡, 로켓배송",
+    "domesticKrw": 42600,
+    "domesticSource": "쿠팡 로켓배송, 블랙",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
     "risks": [
       "배송 1~2주",
@@ -707,14 +707,21 @@
       "국내 A/S 받기 어려워요"
     ],
     "summary": [
-      "QCY 공식 스토어의 H3 ANC(H3 Pro 아님)와 쿠팡 같은 모델을 비교했어요.",
+      "QCY 공식 스토어의 H3 ANC(H3 Pro 아님)와 쿠팡 같은 모델·같은 블랙을 비교했어요.",
       "알리 일반가로도 쿠팡보다 {diff}({pct}) 싸요.",
-      "색상만 같은지 확인하면 기다릴 만한 차이예요."
+      "1~2주 배송을 기다릴 만한 차이예요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7876965230",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005012204345276.html",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf5da90c2a779438c913fc947ea574660F.jpg",
-    "hidden": true
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "QCY H3 ANC (쿠팡 QCY-H3 ANC APP HEADSET 블랙·알리 H3-Black)",
+      "note": "",
+      "checkedAt": "2026.10.26"
+    }
   },
   {
     "store": "aliexpress",
@@ -726,12 +733,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.10.26",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 92521,
-    "domesticKrw": 92810,
-    "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
+    "priceKrw": 92553,
+    "domesticKrw": 96800,
+    "domesticSource": "쿠팡 쿠폰가, 글레이셔 실버, 로켓배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
     "risks": [
       "알리 판매자는 공식 스토어가 아니에요",
@@ -739,14 +746,21 @@
       "배송 1~2주"
     ],
     "summary": [
-      "쿠팡은 국내 정식발매(KC 인증), 알리는 글로벌 버전이라 같은 모델의 판매 지역판끼리 비교했어요.",
-      "알리가 쿠팡보다 {diff} 싸지만 사실상 같은 값이라 1~2주 배송을 기다릴 만큼은 아니에요.",
+      "쿠팡은 국내 정식발매(KC 인증), 알리는 글로벌 버전이라 같은 모델·같은 글레이셔 실버의 판매 지역판끼리 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸지만 1~2주 배송을 기다릴 만큼은 아니에요.",
       "알리가 {beKrw} 아래로 떨어지는 광군제 특가 때만 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9644182900",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006405553471.html",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc47cf6caefa1456f98e040cc4890ba062.jpg",
-    "hidden": true
+    "match": {
+      "method": "variant",
+      "domestic": "",
+      "overseas": "",
+      "model": "샤오미 스마트 밴드 10 프로 글레이셔 실버 (알리 Global Version Silver)",
+      "note": "쿠팡은 국내 정식발매(KC 인증), 알리는 글로벌 버전",
+      "checkedAt": "2026.10.26"
+    }
   },
   {
     "store": "amazon",
