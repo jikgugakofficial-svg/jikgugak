@@ -120,7 +120,8 @@
       "유산균은 제품 안내의 보관 방법을 꼭 확인하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8221125227?itemId=14708941467&vendorItemId=95973420287",
-    "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009"
+    "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
+    "hidden": "2026-10-26 숨김: 쿠팡 국내 최저가(다른 판매자) 확인 전이라 판정 근거 부족. price-checker 확인 후 해제"
   },
   {
     "store": "iherb",
@@ -181,7 +182,8 @@
       "iherb-doctors-best-magnesium-240",
       "iherb-now-vitamin-d3-k2-120",
       "iherb-cgn-lactobif-30-60"
-    ]
+    ],
+    "hidden": "2026-10-26 숨김: 쿠팡 국내 최저가(다른 판매자) 확인 전이라 판정 근거 부족. price-checker 확인 후 해제"
   },
   {
     "store": "aliexpress",
@@ -358,7 +360,7 @@
       "결제는 원화 말고 달러로 (환전 수수료)"
     ],
     "summary": [
-      "미국 정가가 $200을 훌쩍 넘어 관부가세가 붙어서, 지금은 국내가 훨씬 싸요.",
+      "미국 가격이 면세 한도(200달러)를 넘어서 관부가세가 붙어요. 지금은 국내가 훨씬 싸요.",
       "아마존가가 {be} 이하로 떨어져야 세금을 내고도 직구각이에요.",
       "블프 할인 폭을 보고 판단하세요. 대부분은 쿠팡이 나아요."
     ],

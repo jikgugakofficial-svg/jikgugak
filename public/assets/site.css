@@ -571,9 +571,9 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .cmp-head > div { min-width: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
 .cmp-name { font-weight: 800; font-size: 15px; line-height: 1.35; flex-basis: 100%; }
 .cmp-verdict { font-size: 12px; font-weight: 900; padding: 2px 8px; border-radius: 999px; }
-.cmp-verdict.v-good { background: #DCFCE7; color: #1E7A46; }
-.cmp-verdict.v-meh { background: #FEF3C7; color: #92400E; }
-.cmp-verdict.v-bad { background: #DBEAFE; color: #1D4ED8; }
+.cmp-verdict.v-good { background: var(--good-tint); color: var(--good); }
+.cmp-verdict.v-meh { background: var(--meh-tint); color: var(--meh); }
+.cmp-verdict.v-bad { background: var(--bad-tint); color: var(--bad); }
 .cmp-verdict.v-check { background: #F3F4F6; color: #374151; }
 .cmp-head .pct-down, .cmp-head .pct-up { font-size: 12px; font-weight: 800; }
 .cmp-rows { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }

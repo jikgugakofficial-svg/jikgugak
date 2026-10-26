@@ -146,7 +146,7 @@ function evaluate(p) {
   return { kind: 'priced', verdict: j.verdict, limit, cost, diff: j.diff, pct, pctNum, note, breakeven: be, beKrw };
 }
 const DEALS = fs.existsSync('data/deals.json') ? JSON.parse(fs.readFileSync('data/deals.json', 'utf8')).pages || [] : [];
-const items = products.map(normalize).map((p) => ({ ...p, ev: evaluate(p), storeName: (STORES[p.store] || { name: p.store }).name }));
+const items = products.filter((p) => !p.hidden).map(normalize).map((p) => ({ ...p, ev: evaluate(p), storeName: (STORES[p.store] || { name: p.store }).name }));
 // 방문자가 좋은 거래부터 보게: 직구각(아끼는 금액 큰 순) → 애매 → 현재가 확인(아마존) → 국내가 나음
 const V_ORDER = { good: 0, meh: 1, check: 2, bad: 3 };
 const ordered = [...items].sort((a, b) => (V_ORDER[a.ev.verdict] ?? 9) - (V_ORDER[b.ev.verdict] ?? 9) || ((b.ev.diff || 0) - (a.ev.diff || 0)));
@@ -573,7 +573,7 @@ ${faq ? `<section class="block"><h2 class="h2">자주 묻는 질문</h2>${faq}<s
   return layout({ title: d.title, description: d.description, urlPath: `/deals/${d.slug}`, body, scripts: ['/assets/deals.js'] });
 }
 
-// ---------- 페이지: 검색 (판정한 상품 + 네이버쇼핑 실시간 국내 최저가) ----------
+// ---------- 페이지: 검색 (판정한 상품 + 알리 실시간 가격, 국내가는 방문자가 입력) ----------
 function pageSearch() {
   const catOpts = Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)} (${esc(c.sub)})</option>`).join('');
   const body = `
