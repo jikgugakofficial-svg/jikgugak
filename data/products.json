@@ -550,17 +550,17 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.10.26 오전",
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
-    "shipNote": "미국→한국 배송 불가(10.25 확인)",
+    "shipNote": "미국→한국 배송 불가(10.26 확인)",
     "domesticKrw": 482700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
     "risks": [
-      "10.25 기준 아마존에서 한국 배송이 안 돼요",
+      "10.26 기준 아마존에서 한국 배송이 안 돼요",
       "$200 넘으면 관세 8% + 부가세 10%",
       "1세대와 헷갈리지 않게 '2nd Gen' 확인",
       "국내 정식 A/S 불가"
@@ -572,7 +572,7 @@
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
-    "unavailable": "10.25 기준 아마존에서 한국 배송이 안 돼요"
+    "unavailable": "10.26 기준 아마존에서 한국 배송이 안 돼요"
   },
   {
     "store": "amazon",
@@ -582,13 +582,13 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.10.26 오전",
     "slug": "amazon-audio-technica-ath-m50x",
     "name": "오디오테크니카 ATH-M50x 모니터 헤드폰",
     "category": "audio",
-    "shipNote": "미국→한국 무료 배송(10.22 확인)",
-    "domesticKrw": 153000,
-    "domesticSource": "쿠팡 해외 판매자, 무료배송 · 도착 약 1~2주",
+    "shipNote": "미국→한국 무료 배송(10.26 확인)",
+    "domesticKrw": 208000,
+    "domesticSource": "쿠팡 직접 판매, 로켓배송 블랙",
     "domesticUrl": "https://link.coupang.com/a/h28cvy7hQX",
     "buyUrl": "https://www.amazon.com/dp/B00HVLUR86",
     "risks": [

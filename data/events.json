@@ -46,64 +46,68 @@
     "major": false
   },
   {
-    "id": "korea-grand-festival-2026",
-    "name": "2026 코리아 그랜드 페스티벌",
-    "date": "2026-10-29",
-    "end": "2026-11-15",
-    "stores": "전국 유통·온라인몰 참여 (범정부 행사)",
-    "scope": "domestic",
-    "status": "confirmed",
-    "note": "중기부 등 정부가 여는 18일간 전국 소비 행사예요. 10월 29일 안동에서 개막해요. 참여 쇼핑몰마다 할인 폭이 달라서 직구 가격과 따로 비교해 보세요.",
-    "cats": [
-      "general"
-    ],
-    "major": false,
-    "source": "https://news.tf.co.kr/read/ogmeta/2356847.htm"
-  },
-  {
     "id": "11st-grand-2026",
     "name": "11번가 그랜드 십일절",
     "date": "2026-11-01",
     "end": "2026-11-11",
     "stores": "11번가",
     "scope": "domestic",
-    "status": "expected",
-    "note": "매년 11월 1일~11일. 국내 최저가가 가장 많이 내려가는 기간이에요.",
+    "status": "confirmed",
+    "note": "11월 1일(일)~11일(수) 2026 그랜드십일절이에요. 11번가 공식 발표 기준이고, 국내 최저가가 가장 많이 내려가는 기간이에요.",
     "cats": [
       "general",
       "electronics"
     ],
-    "major": true
+    "major": true,
+    "source": "https://biz.newdaily.co.kr/site/data/html/2026/10/20/2026102000118.html"
   },
   {
     "id": "bigsmile-2026-11",
-    "name": "빅스마일데이",
-    "date": "2026-11-01",
-    "end": "2026-11-11",
-    "stores": "G마켓 · 옥션",
+    "name": "빅스마일데이 (하반기)",
+    "date": "2026-11-02",
+    "end": "2026-11-13",
+    "stores": "G마켓",
     "scope": "domestic",
-    "status": "expected",
-    "note": "작년엔 11번가 십일절과 같은 기간이었어요.",
+    "status": "confirmed",
+    "note": "G마켓 발표 기준 11월 2일(월)~13일(금) 하반기 빅스마일데이예요. 11번가 십일절과 기간이 겹쳐요.",
     "cats": [
       "general"
     ],
-    "major": false
+    "major": false,
+    "source": "https://biz.newdaily.co.kr/site/data/html/2026/10/20/2026102000118.html"
+  },
+  {
+    "id": "coupang-wow-memberday-2026-11",
+    "name": "쿠팡 11월 와우멤버스데이",
+    "date": "2026-11-02",
+    "end": "2026-11-09",
+    "stores": "쿠팡",
+    "scope": "domestic",
+    "status": "confirmed",
+    "note": "쿠팡이 11월 2일(월)~9일(월) 여는 11월 와우멤버스데이예요. 로켓직구 상품은 직구 가격과 같이 비교해 보세요.",
+    "cats": [
+      "general",
+      "electronics"
+    ],
+    "major": false,
+    "source": "https://biz.newdaily.co.kr/site/data/html/2026/10/20/2026102000118.html"
   },
   {
     "id": "korea-sale-festa-2026",
-    "name": "코리아세일페스타",
-    "date": "2026-11-09",
-    "end": "2026-11-30",
-    "stores": "국내 유통사 전반",
+    "name": "K-세일페스타 (코리아 그랜드 페스티벌)",
+    "date": "2026-10-29",
+    "end": "2026-11-15",
+    "stores": "전국 유통·온라인몰 참여 (범정부 행사)",
     "scope": "domestic",
-    "status": "expected",
-    "note": "정부 주관 국내 할인 행사. 2026년엔 '코리아 그랜드 페스티벌'(10/29~11/15) 안에서 함께 운영된다는 보도가 있어요. 날짜는 아직 확인 전이라 발표를 기다려요.",
+    "status": "confirmed",
+    "note": "2026년에는 '코리아세일페스타'가 'K-세일페스타'로 이름을 바꿔 코리아 그랜드 페스티벌 안에서 10월 29일(목)~11월 15일(일) 18일간 열려요. 국내 할인 가격은 직구 가격과 따로 비교해 보세요.",
     "cats": [
       "general",
       "fashion",
       "living"
     ],
-    "major": true
+    "major": true,
+    "source": "https://news.tf.co.kr/read/ogmeta/2356847.htm"
   },
   {
     "id": "singles-day",
