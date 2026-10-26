@@ -13,9 +13,16 @@ const args = cliArgs.length ? cliArgs : String(process.env.ARGS || '').split(/\s
 const readJson = (f, d) => { try { return existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : d; } catch { return d; } };
 const writeJson = (f, v) => writeFileSync(f, JSON.stringify(v, null, 2) + '\n');
 const ymd = (d) => d.toISOString().slice(0, 10).replace(/-/g, '');
-const summary = (s) => { console.log(s); if (process.env.GITHUB_STEP_SUMMARY) writeFileSync(process.env.GITHUB_STEP_SUMMARY, s + '\n', { flag: 'a' }); };
+const summary = (s, ok = true) => {
+  console.log(s);
+  if (process.env.GITHUB_STEP_SUMMARY) writeFileSync(process.env.GITHUB_STEP_SUMMARY, s + '\n', { flag: 'a' });
+  // 마지막 실행 결과를 저장소에 남겨요(Actions 기록을 못 열어도 매니저가 확인할 수 있게). 키·링크는 적지 않아요.
+  writeFileSync('data/coupang-status.json', JSON.stringify({ at: new Date().toISOString(), mode, ok, message: s.split('\n')[0].slice(0, 300) }, null, 2) + '\n');
+};
+process.on('uncaughtException', (e) => { summary('실패: ' + String(e.message).slice(0, 280), false); process.exit(1); });
+process.on('unhandledRejection', (e) => { summary('실패: ' + String(e?.message || e).slice(0, 280), false); process.exit(1); });
 
-if (!hasKeys()) { summary('쿠팡 API 키가 아직 등록되지 않았어요. 아무것도 하지 않고 끝내요.'); process.exit(0); }
+if (!hasKeys()) { summary('쿠팡 API 키가 아직 등록되지 않았어요. 아무것도 하지 않고 끝내요.', false); process.exit(0); }
 
 const productsFile = 'data/products.json';
 const raw = JSON.parse(readFileSync(productsFile, 'utf8'));
