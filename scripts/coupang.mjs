@@ -8,6 +8,8 @@
 //   node scripts/coupang.mjs discover               → 자동 후보 발굴 1개: data/candidate-seeds.json 에서 검색어를 하나 꺼내
 //                                                     알리(사이트 /api/search)·쿠팡(검색 1회) 가격을 받아 같은 모델끼리 짝지어
 //                                                     data/candidates.json 에 남겨요. 사이트에 바로 올리지 않아요(확인 뒤 등록).
+//   node scripts/coupang.mjs links <알리 상품번호·쿠팡 일반 주소…> → 새 상품 등록용 링크: 알리는 사이트 /api/item(제휴 링크·사진),
+//                                                     쿠팡은 딥링크 → data/new-links.json (링크는 열지 않아요)
 //   node scripts/coupang.mjs hourly                 → 예약 실행: discover 2개 + prices 남은 횟수(1시간 3회)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { hasKeys, search, deeplink, report, productIdOf, searchBudgetLeft, readGuard } from './lib/coupang.mjs';
@@ -39,6 +41,20 @@ if (mode === 'check') {
   const sample = products.find((p) => productIdOf(p.domesticCheckUrl))?.domesticCheckUrl;
   const out = await deeplink([sample]);
   summary(out.length && out[0].shortenUrl ? `연결 확인 성공: 딥링크 API가 응답했어요 (${out.length}개).` : '연결은 됐지만 딥링크 결과가 비었어요.');
+}
+
+if (mode === 'links') {
+  const file = 'data/new-links.json';
+  const prev = readJson(file, {});
+  const cps = args.filter((u) => /^https:\/\/(www\.)?coupang\.com\//.test(u));
+  const alis = args.filter((x) => /^\d{12,20}$/.test(x));
+  if (cps.length) for (const r of await deeplink(cps)) prev[r.originalUrl] = { coupangLink: r.shortenUrl, at: new Date().toISOString() };
+  for (const id of alis) {
+    const d = await (await fetch('https://www.jikgugak.com/api/item?id=' + id)).json().catch(() => ({}));
+    prev[id] = d.ok ? { aliLink: d.item.link, image: d.item.image, apiPrice: d.item.price, title: d.item.title, at: new Date().toISOString() } : { error: d.reason || 'fail' };
+  }
+  writeJson(file, prev);
+  summary(`링크 만들기: 쿠팡 ${cps.length}개, 알리 ${alis.length}개 → data/new-links.json`);
 }
 
 if (mode === 'deeplink') {

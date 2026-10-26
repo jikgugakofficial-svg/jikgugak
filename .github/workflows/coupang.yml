@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'check(연결 확인) · deeplink(링크 만들기) · prices(가격 대조) · discover(후보 발굴) · hourly · report(실적)'
+        description: 'check(연결 확인) · deeplink(링크 만들기) · links(새 상품 알리·쿠팡 링크) · prices(가격 대조) · discover(후보 발굴) · hourly · report(실적)'
         default: check
       args:
         description: 'deeplink면 쿠팡 일반 주소(띄어쓰기로 여러 개), prices면 개수, report면 일수'
@@ -38,5 +38,5 @@ jobs:
         run: |
           git config user.name "jikgugak-bot"
           git config user.email "jikgugak.official@gmail.com"
-          git add data/coupang-*.json data/candidates.json 2>/dev/null || true
+          git add data/coupang-*.json data/candidates.json data/new-links.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "쿠팡 API 결과 기록 [skip ci]" && git pull --rebase && git push)
