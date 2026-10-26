@@ -1,64 +1,6 @@
 {
   "note": "자동 후보(보고용). 같은 모델·옵션 확인 전이라 사이트에 바로 올리지 않아요. 가격은 API 대표 옵션 값일 수 있어요.",
   "items": {
-    "Logitech G Pro X Superlight 2": {
-      "q": "Logitech G Pro X Superlight 2",
-      "brand": "Logitech",
-      "model": "G Pro X Superlight 2",
-      "cat": "it",
-      "why": "퀘이사존 알리 직구 핫딜 반복(2025.12·2026.03 약 9.9만 원대), 국내 정발가 16.7만 원대(2026.06 핫딜 글)라 차이 큼",
-      "at": "2026-10-26T13:37:25.010Z",
-      "status": "new",
-      "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005006265148288",
-          "title": "마우스 피트 스케이트 Logitech G Pro X Superlight 2 게임용 마우스 용 초강력 완벽한 유리 초고속 부드럽고 내구성이 뛰어난 단독",
-          "price": 7100,
-          "orders": 1150,
-          "rating": "92.7%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sefb7a26f404c42899921fa29b8c5e173N.jpg",
-          "url": "https://ko.aliexpress.com/item/1005006265148288.html"
-        },
-        {
-          "id": "1005007037963970",
-          "title": "Logitech G Pro X Superlight 2 무선 게임용 마우스 둥근 곡선 가장자리 유리 마우스 피트 교체 용 마우스 피트 스케이트",
-          "price": 8060,
-          "orders": 329,
-          "rating": "98.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sffe5a585962041948e4b66a6e58ff3999.jpg",
-          "url": "https://ko.aliexpress.com/item/1005007037963970.html"
-        },
-        {
-          "id": "1005006918193827",
-          "title": "Logitech G PRO X SUPERLIGHT 2 무선 게이밍 마우스, 프로그래밍 가능한 버튼 5개, 44k DPI 센서, 8kHz 반복을 갖춘 60g 프로급 마우스",
-          "price": 147348,
-          "orders": 124,
-          "rating": "98.8%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S89924b6525a54516965e14ab00b79783P.jpg",
-          "url": "https://ko.aliexpress.com/item/1005006918193827.html"
-        }
-      ],
-      "coupang": [
-        {
-          "id": "8502090609",
-          "name": "로지텍 G PRO X SUPERLIGHT 2 DEX 무선 마우스",
-          "price": 179000,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/RJM6GMDUcFt1DuwlRLlW3c6kkRxhq_p3ec6FL6pE7GA3CHpuOjWy0V5cukrUB_k9M_Mlb0mu5EeuRtMV0d8P3dkVnxKuUJ9SyEKmEjahPZILu4m6E5g4pkAi2ciuyb3c5rKfPm9916R6AeZ0ChypkcpZpEpXlFQwkMV2ZNL06dD-ul7VaRPnCkvri8MYnIK-2x4zLiG77w4MwdRycIH52aEKxOiDSz2PP2wmpBxnGRVvEHY2dE-XF-P4AivcrBEPygwiTjEgjWpciTEciMIWZJ4xAhiisuj0yfV3X8GHuXlqv3fVdjYXLgNy-zKx9g36p6uDDDtjo5Cd-4yiE66jbOiqLrKY7w6uHx1KusiE6uOaefwKGIo2lQMaFf7_Ij8O4chkVfC7lw6WI0NH_Ry2CC-kFc30FsUsCncbnViDfkf1DrIKaLOh2dUEaU-NFrQ3avu0OrwEIkudnJX5Wxt1mNxwLIWZt6gSUVRDORqrm6qFhux9vNFW4T88ZDSXlJTV5zbx_6nlmSkQwZSh3v1k",
-          "url": "https://www.coupang.com/vp/products/8502090609"
-        }
-      ],
-      "best": {
-        "aliId": "1005006265148288",
-        "coupangId": "8502090609",
-        "aliTotal": 7100,
-        "coupangPrice": 179000,
-        "verdict": "good",
-        "diff": 171900,
-        "pct": 96
-      }
-    },
     "AULA F87 Pro": {
       "q": "AULA F87 Pro",
       "brand": "AULA",

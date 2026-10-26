@@ -13,7 +13,7 @@
 - `docs/faq.md` 고객 문의 답변 기준
 - 방문자 의견: 베타 안내·의견 창(`public/assets/app.js`) → `api/feedback.js`가 Upstash Redis에 저장(1년 자동 삭제) → 운영자는 `jikgugak.com/admin`(ADMIN_KEY)에서 확인. 환경 변수: KV_REST_API_URL·KV_REST_API_TOKEN·ADMIN_KEY(선택 RESEND_API_KEY면 메일도)
 - 확인: `npm test`(계산) → `npm run build` → `node scripts/audit.mjs`(점검). 배포는 main에 push하면 Vercel이 자동으로 해요.
-- 쿠팡 파트너스 공식 API(10/26 최종 승인): `scripts/lib/coupang.mjs`(서명·호출)·`scripts/coupang.mjs`(check·deeplink·prices·report)·`.github/workflows/coupang.yml`(매시간 가격 대조 2개·인기 검색어 미리 찾기·매일 실적 자동, 결과는 `data/coupang-status.json`). 새 상품 쿠팡 링크는 Actions coupang → mode deeplink, args에 쿠팡 일반 주소. 키는 GitHub Secrets `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY`에만. **검색은 1시간 10회 제한이라 우리는 6회까지(사이트 4 + Actions 2)**, 403·429가 한 번이라도 나면 `data/coupang-guard.json`에 멈춤 표시가 남고 사람이 지울 때까지 검색 안 해요. 검색 결과 `productUrl`과 딥링크 결과는 제휴 링크라 열지 않아요. 가격 대조(`data/coupang-prices.json`)는 보고용이고, 검색 가격은 대표 옵션 값일 수 있어서 색·옵션이 다른 상품은 사람이 확인한 뒤에만 products.json에 반영해요.
+- 쿠팡 파트너스 공식 API(10/26 최종 승인): `scripts/lib/coupang.mjs`(서명·호출)·`scripts/coupang.mjs`(check·deeplink·prices·report)·`.github/workflows/coupang.yml`(매시간 후보 발굴 2개·가격 대조 1개·인기 검색어 미리 찾기·매일 실적 자동, 결과는 `data/coupang-status.json`). 새 상품 쿠팡 링크는 Actions coupang → mode deeplink, args에 쿠팡 일반 주소. 키는 GitHub Secrets `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY`에만. **검색은 1시간 10회 제한이라 우리는 7회까지(사이트 4 + Actions 3)**, 403·429가 한 번이라도 나면 `data/coupang-guard.json`에 멈춤 표시가 남고 사람이 지울 때까지 검색 안 해요. 검색 결과 `productUrl`과 딥링크 결과는 제휴 링크라 열지 않아요. 가격 대조(`data/coupang-prices.json`)는 보고용이고, 검색 가격은 대표 옵션 값일 수 있어서 색·옵션이 다른 상품은 사람이 확인한 뒤에만 products.json에 반영해요.
 
 ## 판정 규칙
 - 직구각 = 국내보다 20% 이상 **그리고** ₩10,000 이상 쌀 때. 조금이라도 싸면 애매, 아니면 국내가 나음.

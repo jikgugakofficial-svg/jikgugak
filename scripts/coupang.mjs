@@ -8,7 +8,7 @@
 //   node scripts/coupang.mjs discover               → 자동 후보 발굴 1개: data/candidate-seeds.json 에서 검색어를 하나 꺼내
 //                                                     알리(사이트 /api/search)·쿠팡(검색 1회) 가격을 받아 같은 모델끼리 짝지어
 //                                                     data/candidates.json 에 남겨요. 사이트에 바로 올리지 않아요(확인 뒤 등록).
-//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 1개 + prices 남은 횟수
+//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 2개 + prices 남은 횟수(1시간 3회)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { hasKeys, search, deeplink, report, productIdOf, searchBudgetLeft, readGuard } from './lib/coupang.mjs';
 import { landedCost, judge } from '../src/calc.js';
@@ -118,7 +118,7 @@ async function discover() {
 }
 
 if (mode === 'discover') { await discover(); summary(out.join('\n')); }
-if (mode === 'hourly') { await discover(); }
+if (mode === 'hourly') { await discover(); await discover(); } // 후보 2개 + 남은 1회로 가격 대조
 
 if (mode === 'prices' || mode === 'hourly') {
   const want = Math.min(Number(args[0]) || 4, searchBudgetLeft());

@@ -3,9 +3,9 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { PATHS, coupangKeys, coupangCall, toCoupangItem } from '../../api/_lib/coupang.js';
 
-// 검색 횟수: 쿠팡 제한은 1시간 10회. 사이트 실시간 검색(api/coupang.js)이 4회, 이 스크립트가 2회 → 합쳐 6회.
+// 검색 횟수: 쿠팡 제한은 1시간 10회. 사이트 실시간 검색(api/coupang.js)이 4회, 이 스크립트가 3회 → 합쳐 7회.
 // 한 번이라도 403/429가 나면 data/coupang-guard.json 에 멈춤 표시를 남기고, 사람이 지울 때까지 검색을 안 해요.
-export const SEARCH_PER_HOUR = 2;
+export const SEARCH_PER_HOUR = 3;
 const GUARD = 'data/coupang-guard.json';
 
 export const hasKeys = () => Boolean(coupangKeys());
