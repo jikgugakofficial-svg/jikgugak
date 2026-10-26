@@ -373,10 +373,7 @@ function pageHome() {
   </a>
 </section>
 
-<form class="paste-bar" action="/search" method="get" role="search">
-  <label for="paste-q"><b>알리 상품 링크나 상품명을 붙여 넣으세요</b><span>관세·부가세·배송비까지 더해 국내 최저가와 바로 비교해요</span></label>
-  <div class="paste-row"><input id="paste-q" name="q" type="search" placeholder="ko.aliexpress.com/item/… 또는 QCY T13" autocomplete="off" enterkeyhint="go"><button type="submit" class="btn btn-point">판정하기</button></div>
-</form>
+${pasteBar()}
 
 ${domesticSaleNotice()}
 ${dealPromo()}
@@ -594,6 +591,14 @@ function pageCalculator() {
 }
 
 // ---------- 페이지: 세일 딜 모음 (/deals/<slug>) — 알리 제휴 API 실시간 가격 + 관부가세 최종가 ----------
+// 알리 상품 링크·상품명 붙여 넣기 입력창(홈·딜 페이지 공용)
+function pasteBar(id = 'paste-q') {
+  return `<form class="paste-bar" action="/search" method="get" role="search">
+  <label for="${id}"><b>알리 상품 링크나 상품명을 붙여 넣으세요</b><span>관세·부가세·배송비까지 더해 국내 최저가와 바로 비교해요</span></label>
+  <div class="paste-row"><input id="${id}" name="q" type="search" placeholder="ko.aliexpress.com/item/… 또는 QCY T13" autocomplete="off" enterkeyhint="go"><button type="submit" class="btn btn-point">판정하기</button></div>
+</form>`;
+}
+
 function pageDeals(d) {
   const ev = events.find((e) => e.id === d.event);
   const aliMine = items.filter((p) => p.store === 'aliexpress' && !p.sample);
@@ -602,6 +607,7 @@ function pageDeals(d) {
   const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: (d.faq || []).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   const body = `
 <div class="page-head"><h1 class="display">${esc(d.h1)}</h1><p class="muted">${esc(d.intro)}</p>${ev ? `<p class="small"><b>${esc(ev.name)}</b> ${esc(ev.date.slice(5).replace('-', '/'))}${ev.end && ev.end !== ev.date ? '~' + esc(ev.end.slice(5).replace('-', '/')) : ''}</p>` : ''}</div>
+${pasteBar('deal-paste-q')}
 ${domesticSaleNotice()}
 ${aliMine.length ? `<section class="block"><div class="block-head"><div><h2 class="h2">직구각이 확인한 알리 상품</h2><span class="muted small">같은 모델의 국내 최저가와 비교해 판정까지 끝낸 상품이에요</span></div></div><div class="grid">${aliMine.map(card).join('\n')}</div></section>` : ''}
 <section class="block" data-deals data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
@@ -936,6 +942,7 @@ function pagePrivacy() {
 <h2>1. 수집하는 정보</h2>
 <p>직구각은 회원가입이 없으며, 이름·주소·개인통관고유부호를 수집하지 않아요. 연락처(이메일)는 이용자가 의견 보내기에서 직접 남긴 경우에만 받아요(아래 6번). 관세 계산기에 입력한 값은 이용자의 브라우저 안에서만 계산돼요.</p>
 <p>서비스 개선을 위해 방문 통계(접속 페이지, 유입 경로, 브라우저 종류, 대략적 국가)를 Vercel Web Analytics로 집계해요. 쿠키를 쓰지 않고, 개인을 알아볼 수 없는 형태로만 모아요.</p>
+<p>구매 링크를 누른 횟수도 유입 경로·쇼핑몰·페이지별 합계로만 세요(직구각 서버, 400일 보관). 누가 눌렀는지는 저장하지 않아요.</p>
 <p>사이트는 Vercel(미국)에서 운영돼요. 보안과 오류 확인을 위해 접속 기록(IP 주소, 접속 시각, 요청한 주소, 브라우저 정보)이 Vercel 서버에 일정 기간 자동으로 남아요.</p>
 <h2>2. 검색 기능</h2>
 <p>검색창에 입력한 검색어는 상품 가격을 찾기 위해 직구각 서버와 알리익스프레스 제휴 API로 전달돼요. 검색어는 이용자를 식별하는 정보와 연결해 저장하지 않으며, 같은 검색의 결과를 빠르게 보여 주기 위해 잠시 보관(캐시)될 수 있어요. 인기 검색어 순위를 만들기 위해 검색어와 검색 횟수만 날짜별로 8일 동안 저장해요. 검색창에 이름·연락처·통관부호 같은 개인정보는 넣지 마세요.</p>

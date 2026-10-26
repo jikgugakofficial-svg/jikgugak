@@ -43,7 +43,7 @@ button.danger { color: #B42318; }
 </head>
 <body>
 <div class="wrap">
-  <h1>직구각 의견함 <small>운영자 전용</small></h1>
+  <h1>직구각 운영자 화면 <small>의견함 · 클릭 통계</small></h1>
 
   <form class="login" id="login" hidden>
     <label for="key" class="muted" style="flex-basis:100%">운영자 비밀번호(ADMIN_KEY)를 넣으면 이 기기에 기억해 둬요.</label>
@@ -67,6 +67,8 @@ button.danger { color: #B42318; }
       <button type="button" id="logout">이 기기에서 잊기</button>
     </div>
     <div class="list" id="list" style="margin-top:12px"></div>
+    <h2 style="margin:28px 0 8px;font-size:18px">구매 링크 클릭 <small class="muted">최근 30일 · 유입 채널 × 쇼핑몰</small></h2>
+    <div id="clicks" class="muted">불러오는 중…</div>
   </section>
 </div>
 <script>
@@ -92,11 +94,26 @@ async function load() {
     items = d.items;
     $('#login').hidden = true; $('#main').hidden = false;
     render();
+    loadClicks();
   } catch (e) {
     if (e.status === 401) { store.del('jg_admin'); return showLogin('비밀번호가 맞지 않아요.'); }
     const why = { admin_not_configured: 'Vercel에 ADMIN_KEY(12자 이상)가 아직 없어요.', store_not_configured: '의견 저장소(Upstash Redis)가 아직 연결되지 않았어요.' }[e.reason] || '불러오지 못했어요. 잠시 뒤 다시 해 주세요.';
     showLogin(why);
   }
+}
+async function loadClicks() {
+  const box = $('#clicks');
+  try {
+    const r = await fetch('/api/click?days=30', { headers: { 'x-admin-key': key } });
+    const d = await r.json();
+    if (!d.ok) { box.textContent = '클릭 기록을 불러오지 못했어요.'; return; }
+    if (!d.items.length) { box.textContent = '아직 구매 링크 클릭이 없어요.'; return; }
+    const sum = (f) => { const m = {}; d.items.forEach((x) => { m[f(x)] = (m[f(x)] || 0) + x.n; }); return Object.entries(m).sort((a, b) => b[1] - a[1]); };
+    const total = d.items.reduce((a, x) => a + x.n, 0);
+    const table = (title, rows) => `<div class="item"><b>${title}</b><div class="msg">${rows.map(([k, n]) => `${esc(k)} <b>${n}</b>`).join(' · ')}</div></div>`;
+    box.innerHTML = `<div class="stats"><div class="stat"><b>${total}</b><span>전체 클릭</span></div></div><div class="list" style="margin-top:12px">`
+      + table('유입 채널별', sum((x) => x.src)) + table('쇼핑몰별', sum((x) => x.to)) + table('페이지별', sum((x) => x.page)) + table('채널 → 쇼핑몰', sum((x) => x.src + ' → ' + x.to)) + '</div>';
+  } catch { box.textContent = '클릭 기록을 불러오지 못했어요.'; }
 }
 function render() {
   const rated = items.filter((x) => x.rating);

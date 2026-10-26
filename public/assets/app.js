@@ -237,3 +237,25 @@ window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); });
     }
   } catch { /* 추천 검색어 그대로 */ }
 })();
+
+// 구매 링크 클릭 수(합계만): 유입 채널(utm_source 또는 처음 들어온 곳) × 쇼핑몰 × 페이지. 누가 눌렀는지는 남기지 않아요.
+(function trackClicks() {
+  let src = '';
+  try {
+    const u = new URLSearchParams(location.search).get('utm_source');
+    src = u || sessionStorage.getItem('jg_src') || '';
+    if (!src) {
+      const r = document.referrer ? new URL(document.referrer).hostname : '';
+      src = !r ? 'direct' : /google\./.test(r) ? 'google' : /naver\./.test(r) ? 'naver' : /daum\.|kakao/.test(r) ? 'daum' : /instagram\./.test(r) ? 'instagram' : /threads\./.test(r) ? 'threads' : /bing\./.test(r) ? 'bing' : r.endsWith('jikgugak.com') ? 'direct' : 'etc';
+    }
+    sessionStorage.setItem('jg_src', src);
+  } catch { src = src || 'direct'; }
+  const storeOf = (h) => /coupang|coupa\.ng/.test(h) ? 'coupang' : /aliexpress/.test(h) ? 'aliexpress' : /amazon|amzn/.test(h) ? 'amazon' : /iherb/.test(h) ? 'iherb' : /naver/.test(h) ? 'naver' : 'other';
+  document.addEventListener('click', (e) => {
+    const a = e.target.closest && e.target.closest('a[rel~="sponsored"], a[data-buy]');
+    if (!a || !a.href) return;
+    let host = ''; try { host = new URL(a.href).hostname; } catch { return; }
+    const body = JSON.stringify({ src, to: storeOf(host), page: location.pathname });
+    try { navigator.sendBeacon('/api/click', new Blob([body], { type: 'application/json' })); } catch { fetch('/api/click', { method: 'POST', body, headers: { 'Content-Type': 'application/json' }, keepalive: true }).catch(() => {}); }
+  }, true);
+})();
