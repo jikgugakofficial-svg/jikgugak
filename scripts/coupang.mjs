@@ -78,14 +78,24 @@ if (mode === 'prices') {
 }
 
 if (mode === 'report') {
+  // 저장소가 공개라서 주문번호·상품명 같은 상세는 저장하지 않고, 날짜별 합계만 남겨요.
   const days = Number(args[0]) || 7;
   const end = new Date(Date.now() + 9 * 3600_000 - 86400_000); // 어제(KST)
   const start = new Date(end.getTime() - (days - 1) * 86400_000);
-  const out = { at: new Date().toISOString(), startDate: ymd(start), endDate: ymd(end) };
+  const startDate = ymd(start), endDate = ymd(end);
+  const raw = {};
   for (const kind of ['clicks', 'orders', 'commission']) {
-    try { out[kind] = await report(kind, out.startDate, out.endDate); } catch (e) { out[kind] = { error: String(e.message).slice(0, 200) }; }
+    try { raw[kind] = await report(kind, startDate, endDate); } catch (e) { raw[kind] = []; raw.error = String(e.message).slice(0, 200); }
   }
-  writeJson('data/coupang-report.json', out);
-  const sum = (arr, k) => (Array.isArray(arr) ? arr.reduce((s, r) => s + (Number(r[k]) || 0), 0) : 0);
-  summary(`쿠팡 실적 ${out.startDate}~${out.endDate}: 클릭 ${sum(out.clicks, 'click')} · 주문 ${Array.isArray(out.orders) ? out.orders.length : '?'}건 · 수익 ${sum(out.commission, 'commission').toLocaleString('ko-KR')}원`);
+  const byDay = {};
+  const day = (d) => (byDay[d] ||= { clicks: 0, orders: 0, gmv: 0, commission: 0 });
+  for (const r of raw.clicks || []) day(r.date).clicks += Number(r.click) || 0;
+  for (const r of raw.orders || []) { day(r.date).orders += 1; day(r.date).gmv += Number(r.gmv) || 0; }
+  for (const r of raw.commission || []) day(r.date).commission += Number(r.commission) || 0;
+  const total = Object.values(byDay).reduce((t, d) => ({ clicks: t.clicks + d.clicks, orders: t.orders + d.orders, gmv: t.gmv + d.gmv, commission: t.commission + d.commission }), { clicks: 0, orders: 0, gmv: 0, commission: 0 });
+  const file = 'data/coupang-report.json';
+  const prev = readJson(file, {});
+  const daily = { ...(prev.daily || {}), ...byDay };
+  writeJson(file, { note: '쿠팡 파트너스 실적 날짜별 합계(주문 상세는 저장 안 함)', at: new Date().toISOString(), lastWindow: { startDate, endDate, ...total }, daily, ...(raw.error ? { error: raw.error } : {}) });
+  summary(`쿠팡 실적 ${startDate}~${endDate}: 클릭 ${total.clicks} · 주문 ${total.orders}건 · 수익 ${total.commission.toLocaleString('ko-KR')}원`, !raw.error);
 }
