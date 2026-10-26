@@ -58,6 +58,24 @@ async function postInstagram(me, dir, spec) {
   return { id: media, url: info.permalink };
 }
 
+// 릴스: spec.video(예: publish/reel.mp4)를 사이트 주소로 올려 두고 REELS 컨테이너로 게시해요. 영상 처리에 몇 분 걸려요.
+async function postReel(me, dir, spec) {
+  const folder = path.basename(dir);
+  const url = `${SITE}/social/${folder}/${path.basename(spec.video)}`;
+  await waitUrl(url);
+  const creation = (await call(IG, `/${me}/media`, IG_TOKEN, { media_type: 'REELS', video_url: url, caption: spec.text || '', share_to_feed: String(spec.shareToFeed !== false) }, 'POST')).id;
+  for (let i = 0; i < 60; i++) {
+    const st = await call(IG, `/${creation}`, IG_TOKEN, { fields: 'status_code,status' });
+    if (st.status_code === 'FINISHED') break;
+    if (st.status_code === 'ERROR') throw new Error(`릴스 처리 오류: ${st.status || ''}`);
+    if (i === 59) throw new Error('릴스 처리 시간 초과');
+    await sleep(10000);
+  }
+  const media = (await call(IG, `/${me}/media_publish`, IG_TOKEN, { creation_id: creation }, 'POST')).id;
+  const info = await call(IG, `/${media}`, IG_TOKEN, { fields: 'permalink' }).catch(() => ({}));
+  return { id: media, url: info.permalink };
+}
+
 async function postThreads(me, spec) {
   const texts = spec.texts || [spec.text];
   let prev, first;
@@ -94,8 +112,9 @@ for (const dir of jobs) {
   const result = { dir, at: new Date().toISOString(), posts: [] };
   for (const [kind, spec] of Object.entries(job.channels || {})) {
     try {
-      if (!who[kind] || !who[kind].ok) throw new Error(`${kind} 연결 안 됨: ${who[kind] ? who[kind].error : '지원 안 하는 채널'}`);
-      const r = kind === 'instagram' ? await postInstagram(who.instagram.id, dir, spec) : await postThreads(who.threads.id, spec);
+      const acct = kind === 'reels' ? 'instagram' : kind;
+      if (!who[acct] || !who[acct].ok) throw new Error(`${kind} 연결 안 됨: ${who[acct] ? who[acct].error : '지원 안 하는 채널'}`);
+      const r = kind === 'instagram' ? await postInstagram(who.instagram.id, dir, spec) : kind === 'reels' ? await postReel(who.instagram.id, dir, spec) : await postThreads(who.threads.id, spec);
       result.posts.push({ kind, ok: true, ...r });
     } catch (e) {
       result.posts.push({ kind, ok: false, error: String(e.message).slice(0, 1000) });
