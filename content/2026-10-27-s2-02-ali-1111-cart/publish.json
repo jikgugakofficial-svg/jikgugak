@@ -1,6 +1,6 @@
 {
-  "approved": false,
-  "approvedBy": "",
+  "approved": true,
+  "approvedBy": "운영자(채팅) 2026-10-26 09:57 KST \"둘다 게시해\"",
   "schedule": "2026-10-28T08:52:00Z",
   "liveCheck": "content/_plans/2026-10-26-set2-livecheck.md",
   "channels": {
