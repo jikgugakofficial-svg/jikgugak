@@ -748,3 +748,37 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .s-quick.v-warn { background: var(--brand-tint); color: var(--brand-dark); }
 .s-result.v-warn { background: var(--brand-tint); }
 .s-result .s-warn { color: var(--brand-dark); font-size: 16px; }
+
+/* ---------- 검색: 같은 제품 비교 카드(알리 + 쿠팡) ---------- */
+.pc { border: 1px solid var(--line); border-radius: 16px; padding: 16px; background: #fff; display: flex; flex-direction: column; gap: 12px; list-style: none; }
+.pc-head { display: flex; gap: 14px; align-items: flex-start; }
+.pc-img { flex: 0 0 120px; width: 120px; height: 120px; border-radius: 12px; object-fit: cover; background: var(--img); }
+.pc-info { display: flex; flex-direction: column; gap: 6px; min-width: 0; flex: 1; }
+.pc-tag { align-self: flex-start; font-size: 12px; font-weight: 900; padding: 3px 8px; border-radius: 6px; background: var(--point); color: #fff; }
+.pc-tag.cp { background: var(--bad-tint); color: var(--bad); }
+.pc-name { font-weight: 800; font-size: 15px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.pc-verdict { font-size: 14px; padding: 6px 10px; border-radius: 10px; background: var(--bg2); }
+.pc-verdict b { font-size: 16px; margin-right: 4px; }
+.pc-verdict.v-good { background: var(--good-tint); color: var(--good); }
+.pc-verdict.v-meh { background: var(--meh-tint); color: var(--meh); }
+.pc-verdict.v-bad { background: var(--bad-tint); color: var(--bad); }
+.pc-rows { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.pc-row { display: grid; grid-template-columns: 44px 1fr auto; gap: 10px; align-items: center; padding: 10px 12px; }
+.pc-row + .pc-row { border-top: 1px solid var(--line); }
+.pc-store { font-size: 13px; font-weight: 900; color: var(--sub); }
+.pc-val { display: flex; flex-direction: column; min-width: 0; }
+.pc-val b { font-size: 18px; font-variant-numeric: tabular-nums; }
+.pc-val small { color: var(--sub); font-size: 12px; }
+.pc-line { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pc-line b { font-size: 18px; font-variant-numeric: tabular-nums; }
+.pc-more summary { cursor: pointer; font-size: 14px; font-weight: 700; color: var(--sub); }
+.pc-more[open] summary { margin-bottom: 10px; }
+.pc-note { margin: 0; }
+@media (max-width: 760px) {
+  .pc { padding: 14px; }
+  .pc-img { flex-basis: 108px; width: 108px; height: 108px; }
+  .pc-row { grid-template-columns: 38px 1fr auto; padding: 10px; }
+  .s-img { width: 108px; height: 108px; }
+  .cmp-head .card-img, .cmp-head img { width: 96px; height: 96px; flex-basis: 96px; }
+  .cpl-img { flex-basis: 72px; width: 72px; height: 72px; }
+}

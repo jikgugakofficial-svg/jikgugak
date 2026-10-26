@@ -1,7 +1,8 @@
 // 검색: 직구각이 판정한 상품을 먼저 보여 주고, 알리익스프레스 실시간 가격으로 '아무 상품이나' 판정
 import { landedCost, judge, formatKrw as krw } from './calc.js';
 import { parseShopLink } from './links.js';
-import { variantMismatch } from './variants.js';
+import { variantMismatch, sameModel } from './variants.js';
+import { analyze, comparability, ACCESSORY_WORDS } from './rank.js';
 
 const q = (new URLSearchParams(location.search).get('q') || '').trim();
 const live = document.querySelector('[data-s-live]');
@@ -43,6 +44,7 @@ function attachCp(li, query) {
   cp.querySelector('[data-s-cp-msg]').textContent = '';
 }
 
+
 // ---------- 쿠팡 실시간 가격(/api/coupang, 쿠팡 파트너스 공식 검색 API) ----------
 // 같은 검색어는 한 번만 불러요. 서버도 하루 동안 저장해 두고 1시간 횟수를 아껴 써요.
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -52,12 +54,15 @@ function fetchCoupang(term) {
   if (!cpCache.has(k)) cpCache.set(k, fetch('/api/coupang?q=' + encodeURIComponent(k)).then((r) => r.json()).catch(() => ({ ok: false, reason: 'error' })));
   return cpCache.get(k);
 }
+function fetchAli(term) {
+  return fetch('/api/search?q=' + encodeURIComponent(term)).then((r) => r.json()).catch(() => ({ ok: false, reason: 'error' }));
+}
 const cpWhen = (at) => { try { const d = new Date(at); return `${d.getMonth() + 1}.${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`; } catch { return ''; } };
-// 쿠팡 상품 한 줄: 사진·이름·가격·로켓 + [고르기 버튼] + 쿠팡에서 보기(파트너스 링크)
+// 쿠팡 상품 한 줄(판정 칸 안의 '같은 모델 고르기' 목록)
 function cpRow(c, pickLabel, onPick) {
   const li = document.createElement('li');
   li.className = 'cpl-item';
-  li.innerHTML = `${c.image ? `<img class="cpl-img" src="${esc(c.image)}" alt="" loading="lazy" width="64" height="64">` : '<span class="cpl-img"></span>'}
+  li.innerHTML = `${c.image ? `<img class="cpl-img" src="${esc(c.image)}" alt="" loading="lazy" width="72" height="72">` : '<span class="cpl-img"></span>'}
   <div class="cpl-info"><span class="cpl-name">${esc(c.name)}</span>
   <div class="cpl-meta"><b class="cpl-price">₩${krw(c.price)}</b>${c.rocket ? '<span class="cpl-rocket">로켓배송</span>' : ''}${!c.rocket && c.freeShip ? '<span class="cpl-free">무료배송</span>' : ''}</div>
   <div class="cpl-btns"><button type="button" class="btn btn-ink small cpl-pick"></button><a class="btn btn-line small" href="${esc(c.url)}" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a></div></div>`;
@@ -70,33 +75,168 @@ const cpFail = (reason) => ({
   paused: '쿠팡 가격 검색을 잠시 멈췄어요. 쿠팡에서 직접 검색해 주세요.'
 }[reason] || '');
 
-// 국내 기준 가격: 쿠팡 결과에서 하나 고르면 알리 상품마다 그 가격과 비교한 판정을 바로 보여 줘요
-let picked = null;
-const pickBar = live.querySelector('[data-s-pick]');
-function setPicked(c) {
-  picked = c;
-  if (pickBar) {
-    pickBar.hidden = !c;
-    if (c) pickBar.querySelector('.s-pick-txt').innerHTML = `<b>국내 기준 ₩${krw(c.price)}</b> <span>쿠팡 ${esc(c.name)}</span>`;
-  }
-  list.querySelectorAll('.s-item').forEach((li) => li.applyPick && li.applyPick(c));
-  document.querySelectorAll('.cpl-item.picked').forEach((x) => x.classList.remove('picked'));
+// 알리 상품 하나의 직구 최종가(관부가세·배송비 포함)
+function aliTotal(price, ship, cat) {
+  const c = landedCost({ priceUsd: price / FX, shipUsd: ship / FX, origin: 'other', method: 'express', category: cat, fx: FX });
+  const cif = Math.floor(price + ship);
+  const duty = c.dutyFree ? 0 : Math.floor(cif * c.rate);
+  const total = c.dutyFree ? cif : cif + duty + Math.floor((cif + duty) * 0.1);
+  return { total, cif, c };
 }
-if (pickBar) pickBar.querySelector('[data-s-pick-clear]').addEventListener('click', () => setPicked(null));
+const VERD = (j) => {
+  const pct = Math.round(Math.abs(j.pct) * 100);
+  return { good: ['v-good', '직구각', `알리가 ₩${krw(j.diff)}(${pct}%) 싸요`], meh: ['v-meh', '애매', `알리가 ₩${krw(j.diff)} 싸지만 배송 1~2주를 생각하면 애매해요`], bad: ['v-bad', '국내가 나음', `쿠팡이 ₩${krw(-j.diff)} 더 싸요`] }[j.verdict] || ['', '-', ''];
+};
+
+// ---------- 같은 제품 비교 카드(알리 + 쿠팡을 한 카드에) ----------
+function pairCard(ali, cpi) {
+  const li = document.createElement('li');
+  li.className = 'pc';
+  const cat = guessCat(ali.category, ali.title);
+  const img = cpi.image || ali.image;
+  li.innerHTML = `
+  <div class="pc-head">${img ? `<img class="pc-img" src="${esc(img)}" alt="" loading="lazy" width="120" height="120">` : '<span class="pc-img"></span>'}
+    <div class="pc-info"><span class="pc-tag">같은 제품 비교</span><span class="pc-name">${esc(cpi.name)}</span><span class="pc-verdict"></span></div></div>
+  <div class="pc-rows">
+    <div class="pc-row"><span class="pc-store">쿠팡</span><span class="pc-val"><b class="pc-cp">₩${krw(cpi.price)}</b><small>${cpi.rocket ? '로켓배송' : cpi.freeShip ? '무료배송' : '배송비 별도일 수 있어요'}</small></span><a class="btn btn-line small" href="${esc(cpi.url)}" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a></div>
+    <div class="pc-row"><span class="pc-store">알리</span><span class="pc-val"><b class="pc-ali"></b><small class="pc-ali-sub"></small></span><a class="btn btn-line small" href="${esc(ali.link)}" target="_blank" rel="sponsored noopener">알리에서 보기</a></div>
+  </div>
+  <details class="pc-more"><summary>옵션 가격으로 다시 계산</summary>
+    <p class="muted small">알리 상품: ${esc(ali.title)}</p>
+    <div class="s-grid">
+      <div class="field"><label>쿠팡 가격 (원)</label><input class="pc-cp-in" type="number" inputmode="numeric" min="0" step="10" value="${cpi.price}"></div>
+      <div class="field"><label>알리 가격 (원)</label><input class="pc-ali-in" type="number" inputmode="numeric" min="0" step="10" value="${ali.price}"><small>고른 색·용량 옵션의 가격으로 바꿔 주세요</small></div>
+      <div class="field"><label>국제 배송비 (원)</label><input class="pc-ship-in" type="number" inputmode="numeric" min="0" step="100" value="0"></div>
+      <div class="field"><label>품목</label><select class="pc-cat">${document.querySelector('.s-cat') ? '' : ''}</select></div>
+    </div>
+  </details>
+  <p class="pc-note muted small">이름·모델 번호가 같은 상품끼리 자동으로 묶었어요. 색·용량·구성이 같은지 한 번 더 확인하세요.</p>`;
+  // 품목 선택지는 템플릿의 것을 복사해요
+  const tplSel = tpl.content.querySelector('.s-cat');
+  const sel = li.querySelector('.pc-cat');
+  sel.innerHTML = tplSel.innerHTML; sel.value = cat;
+  const $ = (x) => li.querySelector(x);
+  function render() {
+    const cpPrice = Number($('.pc-cp-in').value) || cpi.price;
+    const aliPrice = Number($('.pc-ali-in').value) || ali.price;
+    const ship = Number($('.pc-ship-in').value) || 0;
+    const { total, cif, c } = aliTotal(aliPrice, ship, sel.value);
+    const j = judge(cpPrice, total, RULE);
+    const v = VERD(j);
+    $('.pc-cp').textContent = '₩' + krw(cpPrice);
+    $('.pc-ali').textContent = '₩' + krw(total);
+    $('.pc-ali-sub').textContent = c.dutyFree ? `최종가 · 면세 한도 $${c.limit} 안` : `최종가 · 관부가세 ₩${krw(total - cif)} 포함`;
+    const pv = $('.pc-verdict');
+    pv.className = 'pc-verdict ' + v[0];
+    pv.innerHTML = `<b>${v[1]}</b> ${esc(v[2])}`;
+  }
+  li.querySelectorAll('input, select').forEach((el) => el.addEventListener('input', render));
+  render();
+  return li;
+}
+
+// 쿠팡에만 있는 상품(알리에서 같은 모델을 못 찾음)
+function cpCard(cpi) {
+  const li = document.createElement('li');
+  li.className = 'pc pc-one';
+  li.innerHTML = `
+  <div class="pc-head">${cpi.image ? `<img class="pc-img" src="${esc(cpi.image)}" alt="" loading="lazy" width="120" height="120">` : '<span class="pc-img"></span>'}
+    <div class="pc-info"><span class="pc-tag cp">쿠팡</span><span class="pc-name">${esc(cpi.name)}</span>
+    <div class="pc-line"><b>₩${krw(cpi.price)}</b>${cpi.rocket ? '<span class="cpl-rocket">로켓배송</span>' : ''}</div>
+    <div class="s-btns"><a class="btn btn-line small" href="${esc(cpi.url)}" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a><a class="btn btn-ink small" href="/search?q=${encodeURIComponent(shortQuery(cpi.name))}">이 모델로 직구가 찾기</a></div></div></div>`;
+  return li;
+}
+
+// ---------- 검색어와 얼마나 비슷한지(알리·쿠팡 결과를 한 줄로 세울 때) ----------
+function score(title, term) {
+  const a = analyze({ title }, term);
+  if (!a.relevant) return -1;
+  return a.coverage * 3 + (a.full ? 1 : 0) + (comparability(title).comparable ? 0.5 : 0) - (a.accessory ? 3 : 0) - (a.compat ? 0.5 : 0);
+}
+// 알리·쿠팡 결과를 같은 모델끼리 묶고, 비슷한 순서로 한 목록을 만들어요
+function merge(aliItems, cpItems, term, pinnedAli) {
+  const A = aliItems.map((it) => ({ it, s: score(it.title, term) })).filter((x) => x.s >= 0 || x.it === pinnedAli);
+  const C = cpItems.map((it) => ({ it, s: score(it.name, term) })).filter((x) => x.s >= 0 && !ACCESSORY_WORDS.some((w) => x.it.name.toLowerCase().includes(w) && !term.toLowerCase().includes(w)));
+  const usedA = new Set(); const units = [];
+  for (const c of [...C].sort((x, y) => y.s - x.s)) {
+    const cand = A.filter((a) => !usedA.has(a) && !a.it.accessory && a.it.price >= c.it.price * 0.35 && sameModel(a.it.title, c.it.name)).sort((x, y) => y.s - x.s)[0];
+    if (cand) { usedA.add(cand); units.push({ kind: 'pair', ali: cand.it, cp: c.it, s: Math.max(c.s, cand.s) + 1 + (cand.it === pinnedAli ? 10 : 0) }); c.paired = true; }
+  }
+  for (const a of A) if (!usedA.has(a)) units.push({ kind: 'ali', ali: a.it, s: a.s - (a.it.accessory ? 1 : 0) + (a.it === pinnedAli ? 10 : 0) });
+  for (const c of C) if (!c.paired) units.push({ kind: 'cp', cp: c.it, s: c.s - 0.2 });
+  return units.sort((x, y) => y.s - x.s);
+}
+
+// 결과를 그려요: 같은 제품 비교 → 알리만 → 쿠팡만이 비슷한 순서대로 섞여요
+function show(units, { openFirstAli = false, limit = 14 } = {}) {
+  list.innerHTML = '';
+  let opened = false;
+  units.slice(0, limit).forEach((u) => {
+    if (u.kind === 'pair') list.appendChild(pairCard(u.ali, u.cp));
+    else if (u.kind === 'ali') { const li = row(u.ali); list.appendChild(li); if (openFirstAli && !opened) { li.openJudge(); opened = true; } }
+    else list.appendChild(cpCard(u.cp));
+  });
+  const pairs = units.filter((u) => u.kind === 'pair').length;
+  const sub = live.querySelector('[data-s-live-sub]');
+  if (sub) sub.textContent = pairs ? `알리·쿠팡에서 같은 제품 ${pairs}개를 찾아 나란히 비교했어요 · 검색어와 비슷한 순서` : '검색어와 비슷한 순서 · 알리 가격은 관부가세 포함 최종가로 판정해요';
+}
+
+// 알리·쿠팡을 함께 찾아서 한 목록으로
+async function searchBoth(term, { pinnedAli = null, label = '' } = {}) {
+  live.hidden = false;
+  statusEl.textContent = '알리익스프레스·쿠팡 가격을 함께 찾는 중이에요…';
+  const [a, c] = await Promise.all([pinnedAli ? Promise.resolve({ ok: true, items: [] }) : fetchAli(term), fetchCoupang(term)]);
+  const aliItems = [...(pinnedAli ? [pinnedAli] : []), ...(a.ok ? a.items : [])];
+  const cpItems = c.ok ? c.items : [];
+  const units = merge(aliItems, cpItems, term, pinnedAli);
+  const notes = [];
+  if (label) notes.push(label);
+  if (!c.ok && cpFail(c.reason)) notes.push(cpFail(c.reason));
+  if (!a.ok && !pinnedAli) notes.push(a.reason === 'not_configured' ? '알리 실시간 가격은 곧 열려요.' : '알리 가격을 불러오지 못했어요.');
+  if (!units.length) {
+    statusEl.innerHTML = `${notes.map(esc).join(' ')} <b>이 제품은 찾기가 힘들어요.</b> 직구각과 연결된 쇼핑몰(알리익스프레스·쿠팡)에서 같은 상품을 찾지 못했어요. 브랜드와 모델명으로 다시 검색하거나, 가격을 알고 있다면 <a href="/calculator">관세 계산기</a>로 판정할 수 있어요.`;
+    return units;
+  }
+  if (a.ok && a.mainFound === false && !units.some((u) => u.kind !== 'cp')) notes.push('알리에는 이 상품 본품이 거의 없고 액세서리·호환품만 보여요.');
+  statusEl.textContent = notes.join(' ');
+  show(units, { openFirstAli: Boolean(pinnedAli) && !units.some((u) => u.kind === 'pair') });
+  return units;
+}
 
 document.getElementById('sq').value = q;
 const headerQ = document.getElementById('q');
 if (headerQ) headerQ.value = q;
 
+// 등록 상품(이미 판정한 것) 걸러 보이기
+function showCurated(test) {
+  let hit = 0;
+  for (const c of document.querySelectorAll('[data-s-curated] [data-s-item]')) { const ok = test(c); c.hidden = !ok; if (ok) hit++; }
+  document.querySelector('[data-s-curated]').hidden = hit === 0;
+  return hit;
+}
+function setMore(term) {
+  const more = live.querySelector('[data-s-more]');
+  live.querySelector('[data-s-naver]').href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(term)}`;
+  const cpLink = live.querySelector('[data-s-coupang]');
+  if (cpLink) cpLink.href = coupangSearch(term);
+  more.hidden = false;
+  const amz = live.querySelector('[data-s-amazon]');
+  if (amz) { amz.href = `https://www.amazon.com/s?k=${encodeURIComponent(term)}&tag=${encodeURIComponent(amz.dataset.tag)}`; live.querySelector('[data-s-amazon-wrap]').hidden = false; }
+}
+const STORE_KO = { aliexpress: '알리익스프레스', coupang: '쿠팡', amazon: '아마존', iherb: '아이허브' };
+
 const link = parseShopLink(q);
 if (q && link) {
-  // 붙여 넣은 상품 주소: 알리면 그 상품 하나를 바로 판정, 다른 쇼핑몰은 안내
+  // 붙여 넣은 상품 주소: 쇼핑몰마다 알 수 있는 만큼 읽어서 같은 제품을 찾아요(주소의 페이지는 열지 않아요)
   document.title = '붙여 넣은 상품 직구각 판정 | 직구각';
-  document.querySelector('[data-s-title]').textContent = '붙여 넣은 상품 판정';
+  document.querySelector('[data-s-title]').textContent = `붙여 넣은 ${STORE_KO[link.store] || ''} 상품 판정`.replace('  ', ' ');
   live.hidden = false;
-  live.querySelector('[data-s-live-title]').textContent = '붙여 넣은 알리익스프레스 상품';
+  const none = document.querySelector('[data-s-none]');
+  if (none) none.hidden = true;
+  const curatedBy = (re) => showCurated((c) => re.test(c.dataset.urls || ''));
   if (link.store === 'aliexpress' && link.id) {
     statusEl.textContent = '알리익스프레스 상품 정보를 불러오는 중이에요…';
+    curatedBy(new RegExp(link.id));
     fetch('/api/item?id=' + link.id)
       .then((r) => r.json().catch(() => ({ ok: false })))
       .then((d) => {
@@ -104,106 +244,52 @@ if (q && link) {
           statusEl.innerHTML = d.reason === 'not_configured'
             ? '상품 주소 판정은 곧 열려요. 지금은 <a href="/calculator">관세 계산기</a>에 가격을 직접 넣어 판정할 수 있어요.'
             : ['not_found', 'bad_id', 'no_price'].includes(d.reason)
-              ? '이 주소의 상품을 알리 제휴 정보에서 찾지 못했어요. 판매 종료됐거나 제휴 대상이 아닌 상품일 수 있어요. 상품명으로 검색해 보세요.'
+              ? '<b>이 제품은 찾기가 힘들어요.</b> 알리 제휴 정보에 없는 상품이에요(판매 종료·제휴 제외일 수 있어요). 상품명으로 검색해 보세요.'
               : '상품 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.';
           return;
         }
-        statusEl.textContent = '';
-        const li = row(d.item);
-        list.appendChild(li);
-        li.openJudge();
+        const term = shortQuery(d.item.title);
+        setMore(term);
+        searchBoth(term, { pinnedAli: d.item, label: `붙여 넣은 알리 상품과 같은 모델을 쿠팡에서 '${term}'(으)로 찾았어요.` });
       })
       .catch(() => { statusEl.textContent = '상품 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.'; });
   } else if (link.store === 'aliexpress') {
     statusEl.innerHTML = '이 알리 주소에서는 상품 번호를 찾지 못했어요. 앱 공유 주소(a.aliexpress.com)라면 앱에서 <b>브라우저로 열기</b>를 누른 뒤 주소창의 주소(…/item/숫자.html)를 붙여 넣어 주세요. 상품명으로 검색해도 돼요.';
+  } else if (link.store === 'coupang') {
+    const hit = link.id ? curatedBy(new RegExp('products/' + link.id + '(\\D|$)')) : 0;
+    statusEl.innerHTML = hit
+      ? '직구각이 이미 판정한 상품이에요. 아래에서 해외 최종가와 비교해 보세요.'
+      : `<b>쿠팡 주소만으로는 상품 이름을 알 수 없어서 찾기가 힘들어요.</b> ${link.id ? '' : '단축 주소(link.coupang.com)는 열지 않아요. '}상품명이나 모델명(예: QCY T13)으로 검색하면 알리 직구가와 바로 비교해 드려요.`;
+  } else if ((link.store === 'amazon' || link.store === 'iherb') ) {
+    const hit = link.id ? curatedBy(new RegExp(link.store === 'amazon' ? '/dp/' + link.id : '/' + link.id + '(\\D|$)', 'i')) : 0;
+    if (hit) statusEl.textContent = '직구각이 이미 판정한 상품이에요. 아래에서 국내 최저가와 비교해 보세요.';
+    else if (link.name) {
+      setMore(link.name);
+      searchBoth(link.name, { label: `${STORE_KO[link.store]} 주소에서 상품 이름('${link.name}')을 읽어 알리·쿠팡에서 찾았어요. ${link.store === 'amazon' ? '아마존 가격은 아마존에서 확인한 뒤 계산기에 넣어 주세요.' : '아이허브 가격은 아이허브에서 확인한 뒤 계산기에 넣어 주세요.'}` });
+    } else statusEl.innerHTML = `<b>이 ${STORE_KO[link.store]} 주소로는 상품을 찾기가 힘들어요.</b> 상품명이나 모델명으로 검색해 주세요.`;
   } else {
-    const name = { coupang: '쿠팡', amazon: '아마존', iherb: '아이허브' }[link.store] || '이 쇼핑몰';
-    statusEl.innerHTML = `지금은 <b>알리익스프레스 상품 주소</b>만 바로 판정해요. ${name} 상품은 상품명이나 모델명으로 검색하거나, 가격을 <a href="/calculator">관세 계산기</a>에 넣어 판정해 주세요.`;
+    statusEl.innerHTML = '<b>이 쇼핑몰은 아직 직구각과 연결되지 않아 찾기가 힘들어요.</b> 지금은 알리익스프레스·쿠팡·아마존·아이허브 주소를 읽을 수 있어요. 상품명이나 모델명으로 검색해 주세요.';
   }
 } else if (q) {
   document.title = `'${q}' 직구각 검색 | 직구각`;
   document.querySelector('[data-s-title]').textContent = `'${q}' 직구각 검색`;
-
   // 1) 이미 판정한 상품
   const words = q.split(/\s+/).map(norm).filter(Boolean);
-  let hit = 0;
-  for (const c of document.querySelectorAll('[data-s-curated] [data-s-item]')) {
-    const name = norm(c.dataset.name);
-    const ok = words.every((w) => name.includes(w)) || name.includes(norm(q));
-    c.hidden = !ok;
-    if (ok) hit++;
-  }
-  document.querySelector('[data-s-curated]').hidden = hit === 0;
+  const hit = showCurated((c) => { const name = norm(c.dataset.name); return words.every((w) => name.includes(w)) || name.includes(norm(q)); });
   const none = document.querySelector('[data-s-none]');
   if (none) none.hidden = hit > 0;
-
   // 인기 검색어 집계(같은 검색어는 이 탭에서 한 번만 세요)
   try {
     const k = 'jg_sq_' + norm(q);
     if (!sessionStorage.getItem(k)) { sessionStorage.setItem(k, '1'); fetch('/api/trending', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ q }), keepalive: true }).catch(() => {}); }
   } catch { /* 저장 안 돼도 검색은 그대로 */ }
-
-  // 2) 쿠팡 실시간 가격(국내)
-  const cpl = document.querySelector('[data-s-cpl]');
-  if (cpl) {
-    const cplList = cpl.querySelector('[data-s-cpl-list]');
-    const cplStatus = cpl.querySelector('[data-s-cpl-status]');
-    const cplMore = cpl.querySelector('[data-s-cpl-more]');
-    cpl.hidden = false;
-    cplStatus.textContent = '쿠팡 가격을 찾는 중이에요…';
-    fetchCoupang(q).then((d) => {
-      if (!d.ok) {
-        const msg = cpFail(d.reason);
-        if (msg) { cplStatus.innerHTML = `${esc(msg)} <a href="${coupangSearch(q)}" target="_blank" rel="noopener">쿠팡에서 검색</a>`; } else cpl.hidden = true;
-        return;
-      }
-      if (!d.items.length) { cplStatus.textContent = '쿠팡에서 이 검색어로 찾은 상품이 없어요. 모델명으로 다시 검색해 보세요.'; return; }
-      cplStatus.textContent = '';
-      cpl.querySelector('[data-s-cpl-sub]').textContent = `쿠팡 파트너스 검색 결과 · ${cpWhen(d.at)} 기준${d.stale ? '(지난 결과)' : ''} · 옵션(색·용량)마다 가격이 달라요`;
-      d.items.forEach((c, i) => {
-        const li = cpRow(c, '국내 기준으로', (x, el) => { setPicked(x); el.classList.add('picked'); live.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
-        if (i >= 4) li.hidden = true;
-        cplList.appendChild(li);
-      });
-      if (d.items.length > 4) {
-        cplMore.hidden = false;
-        cplMore.addEventListener('click', () => { cplList.querySelectorAll('li[hidden]').forEach((li) => { li.hidden = false; }); cplMore.hidden = true; });
-      }
-    });
-  }
-
-  // 3) 알리 실시간 가격
-  live.hidden = false;
-  const more = live.querySelector('[data-s-more]');
-  const cpLink = live.querySelector('[data-s-coupang]');
-  if (cpLink) cpLink.href = coupangSearch(q);
-  live.querySelector('[data-s-naver]').href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(q)}`;
-  more.hidden = false;
-  const amz = live.querySelector('[data-s-amazon]');
-  if (amz) {
-    amz.href = `https://www.amazon.com/s?k=${encodeURIComponent(q)}&tag=${encodeURIComponent(amz.dataset.tag)}`;
-    live.querySelector('[data-s-amazon-wrap]').hidden = false;
-  }
-  statusEl.textContent = '알리익스프레스 가격을 찾는 중이에요…';
-  fetch('/api/search?q=' + encodeURIComponent(q))
-    .then((r) => r.json().catch(() => ({ ok: false })))
-    .then((d) => {
-      if (!d.ok) {
-        statusEl.innerHTML = d.reason === 'not_configured'
-          ? '실시간 가격 검색은 곧 열려요. 지금은 <a href="/calculator">관세 계산기</a>에 가격을 직접 넣어 판정할 수 있어요.'
-          : '가격을 불러오지 못했어요. 잠시 뒤 다시 검색해 주세요.';
-        return;
-      }
-      if (!d.items.length) { statusEl.textContent = '알리익스프레스에서 이 상품을 찾지 못했어요. 모델명이나 영어 이름으로 검색해 보세요.'; return; }
-      statusEl.textContent = d.mainFound === false
-        ? '알리익스프레스에는 이 상품 본품이 거의 없고 액세서리·호환품만 보여요. 정품은 쿠팡·아마존 가격과 비교해 보세요.'
-        : '';
-      d.items.forEach((it) => list.appendChild(row(it)));
-    })
-    .catch(() => { statusEl.textContent = '가격을 불러오지 못했어요. 잠시 뒤 다시 검색해 주세요.'; });
+  // 2) 알리·쿠팡 실시간 가격을 한 목록으로
+  setMore(q);
+  searchBoth(q);
 } else {
   document.getElementById('sq').focus();
 }
+
 
 // 알리 카테고리(한국어로 와요)·상품명 → 직구각 품목 (대략, 사용자가 바꿀 수 있어요)
 function guessCat(c = '', title = '') {
@@ -293,12 +379,6 @@ function row(it) {
     if (name) domIn.dataset.src = name; else delete domIn.dataset.src;
     render();
   }
-  // 위쪽 쿠팡 목록에서 '국내 기준'을 고르면: 직접 넣은 값이 없을 때만 채워요
-  li.applyPick = (p) => {
-    if (domIn.dataset.manual) return;
-    if (p) setDom(p.price, p.name); else setDom('', '');
-  };
-  if (picked) li.applyPick(picked);
 
   // 판정을 열면 이 알리 상품의 모델명으로 쿠팡 후보를 불러와요(누르면 국내가에 들어가요)
   function loadCoupang() {

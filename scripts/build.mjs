@@ -163,8 +163,7 @@ const NAV = [
   { href: '/', label: '오늘의 직구각' },
   { href: '/calendar', label: '세일 캘린더' },
   { href: '/calculator', label: '관세 계산기' },
-  { href: '/guide', label: '직구 가이드' },
-  { href: '/domestic', label: '쿠팡이 더 싼 것' }
+  { href: '/guide', label: '직구 가이드' }
 ];
 
 function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false, image = '' }) {
@@ -220,7 +219,7 @@ ${ga}
     <a href="/" class="logo" aria-label="${esc(site.siteName)} 홈">${icon.logo}<span class="logo-word">${esc(site.siteName)}</span><span class="logo-tag">직구할 각인지<br>3초 판정</span></a>
     <form class="search" role="search" action="/search" method="get">
       <label for="q" class="sr-only">상품 검색</label>
-      <input id="q" name="q" type="search" placeholder="상품명·알리 링크로 직구각 판정" autocomplete="off">
+      <input id="q" name="q" type="search" placeholder="상품명이나 쇼핑몰 링크로 직구각 판정" autocomplete="off">
       <button type="submit" aria-label="검색">${icon.search}</button>
     </form>
   </div>
@@ -306,7 +305,7 @@ function compareCard(p) {
       ? `<b>$${ev.breakeven} 이하면 직구각</b><small>${p.unavailable ? esc(p.unavailable) : `현재가는 ${esc(p.storeName)}에서 확인`}</small>`
       : '<b>-</b>';
   const diff = ev.kind === 'priced' ? `<span class="${ev.diff > 0 ? 'pct-down' : 'pct-up'}">${ev.diff > 0 ? '직구가' : '국내가'} ₩${krw(Math.abs(ev.diff))} 저렴</span>` : '';
-  return `<article class="cmp-card" data-s-item data-name="${esc(keys)}">
+  return `<article class="cmp-card" data-s-item data-name="${esc(keys)}" data-urls="${esc([p.domesticCheckUrl, p.overseasCheckUrl].filter(Boolean).join(' '))}">
   <a class="cmp-head" href="/p/${esc(p.slug)}">${imgBlock(p)}<div><span class="cmp-name">${esc(p.name)}</span><span class="cmp-verdict ${v.cls}">${esc(v.label)}</span> ${diff}</div></a>
   <div class="cmp-rows">
     <div class="cmp-row"><span class="cmp-store">${esc(p.domesticStore || '국내 최저가')}</span><span class="cmp-val"><b>₩${krw(p.domesticKrw)}</b><small>국내 최저가</small></span>${out(p.domesticUrl, '쿠팡에서 보기')}</div>
@@ -594,8 +593,8 @@ function pageCalculator() {
 // 알리 상품 링크·상품명 붙여 넣기 입력창(홈·딜 페이지 공용)
 function pasteBar(id = 'paste-q') {
   return `<form class="paste-bar" action="/search" method="get" role="search">
-  <label for="${id}"><b>알리 상품 링크나 상품명을 붙여 넣으세요</b><span>관세·부가세·배송비까지 더해 국내 최저가와 바로 비교해요</span></label>
-  <div class="paste-row"><input id="${id}" name="q" type="search" placeholder="ko.aliexpress.com/item/… 또는 QCY T13" autocomplete="off" enterkeyhint="go"><button type="submit" class="btn btn-point">판정하기</button></div>
+  <label for="${id}"><b>상품명이나 쇼핑몰 링크를 넣으세요</b><span>쿠팡·알리·아마존·아이허브 링크 모두 돼요. 같은 제품을 찾아 관세·배송비까지 더한 최종가로 비교해요</span></label>
+  <div class="paste-row"><input id="${id}" name="q" type="search" placeholder="QCY T13 또는 상품 링크 붙여 넣기" autocomplete="off" enterkeyhint="go"><button type="submit" class="btn btn-point">판정하기</button></div>
 </form>`;
 }
 
@@ -626,10 +625,10 @@ ${faq ? `<section class="block"><h2 class="h2">자주 묻는 질문</h2>${faq}<s
 function pageSearch() {
   const catOpts = Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)} (${esc(c.sub)})</option>`).join('');
   const body = `
-<div class="page-head"><h1 class="display" data-s-title>직구각 검색</h1><p class="muted" data-s-sub>상품명을 검색하거나 알리익스프레스 상품 주소를 붙여 넣으면 실시간 가격을 찾아 드려요. 국내 최저가와 비교해 관부가세까지 계산해 바로 판정해요.</p></div>
+<div class="page-head"><h1 class="display" data-s-title>직구각 검색</h1><p class="muted" data-s-sub>상품명이나 쇼핑몰 링크를 넣으면 알리익스프레스·쿠팡에서 같은 제품을 찾아, 관부가세까지 더한 최종가로 나란히 비교해요.</p></div>
 <form class="s-form" action="/search" method="get" role="search">
   <label for="sq" class="sr-only">상품 검색</label>
-  <input id="sq" name="q" type="search" placeholder="상품명 또는 알리 상품 주소 붙여 넣기" autocomplete="off">
+  <input id="sq" name="q" type="search" placeholder="상품명이나 쿠팡·알리·아마존·아이허브 링크" autocomplete="off">
   <button type="submit" class="btn btn-buy">검색</button>
 </form>
 <p class="s-tip muted small">브랜드·모델명으로 검색하면 국내 같은 상품과 비교하기 쉬워요.</p>
@@ -644,16 +643,8 @@ ${trendBlock('in-search')}
   <p class="muted small">아래 알리익스프레스 실시간 가격과 쿠팡 검색으로 직접 비교할 수 있어요. 자주 찾는 상품이면 판정 페이지로 만들어 드릴게요.</p>
   <a href="#" class="btn btn-line small" data-feedback>이 상품 판정해 달라고 요청하기</a>
 </section>
-<section class="block cpl" data-s-cpl hidden>
-  <div class="block-head"><div><h2 class="h2">쿠팡 가격</h2><span class="muted small" data-s-cpl-sub>쿠팡 파트너스 검색 결과 · 옵션(색·용량)마다 가격이 달라요</span></div></div>
-  <p class="s-status" data-s-cpl-status role="status" aria-live="polite"></p>
-  <ol class="cpl-list" data-s-cpl-list></ol>
-  <button type="button" class="btn btn-line small" data-s-cpl-more hidden>쿠팡 결과 더 보기</button>
-  <p class="muted small">"국내 기준으로"를 누르면 아래 알리 상품마다 이 가격과 비교한 판정이 바로 보여요. 같은 모델·색·구성인지 꼭 확인해 주세요. 이 영역은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-</section>
 <section class="block" data-s-live hidden data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
-  <div class="block-head"><div><h2 class="h2" data-s-live-title>알리익스프레스 실시간 가격</h2><span class="muted small">원화 판매가 기준 · 신규 회원 할인·쿠폰은 빠져 있어요</span></div></div>
-  <div class="s-pick" data-s-pick hidden><span class="s-pick-txt"></span><button type="button" class="s-pick-x" data-s-pick-clear aria-label="국내 기준 지우기">지우기</button></div>
+  <div class="block-head"><div><h2 class="h2" data-s-live-title>알리·쿠팡 실시간 가격 비교</h2><span class="muted small" data-s-live-sub>검색어와 비슷한 순서 · 알리 가격은 관부가세 포함 최종가로 판정해요</span></div></div>
   <p class="s-status" data-s-status role="status" aria-live="polite"></p>
   <ol class="s-list" data-s-list></ol>
   ${site.coupangSearchWidget ? `<div class="s-cp" id="s-cp" data-s-cp hidden>
@@ -689,7 +680,7 @@ ${trendBlock('in-search')}
     </div>
   </li>
 </template>
-<p class="muted small">알리 가격은 제휴 API로 받아온 원화 판매가예요. 회원·쿠폰·옵션에 따라 실제 결제가는 다를 수 있어요. 알리·아마존 링크로 구매하면 직구각이 제휴 수수료를 받을 수 있어요(구매가는 같아요). ${esc(site.fx.label)}.</p>`;
+<p class="muted small">알리·쿠팡 가격은 각 제휴 프로그램 API로 받아온 가격이에요. 회원·쿠폰·옵션에 따라 실제 결제가는 다를 수 있어요. 쿠팡 결과는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 알리·아마존 링크로 구매해도 직구각이 제휴 수수료를 받을 수 있어요(구매가는 같아요). ${esc(site.fx.label)}.</p>`;
   return layout({ title: '직구각 검색', description: '아무 상품이나 검색하면 알리익스프레스 실시간 가격을 찾고, 국내 최저가와 관부가세까지 계산해 직구각인지 판정해요.', urlPath: '/search', body, noindex: true, scripts: ['/assets/search.js'] });
 }
 
@@ -980,6 +971,7 @@ fs.mkdirSync(path.join(dist, 'assets'), { recursive: true });
 fs.copyFileSync(path.join(root, 'src', 'calc.js'), path.join(dist, 'assets', 'calc.js'));
 fs.copyFileSync(path.join(root, 'src', 'links.js'), path.join(dist, 'assets', 'links.js'));
 fs.copyFileSync(path.join(root, 'src', 'variants.js'), path.join(dist, 'assets', 'variants.js'));
+fs.copyFileSync(path.join(root, 'src', 'rank.js'), path.join(dist, 'assets', 'rank.js'));
 // 승인된 SNS 게시물 이미지(content/<폴더>/publish/*.jpg)를 공개 주소로: 인스타 API가 이미지를 URL로만 받아요
 for (const d of fs.existsSync(path.join(root, 'content')) ? fs.readdirSync(path.join(root, 'content')) : []) {
   const src = path.join(root, 'content', d, 'publish');
