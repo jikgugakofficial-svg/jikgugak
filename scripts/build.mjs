@@ -319,6 +319,15 @@ function compareCard(p) {
 const sampleNote = items.some((p) => p.sample) ? " · '예시' 표시 상품은 가격 확인 전이에요" : '';
 
 // ---------- 페이지: 홈 ----------
+// 진행 중이거나 다가오는 세일의 딜 모음 페이지로 가는 띠 (홈·세일·캘린더)
+function dealPromo() {
+  const today = kstToday();
+  const d = DEALS.find((x) => { const e = events.find((ev) => ev.id === x.event); return !e || (e.end || e.date) >= today; });
+  if (!d) return '';
+  const e = events.find((ev) => ev.id === d.event);
+  return `<a class="deal-promo" href="/deals/${esc(d.slug)}"><span class="deal-promo-pill">${e ? esc(e.name) + ' ' + evDday(e) : '세일 딜'}</span><b>${esc(d.h1)}</b><span class="deal-promo-go">알리 인기 상품 최종가 보기 →</span></a>`;
+}
+
 function pageHome() {
   const bf = events.find((e) => e.id === site.featuredEvent) || events[0];
   const upcomingAll = upcoming;
@@ -355,6 +364,7 @@ function pageHome() {
   </a>
 </section>
 
+${dealPromo()}
 <div class="ticks"><section class="ticker" aria-label="최근 판정"><span class="ticker-pill">최근 판정</span>${ticker}</section>${fxStrip()}</div>
 
 <section aria-labelledby="cat-title" class="block">
@@ -533,7 +543,7 @@ function pageCalculator() {
 function pageDeals(d) {
   const ev = events.find((e) => e.id === d.event);
   const aliMine = items.filter((p) => p.store === 'aliexpress' && !p.sample);
-  const chips = d.cats.map((c, i) => `<button type="button" class="deal-chip" data-deal-q="${esc(c.q)}" aria-pressed="${i === 0}">${esc(c.name)}</button>`).join('');
+  const chips = d.cats.map((c, i) => `<button type="button" class="deal-chip" data-deal-q="${esc(c.q)}" data-deal-cat="${esc(c.cat || '')}" aria-pressed="${i === 0}">${esc(c.name)}</button>`).join('');
   const faq = (d.faq || []).map((f) => `<details class="faq"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('');
   const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: (d.faq || []).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   const body = `
@@ -666,6 +676,7 @@ function pageSale() {
   ${nextSaleCircle()}
 </section>
 
+${dealPromo()}
 <section class="block" aria-labelledby="sale-now">
   <div class="block-head"><div><h2 id="sale-now" class="h2 big">지금 사도 직구각</h2><span class="muted small">세일을 기다릴 필요 없이 이미 국내보다 20% 이상 싼 상품</span></div></div>
   <div class="grid">${good.map(card).join('\n')}</div>
@@ -754,6 +765,7 @@ function pageCalendar() {
   const body = `
 <div class="page-head"><h1 class="display">세일 캘린더</h1><p class="muted">해외 직구 세일부터 국내에서 많이 쓰는 쇼핑몰·브랜드 세일까지 한 달 달력으로 보여 드려요. 카테고리와 국내·해외로 골라 보세요.</p>
 <a class="btn btn-ink small" href="/calendar.ics">내 캘린더에 전체 구독 (.ics)</a></div>
+${dealPromo()}
 <div class="cal-filters">
   <div class="cal-cats" role="group" aria-label="카테고리">${catBtns}</div>
   <div class="filters ev-filters" role="group" aria-label="국내·해외">

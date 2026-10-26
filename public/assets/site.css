@@ -667,3 +667,8 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .faq { border-bottom: 1px solid var(--line); padding: 12px 0; }
 .faq summary { font-weight: 800; cursor: pointer; }
 .faq p { margin: 8px 0 0; color: var(--sub); }
+.deal-promo { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 12px 0; padding: 14px 18px; border-radius: 14px; background: var(--point); color: #fff; text-decoration: none; }
+.deal-promo:hover { color: #fff; background: var(--point-dark); }
+.deal-promo b { font-size: 16px; }
+.deal-promo-pill { background: var(--brand); color: #fff; font-size: 12px; font-weight: 900; padding: 3px 10px; border-radius: 999px; }
+.deal-promo-go { margin-left: auto; font-size: 14px; font-weight: 800; color: var(--point-soft); }

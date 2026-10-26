@@ -23,8 +23,10 @@ function shortQuery(t) {
   return (model.length ? [words[0], ...model] : words.slice(0, 4)).join(' ');
 }
 
+let CAT = '';
 function row(it) {
-  const c = landedCost({ priceUsd: it.price / FX, shipUsd: 0, origin: 'other', method: 'express', category: guessCat(it.category), fx: FX });
+  // 품목별 관세율은 data/deals.json의 cat(음향 8%, 생활·배터리·충전기 8%, IT 0%)을 쓰고, 없으면 알리 분류로 추정해요
+  const c = landedCost({ priceUsd: it.price / FX, shipUsd: 0, origin: 'other', method: 'express', category: CAT || guessCat(it.category), fx: FX });
   const cif = Math.floor(it.price);
   const total = c.dutyFree ? cif : cif + Math.floor(cif * c.rate) + Math.floor((cif + Math.floor(cif * c.rate)) * 0.1);
   const off = it.original > it.price ? Math.round((1 - it.price / it.original) * 100) : 0;
@@ -59,6 +61,7 @@ async function load(q) {
 }
 chips.forEach((b) => b.addEventListener('click', () => {
   chips.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+  CAT = b.dataset.dealCat || '';
   load(b.dataset.dealQ);
 }));
-if (chips[0]) load(chips[0].dataset.dealQ);
+if (chips[0]) { CAT = chips[0].dataset.dealCat || ''; load(chips[0].dataset.dealQ); }
