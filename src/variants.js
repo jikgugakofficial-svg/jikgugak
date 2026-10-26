@@ -1,6 +1,6 @@
 // 같은 모델인지 볼 때 쓰는 공용 도우미(검색 화면 public/assets/search.js · 자동 후보 발굴 scripts/coupang.mjs 공용)
-// 이름 끝 등급(Pro·Max·Plus·Ultra·Lite·Mini·SE 등)이 한쪽에만 있으면 다른 모델일 가능성이 커요
-export const VARIANTS = [['pro', '프로'], ['max', '맥스'], ['plus', '플러스', '\\+'], ['ultra', '울트라'], ['lite', '라이트'], ['mini', '미니'], ['se'], ['air', '에어'], ['neo', '네오'], ['active', '액티브']];
+// 이름 끝 등급(Pro·Max·Plus·Ultra·Lite·Mini·SE 등)이나 ANC 유무가 한쪽에만 있으면 다른 모델일 가능성이 커요(QCY T13 ≠ T13 ANC)
+export const VARIANTS = [['pro', '프로'], ['max', '맥스'], ['plus', '플러스', '\\+'], ['ultra', '울트라'], ['lite', '라이트'], ['mini', '미니'], ['se'], ['air', '에어'], ['neo', '네오'], ['active', '액티브'], ['anc', '노이즈캔슬링', '노이즈 캔슬링', '노이즈캔슬', '노이즈 캔슬']];
 export function variantsOf(t) {
   const s = ' ' + String(t).toLowerCase().replace(/[()\[\],/_-]/g, ' ') + ' ';
   return VARIANTS.filter((names) => names.some((n) => new RegExp(`[\\s\\d]${n}(?=[\\s\\d])`).test(s))).map((n) => n[0]);

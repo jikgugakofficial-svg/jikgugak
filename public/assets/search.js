@@ -156,7 +156,8 @@ function score(title, term) {
 // 알리·쿠팡 결과를 같은 모델끼리 묶고, 비슷한 순서로 한 목록을 만들어요
 function merge(aliItems, cpItems, term, pinnedAli) {
   const A = aliItems.map((it) => ({ it, s: score(it.title, term) })).filter((x) => x.s >= 0 || x.it === pinnedAli);
-  const C = cpItems.map((it) => ({ it, s: score(it.name, term) })).filter((x) => x.s >= 0 && !ACCESSORY_WORDS.some((w) => x.it.name.toLowerCase().includes(w) && !term.toLowerCase().includes(w)));
+  const seenCp = new Set();
+  const C = cpItems.filter((it) => { const k = it.name + '|' + it.price; return !seenCp.has(k) && seenCp.add(k); }).map((it) => ({ it, s: score(it.name, term) })).filter((x) => x.s >= 0 && !ACCESSORY_WORDS.some((w) => x.it.name.toLowerCase().includes(w) && !term.toLowerCase().includes(w)));
   const usedA = new Set(); const units = [];
   for (const c of [...C].sort((x, y) => y.s - x.s)) {
     const cand = A.filter((a) => !usedA.has(a) && !a.it.accessory && a.it.price >= c.it.price * 0.35 && sameModel(a.it.title, c.it.name)).sort((x, y) => y.s - x.s)[0];
