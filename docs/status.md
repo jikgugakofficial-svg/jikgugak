@@ -35,7 +35,7 @@
 - 예약 SNS 글은 publish.json `fxCheck`로 게시 직전 환율 확인(어긋나면 게시 멈춤·Actions 실패 메일).
 - 쿠팡 Akamai 차단: 연달아 열면 막혀요. 한 페이지마다 15초 이상, 한 번에 몇 개씩만.
 - **쿠팡 파트너스 최종 승인 완료(10/26 운영자)**, 추적 코드 AF5913304, 활동 채널은 jikgugak.com뿐. 공식 API 연결 코드 준비됨(`scripts/coupang.mjs`, 워크플로 `coupang`), 키 등록 대기. 아이허브 제휴(impact) 승인 대기.
-- 쿠팡 API 단계: ① 운영자 키 발급·GitHub Secrets 등록 → ② Actions에서 check(연결 확인) → ③ 새 상품 링크는 deeplink로 → ④ prices(보고만) 1주 돌려 손 확인값과 비교 → ⑤ 맞으면 COUPANG_AUTO=on으로 매시간 대조·매일 실적 → ⑥ 그 뒤 붙여 넣기 판정에 국내가 제안 검토(호출 제한 때문에 방문자 요청마다 부르지 않음).
+- 쿠팡 API(10/26): ① 키 등록 완료 ② 연결 확인 성공(딥링크 응답) ③ 새 상품 링크는 Actions `coupang` → deeplink로 만들어요(운영자 로그인 불필요) ④ **가격 대조(보고만) 매시간 4개 자동 실행 중**, 결과 `data/coupang-prices.json`, 첫 시험 2개: CGN 오메가3 API 31,170원 = 기록값, 닥터스베스트 마그네슘은 검색에 같은 상품 번호 없음(쿠팡 주소 새로 필요) ⑤ 11/2쯤 대조 결과가 손 확인값과 맞으면 차이 나는 상품만 price-checker가 확인해 반영 ⑥ 매일 09:20 실적 리포트(`data/coupang-report.json`) ⑦ 나중에 붙여 넣기 판정에 국내가 제안 검토. 실행 결과는 `data/coupang-status.json`(이 환경에선 Actions 기록을 못 열어요). 멈춤 표시는 `data/coupang-guard.json`의 stoppedAt.
 
 ## 4. 게시 일정
 | 날짜 | 무엇 | 상태 |
@@ -55,11 +55,11 @@
 - [ ] 10/27~10/31 매일 게시 전: 그날 글의 상품 실물 확인(`content/_plans/2026-10-26-set2-livecheck.md`), 게시 결과 보고.
 - [ ] 10/30: S2-05 새 환율 확인(fxCheck가 막으면 고침), N2 실물 확인·키트.
 - [ ] 같은 제품 확인 남은 14개(정기 점검에서 몇 개씩).
+- [ ] 매일 `data/coupang-prices.json`·`coupang-status.json` 훑어보기, 11/2 대조 결과 정리(검색에 안 잡히는 상품은 `coupangKeyword` 추가).
 - [ ] 쿠팡 미확인 상품 가격(정기 점검에서 나눠서).
 - [ ] `content/2026-10-23-series-3-iherb-shipping`은 락토비프 숫자 기준이라 쓰려면 다시 계산.
 
 **운영자**
-- [ ] 쿠팡 파트너스 → 파트너스 API에서 키 발급, GitHub 저장소 Settings → Secrets and variables → Actions에 `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY` 등록(채팅에 붙여 넣지 않기).
 - [ ] 카카오 공유 디버거(https://developers.kakao.com/tool/debugger/sharing)에서 `https://www.jikgugak.com`·`https://jikgugak.com` 캐시 초기화(10/26 공유 이미지를 주황 시안 B로 새로 만들고 주소에 `?v=20261026b` 붙임. 원본 `tools/og/og.html`, 시안 a·b·c는 body data-v로 바꿔요).
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.
