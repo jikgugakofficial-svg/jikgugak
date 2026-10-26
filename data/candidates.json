@@ -8,7 +8,7 @@
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 반복(2024.12 3.5만 원대, 2026.06 광군제 전 공구 $28대), 알리 키보드 중 언급 최다",
       "at": "2026-10-26T14:00:07.443Z",
-      "status": "no_coupang",
+      "status": "rejected",
       "coupangTop": 10,
       "ali": [
         {
@@ -39,7 +39,8 @@
           "url": "https://ko.aliexpress.com/item/1005006260870758.html"
         }
       ],
-      "coupang": []
+      "coupang": [],
+      "reviewNote": "10/27 매니저: 쿠팡은 한글 각인·국내 전용 축(솜사탕·피치·바다축), 알리는 다른 축·비공식 스토어라 같은 구성 아님"
     },
     "Logitech G Pro X Superlight 2": {
       "q": "Logitech G Pro X Superlight 2",
@@ -92,6 +93,24 @@
       "coupangTop": 10,
       "ali": [],
       "coupang": []
+    },
+    "QCY MeloBuds N70": {
+      "q": "QCY MeloBuds N70",
+      "status": "registered",
+      "at": "2026-10-26T16:10:00Z",
+      "reviewNote": "10/27 매니저 브라우저 확인 후 등록"
+    },
+    "Edifier M90": {
+      "q": "Edifier M90",
+      "status": "registered",
+      "at": "2026-10-26T16:10:00Z",
+      "reviewNote": "10/27 매니저 브라우저 확인 후 등록"
+    },
+    "Soundcore Liberty 4 Pro": {
+      "q": "Soundcore Liberty 4 Pro",
+      "status": "registered",
+      "at": "2026-10-26T16:10:00Z",
+      "reviewNote": "10/27 매니저 브라우저 확인 후 등록"
     }
   },
   "updatedAt": "2026-10-26T15:52:16.960Z"
