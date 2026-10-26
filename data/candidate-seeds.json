@@ -1,40 +1,751 @@
 {
   "note": "자동 후보 발굴용 검색어(product-scout, 2026-10-26)",
   "seeds": [
-    {"q": "Logitech G Pro X Superlight 2", "brand": "Logitech", "model": "G Pro X Superlight 2", "cat": "it", "why": "퀘이사존 알리 직구 핫딜 반복(2025.12·2026.03 약 9.9만 원대), 국내 정발가 16.7만 원대(2026.06 핫딜 글)라 차이 큼"},
-    {"q": "AULA F87 Pro", "brand": "AULA", "model": "F87 Pro", "cat": "it", "why": "퀘이사존 알리 핫딜 반복(2024.12 3.5만 원대, 2026.06 광군제 전 공구 $28대), 알리 키보드 중 언급 최다"},
-    {"q": "UGREEN Nexode 65W GaN", "brand": "UGREEN", "model": "Nexode 65W", "cat": "it", "why": "퀘이사존 2026.05 알리 핫딜 조회 1.4만·댓글 23(2025.07에도 같은 계열 글), 포트·디자인 변형 있음"},
-    {"q": "UGREEN 200W GaN Desktop Charger 8 Port", "brand": "UGREEN", "model": "200W", "cat": "it", "why": "퀘이사존 2026.07 알리 충전 스테이션 핫딜 조회 9,670·댓글 24, 200W 구매 후기 다수"},
-    {"q": "Anker Nano Power Bank 22.5W 5000mAh", "brand": "Anker", "model": "Nano Power Bank", "cat": "it", "why": "퀘이사존 알리 핫딜 $8.75, 금방 품절되고 판매자 주문 취소 후기 다수(직구 수요 높음)"},
-    {"q": "Soundcore P31i", "brand": "Soundcore", "model": "P31i", "cat": "audio", "why": "클리앙·퀘이사존 3만 원 이하 ANC 이어폰으로 언급(2026.06 오늘의집 2.9만 원 핫딜 조회 8.5천), 알리 신모델 언급"},
-    {"q": "Amazfit Bip 6", "brand": "Amazfit", "model": "Bip 6", "cat": "it", "why": "퀘이사존 2025.09·11 지마켓 8만 원대 핫딜 댓글 호평(입문 스마트워치), 알리 공식 스토어 판매"},
-    {"q": "Anker MagGo Slim Power Bank 5000mAh 20W", "brand": "Anker", "model": "MagGo", "cat": "it", "why": "퀘이사존 2026.06 알리 $25.08 vs 하이마트 4.7만 원 비교 글(슬림 맥세이프 5000mAh)"},
-    {"q": "Baseus Blade 2 100W 20000mAh", "brand": "Baseus", "model": "Blade 2", "cat": "it", "why": "퀘이사존 알리 핫딜 $26.99(약 3.9만 원) 댓글 활발, 1세대 대비 후기 비교"},
-    {"q": "Xiaomi Smart Band 11", "brand": "Xiaomi", "model": "Smart Band 11", "cat": "it", "why": "샤오미 코리아 공식 몰에 정발 등록, 밴드 시리즈는 퀘이사존 후기에서 알리 직구 1순위(밴드 9 프로 사용자 후기)"},
-    {"q": "QCY MeloBuds Neo", "brand": "QCY", "model": "MeloBuds Neo", "cat": "audio", "why": "QCY는 한국 알리 이어폰 판매 상위 브랜드(클리앙·퀘이사존 비교 글 상시 등장), 운영자 예시 모델"},
-    {"q": "Edifier W820NB Plus", "brand": "Edifier", "model": "W820NB Plus", "cat": "audio", "why": "퀘이사존 2026 알리 핫딜 $34.54, 코인샵 $28 댓글(앤커 Q45와 비교 질문)"},
-    {"q": "Anker Prime Power Bank 26250mAh 300W", "brand": "Anker", "model": "26250mAh", "cat": "it", "why": "퀘이사존 2026.04 병행 14.8만 원 vs 앤커코리아 정발 20만 원대 글(국내 정발과 가격 차 큼)"},
-    {"q": "UGREEN Nexode 100W 4 Port GaN Charger", "brand": "UGREEN", "model": "Nexode 100W", "cat": "it", "why": "퀘이사존 2026.06 알리 4포트 디스플레이 100W 약 5만 원, 네이버 유그린몰 넾다세일과 비교 언급"},
-    {"q": "Baseus Bowie MH1", "brand": "Baseus", "model": "Bowie MH1", "cat": "audio", "why": "퀘이사존 2026.03 알리 핫딜 $32.24(ANC·LDAC 헤드폰), 조회 3천"},
-    {"q": "AULA F108 Pro", "brand": "AULA", "model": "F108 Pro", "cat": "it", "why": "퀘이사존 2026.06 알리 공구 목록 $33.82, 풀배열 입문 키보드로 반복 언급"},
-    {"q": "Amazfit Active 2", "brand": "Amazfit", "model": "Active 2", "cat": "it", "why": "퀘이사존 지마켓 세일 글에서 Bip 6와 비교 고민 댓글(둥근 화면 선호), 알리 공식 스토어 판매"},
-    {"q": "Anker 511 Charger Nano 3 30W", "brand": "Anker", "model": "Nano 3", "cat": "it", "why": "운영자 예시 모델, 앤커 공식 스토어 알리 상시 판매·국내 정발 있음(웹 근거 약함)"},
-    {"q": "Soundcore Space A40", "brand": "Soundcore", "model": "Space A40", "cat": "audio", "why": "퀘이사존 알리 코인샵 정발판 4.9만 원 핫딜 댓글에서 가성비·국내 AS 호평"},
-    {"q": "MCHOSE ACE68 V2", "brand": "MCHOSE", "model": "ACE68 V2", "cat": "it", "why": "퀘이사존 2026.06 알리 공구 21종에 포함($39.05), 스위치 옵션별 가격 갈림"},
-    {"q": "QCY AilyBuds Pro+", "brand": "QCY", "model": "AilyBuds Pro+", "cat": "audio", "why": "다모앙·밈코 사용 후기 글 존재(AilyBuds Pro 계열), QCY 상위 인기 라인"},
-    {"q": "Amazfit Balance 2", "brand": "Amazfit", "model": "Balance 2", "cat": "it", "why": "퀘이사존 지마켓 세일 글 국내가 35~36만 원, 고가라 국내외 가격 차 클 수 있음"},
-    {"q": "Xiaomi Smart Air Purifier 4 Lite", "brand": "Xiaomi", "model": "Air Purifier 4 Lite", "cat": "home", "why": "퀘이사존 알리 핫딜 $60대(2024.07), 샤오미 생활가전 알리 대표 품목"},
-    {"q": "Redmi Watch 5 Lite", "brand": "Redmi", "model": "Watch 5 Lite", "cat": "it", "why": "퀘이사존 Bip 6 글 댓글에서 7만 원 미만 대안으로 추천, GPS·통화·AOD 지원"},
-    {"q": "Edifier M90", "brand": "Edifier", "model": "M90", "cat": "audio", "why": "퀘이사존 2026.06 알리 공구 21종에 포함($91.94), 바이앰프 2.0 스피커"},
-    {"q": "Logitech G502 X Lightspeed", "brand": "Logitech", "model": "G502 X Lightspeed", "cat": "it", "why": "퀘이사존 2024.06 알리 $41대 핫딜(MX Master 3S와 함께), 국내 정발 유통"},
-    {"q": "QCY MeloBuds N70", "brand": "QCY", "model": "MeloBuds N70", "cat": "audio", "why": "클리앙 P31i 글 댓글에서 QCY 대표 비교 모델로 언급(성능은 QCY 우세 평)"},
-    {"q": "Redmi Watch 6", "brand": "Redmi", "model": "Watch 6", "cat": "it", "why": "샤오미코리아 2026.07 출시 보도(13만 9,800원), 신제품이라 국내외 가격 차 확인 가치"},
-    {"q": "Xiaomi Smart Air Purifier 4 Pro", "brand": "Xiaomi", "model": "Air Purifier 4 Pro", "cat": "home", "why": "퀘이사존 알리 핫딜 약 20.5만 원(2024.08), 네이버 해외직구 판매처와 가격 차 논의"},
-    {"q": "Naturehike Cloud Up 2", "brand": "Naturehike", "model": "Cloud Up 2", "cat": "home", "why": "네이처하이크는 퀘이사존 알리 캠핑 핫딜 단골 브랜드, 클라우드업 2는 한국 백패킹 대표 텐트(웹 근거 약함, 20D·210T 두 종류 주의)"},
-    {"q": "Amazfit T-Rex 3", "brand": "Amazfit", "model": "T-Rex 3", "cat": "it", "why": "퀘이사존 지마켓 세일 글에서 26.5만~49만 원 언급, 고가라 가격 차 클 수 있음"},
-    {"q": "Anker Prime Power Bank 27650mAh 250W", "brand": "Anker", "model": "27650mAh", "cat": "it", "why": "퀘이사존 2024.08 알리 $81 vs 국내 정발 12만 원대 비교 글(구형이라 재고 확인 필요)"},
-    {"q": "Xiaomi Smart Air Purifier 4", "brand": "Xiaomi", "model": "Air Purifier 4", "cat": "home", "why": "샤오미 코리아 공식 몰 정발 품목, 알리 글로벌 스토어에도 판매(4 Lite·4 Pro와 구분 필요)"},
-    {"q": "UGREEN CM400 M.2 NVMe SSD Enclosure", "brand": "UGREEN", "model": "CM400", "cat": "it", "why": "10Gbps NVMe SSD 케이스 대표 모델로 해외 유통 다수 확인(한국 커뮤니티 근거는 약함)"},
-    {"q": "Soundcore Liberty 4 Pro", "brand": "Soundcore", "model": "Liberty 4 Pro", "cat": "audio", "why": "퀘이사존 2024.11 알리 $67 핫딜(정발 대기 의견 다수), 구형이라 후순위"}
+    {
+      "q": "Logitech G304X Lightspeed",
+      "brand": "Logitech",
+      "model": "G304X",
+      "cat": "it",
+      "why": "퀘이사존 알리 핫딜 G304X 32,602원(무료배송, 종료·알리 쿠폰+코인딜). 같은 계열 G304는 1.2만 원짜리 가품 주의 글도 있어 공식 스토어만 볼 것. 국내 정발가는 이번에 확인 못 함",
+      "brandKo": "로지텍"
+    },
+    {
+      "q": "Edifier W830NB",
+      "brand": "Edifier",
+      "model": "W830NB",
+      "cat": "audio",
+      "why": "같은 브랜드 W820NB Plus가 퀘이사존 알리 $34.54~38.05 핫딜(2025~26, 댓글 활발)로 반복, W830NB는 상위(하이브리드 ANC) 모델이라 정발가와 차이 클 수 있음. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Edifier W800BT Plus",
+      "brand": "Edifier",
+      "model": "W800BT Plus",
+      "cat": "audio",
+      "why": "에디파이어 입문 온이어 헤드폰 라인(W820NB Plus와 같은 가격대 비교 대상). 국내 정발가·알리 공식 판매 여부는 후보 발굴 결과로 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Edifier QR30",
+      "brand": "Edifier",
+      "model": "QR30",
+      "cat": "audio",
+      "why": "퀘이사존 2026.01 네이버 정발 89,100원(핫게 최저) vs 직구 $56.2 비교 글(댓글 22). 150달러 이하라 면세, 다만 차이가 15% 안팎이라 애매일 수 있음",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Logitech MX Anywhere 3S",
+      "brand": "Logitech",
+      "model": "MX Anywhere 3S",
+      "cat": "it",
+      "why": "같은 라인 MX Master 3S가 퀘이사존 알리 $56.52 공구(2026.06)에 포함된 로지텍 공식 스토어 품목. MX Anywhere 3S 핫딜 글도 검색에 나옴(내용 미확인). 국내 정발가 확인 전",
+      "brandKo": "로지텍"
+    },
+    {
+      "q": "Dreame H12 Pro",
+      "brand": "Dreame",
+      "model": "H12 Pro",
+      "cat": "home",
+      "why": "드리미 국내 공식 스토어(11번가) H12 Pro FlexReach 598,000원 확인(2026.10 웹). 국내 정발가가 높게 잡히는 드리미 습건식 스틱청소기 본품, 알리 공식 스토어 일반가와 비교 가치. FlexReach·Ultra 등 구성 구분 필요",
+      "brandKo": "드리미"
+    },
+    {
+      "q": "Roborock Dyad Pro",
+      "brand": "Roborock",
+      "model": "Dyad Pro",
+      "cat": "home",
+      "why": "로보락 습건식 스틱청소기 본품(소모품 아님), 국내 정발 유통 + 알리 공식 스토어 판매 품목. 가격대가 높아 20%·1만 원 조건을 넘기 쉬움. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "로보락"
+    },
+    {
+      "q": "Edifier QR65",
+      "brand": "Edifier",
+      "model": "QR65",
+      "cat": "audio",
+      "why": "퀘이사존 알리 핫딜 $181.66(2026, 관세 약 3만 원 추가 언급) vs 국내정발 277,060~319,090원(2026.01·광군제 핫딜 글). 150달러 초과 과세라 차이가 작아 애매 가능성 큼",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Edifier MR4",
+      "brand": "Edifier",
+      "model": "MR4",
+      "cat": "audio",
+      "why": "퀘이사존 에디파이어 정발 세일 글에서 가장 잘 팔리는 모니터 스피커로 언급(QR65 가격의 약 1/4, MR3·MR4 MK2는 세일 제외 → 정발가 비쌀 수 있음). MR4 MK2 같은 개정판 구분 필요",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Insta360 X5",
+      "brand": "Insta360",
+      "model": "X5",
+      "cat": "it",
+      "why": "퀘이사존 알리 핫딜 \"INSTA360 X5 표준번들\" 699,000원(무료배송, 종료·할인코드). 정발 번들(표준/올인원/촬영키트)과 구성 맞춰야 하고 150달러 초과 과세",
+      "brandKo": "인스타360"
+    },
+    {
+      "q": "Logitech G Pro X Superlight 2",
+      "brand": "Logitech",
+      "model": "G Pro X Superlight 2",
+      "cat": "it",
+      "why": "퀘이사존 알리 직구 핫딜 반복(2025.12·2026.03 약 9.9만 원대), 국내 정발가 16.7만 원대(2026.06 핫딜 글)라 차이 큼"
+    },
+    {
+      "q": "AULA F87 Pro",
+      "brand": "AULA",
+      "model": "F87 Pro",
+      "cat": "it",
+      "why": "퀘이사존 알리 핫딜 반복(2024.12 3.5만 원대, 2026.06 광군제 전 공구 $28대), 알리 키보드 중 언급 최다"
+    },
+    {
+      "q": "UGREEN Nexode 65W GaN",
+      "brand": "UGREEN",
+      "model": "Nexode 65W",
+      "cat": "it",
+      "why": "퀘이사존 2026.05 알리 핫딜 조회 1.4만·댓글 23(2025.07에도 같은 계열 글), 포트·디자인 변형 있음"
+    },
+    {
+      "q": "UGREEN 200W GaN Desktop Charger 8 Port",
+      "brand": "UGREEN",
+      "model": "200W",
+      "cat": "it",
+      "why": "퀘이사존 2026.07 알리 충전 스테이션 핫딜 조회 9,670·댓글 24, 200W 구매 후기 다수"
+    },
+    {
+      "q": "Anker Nano Power Bank 22.5W 5000mAh",
+      "brand": "Anker",
+      "model": "Nano Power Bank",
+      "cat": "it",
+      "why": "퀘이사존 알리 핫딜 $8.75, 금방 품절되고 판매자 주문 취소 후기 다수(직구 수요 높음)"
+    },
+    {
+      "q": "Soundcore P31i",
+      "brand": "Soundcore",
+      "model": "P31i",
+      "cat": "audio",
+      "why": "클리앙·퀘이사존 3만 원 이하 ANC 이어폰으로 언급(2026.06 오늘의집 2.9만 원 핫딜 조회 8.5천), 알리 신모델 언급"
+    },
+    {
+      "q": "Amazfit Bip 6",
+      "brand": "Amazfit",
+      "model": "Bip 6",
+      "cat": "it",
+      "why": "퀘이사존 2025.09·11 지마켓 8만 원대 핫딜 댓글 호평(입문 스마트워치), 알리 공식 스토어 판매"
+    },
+    {
+      "q": "Anker MagGo Slim Power Bank 5000mAh 20W",
+      "brand": "Anker",
+      "model": "MagGo",
+      "cat": "it",
+      "why": "퀘이사존 2026.06 알리 $25.08 vs 하이마트 4.7만 원 비교 글(슬림 맥세이프 5000mAh)"
+    },
+    {
+      "q": "Baseus Blade 2 100W 20000mAh",
+      "brand": "Baseus",
+      "model": "Blade 2",
+      "cat": "it",
+      "why": "퀘이사존 알리 핫딜 $26.99(약 3.9만 원) 댓글 활발, 1세대 대비 후기 비교"
+    },
+    {
+      "q": "Xiaomi Smart Band 11",
+      "brand": "Xiaomi",
+      "model": "Smart Band 11",
+      "cat": "it",
+      "why": "샤오미 코리아 공식 몰에 정발 등록, 밴드 시리즈는 퀘이사존 후기에서 알리 직구 1순위(밴드 9 프로 사용자 후기)"
+    },
+    {
+      "q": "QCY MeloBuds Neo",
+      "brand": "QCY",
+      "model": "MeloBuds Neo",
+      "cat": "audio",
+      "why": "QCY는 한국 알리 이어폰 판매 상위 브랜드(클리앙·퀘이사존 비교 글 상시 등장), 운영자 예시 모델"
+    },
+    {
+      "q": "Edifier W820NB Plus",
+      "brand": "Edifier",
+      "model": "W820NB Plus",
+      "cat": "audio",
+      "why": "퀘이사존 2026 알리 핫딜 $34.54, 코인샵 $28 댓글(앤커 Q45와 비교 질문)"
+    },
+    {
+      "q": "Anker Prime Power Bank 26250mAh 300W",
+      "brand": "Anker",
+      "model": "26250mAh",
+      "cat": "it",
+      "why": "퀘이사존 2026.04 병행 14.8만 원 vs 앤커코리아 정발 20만 원대 글(국내 정발과 가격 차 큼)"
+    },
+    {
+      "q": "UGREEN Nexode 100W 4 Port GaN Charger",
+      "brand": "UGREEN",
+      "model": "Nexode 100W",
+      "cat": "it",
+      "why": "퀘이사존 2026.06 알리 4포트 디스플레이 100W 약 5만 원, 네이버 유그린몰 넾다세일과 비교 언급"
+    },
+    {
+      "q": "Baseus Bowie MH1",
+      "brand": "Baseus",
+      "model": "Bowie MH1",
+      "cat": "audio",
+      "why": "퀘이사존 2026.03 알리 핫딜 $32.24(ANC·LDAC 헤드폰), 조회 3천"
+    },
+    {
+      "q": "AULA F108 Pro",
+      "brand": "AULA",
+      "model": "F108 Pro",
+      "cat": "it",
+      "why": "퀘이사존 2026.06 알리 공구 목록 $33.82, 풀배열 입문 키보드로 반복 언급"
+    },
+    {
+      "q": "Amazfit Active 2",
+      "brand": "Amazfit",
+      "model": "Active 2",
+      "cat": "it",
+      "why": "퀘이사존 지마켓 세일 글에서 Bip 6와 비교 고민 댓글(둥근 화면 선호), 알리 공식 스토어 판매"
+    },
+    {
+      "q": "Anker 511 Charger Nano 3 30W",
+      "brand": "Anker",
+      "model": "Nano 3",
+      "cat": "it",
+      "why": "운영자 예시 모델, 앤커 공식 스토어 알리 상시 판매·국내 정발 있음(웹 근거 약함)"
+    },
+    {
+      "q": "Soundcore Space A40",
+      "brand": "Soundcore",
+      "model": "Space A40",
+      "cat": "audio",
+      "why": "퀘이사존 알리 코인샵 정발판 4.9만 원 핫딜 댓글에서 가성비·국내 AS 호평"
+    },
+    {
+      "q": "MCHOSE ACE68 V2",
+      "brand": "MCHOSE",
+      "model": "ACE68 V2",
+      "cat": "it",
+      "why": "퀘이사존 2026.06 알리 공구 21종에 포함($39.05), 스위치 옵션별 가격 갈림"
+    },
+    {
+      "q": "QCY AilyBuds Pro+",
+      "brand": "QCY",
+      "model": "AilyBuds Pro+",
+      "cat": "audio",
+      "why": "다모앙·밈코 사용 후기 글 존재(AilyBuds Pro 계열), QCY 상위 인기 라인"
+    },
+    {
+      "q": "Amazfit Balance 2",
+      "brand": "Amazfit",
+      "model": "Balance 2",
+      "cat": "it",
+      "why": "퀘이사존 지마켓 세일 글 국내가 35~36만 원, 고가라 국내외 가격 차 클 수 있음"
+    },
+    {
+      "q": "Xiaomi Smart Air Purifier 4 Lite",
+      "brand": "Xiaomi",
+      "model": "Air Purifier 4 Lite",
+      "cat": "home",
+      "why": "퀘이사존 알리 핫딜 $60대(2024.07), 샤오미 생활가전 알리 대표 품목"
+    },
+    {
+      "q": "Redmi Watch 5 Lite",
+      "brand": "Redmi",
+      "model": "Watch 5 Lite",
+      "cat": "it",
+      "why": "퀘이사존 Bip 6 글 댓글에서 7만 원 미만 대안으로 추천, GPS·통화·AOD 지원"
+    },
+    {
+      "q": "Edifier M90",
+      "brand": "Edifier",
+      "model": "M90",
+      "cat": "audio",
+      "why": "퀘이사존 2026.06 알리 공구 21종에 포함($91.94), 바이앰프 2.0 스피커"
+    },
+    {
+      "q": "Logitech G502 X Lightspeed",
+      "brand": "Logitech",
+      "model": "G502 X Lightspeed",
+      "cat": "it",
+      "why": "퀘이사존 2024.06 알리 $41대 핫딜(MX Master 3S와 함께), 국내 정발 유통"
+    },
+    {
+      "q": "QCY MeloBuds N70",
+      "brand": "QCY",
+      "model": "MeloBuds N70",
+      "cat": "audio",
+      "why": "클리앙 P31i 글 댓글에서 QCY 대표 비교 모델로 언급(성능은 QCY 우세 평)"
+    },
+    {
+      "q": "Redmi Watch 6",
+      "brand": "Redmi",
+      "model": "Watch 6",
+      "cat": "it",
+      "why": "샤오미코리아 2026.07 출시 보도(13만 9,800원), 신제품이라 국내외 가격 차 확인 가치"
+    },
+    {
+      "q": "Xiaomi Smart Air Purifier 4 Pro",
+      "brand": "Xiaomi",
+      "model": "Air Purifier 4 Pro",
+      "cat": "home",
+      "why": "퀘이사존 알리 핫딜 약 20.5만 원(2024.08), 네이버 해외직구 판매처와 가격 차 논의"
+    },
+    {
+      "q": "Naturehike Cloud Up 2",
+      "brand": "Naturehike",
+      "model": "Cloud Up 2",
+      "cat": "home",
+      "why": "네이처하이크는 퀘이사존 알리 캠핑 핫딜 단골 브랜드, 클라우드업 2는 한국 백패킹 대표 텐트(웹 근거 약함, 20D·210T 두 종류 주의)"
+    },
+    {
+      "q": "Amazfit T-Rex 3",
+      "brand": "Amazfit",
+      "model": "T-Rex 3",
+      "cat": "it",
+      "why": "퀘이사존 지마켓 세일 글에서 26.5만~49만 원 언급, 고가라 가격 차 클 수 있음"
+    },
+    {
+      "q": "Anker Prime Power Bank 27650mAh 250W",
+      "brand": "Anker",
+      "model": "27650mAh",
+      "cat": "it",
+      "why": "퀘이사존 2024.08 알리 $81 vs 국내 정발 12만 원대 비교 글(구형이라 재고 확인 필요)"
+    },
+    {
+      "q": "Xiaomi Smart Air Purifier 4",
+      "brand": "Xiaomi",
+      "model": "Air Purifier 4",
+      "cat": "home",
+      "why": "샤오미 코리아 공식 몰 정발 품목, 알리 글로벌 스토어에도 판매(4 Lite·4 Pro와 구분 필요)"
+    },
+    {
+      "q": "UGREEN CM400 M.2 NVMe SSD Enclosure",
+      "brand": "UGREEN",
+      "model": "CM400",
+      "cat": "it",
+      "why": "10Gbps NVMe SSD 케이스 대표 모델로 해외 유통 다수 확인(한국 커뮤니티 근거는 약함)"
+    },
+    {
+      "q": "Soundcore Liberty 4 Pro",
+      "brand": "Soundcore",
+      "model": "Liberty 4 Pro",
+      "cat": "audio",
+      "why": "퀘이사존 2024.11 알리 $67 핫딜(정발 대기 의견 다수), 구형이라 후순위"
+    },
+    {
+      "q": "Soundcore Sleep A30",
+      "brand": "Soundcore",
+      "model": "Sleep A30",
+      "cat": "audio",
+      "why": "수면용 ANC 이어버드 신제품, 국내 정발가가 높은 편이라 알리 공식 스토어와 차이 확인 가치. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Amazfit Cheetah Pro",
+      "brand": "Amazfit",
+      "model": "Cheetah Pro",
+      "cat": "it",
+      "why": "어메이즈핏 러닝 워치 상위 모델, 국내 정발(amazfit.kr) 정가가 높고 알리 공식 스토어 판매. 같은 브랜드 Active 2는 국내 공식몰 쿠폰가 13.9만 원(2025.04 글)이라 쿠팡 실제가 확인 필요",
+      "brandKo": "어메이즈핏"
+    },
+    {
+      "q": "Amazfit Active Edge",
+      "brand": "Amazfit",
+      "model": "Active Edge",
+      "cat": "it",
+      "why": "어메이즈핏 Active 라인(2025 신작), 국내 정발·알리 공식 스토어 모두 판매. Active 2와 이름이 비슷해 등급 구분 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "어메이즈핏"
+    },
+    {
+      "q": "Amazfit T-Rex Ultra",
+      "brand": "Amazfit",
+      "model": "T-Rex Ultra",
+      "cat": "it",
+      "why": "어메이즈핏 고가 아웃도어 워치, 고가라 국내외 차이가 클 수 있음(T-Rex 3와 별개 모델). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "어메이즈핏"
+    },
+    {
+      "q": "Amazfit GTR 4",
+      "brand": "Amazfit",
+      "model": "GTR 4",
+      "cat": "it",
+      "why": "어메이즈핏 둥근 스마트워치 대표작, 구형이라 알리 할인 폭이 큼. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "어메이즈핏"
+    },
+    {
+      "q": "Insta360 GO 3S",
+      "brand": "Insta360",
+      "model": "GO 3S",
+      "cat": "it",
+      "why": "인스타360 초소형 액션캠, 알리 공식 스토어 판매·국내 정발. 저장 용량(64/128GB)·번들 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "인스타360"
+    },
+    {
+      "q": "Insta360 Ace Pro 2",
+      "brand": "Insta360",
+      "model": "Ace Pro 2",
+      "cat": "it",
+      "why": "인스타360 액션캠 상위 모델, 알리 공식 스토어 판매·국내 정발. 번들(스탠다드/올인원) 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "인스타360"
+    },
+    {
+      "q": "Insta360 Flow 2 Pro",
+      "brand": "Insta360",
+      "model": "Flow 2 Pro",
+      "cat": "it",
+      "why": "인스타360 스마트폰 짐벌 신제품, 국내 정발·알리 공식 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "인스타360"
+    },
+    {
+      "q": "Insta360 GO Ultra",
+      "brand": "Insta360",
+      "model": "GO Ultra",
+      "cat": "it",
+      "why": "인스타360 초소형 액션캠 신작(2025), 국내 정발·알리 공식 판매. 번들·용량 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "인스타360"
+    },
+    {
+      "q": "Soundcore P40i",
+      "brand": "Soundcore",
+      "model": "P40i",
+      "cat": "audio",
+      "why": "앤커 사운드코어 P31i가 퀘이사존·클리앙 가성비 ANC 이어폰으로 반복 언급(2026.06 국내 정발 3.1만 원대) → 상위 후속 P40i 비교. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Soundcore Q20i",
+      "brand": "Soundcore",
+      "model": "Q20i",
+      "cat": "audio",
+      "why": "퀘이사존 에디파이어 W820NB Plus 알리 핫딜 글 댓글에서 앤커 Q45와 비교 질문이 나옴 → 같은 Q 시리즈 보급형 Q20i를 가성비 ANC 헤드폰 비교 대상으로. 국내 정발가 확인 전",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Soundcore Space One",
+      "brand": "Soundcore",
+      "model": "Space One",
+      "cat": "audio",
+      "why": "사운드코어 ANC 헤드폰 인기 모델(Space A40의 헤드폰 라인), 국내 정발·알리 공식 판매. Space One Pro와 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Soundcore Space One Pro",
+      "brand": "Soundcore",
+      "model": "Space One Pro",
+      "cat": "audio",
+      "why": "사운드코어 ANC 헤드폰 상위(LDAC), 국내 정발·알리 공식 판매. Space One과 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Soundcore Liberty 4 NC",
+      "brand": "Soundcore",
+      "model": "Liberty 4 NC",
+      "cat": "audio",
+      "why": "퀘이사존 Liberty 4 Pro 알리 $67 핫딜(2024.11) 반응이 컸던 라인의 중급형. Liberty 4 Pro와 이름 비슷해 NC만 맞을 것",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Soundcore Aerofit 2",
+      "brand": "Soundcore",
+      "model": "Aerofit 2",
+      "cat": "audio",
+      "why": "퀘이사존 알리 한국 스토어 에어로핏2 72,214원(2025.08, 국내 AS 18개월) 핫딜 글, 쿠팡 로켓직구로 산 후기 댓글도 있음. 쿠팡 정발가 확인 필요",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Soundcore Motion 300",
+      "brand": "Soundcore",
+      "model": "Motion 300",
+      "cat": "audio",
+      "why": "사운드코어 휴대용 스피커 인기 모델, 국내 정발·알리 공식 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "사운드코어"
+    },
+    {
+      "q": "Redmi Buds 6 Pro",
+      "brand": "Redmi",
+      "model": "Buds 6 Pro",
+      "cat": "audio",
+      "why": "레드미 중가 ANC 이어폰(55dB), 알리 글로벌 인기 품목. 국내 정발은 약해 쿠팡 로켓직구 가격과 비교될 수 있음. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "레드미"
+    },
+    {
+      "q": "Xiaomi Smart Band 10",
+      "brand": "Xiaomi",
+      "model": "Smart Band 10",
+      "cat": "it",
+      "why": "이미 등록한 밴드 10 프로의 일반형(프로 아님). 샤오미 코리아 정발·알리 글로벌 모두 판매. 가격대가 낮아 1만 원 조건이 걸림",
+      "brandKo": "샤오미"
+    },
+    {
+      "q": "Redmi Watch 5",
+      "brand": "Redmi",
+      "model": "Watch 5",
+      "cat": "it",
+      "why": "레드미 워치 5(일반형, Lite·Active 아님). 레드미 워치 6 퀘이사존 알리 글(국내 대비 비교 댓글)과 같은 라인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "레드미"
+    },
+    {
+      "q": "Xiaomi Robot Vacuum E10",
+      "brand": "Xiaomi",
+      "model": "Robot Vacuum E10",
+      "cat": "home",
+      "why": "샤오미 코리아 정발 로봇청소기 입문형, 알리 글로벌 판매. 로봇청소기라 부피·AS 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "샤오미"
+    },
+    {
+      "q": "Xiaomi Robot Vacuum S10",
+      "brand": "Xiaomi",
+      "model": "Robot Vacuum S10",
+      "cat": "home",
+      "why": "샤오미 로봇청소기 중급형, 국내 정발·알리 판매(S10+·S10 Pro와 구분 필요). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "샤오미"
+    },
+    {
+      "q": "Logitech C920 HD Pro",
+      "brand": "Logitech",
+      "model": "C920",
+      "cat": "it",
+      "why": "로지텍 웹캠 스테디셀러, 국내 정발가가 일정하고 알리 공식 스토어 판매. C920s와 구분 필요(모델명 정확히). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "로지텍"
+    },
+    {
+      "q": "Logitech Pebble Mouse 2 M350s",
+      "brand": "Logitech",
+      "model": "M350s",
+      "cat": "it",
+      "why": "로지텍 저가 무선 마우스. 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "로지텍"
+    },
+    {
+      "q": "Dreame V10S",
+      "brand": "Dreame",
+      "model": "V10S",
+      "cat": "home",
+      "why": "퀘이사존 알리 드리미 V10S $77.35(2025.05, 무료배송) 핫딜 글, 작년 광군제 구매 후기 댓글. 국내 정발 유통 여부 불확실(쿠팡에 같은 모델이 없으면 탈락)",
+      "brandKo": "드리미"
+    },
+    {
+      "q": "Sennheiser HD 560S",
+      "brand": "Sennheiser",
+      "model": "HD 560S",
+      "cat": "audio",
+      "why": "젠하이저 오픈형 헤드폰 인기 모델(등록한 HD 600과 같은 계열), 국내 정발·알리 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "젠하이저"
+    },
+    {
+      "q": "Audio-Technica ATH-M40x",
+      "brand": "Audio-Technica",
+      "model": "ATH-M40x",
+      "cat": "audio",
+      "why": "등록한 ATH-M50x의 아랫급 모니터 헤드폰, 국내 정발·알리 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "오디오테크니카"
+    },
+    {
+      "q": "JBL Clip 5",
+      "brand": "JBL",
+      "model": "Clip 5",
+      "cat": "audio",
+      "why": "JBL 휴대용 스피커 인기 모델, 국내 정발가 대비 알리 JBL 스토어 차이 확인 가치. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "JBL Flip 7",
+      "brand": "JBL",
+      "model": "Flip 7",
+      "cat": "audio",
+      "why": "JBL 휴대용 스피커 대표 라인 신제품(Flip 6 후속), 국내 정발가가 높은 편. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "JBL Go 4",
+      "brand": "JBL",
+      "model": "Go 4",
+      "cat": "audio",
+      "why": "JBL 초소형 스피커, 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "Anker 737 Charger GaNPrime 120W",
+      "brand": "Anker",
+      "model": "737 120W",
+      "cat": "it",
+      "why": "앤커 120W 3포트 GaNPrime 충전기, 국내 정발가 대비 알리 앤커 공식 스토어 가격 차이 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "앤커"
+    },
+    {
+      "q": "Anker 553 USB-C Hub 8-in-1",
+      "brand": "Anker",
+      "model": "553",
+      "cat": "it",
+      "why": "앤커 파워익스팬드 8-in-1 허브(등록한 유그린 7in1 허브와 비교 가능), 국내 정발·알리 공식 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "앤커"
+    },
+    {
+      "q": "Anker Nano Power Bank 30W 10000mAh",
+      "brand": "Anker",
+      "model": "Nano 10000mAh",
+      "cat": "it",
+      "why": "앤커 케이블 내장 보조배터리, 5000mAh 판은 퀘이사존 알리 $8.75 핫딜. 10000mAh 용량판 정발·알리 비교. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "앤커"
+    },
+    {
+      "q": "Baseus 3-in-1 MagSafe Wireless Charger 35W",
+      "brand": "Baseus",
+      "model": "MagSafe 35W",
+      "cat": "it",
+      "why": "퀘이사존 알리 핫딜 베이스어스 3IN1 맥세이프 무선충전기 Qi2.2 35W 54,186원(알리 스토어 쿠폰, 종료). 국내 정발가 확인 전. 거치대(stand)로 표기되면 본품 필터에 걸릴 수 있음",
+      "brandKo": "베이스어스"
+    },
+    {
+      "q": "Baseus Inspire XP1",
+      "brand": "Baseus",
+      "model": "XP1",
+      "cat": "audio",
+      "why": "베이스어스 ANC 오픈형 이어폰, 알리 베이스어스 공식 스토어 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "베이스어스"
+    },
+    {
+      "q": "UGREEN Magnetic Power Bank 30W 10000mAh",
+      "brand": "UGREEN",
+      "model": "10000mAh 30W",
+      "cat": "it",
+      "why": "퀘이사존 2026.06 알리 공구 \"Yugreen 30W 마그네틱 보조배터리\" $38.41. 국내 유그린 정발가 확인 전",
+      "brandKo": "유그린"
+    },
+    {
+      "q": "UGREEN 25000mAh 145W Power Bank",
+      "brand": "UGREEN",
+      "model": "25000mAh 145W",
+      "cat": "it",
+      "why": "유그린 대용량 고출력 보조배터리, 퀘이사존 알리 충전기·보조배터리 공구 단골 브랜드. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "유그린"
+    },
+    {
+      "q": "UGREEN NASync DXP2800",
+      "brand": "UGREEN",
+      "model": "DXP2800",
+      "cat": "it",
+      "why": "유그린 2베이 NAS, 가격대 높아 20%·1만 원 조건 넘기 쉬움. 국내 정발(쿠팡) 판매 여부 불확실. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "유그린"
+    },
+    {
+      "q": "DJI Osmo Mobile 7",
+      "brand": "DJI",
+      "model": "Osmo Mobile 7",
+      "cat": "it",
+      "why": "DJI 스마트폰 짐벌 인기 모델, 국내 정발가 대비 알리 DJI 스토어 차이 확인. 7P·SE와 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "DJI Mic Mini",
+      "brand": "DJI",
+      "model": "Mic Mini",
+      "cat": "it",
+      "why": "DJI 초소형 무선 마이크 인기 모델, 구성(1TX+1RX / 2TX+1RX + 충전케이스) 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "Oclean X Pro Elite",
+      "brand": "Oclean",
+      "model": "X Pro Elite",
+      "cat": "home",
+      "why": "오클린 전동칫솔 대표 모델, 국내 정식 출시(터치스크린 모델 보도)·알리 공식 스토어 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "오클린"
+    },
+    {
+      "q": "Oclean X10",
+      "brand": "Oclean",
+      "model": "X10",
+      "cat": "home",
+      "why": "오클린 전동칫솔 상위 모델, 국내 정발·알리 공식 판매. 색상·칫솔모 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "오클린"
+    },
+    {
+      "q": "8BitDo Ultimate 2 Wireless",
+      "brand": "8BitDo",
+      "model": "Ultimate 2",
+      "cat": "it",
+      "why": "8BitDo 무선 게임패드(국내 유통 + 알리 공식 스토어). Ultimate 2C와 이름 비슷해 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "8BitDo Pro 2",
+      "brand": "8BitDo",
+      "model": "Pro 2",
+      "cat": "it",
+      "why": "8BitDo 프로 2 무선 컨트롤러, 알리 공식 스토어 판매·국내 유통. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "8BitDo Ultimate 2C Wireless",
+      "brand": "8BitDo",
+      "model": "Ultimate 2C",
+      "cat": "it",
+      "why": "8BitDo 입문형 무선 패드. 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "FiiO KA11",
+      "brand": "FiiO",
+      "model": "KA11",
+      "cat": "audio",
+      "why": "FiiO 휴대용 USB DAC 동글 인기 모델, 국내 정식 유통 + 알리 FiiO 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "FiiO KA13",
+      "brand": "FiiO",
+      "model": "KA13",
+      "cat": "audio",
+      "why": "FiiO 데스크형 DAC/앰프 신제품, 국내 정식 유통 + 알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "1MORE SonoFlow",
+      "brand": "1MORE",
+      "model": "SonoFlow",
+      "cat": "audio",
+      "why": "1MORE 가성비 ANC 헤드폰, 국내 공식몰 유통 + 알리 1MORE 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "원모어"
+    },
+    {
+      "q": "Edifier R1280DB",
+      "brand": "Edifier",
+      "model": "R1280DB",
+      "cat": "audio",
+      "why": "에디파이어 대표 북쉘프 블루투스 스피커(국내 정발 유통). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Edifier NeoBuds Pro 2",
+      "brand": "Edifier",
+      "model": "NeoBuds Pro 2",
+      "cat": "audio",
+      "why": "에디파이어 ANC 이어폰 상위 모델, 국내 정발·알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Edifier TWS1 Pro 2",
+      "brand": "Edifier",
+      "model": "TWS1 Pro 2",
+      "cat": "audio",
+      "why": "에디파이어 가성비 ANC 이어폰, 국내 정발·알리 공식 스토어. 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "에디파이어"
+    },
+    {
+      "q": "Lexar NM790 2TB",
+      "brand": "Lexar",
+      "model": "NM790",
+      "cat": "it",
+      "why": "렉사 NVMe SSD 가성비 모델, 용량별(1·2·4TB) 가격이 크게 달라 용량 맞춰야 함. 국내 유통(쿠팡)·알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "렉사"
+    },
+    {
+      "q": "Bambu Lab A1 mini",
+      "brand": "Bambu Lab",
+      "model": "A1 mini",
+      "cat": "it",
+      "why": "뱀부랩 입문 3D 프린터, 국내 정발가 대 글로벌 스토어 가격 차이 확인. Combo(AMS lite 포함)·단품 구분 필요. 부피 커서 배송비 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "뱀부랩"
+    },
+    {
+      "q": "Elegoo Centauri Carbon",
+      "brand": "Elegoo",
+      "model": "Centauri Carbon",
+      "cat": "it",
+      "why": "엘레구 밀폐형 3D 프린터 신작(2025), 알리 공식 스토어 판매. 국내 유통 여부 불확실. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "brandKo": "엘레구"
+    },
+    {
+      "q": "Naturehike Mongar 2",
+      "brand": "Naturehike",
+      "model": "Mongar 2",
+      "cat": "home",
+      "why": "네이처하이크 백패킹 2인 텐트 인기 모델(Cloud Up 2와 같은 브랜드), 알리 공식 스토어·국내 유통. 20D/210T 등 소재 버전 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    }
   ]
 }
