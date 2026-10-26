@@ -18,7 +18,27 @@
       "recordedKrw": 23450,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "iherb-now-vitamin-d3-k2-120": {
+      "productId": "28205",
+      "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
+      "at": "2026-10-26T10:21:43.443Z",
+      "recordedKrw": 10240,
+      "found": true,
+      "apiPrice": 10240,
+      "isRocket": false,
+      "diff": 0
+    },
+    "ali-ugreen-7in1-usbc-hub": {
+      "productId": "6908511046",
+      "keyword": "유그린 7in1 USB-C 허브",
+      "at": "2026-10-26T10:21:44.486Z",
+      "recordedKrw": 59900,
+      "found": true,
+      "apiPrice": 59900,
+      "isRocket": true,
+      "diff": 0
     }
   },
-  "updatedAt": "2026-10-26T08:40:41.452Z"
+  "updatedAt": "2026-10-26T10:21:45.255Z"
 }
