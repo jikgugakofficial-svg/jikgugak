@@ -420,6 +420,19 @@ function verdictClaim(s) {
   return null;
 }
 
+// 같은 제품 확인 근거(products.json의 match)를 상품 페이지에 한 줄로 보여 줘요.
+function matchLine(p) {
+  const m = p.match;
+  if (!m) return '';
+  const when = m.checkedAt ? ` · ${esc(m.checkedAt)} 확인` : '';
+  const txt = m.method === 'barcode'
+    ? `같은 제품 확인: 국내·해외 바코드 일치 (${esc(String(m.domestic))})`
+    : m.method === 'variant'
+      ? `같은 제품 확인: 내용물 같음, ${esc(m.note)}`
+      : `같은 제품 확인: 모델·옵션 일치 (${esc(m.model || '')})${m.note ? ' · ' + esc(m.note) : ''}`;
+  return `<p class="match-line">${icon.check || ''}${txt}${when}</p>`;
+}
+
 function pageProduct(p) {
   const ev = p.ev;
   const v = VERDICT[ev.verdict];
@@ -458,6 +471,7 @@ function pageProduct(p) {
   <div class="cmp"><span>국내 최저가</span><b>₩${krw(p.domesticKrw)}</b><small>${esc(p.domesticSource)} 기준</small></div>
   <div class="cmp is-main"><span>해외 최종 체감가</span><b>₩${krw(c.total)}</b><small>${esc(p.storeName)} · 관부가세·배송비 포함</small></div>
 </div>
+${matchLine(p)}
 <div class="receipt">
   <b class="r-title">체감가 영수증</b>
   <div class="r-row"><span>${p.krwPriced ? `상품가 (원화 결제, ${usd(c.price)} 상당)` : `상품가 ${usd(c.price)}`}</span><span>₩${krw(p.krwPriced ? p.priceKrw : c.goodsKrw)}</span></div>
@@ -479,6 +493,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
   <div class="cmp"><span>국내 최저가</span><b>₩${krw(p.domesticKrw)}</b><small>${esc(p.domesticSource)} 기준</small></div>
   <div class="cmp is-main"><span>직구각 기준 가격</span><b>${ev.kind === 'break' ? '$' + ev.breakeven + ' 이하' : '없음'}</b><small>20% 이상, ₩${krw(RULE.minSaveKrw)} 이상 쌀 때</small></div>
 </div>
+${matchLine(p)}
 <form class="mini-calc" data-mini-calc data-domestic="${p.domesticKrw}" data-ship="${p.shipUsd}" data-origin="${p.origin}" data-method="${p.method}" data-category="${p.category}">
   <label for="mc-price"><b>지금 ${esc(p.storeName)} 가격을 넣어 보세요</b><span>${esc(p.storeName)}에서 본 가격을 그대로 넣으면 바로 판정해요. 원화(KRW)로 보이면 ₩를 골라 주세요.</span></label>
   <div class="mc-row"><select class="mc-cur" aria-label="통화"><option value="usd">$</option><option value="krw">₩</option></select><input id="mc-price" type="number" inputmode="decimal" min="0" step="any" placeholder="예: 119.99"></div>

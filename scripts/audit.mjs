@@ -28,6 +28,17 @@ for(const p of P){
   if(p.store==='iherb' && !/link|impact|partner/.test(p.buyUrl)) issues.push(p.slug+': 아이허브 링크가 제휴 링크 아님');
   if(!p.domesticCheckUrl) issues.push(p.slug+': no domesticCheckUrl');
   if(p.store!=='amazon' && !p.overseasCheckUrl) issues.push(p.slug+': no overseasCheckUrl');
+  // 같은 제품 확인(match): 바코드(GTIN·UPC) 또는 모델·옵션으로 국내·해외가 같은 상품인지 기록했는지
+  const m=p.match;
+  if(!p.hidden){
+    if(!m) issues.push(p.slug+': 같은 제품 확인(match) 기록 없음');
+    else {
+      const norm=(c)=>String(c||'').replace(/\D/g,'').replace(/^0+/,'');
+      if(m.method==='barcode' && (!m.domestic || !m.overseas || norm(m.domestic)!==norm(m.overseas))) issues.push('🔴 '+p.slug+`: 바코드 일치로 적었는데 번호가 달라요 (${m.domestic} / ${m.overseas})`);
+      if(m.method==='variant' && !m.note) issues.push('🔴 '+p.slug+': 바코드가 다른 포장·용량 차이(variant)는 note에 차이를 적어야 해요');
+      if(!['barcode','model','variant'].includes(m.method)) issues.push('🔴 '+p.slug+': match.method는 barcode·model·variant 중 하나');
+    }
+  }
 }
 const S=JSON.parse(fs.readFileSync(path.join(root,'data','settings.json'),'utf8'));
 issues.push('INFO fx: '+S.fx.label);

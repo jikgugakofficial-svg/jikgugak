@@ -675,3 +675,6 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .dom-sale-notice { margin: 10px 0; padding: 10px 14px; border-radius: 12px; background: var(--brand-tint); font-size: 14px; line-height: 1.6; }
 .dom-sale-notice a { font-weight: 800; }
 .dom-sale-pill { display: inline-block; margin-right: 8px; background: var(--brand); color: #fff; font-size: 12px; font-weight: 900; padding: 2px 9px; border-radius: 999px; }
+
+.match-line{display:flex;gap:6px;align-items:flex-start;margin:8px 0 0;font-size:13px;line-height:1.5;color:var(--good)}
+.match-line svg{flex:none;margin-top:2px}
