@@ -633,8 +633,23 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .cal-evs { display: none; }
   .cal-dots { display: flex; flex-wrap: wrap; }
   .cal-n { margin-left: 4px; font-size: 12px; padding: 1px 6px; }
+  /* 세일 카드: 날짜 상자를 왼쪽 작은 칸으로, 버튼은 본문 아래로 */
+  .ev { display: grid; grid-template-columns: 60px minmax(0, 1fr); column-gap: 14px; row-gap: 12px; align-items: start; padding: 16px; border-radius: 16px; }
+  .ev-date { padding: 8px 0; border-radius: 12px; }
+  .ev-date b { font-size: 20px; }
+  .ev-date span { font-size: 11px; }
+  .ev-body { min-width: 0; }
+  .ev > .btn { grid-column: 2; justify-self: start; }
+  .ev-title { flex-wrap: wrap; row-gap: 6px; column-gap: 8px; font-size: 18px; line-height: 1.35; }
+  .ev-title b { flex: 1 1 calc(100% - 20px); min-width: 0; }
+  .ev-title { align-items: flex-start; }
+  .ev-title .ev-dot { margin-top: 8px; }
 }
 .cal-ev.gap { background: transparent; }
+/* 달력 앞쪽 빈칸이 공용 .empty(둥근 상자) 스타일을 물려받지 않게 */
+.cal-d.empty { padding: 0; border-radius: 0; text-align: left; }
+/* D-날짜·대형 세일 표시는 한 줄로 */
+.ev-dday, .ev-major { white-space: nowrap; flex: 0 0 auto; }
 
 /* ---------- 인기·추천 검색어 ---------- */
 .trend { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; background: #fff; display: flex; flex-direction: column; gap: 6px; }
