@@ -82,7 +82,7 @@ const hasWord = (title, w) => new RegExp(`(^|[^a-z0-9])${esc(String(w).toLowerCa
 // 쿠팡 상품명은 브랜드를 한글로 쓰는 경우가 많아요
 const BRAND_KO = { logitech: ['로지텍'], anker: ['앤커'], ugreen: ['유그린'], baseus: ['베이스어스'], xiaomi: ['샤오미'], redmi: ['레드미', '샤오미'], amazfit: ['어메이즈핏', '어매이즈핏'], soundcore: ['사운드코어', '앤커'], edifier: ['에디파이어'], qcy: ['큐씨와이'], aula: ['아울라'], naturehike: ['네이처하이크'], mchose: ['엠초즈'] };
 const brandOk = (title, brand) => [brand, ...(BRAND_KO[String(brand).toLowerCase()] || []), ...(String(brand).toLowerCase() === 'soundcore' ? ['anker'] : [])].some((b) => hasWord(title, b));
-const hasModel = (title, seed) => brandOk(title, seed.brand) && String(seed.model).split(/\s+/).every((w) => hasWord(title, w)) && !variantMismatch(seed.q, title);
+const hasModel = (title, seed) => (brandOk(title, seed.brand) || (seed.brandKo && hasWord(title, seed.brandKo)) || (seed.brandKo && String(title).includes(seed.brandKo))) && String(seed.model).split(/\s+/).every((w) => hasWord(title, w)) && !variantMismatch(seed.q, title);
 // 본품이 아닌 것(교체 부품·케이스·필름 등)은 빼요
 const ACCESSORY = /(피트|스케이트|케이스|커버|파우치|필름|보호|스킨|그립|테이프|교체|호환|스트랩|밴드 줄|이어팁|이어패드|거치대|스탠드|키캡|리시버|동글|feet|skate|case|cover|pouch|film|protector|skin|grip|tape|replacement|compatible|strap|ear ?tips?|ear ?pads?|holder|stand|keycaps?|receiver|dongle)/i;
 async function discover() {
