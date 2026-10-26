@@ -1,5 +1,5 @@
 {
-  "approved": true,
+  "approved": false,
   "approvedBy": "운영자(채팅) 2026-10-26 09:57 KST \"둘다 게시해\"",
   "schedule": "2026-10-28T08:52:00Z",
   "liveCheck": "content/_plans/2026-10-26-set2-livecheck.md",
@@ -29,5 +29,6 @@
       ],
       "topicTag": "광군제"
     }
-  }
+  },
+  "heldBy": "매니저 2026-10-26 11:40 KST: QCY H3 쿠팡 색상(화이트/블랙)·가격(42,600 vs 기록 39,900), 샤오미 밴드 국내 정발 vs 글로벌판·색상 차이 확인 전까지 보류. 고친 뒤 운영자 재승인 필요."
 }
