@@ -51,7 +51,7 @@ async function load(q) {
     let d = cache.get(q);
     if (!d) { d = await fetch('/api/search?q=' + encodeURIComponent(q)).then((r) => r.json()); cache.set(q, d); }
     if (!d.ok) { status.textContent = '지금은 실시간 가격을 불러올 수 없어요. 잠시 뒤 다시 눌러 주세요.'; return; }
-    const top = (d.items || []).filter((it) => it.comparable !== false && !it.accessory).sort((a, b) => (b.orders || 0) - (a.orders || 0)).slice(0, 8);
+    const top = (d.items || []).filter((it) => it.comparable !== false && !it.accessory && it.price >= 5000).sort((a, b) => (b.orders || 0) - (a.orders || 0)).slice(0, 8);
     if (!top.length) { status.textContent = '이 품목은 지금 보여 드릴 상품이 없어요.'; return; }
     status.textContent = `"${q}" 인기 상품 ${top.length}개 · 판매량순`;
     list.innerHTML = top.map(row).join('');
