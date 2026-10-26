@@ -240,7 +240,7 @@
     "summary": [
       "같은 씨솔트블루·회목축 구성끼리 비교했어요.",
       "알리가 {diff} 싸지만 {pct}라 직구각 기준(20%)엔 한참 못 미쳐요. {beKrw} 이하로 떨어지면 직구각이에요.",
-      "쿠팡에도 중국 발송 상품이 ₩43,000대에 있는데, 이것도 사실상 직구라 국내 재고 상품과 따로 봤어요."
+      "쿠팡 로켓직구에 더 싼 F75도 있지만 축(크레센축 등)이 달라서 비교하지 않았어요. 같은 색·같은 축끼리만 비교해요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8721422294",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007099240050.html",
@@ -495,22 +495,22 @@
     "domesticUrl": "https://link.coupang.com/a/h2OJC6rAQu",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.10.26 오전",
     "slug": "iherb-on-gold-standard-whey-5lb",
     "name": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
     "priceKrw": 164128,
-    "domesticKrw": 169600,
-    "domesticSource": "쿠팡 해외 판매자 1개, 무료배송",
+    "domesticKrw": 137500,
+    "domesticSource": "쿠팡 해외 판매자 1개, 쿠폰가(10월 쿠폰, 기간 한정)·무료배송",
     "risks": [
       "식품이라 미국발도 $150 기준",
       "맛마다 가격 다름"
     ],
     "summary": [
-      "같은 2.27kg(5lb)끼리 비교했어요.",
-      "쿠팡은 지금 해외 판매자 상품이라, 아이허브가 {diff}({pct}) 싸지만 차이가 작아서 애매해요.",
-      "프로틴은 쿠팡 로켓직구 할인이 다시 올라오는지 먼저 확인하세요."
+      "같은 골드 스탠다드 100% 웨이 더블 리치 초콜릿 5lb(쿠팡 2.27kg, 아이허브 2.29kg)끼리 비교했어요.",
+      "쿠팡 해외 판매자 쿠폰가가 아이허브보다 {diff} 싸서 지금은 국내가 나아요.",
+      "쿠팡 쿠폰은 기간 한정이라, 쿠폰이 끝나면 다시 비교해 보세요. 쿠팡 상품명의 \"아이솔레이트\"는 일반 골드 스탠다드 웨이(유청 혼합)예요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/6714215076",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6714215076?itemId=15597205954",
     "overseasCheckUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
     "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/ef52/d91d305aaffc7a8c89f2a83a4504341d079bb081d8e963ed6f34698ee12d.jpg"
   },
