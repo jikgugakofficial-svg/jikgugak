@@ -217,42 +217,18 @@ function row(it) {
   $('.s-open').addEventListener('click', () => toggle());
   // 사진·상품명을 눌러도 펼쳐져요
   for (const el of [$('.s-title'), li.querySelector('.s-img')]) if (el) { el.classList.add('s-tap'); el.addEventListener('click', () => toggle(true)); }
-  // 국내 최저가 후보: 네이버 쇼핑 검색 API(키가 없으면 이 칸은 안 보여요). 자동 검색이라 같은 모델인지 사람이 확인해야 해요.
-  let naverLoaded = false;
+  // 국내 최저가 찾기: 네이버 쇼핑 검색 API는 2026-07-31 종료돼서, 같은 모델 검색어로 네이버쇼핑 검색 페이지를 열어 줘요.
   function loadNaver() {
     const box = $('.s-naver');
-    if (!box || naverLoaded) return;
-    naverLoaded = true;
+    if (!box || box.dataset.ready) return;
+    box.dataset.ready = '1';
     const nq = shortQuery(it.title);
-    fetch(`/api/naver?q=${encodeURIComponent(nq)}&model=${encodeURIComponent(it.model || '')}`)
-      .then((r) => r.json().catch(() => ({ ok: false })))
-      .then((d) => {
-        if (!d.ok || !d.items || !d.items.length) return;
-        const top = d.items.slice(0, 4);
-        box.innerHTML = `<div class="s-nv-head"><b>국내 최저가 후보 · 네이버쇼핑</b><span class="muted small">자동 검색 결과예요. 같은 모델·색·구성인지 꼭 확인하고 골라 주세요.</span></div>`;
-        const ul = document.createElement('ul'); ul.className = 's-nv-list';
-        for (const n of top) {
-          const row = document.createElement('li');
-          row.innerHTML = `<div class="s-nv-t"><a target="_blank" rel="noopener"></a><small></small></div><b></b><button type="button" class="btn btn-line small">이 가격으로 판정</button>`;
-          const a = row.querySelector('a'); a.href = n.link; a.textContent = n.title;
-          row.querySelector('small').textContent = [n.mall || '네이버쇼핑', n.modelMatch ? '모델명 일치' : (it.model ? '모델명 다름·확인 필요' : '')].filter(Boolean).join(' · ');
-          row.querySelector('b').textContent = '₩' + krw(n.price);
-          row.querySelector('button').addEventListener('click', () => { $('.s-dom-in').value = n.price; render(); });
-          if (n.modelMatch) row.classList.add('match');
-          ul.appendChild(row);
-        }
-        box.appendChild(ul);
-        const src = document.createElement('a');
-        src.className = 'small'; src.target = '_blank'; src.rel = 'noopener';
-        src.href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(nq)}`;
-        src.textContent = '네이버쇼핑에서 더 보기';
-        box.appendChild(src);
-        box.hidden = false;
-        // 모델명이 일치하는 가장 싼 상품이 있으면 미리 넣어 두고 알려요(바꿀 수 있어요)
-        const first = top.find((n) => n.modelMatch);
-        if (first && !$('.s-dom-in').value) { $('.s-dom-in').value = first.price; render(); box.querySelector('.s-nv-head span').textContent = `모델명(${(it.model || '').toUpperCase()})이 들어간 가장 싼 상품 가격을 넣어 뒀어요. 색·구성이 같은지 확인하고, 다르면 다른 후보를 골라 주세요.`; }
-      })
-      .catch(() => {});
+    box.innerHTML = '<div class="s-nv-head"><b>네이버쇼핑에서도 찾아보기</b><span class="muted small"></span></div><a class="btn btn-line small" target="_blank" rel="noopener"></a>';
+    box.querySelector('span').textContent = `'${nq}'로 검색해요. 같은 모델·색·구성인 가장 싼 가격을 아래 국내 최저가 칸에 넣어 주세요.`;
+    const a = box.querySelector('a');
+    a.href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(nq)}`;
+    a.textContent = '네이버쇼핑 최저가 보기';
+    box.hidden = false;
   }
   cat.addEventListener('change', render);
   $('.s-dom-in').addEventListener('input', render);
