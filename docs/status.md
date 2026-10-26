@@ -56,6 +56,7 @@
 - [ ] `content/2026-10-23-series-3-iherb-shipping`은 락토비프 숫자 기준이라 쓰려면 다시 계산.
 
 **운영자**
+- [ ] 카카오 공유 디버거(https://developers.kakao.com/tool/debugger/sharing)에서 `https://www.jikgugak.com`·`https://jikgugak.com` 캐시 초기화(10/26 공유 이미지 주소에 `?v=20261026` 붙임, 예전 ㄴ 로고 미리보기 갱신용).
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.
 - [ ] 10/29~10/31 네이버 N1 글 올리기(키트).
