@@ -168,7 +168,7 @@ const NAV = [
 ];
 
 function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false, image = '' }) {
-  const ogImage = image || absUrl('/og.png') + '?v=20261026';
+  const ogImage = image || absUrl('/og.png') + '?v=20261026b';
   const fullTitle = title ? `${title} | ${site.siteName}` : `${site.siteName} | ${site.tagline}`;
   const desc = description || site.description;
   const nav = NAV.map((n) => `<a href="${n.href}" class="navlink${current === n.href ? ' is-current' : ''}"${current === n.href ? ' aria-current="page"' : ''}>${esc(n.label)}</a>`).join('');
