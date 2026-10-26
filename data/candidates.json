@@ -111,7 +111,204 @@
       "status": "registered",
       "at": "2026-10-26T16:10:00Z",
       "reviewNote": "10/27 매니저 브라우저 확인 후 등록"
+    },
+    "Logitech G304X Lightspeed": {
+      "q": "Logitech G304X Lightspeed",
+      "brand": "Logitech",
+      "model": "G304X",
+      "cat": "it",
+      "why": "퀘이사존 알리 핫딜 G304X 32,602원(무료배송, 종료·알리 쿠폰+코인딜). 같은 계열 G304는 1.2만 원짜리 가품 주의 글도 있어 공식 스토어만 볼 것. 국내 정발가는 이번에 확인 못 함",
+      "at": "2026-10-26T17:24:12.324Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005011940293074",
+          "title": "로지텍 G304X 라이트스피드 게이밍 마우스, 듀얼 모드, HERO25K 센서, 25600 DPI, 6개의 프로그래밍 가능한 버튼, PC 및 노트북용.",
+          "price": 49500,
+          "orders": 205,
+          "rating": "98.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71ec278cc5f747798e37ddca46a870f3L.jpg",
+          "url": "https://ko.aliexpress.com/item/1005011940293074.html"
+        },
+        {
+          "id": "1005012130798082",
+          "title": "로지텍 G304X 무선 게이밍 마우스 57g 경량 듀얼 모드, 6개 프로그래밍 가능 버튼, FPS 발로란트 LOL P용 긴 배터리 수명",
+          "price": 41788,
+          "orders": 179,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se852b3da2ef24453ab09a0f327a5ba12t.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012130798082.html"
+        },
+        {
+          "id": "1005011847679788",
+          "title": "로지텍 G304X 무선 마우스 게이밍 e스포츠 마우스 리그 오브 레전드 PUBG FPS 휴대용 경량 57g 생일 선물 G304 X",
+          "price": 56500,
+          "orders": 38,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfea407f2ba334d0ea87c1357b6ae1cd08.jpg",
+          "url": "https://ko.aliexpress.com/item/1005011847679788.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Edifier W830NB": {
+      "q": "Edifier W830NB",
+      "brand": "Edifier",
+      "model": "W830NB",
+      "cat": "audio",
+      "why": "같은 브랜드 W820NB Plus가 퀘이사존 알리 $34.54~38.05 핫딜(2025~26, 댓글 활발)로 반복, W830NB는 상위(하이브리드 ANC) 모델이라 정발가와 차이 클 수 있음. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-26T17:24:16.346Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "Edifier W800BT Plus": {
+      "q": "Edifier W800BT Plus",
+      "brand": "Edifier",
+      "model": "W800BT Plus",
+      "cat": "audio",
+      "why": "에디파이어 입문 온이어 헤드폰 라인(W820NB Plus와 같은 가격대 비교 대상). 국내 정발가·알리 공식 판매 여부는 후보 발굴 결과로 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-26T17:24:18.670Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005012367889592",
+          "title": "Edifier W800BT/W800BT PLUS 무선 블루투스 헤드셋 헤드폰 배터리용 3.7V 1500mAh 604050 배터리",
+          "price": 11100,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e392043c685496881afc2e7d232a3c3f.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012367889592.html"
+        },
+        {
+          "id": "1005013273699316",
+          "title": "에디파이어 W800BT/W800BT PLUS 무선 블루투스 헤드셋용 3.7V 1800mAh 604050 배터리",
+          "price": 21750,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S55261e8c76424df3b34d13178d9ccfe3W.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013273699316.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Edifier QR30": {
+      "q": "Edifier QR30",
+      "brand": "Edifier",
+      "model": "QR30",
+      "cat": "audio",
+      "why": "퀘이사존 2026.01 네이버 정발 89,100원(핫게 최저) vs 직구 $56.2 비교 글(댓글 22). 150달러 이하라 면세, 다만 차이가 15% 안팎이라 애매일 수 있음",
+      "at": "2026-10-26T17:24:20.568Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "8744873775",
+          "name": "에디파이어 멀티미디어 블루투스 스피커 QR30",
+          "price": 129000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Me7RM25qbpEAPeapMQ6eBpawyfSWwh10RKqrrMeWHpmwUXdDmt2EM5Iu04V4VAOheewPe1b7pMh7ziV7yAVGxfV4LVZjShn1Gj0NGxv4uAsQymVxL1MbF8MDV8ewVzOHnf0AO_nIdrRyk25BNv8cmKI0mhDdPeU8bhzINAZTiqVAtIG02VdwbX3OjWk7Rc1L4YiaPe8TNg3OFtglW6F5wijmMbAvtde_iYM7P3o0_hctUBL146f1gukwETU7bZnvBxTVPMDJDDYjDwhB6l6SXeASryhcSo9CD726AGzS--RutyiH493YyiedsVuRmQxEmG5_1U5g6H0tha7bPskjTeE2wit21Ylb8C5Whrre6AIWJhWyfNilZeoF7mYdCGSTP0iGbp5CwomKdA5aVUKbnDpZkcEcjBNJ9ouA04NCzTWwFXptT56Y31BNJNUKC7AamcYTxBgeF2CWpcLV1rKa63q5gn4KecfPUn5w01M4diUxurVNQ1VAztiq8gRAlIepOyYHoU3awxrK-m0XPMIGt6Gfn_zToPTnX0x0kFsAMQVzwBnj",
+          "url": "https://www.coupang.com/vp/products/8744873775"
+        },
+        {
+          "id": "8744873775",
+          "name": "에디파이어 멀티미디어 블루투스 스피커 QR30",
+          "price": 129000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/LbRtO61qHe4fZ_q-LWM57F-vpM2fhClYiZri9gPgkeCro-iCofvvf6cDsjpnyN3iVfyXFqnKRo85VgO5h6jwuTjtaeH-r0Y2HpOoSSBT0k3fkZl1vOZFauLweGfv3M9DAHZde_TPk2M_N7iOd01Cjj6IGxG1Szo3-q-d3-rCHTHVHo4nzO4RoQ85WdUysdouFzz4Bb4k0zyEwT906WD3CA4Lh76_B7NvW65psy3LQVxOiZNeMzXqkRyYnAViNDdH0RQw6iiFm3giXrH5NtCz4ey3u0DPYGJuug_YXNpvNWAkbm6afHiI2hlpmPFasxpY1XjzuUFpOdiGuPgW0eglLeJJbw9WtYjTuwXb_oa7ii8EXimduQ1sNQh9o4o_SZpueV1LibdrlDgqRy9fTOlcTGr_l6bazLhQ5V-_ILOo35yqeBmAgUVzQ8YIWRWt0Ws8RzE4rV5_yyiV3Q5omvRkrIv9pSHTpeh4uqVqFswi37w_AAvzOki_7NMM5VmY2h8YXbtOyW7eOG5puxrfUyTwDgYvEEam19dOV5I_3plB5wI0z-cV",
+          "url": "https://www.coupang.com/vp/products/8744873775"
+        },
+        {
+          "id": "8956012039",
+          "name": "에디파이어 QR30 멀티 미디어 블루투스 스피커",
+          "price": 129000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/OyiCsAZwcLNnex-2O0SfRgmozYAI4N2x8Saktb0FREVXkhYVutskGx4XztdNxWD5oDWAvSYk1wy25oB5o1ML6wIvRlRUnUFKGD2-gyyYcJ3YHvtsKQIdQOMBDO1OZRd7-azjoPbPD26flqas1xSk4rLTTQQh3QxUqg8QO62NPuF6CHUy18D7js6FLoq338_M9d1ifvWHWbaKI95vI50MUGORip8-DBtBL2H2I1VFyrCfC9dizGSaq4qYypkxVHuxHxG6-yDl_e8VboD2v9xKFxmFklojuGkhKsZz5CPKJ1BZzhoeRwcVs1e5PGYdNV9oOr60Je3Cz0X_KZEVo-5jlo-dasEWWqSHdAcn-tfMiG_nY0KezjNZrPHU8VsnG3yphtZfQSvKAsujKCu0_U2lTJSzdsFMs6k-zWec2gFj8HoYNgx2H1j96ntMnUkhvdE4X_Ej7mIvBtB8_pE4J8UF-Qa3_R3JMqiNMB14L_fitK46_2wqUprqTpF3oNv2A3xfAi1joDaKilwN13WdhMmhKvSj",
+          "url": "https://www.coupang.com/vp/products/8956012039"
+        }
+      ]
+    },
+    "Logitech MX Anywhere 3S": {
+      "q": "Logitech MX Anywhere 3S",
+      "brand": "Logitech",
+      "model": "MX Anywhere 3S",
+      "cat": "it",
+      "why": "같은 라인 MX Master 3S가 퀘이사존 알리 $56.52 공구(2026.06)에 포함된 로지텍 공식 스토어 품목. MX Anywhere 3S 핫딜 글도 검색에 나옴(내용 미확인). 국내 정발가 확인 전",
+      "at": "2026-10-26T17:24:21.832Z",
+      "status": "no_coupang",
+      "coupangTop": 5,
+      "ali": [
+        {
+          "id": "1005007306839092",
+          "title": "로지텍 마스터 시리즈 MX Anywhere 3S 블루투스 무선 무음 마우스, 부드러운 사운드, 사무실 여성용 태블릿",
+          "price": 81581,
+          "orders": 54,
+          "rating": "95.6%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S79d2151649dc44c59e4dc229c8cce533N.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007306839092.html"
+        },
+        {
+          "id": "1005009603589063",
+          "title": "KIPNO 3.7V 600mAh 마우스 배터리 L/N: 1412 로지텍 MX Master MX Anywhere 2 MX Master 2 3 MX Anywhere 3S MR0083 G502 X 용",
+          "price": 7500,
+          "orders": 32,
+          "rating": "81.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e0deb19f4594ec99f289b73c2bec7ccP.png",
+          "url": "https://ko.aliexpress.com/item/1005009603589063.html"
+        },
+        {
+          "id": "1005013319590867",
+          "title": "로지텍 MX Anywhere 3S 무선 블루투스 마우스: 소음이 적은 클릭, 8000DPI, 휴대용, 노트북 및 PC용 다중 기기 지원 마우스",
+          "price": 25800,
+          "orders": 16,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4cae8a09a32847ae881fef6143c1389fX.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013319590867.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Dreame H12 Pro": {
+      "q": "Dreame H12 Pro",
+      "brand": "Dreame",
+      "model": "H12 Pro",
+      "cat": "home",
+      "why": "드리미 국내 공식 스토어(11번가) H12 Pro FlexReach 598,000원 확인(2026.10 웹). 국내 정발가가 높게 잡히는 드리미 습건식 스틱청소기 본품, 알리 공식 스토어 일반가와 비교 가치. FlexReach·Ultra 등 구성 구분 필요",
+      "at": "2026-10-26T17:24:24.353Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "8915328088",
+          "name": "드리미 올인원 청소기 H12 Pro FlexReach, H12 Pro FlexReach, 블랙",
+          "price": 399000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/s_TUjd8LEWpHsYdUs2EZp1aKKgeW30zrQ3ikysXgL6zzAD9uGMBCfQi0IEnCIpkCWl2-UE9ymjA0xFkYbjx_mh7zcfJLqxy21L-0ndd2m62BfvySnPrCIcLn39-OjJjNKf10HoYMkT6VL998teqbX_kkRnU4omJa1QxiZN2nmj8iqfHMR5JaDYSNYKkvZbdPdG2TSeKcUKmHtFdfLbvjGzFHt8WyexIO6XAhL9FUw1Mi7qeNEu7KVxcDOEYPUynDS-unEqfGSBEb1NabcjjpP3oUEMvr8qtsvqKBHCHZfOXQuOZwLas2VK5Wjj-o-sD0Y9R1eSysBiBvPrgUitVWklb3ao_gSduDqlK3PgKi1zkcoGpSJVxNLkBkG8-TD7BzNRDKw_6vakyOABdVRtjWwunXIucR7W4AGaSdFndpU43oLmdVBfcsd7TLS_qUHRlatRqStHn32yzph9nKsAzo3aFLuyEaeD7NFL5UybwIIAAblsc0nUmKdl3oPdyISkpk7CoTSSrkAOY=",
+          "url": "https://www.coupang.com/vp/products/8915328088"
+        },
+        {
+          "id": "9599824787",
+          "name": "dreame H12 Pro FlexReach 2-in-1 & 18,000 Pa (드리미) 물 닦아 청소기 건습 양용 무선",
+          "price": 587130,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/NR6DIcJn3eQoK7kXNYBdnjEu9R1swu68qPSqJJ2PG9C7BW9e-9uEVbahsfFK5TLM0iEyjpkp20CNeu8ikwdV9On7h-S46fYzYOIv5_HYoljvBCE5beJLBQCuTU6F6u8cGEe4GHl7Xheh5bZlTmGWv_SYPa3W7cUzvMsHwNP8-WT5qMpSBQ1E138KasuXq_8oxarQLlzROFnG0_VUwLpN7BDbO-uVgm75CP2IknfxpIaM_PbzPne7soIDKPEl1AgUMsRdTSK6qk_1gD75ZYq0V-rhD0EP1J9ugkAIE8nCV-WHWxvj6MI62xNHNYuzNZlcFCyZ8cUanAtzd_yIOtlVcwj98ZG9XBG1K5UNmhyvu8jj45Y3zjXDxc_jLk1LYFct3OL0jYRObEDpYqi01cWwfREpR1yk-LrY84ewqh8lzrikLpNboB-I265WzHabVy1CtLjeS_2IWx_0JPAHNY9f0ZrkdA4n3yE-t6f1wpWMUL28L1cZhXF5CAM4J0YNaV-mvnaCkuBbanILlT4x89guudU9Uh7QpPA3xqVsaeQyIZbw0g==",
+          "url": "https://www.coupang.com/vp/products/9599824787"
+        },
+        {
+          "id": "7959356146",
+          "name": "드리미 H12 Pro 무선 아쿠아 청소기",
+          "price": 937600,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/SunXzuh6yCqsqw7WSmxOsjqfbi2pQmtiChGGlYSUAFy-vBV6Oo13pmHbZlKCQYpdbGzMvN3G_lMCuK0KGbWghNT0jDwbfc-yu3QXsoTevY1pgem9i6NYW9-u-lPxpWoh-I0KlAaJBmp7uZIhfAP3Mhpo2pwmHiv9r2yg73mSkNxMUDruegehQy2xtoMS_bvBIrUPqmA1ADejYvNF-GmEXKVnwTY-5kmE24yyPQ0jRzPz7oAfvNM8RYm2wn29YBdCrGbEq42hqcNQPieG8YHWcPkEEMnAw3mfs7l0lT-ayW2F3Yflk3txf4QEc9sVgV68T4oWHTdMBdCQ3BbuEEfovd6GpbsXk0GOLCOKrYJOHjZ2DCUlX-eJ0J0EPzcxM0sh2CUXKZ7nq7b7ZzKlurrM3kyjM88m_csKlR7qSMs92506zavJuOZCPL9gEIZidOVnoxMYKPDOx9F9i8OrS9GiHofY6vmbqTgou1S5YnPHNfyOrI8GP3mqSGiSZqcVSUopMHeB1C2qw07IPmOI_c3EjVwcM2b2_jWVqCkivZzc44fosg==",
+          "url": "https://www.coupang.com/vp/products/7959356146"
+        }
+      ]
     }
   },
-  "updatedAt": "2026-10-26T15:52:16.960Z"
+  "updatedAt": "2026-10-26T17:24:26.065Z"
 }

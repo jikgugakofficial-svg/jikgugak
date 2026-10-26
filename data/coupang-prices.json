@@ -46,7 +46,15 @@
       "recordedKrw": 57750,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-qcy-t13-earbuds": {
+      "productId": "6572373138",
+      "keyword": "QCY T13 무선 블루투스 이어폰",
+      "at": "2026-10-26T17:24:26.066Z",
+      "recordedKrw": 21870,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-26T15:52:17.410Z"
+  "updatedAt": "2026-10-26T17:24:26.438Z"
 }
