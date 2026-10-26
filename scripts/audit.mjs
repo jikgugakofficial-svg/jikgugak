@@ -22,6 +22,7 @@ for (const f of files){
 // product checks
 const P=JSON.parse(fs.readFileSync(path.join(root,'data','products.json'),'utf8'));
 for(const p of P){
+  if(p.hidden) continue; // 숨긴 상품은 사이트에 안 나와요
   if(!p.domesticUrl) issues.push(p.slug+': no domesticUrl');
   if(!p.buyUrl) issues.push(p.slug+': no buyUrl');
   if(p.sample) issues.push(p.slug+': sample');

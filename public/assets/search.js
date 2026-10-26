@@ -61,7 +61,9 @@ if (q && link) {
         if (!d.ok) {
           statusEl.innerHTML = d.reason === 'not_configured'
             ? '상품 주소 판정은 곧 열려요. 지금은 <a href="/calculator">관세 계산기</a>에 가격을 직접 넣어 판정할 수 있어요.'
-            : '이 주소의 상품을 알리 제휴 정보에서 찾지 못했어요. 판매 종료됐거나 제휴 대상이 아닌 상품일 수 있어요. 상품명으로 검색해 보세요.';
+            : ['not_found', 'bad_id', 'no_price'].includes(d.reason)
+              ? '이 주소의 상품을 알리 제휴 정보에서 찾지 못했어요. 판매 종료됐거나 제휴 대상이 아닌 상품일 수 있어요. 상품명으로 검색해 보세요.'
+              : '상품 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.';
           return;
         }
         statusEl.textContent = '';
