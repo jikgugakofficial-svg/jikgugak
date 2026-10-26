@@ -74,7 +74,15 @@
       "apiPrice": 71570,
       "isRocket": false,
       "diff": 0
+    },
+    "amazon-sony-wh-1000xm6": {
+      "productId": "8832674019",
+      "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
+      "at": "2026-10-26T23:10:42.177Z",
+      "recordedKrw": 459000,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-26T21:12:47.537Z"
+  "updatedAt": "2026-10-26T23:10:42.523Z"
 }

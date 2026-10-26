@@ -664,7 +664,162 @@
           "url": "https://www.coupang.com/vp/products/9181779721"
         }
       ]
+    },
+    "Edifier W820NB Plus": {
+      "q": "Edifier W820NB Plus",
+      "brand": "Edifier",
+      "model": "W820NB Plus",
+      "cat": "audio",
+      "why": "퀘이사존 2026 알리 핫딜 $34.54, 코인샵 $28 댓글(앤커 Q45와 비교 질문)",
+      "at": "2026-10-26T23:10:30.378Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "Anker Prime Power Bank 26250mAh 300W": {
+      "q": "Anker Prime Power Bank 26250mAh 300W",
+      "brand": "Anker",
+      "model": "26250mAh",
+      "cat": "it",
+      "why": "퀘이사존 2026.04 병행 14.8만 원 vs 앤커코리아 정발 20만 원대 글(국내 정발과 가격 차 큼)",
+      "at": "2026-10-26T23:10:34.532Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "9246902602",
+          "name": "앤커 프라임 파워뱅크 26250mAh 300W 보조배터리 고속충전 대용량 노트북 기내용 여행용 맥북 갤럭시탭 PPS, 블랙, A110A",
+          "price": 219900,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/lAepCeNpsAXnr-DRlM36PoAk8PvdYJGlhAwqfIBe4bJCqeJFlAEl0L1Nuk3IBJOCx3Aje7Paub3iWZ5MShhxlT-V9GDMerMwkndEFuK-bq5MlO2KLhR8CrBdIOEz8T0hWJuUJRpJbLZ20i5GOEnve6hVbswQy7dkPA2TLq49RsvLf5efdN4EVD6K9_iLhcig6pQeNxUSzwQ6KevARDQgM_zs055pbWjAMf3ui-Jo5MbQcbJv0rMKJ5uRfHGSTUFwGkM2RiAXSQTKXgkqhJqs1GW22_IY8QyZExeKIesd6mozDrdBEWW0x-4o7f1TUtMkX-qhqRthBGUdOcOrU9ZE00K8CUgRdOE0K3izou60SogXZPXjN0slVFYRdBx7NOspb3yiLaTMzvD0s55H2x1Fb77x5bLlMKKczJbusmInRDTMiK0EGDeV1-krr08_6U1AvxK_5Id5g3RWXALuJuIkS_zss967POxeyVZFKE32Oahf_m0Ogezmx7-d1swl3D3qTP3f1CxQ2lapzemVInmhbLrKirxOZf33",
+          "url": "https://www.coupang.com/vp/products/9246902602"
+        }
+      ]
+    },
+    "UGREEN Nexode 100W 4 Port GaN Charger": {
+      "q": "UGREEN Nexode 100W 4 Port GaN Charger",
+      "brand": "UGREEN",
+      "model": "Nexode 100W",
+      "cat": "it",
+      "why": "퀘이사존 2026.06 알리 4포트 디스플레이 100W 약 5만 원, 네이버 유그린몰 넾다세일과 비교 언급",
+      "at": "2026-10-26T23:10:36.092Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "9692437984",
+          "name": "UGREEN Nexode 100W GaN USB C 벽걸이형 충전기 4포트 Type-C 고속 ProAir Dell XPS 171615 시리즈 Galaxy S25S24 Pixel",
+          "price": 138460,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/s-pfHSzBWut09PACswGAR9n2fr_kZRg5a-kIr2ljFQwk8d2ZDnVYsJg8iRe8Ia5kaHpFPgUnh1tcIQyihJOU57FYlYaNxf7HEEpv1TvMLMWzFSmbUa0M3AplKaqpi34ionv-dJ0Z8hF4LM7PUwdskpU2397LMYG85dR57uOc_W16Yim16MGQsvE3zhaQDO_r9CnwlWZJq4dUeLtijERgNu9nvXTyv2zsRSOsYUGKNVFuFJURqq6Uhp22OtKkceyD4BhqrOXruSKxQ9_yvyHzAZ5V5nqZkHCtwQ40GQphnnpWe0E9EdePZBDRNuVtdnTLIgeYAJH2cjwT04PcBh-Ct2MWcz15NmpG2r5SPcyA9jtsSKXLmDmofCld9H1rJwVXK7Q5gBjiT7L3pTHEZu9vIofbUhpX49xHLMWSLmkZSoVbHh8JDjyaZaTSsJqtCe5gOAnpvnqqHC3jl2iZqT4AnVRVYCqNjctM9V4uyOTcajtFKLSDS4Pq45SMpBLCEHGR59LS7Zc8gcErm_HKtsiVZpO23TGKipSPy49IX2cyE9LQPT4=",
+          "url": "https://www.coupang.com/vp/products/9692437984"
+        }
+      ]
+    },
+    "Baseus Bowie MH1": {
+      "q": "Baseus Bowie MH1",
+      "brand": "Baseus",
+      "model": "Bowie MH1",
+      "cat": "audio",
+      "why": "퀘이사존 2026.03 알리 핫딜 $32.24(ANC·LDAC 헤드폰), 조회 3천",
+      "at": "2026-10-26T23:10:37.306Z",
+      "status": "no_coupang",
+      "coupangTop": 2,
+      "ali": [
+        {
+          "id": "1005010537701039",
+          "title": "Baseus Bowie MH1 헤드폰 무선 블루투스 6.0 이어폰 능동형 소음 제거 이어버드 고해상도 LDAC 80H 재생 시간 헤드셋",
+          "price": 115000,
+          "orders": 4,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b1f9d7e52b64e089bcfe0d394e74270A.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010537701039.html"
+        },
+        {
+          "id": "1005010537683682",
+          "title": "Baseus Bowie MH1 헤드폰 무선 블루투스 6.0 이어폰 HiFi 플래그십 능동형 소음 제거 이어버드 고해상도 LDAC 헤드셋",
+          "price": 113600,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saa2b7555d24947c0ae399dc8e9899e8e0.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010537683682.html"
+        },
+        {
+          "id": "1005010733599925",
+          "title": "Baseus Bowie MH1 헤드폰 무선 블루투스 6.0 이어폰 HiFi 플래그십 능동형 소음 제거 이어버드 Hi-Res LDAC 헤드셋",
+          "price": 109800,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4da85d73a54b4b9e931243a16cf17f3cc.png",
+          "url": "https://ko.aliexpress.com/item/1005010733599925.html"
+        }
+      ],
+      "coupang": []
+    },
+    "AULA F108 Pro": {
+      "q": "AULA F108 Pro",
+      "brand": "AULA",
+      "model": "F108 Pro",
+      "cat": "it",
+      "why": "퀘이사존 2026.06 알리 공구 목록 $33.82, 풀배열 입문 키보드로 반복 언급",
+      "at": "2026-10-26T23:10:38.501Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005009384271028",
+          "title": "AULA F108 PRO 기계식 키보드 커스텀 100% 레이아웃 RGB 백라이트 무선 블루투스 하이파이 스위치 게이밍 키보드",
+          "price": 66900,
+          "orders": 1225,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5383646c4ed04d9089802c42f5b60e3cF.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009384271028.html"
+        },
+        {
+          "id": "1005010037011336",
+          "title": "AULA F108 Pro 게이밍 기계식 키보드 트라이 모드 커스텀 멀티 노브 스크린 RGB e스포츠 무선 키보드 TFT 스마트 디스플레이 탑재",
+          "price": 76500,
+          "orders": 964,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa562d274062f4f6aa4530a30197c3887h.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010037011336.html"
+        },
+        {
+          "id": "1005009845590858",
+          "title": "AULA F108 PRO 기계식 키보드 커스텀 100% 레이아웃 RGB 백라이트 무선 블루투스 하이파이 스위치 게이밍 키보드",
+          "price": 63961,
+          "orders": 777,
+          "rating": "94.9%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3e04b9425dc42e69562757e55d594beF.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009845590858.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Amazfit Active 2": {
+      "q": "Amazfit Active 2",
+      "brand": "Amazfit",
+      "model": "Active 2",
+      "cat": "it",
+      "why": "퀘이사존 지마켓 세일 글에서 Bip 6와 비교 고민 댓글(둥근 화면 선호), 알리 공식 스토어 판매",
+      "at": "2026-10-26T23:10:39.980Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "9439766520",
+          "name": "Amazfit Active 2 Smart Watch 어메이즈핏 액티브 2 스마트 워치 44mm 레드 실리콘",
+          "price": 195100,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/tB3T2PJZHNvmSvR-tAnZWIdFQiU-5a6PBwbSQRmf2kFxu_Rah3rubRcj4G9UBbrQmjwjBjTZIvKbEQK4VRJ08SfgVmmDfz_UL0mivEJr0xYZxGuW6SqEoxsPj7kXqDULzPzBBbRZfzd_C0OSzB80cirKohbhmzjOUexjtjP9keNc8M_DLgEtOxhcKpeS8q_HwnNnqndJ4BiEccHGikg8NVCcQE5p2SLyYo5jh21RwTFwqLpbsRb_puDQuAN8U9KB4ZoB8OptQBdtIyjdWB4vqYe1mwJMOXvdLeYs-myT1TZJlv0WQSAUYYQz-DoS2pyTodO-9MgQz4U3um7KCP5d6BpvqO7jhCHxhhRpviO7zgB5xO502g3293Hj4ueKMohqoL1bNsb34BzxN7a-EoCoF9TFcs2LclEhjAghwGF-BFnQb3wLWhT5lqHWBFO5Z_ftAI8TJo-wAlWFQdgYbYloSPyRej-q-YIUaoiLG-USDRgLTavIVEhRFbBKidk1h71NvSlwVE2Qdm-64zPdyEp3zbizoG17GQ-vdNu5Rfx-cK5SD0M=",
+          "url": "https://www.coupang.com/vp/products/9439766520"
+        }
+      ]
     }
   },
-  "updatedAt": "2026-10-26T21:12:47.252Z"
+  "updatedAt": "2026-10-26T23:10:42.176Z"
 }
