@@ -1,5 +1,6 @@
 // 검색: 직구각이 판정한 상품을 먼저 보여 주고, 알리익스프레스 실시간 가격으로 '아무 상품이나' 판정
 import { landedCost, judge, formatKrw as krw } from './calc.js';
+import { parseShopLink } from './links.js';
 
 const q = (new URLSearchParams(location.search).get('q') || '').trim();
 const live = document.querySelector('[data-s-live]');
@@ -45,7 +46,37 @@ document.getElementById('sq').value = q;
 const headerQ = document.getElementById('q');
 if (headerQ) headerQ.value = q;
 
-if (q) {
+const link = parseShopLink(q);
+if (q && link) {
+  // 붙여 넣은 상품 주소: 알리면 그 상품 하나를 바로 판정, 다른 쇼핑몰은 안내
+  document.title = '붙여 넣은 상품 직구각 판정 | 직구각';
+  document.querySelector('[data-s-title]').textContent = '붙여 넣은 상품 판정';
+  live.hidden = false;
+  live.querySelector('[data-s-live-title]').textContent = '붙여 넣은 알리익스프레스 상품';
+  if (link.store === 'aliexpress' && link.id) {
+    statusEl.textContent = '알리익스프레스 상품 정보를 불러오는 중이에요…';
+    fetch('/api/item?id=' + link.id)
+      .then((r) => r.json().catch(() => ({ ok: false })))
+      .then((d) => {
+        if (!d.ok) {
+          statusEl.innerHTML = d.reason === 'not_configured'
+            ? '상품 주소 판정은 곧 열려요. 지금은 <a href="/calculator">관세 계산기</a>에 가격을 직접 넣어 판정할 수 있어요.'
+            : '이 주소의 상품을 알리 제휴 정보에서 찾지 못했어요. 판매 종료됐거나 제휴 대상이 아닌 상품일 수 있어요. 상품명으로 검색해 보세요.';
+          return;
+        }
+        statusEl.textContent = '';
+        const li = row(d.item);
+        list.appendChild(li);
+        li.openJudge();
+      })
+      .catch(() => { statusEl.textContent = '상품 정보를 불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.'; });
+  } else if (link.store === 'aliexpress') {
+    statusEl.innerHTML = '이 알리 주소에서는 상품 번호를 찾지 못했어요. 앱 공유 주소(a.aliexpress.com)라면 앱에서 <b>브라우저로 열기</b>를 누른 뒤 주소창의 주소(…/item/숫자.html)를 붙여 넣어 주세요. 상품명으로 검색해도 돼요.';
+  } else {
+    const name = { coupang: '쿠팡', amazon: '아마존', iherb: '아이허브' }[link.store] || '이 쇼핑몰';
+    statusEl.innerHTML = `지금은 <b>알리익스프레스 상품 주소</b>만 바로 판정해요. ${name} 상품은 상품명이나 모델명으로 검색하거나, 가격을 <a href="/calculator">관세 계산기</a>에 넣어 판정해 주세요.`;
+  }
+} else if (q) {
   document.title = `'${q}' 직구각 검색 | 직구각`;
   document.querySelector('[data-s-title]').textContent = `'${q}' 직구각 검색`;
 
@@ -174,12 +205,50 @@ function row(it) {
     j.hidden = !willOpen;
     li.classList.toggle('open', willOpen);
     $('.s-open').textContent = willOpen ? '판정 닫기' : '국내가 넣고 판정';
-    if (willOpen) { render(); li.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    if (willOpen) { render(); loadNaver(); li.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   }
   li.closeJudge = () => toggle(false);
+  li.openJudge = () => toggle(true);
   $('.s-open').addEventListener('click', () => toggle());
   // 사진·상품명을 눌러도 펼쳐져요
   for (const el of [$('.s-title'), li.querySelector('.s-img')]) if (el) { el.classList.add('s-tap'); el.addEventListener('click', () => toggle(true)); }
+  // 국내 최저가 후보: 네이버 쇼핑 검색 API(키가 없으면 이 칸은 안 보여요). 자동 검색이라 같은 모델인지 사람이 확인해야 해요.
+  let naverLoaded = false;
+  function loadNaver() {
+    const box = $('.s-naver');
+    if (!box || naverLoaded) return;
+    naverLoaded = true;
+    const nq = shortQuery(it.title);
+    fetch(`/api/naver?q=${encodeURIComponent(nq)}&model=${encodeURIComponent(it.model || '')}`)
+      .then((r) => r.json().catch(() => ({ ok: false })))
+      .then((d) => {
+        if (!d.ok || !d.items || !d.items.length) return;
+        const top = d.items.slice(0, 4);
+        box.innerHTML = `<div class="s-nv-head"><b>국내 최저가 후보 · 네이버쇼핑</b><span class="muted small">자동 검색 결과예요. 같은 모델·색·구성인지 꼭 확인하고 골라 주세요.</span></div>`;
+        const ul = document.createElement('ul'); ul.className = 's-nv-list';
+        for (const n of top) {
+          const row = document.createElement('li');
+          row.innerHTML = `<div class="s-nv-t"><a target="_blank" rel="noopener"></a><small></small></div><b></b><button type="button" class="btn btn-line small">이 가격으로 판정</button>`;
+          const a = row.querySelector('a'); a.href = n.link; a.textContent = n.title;
+          row.querySelector('small').textContent = [n.mall || '네이버쇼핑', n.modelMatch ? '모델명 일치' : (it.model ? '모델명 다름·확인 필요' : '')].filter(Boolean).join(' · ');
+          row.querySelector('b').textContent = '₩' + krw(n.price);
+          row.querySelector('button').addEventListener('click', () => { $('.s-dom-in').value = n.price; render(); });
+          if (n.modelMatch) row.classList.add('match');
+          ul.appendChild(row);
+        }
+        box.appendChild(ul);
+        const src = document.createElement('a');
+        src.className = 'small'; src.target = '_blank'; src.rel = 'noopener';
+        src.href = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(nq)}`;
+        src.textContent = '네이버쇼핑에서 더 보기';
+        box.appendChild(src);
+        box.hidden = false;
+        // 모델명이 일치하는 가장 싼 상품이 있으면 미리 넣어 두고 알려요(바꿀 수 있어요)
+        const first = top.find((n) => n.modelMatch);
+        if (first && !$('.s-dom-in').value) { $('.s-dom-in').value = first.price; render(); box.querySelector('.s-nv-head span').textContent = `모델명(${(it.model || '').toUpperCase()})이 들어간 가장 싼 상품 가격을 넣어 뒀어요. 색·구성이 같은지 확인하고, 다르면 다른 후보를 골라 주세요.`; }
+      })
+      .catch(() => {});
+  }
   cat.addEventListener('change', render);
   $('.s-dom-in').addEventListener('input', render);
   $('.s-ship-in').addEventListener('input', render);

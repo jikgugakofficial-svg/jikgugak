@@ -678,3 +678,26 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 
 .match-line{display:flex;gap:6px;align-items:flex-start;margin:8px 0 0;font-size:13px;line-height:1.5;color:var(--good)}
 .match-line svg{flex:none;margin-top:2px}
+
+/* 국내 최저가 후보(네이버 쇼핑 API) */
+.s-naver { display: flex; flex-direction: column; gap: 8px; padding: 14px; border-radius: 14px; background: var(--point-tint); }
+.s-naver[hidden] { display: none; }
+.s-nv-head { display: flex; flex-direction: column; gap: 2px; }
+.s-nv-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.s-nv-list li { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; padding: 10px; border-radius: 10px; background: #fff; }
+.s-nv-list li.match { box-shadow: inset 0 0 0 2px var(--good); }
+.s-nv-t { min-width: 0; display: flex; flex-direction: column; }
+.s-nv-t a { color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; }
+.s-nv-t small { color: var(--sub); }
+.s-nv-list li b { font-size: 15px; }
+.s-nv-list li button { grid-column: 1 / -1; justify-self: start; }
+
+/* 홈: 링크·상품명 붙여 넣기 판정 */
+.paste-bar { margin: 16px 0 0; padding: 16px; border-radius: var(--radius); background: var(--point-tint); border: 1px solid #D6DEEE; display: flex; flex-direction: column; gap: 10px; }
+.paste-bar label { display: flex; flex-direction: column; gap: 2px; }
+.paste-bar label b { font-size: 17px; color: var(--point); }
+.paste-bar label span { font-size: 14px; color: var(--sub); }
+.paste-row { display: flex; gap: 8px; }
+.paste-row input { flex: 1; min-width: 0; height: 48px; padding: 0 14px; border-radius: 12px; border: 1.5px solid var(--line-strong); font: inherit; font-size: 16px; background: #fff; }
+.paste-row input:focus { outline: none; border-color: var(--point); }
+.paste-row .btn { height: 48px; flex: none; }

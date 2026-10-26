@@ -220,7 +220,7 @@ ${ga}
     <a href="/" class="logo" aria-label="${esc(site.siteName)} 홈">${icon.logo}<span class="logo-word">${esc(site.siteName)}</span><span class="logo-tag">직구할 각인지<br>3초 판정</span></a>
     <form class="search" role="search" action="/search" method="get">
       <label for="q" class="sr-only">상품 검색</label>
-      <input id="q" name="q" type="search" placeholder="아무 상품이나 검색해서 직구각 판정" autocomplete="off">
+      <input id="q" name="q" type="search" placeholder="상품명·알리 링크로 직구각 판정" autocomplete="off">
       <button type="submit" aria-label="검색">${icon.search}</button>
     </form>
   </div>
@@ -372,6 +372,11 @@ function pageHome() {
     <span class="btn btn-ink">계산기 열기</span>
   </a>
 </section>
+
+<form class="paste-bar" action="/search" method="get" role="search">
+  <label for="paste-q"><b>알리 상품 링크나 상품명을 붙여 넣으세요</b><span>관세·부가세·배송비까지 더해 국내 최저가와 바로 비교해요</span></label>
+  <div class="paste-row"><input id="paste-q" name="q" type="search" placeholder="ko.aliexpress.com/item/… 또는 QCY T13" autocomplete="off" enterkeyhint="go"><button type="submit" class="btn btn-point">판정하기</button></div>
+</form>
 
 ${domesticSaleNotice()}
 ${dealPromo()}
@@ -615,10 +620,10 @@ ${faq ? `<section class="block"><h2 class="h2">자주 묻는 질문</h2>${faq}<s
 function pageSearch() {
   const catOpts = Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)} (${esc(c.sub)})</option>`).join('');
   const body = `
-<div class="page-head"><h1 class="display" data-s-title>직구각 검색</h1><p class="muted" data-s-sub>상품명을 검색하면 알리익스프레스 실시간 가격을 찾아 드려요. 국내 최저가만 넣으면 관부가세까지 계산해 바로 판정해요.</p></div>
+<div class="page-head"><h1 class="display" data-s-title>직구각 검색</h1><p class="muted" data-s-sub>상품명을 검색하거나 알리익스프레스 상품 주소를 붙여 넣으면 실시간 가격을 찾아 드려요. 국내 최저가와 비교해 관부가세까지 계산해 바로 판정해요.</p></div>
 <form class="s-form" action="/search" method="get" role="search">
   <label for="sq" class="sr-only">상품 검색</label>
-  <input id="sq" name="q" type="search" placeholder="예: 무선 이어폰, USB-C 허브, 레고" autocomplete="off">
+  <input id="sq" name="q" type="search" placeholder="상품명 또는 알리 상품 주소 붙여 넣기" autocomplete="off">
   <button type="submit" class="btn btn-buy">검색</button>
 </form>
 <p class="s-tip muted small">브랜드·모델명으로 검색하면 국내 같은 상품과 비교하기 쉬워요.</p>
@@ -634,7 +639,7 @@ ${trendBlock('in-search')}
   <a href="#" class="btn btn-line small" data-feedback>이 상품 판정해 달라고 요청하기</a>
 </section>
 <section class="block" data-s-live hidden data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
-  <div class="block-head"><div><h2 class="h2">알리익스프레스 실시간 가격</h2><span class="muted small">원화 판매가 기준 · 신규 회원 할인·쿠폰은 빠져 있어요</span></div></div>
+  <div class="block-head"><div><h2 class="h2" data-s-live-title>알리익스프레스 실시간 가격</h2><span class="muted small">원화 판매가 기준 · 신규 회원 할인·쿠폰은 빠져 있어요</span></div></div>
   <p class="s-status" data-s-status role="status" aria-live="polite"></p>
   <ol class="s-list" data-s-list></ol>
   ${site.coupangSearchWidget ? `<div class="s-cp" id="s-cp" data-s-cp hidden>
@@ -657,6 +662,7 @@ ${trendBlock('in-search')}
       </div>
     </div>
     <div class="s-judge" hidden>
+      <div class="s-naver" hidden></div>
       <div class="s-cp-slot"></div>
       <div class="s-grid">
         <div class="field"><label>${site.coupangSearchWidget ? '② ' : ''}국내 최저가 (원)</label><input class="s-dom-in" type="number" inputmode="numeric" min="0" step="100" placeholder="쿠팡·네이버 최저가">${site.coupangSearchWidget ? '<small>위 쿠팡 검색에서 찾은 가격을 넣어 주세요</small>' : '<small><a class="s-dom-coupang" target="_blank" rel="noopener">쿠팡에서 같은 상품 찾기</a></small>'}</div>
@@ -955,6 +961,7 @@ fs.mkdirSync(path.join(dist, 'p'), { recursive: true });
 fs.cpSync(path.join(root, 'public'), dist, { recursive: true });
 fs.mkdirSync(path.join(dist, 'assets'), { recursive: true });
 fs.copyFileSync(path.join(root, 'src', 'calc.js'), path.join(dist, 'assets', 'calc.js'));
+fs.copyFileSync(path.join(root, 'src', 'links.js'), path.join(dist, 'assets', 'links.js'));
 // 승인된 SNS 게시물 이미지(content/<폴더>/publish/*.jpg)를 공개 주소로: 인스타 API가 이미지를 URL로만 받아요
 for (const d of fs.existsSync(path.join(root, 'content')) ? fs.readdirSync(path.join(root, 'content')) : []) {
   const src = path.join(root, 'content', d, 'publish');
