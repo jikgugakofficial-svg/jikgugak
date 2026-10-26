@@ -60,7 +60,13 @@ const settings = readJson('data/settings.json', {});
 const FX = Number(settings.fx?.usdKrw) || 1330;
 const RULE = { minSaveKrw: settings.rule?.minSaveKrw ?? 10000, minSavePct: settings.rule?.minSavePct ?? 0.2 };
 const lc = (t) => String(t || '').toLowerCase().replace(/\s+/g, '');
-const hasModel = (title, seed) => lc(title).includes(lc(seed.brand)) && String(seed.model).split(/\s+/).every((w) => lc(title).includes(lc(w))) && !variantMismatch(seed.q, title);
+// 브랜드·모델 단어가 '한 단어로' 들어 있어야 해요(Superlight 2 ≠ Superlight 2c, Band 11 ≠ Band 11 Active는 등급 비교가 걸러요)
+const esc = (w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const hasWord = (title, w) => new RegExp(`(^|[^a-z0-9])${esc(String(w).toLowerCase())}($|[^a-z0-9])`).test(String(title).toLowerCase());
+// 쿠팡 상품명은 브랜드를 한글로 쓰는 경우가 많아요
+const BRAND_KO = { logitech: ['로지텍'], anker: ['앤커'], ugreen: ['유그린'], baseus: ['베이스어스'], xiaomi: ['샤오미'], redmi: ['레드미', '샤오미'], amazfit: ['어메이즈핏', '어매이즈핏'], soundcore: ['사운드코어', '앤커'], edifier: ['에디파이어'], qcy: ['큐씨와이'], aula: ['아울라'], naturehike: ['네이처하이크'], mchose: ['엠초즈'] };
+const brandOk = (title, brand) => [brand, ...(BRAND_KO[String(brand).toLowerCase()] || []), ...(String(brand).toLowerCase() === 'soundcore' ? ['anker'] : [])].some((b) => hasWord(title, b));
+const hasModel = (title, seed) => brandOk(title, seed.brand) && String(seed.model).split(/\s+/).every((w) => hasWord(title, w)) && !variantMismatch(seed.q, title);
 async function discover() {
   const seeds = readJson('data/candidate-seeds.json', { seeds: [] }).seeds || [];
   if (!seeds.length) { out.push('후보 검색어 목록(data/candidate-seeds.json)이 비어 있어요.'); return; }
