@@ -3,9 +3,10 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { PATHS, coupangKeys, coupangCall, toCoupangItem } from '../../api/_lib/coupang.js';
 
-// 검색 횟수: 쿠팡 제한은 1시간 10회. 사이트 실시간 검색(api/coupang.js)이 4회, 이 스크립트가 3회 → 합쳐 7회.
+// 검색 횟수: 쿠팡 제한은 1시간 10회. 방문자가 적은 지금(10/27 운영자 결정)은 이 스크립트가 7회, 사이트 실시간 검색이 1회.
+// 어느 60분을 잘라 봐도 7 + 사이트 2(정각 앞뒤) = 9회로 10회 아래예요. 방문자가 늘면 사이트 몫을 다시 늘려요.
 // 한 번이라도 403/429가 나면 data/coupang-guard.json 에 멈춤 표시를 남기고, 사람이 지울 때까지 검색을 안 해요.
-export const SEARCH_PER_HOUR = 3;
+export const SEARCH_PER_HOUR = 7;
 const GUARD = 'data/coupang-guard.json';
 
 export const hasKeys = () => Boolean(coupangKeys());
@@ -18,8 +19,8 @@ function writeGuard(g) { writeFileSync(GUARD, JSON.stringify(g, null, 2) + '\n')
 export function searchBudgetLeft(now = Date.now()) {
   const g = readGuard();
   if (g.stoppedAt) return 0;
-  // 50분 창: GitHub 예약 실행이 1시간보다 조금 일찍 돌아도 횟수를 쓸 수 있게(사이트 4회와 합쳐도 1시간 10회 아래)
-  const recent = (g.calls || []).filter((t) => now - Date.parse(t) < 50 * 60_000);
+  // 꼭 60분 창으로 세요(예약 실행이 일찍 돌아도 60분 안에 7회를 넘지 않게)
+  const recent = (g.calls || []).filter((t) => now - Date.parse(t) < 60 * 60_000);
   return Math.max(0, SEARCH_PER_HOUR - recent.length);
 }
 

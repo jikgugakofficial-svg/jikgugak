@@ -10,7 +10,7 @@ import { redis, storeReady, readBody } from './_lib/store.js';
 import { coupangKeys, coupangSearch } from './_lib/coupang.js';
 import { normQ } from './trending.js';
 
-const LIVE_PER_HOUR = 4;
+const LIVE_PER_HOUR = 1; // 10/27 방문자가 적어 자동 후보 발굴(Actions 7회)에 몫을 넘겼어요. 방문자가 늘면 다시 늘려요.
 const FRESH_SEC = 24 * 3600;
 const KEEP_SEC = 7 * 24 * 3600;
 const BLOCK = /(https?:|www\.|@|시발|씨발|병신|개새|섹스|야동|토토|카지노)/i;

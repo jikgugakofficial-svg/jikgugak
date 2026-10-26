@@ -10,7 +10,7 @@
 //                                                     data/candidates.json 에 남겨요. 사이트에 바로 올리지 않아요(확인 뒤 등록).
 //   node scripts/coupang.mjs links <알리 상품번호·쿠팡 일반 주소…> → 새 상품 등록용 링크: 알리는 사이트 /api/item(제휴 링크·사진),
 //                                                     쿠팡은 딥링크 → data/new-links.json (링크는 열지 않아요)
-//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 2개 + prices 남은 횟수(1시간 3회)
+//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 6개 + prices 남은 횟수(1시간 7회)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { hasKeys, search, deeplink, report, productIdOf, searchBudgetLeft, readGuard } from './lib/coupang.mjs';
 import { landedCost, judge } from '../src/calc.js';
@@ -134,7 +134,7 @@ async function discover() {
 }
 
 if (mode === 'discover') { await discover(); summary(out.join('\n')); }
-if (mode === 'hourly') { await discover(); await discover(); } // 후보 2개 + 남은 1회로 가격 대조
+if (mode === 'hourly') { for (let i = 0; i < 6 && searchBudgetLeft() > 1; i++) await discover(); } // 후보 6개 + 남은 1회로 가격 대조
 
 if (mode === 'prices' || mode === 'hourly') {
   const want = Math.min(Number(args[0]) || 4, searchBudgetLeft());

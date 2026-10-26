@@ -1,11 +1,11 @@
 # 쿠팡 파트너스 공식 API 작업. 키는 저장소 Settings → Secrets and variables → Actions 의
 # COUPANG_ACCESS_KEY · COUPANG_SECRET_KEY 에만 넣어요.
-# 자동 실행(매시간 hourly): 인기 직구 후보 2개 자동 발굴(data/candidates.json) + 가격 대조 1개(보고만) + 인기 검색어 미리 찾기, 실적 매일. 끄려면 아래 schedule 두 줄을 지워요.
+# 자동 실행(매시간 hourly): 인기 직구 후보 6개 자동 발굴(data/candidates.json) + 가격 대조 1개(보고만) + 인기 검색어 미리 찾기, 실적 매일. 끄려면 아래 schedule 두 줄을 지워요.
 # 손으로 돌릴 땐 Actions → coupang → Run workflow 에서 mode 를 골라요.
 name: coupang
 on:
   schedule:
-    - cron: '41 * * * *'   # 이 작업 1시간 3회(후보 2 + 대조 1) + 사이트 실시간 검색 4회 = 7회(쿠팡 제한 10회보다 적게)
+    - cron: '41 * * * *'   # 이 작업 1시간 7회(후보 6 + 대조 1) + 사이트 실시간 검색 1회(쿠팡 제한 10회보다 적게)
     - cron: '20 0 * * *'   # 매일 09:20 KST 실적 리포트(어제까지 7일)
   workflow_dispatch:
     inputs:
