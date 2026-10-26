@@ -721,7 +721,8 @@
       "model": "QCY H3 ANC (쿠팡 QCY-H3 ANC APP HEADSET 블랙·알리 H3-Black)",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "hidden": true
   },
   {
     "store": "aliexpress",
