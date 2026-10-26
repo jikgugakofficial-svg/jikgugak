@@ -34,7 +34,8 @@
 - 환율: 사이트는 매일 11:30 관세청 과세환율·수출입은행 결제환율을 API로 받아 다시 계산(확인함). 판정이 바뀌면 판정 단어 요약 문장이 자동 문장으로 바뀌고 빌드 로그에 "⚠ 판정이 바뀌어"가 남아요. 이번 주 과세환율 1,330.52원(10.25~10.31).
 - 예약 SNS 글은 publish.json `fxCheck`로 게시 직전 환율 확인(어긋나면 게시 멈춤·Actions 실패 메일).
 - 쿠팡 Akamai 차단: 연달아 열면 막혀요. 한 페이지마다 15초 이상, 한 번에 몇 개씩만.
-- 쿠팡 파트너스 최종 승인 전(판매 약 15만 원 필요), 추적 코드 AF5913304, 활동 채널은 jikgugak.com뿐. 아이허브 제휴(impact) 승인 대기.
+- **쿠팡 파트너스 최종 승인 완료(10/26 운영자)**, 추적 코드 AF5913304, 활동 채널은 jikgugak.com뿐. 공식 API 연결 코드 준비됨(`scripts/coupang.mjs`, 워크플로 `coupang`), 키 등록 대기. 아이허브 제휴(impact) 승인 대기.
+- 쿠팡 API 단계: ① 운영자 키 발급·GitHub Secrets 등록 → ② Actions에서 check(연결 확인) → ③ 새 상품 링크는 deeplink로 → ④ prices(보고만) 1주 돌려 손 확인값과 비교 → ⑤ 맞으면 COUPANG_AUTO=on으로 매시간 대조·매일 실적 → ⑥ 그 뒤 붙여 넣기 판정에 국내가 제안 검토(호출 제한 때문에 방문자 요청마다 부르지 않음).
 
 ## 4. 게시 일정
 | 날짜 | 무엇 | 상태 |
@@ -58,6 +59,7 @@
 - [ ] `content/2026-10-23-series-3-iherb-shipping`은 락토비프 숫자 기준이라 쓰려면 다시 계산.
 
 **운영자**
+- [ ] 쿠팡 파트너스 → 파트너스 API에서 키 발급, GitHub 저장소 Settings → Secrets and variables → Actions에 `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY` 등록(채팅에 붙여 넣지 않기).
 - [ ] 카카오 공유 디버거(https://developers.kakao.com/tool/debugger/sharing)에서 `https://www.jikgugak.com`·`https://jikgugak.com` 캐시 초기화(10/26 공유 이미지를 주황 시안 B로 새로 만들고 주소에 `?v=20261026b` 붙임. 원본 `tools/og/og.html`, 시안 a·b·c는 body data-v로 바꿔요).
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.

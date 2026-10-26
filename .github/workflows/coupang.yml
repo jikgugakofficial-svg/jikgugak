@@ -1,0 +1,43 @@
+# 쿠팡 파트너스 공식 API 작업. 키는 저장소 Settings → Secrets and variables → Actions 의
+# COUPANG_ACCESS_KEY · COUPANG_SECRET_KEY 에만 넣어요.
+# 자동 실행(가격 대조 매시간, 실적 매일)은 저장소 변수 COUPANG_AUTO 가 on 일 때만 돌아요.
+# 손으로 돌릴 땐 Actions → coupang → Run workflow 에서 mode 를 골라요.
+name: coupang
+on:
+  schedule:
+    - cron: '41 * * * *'   # 가격 대조(1시간에 4개, 검색 제한 10회보다 적게)
+    - cron: '20 0 * * *'   # 매일 09:20 KST 실적 리포트(어제까지 7일)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'check(연결 확인) · deeplink(링크 만들기) · prices(가격 대조) · report(실적)'
+        default: check
+      args:
+        description: 'deeplink면 쿠팡 일반 주소(띄어쓰기로 여러 개), prices면 개수, report면 일수'
+        default: ''
+permissions:
+  contents: write
+concurrency: coupang
+jobs:
+  run:
+    if: github.event_name == 'workflow_dispatch' || vars.COUPANG_AUTO == 'on'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Run
+        env:
+          COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
+          COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
+          MODE: ${{ github.event.inputs.mode || (github.event.schedule == '20 0 * * *' && 'report' || 'prices') }}
+          ARGS: ${{ github.event.inputs.args || '' }}
+        run: node scripts/coupang.mjs "$MODE"
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "jikgugak-bot"
+          git config user.email "jikgugak.official@gmail.com"
+          git add data/coupang-*.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "쿠팡 API 결과 기록 [skip ci]" && git pull --rebase && git push)
