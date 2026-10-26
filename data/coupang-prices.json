@@ -38,7 +38,15 @@
       "apiPrice": 59900,
       "isRocket": true,
       "diff": 0
+    },
+    "ali-aula-f75-keyboard": {
+      "productId": "8721422294",
+      "keyword": "AULA F75 무선 기계식 키보드",
+      "at": "2026-10-26T15:52:16.961Z",
+      "recordedKrw": 57750,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-26T10:21:45.255Z"
+  "updatedAt": "2026-10-26T15:52:17.410Z"
 }
