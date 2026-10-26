@@ -42,6 +42,58 @@ function attachCp(li, query) {
   cp.querySelector('[data-s-cp-msg]').textContent = '';
 }
 
+// ---------- 쿠팡 실시간 가격(/api/coupang, 쿠팡 파트너스 공식 검색 API) ----------
+// 같은 검색어는 한 번만 불러요. 서버도 하루 동안 저장해 두고 1시간 횟수를 아껴 써요.
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const cpCache = new Map();
+function fetchCoupang(term) {
+  const k = term.trim().toLowerCase().replace(/\s+/g, ' ');
+  if (!cpCache.has(k)) cpCache.set(k, fetch('/api/coupang?q=' + encodeURIComponent(k)).then((r) => r.json()).catch(() => ({ ok: false, reason: 'error' })));
+  return cpCache.get(k);
+}
+const cpWhen = (at) => { try { const d = new Date(at); return `${d.getMonth() + 1}.${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`; } catch { return ''; } };
+// 쿠팡 상품 한 줄: 사진·이름·가격·로켓 + [고르기 버튼] + 쿠팡에서 보기(파트너스 링크)
+function cpRow(c, pickLabel, onPick) {
+  const li = document.createElement('li');
+  li.className = 'cpl-item';
+  li.innerHTML = `${c.image ? `<img class="cpl-img" src="${esc(c.image)}" alt="" loading="lazy" width="64" height="64">` : '<span class="cpl-img"></span>'}
+  <div class="cpl-info"><span class="cpl-name">${esc(c.name)}</span>
+  <div class="cpl-meta"><b class="cpl-price">₩${krw(c.price)}</b>${c.rocket ? '<span class="cpl-rocket">로켓배송</span>' : ''}${!c.rocket && c.freeShip ? '<span class="cpl-free">무료배송</span>' : ''}</div>
+  <div class="cpl-btns"><button type="button" class="btn btn-ink small cpl-pick"></button><a class="btn btn-line small" href="${esc(c.url)}" target="_blank" rel="sponsored noopener">쿠팡에서 보기</a></div></div>`;
+  li.querySelector('.cpl-pick').textContent = pickLabel;
+  li.querySelector('.cpl-pick').addEventListener('click', () => onPick(c, li));
+  return li;
+}
+const cpFail = (reason) => ({
+  busy: '쿠팡 가격을 찾는 사람이 많아 잠시 쉬고 있어요. 조금 뒤 다시 보거나, 쿠팡에서 직접 검색해 주세요.',
+  paused: '쿠팡 가격 검색을 잠시 멈췄어요. 쿠팡에서 직접 검색해 주세요.'
+}[reason] || '');
+
+// 이름 끝 등급(Pro·Max·Plus·Ultra·Lite·Mini·SE 등)이 한쪽에만 있으면 다른 모델일 가능성이 커요
+const VARIANTS = [['pro', '프로'], ['max', '맥스'], ['plus', '플러스', '\\+'], ['ultra', '울트라'], ['lite', '라이트'], ['mini', '미니'], ['se'], ['air', '에어'], ['neo', '네오']];
+function variantsOf(t) {
+  const s = ' ' + String(t).toLowerCase().replace(/[()\[\],/_-]/g, ' ') + ' ';
+  return VARIANTS.filter((names) => names.some((n) => new RegExp(`[\\s\\d]${n}(?=[\\s\\d])`).test(s))).map((n) => n[0]);
+}
+function variantMismatch(a, b) {
+  const x = variantsOf(a), y = variantsOf(b);
+  return x.some((v) => !y.includes(v)) || y.some((v) => !x.includes(v));
+}
+
+// 국내 기준 가격: 쿠팡 결과에서 하나 고르면 알리 상품마다 그 가격과 비교한 판정을 바로 보여 줘요
+let picked = null;
+const pickBar = live.querySelector('[data-s-pick]');
+function setPicked(c) {
+  picked = c;
+  if (pickBar) {
+    pickBar.hidden = !c;
+    if (c) pickBar.querySelector('.s-pick-txt').innerHTML = `<b>국내 기준 ₩${krw(c.price)}</b> <span>쿠팡 ${esc(c.name)}</span>`;
+  }
+  list.querySelectorAll('.s-item').forEach((li) => li.applyPick && li.applyPick(c));
+  document.querySelectorAll('.cpl-item.picked').forEach((x) => x.classList.remove('picked'));
+}
+if (pickBar) pickBar.querySelector('[data-s-pick-clear]').addEventListener('click', () => setPicked(null));
+
 document.getElementById('sq').value = q;
 const headerQ = document.getElementById('q');
 if (headerQ) headerQ.value = q;
@@ -101,7 +153,36 @@ if (q && link) {
     if (!sessionStorage.getItem(k)) { sessionStorage.setItem(k, '1'); fetch('/api/trending', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ q }), keepalive: true }).catch(() => {}); }
   } catch { /* 저장 안 돼도 검색은 그대로 */ }
 
-  // 2) 알리 실시간 가격
+  // 2) 쿠팡 실시간 가격(국내)
+  const cpl = document.querySelector('[data-s-cpl]');
+  if (cpl) {
+    const cplList = cpl.querySelector('[data-s-cpl-list]');
+    const cplStatus = cpl.querySelector('[data-s-cpl-status]');
+    const cplMore = cpl.querySelector('[data-s-cpl-more]');
+    cpl.hidden = false;
+    cplStatus.textContent = '쿠팡 가격을 찾는 중이에요…';
+    fetchCoupang(q).then((d) => {
+      if (!d.ok) {
+        const msg = cpFail(d.reason);
+        if (msg) { cplStatus.innerHTML = `${esc(msg)} <a href="${coupangSearch(q)}" target="_blank" rel="noopener">쿠팡에서 검색</a>`; } else cpl.hidden = true;
+        return;
+      }
+      if (!d.items.length) { cplStatus.textContent = '쿠팡에서 이 검색어로 찾은 상품이 없어요. 모델명으로 다시 검색해 보세요.'; return; }
+      cplStatus.textContent = '';
+      cpl.querySelector('[data-s-cpl-sub]').textContent = `쿠팡 파트너스 검색 결과 · ${cpWhen(d.at)} 기준${d.stale ? '(지난 결과)' : ''} · 옵션(색·용량)마다 가격이 달라요`;
+      d.items.forEach((c, i) => {
+        const li = cpRow(c, '국내 기준으로', (x, el) => { setPicked(x); el.classList.add('picked'); live.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+        if (i >= 4) li.hidden = true;
+        cplList.appendChild(li);
+      });
+      if (d.items.length > 4) {
+        cplMore.hidden = false;
+        cplMore.addEventListener('click', () => { cplList.querySelectorAll('li[hidden]').forEach((li) => { li.hidden = false; }); cplMore.hidden = true; });
+      }
+    });
+  }
+
+  // 3) 알리 실시간 가격
   live.hidden = false;
   const more = live.querySelector('[data-s-more]');
   const cpLink = live.querySelector('[data-s-coupang]');
@@ -167,6 +248,11 @@ function row(it) {
   const ident = [it.brand ? (/[a-z]/.test(it.brand) ? it.brand.toUpperCase() : it.brand) : '', it.model ? it.model.toUpperCase() : ''].filter(Boolean).join(' ');
   tag.textContent = it.comparable ? `국내 비교 가능${ident ? ' · ' + ident : ''}` : '노브랜드 · 국내 같은 상품이 드물어요';
   $('.s-meta').appendChild(tag);
+  // 국내 기준을 고르면 여기에 판정이 바로 보여요
+  const quick = document.createElement('span');
+  quick.className = 's-quick';
+  quick.hidden = true;
+  $('.s-meta').appendChild(quick);
   if (!it.comparable) {
     const lab = li.querySelector('.s-dom-in').closest('.field').querySelector('label');
     lab.textContent = lab.textContent.replace('국내 최저가', '비슷한 국내 상품 가격');
@@ -177,27 +263,80 @@ function row(it) {
   const cat = $('.s-cat');
   cat.value = guessCat(it.category, it.title);
   const result = $('.s-result');
-
+  const domIn = $('.s-dom-in');
   const priceIn = $('.s-price-in');
   if (priceIn) priceIn.value = it.price;
-  function render() {
-    const dom = Number($('.s-dom-in').value);
+
+  function compute() {
+    const dom = Number(domIn.value);
     const price = (priceIn && Number(priceIn.value)) || it.price;
     const ship = Number($('.s-ship-in').value) || 0;
     const c = landedCost({ priceUsd: price / FX, shipUsd: ship / FX, origin: 'other', method: 'express', category: cat.value, fx: FX });
     const cif = Math.floor(price + ship);
     const duty = c.dutyFree ? 0 : Math.floor(cif * c.rate);
     const total = c.dutyFree ? cif : cif + duty + Math.floor((cif + duty) * 0.1);
+    return { dom, c, cif, total, j: dom ? judge(dom, total, RULE) : null };
+  }
+  const V = (j) => {
+    const pct = Math.round(Math.abs(j.pct) * 100);
+    return { good: ['v-good', '직구각', `국내보다 ${pct}% 싸요 · ₩${krw(j.diff)} 아껴요`], meh: ['v-meh', '애매', `₩${krw(j.diff)} 싸지만 배송 기간·반품을 생각하면 애매해요`], bad: ['v-bad', '국내가 나음', `국내가 ₩${krw(-j.diff)} 더 싸요`] }[j.verdict] || ['', '-', ''];
+  };
+  function render() {
+    const { dom, c, cif, total, j } = compute();
+    const src = domIn.dataset.src ? `<small class="s-dom-src">국내가: 쿠팡 ${esc(domIn.dataset.src)} · 같은 모델·색·구성인지 확인하세요</small>` : '';
     if (!dom) {
       result.className = 's-result';
-      result.innerHTML = `직구 최종가 <b>₩${krw(total)}</b> <small>(${c.dutyFree ? `면세 한도 $${c.limit} 안 · 관부가세 0원` : `한도 $${c.limit} 초과 · 관부가세 ₩${krw(total - cif)} 포함`})</small><span>${it.comparable ? '쿠팡에서 같은 모델 가격을 찾아 넣으면 판정해요.' : '노브랜드라 똑같은 국내 상품은 드물어요. 비슷한 국내 상품 가격을 넣으면 얼마나 아끼는지 보여 드려요.'}</span>`;
+      result.innerHTML = `직구 최종가 <b>₩${krw(total)}</b> <small>(${c.dutyFree ? `면세 한도 $${c.limit} 안 · 관부가세 0원` : `한도 $${c.limit} 초과 · 관부가세 ₩${krw(total - cif)} 포함`})</small><span>${it.comparable ? '위 쿠팡 후보에서 같은 모델을 고르거나, 국내 최저가를 넣으면 판정해요.' : '노브랜드라 똑같은 국내 상품은 드물어요. 비슷한 국내 상품 가격을 넣으면 얼마나 아끼는지 보여 드려요.'}</span>`;
+      quick.hidden = true;
       return;
     }
-    const j = judge(dom, total, RULE);
-    const pct = Math.round(Math.abs(j.pct) * 100);
-    const V = { good: ['v-good', '직구각', `국내보다 ${pct}% 싸요 · ₩${krw(j.diff)} 아껴요`], meh: ['v-meh', '애매', `₩${krw(j.diff)} 싸지만 배송 기간·반품을 생각하면 애매해요`], bad: ['v-bad', '국내가 나음', `국내가 ₩${krw(-j.diff)} 더 싸요`] }[j.verdict] || ['', '-', ''];
-    result.className = 's-result ' + V[0];
-    result.innerHTML = `<b class="s-vword">${V[1]}</b><span>${V[2]}</span><small>해외 체감가 ₩${krw(total)} (${c.dutyFree ? `면세 한도 $${c.limit} 안` : `한도 $${c.limit} 초과 · 관부가세 ₩${krw(total - cif)} 포함`})</small>`;
+    const v = V(j);
+    const warn = domIn.dataset.src && variantMismatch(it.title, domIn.dataset.src);
+    result.className = 's-result ' + (warn ? 'v-warn' : v[0]);
+    result.innerHTML = `${warn ? '<b class="s-warn">모델이 다를 수 있어요</b><span>알리와 쿠팡 상품 이름의 등급(Pro·Max·Plus·미니 등)이 달라요. 같은 모델을 다시 골라 주세요. 같다면 아래 판정을 참고하세요.</span>' : ''}<b class="s-vword">${v[1]}</b><span>${v[2]}</span><small>해외 체감가 ₩${krw(total)} (${c.dutyFree ? `면세 한도 $${c.limit} 안` : `한도 $${c.limit} 초과 · 관부가세 ₩${krw(total - cif)} 포함`})</small>${src}`;
+    quick.className = 's-quick ' + (warn ? 'v-warn' : v[0]);
+    quick.textContent = warn ? `모델이 다를 수 있어요 · 최종가 ₩${krw(total)}` : `${v[1]} · 최종가 ₩${krw(total)}`;
+    quick.hidden = false;
+  }
+  function setDom(price, name) {
+    domIn.value = price || '';
+    if (name) domIn.dataset.src = name; else delete domIn.dataset.src;
+    render();
+  }
+  // 위쪽 쿠팡 목록에서 '국내 기준'을 고르면: 직접 넣은 값이 없을 때만 채워요
+  li.applyPick = (p) => {
+    if (domIn.dataset.manual) return;
+    if (p) setDom(p.price, p.name); else setDom('', '');
+  };
+  if (picked) li.applyPick(picked);
+
+  // 판정을 열면 이 알리 상품의 모델명으로 쿠팡 후보를 불러와요(누르면 국내가에 들어가요)
+  function loadCoupang() {
+    const box = $('.s-cpc');
+    if (!box || box.dataset.ready) return;
+    box.dataset.ready = '1';
+    const term = shortQuery(it.title);
+    box.innerHTML = `<div class="s-cpc-head"><b>쿠팡에서 같은 모델 고르기</b><span class="muted small">'${esc(term)}' 검색 결과예요. 같은 모델·색·구성인 상품의 "이 가격 넣기"를 누르세요.</span></div><p class="s-status small">쿠팡 가격을 찾는 중이에요…</p><ol class="cpl-list"></ol><p class="muted small">이 영역은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>`;
+    box.hidden = false;
+    const st = box.querySelector('.s-status');
+    const ol = box.querySelector('.cpl-list');
+    fetchCoupang(term).then((d) => {
+      if (!d.ok) {
+        const msg = cpFail(d.reason);
+        if (msg) st.innerHTML = `${esc(msg)} <a href="${coupangSearch(term)}" target="_blank" rel="noopener">쿠팡에서 검색</a>`; else box.hidden = true;
+        return;
+      }
+      if (!d.items.length) { st.textContent = '쿠팡에서 같은 모델을 찾지 못했어요. 아래 칸에 국내 최저가를 직접 넣어 주세요.'; return; }
+      st.textContent = `${cpWhen(d.at)} 기준${d.stale ? '(지난 결과)' : ''} 쿠팡 가격 · 옵션마다 가격이 달라요`;
+      if (cp && li.contains(cp)) cp.hidden = true; // 쿠팡 후보가 보이면 검색어 복사용 위젯은 접어요
+      d.items.slice(0, 5).forEach((c) => ol.appendChild(cpRow(c, '이 가격 넣기', (x, el) => {
+        delete domIn.dataset.manual;
+        setDom(x.price, x.name);
+        ol.querySelectorAll('.picked').forEach((p) => p.classList.remove('picked'));
+        el.classList.add('picked');
+        result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      })));
+    });
   }
 
   function toggle(open) {
@@ -211,7 +350,7 @@ function row(it) {
     j.hidden = !willOpen;
     li.classList.toggle('open', willOpen);
     $('.s-open').textContent = willOpen ? '판정 닫기' : '국내가 넣고 판정';
-    if (willOpen) { render(); loadNaver(); li.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    if (willOpen) { render(); loadCoupang(); loadNaver(); li.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   }
   li.closeJudge = () => toggle(false);
   li.openJudge = () => toggle(true);
@@ -232,7 +371,7 @@ function row(it) {
     box.hidden = false;
   }
   cat.addEventListener('change', render);
-  $('.s-dom-in').addEventListener('input', render);
+  domIn.addEventListener('input', () => { domIn.dataset.manual = '1'; delete domIn.dataset.src; render(); });
   $('.s-ship-in').addEventListener('input', render);
   if (priceIn) priceIn.addEventListener('input', render);
   return li;

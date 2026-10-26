@@ -74,6 +74,14 @@ if (mode === 'prices') {
   }
   state.updatedAt = new Date().toISOString();
   writeJson(file, state);
+  // 인기 검색어 미리 찾아 두기: 사이트 /api/coupang 을 불러요(사이트가 하루 저장·1시간 횟수를 관리해서 쿠팡을 더 부르지 않아요)
+  try {
+    const t = await (await fetch('https://www.jikgugak.com/api/trending')).json();
+    for (const x of (t.items || []).slice(0, 2)) {
+      const w = await (await fetch('https://www.jikgugak.com/api/coupang?q=' + encodeURIComponent(x.q))).json().catch(() => ({}));
+      lines.push(`- 인기 검색어 '${x.q}': ${w.ok ? `쿠팡 ${w.items.length}개${w.stale ? '(지난 결과)' : ''}` : w.reason || '실패'}`);
+    }
+  } catch { lines.push('- 인기 검색어 미리 찾기 실패'); }
   summary(`가격 대조 ${queue.length}개 (보고만, 사이트 반영 안 함)\n` + lines.join('\n'));
 }
 

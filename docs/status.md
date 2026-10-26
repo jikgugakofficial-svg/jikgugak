@@ -2,7 +2,7 @@
 
 새 세션은 일을 시작하기 전에 이 파일을 먼저 읽어요. 일을 끝내면 바뀐 내용을 여기에 고쳐 두세요(끝난 일은 지우고, 새로 생긴 할 일·결정은 추가).
 
-마지막 갱신: 2026-10-26 17:35 (재승인 반영, intro-v5 건너뜀, 넾다 스레드 10/27 12:22, 모바일 캘린더 수정)
+마지막 갱신: 2026-10-26 18:00 (쿠팡 API 연결·검색 화면 쿠팡 가격, 저장소 공개 유지는 운영자 결정)
 
 ## 1. 확정된 방향 (운영자 결정, 바꾸려면 운영자 확인)
 - **같은 제품끼리만 비교.** 바코드 우선 → 모델·옵션(색·축·용량·맛) → 포장·지역판 차이는 밝히고 비교. 규칙은 CLAUDE.md "같은 제품 확인". 쿠팡은 상품 페이지에 바코드가 거의 없어서 대부분 `method:"model"`로 기록해요.
@@ -35,7 +35,7 @@
 - 예약 SNS 글은 publish.json `fxCheck`로 게시 직전 환율 확인(어긋나면 게시 멈춤·Actions 실패 메일).
 - 쿠팡 Akamai 차단: 연달아 열면 막혀요. 한 페이지마다 15초 이상, 한 번에 몇 개씩만.
 - **쿠팡 파트너스 최종 승인 완료(10/26 운영자)**, 추적 코드 AF5913304, 활동 채널은 jikgugak.com뿐. 공식 API 연결 코드 준비됨(`scripts/coupang.mjs`, 워크플로 `coupang`), 키 등록 대기. 아이허브 제휴(impact) 승인 대기.
-- 쿠팡 API(10/26): ① 키 등록 완료 ② 연결 확인 성공(딥링크 응답) ③ 새 상품 링크는 Actions `coupang` → deeplink로 만들어요(운영자 로그인 불필요) ④ **가격 대조(보고만) 매시간 4개 자동 실행 중**, 결과 `data/coupang-prices.json`, 첫 시험 2개: CGN 오메가3 API 31,170원 = 기록값, 닥터스베스트 마그네슘은 검색에 같은 상품 번호 없음(쿠팡 주소 새로 필요) ⑤ 11/2쯤 대조 결과가 손 확인값과 맞으면 차이 나는 상품만 price-checker가 확인해 반영 ⑥ 매일 09:20 실적 리포트(`data/coupang-report.json`) ⑦ 나중에 붙여 넣기 판정에 국내가 제안 검토. 실행 결과는 `data/coupang-status.json`(이 환경에선 Actions 기록을 못 열어요). 멈춤 표시는 `data/coupang-guard.json`의 stoppedAt.
+- 쿠팡 API(10/26): ① 키 등록 완료 ② 연결 확인 성공(딥링크 응답) ③ 새 상품 링크는 Actions `coupang` → deeplink로 만들어요(운영자 로그인 불필요) ④ **가격 대조(보고만) 매시간 4개 자동 실행 중**, 결과 `data/coupang-prices.json`, 첫 시험 2개: CGN 오메가3 API 31,170원 = 기록값, 닥터스베스트 마그네슘은 검색에 같은 상품 번호 없음(쿠팡 주소 새로 필요) ⑤ 11/2쯤 대조 결과가 손 확인값과 맞으면 차이 나는 상품만 price-checker가 확인해 반영 ⑥ 매일 09:20 실적 리포트(`data/coupang-report.json`) ⑦ 10/26 검색 화면에 쿠팡 실시간 가격·국내 기준 고르기·판정 칸 쿠팡 후보 추가(`api/coupang.js`), Vercel 키 등록 대기. 다음 후보: `/deals/1111` 품목별 목록에도 쿠팡 후보 붙이기. 실행 결과는 `data/coupang-status.json`(이 환경에선 Actions 기록을 못 열어요). 멈춤 표시는 `data/coupang-guard.json`의 stoppedAt.
 
 ## 4. 게시 일정
 | 날짜 | 무엇 | 상태 |
@@ -60,6 +60,7 @@
 - [ ] `content/2026-10-23-series-3-iherb-shipping`은 락토비프 숫자 기준이라 쓰려면 다시 계산.
 
 **운영자**
+- [ ] Vercel → 프로젝트 → Settings → Environment Variables에 `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY`(Production) 추가 후 Redeploy. 그래야 검색 화면에 쿠팡 가격이 떠요(GitHub Secrets와 같은 값).
 - [ ] 카카오 공유 디버거(https://developers.kakao.com/tool/debugger/sharing)에서 `https://www.jikgugak.com`·`https://jikgugak.com` 캐시 초기화(10/26 공유 이미지를 주황 시안 B로 새로 만들고 주소에 `?v=20261026b` 붙임. 원본 `tools/og/og.html`, 시안 a·b·c는 body data-v로 바꿔요).
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.

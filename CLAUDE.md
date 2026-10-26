@@ -8,11 +8,12 @@
 - `data/products.json` 상품, `data/events.json` 세일 일정, `data/settings.json` 환율·판정 기준·제휴 ID
 - `src/calc.js` 관세·판정 계산(사이트와 브라우저가 같이 씀), `scripts/build.mjs` 정적 사이트 생성 → `dist/`
 - `api/search.js` 알리 제휴 API 검색(Vercel 서버 함수, 키는 Vercel 환경 변수에만)
+- `api/coupang.js` 쿠팡 실시간 검색(검색 화면의 "쿠팡 가격"·알리 상품 판정 칸의 "쿠팡에서 같은 모델 고르기"). 같은 검색어는 Redis에 하루 저장(7일까지 지난 결과), 새 검색은 사이트 전체 1시간 4회, 쿠팡 거부 시 `cp:stop` 멈춤 → 운영자가 `/admin`에서 풀기. 키는 Vercel 환경 변수 `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY`. 알리·쿠팡 이름 끝 등급(Pro·Max·Plus·미니 등)이 다르면 "모델이 다를 수 있어요"를 먼저 보여 줘요.
 - `content/YYYY-MM-DD-주제/` 홍보 세트(brief·blog·instagram·threads·cards), `docs/marketing/` 말투·플레이북·검수표·카드 규격, `tools/cards/render.mjs` 카드 이미지 생성
 - `docs/faq.md` 고객 문의 답변 기준
 - 방문자 의견: 베타 안내·의견 창(`public/assets/app.js`) → `api/feedback.js`가 Upstash Redis에 저장(1년 자동 삭제) → 운영자는 `jikgugak.com/admin`(ADMIN_KEY)에서 확인. 환경 변수: KV_REST_API_URL·KV_REST_API_TOKEN·ADMIN_KEY(선택 RESEND_API_KEY면 메일도)
 - 확인: `npm test`(계산) → `npm run build` → `node scripts/audit.mjs`(점검). 배포는 main에 push하면 Vercel이 자동으로 해요.
-- 쿠팡 파트너스 공식 API(10/26 최종 승인): `scripts/lib/coupang.mjs`(서명·호출)·`scripts/coupang.mjs`(check·deeplink·prices·report)·`.github/workflows/coupang.yml`(매시간 가격 대조 4개·매일 실적 자동, 결과는 `data/coupang-status.json`). 새 상품 쿠팡 링크는 Actions coupang → mode deeplink, args에 쿠팡 일반 주소. 키는 GitHub Secrets `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY`에만. **검색은 1시간 10회 제한이라 우리는 6회까지**, 403·429가 한 번이라도 나면 `data/coupang-guard.json`에 멈춤 표시가 남고 사람이 지울 때까지 검색 안 해요. 검색 결과 `productUrl`과 딥링크 결과는 제휴 링크라 열지 않아요. 가격 대조(`data/coupang-prices.json`)는 보고용이고, 검색 가격은 대표 옵션 값일 수 있어서 색·옵션이 다른 상품은 사람이 확인한 뒤에만 products.json에 반영해요.
+- 쿠팡 파트너스 공식 API(10/26 최종 승인): `scripts/lib/coupang.mjs`(서명·호출)·`scripts/coupang.mjs`(check·deeplink·prices·report)·`.github/workflows/coupang.yml`(매시간 가격 대조 4개·매일 실적 자동, 결과는 `data/coupang-status.json`). 새 상품 쿠팡 링크는 Actions coupang → mode deeplink, args에 쿠팡 일반 주소. 키는 GitHub Secrets `COUPANG_ACCESS_KEY`·`COUPANG_SECRET_KEY`에만. **검색은 1시간 10회 제한이라 우리는 6회까지(사이트 4 + Actions 2)**, 403·429가 한 번이라도 나면 `data/coupang-guard.json`에 멈춤 표시가 남고 사람이 지울 때까지 검색 안 해요. 검색 결과 `productUrl`과 딥링크 결과는 제휴 링크라 열지 않아요. 가격 대조(`data/coupang-prices.json`)는 보고용이고, 검색 가격은 대표 옵션 값일 수 있어서 색·옵션이 다른 상품은 사람이 확인한 뒤에만 products.json에 반영해요.
 
 ## 판정 규칙
 - 직구각 = 국내보다 20% 이상 **그리고** ₩10,000 이상 쌀 때. 조금이라도 싸면 애매, 아니면 국내가 나음.

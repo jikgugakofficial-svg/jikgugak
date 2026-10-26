@@ -644,8 +644,16 @@ ${trendBlock('in-search')}
   <p class="muted small">아래 알리익스프레스 실시간 가격과 쿠팡 검색으로 직접 비교할 수 있어요. 자주 찾는 상품이면 판정 페이지로 만들어 드릴게요.</p>
   <a href="#" class="btn btn-line small" data-feedback>이 상품 판정해 달라고 요청하기</a>
 </section>
+<section class="block cpl" data-s-cpl hidden>
+  <div class="block-head"><div><h2 class="h2">쿠팡 가격</h2><span class="muted small" data-s-cpl-sub>쿠팡 파트너스 검색 결과 · 옵션(색·용량)마다 가격이 달라요</span></div></div>
+  <p class="s-status" data-s-cpl-status role="status" aria-live="polite"></p>
+  <ol class="cpl-list" data-s-cpl-list></ol>
+  <button type="button" class="btn btn-line small" data-s-cpl-more hidden>쿠팡 결과 더 보기</button>
+  <p class="muted small">"국내 기준으로"를 누르면 아래 알리 상품마다 이 가격과 비교한 판정이 바로 보여요. 같은 모델·색·구성인지 꼭 확인해 주세요. 이 영역은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+</section>
 <section class="block" data-s-live hidden data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
   <div class="block-head"><div><h2 class="h2" data-s-live-title>알리익스프레스 실시간 가격</h2><span class="muted small">원화 판매가 기준 · 신규 회원 할인·쿠폰은 빠져 있어요</span></div></div>
+  <div class="s-pick" data-s-pick hidden><span class="s-pick-txt"></span><button type="button" class="s-pick-x" data-s-pick-clear aria-label="국내 기준 지우기">지우기</button></div>
   <p class="s-status" data-s-status role="status" aria-live="polite"></p>
   <ol class="s-list" data-s-list></ol>
   ${site.coupangSearchWidget ? `<div class="s-cp" id="s-cp" data-s-cp hidden>
@@ -668,6 +676,7 @@ ${trendBlock('in-search')}
       </div>
     </div>
     <div class="s-judge" hidden>
+      <div class="s-cpc" hidden></div>
       <div class="s-cp-slot"></div>
       <div class="s-naver" hidden></div>
       <div class="s-grid">
