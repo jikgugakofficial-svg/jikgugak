@@ -101,6 +101,36 @@ if (process.argv[2] === 'check') {
   process.exit(0);
 }
 
+
+// 게시 직전 환율 확인(publish.json의 fxCheck): 카드·글에 박힌 원화 숫자가 오늘 사이트 환율로도 같은지 봐요.
+// 다르면 그 폴더는 올리지 않고 작업을 실패로 끝내요(GitHub가 운영자에게 실패 메일을 보내요). 매니저가 숫자를 고쳐 다시 렌더하면 다음 정시에 올라가요.
+//   { usd: 200, rate: 'customs'|'pay', shown: '26만 6천 원', round: '1000'(기본, 천 원 아래 버림)|'10000'(만 원 반올림) }
+//   { breakeven: '<상품 slug>', shown: '26만 2천 원' }  ← 아마존 손익분기 달러 × 결제 환율, 천 원 아래 버림
+const manwon = (v, round = '1000') => {
+  const n = round === '10000' ? Math.round(v / 10000) * 10000 : Math.floor(v / 1000) * 1000;
+  const m = Math.floor(n / 10000), c = Math.floor((n % 10000) / 1000);
+  return (m ? `${m}만` : '') + (c ? `${m ? ' ' : ''}${c}천` : '') + ' 원';
+};
+let LIVE = null;
+async function fxProblems(job) {
+  if (!Array.isArray(job.fxCheck) || !job.fxCheck.length) return [];
+  if (!LIVE) LIVE = await (await fetch(`${SITE}/live.json?t=${Date.now()}`)).json();
+  const out = [];
+  for (const c of job.fxCheck) {
+    let now, raw;
+    if (c.breakeven) {
+      const p = LIVE.products[c.breakeven];
+      if (!p || p.breakeven == null) { out.push(`${c.breakeven}: 사이트에 손익분기 값이 없음`); continue; }
+      raw = p.breakeven * LIVE.fx.pay; now = manwon(raw);
+    } else { raw = c.usd * LIVE.fx[c.rate || 'customs']; now = manwon(raw, c.round); }
+    // 천 원 단위 경계에서 하루 환율 몇 원 움직인 것까지 막지 않게: 글 숫자와 실제 값 차이가 2천 원(만 원 반올림이면 7천 원) 이내면 통과
+    const shownNum = (String(c.shown).match(/(\d+)\s*만/) || [0, 0])[1] * 10000 + (String(c.shown).match(/(\d+)\s*천/) || [0, 0])[1] * 1000;
+    if (Math.abs(raw - shownNum) > (c.round === '10000' ? 7000 : 2000)) out.push(`${c.note || c.breakeven || c.usd + '달러'}: 글에는 "${c.shown}", 오늘 환율로는 "${now}"`);
+  }
+  return out;
+}
+let HELD = 0;
+
 const roots = readdirSync('content', { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => path.join('content', d.name));
 const jobs = roots.filter((r) => existsSync(path.join(r, 'publish.json')) && !existsSync(path.join(r, 'publish-result.json')));
 if (!jobs.length) { console.log('올릴 글 없음'); process.exit(0); }
@@ -109,6 +139,8 @@ for (const dir of jobs) {
   const job = JSON.parse(readFileSync(path.join(dir, 'publish.json'), 'utf8'));
   if (job.approved !== true) { console.log(`${dir}: 승인 전이라 건너뜀`); continue; }
   if (job.schedule && Date.parse(job.schedule) > Date.now()) { console.log(`${dir}: 예약 ${job.schedule}, 아직 아님`); continue; }
+  const probs = await fxProblems(job).catch((e) => [`환율 확인 실패: ${e.message}`]);
+  if (probs.length) { HELD++; console.error(`::error::${dir}: 환율이 바뀌어 숫자가 달라져서 게시를 멈췄어요\n  ` + probs.join('\n  ')); continue; }
   const result = { dir, at: new Date().toISOString(), posts: [] };
   for (const [kind, spec] of Object.entries(job.channels || {})) {
     try {
@@ -123,3 +155,4 @@ for (const dir of jobs) {
   writeFileSync(path.join(dir, 'publish-result.json'), JSON.stringify(result, null, 2) + '\n');
   console.log(JSON.stringify(result, null, 2));
 }
+if (HELD) process.exit(1);

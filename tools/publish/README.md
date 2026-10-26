@@ -29,9 +29,20 @@ GitHub Actions(`.github/workflows/publish.yml`)가 push 직후와 매시 7분에
 네이버 블로그는 공식 API가 없고 Claude 브라우저에서도 열리지 않아서, 매니저가 붙여 넣기용 게시 키트를 만들고 운영자가 직접 올려요.
 
 ## 릴스 (2026-10-26 추가)
-- 영상 만들기: `python3 tools/cards/reel.py content/<폴더>` → `publish/reel.mp4`(1080×1920, 장당 3초, 무음 오디오 트랙)
+- 영상 만들기: `python3 tools/cards/reel.py content/<폴더>` → `publish/reel.mp4`(1080×1920, 장당 3초, 배경음은 직구각 자작곡 `tools/cards/bgm/` 3곡 중 하나 — 인스타 음악은 API로 못 붙여요)
 - publish.json 채널에 추가:
 ```json
 "reels": { "video": "publish/reel.mp4", "text": "캡션(첫 줄 #광고)", "shareToFeed": false }
 ```
 - `shareToFeed: false`면 프로필 그리드에는 안 올라가고 릴스 탭에만 올라가요(같은 내용의 카드뉴스와 겹치지 않게). 팔로워가 아닌 사람에게 퍼지는 건 릴스 쪽이에요.
+
+## 게시 직전 환율 확인 (`fxCheck`)
+카드·글에 달러를 원화로 바꾼 숫자(면세 한도, 아마존 손익분기)가 있으면 publish.json에 `fxCheck`를 적어요. 게시 직전에 `https://www.jikgugak.com/live.json`(매일 11:30 최신 환율로 다시 빌드)과 비교해서, 2천 원 넘게(만 원 반올림 숫자는 7천 원) 어긋나면 그 폴더는 올리지 않고 작업을 실패로 끝내요. GitHub가 실패 메일을 보내고, 매니저가 숫자를 고쳐 다시 렌더·push하면 다음 정시에 올라가요.
+```json
+"fxCheck": [
+  { "usd": 200, "rate": "customs", "shown": "26만 6천 원", "note": "면세 한도 200달러" },
+  { "usd": 150, "rate": "customs", "shown": "20만 원", "round": "10000" },
+  { "breakeven": "amazon-sony-wh-1000xm6", "shown": "30만 8천 원" }
+]
+```
+- `rate`: `customs`(관세청 과세환율, 면세 한도·무료배송 기준) 또는 `pay`(결제 환율). `breakeven`은 사이트가 계산한 아마존 손익분기 달러 × 결제 환율, 천 원 아래 버림.

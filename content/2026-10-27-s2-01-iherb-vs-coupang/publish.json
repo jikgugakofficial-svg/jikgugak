@@ -29,5 +29,14 @@
       ],
       "topicTag": "아이허브"
     }
-  }
+  },
+  "fxCheck": [
+    {
+      "usd": 150,
+      "rate": "customs",
+      "shown": "20만 원",
+      "note": "면세 한도 150달러",
+      "round": "10000"
+    }
+  ]
 }

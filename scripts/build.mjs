@@ -410,6 +410,16 @@ ${dealPromo()}
 }
 
 // ---------- 페이지: 판정 상세 ----------
+// 요약 문장이 말하는 판정: "○○ 이하면 직구각" 같은 조건 문장은 판정 주장이 아니라서 빼요.
+const FIXED_SUMMARIES = [];
+function verdictClaim(s) {
+  const t = s.replace(/직구각\s*기준/g, '').replace(/[^.。!?]*(이하|아래|떨어지|내려가|때만|일 때|되면|라면|넘길|넘으면)[^.。!?]*직구각[^.。!?]*/g, '');
+  if (/애매/.test(t)) return 'meh';
+  if (/국내가\s*(훨씬\s*|더\s*|조금\s*)?(나음|나아요|나은|싸|유리)|국내 구매가\s*(더\s*)?(나아|싸|유리)/.test(t)) return 'bad';
+  if (/직구각/.test(t)) return 'good';
+  return null;
+}
+
 function pageProduct(p) {
   const ev = p.ev;
   const v = VERDICT[ev.verdict];
@@ -483,7 +493,20 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
     .replace(/\{diff\}/g, ev.kind === 'priced' ? '₩' + krw(Math.abs(ev.diff)) : '-')
     .replace(/\{pct\}/g, ev.kind === 'priced' ? ev.pctNum + '%' : '-')
     .replace(/\{total\}/g, ev.kind === 'priced' ? '₩' + krw(ev.cost.total) : '-');
-  const summary = (p.summary || []).map((s) => `<li>${esc(fill(s))}</li>`).join('');
+  // 환율·가격이 바뀌어 판정이 달라졌는데 요약 문장이 예전 판정 단어(직구각·애매·국내가 나음)를 말하면,
+  // 그 문장만 지금 판정에 맞는 자동 문장으로 바꿔요. 빌드 로그에 남기면 price-checker가 다시 써요.
+  const autoLine = {
+    good: '지금 환율로 계산하면 해외 체감가 {total}로 국내보다 {diff}({pct}) 싸서 직구각이에요.',
+    meh: '지금 환율로 계산하면 해외가 {diff}({pct}) 싸지만, 직구각 기준(20%·₩10,000 이상)에는 못 미쳐 애매해요.',
+    bad: '지금 환율로 계산하면 관부가세·배송비까지 더한 해외 체감가가 국내보다 {diff} 비싸서 국내가 나아요.'
+  };
+  const summaryLines = (p.summary || []).map((s) => {
+    const claim = verdictClaim(s);
+    if (ev.kind !== 'priced' || !claim || claim === ev.verdict || !autoLine[ev.verdict]) return s;
+    FIXED_SUMMARIES.push(`${p.slug}: "${s.slice(0, 40)}…" (${claim} → ${ev.verdict})`);
+    return autoLine[ev.verdict];
+  });
+  const summary = summaryLines.map((s) => `<li>${esc(fill(s))}</li>`).join('');
   const desc = ev.kind === 'priced'
     ? `${p.name} 해외직구 최종 체감가 ₩${krw(ev.cost.total)} vs 국내 최저가 ₩${krw(p.domesticKrw)}. ${v.label} 판정과 관부가세 계산.`
     : `${p.name} 해외직구 손익분기 가격과 국내 최저가 ₩${krw(p.domesticKrw)} 비교.`;
@@ -937,6 +960,9 @@ write('disclosure.html', pageDisclosure());
 write('privacy.html', pagePrivacy());
 write('404.html', page404());
 for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
+// 예약 SNS 글이 게시 직전에 "지금 환율로도 숫자가 맞는지" 확인할 때 쓰는 값(tools/publish/run.mjs의 fxCheck)
+write('live.json', JSON.stringify({ updated: new Date().toISOString(), fx: { customs: FX, pay: PAYFX, src: (RATES.customs.source || 'settings') + '/' + ((RATES.pay && RATES.pay.source) || 'settings') }, products: Object.fromEntries(items.map((p) => [p.slug, { verdict: p.ev.verdict, breakeven: p.ev.breakeven ?? null, beKrw: p.ev.beKrw ?? null, diff: p.ev.diff ?? null, pct: p.ev.pctNum ?? null, total: p.ev.cost ? p.ev.cost.total : null }])) }) + '\n');
+if (FIXED_SUMMARIES.length) console.warn(`⚠ 판정이 바뀌어 요약 문장 ${FIXED_SUMMARIES.length}개를 자동 문장으로 바꿨어요(price-checker가 다시 써 주세요):\n  ` + FIXED_SUMMARIES.join('\n  '));
 
 // lastmod는 내용이 실제로 바뀌는 날만: 상품은 가격 확인일, 홈·세일·캘린더는 매일(환율·D-day), 나머지는 생략
 const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };

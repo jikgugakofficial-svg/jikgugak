@@ -29,5 +29,19 @@
       ],
       "topicTag": "해외직구"
     }
-  }
+  },
+  "fxCheck": [
+    {
+      "usd": 200,
+      "rate": "customs",
+      "shown": "26만 6천 원",
+      "note": "면세 한도 200달러"
+    },
+    {
+      "usd": 49,
+      "rate": "customs",
+      "shown": "6만 5천 원",
+      "note": "아이허브·아마존 무료배송 49달러"
+    }
+  ]
 }
