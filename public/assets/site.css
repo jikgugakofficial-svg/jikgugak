@@ -648,3 +648,22 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .trend.in-search { margin: 4px 0 16px; }
 .trend.in-search .trend-list { flex-direction: row; flex-wrap: wrap; gap: 6px 14px; }
 .trend.in-search .trend-head { flex-direction: row; gap: 8px; align-items: baseline; }
+
+/* ---------- 세일 딜 모음 (/deals/*) ---------- */
+.deal-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.deal-chip { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 8px 14px; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer; }
+.deal-chip[aria-pressed="true"] { background: var(--point); border-color: var(--point); color: #fff; }
+.deal-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.deal { display: flex; gap: 12px; border: 1px solid var(--line); border-radius: 14px; padding: 12px; background: #fff; }
+.deal-img { width: 96px; height: 96px; object-fit: contain; border-radius: 10px; background: var(--bg2); flex: none; }
+.deal-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.deal-title { font-size: 14px; font-weight: 700; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.deal-meta { font-size: 12.5px; color: var(--sub); }
+.deal-total { font-size: 14px; }
+.deal-total b { font-size: 18px; }
+.deal-total small { display: block; color: var(--sub); font-size: 12px; }
+.deal-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+.btn.small { min-height: 36px; padding: 6px 12px; font-size: 13px; }
+.faq { border-bottom: 1px solid var(--line); padding: 12px 0; }
+.faq summary { font-weight: 800; cursor: pointer; }
+.faq p { margin: 8px 0 0; color: var(--sub); }

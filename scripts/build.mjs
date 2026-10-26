@@ -145,6 +145,7 @@ function evaluate(p) {
   }
   return { kind: 'priced', verdict: j.verdict, limit, cost, diff: j.diff, pct, pctNum, note, breakeven: be, beKrw };
 }
+const DEALS = fs.existsSync('data/deals.json') ? JSON.parse(fs.readFileSync('data/deals.json', 'utf8')).pages || [] : [];
 const items = products.map(normalize).map((p) => ({ ...p, ev: evaluate(p), storeName: (STORES[p.store] || { name: p.store }).name }));
 // 방문자가 좋은 거래부터 보게: 직구각(아끼는 금액 큰 순) → 애매 → 현재가 확인(아마존) → 국내가 나음
 const V_ORDER = { good: 0, meh: 1, check: 2, bad: 3 };
@@ -528,6 +529,28 @@ function pageCalculator() {
   return layout({ title: '해외직구 관세 계산기', description: '미국 $200, 그 외 $150 면세 한도와 관세·부가세를 계산하고 국내 최저가와 비교해 직구할 각인지 판정해요.', urlPath: '/calculator', body, current: '/calculator', scripts: ['/assets/calculator.js'] });
 }
 
+// ---------- 페이지: 세일 딜 모음 (/deals/<slug>) — 알리 제휴 API 실시간 가격 + 관부가세 최종가 ----------
+function pageDeals(d) {
+  const ev = events.find((e) => e.id === d.event);
+  const aliMine = items.filter((p) => p.store === 'aliexpress' && !p.sample);
+  const chips = d.cats.map((c, i) => `<button type="button" class="deal-chip" data-deal-q="${esc(c.q)}" aria-pressed="${i === 0}">${esc(c.name)}</button>`).join('');
+  const faq = (d.faq || []).map((f) => `<details class="faq"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('');
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: (d.faq || []).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
+  const body = `
+<div class="page-head"><h1 class="display">${esc(d.h1)}</h1><p class="muted">${esc(d.intro)}</p>${ev ? `<p class="small"><b>${esc(ev.name)}</b> ${esc(ev.date.slice(5).replace('-', '/'))}${ev.end && ev.end !== ev.date ? '~' + esc(ev.end.slice(5).replace('-', '/')) : ''}</p>` : ''}</div>
+${aliMine.length ? `<section class="block"><div class="block-head"><div><h2 class="h2">직구각이 확인한 알리 상품</h2><span class="muted small">같은 모델의 국내 최저가와 비교해 판정까지 끝낸 상품이에요</span></div></div><div class="grid">${aliMine.map(card).join('\n')}</div></section>` : ''}
+<section class="block" data-deals data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
+  <div class="block-head"><div><h2 class="h2">품목별 알리 인기 상품 최종가</h2><span class="muted small">알리 제휴 API 실시간 가격(일반 판매가, 신규 회원가·쿠폰 제외) · 관부가세·배송비 포함</span></div></div>
+  <div class="deal-chips" role="group" aria-label="품목">${chips}</div>
+  <p class="s-status" data-deal-status role="status" aria-live="polite"></p>
+  <ol class="deal-list" data-deal-list></ol>
+  <p class="muted small">판매량순으로 보여 드려요. "국내가 넣고 판정"을 누르면 같은 상품을 쿠팡 최저가와 비교할 수 있어요. 알리 링크로 구매하면 직구각이 제휴 수수료를 받을 수 있어요(구매가는 같아요).</p>
+</section>
+${faq ? `<section class="block"><h2 class="h2">자주 묻는 질문</h2>${faq}<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script></section>` : ''}
+<p class="muted small">${esc(FX_LABEL)}. 최종 세액은 세관 고지를 따릅니다.</p>`;
+  return layout({ title: d.title, description: d.description, urlPath: `/deals/${d.slug}`, body, scripts: ['/assets/deals.js'] });
+}
+
 // ---------- 페이지: 검색 (판정한 상품 + 네이버쇼핑 실시간 국내 최저가) ----------
 function pageSearch() {
   const catOpts = Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)} (${esc(c.sub)})</option>`).join('');
@@ -879,6 +902,7 @@ const write = (rel, content) => { const f = path.join(dist, rel); fs.mkdirSync(p
 write('index.html', pageHome());
 write('calculator.html', pageCalculator());
 write('search.html', pageSearch());
+for (const d of DEALS) write(`deals/${d.slug}.html`, pageDeals(d));
 write('calendar.html', pageCalendar());
 write('sale.html', pageSale());
 write('domestic.html', pageDomestic());
@@ -891,7 +915,7 @@ for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
 
 // lastmod는 내용이 실제로 바뀌는 날만: 상품은 가격 확인일, 홈·세일·캘린더는 매일(환율·D-day), 나머지는 생략
 const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
-const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
+const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...DEALS.map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smap.map(([u, d]) => `  <url><loc>${absUrl(u)}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 
