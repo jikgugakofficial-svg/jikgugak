@@ -64,7 +64,17 @@
       "apiPrice": 57180,
       "isRocket": false,
       "diff": -13550
+    },
+    "amazon-lego-10280-flower-bouquet": {
+      "productId": "4899605928",
+      "keyword": "레고 보태니컬 플라워 부케 10280",
+      "at": "2026-10-26T21:12:47.253Z",
+      "recordedKrw": 71570,
+      "found": true,
+      "apiPrice": 71570,
+      "isRocket": false,
+      "diff": 0
     }
   },
-  "updatedAt": "2026-10-26T19:24:42.018Z"
+  "updatedAt": "2026-10-26T21:12:47.537Z"
 }
