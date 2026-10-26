@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-26T15:52:19.210Z",
-  "mode": "hourly",
+  "at": "2026-10-26T16:05:37.655Z",
+  "mode": "links",
   "ok": true,
-  "message": "후보 발굴 'Logitech G Pro X Superlight 2': 애매 (알리 최종 147,348원 / 쿠팡 179,000원)"
+  "message": "링크 만들기: 쿠팡 3개, 알리 3개 → data/new-links.json"
 }
