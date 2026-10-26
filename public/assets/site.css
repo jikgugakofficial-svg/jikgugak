@@ -672,3 +672,6 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .deal-promo b { font-size: 16px; }
 .deal-promo-pill { background: var(--brand); color: #fff; font-size: 12px; font-weight: 900; padding: 3px 10px; border-radius: 999px; }
 .deal-promo-go { margin-left: auto; font-size: 14px; font-weight: 800; color: var(--point-soft); }
+.dom-sale-notice { margin: 10px 0; padding: 10px 14px; border-radius: 12px; background: var(--brand-tint); font-size: 14px; line-height: 1.6; }
+.dom-sale-notice a { font-weight: 800; }
+.dom-sale-pill { display: inline-block; margin-right: 8px; background: var(--brand); color: #fff; font-size: 12px; font-weight: 900; padding: 2px 9px; border-radius: 999px; }

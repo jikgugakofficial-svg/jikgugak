@@ -319,6 +319,15 @@ function compareCard(p) {
 const sampleNote = items.some((p) => p.sample) ? " · '예시' 표시 상품은 가격 확인 전이에요" : '';
 
 // ---------- 페이지: 홈 ----------
+// 국내 세일이 진행 중이면(확정된 일정만) "직구 판정 전에 국내 할인가 한 번 더" 안내 띠를 보여 줘요. 매일 빌드 때 바뀌어요.
+function domesticSaleNotice() {
+  const today = kstToday();
+  const on = events.filter((e) => e.scope === 'domestic' && e.status === 'confirmed' && e.date <= today && (e.end || e.date) >= today);
+  if (!on.length) return '';
+  const names = on.map((e) => `<b>${esc(e.name)}</b>(~${esc((e.end || e.date).slice(5).replace('-', '/'))})`).join(', ');
+  return `<p class="dom-sale-notice"><span class="dom-sale-pill">국내 세일 중</span>${names} 기간이에요. 국내가가 내려갔을 수 있으니 직구 판정 전에 국내 할인가를 한 번 더 확인하세요. <a href="/calendar">세일 캘린더</a></p>`;
+}
+
 // 진행 중이거나 다가오는 세일의 딜 모음 페이지로 가는 띠 (홈·세일·캘린더)
 function dealPromo() {
   const today = kstToday();
@@ -364,6 +373,7 @@ function pageHome() {
   </a>
 </section>
 
+${domesticSaleNotice()}
 ${dealPromo()}
 <div class="ticks"><section class="ticker" aria-label="최근 판정"><span class="ticker-pill">최근 판정</span>${ticker}</section>${fxStrip()}</div>
 
@@ -479,6 +489,7 @@ ${ev.verdict !== 'good' && (p.krwPriced ? ev.beKrw != null : ev.breakeven != nul
     : `${p.name} 해외직구 손익분기 가격과 국내 최저가 ₩${krw(p.domesticKrw)} 비교.`;
   const body = `
 <nav class="crumbs" aria-label="현재 위치"><a href="/">홈</a><span aria-hidden="true">›</span><a href="/?cat=${esc(p.category)}">${esc(cat.label)}</a><span aria-hidden="true">›</span><span>${esc(p.name)}</span></nav>
+${domesticSaleNotice()}
 <div class="pd">
   <div class="pd-left">
     <div class="pd-img">${imgBlock(p, true)}</div>
@@ -548,6 +559,7 @@ function pageDeals(d) {
   const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: (d.faq || []).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   const body = `
 <div class="page-head"><h1 class="display">${esc(d.h1)}</h1><p class="muted">${esc(d.intro)}</p>${ev ? `<p class="small"><b>${esc(ev.name)}</b> ${esc(ev.date.slice(5).replace('-', '/'))}${ev.end && ev.end !== ev.date ? '~' + esc(ev.end.slice(5).replace('-', '/')) : ''}</p>` : ''}</div>
+${domesticSaleNotice()}
 ${aliMine.length ? `<section class="block"><div class="block-head"><div><h2 class="h2">직구각이 확인한 알리 상품</h2><span class="muted small">같은 모델의 국내 최저가와 비교해 판정까지 끝낸 상품이에요</span></div></div><div class="grid">${aliMine.map(card).join('\n')}</div></section>` : ''}
 <section class="block" data-deals data-fx="${FX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
   <div class="block-head"><div><h2 class="h2">품목별 알리 인기 상품 최종가</h2><span class="muted small">알리 제휴 API 실시간 가격(일반 판매가, 신규 회원가·쿠폰 제외) · 관부가세·배송비 포함</span></div></div>
@@ -572,6 +584,7 @@ function pageSearch() {
   <button type="submit" class="btn btn-buy">검색</button>
 </form>
 <p class="s-tip muted small">브랜드·모델명으로 검색하면 국내 같은 상품과 비교하기 쉬워요.</p>
+${domesticSaleNotice()}
 ${trendBlock('in-search')}
 <section class="block" data-s-curated hidden>
   <div class="block-head"><div><h2 class="h2">직구각 등록 상품 가격 비교</h2><span class="muted small">같은 모델끼리 국내 최저가와 해외 최종가(관세·배송비 포함)를 나란히 비교해요</span></div></div>
