@@ -10,7 +10,7 @@
 //                                                     data/candidates.json 에 남겨요. 사이트에 바로 올리지 않아요(확인 뒤 등록).
 //   node scripts/coupang.mjs links <알리 상품번호·쿠팡 일반 주소…> → 새 상품 등록용 링크: 알리는 사이트 /api/item(제휴 링크·사진),
 //                                                     쿠팡은 딥링크 → data/new-links.json (링크는 열지 않아요)
-//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 5개 + prices 2개(1시간 7회)
+//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 2개 + prices 5개(1시간 7회, 10/27 22시~)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { hasKeys, search, deeplink, report, productIdOf, searchBudgetLeft, readGuard } from './lib/coupang.mjs';
 import { landedCost, judge } from '../src/calc.js';
@@ -134,7 +134,7 @@ async function discover() {
 }
 
 if (mode === 'discover') { await discover(); summary(out.join('\n')); }
-if (mode === 'hourly') { for (let i = 0; i < 5 && searchBudgetLeft() > 2; i++) await discover(); } // 후보 5개 + 남은 2회로 등록 상품 가격 확인(10/27~)
+if (mode === 'hourly') { for (let i = 0; i < 2 && searchBudgetLeft() > 5; i++) await discover(); } // 10/27 22시 운영자: 후보는 웹 검색으로 먼저 찾고 API는 연결·가격 갱신에 → 후보 2개 + 등록 상품 가격 확인 5개
 
 // ---------- 등록 상품 가격 자동 반영 (10/27 운영자 결정: API로 받은 가격은 자동으로 사이트에 반영) ----------
 // 안전장치: ① 같은 상품 번호(쿠팡은 옵션 번호 itemId까지 기록돼 있으면 그것도)일 때만 ② 변화가 너무 크면(옵션이 다른 값일 수 있어서) 반영하지 않고 확인 목록에 남겨요
