@@ -26,12 +26,13 @@
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-10-26T10:21:43.443Z",
+      "at": "2026-10-27T18:20:06.350Z",
       "recordedKrw": 10240,
       "found": true,
-      "apiPrice": 10240,
+      "apiPrice": 12970,
       "isRocket": false,
-      "diff": 0
+      "diff": 2730,
+      "result": "held"
     },
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
@@ -372,5 +373,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-27T17:29:29.019Z"
+  "updatedAt": "2026-10-27T18:20:08.087Z"
 }
