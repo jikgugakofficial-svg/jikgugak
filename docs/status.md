@@ -82,7 +82,7 @@
 - [ ] `content/2026-10-23-series-3-iherb-shipping`은 락토비프 숫자 기준이라 쓰려면 다시 계산.
 
 **운영자**
-- [ ] 아이허브 제휴(impact): 10/22 신청 접수 메일만 있고 승인 메일 없음(10/27 메일함 확인). impact.com → 브랜드(iHerb) 상태가 Active인지 Pending인지 확인. 승인 전까지 사이트 아이허브 링크는 일반 링크.
+- [ ] 아이허브 제휴(impact): **10/27 운영자 확인: impact.com에서 'iHerb LLC 신청 · 검토 중'**(10/22 신청). 응답 오면 impact 알림. 승인되면 매니저가 아이허브 링크 15개를 제휴 링크로 바꾸고 상품 정보 API 가능 여부 확인. 그 전까지 일반 링크.
 - [ ] 카카오 공유 디버거(https://developers.kakao.com/tool/debugger/sharing)에서 `https://www.jikgugak.com`·`https://jikgugak.com` 캐시 초기화(10/26 공유 이미지를 주황 시안 B로 새로 만들고 주소에 `?v=20261026b` 붙임. 원본 `tools/og/og.html`, 시안 a·b·c는 body data-v로 바꿔요).
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.
