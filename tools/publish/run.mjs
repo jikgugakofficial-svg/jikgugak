@@ -96,7 +96,10 @@ async function postThreads(me, spec) {
 
 const who = await whoami();
 if (process.argv[2] === 'check') {
-  writeFileSync('content/_publish-status.json', JSON.stringify({ checkedAt: new Date().toISOString(), ...who }, null, 2) + '\n');
+  // 중복 막기용 최근 게시물 읽기가 되는지도 확인(첫 줄 앞부분만 기록)
+  const ig = await call(IG, '/me/media', IG_TOKEN, { fields: 'id,caption,media_type,timestamp,permalink', limit: '5' }).then((j) => (j.data || []).map((x) => `${x.timestamp} ${x.media_type} ${String(x.caption || '').slice(0, 20)}`)).catch((e) => ['실패: ' + e.message.slice(0, 120)]);
+  const th = await call(TH, '/me/threads', THREADS_TOKEN, { fields: 'id,text,timestamp,permalink', limit: '5' }).then((j) => (j.data || []).map((x) => `${x.timestamp} ${String(x.text || '').slice(0, 20)}`)).catch((e) => ['실패: ' + e.message.slice(0, 120)]);
+  writeFileSync('content/_publish-status.json', JSON.stringify({ checkedAt: new Date().toISOString(), ...who, recentInstagram: ig, recentThreads: th }, null, 2) + '\n');
   console.log(JSON.stringify(who, null, 2));
   process.exit(0);
 }
@@ -131,6 +134,23 @@ async function fxProblems(job) {
 }
 let HELD = 0;
 
+// 같은 글 두 번 게시 막기(10/27 S2-01이 두 번 올라감: 늦게 돈 예약 실행이 결과 파일이 없던 옛 커밋을 보고 다시 올림).
+// 올리기 직전에 최근 3일 게시물의 첫 줄을 Meta API로 읽어서, 같은 첫 줄이 이미 있으면 건너뛰어요.
+const head = (t) => String(t || '').replace(/\s+/g, ' ').trim().slice(0, 40);
+const recent = { instagram: null, threads: null };
+async function alreadyPosted(kind, spec) {
+  const since = Date.now() - 3 * 86400_000;
+  if (kind === 'threads') {
+    if (!recent.threads) recent.threads = (await call(TH, '/me/threads', THREADS_TOKEN, { fields: 'id,text,timestamp,permalink', limit: '25' }).catch(() => ({ data: [] }))).data || [];
+    const want = head((spec.texts || [spec.text])[0]);
+    return recent.threads.find((x) => Date.parse(x.timestamp) > since && head(x.text) === want) || null;
+  }
+  if (!recent.instagram) recent.instagram = (await call(IG, '/me/media', IG_TOKEN, { fields: 'id,caption,media_type,timestamp,permalink', limit: '25' }).catch(() => ({ data: [] }))).data || [];
+  const want = head(spec.text);
+  const isReel = kind === 'reels';
+  return recent.instagram.find((x) => Date.parse(x.timestamp) > since && head(x.caption) === want && ((x.media_type === 'VIDEO') === isReel)) || null;
+}
+
 const roots = readdirSync('content', { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => path.join('content', d.name));
 const jobs = roots.filter((r) => existsSync(path.join(r, 'publish.json')) && !existsSync(path.join(r, 'publish-result.json')));
 if (!jobs.length) { console.log('올릴 글 없음'); process.exit(0); }
@@ -146,6 +166,8 @@ for (const dir of jobs) {
     try {
       const acct = kind === 'reels' ? 'instagram' : kind;
       if (!who[acct] || !who[acct].ok) throw new Error(`${kind} 연결 안 됨: ${who[acct] ? who[acct].error : '지원 안 하는 채널'}`);
+      const dup = await alreadyPosted(kind, spec);
+      if (dup) { result.posts.push({ kind, ok: true, skipped: '이미 같은 글이 올라가 있어 건너뜀', id: dup.id, url: dup.permalink }); continue; }
       const r = kind === 'instagram' ? await postInstagram(who.instagram.id, dir, spec) : kind === 'reels' ? await postReel(who.instagram.id, dir, spec) : await postThreads(who.threads.id, spec);
       result.posts.push({ kind, ok: true, ...r });
     } catch (e) {

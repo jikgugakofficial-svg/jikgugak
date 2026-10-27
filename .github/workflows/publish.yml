@@ -24,7 +24,10 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      # 예약 실행이 늦게 돌아도 '실행 시점의 최신 main'을 봐요(이벤트 당시 옛 커밋을 보면 이미 올린 글을 또 올려요)
       - uses: actions/checkout@v5
+        with:
+          ref: main
       - uses: actions/setup-node@v5
         with:
           node-version: 22
