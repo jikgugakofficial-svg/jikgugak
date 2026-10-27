@@ -91,7 +91,7 @@ const lampTxt = ['직구각', '애매', '국내가 나음'].map((s) => { const t
 const fx = $('fx'), fx2 = $('fx2');
 
 // ── 자막 ──
-const WD = T.words.map((w) => { const [text, b, out, x, y, size, col, font, rot, mis] = w; return { text, b, out, y, size, col: C[col], font, rot, mis, layer: (b >= 14.5 && b < 16.5) || b >= 22 ? 'words2' : 'words1' }; });
+const WD = T.words.map((w) => { const [text, b, out, x, y, size, col, font, rot, mis] = w; return { text, b, out, y, size, col: C[col], font, rot, mis, layer: b >= 22 ? 'words2' : 'words1' }; });
 for (const w of WD) {
   const d = document.createElement('div'); d.className = 'w'; d.textContent = w.text;
   d.style.cssText += `font-family:${w.font === 'D' ? 'D' : 'P'};font-weight:${w.font === 'D' ? 900 : 800};font-size:${w.size}px;color:${w.col};letter-spacing:-0.02em`;
@@ -137,13 +137,14 @@ function word(w, t) {
 
 // ── 기울기: 무게가 바뀔 때마다 스프링 하나씩 더함(레퍼런스 5·9) ──
 const TILT = (d) => cl(2 * d, -16, 16);
-function tiltOf(t, list, start) {
+const EVENTS = [...T.round1, ['clear', T.clear, 0, 'X'], ...T.round2];
+function tiltOf(t) {
   let L = 0, Rr = 0, prev = 0, ang = 0;
-  for (const [n, b, w, side] of list) {
-    side === 'L' ? (L += w) : (Rr += w);
+  for (const [n, b, w, side] of EVENTS) {
+    if (side === 'X') { L = 0; Rr = 0; } else side === 'L' ? (L += w) : (Rr += w);
     const tg = TILT(Rr - L); ang += (tg - prev) * spring(t - bt(b)); prev = tg;
   }
-  return t < start ? 0 : ang;
+  return ang;
 }
 function blockPos(t, b0, panP, stackY, hgt) { // 위에서 떨어져 박에 착지 + 눌렸다 튐(레퍼런스 24 토스)
   const land = bt(b0), st = land - 0.3;
@@ -154,9 +155,7 @@ function blockPos(t, b0, panP, stackY, hgt) { // 위에서 떨어져 박에 착�
   return { x: panP.x, y, sx, sy, rot: p < 1 ? (1 - p) * 10 : 0 };
 }
 function drawScale(t) {
-  const round2 = t >= bt(T.swap);
-  const list = round2 ? T.round2 : T.round1;
-  const ang = tiltOf(t, list, 0) * Math.PI / 180;
+  const ang = tiltOf(t) * Math.PI / 180;
   // 0박 점, 1박 저울대, 2박 받침, 3박 접시
   const dp = oe(pg(t, bt(T.dot), bt(T.dot) + 0.55));
   const bp = pg(t, bt(T.beam), bt(T.beam) + 0.6), bw = 44 + (760 - 44) * oe(bp);
@@ -176,13 +175,19 @@ function drawScale(t) {
     pans[i].setAttribute('d', pp > 0.02 ? `M${x - 140 * pp} ${y + h} Q${x} ${y + h + 60 * pp} ${x + 140 * pp} ${y + h} L${x + 130 * pp} ${y + h - 6} L${x - 130 * pp} ${y + h - 6} Z` : '');
   });
   for (const k in blocks) blocks[k].setAttribute('opacity', 0);
+  for (const [list, r1] of [[T.round1, true], [T.round2, false]]) {
   const stack = { L: 0, R: 0 };
   for (const [n, b, w, side] of list) {
     const B = BLK[n], i = side === 'L' ? 0 : 1, panP = { x: P[i].x, y: P[i].y + STR - 6 };
     const pos = blockPos(t, b, panP, -stack[side], B.h); stack[side] += B.h + 4;
     if (!pos) continue;
+    if (r1 && t >= bt(T.clear)) { // 16박: 1회전 추가 위로 휙 빠짐(다음 상품 준비)
+      const q = pg(t, bt(T.clear) + (side === 'L' ? 0 : 0.04), bt(T.clearEnd)); if (q >= 1) continue;
+      pos.y -= 1500 * oc(q); pos.rot += (side === "L" ? -1 : 1) * 25 * q; // 박에 바로 튀어 나가게(빠른 출발)
+    }
     blocks[n].setAttribute('opacity', 1);
     blocks[n].setAttribute('transform', `translate(${pos.x} ${pos.y}) rotate(${pos.rot}) scale(${pos.sx} ${pos.sy})`);
+  }
   }
   return P;
 }
@@ -194,7 +199,7 @@ function drawLamps(t) {
   house.setAttribute('x', 540 - hw * pop); house.setAttribute('y', LY - 75 * pop); house.setAttribute('width', 2 * hw * pop); house.setAttribute('height', 150 * pop); house.setAttribute('rx', 75 * pop);
   let on = -1;
   const cyc = (c, land) => { if (t >= bt(c[0]) && t < bt(c[1])) on = Math.floor((t - bt(c[0])) / (BT / 4)) % 3; if (t >= bt(c[1])) on = land; };
-  if (t < bt(T.swap)) cyc(T.cycle1, 2); else { if (t < bt(T.contract1[1])) on = 2; cyc(T.cycle2, 0); if (t < bt(T.cycle2[0]) && t >= bt(T.contract1[1])) on = -1; }
+  if (t < bt(T.clear)) cyc(T.cycle1, 2); else cyc(T.cycle2, 0); // 16박에 불이 꺼지고 2회전에서 다시 돎
   LX.forEach((x, i) => {
     const cx = 540 + (x - 540) * e, r = 52 * pop * (sp > 0 ? 1 : 0.9);
     lampBlobs[i].setAttribute('cx', cx); lampBlobs[i].setAttribute('cy', LY); lampBlobs[i].setAttribute('r', r);
@@ -247,13 +252,13 @@ function drawLogo(t) {
 }
 // ── 카메라: 킥마다 살짝 당김, 강타엔 크게 + 흔들림(레퍼런스 55) ──
 const KICKS = [...Array(18).keys()].map((n) => n + 4).concat([26, 27, 28]);
-const HITS = { 4: 0.07, 6: 0.035, 8: 0.04, 9: 0.04, 10: 0.06, 14: 0.08, 17: 0.035, 18: 0.03, 20: 0.06, 24: 0.04, 25: 0.04, 26: 0.07, 27: 0.04, 28: 0.02 };
-const SHAKE = { 4: 22, 10: 14, 14: 26, 20: 12, 26: 18 };
+const HITS = { 4: 0.07, 6: 0.035, 8: 0.04, 9: 0.04, 10: 0.06, 14: 0.06, 17: 0.035, 18: 0.03, 20: 0.06, 24: 0.04, 25: 0.04, 26: 0.07, 27: 0.04, 28: 0.02 };
+const SHAKE = { 4: 22, 10: 14, 14: 12, 20: 12, 26: 18 };
 function cam(t) {
   let z = 0;
   for (const k of KICKS) { const d = t - bt(k); if (d >= 0 && d < 0.35) z = Math.max(z, 0.014 * Math.exp(-d * 12)); }
   for (const k in HITS) { const d = t - bt(+k); if (d >= 0 && d < 0.45) z = Math.max(z, HITS[k] * Math.exp(-d * 9)); }
-  const push = t < bt(14) ? 0.05 * oc(pg(t, bt(4), bt(13))) : 0; // 장면마다 카메라 한 번만 천천히 다가감
+  const push = 0.05 * oc(pg(t, bt(4), bt(13))) * (1 - oc(pg(t, bt(T.clear), bt(T.clear) + 0.6))); // 1회전 동안 천천히 다가가고, 추가 빠질 때 원래대로
   let sx = 0, sy = 0;
   for (const k in SHAKE) { const d = t - bt(+k); if (d >= 0 && d < 0.22) { const a = SHAKE[k] * (1 - d / 0.22); sx = a * Math.sin(d * 95); sy = 0.7 * a * Math.cos(d * 81); } }
   return { z: 1 + z + push, sx, sy };
@@ -275,19 +280,15 @@ window.seek = (t0) => {
   // 떨어질 때 고리·방사선
   for (const [n, b, w, side] of [...T.round1, ...T.round2]) {
     const i = side === 'L' ? 0 : 1, x = P[i].x, y = P[i].y + STR;
-    if ((b < 16) === (t < bt(T.swap))) { burst(fx, x, y - 20, t, bt(b), side === 'L' ? C.navy : C.orange, 10, 160, 250, 0.3, 10); }
+    burst(fx, x, y - 20, t, bt(b), side === 'L' ? C.navy : C.orange, 10, 160, 250, 0.3, 10);
   }
   ring(fx, PIV.x, PIV.y, t, bt(T.drop), C.orange, 30, 520, 0.5, 20);
-  ring(fx, 700, LY, t, bt(T.hit1), C.blue, 58, 260, 0.4, 14);
+  ring(fx, 700, LY, t, bt(T.hit1), C.blue, 58, 320, 0.45, 16);
+  burst(fx, 700, LY, t, bt(T.hit1), C.blue, 14, 90, 210, 0.35, 10);
+  confetti(fx, 700, LY, t, bt(T.hit1), 5, [C.blue, C.orange, C.navy, C.salmon]);
   ring(fx, 380, LY, t, bt(T.hit2), C.green, 58, 320, 0.45, 16);
   burst(fx, 380, LY, t, bt(T.hit2), C.green, 14, 90, 210, 0.35, 10);
   confetti(fx, 380, LY, t, bt(T.hit2), 7, [C.green, C.orange, C.navy, C.salmon]);
-  // 첫 판정 파랑 번짐 → "국내가 나음" → 다시 파란 불로 줄어듦(공유 요소)
-  const f1 = T.flood1, c1 = T.contract1;
-  let fr = 0;
-  if (t >= bt(f1[0]) && t < bt(c1[0])) fr = RMAX(700, LY) * Math.sqrt(oc(pg(t, bt(f1[0]), bt(f1[1]))));
-  else if (t >= bt(c1[0]) && t < bt(c1[1])) fr = RMAX(700, LY) * Math.sqrt(1 - oc(pg(t, bt(c1[0]), bt(c1[1])))) ;
-  circleClip($('flood'), 700, LY, fr, C.blue);
   // 22박 남색이 사선으로 밀고 들어옴
   const sp = oc(pg(t, bt(T.slant) - 0.1, bt(T.slant) + 0.14)), edge = 1080 + 400 - (1080 + 1100) * sp;
   $('slant').style.background = C.navy;
