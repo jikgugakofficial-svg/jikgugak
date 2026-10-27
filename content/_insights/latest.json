@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-26T15:36:17.060Z",
+  "at": "2026-10-27T07:15:32.802Z",
   "window": "최근 7일",
   "instagram": {
     "profile": {
@@ -10,20 +10,36 @@
       "website": "https://www.jikgugak.com",
       "followers_count": 0,
       "follows_count": 6,
-      "media_count": 4,
+      "media_count": 5,
       "account_type": "BUSINESS",
       "id": "28724042543919894"
     },
     "account7d": {
       "reach": 5,
       "views": 5,
-      "profile_views": 11,
+      "profile_views": 12,
       "website_clicks": 1,
       "accounts_engaged": 0,
       "total_interactions": 0,
       "profile_links_taps": 0
     },
     "media": [
+      {
+        "permalink": "https://www.instagram.com/reel/De-4wQODclh/",
+        "timestamp": "2026-10-27T03:25:51+0000",
+        "type": "VIDEO",
+        "firstLine": "직구가 더 싸 보일 때, 다 더해 보셨어요?",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 0,
+          "views": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0
+        },
+        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AMPeDKNCWZp0-bC547omSb-\"}"
+      },
       {
         "permalink": "https://www.instagram.com/p/De6XG5yEb8s/",
         "timestamp": "2026-10-25T09:14:33+0000",
