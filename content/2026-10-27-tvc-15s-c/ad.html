@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>직구각 C안 신호등 저울</title>
+<style>
+  @font-face{font-family:D;src:url("../../tools/tvc/fonts/Freesentation-9Black.ttf")}
+  @font-face{font-family:P;src:url("../../tools/cards/fonts/PretendardVariable.ttf");font-weight:100 900}
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#FBF7F3}
+  #bg{position:absolute;inset:-80px;background-image:radial-gradient(#E9DFD5 4px,transparent 4.5px);background-size:72px 72px}
+  #cam{position:absolute;inset:0;transform-origin:540px 960px}
+  svg{position:absolute;inset:0}
+  .w{position:absolute;left:0;top:0;white-space:nowrap;transform-origin:center center;will-change:auto}
+  .lbl{font-family:P;font-weight:800}
+  #flood,#slant,#endbg{position:absolute;inset:0}
+  #words1,#words2{position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:540px 960px}
+  #s2{transform-origin:540px 960px}
+  #marks{position:absolute;inset:0;mix-blend-mode:difference;color:#fff;font-family:P;font-weight:600;font-size:24px;letter-spacing:.08em;pointer-events:none}
+</style></head>
+<body>
+<div id="bg"></div>
+<div id="cam">
+  <svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920">
+    <defs>
+      <filter id="goo"><feGaussianBlur stdDeviation="12"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 26 -11"/></filter>
+    </defs>
+    <g id="lampG"></g>
+    <g id="scale"></g>
+    <g id="fx"></g>
+  </svg>
+  <div id="words1"></div>
+</div>
+<div id="flood"></div>
+<div id="slant"></div>
+<div id="endbg"></div>
+<svg id="s2" width="1080" height="1920" viewBox="0 0 1080 1920" style="position:absolute;inset:0"><g id="fx2"></g><g id="logo"></g></svg>
+<div id="words2"></div>
+<div id="marks"></div>
+<script src="timeline.js"></script>
+<script>
+document.fonts.load('900 100px D'); document.fonts.load('800 40px P');
+const T = window.TL, BT = 60 / T.bpm, bt = (b) => b * BT;
+window.DURATION = T.beats * BT;
+const C = { ink:'#16181D', navy:'#1F2E57', orange:'#D23A10', salmon:'#FFC7A6', white:'#FFFFFF', blue:'#2F5FD0', green:'#0E7C4A', meh:'#8A5A00', bg:'#FBF7F3' };
+const BLK = {
+  dom:  { w:230, h:200, c:C.navy,   t:'국내 최저가', tc:'#fff' },
+  prod: { w:210, h:120, c:C.orange, t:'해외 상품가', tc:'#fff' },
+  ship: { w:190, h:66,  c:'#E86A40', t:'배송비', tc:'#fff' },
+  duty: { w:170, h:58,  c:'#F29270', t:'관세', tc:C.navy },
+  vat:  { w:156, h:56,  c:'#F8B89E', t:'부가세', tc:C.navy },
+  dom2: { w:230, h:200, c:C.navy,   t:'국내 최저가', tc:'#fff' },
+  prod2:{ w:190, h:96,  c:C.orange, t:'해외 상품가', tc:'#fff' },
+  tax2: { w:130, h:44,  c:'#F8B89E', t:'관부가세', tc:C.navy },
+};
+// ── 수학 ──
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const pg = (t, a, b) => cl((t - a) / (b - a));
+const oc = (x) => 1 - Math.pow(1 - x, 3);
+const iq = (x) => x * x;
+const ob = (x, s = 1.9) => { x -= 1; return x * x * ((s + 1) * x + s) + 1; };
+const oe = (x) => x <= 0 ? 0 : x >= 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * 2 * Math.PI / 3) + 1;
+// 닫힌 식 스프링(0→1 계단 응답). f=진동수(Hz), z=감쇠
+const spring = (dt, f = 1.4, z = 0.32) => dt <= 0 ? 0 : 1 - Math.exp(-z * 2 * Math.PI * f * dt) * (Math.cos(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt) + z / Math.sqrt(1 - z * z) * Math.sin(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt));
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
+const $ = (id) => document.getElementById(id);
+
+// ── 저울 만들기 ──
+const PIV = { x: 540, y: 1030 }, ARM = 340, STR = 210;
+const g = $('scale');
+const dot = el('circle', { cx: PIV.x, cy: PIV.y, r: 0, fill: C.orange }, g);
+const strings = [-1, 1].map(() => el('path', { stroke: C.navy, 'stroke-width': 5, fill: 'none', 'stroke-linecap': 'round' }, g));
+const pans = [-1, 1].map(() => el('path', { fill: C.navy }, g));
+const beam = el('rect', { height: 24, rx: 12, fill: C.navy }, g);
+const base = el('path', { fill: C.navy }, g);
+const plate = el('rect', { x: 370, y: 1318, width: 340, height: 26, rx: 13, fill: C.navy }, g);
+const cap = el('circle', { cx: PIV.x, cy: PIV.y, r: 0, fill: C.orange }, g);
+const blocks = {};
+for (const k in BLK) {
+  const b = BLK[k], gg = el('g', {}, g);
+  el('rect', { x: -b.w / 2, y: -b.h, width: b.w, height: b.h, rx: 16, fill: b.c }, gg);
+  const tx = el('text', { x: 0, y: -b.h / 2 + 2, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: b.tc, class: 'lbl', 'font-size': b.h >= 90 ? 34 : b.h >= 56 ? 28 : 24 }, gg);
+  tx.textContent = b.t; blocks[k] = gg;
+}
+// 신호등
+const lg = $('lampG');
+const house = el('rect', { fill: C.navy }, lg);
+const goo = el('g', { filter: 'url(#goo)' }, lg);
+const lampCol = [C.green, C.meh, C.blue], LX = [380, 540, 700], LY = 640;
+const lampBlobs = LX.map(() => el('circle', { r: 0, fill: '#2B3D6E' }, goo));
+const lamps = LX.map(() => el('circle', { r: 0 }, lg));
+const lampTxt = ['직구각', '애매', '국내가 나음'].map((s) => { const t = el('text', { 'text-anchor': 'middle', class: 'lbl', 'font-size': 26 }, lg); t.textContent = s; return t; });
+const fx = $('fx'), fx2 = $('fx2');
+
+// ── 자막 ──
+const WD = T.words.map((w) => { const [text, b, out, x, y, size, col, font, rot, mis] = w; return { text, b, out, y, size, col: C[col], font, rot, mis, layer: (b >= 14.5 && b < 16.5) || b >= 22 ? 'words2' : 'words1' }; });
+for (const w of WD) {
+  const d = document.createElement('div'); d.className = 'w'; d.textContent = w.text;
+  d.style.cssText += `font-family:${w.font === 'D' ? 'D' : 'P'};font-weight:${w.font === 'D' ? 900 : 800};font-size:${w.size}px;color:${w.col};letter-spacing:-0.02em`;
+  if (w.mis) { // 강타 프레임용 두 색 어긋남 복사본
+    w.m1 = d.cloneNode(true); w.m2 = d.cloneNode(true);
+    w.m1.style.color = C.orange; w.m2.style.color = w.col === C.navy || w.col === C.ink ? C.salmon : C.navy;
+    $(w.layer).append(w.m1, w.m2);
+  }
+  $(w.layer).appendChild(d); w.d = d;
+}
+let laid = false;
+function layout() { // 같은 줄(같은 y·같은 나가는 박) 단어를 가운데 정렬
+  const groups = {};
+  for (const w of WD) (groups[w.y + '|' + w.out] ||= []).push(w);
+  for (const k in groups) {
+    const ws = groups[k], gap = ws[0].size * 0.2;
+    ws.forEach((w) => (w.wd = w.d.getBoundingClientRect().width));
+    let x = 540 - (ws.reduce((a, w) => a + w.wd, 0) + gap * (ws.length - 1)) / 2;
+    for (const w of ws) { w.cx = x + w.wd / 2; x += w.wd + gap; w.hh = w.d.getBoundingClientRect().height; }
+  }
+  laid = true;
+}
+function word(w, t) {
+  const t0 = bt(w.b);
+  const hide = () => { w.d.style.opacity = 0; if (w.m1) w.m1.style.opacity = w.m2.style.opacity = 0; };
+  if (t < t0 - 0.001) return hide();
+  const p = pg(t, t0, t0 + 0.2);
+  let sc = 1 + 0.9 * (1 - ob(p, 2.4)), a = cl(p * 3), dy = 50 * (1 - oc(p)), r = w.rot * (1 - oc(p)), blur = 10 * (1 - oc(p));
+  if (w.out != null) { const to = bt(w.out); if (t >= to) return hide(); if (t > to - 0.12) { const q = pg(t, to - 0.12, to); sc *= 1 - 0.4 * q; a *= 1 - q; dy -= 60 * q; blur += 8 * q; } }
+  const tf = (ox) => `translate(${w.cx - w.wd / 2 + ox}px,${w.y - w.hh / 2 + dy}px) rotate(${r}deg) scale(${sc})`;
+  w.d.style.transform = tf(0); w.d.style.opacity = a; w.d.style.filter = blur > 0.3 ? `blur(${blur}px)` : 'none';
+  if (w.m1) { // 착지 후 0.1초만 두 색이 3px 어긋남(레퍼런스 55)
+    const m = t >= t0 + 0.13 && t < t0 + 0.24 ? 0.55 : 0;
+    w.m1.style.transform = tf(-4); w.m2.style.transform = tf(4); w.m1.style.opacity = w.m2.style.opacity = m * a;
+  }
+}
+
+// ── 기울기: 무게가 바뀔 때마다 스프링 하나씩 더함(레퍼런스 5·9) ──
+const TILT = (d) => cl(2 * d, -16, 16);
+function tiltOf(t, list, start) {
+  let L = 0, Rr = 0, prev = 0, ang = 0;
+  for (const [n, b, w, side] of list) {
+    side === 'L' ? (L += w) : (Rr += w);
+    const tg = TILT(Rr - L); ang += (tg - prev) * spring(t - bt(b)); prev = tg;
+  }
+  return t < start ? 0 : ang;
+}
+function blockPos(t, b0, panP, stackY, hgt) { // 위에서 떨어져 박에 착지 + 눌렸다 튐(레퍼런스 24 토스)
+  const land = bt(b0), st = land - 0.3;
+  if (t < st) return null;
+  const p = pg(t, st, land), y = p < 1 ? -260 + (panP.y + stackY + 260) * iq(p) : panP.y + stackY;
+  const dt = t - land; let sx = 0.92, sy = 1.12;
+  if (dt >= 0) { const d = dt < 0.5 ? Math.exp(-dt * 11) * Math.cos(dt * 32) : 0; sx = 1 + 0.14 * d; sy = 1 - 0.22 * d; }
+  return { x: panP.x, y, sx, sy, rot: p < 1 ? (1 - p) * 10 : 0 };
+}
+function drawScale(t) {
+  const round2 = t >= bt(T.swap);
+  const list = round2 ? T.round2 : T.round1;
+  const ang = tiltOf(t, list, 0) * Math.PI / 180;
+  // 0박 점, 1박 저울대, 2박 받침, 3박 접시
+  const dp = oe(pg(t, bt(T.dot), bt(T.dot) + 0.55));
+  const bp = pg(t, bt(T.beam), bt(T.beam) + 0.6), bw = 44 + (760 - 44) * oe(bp);
+  dot.setAttribute('r', t < bt(T.beam) ? 22 * dp : 0);
+  beam.setAttribute('width', bp > 0 ? bw : 0); beam.setAttribute('x', PIV.x - bw / 2); beam.setAttribute('y', PIV.y - 12);
+  beam.setAttribute('fill', bp < 0.25 ? C.orange : C.navy);
+  beam.setAttribute('transform', `rotate(${ang * 180 / Math.PI} ${PIV.x} ${PIV.y})`);
+  cap.setAttribute('r', bp > 0 ? 24 * Math.min(1, dp) : 0);
+  const sp = ob(pg(t, bt(T.base), bt(T.base) + 0.4), 1.6);
+  base.setAttribute('d', sp > 0 ? `M${PIV.x} ${PIV.y} L${PIV.x + 120 * sp} ${1318} L${PIV.x - 120 * sp} ${1318} Z` : '');
+  plate.setAttribute('width', 340 * cl(sp)); plate.setAttribute('x', 540 - 170 * cl(sp));
+  const pp = ob(pg(t, bt(T.pans), bt(T.pans) + 0.45), 1.7);
+  const P = [-1, 1].map((s) => ({ x: PIV.x + s * ARM * Math.cos(ang), y: PIV.y + s * ARM * Math.sin(ang) }));
+  [0, 1].forEach((i) => {
+    const h = STR * pp, x = P[i].x, y = P[i].y;
+    strings[i].setAttribute('d', pp > 0.02 ? `M${x} ${y} L${x - 120 * pp} ${y + h} M${x} ${y} L${x + 120 * pp} ${y + h}` : '');
+    pans[i].setAttribute('d', pp > 0.02 ? `M${x - 140 * pp} ${y + h} Q${x} ${y + h + 60 * pp} ${x + 140 * pp} ${y + h} L${x + 130 * pp} ${y + h - 6} L${x - 130 * pp} ${y + h - 6} Z` : '');
+  });
+  for (const k in blocks) blocks[k].setAttribute('opacity', 0);
+  const stack = { L: 0, R: 0 };
+  for (const [n, b, w, side] of list) {
+    const B = BLK[n], i = side === 'L' ? 0 : 1, panP = { x: P[i].x, y: P[i].y + STR - 6 };
+    const pos = blockPos(t, b, panP, -stack[side], B.h); stack[side] += B.h + 4;
+    if (!pos) continue;
+    blocks[n].setAttribute('opacity', 1);
+    blocks[n].setAttribute('transform', `translate(${pos.x} ${pos.y}) rotate(${pos.rot}) scale(${pos.sx} ${pos.sy})`);
+  }
+  return P;
+}
+// ── 신호등: 점 → 알약 → 불 3개가 젤리처럼 갈라짐(레퍼런스 95), 16분음표로 돌다가 박에 착지(레퍼런스 11) ──
+function drawLamps(t) {
+  const pop = oe(pg(t, bt(T.lampPop), bt(T.lampPop) + 0.5));
+  const sp = pg(t, bt(T.lampSplit), bt(T.lampSplit) + 0.25), e = oc(sp);
+  const hw = 60 + (270 - 60) * e;
+  house.setAttribute('x', 540 - hw * pop); house.setAttribute('y', LY - 75 * pop); house.setAttribute('width', 2 * hw * pop); house.setAttribute('height', 150 * pop); house.setAttribute('rx', 75 * pop);
+  let on = -1;
+  const cyc = (c, land) => { if (t >= bt(c[0]) && t < bt(c[1])) on = Math.floor((t - bt(c[0])) / (BT / 4)) % 3; if (t >= bt(c[1])) on = land; };
+  if (t < bt(T.swap)) cyc(T.cycle1, 2); else { if (t < bt(T.contract1[1])) on = 2; cyc(T.cycle2, 0); if (t < bt(T.cycle2[0]) && t >= bt(T.contract1[1])) on = -1; }
+  LX.forEach((x, i) => {
+    const cx = 540 + (x - 540) * e, r = 52 * pop * (sp > 0 ? 1 : 0.9);
+    lampBlobs[i].setAttribute('cx', cx); lampBlobs[i].setAttribute('cy', LY); lampBlobs[i].setAttribute('r', r);
+    const lit = on === i;
+    lamps[i].setAttribute('cx', cx); lamps[i].setAttribute('cy', LY); lamps[i].setAttribute('r', sp >= 1 ? (lit ? 58 : 46) : 0);
+    lamps[i].setAttribute('fill', lit ? lampCol[i] : '#33457A');
+    lampTxt[i].setAttribute('x', cx); lampTxt[i].setAttribute('y', LY + 118);
+    lampTxt[i].setAttribute('fill', lit ? lampCol[i] : '#9AA3B5'); lampTxt[i].setAttribute('opacity', sp >= 1 ? 1 : 0);
+    lampTxt[i].setAttribute('font-weight', lit ? 900 : 600);
+  });
+}
+// ── 충격 효과: 고리·방사선·색종이 ──
+function ring(par, x, y, t, t0, col, r0, r1, dur = 0.45, w = 16) {
+  const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return;
+  el('circle', { cx: x, cy: y, r: r0 + (r1 - r0) * oc(p), fill: 'none', stroke: col, 'stroke-width': w * (1 - p) }, par);
+}
+function burst(par, x, y, t, t0, col, n, r0, r1, dur = 0.35, w = 12) {
+  const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return;
+  const rb = r0 + (r1 - r0) * oc(p), ra = r0 + (r1 - r0) * oc(cl(p * 1.7 - 0.7));
+  for (let i = 0; i < n; i++) { const a = 2 * Math.PI * i / n + 0.2; el('line', { x1: x + Math.cos(a) * ra, y1: y + Math.sin(a) * ra, x2: x + Math.cos(a) * rb, y2: y + Math.sin(a) * rb, stroke: col, 'stroke-width': w * (1 - p), 'stroke-linecap': 'round' }, par); }
+}
+function confetti(par, x, y, t, t0, seed, cols, n = 30, dur = 1.1) {
+  const tt = t - t0; if (tt <= 0 || tt >= dur) return;
+  let s = seed; const rnd = () => ((s = (s * 16807) % 2147483647) / 2147483647);
+  for (let i = 0; i < n; i++) {
+    const a = rnd() * 2 * Math.PI, v = 700 + rnd() * 700, k = (1 - Math.exp(-tt * 4)) / 4, sz = (12 + rnd() * 14) * (1 - 0.5 * tt / dur);
+    const px = x + Math.cos(a) * v * k, py = y + Math.sin(a) * v * k + 1300 * tt * tt;
+    el('rect', { x: px - sz / 2, y: py - sz / 4, width: sz, height: sz / 2, rx: 3, fill: cols[i % cols.length], transform: `rotate(${(rnd() * 360 + tt * 600) % 360} ${px} ${py})` }, par);
+  }
+}
+// ── 번짐: 박에서 시작해 0.35초에 가장 먼 모서리까지, 면적 기준 감속(레퍼런스 24·84) ──
+const RMAX = (x, y) => 1.06 * Math.max(...[[0, 0], [1080, 0], [0, 1920], [1080, 1920]].map(([a, b]) => Math.hypot(a - x, b - y)));
+function circleClip(div, x, y, r, col) { div.style.background = col; div.style.clipPath = r > 0 ? `circle(${r}px at ${x}px ${y}px)` : 'circle(0px at 0 0)'; }
+
+// ── 로고(ㄱ) ──
+const lgG = $('logo');
+const lgH = el('rect', { fill: '#fff' }, lgG), lgV = el('rect', { fill: '#fff' }, lgG), lgS = el('rect', { fill: C.navy }, lgG);
+const url = el('g', {}, lgG); const urlR = el('rect', { fill: C.navy }, url);
+const urlT = el('text', { x: 540, y: 1262, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: '#fff', class: 'lbl', 'font-size': 42 }, url); urlT.textContent = 'www.jikgugak.com';
+function drawLogo(t) {
+  const cx = 540, cy = 690, k = 300 / 522, X = (u) => cx - 150 + u * k, Y = (v) => cy - 150 + v * k;
+  const hp = oc(pg(t, bt(T.end), bt(T.end) + 0.22)), vp = oc(pg(t, bt(T.end + 0.25), bt(T.end + 0.25) + 0.2)), sp = oe(pg(t, bt(T.end + 0.5), bt(T.end + 0.5) + 0.55));
+  const on = t >= bt(T.end);
+  lgH.setAttribute('x', X(20)); lgH.setAttribute('y', Y(20)); lgH.setAttribute('height', 77 * k); lgH.setAttribute('rx', 38 * k); lgH.setAttribute('width', on && hp > 0 ? Math.max(77, 482 * hp) * k : 0);
+  lgV.setAttribute('x', X(425)); lgV.setAttribute('y', Y(20)); lgV.setAttribute('width', 77 * k); lgV.setAttribute('rx', 38 * k); lgV.setAttribute('height', vp > 0 ? Math.max(77, 482 * vp) * k : 0);
+  const hs = 96 * k * sp; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', Math.max(0, 2 * hs)); lgS.setAttribute('height', Math.max(0, 2 * hs)); lgS.setAttribute('rx', 40 * k * sp);
+  const up = ob(pg(t, bt(T.url), bt(T.url) + 0.3)); url.setAttribute('opacity', up > 0 ? 1 : 0);
+  urlR.setAttribute('x', 540 - 260 * up); urlR.setAttribute('y', 1262 - 47 * up); urlR.setAttribute('width', Math.max(0, 520 * up)); urlR.setAttribute('height', Math.max(0, 94 * up)); urlR.setAttribute('rx', 47 * up);
+  urlT.setAttribute('opacity', cl(up * 2 - 0.6));
+}
+// ── 카메라: 킥마다 살짝 당김, 강타엔 크게 + 흔들림(레퍼런스 55) ──
+const KICKS = [...Array(18).keys()].map((n) => n + 4).concat([26, 27, 28]);
+const HITS = { 4: 0.07, 6: 0.035, 8: 0.04, 9: 0.04, 10: 0.06, 14: 0.08, 17: 0.035, 18: 0.03, 20: 0.06, 24: 0.04, 25: 0.04, 26: 0.07, 27: 0.04, 28: 0.02 };
+const SHAKE = { 4: 22, 10: 14, 14: 26, 20: 12, 26: 18 };
+function cam(t) {
+  let z = 0;
+  for (const k of KICKS) { const d = t - bt(k); if (d >= 0 && d < 0.35) z = Math.max(z, 0.014 * Math.exp(-d * 12)); }
+  for (const k in HITS) { const d = t - bt(+k); if (d >= 0 && d < 0.45) z = Math.max(z, HITS[k] * Math.exp(-d * 9)); }
+  const push = t < bt(14) ? 0.05 * oc(pg(t, bt(4), bt(13))) : 0; // 장면마다 카메라 한 번만 천천히 다가감
+  let sx = 0, sy = 0;
+  for (const k in SHAKE) { const d = t - bt(+k); if (d >= 0 && d < 0.22) { const a = SHAKE[k] * (1 - d / 0.22); sx = a * Math.sin(d * 95); sy = 0.7 * a * Math.cos(d * 81); } }
+  return { z: 1 + z + push, sx, sy };
+}
+function marks(t) {
+  const tc = t.toFixed(2).padStart(5, '0'), b = Math.min(30, Math.floor(t / BT) + 1);
+  $('marks').innerHTML = `<div style="position:absolute;left:64px;top:262px">JIKGUGAK · SCALE TEST</div><div style="position:absolute;right:64px;top:262px">${tc} · BEAT ${String(b).padStart(2, '0')}/30</div><div style="position:absolute;left:64px;right:64px;top:304px;height:3px;background:rgba(255,255,255,.25)"><div style="height:3px;width:${(t / window.DURATION) * 100}%;background:#fff"></div></div>`;
+}
+
+// 화면이 소리보다 한 프레임 남짓 먼저 정점에 닿도록(박자 측정 결과 화면 정점이 평균 60ms 늦었음) 40ms 앞당김
+const LEAD = 0.04;
+window.seek = (t0) => {
+  const t = t0 + LEAD;
+  if (!laid) layout();
+  fx.innerHTML = ''; fx2.innerHTML = '';
+  $('bg').style.transform = `translate(${(t * 40) % 72}px,${(t * 40) % 72}px)`;
+  const P = drawScale(t);
+  drawLamps(t);
+  // 떨어질 때 고리·방사선
+  for (const [n, b, w, side] of [...T.round1, ...T.round2]) {
+    const i = side === 'L' ? 0 : 1, x = P[i].x, y = P[i].y + STR;
+    if ((b < 16) === (t < bt(T.swap))) { burst(fx, x, y - 20, t, bt(b), side === 'L' ? C.navy : C.orange, 10, 160, 250, 0.3, 10); }
+  }
+  ring(fx, PIV.x, PIV.y, t, bt(T.drop), C.orange, 30, 520, 0.5, 20);
+  ring(fx, 700, LY, t, bt(T.hit1), C.blue, 58, 260, 0.4, 14);
+  ring(fx, 380, LY, t, bt(T.hit2), C.green, 58, 320, 0.45, 16);
+  burst(fx, 380, LY, t, bt(T.hit2), C.green, 14, 90, 210, 0.35, 10);
+  confetti(fx, 380, LY, t, bt(T.hit2), 7, [C.green, C.orange, C.navy, C.salmon]);
+  // 첫 판정 파랑 번짐 → "국내가 나음" → 다시 파란 불로 줄어듦(공유 요소)
+  const f1 = T.flood1, c1 = T.contract1;
+  let fr = 0;
+  if (t >= bt(f1[0]) && t < bt(c1[0])) fr = RMAX(700, LY) * Math.sqrt(oc(pg(t, bt(f1[0]), bt(f1[1]))));
+  else if (t >= bt(c1[0]) && t < bt(c1[1])) fr = RMAX(700, LY) * Math.sqrt(1 - oc(pg(t, bt(c1[0]), bt(c1[1])))) ;
+  circleClip($('flood'), 700, LY, fr, C.blue);
+  // 22박 남색이 사선으로 밀고 들어옴
+  const sp = oc(pg(t, bt(T.slant) - 0.1, bt(T.slant) + 0.14)), edge = 1080 + 400 - (1080 + 1100) * sp;
+  $('slant').style.background = C.navy;
+  $('slant').style.clipPath = t >= bt(T.slant) - 0.1 && t < bt(T.end) + 0.3 ? `polygon(${edge + 300}px 0, 2000px 0, 2000px 1920px, ${edge - 300}px 1920px)` : 'polygon(0 0,0 0,0 0)';
+  if (t >= bt(T.slant)) { // 브레이크다운 고리 장식
+    [[170, 600, 66], [930, 700, 44], [200, 1330, 46], [890, 1380, 80]].forEach(([x, y, r], i) => { const e = oe(pg(t, bt(22.25) + i * 0.08, bt(22.25) + i * 0.08 + 0.6)); if (e > 0.02 && t < bt(T.end)) el('circle', { cx: x, cy: y + 16 * Math.sin(t * 3 + i), r: r * e, fill: 'none', stroke: i % 2 ? C.salmon : C.orange, 'stroke-width': 10 }, fx2); });
+  }
+  // 26박 주황 번짐 → 로고
+  circleClip($('endbg'), 540, 690, t >= bt(T.end) ? RMAX(540, 690) * Math.sqrt(oc(pg(t, bt(T.end), bt(T.end) + 0.3))) : 0, C.orange);
+  ring(fx2, 540, 690, t, bt(T.end), '#fff', 120, 460, 0.5, 14);
+  burst(fx2, 540, 1000, t, bt(27), '#fff', 14, 250, 360, 0.35, 10);
+  confetti(fx2, 540, 1000, t, bt(27), 11, ['#fff', C.navy, C.salmon]);
+  drawLogo(t);
+  for (const w of WD) word(w, t);
+  const c = cam(t);
+  $('cam').style.transform = `translate(${c.sx}px,${c.sy}px) scale(${c.z})`;
+  $('words2').style.transform = $('s2').style.transform = `translate(${c.sx}px,${c.sy}px) scale(${1 + (c.z - 1) * 0.6})`;
+  marks(t);
+};
+</script>
+</body></html>
