@@ -207,7 +207,51 @@
       "isRocket": false,
       "diff": 1280,
       "result": "applied"
+    },
+    "iherb-sr-omega3-triple-180": {
+      "productId": "6854281548",
+      "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
+      "at": "2026-10-27T13:32:36.687Z",
+      "recordedKrw": 47920,
+      "found": true,
+      "apiPrice": 47920,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
+    },
+    "iherb-jarrow-dophilus-eps-120": {
+      "productId": "7626263931",
+      "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
+      "at": "2026-10-27T13:32:37.148Z",
+      "recordedKrw": 32770,
+      "found": true,
+      "apiPrice": 37060,
+      "isRocket": false,
+      "diff": 4290,
+      "result": "applied"
+    },
+    "iherb-jarrow-fem-dophilus-1b-60": {
+      "productId": "8336583914",
+      "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
+      "at": "2026-10-27T13:32:37.538Z",
+      "recordedKrw": 31300,
+      "found": true,
+      "apiPrice": 37270,
+      "isRocket": false,
+      "diff": 5970,
+      "result": "applied"
+    },
+    "iherb-now-silymarin-300-200": {
+      "productId": "7156986260",
+      "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
+      "at": "2026-10-27T13:32:37.893Z",
+      "recordedKrw": 24230,
+      "found": true,
+      "apiPrice": 24230,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-10-27T12:16:29.568Z"
+  "updatedAt": "2026-10-27T13:32:38.435Z"
 }

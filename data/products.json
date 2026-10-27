@@ -1003,11 +1003,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.10.27 쿠팡 자동",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 52122,
-    "domesticKrw": 32770,
+    "domesticKrw": 37060,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1030,7 +1030,16 @@
       "model": "자로우 도피러스 EPS 유산균 100억 CFU 베지캡슐 120정",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "domesticKrw",
+        "from": 32770,
+        "to": 37060,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -1043,11 +1052,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.10.27 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
     "priceKrw": 45315,
-    "domesticKrw": 31300,
+    "domesticKrw": 37270,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1070,7 +1079,16 @@
       "model": "자로우 펨도필러스 10억 CFU 베지캡슐 60정",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "domesticKrw",
+        "from": 31300,
+        "to": 37270,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "iherb",

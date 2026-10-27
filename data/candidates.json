@@ -2345,7 +2345,69 @@
         "같은제품짝": "불확실(쿠팡에 정발이 없으면 아니오): 모델 ES850NB(method:model). 색상 구성 확인.",
         "판정쓸모": "조건부 예: 정발이 쿠팡에 지금 있고 알리의 두 배라면 직구각 대표 상품. 정발이 없으면 비교할 국내가가 없어 제외."
       }
+    },
+    "JBL Flip 7": {
+      "q": "JBL Flip 7",
+      "brand": "JBL",
+      "model": "Flip 7",
+      "cat": "audio",
+      "why": "JBL 휴대용 스피커 대표 라인 신제품(Flip 6 후속), 국내 정발가가 높은 편. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T13:32:30.878Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005012951969936",
+          "title": "JBL Flip 7 방수 스피커 - IP68 방진 휴대용 스테레오 시스템, 사운드 부스트 딥 베이스 기능 탑재, 아웃도어용",
+          "price": 57500,
+          "orders": 132,
+          "rating": "87.5%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e53ac51e4924a5c86364580ee8b34ddV.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012951969936.html"
+        },
+        {
+          "id": "1005012960512314",
+          "title": "JBL Flip 7 휴대용 블루투스 스피커 - IP67 방수 강력한 사운드 무선 야외 음악 플레이어",
+          "price": 52100,
+          "orders": 52,
+          "rating": "98.1%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S174f7d34869741c0a2f2c2d58a575e3eQ.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012960512314.html"
+        },
+        {
+          "id": "1005013176720089",
+          "title": "JBL Flip 7 휴대용 블루투스 스피커, IP68 방수 및 방진 기능, 강력한 사운드, 깊고 풍부한 저음, 16시간 재생, 야외 캠핑 및 파티에 적합",
+          "price": 53700,
+          "orders": 26,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb418a605f722465dbbc160b5cd0e210fR.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013176720089.html"
+        }
+      ],
+      "coupang": []
+    },
+    "JBL Go 4": {
+      "q": "JBL Go 4",
+      "brand": "JBL",
+      "model": "Go 4",
+      "cat": "audio",
+      "why": "JBL 초소형 스피커, 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T13:32:34.582Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005012707073210",
+          "title": "오리지널 JBL GO 4 휴대용 무선 블루투스 스피커 뮤직 큐브 방진 기능으로 휴일 파티, 가족 모임에 적합",
+          "price": 36900,
+          "orders": 137,
+          "rating": "94.7%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6be681d191664664a0b40fddd5e341afJ.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012707073210.html"
+        }
+      ],
+      "coupang": []
     }
   },
-  "updatedAt": "2026-10-27T13:29:35.772Z"
+  "updatedAt": "2026-10-27T13:32:36.685Z"
 }
