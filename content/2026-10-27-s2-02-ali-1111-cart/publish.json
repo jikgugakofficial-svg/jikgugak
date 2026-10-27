@@ -1,6 +1,6 @@
 {
-  "approved": false,
-  "approvedBy": "",
+  "approved": true,
+  "approvedBy": "운영자(채팅) 2026-10-27 15:40 KST \"둘 다 게시해\" (10/27 재작성본)",
   "schedule": "2026-10-28T08:52:00Z",
   "liveCheck": "content/_plans/2026-10-26-set2-livecheck.md",
   "channels": {
@@ -31,6 +31,5 @@
       "topicTag": "광군제"
     }
   },
-  "heldBy": "매니저 2026-10-27 15:20 KST: 숫자 변경(밴드 뒤집힘·알리 일반가=API)으로 팀장이 다시 쓰는 중. 운영자 재승인 전까지 게시 안 함.",
   "approvalNote": "10/27 숫자 개편(밴드 국내가 나음·알리 일반가=API)으로 이전 승인(10/27 11:04) 무효. 운영자 재승인 필요"
 }
