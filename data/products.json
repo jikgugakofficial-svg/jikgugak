@@ -46,28 +46,36 @@
     "shipKrw": 6000,
     "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
     "domesticStore": "쿠팡",
-    "domesticUrl": "https://link.coupang.com/a/h4WKRubd2i",
+    "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.10.23 오후",
+    "checkedAt": "2026.10.27 오후",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 27946,
-    "domesticKrw": 23450,
-    "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
+    "domesticKrw": 23680,
+    "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
       "6병까지 자가사용 인정",
       "₩40,000 이상 담으면 배송비 ₩6,000 절약"
     ],
     "summary": [
-      "닥터스베스트 고흡수 마그네슘 240정(1정당 100mg)끼리 비교했어요. 바코드(UPC)까지 같은 제품이고, 국내는 쿠팡 로켓직구예요.",
+      "닥터스베스트 고흡수 마그네슘 리시네이트 글리시네이트 240정(1정당 100mg)끼리 비교했어요. 라벨과 용량이 같은 제품이고, 국내는 쿠팡 로켓직구예요.",
       "하나만 사면 배송비 ₩6,000이 붙어 아이허브가 쿠팡보다 {diff}({pct}) 비싸요.",
       "다른 영양제와 ₩40,000 이상 담아 배송비가 없어져도 아이허브 상품가가 더 비싸요. 이 제품은 쿠팡 로켓직구를 먼저 보세요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/9782739758?itemId=29287928451",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8321734081?itemId=11666590",
     "overseasCheckUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
-    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/f840/fbd69e4f74d016d89d7d9c878b67c2ceadeb0698054fc60ae05d41a47dcf.png"
+    "image": "https://thumbnail6.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/f840/fbd69e4f74d016d89d7d9c878b67c2ceadeb0698054fc60ae05d41a47dcf.png",
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "753950000872",
+      "model": "Doctor's Best High Absorption Magnesium Lysinate Glycinate 240정(1회 2정 200mg)",
+      "note": "쿠팡 상세에 바코드 표기가 없어 라벨 사진(High Absorption Magnesium Lysinate Glycinate, 200mg per serving, 240 Tablets)과 용량으로 확인. 아이허브 UPC 753950000872",
+      "checkedAt": "2026.10.27"
+    }
   },
   {
     "store": "iherb",
@@ -464,12 +472,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OGtLL1Ay",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.10.27 오후",
     "slug": "amazon-crocs-classic-clog",
     "name": "크록스 클래식 클로그 10001",
     "category": "apparel",
-    "domesticKrw": 47220,
-    "domesticSource": "쿠팡 와우 쿠폰가, 무료배송",
+    "domesticKrw": 44900,
+    "domesticSource": "쿠팡 와우 쿠폰가 블랙, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0014C0LUC",
     "risks": [
       "미국 사이즈 표기 (M/W)",
@@ -481,7 +489,7 @@
       "아마존가가 {be} 이하이면서 다른 상품과 합쳐 $49를 넘길 때만 직구각이에요.",
       "사이즈는 남녀 공용 미국 표기라 꼭 환산표를 확인하세요."
     ],
-    "domesticCheckUrl": "https://www.coupang.com/vp/products/7320672616",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7320672616?itemId=18775185779",
     "image": "https://thumbnail2.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/7bb9/a0fc0e0cd7869ef2b891f5518767342e227840dcf6aeaecdf9ddeaa4ac99.jpg"
   },
   {
