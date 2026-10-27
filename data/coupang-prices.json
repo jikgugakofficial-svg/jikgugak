@@ -121,7 +121,7 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-10-27T04:16:42.227Z",
+      "at": "2026-10-27T22:14:52.762Z",
       "recordedKrw": 53960,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -129,7 +129,7 @@
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-10-27T06:15:07.159Z",
+      "at": "2026-10-27T22:14:53.730Z",
       "recordedKrw": 137500,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -375,5 +375,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-27T21:15:52.107Z"
+  "updatedAt": "2026-10-27T22:14:54.132Z"
 }
