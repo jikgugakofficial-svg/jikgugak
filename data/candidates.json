@@ -1250,7 +1250,127 @@
         }
       ],
       "coupang": []
+    },
+    "Amazfit Active Edge": {
+      "q": "Amazfit Active Edge",
+      "brand": "Amazfit",
+      "model": "Active Edge",
+      "cat": "it",
+      "why": "어메이즈핏 Active 라인(2025 신작), 국내 정발·알리 공식 스토어 모두 판매. Active 2와 이름이 비슷해 등급 구분 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T06:14:54.265Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005006292287919",
+          "title": "Huami Amazfit Active Edge USB 충전 케이블용 1m 충전기 Huami Zepp e/z용 충전 데이터 전원 어댑터",
+          "price": 3400,
+          "orders": 7,
+          "rating": "64.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se9d828feb57645fb9f7f7bba9bb81f90h.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006292287919.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Amazfit T-Rex Ultra": {
+      "q": "Amazfit T-Rex Ultra",
+      "brand": "Amazfit",
+      "model": "T-Rex Ultra",
+      "cat": "it",
+      "why": "어메이즈핏 고가 아웃도어 워치, 고가라 국내외 차이가 클 수 있음(T-Rex 3와 별개 모델). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T06:14:58.592Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "Amazfit GTR 4": {
+      "q": "Amazfit GTR 4",
+      "brand": "Amazfit",
+      "model": "GTR 4",
+      "cat": "it",
+      "why": "어메이즈핏 둥근 스마트워치 대표작, 구형이라 알리 할인 폭이 큼. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T06:15:00.292Z",
+      "status": "none",
+      "coupangTop": 4,
+      "ali": [],
+      "coupang": []
+    },
+    "Insta360 GO 3S": {
+      "q": "Insta360 GO 3S",
+      "brand": "Insta360",
+      "model": "GO 3S",
+      "cat": "it",
+      "why": "인스타360 초소형 액션캠, 알리 공식 스토어 판매·국내 정발. 저장 용량(64/128GB)·번들 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T06:15:02.836Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "8540911210",
+          "name": "인스타360 GO 3S 액션캠 128GB",
+          "price": 359000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/xeyBpfBm2pFffs06xaRaEDi-LvxKlDij-Hms1n9vpj5Ki2stg5cCNbVX0TsLuNweoPC-Pllc3DwG37cZMUqpHoTRMvuBIaK2misyBuhAM4GwlYfi6_9FfYr-xtzdSXYUKSbnn5IBmRoU7s6V7plkh6TL_jnrlqDjrM7wX_AcY-Es9PfHCJ4UGMDQTBmi_2G-QTv0JuAGfg87wBfxZTxixG7RXvmsyhPF4pIoXKypZpEDKJrOEFw9F4bu9C1Dy2SHiG8w8o7NXo2NCobn9CdAkyeIMb8SidEMGoDoqpPomSg45nh6m6aSYfdGJ64oe05eF8Ogr5-sEulAIjDI7PoiEhPgPyAxyciBe1VSjO8fskwGYtpMuayzWLvoNZpKnO77mdwtqDKs6dkfSyXq33mNWWnQG9Uvi0Fh3afYghCCcPTY1P00JAv0QAhFRRBobStrnYI3anBr_a-iCANiFE460DYfNTttDoAy2lVhSsAltrkbg-HL1iqRdqZZfd2PgFxN7sx-xlJ2uGA-KsNcrulYF80Xcg==",
+          "url": "https://www.coupang.com/vp/products/8540911210"
+        },
+        {
+          "id": "8540911210",
+          "name": "인스타360 GO 3S 액션캠 128GB",
+          "price": 359000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/BA2H-T24ab6NSjzqBBLm_1UwO4VSOYTeVDM9RXAs-WoF-oS9dFmJkujN2Yy42t9Uac0hpxxptin7cB_BngQHjsdVSYKKG_X0S0OjklLrR0mWGc0g2_rc4nuqHPFCG9zI4dbPyAWLbflrUo7taenycBZ-JcMg7NpWBmIKUdLEUzm_vXCfOeNyFpkdeBXHy36YpzFowzMdHvjcM0JoC_7e-FluB8n4bcsQJ1RJ6jINsb6v0yU7Q-P1ac8PYdL5P_D85Vj_bkyPfrCUGg0M03H-dDRobytAcr-HSvCZ8XMTxEOPhlHrWoLmWMtDBfQ8HBHPj7CWp_asb2ILOjk90wxynqwgESQvReZbkahqKGPC6PayWzHngzvJDvoafXCkoIdYefiWd0EVSZs8W8bj6kJXXS6PaY69NWpziTr-6K8rQGNp3ob1xCLWpXqwYpLdHi7N7sjfwWDajAdv_mY7i53AMNmwgZWUlwrVSl2XQpI12QytbgXX-AB_sKWuzEPMdkyDYHGNdW3Rvh10X1V34UM_mEpSh_o=",
+          "url": "https://www.coupang.com/vp/products/8540911210"
+        },
+        {
+          "id": "9785710338",
+          "name": "중고 Insta360 Go 3S 64GB 및 128GB 모델입니다. 흠집 없고 모든 기능이 정상 작동하며 모든 액세서리가 포함되어 있고 상태가 매우 좋습니다. 분해되지 않은 상태로",
+          "price": 389250,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/QLbhFOPXMjfMvZQLQAf3v4Ng9hEd2rXTOQo3bvr9cZ_6QjBz_UQ6_iYCXyfO0EF3Q8MsUJ6qXGHX0SFtFpI2gDw2-ovbUr1XPv1YRYBi6yngrTZGAERrXWx9csH76FNCJalsrmCRdK4h16r69bWw-NSNIjEmc05VhcjlDKS0osf33Dmgs4myrMbxLiVole3h2ap7oSSBt8_Bj4AHfblxG4BrtMfrGlApK63bHE99V1FWzxFIuiLSuz-ZrLFbwZ-awNH9U2I6jUDtDeJERHVEt5sBd6bEcc7C6jPRDDixNGvKmeZGNch9vBFALJRUMwELY8n40_Z8P0J9_GeHBsC8k2eI-tqzJOH8LMJ3c_fQM9vevaNXDaRDmYaGFWPPFy95d-ULfQ5uVr7DNsKzus-lW425U9dOHAX3z_o1Cv71jOvF7jat3qCO951fTpkC0n1ZVPvzocu41XbDU_VDtqW3YuJszrZXHmmpPDfDoPKb6G9RngMstvVUAzvLorjsKAzrCsERWjDT_2a1Pmnxl9O-xB7HlV8f-zVUfqO87o98R4QGUG6Y",
+          "url": "https://www.coupang.com/vp/products/9785710338"
+        }
+      ]
+    },
+    "Insta360 Ace Pro 2": {
+      "q": "Insta360 Ace Pro 2",
+      "brand": "Insta360",
+      "model": "Ace Pro 2",
+      "cat": "it",
+      "why": "인스타360 액션캠 상위 모델, 알리 공식 스토어 판매·국내 정발. 번들(스탠다드/올인원) 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T06:15:04.916Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "8801277234",
+          "name": "인스타360 싱글배터리 스냅샷 액션캠 Ace Pro 2",
+          "price": 497000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/gXzX_seUYUlqWcSngcsdz5i4L2lwiIOpDzlaoAAyMS4HAcpLdxjjT0VLfG6JnRAX_YOyRrJLkgFxDBhWgif0WIpWkN-xhkb-RjwPxuNQcysunYjQRQR7ryLVnD-TSCFKNwb4w4p57jpvZRfmfnX2xC6I6kN8Q8K3WqIH6NoGqQxOnRd1UXHp08yQvUgWSaOk6VMunrlCoDMTmQOGMq_-YVd9mMPWXWHL2jz7q5I_vWddmp-SMIY7FV4tx0EfoiBXXGaKzxplpWY5YIEfYyK9jSuq0YY9TDeHHIitD_V5nG1hBvPZnlDgLmc6ihiIj4oF_vllv4PTDM_V2F0SlnUW174WmGwaq8T_mHFl5TRW0iGCT9SxNy7V6gqgKn3GZUr70hE1OJNempRgWARmr4-7Tf6h2__faxx93jyURgTpWNzrMPhWIGuJ055uIfmAC7VlbE9Xg_5RE50Kk0feStepFi8SC5oqDMQ8pXdF1KegLTho1qzC7MWHZ8qOLKtlfjsdbl_4WrgU5WlXUz5E3tLx32Q=",
+          "url": "https://www.coupang.com/vp/products/8801277234"
+        },
+        {
+          "id": "9428312644",
+          "name": "인스타360 Ace Pro 2 싱글 배터리 표준 번들 액션캠, CINSBBGA, 블랙",
+          "price": 520000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/cyIshOno785BV-XSc7Tbfqmdv4XZX_gNlw36SUAcM9eXppNNkhayEBIEgVFf59aFaez2hevdLyT-6wxD-W3grdB7PFFKAGI6X4uGrCxaK3xv290KJXh2i3W2tts5PIeRrik6DUWeFhtKyBX-kvoRFa5IDH1bKB3WQHOfCXy3QVsfzMKzR53uhdK27Ocx8W5FF9gMt6bCE5aBQf4V-30IG5UfJrj8ESlgCOSPaITBn-7NKyPETzG74YetxHsN8z0_2OwHE7XtDTtzHY_Luyu_62ficOXx8iH9T5KNagOB5ig8U4u3zRK5nPM1eAAQonfiJVcMSKH-JXaWxMGDjy5FGHc9UdHsWhI3f8yDxxB_xH8_F1vvynMVBaBHzyZgA_KUkWryO_2ag9GrzaBqX8P7s9djRG8Oxq5Rsz_wLIojg6e2WYpAon1dANJIGzhNquNSRHPkmUkp8eRQSr5qJ_tpd_g121mkB0VqmguYC_ATG0qui9RmRXI86L_6JbIsuO0JujbuXfxqhg==",
+          "url": "https://www.coupang.com/vp/products/9428312644"
+        },
+        {
+          "id": "8514006087",
+          "name": "인스타360 듀얼 배터리 액션 카메라 Ace Pro 2, Ace Pro 2, 블랙",
+          "price": 547000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/SgGosCnMqFYwfKC2SsA__ytP-S8M1y2tzLIwUaCP3p5BeKJxDp0zC1b_oG4_DNdFykLuUuPUG5nwuA_Kk2_47DswffC3WVwnWCcRvtwmGdQjrzO5BVWTNsK5nMs8xDBSGexUWwJYuScT6Uoupxxnfnae305ya-rdNKqu5QJSNSCy5yaeOCMdPqDl9F2T-ESNiDYcH0pQAPsKVncALfw0nl9Ol2FSlDDjShEXMbzAsRSwOkl4-qVIolMLik7x-9-NoeGh6unE2DuE5vDjZtSlM-h7bDYf6cth7iARkTxwq6RGAkUqqgFjRHjEuXTu-XwKp7YNZNibyATllEdnM-wsfanxENIJWudloz7PHr8zGV-8ixjV5dHt5A2J0n7hC4Ud3d-yRyQ4KIvMPNeKpnFDAlfgSPdotD6_SAHR5_GyJomOB18yxmVqTp_i_sIHaDyVOFaxS6Yq98_DWmtiWec7juzVhPqJ94wQXcHLaQ-ApOmpAvOjAbml_3kbWEnY0zANdUmeglmiAA==",
+          "url": "https://www.coupang.com/vp/products/8514006087"
+        }
+      ]
     }
   },
-  "updatedAt": "2026-10-27T04:16:41.956Z"
+  "updatedAt": "2026-10-27T06:15:07.158Z"
 }
