@@ -12,7 +12,7 @@
       "source": "알리"
     },
     "ali-edifier-m90-speaker:priceKrw": {
-      "at": "2026-10-27T16:28:06.045Z",
+      "at": "2026-10-27T19:26:21.572Z",
       "slug": "ali-edifier-m90-speaker",
       "field": "priceKrw",
       "recorded": 191770,
@@ -30,7 +30,15 @@
       "change": "27%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "amazon-lego-10309-succulents:text": {
+      "at": "2026-10-27T19:26:19.243Z",
+      "slug": "amazon-lego-10309-succulents",
+      "reason": "가격이 바뀌었는데 요약·주의 문장에 금액을 직접 쓴 곳이 있어요. 토큰({diff} 등)으로 바꾸거나 고쳐 주세요",
+      "lines": [
+        "국내는 재고가 적어 쿠팡도 배송비 포함 ₩67,180이에요."
+      ]
     }
   },
-  "updatedAt": "2026-10-27T18:20:11.922Z"
+  "updatedAt": "2026-10-27T19:26:22.849Z"
 }
