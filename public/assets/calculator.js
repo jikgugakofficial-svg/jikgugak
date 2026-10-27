@@ -92,6 +92,6 @@ function render() {
   } else beEl.textContent = '';
 
   const q = new URLSearchParams({ ...state, price: inputs.price.value, ship: inputs.ship.value, dom: inputs.dom.value });
-  history.replaceState(null, '', '?' + q.toString());
+  history.replaceState(null, '', '?' + q.toString() + location.hash);
 }
 render();

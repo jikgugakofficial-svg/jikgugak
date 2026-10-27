@@ -1,6 +1,6 @@
 // 계산 규칙 점검: npm test
 import assert from 'node:assert/strict';
-import { landedCost, judge, breakevenUsd, dutyFreeLimit } from '../src/calc.js';
+import { landedCost, judge, breakevenUsd, dutyFreeLimit, cartCost, cartTrim } from '../src/calc.js';
 
 const fx = 1347.03;
 
@@ -46,3 +46,27 @@ assert.equal(landedCost({ priceUsd: 22.4, shipUsd: 3.9, origin: 'us', method: 'e
 assert.equal(breakevenUsd({ domesticKrw: 219000, shipUsd: 10, origin: 'us', method: 'express', category: 'it', fx, payFx: 1400 }), 115);
 
 console.log('계산 규칙 점검 통과');
+
+// 장바구니: 상품 하나면 단품 계산과 같아야 해요
+const one = cartCost({ items: [{ price: 160, qty: 1, category: 'apparel' }], ship: 20, origin: 'other', method: 'express', fx });
+assert.equal(one.total, jacket.total);
+assert.equal(one.duty, jacket.duty);
+// 합쳐서 한도를 넘으면 전체 과세, 영양제가 섞이면 미국발도 $150
+const mix = cartCost({ items: [{ price: 90, qty: 1, category: 'it' }, { price: 30, qty: 2, category: 'supplement' }], ship: 0, origin: 'us', method: 'express', fx });
+assert.equal(mix.limit, 150);
+assert.equal(mix.mixedLimit, true);
+assert.equal(mix.dutyFree, true); // 90 + 60 = 150 (한도 안)
+const over = cartCost({ items: [{ price: 120, qty: 1, category: 'it' }, { price: 45, qty: 2, category: 'home' }], ship: 10, origin: 'us', method: 'express', fx });
+assert.equal(over.limit, 200);
+assert.equal(over.dutyFree, false); // 120 + 90 = 210
+const trim = cartTrim({ items: [{ name: 'A', price: 120, qty: 1, category: 'it' }, { name: 'B', price: 45, qty: 2, category: 'home' }], ship: 10, origin: 'us', method: 'express', fx });
+assert.equal(trim.name, 'B'); // B 1개(45달러)만 빼면 165달러로 면세
+assert.equal(trim.after.dutyFree, true);
+// 원화 결제(알리): 원화를 과세 환율로 달러로 바꿔 한도 판단, 결제액은 원화 그대로
+const ali = cartCost({ items: [{ price: 120000, qty: 1, category: 'it', dom: 200000 }, { price: 90000, qty: 1, category: 'it', dom: 150000 }], currency: 'krw', ship: 0, origin: 'other', method: 'express', fx });
+assert.equal(ali.dutyFree, false); // 210,000원 ≈ $157.9 > $150
+assert.equal(ali.paid, 210000);
+assert.equal(ali.vat, 21000); // IT 관세 0% → 부가세만
+assert.equal(ali.verdict, 'good'); // 국내 350,000원 vs 231,000원
+// 영양제 6병 넘으면 표시
+assert.equal(cartCost({ items: [{ price: 10, qty: 7, category: 'supplement' }], origin: 'us', fx }).tooManyBottles, true);

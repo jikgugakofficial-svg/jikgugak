@@ -404,7 +404,7 @@ ${dealPromo()}
   <div class="steps">
     <a href="/guide#address" class="step"><span class="num">1</span><b>영문 주소 변환</b><span>도로명주소를 영문으로 바꾸고 쇼핑몰 입력칸에 맞게 넣는 법.</span></a>
     <a href="/guide#pccc" class="step"><span class="num">2</span><b>통관부호 3초 점검</b><span>유효기간, 등록 이메일, 배송지 우편번호. 결제 전에 세 줄만 확인해요.</span></a>
-    <a href="/calculator" class="step"><span class="num">3</span><b>면세 신호등</b><span>미국 특송 $200, 그 외 $150. 장바구니가 한도를 넘는지 바로 알려줘요.</span></a>
+    <a href="/calculator#cart" class="step"><span class="num">3</span><b>면세 신호등</b><span>미국 특송 $200, 그 외 $150. 장바구니가 한도를 넘는지 바로 알려줘요.</span></a>
   </div>
 </section>`;
   return layout({ title: '', urlPath: '/', body, current: '/', scripts: ['/assets/home.js'] });
@@ -558,7 +558,12 @@ ${domesticSaleNotice()}
 function pageCalculator() {
   const cats = Object.entries(CATEGORIES).map(([k, c], i) => `<button type="button" data-cat="${k}" aria-pressed="${i === 0}"><b>${esc(c.label)}</b><small>${esc(c.sub)}</small></button>`).join('');
   const body = `
-<div class="page-head"><h1 class="display">관세 계산기</h1><p class="muted">상품가와 국내 최저가만 넣으면 직구각인지 바로 판정해요.</p></div>
+<div class="page-head"><h1 class="display">관세 계산기</h1><p class="muted">상품 하나는 단품, 여러 개를 한 번에 받으면 장바구니로 계산해요. 국내 최저가를 넣으면 직구각인지 판정해요.</p></div>
+<div class="calc-tabs" role="tablist" aria-label="계산 방식">
+  <button type="button" role="tab" id="tab-single" aria-controls="panel-single" aria-selected="true" data-tab="single"><b>단품 계산</b><small>상품 하나</small></button>
+  <button type="button" role="tab" id="tab-cart" aria-controls="panel-cart" aria-selected="false" data-tab="cart"><b>장바구니 합산</b><small>여러 개 한 번에</small></button>
+</div>
+<div role="tabpanel" id="panel-single" aria-labelledby="tab-single" data-panel="single">
 <div class="calc" data-calc data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
   <section class="calc-in" aria-label="입력">
     <fieldset><legend>어디서 보내나요?</legend><div class="seg" data-group="origin"><button type="button" data-val="us" aria-pressed="true">미국</button><button type="button" data-val="other" aria-pressed="false">그 외 (중국·일본·유럽)</button></div></fieldset>
@@ -585,8 +590,43 @@ function pageCalculator() {
     <div class="be" data-out-be></div>
     <p class="muted small">${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이며, 실제 세율과 최종 세액은 <a href="https://unipass.customs.go.kr/csp/index.do" target="_blank" rel="noopener">관세청 예상세액 조회</a>와 세관 고지를 따릅니다.</p>
   </section>
+</div>
+</div>
+<div role="tabpanel" id="panel-cart" aria-labelledby="tab-cart" data-panel="cart" hidden>
+<div class="calc" data-cart data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
+  <template data-cat-options>${Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)}</option>`).join('')}</template>
+  <section class="calc-in" aria-label="장바구니 입력">
+    <fieldset><legend>어디서 보내나요?</legend><div class="seg" data-cgroup="origin"><button type="button" data-val="us" aria-pressed="true">미국</button><button type="button" data-val="other" aria-pressed="false">그 외 (중국·일본·유럽)</button></div></fieldset>
+    <fieldset><legend>어떻게 배송되나요?</legend><div class="seg" data-cgroup="method"><button type="button" data-val="express" aria-pressed="true">특송·쇼핑몰 직배송</button><button type="button" data-val="post" aria-pressed="false">우편 (EMS 등)</button></div></fieldset>
+    <fieldset><legend>무엇으로 결제하나요?</legend><div class="seg" data-cgroup="currency"><button type="button" data-val="usd" aria-pressed="true">달러<small>아마존·미국 쇼핑몰</small></button><button type="button" data-val="krw" aria-pressed="false">원화<small>알리·아이허브 한국</small></button></div></fieldset>
+    <form class="cart-add" data-cart-add>
+      <label for="cart-q"><b>담은 상품 넣기</b><span>알리 링크는 이름·가격이 자동으로 채워져요. 다른 쇼핑몰은 이름만 채우고 가격은 직접 넣어요</span></label>
+      <div class="paste-row"><input id="cart-q" type="text" placeholder="알리 링크 또는 상품 이름" autocomplete="off" enterkeyhint="done"><button type="submit" class="btn btn-point">담기</button></div>
+      <p class="small" data-cart-msg hidden></p>
+    </form>
+    <ol class="cart-list" data-cart-list aria-label="담은 상품"></ol>
+    <button type="button" class="btn btn-line cart-blank" data-cart-blank>+ 직접 입력할 줄 추가</button>
+    <div class="field"><label for="cart-ship">국제 배송비 (<span data-cur>달러</span>)</label><input id="cart-ship" type="number" inputmode="decimal" min="0" step="0.01" value="0" data-cart-ship><small>결제 화면에 따로 적힌 전체 배송비, 무료면 0</small></div>
+  </section>
+  <section class="calc-out" aria-label="장바구니 계산 결과" aria-live="polite">
+    <div class="vhero" data-c-verdict><span class="vword">-</span><div><b>-</b></div></div>
+    <div class="signal" data-c-signal><div class="lights" aria-hidden="true"><i></i><i></i><i></i></div><span><b>-</b><br><small>-</small></span></div>
+    <ul class="cart-notes" data-c-notes></ul>
+    <div class="receipt">
+      <b class="r-title">장바구니 체감가 영수증</b>
+      <div class="r-row"><span data-cr="count">물품가 합계</span><span data-cr="goods">-</span></div>
+      <div class="r-row"><span>국제 배송비</span><span data-cr="ship">-</span></div>
+      <div class="r-row"><span>관세 (품목별 세율)</span><span data-cr="duty">-</span></div>
+      <div class="r-row"><span>부가세 10%</span><span data-cr="vat">-</span></div>
+      <div class="r-total"><span>최종 체감가</span><span data-cr="total">-</span></div>
+      <div class="r-row" data-cr-domrow hidden><span>국내가 합계</span><span data-cr="dom">-</span></div>
+    </div>
+    <p class="muted small">한 상자로 함께 받는다고 보고 계산해요. 같은 판매자에게 같은 날 산 물건은 따로 주문·배송해도 합쳐서 세금을 따져요(<a href="/guide#combine">합산과세</a>). ${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이며 실제 세액은 세관 고지를 따릅니다.</p>
+    <button type="button" class="btn btn-line" data-cart-clear>장바구니 비우기</button>
+  </section>
+</div>
 </div>`;
-  return layout({ title: '해외직구 관세 계산기', description: '미국 $200, 그 외 $150 면세 한도와 관세·부가세를 계산하고 국내 최저가와 비교해 직구할 각인지 판정해요.', urlPath: '/calculator', body, current: '/calculator', scripts: ['/assets/calculator.js'] });
+  return layout({ title: '해외직구 관세 계산기', description: '미국 $200, 그 외 $150 면세 한도와 관세·부가세를 상품 하나 또는 장바구니 합계로 계산하고, 국내 최저가와 비교해 직구할 각인지 판정해요.', urlPath: '/calculator', body, current: '/calculator', scripts: ['/assets/calculator.js', '/assets/cart.js'] });
 }
 
 // ---------- 페이지: 세일 딜 모음 (/deals/<slug>) — 알리 제휴 API 실시간 가격 + 관부가세 최종가 ----------
@@ -911,6 +951,7 @@ function pageGuide() {
 <li>하나의 운송장으로 들어온 물건을 나눠 통관해도 합쳐요.</li>
 <li>영양제와 다른 상품을 한 상자에 섞으면 상자 전체가 $150 기준을 받아요.</li>
 </ul>
+<p><a href="/calculator#cart">장바구니 합산 계산기로 담은 상품 합계 확인하기 →</a></p>
 <p>판매자가 다르거나 산 날짜가 다르면, 같은 날 도착해도 합산하지 않아요. 애매하면 관세청 고객지원센터(국번 없이 125)에 물어보세요.</p>
 </section>
 </article>`;

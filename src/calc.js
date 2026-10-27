@@ -75,4 +75,59 @@ export function breakevenUsd({ domesticKrw, shipUsd = 0, origin, method, categor
   return Math.floor(taxedMax > limit ? taxedMax : limit);
 }
 
+// ---------- 장바구니(여러 상품을 한 번에 받을 때) ----------
+// 한 상자(같은 날 함께 들어오는 물건)로 보고 계산해요. 면세 판단은 국제 배송비를 뺀 물품가격 합계로,
+// 넘으면 배송비 포함 전체에 품목별 세율로 과세(배송비는 물품가격 비율로 나눠 배정). 목록통관 배제 품목(영양제·식품)이
+// 하나라도 섞이면 미국발이어도 상자 전체가 $150 기준이에요.
+// items: [{ name, price, qty, category, dom }] · currency: 'usd'(달러 결제) | 'krw'(원화 결제, 알리·아이허브 한국)
+// ship: 국제 배송비(같은 통화) · dom: 국내 최저가(원, 1개 값)
+export const SUPPLEMENT_MAX_BOTTLES = 6;
+export function cartCost({ items = [], currency = 'usd', ship = 0, origin = 'us', method = 'express', fx, payFx }, rule = DEFAULT_RULE) {
+  const pay = Number(payFx) || fx;
+  const krw = currency === 'krw';
+  const rows = items
+    .map((it) => ({ ...it, price: Math.max(0, Number(it.price) || 0), qty: Math.max(0, Math.floor(Number(it.qty) || 0)), dom: Math.max(0, Number(it.dom) || 0), cat: CATEGORIES[it.category] || CATEGORIES.home }))
+    .filter((r) => r.price > 0 && r.qty > 0);
+  const shipIn = Math.max(0, Number(ship) || 0);
+  const goodsIn = rows.reduce((a, r) => a + r.price * r.qty, 0); // 입력 통화 합계
+  const goodsUsd = krw ? goodsIn / fx : goodsIn;
+  const allList = rows.every((r) => r.cat.listClearance);
+  const limit = origin === 'us' && method === 'express' && allList ? 200 : 150;
+  const dutyFree = goodsUsd <= limit;
+  const goodsKrw = krw ? won(goodsIn) : won(goodsIn * pay);
+  const paid = krw ? won(goodsIn + shipIn) : won((goodsIn + shipIn) * pay);
+  const shipKrw = paid - goodsKrw;
+  const cif = krw ? won(goodsIn + shipIn) : won((goodsIn + shipIn) * fx);
+  let duty = 0;
+  if (!dutyFree && goodsIn > 0) for (const r of rows) duty += won(cif * (r.price * r.qty / goodsIn) * r.cat.rate);
+  const vat = dutyFree ? 0 : won((cif + duty) * 0.1);
+  const total = paid + duty + vat;
+  let signal = 'green';
+  if (!dutyFree) signal = 'red';
+  else if (goodsUsd > limit * 0.85) signal = 'yellow';
+  const bottles = rows.filter((r) => r.category === 'supplement').reduce((a, r) => a + r.qty, 0);
+  const hasDom = rows.length > 0 && rows.every((r) => r.dom > 0);
+  const domTotal = rows.reduce((a, r) => a + r.dom * r.qty, 0);
+  const verdict = hasDom ? judge(domTotal, total, rule) : { verdict: 'none', diff: 0, pct: 0 };
+  return { rows: rows.length, limit, dutyFree, goodsUsd, goodsKrw, shipKrw, paid, duty, vat, total, signal, mixedLimit: origin === 'us' && method === 'express' && !allList && rows.some((r) => r.cat.listClearance), bottles, tooManyBottles: bottles > SUPPLEMENT_MAX_BOTTLES, hasDom, domTotal, ...verdict };
+}
+
+// 한도를 넘었을 때 "이거 1개만 빼면 면세": 빼는 금액이 가장 작은 1개를 찾아요. 없으면 null.
+export function cartTrim(input, rule = DEFAULT_RULE) {
+  const now = cartCost(input, rule);
+  if (now.dutyFree || !now.rows) return null;
+  let best = null;
+  input.items.forEach((it, i) => {
+    if (!(Number(it.qty) > 0) || !(Number(it.price) > 0)) return;
+    const items = input.items.map((x, j) => (j === i ? { ...x, qty: Math.floor(Number(x.qty)) - 1 } : x));
+    const after = cartCost({ ...input, items }, rule);
+    if (!after.dutyFree) return;
+    const removed = Number(it.price);
+    if (!best || removed < best.removed) best = { index: i, name: it.name || `${i + 1}번 상품`, removed, taxSaved: now.duty + now.vat, after };
+  });
+  if (best) return best;
+  const overUsd = now.goodsUsd - now.limit;
+  return { index: -1, overUsd: Math.ceil(overUsd * 100) / 100, taxSaved: now.duty + now.vat };
+}
+
 export const formatKrw = (n) => Math.round(n).toLocaleString('ko-KR');
