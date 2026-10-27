@@ -10,36 +10,6 @@
       "change": "69%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
-    },
-    "ali-qcy-t13-earbuds:priceKrw": {
-      "at": "2026-10-27T03:54:30.969Z",
-      "slug": "ali-qcy-t13-earbuds",
-      "field": "priceKrw",
-      "recorded": 20619,
-      "api": 28503,
-      "change": "38%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "알리"
-    },
-    "ali-qcy-h3-anc-headphones:priceKrw": {
-      "at": "2026-10-27T04:16:44.684Z",
-      "slug": "ali-qcy-h3-anc-headphones",
-      "field": "priceKrw",
-      "recorded": 29620,
-      "api": 43073,
-      "change": "45%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "알리"
-    },
-    "ali-qcy-melobuds-n70:priceKrw": {
-      "at": "2026-10-27T04:16:46.030Z",
-      "slug": "ali-qcy-melobuds-n70",
-      "field": "priceKrw",
-      "recorded": 58529,
-      "api": 74019,
-      "change": "26%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "알리"
     }
   },
   "updatedAt": "2026-10-27T04:16:46.030Z"

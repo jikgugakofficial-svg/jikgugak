@@ -297,10 +297,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DN5oKDg4",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.10.27 알리 API",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 20619,
+    "priceKrw": 28503,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -309,9 +309,9 @@
       "국내 A/S 받기 어려워요"
     ],
     "summary": [
-      "QCY 공식 스토어 T13과 쿠팡 같은 모델을 비교했어요.",
-      "알리가 {diff}({pct}) 싸지만 차이가 작아서 1~2주 배송을 기다릴 만큼은 아니에요.",
-      "{beKrw} 이하로 떨어지면 그때 직구각이에요."
+      "QCY 공식 스토어 T13 화이트와 쿠팡 같은 모델을 비교했어요.",
+      "10.27 알리 일반가(알리 제휴 API 기준)가 올라 지금은 쿠팡이 {diff}({pct}) 더 싸요. 국내에서 사는 게 나아요.",
+      "알리가 {beKrw} 이하로 떨어지면 그때 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6572373138",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005042789596.html",
@@ -323,7 +323,16 @@
       "model": "QCY T13 화이트 (쿠팡 QCY-T13 APP 화이트·알리 T13 White)",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "priceKrw",
+        "from": 20619,
+        "to": 28503,
+        "source": "알리 API(운영자 결정: API를 일반가로)"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -703,22 +712,22 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28efNTYlM",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.10.27 알리 API",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-    "priceKrw": 29620,
+    "priceKrw": 43073,
     "domesticKrw": 38610,
     "domesticSource": "쿠팡 로켓배송, 블랙(화이트도 같은 값)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
     "risks": [
       "배송 1~2주",
-      "알리 일반가는 10.25 확인값(29,620원)이에요. 신규 회원가(₩28,179)는 첫 구매 때만",
+      "신규 회원가는 첫 구매 때만이라 일반가로 비교했어요",
       "국내 A/S 받기 어려워요"
     ],
     "summary": [
       "QCY 공식 스토어의 H3 ANC(H3 Pro 아님)와 쿠팡 같은 모델·같은 블랙을 비교했어요.",
-      "쿠팡이 10/27 38,610원으로 내려서 알리가 {diff}({pct}) 싸도 1만 원이 안 돼 애매로 바뀌었어요.",
-      "알리가 {beKrw} 아래로 내려가면 다시 직구각이에요."
+      "10.27 알리 일반가(알리 제휴 API 기준)가 오르고 쿠팡은 내려서 지금은 쿠팡이 {diff}({pct}) 더 싸요.",
+      "알리가 {beKrw} 아래로 내려가면 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7876965230",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005012204345276.html",
@@ -730,7 +739,16 @@
       "model": "QCY H3 ANC (쿠팡 QCY-H3 ANC APP HEADSET 블랙·알리 H3-Black)",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "priceKrw",
+        "from": 29620,
+        "to": 43073,
+        "source": "알리 API(운영자 결정: API를 일반가로)"
+      }
+    ]
   },
   {
     "store": "aliexpress",
@@ -1298,10 +1316,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau66YgbCe",
     "sample": false,
-    "checkedAt": "2026.10.27 새벽",
+    "checkedAt": "2026.10.27 알리 API",
     "slug": "ali-qcy-melobuds-n70",
     "name": "QCY 멜로버즈 N70 (HT18) 노이즈캔슬링 이어폰",
-    "priceKrw": 58529,
+    "priceKrw": 74019,
     "domesticKrw": 61880,
     "domesticSource": "쿠팡 로켓직구, 미드나이트 블랙",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cn3M0mIEYOGmw2TZYQnYSn2Bwn9PEriM7h8ZXNSqc0KHmzoH2Tl1waUMm6FZtUoFyKfpknF8cUC7KUX86k1C8ATybmKpD06eENjAXBJ3ou1eQdz44U1rLXWOuY8uMwEk7lIJ5zaqk4vFOg3JCUDEa0WZ8hsoyfmcSRYA1rIERb9jBjgP5PH45u8pI15qzvUCmeCzcaQG0mxH8OFmHbBj9GsVYdttkaldhALcVMHGpPflAgH4sxnNz3LnkVhcJr6sSOst2TrkYad0JFCZUbVSXflBBpEBivO8mXwHWqFjOMCwVzIF8b5lg0c0kiAho0RAv5bc9N8R74oRhDgtdHvw26eWbAVhYCNUSQT2VmlBk7ZOQhWebaJ4KWRemInxKXtXKBXofzDrsc86rWFb1p5iVemXYbu0AnA6c7VaiOkiOMp3p5B01PSwmdoWcyJSJZtKcm156LIZRzI0WKWxplzl4d36pFWRFlFRBDu8NB5rzeXC87E6WTHqQHnTnYA7LU3L2UC0H3qFJ7gwNvukgrStT8b9tuNYWl4xgdpzH0oF1EfprDtwSvgLlWzIu6qDmcnIq3MQF0SBBd42O1xhM5MaiWIq0k7ZX748cwXVnKT1W4Gm2hIhsr1wCeOsbIsVc7XJxNSSRBOz7RYkGZyKsZeNDOridKcmhN5Rc4Wpppq8a6g1oPARRZffjmW9Aq0SeDL2bH6s2xC0EBrC2g",
@@ -1312,7 +1330,7 @@
     ],
     "summary": [
       "QCY 공식 스토어 블랙과 쿠팡 로켓직구 미드나이트 블랙, 같은 HT18(N70)끼리 비교했어요.",
-      "알리가 {diff}({pct}) 싸지만 차이가 작아서 애매해요.",
+      "10.27 알리 일반가(알리 제휴 API 기준)가 올라 지금은 쿠팡이 {diff}({pct}) 더 싸요.",
       "알리가 {beKrw} 아래로 내려가면 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8974456611?itemId=26268787287",
@@ -1325,7 +1343,16 @@
       "model": "QCY MeloBuds N70 HT18 블랙 (쿠팡 미드나이트 블랙·알리 Black)",
       "note": "",
       "checkedAt": "2026.10.27"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "priceKrw",
+        "from": 58529,
+        "to": 74019,
+        "source": "알리 API(운영자 결정: API를 일반가로)"
+      }
+    ]
   },
   {
     "store": "aliexpress",
