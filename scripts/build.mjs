@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CATEGORIES, landedCost, judge, breakevenUsd, dutyFreeLimit, formatKrw } from '../src/calc.js';
+import { CATEGORIES, CART_STORES, landedCost, judge, breakevenUsd, dutyFreeLimit, formatKrw } from '../src/calc.js';
 import { loadRates } from './fx.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -594,34 +594,34 @@ function pageCalculator() {
 </div>
 <div role="tabpanel" id="panel-cart" aria-labelledby="tab-cart" data-panel="cart" hidden>
 <div class="calc" data-cart data-fx="${FX}" data-payfx="${PAYFX}" data-min-krw="${RULE.minSaveKrw}" data-min-pct="${RULE.minSavePct}">
+  <template data-store-options>${Object.entries(CART_STORES).map(([k, c]) => `<option value="${k}">${esc(c.label)}</option>`).join('')}</template>
   <template data-cat-options>${Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)}</option>`).join('')}</template>
   <section class="calc-in" aria-label="장바구니 입력">
-    <fieldset><legend>어디서 보내나요?</legend><div class="seg" data-cgroup="origin"><button type="button" data-val="us" aria-pressed="true">미국</button><button type="button" data-val="other" aria-pressed="false">그 외 (중국·일본·유럽)</button></div></fieldset>
-    <fieldset><legend>어떻게 배송되나요?</legend><div class="seg" data-cgroup="method"><button type="button" data-val="express" aria-pressed="true">특송·쇼핑몰 직배송</button><button type="button" data-val="post" aria-pressed="false">우편 (EMS 등)</button></div></fieldset>
-    <fieldset><legend>무엇으로 결제하나요?</legend><div class="seg" data-cgroup="currency"><button type="button" data-val="usd" aria-pressed="true">달러<small>아마존·미국 쇼핑몰</small></button><button type="button" data-val="krw" aria-pressed="false">원화<small>알리·아이허브 한국</small></button></div></fieldset>
+    <div class="cart-how"><b>쇼핑몰별로 따로 계산해요</b><span>아마존·알리·아이허브는 따로 배송돼서 면세 한도도 따로예요. 같은 쇼핑몰에서 같은 날 산 물건은 한 상자로 합쳐서 봐요.</span></div>
     <form class="cart-add" data-cart-add>
-      <label for="cart-q"><b>담은 상품 넣기</b><span>알리 링크는 이름·가격이 자동으로 채워져요. 다른 쇼핑몰은 이름만 채우고 가격은 직접 넣어요</span></label>
+      <label for="cart-q"><b>담은 상품 넣기</b><span>알리 링크는 이름·가격까지, 아마존·아이허브 링크는 이름과 쇼핑몰이 자동으로 채워져요. 상품 이름만 써도 돼요</span></label>
       <div class="paste-row"><input id="cart-q" type="text" placeholder="알리 링크 또는 상품 이름" autocomplete="off" enterkeyhint="done"><button type="submit" class="btn btn-point">담기</button></div>
       <p class="small" data-cart-msg hidden></p>
     </form>
     <ol class="cart-list" data-cart-list aria-label="담은 상품"></ol>
     <button type="button" class="btn btn-line cart-blank" data-cart-blank>+ 직접 입력할 줄 추가</button>
-    <div class="field"><label for="cart-ship">국제 배송비 (<span data-cur>달러</span>)</label><input id="cart-ship" type="number" inputmode="decimal" min="0" step="0.01" value="0" data-cart-ship><small>결제 화면에 따로 적힌 전체 배송비, 무료면 0</small></div>
+    <div class="cart-ships" data-cart-ships></div>
   </section>
   <section class="calc-out" aria-label="장바구니 계산 결과" aria-live="polite">
     <div class="vhero" data-c-verdict><span class="vword">-</span><div><b>-</b></div></div>
     <div class="signal" data-c-signal><div class="lights" aria-hidden="true"><i></i><i></i><i></i></div><span><b>-</b><br><small>-</small></span></div>
+    <ul class="cart-boxes" data-c-boxes></ul>
     <ul class="cart-notes" data-c-notes></ul>
     <div class="receipt">
-      <b class="r-title">장바구니 체감가 영수증</b>
+      <b class="r-title">장바구니 전체 영수증</b>
       <div class="r-row"><span data-cr="count">물품가 합계</span><span data-cr="goods">-</span></div>
       <div class="r-row"><span>국제 배송비</span><span data-cr="ship">-</span></div>
-      <div class="r-row"><span>관세 (품목별 세율)</span><span data-cr="duty">-</span></div>
+      <div class="r-row"><span>관세 (상자별·품목별 세율)</span><span data-cr="duty">-</span></div>
       <div class="r-row"><span>부가세 10%</span><span data-cr="vat">-</span></div>
       <div class="r-total"><span>최종 체감가</span><span data-cr="total">-</span></div>
       <div class="r-row" data-cr-domrow hidden><span>국내가 합계</span><span data-cr="dom">-</span></div>
     </div>
-    <p class="muted small">한 상자로 함께 받는다고 보고 계산해요. 같은 판매자에게 같은 날 산 물건은 따로 주문·배송해도 합쳐서 세금을 따져요(<a href="/guide#combine">합산과세</a>). ${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이며 실제 세액은 세관 고지를 따릅니다.</p>
+    <p class="muted small">쇼핑몰마다 한 상자로 보고 계산해요(특송 기준). 같은 판매자에게 같은 날 산 물건은 따로 주문·배송해도 합쳐서 세금을 따져요(<a href="/guide#combine">합산과세</a>). 알리는 판매자가 다르면 따로 계산될 수도 있지만, 여기선 넉넉하게 합쳐서 봐요. ${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이며 실제 세액은 세관 고지를 따릅니다.</p>
     <button type="button" class="btn btn-line" data-cart-clear>장바구니 비우기</button>
   </section>
 </div>

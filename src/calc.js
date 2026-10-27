@@ -130,4 +130,38 @@ export function cartTrim(input, rule = DEFAULT_RULE) {
   return { index: -1, overUsd: Math.ceil(overUsd * 100) / 100, taxSaved: now.duty + now.vat };
 }
 
+// 쇼핑몰별 상자: 쇼핑몰이 다르면 따로 배송되고 면세 한도도 따로예요(합산과세는 같은 판매자·같은 날 또는 한 운송장일 때).
+// currency: 그 쇼핑몰에서 결제하는 통화. freeShipKrw/shipKrw: 아이허브 한국은 40,000원 미만이면 배송비 6,000원.
+export const CART_STORES = {
+  aliexpress: { label: '알리익스프레스', sub: '중국 · 원화 결제', origin: 'other', currency: 'krw' },
+  amazon: { label: '아마존 (미국)', sub: '달러 결제', origin: 'us', currency: 'usd' },
+  iherb: { label: '아이허브', sub: '미국 · 원화 결제', origin: 'us', currency: 'krw', freeShipKrw: 40000, shipKrw: 6000 },
+  us: { label: '기타 미국 쇼핑몰', sub: '달러 결제', origin: 'us', currency: 'usd' },
+  other: { label: '기타 해외 쇼핑몰', sub: '일본·유럽 등 · 달러 결제', origin: 'other', currency: 'usd' }
+};
+// items[].store 로 상자를 나눠 각각 cartCost. ships: { 쇼핑몰: 배송비(그 쇼핑몰 통화) } — 아이허브는 비워 두면 규칙대로 자동.
+export function cartByStore({ items = [], ships = {}, fx, payFx }, rule = DEFAULT_RULE) {
+  const boxes = [];
+  for (const [key, st] of Object.entries(CART_STORES)) {
+    const its = items.filter((it) => (CART_STORES[it.store] ? it.store : 'aliexpress') === key);
+    if (!its.length) continue;
+    const priced = its.filter((it) => Number(it.price) > 0 && Number(it.qty) > 0);
+    const goodsKrwRaw = st.currency === 'krw' ? priced.reduce((a, it) => a + Number(it.price) * Math.floor(Number(it.qty)), 0) : 0;
+    let ship = ships[key];
+    const autoShip = st.freeShipKrw && (ship === '' || ship == null);
+    if (autoShip) ship = priced.length && goodsKrwRaw < st.freeShipKrw ? st.shipKrw : 0;
+    const input = { items: its, currency: st.currency, ship: Number(ship) || 0, origin: st.origin, method: 'express', fx, payFx };
+    const c = cartCost(input, rule);
+    boxes.push({ store: key, ...st, input, autoShip, ship: Number(ship) || 0, ...c, trim: c.dutyFree ? null : cartTrim(input, rule) });
+  }
+  const live = boxes.filter((b) => b.rows);
+  const sum = (k) => live.reduce((a, b) => a + b[k], 0);
+  const total = sum('total');
+  const allRows = items.filter((it) => Number(it.price) > 0 && Number(it.qty) > 0);
+  const hasDom = allRows.length > 0 && allRows.every((it) => Number(it.dom) > 0);
+  const domTotal = allRows.reduce((a, it) => a + (Number(it.dom) || 0) * Math.floor(Number(it.qty)), 0);
+  const verdict = hasDom ? judge(domTotal, total, rule) : { verdict: 'none', diff: 0, pct: 0 };
+  return { boxes, rows: allRows.length, goodsKrw: sum('goodsKrw'), shipKrw: sum('shipKrw'), duty: sum('duty'), vat: sum('vat'), total, taxed: live.filter((b) => !b.dutyFree).length, hasDom, domTotal, ...verdict };
+}
+
 export const formatKrw = (n) => Math.round(n).toLocaleString('ko-KR');

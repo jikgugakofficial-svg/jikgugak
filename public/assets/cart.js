@@ -1,5 +1,5 @@
 // 관세 계산기: 단품/장바구니 탭 + 장바구니 합산 계산
-import { cartCost, cartTrim, CATEGORIES, formatKrw as krw } from './calc.js';
+import { cartByStore, CART_STORES, formatKrw as krw } from './calc.js';
 import { parseShopLink } from './links.js';
 
 // ---------- 탭 (주소 끝 #cart 로 장바구니 탭이 바로 열려요) ----------
@@ -24,23 +24,35 @@ tabs.forEach((t, i) => {
 });
 showTab(location.hash === '#cart' ? 'cart' : 'single', false);
 
-// ---------- 장바구니 ----------
+// ---------- 장바구니 (쇼핑몰별 상자) ----------
 const root = document.querySelector('[data-cart]');
 if (root) {
   const FX = Number(root.dataset.fx);
   const PAYFX = Number(root.dataset.payfx) || FX;
   const RULE = { minSaveKrw: Number(root.dataset.minKrw), minSavePct: Number(root.dataset.minPct) };
-  const KEY = 'jg-cart-v1';
+  const KEY = 'jg-cart-v2';
   const $ = (s) => root.querySelector(s);
   const list = $('[data-cart-list]');
   const catOptions = $('[data-cat-options]').innerHTML;
-  const blankItem = (o = {}) => ({ name: '', price: '', qty: 1, category: 'it', dom: '', ...o });
+  const storeOptions = $('[data-store-options]').innerHTML;
+  let lastStore = 'aliexpress';
+  const blankItem = (o = {}) => ({ name: '', store: lastStore, price: '', qty: 1, category: 'it', dom: '', ...o });
 
-  let state = { origin: 'us', method: 'express', currency: 'usd', ship: 0, items: [blankItem()] };
+  let state = { ships: {}, items: [blankItem()] };
   try {
     const saved = JSON.parse(localStorage.getItem(KEY) || 'null');
-    if (saved && Array.isArray(saved.items)) state = { ...state, ...saved, items: saved.items.length ? saved.items : [blankItem()] };
+    if (saved && Array.isArray(saved.items) && saved.items.length) state = { ships: saved.ships || {}, items: saved.items.map((it) => ({ ...it, store: CART_STORES[it.store] ? it.store : 'aliexpress' })) };
+    else {
+      // 예전(한 상자) 장바구니를 옮겨 와요
+      const old = JSON.parse(localStorage.getItem('jg-cart-v1') || 'null');
+      if (old && Array.isArray(old.items) && old.items.some((x) => x.name || x.price)) {
+        const store = old.origin === 'other' ? (old.currency === 'krw' ? 'aliexpress' : 'other') : old.currency === 'krw' ? 'iherb' : 'amazon';
+        state = { ships: { [store]: old.ship || '' }, items: old.items.map((it) => ({ ...it, store })) };
+      }
+      localStorage.removeItem('jg-cart-v1');
+    }
   } catch {}
+  if (state.items.length) lastStore = state.items[state.items.length - 1].store || lastStore;
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 
   // 상품 이름으로 종류 짐작(바꿀 수 있어요)
@@ -55,16 +67,17 @@ if (root) {
     if (/책|도서|book/.test(s)) return 'book';
     return 'it';
   };
-  const cur = () => (state.currency === 'krw' ? '원' : '달러');
+  const curOf = (store) => (CART_STORES[store]?.currency === 'krw' ? '원' : '달러');
   const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
   function rowHtml(it, i) {
-    const step = state.currency === 'krw' ? '10' : '0.01';
+    const step = curOf(it.store) === '원' ? '10' : '0.01';
     return `<li class="cart-row" data-i="${i}">
   <div class="cr-top"><label class="sr-only" for="cr-n${i}">상품 이름</label><input id="cr-n${i}" data-k="name" type="text" placeholder="상품 이름 (예: 비타민 D)" value="${esc(it.name)}">
   <button type="button" class="cr-del" data-del aria-label="${esc(it.name || i + 1 + '번 상품')} 빼기">×</button></div>
   <div class="cr-grid">
-    <label><span>가격 (${cur()}, 1개)</span><input data-k="price" type="number" inputmode="decimal" min="0" step="${step}" value="${esc(it.price)}"></label>
+    <label class="cr-store"><span>쇼핑몰</span><select data-k="store">${storeOptions}</select></label>
+    <label><span data-unit>가격 (${curOf(it.store)}, 1개)</span><input data-k="price" type="number" inputmode="decimal" min="0" step="${step}" value="${esc(it.price)}"></label>
     <label><span>수량</span><input data-k="qty" type="number" inputmode="numeric" min="1" step="1" value="${esc(it.qty)}"></label>
     <label><span>종류</span><select data-k="category">${catOptions}</select></label>
     <label><span>국내가 (원, 1개 · 선택)</span><input data-k="dom" type="number" inputmode="numeric" min="0" step="100" value="${esc(it.dom)}" placeholder="쿠팡 등 최저가"></label>
@@ -73,16 +86,32 @@ if (root) {
   }
   function renderList() {
     list.innerHTML = state.items.map(rowHtml).join('');
-    list.querySelectorAll('.cart-row').forEach((li) => { li.querySelector('select').value = state.items[li.dataset.i].category || 'it'; });
+    list.querySelectorAll('.cart-row').forEach((li) => {
+      const it = state.items[li.dataset.i];
+      li.querySelector('[data-k=category]').value = it.category || 'it';
+      li.querySelector('[data-k=store]').value = it.store || 'aliexpress';
+    });
   }
 
   list.addEventListener('input', (e) => {
     const li = e.target.closest('.cart-row'); const k = e.target.dataset.k;
-    if (!li || !k) return;
+    if (!li || !k || e.target.tagName === 'SELECT') return;
     state.items[li.dataset.i][k] = e.target.value;
     calc();
   });
-  list.addEventListener('change', (e) => { if (e.target.tagName === 'SELECT') { state.items[e.target.closest('.cart-row').dataset.i].category = e.target.value; calc(); } });
+  list.addEventListener('change', (e) => {
+    if (e.target.tagName !== 'SELECT') return;
+    const it = state.items[e.target.closest('.cart-row').dataset.i];
+    const k = e.target.dataset.k;
+    if (k === 'store') {
+      // 결제 통화가 바뀌면 넣은 가격도 결제 환율로 바꿔 줘요
+      const from = CART_STORES[it.store]?.currency; const to = CART_STORES[e.target.value]?.currency;
+      if (from !== to && it.price !== '' && it.price != null) it.price = to === 'krw' ? Math.round(Number(it.price) * PAYFX) : Math.round((Number(it.price) / PAYFX) * 100) / 100;
+      it.store = lastStore = e.target.value;
+      renderList();
+    } else it[k] = e.target.value;
+    calc();
+  });
   list.addEventListener('click', (e) => {
     if (!e.target.closest('[data-del]')) return;
     state.items.splice(Number(e.target.closest('.cart-row').dataset.i), 1);
@@ -93,67 +122,64 @@ if (root) {
     state.items.push(blankItem()); renderList(); calc();
     list.querySelector('.cart-row:last-child input')?.focus();
   });
-  $('[data-cart-clear]').addEventListener('click', () => {
-    state.items = [blankItem()]; state.ship = 0; $('[data-cart-ship]').value = 0; renderList(); calc();
-  });
-  $('[data-cart-ship]').value = state.ship;
-  $('[data-cart-ship]').addEventListener('input', (e) => { state.ship = e.target.value; calc(); });
+  $('[data-cart-clear]').addEventListener('click', () => { state = { ships: {}, items: [blankItem()] }; renderList(); calc(); });
 
-  root.querySelectorAll('[data-cgroup]').forEach((seg) => {
-    const g = seg.dataset.cgroup;
-    seg.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => {
-      if (state[g] === b.dataset.val) return;
-      // 통화를 바꾸면 이미 넣은 가격도 결제 환율로 바꿔 줘요
-      if (g === 'currency') {
-        const toKrw = b.dataset.val === 'krw';
-        const conv = (v) => (v === '' || v == null ? v : toKrw ? Math.round(Number(v) * PAYFX) : Math.round((Number(v) / PAYFX) * 100) / 100);
-        state.items = state.items.map((it) => ({ ...it, price: conv(it.price) }));
-        state.ship = conv(state.ship); $('[data-cart-ship]').value = state.ship;
-      }
-      state[g] = b.dataset.val; renderList(); calc();
-    }));
-  });
+  // 쇼핑몰별 배송비 칸(담긴 쇼핑몰만). 다시 그리면 입력 중 커서가 날아가서, 쇼핑몰 구성이 바뀔 때만 다시 그려요.
+  const shipsBox = $('[data-cart-ships]');
+  let shipKeys = '';
+  function renderShips(boxes) {
+    const keys = boxes.map((b) => b.store).join(',');
+    if (keys !== shipKeys) {
+      shipKeys = keys;
+      shipsBox.innerHTML = boxes.length ? `<b class="cs-title">쇼핑몰별 국제 배송비</b>` + boxes.map((b) => `<label class="field cs-row"><span>${esc(b.label)} · ${curOf(b.store)}</span><input data-ship="${b.store}" type="number" inputmode="decimal" min="0" step="${curOf(b.store) === '원' ? 100 : 0.01}" value="${esc(state.ships[b.store] ?? '')}" placeholder="${b.freeShipKrw ? '비우면 자동' : '무료면 0'}"><small data-ship-note="${b.store}"></small></label>`).join('') : '';
+    }
+    for (const b of boxes) {
+      const n = shipsBox.querySelector(`[data-ship-note="${b.store}"]`);
+      if (n) n.textContent = b.autoShip ? `40,000원 미만이라 6,000원 자동 (${b.ship ? '붙어요' : '지금은 무료'})` : '결제 화면에 따로 적힌 배송비';
+    }
+  }
+  shipsBox.addEventListener('input', (e) => { const k = e.target.dataset.ship; if (!k) return; state.ships[k] = e.target.value; calc(); });
 
-  // 담기: 알리 링크는 사이트 /api/item(알리 제휴 API)으로 이름·원화 가격을 받아요
+  // 담기: 쇼핑몰 링크를 알아보고 쇼핑몰 칸을 맞춰요. 알리는 사이트 /api/item(알리 제휴 API)으로 이름·원화 가격까지.
   const msg = $('[data-cart-msg]');
   const say = (t) => { msg.textContent = t; msg.hidden = !t; };
   const addItem = (it) => {
     const empty = state.items.findIndex((x) => !x.name && !x.price);
     if (empty >= 0) state.items[empty] = it; else state.items.push(it);
+    lastStore = it.store;
     renderList(); calc();
   };
+  const focusLastPrice = () => list.querySelector('.cart-row:last-child [data-k="price"]')?.focus();
   $('[data-cart-add]').addEventListener('submit', async (e) => {
     e.preventDefault();
     const input = $('#cart-q'); const q = input.value.trim();
     if (!q) return;
     const link = parseShopLink(q);
     say('');
-    // 장바구니가 비어 있으면 쇼핑몰에 맞게 보내는 곳·결제 통화를 맞춰 줘요(알리 → 그 외·원화, 아마존 → 미국·달러, 아이허브 한국 → 미국·원화)
-    const fresh = !state.items.some((x) => Number(x.price) > 0);
-    const preset = link && { aliexpress: { origin: 'other', currency: 'krw' }, amazon: { origin: 'us', currency: 'usd' }, iherb: { origin: 'us', currency: 'krw' } }[link.store];
-    if (preset && fresh) { Object.assign(state, preset, { method: 'express' }); renderList(); calc(); }
     if (link && link.store === 'aliexpress' && link.id) {
       say('알리에서 가격을 가져오는 중이에요…');
       try {
         const d = await (await fetch('/api/item?id=' + link.id)).json();
         if (!d.ok) throw new Error();
-        let price = Math.round(d.item.price);
-        if (state.currency === 'usd') price = Math.round((price / PAYFX) * 100) / 100;
-        const name = String(d.item.title || '').slice(0, 60);
-        addItem(blankItem({ name, price, category: guessCat(d.item.title) }));
-        say(state.origin === 'us' ? '담았어요. 알리는 보통 중국에서 보내요. 위에서 "그 외"를 고르면 면세 한도($150)가 맞게 계산돼요.' : state.currency === 'usd' ? '담았어요. 알리는 원화 결제라 위에서 "원화"를 고르면 더 정확해요.' : '담았어요. 가격은 대표 옵션 값이라, 고른 색·옵션 가격과 다르면 고쳐 주세요.');
-      } catch { addItem(blankItem({ name: '알리 상품' })); say('가격을 못 가져왔어요. 가격을 직접 넣어 주세요.'); }
+        addItem(blankItem({ store: 'aliexpress', name: String(d.item.title || '').slice(0, 60), price: Math.round(d.item.price), category: guessCat(d.item.title) }));
+        say('담았어요. 가격은 대표 옵션 값이라, 고른 색·옵션 가격과 다르면 고쳐 주세요.');
+      } catch { addItem(blankItem({ store: 'aliexpress', name: '알리 상품' })); say('가격을 못 가져왔어요. 가격을 직접 넣어 주세요.'); focusLastPrice(); }
     } else if (link && link.store === 'aliexpress') {
       say('앱 공유용 짧은 주소는 열지 않아요. 상품 페이지 주소(…/item/숫자.html)를 넣어 주세요.'); return;
     } else if (link && link.store === 'coupang') {
       say('쿠팡은 국내 쇼핑몰이에요. 쿠팡 가격은 상품 줄의 "국내가" 칸에 넣어 주세요.'); return;
+    } else if (link && (link.store === 'amazon' || link.store === 'iherb')) {
+      addItem(blankItem({ store: link.store, name: link.name || (link.store === 'amazon' ? '아마존 상품' : '아이허브 상품'), category: link.store === 'iherb' ? (guessCat(link.name) === 'food' ? 'food' : 'supplement') : guessCat(link.name) }));
+      say(`이름만 채웠어요. 결제 화면의 가격을 ${link.store === 'amazon' ? '달러' : '원화'}로 넣어 주세요.`);
+      focusLastPrice();
     } else if (link) {
-      addItem(blankItem({ name: link.name || ({ amazon: '아마존 상품', iherb: '아이허브 상품' }[link.store] || '상품'), category: link.store === 'iherb' ? 'supplement' : guessCat(link.name) }));
-      say('이름만 채웠어요. 결제 화면의 가격을 넣어 주세요.');
-      list.querySelector('.cart-row:last-child [data-k="price"]')?.focus();
+      addItem(blankItem({ store: 'us', name: '해외 쇼핑몰 상품' }));
+      say('처음 보는 쇼핑몰이라 "기타 미국 쇼핑몰"로 넣었어요. 일본·유럽이면 쇼핑몰 칸을 "기타 해외 쇼핑몰"로 바꿔 주세요.');
+      focusLastPrice();
     } else {
       addItem(blankItem({ name: q.slice(0, 60), category: guessCat(q) }));
-      list.querySelector('.cart-row:last-child [data-k="price"]')?.focus();
+      say(`"${CART_STORES[lastStore].label}"로 넣었어요. 다른 쇼핑몰이면 쇼핑몰 칸을 바꿔 주세요.`);
+      focusLastPrice();
     }
     input.value = '';
   });
@@ -163,58 +189,63 @@ if (root) {
 
   function calc() {
     save();
-    root.querySelectorAll('[data-cgroup]').forEach((seg) => seg.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.val === state[seg.dataset.cgroup]))));
-    root.querySelectorAll('[data-cur]').forEach((el) => (el.textContent = cur()));
-    const input = { items: state.items, currency: state.currency, ship: state.ship, origin: state.origin, method: state.method, fx: FX, payFx: PAYFX };
-    const c = cartCost(input, RULE);
+    const r = cartByStore({ items: state.items, ships: state.ships, fx: FX, payFx: PAYFX }, RULE);
+    const live = r.boxes.filter((b) => b.rows);
+    renderShips(r.boxes);
     const count = state.items.reduce((a, it) => a + (Number(it.price) > 0 ? Math.max(0, Math.floor(Number(it.qty) || 0)) : 0), 0);
 
     // 판정
     const hero = $('[data-c-verdict]');
-    const V = { good: ['v-good', '직구각'], meh: ['v-meh', '애매'], bad: ['v-bad', '국내가 나음'], none: ['', c.rows ? '판정 대기' : '담은 상품 없음'] }[c.verdict];
+    const V = { good: ['v-good', '직구각'], meh: ['v-meh', '애매'], bad: ['v-bad', '국내가 나음'], none: ['', r.rows ? '판정 대기' : '담은 상품 없음'] }[r.verdict];
     hero.className = 'vhero ' + V[0];
     hero.querySelector('.vword').textContent = V[1];
-    const pct = Math.round(Math.abs(c.pct) * 100);
-    hero.querySelector('b').textContent = !c.rows ? '상품과 가격을 넣으면 합계를 계산해요'
-      : c.verdict === 'good' ? `장바구니 전체가 국내보다 ${pct}% 싸요 · ${money(c.diff)} 아껴요`
-      : c.verdict === 'meh' ? `${money(c.diff)} 싸지만 배송 기간·반품을 생각하면 애매해요`
-      : c.verdict === 'bad' ? `국내에서 사는 게 ${money(-c.diff)} 더 싸요`
+    const pct = Math.round(Math.abs(r.pct) * 100);
+    hero.querySelector('b').textContent = !r.rows ? '상품과 가격을 넣으면 쇼핑몰별로 계산해요'
+      : r.verdict === 'good' ? `장바구니 전체가 국내보다 ${pct}% 싸요 · ${money(r.diff)} 아껴요`
+      : r.verdict === 'meh' ? `${money(r.diff)} 싸지만 배송 기간·반품을 생각하면 애매해요`
+      : r.verdict === 'bad' ? `국내에서 사는 게 ${money(-r.diff)} 더 싸요`
       : '상품마다 국내가를 넣으면 장바구니 전체를 판정해요';
 
-    // 면세 신호등
+    // 전체 신호등: 한 상자라도 넘으면 빨강
+    const signal = !live.length ? 'green' : live.some((b) => !b.dutyFree) ? 'red' : live.some((b) => b.signal === 'yellow') ? 'yellow' : 'green';
     const lights = root.querySelectorAll('[data-c-signal] i');
     lights.forEach((l) => (l.className = ''));
-    lights[{ green: 0, yellow: 1, red: 2 }[c.signal]].className = 'on-' + c.signal;
+    lights[{ green: 0, yellow: 1, red: 2 }[signal]].className = 'on-' + signal;
     const sig = root.querySelector('[data-c-signal] > span');
-    sig.querySelector('b').textContent = c.signal === 'red' ? '면세 한도 초과' : c.signal === 'yellow' ? '면세 한도에 거의 다 찼어요' : '면세 한도 안이에요';
-    sig.querySelector('small').textContent = c.dutyFree
-      ? `한도 $${c.limit} 중 ${usd(c.goodsUsd)} · 예상 세금 ₩0`
-      : `한도 $${c.limit} 중 ${usd(c.goodsUsd)} · 배송비 포함 전체에 세금 ${money(c.duty + c.vat)}`;
+    sig.querySelector('b').textContent = signal === 'red' ? `${r.taxed}개 쇼핑몰이 면세 한도 초과` : signal === 'yellow' ? '면세 한도에 거의 다 찬 쇼핑몰이 있어요' : '모든 쇼핑몰이 면세 한도 안이에요';
+    sig.querySelector('small').textContent = live.length ? `쇼핑몰 ${live.length}곳 · 예상 세금 ${money(r.duty + r.vat)}` : '-';
+
+    // 쇼핑몰별 상자
+    $('[data-c-boxes]').innerHTML = live.map((b) => {
+      const tag = !b.dutyFree ? ['cb-red', '한도 초과'] : b.signal === 'yellow' ? ['cb-yellow', '거의 다 참'] : ['cb-green', '면세'];
+      return `<li class="${tag[0]}"><div class="cb-head"><b>${esc(b.label)}</b><span class="cb-tag">${tag[1]}</span></div>
+<span class="cb-line">한도 $${b.limit} 중 ${usd(b.goodsUsd)} · ${b.dutyFree ? '세금 ₩0' : `세금 ${money(b.duty + b.vat)}`} · 체감가 ${money(b.total)}</span></li>`;
+    }).join('');
 
     // 안내
     const notes = [];
-    if (!c.dutyFree && c.rows) {
-      const t = cartTrim(input, RULE);
-      if (t && t.index >= 0) notes.push(['good', `<b>${esc(t.name.slice(0, 30))}</b> 1개만 빼면 면세예요. 세금 ${money(t.taxSaved)}이 사라져요.`]);
-      else if (t) notes.push(['warn', `면세가 되려면 물품가를 ${usd(t.overUsd)} 넘게 줄여야 해요. 지금 그대로면 세금이 ${money(t.taxSaved)} 붙어요.`]);
-    } else if (c.signal === 'yellow') notes.push(['warn', `한도까지 ${usd(c.limit - c.goodsUsd)} 남았어요. 하나 더 담으면 넘을 수 있어요.`]);
-    if (c.mixedLimit) notes.push(['info', '영양제·식품이 섞여서 상자 전체가 $150 기준이에요. 영양제·식품이 없으면 미국 특송은 $200 기준이에요.']);
-    if (state.origin === 'us' && state.method === 'post') notes.push(['info', '우편(EMS 등)으로 받으면 미국발이어도 $150 기준이에요.']);
-    if (c.tooManyBottles) notes.push(['warn', `건강기능식품은 한 번에 6병까지만 자가사용으로 인정돼요. 지금 ${c.bottles}병이라 통관이 막힐 수 있어요.`]);
-    if (state.currency === 'krw' && state.origin === 'us' && c.rows && c.goodsKrw < 40000) notes.push(['info', '아이허브(한국)라면 40,000원 미만 주문은 배송비 6,000원이 붙어요. 배송비 칸에 넣어 주세요.']);
-    if (c.rows && !c.hasDom) notes.push(['info', '상품마다 국내가를 넣으면 장바구니 전체를 직구각/애매/국내가 나음으로 판정해요.']);
+    for (const b of live) {
+      if (!b.dutyFree && b.trim) {
+        if (b.trim.index >= 0) notes.push(['good', `${esc(b.label)}: <b>${esc(String(b.trim.name).slice(0, 30))}</b> 1개만 빼면 면세예요. 세금 ${money(b.trim.taxSaved)}이 사라져요.`]);
+        else notes.push(['warn', `${esc(b.label)}: 면세가 되려면 물품가를 ${usd(b.trim.overUsd)} 넘게 줄여야 해요.`]);
+      } else if (b.signal === 'yellow') notes.push(['warn', `${esc(b.label)}: 한도까지 ${usd(b.limit - b.goodsUsd)} 남았어요.`]);
+      if (b.mixedLimit) notes.push(['info', `${esc(b.label)}: 영양제·식품이 섞여서 이 상자는 $150 기준이에요. 영양제·식품이 없으면 미국 특송은 $200 기준이에요.`]);
+      if (b.tooManyBottles) notes.push(['warn', `${esc(b.label)}: 건강기능식품은 한 번에 6병까지만 자가사용으로 인정돼요. 지금 ${b.bottles}병이라 통관이 막힐 수 있어요.`]);
+    }
+    if (live.length > 1) notes.push(['info', '쇼핑몰마다 따로 배송돼서 면세 한도를 각각 따져요. 같은 날 도착해도 판매자가 다르면 합치지 않아요.']);
+    if (r.rows && !r.hasDom) notes.push(['info', '상품마다 국내가를 넣으면 장바구니 전체를 직구각/애매/국내가 나음으로 판정해요.']);
     $('[data-c-notes]').innerHTML = notes.map(([k, t]) => `<li class="cn-${k}">${t}</li>`).join('');
 
     // 영수증
     const set = (k, v) => { const el = root.querySelector(`[data-cr="${k}"]`); if (el) el.textContent = v; };
     set('count', `물품가 합계 (${count}개)`);
-    set('goods', money(c.goodsKrw));
-    set('ship', money(c.shipKrw));
-    set('duty', money(c.duty));
-    set('vat', money(c.vat));
-    set('total', money(c.total));
-    $('[data-cr-domrow]').hidden = !c.hasDom;
-    set('dom', money(c.domTotal));
+    set('goods', money(r.goodsKrw));
+    set('ship', money(r.shipKrw));
+    set('duty', money(r.duty));
+    set('vat', money(r.vat));
+    set('total', money(r.total));
+    $('[data-cr-domrow]').hidden = !r.hasDom;
+    set('dom', money(r.domTotal));
   }
 
   renderList();

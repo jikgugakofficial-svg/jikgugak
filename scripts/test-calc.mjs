@@ -1,6 +1,6 @@
 // 계산 규칙 점검: npm test
 import assert from 'node:assert/strict';
-import { landedCost, judge, breakevenUsd, dutyFreeLimit, cartCost, cartTrim } from '../src/calc.js';
+import { landedCost, judge, breakevenUsd, dutyFreeLimit, cartCost, cartTrim, cartByStore } from '../src/calc.js';
 
 const fx = 1347.03;
 
@@ -70,3 +70,12 @@ assert.equal(ali.vat, 21000); // IT 관세 0% → 부가세만
 assert.equal(ali.verdict, 'good'); // 국내 350,000원 vs 231,000원
 // 영양제 6병 넘으면 표시
 assert.equal(cartCost({ items: [{ price: 10, qty: 7, category: 'supplement' }], origin: 'us', fx }).tooManyBottles, true);
+
+// 쇼핑몰별 상자: 아마존 $180 + 알리 120,000원은 각자 한도 안이라 둘 다 면세(한 상자로 합치면 넘음)
+const mixed = cartByStore({ items: [{ store: 'amazon', price: 180, qty: 1, category: 'it' }, { store: 'aliexpress', price: 120000, qty: 1, category: 'it' }], fx, payFx: fx });
+assert.equal(mixed.boxes.length, 2);
+assert.equal(mixed.taxed, 0);
+assert.equal(mixed.duty + mixed.vat, 0);
+// 아이허브는 40,000원 미만이면 배송비 6,000원 자동, 넘으면 0원
+assert.equal(cartByStore({ items: [{ store: 'iherb', price: 15000, qty: 2, category: 'supplement' }], fx }).shipKrw, 6000);
+assert.equal(cartByStore({ items: [{ store: 'iherb', price: 15000, qty: 3, category: 'supplement' }], fx }).shipKrw, 0);
