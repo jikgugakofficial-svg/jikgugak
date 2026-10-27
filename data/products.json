@@ -777,10 +777,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.10.27 알리 자동",
+    "checkedAt": "2026.10.28 알리 자동",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 100756,
+    "priceKrw": 102215,
     "domesticKrw": 89620,
     "domesticSource": "쿠팡 쿠폰가, 글레이셔 실버, 로켓배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
@@ -839,6 +839,13 @@
         "field": "priceKrw",
         "from": 102215,
         "to": 100756,
+        "source": "알리"
+      },
+      {
+        "at": "2026.10.28",
+        "field": "priceKrw",
+        "from": 100756,
+        "to": 102215,
         "source": "알리"
       }
     ]
@@ -1179,11 +1186,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxF2x1i0",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.10.28 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58027,
-    "domesticKrw": 30980,
+    "domesticKrw": 35040,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1206,7 +1213,16 @@
       "model": "자로우 펨도필러스 50억 CFU 베지캡슐 60정",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 30980,
+        "to": 35040,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -1219,11 +1235,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.10.28 쿠팡 자동",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 13983,
-    "domesticKrw": 10420,
+    "domesticKrw": 13200,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1245,7 +1261,16 @@
       "model": "나우푸드 아연 50mg 250정",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 10420,
+        "to": 13200,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -1258,11 +1283,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BzH8wHKu",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-ultra-omega-3-fish-oil-180-fish-softgels/96436",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.10.28 쿠팡 자동",
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46657,
-    "domesticKrw": 33480,
+    "domesticKrw": 38130,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1284,7 +1309,16 @@
       "model": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 피쉬 소프트젤 180정",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 33480,
+        "to": 38130,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -1297,11 +1331,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BJD6VK8G",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.10.28 쿠팡 자동",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18653,
-    "domesticKrw": 15460,
+    "domesticKrw": 19600,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1323,7 +1357,16 @@
       "model": "나우푸드 마그네슘 캡 400mg 베지캡슐 180정",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 15460,
+        "to": 19600,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "iherb",

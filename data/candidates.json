@@ -2412,7 +2412,28 @@
         }
       ],
       "coupang": []
+    },
+    "Anker 737 Charger GaNPrime 120W": {
+      "q": "Anker 737 Charger GaNPrime 120W",
+      "brand": "Anker",
+      "model": "737 120W",
+      "cat": "it",
+      "why": "앤커 120W 3포트 GaNPrime 충전기, 국내 정발가 대비 알리 앤커 공식 스토어 가격 차이 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T15:27:23.363Z",
+      "status": "no_ali",
+      "coupangTop": 6,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "9793298438",
+          "name": "Anker 737 Charger (GaNPrime 120W) 블랙",
+          "price": 142810,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/KBNpJBVFOEcOUFf-KD6AQeMM3UOH4FtPBoFPN9RKrfuIIX_KVgtP1pHqpJsyjRgachQZR68e5Py8jKtfjBXZjSRdkVhkoqP-0dJ05UC5uXRJqn6Tb7_wqddQc9a9H7emcHTdJgkOUOrUEtfEU6NABOwHz4j7t5s3EJVhWid5nR_NRQjY1A9E860X6KZTRIdklxFyym8c_NzC2mSxZuCLrXPj0YQ3Gls8j9uFcor2BOg0ylXN534xojdNOtZLRdFBzwqhk9FzSxeD0YQi-KBRpRfYRk0gXD-ESZ7kEuxhnAbqMS1WNIF0IXhbGGle5HuX1rmbveAz5J1OUArr5jKHxxqFTWL-X1-m2xl2yEtSkHPHIHtqjZMVp9Z31SMpNg929PafYF-F8dWzaSkbNknN-SDUliNa6waoxEK_9mBJHSogmDS7ABmJ6SkoiRhBq0f6gSBP1W_FkRadja2y5NYyQg8p79l8Vn5D0f2Sn8WR3bU-a585J9SAuz4ZswX4EVQR28ooYGBaXXLcXUaqfhw1UKmEvOEhDFEk2Bg5szbs7NekzbuF",
+          "url": "https://www.coupang.com/vp/products/9793298438"
+        }
+      ]
     }
   },
-  "updatedAt": "2026-10-27T13:32:36.685Z"
+  "updatedAt": "2026-10-27T15:27:27.593Z"
 }

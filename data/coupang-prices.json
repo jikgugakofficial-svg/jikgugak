@@ -262,7 +262,51 @@
       "isRocket": false,
       "diff": 0,
       "result": "same"
+    },
+    "iherb-jarrow-fem-dophilus-5b-60": {
+      "productId": "6960887991",
+      "keyword": "자로우 펨도필러스 50억 CFU 60캡슐",
+      "at": "2026-10-27T15:27:27.594Z",
+      "recordedKrw": 30980,
+      "found": true,
+      "apiPrice": 35040,
+      "isRocket": false,
+      "diff": 4060,
+      "result": "applied"
+    },
+    "iherb-now-zinc-50-250": {
+      "productId": "6395389697",
+      "keyword": "나우푸드 아연 50mg 250정",
+      "at": "2026-10-27T15:27:28.104Z",
+      "recordedKrw": 10420,
+      "found": true,
+      "apiPrice": 13200,
+      "isRocket": false,
+      "diff": 2780,
+      "result": "applied"
+    },
+    "iherb-now-ultra-omega3-180": {
+      "productId": "9392378613",
+      "keyword": "나우푸드 울트라 오메가3 180정",
+      "at": "2026-10-27T15:27:28.479Z",
+      "recordedKrw": 33480,
+      "found": true,
+      "apiPrice": 38130,
+      "isRocket": false,
+      "diff": 4650,
+      "result": "applied"
+    },
+    "iherb-now-magnesium-caps-400-180": {
+      "productId": "26208",
+      "keyword": "나우푸드 마그네슘 캡 400mg 180캡슐",
+      "at": "2026-10-27T15:27:28.827Z",
+      "recordedKrw": 15460,
+      "found": true,
+      "apiPrice": 19600,
+      "isRocket": false,
+      "diff": 4140,
+      "result": "applied"
     }
   },
-  "updatedAt": "2026-10-27T14:29:37.884Z"
+  "updatedAt": "2026-10-27T15:27:29.459Z"
 }
