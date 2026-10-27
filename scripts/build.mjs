@@ -992,6 +992,12 @@ write('disclosure.html', pageDisclosure());
 write('privacy.html', pagePrivacy());
 write('404.html', page404());
 for (const p of items) write(`p/${p.slug}.html`, pageProduct(p));
+// 숨긴 상품(가격 다시 확인 중)은 404 대신 안내 페이지(noindex)를 둬요. SNS·블로그로 들어온 사람이 길을 잃지 않게, 구글엔 색인하지 않게.
+for (const p of products.filter((x) => x.hidden)) {
+  const body = `<div class="page-head"><h1 class="display">${esc(p.name)}</h1><p class="muted">이 상품은 지금 가격과 같은 제품인지 다시 확인하고 있어요. 확인이 끝나면 판정을 다시 보여 드릴게요.</p></div>
+<div class="s-btns"><a class="btn btn-buy" href="/search?q=${encodeURIComponent(p.name.replace(/\(.*?\)/g, '').trim())}">이 상품 실시간 가격 비교</a><a class="btn btn-line" href="/">오늘의 직구각 보기</a></div>`;
+  write(`p/${p.slug}.html`, layout({ title: `${p.name} 가격 확인 중`, description: `${p.name} 가격을 다시 확인하고 있어요. 실시간 가격 비교로 지금 가격을 볼 수 있어요.`, urlPath: `/p/${p.slug}`, body, noindex: true }));
+}
 // 예약 SNS 글이 게시 직전에 "지금 환율로도 숫자가 맞는지" 확인할 때 쓰는 값(tools/publish/run.mjs의 fxCheck)
 write('live.json', JSON.stringify({ updated: new Date().toISOString(), fx: { customs: FX, pay: PAYFX, src: (RATES.customs.source || 'settings') + '/' + ((RATES.pay && RATES.pay.source) || 'settings') }, products: Object.fromEntries(items.map((p) => [p.slug, { verdict: p.ev.verdict, breakeven: p.ev.breakeven ?? null, beKrw: p.ev.beKrw ?? null, diff: p.ev.diff ?? null, pct: p.ev.pctNum ?? null, total: p.ev.cost ? p.ev.cost.total : null }])) }) + '\n');
 if (FIXED_SUMMARIES.length) console.warn(`⚠ 판정이 바뀌어 요약 문장 ${FIXED_SUMMARIES.length}개를 자동 문장으로 바꿨어요(price-checker가 다시 써 주세요):\n  ` + FIXED_SUMMARIES.join('\n  '));
