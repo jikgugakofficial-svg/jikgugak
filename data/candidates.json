@@ -49,7 +49,7 @@
       "cat": "it",
       "why": "퀘이사존 알리 직구 핫딜 반복(2025.12·2026.03 약 9.9만 원대), 국내 정발가 16.7만 원대(2026.06 핫딜 글)라 차이 큼",
       "at": "2026-10-26T15:52:07.611Z",
-      "status": "new",
+      "status": "rejected",
       "coupangTop": 10,
       "ali": [
         {
@@ -80,7 +80,8 @@
         "verdict": "meh",
         "diff": 31652,
         "pct": 18
-      }
+      },
+      "reviewNote": "쿠팡은 SUPERLIGHT 2 DEX(다른 모델)"
     },
     "UGREEN Nexode 65W GaN": {
       "q": "UGREEN Nexode 65W GaN",
@@ -328,7 +329,7 @@
       "cat": "audio",
       "why": "퀘이사존 알리 핫딜 $181.66(2026, 관세 약 3만 원 추가 언급) vs 국내정발 277,060~319,090원(2026.01·광군제 핫딜 글). 150달러 초과 과세라 차이가 작아 애매 가능성 큼",
       "at": "2026-10-26T19:24:34.137Z",
-      "status": "new",
+      "status": "rejected",
       "coupangTop": 10,
       "ali": [
         {
@@ -375,7 +376,8 @@
         "verdict": "bad",
         "diff": -219633,
         "pct": -80
-      }
+      },
+      "reviewNote": "알리 150달러 넘어 관부가세 → 국내가 나음(쿠팡 276,000원), 등록 가치 낮음"
     },
     "Edifier MR4": {
       "q": "Edifier MR4",
@@ -384,7 +386,7 @@
       "cat": "audio",
       "why": "퀘이사존 에디파이어 정발 세일 글에서 가장 잘 팔리는 모니터 스피커로 언급(QR65 가격의 약 1/4, MR3·MR4 MK2는 세일 제외 → 정발가 비쌀 수 있음). MR4 MK2 같은 개정판 구분 필요",
       "at": "2026-10-26T19:24:35.369Z",
-      "status": "new",
+      "status": "rejected",
       "coupangTop": 10,
       "ali": [
         {
@@ -441,7 +443,8 @@
         "verdict": "bad",
         "diff": -64842,
         "pct": -78
-      }
+      },
+      "reviewNote": "알리는 MR4 MKII(신형), 쿠팡은 MR4 — 다른 모델"
     },
     "Insta360 X5": {
       "q": "Insta360 X5",
@@ -487,7 +490,7 @@
       "cat": "it",
       "why": "퀘이사존 2026.07 알리 충전 스테이션 핫딜 조회 9,670·댓글 24, 200W 구매 후기 다수",
       "at": "2026-10-26T19:24:38.994Z",
-      "status": "new",
+      "status": "rejected",
       "coupangTop": 9,
       "ali": [
         {
@@ -536,7 +539,8 @@
         "verdict": "good",
         "diff": 56600,
         "pct": 40
-      }
+      },
+      "reviewNote": "10/27 매니저: 알리 55763(세로형 새 모델, 비공식 스토어) vs 쿠팡 6C2A 가로형(구형 CD271 계열) — 다른 모델"
     },
     "Anker Nano Power Bank 22.5W 5000mAh": {
       "q": "Anker Nano Power Bank 22.5W 5000mAh",

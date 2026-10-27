@@ -66,6 +66,8 @@
 - [ ] `content/2026-10-23-series-3-iherb-shipping`은 락토비프 숫자 기준이라 쓰려면 다시 계산.
 
 **운영자**
+- [ ] 아이허브 제휴(impact): 10/22 신청 접수 메일만 있고 승인 메일 없음(10/27 메일함 확인). impact.com → 브랜드(iHerb) 상태가 Active인지 Pending인지 확인. 승인 전까지 사이트 아이허브 링크는 일반 링크.
+- [ ] Claude in Chrome에서 iherb.com 읽기 허용(게시 전 아이허브 가격 확인용). 아이허브가 미국 사이트로 넘어가면 상단 국가를 대한민국/KRW로.
 - [ ] 카카오 공유 디버거(https://developers.kakao.com/tool/debugger/sharing)에서 `https://www.jikgugak.com`·`https://jikgugak.com` 캐시 초기화(10/26 공유 이미지를 주황 시안 B로 새로 만들고 주소에 `?v=20261026b` 붙임. 원본 `tools/og/og.html`, 시안 a·b·c는 body data-v로 바꿔요).
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.
@@ -82,4 +84,5 @@
 - 쿠팡 파트너스 링크: partners.coupang.com → 간편 링크(`#affiliate/ws/link-to-any-page`)에 쿠팡 일반 주소 → "링크 생성". 이미지는 상품 검색 결과 `img`(212x212ex → 492x492ex). 쿠팡 로그인은 운영자. "링크 생성이 제한된 상품"은 빼요.
 - 알리 붙여넣기 판정: `/api/item?id=`(알리 제휴 API productdetail.get). 대표 옵션 가격만 와서 판정 칸에서 옵션 가격으로 바꿔 넣게 했어요. s.click·a.aliexpress 단축 주소는 열지 않아요.
 - 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"`(blog.md는 `## 제목 후보`·`추천: N번`·`## 본문`·`## 네이버 태그`, 이미지 `[이미지: img/파일, 설명]` + `naver/map.json`). 아티팩트로 올리고 사진 zip 전달.
+- 서치 콘솔 10/26 알림(404·noindex·대체 페이지): 404는 숨긴 상품 페이지였어요 → 10/27부터 숨긴 상품은 '가격 확인 중' 안내 페이지(noindex). noindex는 /search(의도), 대체 페이지는 utm·www 없는 주소(정상).
 - 확인 순서: `npm test` → `npm run build` → `node scripts/audit.mjs`. "아이허브 링크가 제휴 링크 아님"·"같은 제품 확인 기록 없음"은 알려진 항목.
