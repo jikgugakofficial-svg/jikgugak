@@ -31,13 +31,6 @@
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
     },
-    "ali-xiaomi-smart-band-10-pro:verdict": {
-      "at": "2026-10-27T04:16:45.571Z",
-      "slug": "ali-xiaomi-smart-band-10-pro",
-      "from": "애매",
-      "to": "국내가 나음",
-      "reason": "판정이 바뀌었어요. summary 의 판정 문장을 고쳐야 해요(숫자 토큰은 자동)"
-    },
     "ali-qcy-melobuds-n70:priceKrw": {
       "at": "2026-10-27T04:16:46.030Z",
       "slug": "ali-qcy-melobuds-n70",

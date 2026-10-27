@@ -32,6 +32,8 @@ a:hover { color: var(--brand-dark); }
 img, svg { flex-shrink: 0; }
 button { font: inherit; color: inherit; }
 :focus-visible { outline: 3px solid var(--brand); outline-offset: 2px; }
+/* hidden 속성은 언제나 숨김(.block 같은 display 지정이 덮어쓰지 않게) */
+[hidden] { display: none !important; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip { position: absolute; left: -9999px; top: 8px; background: var(--ink); color: #fff; padding: 8px 12px; border-radius: 8px; z-index: 50; }
 .skip:focus { left: 8px; }

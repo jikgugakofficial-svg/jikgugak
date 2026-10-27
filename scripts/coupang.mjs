@@ -138,7 +138,7 @@ if (mode === 'hourly') { for (let i = 0; i < 5 && searchBudgetLeft() > 2; i++) a
 
 // ---------- 등록 상품 가격 자동 반영 (10/27 운영자 결정: API로 받은 가격은 자동으로 사이트에 반영) ----------
 // 안전장치: ① 같은 상품 번호(쿠팡은 옵션 번호 itemId까지 기록돼 있으면 그것도)일 때만 ② 변화가 너무 크면(옵션이 다른 값일 수 있어서) 반영하지 않고 확인 목록에 남겨요
-//          ③ 판정(직구각·애매·국내가 나음)이 바뀌면 숫자는 반영하고, 요약 문장을 고치도록 data/price-alerts.json 에 남겨요.
+//          ③ 판정(직구각·애매·국내가 나음)이 바뀌는 변화는 반영하지 않고 data/price-alerts.json 에 남겨요(요약 문장과 어긋나지 않게).
 const MAX_CHANGE = { withOption: 0.3, noOption: 0.15 }; // 옵션 번호까지 같으면 ±30%, 상품 번호만 같으면 ±15%까지 자동
 const kstStamp = () => { const d = new Date(Date.now() + 9 * 3600_000); return `${d.getUTCFullYear()}.${String(d.getUTCMonth() + 1).padStart(2, '0')}.${String(d.getUTCDate()).padStart(2, '0')}`; };
 const itemIdOf = (u = '') => (String(u).match(/[?&]itemId=(\d+)/) || [])[1] || '';
@@ -166,6 +166,12 @@ function applyPrice(p, field, newKrw, source, allowPct) {
   const before = verdictOf(p);
   p[field] = newKrw;
   const after = verdictOf(p);
+  // 판정 단어가 바뀌는 변화는 요약 문장과 어긋나니 자동으로 반영하지 않고 사람이 보게 해요(10/27 샤오미 밴드 사례)
+  if (before && after && before !== after) {
+    p[field] = old;
+    alerts.items[`${p.slug}:verdict`] = { at: new Date().toISOString(), slug: p.slug, field, recorded: old, api: newKrw, from: V3[before], to: V3[after], source, reason: '반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)' };
+    return 'held';
+  }
   p.checkedAt = `${kstStamp()} ${source} 자동`;
   (p.priceLog ||= []).push({ at: kstStamp(), field, from: old, to: newKrw, source });
   p.priceLog = p.priceLog.slice(-10);
@@ -174,7 +180,6 @@ function applyPrice(p, field, newKrw, source, allowPct) {
   const fixed = /^(6,000|10,000|40,000)$/;
   const stale = [...(p.summary || []), ...(p.risks || [])].filter((t) => (String(t).match(/\d{1,3}(?:,\d{3})+(?=원)|(?<=₩)\d{1,3}(?:,\d{3})+/g) || []).some((n) => !fixed.test(n)));
   if (stale.length) alerts.items[`${p.slug}:text`] = { at: new Date().toISOString(), slug: p.slug, reason: '가격이 바뀌었는데 요약·주의 문장에 금액을 직접 쓴 곳이 있어요. 토큰({diff} 등)으로 바꾸거나 고쳐 주세요', lines: stale.map((t) => String(t).slice(0, 80)) };
-  if (before && after && before !== after) alerts.items[`${p.slug}:verdict`] = { at: new Date().toISOString(), slug: p.slug, from: V3[before], to: V3[after], reason: '판정이 바뀌었어요. summary 의 판정 문장을 고쳐야 해요(숫자 토큰은 자동)' };
   productsChanged = true;
   return 'applied';
 }
