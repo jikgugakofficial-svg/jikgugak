@@ -251,7 +251,18 @@
       "isRocket": false,
       "diff": 0,
       "result": "same"
+    },
+    "iherb-now-l-arginine-1000-120": {
+      "productId": "7066907732",
+      "keyword": "나우푸드 L-아르기닌 1000mg 120정",
+      "at": "2026-10-27T14:29:37.387Z",
+      "recordedKrw": 16850,
+      "found": true,
+      "apiPrice": 16850,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-10-27T13:32:38.435Z"
+  "updatedAt": "2026-10-27T14:29:37.884Z"
 }
