@@ -98,6 +98,7 @@
 - 10/23 기준 인스타 팔로워 0·도달 거의 0, 스레드 첫 글 조회 30~50. 링크 답글은 거의 안 봐서 링크는 프로필로.
 
 ## 7. 작업 방법 메모
+- 게시가 예약 시각에 안 돌면(GitHub 예약 실행이 늦거나 빠짐) 수동 실행: `gh workflow run publish.yml -R jikgugakofficial-svg/jikgugak --ref main -f mode=publish` (mode를 안 주면 기본값 check라 게시 안 함). 10/27 S2-01은 18:23에 수동 실행으로 게시.
 - 쿠팡 파트너스 링크: partners.coupang.com → 간편 링크(`#affiliate/ws/link-to-any-page`)에 쿠팡 일반 주소 → "링크 생성". 이미지는 상품 검색 결과 `img`(212x212ex → 492x492ex). 쿠팡 로그인은 운영자. "링크 생성이 제한된 상품"은 빼요.
 - 알리 붙여넣기 판정: `/api/item?id=`(알리 제휴 API productdetail.get). 대표 옵션 가격만 와서 판정 칸에서 옵션 가격으로 바꿔 넣게 했어요. s.click·a.aliexpress 단축 주소는 열지 않아요.
 - 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"`(blog.md는 `## 제목 후보`·`추천: N번`·`## 본문`·`## 네이버 태그`, 이미지 `[이미지: img/파일, 설명]` + `naver/map.json`). 아티팩트로 올리고 사진 zip 전달.
