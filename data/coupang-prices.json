@@ -188,7 +188,26 @@
       "recordedKrw": 71400,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "amazon-samsung-t7-shield-1tb": {
+      "productId": "6888265108",
+      "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
+      "at": "2026-10-27T12:16:28.824Z",
+      "recordedKrw": 415000,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "iherb-now-magnesium-glycinate-180": {
+      "productId": "1366689007",
+      "keyword": "나우푸드 마그네슘 글리시네이트 180정",
+      "at": "2026-10-27T12:16:29.224Z",
+      "recordedKrw": 20870,
+      "found": true,
+      "apiPrice": 22150,
+      "isRocket": false,
+      "diff": 1280,
+      "result": "applied"
     }
   },
-  "updatedAt": "2026-10-27T11:17:34.727Z"
+  "updatedAt": "2026-10-27T12:16:29.568Z"
 }
