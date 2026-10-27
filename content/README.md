@@ -11,4 +11,4 @@
 | cards/*.png | card-designer (`node tools/cards/render.mjs content/<폴더>`) |
 | review.md | marketing-lead — 검수 결과, 게시 가능 여부 |
 
-가이드: `docs/marketing/voice.md` · `playbook.md` · `review-checklist.md` · `card-spec.md`
+가이드: `docs/marketing/voice.md` · `hook-rules.md`(훅 규칙 A4 1쪽) · `playbook.md` · `review-checklist.md` · `card-spec.md`

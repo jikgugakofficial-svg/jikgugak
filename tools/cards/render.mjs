@@ -33,6 +33,15 @@ async function dataUrl(rel) {
   return imgCache[rel];
 }
 for (const s of slides) if (s.image) await dataUrl(s.image);
+// profile-cta 장의 프로필 사진 자리: 직구각 로고(brand/profile-1080.png). 다른 그림은 "avatar": "img/…"로 바꿀 수 있어요.
+let profileAvatar = '';
+const pcSlide = slides.find((s) => s.type === 'profile-cta');
+if (pcSlide) {
+  try {
+    if (pcSlide.avatar) profileAvatar = await dataUrl(pcSlide.avatar);
+    else profileAvatar = `data:image/png;base64,${(await readFile(new URL('../../brand/profile-1080.png', import.meta.url))).toString('base64')}`;
+  } catch { console.log('⚠ 프로필 로고(brand/profile-1080.png)를 못 읽어 빈 동그라미로 그려요'); }
+}
 const esc = (s = '') => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const br = (s = '') => esc(s).replace(/\n/g, '<br>');
 
@@ -81,6 +90,20 @@ function slideHtml(s, i) {
     case 'cta':
       inner = `<h2 class="cta-t">${br(s.title)}</h2>${s.body ? `<p class="body">${br(s.body)}</p>` : ''}<div class="cta-btn">${br(s.button || '프로필 링크 → jikgugak.com')}</div>`;
       return `<section class="slide ctaslide">${n}${inner}${foot}</section>`;
+    case 'profile-cta': { // 마지막 장: 직구각 프로필 화면 목업에서 링크 위치를 주황 테두리로 짚어 줌(팔로워 숫자·남의 사진 없음)
+      const link = esc(s.link || 'www.jikgugak.com');
+      const chain = '<svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="#1F2E57" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5"/></svg>';
+      inner = `<h2 class="pc-t">${br(s.title || '상품별 판정은\n프로필 링크에서')}</h2>${s.body ? `<p class="body pc-b">${br(s.body)}</p>` : ''}
+        <div class="pf-card">
+          <div class="pf-top">${esc(handle.replace(/^@/, ''))}</div>
+          <div class="pf-head">${profileAvatar ? `<img class="pf-av" src="${profileAvatar}" alt="">` : '<div class="pf-av"></div>'}<div class="pf-name">${esc(s.name || '직구각')}</div></div>
+          <p class="pf-bio">${br(s.bio || "해외직구, 어렵게 재지 말고\n'직구각'에서 각 잡으세요")}</p>
+          <div class="pf-link">${chain}<span>${link}</span></div>
+          <div class="pf-point">↑ ${br(s.point || '여기를 누르면 상품별 판정')}</div>
+          <div class="pf-btns"><span class="on">팔로우</span><span>메시지</span></div>
+        </div>`;
+      return `<section class="slide pcslide">${n}${inner}${foot}</section>`;
+    }
     case 'shot': // 사이트 화면 캡처를 크게 보여 주는 장
       inner = `${s.label ? `<div class="label">${br(s.label)}</div>` : ''}<h2 class="shot-t">${br(s.title)}</h2><div class="shot${(imgRatio[s.image] || 0) >= 1.25 ? ' wide' : ''}"><img src="${imgCache[s.image] || ''}" alt=""></div>${s.body ? `<p class="body shot-b">${br(s.body)}</p>` : ''}`;
       return `<section class="slide shotslide">${n}<div class="content">${inner}</div>${foot}</section>`;
@@ -157,6 +180,20 @@ h2{font-size:86px;line-height:1.22;font-weight:900;letter-spacing:-2px}
 .ctaslide{background:#EEF2FA;justify-content:center;gap:44px}
 .cta-t{font-size:90px}
 .cta-btn{align-self:flex-start;background:#D23A10;color:#fff;font-size:46px;font-weight:900;padding:26px 44px;border-radius:999px}
+.pcslide{background:#EEF2FA;padding:120px 110px 170px;gap:36px;justify-content:center}
+.pc-t{font-size:80px}
+.pc-b{font-size:42px;margin-top:-12px}
+.pf-card{background:#fff;border-radius:48px;padding:38px 52px 42px;box-shadow:0 20px 50px rgba(31,46,87,.14);display:flex;flex-direction:column;gap:22px}
+.pf-top{font-size:40px;font-weight:800;padding-bottom:20px;border-bottom:3px solid #EEF0F3}
+.pf-head{display:flex;align-items:center;gap:34px}
+.pf-av{width:136px;height:136px;border-radius:50%;background:#D23A10;object-fit:cover;flex:none}
+.pf-name{font-size:52px;font-weight:900}
+.pf-bio{font-size:38px;line-height:1.45;color:#3B414D;font-weight:500}
+.pf-link{align-self:flex-start;display:flex;align-items:center;gap:14px;font-size:42px;font-weight:800;color:#1F2E57;border:7px solid #D23A10;background:#FDEDE7;border-radius:22px;padding:14px 26px 14px 20px;margin-left:-26px}
+.pf-point{font-size:38px;font-weight:900;color:#D23A10;margin-top:-10px}
+.pf-btns{display:flex;gap:18px}
+.pf-btns span{flex:1;text-align:center;font-size:36px;font-weight:800;padding:18px 0;border-radius:18px;background:#F0F1F4;color:#16181D}
+.pf-btns span.on{background:#1F2E57;color:#fff}
 `;
 
 const html = `<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>${css}</style></head><body>${slides.map(slideHtml).join('')}</body></html>`;
@@ -171,7 +208,7 @@ await page.setContent(html, { waitUntil: 'load' });
 const els = await page.$$('section.slide');
 const overflow = [];
 for (let i = 0; i < els.length; i++) {
-  const over = await els[i].evaluate((el) => [...el.querySelectorAll('h1,h2,.body,.rows,.recap,.vbox,.big,.cover-s,.badge,.cta-btn,.cover-img,.pt-img,.shot')].some((c) => c.scrollWidth > c.clientWidth + 2 || c.getBoundingClientRect().bottom > el.getBoundingClientRect().bottom - 140));
+  const over = await els[i].evaluate((el) => [...el.querySelectorAll('h1,h2,.body,.rows,.recap,.vbox,.big,.cover-s,.badge,.cta-btn,.cover-img,.pt-img,.shot,.pf-card')].some((c) => c.scrollWidth > c.clientWidth + 2 || c.getBoundingClientRect().bottom > el.getBoundingClientRect().bottom - 140));
   if (over) overflow.push(i + 1);
   await els[i].screenshot({ path: path.join(outDir, String(i + 1).padStart(2, '0') + '.png') });
 }

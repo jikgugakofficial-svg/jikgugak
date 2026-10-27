@@ -1,0 +1,12 @@
+{
+  "handle": "@jikgugak.official",
+  "ad": false,
+  "alt": "직구각 인스타 프로필 화면 그림. 소개 문구 아래 링크 줄(www.jikgugak.com)에 주황 테두리가 있고, 여기를 누르면 상품별 판정을 볼 수 있다고 알려 줘요.",
+  "slides": [
+    {
+      "type": "profile-cta",
+      "title": "상품별 판정은\n프로필 링크에서",
+      "body": "같은 모델끼리 관세까지 더한 값이에요"
+    }
+  ]
+}

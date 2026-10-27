@@ -3,7 +3,7 @@
 - 크기 1080×1350(4:5) PNG. 글자는 32px 이상(폰에서 1/3 크기로 보임). 바깥 120px 안쪽에만 중요한 글자.
 - 색: 직구각 주황 #D23A10 · 포인트 남색 #1F2E57(밝은 배경 #EEF2FA, 빨강 바탕 위 강조 글자는 살구색 #FFC7A6) · 잉크 #16181D. 노랑은 쓰지 않아요(2026-10-23 운영자 결정: 롯데리아와 겹침) · 판정색(직구각 초록 #0E7C4A, 애매 #8A5A00, 국내가 나음 파랑 #2F5FD0).
 - **표지엔 상품 사진이 기본이에요.** 사진은 제휴 프로그램 이미지(쿠팡 파트너스 썸네일·알리 제휴 API 이미지)만 써요. 매니저가 브라우저로 받아 `content/<폴더>/img/<이름>.jpg`에 넣어 주고(흰 여백은 잘라 둠), 카드에는 `"image": "img/<이름>.jpg"`로 넣어요. 표지(cover)·포인트(point) 장에 쓸 수 있어요. 브랜드 로고 따로 붙이기·남의 사진은 금지.
-- 제작: `content/<폴더>/cards.json` 작성 → `node tools/cards/render.mjs content/<폴더>` → `cards/01.png …`, `cards/deck.html`.
+- 제작: `content/<폴더>/cards.json` 작성 → `node tools/cards/render.mjs content/<폴더>` → `cards/01.png` 등, `cards/deck.html`.
 - 렌더가 "⚠ 글자가 넘칠 수 있는 장"을 알려 주면 문구를 줄이고 다시 렌더. 마지막엔 PNG를 Read로 직접 열어 눈으로 확인.
 
 ## cards.json
@@ -19,7 +19,8 @@
     { "type": "verdict", "verdict": "good|meh|bad|wait", "word": "선택: 판정 단어 바꾸기", "line": "판정 아래 한 줄", "title": "제목", "body": "설명" },
     { "type": "shot", "label": "선택: 노란 라벨", "title": "제목", "image": "img/03-product.png", "body": "선택: 한 줄" },
     { "type": "recap", "title": "정리", "items": ["한 줄", "한 줄", "한 줄"] },
-    { "type": "cta", "title": "저장해 두세요", "body": "한 줄", "button": "프로필 링크 → jikgugak.com" }
+    { "type": "cta", "title": "저장해 두세요", "body": "한 줄", "button": "프로필 링크 → jikgugak.com" },
+    { "type": "profile-cta", "title": "상품별 판정은\n프로필 링크에서", "body": "선택: 한 줄" }
   ]
 }
 ```
@@ -32,6 +33,16 @@
 - 표지 원칙(content/_research/2026-10-22-cardnews-hooks.md): 구체 숫자 하나, 결론은 2장으로 미루기, 통념 반박·vs 대비, 12자 이내 + 한 줄 부제, 2장은 단독으로도 읽히게, 시리즈는 틀·강조색 고정.
 - `shot` 캡처는 칸 너비에 맞춰 위쪽부터 채우고 아래는 잘려요. 중요한 내용이 캡처 위쪽 약 340px(모바일 기준)에 오게 잘라 주세요. 작은 캡처는 좌우에 흰 여백을 붙여 가로세로 비율 1.25 이상으로 만들면 통째로 보여요.
 
+
+## 프로필 링크 장 (`type: "profile-cta"`, 2026-10-27~ 마지막 장 표준)
+- 직구각 인스타 프로필 화면을 우리 디자인으로 그린 그림에, 링크 줄을 주황 #D23A10 테두리로 짚고 "↑ 여기를 누르면 상품별 판정"을 붙여요. 어디를 누르면 되는지 보여 주는 장이에요. 샘플: `content/_samples/profile-cta/cards/01.png`.
+- 필드(모두 선택, 비우면 기본값):
+  - `title` 기본 "상품별 판정은\n프로필 링크에서" · `body` 위 제목 아래 한 줄(30자 이내)
+  - `name` 기본 "직구각" · `bio` 기본 "해외직구, 어렵게 재지 말고\n'직구각'에서 각 잡으세요"(10/26 실제 소개 문구) · `link` 기본 "www.jikgugak.com"
+  - `point` 기본 "여기를 누르면 상품별 판정"(링크 아래 주황 글자) · `avatar` 기본은 직구각 로고(`brand/profile-1080.png`)
+- 그림 속 핸들은 cards.json `handle`에서 @를 뗀 값이에요.
+- **지어내지 않기:** 프로필 사진은 직구각 로고만, 팔로워·게시물·팔로잉 숫자는 그리지 않아요. 소개 문구·링크가 실제 계정과 달라지면(운영자가 프로필 링크를 `/deals/1111`로 바꾸는 등) `bio`·`link`를 실제 화면 표시대로 고쳐요(`content/_insights/latest.json`의 biography·website로 확인).
+- 강조색은 주황 테두리 + 연한 살구 바탕. 노란색은 쓰지 않아요. 팔로우 버튼은 남색.
 
 ## 폰트
 - 카드 문구와 캡처 모두 Pretendard 하나만 써요(굵기로만 강약). 폰트 파일은 `tools/cards/fonts/`에 있고 render.mjs·capture.mjs가 없으면 자동 설치해요.
