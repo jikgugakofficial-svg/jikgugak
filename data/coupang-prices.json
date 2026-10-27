@@ -1,5 +1,5 @@
 {
-  "note": "쿠팡 파트너스 검색 API 대조 결과(보고용). 사이트 가격은 products.json 이 기준이에요.",
+  "note": "쿠팡 파트너스 검색 API로 등록 상품 국내가 확인. 같은 상품 번호면 자동 반영(큰 변화는 data/price-alerts.json).",
   "items": {
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
@@ -104,5 +104,5 @@
       "diff": 11880
     }
   },
-  "updatedAt": "2026-10-27T03:14:46.609Z"
+  "updatedAt": "2026-10-27T03:54:27.681Z"
 }

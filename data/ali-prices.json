@@ -1,4 +1,30 @@
 {
   "note": "알리 제휴 API로 등록 상품 해외가 확인. 같은 상품 번호면 자동 반영(대표 옵션 값이라 ±15% 넘으면 보류).",
-  "items": {}
+  "items": {
+    "ali-ugreen-7in1-usbc-hub": {
+      "itemId": "1005008093143399",
+      "at": "2026-10-27T03:54:27.811Z",
+      "recordedKrw": 29296,
+      "found": true,
+      "apiPrice": 33659,
+      "result": "applied"
+    },
+    "ali-aula-f75-keyboard": {
+      "itemId": "1005007099240050",
+      "at": "2026-10-27T03:54:29.906Z",
+      "recordedKrw": 54100,
+      "found": true,
+      "apiPrice": 91331,
+      "result": "held"
+    },
+    "ali-qcy-t13-earbuds": {
+      "itemId": "1005005042789596",
+      "at": "2026-10-27T03:54:30.474Z",
+      "recordedKrw": 20619,
+      "found": true,
+      "apiPrice": 28503,
+      "result": "held"
+    }
+  },
+  "updatedAt": "2026-10-27T03:54:30.969Z"
 }

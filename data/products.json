@@ -211,10 +211,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DMeNTa7V",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.10.27 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 29296,
+    "priceKrw": 33659,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -237,7 +237,16 @@
       "model": "유그린 7in1 USB-C 허브 CM512 (쿠팡 그레이·알리 7-in-1)",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "priceKrw",
+        "from": 29296,
+        "to": 33659,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
