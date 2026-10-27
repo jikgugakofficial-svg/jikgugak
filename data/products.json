@@ -604,25 +604,25 @@
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
-    "shipNote": "미국→한국 배송 불가(10.26 확인)",
+    "shipNote": "미국→한국 배송 불가(10.27 확인)",
     "domesticKrw": 482700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
     "risks": [
-      "10.26 기준 아마존에서 한국 배송이 안 돼요",
+      "10.27 기준 아마존에서 한국 배송이 안 돼요",
       "$200 넘으면 관세 8% + 부가세 10%",
       "1세대와 헷갈리지 않게 '2nd Gen' 확인",
       "국내 정식 A/S 불가"
     ],
     "summary": [
       "보스 QC 울트라 헤드폰 2세대끼리 비교했어요(1세대 아님).",
-      "10월 26일 확인 기준 아마존에서 한국으로 배송이 안 돼요. 다시 열리면 {be} 이하일 때 관부가세를 내고도 직구각이에요.",
+      "10월 27일 확인 기준 아마존에서 한국으로 배송이 안 돼요. 다시 열리면 {be} 이하일 때 관부가세를 내고도 직구각이에요.",
       "블프 노캔 헤드폰 단골 특가라 세일 때 이 기준만 기억하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
-    "unavailable": "10.26 기준 아마존에서 한국 배송이 안 돼요"
+    "unavailable": "10.27 기준 아마존에서 한국 배송이 안 돼요"
   },
   {
     "store": "amazon",
@@ -993,11 +993,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BoGlkQCW",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-milk-thistle-extract-300-mg-200-veg-capsules/13870",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.10.27 오전",
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33318,
-    "domesticKrw": 24510,
+    "domesticKrw": 24230,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
