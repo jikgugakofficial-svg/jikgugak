@@ -306,7 +306,45 @@
       "isRocket": false,
       "diff": 4140,
       "result": "applied"
+    },
+    "iherb-on-micronized-creatine-caps-100": {
+      "productId": "65105319",
+      "keyword": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
+      "at": "2026-10-27T16:28:02.510Z",
+      "recordedKrw": 26750,
+      "found": true,
+      "apiPrice": 33760,
+      "isRocket": false,
+      "diff": 7010,
+      "result": "applied"
+    },
+    "ali-qcy-melobuds-n70": {
+      "productId": "8974456611",
+      "keyword": "QCY 멜로버즈 N70 노이즈캔슬링 이어폰",
+      "at": "2026-10-27T16:28:02.933Z",
+      "recordedKrw": 61880,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-edifier-m90-speaker": {
+      "productId": "9481089707",
+      "keyword": "에디파이어 M90 블루투스 스피커",
+      "at": "2026-10-27T16:28:03.306Z",
+      "recordedKrw": 208000,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-soundcore-liberty-4-pro": {
+      "productId": "8502414141",
+      "keyword": "앤커 사운드코어 리버티 4 프로",
+      "at": "2026-10-27T16:28:03.702Z",
+      "recordedKrw": 125900,
+      "found": true,
+      "apiPrice": 125900,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-10-27T15:27:29.459Z"
+  "updatedAt": "2026-10-27T16:28:04.077Z"
 }
