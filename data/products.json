@@ -1404,10 +1404,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.10.27 새벽",
+    "checkedAt": "2026.10.27 알리 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 129600,
+    "priceKrw": 127045,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -1431,6 +1431,15 @@
       "model": "Soundcore Liberty 4 Pro A3954 화이트",
       "note": "쿠팡은 앤커이노베이션코리아 정식 판매, 알리는 글로벌 판매분(비공식 스토어)",
       "checkedAt": "2026.10.27"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "priceKrw",
+        "from": 129600,
+        "to": 127045,
+        "source": "알리"
+      }
+    ]
   }
 ]
