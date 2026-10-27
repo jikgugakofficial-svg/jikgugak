@@ -153,7 +153,23 @@
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "amazon-aeropress-original": {
+      "productId": "8123350236",
+      "keyword": "에어로프레스 오리지널 커피메이커",
+      "at": "2026-10-27T09:19:41.246Z",
+      "recordedKrw": 41230,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-qcy-h3-anc-headphones": {
+      "productId": "7876965230",
+      "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
+      "at": "2026-10-27T09:19:41.589Z",
+      "recordedKrw": 38610,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-27T08:22:28.406Z"
+  "updatedAt": "2026-10-27T09:19:42.018Z"
 }
