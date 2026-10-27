@@ -128,6 +128,10 @@ if (root) {
     if (!q) return;
     const link = parseShopLink(q);
     say('');
+    // 장바구니가 비어 있으면 쇼핑몰에 맞게 보내는 곳·결제 통화를 맞춰 줘요(알리 → 그 외·원화, 아마존 → 미국·달러, 아이허브 한국 → 미국·원화)
+    const fresh = !state.items.some((x) => Number(x.price) > 0);
+    const preset = link && { aliexpress: { origin: 'other', currency: 'krw' }, amazon: { origin: 'us', currency: 'usd' }, iherb: { origin: 'us', currency: 'krw' } }[link.store];
+    if (preset && fresh) { Object.assign(state, preset, { method: 'express' }); renderList(); calc(); }
     if (link && link.store === 'aliexpress' && link.id) {
       say('알리에서 가격을 가져오는 중이에요…');
       try {
@@ -137,7 +141,7 @@ if (root) {
         if (state.currency === 'usd') price = Math.round((price / PAYFX) * 100) / 100;
         const name = String(d.item.title || '').slice(0, 60);
         addItem(blankItem({ name, price, category: guessCat(d.item.title) }));
-        say(state.currency === 'usd' ? '담았어요. 알리는 원화 결제라 위에서 "원화"를 고르면 더 정확해요.' : '담았어요. 가격은 대표 옵션 값이라, 고른 색·옵션 가격과 다르면 고쳐 주세요.');
+        say(state.origin === 'us' ? '담았어요. 알리는 보통 중국에서 보내요. 위에서 "그 외"를 고르면 면세 한도($150)가 맞게 계산돼요.' : state.currency === 'usd' ? '담았어요. 알리는 원화 결제라 위에서 "원화"를 고르면 더 정확해요.' : '담았어요. 가격은 대표 옵션 값이라, 고른 색·옵션 가격과 다르면 고쳐 주세요.');
       } catch { addItem(blankItem({ name: '알리 상품' })); say('가격을 못 가져왔어요. 가격을 직접 넣어 주세요.'); }
     } else if (link && link.store === 'aliexpress') {
       say('앱 공유용 짧은 주소는 열지 않아요. 상품 페이지 주소(…/item/숫자.html)를 넣어 주세요.'); return;
