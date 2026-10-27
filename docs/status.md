@@ -87,6 +87,7 @@
 - [ ] 카카오 공유 디버거(https://developers.kakao.com/tool/debugger/sharing)에서 `https://www.jikgugak.com`·`https://jikgugak.com` 캐시 초기화(10/26 공유 이미지를 주황 시안 B로 새로 만들고 주소에 `?v=20261026b` 붙임. 원본 `tools/og/og.html`, 시안 a·b·c는 body data-v로 바꿔요).
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.
+- [ ] 10/28 12:25쯤 15초 릴스 A안을 운영자가 폰 앱에서 인기 음원 붙여 직접 올리기(자동 게시 껐음, 영상·캡션 전달함) → 10/29 C안(자동)과 조회수 비교.
 - [ ] 10/29~10/31 네이버 N1 글 올리기(키트).
 - [ ] 넾다세일 네이버 글(10/27 운영자 게시함): 숫자가 바뀌어 '10/27 오후 업데이트' 상자(`content/2026-10-26-nupda-naver/blog.md` 맨 아래)를 첫 문단 아래에 넣기(운영자 수정).
 - [ ] `/admin` 의견함의 "[연결 테스트]" 의견 삭제.
