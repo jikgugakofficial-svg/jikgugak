@@ -1,11 +1,11 @@
 # 쿠팡 파트너스 공식 API 작업. 키는 저장소 Settings → Secrets and variables → Actions 의
 # COUPANG_ACCESS_KEY · COUPANG_SECRET_KEY 에만 넣어요.
-# 자동 실행(매시간 hourly): 인기 직구 후보 6개 자동 발굴(data/candidates.json) + 가격 대조 1개(보고만) + 인기 검색어 미리 찾기, 실적 매일. 끄려면 아래 schedule 두 줄을 지워요.
+# 자동 실행(매시간 hourly): 인기 직구 후보 5개 자동 발굴(data/candidates.json) + 등록 상품 가격 자동 반영(쿠팡 2개·알리 3개, 10/27~) + 인기 검색어 미리 찾기, 실적 매일. 끄려면 아래 schedule 두 줄을 지워요.
 # 손으로 돌릴 땐 Actions → coupang → Run workflow 에서 mode 를 골라요.
 name: coupang
 on:
   schedule:
-    - cron: '41 * * * *'   # 이 작업 1시간 7회(후보 6 + 대조 1) + 사이트 실시간 검색 1회(쿠팡 제한 10회보다 적게)
+    - cron: '41 * * * *'   # 이 작업 1시간 7회(후보 5 + 가격 2) + 사이트 실시간 검색 1회(쿠팡 제한 10회보다 적게)
     - cron: '20 0 * * *'   # 매일 09:20 KST 실적 리포트(어제까지 7일)
   workflow_dispatch:
     inputs:
@@ -27,6 +27,7 @@ jobs:
         with:
           node-version: 22
       - name: Run
+        id: run
         env:
           COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
           COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
@@ -38,5 +39,7 @@ jobs:
         run: |
           git config user.name "jikgugak-bot"
           git config user.email "jikgugak.official@gmail.com"
-          git add data/coupang-*.json data/candidates.json data/new-links.json 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "쿠팡 API 결과 기록 [skip ci]" && git pull --rebase && git push)
+          git add data/coupang-*.json data/candidates.json data/new-links.json data/ali-prices.json data/price-alerts.json data/products.json 2>/dev/null || true
+          # 사이트 가격이 바뀌었으면 [skip ci] 없이 올려서 Vercel이 바로 다시 배포해요
+          if git diff --cached --quiet -- data/products.json; then MSG="쿠팡 API 결과 기록 [skip ci]"; else MSG="가격 자동 반영(쿠팡·알리 API)"; fi
+          git diff --cached --quiet || (git commit -m "$MSG" && git pull --rebase && git push)

@@ -1,16 +1,16 @@
 // 쿠팡 파트너스 API 작업 (GitHub Actions 'coupang' 워크플로가 돌려요. 키는 GitHub Secrets에만)
 //   node scripts/coupang.mjs check                 → 연결 확인(딥링크 1번 호출, 검색 횟수 안 씀)
 //   node scripts/coupang.mjs deeplink <쿠팡 일반 주소…> → 파트너스 링크 만들기(결과는 data/coupang-deeplinks.json)
-//   node scripts/coupang.mjs prices [개수]          → 가격 대조(보고만). 오래 확인 안 한 상품부터 몇 개씩 검색해서
-//                                                     data/coupang-prices.json 에 API 가격과 사이트 기록값 차이를 남겨요.
-//                                                     products.json 은 고치지 않아요(사람이 보고 반영).
+//   node scripts/coupang.mjs prices [개수]          → 등록 상품 가격 자동 반영(10/27~). 쿠팡은 오래 확인 안 한 상품부터 검색해서
+//                                                     같은 상품 번호(옵션 번호)면 products.json 국내가를 고치고, 알리는 상품 번호로 3개씩 해외가를 고쳐요.
+//                                                     변화가 너무 크거나 판정이 바뀌면 data/price-alerts.json 에 남겨요(사람 확인).
 //   node scripts/coupang.mjs report [일수]          → 클릭·주문·수익 리포트 → data/coupang-report.json
 //   node scripts/coupang.mjs discover               → 자동 후보 발굴 1개: data/candidate-seeds.json 에서 검색어를 하나 꺼내
 //                                                     알리(사이트 /api/search)·쿠팡(검색 1회) 가격을 받아 같은 모델끼리 짝지어
 //                                                     data/candidates.json 에 남겨요. 사이트에 바로 올리지 않아요(확인 뒤 등록).
 //   node scripts/coupang.mjs links <알리 상품번호·쿠팡 일반 주소…> → 새 상품 등록용 링크: 알리는 사이트 /api/item(제휴 링크·사진),
 //                                                     쿠팡은 딥링크 → data/new-links.json (링크는 열지 않아요)
-//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 6개 + prices 남은 횟수(1시간 7회)
+//   node scripts/coupang.mjs hourly                 → 예약 실행: discover 5개 + prices 2개(1시간 7회)
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { hasKeys, search, deeplink, report, productIdOf, searchBudgetLeft, readGuard } from './lib/coupang.mjs';
 import { landedCost, judge } from '../src/calc.js';
@@ -134,37 +134,117 @@ async function discover() {
 }
 
 if (mode === 'discover') { await discover(); summary(out.join('\n')); }
-if (mode === 'hourly') { for (let i = 0; i < 6 && searchBudgetLeft() > 1; i++) await discover(); } // 후보 6개 + 남은 1회로 가격 대조
+if (mode === 'hourly') { for (let i = 0; i < 5 && searchBudgetLeft() > 2; i++) await discover(); } // 후보 5개 + 남은 2회로 등록 상품 가격 확인(10/27~)
+
+// ---------- 등록 상품 가격 자동 반영 (10/27 운영자 결정: API로 받은 가격은 자동으로 사이트에 반영) ----------
+// 안전장치: ① 같은 상품 번호(쿠팡은 옵션 번호 itemId까지 기록돼 있으면 그것도)일 때만 ② 변화가 너무 크면(옵션이 다른 값일 수 있어서) 반영하지 않고 확인 목록에 남겨요
+//          ③ 판정(직구각·애매·국내가 나음)이 바뀌면 숫자는 반영하고, 요약 문장을 고치도록 data/price-alerts.json 에 남겨요.
+const MAX_CHANGE = { withOption: 0.3, noOption: 0.15 }; // 옵션 번호까지 같으면 ±30%, 상품 번호만 같으면 ±15%까지 자동
+const kstStamp = () => { const d = new Date(Date.now() + 9 * 3600_000); return `${d.getUTCFullYear()}.${String(d.getUTCMonth() + 1).padStart(2, '0')}.${String(d.getUTCDate()).padStart(2, '0')}`; };
+const itemIdOf = (u = '') => (String(u).match(/[?&]itemId=(\d+)/) || [])[1] || '';
+function verdictOf(p) {
+  if (p.priceKrw == null || !p.domesticKrw) return null; // 아마존(손익분기만)은 판정 단어가 없어요
+  const ship = p.shipKrw || 0;
+  const cost = landedCost({ priceUsd: p.priceKrw / FX, shipUsd: ship / FX, origin: p.origin, method: p.method, category: p.category, fx: FX });
+  const cif = p.priceKrw + ship;
+  const duty = cost.dutyFree ? 0 : Math.floor(cif * cost.rate);
+  const total = cost.dutyFree ? cif : cif + duty + Math.floor((cif + duty) * 0.1);
+  return judge(p.domesticKrw, total, RULE).verdict;
+}
+const V3 = { good: '직구각', meh: '애매', bad: '국내가 나음' };
+let productsChanged = false;
+const alertsFile = 'data/price-alerts.json';
+const alerts = readJson(alertsFile, { note: '자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인). 처리하면 지워요.', items: {} });
+function applyPrice(p, field, newKrw, source, allowPct) {
+  const old = p[field];
+  if (!newKrw || newKrw === old) return 'same';
+  const change = Math.abs(newKrw - old) / old;
+  if (change > allowPct) {
+    alerts.items[`${p.slug}:${field}`] = { at: new Date().toISOString(), slug: p.slug, field, recorded: old, api: newKrw, change: Math.round(change * 100) + '%', reason: `변화가 커서(${Math.round(allowPct * 100)}% 넘음) 반영 안 함. 옵션·판매자 확인 필요`, source };
+    return 'held';
+  }
+  const before = verdictOf(p);
+  p[field] = newKrw;
+  const after = verdictOf(p);
+  p.checkedAt = `${kstStamp()} ${source} 자동`;
+  (p.priceLog ||= []).push({ at: kstStamp(), field, from: old, to: newKrw, source });
+  p.priceLog = p.priceLog.slice(-10);
+  delete alerts.items[`${p.slug}:${field}`];
+  // 요약·주의에 금액을 직접 쓴 문장이 있으면(배송비 6,000·기준 10,000·무료배송 40,000 같은 고정값 빼고) 고치라고 남겨요
+  const fixed = /^(6,000|10,000|40,000)$/;
+  const stale = [...(p.summary || []), ...(p.risks || [])].filter((t) => (String(t).match(/\d{1,3}(?:,\d{3})+(?=원)|(?<=₩)\d{1,3}(?:,\d{3})+/g) || []).some((n) => !fixed.test(n)));
+  if (stale.length) alerts.items[`${p.slug}:text`] = { at: new Date().toISOString(), slug: p.slug, reason: '가격이 바뀌었는데 요약·주의 문장에 금액을 직접 쓴 곳이 있어요. 토큰({diff} 등)으로 바꾸거나 고쳐 주세요', lines: stale.map((t) => String(t).slice(0, 80)) };
+  if (before && after && before !== after) alerts.items[`${p.slug}:verdict`] = { at: new Date().toISOString(), slug: p.slug, from: V3[before], to: V3[after], reason: '판정이 바뀌었어요. summary 의 판정 문장을 고쳐야 해요(숫자 토큰은 자동)' };
+  productsChanged = true;
+  return 'applied';
+}
 
 if (mode === 'prices' || mode === 'hourly') {
   const want = Math.min(Number(args[0]) || 4, searchBudgetLeft());
-  if (want <= 0) { out.push('가격 대조: ' + budgetMsg()); summary(out.join('\n')); process.exit(0); }
   const file = 'data/coupang-prices.json';
-  const state = readJson(file, { note: '쿠팡 파트너스 검색 API 대조 결과(보고용). 사이트 가격은 products.json 이 기준이에요.', items: {} });
-  const queue = products
+  const state = readJson(file, { items: {} });
+  state.note = '쿠팡 파트너스 검색 API로 등록 상품 국내가 확인. 같은 상품 번호면 자동 반영(큰 변화는 data/price-alerts.json).';
+  const lines = [];
+  const queue = want <= 0 ? [] : products
     .filter((p) => !p.hidden && productIdOf(p.domesticCheckUrl))
     .sort((a, b) => String(state.items[a.slug]?.at || '').localeCompare(String(state.items[b.slug]?.at || '')))
     .slice(0, want);
-  const lines = [];
+  if (want <= 0) lines.push('- 쿠팡: ' + budgetMsg());
   for (const p of queue) {
     const id = productIdOf(p.domesticCheckUrl);
+    const wantItem = itemIdOf(p.domesticCheckUrl);
     const keyword = (p.coupangKeyword || p.name).replace(/\(.*?\)/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 50);
-    let item = { productId: id, keyword, at: new Date().toISOString(), recordedKrw: p.domesticKrw };
+    const item = { productId: id, keyword, at: new Date().toISOString(), recordedKrw: p.domesticKrw };
     try {
       const hits = await search(keyword, 10);
-      const hit = hits.find((h) => String(h.productId) === id);
-      if (hit) Object.assign(item, { found: true, apiPrice: hit.productPrice, isRocket: hit.isRocket, diff: hit.productPrice - p.domesticKrw });
-      else Object.assign(item, { found: false, note: `검색 상위 ${hits.length}개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게` });
+      // productUrl 은 제휴 링크라 열지 않고, 주소 글자에서 옵션 번호(itemId)만 읽어요
+      const same = hits.filter((h) => String(h.productId) === id);
+      const hit = (wantItem && same.find((h) => itemIdOf(h.productUrl) === wantItem)) || (!wantItem && same[0]) || null;
+      if (hit) {
+        Object.assign(item, { found: true, apiPrice: hit.productPrice, isRocket: hit.isRocket, diff: hit.productPrice - p.domesticKrw });
+        item.result = applyPrice(p, 'domesticKrw', hit.productPrice, '쿠팡', wantItem ? MAX_CHANGE.withOption : MAX_CHANGE.noOption);
+      } else Object.assign(item, { found: false, note: same.length ? '같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)' : `검색 상위 ${hits.length}개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게` });
     } catch (e) {
       item.error = String(e.message).slice(0, 200);
       state.items[p.slug] = item; lines.push(`- ${p.slug}: ${item.error}`);
       break;
     }
     state.items[p.slug] = item;
-    lines.push(`- ${p.slug}: ${item.found ? `API ${item.apiPrice.toLocaleString('ko-KR')}원 / 기록 ${p.domesticKrw.toLocaleString('ko-KR')}원 (${item.diff >= 0 ? '+' : ''}${item.diff.toLocaleString('ko-KR')})` : item.note}`);
+    const R = { applied: '사이트 반영', same: '변동 없음', held: '변화 커서 보류' };
+    lines.push(`- 쿠팡 ${p.slug}: ${item.found ? `${item.apiPrice.toLocaleString('ko-KR')}원 (기록 ${item.recordedKrw.toLocaleString('ko-KR')}원) ${R[item.result]}` : item.note}`);
   }
   state.updatedAt = new Date().toISOString();
   writeJson(file, state);
+
+  // 알리: 등록 상품 번호로 제휴 API 가격 확인(사이트 /api/item, 쿠팡 검색 횟수와 무관). 오래 확인 안 한 것부터 3개씩
+  const aliFile = 'data/ali-prices.json';
+  const aliState = readJson(aliFile, { note: '알리 제휴 API로 등록 상품 해외가 확인. 같은 상품 번호면 자동 반영(대표 옵션 값이라 ±15% 넘으면 보류).', items: {} });
+  const aliQueue = products
+    .filter((p) => !p.hidden && p.store === 'aliexpress' && p.priceKrw != null && /item\/(\d+)\.html/.test(p.overseasCheckUrl || ''))
+    .sort((a, b) => String(aliState.items[a.slug]?.at || '').localeCompare(String(aliState.items[b.slug]?.at || '')))
+    .slice(0, 3);
+  for (const p of aliQueue) {
+    const id = p.overseasCheckUrl.match(/item\/(\d+)\.html/)[1];
+    const item = { itemId: id, at: new Date().toISOString(), recordedKrw: p.priceKrw };
+    try {
+      const d = await (await fetch('https://www.jikgugak.com/api/item?id=' + id)).json();
+      if (d.ok && d.item.price) {
+        Object.assign(item, { found: true, apiPrice: Math.round(d.item.price) });
+        // 알리 API 가격은 대표(가장 싼) 옵션 값이라 ±15% 안에서만 자동
+        item.result = applyPrice(p, 'priceKrw', item.apiPrice, '알리', MAX_CHANGE.noOption);
+      } else Object.assign(item, { found: false, note: d.reason || '응답 없음' });
+    } catch (e) { item.error = String(e.message).slice(0, 160); }
+    aliState.items[p.slug] = item;
+    lines.push(`- 알리 ${p.slug}: ${item.found ? `${item.apiPrice.toLocaleString('ko-KR')}원 (기록 ${item.recordedKrw.toLocaleString('ko-KR')}원) ${{ applied: '사이트 반영', same: '변동 없음', held: '변화 커서 보류' }[item.result]}` : item.note || item.error}`);
+  }
+  aliState.updatedAt = new Date().toISOString();
+  writeJson(aliFile, aliState);
+
+  alerts.updatedAt = new Date().toISOString();
+  writeJson(alertsFile, alerts);
+  if (productsChanged) writeFileSync(productsFile, JSON.stringify(raw, null, 2) + '\n');
+  if (process.env.GITHUB_OUTPUT) writeFileSync(process.env.GITHUB_OUTPUT, `products_changed=${productsChanged}\n`, { flag: 'a' });
+
   // 인기 검색어 미리 찾아 두기: 사이트 /api/coupang 을 불러요(사이트가 하루 저장·1시간 횟수를 관리해서 쿠팡을 더 부르지 않아요)
   try {
     const t = await (await fetch('https://www.jikgugak.com/api/trending')).json();
@@ -173,7 +253,8 @@ if (mode === 'prices' || mode === 'hourly') {
       lines.push(`- 인기 검색어 '${x.q}': ${w.ok ? `쿠팡 ${w.items.length}개${w.stale ? '(지난 결과)' : ''}` : w.reason || '실패'}`);
     }
   } catch { lines.push('- 인기 검색어 미리 찾기 실패'); }
-  out.push(`가격 대조 ${queue.length}개 (보고만, 사이트 반영 안 함)`, ...lines);
+  const n = Object.keys(alerts.items).length;
+  out.push(`가격 확인 쿠팡 ${queue.length}개·알리 ${aliQueue.length}개${productsChanged ? ' (사이트 가격 바뀜)' : ''}${n ? ` · 확인할 것 ${n}개(price-alerts)` : ''}`, ...lines);
   summary(out.join('\n'));
 }
 
