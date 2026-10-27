@@ -87,6 +87,7 @@
 - [ ] 네이버 서치어드바이저에서 `https://www.jikgugak.com/deals/1111` 웹 페이지 수집 요청(구글은 10/26 완료).
 - [ ] 인스타·스레드 프로필 링크: `https://www.jikgugak.com/deals/1111?utm_source=instagram` / `?utm_source=threads`. 프로필 사진: `brand/profile-1080.png`.
 - [ ] 10/29~10/31 네이버 N1 글 올리기(키트).
+- [ ] 넾다세일 네이버 글(10/27 운영자 게시함): 숫자가 바뀌어 '10/27 오후 업데이트' 상자(`content/2026-10-26-nupda-naver/blog.md` 맨 아래)를 첫 문단 아래에 넣기(운영자 수정).
 - [ ] `/admin` 의견함의 "[연결 테스트]" 의견 삭제.
 - [ ] 커뮤니티 답변(지식iN·카페) 직접, 링크 없이: `content/_plans/2026-10-26-community-answers.md`.
 - (선택) 브랜드 커넥트에서 네이버 쇼핑 커넥트 가입·약관에서 외부 사이트 허용 여부 확인.
