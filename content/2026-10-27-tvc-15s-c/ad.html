@@ -115,6 +115,12 @@ function layout() { // 같은 줄(같은 y·같은 나가는 박) 단어를 가�
   laid = true;
 }
 function word(w, t) {
+  if (w.b >= T.end) { // 엔드 카드: 움직임 없이 26박에 한 번에(10/27 운영자: 읽히게)
+    const on = t >= bt(T.end);
+    w.d.style.transform = `translate(${w.cx - w.wd / 2}px,${w.y - w.hh / 2}px)`; w.d.style.opacity = on ? 1 : 0; w.d.style.filter = 'none';
+    if (w.m1) w.m1.style.opacity = w.m2.style.opacity = 0;
+    return;
+  }
   const t0 = bt(w.b);
   const hide = () => { w.d.style.opacity = 0; if (w.m1) w.m1.style.opacity = w.m2.style.opacity = 0; };
   if (t < t0 - 0.001) return hide();
@@ -230,12 +236,12 @@ const url = el('g', {}, lgG); const urlR = el('rect', { fill: C.navy }, url);
 const urlT = el('text', { x: 540, y: 1262, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: '#fff', class: 'lbl', 'font-size': 42 }, url); urlT.textContent = 'www.jikgugak.com';
 function drawLogo(t) {
   const cx = 540, cy = 690, k = 300 / 522, X = (u) => cx - 150 + u * k, Y = (v) => cy - 150 + v * k;
-  const hp = oc(pg(t, bt(T.end), bt(T.end) + 0.22)), vp = oc(pg(t, bt(T.end + 0.25), bt(T.end + 0.25) + 0.2)), sp = oe(pg(t, bt(T.end + 0.5), bt(T.end + 0.5) + 0.55));
+  const on0 = t >= bt(T.end) ? 1 : 0, hp = on0, vp = on0, sp = on0; // 움직임 없이 한 번에
   const on = t >= bt(T.end);
   lgH.setAttribute('x', X(20)); lgH.setAttribute('y', Y(20)); lgH.setAttribute('height', 77 * k); lgH.setAttribute('rx', 38 * k); lgH.setAttribute('width', on && hp > 0 ? Math.max(77, 482 * hp) * k : 0);
   lgV.setAttribute('x', X(425)); lgV.setAttribute('y', Y(20)); lgV.setAttribute('width', 77 * k); lgV.setAttribute('rx', 38 * k); lgV.setAttribute('height', vp > 0 ? Math.max(77, 482 * vp) * k : 0);
   const hs = 96 * k * sp; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', Math.max(0, 2 * hs)); lgS.setAttribute('height', Math.max(0, 2 * hs)); lgS.setAttribute('rx', 40 * k * sp);
-  const up = ob(pg(t, bt(T.url), bt(T.url) + 0.3)); url.setAttribute('opacity', up > 0 ? 1 : 0);
+  const up = on0; url.setAttribute('opacity', up > 0 ? 1 : 0);
   urlR.setAttribute('x', 540 - 260 * up); urlR.setAttribute('y', 1262 - 47 * up); urlR.setAttribute('width', Math.max(0, 520 * up)); urlR.setAttribute('height', Math.max(0, 94 * up)); urlR.setAttribute('rx', 47 * up);
   urlT.setAttribute('opacity', cl(up * 2 - 0.6));
 }
@@ -290,15 +296,14 @@ window.seek = (t0) => {
     [[170, 600, 66], [930, 700, 44], [200, 1330, 46], [890, 1380, 80]].forEach(([x, y, r], i) => { const e = oe(pg(t, bt(22.25) + i * 0.08, bt(22.25) + i * 0.08 + 0.6)); if (e > 0.02 && t < bt(T.end)) el('circle', { cx: x, cy: y + 16 * Math.sin(t * 3 + i), r: r * e, fill: 'none', stroke: i % 2 ? C.salmon : C.orange, 'stroke-width': 10 }, fx2); });
   }
   // 26박 주황 번짐 → 로고
-  circleClip($('endbg'), 540, 690, t >= bt(T.end) ? RMAX(540, 690) * Math.sqrt(oc(pg(t, bt(T.end), bt(T.end) + 0.3))) : 0, C.orange);
-  ring(fx2, 540, 690, t, bt(T.end), '#fff', 120, 460, 0.5, 14);
-  burst(fx2, 540, 1000, t, bt(27), '#fff', 14, 250, 360, 0.35, 10);
-  confetti(fx2, 540, 1000, t, bt(27), 11, ['#fff', C.navy, C.salmon]);
+  circleClip($('endbg'), 540, 690, t >= bt(T.end) ? 3000 : 0, C.orange); // 26박 강타에 바로 끊어 엔드 카드
   drawLogo(t);
   for (const w of WD) word(w, t);
   const c = cam(t);
   $('cam').style.transform = `translate(${c.sx}px,${c.sy}px) scale(${c.z})`;
-  $('words2').style.transform = $('s2').style.transform = `translate(${c.sx}px,${c.sy}px) scale(${1 + (c.z - 1) * 0.6})`;
+  const endc = t >= bt(T.end);
+  $('words2').style.transform = $('s2').style.transform = endc ? 'none' : `translate(${c.sx}px,${c.sy}px) scale(${1 + (c.z - 1) * 0.6})`;
+  $('marks').style.opacity = endc ? 0 : 1;
   marks(t);
 };
 </script>

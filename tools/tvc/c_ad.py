@@ -28,7 +28,7 @@ TL = {
     'flood1': [14, 14.7], 'contract1': [16, 16.8], 'swap': 15.2,
     'round2': [['dom2', 17, 10, 'L'], ['prod2', 18, 3, 'R'], ['tax2', 19, 1, 'R']],
     'cycle2': [19.25, 20], 'hit2': 20,
-    'gap2': 21.7, 'slant': 22, 'gap3': 25.72, 'end': 26, 'url': 28, 'hold': 28.6,
+    'gap2': 21.7, 'slant': 22, 'gap3': 25.72, 'end': 26, 'url': 26, 'hold': 26,
 }
 # 자막: [글자, 박, 나가는 박, x, y, 크기, 색, 글꼴, 기울기, 어긋남]
 WORDS = [
@@ -154,14 +154,10 @@ def music(path):
     for n in (26, 27, 28):
         add(dr, bt(n), R.kick(n in (26, 28)), 1.0)
     add(dr, bt(27), R.clap(), 0.7)
-    add(fx, bt(26.25), R.tick(), 0.8)
-    add(mel, bt(26.5), R.pluck(880.0, 0.4), 1.2)
-    add(fx, bt(27), R.thud(), 0.7)
-    add(mel, bt(27), R.stab(ch[2], 0.5), 0.9)
-    add(fx, bt(27.5), R.tick(), 0.6)
+    # 엔드 카드는 움직임 없이 정지(10/27 운영자) → 로고 그리기 효과음은 빼고 음악만
+    add(mel, bt(27), R.stab(ch[2], 0.5), 0.8)
     add(mel, bt(28), R.stab((440.0, 523.25, 659.25, 880.0), 2.0), 1.2)
     add(mel, bt(28), R.bass(110.0, 1.6), 1.0)
-    add(fx, bt(28), R.bell(1760.0), 0.5)
     # 강타 직전 비우기(gap): 모든 소리를 0.14초 끔
     def silence(b0, b1):
         i, j = int(bt(b0) * SR), int(bt(b1) * SR)
