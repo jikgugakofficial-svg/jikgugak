@@ -48,6 +48,7 @@
 | 10/27 12:22 | 넾다세일 스레드(`content/2026-10-26-nupda-threads`) | 10/26 17:27 재승인, 10/27 12:22로 옮김(publish.yml에 12:23 실행 추가). 게시 전 밴드·H3·T13 실물 확인 |
 | 운영자 선택 | 넾다세일 네이버(`content/2026-10-26-nupda-naver`) | 10/26 17:27 재승인, 키트 전달(https://claude.ai/artifact/28ccYioA9nGPZhptK9kgvS) |
 | 건너뜀 | 소개 v5(`content/2026-10-23-intro-v5`) | 10/26 운영자 결정으로 건너뜀. 쓰려면 캡처 새로 찍고 새 날짜 재승인 |
+| 10/27~10/28 | 네이버 N0 아이허브 vs 쿠팡(`content/2026-10-27-s2-naver-iherb-coupang`) | 10/27 숫자로 고침(마그네슘 쿠팡 20,870원), 키트 전달(https://claude.ai/artifact/CzR5TBFd8ZsrK2xQ9T7uYx)·사진 zip. 10/28 넘기면 숫자 다시 |
 | 10/29~10/31 | 네이버 N1 알리 관세(`content/2026-10-29-naver-ali-tax`) | 키트 전달 완료(https://claude.ai/artifact/SYk4xRKLufVMzePPt7fek5). 11/1 이후면 숫자 다시 |
 | 10/31 | 네이버 N2 알리 vs 쿠팡(`content/2026-10-31-naver-ali-coupang-compare`) | 검수 통과. 10/30 매니저 실물 확인(유그린 허브·QCY T13 알리 일반가) 뒤 키트 |
 | 11/12 | 블프 시즌 페이지 `/deals/blackfriday` | 계획서 4장. 아마존 match 먼저 |
