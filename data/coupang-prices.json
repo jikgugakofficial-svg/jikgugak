@@ -137,26 +137,29 @@
     "amazon-sennheiser-hd600": {
       "productId": "8542629824",
       "keyword": "젠하이저 HD 600 오픈형 헤드폰",
-      "at": "2026-10-27T06:15:07.510Z",
+      "at": "2026-10-27T23:12:22.801Z",
       "recordedKrw": 271640,
-      "found": false,
-      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 352000,
+      "isRocket": true,
+      "diff": 80360,
+      "result": "held"
     },
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-10-27T07:29:56.060Z",
-      "recordedKrw": 482700,
+      "at": "2026-10-27T23:12:23.665Z",
+      "recordedKrw": 519000,
       "found": true,
       "apiPrice": 519000,
       "isRocket": true,
-      "diff": 36300,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-10-27T07:29:56.382Z",
+      "at": "2026-10-27T23:12:24.034Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -164,7 +167,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-10-27T09:19:41.246Z",
+      "at": "2026-10-27T23:12:24.359Z",
       "recordedKrw": 41230,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -375,5 +378,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-27T22:14:54.132Z"
+  "updatedAt": "2026-10-27T23:12:24.730Z"
 }
