@@ -169,7 +169,26 @@
       "recordedKrw": 38610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-xiaomi-smart-band-10-pro": {
+      "productId": "9644182900",
+      "keyword": "샤오미 스마트 밴드 10 프로",
+      "at": "2026-10-27T10:20:13.951Z",
+      "recordedKrw": 89620,
+      "found": true,
+      "apiPrice": 89620,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
+    },
+    "amazon-lego-10313-wildflower-bouquet": {
+      "productId": "7063125250",
+      "keyword": "레고 보태니컬 들꽃 부케 10313",
+      "at": "2026-10-27T10:20:14.326Z",
+      "recordedKrw": 71400,
+      "found": false,
+      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-27T09:19:42.018Z"
+  "updatedAt": "2026-10-27T10:20:14.618Z"
 }

@@ -1700,7 +1700,84 @@
       "coupangTop": 10,
       "ali": [],
       "coupang": []
+    },
+    "Xiaomi Smart Band 10": {
+      "q": "Xiaomi Smart Band 10",
+      "brand": "Xiaomi",
+      "model": "Smart Band 10",
+      "cat": "it",
+      "why": "이미 등록한 밴드 10 프로의 일반형(프로 아님). 샤오미 코리아 정발·알리 글로벌 모두 판매. 가격대가 낮아 1만 원 조건이 걸림",
+      "at": "2026-10-27T10:20:03.219Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "Redmi Watch 5": {
+      "q": "Redmi Watch 5",
+      "brand": "Redmi",
+      "model": "Watch 5",
+      "cat": "it",
+      "why": "레드미 워치 5(일반형, Lite·Active 아님). 레드미 워치 6 퀘이사존 알리 글(국내 대비 비교 댓글)과 같은 라인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T10:20:07.219Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "Xiaomi Robot Vacuum E10": {
+      "q": "Xiaomi Robot Vacuum E10",
+      "brand": "Xiaomi",
+      "model": "Robot Vacuum E10",
+      "cat": "home",
+      "why": "샤오미 코리아 정발 로봇청소기 입문형, 알리 글로벌 판매. 로봇청소기라 부피·AS 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T10:20:09.081Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "Xiaomi Robot Vacuum S10": {
+      "q": "Xiaomi Robot Vacuum S10",
+      "brand": "Xiaomi",
+      "model": "Robot Vacuum S10",
+      "cat": "home",
+      "why": "샤오미 로봇청소기 중급형, 국내 정발·알리 판매(S10+·S10 Pro와 구분 필요). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T10:20:10.777Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "Logitech C920 HD Pro": {
+      "q": "Logitech C920 HD Pro",
+      "brand": "Logitech",
+      "model": "C920",
+      "cat": "it",
+      "why": "로지텍 웹캠 스테디셀러, 국내 정발가가 일정하고 알리 공식 스토어 판매. C920s와 구분 필요(모델명 정확히). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T10:20:12.640Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "6628649451",
+          "name": "로지텍 C920 HD Pro 웹캠",
+          "price": 139000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/446afiky0L2_lDYe4xbX8OMOeNs5g9hvI2HLiAWpQrRzmljneTj77AsNvL7gu_SS_E9Qm7dOgx3Renh3lBWleylw3JvQQIQs4uajkc5g5dSmEvoctlosBCvhNhIGi60Je7pVEQH5fMfBt78zDNxPWcXAIe4T65mwKuAWv7rUuvhhvqFgapDEJPHJOqvtgM-8v8HRxy3D_zm79VnAtmjYKVvWmkKDNJG-06FMonR90BY7QHLVigO779ZtcRJaZzjGGS_PdsvTCinc8XHaGYSt0BSBm5_ZY1JqCG5WAtMCAIbDvIsYRlEcHJIYJXbQVvaValB50bVcf1E6DuVEop81-lBpMdt9arRlFFlrYFF3uNX-RF3uOtLdrpfxb19TF_1F-erFb9SycQs2LxhlgJb-a2I0OKUOt2dg3jR0l2ZCqKvohcTkCtz5b18Oye3M6PIciX5Mic5YCgaqslU9pEwQw_IqTolgisRZAQ4_ZslQO3713tUDsHMVkM42cbhNsi1-8WTb8jd-pUv8MZWXK4qS7Bla0qfjG0dbqjLzVf9L12_fqNU=",
+          "url": "https://www.coupang.com/vp/products/6628649451"
+        },
+        {
+          "id": "9785548775",
+          "name": "로지텍 C920 HD Pro 웹캠",
+          "price": 139000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/9KWKoSrH32y2PL6s9JbJEkz68b3jp2EN2NFMUHhYXjePfSwcjMojOyzpyx3wwTELUwYZjv3u7LnvPe-4bu0H0FrkwfiTgykmPt129H0X-HRIDLm7l2Qd8gw_lIB5gBxv2Lrya4iIYTE_wmKe8Yg2meDyhqfCh4IxtBgvs1e6-BMvKEY7PaEkFOWZUiV34wLsTk8uiDM4vefO1_BBBMj7n_VptlhN5ojadezTOw30-6CnnLxaKOao-hMRsRzhbzwrFalc31QTRDi6yP6SA9gWao4Nb07tDJPy4NLIs-aDU5HgDV3YswJJxX1lGJXQPZFalkCpk6Ny4Vmcc0mDE3cTJ5IuzPGp1N03lzRp0k1NVoMFf6b1bKvWtzrOtJ6EN3LHXJHlPbEWkn_hYpXwQCp0GGRv2yPMOrqtfScJyjPaVP9i2NR5v-xb4y8YFKWb-3rGvYrz6vUjbqUkwvRy6cd5CosuQKX1DTWl5S36pbgEl_skb-NLBuHg5mVxAgtMu5YGRxcUvGKWaaNy58xgARRPCb0vM1maobHqhFtTSF36TFKxQA==",
+          "url": "https://www.coupang.com/vp/products/9785548775"
+        }
+      ]
     }
   },
-  "updatedAt": "2026-10-27T09:19:41.244Z"
+  "updatedAt": "2026-10-27T10:20:13.949Z"
 }
