@@ -626,12 +626,12 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.10.27 쿠팡 자동",
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 배송 불가(10.27 확인)",
-    "domesticKrw": 482700,
+    "domesticKrw": 519000,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -648,7 +648,16 @@
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
-    "unavailable": "10.27 기준 아마존에서 한국 배송이 안 돼요"
+    "unavailable": "10.27 기준 아마존에서 한국 배송이 안 돼요",
+    "priceLog": [
+      {
+        "at": "2026.10.27",
+        "field": "domesticKrw",
+        "from": 482700,
+        "to": 519000,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -768,10 +777,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.10.27 오후",
+    "checkedAt": "2026.10.27 알리 자동",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 105000,
+    "priceKrw": 102215,
     "domesticKrw": 89620,
     "domesticSource": "쿠팡 쿠폰가, 글레이셔 실버, 로켓배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
@@ -817,6 +826,13 @@
         "from": 102215,
         "to": 105000,
         "source": "매니저 확인"
+      },
+      {
+        "at": "2026.10.27",
+        "field": "priceKrw",
+        "from": 105000,
+        "to": 102215,
+        "source": "알리"
       }
     ]
   },
