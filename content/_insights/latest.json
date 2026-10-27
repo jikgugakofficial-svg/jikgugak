@@ -1,29 +1,63 @@
 {
-  "at": "2026-10-27T07:15:32.802Z",
+  "at": "2026-10-27T14:48:05.455Z",
   "window": "최근 7일",
   "instagram": {
     "profile": {
       "user_id": "17841415545240133",
       "username": "jikgugak.official",
-      "name": "직구각",
-      "biography": "해외직구, 어렵게 재지 말고 '직구각'에서 각 잡으세요",
-      "website": "https://www.jikgugak.com",
-      "followers_count": 0,
+      "name": "직구각 | 해외직구 관세 계산",
+      "biography": "직구, 관세까지 넣어도 진짜 쌀까?\n링크 붙이고 국내 최저가만 넣으면 바로 판정!\n가입 없이 무료 · 국내가 나으면 그렇다고 말해요",
+      "website": "https://www.jikgugak.com/deals/1111?utm_source=instagram",
+      "followers_count": 1,
       "follows_count": 6,
-      "media_count": 5,
+      "media_count": 6,
       "account_type": "BUSINESS",
       "id": "28724042543919894"
     },
     "account7d": {
-      "reach": 5,
-      "views": 5,
-      "profile_views": 12,
-      "website_clicks": 1,
-      "accounts_engaged": 0,
-      "total_interactions": 0,
+      "reach": 86,
+      "views": 135,
+      "profile_views": 17,
+      "website_clicks": 2,
+      "accounts_engaged": 1,
+      "total_interactions": 4,
       "profile_links_taps": 0
     },
     "media": [
+      {
+        "permalink": "https://www.instagram.com/reel/De_iDhFiQNi/",
+        "timestamp": "2026-10-27T09:26:44+0000",
+        "type": "VIDEO",
+        "firstLine": "아이허브 오메가3, 쿠팡 로켓직구보다 26,588원 비쌌어요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 20,
+          "views": 23,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0
+        },
+        "insightsFullError": "/18012672923968954/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"Awc16bYY3ceArDAqGjAWs1w\"}"
+      },
+      {
+        "permalink": "https://www.instagram.com/p/De_iBjzFG32/",
+        "timestamp": "2026-10-27T09:26:07+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "아이허브 오메가3, 쿠팡 로켓직구보다 26,588원 비쌌어요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 2,
+          "views": 5,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "follows": 0
+        }
+      },
       {
         "permalink": "https://www.instagram.com/reel/De-4wQODclh/",
         "timestamp": "2026-10-27T03:25:51+0000",
@@ -32,27 +66,27 @@
         "likes": 0,
         "comments": 0,
         "insights": {
-          "reach": 0,
-          "views": 0,
+          "reach": 67,
+          "views": 93,
           "saved": 0,
-          "shares": 0,
-          "total_interactions": 0
+          "shares": 1,
+          "total_interactions": 1
         },
-        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AMPeDKNCWZp0-bC547omSb-\"}"
+        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AuY6sOqe_bNd66NyVUEQutG\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/De6XG5yEb8s/",
         "timestamp": "2026-10-25T09:14:33+0000",
         "type": "CAROUSEL_ALBUM",
         "firstLine": "아이허브는 ₩40,000 미만이면 배송비 ₩6,000이 붙어요 #광고",
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
         "insights": {
-          "reach": 0,
-          "views": 0,
+          "reach": 1,
+          "views": 2,
           "saved": 0,
           "shares": 0,
-          "total_interactions": 0,
+          "total_interactions": 1,
           "profile_visits": 0,
           "profile_activity": 0,
           "follows": 0
@@ -66,8 +100,8 @@
         "likes": 0,
         "comments": 0,
         "insights": {
-          "reach": 0,
-          "views": 0,
+          "reach": 1,
+          "views": 8,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
@@ -81,16 +115,16 @@
         "timestamp": "2026-10-23T08:23:23+0000",
         "type": "CAROUSEL_ALBUM",
         "firstLine": "가입도 설치도 없이 관세까지 계산해요 #광고",
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
         "insights": {
-          "reach": 0,
-          "views": 0,
+          "reach": 1,
+          "views": 4,
           "saved": 0,
           "shares": 0,
-          "total_interactions": 0,
-          "profile_visits": 0,
-          "profile_activity": 0,
+          "total_interactions": 1,
+          "profile_visits": 3,
+          "profile_activity": 1,
           "follows": 0
         }
       },
@@ -132,6 +166,51 @@
       "followers_count": 102
     },
     "posts": [
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_wqW5Gw-j",
+        "timestamp": "2026-10-27T11:34:01+0000",
+        "topicTag": "넾다세일",
+        "hasLink": false,
+        "firstLine": "(광고) 하루 만에 직구 판정이 뒤집힌 상품이 있어요. 샤오미 스마트 밴드 10 프로예요.",
+        "insights": {
+          "views": 25,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_iHsjlGFk",
+        "timestamp": "2026-10-27T09:26:56+0000",
+        "topicTag": "아이허브",
+        "hasLink": false,
+        "firstLine": "(광고) 아이허브가 늘 싸다고 생각했는데, 같은 스포츠리서치 오메가3 180정이 쿠팡 로켓직구보다 26,58",
+        "insights": {
+          "views": 51,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_h4a7ETq8",
+        "timestamp": "2026-10-27T09:24:52+0000",
+        "topicTag": "아이허브",
+        "hasLink": false,
+        "firstLine": "(광고) 아이허브가 늘 싸다고 생각했는데, 같은 스포츠리서치 오메가3 180정이 쿠팡 로켓직구보다 26,58",
+        "insights": {
+          "views": 28,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
       {
         "permalink": "https://www.threads.com/@jikgugak.official/post/De6XI2skclI",
         "timestamp": "2026-10-25T09:14:48+0000",
@@ -194,6 +273,28 @@
       }
     ],
     "replies": [
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_iJOUFAKy",
+        "timestamp": "2026-10-27T09:27:08+0000",
+        "hasLink": false,
+        "firstLine": "반대로 아이허브가 나은 경우도 있어요.",
+        "insights": {
+          "views": 2,
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_h6JCkVKa",
+        "timestamp": "2026-10-27T09:25:06+0000",
+        "hasLink": false,
+        "firstLine": "반대로 아이허브가 나은 경우도 있어요.",
+        "insights": {
+          "views": 1,
+          "likes": 0,
+          "replies": 0
+        }
+      },
       {
         "permalink": "https://www.threads.com/@jikgugak.official/post/De6XK-SEaiX",
         "timestamp": "2026-10-25T09:15:05+0000",
