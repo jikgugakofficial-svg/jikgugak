@@ -461,11 +461,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OFhB1bmS",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.10.28 쿠팡 자동",
     "slug": "amazon-logitech-mx-master-3s",
     "name": "로지텍 MX Master 3S 무선 마우스",
     "category": "it",
-    "domesticKrw": 98800,
+    "domesticKrw": 95220,
     "domesticSource": "쿠팡 로켓직구, 무료배송 · 3일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0B11LJ69K",
     "risks": [
@@ -478,7 +478,16 @@
       "국내 정식 유통품보다 로켓직구가 훨씬 싸요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7242698793",
-    "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2a64/235c763e7e1395a4c9f6d0863df2e2afdca73686b061bd67982bc337dd40.jpg"
+    "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2a64/235c763e7e1395a4c9f6d0863df2e2afdca73686b061bd67982bc337dd40.jpg",
+    "priceLog": [
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 98800,
+        "to": 95220,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",

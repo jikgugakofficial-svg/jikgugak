@@ -2550,7 +2550,81 @@
         "diff": 30100,
         "pct": 42
       }
+    },
+    "UGREEN NASync DXP2800": {
+      "q": "UGREEN NASync DXP2800",
+      "brand": "UGREEN",
+      "model": "DXP2800",
+      "cat": "it",
+      "why": "유그린 2베이 NAS, 가격대 높아 20%·1만 원 조건 넘기 쉬움. 국내 정발(쿠팡) 판매 여부 불확실. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-27T21:15:47.497Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005010412722704",
+          "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 미포함) 4K 8GB DDR5 RAM",
+          "price": 785800,
+          "orders": 2,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S613b13c3a56548b28a2903e4654178997.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010412722704.html"
+        },
+        {
+          "id": "1005012362427429",
+          "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 없음) 4K HDMI 8GB DDR5 RAM",
+          "price": 898800,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S989b99c77c6a44f6a9591408044dc113p.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012362427429.html"
+        },
+        {
+          "id": "1005012976859281",
+          "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS, N100 쿼드코어 CPU 네트워크 연결 스토리지 (디스크리스)",
+          "price": 705000,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/See506b937b144a1e92e2de62e44eff9c3.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012976859281.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9711149531",
+          "name": "8GB 1X8GB DDR5 4800MHZH PC5 - 38400 1.1V CL40 262핀 비ECC SODIMM NEMIX RAM UGREEN NASync DXP2800 및 D",
+          "price": 501500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/yolKNqA5K1G92OUXyh_zU4woxZoD-GBWu_jhHg2A8CWbahUnw-2c5s3SlYSGTjzFe5mYI2dIN17MGT21VZiIL292_wVJKtEXQZb1SPa7wsGX7uVMsChUSLCqDHhUGyS7NRarrFTNaoQ8C3d6r_vHlusiGPH2Wulx_Hv-449vmplrm4SxevhkGNzsX-IMDMUnSCMXDazKZ6ZCLQyVBjLKCOnoacJ7nvHXJeOlzeTpDIfaYDipK8oYzL1ANIkbLIBUYSdSq8cAq84k8KZ2dVoADEgyopAID75BOYO9w7Gjf1y702fW_P8J4tFalzkMOYKN6S3047omDWHTM5y2P718hytzS0P1fftwvEdbza5iHM8dYupijj3P03-Totgaty3NyhiWSkQGCWQBo8X6I-7__aP42GXhIWHw3cyt7xSxu_8lxXISsZmqQiz8ZPQKVbz00w3Dn_7HUBJjdod5uFonY5nzNjFAUCthMM2rZMWIbyodwtSO9qCXQuGh0K0RnJUVTMbIGwjt_KyHWpQYjpGZ05QXkvYjc_3sLfirTFhjUjpOdU4z_Q==",
+          "url": "https://www.coupang.com/vp/products/9711149531"
+        },
+        {
+          "id": "8894406605",
+          "name": "UGREEN NASync DXP2800 2베이 데스크탑 NAS 인텔 N100 쿼드코어 CPU 8GB DDR5 RAM 25GbE 2개 M2 NVMe 슬롯 4K HDMI 네트워크",
+          "price": 562590,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/aqaLbjbjc_57J5cDaqeUgtUYvsLVYg0pdhlkwdQUai8iLRUO1_7NivwTcTAIPmmX09t6sYZcIeMrqnb2RUrHtEiFwmtIO65wzI-HOsvhbeCgCs4FkstxdlLCbKiJzZpxvhhQN1pAhwWfNe0dkAcR78cTu_PjSN3KzO5pd_Hgmv3bNwsDCBbJiIcKNi74grGoU6Zbp9kyqMMA27tSYT9U_bociJKtyVwRkvmM-E33YtEUzfKmW3lKF_kW8Q40Se_FZIufQVypaLm2FjEb7nIfTpIH7r3pjWbnEpDx3Z8oC5gVPqyMNwlhJKE-ct7xitY7f95XVlelY780Jq_oCMSeIMWlDDv8JnhgTkxuJq6ckUy5oz2etYs3otMP4vnprNN_Q6iAtGvy491PYA4ovWETaGxOtNMwuv0S0hKKYs0NKAk5xeIHJ8ABhn3aiq1KJWoLJokYCeeNOn_D9Vub6SMpqeM7BVbjK-fLiABjyYhNFUZ5me9IBOYCqBqXNKjzQXAco9mti-ZzUz7v5mrbVG3VWpm2tl23pXjNEm1cO8q_i3JcZrE=",
+          "url": "https://www.coupang.com/vp/products/8894406605"
+        },
+        {
+          "id": "9768951682",
+          "name": "UGREEN NASync DXP2800 2베이 데스크탑 NAS 인텔 N100 쿼드코어 CPU 8GB DDR5 RAM 25GbE 2개 M2 NVMe 슬롯 4K HDMI 네트워크",
+          "price": 659440,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/F-rdPfISq_TQZM0QFymi1CV-NwkYr3EihuXhtv57tzBsRltrOGW0e1ivFJl9i9sho8RitJr_tyfaqF712o7oEjNnN2zagQdtxEgNhlGsPr73XPdTIkttXL7zazQJeAoxcJXpkxBB9JBLBTtcZEzMSKgrwuM7N3PoRsXPW3az1Brbfi2zxTkZI1rb1znZs5JIyu8bTViv8Q-wLkb46c73PrVPjkFGGCt0rM2sypuHOUFoVtFwhl59uNeLD6huh6QRZksSQx7QLGolBW2QeYTPHKepqLQox2_Qslyvgczu_ZEcXpFAP1NWiHWnhLhUqCycxEbps3WooFqrW0ECdMHb2ww6mgx2e4K3-gQ878q8AXTL_uQOlin2azERl_r-FYctsi13oKqkVE7BNvEFkpwLxLm22UL_BkQyJxkZZmtoXUIv6EACok2XaiWvc-FjtCHmNrh2ZaKAxVdSOdREiSKjAaKmnCkcDENd-qStmMwZKCgqCg4aNlXNJnkR-hcMn-buPoVwNlZbQsIntbjcHFNesZBWSsRj50LnK2ae6jNH24jR6w==",
+          "url": "https://www.coupang.com/vp/products/9768951682"
+        }
+      ],
+      "best": {
+        "aliId": "1005010412722704",
+        "coupangId": "9711149531",
+        "aliTotal": 864380,
+        "coupangPrice": 501500,
+        "verdict": "bad",
+        "diff": -362880,
+        "pct": -72
+      }
     }
   },
-  "updatedAt": "2026-10-27T19:26:17.607Z"
+  "updatedAt": "2026-10-27T21:15:50.417Z"
 }
