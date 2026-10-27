@@ -79,3 +79,6 @@ assert.equal(mixed.duty + mixed.vat, 0);
 // 아이허브는 40,000원 미만이면 배송비 6,000원 자동, 넘으면 0원
 assert.equal(cartByStore({ items: [{ store: 'iherb', price: 15000, qty: 2, category: 'supplement' }], fx }).shipKrw, 6000);
 assert.equal(cartByStore({ items: [{ store: 'iherb', price: 15000, qty: 3, category: 'supplement' }], fx }).shipKrw, 0);
+
+// 상품 하나뿐인 상자는 '빼면 면세'를 제안하지 않아요
+assert.equal(cartTrim({ items: [{ name: 'XM6', price: 399, qty: 1, category: 'audio' }], origin: 'us', method: 'express', fx }).index, -1);

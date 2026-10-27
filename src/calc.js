@@ -121,7 +121,7 @@ export function cartTrim(input, rule = DEFAULT_RULE) {
     if (!(Number(it.qty) > 0) || !(Number(it.price) > 0)) return;
     const items = input.items.map((x, j) => (j === i ? { ...x, qty: Math.floor(Number(x.qty)) - 1 } : x));
     const after = cartCost({ ...input, items }, rule);
-    if (!after.dutyFree) return;
+    if (!after.dutyFree || !after.rows) return; // 빼면 상자가 비는 경우(상품 하나뿐)는 제안하지 않아요
     const removed = Number(it.price);
     if (!best || removed < best.removed) best = { index: i, name: it.name || `${i + 1}번 상품`, removed, taxSaved: now.duty + now.vat, after };
   });
