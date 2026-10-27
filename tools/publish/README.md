@@ -46,3 +46,9 @@ GitHub Actions(`.github/workflows/publish.yml`)가 push 직후와 매시 7분에
 ]
 ```
 - `rate`: `customs`(관세청 과세환율, 면세 한도·무료배송 기준) 또는 `pay`(결제 환율). `breakeven`은 사이트가 계산한 아마존 손익분기 달러 × 결제 환율, 천 원 아래 버림.
+
+## 스토리 공유 (2026-10-27~)
+- 인스타(카드·릴스)가 새로 올라가면 같은 릴스 영상(없으면 카드 1장)을 **스토리로 한 번 더** 올려요. 승인된 글을 그대로 쓰는 것이라 따로 승인받지 않아요(운영자 10/27 "다 해줘").
+- 결과는 publish-result.json에 `kind: "story"`로 남아요. 실패해도 본 게시는 그대로예요.
+- 끄려면 그 폴더 publish.json에 `"story": false`.
+- 스토리는 24시간 뒤 사라지니, 하이라이트(`docs/marketing/ig-profile.md` 6번)로 모으는 건 운영자가 앱에서 해요.

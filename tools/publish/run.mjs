@@ -76,6 +76,28 @@ async function postReel(me, dir, spec) {
   return { id: media, url: info.permalink };
 }
 
+// 스토리 공유(10/27~, 운영자 "다 해줘"): 승인된 글이 올라간 뒤 같은 릴스 영상(없으면 카드 1장)을 스토리로 한 번 올려요.
+// 스토리 고리·하이라이트 재료용(docs/marketing/ig-profile.md 7번). 실패해도 본 게시에는 영향 없어요. 끄려면 publish.json에 "story": false.
+async function postStory(me, dir, job) {
+  const folder = path.basename(dir);
+  const ch = job.channels || {};
+  const params = { media_type: 'STORIES' };
+  if (ch.reels && ch.reels.video) params.video_url = `${SITE}/social/${folder}/${path.basename(ch.reels.video)}`;
+  else if (ch.instagram && ch.instagram.images && ch.instagram.images.length) params.image_url = `${SITE}/social/${folder}/${path.basename(ch.instagram.images[0])}`;
+  else return null;
+  await waitUrl(params.video_url || params.image_url);
+  const creation = (await call(IG, `/${me}/media`, IG_TOKEN, params, 'POST')).id;
+  for (let i = 0; i < 60; i++) {
+    const st = await call(IG, `/${creation}`, IG_TOKEN, { fields: 'status_code,status' });
+    if (st.status_code === 'FINISHED') break;
+    if (st.status_code === 'ERROR') throw new Error(`스토리 처리 오류: ${st.status || ''}`);
+    if (i === 59) throw new Error('스토리 처리 시간 초과');
+    await sleep(10000);
+  }
+  const media = (await call(IG, `/${me}/media_publish`, IG_TOKEN, { creation_id: creation }, 'POST')).id;
+  return { id: media, from: params.video_url ? 'reel' : 'card' };
+}
+
 async function postThreads(me, spec) {
   const texts = spec.texts || [spec.text];
   let prev, first;
@@ -173,6 +195,11 @@ for (const dir of jobs) {
     } catch (e) {
       result.posts.push({ kind, ok: false, error: String(e.message).slice(0, 1000) });
     }
+  }
+  const igDone = result.posts.some((x) => (x.kind === 'reels' || x.kind === 'instagram') && x.ok && !x.skipped);
+  if (igDone && job.story !== false) {
+    try { const r = await postStory(who.instagram.id, dir, job); if (r) result.posts.push({ kind: 'story', ok: true, ...r }); }
+    catch (e) { result.posts.push({ kind: 'story', ok: false, error: String(e.message).slice(0, 500) }); }
   }
   writeFileSync(path.join(dir, 'publish-result.json'), JSON.stringify(result, null, 2) + '\n');
   console.log(JSON.stringify(result, null, 2));
