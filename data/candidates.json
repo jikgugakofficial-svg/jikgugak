@@ -1986,7 +1986,366 @@
       "coupangTop": 10,
       "ali": [],
       "coupang": []
+    },
+    "Edifier MR4 MKII": {
+      "scoutRank": 1,
+      "q": "Edifier MR4 MKII",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "MR4 MKII",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "why": "퀘이사존 2026.07.13 네이버 \"정발 런칭 특가\" 149,000원 글에서 작성자가 \"MR3/MR4 직구 대비 거의 2배\", 댓글에 \"알리 직구 8만 3천 원대\"·\"알리 특가 7만 원대\". 2026.07.20 글은 알리 에디파이어 공식 스토어 117,158원(쿠폰 적용) vs 정발 런칭 특가 14.9만 원. 모두 글 날짜 값이라 지금 가격은 매니저 확인. 예전 후보 \"Edifier MR4\"는 알리 MKII vs 쿠팡 MR4로 모델이 달라 제외됐는데, 7월에 MKII 정발이 나와 짝이 생겼는지가 핵심.",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1969501",
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1971360"
+      ],
+      "aliHint": "에디파이어 공식 스토어(Edifier Official Store)의 MR4 MKII. 상품 주소는 못 찾음(알리 검색 필요). 구형 MR4 상품(aliexpress.com/i/3256805881123953)과 혼동 주의.",
+      "coupangHint": "에디파이어 MR4 MKII (쿠팡에 MKII 정발이 있는지부터. 구형 MR4만 있으면 제외)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 2026.07.13 정발 런칭 특가 글이 직구 대비 가격 논쟁으로 이어지고 알리 MR4 계열 핫딜이 반복됨(근거 1971360).",
+        "같은제품짝": "조건부 예: 모델명 MR4 MKII 일치(method:model). 쿠팡에 MKII가 없으면 아니오. 색상(블랙/화이트)·전원 어댑터 규격(220V 한국 플러그) 확인.",
+        "판정쓸모": "예: 정발 14.9만 vs 알리 11.7만(최종 약 21%·3.2만 원 차이로 경계선), 쿠폰가 8만 원대면 직구각. 헷갈리는 상품."
+      }
+    },
+    "Edifier EvoBuds Pro": {
+      "scoutRank": 2,
+      "q": "Edifier EvoBuds Pro",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "EvoBuds Pro",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "why": "퀘이사존 2026.02.09 알리 글로벌 버전 42.50달러(무료배송) 글: \"국내에도 정식 출시됐고 정발보다 3만 원 정도 저렴\". 알리 공식 스토어인지는 글에 없음. 코드·카드 할인이 섞인 가격일 수 있어 알리 일반가는 API로 다시 확인.",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1922034"
+      ],
+      "aliHint": "https://ko.aliexpress.com/item/1005010122935561.html (검색에서 나온 Edifier EvoBuds Pro 상품. 판매자·색상·버전 확인 필요)",
+      "coupangHint": "에디파이어 에보버즈 프로 EvoBuds Pro (정발, 색상 확인)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 알리 핫딜 글(2026.02.09)에서 정발 비교 언급, 에디파이어는 알리 핫딜 단골.",
+        "같은제품짝": "예(조건부): 모델 EvoBuds Pro + 색상 일치(method:model). 국내 정발 색상 구성이 알리와 다를 수 있음.",
+        "판정쓸모": "예: 정발과 3만 원 차이면 직구각 경계, 쿠팡 로켓/쿠폰 세일에 따라 뒤집힘."
+      }
+    },
+    "Edifier M60": {
+      "scoutRank": 3,
+      "q": "Edifier M60",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "M60",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "why": "퀘이사존 2026.01.12 알리 66.91달러(무료배송, 코드·카드 할인 적용) 글: \"국내 정발보다 5만 원 정도 저렴해서 아직 메리트\". 2026.03.16 퀘존 공구 63.40달러(정가 87.40달러). 이미 등록한 M90과 다른 하위 모델. 코드·카드 의존 가격이라 일반가 확인 필요.",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1910209",
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1932015"
+      ],
+      "aliHint": "에디파이어 공식 스토어(Edifier Official Store)의 M60. 상품 주소는 못 찾음(알리 검색 필요).",
+      "coupangHint": "에디파이어 M60 (정발, 색상 확인)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 알리 핫딜 2건(2026.01, 2026.03 공구)과 에디파이어 정발 세일 글 댓글에서 M60 비교 언급.",
+        "같은제품짝": "예(조건부): 모델 M60 일치(method:model). 전원 어댑터 플러그 규격 확인.",
+        "판정쓸모": "예: 알리 약 9만 원 vs 정발 약 14만 원 추정(글 기준)이면 직구각, 쿠팡 세일 시 좁혀짐."
+      }
+    },
+    "Baseus Inspire XH1": {
+      "scoutRank": 4,
+      "q": "Baseus Inspire XH1",
+      "brand": "Baseus",
+      "brandKo": "베이스어스",
+      "model": "Inspire XH1",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "why": "퀘이사존 2026.06.09 알리 57.12달러(스토어·카드 쿠폰, 환산 약 9만 원) 글. 작성자 말: \"평소 국내 할인가 12~14만 원, 출시가 20만 원 넘음\"(기억 값, 출처 없음). 쿠팡 실제 가격은 이 글에 없어서 매니저 확인이 가장 중요.",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1959995"
+      ],
+      "aliHint": "https://ko.aliexpress.com/item/1005009462893635.html (검색에서 나온 Baseus Inspire XH1 상품. 베이스어스 공식 스토어인지 확인 필요)",
+      "coupangHint": "베이스어스 인스파이어 XH1 (정발 색상 확인)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 알리 핫딜(2026.06.09) 단독 글, 베이스어스는 알리 공식 스토어 핫딜 반복 브랜드.",
+        "같은제품짝": "예(조건부): 모델 Inspire XH1 + 색상(method:model). 쿠팡 판매자가 정식 수입인지 확인.",
+        "판정쓸모": "예: 국내 12~14만 vs 알리 약 9만이면 직구각 근처, 쿠팡 세일에 따라 애매로 내려갈 수 있음."
+      }
+    },
+    "Shokz OpenFit 2+ T921": {
+      "scoutRank": 5,
+      "q": "Shokz OpenFit 2+ T921",
+      "brand": "Shokz",
+      "brandKo": "샥즈",
+      "model": "OpenFit 2+ T921",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "why": "퀘이사존 2025.11.17 알리 표시가 147,901원 글: \"지난주까지 국내 정발 22만 원대, 광군제 쿠폰·적립 적용 시 14.1만 원대\". 같은 시기 샥즈 공식몰 블프가 260,100원(2025.11.23). 2026.03.16 퀘존 공구 80.27달러(정가 125.27달러). 글이 1년 전 광군제 값이라 지금 값은 완전히 다를 수 있음(광군제 11/11 직전 재확인 가치).",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1885226",
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1888859",
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1932015"
+      ],
+      "aliHint": "샥즈 알리 공식 스토어(SHOKZ Official Store, 알리 검색). 오픈핏 2(T920)와 2+(T921)는 다른 모델(2+만 무선충전 케이스·돌비) — T921만. 상품 주소는 못 찾음.",
+      "coupangHint": "샥즈 오픈핏 2+ T921 (쿠팡 브랜드스토어, 색상 확인)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 2025.11 직구 글에 정발 비교 댓글 다수, 2026.03·08 공구 단골.",
+        "같은제품짝": "예(조건부): 모델 T921·색상 일치(method:model). 알리에 T920/T921 섞여 있고 가품 케이스 상품이 많아 본품 판매자를 확인.",
+        "판정쓸모": "예: 국내 22만 원대 vs 알리 약 14.8만 원(33%). 쿠팡 세일·적립에 따라 뒤집히는 대표 상품."
+      }
+    },
+    "Logitech MX Keys S": {
+      "scoutRank": 6,
+      "q": "Logitech MX Keys S",
+      "brand": "Logitech",
+      "brandKo": "로지텍",
+      "model": "MX Keys S",
+      "cat": "it",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "why": "퀘이사존 2026.02.14 알리 71,787원(네이버페이)·2026.02.01 49.48달러 글(\"정품 대비 상당히 저렴\"). 뽐뿌 핫딜 제목 \"[쿠팡] 로지텍 국내정품 MX Keys S 108,730원\"(검색 결과 제목 값, 글 열람 실패·날짜 모름) → 약 3.7만 원(34%) 차이일 수 있음. 쪽지의 \"키보드는 피하기\"에 해당하는 위험(한글 각인 차이)이 있어 매니저가 먼저 판단.",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1923856",
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1918711",
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu&no=581406"
+      ],
+      "aliHint": "로지텍 공식 스토어(알리 검색 \"Logitech MX Keys S\"). 상품 주소는 못 찾음. 영문 각인 글로벌 버전일 가능성 높음.",
+      "coupangHint": "로지텍 MX Keys S 국내정품 (한글 각인, 색상 그래파이트/페일그레이 확인)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 알리 핫딜 2건(2026.02) + 뽐뿌 쿠팡 핫딜 글.",
+        "같은제품짝": "조건부: 모델명은 같지만 국내정품은 한글 각인, 알리는 영문 각인(method:variant 로 밝히고 비교). 매니저가 \"각인 차이도 같은 제품으로 볼지\" 판단 필요. 아니라면 제외.",
+        "판정쓸모": "예: 34% 차이면 직구각이지만 각인 차이를 감수해야 해서 헷갈리는 상품."
+      }
+    },
+    "CGN CollagenUP 206g": {
+      "scoutRank": 7,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 콜라겐업 206g (무맛, 1kg·코코아 맛과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-collagenup-hydrolyzed-marine-collagen-peptides-with-hyaluronic-acid-unflavored-7-26-oz-206-g/64903",
+      "q": "CGN CollagenUP 206g",
+      "model": "CollagenUP 해양 콜라겐 펩타이드 (히알루론산, 비타민C) 206 g · CGN-01033",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩23,996(kr.iherb.com 10/27 확인, 세일 시 달라짐). 데일리팜 2021.03.02 \"아이허브 베스트셀링 TOP5\"에 CGN 콜라겐업. 쿠팡 가격은 아직 못 봄.",
+      "check3": {
+        "찾는사람": "예: 데일리팜 2021.03.02 아이허브 베스트셀링 TOP5, benefitshub 2026.03.30 CGN 소개.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220010332(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 206 g(약 41회분) 무맛으로만. 1 kg(109491)·코코아(106159)는 다른 상품.",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "CGN LactoBif 100 Probiotics 30c": {
+      "scoutRank": 8,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 락토비프 100 (1000억, 30캡슐; 락토비프 30·5와 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-100-probiotics-100-billion-cfu-30-veggie-capsules/69435",
+      "q": "CGN LactoBif 100 Probiotics 30c",
+      "model": "락토비프 100 프로바이오틱스 1000억 CFU 30베지캡슐 · CGN-01053",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩46,032(kr.iherb.com 10/27 확인). 같은 계열 락토비프 30은 이미 등록(판정 직구각). 쿠팡 가격은 아직 못 봄.",
+      "check3": {
+        "찾는사람": "예: 데일리팜 2021.03.02 TOP5에 CGN 락토비프, benefitshub 2026.03.30 인기 제품에 락토비프 30·5 언급.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220010530(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 락토비프 100(1000억 CFU)·30캡슐만. 락토비프 30(300억)과 이름이 비슷해 혼동 주의.",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "CGN Omega 800 90 softgels": {
+      "scoutRank": 9,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 오메가 800 90소프트젤 (오메가3 프리미엄과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-omega-800-90-fish-gelatin-softgels-1-000-mg-per-softgel/85180",
+      "q": "CGN Omega 800 90 softgels",
+      "model": "오메가 800 초고농도 피쉬 오일 90소프트젤 · CGN-01266",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩36,397(kr.iherb.com 10/27 확인). 등록한 \"오메가3 프리미엄 100정\"과 다른 제품(농도·정 수 다름). 쿠팡 가격은 아직 못 봄.",
+      "check3": {
+        "찾는사람": "예: 한국인이 유산균·오메가3를 가장 많이 찾는다는 benefitshub 2026.03.30 설명, 데일리팜 오메가3 TOP5 기사.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220012664(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 오메가 800(90정)만. 쿠팡에 \"프리미엄 피쉬오일\"로 나오는 상품과 이름이 비슷해 혼동 주의.",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "CGN Gold C 1000mg 240c": {
+      "scoutRank": 10,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 골드C 1000mg 240캡슐 (비타민C 완충형 Buffered와 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-gold-c-usp-grade-vitamin-c-1-000-mg-240-veggie-capsules/61865",
+      "q": "CGN Gold C 1000mg 240c",
+      "model": "골드C USP 등급 비타민C 1,000 mg 240베지캡슐 · CGN-00932",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩20,889(kr.iherb.com 10/27 확인). 쿠팡 가격은 아직 못 봄.",
+      "check3": {
+        "찾는사람": "예: 비타민C는 쿠팡·아이허브 대표 품목, CGN은 아이허브 판매 상위 자체 브랜드(benefitshub 2026.03.30). 단 개별 검색량 근거는 약함.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220009329(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 240정·1,000 mg·USP 등급만(골드C Buffered와 구분).",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "CGN Magnesium Glycinate 180c": {
+      "scoutRank": 11,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 마그네슘 글리시네이트 180캡슐 (1정당 133 mg)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-magnesium-glycinate-180-veggie-capsules-133-mg-per-capsule/129685",
+      "q": "CGN Magnesium Glycinate 180c",
+      "model": "마그네슘 글리시네이트 180베지캡슐(1정 133 mg, 3정 400 mg) · SPN-02357",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩34,219(kr.iherb.com 10/27 확인). 단 이미 등록한 마그네슘(닥터스베스트·나우푸드)은 쿠팡이 더 싸서, 마그네슘 종류는 CGN이라도 반대로 나올 수 있음. 쿠팡 가격은 아직 못 봄.",
+      "check3": {
+        "찾는사람": "예: 마그네슘은 이미 등록 상품 3개로 검색 수요 확인(사이트 내 인기). 개별 CGN 제품 근거는 약함.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220023578(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 1정당 133 mg·3정 400 mg·180정만. 쿠팡에 3정이 아닌 1정 400 mg 제품과 혼동 주의.",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "CGN Vitamin D3 2000 IU 360": {
+      "scoutRank": 12,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 비타민D3 2000IU 360소프트젤 (90정·5000IU와 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-vitamin-d3-50-mcg-2-000-iu-360-fish-gelatin-softgels/77549",
+      "q": "CGN Vitamin D3 2000 IU 360",
+      "model": "비타민 D3 50 mcg(2,000 IU) 360소프트젤 · CGN-01180",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩17,114(kr.iherb.com 10/27 확인). 가격대가 낮아 ₩10,000 이상 차이가 나려면 쿠팡이 2.7만 원 넘어야 함(쿠팡 가격은 아직 못 봄).",
+      "check3": {
+        "찾는사람": "예: 비타민D는 등록한 D3&K2에서 수요 확인. 개별 CGN 제품 근거는 약함.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220011803(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 2,000 IU·360정만(90정 77548·5,000 IU와 구분).",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "CGN Lutein 90c": {
+      "scoutRank": 13,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 루테인 90캡슐",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-lutein-90-veggie-capsules/146676",
+      "q": "CGN Lutein 90c",
+      "model": "루테인 10 mg + 제아잔틴 2 mg 90베지캡슐 · CGN-02547",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩24,979(kr.iherb.com 10/27 확인). 루테인은 국내 약국·쿠팡 제품이 많은 분야라 쿠팡이 더 쌀 수도 있음. 쿠팡 가격은 아직 못 봄.",
+      "check3": {
+        "찾는사람": "예(약함): 루테인은 한국에서 많이 찾는 영양제지만 이 제품 개별 근거는 못 찾음.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220025473(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 루테인 10 mg·제아잔틴 2 mg·90정만.",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "CGN CoQ10 100mg 360c": {
+      "scoutRank": 14,
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "cat": "supplement",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "evidence": [
+        "https://benefitshub.co.kr/iherb-cgn/",
+        "https://www.dailypharm.com/user/news/53888"
+      ],
+      "aliHint": "",
+      "coupangHint": "캘리포니아골드뉴트리션 코큐텐 100mg 360캡슐 (유비퀴놀·PQQ 포함·150정 Bioperine판과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-coq10-usp-grade-ubiquinone-100-mg-360-veggie-capsules/95215",
+      "q": "CGN CoQ10 100mg 360c",
+      "model": "CoQ10 USP 등급 유비퀴논 100 mg 360베지캡슐 · LKN-01416",
+      "why": "아이허브 독점 자체 브랜드(benefitshub 2026.03.30)라 쿠팡 유통가에는 재판매 마진이 붙는 편. 이미 등록한 CGN 두 개가 둘 다 아이허브가 36~47% 쌌음(오메가3 프리미엄 아이허브 16,532원 vs 쿠팡 31,170원 10/27, 락토비프 30 31,803원 vs 50,000원 10/25). 이 상품 아이허브 가격 ₩58,878(kr.iherb.com 10/27 확인, 360정 대용량). 쿠팡에 같은 360정이 없으면 짝이 안 됨. 쿠팡 가격은 아직 못 봄.",
+      "check3": {
+        "찾는사람": "예(약함): 코큐텐은 한국에서 흔히 찾는 영양제지만 이 제품 개별 근거는 못 찾음.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220014163(kr.iherb.com 10/27 확인)를 쿠팡 'Global Trade Item Number'와 대조(method:barcode). 100 mg 유비퀴논·360정만. 쿠팡에 360정이 없으면 후보에서 제외.",
+        "판정쓸모": "예: 아이허브가 쿠팡보다 비싸다는 글(클리앙 2017·2020)과 싸다는 글이 엇갈려 헷갈리는 분야. CGN은 쿠팡 쪽이 더 비쌀 가능성이 있어 확인 가치. 쿠팡이 더 싸게 나오면 \"국내가 나음\"으로 등록해도 쓸모 있음."
+      }
+    },
+    "Edifier ES850NB": {
+      "scoutRank": 15,
+      "q": "Edifier ES850NB",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "ES850NB",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-27T13:27:24.000Z",
+      "why": "퀘이사존 2026.03.19 알리 57.52달러(무료배송, 코드·카드 7~10달러 할인 포함) 글: 작성자 \"공식 스토어인 듯\", \"국내 정발에 반값 수준\", \"국내 정발과 같은 글로벌 버전이라 앱 연동 OK\". 다만 같은 글에 \"정발이 작년까지 9.9 행사로 팔았는데 이제 안 보인다\"가 있어 쿠팡에 정발이 지금 있는지가 불확실.",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1934328"
+      ],
+      "aliHint": "에디파이어 공식 스토어(Edifier Official Store). 검색에서 나온 상품 주소 2개: https://ko.aliexpress.com/item/1005008788440918.html , https://ko.aliexpress.com/item/1005007578863052.html (ES850NB, 어느 쪽이 공식 스토어·본품 구성인지 확인)",
+      "coupangHint": "에디파이어 ES850NB (정발 판매가 지금 있는지부터 확인. 없으면 제외)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 알리 핫딜(2026.03.19).",
+        "같은제품짝": "불확실(쿠팡에 정발이 없으면 아니오): 모델 ES850NB(method:model). 색상 구성 확인.",
+        "판정쓸모": "조건부 예: 정발이 쿠팡에 지금 있고 알리의 두 배라면 직구각 대표 상품. 정발이 없으면 비교할 국내가가 없어 제외."
+      }
     }
   },
-  "updatedAt": "2026-10-27T12:16:28.822Z"
+  "updatedAt": "2026-10-27T13:29:35.772Z"
 }
