@@ -82,7 +82,17 @@
       "recordedKrw": 459000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "amazon-logitech-mx-master-3s": {
+      "productId": "7242698793",
+      "keyword": "로지텍 MX Master 3S 무선 마우스",
+      "at": "2026-10-27T01:23:52.720Z",
+      "recordedKrw": 95220,
+      "found": true,
+      "apiPrice": 98800,
+      "isRocket": false,
+      "diff": 3580
     }
   },
-  "updatedAt": "2026-10-26T23:10:42.523Z"
+  "updatedAt": "2026-10-27T01:23:53.308Z"
 }
