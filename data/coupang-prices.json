@@ -205,7 +205,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-10-28T02:24:41.482Z",
+      "at": "2026-10-28T17:28:30.553Z",
       "recordedKrw": 415000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -213,20 +213,23 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-10-28T03:21:38.934Z",
+      "at": "2026-10-28T17:28:30.954Z",
       "recordedKrw": 22150,
-      "found": false,
-      "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
+      "found": true,
+      "apiPrice": 25460,
+      "isRocket": false,
+      "diff": 3310,
+      "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-10-28T03:21:39.293Z",
-      "recordedKrw": 47920,
+      "at": "2026-10-28T17:28:31.319Z",
+      "recordedKrw": 59900,
       "found": true,
-      "apiPrice": 59900,
+      "apiPrice": 47920,
       "isRocket": false,
-      "diff": 11980,
+      "diff": -11980,
       "result": "applied"
     },
     "iherb-jarrow-dophilus-eps-120": {
@@ -406,11 +409,14 @@
     },
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
-      "keyword": "자로우 울트라 본업 240정",
-      "at": "2026-10-28T01:37:02.082Z",
+      "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
+      "at": "2026-10-28T17:28:29.582Z",
       "recordedKrw": 79400,
-      "found": false,
-      "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 79400,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     },
     "iherb-cgn-organic-spirulina-720": {
       "productId": "6168309514",
@@ -424,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T16:30:22.253Z"
+  "updatedAt": "2026-10-28T17:28:31.718Z"
 }
