@@ -64,13 +64,13 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-10-27T19:26:18.798Z",
+      "at": "2026-10-28T10:25:06.953Z",
       "recordedKrw": 67180,
       "found": true,
       "apiPrice": 57180,
       "isRocket": false,
       "diff": -10000,
-      "result": "applied"
+      "result": "same"
     },
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
@@ -421,5 +421,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T09:27:31.325Z"
+  "updatedAt": "2026-10-28T10:25:07.802Z"
 }
