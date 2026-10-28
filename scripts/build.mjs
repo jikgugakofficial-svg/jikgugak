@@ -166,7 +166,13 @@ const NAV = [
   { href: '/guide', label: '직구 가이드' }
 ];
 
-function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false, image = '' }) {
+// 구조화 데이터(JSON-LD): 검색엔진·AI 답변이 페이지 내용을 정확히 읽게 해요. 화면에 보이는 내용과 같은 것만 넣어요(10/28~).
+const ldTags = (list) => (list || []).filter(Boolean).map((o) => `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', ...o }).replace(/</g, '\\u003c')}</script>`).join('\n');
+const isoDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : kstToday(); };
+const crumbLd = (list) => ({ '@type': 'BreadcrumbList', itemListElement: list.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: absUrl(url) })) });
+const faqLd = (qa) => (qa.length ? { '@type': 'FAQPage', mainEntity: qa.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) } : null);
+
+function layout({ title, description, urlPath, body, scripts = [], current = '', noindex = false, image = '', ld = [] }) {
   const ogImage = image || absUrl('/og.png') + '?v=20261026b';
   const fullTitle = title ? `${title} | ${site.siteName}` : `${site.siteName} | ${site.tagline}`;
   const desc = description || site.description;
@@ -203,6 +209,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : ''}
 <link rel="manifest" href="/manifest.webmanifest?v=2">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
 ${verify}
+${ldTags(ld)}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap">
@@ -407,7 +414,7 @@ ${dealPromo()}
     <a href="/calculator#cart" class="step"><span class="num">3</span><b>면세 신호등</b><span>미국 특송 $200, 그 외 $150. 장바구니가 한도를 넘는지 바로 알려줘요.</span></a>
   </div>
 </section>`;
-  return layout({ title: '', urlPath: '/', body, current: '/', scripts: ['/assets/home.js'] });
+  return layout({ title: '', urlPath: '/', body, current: '/', scripts: ['/assets/home.js'], ld: [{ '@type': 'WebSite', name: site.siteName, url: site.siteUrl, inLanguage: 'ko-KR', description: site.description }, { '@type': 'Organization', name: site.siteName, url: site.siteUrl, logo: absUrl('/icon-512.png'), email: site.contactEmail }] });
 }
 
 // ---------- 페이지: 판정 상세 ----------
@@ -526,6 +533,28 @@ ${matchLine(p)}
   const desc = ev.kind === 'priced'
     ? `${p.name} 해외직구 최종 체감가 ₩${krw(ev.cost.total)} vs 국내 최저가 ₩${krw(p.domesticKrw)}. ${v.label} 판정과 관부가세 계산.`
     : `${p.name} 해외직구 손익분기 가격과 국내 최저가 ₩${krw(p.domesticKrw)} 비교.`;
+  // 자주 묻는 질문 2개: 화면에 보이는 숫자 그대로 한 문단 답(검색·AI 답변이 이 문단을 인용하기 좋게). 아마존은 가격 대신 손익분기만.
+  const when = `${p.checkedAt ? String(p.checkedAt).replace(/\s.*$/, '') : kstToday().replace(/-/g, '.')} 기준`;
+  const qa = [];
+  if (ev.kind === 'priced') {
+    const c = ev.cost;
+    const tail = ev.verdict === 'good' ? `해외가 ${krw(ev.diff)}원(${ev.pctNum}%) 싸서 직구각이에요.`
+      : ev.verdict === 'meh' ? `해외가 ${krw(ev.diff)}원 싸지만 직구각 기준(20% 이상, ${krw(RULE.minSaveKrw)}원 이상)에는 못 미쳐 애매해요.`
+      : `국내가 ${krw(-ev.diff)}원 더 싸서 국내 구매가 나아요.`;
+    qa.push([`${p.name} 직구가 국내보다 싼가요?`, `${when} ${p.storeName} 상품가에 국제 배송비와 관세·부가세를 더한 해외 최종 체감가는 ${krw(c.total)}원, 국내 최저가는 ${krw(p.domesticKrw)}원(${p.domesticSource})이에요. ${tail}`]);
+    qa.push([`${p.name} 직구하면 관세가 붙나요?`, c.dutyFree
+      ? `상품가 ${usd(c.price)}로 면세 한도 ${c.limit}달러 안이라 관세·부가세가 붙지 않아요. 같은 날 다른 해외 주문과 함께 들어오면 합산돼 한도를 넘을 수 있어요.`
+      : `면세 한도 ${c.limit}달러를 넘어서 배송비를 포함한 전체 금액에 관세 ${Math.round(c.rate * 100)}%와 부가세 10%가 붙어요. 이 상품은 세금이 약 ${krw(c.duty + c.vat)}원이에요. 최종 세액은 세관 고지를 따라요.`]);
+  } else if (ev.kind === 'break') {
+    qa.push([`${p.name} ${p.storeName} 직구가 국내보다 싼가요?`, `국내 최저가는 ${krw(p.domesticKrw)}원(${p.domesticSource}, ${when})이에요. 관세·부가세·배송비를 모두 넣어 계산하면 ${p.storeName} 가격이 ${ev.breakeven}달러 이하일 때 직구각이에요. ${p.storeName} 가격은 자주 바뀌니 이 페이지에 지금 가격을 넣어 바로 판정해 보세요.`]);
+    qa.push([`${p.name} 직구하면 관세가 붙나요?`, `이 상품의 면세 한도는 ${ev.limit}달러예요. 넘으면 배송비를 포함한 전체 금액에 관세와 부가세가 붙어요. 같은 날 들어오는 다른 해외 주문과는 합산돼요.`]);
+  }
+  const qaHtml = qa.length ? `<section class="block pd-faq" aria-labelledby="faq-title"><h2 class="h2" id="faq-title">자주 묻는 질문</h2>${qa.map(([q, a]) => `<details class="faq" open><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</section>` : '';
+  const ld = [
+    crumbLd([['홈', '/'], [cat.label, `/?cat=${p.category}`], [p.name, `/p/${p.slug}`]]),
+    { '@type': 'WebPage', name: `${p.name} 직구 판정`, url: absUrl(`/p/${p.slug}`), inLanguage: 'ko-KR', dateModified: isoDate(p.checkedAt), publisher: { '@type': 'Organization', name: site.siteName, url: site.siteUrl } },
+    faqLd(qa)
+  ];
   const body = `
 <nav class="crumbs" aria-label="현재 위치"><a href="/">홈</a><span aria-hidden="true">›</span><a href="/?cat=${esc(p.category)}">${esc(cat.label)}</a><span aria-hidden="true">›</span><span>${esc(p.name)}</span></nav>
 ${domesticSaleNotice()}
@@ -550,8 +579,9 @@ ${domesticSaleNotice()}
 <section class="before" aria-labelledby="before-title">
   <h2 id="before-title">결제 전 30초 체크</h2>
   <div><a href="/guide#address">영문 주소 넣는 법</a><a href="/guide#pccc">통관부호 유효기간 확인</a><a href="/guide#combine">합산과세 주의</a></div>
-</section>`;
-  return layout({ title: `${p.name} 직구 vs 쿠팡 최종가, 관세 포함`, description: desc, urlPath: `/p/${p.slug}`, body, image: p.image || '', scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
+</section>
+${qaHtml}`;
+  return layout({ title: `${p.name} 직구 vs 쿠팡 최종가, 관세 포함`, description: desc, urlPath: `/p/${p.slug}`, body, ld, image: p.image || '', scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
 }
 
 // ---------- 페이지: 관세 계산기 ----------
@@ -1047,6 +1077,39 @@ if (FIXED_SUMMARIES.length) console.warn(`⚠ 판정이 바뀌어 요약 문장 
 const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
 const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...DEALS.map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smap.map(([u, d]) => `  <url><loc>${absUrl(u)}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
+// llms.txt: AI 검색(ChatGPT·Claude·Perplexity 등)이 사이트를 한 번에 이해하게 하는 안내 파일(10/28~). 구글은 필요 없다고 했지만 해롭지 않아요.
+// 판정·날짜만 쓰고 아마존 가격은 쓰지 않아요(손익분기만).
+const llmsLine = (p) => {
+  const v = VERDICT[p.ev.verdict].label;
+  const when = p.checkedAt ? String(p.checkedAt).replace(/\s.*$/, '') : '';
+  const what = p.ev.kind === 'priced' ? `${v}: 해외 최종 체감가 ₩${krw(p.ev.cost.total)} vs 국내 최저가 ₩${krw(p.domesticKrw)}` : p.ev.kind === 'break' ? `${p.storeName} 가격이 $${p.ev.breakeven} 이하면 직구각 (국내 최저가 ₩${krw(p.domesticKrw)})` : v;
+  return `- [${p.name}](${absUrl('/p/' + p.slug)}): ${what}${when ? ` (${when} 기준)` : ''}`;
+};
+write('llms.txt', `# ${site.siteName}
+
+> ${site.description} 한국에 사는 사람이 알리익스프레스·아마존·아이허브에서 직구할 때, 관세·부가세·국제 배송비까지 더한 최종 가격이 쿠팡 등 국내 최저가보다 정말 싼지 판정하는 무료 사이트예요. 가입이 필요 없어요.
+
+## 판정 방법
+- 직구각: 해외 최종 체감가가 국내 최저가보다 20% 이상 그리고 ${krw(RULE.minSaveKrw)}원 이상 쌀 때. 조금 싸면 애매, 아니면 국내가 나음.
+- 같은 제품끼리만 비교해요(바코드 또는 제조사 모델번호·색·용량 같은 옵션 일치).
+- 면세 한도: 미국발 특송 200달러, 그 외 나라·우편 150달러, 건강기능식품은 어디서든 150달러(6병). 넘으면 배송비 포함 전체에 과세.
+- 환율: 관세 계산은 관세청 주간 과세환율, 달러 결제 금액은 한국수출입은행 매매기준율. ${FX_LABEL}.
+- 알리 가격은 신규 회원가·쿠폰이 아닌 일반 판매가예요. 아마존은 가격을 표시하지 않고 "이 가격 이하면 직구각"인 손익분기만 보여 줘요.
+- 직구각은 쿠팡 파트너스·알리익스프레스·아마존 제휴 링크로 수수료를 받을 수 있어요(구매가는 같아요). 국내가 더 싸면 그대로 국내가 나음이라고 판정해요.
+
+## 주요 페이지
+- [홈: 오늘의 판정·링크 붙여넣기 판정](${absUrl('/')})
+- [관세 계산기: 단품·장바구니 합산](${absUrl('/calculator')})
+- [광군제 알리 직구 최종가](${absUrl('/deals/1111')})
+- [해외 세일 캘린더](${absUrl('/calendar')})
+- [직구 가이드: 면세 한도·합산과세·통관부호](${absUrl('/guide')})
+
+## 상품별 판정
+${items.filter((p) => !p.sample).map(llmsLine).join('\n')}
+
+## 문의
+${site.contactEmail}
+`);
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin\n\nSitemap: ${absUrl('/sitemap.xml')}\n`);
 
 console.log(`빌드 완료: 페이지 ${8 + items.length}개 → dist/`);

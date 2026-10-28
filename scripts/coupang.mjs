@@ -156,6 +156,10 @@ let productsChanged = false;
 const alertsFile = 'data/price-alerts.json';
 const alerts = readJson(alertsFile, { note: '자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인). 처리하면 지워요.', items: {} });
 function applyPrice(p, field, newKrw, source, allowPct) {
+  // 국내가에 배송비가 따로 붙는 상품(domesticSource에 '+ 배송비 ₩…')은 API 상품가에 그 배송비를 더해서 비교해요.
+  // 10/28 레고 10309: API 57,180원을 그대로 넣어 배송비 10,000원이 빠진 국내가(67,180→57,180)가 사이트에 나갔던 문제.
+  const shipM = field === 'domesticKrw' && String(p.domesticSource || '').match(/배송비\s*₩\s*([\d,]+)/);
+  if (shipM && newKrw) newKrw += Number(shipM[1].replace(/,/g, ''));
   const old = p[field];
   if (!newKrw || newKrw === old) return 'same';
   const change = Math.abs(newKrw - old) / old;

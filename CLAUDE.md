@@ -38,10 +38,11 @@
 | sale-scout | 세일 일정 확인·추가, 주간 환율 | haiku |
 | site-inspector | 빌드·점검·화면 확인, 문제 보고(수정 안 함) | haiku |
 | product-scout | 새 상품 후보 발굴·판정 초안 | sonnet |
-| **마케팅팀** (`docs/marketing/` 가이드 공용) | | |
+| **마케팅팀** (`docs/marketing/` 가이드 공용, 모두 `product-context.md`부터 읽음) | | |
 | marketing-lead (팀장) | 홍보 기획안·주간 계획, 결과물 최종 검수(숫자·규칙·말투)·직접 수정 | opus |
 | trend-scout | 소재·상위 글 구조·훅 패턴 조사 | haiku |
 | blog-writer | 네이버 블로그 글 | sonnet |
+| seo-strategist | 사이트 페이지 검색·AI 답변 노출(제목·구조화 데이터·llms.txt·새 페이지 후보·월간 노출 점검), 제안만 | sonnet |
 | social-writer | 인스타 카드뉴스 문구·캡션·릴스 대본·스레드 | sonnet |
 | card-designer | 카드뉴스 이미지(1080×1350) 제작·확인 | sonnet |
 | cs-responder | 고객 문의 답장 초안(발송 안 함) | sonnet |
@@ -60,6 +61,8 @@
 | 가격·판정이 틀렸다, 가격 바뀌었나, 정기 가격 점검 | price-checker → site-inspector |
 | 세일·행사·캘린더·블프·환율 | sale-scout → site-inspector |
 | 상품 추가, 이런 상품도 판정해 줘, 상품이 적다 | product-scout → (매니저가 제휴 링크 생성) → site-inspector |
+| 검색 유입, SEO, 구글·네이버·AI 검색에 안 잡힘, 새 페이지 기획 | seo-strategist → (사이트 수정은 매니저) → site-inspector |
+| 큰 결정(새 기능·채널·직원·방향 전환), "법정 열어 줘" | 매니저가 `docs/court.md` 법정 → 운영자 결정 |
 | 홍보, 블로그, 인스타, 스레드, 카드뉴스, 방문자 늘리기 | (소재가 없으면 trend-scout) → marketing-lead 기획 → blog-writer·social-writer 동시 → card-designer → marketing-lead 검수 → 운영자에게 게시 승인 요청 |
 | 고객 문의·메일·댓글·DM 내용, 답장 | cs-responder (판정 오류 신고면 price-checker 추가) |
 | 사이트 확인, 점검, 배포 전, 뭔가 이상하다 | site-inspector → 문제 유형별 직원 |
@@ -69,6 +72,8 @@
 - **게시:** 운영자가 미리보기를 보고 "게시해"(또는 시간 지정)라고 해야만 올려요. 인스타·스레드는 `content/<폴더>/publish.json`(approved: true)을 push → GitHub Actions가 Meta 공식 API로 게시(`tools/publish/README.md`). 인스타·스레드 핸들은 @jikgugak.official. 네이버 블로그는 Claude 브라우저(기본 창·Claude in Chrome 모두)에서 안전 제한으로 열리지 않아요(2026-10-22 확인). 매니저가 붙여 넣기용 게시 키트(`tools/publish/naver/kit.py` → 아티팩트, 사진은 zip)를 만들어 주고, 운영자가 직접 올려요. 네이버 글쓰기 API는 2020-05-06 종료, 비공식 자동 포스팅(아이디·비번 매크로)은 약관 위반·계정 제재 위험이라 쓰지 않아요. 댓글·팔로우·DM 자동화는 하지 않아요.
 - **일 맡기는 쪽지(2026-10-27~):** 매니저는 직원을 부를 때 `docs/handoffs.md`의 직원별 쪽지 빈칸(기준 날짜·결과 파일·하지 말 것 필수)을 채워 프롬프트 맨 앞에 붙여요. 직원은 쪽지에 없는 숫자·날짜를 지어내지 않고, 꼭 필요한 빈칸은 보고 맨 위에 "빈칸: 무엇"으로 적어요.
 - **이번 주 핵심 3개:** 매주 월요일(또는 그 주 첫 세션) 매니저가 `docs/status.md` 0장에 11/30 목표(월 방문자 1천·첫 정산)에 가장 가까운 일 3개와 이번 주 안 할 일을 적고, 일을 받을 때 그 3개와 부딪히면 운영자에게 알려요.
+- **제품 맥락 한 장(10/28~):** `docs/marketing/product-context.md`가 직구각 소개·고객·경쟁·망설임·배운 것의 원본이에요. 마케팅 일이 끝나면 매니저가 9장 '배운 것'에 한 줄(날짜·근거) 추가하고 버전을 올려요.
+- **큰 결정은 법정 먼저(10/28~):** 되돌리기 어렵거나 크게 드는 결정은 `docs/court.md`(검사·변호인·배심원 12명, 숫자 입력)로 판결과 '뒤집히는 조건'을 받아 운영자에게 같이 보여 줘요. 판결문은 홍보에 쓰지 않아요.
 - **제휴 약관 점검:** 새 제휴 승인·약관 변경·새 채널에 제휴 링크를 넣기 전에 매니저가 `docs/affiliate-terms.md` 표를 채워요. "확인 안 됨" 칸의 행동은 하지 않아요.
 - 한 줄 질문이나 바로 답할 수 있는 건 직원 없이 매니저가 바로 답해요.
 - 가벼운 확인·검색은 haiku 직원, 판단이 필요한 일은 sonnet 직원에게. 매니저(가장 비싼 모델)는 배정·검토·최종 결정만.

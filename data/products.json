@@ -361,11 +361,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OAxXpVmK",
     "sample": false,
-    "checkedAt": "2026.10.28 쿠팡 자동",
+    "checkedAt": "2026.10.28 쿠팡 자동(배송비 10.25 확인값 더함)",
     "slug": "amazon-lego-10309-succulents",
     "name": "레고 보태니컬 다육식물 10309",
     "category": "toy",
-    "domesticKrw": 57180,
+    "domesticKrw": 67180,
     "domesticSource": "쿠팡 ₩57,180 + 배송비 ₩10,000",
     "buyUrl": "https://www.amazon.com/dp/B09Q4GWMZQ",
     "risks": [
@@ -388,6 +388,13 @@
         "from": 67180,
         "to": 57180,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 57180,
+        "to": 67180,
+        "source": "매니저 수정: 자동 반영이 배송비 10,000원을 뺀 것 되돌림"
       }
     ]
   },
