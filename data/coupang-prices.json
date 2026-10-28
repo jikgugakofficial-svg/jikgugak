@@ -75,7 +75,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-10-27T20:17:13.674Z",
+      "at": "2026-10-28T11:21:49.143Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -86,7 +86,7 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-10-27T21:15:50.719Z",
+      "at": "2026-10-28T11:21:49.427Z",
       "recordedKrw": 478280,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -94,21 +94,24 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-10-27T21:15:50.981Z",
-      "recordedKrw": 98800,
+      "at": "2026-10-28T11:21:49.843Z",
+      "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
       "isRocket": false,
-      "diff": -3580,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-10-27T21:15:51.471Z",
+      "at": "2026-10-28T11:21:50.147Z",
       "recordedKrw": 44900,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 59100,
+      "isRocket": false,
+      "diff": 14200,
+      "result": "held"
     },
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
@@ -421,5 +424,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T10:25:07.802Z"
+  "updatedAt": "2026-10-28T11:21:50.641Z"
 }

@@ -3298,7 +3298,81 @@
         "diff": 10300,
         "pct": 23
       }
+    },
+    "FiiO KA11": {
+      "q": "FiiO KA11",
+      "brand": "FiiO",
+      "model": "KA11",
+      "cat": "audio",
+      "why": "FiiO 휴대용 USB DAC 동글 인기 모델, 국내 정식 유통 + 알리 FiiO 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T11:21:44.867Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005013390398760",
+          "title": "FiiO KA11 오디오 어댑터, USB-C to 3.5mm, 32bit/384KHz, 안드로이드/iOS/윈도우용 HiFi DAC 앰프, 선물용",
+          "price": 47700,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6c4c57cb3977410395bc9ed65adf392fr.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013390398760.html"
+        },
+        {
+          "id": "1005012492464615",
+          "title": "FiiO KA11 휴대용 USB DAC 헤드폰 앰프 HiFi 오디오 어댑터 Type-C/Lightning 지원 iPhone Android용 DSD256 PCM384kHz",
+          "price": 70900,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfda84c6a1dbb4fe893564a57034381d6v.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012492464615.html"
+        },
+        {
+          "id": "1005013317211979",
+          "title": "FiiO KA11 DAC 헤드폰 앰프, USB Type C-라이트닝 어댑터, 고음질 오디오, DSD256 지원, 휴대용 이어폰 디코더, 선물용",
+          "price": 56300,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb21aef4dc5bc41d89e287920495b43e7x.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013317211979.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9776900236",
+          "name": "FiiO KA11",
+          "price": 43010,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/8ONuer9J2Bs5OZ4v8MXJzuYdsBWiuCrNS4LBxFzlaBJggr4FqX3_oKvLZJ8mKHfkhUCSRqXzdw_503s3iiPpn3L6xfJlQLQPxn5cPB9MNs3qnzZx3ZpHbnS2Qxzg-gEalPN_LL24xe-qSW0jkniEnnK4dwmWLBh-I1S4b6ZqfyvEe-uAbtYfUbSMKL2o2uve_cWYRhMwFvgt-_ayb1BxNtrLoE-QytCRF557Z-6qf9P2gK8jMFiyVRn8K0zxTX8QnQDzda1GexT_xu7-68kJd5C4PZNDVIY0asrwpcuB3UMLMop4_lxzR_o9gCjlQXNxNn0Tc7gBFc4CnM5NFnIiP8xDRP8rUy4WTMpqKDp-1oUY1YGXajzp7Syb3ox-y05N_2nnZTzGELsaCYi8b6EvO5T_JJvIq676QVksC-uuqveVcb4kMpQL09gLVllNAaMb-X0EFz8HMwkZ1KZW3GsYfFigGTpZL1u3s8EmRZ1l1AsJ-w6j8ZY9DbF7ii9jQjb4Bpi4e_2yIlI5xdveTasWn_6kyxMEy3ISETgnbAWJ-Bi3MCrt",
+          "url": "https://www.coupang.com/vp/products/9776900236"
+        },
+        {
+          "id": "9776900236",
+          "name": "FiiO KA11",
+          "price": 43010,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Z0GPd86FJztfkrbLZzvrlKTkSYkpQjhthd3Le9VPsurXdYivWHxmMmiLHT_aZNkYGAEYwD8bFfAHS70wsXKAXY2tDXWodQ4_zkixGwXrpnkJeMtlaEgu2gv_K9KxHolP2QMhf29cPUWiHrItpQjhU_ShZAQGcMQBCH7L1kobIS1C7zgwBVOvRMJXxT6J9IJf4ZRDjF132He1YlanOi92ychH2T09CjlLtQGCQKDMtjJwHi7ndICZkxnk-wK-A7BmGjesbePh3MInKoTai2X6OvMTYllh0bxaoY3ltc3rxQie_N2pMCBpJvLbbzMtp5HCDWdOyeD1mr5IyddNrYL_Dkeg9lnE_yUIBm9_-CtGBluEEIc-vN2OegeUwmrY5drobUfJX0BacH1Fue3113gT8lnTFNjK-AXp_D8pCU3ZH7Ln04jI7mDuoCPa0eJQtQGJMHN0wiL2qGk2Z6ZbjvTYEYAAuOTv8dD8n2TU6BoctjR-96hPrpzb59X8gponfAANKXZ5NZhGNjcylpLEZp09dJKh_8VSzbizaF03HCpPIhn1hA==",
+          "url": "https://www.coupang.com/vp/products/9776900236"
+        },
+        {
+          "id": "8863345031",
+          "name": "FiiO KA11 휴대용디코딩 DAC 헤드폰 앰프 DSD256 안드로이드 아이폰용, 티타늄",
+          "price": 47990,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/vQAMrZk7YaFirendvbyF-fNWODvKWrqLfUXqnmq_nTX0GKVeiM7ySM20UY8fTQnryoafMN6nGJmL-FUWFQkqsUY1zxgIdiN9_KJJYMv6u9YB93bEw9gMu_M_4FnbDRC2UYPJdn3-fKfAwIFseQYeq3lchSu12EM0RE78IpNhVG6I-zI0uaNlqjNRx-WIhQSPElnhXitZWpZ9Vx__3JpVGmvn3Dx4pC7eDPS9YF_PLPggs42inQ4tOP5Tqv8B2OsUJVx9wBk9hq5xFEcr_o1U6w_-gtdPPu7M-i1wq4m8svpep1Ra_MrB5GvaJ1NJ34d3_OlUKFG8qysnCzEJRYBGje8BNsCfyG_rWUZ8fuVSFxzhiCk3PbJE88PZvA6uVq-6xuRTm9tFU7D2jzfl_lUSpdR7XYLDxqJVyjZTM51ZA94QvgMiiyQ30tCHn3A8aUWsnzCR0mjKW6ugwQFkE_ubEE1XfspcBgcD1ybmXwh8a2PvfBk4fewIi77qWnJRVGR2TtH0UM6oMPOfreGVmP0J9hs3-qn4aLrw1msV12up0i4Ymw==",
+          "url": "https://www.coupang.com/vp/products/8863345031"
+        }
+      ],
+      "best": {
+        "aliId": "1005013390398760",
+        "coupangId": "9776900236",
+        "aliTotal": 47700,
+        "coupangPrice": 43010,
+        "verdict": "bad",
+        "diff": -4690,
+        "pct": -11
+      }
     }
   },
-  "updatedAt": "2026-10-28T09:27:29.713Z"
+  "updatedAt": "2026-10-28T11:21:48.823Z"
 }

@@ -12,7 +12,7 @@
       "source": "알리"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-10-28T08:30:46.992Z",
+      "at": "2026-10-28T11:21:54.268Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
@@ -30,7 +30,17 @@
       "change": "338%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "amazon-crocs-classic-clog:domesticKrw": {
+      "at": "2026-10-28T11:21:50.641Z",
+      "slug": "amazon-crocs-classic-clog",
+      "field": "domesticKrw",
+      "recorded": 44900,
+      "api": 59100,
+      "change": "32%",
+      "reason": "변화가 커서(30% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-10-28T10:25:11.828Z"
+  "updatedAt": "2026-10-28T11:21:54.268Z"
 }
