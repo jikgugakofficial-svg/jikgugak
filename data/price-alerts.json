@@ -20,7 +20,17 @@
       "change": "74%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
+    },
+    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
+      "at": "2026-10-28T09:27:30.161Z",
+      "slug": "iherb-now-vitamin-d3-k2-120",
+      "field": "domesticKrw",
+      "recorded": 10260,
+      "api": 44900,
+      "change": "338%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-10-28T08:30:47.436Z"
+  "updatedAt": "2026-10-28T09:27:34.541Z"
 }
