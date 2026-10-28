@@ -2624,7 +2624,329 @@
         "diff": -362880,
         "pct": -72
       }
+    },
+    "Edifier Comfo Base": {
+      "scoutRank": 16,
+      "q": "Edifier Comfo Base",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "Comfo Base 오픈형 클립형 무선 이어폰",
+      "cat": "audio",
+      "why": "퀘이사존 알리 핫딜 2026.06.05: 정가 약 $32에서 스토어 쿠폰·알리 쿠폰·코인샵 적용 $21.52(배송비 0). 같은 글 댓글(06.19)에 \"국내 정발 9.9만 원\". 쿠폰을 빼고 정가 $32(약 4만 원대)만 봐도 정발 약 9.9만 원의 절반 아래라 쿠폰이 약해져도 격차가 남는 편. 알리 일반가는 제휴 API 가격으로 다시 봐야 함. 정발가는 댓글 한 줄이라 쿠팡 최저가(로켓직구 포함)를 꼭 확인.",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1958778"
+      ],
+      "aliHint": "https://ko.aliexpress.com/item/1005012286407335.html (게시글 링크의 상품 번호. 에디파이어 공식 스토어인지는 확인 못 함)",
+      "coupangHint": "에디파이어 컴포 베이스 (Comfo Base) 오픈형 이어폰, 색상·정발/로켓직구 구분",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 퀘이사존 알리 핫딜 글 조회 7,413(2026.06.05), 오픈형 클립 이어폰 수요.",
+        "같은제품짝": "예(조건부): 모델명 Comfo Base 일치(method:model). 색상·번들(케이스 색) 맞추기. 알리 상세에 UPC/EAN이 있으면 쿠팡 Global Trade Item Number와 대조.",
+        "판정쓸모": "예: 정발 9.9만 원이 맞으면 알리 약 4~5만 원대로 직구각 폭이 커서 사람들이 \"정발 사야 하나\" 헷갈리는 구간. 쿠팡에 더 싼 로켓직구가 있으면 그 결과를 그대로 판정."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "Shokz OpenRun Pro 2": {
+      "scoutRank": 17,
+      "q": "Shokz OpenRun Pro 2",
+      "brand": "Shokz",
+      "brandKo": "샥즈",
+      "model": "OpenRun Pro 2 (S820)",
+      "cat": "audio",
+      "why": "다모앙 자유게시판 2026.04.03: \"정발 20만 원 중반, 알리 2주 전 13만 원대, 쿠팡 직구 약 16만 원\". 알리 13만 원대는 행사가일 수 있어 일반가(제휴 API)는 더 높을 수 있음. 쿠팡 직구가 16만 원이면 격차가 20% 안팎이라 낮은 확신. 앞서 거른 \"국내 정발이 싼 경우\"와 비슷한 위험(샥즈 코리아 정발 + 쿠팡 직구 병행).",
+      "evidence": [
+        "https://damoang.net/free/6075839"
+      ],
+      "aliHint": "https://ko.aliexpress.com/item/1005008262569449.html 또는 https://ko.aliexpress.com/item/1005010479833340.html (커뮤니티 링크에서 본 번호 두 개. 어느 쪽이 Shokz 공식 스토어의 OpenRun Pro 2 S820인지 매니저가 열어서 확인)",
+      "coupangHint": "샥즈 오픈런 프로2 S820 (정발과 로켓직구 구분, 색상)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 다모앙 2026.04.03 \"정발 vs 알리 vs 쿠팡 직구\" 고민 글, 퀘이사존 샥즈 알리 공구 글 다수.",
+        "같은제품짝": "예(조건부): 모델 S820 일치(method:model). 색상 맞추기. 정품 여부는 알리 공식 스토어(Shokz Official Store)에서만.",
+        "판정쓸모": "예: 정발·쿠팡 직구·알리 세 가격이 엇갈려 헷갈리는 대표 상품. 다만 쿠팡 직구가 16만 원 근처면 \"애매\"로 끝날 가능성이 커서 우선순위 낮음."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "Doctor's Best Glucosamine Chondroitin MSM 360": {
+      "scoutRank": 18,
+      "q": "Doctor's Best Glucosamine Chondroitin MSM 360",
+      "brand": "Doctor's Best",
+      "brandKo": "닥터스베스트",
+      "model": "글루코사민 콘드로이틴 MSM 베지캡슐 360정 · DRB-00364",
+      "cat": "supplement",
+      "why": "vitaprice.net(제3자 비교 사이트) 10/28 아이허브 ₩57,373 vs 쿠팡 판매자 배송 360정 1병 ₩89,380(10/25), 3병 묶음은 개당 ₩65,200(약 14%만 비쌈). kr.iherb.com 10/28 화면 ₩59,304(0% 할인 표시). 1병 기준으로는 약 55% 차이지만 3병 묶음이면 격차가 좁아지는 상품이라 쿠팡 \"최저 개당가\"를 봐야 함.",
+      "evidence": [
+        "https://vitaprice.net/products/doctor-s-best-glucosamine-chondroitin-msm-360-veggie-capsules"
+      ],
+      "aliHint": "",
+      "coupangHint": "닥터스베스트 글루코사민 콘드로이틴 MSM 360정 (옵티MSM 아님, 1병/3병 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/doctor-s-best-glucosamine-chondroitin-msm-360-veggie-capsules/57474",
+      "check3": {
+        "찾는사람": "예: 리뷰 94,803건 평점 4.8(kr.iherb.com 10/28). 관절 영양제 대용량 직구 단골.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 753950003644(kr.iherb.com 10/28)를 쿠팡 Global Trade Item Number와 대조(method:barcode). 360정만, 240정·\"OptiMSM\" 표기 다른 상품과 혼동 주의.",
+        "판정쓸모": "예: 1병 vs 3병 묶음에 따라 직구각/애매가 갈려 헷갈림. 쿠팡이 묶음 개당가로 가까우면 \"애매/국내가 나음\"도 쓸모 있음."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "Solgar Gentle Iron 25 mg 180": {
+      "scoutRank": 19,
+      "q": "Solgar Gentle Iron 25 mg 180",
+      "brand": "Solgar",
+      "brandKo": "솔가",
+      "model": "순한 철분(Gentle Iron) 25mg 베지캡슐 180정 · SOL-01250",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩22,734(kr.iherb.com 화면 ₩23,461) vs 쿠팡 로켓배송 ₩44,540(10/1, 2곳 동일). 아이허브는 4만 원 미만이라 배송비 ₩6,000을 더해도 약 ₩29,500 대 ₩44,540으로 약 34% · 약 ₩15,000 차이. 쿠팡 가격이 10/1 값이라 4주 지남.",
+      "evidence": [
+        "https://vitaprice.net/products/solgar-gentle-iron-25-mg-180-vegetable-capsules"
+      ],
+      "aliHint": "",
+      "coupangHint": "솔가 철분 25mg 180정 (90정 아님)",
+      "iherbHint": "https://kr.iherb.com/pr/solgar-gentle-iron-25-mg-180-vegetable-capsules/10625",
+      "check3": {
+        "찾는사람": "예: 리뷰 47,514건 평점 4.8(kr.iherb.com 10/28). 임산부·빈혈 영양제로 국내 검색이 많음.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 033984012509(kr.iherb.com 10/28)를 쿠팡 Global Trade Item Number와 대조(method:barcode). 180정만. 쿠팡이 국내 정식수입(솔가코리아) 제품이면 바코드·성분 표시가 다를 수 있어 variant 가능.",
+        "판정쓸모": "예: 로켓배송이 편해서 \"배송비 6천 원 더 내고 직구가 이득인가\"가 헷갈리는 소액 상품. 쿠팡에 로켓직구 더 싼 게 나오면 \"애매\"."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "Jarrow Vegan MSM 1000 mg 200": {
+      "scoutRank": 20,
+      "q": "Jarrow Vegan MSM 1000 mg 200",
+      "brand": "Jarrow Formulas",
+      "brandKo": "자로우 포뮬러스",
+      "model": "MSM 1,000mg 베지캡슐 200정 · JRW-19013",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩44,189(kr.iherb.com 10/28 화면도 ₩44,189) vs 쿠팡 판매자 배송 ₩57,100(10/1). 약 22.6% · 약 ₩12,900 차이로 판정 경계(20%, 1만 원)에 가까움. 쿠팡이 조금만 내려가면 \"애매\".",
+      "evidence": [
+        "https://vitaprice.net/products/jarrow-formulas-vegan-msm-1-000-mg-200-veggie-capsules"
+      ],
+      "aliHint": "",
+      "coupangHint": "자로우 MSM 1000mg 200정 (분말 1kg·옵티MSM 제품과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/jarrow-formulas-vegan-msm-1-000-mg-200-veggie-capsules/244",
+      "check3": {
+        "찾는사람": "예: 리뷰 8,735건 평점 4.6(kr.iherb.com 10/28). 관절·MSM 검색 꾸준.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 790011190134(kr.iherb.com 10/28)를 쿠팡 Global Trade Item Number와 대조(method:barcode). 쿠팡 상품명에 \"옵티MSM\"이 붙어 있어 같은 원료인지 사진의 용량·정 수로 재확인.",
+        "판정쓸모": "예: 격차가 경계선이라 \"직구각인지 애매인지\"가 실제로 갈리는 사례. 어느 쪽이든 쓸모 있음(단, 우선순위는 낮음)."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "Jarrow Ultra BoneUp 240": {
+      "scoutRank": 21,
+      "q": "Jarrow Ultra BoneUp 240",
+      "brand": "Jarrow Formulas",
+      "brandKo": "자로우 포뮬러스",
+      "model": "울트라 본업(Ultra BoneUp) 240정",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩55,527 vs 쿠팡 판매자 배송 ₩79,400(10/1, 다른 판매처 ₩149,400·₩219,400은 구성 확인 필요 표시). 약 30% · 약 ₩23,900 차이. 칼슘 400mg 제품이며 아이허브 단독 UPC·화면 가격은 kr.iherb.com에서 직접 못 읽음(상품 번호 8202는 vitaprice에서 가져옴).",
+      "evidence": [
+        "https://vitaprice.net/products/jarrow-formulas-ultra-boneup-240-tablets"
+      ],
+      "aliHint": "",
+      "coupangHint": "자로우 울트라 본업 240정 (Bone-Up 120/360 캡슐 제품과 다름)",
+      "iherbHint": "https://kr.iherb.com/pr/p/8202",
+      "check3": {
+        "찾는사람": "예(약함): 뼈 건강 영양제 비교 수요. 근거는 vitaprice 비교 한 건이라 커뮤니티 글은 못 찾음.",
+        "같은제품짝": "예(조건부): 아이허브 UPC는 매니저가 상품 페이지에서 확인해 쿠팡 Global Trade Item Number와 대조. \"Ultra BoneUp 240정(정제)\"만, \"Bone-Up 캡슐\"과 혼동 주의.",
+        "판정쓸모": "예: 쿠팡 가격이 판매처마다 2~3배라 어떤 쪽이 진짜 최저인지 헷갈리는 상품."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "Jarrow BroccoMax 120": {
+      "scoutRank": 22,
+      "q": "Jarrow BroccoMax 120",
+      "brand": "Jarrow Formulas",
+      "brandKo": "자로우 포뮬러스",
+      "model": "비건 브로콜맥스(BroccoMax) 120정 · 캡슐당 17.5mg",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩53,250(10/15~10/28 동일가) vs 쿠팡 2병 묶음 ₩134,000(개당 ₩67,000, 10/1). 개당 약 20.5% · 약 ₩13,750 차이로 경계선. 쿠팡 상품명이 \"35mg 120캡슐\"로 적혀 아이허브 \"17.5mg 캡슐당\"과 표기가 다름(1회 제공량 2캡슐=35mg일 가능성).",
+      "evidence": [
+        "https://vitaprice.net/products/jarrow-formulas-vegan-broccomax-120-veggie-capsules-17-5-mg-per-capsule"
+      ],
+      "aliHint": "",
+      "coupangHint": "자로우 브로코맥스 설포라판 120캡슐 (60캡슐·35mg 표기 확인)",
+      "iherbHint": "https://kr.iherb.com/pr/p/68704",
+      "check3": {
+        "찾는사람": "예(약함): 설포라판 수요. 커뮤니티 글은 못 찾음, vitaprice 한 건만 근거.",
+        "같은제품짝": "예(조건부): 바코드 대조 필요(매니저가 아이허브 UPC 확인). 쿠팡 판매자가 2병 묶음만 팔면 1병 비교가 안 되니 \"개당 가격\" 계산을 요약에 밝히기.",
+        "판정쓸모": "조건부: 2병 묶음만 있으면 비교가 번거로워 우선순위 낮음."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "Zint Collagen Peptides 454g": {
+      "scoutRank": 23,
+      "q": "Zint Collagen Peptides 454g",
+      "brand": "Zint",
+      "brandKo": "진트",
+      "model": "순수 목초 사육 콜라겐 펩타이드 무맛 팩형 454g(16oz)",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩38,266(kr.iherb.com 브랜드 페이지 ₩38,263, 20% 쿠폰 OCT26DAILY 적용 가격) vs 쿠팡 판매자 배송 팩형 ₩65,380(10/1), 용기형 ₩69,860. 쿠폰을 빼면 약 ₩47,800 수준이라 그래도 약 27% 쌈. 아이허브는 4만 원 미만 배송비 ₩6,000 추가(₩44,266).",
+      "evidence": [
+        "https://vitaprice.net/products/zint-pure-grass-fed-collagen-peptides-unflavored-bag-16-oz-454-g"
+      ],
+      "aliHint": "",
+      "coupangHint": "진트 순수 목초 사육 콜라겐 펩타이드 454g 무맛 (팩형/용기형 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/p/71745",
+      "check3": {
+        "찾는사람": "예: 콜라겐 펩타이드 검색 많음. 근거는 vitaprice 비교 한 건(커뮤니티 글 못 찾음).",
+        "같은제품짝": "예(조건부): 아이허브 UPC 확인 후 쿠팡 바코드 대조. 팩형(Bag)과 용기형(Tub) 바코드가 다를 수 있어 쿠팡의 \"팩형\"만 짝.",
+        "판정쓸모": "예: 쿠팡 2종(팩/용기)이 가격이 달라 헷갈림."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "CGN Hydrolyzed Marine Collagen 500g": {
+      "scoutRank": 24,
+      "q": "CGN Hydrolyzed Marine Collagen 500g",
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "model": "가수분해 해양 콜라겐 펩타이드 무맛 500g(1.1lb)",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩58,214 vs 쿠팡 판매자 배송 ₩82,000(10/1). 약 29% · 약 ₩23,800 차이. kr.iherb.com 카테고리 화면도 ₩58,214로 일치. 아이허브 독점 자체 브랜드라 쿠팡 쪽엔 재판매 마진이 붙는 패턴(이미 등록한 CGN 두 개와 같음).",
+      "evidence": [
+        "https://vitaprice.net/products/california-gold-nutrition-hydrolyzed-marine-collagen-peptides-unflavored-1-1-lb-500-g"
+      ],
+      "aliHint": "",
+      "coupangHint": "CGN 가수분해 해양 콜라겐 펩타이드 무맛 500g (200g·CollagenUP 제품과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/p/102077",
+      "check3": {
+        "찾는사람": "예: 해양 콜라겐 분말 검색 수요. 근거는 vitaprice 한 건과 이미 등록한 CGN 사례.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 확인 후 쿠팡 바코드 대조(method:barcode). 500g만, 200g(102076)과 혼동 주의.",
+        "판정쓸모": "예: 쿠팡 CGN이 더 비싼 패턴이 반복되는지 확인하는 의미 있음."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "CGN Buffered Gold C powder 1kg": {
+      "scoutRank": 25,
+      "q": "CGN Buffered Gold C powder 1kg",
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "model": "버퍼드 Gold C 비산성 비타민C 분말(아스코르브산 나트륨) 1kg · CGN-01879",
+      "cat": "supplement",
+      "why": "kr.iherb.com 10/28 화면 ₩48,695(\"장바구니에서 25% 할인\" 적용, 정가 ₩64,926) vs 쿠팡 판매자 배송 ₩94,980(10/1, vitaprice). 쿠폰을 빼고 ₩64,926~64,014로 봐도 약 32% · 약 ₩30,000 차이라 쿠폰 의존이 약한 편. 리뷰 21,724건 평점 4.8.",
+      "evidence": [
+        "https://vitaprice.net/products/california-gold-nutrition-buffered-gold-c-non-acidic-vitamin-c-powder-sodium-ascorbate-2-2-lb-1-kg"
+      ],
+      "aliHint": "",
+      "coupangHint": "CGN 버퍼드 비타민C 1kg 파우더 (238g 제품과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-buffered-gold-c-non-acidic-vitamin-c-powder-sodium-ascorbate-2-2-lb-1-kg/102397",
+      "check3": {
+        "찾는사람": "예: 리뷰 21,724건(kr.iherb.com 10/28), 비타민C 분말 대용량 직구 수요.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220018796(kr.iherb.com 10/28)를 쿠팡 Global Trade Item Number와 대조(method:barcode). 1kg만.",
+        "판정쓸모": "예: 쿠팡 ₩94,980은 비정상적으로 비싼 편이라 \"쿠팡 최저가에 로켓직구 등 싼 게 있는지\"가 핵심 확인점."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "CGN S-Acetyl L-Glutathione 120": {
+      "scoutRank": 26,
+      "q": "CGN S-Acetyl L-Glutathione 120",
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "model": "S-아세틸 L-글루타치온 100mg 베지캡슐 120정 · CGN-01900",
+      "cat": "supplement",
+      "why": "kr.iherb.com 10/28 ₩57,208(0% 할인 표시) vs 쿠팡 판매자 배송 3곳(vitaprice 10/1): ₩81,300, ₩84,000, 4개 묶음 개당 ₩72,245. 가장 싼 쿠팡 단품 기준 약 42% · 약 ₩24,100 차이. 리뷰 7,592건 평점 4.7.",
+      "evidence": [
+        "https://vitaprice.net/products/california-gold-nutrition-s-acetyl-l-glutathione-100-mg-120-veggie-capsules"
+      ],
+      "aliHint": "",
+      "coupangHint": "CGN S-아세틸 L-글루타치온 100mg 120캡슐 (30캡슐·환원형 500mg 제품과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/california-gold-nutrition-s-acetyl-l-glutathione-100-mg-120-veggie-capsules/103272",
+      "check3": {
+        "찾는사람": "예: 리뷰 7,592건(kr.iherb.com 10/28). 글루타치온 검색량이 많은 편.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 898220019007(kr.iherb.com 10/28)를 쿠팡 Global Trade Item Number와 대조(method:barcode). 120캡슐만.",
+        "판정쓸모": "예: 쿠팡 판매처 3곳 가격이 8만 원대~개당 7만 원대로 흩어져 있어 어느 쪽이 최저인지 헷갈림."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "CGN French Pine Bark Oligopin 180": {
+      "scoutRank": 27,
+      "q": "CGN French Pine Bark Oligopin 180",
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "model": "프렌치 마리타임 소나무 껍질 추출물 올리고핀 100mg 베지캡슐 180정",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩100,367(배송비 포함 비교가) vs 쿠팡 판매자 배송 ₩132,520(10/1, 다른 판매처 2통 ₩220,000=개당 ₩110,000). 단품 기준 약 24% · 약 ₩32,000 차이이나 2통 묶음 개당가로는 약 ₩9,600만 차이. 쿠팡 가격 단품/묶음에 따라 갈림.",
+      "evidence": [
+        "https://vitaprice.net/products/california-gold-nutrition-french-maritime-pine-bark-extract-oligopin-100-mg-180-veggie-capsules"
+      ],
+      "aliHint": "",
+      "coupangHint": "CGN 올리고핀 소나무껍질추출물 100mg 180캡슐 (1통, 2통 묶음 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/p/98303",
+      "check3": {
+        "찾는사람": "예(약함): 프랑스 해송껍질 추출물 검색. 근거는 vitaprice 한 건.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 확인 후 쿠팡 바코드 대조. 180캡슐 1통만 짝.",
+        "판정쓸모": "조건부: 쿠팡이 묶음이면 개당 비교가 필요. 고가 상품이라 판정 폭이 큼."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "CGN Resveratrol Complex 250": {
+      "scoutRank": 28,
+      "q": "CGN Resveratrol Complex 250",
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "model": "레스베라트롤 복합체(포도씨·레드와인 추출물 + 트랜스 레스베라트롤) 베지캡슐 250정",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩44,009(FESTA25 25% 쿠폰 적용 가격) vs 쿠팡 판매자 배송 ₩68,750(10/1; 같은 이름 ₩142,400 상품은 구성 확인 필요). 쿠폰을 빼면 아이허브 약 ₩58,700로 차이가 약 15%로 줄어 \"쿠폰 의존, 낮은 확신\". 쿠폰 기간(festa) 끝나면 애매일 가능성.",
+      "evidence": [
+        "https://vitaprice.net/products/california-gold-nutrition-resveratrol-complex-with-grape-seed-extract-red-wine-extract-and-trans-resveratrol-250-veggie-capsules"
+      ],
+      "aliHint": "",
+      "coupangHint": "CGN 레스베라트롤 복합체 250캡슐 (60캡슐 제품과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/p/96289",
+      "check3": {
+        "찾는사람": "조건부(약함): 근거는 vitaprice 한 건. 쿠폰 의존이라 순위 낮음.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 확인 후 쿠팡 바코드 대조. 250캡슐만.",
+        "판정쓸모": "조건부: 쿠폰 유무로 직구각↔애매가 갈려 헷갈림은 맞지만 가격이 자주 바뀌어 유지 비용이 큼."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
+    },
+    "CGN Organic Spirulina 720": {
+      "scoutRank": 29,
+      "q": "CGN Organic Spirulina 720",
+      "brand": "California Gold Nutrition",
+      "brandKo": "캘리포니아골드뉴트리션",
+      "model": "유기농 스피룰리나(피코시아닌·엽록소·카로티노이드) 720정",
+      "cat": "supplement",
+      "why": "vitaprice.net 10/28 아이허브 ₩41,641(FESTA25 25% 쿠폰 적용, 정가 ₩63,391) vs 쿠팡 판매자 배송 ₩57,500(10/1). 쿠폰 적용 시 약 38% 차이지만 정가 ₩63,391이면 쿠팡이 더 쌈. 쿠폰 의존이 가장 큰 후보라 맨 마지막 순위.",
+      "evidence": [
+        "https://vitaprice.net/products/california-gold-nutrition-organic-spirulina-with-phycocyanin-chlorophyll-and-carotenoids-720-tablets"
+      ],
+      "aliHint": "",
+      "coupangHint": "CGN 유기농 스피룰리나 720정 (60정 제품과 구분)",
+      "iherbHint": "https://kr.iherb.com/pr/p/77295",
+      "check3": {
+        "찾는사람": "조건부(약함): 스피룰리나 대용량 검색은 있으나 근거는 vitaprice 한 건.",
+        "같은제품짝": "예(조건부): 아이허브 UPC 확인 후 쿠팡 바코드 대조. 720정만.",
+        "판정쓸모": "조건부: 쿠폰 뺀 일반가에선 \"국내가 나음\"이라 쿠폰 문구를 요약에 밝혀야 함. 순위 낮음."
+      },
+      "source": "web",
+      "status": "web",
+      "at": "2026-10-28T01:00:00.000Z"
     }
   },
-  "updatedAt": "2026-10-27T21:15:50.417Z"
+  "updatedAt": "2026-10-28T01:00:00.000Z"
 }
