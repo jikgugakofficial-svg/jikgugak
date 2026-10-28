@@ -1,0 +1,405 @@
+{
+  "at": "2026-10-28T14:53:03.830Z",
+  "window": "최근 7일",
+  "instagram": {
+    "profile": {
+      "user_id": "17841415545240133",
+      "username": "jikgugak.official",
+      "name": "직구각 | 해외직구 관세 계산",
+      "biography": "직구, 관세까지 넣어도 진짜 쌀까?\n링크 붙이고 국내 최저가만 넣으면 바로 판정!\n가입 없이 무료 · 국내가 나으면 그렇다고 말해요",
+      "website": "https://www.jikgugak.com/deals/1111?utm_source=instagram",
+      "followers_count": 1,
+      "follows_count": 6,
+      "media_count": 8,
+      "account_type": "BUSINESS",
+      "id": "28724042543919894"
+    },
+    "account7d": {
+      "reach": 181,
+      "views": 258,
+      "profile_views": 22,
+      "website_clicks": 3,
+      "accounts_engaged": 1,
+      "total_interactions": 4,
+      "profile_links_taps": 0
+    },
+    "media": [
+      {
+        "permalink": "https://www.instagram.com/reel/DfCHjGEjoVA/",
+        "timestamp": "2026-10-28T09:32:50+0000",
+        "type": "VIDEO",
+        "firstLine": "광군제 장바구니 속 샤오미 밴드, 이틀 만에 뒤집혔어요. 2,615원 차이예요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 34,
+          "views": 35,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0
+        },
+        "insightsFullError": "/18147210499530555/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AM03_5r2g3ZcaNg0UaVfRY0\"}"
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DfCHhPYlfxC/",
+        "timestamp": "2026-10-28T09:32:14+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "광군제 장바구니 속 샤오미 밴드, 이틀 만에 뒤집혔어요. 2,615원 차이예요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 0,
+          "views": 0,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "follows": 0
+        }
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/DfBe2gzFU8Q/",
+        "timestamp": "2026-10-28T03:37:08+0000",
+        "type": "VIDEO",
+        "firstLine": "직구 가격 비교하느라 창 몇 개 열어 보셨어요?",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 14,
+          "views": 15,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0
+        },
+        "insightsFullError": "/17993811537052347/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A3cVO0pamjJSJ18ZHjWB56v\"}"
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/De_iDhFiQNi/",
+        "timestamp": "2026-10-27T09:26:44+0000",
+        "type": "VIDEO",
+        "firstLine": "아이허브 오메가3, 쿠팡 로켓직구보다 26,588원 비쌌어요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 37,
+          "views": 41,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0
+        },
+        "insightsFullError": "/18012672923968954/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AvKog2jASnA1WoTxdW2rRIq\"}"
+      },
+      {
+        "permalink": "https://www.instagram.com/p/De_iBjzFG32/",
+        "timestamp": "2026-10-27T09:26:07+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "아이허브 오메가3, 쿠팡 로켓직구보다 26,588원 비쌌어요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 2,
+          "views": 5,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "follows": 0
+        }
+      },
+      {
+        "permalink": "https://www.instagram.com/reel/De-4wQODclh/",
+        "timestamp": "2026-10-27T03:25:51+0000",
+        "type": "VIDEO",
+        "firstLine": "직구가 더 싸 보일 때, 다 더해 보셨어요?",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 100,
+          "views": 142,
+          "saved": 0,
+          "shares": 1,
+          "total_interactions": 1
+        },
+        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A0jhshjfVN8Z3MUATo3MNve\"}"
+      },
+      {
+        "permalink": "https://www.instagram.com/p/De6XG5yEb8s/",
+        "timestamp": "2026-10-25T09:14:33+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "아이허브는 ₩40,000 미만이면 배송비 ₩6,000이 붙어요 #광고",
+        "likes": 1,
+        "comments": 0,
+        "insights": {
+          "reach": 1,
+          "views": 2,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 1,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "follows": 0
+        }
+      },
+      {
+        "permalink": "https://www.instagram.com/p/De3yRfNm0CP/",
+        "timestamp": "2026-10-24T09:14:11+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "광군제 11.11 전에, 할인율 말고 최종가부터 보세요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 1,
+          "views": 8,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "follows": 0
+        }
+      },
+      {
+        "permalink": "https://www.instagram.com/p/De1HqrKlkCO/",
+        "timestamp": "2026-10-23T08:23:23+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "가입도 설치도 없이 관세까지 계산해요 #광고",
+        "likes": 1,
+        "comments": 0,
+        "insights": {
+          "reach": 1,
+          "views": 4,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 1,
+          "profile_visits": 3,
+          "profile_activity": 1,
+          "follows": 0
+        }
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DeymR2NGzhq/",
+        "timestamp": "2026-10-22T08:53:10+0000",
+        "type": "CAROUSEL_ALBUM",
+        "firstLine": "쿠팡 결제 전에 딱 한 번, 해외 최종가부터 검색해 봐요 #광고",
+        "likes": 0,
+        "comments": 0,
+        "insights": {
+          "reach": 5,
+          "views": 5,
+          "saved": 0,
+          "shares": 0,
+          "total_interactions": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "follows": 0
+        }
+      }
+    ]
+  },
+  "threads": {
+    "profile": {
+      "id": "28881707534848334",
+      "username": "jikgugak.official",
+      "name": "직구각",
+      "threads_biography": "해외직구, 어렵게 재지 말고 '직구각'에서 각 잡으세요",
+      "is_verified": false
+    },
+    "account7d": {
+      "views": 0,
+      "likes": 0,
+      "replies": 0,
+      "reposts": 0,
+      "quotes": 0,
+      "clicks": null,
+      "followers_count": 102
+    },
+    "posts": [
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/DfCHnTnlb15",
+        "timestamp": "2026-10-28T09:33:03+0000",
+        "topicTag": "광군제",
+        "hasLink": false,
+        "firstLine": "(광고) 광군제 장바구니 속 샤오미 밴드, 이틀 만에 뒤집혔어요. 2,615원 차이예요.",
+        "insights": {
+          "views": 20,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_wqW5Gw-j",
+        "timestamp": "2026-10-27T11:34:01+0000",
+        "topicTag": "넾다세일",
+        "hasLink": false,
+        "firstLine": "(광고) 하루 만에 직구 판정이 뒤집힌 상품이 있어요. 샤오미 스마트 밴드 10 프로예요.",
+        "insights": {
+          "views": 28,
+          "likes": 0,
+          "replies": 0,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_iHsjlGFk",
+        "timestamp": "2026-10-27T09:26:56+0000",
+        "topicTag": "아이허브",
+        "hasLink": false,
+        "firstLine": "(광고) 아이허브가 늘 싸다고 생각했는데, 같은 스포츠리서치 오메가3 180정이 쿠팡 로켓직구보다 26,58",
+        "insights": {
+          "views": 53,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De6XI2skclI",
+        "timestamp": "2026-10-25T09:14:48+0000",
+        "topicTag": "면세한도",
+        "hasLink": true,
+        "firstLine": "(광고) 면세 한도는 $150이에요. 미국 특송은 $200이고, 한도를 넘으면 배송비 포함 전체에 세금이 붙",
+        "insights": {
+          "views": 26,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De3yTNsG3QI",
+        "timestamp": "2026-10-24T09:14:25+0000",
+        "topicTag": "광군제",
+        "hasLink": true,
+        "firstLine": "(광고) 광군제 11.11 전에 하나만 정해 두세요. 할인율이 아니라 최종가로 비교하기로요.",
+        "insights": {
+          "views": 8,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De1HsNylslP",
+        "timestamp": "2026-10-23T08:23:36+0000",
+        "topicTag": "해외직구",
+        "hasLink": false,
+        "firstLine": "직구 관세, 가입 없이 바로 계산할 수 있어요.",
+        "insights": {
+          "views": 50,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/DeymTi9mztS",
+        "timestamp": "2026-10-22T08:53:24+0000",
+        "topicTag": "광고",
+        "hasLink": true,
+        "firstLine": "쿠팡에서 결제하기 전에, 해외 최종가부터 한 번만 검색해 보세요.",
+        "insights": {
+          "views": 40,
+          "likes": 0,
+          "replies": 1,
+          "reposts": 0,
+          "quotes": 0,
+          "shares": 0
+        }
+      }
+    ],
+    "replies": [
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/DfCHo9plY2Q",
+        "timestamp": "2026-10-28T09:33:16+0000",
+        "hasLink": false,
+        "firstLine": "결제 전에 이것만 다시 보세요.",
+        "insights": {
+          "views": 1,
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_iJOUFAKy",
+        "timestamp": "2026-10-27T09:27:08+0000",
+        "hasLink": false,
+        "firstLine": "반대로 아이허브가 나은 경우도 있어요.",
+        "insights": {
+          "views": 4,
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De_h6JCkVKa",
+        "timestamp": "2026-10-27T09:25:06+0000",
+        "hasLink": false,
+        "firstLine": "반대로 아이허브가 나은 경우도 있어요.",
+        "insights": {
+          "views": 3,
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De6XK-SEaiX",
+        "timestamp": "2026-10-25T09:15:05+0000",
+        "hasLink": false,
+        "firstLine": "한도와 함께 볼 게 배송비예요. 아이허브는 ₩40,000 미만 주문에 배송비 ₩6,000이 붙어서, 살 게 ",
+        "insights": {
+          "views": 2,
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De3yVijm0Gw",
+        "timestamp": "2026-10-24T09:14:44+0000",
+        "hasLink": false,
+        "firstLine": "세일이어도 판정 기준은 그대로예요. 국내보다 20% 이상 싸고 그 차이가 ₩10,000 이상이어야 직구각이에",
+        "insights": {
+          "views": 3,
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/De1Ht1PFp3S",
+        "timestamp": "2026-10-23T08:23:49+0000",
+        "hasLink": true,
+        "firstLine": "계산에 들어가는 건 상품가, 국제 배송비, 관세·부가세예요. 직구각이 이걸 다 더해서 보여 주니까 계산식을 ",
+        "insights": {
+          "views": 1,
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "permalink": "https://www.threads.com/@jikgugak.official/post/DeymVncG8cx",
+        "timestamp": "2026-10-22T08:53:41+0000",
+        "hasLink": true,
+        "firstLine": "결제 전에 가격 비교, 몇 군데나 해 보세요?",
+        "insights": {
+          "views": 2,
+          "likes": 0,
+          "replies": 0
+        }
+      }
+    ]
+  }
+}
