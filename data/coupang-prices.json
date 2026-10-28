@@ -376,7 +376,45 @@
       "isRocket": false,
       "diff": 0,
       "result": "same"
+    },
+    "ali-baseus-inspire-xh1": {
+      "productId": "9241501985",
+      "keyword": "베이스어스 인스파이어 XH1",
+      "at": "2026-10-28T01:37:01.053Z",
+      "recordedKrw": 316300,
+      "found": true,
+      "apiPrice": 316300,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
+    },
+    "iherb-cgn-s-acetyl-glutathione-120": {
+      "productId": "6584056433",
+      "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
+      "at": "2026-10-28T01:37:01.353Z",
+      "recordedKrw": 81300,
+      "found": true,
+      "apiPrice": 81300,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
+    },
+    "iherb-cgn-marine-collagen-500g": {
+      "productId": "9127064765",
+      "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
+      "at": "2026-10-28T01:37:01.764Z",
+      "recordedKrw": 82000,
+      "found": false,
+      "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
+    },
+    "iherb-jarrow-ultra-boneup-240": {
+      "productId": "8340015166",
+      "keyword": "자로우 울트라 본업 240정",
+      "at": "2026-10-28T01:37:02.082Z",
+      "recordedKrw": 79400,
+      "found": false,
+      "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-28T00:09:26.255Z"
+  "updatedAt": "2026-10-28T01:37:02.377Z"
 }
