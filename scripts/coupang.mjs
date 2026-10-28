@@ -137,14 +137,14 @@ async function discover() {
 if (mode === 'discover') { await discover(); summary(out.join('\n')); }
 // 사진 없는 등록 상품: 쿠팡 파트너스 검색 결과에서 같은 상품 번호의 제공 이미지(productImage)를 넣어요(절대 규칙 6). 매시간 후보 발굴보다 먼저, 최대 4개(없으면 0번)
 async function fillImages(max = 2) {
-  const need = products.filter((p) => !p.hidden && !p.image && !(p.parts || []).some((x) => x.image) && productIdOf(p.domesticCheckUrl)).slice(0, max);
+  const need = products.filter((p) => !p.hidden && !p.image && !p.imageSkip && !(p.parts || []).some((x) => x.image) && productIdOf(p.domesticCheckUrl)).slice(0, max);
   for (const p of need) {
     if (searchBudgetLeft() <= 0) break;
     const id = productIdOf(p.domesticCheckUrl);
     const keyword = (p.coupangKeyword || p.name).replace(/\(.*?\)/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 50);
     try {
       const hit = (await search(keyword, 10)).find((h) => String(h.productId) === id && h.productImage);
-      if (hit) { p.image = hit.productImage; productsChanged = true; out.push(`- 사진 추가: ${p.slug}`); }
+      if (hit) { p.image = hit.productImage; productsChanged = true; out.push(`- 사진 추가: ${p.slug} (매니저가 사이트에서 사진이 비교 구성과 맞는지 확인, 안 맞으면 image 지우고 imageSkip에 이유)`); }
       else out.push(`- 사진 못 찾음: ${p.slug} (검색어 '${keyword}' 상위 10개에 같은 상품 번호 없음 → coupangKeyword 고치기)`);
     } catch (e) { out.push(`- 사진 확인 실패: ${p.slug} ${String(e.message).slice(0, 80)}`); break; }
   }
@@ -231,7 +231,7 @@ if (mode === 'prices' || mode === 'hourly') {
       const hit = (wantItem && same.find((h) => itemIdOf(h.productUrl) === wantItem)) || (!wantItem && same[0]) || null;
       // 사진이 없는 상품은 같은 상품 번호의 쿠팡 파트너스 제공 이미지(productImage)를 넣어요(절대 규칙 6: 제휴 프로그램이 주는 사진만). 10/28 아이허브 신규 4개
       const imgHit = same.find((h) => h.productImage);
-      if (imgHit && !p.image && !(p.parts || []).some((x) => x.image)) { p.image = imgHit.productImage; productsChanged = true; item.imageAdded = true; }
+      if (imgHit && !p.image && !p.imageSkip && !(p.parts || []).some((x) => x.image)) { p.image = imgHit.productImage; productsChanged = true; item.imageAdded = true; }
       if (hit) {
         Object.assign(item, { found: true, apiPrice: hit.productPrice, isRocket: hit.isRocket, diff: hit.productPrice - p.domesticKrw });
         item.result = applyPrice(p, 'domesticKrw', hit.productPrice, '쿠팡', wantItem ? MAX_CHANGE.withOption : MAX_CHANGE.noOption);
