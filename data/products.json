@@ -1951,5 +1951,44 @@
       "note": "쿠팡 상세에 바코드 표기가 없어 상품명·정 수(Ultra BoneUp 240정)로 확인. 아이허브 UPC 790011040057",
       "checkedAt": "2026.10.28"
     }
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상이라 배송비 없음",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.28 오후",
+    "slug": "iherb-cgn-organic-spirulina-720",
+    "name": "캘리포니아골드뉴트리션 유기농 스피룰리나 500mg 720정",
+    "priceKrw": 41641,
+    "domesticKrw": 56400,
+    "domesticUrl": "https://link.coupang.com/a/ic5kAVDfDE",
+    "domesticSource": "쿠팡 ₩49,700 + 배송비 ₩6,700",
+    "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-organic-spirulina-720-tablets/77295",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6168309514?itemId=22350372998",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-organic-spirulina-720-tablets/77295",
+    "coupangKeyword": "캘리포니아 골드 뉴트리션 올가닉 스피루리나 500mg 720정",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준(배송비 포함)",
+      "6병까지 자가사용 인정",
+      "60정·240정 제품과 용량이 달라요"
+    ],
+    "summary": [
+      "캘리포니아골드뉴트리션 유기농 스피룰리나 500mg 720정끼리 비교했어요.",
+      "쿠팡은 배송비 6,700원이 따로 붙어요. 아이허브가 {diff}({pct}) 싸고, 4만 원이 넘어 배송비도 없어요.",
+      "아이허브 화면의 할인 코드는 빼고 1회 구매가로 비교했어요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "898220011766",
+      "model": "CGN Organic Spirulina 500mg 720 Tablets",
+      "note": "쿠팡 상세에 바코드 표기가 없어 상품명·함량·정 수(유기농 스피룰리나 500mg 720정)로 확인. 아이허브 UPC 898220011766",
+      "checkedAt": "2026.10.28"
+    }
   }
 ]
