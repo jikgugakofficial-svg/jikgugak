@@ -295,12 +295,12 @@
     "iherb-now-ultra-omega3-180": {
       "productId": "9392378613",
       "keyword": "나우푸드 울트라 오메가3 180정",
-      "at": "2026-10-27T15:27:28.479Z",
-      "recordedKrw": 33480,
+      "at": "2026-10-28T05:20:13.221Z",
+      "recordedKrw": 38130,
       "found": true,
-      "apiPrice": 38130,
+      "apiPrice": 33060,
       "isRocket": false,
-      "diff": 4650,
+      "diff": -5070,
       "result": "applied"
     },
     "iherb-now-magnesium-caps-400-180": {
@@ -413,5 +413,5 @@
       "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-28T04:22:04.196Z"
+  "updatedAt": "2026-10-28T05:20:13.865Z"
 }
