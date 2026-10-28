@@ -209,6 +209,9 @@ if (mode === 'prices' || mode === 'hourly') {
       // productUrl 은 제휴 링크라 열지 않고, 주소 글자에서 옵션 번호(itemId)만 읽어요
       const same = hits.filter((h) => String(h.productId) === id);
       const hit = (wantItem && same.find((h) => itemIdOf(h.productUrl) === wantItem)) || (!wantItem && same[0]) || null;
+      // 사진이 없는 상품은 같은 상품 번호의 쿠팡 파트너스 제공 이미지(productImage)를 넣어요(절대 규칙 6: 제휴 프로그램이 주는 사진만). 10/28 아이허브 신규 4개
+      const imgHit = same.find((h) => h.productImage);
+      if (imgHit && !p.image && !(p.parts || []).some((x) => x.image)) { p.image = imgHit.productImage; productsChanged = true; item.imageAdded = true; }
       if (hit) {
         Object.assign(item, { found: true, apiPrice: hit.productPrice, isRocket: hit.isRocket, diff: hit.productPrice - p.domesticKrw });
         item.result = applyPrice(p, 'domesticKrw', hit.productPrice, '쿠팡', wantItem ? MAX_CHANGE.withOption : MAX_CHANGE.noOption);
