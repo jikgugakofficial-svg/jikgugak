@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-28T06:44:23.435Z",
-  "mode": "prices",
+  "at": "2026-10-28T07:40:09.271Z",
+  "mode": "hourly",
   "ok": true,
-  "message": "가격 확인 쿠팡 2개·알리 3개 · 확인할 것 2개(price-alerts)"
+  "message": "- 사진 확인 실패: iherb-cgn-s-acetyl-glutathione-120 Cannot access 'productsChanged' before initialization"
 }

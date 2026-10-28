@@ -4,7 +4,7 @@
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
       "keyword": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-      "at": "2026-10-27T17:29:28.373Z",
+      "at": "2026-10-28T07:40:01.680Z",
       "recordedKrw": 31170,
       "found": true,
       "apiPrice": 31170,
@@ -15,12 +15,12 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-10-27T17:29:28.687Z",
-      "recordedKrw": 23680,
+      "at": "2026-10-28T07:40:02.328Z",
+      "recordedKrw": 26460,
       "found": true,
-      "apiPrice": 26460,
+      "apiPrice": 23430,
       "isRocket": false,
-      "diff": 2780,
+      "diff": -3030,
       "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
@@ -352,7 +352,7 @@
     "ali-edifier-evobuds-pro": {
       "productId": "9340326719",
       "keyword": "EDIFIER EvoBuds Pro",
-      "at": "2026-10-27T17:29:27.744Z",
+      "at": "2026-10-28T07:40:00.706Z",
       "recordedKrw": 114460,
       "found": true,
       "apiPrice": 114460,
@@ -363,7 +363,7 @@
     "iherb-cgn-coq10-100-360": {
       "productId": "9294384581",
       "keyword": "캘리포니아 골드 뉴트리션 CoQ10 USP 등급 유비퀴논 100mg 360정",
-      "at": "2026-10-27T17:29:28.061Z",
+      "at": "2026-10-28T07:40:01.360Z",
       "recordedKrw": 95800,
       "found": true,
       "apiPrice": 95800,
@@ -421,5 +421,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T06:44:17.366Z"
+  "updatedAt": "2026-10-28T07:40:02.729Z"
 }

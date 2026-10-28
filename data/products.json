@@ -53,7 +53,7 @@
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 27946,
-    "domesticKrw": 26460,
+    "domesticKrw": 23430,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -82,6 +82,13 @@
         "field": "domesticKrw",
         "from": 23680,
         "to": 26460,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 26460,
+        "to": 23430,
         "source": "쿠팡"
       }
     ]
@@ -1886,7 +1893,8 @@
       "model": "CGN S-Acetyl L-Glutathione 100mg 120 Veggie Capsules",
       "note": "쿠팡 상세에 바코드 표기가 없어 상품명·함량·정 수(100mg, 식물성 120캡슐)로 확인. 아이허브 UPC 898220019007",
       "checkedAt": "2026.10.28"
-    }
+    },
+    "image": "https://ads-partners.coupang.com/image1/8wMZpOldYwnyCJK_8-g5SrnRXDj9263hFmHz6jM-8IQtmjKL1Z3kr05suDr4x3YqyBd6DEVES10GehhFGEfyhivqEGk_usC4CZvt3pIP9Nh8Gxvnh747ZefzNstquO1oGG8zku7hMfLigzidYBjtYBBl5cjI0_cbR8OynMxFqz0qsNVxdkR0PT1f7BsQ5S3z_eboH44XP4vGMxZP5dK8Ws6sXkl6aqH1v30SuuHLlO99Wr-EI_jrQFySbxSd65neCpCxEPz-N2mbSH-GK65ggmjXLhUdv_GEfYBUYykul_rbwTZ-x268hMTmOafGMaX5HIZYwFBvmkCEuA_vxSztaA5S4IZUPrc0PwZtjpxjp2k_g5fqEtkh3B2ypRsmgWIUbB5MuKvTo5XHUb4EQEIU1L8TOMV7ef6UJjuGb3DLFwOZiY-tb1HZjcPQB5ZG3xrhiF0jicxUHvRJ3r4Vb3uN76jP6hwFmrI1HAOCmSyZoH6gi79i7vjN_xY5TvMot0NVOjhAUhKcBeNnZKmIBUhiYzYimCLGmo2wy4V6kBJFrUWXEQ=="
   },
   {
     "store": "iherb",
