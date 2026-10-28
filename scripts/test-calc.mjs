@@ -82,3 +82,10 @@ assert.equal(cartByStore({ items: [{ store: 'iherb', price: 15000, qty: 3, categ
 
 // 상품 하나뿐인 상자는 '빼면 면세'를 제안하지 않아요
 assert.equal(cartTrim({ items: [{ name: 'XM6', price: 399, qty: 1, category: 'audio' }], origin: 'us', method: 'express', fx }).index, -1);
+
+// 건강기능식품·식품은 운송료까지 합쳐 150달러(관세청 FAQ). IT는 물품가만.
+assert.equal(landedCost({ priceUsd: 145, shipUsd: 10, origin: 'us', method: 'express', category: 'supplement', fx }).dutyFree, false);
+assert.equal(landedCost({ priceUsd: 145, shipUsd: 10, origin: 'other', method: 'express', category: 'it', fx }).dutyFree, true);
+assert.equal(cartCost({ items: [{ price: 140, qty: 1, category: 'supplement' }], ship: 15, origin: 'us', fx }).dutyFree, false);
+// 손익분기도 운송료 포함 한도로: 영양제는 면세로 남는 최대 상품가가 150 - 배송비
+assert.ok(breakevenUsd({ domesticKrw: 400000, shipUsd: 20, origin: 'us', method: 'express', category: 'supplement', fx }) >= 130);

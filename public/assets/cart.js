@@ -219,7 +219,7 @@ if (root) {
     $('[data-c-boxes]').innerHTML = live.map((b) => {
       const tag = !b.dutyFree ? ['cb-red', '한도 초과'] : b.signal === 'yellow' ? ['cb-yellow', '거의 다 참'] : ['cb-green', '면세'];
       return `<li class="${tag[0]}"><div class="cb-head"><b>${esc(b.label)}</b><span class="cb-tag">${tag[1]}</span></div>
-<span class="cb-line">한도 $${b.limit} 중 ${usd(b.goodsUsd)} · ${b.dutyFree ? '세금 ₩0' : `세금 ${money(b.duty + b.vat)}`} · 체감가 ${money(b.total)}</span></li>`;
+<span class="cb-line">한도 $${b.limit} 중 ${usd(b.judgeUsd)}${b.shipCounts ? '(배송비 포함)' : ''} · ${b.dutyFree ? '세금 ₩0' : `세금 ${money(b.duty + b.vat)}`} · 체감가 ${money(b.total)}</span></li>`;
     }).join('');
 
     // 안내
@@ -229,8 +229,8 @@ if (root) {
         if (b.trim.index >= 0) notes.push(['good', `${esc(b.label)}: <b>${esc(String(b.trim.name).slice(0, 30))}</b> 1개만 빼면 면세예요. 세금 ${money(b.trim.taxSaved)}이 사라져요.`]);
         else if (b.rows === 1 && b.input.items.filter((it) => Number(it.price) > 0).length === 1 && Math.floor(Number(b.input.items.find((it) => Number(it.price) > 0).qty)) === 1) notes.push(['warn', `${esc(b.label)}: 이 상품 하나만으로 면세 한도($${b.limit})를 넘어서 세금 ${money(b.duty + b.vat)}이 붙어요. 체감가에 이미 넣었어요.`]);
         else notes.push(['warn', `${esc(b.label)}: 면세가 되려면 물품가를 ${usd(b.trim.overUsd)} 넘게 줄여야 해요.`]);
-      } else if (b.signal === 'yellow') notes.push(['warn', `${esc(b.label)}: 한도까지 ${usd(b.limit - b.goodsUsd)} 남았어요.`]);
-      if (b.mixedLimit) notes.push(['info', `${esc(b.label)}: 영양제·식품이 섞여서 이 상자는 $150 기준이에요. 영양제·식품이 없으면 미국 특송은 $200 기준이에요.`]);
+      } else if (b.signal === 'yellow') notes.push(['warn', `${esc(b.label)}: 한도까지 ${usd(b.limit - b.judgeUsd)} 남았어요.`]);
+      if (b.mixedLimit) notes.push(['info', `${esc(b.label)}: 영양제·식품이 섞여서 이 상자는 배송비까지 합쳐 $150 기준이에요. 영양제·식품이 없으면 미국 특송은 물품가 $200 기준이에요.`]);
       if (b.tooManyBottles) notes.push(['warn', `${esc(b.label)}: 건강기능식품은 한 번에 6병까지만 자가사용으로 인정돼요. 지금 ${b.bottles}병이라 통관이 막힐 수 있어요.`]);
     }
     if (live.length > 1) notes.push(['info', '쇼핑몰마다 따로 배송돼서 면세 한도를 각각 따져요. 같은 날 도착해도 판매자가 다르면 합치지 않아요.']);

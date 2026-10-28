@@ -32,7 +32,9 @@ export function landedCost({ priceUsd, shipUsd = 0, origin, method, category, fx
   const limit = dutyFreeLimit({ origin, method, category });
   const price = Math.max(0, Number(priceUsd) || 0);
   const ship = Math.max(0, Number(shipUsd) || 0);
-  const dutyFree = price <= limit;
+  // 목록통관 배제 품목(건강기능식품·식품)은 정식 수입신고라 '운송료를 합한 금액'으로 한도를 봐요(관세청 FAQ: 건강기능식품은
+  // "운송료를 합한 물품가격이 미화 150불 이내" 면세). 그 외는 물품가격(국제 운송료 제외)으로 봐요.
+  const dutyFree = (cat.listClearance ? price : price + ship) <= limit;
   // 과세가격은 달러 합계를 한 번에 원화로 바꿔요. 영수증 줄이 합계와 맞도록 배송비 줄은 차액으로 표시.
   const cif = won((price + ship) * fx); // 과세가격(관세청 환율)
   const paid = won((price + ship) * pay); // 실제 결제 금액(결제 환율)
@@ -43,8 +45,8 @@ export function landedCost({ priceUsd, shipUsd = 0, origin, method, category, fx
   const total = paid + duty + vat;
   let signal = 'green';
   if (!dutyFree) signal = 'red';
-  else if (price > limit * 0.85) signal = 'yellow';
-  return { limit, dutyFree, price, ship, goodsKrw, shipKrw, duty, vat, total, signal, rate: cat.rate };
+  else if ((cat.listClearance ? price : price + ship) > limit * 0.85) signal = 'yellow';
+  return { limit, dutyFree, judgeUsd: cat.listClearance ? price : price + ship, shipCounts: !cat.listClearance, price, ship, goodsKrw, shipKrw, duty, vat, total, signal, rate: cat.rate };
 }
 
 // 판정: 20% 이상 그리고 10,000원 이상 싸면 직구각, 조금이라도 싸면 애매, 아니면 국내가 나음
@@ -69,10 +71,12 @@ export function breakevenUsd({ domesticKrw, shipUsd = 0, origin, method, categor
   if (target <= 0) return null;
   const freeMax = target / pay - ship;
   if (freeMax <= 0) return null;
-  if (freeMax <= limit) return Math.floor(freeMax);
+  // 면세로 남을 수 있는 최대 상품가: 영양제·식품은 운송료까지 합쳐 한도 안이어야 해요
+  const freeLimit = cat.listClearance ? limit : limit - ship;
+  if (freeMax <= freeLimit) return Math.floor(freeMax);
   // 과세: 결제액(결제 환율) + 관세·부가세(과세 환율) = (가격+배송비) × (pay + fx × (1.1 × (1 + 관세율) − 1))
   const taxedMax = target / (pay + fx * (1.1 * (1 + cat.rate) - 1)) - ship;
-  return Math.floor(taxedMax > limit ? taxedMax : limit);
+  return Math.floor(taxedMax > freeLimit ? taxedMax : freeLimit);
 }
 
 // ---------- 장바구니(여러 상품을 한 번에 받을 때) ----------
@@ -93,7 +97,10 @@ export function cartCost({ items = [], currency = 'usd', ship = 0, origin = 'us'
   const goodsUsd = krw ? goodsIn / fx : goodsIn;
   const allList = rows.every((r) => r.cat.listClearance);
   const limit = origin === 'us' && method === 'express' && allList ? 200 : 150;
-  const dutyFree = goodsUsd <= limit;
+  // 영양제·식품이 섞이면 상자 전체가 정식 수입신고라 운송료까지 합쳐서 한도를 봐요
+  const shipUsd = krw ? shipIn / fx : shipIn;
+  const judgeUsd = allList ? goodsUsd : goodsUsd + shipUsd;
+  const dutyFree = judgeUsd <= limit;
   const goodsKrw = krw ? won(goodsIn) : won(goodsIn * pay);
   const paid = krw ? won(goodsIn + shipIn) : won((goodsIn + shipIn) * pay);
   const shipKrw = paid - goodsKrw;
@@ -104,12 +111,12 @@ export function cartCost({ items = [], currency = 'usd', ship = 0, origin = 'us'
   const total = paid + duty + vat;
   let signal = 'green';
   if (!dutyFree) signal = 'red';
-  else if (goodsUsd > limit * 0.85) signal = 'yellow';
+  else if (judgeUsd > limit * 0.85) signal = 'yellow';
   const bottles = rows.filter((r) => r.category === 'supplement').reduce((a, r) => a + r.qty, 0);
   const hasDom = rows.length > 0 && rows.every((r) => r.dom > 0);
   const domTotal = rows.reduce((a, r) => a + r.dom * r.qty, 0);
   const verdict = hasDom ? judge(domTotal, total, rule) : { verdict: 'none', diff: 0, pct: 0 };
-  return { rows: rows.length, limit, dutyFree, goodsUsd, goodsKrw, shipKrw, paid, duty, vat, total, signal, mixedLimit: origin === 'us' && method === 'express' && !allList && rows.some((r) => r.cat.listClearance), bottles, tooManyBottles: bottles > SUPPLEMENT_MAX_BOTTLES, hasDom, domTotal, ...verdict };
+  return { rows: rows.length, limit, dutyFree, goodsUsd, judgeUsd, shipCounts: !allList, goodsKrw, shipKrw, paid, duty, vat, total, signal, mixedLimit: origin === 'us' && method === 'express' && !allList && rows.some((r) => r.cat.listClearance), bottles, tooManyBottles: bottles > SUPPLEMENT_MAX_BOTTLES, hasDom, domTotal, ...verdict };
 }
 
 // 한도를 넘었을 때 "이거 1개만 빼면 면세": 빼는 금액이 가장 작은 1개를 찾아요. 없으면 null.
@@ -126,7 +133,7 @@ export function cartTrim(input, rule = DEFAULT_RULE) {
     if (!best || removed < best.removed) best = { index: i, name: it.name || `${i + 1}번 상품`, removed, taxSaved: now.duty + now.vat, after };
   });
   if (best) return best;
-  const overUsd = now.goodsUsd - now.limit;
+  const overUsd = now.judgeUsd - now.limit;
   return { index: -1, overUsd: Math.ceil(overUsd * 100) / 100, taxSaved: now.duty + now.vat };
 }
 

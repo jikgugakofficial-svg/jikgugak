@@ -60,13 +60,13 @@ function render() {
   const sig = root.querySelector('[data-out-signal] > span');
   sig.querySelector('b').textContent = c.signal === 'red' ? '면세 한도 초과' : c.signal === 'yellow' ? '면세 한도에 거의 다 찼어요' : '면세 한도 안이에요';
   sig.querySelector('small').textContent = c.dutyFree
-    ? `한도 $${c.limit} 중 $${price.toFixed(2)} · 예상 세금 ₩0`
+    ? `한도 $${c.limit} 중 $${c.judgeUsd.toFixed(2)}${c.shipCounts ? '(배송비 포함)' : ''} · 예상 세금 ₩0`
     : `한도 $${c.limit}을 넘어 배송비를 포함한 전체에 세금이 붙어요`;
 
   // 규칙 안내
   const note = $('[data-out-note]');
   let msg = '';
-  if (state.origin === 'us' && !CATEGORIES[state.category].listClearance) msg = `${CATEGORIES[state.category].label}은 미국에서 보내도 $150 기준이에요. 다른 상품과 한 상자에 섞으면 상자 전체가 같은 기준을 받아요.`;
+  if (!CATEGORIES[state.category].listClearance) msg = `${CATEGORIES[state.category].label}은 정식 수입신고 대상이라 배송비까지 합친 금액이 $150 이하여야 면세예요${state.origin === 'us' ? '(미국발도 같아요)' : ''}. 다른 상품과 한 상자에 섞으면 상자 전체가 같은 기준을 받아요.`;
   else if (state.origin === 'us' && state.method === 'post') msg = '우편(EMS 등)으로 받으면 미국발이어도 $150 기준이에요.';
   note.hidden = !msg;
   note.textContent = msg;
