@@ -228,7 +228,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DMeNTa7V",
     "sample": false,
-    "checkedAt": "2026.10.27 알리 자동",
+    "checkedAt": "2026.10.28 오전",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
     "priceKrw": 33659,
@@ -314,7 +314,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DN5oKDg4",
     "sample": false,
-    "checkedAt": "2026.10.27 알리 API",
+    "checkedAt": "2026.10.28 오전",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
     "priceKrw": 28503,
@@ -756,7 +756,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28efNTYlM",
     "sample": false,
-    "checkedAt": "2026.10.27 알리 API",
+    "checkedAt": "2026.10.28 오전",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
     "priceKrw": 43073,
@@ -819,7 +819,7 @@
     "summary": [
       "쿠팡은 국내 정식발매(KC 인증), 알리는 글로벌 버전이라 같은 모델·같은 글레이셔 실버의 판매 지역판끼리 비교했어요.",
       "10.28 쿠팡 쿠폰이 끝났지만 알리 일반가가 더 비싸서 지금도 쿠팡이 {diff}({pct}) 더 싸요. 차이가 작아서 쿠폰에 따라 판정이 또 바뀔 수 있어요.",
-      "알리가 {beKrw} 아래로 떨어지는 광군제 특가 때만 직구각이에요."
+      "알리가 {beKrw} 아래로 내려가면 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9644182900",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006405553471.html",
