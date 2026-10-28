@@ -2,7 +2,7 @@
 
 검수: marketing-lead · 2026-10-28 · 팀장이 직접 쓰고 검수(작가 단계 없음)
 숫자 대조 원본: `npm run build`(10-28 오전 성공 빌드) 출력, `dist/p/<슬러그>.html`, `dist/live.json`, `data/products.json`. 브리프 팩트 시트가 아니라 원본과 다시 맞췄어요.
-참고: 10-28 오전 검수 막바지에 다시 돌린 `npm run build`는 다른 세션이 고치는 중인 `scripts/build.mjs`(`md` 이름 중복) 때문에 실패했어요. 숫자는 그 전 성공 빌드의 `dist/`와 `data/products.json`(git 변경 없음)으로 확인했어요.
+참고: 검수 막바지에 커밋 f2e5a7a(건강기능식품은 배송비 포함 금액으로 150달러 판단)·0d2978a 뒤 `npm run build`를 다시 돌려 숫자가 그대로인 걸 확인했어요(중간에 한 번은 다른 세션이 고치던 `scripts/build.mjs` 때문에 실패했다가 고쳐졌어요). 아이허브 판정 수도 16개 중 직구각 1·애매 1·국내가 나음 14 그대로예요.
 
 ## 최종 판정: 게시 가능 (조건: 각 날짜 아침 매니저가 publish.json `livecheck`대로 실물 확인 → 운영자 승인 → approved: true)
 

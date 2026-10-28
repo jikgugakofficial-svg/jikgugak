@@ -1012,7 +1012,7 @@ ${GUIDES.length ? `<section class="block guide-qs"><h2 class="h2">질문별로 �
 <tr><td>건강기능식품·의약품·식품류 (어디서든)</td><td>$150 이하 · 건강기능식품은 총 6병까지</td></tr>
 </tbody>
 </table>
-<p>물품가격에는 판매국 세금과 현지 배송비가 들어가고, 결제 화면에 따로 적힌 국제 배송비는 빠져요. 한도를 넘으면 넘은 부분이 아니라 <b>배송비를 포함한 전체 금액</b>에 관세와 부가세가 붙어요. <a href="/calculator">관세 계산기</a>로 바로 확인해 보세요.</p>
+<p>물품가격에는 판매국 세금과 현지 배송비가 들어가고, 결제 화면에 따로 적힌 국제 배송비는 빠져요. 단, <b>건강기능식품·식품은 국제 배송비까지 합친 금액</b>이 150달러 이하여야 면세예요(<a href="https://www.customs.go.kr/call/ad/crmcc/selectFaqViewPage.do?mi=6822&amp;cnslKnwlSrno=501" target="_blank" rel="noopener">관세청 안내</a>). 한도를 넘으면 넘은 부분이 아니라 <b>배송비를 포함한 전체 금액</b>에 관세와 부가세가 붙어요. <a href="/calculator">관세 계산기</a>로 바로 확인해 보세요.</p>
 </section>
 <section id="combine">
 <h2>4. 합산과세 주의</h2>
