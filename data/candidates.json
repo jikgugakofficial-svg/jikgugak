@@ -3048,7 +3048,47 @@
         }
       ],
       "coupang": []
+    },
+    "Oclean X Pro Elite": {
+      "q": "Oclean X Pro Elite",
+      "brand": "Oclean",
+      "model": "X Pro Elite",
+      "cat": "home",
+      "why": "오클린 전동칫솔 대표 모델, 국내 정식 출시(터치스크린 모델 보도)·알리 공식 스토어 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T03:21:35.392Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005010639294062",
+          "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합",
+          "price": 29300,
+          "orders": 2,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd18111bafe849a58862d99b33cadcdbL.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010639294062.html"
+        },
+        {
+          "id": "1005010360280779",
+          "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합한 1개",
+          "price": 35100,
+          "orders": 2,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd203ca25bff14c19884d4ca4f884c53cF.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010360280779.html"
+        },
+        {
+          "id": "1005010333278875",
+          "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합",
+          "price": 33700,
+          "orders": 2,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S65d3abdfb4684114a929cb14f89b57a19.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010333278875.html"
+        }
+      ],
+      "coupang": []
     }
   },
-  "updatedAt": "2026-10-28T01:37:01.051Z"
+  "updatedAt": "2026-10-28T03:21:38.930Z"
 }
