@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-10-27T12:16:28.824Z",
+      "at": "2026-10-28T02:24:41.482Z",
       "recordedKrw": 415000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -416,5 +416,5 @@
       "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-10-28T01:37:02.377Z"
+  "updatedAt": "2026-10-28T02:24:42.022Z"
 }
