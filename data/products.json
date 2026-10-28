@@ -804,12 +804,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.10.28 쿠팡 자동",
+    "checkedAt": "2026.10.28 오전",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
     "priceKrw": 102215,
     "domesticKrw": 99600,
-    "domesticSource": "쿠팡 쿠폰가, 글레이셔 실버, 로켓배송",
+    "domesticSource": "쿠팡 글레이셔 실버, 로켓배송(쿠폰 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
     "risks": [
       "알리 판매자는 공식 스토어가 아니에요",
@@ -818,7 +818,7 @@
     ],
     "summary": [
       "쿠팡은 국내 정식발매(KC 인증), 알리는 글로벌 버전이라 같은 모델·같은 글레이셔 실버의 판매 지역판끼리 비교했어요.",
-      "10.27 알리 일반가는 오르고 쿠팡 쿠폰가는 내려서 지금은 쿠팡이 {diff}({pct}) 더 싸요. 국내에서 사는 게 나아요.",
+      "10.28 쿠팡 쿠폰이 끝났지만 알리 일반가가 더 비싸서 지금도 쿠팡이 {diff}({pct}) 더 싸요. 차이가 작아서 쿠폰에 따라 판정이 또 바뀔 수 있어요.",
       "알리가 {beKrw} 아래로 떨어지는 광군제 특가 때만 직구각이에요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9644182900",
@@ -881,6 +881,13 @@
         "from": 89620,
         "to": 99600,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.28",
+        "field": "domesticKrw",
+        "from": 99600,
+        "to": 99600,
+        "source": "매니저 확인(쿠폰 종료)"
       }
     ]
   },
