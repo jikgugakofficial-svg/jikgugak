@@ -211,15 +211,89 @@ document.addEventListener('click', (e) => {
   const t0 = Number(store.get('jg_t0') || now);
   if (pv >= 4 || (pv >= 2 && now - t0 > 3 * 60e3)) {
     setTimeout(() => {
-      if (document.querySelector('.fb-wrap, .inapp')) return;
+      if (document.querySelector('.fb-wrap, .inapp, .inst-card')) return;
       store.set('jg_fb', Date.now());
       openFeedback('auto');
     }, 20000);
   }
 })();
 
-// 크롬의 "앱 설치" 자동 안내(미니 인포바)는 띄우지 않아요. 원하는 사람은 크롬 메뉴 → 홈 화면에 추가로 설치할 수 있어요.
-window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); });
+// ---------- 홈 화면에 앱 추가(재방문 편하게) ----------
+// 크롬이 첫 방문에 바로 띄우는 설치 창은 막고, 다시 찾아온 사람에게만 작은 안내 카드를 보여요(10/28 운영자: 재방문 편하게).
+// - 안드로이드 크롬·삼성 인터넷·PC 크롬: 카드의 [추가] → 브라우저 설치 창
+// - 아이폰 사파리: 설치 창이 없어서 '공유 → 홈 화면에 추가' 방법을 보여 줘요
+// - 이미 앱으로 열었거나, 카톡·인스타 같은 앱 안 브라우저면 안 보여요. 닫으면 30일 동안 다시 안 보여요.
+// 저장값: jg_inst(카드 닫은 시각), jg_inst_done(설치함)
+(() => {
+  const standalone = (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true;
+  const appEvent = (to) => { const body = JSON.stringify({ src: 'app', to, page: location.pathname }); try { navigator.sendBeacon('/api/click', new Blob([body], { type: 'application/json' })); } catch { /* 집계 없음 */ } };
+  if (standalone) {
+    try { if (!sessionStorage.getItem('jg_app')) { sessionStorage.setItem('jg_app', '1'); appEvent('app_open'); } } catch { /* 무시 */ }
+    return;
+  }
+  const isIOSSafari = isIOS && !isInApp && /Safari/i.test(ua) && !/CriOS|FxiOS|EdgiOS/i.test(ua);
+  let deferred = null;
+  const link = document.querySelector('[data-install]');
+  const showLink = () => { if (link) link.hidden = false; };
+  if (isIOSSafari) showLink();
+
+  function iosSheet() {
+    const { wrap } = sheet(`
+      <h2 class="fb-title">아이폰 홈 화면에 직구각 추가</h2>
+      <ol class="inst-steps">
+        <li>화면 아래(또는 위)의 <b>공유 버튼</b>(네모에서 화살표가 위로 나온 모양)을 눌러요.</li>
+        <li>목록을 내려 <b>홈 화면에 추가</b>를 눌러요.</li>
+        <li>오른쪽 위 <b>추가</b>를 누르면 끝이에요. 다음부터 아이콘으로 바로 열려요.</li>
+      </ol>
+      <div class="fb-btns"><button type="button" class="btn btn-ink" data-fb-close>알겠어요</button></div>`, 'fb-inst');
+    wrap.querySelector('[data-fb-close]').focus();
+  }
+  function otherSheet() {
+    sheet(`
+      <h2 class="fb-title">홈 화면에 직구각 추가</h2>
+      <p class="muted">브라우저 메뉴(⋮ 또는 ≡)에서 <b>홈 화면에 추가</b> 또는 <b>앱 설치</b>를 눌러 주세요. 다음부터 아이콘으로 바로 열려요.</p>
+      <div class="fb-btns"><button type="button" class="btn btn-ink" data-fb-close>알겠어요</button></div>`, 'fb-inst');
+  }
+  async function install(from) {
+    if (deferred) {
+      appEvent('app_prompt');
+      const ev = deferred; deferred = null;
+      ev.prompt();
+      try { await ev.userChoice; } catch { /* 무시 */ }
+    } else if (isIOSSafari) iosSheet();
+    else otherSheet();
+    track('app_install_click', { from });
+  }
+  if (link) link.addEventListener('click', (e) => { e.preventDefault(); install('footer'); });
+
+  function card() {
+    if (store.get('jg_inst_done') || isInApp) return;
+    const last = Number(store.get('jg_inst') || 0);
+    if (last && Date.now() - last < 30 * 864e5) return;
+    // 다시 찾아온 사람만: 첫 방문 다음 날 이후이거나, 페이지를 5개 이상 본 사람
+    const t0 = Number(store.get('jg_t0') || Date.now());
+    const pv = Number(store.get('jg_pv') || 0);
+    if (!(Date.now() - t0 > 12 * 3600e3 || pv >= 5)) return;
+    setTimeout(() => {
+      if (document.querySelector('.fb-wrap, .inapp, .inst-card')) return;
+      if (!deferred && !isIOSSafari) return;
+      const el = document.createElement('div');
+      el.className = 'inst-card';
+      el.setAttribute('role', 'dialog');
+      el.setAttribute('aria-label', '홈 화면에 앱 추가');
+      el.innerHTML = `<img src="/icon-192.png?v=2" alt="" width="40" height="40"><div class="inst-txt"><b>직구각을 홈 화면에 추가할까요?</b><span>다음엔 검색 없이 아이콘으로 바로 판정해요</span></div><button type="button" class="btn btn-ink small" data-i="add">추가</button><button type="button" class="inst-x" aria-label="닫기" data-i="x">×</button>`;
+      const close = () => { el.remove(); store.set('jg_inst', Date.now()); };
+      el.querySelector('[data-i="x"]').addEventListener('click', close);
+      el.querySelector('[data-i="add"]').addEventListener('click', () => { close(); install('card'); });
+      document.body.appendChild(el);
+      appEvent('app_card');
+    }, 6000);
+  }
+  window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); deferred = e; showLink(); });
+  window.addEventListener('appinstalled', () => { store.set('jg_inst_done', Date.now()); appEvent('app_install'); toast('홈 화면에 직구각을 추가했어요'); document.querySelector('.inst-card')?.remove(); if (link) link.hidden = true; });
+  // 설치 창 이벤트는 페이지가 뜬 뒤 조금 늦게 와요. 아이폰은 바로.
+  if (isIOSSafari) card(); else window.addEventListener('beforeinstallprompt', () => card(), { once: true });
+})();
 
 // 인기 검색어: 최근 7일 실제 검색이 5개 이상 모이면 '추천 검색어'를 '인기 검색어'로 바꿔 보여요
 (async () => {

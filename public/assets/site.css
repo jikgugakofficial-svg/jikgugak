@@ -867,3 +867,15 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .guide-list a { display: block; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; text-decoration: none; color: var(--ink); font-weight: 700; font-size: 15px; }
 .guide-list a:hover { border-color: var(--brand); color: var(--brand); }
 .guide-qs { margin-bottom: 20px; }
+
+/* 홈 화면 앱 추가 카드(재방문자만) */
+.inst-card { position: fixed; left: 12px; right: 12px; bottom: calc(76px + env(safe-area-inset-bottom)); z-index: 60; max-width: 460px; margin: 0 auto; display: flex; align-items: center; gap: 10px; padding: 12px 12px 12px 14px; background: #fff; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 10px 30px rgba(17, 24, 39, .16); animation: inst-up .25s ease-out; }
+.inst-card img { border-radius: 10px; flex: 0 0 40px; }
+.inst-txt { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.inst-txt b { font-size: 14px; }
+.inst-txt span { font-size: 12px; color: var(--sub); }
+.inst-x { flex: 0 0 auto; width: 32px; height: 32px; border: 0; background: transparent; font-size: 22px; line-height: 1; color: var(--sub); cursor: pointer; }
+.inst-steps { margin: 8px 0 14px; padding-left: 20px; display: grid; gap: 8px; line-height: 1.6; }
+@keyframes inst-up { from { transform: translateY(12px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (min-width: 761px) { .inst-card { bottom: 20px; left: auto; right: 20px; } }
+@media (prefers-reduced-motion: reduce) { .inst-card { animation: none; } }

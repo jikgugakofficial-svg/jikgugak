@@ -6,7 +6,7 @@ import { redis, storeReady, readBody } from './_lib/store.js';
 const kstDay = (offset = 0) => new Date(Date.now() + 9 * 3600e3 - offset * 864e5).toISOString().slice(0, 10).replace(/-/g, '');
 const clean = (s, n) => String(s || '').toLowerCase().replace(/[^a-z0-9/_.-]/g, '').slice(0, n) || '-';
 const same = (a, b) => { const x = Buffer.from(String(a)); const y = Buffer.from(String(b)); return x.length === y.length && crypto.timingSafeEqual(x, y); };
-const STORES = new Set(['coupang', 'aliexpress', 'amazon', 'iherb', 'naver', 'other']);
+const STORES = new Set(['coupang', 'aliexpress', 'amazon', 'iherb', 'naver', 'other', 'app_card', 'app_prompt', 'app_install', 'app_open']); // app_*: 홈 화면 앱 설치 안내·설치·앱으로 열기 횟수
 
 export default async function handler(req, res) {
   res.setHeader('Content-Type', 'application/json; charset=utf-8');

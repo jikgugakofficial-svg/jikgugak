@@ -110,12 +110,15 @@ async function loadClicks() {
     const r = await fetch('/api/click?days=30', { headers: { 'x-admin-key': key } });
     const d = await r.json();
     if (!d.ok) { box.textContent = '클릭 기록을 불러오지 못했어요.'; return; }
-    if (!d.items.length) { box.textContent = '아직 구매 링크 클릭이 없어요.'; return; }
+    const app = {}; d.items.filter((x) => x.to.startsWith('app_')).forEach((x) => { app[x.to] = (app[x.to] || 0) + x.n; });
+    d.items = d.items.filter((x) => !x.to.startsWith('app_'));
+    const appLine = `<div class="item" style="margin-top:12px"><b>홈 화면 앱(최근 30일)</b><div class="msg">설치 안내 노출 <b>${app.app_card || 0}</b> · 설치 창 띄움 <b>${app.app_prompt || 0}</b> · 설치 <b>${app.app_install || 0}</b> · 앱으로 방문 <b>${app.app_open || 0}</b></div></div>`;
+    if (!d.items.length) { box.innerHTML = '아직 구매 링크 클릭이 없어요.' + appLine; return; }
     const sum = (f) => { const m = {}; d.items.forEach((x) => { m[f(x)] = (m[f(x)] || 0) + x.n; }); return Object.entries(m).sort((a, b) => b[1] - a[1]); };
     const total = d.items.reduce((a, x) => a + x.n, 0);
     const table = (title, rows) => `<div class="item"><b>${title}</b><div class="msg">${rows.map(([k, n]) => `${esc(k)} <b>${n}</b>`).join(' · ')}</div></div>`;
     box.innerHTML = `<div class="stats"><div class="stat"><b>${total}</b><span>전체 클릭</span></div></div><div class="list" style="margin-top:12px">`
-      + table('유입 채널별', sum((x) => x.src)) + table('쇼핑몰별', sum((x) => x.to)) + table('페이지별', sum((x) => x.page)) + table('채널 → 쇼핑몰', sum((x) => x.src + ' → ' + x.to)) + '</div>';
+      + table('유입 채널별', sum((x) => x.src)) + table('쇼핑몰별', sum((x) => x.to)) + table('페이지별', sum((x) => x.page)) + table('채널 → 쇼핑몰', sum((x) => x.src + ' → ' + x.to)) + '</div>' + appLine;
   } catch { box.textContent = '클릭 기록을 불러오지 못했어요.'; }
 }
 async function loadCoupang() {

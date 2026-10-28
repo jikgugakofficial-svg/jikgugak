@@ -245,7 +245,7 @@ ${adRail()}
 </div>
 <footer class="site-footer" id="disclosure-footer">
   <div class="wrap footer-in">
-    <div class="footer-links"><a href="#" data-feedback>의견 보내기</a><a href="/disclosure">광고·제휴 고지</a><a href="/privacy">개인정보처리방침</a><a href="/guide">직구 가이드</a><a href="mailto:${esc(site.contactEmail)}">문의하기</a></div>
+    <div class="footer-links"><a href="#" data-install hidden>홈 화면에 앱 추가</a><a href="#" data-feedback>의견 보내기</a><a href="/disclosure">광고·제휴 고지</a><a href="/privacy">개인정보처리방침</a><a href="/guide">직구 가이드</a><a href="mailto:${esc(site.contactEmail)}">문의하기</a></div>
     <p>직구각은 쿠팡 파트너스, 아마존 어소시에이트, 알리익스프레스${(site.affiliatePending || []).includes('iherb') ? '' : ', 아이허브'} 제휴 프로그램에 참여하고 있으며, 링크를 통한 구매 시 수수료를 받을 수 있습니다.</p>
     <p>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
     <p lang="en">As an Amazon Associate I earn from qualifying purchases.</p>
