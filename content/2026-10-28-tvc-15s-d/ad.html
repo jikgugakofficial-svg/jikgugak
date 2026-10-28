@@ -46,7 +46,7 @@ const mixc = (a, b, p) => { const A = hex(a), B = hex(b); return `rgb(${A.map((v
 const NS = 'http://www.w3.org/2000/svg';
 const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
 const $ = (id) => document.getElementById(id);
-const S2 = [5, 10]; // 남색 구간(박)
+const S2 = T.s2; // 남색 구간(박)
 
 // ── 점: 격자 자리 → 판정별 줄 자리 ──
 const COLS = 6, GS = 104, GY0 = 1030, GDY = 92;
@@ -120,7 +120,7 @@ function word(w, t) {
 }
 function chips(t) {
   CHIPS.forEach((d, i) => {
-    const t0 = bt(T.chips[i]), sp = spring(t - t0, 2.4, 0.35), out = pg(t, bt(9) - 0.14, bt(9));
+    const t0 = bt(T.chips[i]), sp = spring(t - t0, 2.4, 0.35), out = pg(t, bt(T.chipsOut) - 0.14, bt(T.chipsOut));
     d.style.opacity = t < t0 ? 0 : 1 - out;
     d.style.transform = `translateY(${(1 - sp) * 120 - out * 80}px) rotate(${(1 - cl(sp)) * (i % 2 ? 14 : -14)}deg) scale(${0.5 + 0.5 * sp})`;
   });
@@ -131,8 +131,8 @@ function dotState(d, t) {
   const tp = bt(T.pop[0]) + d.i * (bt(T.pop[1]) - bt(T.pop[0])) / nAll;
   let r = 30 * oe(pg(t, tp, tp + 0.4)), x = d.gx, y = d.gy, fill = C.orange;
   // 5~9박: 박마다 열마다 튀어 오름(계산하는 느낌), 물결이 흰색으로 지나감
-  if (t >= bt(5) && t < bt(9)) {
-    for (let k = 5; k < 9; k++) { const dt = t - bt(k) - d.col * 0.03; if (dt > 0 && dt < 0.4) y -= 34 * Math.sin(Math.PI * dt / 0.4) * Math.exp(-dt * 3); }
+  if (t >= bt(T.bounce[0]) && t < bt(T.bounce[1])) {
+    for (let k = T.bounce[0]; k < T.bounce[1]; k++) { const dt = t - bt(k) - d.col * 0.03; if (dt > 0 && dt < 0.4) y -= 34 * Math.sin(Math.PI * dt / 0.4) * Math.exp(-dt * 3); }
     for (const k of [0, 1]) { const ph = t - (bt(T.wave[0]) + k * 0.6 + (d.col + d.row) * 0.05); r *= 1 + 0.3 * Math.exp(-ph * ph / 0.006); if (Math.abs(ph) < 0.08) fill = C.white; }
   }
   // 10박: 드롭 순간 바깥으로 튕겼다가(0.12초) 반원을 그리며 판정별 줄로
@@ -279,11 +279,11 @@ function drawLogo(t) {
   const hs = 96 * k; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', 2 * hs); lgS.setAttribute('height', 2 * hs); lgS.setAttribute('rx', 40 * k);
 }
 // ── 카메라(그래픽만, 글자는 안 흔들림): 박마다 당김, 강타는 크게 + 기울었다 복귀, 16박에 직구각 줄로 다가감 ──
-const HITS = { 5: 0.07, 6: 0.03, 7: 0.03, 8: 0.03, 10: 0.12, 12.5: 0.05, 16: 0.04 };
-const TILTS = { 10: -4, 12.5: 2.5, 5: 2 };
+const HITS = { [T.s2[0]]: 0.07, [T.chips[0]]: 0.03, [T.chips[1]]: 0.03, [T.chips[2]]: 0.03, [T.drop]: 0.12, [T.merge]: 0.05, [T.focusGood]: 0.04 };
+const TILTS = { [T.drop]: -4, [T.merge]: 2.5, [T.s2[0]]: 2 };
 function cam(t) {
   let z = 0, rot = 0;
-  for (let k = 5; k < 21; k++) { const d = t - bt(k); if (d >= 0 && d < 0.35) z = Math.max(z, 0.016 * Math.exp(-d * 12)); }
+  for (let k = T.groove[0]; k < T.groove[1]; k++) { const d = t - bt(k); if (d >= 0 && d < 0.35) z = Math.max(z, 0.016 * Math.exp(-d * 12)); }
   for (const k in HITS) { const d = t - bt(+k); if (d >= 0 && d < 0.5) z = Math.max(z, HITS[k] * Math.exp(-d * 8)); }
   for (const k in TILTS) { const d = t - bt(+k); if (d >= 0 && d < 1.2) rot += TILTS[k] * (1 - spring(d, 2.2, 0.3)); }
   // 16박: 직구각 줄(P)을 화면 가운데 쪽(Q)으로 끌어오며 1.22배(카메라가 다가감)
@@ -301,7 +301,7 @@ window.seek = (t0) => {
   drawBg(t); drawDots(t); drawPen(t); drawFlash(t);
   ring($('fx'), 540, 1190, t, bt(T.drop), C.orange, 40, 760, 0.5, 26);
   burst($('fx'), 540, 1190, t, bt(T.drop), C.navy, 16, 160, 520, 0.4, 14);
-  ring($('fx'), 540, 1190, t, bt(5), C.salmon, 30, 640, 0.45, 18);
+  ring($('fx'), 540, 1190, t, bt(T.s2[0]), C.salmon, 30, 640, 0.45, 18);
   ring($('fx'), 317, ROWY.good - 26, t, bt(T.pen[1]), C.orange, 40, 300, 0.4, 10);
   ring($('fx2'), 540, 1170, t, bt(T.verdict), C.green, 120, 340, 0.45, 16);
   burst($('fx2'), 540, 1170, t, bt(T.verdict), C.salmon, 14, 300, 380, 0.3, 10);
