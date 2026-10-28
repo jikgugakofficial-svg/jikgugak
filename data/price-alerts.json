@@ -1,54 +1,5 @@
 {
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
-  "items": {
-    "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-10-27T23:12:27.635Z",
-      "slug": "ali-aula-f75-keyboard",
-      "field": "priceKrw",
-      "recorded": 54100,
-      "api": 91331,
-      "change": "69%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "알리"
-    },
-    "ali-edifier-m90-speaker:priceKrw": {
-      "at": "2026-10-27T22:14:56.287Z",
-      "slug": "ali-edifier-m90-speaker",
-      "field": "priceKrw",
-      "recorded": 191770,
-      "api": 289446,
-      "change": "51%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "알리"
-    },
-    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-10-27T18:20:07.193Z",
-      "slug": "iherb-now-vitamin-d3-k2-120",
-      "field": "domesticKrw",
-      "recorded": 10240,
-      "api": 12970,
-      "change": "27%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    },
-    "amazon-lego-10309-succulents:text": {
-      "at": "2026-10-27T19:26:19.243Z",
-      "slug": "amazon-lego-10309-succulents",
-      "reason": "가격이 바뀌었는데 요약·주의 문장에 금액을 직접 쓴 곳이 있어요. 토큰({diff} 등)으로 바꾸거나 고쳐 주세요",
-      "lines": [
-        "국내는 재고가 적어 쿠팡도 배송비 포함 ₩67,180이에요."
-      ]
-    },
-    "amazon-sennheiser-hd600:domesticKrw": {
-      "at": "2026-10-27T23:12:23.643Z",
-      "slug": "amazon-sennheiser-hd600",
-      "field": "domesticKrw",
-      "recorded": 271640,
-      "api": 352000,
-      "change": "30%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    }
-  },
+  "items": {},
   "updatedAt": "2026-10-28T00:09:29.539Z"
 }
