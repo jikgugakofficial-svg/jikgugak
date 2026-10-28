@@ -116,7 +116,7 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-10-27T21:15:51.825Z",
+      "at": "2026-10-28T12:18:46.191Z",
       "recordedKrw": 56190,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -124,7 +124,7 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-10-27T22:14:52.762Z",
+      "at": "2026-10-28T12:18:47.623Z",
       "recordedKrw": 53960,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -424,5 +424,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T11:21:50.641Z"
+  "updatedAt": "2026-10-28T12:18:48.560Z"
 }
