@@ -3458,7 +3458,63 @@
       "coupangTop": 10,
       "ali": [],
       "coupang": []
+    },
+    "Edifier R1280DB": {
+      "q": "Edifier R1280DB",
+      "brand": "Edifier",
+      "model": "R1280DB",
+      "cat": "audio",
+      "why": "에디파이어 대표 북쉘프 블루투스 스피커(국내 정발 유통). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T15:30:59.513Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005006148604843",
+          "title": "Edifier R1280DB 전원 블루투스 책장 스피커, RCA AUX 광학 동축 입력 리모컨, 2.0 스피커, 42W RMS PC 스피커",
+          "price": 140400,
+          "orders": 42,
+          "rating": "93.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S15987fd03eec4551b2d708ab4cda967ci.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006148604843.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "8938502863",
+          "name": "에디파이어 2.0 스테리오 시스템 북쉘프 스피커리모컨포함,R1280DB",
+          "price": 27800,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/9VwEW4My9jDsO28j9aMzTjaQ2_r3d2Bk7gN612wDgNZKdu5OmI2hly2-84LWlUBR8tFY68vIYEltOI7dNTQQnG7-7pl4ZuHPkwuLTdlsaK8W-poWoIPSs7iPXmJcujIBOsxVfdbBboAG_8evfCAZxtjPgM32-vM-I49fV3wKfWHRHsclCXoMlvqW2EbAmuw69q5ERoxKAYQOrVyPHe35L2T5-_pLtEpaykJoa24iaTk-B_xxrrDt6TYcmTGNxT8iua_l6yVdRvWewNQF2WXB7vrlv6T_0dtC_AvvEnBiu98EW3TbYB-lcC1EawD3ljgRf0jp8U8yWkKlw_1nMydx3nOHloZSw_CE8rdt5MgyYtYfYQSpMHKj1DP5o9HKuR8IQlqwacdOyuiudZ9u5lS59ib87twJBwq4QvuHD14UCcKFGkPF-ESEauTRY_qXvME-YPhfqYkBaqVDS3Bp6nhnsQ9R4sriXZTm-pJeCxCYqyQfdvTb0vggjgmHnKYbUsdmntHVAJXFMqT2-bUGJIhHFHT8uErjAepbgTNRsCFfEbmpQSw=",
+          "url": "https://www.coupang.com/vp/products/8938502863"
+        },
+        {
+          "id": "8505774458",
+          "name": "에디파이어 2.0 스테리오 시스템 북쉘프 스피커리모컨포함,R1280DB",
+          "price": 125910,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/cGQap6sLRB9OQD4TcEC_GSFB6xQJA0wvNZsa9evOQrQDmjB-8Hax0cm5TWPS_7I5k8KKREcDu2txNuvWwQtZUI8yy1bKksnsH-JnPhItSnUsNnAGA-0hPMiGxeAkdNHhFk5YuRSp2ErnQBqgcbFRW2Plu26dM7oG-wBf45ORjkYgaG9kK7cqslTKZNDbPeq2o1_WZXFlKuUVWAGXW5htxBlo_XZjweleYxpWhB0DaeuTjTXJKqUtBEbCzbq-9apqucwnn1Qcs8Lmnt5-n96ZDVR6sgX9k4ZBnzmj-iWO3rXZdm9U3wLVNVfKsP8W2GUjbqpexsNKufkoGY_a5a4sowY0Sqg4KHiZx_1VOd9Yo6rGrhjj0t6I7ZpVaGfDLrCi9N4621gjRyKRUSBh3xFxt5Sc0RR1mvQgAd5HMTc9xoawI9QO9I0nvralb2DEoDKUGxV6zU-2tFexHVd7VgNRG-WiU2XEFgOtp6q1zKre8xXyLWPvG8rTIf1qSZN-8iso69CVosFsbbiDRGlWiZtfz7Y8qt1ZAjI3-ws2VQAmBzs=",
+          "url": "https://www.coupang.com/vp/products/8505774458"
+        },
+        {
+          "id": "8505774458",
+          "name": "에디파이어 2.0 스테리오 시스템 북쉘프 스피커리모컨포함,R1280DB",
+          "price": 139900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/oR_kV9ObvzrES043oeDjTfZWMDR8OFchvC7wcDKtGZEOaLxPwNI0SJQLNcRb-AGix0cgwVZaCCf6jxeEb5OmXqXPjC8O7XjLFrvv3HRLvzmF70ZJ2i-6Be0Lct4awJ7If1UuZjEZHOPED2B6bWc5niBD9RDz4RCAi8lOO2vUxTcibpci36tmxT8hHLsWOYx2SSF0fZUgwAsuMEqCOzFPJvD7SrGEf7R0Ik4UYu7zjiKtTicOEqQbLn5ct_Yz5-gXX60SfWtDJSbHM966xxv9YmSA6Qq8TJbq5KEjTk_R-TsVeM3k063xuheN0fBC3xxLWhwb3pomZbGqw9P7bTnOkSH7ecWSMXrniEonpldpJNEQIRI5ZYrmGKw5fxOop5t49YHnUQOnHTrdivlXiDu_rn6TWgqFmwBX7DDnW0ztQ6T4K_gEp6wyXUwzM34OaBedV02GYkCh7-mKjLlWqvHdJVjLKz_dpwH6wDyT-OnWh6B8ZTUuVkS53h1R9EBAZGnUL5NxOu_0RjdJAsAJtcUoQK9vDRneeYoecwK9i_Jl6nOcUqQf",
+          "url": "https://www.coupang.com/vp/products/8505774458"
+        }
+      ],
+      "best": {
+        "aliId": "1005006148604843",
+        "coupangId": "8938502863",
+        "aliTotal": 140400,
+        "coupangPrice": 27800,
+        "verdict": "bad",
+        "diff": -112600,
+        "pct": -405
+      }
     }
   },
-  "updatedAt": "2026-10-28T13:38:16.354Z"
+  "updatedAt": "2026-10-28T15:31:03.226Z"
 }
