@@ -350,18 +350,18 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-10-28T06:44:16.939Z",
+      "at": "2026-10-28T22:17:44.002Z",
       "recordedKrw": 125900,
       "found": true,
       "apiPrice": 125900,
-      "isRocket": false,
+      "isRocket": true,
       "diff": 0,
       "result": "same"
     },
     "ali-edifier-evobuds-pro": {
       "productId": "9340326719",
       "keyword": "EDIFIER EvoBuds Pro",
-      "at": "2026-10-28T07:40:00.706Z",
+      "at": "2026-10-28T22:17:45.350Z",
       "recordedKrw": 114460,
       "found": true,
       "apiPrice": 114460,
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T21:17:51.513Z"
+  "updatedAt": "2026-10-28T22:17:45.823Z"
 }
