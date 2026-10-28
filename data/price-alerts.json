@@ -2,7 +2,7 @@
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
   "items": {
     "ali-edifier-m90-speaker:priceKrw": {
-      "at": "2026-10-28T20:21:18.645Z",
+      "at": "2026-10-28T23:15:25.439Z",
       "slug": "ali-edifier-m90-speaker",
       "field": "priceKrw",
       "recorded": 191780,
@@ -22,7 +22,7 @@
       "source": "알리"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-10-28T09:27:30.161Z",
+      "at": "2026-10-28T23:15:21.381Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 10260,
@@ -42,5 +42,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-10-28T22:17:49.138Z"
+  "updatedAt": "2026-10-28T23:15:25.439Z"
 }
