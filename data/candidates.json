@@ -3192,7 +3192,47 @@
         "diff": 4200,
         "pct": 6
       }
+    },
+    "8BitDo Pro 2": {
+      "q": "8BitDo Pro 2",
+      "brand": "8BitDo",
+      "model": "Pro 2",
+      "cat": "it",
+      "why": "8BitDo 프로 2 무선 컨트롤러, 알리 공식 스토어 판매·국내 유통. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T06:17:55.970Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005006458599504",
+          "title": "8Bitdo 무선 SN30 Pro 게임 패드 Nintend Switch 2 NS 용 Bluetooth 게임 컨트롤러 조이스틱 MacOS Android Steam Raspberry Pi",
+          "price": 42800,
+          "orders": 1072,
+          "rating": "98.6%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se20e59d9c37240efb9788eb010da291eu.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006458599504.html"
+        },
+        {
+          "id": "1005011781421373",
+          "title": "8BitDo Pro 2 유선 게임패드 USB 컨트롤러 닌텐도 스위치 윈도우 스팀 라즈베리 파이 NS 스위치 게임 컨트롤러",
+          "price": 33700,
+          "orders": 145,
+          "rating": "99.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sea2eddb47eac4b0683ead28eebf67af9Y.jpg",
+          "url": "https://ko.aliexpress.com/item/1005011781421373.html"
+        },
+        {
+          "id": "1005010520657253",
+          "title": "8BitDo Pro 2 유선 게임패드 USB 컨트롤러 닌텐도 스위치 윈도우 스팀 라즈베리 파이 NS 스위치 게임 컨트롤러",
+          "price": 30600,
+          "orders": 128,
+          "rating": "99.6%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5a31f4f4293a4d7983f0e0b4fb2b9f72u.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010520657253.html"
+        }
+      ],
+      "coupang": []
     }
   },
-  "updatedAt": "2026-10-28T04:22:02.704Z"
+  "updatedAt": "2026-10-28T06:18:00.630Z"
 }
