@@ -3548,7 +3548,47 @@
       "coupangTop": 10,
       "ali": [],
       "coupang": []
+    },
+    "Lexar NM790 2TB": {
+      "q": "Lexar NM790 2TB",
+      "brand": "Lexar",
+      "model": "NM790",
+      "cat": "it",
+      "why": "렉사 NVMe SSD 가성비 모델, 용량별(1·2·4TB) 가격이 크게 달라 용량 맞춰야 함. 국내 유통(쿠팡)·알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T21:17:47.155Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005006488800821",
+          "title": "렉사 SSD 1TB NM790 내장형 솔리드 스테이트 드라이브 512GB 2TB 4TB ARES M2 2280 PCIe Gen4x4 NVMe 정품 하드 디스크 (데스크탑, PS5용)",
+          "price": 186600,
+          "orders": 7,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S725f8a3be16d4aa1a7b2c3d7ad812695U.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006488800821.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9146073932",
+          "name": "렉사 Lexar NM790 SSD 2TB PCIe Gen4 NVMe M.2 2280 내부 솔리드 스테이트 드라이브 (LNM790X002T-RNNNU)",
+          "price": 355300,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/xGmNZa_qxFE_Wa7GxPjSIyANfkLR_JM9Gd9r0Th9Wb6BhPL0c57l2n8Om2NicZHZONs3WuqJ-9DrZlEWa0hc7PIJ-x8TbZhHFKo9VMsW376twKyseMA1Q9K2YbLqrNLUPwrktkO5KFKipkvGKL56FLNq93qSnKFr41fYbtbWi01C4BPqYBMLahQMf3ZD7KjOKsbb634u9Jb9x0kz9wxSSWOOKA2Qgr5nO6TNk4X0yGK52dk3-CU8yNDUXvaTyNeQXwmxU_cyRFPXGoqz6RTHUYEJJi1ZvMmMbs7XfW_4HKMjIZEDXq7f4_iJk2gc13iahHsqfCFIcgaFfbm_uyQOo0FV2vNYlFOkMsWnd8k7BeVWsSHsCMUWcVJtKLSsdGuWF-eDSdziwZbD0-geZOoyMqYm-x1HOzr1RdVI3M5MHZegBOZlIyLVHTnK8IqAbHPYmW-EVHQNqtS4GdNnvnX8BQy5B3oCw7W45ejtE0ewOUCprgTRRz1BW5JEGXU_1A-e_3BLLjaPOihbwfAsdNrNEh3ZEFuf7S_D1lcot5F2bUN_5f4=",
+          "url": "https://www.coupang.com/vp/products/9146073932"
+        }
+      ],
+      "best": {
+        "aliId": "1005006488800821",
+        "coupangId": "9146073932",
+        "aliTotal": 186600,
+        "coupangPrice": 355300,
+        "verdict": "good",
+        "diff": 168700,
+        "pct": 47
+      }
     }
   },
-  "updatedAt": "2026-10-28T19:29:08.850Z"
+  "updatedAt": "2026-10-28T21:17:50.213Z"
 }

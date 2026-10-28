@@ -1553,11 +1553,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BJD6VK8G",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.10.28 쿠팡 자동",
+    "checkedAt": "2026.10.29 쿠팡 자동",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18653,
-    "domesticKrw": 15440,
+    "domesticKrw": 19570,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1594,6 +1594,13 @@
         "from": 19600,
         "to": 15440,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 15440,
+        "to": 19570,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1608,11 +1615,11 @@
     "domesticUrl": "https://link.coupang.com/a/h8rx3CeVbg",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
     "sample": false,
-    "checkedAt": "2026.10.28 쿠팡 자동",
+    "checkedAt": "2026.10.29 쿠팡 자동",
     "slug": "iherb-on-micronized-creatine-caps-100",
     "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
     "priceKrw": 29651,
-    "domesticKrw": 33760,
+    "domesticKrw": 28400,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1641,6 +1648,13 @@
         "field": "domesticKrw",
         "from": 26750,
         "to": 33760,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 33760,
+        "to": 28400,
         "source": "쿠팡"
       }
     ]
