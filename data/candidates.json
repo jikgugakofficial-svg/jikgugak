@@ -3372,7 +3372,93 @@
         "diff": -4690,
         "pct": -11
       }
+    },
+    "FiiO KA13": {
+      "q": "FiiO KA13",
+      "brand": "FiiO",
+      "model": "KA13",
+      "cat": "audio",
+      "why": "FiiO 데스크형 DAC/앰프 신제품, 국내 정식 유통 + 알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T13:38:10.239Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005012111921131",
+          "title": "FiiO KA13 DAC 헤드폰 앰프 데스크탑 USB DAC AMP 헤드폰 파워 앰프 휴대용 550mW 고출력 듀얼 CS43131 맞춤형",
+          "price": 77900,
+          "orders": 24,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9cf77d41355d46ef9faf7df9e70799433.png",
+          "url": "https://ko.aliexpress.com/item/1005012111921131.html"
+        },
+        {
+          "id": "1005008063827406",
+          "title": "새로운 FiiO KA13 USB DAC 헤드폰 앰프 듀얼 CS43131 HiFi 무손실 오디오 550mW 3.5mm 4.4mm 출력 데스크탑 모드 안드로이드 IOS PC 선물",
+          "price": 92600,
+          "orders": 21,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf8a195cc8f674ea1b07c482250bb1acdL.jpg",
+          "url": "https://ko.aliexpress.com/item/1005008063827406.html"
+        },
+        {
+          "id": "1005012304447088",
+          "title": "FiiO KA13 USB DAC 헤드폰 앰프 듀얼 CS43131 HiFi 무손실 오디오 550mW 3.5mm 4.4mm 출력 데스크탑 모드 PC 안드로이드 IOS 선물",
+          "price": 86000,
+          "orders": 11,
+          "rating": "80.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se24fe64e588447e3a3be49fb0717a25fn.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012304447088.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "7613561455",
+          "name": "FiiO KA13 HIFI 디코딩 헤드폰 증폭기 AMP DAC DSD256",
+          "price": 56900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Z8ODXNcXcEyyyEufZ92jFb5qWm_12SeXkrse7JJzz9IjpdxMCqiXbL6bY8jNEZySQ5jiIyjHy-eJSNcP39vlkTo1n3Wd2XdfTuvkCaK9QXKZ0JtJTkL3WaIXWDmckT2oJZ4Q-bAW_z1Wpiz18MoeYGyEvaQYabS88Vfj4_yarSO1K7HE_kv3MP7fTBsREuJpTRpO-VYS8DxiINStiCTqcjwpeNmDyqL-lVjCuv7BlXCdrB9x9IxSqJ6EtGZimHLsXh9tb_6e4K60_PO2CywgNeJX0Kz-GPAEXUTCpb1z2MRruufzvkcMecnUc9eDHKQJIEBqd_EHU6-Ysp-Z7txInOfE0RCZMi062zzHqwLSS3KzDoptvSi76rgpSpAetZgKij8YmJVR8HMelHhToS-28onhVnllxKo7mhliVMwUT4qOWrjDovzVgKKcb3k1AVNTLQgJlswYv6h7aR3Y7zVl5R5jHYcBaXpAppCmZzPLKgsC5r20tuaBPH1vRrxbsmG5l2df9SBuPYH0-qrzHM1yUgjuWgMLy00J8PS8bhQm5mg=",
+          "url": "https://www.coupang.com/vp/products/7613561455"
+        },
+        {
+          "id": "9412890672",
+          "name": "Fiio KA13 DAC 디코딩 헤드폰 앰프",
+          "price": 56900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/B02Rvh1fHuZTT8YrB0kZecJzYvH1CcKg5FwyW0Ncpd3Hy02hsNRd8JhbQmX8xoTT0W5H7CTKUBPLqMMxXQVkMdepP6av3LLBCLMcK6iAx8gW8xPMEvSFzqAWr7Am-KnRt1Pl-cBn_wO1e8BLWGpPjBw_0nNpHcaJcEeDgXFYl6eBE1g25get0Qm-kAmEO8Of5KHmHh2xX7xwkK8OeFAf96608a0zYKC4k_Cd32UHkGQ9oGuPttGGz6Vb3TS35wB2LLBvdcq4_b2F0wsQvIkSJLQa7qrCa4Re1RrlrJc3TbaN4PScmwWb5CyuF8Abjw8zhSzh7ByxvWQVp8JkzDDr-oo-bPOCfiGE2kkVosHN6LEOmVMQBccnMPmKg5y148NukL36ElW_ShIrJokO4x8yx-foMD1FM7vD6CgpEnLZO7xUm2UTv7xDffnPXb8EFM4i9XiwZsm9G69_0Q11oPKlmpUlyZwqbAQBDBBpTbTyTOafia-qfy8D6kW8P3Qard6VGtjq3maxFpNyZkfdm-oCwh21iPD9ay8nv_8o0uqShcg=",
+          "url": "https://www.coupang.com/vp/products/9412890672"
+        },
+        {
+          "id": "8825750612",
+          "name": "FiiO KA13 휴대용 디코딩 헤드폰 앰프",
+          "price": 70530,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/sKBbQZZRY1D894iysEaFGMJaf9lbsH-df82s_arO6ekkKkoxBrv-ncDRfTkmVeWYQM-8cujGtE4YIkAXwQgFRb_LOFNpJ9-pD80245ZO_O7cR0YlsbqRalDeXmPrkmOuvTeGkAY0totZxRg-ru-ME_lUBD-7vLFMky9IDlpilw80pW6eSpcW7_PWI6bR92RFJl5MqouOezQpcRzLMWgeER-E8Xw7PTMWLqsMGCTtI1v-2W48yb3xGwVo3vxvpeLAd9GU3pOwnPq7JIPmHfG0OEN3GT6nSgXrS2g2-RQMRt9TmbKaLBIYcbE8j4OHW0AIsG1crXXln1l12AbxUDOV_pBSgaYba-FhtUFqXk26i0dcPoGyv7wsdG_tuiIwFVNHq-jW9iFFI2PP_1KB94r5ASVPPb0ohC4tqV9wg0cv4fuFo8KtLyT-8h6QmGLpoOZ1ycjOZmDs0Grz9LyuMpBmETZpivwRjO4cn_FNmZhBNudl98udYFcTETg-KXt1QfMeRxjHvqi54-pPL-N-bfYEKKwDL7LquB5WGGonlqoTQBAw",
+          "url": "https://www.coupang.com/vp/products/8825750612"
+        }
+      ],
+      "best": {
+        "aliId": "1005012111921131",
+        "coupangId": "7613561455",
+        "aliTotal": 77900,
+        "coupangPrice": 56900,
+        "verdict": "bad",
+        "diff": -21000,
+        "pct": -37
+      }
+    },
+    "1MORE SonoFlow": {
+      "q": "1MORE SonoFlow",
+      "brand": "1MORE",
+      "model": "SonoFlow",
+      "cat": "audio",
+      "why": "1MORE 가성비 ANC 헤드폰, 국내 공식몰 유통 + 알리 1MORE 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T13:38:13.885Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
     }
   },
-  "updatedAt": "2026-10-28T11:21:48.823Z"
+  "updatedAt": "2026-10-28T13:38:16.354Z"
 }

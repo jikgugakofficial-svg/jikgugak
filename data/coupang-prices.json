@@ -132,37 +132,34 @@
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-10-27T22:14:53.730Z",
+      "at": "2026-10-28T13:38:16.357Z",
       "recordedKrw": 137500,
       "found": false,
-      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 4개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-sennheiser-hd600": {
       "productId": "8542629824",
       "keyword": "젠하이저 HD 600 오픈형 헤드폰",
-      "at": "2026-10-27T23:12:22.801Z",
-      "recordedKrw": 271640,
-      "found": true,
-      "apiPrice": 352000,
-      "isRocket": true,
-      "diff": 80360,
-      "result": "held"
+      "at": "2026-10-28T13:38:16.726Z",
+      "recordedKrw": 355020,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-10-27T23:12:23.665Z",
+      "at": "2026-10-28T13:38:17.270Z",
       "recordedKrw": 519000,
       "found": true,
-      "apiPrice": 519000,
+      "apiPrice": 482700,
       "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "diff": -36300,
+      "result": "applied"
     },
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-10-27T23:12:24.034Z",
+      "at": "2026-10-28T13:38:17.580Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -424,5 +421,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T12:18:48.560Z"
+  "updatedAt": "2026-10-28T13:38:18.002Z"
 }
