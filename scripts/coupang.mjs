@@ -134,7 +134,27 @@ async function discover() {
 }
 
 if (mode === 'discover') { await discover(); summary(out.join('\n')); }
-if (mode === 'hourly') { for (let i = 0; i < 2 && searchBudgetLeft() > 5; i++) await discover(); } // 10/27 22시 운영자: 후보는 웹 검색으로 먼저 찾고 API는 연결·가격 갱신에 → 후보 2개 + 등록 상품 가격 확인 5개
+// 사진 없는 등록 상품: 쿠팡 파트너스 검색 결과에서 같은 상품 번호의 제공 이미지(productImage)를 넣어요(절대 규칙 6). 매시간 후보 발굴보다 먼저, 최대 4개(없으면 0번)
+async function fillImages(max = 2) {
+  const need = products.filter((p) => !p.hidden && !p.image && !(p.parts || []).some((x) => x.image) && productIdOf(p.domesticCheckUrl)).slice(0, max);
+  for (const p of need) {
+    if (searchBudgetLeft() <= 0) break;
+    const id = productIdOf(p.domesticCheckUrl);
+    const keyword = (p.coupangKeyword || p.name).replace(/\(.*?\)/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 50);
+    try {
+      const hit = (await search(keyword, 10)).find((h) => String(h.productId) === id && h.productImage);
+      if (hit) { p.image = hit.productImage; productsChanged = true; out.push(`- 사진 추가: ${p.slug}`); }
+      else out.push(`- 사진 못 찾음: ${p.slug} (검색어 '${keyword}' 상위 10개에 같은 상품 번호 없음 → coupangKeyword 고치기)`);
+    } catch (e) { out.push(`- 사진 확인 실패: ${p.slug} ${String(e.message).slice(0, 80)}`); break; }
+  }
+}
+if (mode === 'images') {
+  await fillImages(Number(args[0]) || 4);
+  if (productsChanged) writeFileSync(productsFile, JSON.stringify(raw, null, 2) + '\n');
+  if (process.env.GITHUB_OUTPUT) writeFileSync(process.env.GITHUB_OUTPUT, `products_changed=${productsChanged}\n`, { flag: 'a' });
+  summary(out.join('\n'));
+}
+if (mode === 'hourly') { await fillImages(4); for (let i = 0; i < 2 && searchBudgetLeft() > 5; i++) await discover(); } // 10/27 22시 운영자: 후보는 웹 검색으로 먼저 찾고 API는 연결·가격 갱신에 → 후보 2개 + 등록 상품 가격 확인 5개
 
 // ---------- 등록 상품 가격 자동 반영 (10/27 운영자 결정: API로 받은 가격은 자동으로 사이트에 반영) ----------
 // 안전장치: ① 같은 상품 번호(쿠팡은 옵션 번호 itemId까지 기록돼 있으면 그것도)일 때만 ② 변화가 너무 크면(옵션이 다른 값일 수 있어서) 반영하지 않고 확인 목록에 남겨요
