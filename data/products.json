@@ -1719,5 +1719,122 @@
       "note": "쿠팡 상품은 해외 판매자 글로벌판, 알리는 베이스어스 스토어 글로벌판",
       "checkedAt": "2026.10.28"
     }
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상이라 배송비 없음",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.28 오전",
+    "slug": "iherb-cgn-s-acetyl-glutathione-120",
+    "name": "캘리포니아골드뉴트리션 S-아세틸 L-글루타치온 100mg 120캡슐",
+    "priceKrw": 57208,
+    "domesticKrw": 81300,
+    "domesticUrl": "https://link.coupang.com/a/icOCWUcqGW",
+    "domesticSource": "쿠팡 120정 1개 최저가, 무료배송(해외 배송)",
+    "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-s-acetyl-l-glutathione-100-mg-120-veggie-capsules/103272",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6584056433?itemId=26852302179",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-s-acetyl-l-glutathione-100-mg-120-veggie-capsules/103272",
+    "coupangKeyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준(배송비 포함)",
+      "6병까지 자가사용 인정",
+      "30캡슐 제품·환원형 글루타치온 500mg과 다른 제품이에요"
+    ],
+    "summary": [
+      "캘리포니아골드뉴트리션 S-아세틸 L-글루타치온 100mg 120캡슐끼리 비교했어요.",
+      "아이허브가 쿠팡보다 {diff}({pct}) 싸요. 4만 원이 넘어 배송비도 없어요.",
+      "쿠팡의 30캡슐 제품은 용량이 달라 비교하지 않았어요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "898220019007",
+      "model": "CGN S-Acetyl L-Glutathione 100mg 120 Veggie Capsules",
+      "note": "쿠팡 상세에 바코드 표기가 없어 상품명·함량·정 수(100mg, 식물성 120캡슐)로 확인. 아이허브 UPC 898220019007",
+      "checkedAt": "2026.10.28"
+    }
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상이라 배송비 없음",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.28 오전",
+    "slug": "iherb-cgn-marine-collagen-500g",
+    "name": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
+    "priceKrw": 58214,
+    "domesticKrw": 82000,
+    "domesticUrl": "https://link.coupang.com/a/icOCWZKaTk",
+    "domesticSource": "쿠팡 500g 1개 최저가, 무료배송(해외 배송)",
+    "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-hydrolyzed-marine-collagen-peptides-unflavored-1-1-lb-500-g/102077",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9127064765?itemId=21720076850",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-hydrolyzed-marine-collagen-peptides-unflavored-1-1-lb-500-g/102077",
+    "coupangKeyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
+    "risks": [
+      "식품: 미국발도 $150 기준(배송비 포함)",
+      "콜라겐업(CollagenUP, 히알루론산·비타민C 들어간 제품)과 다른 제품이에요",
+      "200g·206g 소포장과 용량이 달라요"
+    ],
+    "summary": [
+      "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g끼리 비교했어요.",
+      "아이허브가 쿠팡보다 {diff}({pct}) 싸요. 4만 원이 넘어 배송비도 없어요.",
+      "히알루론산이 들어간 콜라겐업은 다른 제품이라 비교하지 않았어요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "898220018642",
+      "model": "CGN Hydrolyzed Marine Collagen Peptides Unflavored 500g",
+      "note": "쿠팡 상세에 바코드 표기가 없어 상품명·맛·용량(무맛 500g)으로 확인. 아이허브 UPC 898220018642",
+      "checkedAt": "2026.10.28"
+    }
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상이라 배송비 없음",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.10.28 오전",
+    "slug": "iherb-jarrow-ultra-boneup-240",
+    "name": "자로우 울트라 본업 240정",
+    "priceKrw": 55527,
+    "domesticKrw": 79400,
+    "domesticUrl": "https://link.coupang.com/a/icOCW4TpBI",
+    "domesticSource": "쿠팡 울트라 본업 240정 1개 최저가, 무료배송(해외 배송)",
+    "buyUrl": "https://kr.iherb.com/pr/p/8202",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8340015166?itemId=24084680795",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/p/8202",
+    "coupangKeyword": "자로우 울트라 본업 240정",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준(배송비 포함)",
+      "6병까지 자가사용 인정",
+      "일반 본업(BoneUp) 캡슐 120·240·360정과 다른 제품이에요"
+    ],
+    "summary": [
+      "자로우 울트라 본업(Ultra BoneUp) 240정끼리 비교했어요.",
+      "아이허브가 쿠팡보다 {diff}({pct}) 싸요. 4만 원이 넘어 배송비도 없어요.",
+      "쿠팡에서 더 싸게 보이는 '본업 캡슐 240정'은 일반 본업이라 다른 제품이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "790011040057",
+      "model": "Jarrow Formulas Ultra BoneUp 240 Tablets",
+      "note": "쿠팡 상세에 바코드 표기가 없어 상품명·정 수(Ultra BoneUp 240정)로 확인. 아이허브 UPC 790011040057",
+      "checkedAt": "2026.10.28"
+    }
   }
 ]
