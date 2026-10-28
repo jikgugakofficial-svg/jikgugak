@@ -36,6 +36,7 @@ if (!hasKeys()) { summary('쿠팡 API 키가 아직 등록되지 않았어요. �
 const productsFile = 'data/products.json';
 const raw = JSON.parse(readFileSync(productsFile, 'utf8'));
 const products = Array.isArray(raw) ? raw : raw.products;
+let productsChanged = false; // fillImages(매시간 맨 앞)·가격 반영이 같이 써요 — 먼저 선언(10/28 선언 전 사용 오류로 사진 1개만 채워졌던 문제)
 
 if (mode === 'check') {
   const sample = products.find((p) => productIdOf(p.domesticCheckUrl))?.domesticCheckUrl;
@@ -172,7 +173,6 @@ function verdictOf(p) {
   return judge(p.domesticKrw, total, RULE).verdict;
 }
 const V3 = { good: '직구각', meh: '애매', bad: '국내가 나음' };
-let productsChanged = false;
 const alertsFile = 'data/price-alerts.json';
 const alerts = readJson(alertsFile, { note: '자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인). 처리하면 지워요.', items: {} });
 function applyPrice(p, field, newKrw, source, allowPct) {
