@@ -333,7 +333,7 @@
     "ali-edifier-m90-speaker": {
       "productId": "9481089707",
       "keyword": "에디파이어 M90 블루투스 스피커",
-      "at": "2026-10-27T16:28:03.306Z",
+      "at": "2026-10-28T06:44:16.425Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -341,11 +341,11 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-10-27T16:28:03.702Z",
+      "at": "2026-10-28T06:44:16.939Z",
       "recordedKrw": 125900,
       "found": true,
       "apiPrice": 125900,
-      "isRocket": true,
+      "isRocket": false,
       "diff": 0,
       "result": "same"
     },
@@ -421,5 +421,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T06:18:02.178Z"
+  "updatedAt": "2026-10-28T06:44:17.366Z"
 }

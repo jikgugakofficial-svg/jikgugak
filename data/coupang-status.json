@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-28T06:18:07.623Z",
-  "mode": "hourly",
+  "at": "2026-10-28T06:44:23.435Z",
+  "mode": "prices",
   "ok": true,
-  "message": "후보 발굴 '8BitDo Pro 2': 쿠팡에서 같은 모델 못 찾음"
+  "message": "가격 확인 쿠팡 2개·알리 3개 · 확인할 것 2개(price-alerts)"
 }
