@@ -1,0 +1,30 @@
+{
+  "dir": "content/2026-10-27-s2-02-ali-1111-cart",
+  "at": "2026-10-28T09:31:33.212Z",
+  "posts": [
+    {
+      "kind": "instagram",
+      "ok": true,
+      "id": "17949523632389088",
+      "url": "https://www.instagram.com/p/DfCHhPYlfxC/"
+    },
+    {
+      "kind": "reels",
+      "ok": true,
+      "id": "18147210499530555",
+      "url": "https://www.instagram.com/reel/DfCHjGEjoVA/"
+    },
+    {
+      "kind": "threads",
+      "ok": true,
+      "id": "18118671422603330",
+      "url": "https://www.threads.com/@jikgugak.official/post/DfCHnTnlb15"
+    },
+    {
+      "kind": "story",
+      "ok": true,
+      "id": "17958713295254073",
+      "from": "reel"
+    }
+  ]
+}
