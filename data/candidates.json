@@ -3088,7 +3088,93 @@
         }
       ],
       "coupang": []
+    },
+    "Oclean X10": {
+      "q": "Oclean X10",
+      "brand": "Oclean",
+      "model": "X10",
+      "cat": "home",
+      "why": "오클린 전동칫솔 상위 모델, 국내 정발·알리 공식 판매. 색상·칫솔모 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T04:21:55.320Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "8BitDo Ultimate 2 Wireless": {
+      "q": "8BitDo Ultimate 2 Wireless",
+      "brand": "8BitDo",
+      "model": "Ultimate 2",
+      "cat": "it",
+      "why": "8BitDo 무선 게임패드(국내 유통 + 알리 공식 스토어). Ultimate 2C와 이름 비슷해 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-28T04:21:59.951Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005004698856770",
+          "title": "TMR 조이스틱, 전환 가능한 트리거, 모션 제어, 8단 속도를 갖춘 PC 및 Android용 8BitDo Ultimate 2 무선 게임 컨트롤러",
+          "price": 68700,
+          "orders": 3894,
+          "rating": "97.4%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S42bef25c3a964da3b4074a07d58ac7e4U.jpg",
+          "url": "https://ko.aliexpress.com/item/1005004698856770.html"
+        },
+        {
+          "id": "1005012013826953",
+          "title": "8BitDo Ultimate 2C 블루투스 컨트롤러 무선 게임패드 (홀 이펙트 조이스틱 포함) 닌텐도 스위치 / 스위치 2 / OLED 콘솔용",
+          "price": 34300,
+          "orders": 1835,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc34fb1ff5e83486aa61cf72e18359adbT.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012013826953.html"
+        },
+        {
+          "id": "1005009946855833",
+          "title": "8BitDo Ultimate 2 무선 게임 컨트롤러 PC 및 안드로이드용-Evernight(혼카이: 스타 레일 공식 라이선스)",
+          "price": 104600,
+          "orders": 922,
+          "rating": "98.2%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0b0bf47ad164b70b75233e3281971761.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009946855833.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "8887608986",
+          "name": "국내정발 8BitDo 얼티밋2 2.4G 컨트롤러 Ultimate 2 Wireless Controller",
+          "price": 72900,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/OUY_oR8oAZ6tcuEpOawhf0CAmAzwGA0M0GnfTnjrqyXoTwLOrT4aNYbi7AWkfrf6zZf_FOkrQyOCkCIplLFFAcoTk3NFTdSv_Xrw4p_KAbno1lhzashX3lgt1a9G_vqKiVCTcf-FyDZ28C_pGe4tejWcSMe3kvTt7yRlCIs70A7jg6sainAhAMhpijLS-dFJGKJMj8AspzVy_egcigpWI1TniMBrvCnAm6UzyamvaqzAlxwNgJX162xjxU2Bp5od-V9ZNh6M9ZUx3YTPkSdiLqJTvMYtj2UUKbAqRWOdoFns8VG-336K1vfb0vXbKAD6IcbvfHOQstZVRyIinHkqYgAZK2D_Q-Osf0Wkr2k75JWf9df_I2VKjCk6M9jNJJtQGOxpMUSoCNbis_plBDOrREIzzWum0gDWVrfJAz_wDKzVNGjSoUP9Nad7OSsgaHMbdgbN-P7zU6G6AdZ76V0QNRmpr-eFmaSKZV-LQh8timhdsPc8PcVkXWc14BMljr1tidMOG-YBCqrZWmdnR85YH1R-wa6At-tmhDttdY52dYAOzNA=",
+          "url": "https://www.coupang.com/vp/products/8887608986"
+        },
+        {
+          "id": "8887608986",
+          "name": "국내정발 8BitDo 얼티밋2 2.4G 컨트롤러 Ultimate 2 Wireless Controller",
+          "price": 72900,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/dP8Z0sI4teYdzjwsdG9dD6qxhn1eQVm5aR5AVxq5CP4xxfOBCDcRNC2PPN1PeXMnUQ2YnDuJTh28RpDFvB4AUNaNXwEI5LTz9fXQsTPBRh8Owu7rfF_sNqNzJ0uRriQYP77ZgcVvWprUmnnm8jre5K03mattgcR-lHatmtQyZx-9vpem-v8Fa7zs9CNQg2QkAhF7bMeTdhyBWOD97iNZdBevq2NAJB3TUTYujYBiGdtU4EUzlj6dcMXkxL5VA3_ZBGX-UxRigVxIAEHo88GGUroWDdtlXiqBhVZRUYruob7RA9fH_p7lYxyuNqLRG9mtQ_RReLiKsSEtdQZG1o0nKETBqrYF_nf-XrTIivkfS4s8Iea00lUgXTcGAY53jCk2yQTSccvTr0Rp6Y4P_oRFx55RE5v749HPwK0iVg-VZsyLd-f1MLJkG67hM5gzMPg0tG66JoMMK7q7Piyex8mM7vClTNXWOgLH2Ugubv72xAQoedL1KabbtfdripqXWwlARa2K0pc9_EeybgSZNrn5fy75hSlCsPacLl604B1gbNfZEQEw",
+          "url": "https://www.coupang.com/vp/products/8887608986"
+        },
+        {
+          "id": "9735928148",
+          "name": "[국내정발] 8BitDo 얼티밋2 2.4G 컨트롤러 Ultimate 2 Wireless Controller 클리어블루",
+          "price": 72900,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/BoVABTre4CHkX22aBnRKuLrcHw1JD-i2GeU-OVUc0wcFwM1WNj10HkSjx9FkMwFYQYNDVm5k0TpGpKRJb68o9lukCmzmgd-5BagP1ELQSmajZH9tYaYnoBLq7lKLKLqZsVrab3FEtUAIuAa1tSCBgwE3MzJgdmW9XzPFb0UfBKYb5szXcjjiEaKsLSQiQTW3XXDt5yTitxF0B3JlKgx38D2LtdgYfviVGG8nP7pwLtCzvUfNW3l_I2SwaKj4K-6GolSsL2uDgOzBPi91OHTHtwWKg8Qxz2Ylc6k5Dy_cVacrOpZJC88MAmIw1PQu6xmE7DBA_t8Idn3Sv9eHom3xjscup0Y6I3qeuH0AFskYCUx5ktnGvD9Dc-XK-xxPNQG36tb1H9NCIBXCozMfds5GBh8ILQVjcjzZMZqza4s3cITKnt-9cElENS1CMaASwToyxsastDf2Lhjh9wODBE7F2Wpdv4AUbBzWI1IoHRUughqXpd006KWeJlQtjGsu0b-LszzFxTu_YSc9SErWKO9C69wif5hlXTbZT54ape1DVPEJX62b5A==",
+          "url": "https://www.coupang.com/vp/products/9735928148"
+        }
+      ],
+      "best": {
+        "aliId": "1005004698856770",
+        "coupangId": "8887608986",
+        "aliTotal": 68700,
+        "coupangPrice": 72900,
+        "verdict": "meh",
+        "diff": 4200,
+        "pct": 6
+      }
     }
   },
-  "updatedAt": "2026-10-28T03:21:38.930Z"
+  "updatedAt": "2026-10-28T04:22:02.704Z"
 }
