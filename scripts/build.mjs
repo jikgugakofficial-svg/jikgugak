@@ -314,7 +314,7 @@ function compareCard(p) {
       : '<b>-</b>';
   const diff = ev.kind === 'priced' ? `<span class="${ev.diff > 0 ? 'pct-down' : 'pct-up'}">${ev.diff > 0 ? '직구가' : '국내가'} ₩${krw(Math.abs(ev.diff))} 저렴</span>` : '';
   return `<article class="cmp-card" data-s-item data-name="${esc(keys)}" data-urls="${esc([p.domesticCheckUrl, p.overseasCheckUrl].filter(Boolean).join(' '))}">
-  <a class="cmp-head" href="/p/${esc(p.slug)}">${imgBlock(p)}<div><span class="cmp-name">${esc(p.name)}</span><span class="cmp-verdict ${v.cls}">${esc(v.label)}</span> ${diff}</div></a>
+  <a class="cmp-head" href="/p/${esc(p.slug)}"><div class="card-img cmp-thumb">${imgBlock(p)}</div><div><span class="cmp-name">${esc(p.name)}</span><span class="cmp-verdict ${v.cls}">${esc(v.label)}</span> ${diff}</div></a>
   <div class="cmp-rows">
     <div class="cmp-row"><span class="cmp-store">${esc(p.domesticStore || '국내 최저가')}</span><span class="cmp-val"><b>₩${krw(p.domesticKrw)}</b><small>국내 최저가</small></span>${out(p.domesticUrl, '쿠팡에서 보기')}</div>
     <div class="cmp-row"><span class="cmp-store">${esc(p.storeName)}</span><span class="cmp-val">${overseasCell}</span>${p.unavailable ? '' : out(p.buyUrl, p.storeName + '에서 보기')}</div>

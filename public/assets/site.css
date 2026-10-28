@@ -569,8 +569,9 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .cmp-card { border: 1px solid var(--line); border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 10px; background: #fff; min-width: 0; }
 .cmp-card[hidden] { display: none; }
 .cmp-head { display: flex; gap: 12px; align-items: center; color: inherit; text-decoration: none; }
-.cmp-head .card-img, .cmp-head img { width: 64px; height: 64px; flex: 0 0 64px; border-radius: 10px; object-fit: cover; }
-.cmp-head > div { min-width: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.cmp-head .cmp-thumb { width: 88px; height: 88px; flex: 0 0 88px; border-radius: 12px; gap: 0; font-size: 0; }
+.cmp-head .cmp-thumb svg { width: 24px; height: 24px; }
+.cmp-head > div:not(.cmp-thumb) { min-width: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
 .cmp-name { font-weight: 800; font-size: 15px; line-height: 1.35; flex-basis: 100%; }
 .cmp-verdict { font-size: 12px; font-weight: 900; padding: 2px 8px; border-radius: 999px; }
 .cmp-verdict.v-good { background: var(--good-tint); color: var(--good); }
@@ -781,7 +782,7 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .pc-img { flex-basis: 108px; width: 108px; height: 108px; }
   .pc-row { grid-template-columns: 38px 1fr auto; padding: 10px; }
   .s-img { width: 108px; height: 108px; }
-  .cmp-head .card-img, .cmp-head img { width: 96px; height: 96px; flex-basis: 96px; }
+  .cmp-head .cmp-thumb { width: 104px; height: 104px; flex-basis: 104px; }
   .cpl-img { flex-basis: 72px; width: 72px; height: 72px; }
 }
 
