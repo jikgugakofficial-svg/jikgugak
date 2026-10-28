@@ -1,6 +1,7 @@
 // 직구각 사이트 빌드: data/*.json을 읽어 dist/에 정적 HTML을 만듭니다.
 // 실행: npm run build  (외부 패키지 없이 Node만 있으면 됩니다)
 import fs from 'node:fs';
+import { md as mdToHtml, frontMatter } from './lib/md.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CATEGORIES, CART_STORES, landedCost, judge, breakevenUsd, dutyFreeLimit, formatKrw } from '../src/calc.js';
@@ -933,9 +934,48 @@ function calendarIcs() {
 }
 
 // ---------- 페이지: 가이드 ----------
+
+// ---------- 질문별 답 페이지 (/guide/<slug>) — content/guides/<slug>.md ----------
+// 본문 숫자 토큰: {fx} 이번 주 과세환율, {fxLabel} 적용 기간, {krw150}·{krw200} 면세 한도 원화(과세환율, 원 미만 버림)
+const GUIDE_DIR = path.join(root, 'content', 'guides');
+const guideTokens = (t) => String(t)
+  .replace(/\{fx\}/g, FX.toLocaleString('ko-KR', { maximumFractionDigits: 2 }))
+  .replace(/\{fxLabel\}/g, RATES.customs.label || '')
+  .replace(/\{krw150\}/g, formatKrw(Math.floor(150 * FX)))
+  .replace(/\{krw200\}/g, formatKrw(Math.floor(200 * FX)));
+const GUIDES = fs.existsSync(GUIDE_DIR) ? fs.readdirSync(GUIDE_DIR).filter((f) => f.endsWith('.md') && !f.startsWith('_')).map((f) => {
+  const { meta, body } = frontMatter(fs.readFileSync(path.join(GUIDE_DIR, f), 'utf8'));
+  return { slug: f.replace(/\.md$/, ''), ...meta, body };
+}).filter((g) => g.title && g.status !== 'draft').sort((a, b) => (Number(a.order) || 99) - (Number(b.order) || 99)) : [];
+
+function pageGuideArticle(g) {
+  const urlPath = `/guide/${g.slug}`;
+  const faq = Array.isArray(g.faq) ? g.faq : [];
+  const cta = g.cta || '/calculator';
+  const ctaLabel = cta.includes('#cart') ? '장바구니 합계로 계산하기' : cta.startsWith('/search') ? '상품 링크 붙여 넣고 판정하기' : '관세 계산기로 계산하기';
+  const related = GUIDES.filter((x) => x.slug !== g.slug).slice(0, 4);
+  const body = `
+<nav class="crumbs small muted" aria-label="위치"><a href="/guide">직구 가이드</a> › <span>${esc(g.question || g.title)}</span></nav>
+<div class="page-head"><h1 class="display guide-h1">${esc(guideTokens(g.title))}</h1>${g.updated ? `<p class="muted small">${esc(g.updated)} 기준 · ${esc(FX_LABEL)}</p>` : ''}</div>
+<article class="prose guide-article">
+${mdToHtml(guideTokens(g.body))}
+<div class="guide-cta"><b>내 상품으로 바로 계산해 보세요</b><span>가입 없이 무료예요. 관세·부가세·배송비를 더한 최종가와 국내 최저가를 비교해 직구각인지 판정해요.</span><a class="btn btn-point" href="${esc(cta)}">${esc(ctaLabel)}</a></div>
+${faq.length ? `<section><h2>자주 묻는 질문</h2>${faq.map((f) => `<h3>${esc(guideTokens(f.q))}</h3><p>${esc(guideTokens(f.a))}${f.source ? ` <a href="${esc(f.source)}" target="_blank" rel="noopener">근거</a>` : ''}</p>`).join('')}</section>` : ''}
+<p class="muted small">예상 세액이에요. 품목별 세율과 최종 세액은 관세청 고지를 따라요. <a href="https://unipass.customs.go.kr/csp/index.do" target="_blank" rel="noopener">관세청 예상세액 조회</a></p>
+</article>
+${related.length ? `<section class="block"><h2 class="h2">같이 많이 묻는 질문</h2><ul class="guide-list">${related.map((x) => `<li><a href="/guide/${esc(x.slug)}">${esc(guideTokens(x.question || x.title))}</a></li>`).join('')}</ul></section>` : ''}`;
+  const ld = [
+    { '@type': 'Article', headline: guideTokens(g.title), description: guideTokens(g.description || ''), dateModified: g.updated || kstToday(), author: { '@type': 'Organization', name: site.siteName }, publisher: { '@type': 'Organization', name: site.siteName }, mainEntityOfPage: absUrl(urlPath) },
+    faq.length ? { '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: guideTokens(f.q), acceptedAnswer: { '@type': 'Answer', text: guideTokens(f.a) } })) } : null,
+    { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: '직구 가이드', item: absUrl('/guide') }, { '@type': 'ListItem', position: 2, name: guideTokens(g.question || g.title), item: absUrl(urlPath) }] }
+  ];
+  return layout({ title: guideTokens(g.title), description: guideTokens(g.description || ''), urlPath, body, current: '/guide', ld });
+}
+
 function pageGuide() {
   const body = `
 <div class="page-head"><h1 class="display">직구 가이드</h1><p class="muted">결제 직전에 막히는 세 가지를 미리 풀어 둬요.</p></div>
+${GUIDES.length ? `<section class="block guide-qs"><h2 class="h2">질문별로 바로 답해요</h2><ul class="guide-list">${GUIDES.map((g) => `<li><a href="/guide/${esc(g.slug)}">${esc(guideTokens(g.question || g.title))}</a></li>`).join('')}</ul></section>` : ''}
 <article class="prose">
 <section id="address">
 <h2>1. 영문 주소 넣는 법</h2>
@@ -1059,6 +1099,7 @@ write('sale.html', pageSale());
 write('domestic.html', pageDomestic());
 write('calendar.ics', calendarIcs());
 write('guide.html', pageGuide());
+for (const g of GUIDES) write(`guide/${g.slug}.html`, pageGuideArticle(g));
 write('disclosure.html', pageDisclosure());
 write('privacy.html', pagePrivacy());
 write('404.html', page404());
@@ -1075,7 +1116,7 @@ if (FIXED_SUMMARIES.length) console.warn(`⚠ 판정이 바뀌어 요약 문장 
 
 // lastmod는 내용이 실제로 바뀌는 날만: 상품은 가격 확인일, 홈·세일·캘린더는 매일(환율·D-day), 나머지는 생략
 const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
-const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...DEALS.map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
+const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...GUIDES.map((g) => [`/guide/${g.slug}`, String(g.updated || '').replace(/\./g, '-')]), ...DEALS.map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smap.map(([u, d]) => `  <url><loc>${absUrl(u)}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 // llms.txt: AI 검색(ChatGPT·Claude·Perplexity 등)이 사이트를 한 번에 이해하게 하는 안내 파일(10/28~). 구글은 필요 없다고 했지만 해롭지 않아요.
 // 판정·날짜만 쓰고 아마존 가격은 쓰지 않아요(손익분기만).
