@@ -25,7 +25,7 @@
 - **붙여넣기 판정이 핵심 기능.** 문구는 "국내 최저가만 넣으면 바로 판정" + "같은 모델인지 확인". "3초 판정" 단독 금지.
 - **검색 화면**(10/26): 알리·쿠팡을 한 목록으로 검색어와 비슷한 순, 같은 모델은 '같은 제품 비교' 카드. 입력창은 쿠팡·알리·아마존·아이허브 링크 모두, 못 찾으면 '찾기가 힘들어요'. 메뉴에서 '쿠팡이 더 싼 것' 뺌(`/domestic`은 남김).
 - **SNS는 줄여서 유지:** 10/31 이후 인스타 릴스 + 스레드 짧은 글(카드뉴스는 쉼). SNS 글엔 링크 없이 "프로필 링크". 인스타는 게시 뒤 스토리 자동 공유 1회. '댓글 판정 요청' 시험 중(답글은 운영자 직접).
-- **영상 광고:** 레퍼런스 키트 기법을 골라 섞어 만들기(`docs/marketing/motion-reference.md`, 도구 `tools/tvc/`), 배경음은 직구각 자작곡(`tools/cards/bgm/`, 120 BPM).
+- **영상 광고:** 레퍼런스 키트 기법(`docs/marketing/motion-reference.md`) + Vimeo 최근 3년 상위작 18편 실측 타이밍(`docs/marketing/motion-reference-vimeo.md`, 10/28: 컷 2~2.5초·전환 직전 0.25초 3~6연타·끝 카드 8~17%)을 골라 섞어 만들기(도구 `tools/tvc/`), 배경음은 직구각 자작곡(`tools/cards/bgm/`, 120 BPM).
 
 **운영 장치**(10/27~28, 자세한 건 CLAUDE.md)
 - 일 맡기는 쪽지(`docs/handoffs.md`) · 제품 맥락 한 장(`docs/marketing/product-context.md`) · 큰 결정은 법정(`docs/court.md`) · 제휴 약관 점검표(`docs/affiliate-terms.md`) · 상품 등록 가치 3문항.
