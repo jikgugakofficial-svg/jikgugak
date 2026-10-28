@@ -388,7 +388,7 @@
     "iherb-cgn-s-acetyl-glutathione-120": {
       "productId": "6584056433",
       "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
-      "at": "2026-10-28T01:37:01.353Z",
+      "at": "2026-10-28T16:30:20.761Z",
       "recordedKrw": 81300,
       "found": true,
       "apiPrice": 81300,
@@ -399,7 +399,7 @@
     "iherb-cgn-marine-collagen-500g": {
       "productId": "9127064765",
       "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-      "at": "2026-10-28T01:37:01.764Z",
+      "at": "2026-10-28T16:30:21.794Z",
       "recordedKrw": 82000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -424,5 +424,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-28T15:31:05.395Z"
+  "updatedAt": "2026-10-28T16:30:22.253Z"
 }
