@@ -41,6 +41,15 @@ for(const p of P){
     }
   }
 }
+// 세일 일정: 앞으로 남은 '확정'은 공식 출처(쇼핑몰·보도자료 주소)가 있어야 해요. 고정 날짜(블프 등)는 fixedDate
+const E=JSON.parse(fs.readFileSync(path.join(root,'data','events.json'),'utf8'));
+const todayKst=new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
+for(const e of E){
+  if((e.end||e.date)<todayKst) continue;
+  if(!['confirmed','reported','expected'].includes(e.status)) issues.push('🔴 event '+e.id+': status는 confirmed·reported·expected 중 하나');
+  if(e.status==='confirmed' && !e.fixedDate && !/^https?:\/\//.test(e.source||'')) issues.push('🔴 event '+e.id+': 확정인데 출처 주소(source)가 없어요 → 공식 발표 주소를 넣거나 reported/expected로');
+  if(e.status==='reported') issues.push('INFO event '+e.id+': 공식 발표 전('+e.date+'~'+(e.end||'')+'), 공식 확인되면 confirmed로');
+}
 const S=JSON.parse(fs.readFileSync(path.join(root,'data','settings.json'),'utf8'));
 issues.push('INFO fx: '+S.fx.label);
 const sm=fs.readFileSync(dist+'/sitemap.xml','utf8'); issues.push('INFO sitemap urls: '+(sm.match(/<loc>/g)||[]).length);

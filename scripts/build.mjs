@@ -765,7 +765,7 @@ const upcoming = events.filter((e) => daysUntil(evEnd(e)) >= 0).sort((a, b) => a
 const MAJOR_FALLBACK = ['singles-day', 'black-friday', 'cyber-monday', '11st-grand-2026', 'korea-sale-festa-2026'];
 const isMajor = (e) => (events.some((x) => 'major' in x) ? e.major === true : MAJOR_FALLBACK.includes(e.id));
 const upcomingMajor = upcoming.filter(isMajor).length ? upcoming.filter(isMajor) : upcoming;
-const STATUS = { confirmed: '날짜 확정', expected: '예상 · 작년 기준' };
+const STATUS = { confirmed: '날짜 확정', reported: '공식 발표 전 · 업계 안내', expected: '예상 · 작년 기준' };
 const SCOPE = { overseas: '해외 직구', domestic: '국내 쇼핑몰' };
 const nextSaleFor = (storeName) => upcoming.find((e) => e.scope === 'overseas' && e.stores.includes(storeName));
 
@@ -926,7 +926,7 @@ function calendarIcs() {
   for (const e of upcoming) {
     const d = e.date.replace(/-/g, '');
     const next = new Date(Date.parse(evEnd(e)) + 864e5).toISOString().slice(0, 10).replace(/-/g, '');
-    const desc = `${e.status === 'expected' ? '[예상] ' : ''}${e.note}`;
+    const desc = `${e.status === 'expected' ? '[예상] ' : e.status === 'reported' ? '[공식 발표 전] ' : ''}${e.note}`;
     lines.push('BEGIN:VEVENT', `UID:${e.id}@jikgugak`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${next}`, `SUMMARY:${e.name} (${e.stores})`, `DESCRIPTION:${desc.replace(/[,;]/g, (m) => '\\' + m)}`, 'END:VEVENT');
   }
   lines.push('END:VCALENDAR');

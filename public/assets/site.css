@@ -415,7 +415,7 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
 .ev-tag.overseas { background: var(--brand-tint); color: var(--brand-dark); }
 .ev-tag.domestic { background: var(--bad-tint); color: var(--bad); }
 .ev-tag.confirmed { background: var(--good-tint); color: var(--good); }
-.ev-tag.expected { background: var(--bg2); color: var(--sub); }
+.ev-tag.expected, .ev-tag.reported { background: var(--bg2); color: var(--sub); }
 .ev-range { font-size: 13px; font-weight: 700; color: var(--sub); }
 .bf-table td .muted { display: block; margin-top: 2px; }
 

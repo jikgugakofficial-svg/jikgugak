@@ -115,7 +115,7 @@
     "date": "2026-11-01",
     "stores": "알리익스프레스",
     "scope": "overseas",
-    "status": "confirmed",
+    "status": "reported",
     "note": "알리 연중 최대 할인. 10/29~10/31 예열(장바구니·쿠폰 미리 받기), 본 세일은 11/1 0시~11/18 23:59(한국 시간). 결제 전 관세 넣은 최종가로 국내가와 비교하세요.",
     "cats": [
       "general",
@@ -123,7 +123,12 @@
     ],
     "major": true,
     "end": "2026-11-18",
-    "source": "알리 제휴 쿠폰 사이트 2곳(세일박사·알리쿠폰코리아) 일정 일치, 10/28 확인. 알리 앱 공지로 다시 확인"
+    "source": "https://saledoctor.co.kr/blog/2026/10/13/a-singles-day/",
+    "sources": [
+      "https://saledoctor.co.kr/blog/2026/10/13/a-singles-day/",
+      "https://alicouponkorea.com/"
+    ],
+    "checkNote": "10/28 매니저: 알리 공식 페이지·보도자료엔 아직 없음(예열 10/29 시작). 제휴 쿠폰 사이트 2곳 일정 일치. 알리 공식 확인되면 confirmed로"
   },
   {
     "id": "amazon-bf-week-2026",
@@ -184,7 +189,8 @@
       "electronics",
       "health"
     ],
-    "major": true
+    "major": true,
+    "fixedDate": true
   },
   {
     "id": "iherb-bf-2026",
@@ -212,7 +218,8 @@
     "cats": [
       "electronics"
     ],
-    "major": true
+    "major": true,
+    "fixedDate": true
   },
   {
     "id": "rakuten-super-sale-2026-12",
@@ -240,7 +247,8 @@
       "general",
       "fashion"
     ],
-    "major": false
+    "major": false,
+    "fixedDate": true
   },
   {
     "id": "ali-anniversary-2027",
