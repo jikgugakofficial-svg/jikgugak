@@ -52,14 +52,15 @@ def build_tl(n):
     }
     W = []  # [글자, 들어오는 박, 나가는 박, y, 크기, 색, 글꼴]
     W += [['해외몰이', 0.5, 5, 600, 150, 'navy', 'D'], ['늘 더 쌀까요?', 1.0, 5, 780, 150, 'orange', 'D']]
-    W += [[f"{n['all']}개", 5.0, 9, 600, 210, 'orange', 'D'], ['다 더해 봤어요', 5.5, 9, 790, 120, 'navy', 'D']]
+    W += [[f"{n['all']}개", 5.0, 9, 600, 210, 'orange', 'D'], ['다 더해 봤어요', 5.5, 9, 790, 120, 'white', 'D']]
     W += [[f"{n['bad']}개는", 10.5, 16, 600, 190, 'blue', 'D'], [f"{n['domName']} 더 쌌어요", 11.0, 16, 790, 120, 'navy', 'D']]
     if n['badSupp']:
         W += [[f"그중 {n['badSupp']}개는 영양제예요", 12.5, 16, 905, 60, 'gray', 'P']]
     W += [['해외몰이 나은 건', 16.0, 21, 600, 120, 'navy', 'D'], [f"{n['good']}개", 16.5, 21, 780, 210, 'green', 'D']]
     if n['meh']:
         W += [[f"애매한 건 {n['meh']}개", 17.5, 21, 935, 60, 'gray', 'P']]
-    W += [[f"{n['date']} 기준 · 직구각이 판정한 {n['all']}개(아마존 제외)", 5.0, 21, 340, 38, 'gray', 'P']]
+    foot = f"{n['date']} 기준 · 직구각이 판정한 {n['all']}개(아마존 제외)"
+    W += [[foot, 5.0, 9, 340, 38, 'mute', 'P'], [foot, 10.2, 21, 340, 38, 'gray', 'P']]
     W += [['국내가만 넣으면', 21.5, 26, 600, 130, 'white', 'D'], ['바로 판정', 22.0, 26, 790, 160, 'salmon', 'D']]
     W += [['직구각', 26, None, 1000, 160, 'white', 'D'], ['관세까지 다 더해서 판정', 26, None, 1140, 54, 'white', 'P']]
     tl['words'] = W
@@ -105,8 +106,12 @@ def music(path, TL):
         if k % 2 == 1:
             add(dr, bt(k), R.clap(), 0.7)
         add(mel, bt(k + 0.5), R.bass(roots[(k // 2) % 4], B * 0.45))
+    add(fx, bt(5) - 0.12, R.whoosh(0.3), 0.7)  # 남색 번짐
+    add(fx, bt(TL['focusGood']) - 0.1, R.whoosh(0.3), 0.5)  # 카메라가 직구각 줄로
+    add(fx, bt(TL['verdict']), R.crash(0.9), 0.4)
+    add(fx, bt(TL['wipe']) + 0.25, R.whoosh(0.35), 0.6)  # 카드가 튀어 들어옴
     for i in range(n):  # 점이 줄로 착지할 때 째깍(작게)
-        add(fx, bt(TL['hop']) + i * 0.025 + 0.42, R.tick(), 0.25)
+        add(fx, bt(TL['hop']) + 0.06 + i * 0.022 + 0.46, R.tick(), 0.25)
     add(fx, bt(10.5), R.thud(), 0.6); add(fx, bt(11), R.thud(), 0.5)
     add(fx, bt(TL['merge']), R.whoosh(0.25), 0.6); add(mel, bt(TL['merge']), R.pluck(1174.66, 0.3), 0.9)
     add(mel, bt(16), R.stab((523.25, 659.25, 783.99), 0.5), 1.0); add(fx, bt(16.5), R.thud(), 0.6)
@@ -173,7 +178,7 @@ def main():
         return
     snd = os.path.join(OUT, 'music.wav')
     music(snd, TL)
-    subprocess.run(r + [os.path.join(OUT, 'tvc-d.mp4'), '--음악', snd, '--sub', os.environ.get('SUB', '4'), '--dur', str(DUR)], check=True)
+    subprocess.run(r + [os.path.join(OUT, 'tvc-d.mp4'), '--음악', snd, '--sub', os.environ.get('SUB', '8'), '--dur', str(DUR)], check=True)
 
 
 if __name__ == '__main__':

@@ -5,20 +5,22 @@
   @font-face{font-family:D;src:url("../../tools/tvc/fonts/Freesentation-9Black.ttf")}
   @font-face{font-family:P;src:url("../../tools/cards/fonts/PretendardVariable.ttf");font-weight:100 900}
   html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#FBF7F3}
+  #bg2,#flash,#slant,#endbg{position:absolute;inset:0}
   #cam{position:absolute;inset:0;transform-origin:540px 1150px}
   svg{position:absolute;inset:0}
-  #flash,#slant,#endbg{position:absolute;inset:0}
   #words{position:absolute;inset:0}
-  .w{position:absolute;left:0;top:0;white-space:nowrap;letter-spacing:-0.02em}
-  #chips{position:absolute;left:0;right:0;top:862px;display:flex;justify-content:center;gap:20px}
-  .chip{font-family:P;font-weight:800;font-size:54px;color:#A82C0A;background:#FDEDE7;border-radius:40px;padding:12px 30px}
+  .w{position:absolute;left:0;top:0;white-space:nowrap;letter-spacing:-0.02em;clip-path:inset(-60% -8% -4% -8%)}
+  .w span{display:inline-block;white-space:pre}
+  #chips{position:absolute;left:0;right:0;top:884px;display:flex;justify-content:center;gap:20px}
+  .chip{font-family:P;font-weight:800;font-size:54px;color:#A82C0A;background:#FFE3D6;border-radius:40px;padding:12px 30px}
   .lbl{font-family:P;font-weight:800}
 </style></head>
 <body>
-<div id="cam"><svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="rows"></g><g id="dots"></g><g id="pen"></g><g id="fx"></g></svg></div>
+<div id="bg2"></div>
+<div id="cam"><svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="trail"></g><g id="rows"></g><g id="dots"></g><g id="pen"></g><g id="fx"></g></svg></div>
 <div id="flash"></div>
 <div id="slant"></div>
-<svg id="ui" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="flashDots"></g><g id="card"></g><g id="fx2"></g></svg>
+<svg id="ui" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="flashDots"></g><g id="speed"></g><g id="card"></g><g id="fx2"></g></svg>
 <div id="endbg"></div>
 <svg id="s2" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="logo"></g></svg>
 <div id="chips"></div>
@@ -28,20 +30,23 @@
 document.fonts.load('900 100px D'); document.fonts.load('800 40px P');
 const T = window.TL, BT = 60 / T.bpm, bt = (b) => b * BT, N = T.n;
 window.DURATION = T.beats * BT;
-const C = { ink:'#16181D', navy:'#1F2E57', orange:'#D23A10', salmon:'#FFC7A6', white:'#FFFFFF', gray:'#5B6170', blue:'#2F5FD0', green:'#0E7C4A', meh:'#8A5A00', bg:'#FBF7F3' };
+const C = { ink:'#16181D', navy:'#1F2E57', orange:'#D23A10', salmon:'#FFC7A6', white:'#FFFFFF', gray:'#5B6170', mute:'#AEB6CC', blue:'#2F5FD0', green:'#0E7C4A', meh:'#8A5A00', bg:'#FBF7F3' };
 const CAT = { bad: C.blue, meh: C.meh, good: C.green };
 const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
 const pg = (t, a, b) => cl((t - a) / (b - a));
 const oc = (x) => 1 - Math.pow(1 - x, 3);
+const o5 = (x) => 1 - Math.pow(1 - x, 5);
 const io = (x) => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
 const ob = (x, s = 1.9) => { x -= 1; return x * x * ((s + 1) * x + s) + 1; };
 const oe = (x) => x <= 0 ? 0 : x >= 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * 2 * Math.PI / 3) + 1;
+const spring = (dt, f = 1.6, z = 0.3) => dt <= 0 ? 0 : 1 - Math.exp(-z * 2 * Math.PI * f * dt) * (Math.cos(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt) + z / Math.sqrt(1 - z * z) * Math.sin(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt));
 const lerp = (a, b, p) => a + (b - a) * p;
 const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
 const mixc = (a, b, p) => { const A = hex(a), B = hex(b); return `rgb(${A.map((v, i) => Math.round(lerp(v, B[i], p))).join(',')})`; };
 const NS = 'http://www.w3.org/2000/svg';
 const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
 const $ = (id) => document.getElementById(id);
+const S2 = [5, 10]; // 남색 구간(박)
 
 // ── 점: 격자 자리 → 판정별 줄 자리 ──
 const COLS = 6, GS = 104, GY0 = 1030, GDY = 92;
@@ -54,8 +59,8 @@ const seen = { bad: 0, meh: 0, good: 0 };
 const DOTS = cats.map((c, i) => {
   const row = Math.floor(i / COLS), inRow = Math.min(COLS, nAll - row * COLS), col = i % COLS;
   const gx = 540 + (col - (inRow - 1) / 2) * GS, gy = GY0 + row * GDY;
-  const j = seen[c]++;
-  return { c, i, row, col, gx, gy, rx: RX0 + j * RSP, ry: ROWY[c], e: el('circle', { r: 0 }, $('dots')) };
+  const j = seen[c]++, a = Math.atan2(gy - 1190, gx - 540) + (rnd() - 0.5) * 0.6;
+  return { c, i, row, col, gx, gy, a, rx: RX0 + j * RSP, ry: ROWY[c], e: el('circle', { r: 0 }, $('dots')) };
 });
 const rowEnd = (c) => RX0 + (N[c] - 1) * RSP;
 const ROWS = {};
@@ -63,15 +68,19 @@ for (const c of ['bad', 'meh', 'good']) {
   const g = el('g', {}, $('rows'));
   const pill = el('rect', { y: ROWY[c] - 24, height: 48, rx: 24, fill: CAT[c] }, g);
   const lab = el('text', { x: 130, y: ROWY[c] - 62, 'dominant-baseline': 'middle', class: 'lbl', 'font-size': 52, fill: CAT[c] }, g); lab.textContent = c === 'bad' ? '국내가 나음' : c === 'meh' ? '애매' : '직구각';
-  const num = el('text', { x: rowEnd(c) + 44, y: ROWY[c] + 4, 'dominant-baseline': 'middle', 'font-family': 'D', 'font-size': 104, fill: CAT[c] }, g); num.textContent = N[c];
+  const num = el('text', { x: rowEnd(c) + 44, y: ROWY[c] + 4, 'dominant-baseline': 'middle', 'font-family': 'D', 'font-size': 104, fill: CAT[c] }, g);
   ROWS[c] = { g, pill, lab, num };
 }
 
-// ── 자막: 한 장면 한 문장, 들어올 때 0.22초만 움직이고 그다음엔 정지(가독성) ──
+// ── 자막: 글자마다 마스크 선 아래에서 솟아 착지(스프링) → 그다음엔 정지(가독성), 나갈 땐 위로 휙 ──
 const WD = T.words.map(([text, b, out, y, size, col, font]) => ({ text, b, out, y, size, col: C[col], font }));
 for (const w of WD) {
-  const d = document.createElement('div'); d.className = 'w'; d.textContent = w.text;
+  const d = document.createElement('div'); d.className = 'w';
   d.style.cssText += `font-family:${w.font};font-weight:${w.font === 'D' ? 900 : 700};font-size:${w.size}px;color:${w.col}`;
+  w.count = w.font === 'D' && w.size >= 180 && /^\d+/.test(w.text); // 큰 숫자는 0부터 굴러 올라감
+  if (w.count) { w.num = +w.text.match(/^\d+/)[0]; w.rest = w.text.replace(/^\d+/, ''); d.textContent = w.text; }
+  else { w.chars = [...w.text].map((ch) => { const sp = document.createElement('span'); sp.textContent = ch; d.appendChild(sp); return sp; }); }
+  if (w.b >= T.end) d.style.clipPath = 'none';
   $('words').appendChild(d); w.d = d;
 }
 const CHIPS = ['+ 배송비', '+ 관세', '+ 부가세'].map((t) => { const d = document.createElement('div'); d.className = 'chip'; d.textContent = t; $('chips').appendChild(d); return d; });
@@ -86,59 +95,93 @@ function layout() {
 }
 function word(w, t) {
   const t0 = bt(w.b), x = 540 - w.wd / 2, y = w.y - w.hh / 2;
-  if (w.b >= T.end) { w.d.style.opacity = t >= bt(T.end) ? 1 : 0; w.d.style.transform = `translate(${x}px,${y}px)`; return; }
+  w.d.style.transform = `translate(${x}px,${y}px)`;
+  if (w.b >= T.end) { w.d.style.opacity = t >= bt(T.end) ? 1 : 0; return; } // 엔드 카드: 움직임 없이
   if (t < t0 || (w.out != null && t >= bt(w.out))) { w.d.style.opacity = 0; return; }
-  const p = pg(t, t0, t0 + 0.22);
-  let a = cl(p * 2.5), dy = 36 * (1 - oc(p)), sc = 1 + 0.12 * (1 - oc(p));
-  if (w.out != null && t > bt(w.out) - 0.1) { const q = pg(t, bt(w.out) - 0.1, bt(w.out)); a *= 1 - q; dy -= 24 * q; }
-  w.d.style.opacity = a;
-  w.d.style.transform = `translate(${x}px,${y + dy}px) scale(${sc})`;
+  w.d.style.opacity = 1;
+  const big = w.size >= 100, out = w.out != null ? bt(w.out) : 1e9;
+  if (w.count) { // 숫자: 아래에서 튀어 오르며 0→n 굴러감(0.45초), 착지 후 정지
+    const p = pg(t, t0, t0 + 0.45), sp = spring(t - t0, 2.2, 0.38);
+    w.d.textContent = Math.round(w.num * o5(p)) + w.rest;
+    const q = pg(t, out - 0.16, out);
+    w.d.style.transform += ` translateY(${(1 - sp) * w.hh * 0.9 - q * w.hh * 1.1}px) scale(${1 + 0.18 * (1 - cl(sp)) * (p < 1 ? 1 : 0)})`;
+    w.d.style.opacity = 1 - q;
+    return;
+  }
+  const n = w.chars.length, st = big ? 0.032 : 0.012;
+  w.chars.forEach((c, i) => {
+    const dt = t - t0 - i * st;
+    const sp = big ? spring(dt, 2.0, 0.42) : oc(pg(dt, 0, 0.25));
+    let ty = (1 - sp) * w.hh * 0.95, rot = big ? (1 - cl(sp)) * 10 : 0, a = dt > 0 ? 1 : 0;
+    const q = pg(t, out - 0.16 + i * Math.min(0.008, 0.08 / n), out); // 나갈 땐 위로 휙
+    ty -= q * w.hh * 1.2; a *= 1 - q;
+    c.style.transform = `translateY(${ty}px) rotate(${rot}deg)`; c.style.opacity = a;
+  });
 }
 function chips(t) {
   CHIPS.forEach((d, i) => {
-    const t0 = bt(T.chips[i]), p = pg(t, t0, t0 + 0.3), out = pg(t, bt(9) - 0.1, bt(9));
-    d.style.opacity = t < t0 ? 0 : cl(p * 3) * (1 - out);
-    d.style.transform = `translateY(${30 * (1 - oc(p))}px) scale(${0.6 + 0.4 * ob(p, 2.2)})`;
+    const t0 = bt(T.chips[i]), sp = spring(t - t0, 2.4, 0.35), out = pg(t, bt(9) - 0.14, bt(9));
+    d.style.opacity = t < t0 ? 0 : 1 - out;
+    d.style.transform = `translateY(${(1 - sp) * 120 - out * 80}px) rotate(${(1 - cl(sp)) * (i % 2 ? 14 : -14)}deg) scale(${0.5 + 0.5 * sp})`;
   });
 }
 
-// ── 점·줄 그리기 ──
-function drawDots(t) {
-  const hop0 = bt(T.hop), mg = bt(T.merge);
-  for (const d of DOTS) {
-    const tp = bt(T.pop[0]) + d.i * (bt(T.pop[1]) - bt(T.pop[0])) / nAll;
-    let r = 30 * oe(pg(t, tp, tp + 0.4)), x = d.gx, y = d.gy, fill = C.orange, op = 1;
-    // 6~8.5박: 계산하는 물결(대각선으로 두 번 지나감)
-    if (t >= bt(T.wave[0]) && t < bt(T.wave[1])) {
-      for (const k of [0, 1]) { const ph = t - (bt(T.wave[0]) + k * 0.6 + (d.col + d.row) * 0.05); r *= 1 + 0.28 * Math.exp(-ph * ph / 0.006); if (Math.abs(ph) < 0.08) fill = C.navy; }
-    }
-    // 10박~: 반원을 그리며 깡충 뛰어 판정별 줄로(레퍼런스 Gemini 모션)
-    const hs = hop0 + d.i * 0.025, hp = pg(t, hs, hs + 0.42);
+// ── 점 위치(시간의 순수 함수: 잔상도 같은 식으로) ──
+function dotState(d, t) {
+  const tp = bt(T.pop[0]) + d.i * (bt(T.pop[1]) - bt(T.pop[0])) / nAll;
+  let r = 30 * oe(pg(t, tp, tp + 0.4)), x = d.gx, y = d.gy, fill = C.orange;
+  // 5~9박: 박마다 열마다 튀어 오름(계산하는 느낌), 물결이 흰색으로 지나감
+  if (t >= bt(5) && t < bt(9)) {
+    for (let k = 5; k < 9; k++) { const dt = t - bt(k) - d.col * 0.03; if (dt > 0 && dt < 0.4) y -= 34 * Math.sin(Math.PI * dt / 0.4) * Math.exp(-dt * 3); }
+    for (const k of [0, 1]) { const ph = t - (bt(T.wave[0]) + k * 0.6 + (d.col + d.row) * 0.05); r *= 1 + 0.3 * Math.exp(-ph * ph / 0.006); if (Math.abs(ph) < 0.08) fill = C.white; }
+  }
+  // 10박: 드롭 순간 바깥으로 튕겼다가(0.12초) 반원을 그리며 판정별 줄로
+  const hop0 = bt(T.hop);
+  if (t >= hop0) {
+    const kick = Math.sin(Math.PI * pg(t, hop0, hop0 + 0.16)) * 70;
+    const bx = d.gx + Math.cos(d.a) * kick, by = d.gy + Math.sin(d.a) * kick;
+    const hs = hop0 + 0.06 + d.i * 0.022, hp = pg(t, hs, hs + 0.46);
+    x = bx; y = by;
     if (t >= hs) {
       const e = io(hp);
-      x = lerp(d.gx, d.rx, e); y = lerp(d.gy, d.ry, e) - 170 * Math.sin(Math.PI * hp) * (d.c === 'good' ? 0.7 : 1);
+      x = lerp(d.gx, d.rx, e); y = lerp(d.gy, d.ry, e) - 260 * Math.sin(Math.PI * hp);
       r = lerp(30, RR, e); fill = mixc(C.orange, CAT[d.c], cl(hp * 2 - 0.4));
-      if (hp >= 1) { const dt = t - hs - 0.42; r = RR * (1 + 0.35 * Math.exp(-dt * 14) * Math.cos(dt * 40)); }
+      if (hp >= 1) { const dt = t - hs - 0.46; r = RR * (1 + 0.45 * Math.exp(-dt * 12) * Math.cos(dt * 40)); }
     }
-    if (t >= mg) op = 1 - pg(t, mg + 0.12, mg + 0.3); // 줄이 알약으로 합쳐지면 점은 사라짐
-    d.e.setAttribute('cx', x); d.e.setAttribute('cy', y); d.e.setAttribute('r', Math.max(0, r)); d.e.setAttribute('fill', fill); d.e.setAttribute('opacity', op);
+  }
+  return { x, y, r: Math.max(0, r), fill };
+}
+function drawDots(t) {
+  const mg = bt(T.merge), tr = $('trail'); tr.innerHTML = '';
+  for (const d of DOTS) {
+    const S = dotState(d, t);
+    const op = t >= mg ? 1 - pg(t, mg + 0.1, mg + 0.25) : 1;
+    d.e.setAttribute('cx', S.x); d.e.setAttribute('cy', S.y); d.e.setAttribute('r', S.r); d.e.setAttribute('fill', S.fill); d.e.setAttribute('opacity', op);
+    // 깡충 뛰는 동안 잔상 3개
+    const hs = bt(T.hop) + 0.06 + d.i * 0.022;
+    if (t > hs && t < hs + 0.5) for (const [k, a] of [[0.03, 0.4], [0.06, 0.24], [0.09, 0.12]]) { const P = dotState(d, t - k); el('circle', { cx: P.x, cy: P.y, r: P.r * 0.9, fill: P.fill, opacity: a }, tr); }
+    // 처음 톡 생길 때 작은 고리
+    const tp = bt(T.pop[0]) + d.i * (bt(T.pop[1]) - bt(T.pop[0])) / nAll;
+    ring($('fx'), d.gx, d.gy, t, tp, C.orange, 20, 70, 0.3, 5);
   }
   for (const c in ROWS) {
-    const R = ROWS[c], p = pg(t, mg, mg + 0.3), x0 = RX0 - RR, full = rowEnd(c) + RR - x0;
-    R.pill.setAttribute('x', x0); R.pill.setAttribute('width', t >= mg ? Math.max(0, lerp(2 * RR, full, oc(p))) : 0);
-    const lp = pg(t, mg, mg + 0.3), np = pg(t, mg + 0.12, mg + 0.4);
-    R.lab.setAttribute('opacity', t >= mg ? cl(lp * 2) : 0);
-    R.num.setAttribute('opacity', t >= mg + 0.12 ? cl(np * 2) : 0);
-    R.num.setAttribute('transform', `translate(${rowEnd(c) + 44} ${ROWY[c]}) scale(${t >= mg + 0.12 ? ob(np, 2.4) : 0}) translate(${-(rowEnd(c) + 44)} ${-ROWY[c]})`);
-    // 집중: 12.5~16박 국내가 나음, 16박~ 직구각만 진하게
+    const R = ROWS[c], x0 = RX0 - RR, full = rowEnd(c) + RR - x0, p = pg(t, mg, mg + 0.45);
+    R.pill.setAttribute('x', x0); R.pill.setAttribute('width', t >= mg ? Math.max(0, lerp(2 * RR, full, ob(p, 2.2))) : 0);
+    const np = pg(t, mg + 0.1, mg + 0.5);
+    R.lab.setAttribute('opacity', t >= mg ? cl(p * 3) : 0);
+    R.lab.setAttribute('transform', `translate(0 ${(1 - oc(p)) * 30})`);
+    R.num.textContent = Math.round(N[c] * o5(np));
+    R.num.setAttribute('opacity', t >= mg + 0.1 ? 1 : 0);
+    const nx = rowEnd(c) + 44 + (lerp(2 * RR, full, ob(p, 2.2)) - full);
+    R.num.setAttribute('x', nx);
     let on = 1;
-    if (t >= bt(T.focusBad[0])) on = c === 'bad' ? 1 : 1 - 0.7 * pg(t, bt(T.focusBad[0]) + 0.2, bt(T.focusBad[0]) + 0.45);
-    if (t >= bt(T.focusGood)) { const q = pg(t, bt(T.focusGood), bt(T.focusGood) + 0.2); on = c === 'good' ? lerp(0.3, 1, q) : lerp(c === 'bad' ? 1 : 0.3, 0.3, q); }
+    if (t >= bt(T.focusBad[0])) on = c === 'bad' ? 1 : 1 - 0.7 * pg(t, bt(T.focusBad[0]) + 0.25, bt(T.focusBad[0]) + 0.5);
+    if (t >= bt(T.focusGood)) { const q = pg(t, bt(T.focusGood), bt(T.focusGood) + 0.2); on = c === 'good' ? lerp(0.3, 1, q) : lerp(c === 'bad' ? 1 : 0.3, 0, q); }
     R.g.setAttribute('opacity', on);
   }
 }
-// ── 16.5박: 주황 펜이 직구각 줄을 동그라미(레퍼런스 Circle to Search) ──
-const penPath = el('path', { fill: 'none', stroke: C.orange, 'stroke-width': 10, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, $('pen'));
+// ── 16.5박: 주황 펜이 직구각 줄을 동그라미 ──
+const penPath = el('path', { fill: 'none', stroke: C.orange, 'stroke-width': 11, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, $('pen'));
 const PEN = (() => { const pts = [], cx = 317, cy = ROWY.good - 26, a0 = -2.2; for (let k = 0; k <= 120; k++) { const u = k / 120, a = a0 + u * 2 * Math.PI * 1.08, w = 1 + 0.035 * Math.sin(u * 13) + 0.05 * u; pts.push([cx + Math.cos(a) * 250 * w, cy + Math.sin(a) * 84 * w - 6 * u]); } return pts; })();
 function drawPen(t) {
   const p = oc(pg(t, bt(T.pen[0]), bt(T.pen[1])));
@@ -156,46 +199,72 @@ function burst(par, x, y, t, t0, col, n, r0, r1, dur = 0.35, w = 12) {
   const rb = r0 + (r1 - r0) * oc(p), ra = r0 + (r1 - r0) * oc(cl(p * 1.7 - 0.7));
   for (let i = 0; i < n; i++) { const a = 2 * Math.PI * i / n + 0.2; el('line', { x1: x + Math.cos(a) * ra, y1: y + Math.sin(a) * ra, x2: x + Math.cos(a) * rb, y2: y + Math.sin(a) * rb, stroke: col, 'stroke-width': w * (1 - p), 'stroke-linecap': 'round' }, par); }
 }
-// ── 9·9.5박: 글자 없는 번쩍(남색 화면에 흰 점) ──
-function drawFlash(t) {
-  const on = T.strobe.some((b) => t >= bt(b) && t < bt(b) + 0.13);
-  $('flash').style.background = on ? C.navy : 'transparent';
-  const fd = $('flashDots'); fd.innerHTML = '';
-  if (on) for (const d of DOTS) el('circle', { cx: d.gx, cy: d.gy, r: 34, fill: '#fff' }, fd);
+function confetti(par, x, y, t, t0, seed, cols, n = 34, dur = 1.1) {
+  const tt = t - t0; if (tt <= 0 || tt >= dur) return;
+  let s = seed; const rd = () => ((s = (s * 16807) % 2147483647) / 2147483647);
+  for (let i = 0; i < n; i++) {
+    const a = rd() * 2 * Math.PI, v = 700 + rd() * 800, k = (1 - Math.exp(-tt * 4)) / 4, sz = (14 + rd() * 16) * (1 - 0.5 * tt / dur);
+    const px = x + Math.cos(a) * v * k, py = y + Math.sin(a) * v * k + 1300 * tt * tt;
+    el('rect', { x: px - sz / 2, y: py - sz / 4, width: sz, height: sz / 2, rx: 3, fill: cols[i % cols.length], transform: `rotate(${(rd() * 360 + tt * 600) % 360} ${px} ${py})` }, par);
+  }
 }
-// ── 21박~: 입력 카드 → 같은 자리에서 판정 알약으로(레퍼런스 Pinterest·Gemini) ──
+const RMAX = (x, y) => 1.06 * Math.max(...[[0, 0], [1080, 0], [0, 1920], [1080, 1920]].map(([a, b]) => Math.hypot(a - x, b - y)));
+const slantClip = (edge) => `polygon(${edge + 300}px 0, 2000px 0, 2000px 1920px, ${edge - 300}px 1920px)`;
+// ── 배경: 5박 남색이 점 가운데서 번짐(0.3초) → 10박 드롭에 사선으로 걷힘 ──
+function drawBg(t) {
+  const b2 = $('bg2'); b2.style.background = C.navy;
+  if (t < bt(S2[0]) - 0.06) b2.style.clipPath = 'circle(0px at 0 0)';
+  else if (t < bt(S2[1])) { const r = RMAX(540, 1190) * o5(pg(t, bt(S2[0]) - 0.06, bt(S2[0]) + 0.26)); b2.style.clipPath = `circle(${r}px at 540px 1190px)`; }
+  else { const e = oc(pg(t, bt(S2[1]), bt(S2[1]) + 0.24)); b2.style.clipPath = e >= 1 ? 'circle(0px at 0 0)' : `polygon(${-400 + 1880 * e + 300}px 0, 2000px 0, 2000px 1920px, ${-400 + 1880 * e - 300}px 1920px)`; }
+}
+// ── 9·9.5박: 글자 없는 번쩍(주황 화면에 흰 점, 크게) ──
+function drawFlash(t) {
+  const k = T.strobe.findIndex((b) => t >= bt(b) && t < bt(b) + 0.13);
+  $('flash').style.background = k >= 0 ? (k ? C.white : C.orange) : 'transparent';
+  const fd = $('flashDots'); fd.innerHTML = '';
+  if (k >= 0) for (const d of DOTS) el('circle', { cx: 540 + (d.gx - 540) * (1.25 + k * 0.25), cy: 1190 + (d.gy - 1190) * (1.25 + k * 0.25), r: 40 + k * 8, fill: k ? C.navy : '#fff' }, fd);
+}
+// ── 21박~: 입력 카드가 회전하며 튀어 들어옴 → 타이핑 → 같은 자리에서 판정 알약으로 ──
 const cardG = $('card');
 const card = el('rect', { fill: '#fff' }, cardG);
-const f1l = el('text', { x: 160, y: 1022, class: 'lbl', 'font-size': 40, fill: C.gray }, cardG); f1l.textContent = '상품 링크';
-const f1b = el('rect', { x: 150, y: 1046, width: 780, height: 100, rx: 22, fill: '#F1F2F6' }, cardG);
-const f1t = el('text', { x: 182, y: 1098, 'dominant-baseline': 'middle', 'font-family': 'P', 'font-weight': 600, 'font-size': 46, fill: C.navy }, cardG);
-const f2l = el('text', { x: 160, y: 1202, class: 'lbl', 'font-size': 40, fill: C.gray }, cardG); f2l.textContent = '국내 최저가';
-const f2b = el('rect', { x: 150, y: 1226, width: 780, height: 100, rx: 22, fill: '#F1F2F6' }, cardG);
-const f2t = el('text', { x: 182, y: 1278, 'dominant-baseline': 'middle', 'font-family': 'P', 'font-weight': 700, 'font-size': 50, fill: C.navy }, cardG);
-const vtx = el('text', { x: 590, y: 1170, 'text-anchor': 'middle', 'dominant-baseline': 'middle', 'font-family': 'D', 'font-size': 96, fill: '#fff' }, cardG); vtx.textContent = '직구각';
-const vck = el('path', { fill: 'none', stroke: '#fff', 'stroke-width': 14, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, cardG);
+const inner = el('g', {}, cardG);
+const f1l = el('text', { x: 160, y: 1022, class: 'lbl', 'font-size': 40, fill: C.gray }, inner); f1l.textContent = '상품 링크';
+const f1b = el('rect', { x: 150, y: 1046, width: 780, height: 100, rx: 22, fill: '#F1F2F6', 'stroke-width': 5 }, inner);
+const f1t = el('text', { x: 182, y: 1098, 'dominant-baseline': 'middle', 'font-family': 'P', 'font-weight': 600, 'font-size': 46, fill: C.navy }, inner);
+const f2l = el('text', { x: 160, y: 1202, class: 'lbl', 'font-size': 40, fill: C.gray }, inner); f2l.textContent = '국내 최저가';
+const f2b = el('rect', { x: 150, y: 1226, width: 780, height: 100, rx: 22, fill: '#F1F2F6', 'stroke-width': 5 }, inner);
+const f2t = el('text', { x: 182, y: 1278, 'dominant-baseline': 'middle', 'font-family': 'P', 'font-weight': 700, 'font-size': 50, fill: C.navy }, inner);
+const vG = el('g', {}, cardG);
+const vtx = el('text', { x: 590, y: 1170, 'text-anchor': 'middle', 'dominant-baseline': 'middle', 'font-family': 'D', 'font-size': 96, fill: '#fff' }, vG); vtx.textContent = '직구각';
+const vck = el('path', { fill: 'none', stroke: '#fff', 'stroke-width': 14, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, vG);
 const vsub = el('text', { x: 540, y: 1330, 'text-anchor': 'middle', 'dominant-baseline': 'middle', class: 'lbl', 'font-size': 42, fill: C.salmon }, cardG); vsub.textContent = '관부가세·배송비까지 계산';
 const LINK = 'https://…/item/1005…', PRICE = '○○,○○○원';
 function drawCard(t) {
-  const fields = [f1l, f1b, f1t, f2l, f2b, f2t];
-  if (t < bt(T.wipe) + 0.1 || t >= bt(T.end)) { card.setAttribute('width', 0); fields.concat([vtx, vck, vsub]).forEach((e) => e.setAttribute('opacity', 0)); return; }
-  const ap = ob(pg(t, bt(T.wipe) + 0.1, bt(T.wipe) + 0.5), 1.6);
-  const vp = pg(t, bt(T.verdict), bt(T.verdict) + 0.32), ve = ob(vp, 1.8);
-  // 카드(860×420) → 판정 알약(560×170, 초록)
-  const w = lerp(860, 560, ve) * cl(ap, 0, 1.2), h = lerp(420, 170, ve) * cl(ap, 0, 1.2), cy = lerp(1160, 1170, ve);
+  if (t < bt(T.wipe) + 0.08 || t >= bt(T.end)) { cardG.setAttribute('opacity', 0); return; }
+  cardG.setAttribute('opacity', 1);
+  const ca = t - bt(T.wipe) - 0.08, sp = spring(ca, 1.8, 0.4);
+  const vp = pg(t, bt(T.verdict), bt(T.verdict) + 0.3), ve = ob(vp, 2.2), vs = spring(t - bt(T.verdict), 2.4, 0.35);
+  const w = lerp(860, 560, ve), h = lerp(420, 170, ve), cy = lerp(1160, 1170, ve);
   card.setAttribute('x', 540 - w / 2); card.setAttribute('y', cy - h / 2); card.setAttribute('width', Math.max(0, w)); card.setAttribute('height', Math.max(0, h));
   card.setAttribute('rx', lerp(36, 85, ve)); card.setAttribute('fill', vp > 0 ? mixc('#FFFFFF', C.green, cl(vp * 2.5)) : '#fff');
-  const fo = cl(ap * 2 - 1) * (1 - cl(vp * 6));
-  fields.forEach((e) => e.setAttribute('opacity', fo));
+  // 들어올 때: 아래에서 회전하며 튀어 오름, 판정 때: 눌렸다 튐
+  const rot = (1 - sp) * -14, ty = (1 - sp) * 700, scv = t >= bt(T.verdict) ? 1 + 0.12 * Math.sin(Math.PI * cl(vs)) * (1 - pg(t, bt(T.verdict), bt(T.verdict) + 0.6)) : 1;
+  cardG.setAttribute('transform', `translate(0 ${ty}) rotate(${rot} 540 1170) translate(540 1170) scale(${scv}) translate(-540 -1170)`);
+  inner.setAttribute('opacity', 1 - cl(vp * 6));
   const k1 = pg(t, bt(T.type1[0]), bt(T.type1[1])), k2 = pg(t, bt(T.type2[0]), bt(T.type2[1]));
   f1t.textContent = k1 > 0 ? LINK.slice(0, Math.ceil(k1 * LINK.length)) : ''; f2t.textContent = k2 > 0 ? PRICE.slice(0, Math.ceil(k2 * PRICE.length)) : '';
-  f1b.setAttribute('stroke', k1 > 0 && k1 < 1 ? C.orange : 'none'); f1b.setAttribute('stroke-width', 5);
-  f2b.setAttribute('stroke', k2 > 0 && k2 < 1 ? C.orange : 'none'); f2b.setAttribute('stroke-width', 5);
-  const vo = cl(vp * 3 - 1.2); vtx.setAttribute('opacity', vo); vck.setAttribute('opacity', vo);
-  const cp = oc(pg(t, bt(T.verdict) + 0.15, bt(T.verdict) + 0.4));
+  f1b.setAttribute('stroke', k1 > 0 && k1 < 1 ? C.orange : 'none'); f2b.setAttribute('stroke', k2 > 0 && k2 < 1 ? C.orange : 'none');
+  const vo = cl(vp * 3 - 1.2); vG.setAttribute('opacity', vo);
+  const cp = oc(pg(t, bt(T.verdict) + 0.12, bt(T.verdict) + 0.36));
   const P0 = [362, 1172], P1 = [392, 1202], P2 = [446, 1140];
   vck.setAttribute('d', cp < 0.4 ? `M${P0} L${lerp(P0[0], P1[0], cp / 0.4)} ${lerp(P0[1], P1[1], cp / 0.4)}` : `M${P0} L${P1} L${lerp(P1[0], P2[0], (cp - 0.4) / 0.6)} ${lerp(P1[1], P2[1], (cp - 0.4) / 0.6)}`);
   vsub.setAttribute('opacity', cl(pg(t, bt(T.verdict) + 0.3, bt(T.verdict) + 0.5)));
+}
+// 남색 사선이 들어올 때 속도선
+function drawSpeed(t) {
+  const g = $('speed'); g.innerHTML = '';
+  const p = pg(t, bt(T.wipe) - 0.1, bt(T.wipe) + 0.35); if (p <= 0 || p >= 1) return;
+  for (let i = 0; i < 9; i++) { const y = 380 + i * 150 + (i % 2) * 40, len = 260 + (i * 97) % 220, x = 1180 - 1900 * oc(cl(p * 1.3 - i * 0.03)); el('rect', { x, y, width: len * (1 - p), height: 10, rx: 5, fill: i % 3 ? C.salmon : C.orange, opacity: 0.8 * (1 - p) }, g); }
 }
 // ── 로고(ㄱ)·주소: 엔드 카드는 움직임 없이 한 번에(10/27 운영자: 읽히게) ──
 const lgG = $('logo');
@@ -209,13 +278,19 @@ function drawLogo(t) {
   lgV.setAttribute('x', X(425)); lgV.setAttribute('y', Y(20)); lgV.setAttribute('width', 77 * k); lgV.setAttribute('rx', 38 * k); lgV.setAttribute('height', 482 * k);
   const hs = 96 * k; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', 2 * hs); lgS.setAttribute('height', 2 * hs); lgS.setAttribute('rx', 40 * k);
 }
-// ── 카메라: 그래픽만 박에 살짝 당김(글자는 안 흔들림 → 읽기 쉬움) ──
-const HITS = { 5: 0.03, 10: 0.05, 12.5: 0.025, 16: 0.03 };
+// ── 카메라(그래픽만, 글자는 안 흔들림): 박마다 당김, 강타는 크게 + 기울었다 복귀, 16박에 직구각 줄로 다가감 ──
+const HITS = { 5: 0.07, 6: 0.03, 7: 0.03, 8: 0.03, 10: 0.12, 12.5: 0.05, 16: 0.04 };
+const TILTS = { 10: -4, 12.5: 2.5, 5: 2 };
 function cam(t) {
-  let z = 0;
-  for (let k = 5; k < 21; k++) { const d = t - bt(k); if (d >= 0 && d < 0.35) z = Math.max(z, 0.01 * Math.exp(-d * 12)); }
-  for (const k in HITS) { const d = t - bt(+k); if (d >= 0 && d < 0.45) z = Math.max(z, HITS[k] * Math.exp(-d * 9)); }
-  return 1 + z;
+  let z = 0, rot = 0;
+  for (let k = 5; k < 21; k++) { const d = t - bt(k); if (d >= 0 && d < 0.35) z = Math.max(z, 0.016 * Math.exp(-d * 12)); }
+  for (const k in HITS) { const d = t - bt(+k); if (d >= 0 && d < 0.5) z = Math.max(z, HITS[k] * Math.exp(-d * 8)); }
+  for (const k in TILTS) { const d = t - bt(+k); if (d >= 0 && d < 1.2) rot += TILTS[k] * (1 - spring(d, 2.2, 0.3)); }
+  // 16박: 직구각 줄(P)을 화면 가운데 쪽(Q)으로 끌어오며 1.22배(카메라가 다가감)
+  const e = io(pg(t, bt(T.focusGood), bt(T.focusGood) + 0.5)), scP = 1 + 0.18 * e;
+  const P = [317, ROWY.good - 26], Q = [470, 1330], o = [540, 1150];
+  const tx = lerp(P[0], Q[0], e) - o[0] - scP * (P[0] - o[0]), ty = lerp(P[1], Q[1], e) - o[1] - scP * (P[1] - o[1]);
+  return `translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${scP * (1 + z)})`;
 }
 
 const LEAD = 0.04; // 화면 정점을 소리보다 40ms 먼저(C안 박자 측정 결과)
@@ -223,21 +298,23 @@ window.seek = (t0) => {
   const t = t0 + LEAD;
   if (!laid) layout();
   $('fx').innerHTML = ''; $('fx2').innerHTML = '';
-  drawDots(t); drawPen(t); drawFlash(t);
-  // 10박 드롭 고리, 펜 끝 종, 판정 고리
-  ring($('fx'), 540, 1180, t, bt(T.drop), C.orange, 40, 620, 0.5, 18);
-  ring($('fx2'), 540, 1170, t, bt(T.verdict), C.green, 120, 320, 0.45, 14);
-  burst($('fx2'), 540, 1170, t, bt(T.verdict), C.salmon, 14, 300, 360, 0.3, 10);
-  // 21박: 남색이 사선으로 밀고 들어옴
+  drawBg(t); drawDots(t); drawPen(t); drawFlash(t);
+  ring($('fx'), 540, 1190, t, bt(T.drop), C.orange, 40, 760, 0.5, 26);
+  burst($('fx'), 540, 1190, t, bt(T.drop), C.navy, 16, 160, 520, 0.4, 14);
+  ring($('fx'), 540, 1190, t, bt(5), C.salmon, 30, 640, 0.45, 18);
+  ring($('fx'), 317, ROWY.good - 26, t, bt(T.pen[1]), C.orange, 40, 300, 0.4, 10);
+  ring($('fx2'), 540, 1170, t, bt(T.verdict), C.green, 120, 340, 0.45, 16);
+  burst($('fx2'), 540, 1170, t, bt(T.verdict), C.salmon, 14, 300, 380, 0.3, 10);
+  confetti($('fx2'), 540, 1170, t, bt(T.verdict), 7, [C.green, C.orange, C.salmon, '#fff']);
   const sp = oc(pg(t, bt(T.wipe) - 0.1, bt(T.wipe) + 0.15)), edge = 1080 + 400 - (1080 + 1100) * sp;
   $('slant').style.background = C.navy;
-  $('slant').style.clipPath = t >= bt(T.wipe) - 0.1 && t < bt(T.end) ? `polygon(${edge + 300}px 0, 2000px 0, 2000px 1920px, ${edge - 300}px 1920px)` : 'polygon(0 0,0 0,0 0)';
-  drawCard(t);
+  $('slant').style.clipPath = t >= bt(T.wipe) - 0.1 && t < bt(T.end) ? slantClip(edge) : 'polygon(0 0,0 0,0 0)';
+  drawSpeed(t); drawCard(t);
   $('endbg').style.background = t >= bt(T.end) ? C.orange : 'transparent';
   drawLogo(t);
   chips(t);
   for (const w of WD) word(w, t);
-  $('cam').style.transform = `scale(${cam(t)})`;
+  $('cam').style.transform = cam(t);
 };
 </script>
 </body></html>
