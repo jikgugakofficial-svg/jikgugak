@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-28T05:20:20.251Z",
-  "mode": "hourly",
+  "at": "2026-10-28T05:27:35.819Z",
+  "mode": "links",
   "ok": true,
-  "message": "가격 확인 쿠팡 1개·알리 3개 (사이트 가격 바뀜) · 확인할 것 2개(price-alerts)"
+  "message": "링크 만들기: 쿠팡 1개, 알리 0개 → data/new-links.json"
 }
