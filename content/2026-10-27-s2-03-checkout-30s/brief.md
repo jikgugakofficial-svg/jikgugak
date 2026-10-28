@@ -65,7 +65,7 @@
 - https://www.jikgugak.com/sale (결제 전 5가지 체크)
 
 ## 이미지·캡처 (매니저)
-- `img/omega3-receipt.png`: `/p/iherb-cgn-omega3-premium-100`의 `.receipt`(배송비 ₩6,000 줄이 보이게). `content/2026-10-23-series-3-iherb-shipping/img/s3-omega3-receipt*.png`가 있지만 10/22 캡처라, 게시 전 빌드로 다시 찍어요.
+- `img/omega3-receipt.png`: `/p/iherb-cgn-omega3-premium-100`의 `.receipt`(배송비 ₩6,000 줄이 보이게). `content/_archive/2026-10-23-series-3-iherb-shipping/img/s3-omega3-receipt*.png`가 있지만 10/22 캡처라, 게시 전 빌드로 다시 찍어요.
 - (선택) `img/sale-checks.png`: `/sale`의 `.bf-checks`
 
 ## 금지·주의

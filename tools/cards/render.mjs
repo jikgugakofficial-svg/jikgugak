@@ -1,5 +1,5 @@
 // 카드뉴스 이미지 만들기: content/<폴더>/cards.json → content/<폴더>/cards/01.png … (1080×1350, 인스타 4:5)
-// 사용법: node tools/cards/render.mjs content/2026-10-22-lego-bouquet
+// 사용법: node tools/cards/render.mjs content/<폴더>
 // 규격과 슬라이드 종류는 docs/marketing/card-spec.md 참고. 브랜드 로고·남의 사진은 넣지 않아요.
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
