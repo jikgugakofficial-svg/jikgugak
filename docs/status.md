@@ -77,7 +77,7 @@
 | --- | --- | --- |
 | 10/28 12:25 | 릴스 A안 "탭 지옥 → 한 화면"(`content/2026-10-27-tvc-15s-a`) | 게시 완료(12:25 예약 실행이 빠져 12:35 매니저 수동 실행) https://www.instagram.com/reel/DfBe2gzFU8Q/ |
 | 10/28 17:52 | S2-02 인스타 카드+릴스·스레드(`s2-02-ali-1111-cart`) | **게시됨 18:31(예약 39분 늦음):** 인스타 https://www.instagram.com/p/DfCHhPYlfxC/ · 릴스 https://www.instagram.com/reel/DfCHjGEjoVA/ · 스레드 https://www.threads.com/@jikgugak.official/post/DfCHnTnlb15 + 스토리. 중복 없음(프로필 격자 확인). ⚠ 게시 직전 확인을 못 함: 알리 API가 오후에 102,215→103,216원으로 올라 실제 차이 3,616원(글은 2,615원). 판정 방향(쿠팡이 쌈)은 같음 → 운영자 '정정 댓글 달기' 선택 → `content/2026-10-29-s2-02-correction` 10/29 09:58 게시(스레드 답글 https://www.threads.com/@jikgugak.official/post/DfDxg9nEUum · 인스타 댓글, 직전 확인 쿠팡 89,620·알리 103,216), 게시 도구에 답글·댓글 기능 추가. 10/29 새벽 쿠팡이 89,620원(쿠폰 재개 추정)으로 다시 내려 차이 13,596원 |
-| 10/29 12:25 | 릴스 C안 "신호등 저울"(`tvc-15s-c`) | 승인·예약 |
+| 10/29 12:25 | 릴스 C안 "신호등 저울"(`tvc-15s-c`) | 게시 완료(12:25·12:26 예약 실행이 이틀 연속 빠져 12:35 매니저 수동 실행) https://www.instagram.com/reel/DfEDlUugnIj/ |
 | 10/30 12:25 | 릴스 D안 "29개 다 더해 봤어요"(`content/2026-10-28-tvc-15s-d`, 20초) | **10/28 13:31 운영자 승인·예약.** 10/30 10:30 매니저가 `python3 tools/tvc/d_ad.py`로 다시 세어 굽기(날짜만 바뀌면 영상·캡션 날짜 고쳐 게시, 개수 바뀌면 멈추고 새 미리보기), 12:35 게시 확인 |
 | 10/29~10/31 17:52 | S2-03·S2-04·S2-05(`s2-03`~`s2-05`) | 승인·예약. 게시 당일 오전 실물 확인(`content/_plans/2026-10-26-set2-livecheck.md`), S2-05는 10/30 새 환율 확인(fxCheck) |
 | 10/29~11/4 12:22 | 스레드 '오늘의 판정' 7개(`2026-10-29-th-evobuds`~`2026-11-04-th-fem5b`) | **10/28 운영자 7개 묶음 승인.** 날마다 10:30 매니저가 publish.json livecheck로 실물 확인 → 같으면 그날 글만 approved:true 푸시, 다르면 고쳐서 재승인 또는 쉼(예약 확인 trig_01Ui7vNmkACj8x236Xj7sqyC, 이후 날짜는 매일 이어서 예약) |
