@@ -3681,7 +3681,47 @@
         "diff": 11720,
         "pct": 47
       }
+    },
+    "Naturehike Mongar 2": {
+      "q": "Naturehike Mongar 2",
+      "brand": "Naturehike",
+      "model": "Mongar 2",
+      "cat": "home",
+      "why": "네이처하이크 백패킹 2인 텐트 인기 모델(Cloud Up 2와 같은 브랜드), 알리 공식 스토어·국내 유통. 20D/210T 등 소재 버전 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
+      "at": "2026-10-29T03:24:41.766Z",
+      "status": "no_coupang",
+      "coupangTop": 1,
+      "ali": [
+        {
+          "id": "1005008417384920",
+          "title": "Naturehike Mongar UL 하이킹 텐트 1 2 인 15D 나일론 초경량 방수 더블 레이어 야외 배낭 여행 캠핑 텐트",
+          "price": 213200,
+          "orders": 17,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab775c294e784d0294dcca8959d5482a2.jpg",
+          "url": "https://ko.aliexpress.com/item/1005008417384920.html"
+        },
+        {
+          "id": "1005011707305078",
+          "title": "Naturehike Mongar 캠핑 텐트 배낭 여행용 대피소 텐트 방수 휴대용 초경량 야외 캠핑 1 2 3 명",
+          "price": 146800,
+          "orders": 4,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a189e38ff824409873afda7d818c31bM.jpg",
+          "url": "https://ko.aliexpress.com/item/1005011707305078.html"
+        },
+        {
+          "id": "1005009346533094",
+          "title": "Naturehike Mongar UL 하이킹 텐트 초경량 1/2인 여행 야외 더블 레이어 방수 배낭 캠핑 휴대용",
+          "price": 251600,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S697dfac1186c43c3b515251584a55984a.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009346533094.html"
+        }
+      ],
+      "coupang": []
     }
   },
-  "updatedAt": "2026-10-29T01:38:04.334Z"
+  "updatedAt": "2026-10-29T03:24:47.591Z"
 }
