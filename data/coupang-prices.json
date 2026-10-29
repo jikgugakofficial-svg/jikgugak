@@ -199,7 +199,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-10-28T17:28:30.553Z",
+      "at": "2026-10-29T06:20:31.317Z",
       "recordedKrw": 415000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -388,7 +388,7 @@
     "iherb-cgn-s-acetyl-glutathione-120": {
       "productId": "6584056433",
       "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
-      "at": "2026-10-28T16:30:20.761Z",
+      "at": "2026-10-29T06:20:29.862Z",
       "recordedKrw": 81300,
       "found": true,
       "apiPrice": 81300,
@@ -399,7 +399,7 @@
     "iherb-cgn-marine-collagen-500g": {
       "productId": "9127064765",
       "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-      "at": "2026-10-28T16:30:21.794Z",
+      "at": "2026-10-29T06:20:30.492Z",
       "recordedKrw": 82000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -407,7 +407,7 @@
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
       "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
-      "at": "2026-10-28T17:28:29.582Z",
+      "at": "2026-10-29T06:20:30.962Z",
       "recordedKrw": 79400,
       "found": true,
       "apiPrice": 79400,
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T05:23:23.275Z"
+  "updatedAt": "2026-10-29T06:20:31.686Z"
 }
