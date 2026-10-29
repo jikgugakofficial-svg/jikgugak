@@ -80,7 +80,7 @@
 | 10/29 12:25 | 릴스 C안 "신호등 저울"(`tvc-15s-c`) | 게시 완료(12:25·12:26 예약 실행이 이틀 연속 빠져 12:35 매니저 수동 실행) https://www.instagram.com/reel/DfEDlUugnIj/ |
 | 10/30 12:25 | 릴스 D안 "29개 다 더해 봤어요"(`content/2026-10-28-tvc-15s-d`, 20초) | **10/28 13:31 운영자 승인·예약.** 10/30 10:30 매니저가 `python3 tools/tvc/d_ad.py`로 다시 세어 굽기(날짜만 바뀌면 영상·캡션 날짜 고쳐 게시, 개수 바뀌면 멈추고 새 미리보기), 12:35 게시 확인 |
 | 10/29~10/31 17:52 | S2-03·S2-04·S2-05(`s2-03`~`s2-05`) | 승인·예약. 게시 당일 오전 실물 확인(`content/_plans/2026-10-26-set2-livecheck.md`), S2-05는 10/30 새 환율 확인(fxCheck) |
-| 10/29~11/4 12:22 | 스레드 '오늘의 판정' 7개(`2026-10-29-th-evobuds`~`2026-11-04-th-fem5b`) | **10/28 운영자 7개 묶음 승인.** 날마다 10:30 매니저가 publish.json livecheck로 실물 확인 → 같으면 그날 글만 approved:true 푸시, 다르면 고쳐서 재승인 또는 쉼(예약 확인 trig_01Ui7vNmkACj8x236Xj7sqyC, 이후 날짜는 매일 이어서 예약) |
+| 10/29~11/4 12:22 | 스레드 '오늘의 판정' 7개(`2026-10-29-th-evobuds`~`2026-11-04-th-fem5b`) | **10/28 운영자 7개 묶음 승인.** 날마다 10:30 매니저가 publish.json livecheck로 실물 확인 → 같으면 그날 글만 approved:true 푸시, 다르면 고쳐서 재승인 또는 쉼(예약 확인 trig_01Ui7vNmkACj8x236Xj7sqyC, 이후 날짜는 매일 이어서 예약) **10/29(에보버즈) 쉼:** 알리 일반가가 환율로 68,095→68,631원(차이 45,829원·40%)이라 운영자 '오늘은 쉬기'. ⚠ 10/29 오전 쿠팡이 Claude 브라우저 접속을 막음('사용권한이 제한된 페이지', 전날 확인이 많았던 탓 추정) → 당분간 쿠팡 가격은 파트너스 API 기록(data/coupang-prices.json)으로 보고 브라우저 쿠팡 방문은 최소로 |
 | 10/28 | 네이버 N0 아이허브 vs 쿠팡(`s2-naver-iherb-coupang`) | 키트 전달(https://claude.ai/artifact/CzR5TBFd8ZsrK2xQ9T7uYx). 10/28 넘기면 숫자 다시 |
 | 10/29~10/31 | 네이버 N1 알리 관세(`2026-10-29-naver-ali-tax`) | 키트 전달(https://claude.ai/artifact/SYk4xRKLufVMzePPt7fek5). 11/1 이후면 숫자 다시 |
 | 10/30 | 네이버 "광군제 전에 확인한 진짜 직구각 3개"(`2026-10-30-naver-real-jikgugak`) | 10/28 실물 확인(에보버즈·CoQ10 그대로, 유그린·T13·자로우는 10/28 오전 확인) 후 키트 전달(https://claude.ai/artifact/8syozzRujxvzFjPLz8WJFE, 사진 zip). 10/31 넘기면 숫자 다시 |
