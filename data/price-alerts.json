@@ -12,15 +12,15 @@
       "source": "알리"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-10-28T21:17:55.016Z",
+      "at": "2026-10-29T04:25:00.679Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
-      "api": 92260,
+      "api": 92182,
       "change": "74%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
     }
   },
-  "updatedAt": "2026-10-29T03:24:54.544Z"
+  "updatedAt": "2026-10-29T04:25:01.136Z"
 }

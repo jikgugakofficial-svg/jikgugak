@@ -145,18 +145,18 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-10-28T13:38:17.270Z",
-      "recordedKrw": 519000,
+      "at": "2026-10-29T04:24:55.551Z",
+      "recordedKrw": 482700,
       "found": true,
-      "apiPrice": 482700,
+      "apiPrice": 519000,
       "isRocket": true,
-      "diff": -36300,
+      "diff": 36300,
       "result": "applied"
     },
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-10-28T13:38:17.580Z",
+      "at": "2026-10-29T04:24:56.029Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -164,7 +164,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-10-28T14:32:59.967Z",
+      "at": "2026-10-29T04:24:56.413Z",
       "recordedKrw": 41230,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -172,7 +172,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-10-28T15:31:03.832Z",
+      "at": "2026-10-29T04:24:56.784Z",
       "recordedKrw": 38610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -430,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T03:24:49.697Z"
+  "updatedAt": "2026-10-29T04:24:57.276Z"
 }
