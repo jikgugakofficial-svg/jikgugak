@@ -1579,7 +1579,7 @@
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46657,
-    "domesticKrw": 38050,
+    "domesticKrw": 33110,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1623,6 +1623,13 @@
         "from": 33060,
         "to": 38050,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 38050,
+        "to": 33110,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1641,7 +1648,7 @@
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18653,
-    "domesticKrw": 19570,
+    "domesticKrw": 16240,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1684,6 +1691,13 @@
         "field": "domesticKrw",
         "from": 15440,
         "to": 19570,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 19570,
+        "to": 16240,
         "source": "쿠팡"
       }
     ]

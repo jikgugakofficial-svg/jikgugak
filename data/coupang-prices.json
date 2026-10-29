@@ -292,23 +292,23 @@
     "iherb-now-ultra-omega3-180": {
       "productId": "9392378613",
       "keyword": "나우푸드 울트라 오메가3 180정",
-      "at": "2026-10-28T19:29:09.924Z",
-      "recordedKrw": 33060,
+      "at": "2026-10-29T10:26:59.271Z",
+      "recordedKrw": 38050,
       "found": true,
-      "apiPrice": 38050,
+      "apiPrice": 33110,
       "isRocket": false,
-      "diff": 4990,
+      "diff": -4940,
       "result": "applied"
     },
     "iherb-now-magnesium-caps-400-180": {
       "productId": "26208",
       "keyword": "나우푸드 마그네슘 캡 400mg 180캡슐",
-      "at": "2026-10-28T21:17:50.249Z",
-      "recordedKrw": 15440,
+      "at": "2026-10-29T10:27:00.751Z",
+      "recordedKrw": 19570,
       "found": true,
-      "apiPrice": 19570,
+      "apiPrice": 16240,
       "isRocket": false,
-      "diff": 4130,
+      "diff": -3330,
       "result": "applied"
     },
     "iherb-on-micronized-creatine-caps-100": {
@@ -415,7 +415,7 @@
     "iherb-cgn-organic-spirulina-720": {
       "productId": "6168309514",
       "keyword": "캘리포니아 골드 뉴트리션 올가닉 스피루리나 500mg 720정",
-      "at": "2026-10-28T20:21:14.554Z",
+      "at": "2026-10-29T10:27:00.328Z",
       "recordedKrw": 56400,
       "found": true,
       "apiPrice": 49700,
@@ -424,5 +424,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T09:30:31.145Z"
+  "updatedAt": "2026-10-29T10:27:01.054Z"
 }
