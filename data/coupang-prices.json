@@ -248,45 +248,45 @@
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-10-28T18:21:28.518Z",
-      "recordedKrw": 24270,
+      "at": "2026-10-29T09:30:29.007Z",
+      "recordedKrw": 27860,
       "found": true,
-      "apiPrice": 27860,
+      "apiPrice": 24290,
       "isRocket": false,
-      "diff": 3590,
+      "diff": -3570,
       "result": "applied"
     },
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-10-28T19:29:08.852Z",
-      "recordedKrw": 16880,
+      "at": "2026-10-29T09:30:29.825Z",
+      "recordedKrw": 21340,
       "found": true,
-      "apiPrice": 21340,
+      "apiPrice": 17740,
       "isRocket": false,
-      "diff": 4460,
+      "diff": -3600,
       "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-5b-60": {
       "productId": "6960887991",
       "keyword": "자로우 펨도필러스 50억 CFU 60캡슐",
-      "at": "2026-10-28T19:29:09.267Z",
-      "recordedKrw": 30980,
+      "at": "2026-10-29T09:30:30.357Z",
+      "recordedKrw": 35040,
       "found": true,
-      "apiPrice": 35040,
+      "apiPrice": 30980,
       "isRocket": false,
-      "diff": 4060,
+      "diff": -4060,
       "result": "applied"
     },
     "iherb-now-zinc-50-250": {
       "productId": "6395389697",
       "keyword": "나우푸드 아연 50mg 250정",
-      "at": "2026-10-28T19:29:09.595Z",
-      "recordedKrw": 10390,
+      "at": "2026-10-29T09:30:30.794Z",
+      "recordedKrw": 13180,
       "found": true,
-      "apiPrice": 13180,
+      "apiPrice": 10930,
       "isRocket": false,
-      "diff": 2790,
+      "diff": -2250,
       "result": "applied"
     },
     "iherb-now-ultra-omega3-180": {
@@ -424,5 +424,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T07:41:44.872Z"
+  "updatedAt": "2026-10-29T09:30:31.145Z"
 }

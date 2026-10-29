@@ -1316,7 +1316,7 @@
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33318,
-    "domesticKrw": 27860,
+    "domesticKrw": 24290,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1353,6 +1353,13 @@
         "from": 24270,
         "to": 27860,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 27860,
+        "to": 24290,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1371,7 +1378,7 @@
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23320,
-    "domesticKrw": 21340,
+    "domesticKrw": 17740,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1408,6 +1415,13 @@
         "from": 16880,
         "to": 21340,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 21340,
+        "to": 17740,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1426,7 +1440,7 @@
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58027,
-    "domesticKrw": 35040,
+    "domesticKrw": 30980,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1471,6 +1485,13 @@
         "from": 30980,
         "to": 35040,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 35040,
+        "to": 30980,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1489,7 +1510,7 @@
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 13983,
-    "domesticKrw": 13180,
+    "domesticKrw": 10930,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1532,6 +1553,13 @@
         "field": "domesticKrw",
         "from": 10390,
         "to": 13180,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.29",
+        "field": "domesticKrw",
+        "from": 13180,
+        "to": 10930,
         "source": "쿠팡"
       }
     ]
