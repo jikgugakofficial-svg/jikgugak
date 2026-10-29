@@ -182,15 +182,15 @@
       "model": "G304X",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 G304X 32,602원(무료배송, 종료·알리 쿠폰+코인딜). 같은 계열 G304는 1.2만 원짜리 가품 주의 글도 있어 공식 스토어만 볼 것. 국내 정발가는 이번에 확인 못 함",
-      "at": "2026-10-26T17:24:12.324Z",
+      "at": "2026-10-29T21:20:03.160Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005011940293074",
           "title": "로지텍 G304X 라이트스피드 게이밍 마우스, 듀얼 모드, HERO25K 센서, 25600 DPI, 6개의 프로그래밍 가능한 버튼, PC 및 노트북용.",
-          "price": 49500,
-          "orders": 205,
+          "price": 49900,
+          "orders": 202,
           "rating": "98.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71ec278cc5f747798e37ddca46a870f3L.jpg",
           "url": "https://ko.aliexpress.com/item/1005011940293074.html"
@@ -198,20 +198,20 @@
         {
           "id": "1005012130798082",
           "title": "로지텍 G304X 무선 게이밍 마우스 57g 경량 듀얼 모드, 6개 프로그래밍 가능 버튼, FPS 발로란트 LOL P용 긴 배터리 수명",
-          "price": 41788,
+          "price": 47900,
           "orders": 179,
-          "rating": "98.0%",
+          "rating": "98.2%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se852b3da2ef24453ab09a0f327a5ba12t.jpg",
           "url": "https://ko.aliexpress.com/item/1005012130798082.html"
         },
         {
-          "id": "1005011847679788",
-          "title": "로지텍 G304X 무선 마우스 게이밍 e스포츠 마우스 리그 오브 레전드 PUBG FPS 휴대용 경량 57g 생일 선물 G304 X",
-          "price": 56500,
-          "orders": 38,
+          "id": "1005013162091208",
+          "title": "로지텍 G304X 라이트스피드 게이밍 마우스, 듀얼 모드, HERO25K 센서, 25600 DPI, 6개의 프로그래밍 가능한 버튼, PC 및 노트북용.",
+          "price": 51000,
+          "orders": 39,
           "rating": "100.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfea407f2ba334d0ea87c1357b6ae1cd08.jpg",
-          "url": "https://ko.aliexpress.com/item/1005011847679788.html"
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71ec278cc5f747798e37ddca46a870f3L.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013162091208.html"
         }
       ],
       "coupang": []
@@ -3786,5 +3786,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-29T19:30:42.366Z"
+  "updatedAt": "2026-10-29T21:20:07.548Z"
 }
