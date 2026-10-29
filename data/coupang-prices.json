@@ -56,7 +56,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-10-29T00:12:04.355Z",
+      "at": "2026-10-29T15:32:08.441Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -64,7 +64,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-10-29T01:38:04.358Z",
+      "at": "2026-10-29T15:32:08.856Z",
       "recordedKrw": 67180,
       "found": true,
       "apiPrice": 57180,
@@ -75,7 +75,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-10-29T01:38:04.652Z",
+      "at": "2026-10-29T15:32:09.189Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -86,7 +86,7 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-10-29T01:38:04.970Z",
+      "at": "2026-10-29T15:32:09.481Z",
       "recordedKrw": 478280,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -421,5 +421,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T13:41:49.637Z"
+  "updatedAt": "2026-10-29T15:32:09.772Z"
 }

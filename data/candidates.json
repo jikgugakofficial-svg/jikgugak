@@ -7,40 +7,39 @@
       "model": "F87 Pro",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 반복(2024.12 3.5만 원대, 2026.06 광군제 전 공구 $28대), 알리 키보드 중 언급 최다",
-      "at": "2026-10-26T14:00:07.443Z",
-      "status": "rejected",
+      "at": "2026-10-29T15:32:03.969Z",
+      "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005006838602057",
           "title": "AULA F87 Pro 기계식 키보드 2.4g/Usb/블루투스 트라이 모드 무선 87 키 Rgb Pbt 가스켓 5 레이어 침묵 전체 키 충격 없음",
-          "price": 49817,
-          "orders": 1548,
-          "rating": "98.0%",
+          "price": 49194,
+          "orders": 1546,
+          "rating": "98.1%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S39262c17df8a456b816ca859e3197852p.jpg",
           "url": "https://ko.aliexpress.com/item/1005006838602057.html"
         },
         {
           "id": "1005007614925149",
           "title": "AULA F87 Pro 가스켓 게임용 기계식 키보드 75% TKL 레이아웃 무선 핫 스왑 RGB 맞춤형 Bluetooth 키보드 2024 새로운 색상",
-          "price": 44297,
-          "orders": 859,
-          "rating": "97.4%",
+          "price": 44706,
+          "orders": 863,
+          "rating": "97.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc1c4b747793742b581b169e3446acf33G.png",
           "url": "https://ko.aliexpress.com/item/1005007614925149.html"
         },
         {
           "id": "1005006260870758",
           "title": "EPOMAKER X AULA F87 Pro 87키 핫스왑 가능 기계식 키보드 블루투스 5.0/2.4G 무선/유선 가스켓 마운트(Mac/Win용)",
-          "price": 105600,
+          "price": 106600,
           "orders": 180,
           "rating": "99.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/A7b3dfb3f20674e8e8144deefa0bb94ebi.jpg",
           "url": "https://ko.aliexpress.com/item/1005006260870758.html"
         }
       ],
-      "coupang": [],
-      "reviewNote": "10/27 매니저: 쿠팡은 한글 각인·국내 전용 축(솜사탕·피치·바다축), 알리는 다른 축·비공식 스토어라 같은 구성 아님"
+      "coupang": []
     },
     "Logitech G Pro X Superlight 2": {
       "q": "Logitech G Pro X Superlight 2",
@@ -3723,5 +3722,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-29T03:24:47.591Z"
+  "updatedAt": "2026-10-29T15:32:08.418Z"
 }
