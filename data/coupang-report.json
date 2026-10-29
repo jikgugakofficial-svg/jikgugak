@@ -1,13 +1,13 @@
 {
   "note": "쿠팡 파트너스 실적 날짜별 합계(주문 상세는 저장 안 함)",
-  "at": "2026-10-28T01:11:03.803Z",
+  "at": "2026-10-29T01:09:37.797Z",
   "lastWindow": {
-    "startDate": "20261021",
-    "endDate": "20261027",
-    "clicks": 20,
-    "orders": 8,
-    "gmv": 179950,
-    "commission": 3030
+    "startDate": "20261022",
+    "endDate": "20261028",
+    "clicks": 24,
+    "orders": 10,
+    "gmv": 202930,
+    "commission": 3720
   },
   "daily": {
     "20261021": {
@@ -45,6 +45,12 @@
       "orders": 0,
       "gmv": 0,
       "commission": 0
+    },
+    "20261027": {
+      "clicks": 5,
+      "orders": 2,
+      "gmv": 22980,
+      "commission": 690
     }
   }
 }
