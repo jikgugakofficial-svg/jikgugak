@@ -224,23 +224,23 @@
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-10-29T07:41:43.798Z",
-      "recordedKrw": 47920,
+      "at": "2026-10-29T22:18:18.024Z",
+      "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
       "isRocket": false,
-      "diff": 11980,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-10-29T07:41:44.171Z",
-      "recordedKrw": 37060,
+      "at": "2026-10-29T22:18:18.598Z",
+      "recordedKrw": 32770,
       "found": true,
-      "apiPrice": 32770,
+      "apiPrice": 37060,
       "isRocket": false,
-      "diff": -4290,
+      "diff": 4290,
       "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-1b-60": {
@@ -430,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T21:20:09.264Z"
+  "updatedAt": "2026-10-29T22:18:18.904Z"
 }

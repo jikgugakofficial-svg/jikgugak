@@ -1186,11 +1186,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.10.29 쿠팡 자동",
+    "checkedAt": "2026.10.30 쿠팡 자동",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 52122,
-    "domesticKrw": 32770,
+    "domesticKrw": 37060,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1241,6 +1241,13 @@
         "field": "domesticKrw",
         "from": 37060,
         "to": 32770,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.30",
+        "field": "domesticKrw",
+        "from": 32770,
+        "to": 37060,
         "source": "쿠팡"
       }
     ]
