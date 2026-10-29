@@ -175,7 +175,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-10-29T04:24:56.784Z",
+      "at": "2026-10-29T19:30:42.399Z",
       "recordedKrw": 38610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -183,7 +183,7 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-10-29T05:23:21.927Z",
+      "at": "2026-10-29T19:30:42.760Z",
       "recordedKrw": 89620,
       "found": true,
       "apiPrice": 89620,
@@ -194,10 +194,10 @@
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-10-29T05:23:22.576Z",
+      "at": "2026-10-29T19:30:43.192Z",
       "recordedKrw": 71400,
       "found": false,
-      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
@@ -374,7 +374,7 @@
     "ali-baseus-inspire-xh1": {
       "productId": "9241501985",
       "keyword": "베이스어스 인스파이어 XH1",
-      "at": "2026-10-29T05:23:22.916Z",
+      "at": "2026-10-29T19:30:43.626Z",
       "recordedKrw": 316300,
       "found": true,
       "apiPrice": 316300,
@@ -424,5 +424,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T18:22:31.773Z"
+  "updatedAt": "2026-10-29T19:30:43.981Z"
 }

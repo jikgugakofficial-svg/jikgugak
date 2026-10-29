@@ -95,9 +95,15 @@
     },
     "QCY MeloBuds N70": {
       "q": "QCY MeloBuds N70",
-      "status": "registered",
-      "at": "2026-10-26T16:10:00Z",
-      "reviewNote": "10/27 매니저 브라우저 확인 후 등록"
+      "brand": "QCY",
+      "model": "MeloBuds N70",
+      "cat": "audio",
+      "why": "클리앙 P31i 글 댓글에서 QCY 대표 비교 모델로 언급(성능은 QCY 우세 평)",
+      "at": "2026-10-29T19:30:36.461Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
     },
     "Edifier M90": {
       "q": "Edifier M90",
@@ -123,9 +129,52 @@
     },
     "Soundcore Liberty 4 Pro": {
       "q": "Soundcore Liberty 4 Pro",
-      "status": "registered",
-      "at": "2026-10-26T16:10:00Z",
-      "reviewNote": "10/27 매니저 브라우저 확인 후 등록"
+      "brand": "Soundcore",
+      "model": "Liberty 4 Pro",
+      "cat": "audio",
+      "why": "퀘이사존 2024.11 알리 $67 핫딜(정발 대기 의견 다수), 구형이라 후순위",
+      "at": "2026-10-29T19:30:40.141Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005011962429151",
+          "title": "Anker Soundcore Liberty 4 Pro 무선 블루투스 TWS 이어폰 LDAC 고해상도 딥 노이즈 감소 인이어 스포츠 이어폰",
+          "price": 151400,
+          "orders": 28,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e43f49e9f134b6fad46260e20fbd6e5f.jpg",
+          "url": "https://ko.aliexpress.com/item/1005011962429151.html"
+        },
+        {
+          "id": "1005011960448588",
+          "title": "Anker Soundcore 오리지널 신제품 Liberty 4 Pro 무선 블루투스 TWS 이어버드 LDAC 고해상도 소음 차단 스포츠 이어폰",
+          "price": 153400,
+          "orders": 7,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S06d5ed863933449890c2d454f216cebcS.jpg",
+          "url": "https://ko.aliexpress.com/item/1005011960448588.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "8457551423",
+          "name": "Anker 앵커 완전 무선 이어폰 Soundcore Liberty 4 Pro Bluetooth 딥 그린",
+          "price": 259800,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/CAVBbsMj0lGuXL_NCDF3AT7ddEVka3H57hij7tuzD4qeuLCY1Mpg2nZkjQnkyM288UDwwG0IOBAhli3-_0JUbAtYqFe78txwYYbLxlBkd7QVYOoahWC1zklsdORD0ByLYgJ6HchhoVxSPBaG3nNxYWXYYCZeyi50nNsGd3U87yB5AxiXMWLkdVurriXIeAOXjS5iXq1Y-JHLgowartMAkV9jT6zFs2PYFNG7bJ6Ia4gTJi87zCBTTE5g0LbVWPxhx0msP848DRRWxEbpHKN-4XvlZ8K_3svUWKYSKoCKTQq4KBn5s5lYdqgl9WrbA3tTXZuKgnTMPO1lvjeVRY0FOJL18SABtg2ucTXWvCccZEAc8dsyZYpaJ9C9JQ7r2CdcAESZUqqEw9sMJp9GXySn4Xvx9GcJQXFyIj6DT7nw65LM2eIZlm3Eos-6Tw4I0f0x0AB558Z44NkPpXHhYA7Y_wjZNK9LHP7HNYiapJxaRXI-P07OQxhUeOMbkoT15zgCI5bISyK13MT5LydaRTsEbMgA-gPe-n0V4cuBiYSdhrNgdg==",
+          "url": "https://www.coupang.com/vp/products/8457551423"
+        }
+      ],
+      "best": {
+        "aliId": "1005011962429151",
+        "coupangId": "8457551423",
+        "aliTotal": 151400,
+        "coupangPrice": 259800,
+        "verdict": "good",
+        "diff": 108400,
+        "pct": 42
+      }
     },
     "Logitech G304X Lightspeed": {
       "q": "Logitech G304X Lightspeed",
@@ -3737,5 +3786,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-29T18:22:30.329Z"
+  "updatedAt": "2026-10-29T19:30:42.366Z"
 }
