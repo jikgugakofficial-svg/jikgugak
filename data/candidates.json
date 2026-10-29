@@ -101,9 +101,25 @@
     },
     "Edifier M90": {
       "q": "Edifier M90",
-      "status": "registered",
-      "at": "2026-10-26T16:10:00Z",
-      "reviewNote": "10/27 매니저 브라우저 확인 후 등록"
+      "brand": "Edifier",
+      "model": "M90",
+      "cat": "audio",
+      "why": "퀘이사존 2026.06 알리 공구 21종에 포함($91.94), 바이앰프 2.0 스피커",
+      "at": "2026-10-29T18:22:27.031Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005011600003372",
+          "title": "에디파이어 Edifier M90 바이앰프 2.0 스피커 컴팩트 디자인 블루투스 V6.0 LDAC 하이 레졸루션 오디오 무선 스피커 (리모컨 포함) 100W RMS",
+          "price": 219800,
+          "orders": 4539,
+          "rating": "98.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sde4c458cda2049de80f1e965e5dcc502Q.png",
+          "url": "https://ko.aliexpress.com/item/1005011600003372.html"
+        }
+      ],
+      "coupang": []
     },
     "Soundcore Liberty 4 Pro": {
       "q": "Soundcore Liberty 4 Pro",
@@ -3721,5 +3737,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-29T16:32:30.200Z"
+  "updatedAt": "2026-10-29T18:22:30.329Z"
 }
