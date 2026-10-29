@@ -47,15 +47,15 @@
       "model": "G Pro X Superlight 2",
       "cat": "it",
       "why": "퀘이사존 알리 직구 핫딜 반복(2025.12·2026.03 약 9.9만 원대), 국내 정발가 16.7만 원대(2026.06 핫딜 글)라 차이 큼",
-      "at": "2026-10-26T15:52:07.611Z",
-      "status": "rejected",
+      "at": "2026-10-29T16:32:23.424Z",
+      "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005006918193827",
           "title": "Logitech G PRO X SUPERLIGHT 2 무선 게이밍 마우스, 프로그래밍 가능한 버튼 5개, 44k DPI 센서, 8kHz 반복을 갖춘 60g 프로급 마우스",
-          "price": 147348,
-          "orders": 124,
+          "price": 168800,
+          "orders": 125,
           "rating": "98.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S89924b6525a54516965e14ab00b79783P.jpg",
           "url": "https://ko.aliexpress.com/item/1005006918193827.html"
@@ -67,20 +67,19 @@
           "name": "로지텍 G PRO X SUPERLIGHT 2 DEX 무선 마우스",
           "price": 179000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/KAKtAKY2NJMtEImXKBbbo2euX-nOQkM-NNtKYvARIMQv36jKB83fCc_prHcU3IFcyqT7ohnL6RIxQe08SrwSHNRhcc3QtkOfGx4xr44o9rAVq7Umt67OG5ZtU4_Sawc6djlvcMxI34zG1a-ob6YYqGmcEw2qL4JgTXMQRiNqaMZI3Cb1S9cKv6K-dEFTwo_As84Nx9M1-JvVXkLeIuT-eman3vU0-wCgkw1crKD_zcvyKZBWjMlo22ZnVmJn0aA5JMCr1b_TtbWyvRnqC6_m9iz9bVjzT-cGUYnRpIo070u_gjwU3v2VF2EJQNyPtQYjt5ugtnzp32fSieUYgceIKLZ6-Jpu2lceGLy9ZdoNMPAOlq1k3Ugt3x5qm0mI3ADBer1URcaKwl3iw3TKZ-aXkAi5Gsc9gsxMna_vw2yiml-SqPxYCptQIRzwl1KQrulveK97WWWn7-HYfwy33zxz8j160vRrAit7_vQ-xKdmHnL6EQv9JKJNjZkGdRlGvz2TRRgAUELX4pexpealo3zVup5bIw==",
+          "image": "https://ads-partners.coupang.com/image1/_A16zuQmV2UP8FnD_KrlTvScKlcftMsSnFwhPCAy8pmaAf6UYPcuyfPJk7hQQ5doGl_8THR6zWNhJjflsx7J-_eblBWFDvIJXLNcQodpuMWb8yhNE56MlGpuch7Zq-LYrQGn57VRPnBnBs0hSPVp0TidprTD4_0L9uNkoqKlcwe1jZtJOW1JbrXj2ZwUGHs9eQ9Qjaj0IIsB9-QzzHtlxkheroCWZ38JH1viFjNMVdgIqEF_zNXE3HZW6FclEhxT0XHDOY6VbB65lOXSyWwJiE6DbKv6xIOOC63DduBtyDtQ_35MH7PF20Q_T0-T_0jVJd2x-HdNceCJKNsgwJFSuxDA87jTSIOFRYxGx4t3cPbY5wjPPcSviaCbCFRLyHaBw9VpTWAuyvmspLozKjcyA5rn8naUYW005sHyVu-63lhUHFybBZbiSKYzPzT0jjI5JQYNApUP-3nuhjNJEkmV4fPsoSnkY494Y1766Ij2Cqydf-LDzJtWj-A5xMaqWEcvG045bWzHQyKUyN8HTXuOLw==",
           "url": "https://www.coupang.com/vp/products/8502090609"
         }
       ],
       "best": {
         "aliId": "1005006918193827",
         "coupangId": "8502090609",
-        "aliTotal": 147348,
+        "aliTotal": 168800,
         "coupangPrice": 179000,
         "verdict": "meh",
-        "diff": 31652,
-        "pct": 18
-      },
-      "reviewNote": "쿠팡은 SUPERLIGHT 2 DEX(다른 모델)"
+        "diff": 10200,
+        "pct": 6
+      }
     },
     "UGREEN Nexode 65W GaN": {
       "q": "UGREEN Nexode 65W GaN",
@@ -88,7 +87,7 @@
       "model": "Nexode 65W",
       "cat": "it",
       "why": "퀘이사존 2026.05 알리 핫딜 조회 1.4만·댓글 23(2025.07에도 같은 계열 글), 포트·디자인 변형 있음",
-      "at": "2026-10-26T15:52:15.155Z",
+      "at": "2026-10-29T16:32:27.803Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -3722,5 +3721,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-29T15:32:08.418Z"
+  "updatedAt": "2026-10-29T16:32:30.200Z"
 }

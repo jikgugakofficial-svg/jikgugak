@@ -94,7 +94,7 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-10-29T01:38:05.252Z",
+      "at": "2026-10-29T16:32:30.202Z",
       "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
@@ -105,15 +105,18 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-10-29T02:27:53.269Z",
+      "at": "2026-10-29T16:32:30.955Z",
       "recordedKrw": 41310,
-      "found": false,
-      "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 59100,
+      "isRocket": false,
+      "diff": 17790,
+      "result": "held"
     },
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-10-29T03:24:48.102Z",
+      "at": "2026-10-29T16:32:31.295Z",
       "recordedKrw": 56190,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -121,7 +124,7 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-10-29T03:24:48.436Z",
+      "at": "2026-10-29T16:32:31.640Z",
       "recordedKrw": 53960,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -421,5 +424,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T15:32:09.772Z"
+  "updatedAt": "2026-10-29T16:32:32.104Z"
 }
