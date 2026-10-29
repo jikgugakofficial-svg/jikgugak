@@ -105,13 +105,10 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-10-28T11:21:50.147Z",
-      "recordedKrw": 44900,
-      "found": true,
-      "apiPrice": 59100,
-      "isRocket": false,
-      "diff": 14200,
-      "result": "held"
+      "at": "2026-10-29T02:27:53.269Z",
+      "recordedKrw": 41310,
+      "found": false,
+      "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
@@ -433,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T01:38:05.719Z"
+  "updatedAt": "2026-10-29T02:27:54.480Z"
 }
