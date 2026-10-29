@@ -116,6 +116,22 @@ async function postThreads(me, spec) {
   return { id: first, url: info.permalink };
 }
 
+// 이미 올린 글에 답글·댓글 달기(정정·추가 안내용). publish.json channels에
+//   "threadsReply": { "replyTo": "<스레드 글 id>", "text": "…" }, "igComment": { "mediaId": "<인스타 게시물 id>", "text": "…" }
+async function postThreadsReply(me, spec) {
+  if (!spec.replyTo) throw new Error('threadsReply.replyTo(답글 달 스레드 글 id)가 없어요');
+  const c = (await call(TH, `/${me}/threads`, THREADS_TOKEN, { media_type: 'TEXT', text: spec.text, reply_to_id: spec.replyTo }, 'POST')).id;
+  await sleep(5000);
+  const id = (await call(TH, `/${me}/threads_publish`, THREADS_TOKEN, { creation_id: c }, 'POST')).id;
+  const info = await call(TH, `/${id}`, THREADS_TOKEN, { fields: 'permalink' }).catch(() => ({}));
+  return { id, url: info.permalink };
+}
+async function postIgComment(spec) {
+  if (!spec.mediaId) throw new Error('igComment.mediaId(댓글 달 인스타 게시물 id)가 없어요');
+  const r = await call(IG, `/${spec.mediaId}/comments`, IG_TOKEN, { message: spec.text }, 'POST');
+  return { id: r.id };
+}
+
 const who = await whoami();
 if (process.argv[2] === 'check') {
   // 중복 막기용 최근 게시물 읽기가 되는지도 확인(첫 줄 앞부분만 기록)
@@ -186,8 +202,9 @@ for (const dir of jobs) {
   const result = { dir, at: new Date().toISOString(), posts: [] };
   for (const [kind, spec] of Object.entries(job.channels || {})) {
     try {
-      const acct = kind === 'reels' ? 'instagram' : kind;
+      const acct = kind === 'reels' || kind === 'igComment' ? 'instagram' : kind === 'threadsReply' ? 'threads' : kind;
       if (!who[acct] || !who[acct].ok) throw new Error(`${kind} 연결 안 됨: ${who[acct] ? who[acct].error : '지원 안 하는 채널'}`);
+      if (kind === 'threadsReply' || kind === 'igComment') { result.posts.push({ kind, ok: true, ...(kind === 'threadsReply' ? await postThreadsReply(who.threads.id, spec) : await postIgComment(spec)) }); continue; }
       const dup = await alreadyPosted(kind, spec);
       if (dup) { result.posts.push({ kind, ok: true, skipped: '이미 같은 글이 올라가 있어 건너뜀', id: dup.id, url: dup.permalink }); continue; }
       const r = kind === 'instagram' ? await postInstagram(who.instagram.id, dir, spec) : kind === 'reels' ? await postReel(who.instagram.id, dir, spec) : await postThreads(who.threads.id, spec);

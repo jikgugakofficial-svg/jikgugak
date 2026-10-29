@@ -52,3 +52,13 @@ GitHub Actions(`.github/workflows/publish.yml`)가 push 직후와 매시 7분에
 - 결과는 publish-result.json에 `kind: "story"`로 남아요. 실패해도 본 게시는 그대로예요.
 - 끄려면 그 폴더 publish.json에 `"story": false`.
 - 스토리는 24시간 뒤 사라지니, 하이라이트(`docs/marketing/ig-profile.md` 6번)로 모으는 건 운영자가 앱에서 해요.
+
+## 이미 올린 글에 답글·댓글 (2026-10-28 추가, 정정·추가 안내용)
+새 폴더의 publish.json에 이렇게 적어요(운영자 승인 필수). 원 글 id는 그 글 폴더의 `publish-result.json`에 있어요.
+```json
+"channels": {
+  "threadsReply": { "replyTo": "18118671422603330", "text": "정정: …" },
+  "igComment": { "mediaId": "17949523632389088", "text": "정정: …" }
+}
+```
+인스타 댓글은 토큰에 댓글 권한(instagram_business_manage_comments)이 있어야 해요. 없으면 그 채널만 실패로 남고 나머지는 올라가요.
