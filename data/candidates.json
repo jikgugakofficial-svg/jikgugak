@@ -222,7 +222,7 @@
       "model": "W830NB",
       "cat": "audio",
       "why": "같은 브랜드 W820NB Plus가 퀘이사존 알리 $34.54~38.05 핫딜(2025~26, 댓글 활발)로 반복, W830NB는 상위(하이브리드 ANC) 모델이라 정발가와 차이 클 수 있음. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-26T17:24:16.346Z",
+      "at": "2026-10-30T01:40:37.520Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -234,14 +234,14 @@
       "model": "W800BT Plus",
       "cat": "audio",
       "why": "에디파이어 입문 온이어 헤드폰 라인(W820NB Plus와 같은 가격대 비교 대상). 국내 정발가·알리 공식 판매 여부는 후보 발굴 결과로 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-26T17:24:18.670Z",
-      "status": "no_coupang",
+      "at": "2026-10-30T01:40:42.687Z",
+      "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012367889592",
           "title": "Edifier W800BT/W800BT PLUS 무선 블루투스 헤드셋 헤드폰 배터리용 3.7V 1500mAh 604050 배터리",
-          "price": 11100,
+          "price": 11150,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e392043c685496881afc2e7d232a3c3f.jpg",
@@ -250,14 +250,32 @@
         {
           "id": "1005013273699316",
           "title": "에디파이어 W800BT/W800BT PLUS 무선 블루투스 헤드셋용 3.7V 1800mAh 604050 배터리",
-          "price": 21750,
+          "price": 21950,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S55261e8c76424df3b34d13178d9ccfe3W.jpg",
           "url": "https://ko.aliexpress.com/item/1005013273699316.html"
         }
       ],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "6516851050",
+          "name": "자격을 갖춘 이어 패드 Edifier W800BT Plus HEA 용 헤드 빔 용 소프트 쿠션 슬리브",
+          "price": 8200,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/JeNRe1mrY2G6ws63JavZcUct4q6QEhiiTD8L-UGyWLiTh_V-UYIUu_dKq8GQEpBFIL9mmAFcTMkZQfYJguvkbWPu0AHhz5I6iS2w2DSnkC1WXWBooKtwGtQKVB-5hi-yi02laWURwuml1oADXVV8eEICPuVV8bqf_WATFmaEhGCD2cZQtZFaSLZeHe5zSjEIoFzAn87jHZ4oQ0L8tpEXDAhMjtWdKS1lmoksLGgGYNWMm3qPmZjctXTVRu40XA4W4CHljlORAuWoI1QZBaVjJDqjxg5TANRX8P9ybPEcuzqL6ceHOhA3YAuf7MI9wYWO928aHrObqewxJ0xO4tMhvXc-2yx59Bp73r1vNchz_Kh5FsLf5eQIiEnMuCDpbwOENwHnDFlBzJJO49Uc5gXv3bsChR7jxtoWNHIr0wyzX2AnSlRxzojtnvkOOcdZnTa8qMHLliMIzN0vxZe0et7itQxNCFMXaZwiwcMX3AqpAmgJo7oV3iPC_SNS5vwqDHwgo9-_anP33CUXfFH3XhoKMW0hq_1Z2JIIBI4lQgqzUQ==",
+          "url": "https://www.coupang.com/vp/products/6516851050"
+        }
+      ],
+      "best": {
+        "aliId": "1005012367889592",
+        "coupangId": "6516851050",
+        "aliTotal": 11150,
+        "coupangPrice": 8200,
+        "verdict": "bad",
+        "diff": -2950,
+        "pct": -36
+      }
     },
     "Edifier QR30": {
       "q": "Edifier QR30",
@@ -3786,5 +3804,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-29T21:20:07.548Z"
+  "updatedAt": "2026-10-30T01:40:44.584Z"
 }
