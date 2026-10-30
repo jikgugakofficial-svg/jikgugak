@@ -22,12 +22,12 @@
       "source": "알리"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-10-30T04:25:01.733Z",
+      "at": "2026-10-30T19:26:09.968Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 10790,
-      "api": 44900,
-      "change": "316%",
+      "api": 12970,
+      "change": "20%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
     },
@@ -42,5 +42,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-10-30T18:18:56.503Z"
+  "updatedAt": "2026-10-30T19:26:14.364Z"
 }

@@ -15,29 +15,29 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-10-30T03:24:15.219Z",
-      "recordedKrw": 26520,
+      "at": "2026-10-30T19:26:09.213Z",
+      "recordedKrw": 21670,
       "found": true,
-      "apiPrice": 21670,
+      "apiPrice": 27860,
       "isRocket": false,
-      "diff": -4850,
+      "diff": 6190,
       "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-10-30T04:25:01.378Z",
+      "at": "2026-10-30T19:26:09.651Z",
       "recordedKrw": 10790,
       "found": true,
-      "apiPrice": 44900,
+      "apiPrice": 12970,
       "isRocket": false,
-      "diff": 34110,
+      "diff": 2180,
       "result": "held"
     },
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-10-30T04:25:01.734Z",
+      "at": "2026-10-30T19:26:09.968Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -48,7 +48,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-10-30T04:25:02.181Z",
+      "at": "2026-10-30T19:26:10.366Z",
       "recordedKrw": 57750,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T18:18:52.689Z"
+  "updatedAt": "2026-10-30T19:26:10.765Z"
 }
