@@ -3,11 +3,11 @@
   "items": {
     "ali-ugreen-7in1-usbc-hub": {
       "itemId": "1005008093143399",
-      "at": "2026-10-30T05:22:46.547Z",
-      "recordedKrw": 33924,
+      "at": "2026-10-30T09:29:58.917Z",
+      "recordedKrw": 34036,
       "found": true,
       "apiPrice": 34036,
-      "result": "applied"
+      "result": "same"
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
@@ -58,19 +58,19 @@
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
-      "at": "2026-10-30T04:25:05.809Z",
-      "recordedKrw": 128227,
+      "at": "2026-10-30T09:29:56.426Z",
+      "recordedKrw": 128769,
       "found": true,
       "apiPrice": 128769,
-      "result": "applied"
+      "result": "same"
     },
     "ali-edifier-evobuds-pro": {
       "itemId": "1005010122935561",
-      "at": "2026-10-30T05:22:49.482Z",
-      "recordedKrw": 68631,
+      "at": "2026-10-30T09:29:59.662Z",
+      "recordedKrw": 68857,
       "found": true,
       "apiPrice": 68857,
-      "result": "applied"
+      "result": "same"
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
@@ -81,5 +81,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T07:41:51.555Z"
+  "updatedAt": "2026-10-30T09:30:00.659Z"
 }
