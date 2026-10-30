@@ -131,3 +131,5 @@
 - 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"` → 아티팩트 + 사진 zip.
 - 서치 콘솔 알림 해석: 숨긴 상품은 '가격 확인 중' 안내 페이지(noindex), `/search`는 의도된 noindex, utm·www 없는 주소는 대체 페이지(정상).
 - 확인 순서: `npm test` → `npm run build` → `node scripts/audit.mjs`. "아이허브 링크가 제휴 링크 아님"·"같은 제품 확인 기록 없음(아마존)"은 알려진 항목.
+
+- **10/30 오전(사용 제한 풀린 뒤) 점검:** 10/29 S2-03 인스타 카드 게시 실패(Meta 'action is blocked', 릴스·스레드·스토리는 올라감). 오늘 스레드(150달러·M90) 쉼: 알리 M90 API 일반가 191,780→291,727원(광군제 앞 가격 올림 추정, price-alerts). S2-04 보류(H3 알리 43,073→43,473원, 카드 다시 그려야 함). 릴스 D 10.30 집계로 다시 굽고 운영자 재승인(12:25). AULA F75 API 92,182원은 다른 옵션가로 보임(화면 씨솔트블루·회목축 53,5xx) → 그대로.
