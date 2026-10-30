@@ -11,7 +11,7 @@
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
-      "at": "2026-10-30T05:22:49.916Z",
+      "at": "2026-10-30T10:27:44.232Z",
       "recordedKrw": 53100,
       "found": true,
       "apiPrice": 92571,
@@ -19,15 +19,15 @@
     },
     "ali-qcy-t13-earbuds": {
       "itemId": "1005005042789596",
-      "at": "2026-10-30T06:19:49.101Z",
-      "recordedKrw": 28769,
+      "at": "2026-10-30T10:27:46.959Z",
+      "recordedKrw": 28890,
       "found": true,
       "apiPrice": 28890,
-      "result": "applied"
+      "result": "same"
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
-      "at": "2026-10-30T06:19:51.683Z",
+      "at": "2026-10-30T10:27:47.897Z",
       "recordedKrw": 43657,
       "found": true,
       "apiPrice": 43657,
@@ -81,5 +81,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T09:30:00.659Z"
+  "updatedAt": "2026-10-30T10:27:48.821Z"
 }
