@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-10-29T21:20:08.384Z",
+      "at": "2026-10-30T12:18:01.205Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -407,7 +407,7 @@
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
       "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
-      "at": "2026-10-29T21:20:08.004Z",
+      "at": "2026-10-30T12:18:00.630Z",
       "recordedKrw": 79400,
       "found": true,
       "apiPrice": 79400,
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T11:18:12.535Z"
+  "updatedAt": "2026-10-30T12:18:01.682Z"
 }
