@@ -268,45 +268,45 @@
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-10-29T23:16:33.303Z",
-      "recordedKrw": 17740,
+      "at": "2026-10-30T15:31:35.268Z",
+      "recordedKrw": 21340,
       "found": true,
       "apiPrice": 21340,
       "isRocket": false,
-      "diff": 3600,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-jarrow-fem-dophilus-5b-60": {
       "productId": "6960887991",
       "keyword": "자로우 펨도필러스 50억 CFU 60캡슐",
-      "at": "2026-10-29T23:16:33.658Z",
-      "recordedKrw": 30980,
+      "at": "2026-10-30T15:31:35.665Z",
+      "recordedKrw": 35040,
       "found": true,
-      "apiPrice": 35040,
+      "apiPrice": 30610,
       "isRocket": false,
-      "diff": 4060,
+      "diff": -4430,
       "result": "applied"
     },
     "iherb-now-zinc-50-250": {
       "productId": "6395389697",
       "keyword": "나우푸드 아연 50mg 250정",
-      "at": "2026-10-30T00:13:17.552Z",
-      "recordedKrw": 10930,
+      "at": "2026-10-30T15:31:36.094Z",
+      "recordedKrw": 13180,
       "found": true,
       "apiPrice": 13180,
       "isRocket": false,
-      "diff": 2250,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-now-ultra-omega3-180": {
       "productId": "9392378613",
       "keyword": "나우푸드 울트라 오메가3 180정",
-      "at": "2026-10-30T00:13:18.814Z",
-      "recordedKrw": 33110,
+      "at": "2026-10-30T15:31:36.457Z",
+      "recordedKrw": 33400,
       "found": true,
-      "apiPrice": 33400,
+      "apiPrice": 38050,
       "isRocket": false,
-      "diff": 290,
+      "diff": 4650,
       "result": "applied"
     },
     "iherb-now-magnesium-caps-400-180": {
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T14:38:34.398Z"
+  "updatedAt": "2026-10-30T15:31:36.876Z"
 }
