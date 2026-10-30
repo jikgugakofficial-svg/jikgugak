@@ -312,10 +312,13 @@
     "iherb-now-magnesium-caps-400-180": {
       "productId": "26208",
       "keyword": "나우푸드 마그네슘 캡 400mg 180캡슐",
-      "at": "2026-10-30T01:40:44.602Z",
+      "at": "2026-10-30T16:27:49.111Z",
       "recordedKrw": 16240,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 19570,
+      "isRocket": false,
+      "diff": 3330,
+      "result": "applied"
     },
     "iherb-on-micronized-creatine-caps-100": {
       "productId": "65105319",
@@ -418,7 +421,7 @@
     "iherb-cgn-organic-spirulina-720": {
       "productId": "6168309514",
       "keyword": "캘리포니아 골드 뉴트리션 올가닉 스피루리나 500mg 720정",
-      "at": "2026-10-30T00:13:19.262Z",
+      "at": "2026-10-30T16:27:48.322Z",
       "recordedKrw": 56400,
       "found": true,
       "apiPrice": 49700,
@@ -427,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T15:31:36.876Z"
+  "updatedAt": "2026-10-30T16:27:49.513Z"
 }
