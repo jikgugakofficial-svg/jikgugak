@@ -35,15 +35,15 @@
     },
     "ali-xiaomi-smart-band-10-pro": {
       "itemId": "1005006405553471",
-      "at": "2026-10-29T20:23:08.551Z",
+      "at": "2026-10-30T00:13:19.733Z",
       "recordedKrw": 101551,
       "found": true,
-      "apiPrice": 101551,
-      "result": "same"
+      "apiPrice": 103021,
+      "result": "applied"
     },
     "ali-qcy-melobuds-n70": {
       "itemId": "1005009801120235",
-      "at": "2026-10-29T21:20:09.264Z",
+      "at": "2026-10-30T00:13:22.449Z",
       "recordedKrw": 74603,
       "found": true,
       "apiPrice": 74603,
@@ -75,12 +75,12 @@
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
-      "at": "2026-10-29T21:20:11.777Z",
+      "at": "2026-10-30T00:13:23.352Z",
       "recordedKrw": 199881,
       "found": true,
       "apiPrice": 199881,
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-29T23:16:38.183Z"
+  "updatedAt": "2026-10-30T00:13:24.082Z"
 }
