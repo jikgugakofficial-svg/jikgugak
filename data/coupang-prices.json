@@ -257,12 +257,12 @@
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-10-29T23:16:32.767Z",
-      "recordedKrw": 24290,
+      "at": "2026-10-30T14:38:33.570Z",
+      "recordedKrw": 27860,
       "found": true,
-      "apiPrice": 27860,
+      "apiPrice": 24520,
       "isRocket": false,
-      "diff": 3570,
+      "diff": -3340,
       "result": "applied"
     },
     "iherb-now-l-arginine-1000-120": {
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T13:40:45.710Z"
+  "updatedAt": "2026-10-30T14:38:34.398Z"
 }

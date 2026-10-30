@@ -1400,7 +1400,7 @@
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33318,
-    "domesticKrw": 27860,
+    "domesticKrw": 24520,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1450,6 +1450,13 @@
         "field": "domesticKrw",
         "from": 24290,
         "to": 27860,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.30",
+        "field": "domesticKrw",
+        "from": 27860,
+        "to": 24520,
         "source": "쿠팡"
       }
     ]
