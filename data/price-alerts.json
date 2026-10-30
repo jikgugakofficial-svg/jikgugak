@@ -12,7 +12,7 @@
       "source": "알리"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-10-30T10:27:46.958Z",
+      "at": "2026-10-30T13:40:47.807Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
@@ -42,5 +42,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-10-30T12:18:05.711Z"
+  "updatedAt": "2026-10-30T13:40:48.177Z"
 }
