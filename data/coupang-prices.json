@@ -344,11 +344,11 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-10-29T11:22:03.868Z",
+      "at": "2026-10-30T02:27:44.962Z",
       "recordedKrw": 125900,
       "found": true,
       "apiPrice": 125900,
-      "isRocket": true,
+      "isRocket": false,
       "diff": 0,
       "result": "same"
     },
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T01:40:46.018Z"
+  "updatedAt": "2026-10-30T02:27:45.616Z"
 }
