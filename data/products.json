@@ -1953,10 +1953,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.10.29 알리 자동",
+    "checkedAt": "2026.10.30 알리 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 128227,
+    "priceKrw": 128769,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -2001,6 +2001,13 @@
         "field": "priceKrw",
         "from": 128335,
         "to": 128227,
+        "source": "알리"
+      },
+      {
+        "at": "2026.10.30",
+        "field": "priceKrw",
+        "from": 128227,
+        "to": 128769,
         "source": "알리"
       }
     ]
@@ -2118,10 +2125,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/icLoGHV3gy",
     "sample": false,
-    "checkedAt": "2026.10.29 알리 자동",
+    "checkedAt": "2026.10.30 알리 자동",
     "slug": "ali-baseus-inspire-xh1",
     "name": "베이스어스 인스파이어 XH1 노이즈캔슬링 헤드폰 (Sound by Bose)",
-    "priceKrw": 199881,
+    "priceKrw": 200539,
     "domesticKrw": 316300,
     "domesticSource": "쿠팡 해외 판매자, 코스믹 블랙, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C27y349f6dLxpGxw0ruz6J5gZhLNS4iyjYDmpb5aNOZEzWD8P54TQMFzGcsDGcyHAym9Rwk7L6Z3lmA7sM4hBsWvgt6f3mrBU2JTj9hcpwGwStMNKP8cZ7Af2tGgWGYloaYuu0LjBOznWf7tunuIZwE5eEhfrxG9cBcmKSSZHPw9pAN5AC104xN2Sl7vqDPpLn9OaqAb2ctuz2WjOe15tCnywLcIA6NlutrPLwrDthkNnJ348grTpjjsHq8yBbfHFiZBGIxI6kVSMI4AXGWS0sc3X7SX0EDwFfPPXlm8KpLkdZg4ojJXEonur2j3erkTyYTyBzQwrbG73MsZ52HpF8drVI4ni6PIC9kn6obSk24JQpbBt5Fsf7VV3i2q82Yz5JmMc8MkI1OVH6ZjDR6870m8rqkdAP5bZFmHUwIx0FMgJ4kc27qryAQARZtxDfr3vck38E4lAWZHHHszQwsOQ9ufLtLnezIAdXCSdGODxRxmSbgs3Qu87GLXd1JAYEUKU7SXlEyOAzZgVyYh5NUhKqFcAgt82TCE32yPh1ZMTrSsDWOeg7LiriTpID11nYLQq2KMWDsRH9IMPNCwONZPheyO8Q2PiFwty2m6D5vURCMwCoy7Ui4uOTNeBao2qHN71iXyDu7Tw8vXJhI4lBEcYx2dw1brmmFXvooYMN8bVScrdgIIk6Qz6rwQNQ7M2ZGgB6YWF354d81lfp",
@@ -2160,6 +2167,13 @@
         "field": "priceKrw",
         "from": 200261,
         "to": 199881,
+        "source": "알리"
+      },
+      {
+        "at": "2026.10.30",
+        "field": "priceKrw",
+        "from": 199881,
+        "to": 200539,
         "source": "알리"
       }
     ]

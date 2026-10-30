@@ -320,39 +320,47 @@
       "model": "MX Anywhere 3S",
       "cat": "it",
       "why": "같은 라인 MX Master 3S가 퀘이사존 알리 $56.52 공구(2026.06)에 포함된 로지텍 공식 스토어 품목. MX Anywhere 3S 핫딜 글도 검색에 나옴(내용 미확인). 국내 정발가 확인 전",
-      "at": "2026-10-26T17:24:21.832Z",
-      "status": "no_coupang",
-      "coupangTop": 5,
+      "at": "2026-10-30T04:24:56.048Z",
+      "status": "new",
+      "coupangTop": 10,
       "ali": [
         {
           "id": "1005007306839092",
           "title": "로지텍 마스터 시리즈 MX Anywhere 3S 블루투스 무선 무음 마우스, 부드러운 사운드, 사무실 여성용 태블릿",
-          "price": 81581,
+          "price": 82691,
           "orders": 54,
-          "rating": "95.6%",
+          "rating": "95.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S79d2151649dc44c59e4dc229c8cce533N.jpg",
           "url": "https://ko.aliexpress.com/item/1005007306839092.html"
-        },
-        {
-          "id": "1005009603589063",
-          "title": "KIPNO 3.7V 600mAh 마우스 배터리 L/N: 1412 로지텍 MX Master MX Anywhere 2 MX Master 2 3 MX Anywhere 3S MR0083 G502 X 용",
-          "price": 7500,
-          "orders": 32,
-          "rating": "81.8%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e0deb19f4594ec99f289b73c2bec7ccP.png",
-          "url": "https://ko.aliexpress.com/item/1005009603589063.html"
-        },
-        {
-          "id": "1005013319590867",
-          "title": "로지텍 MX Anywhere 3S 무선 블루투스 마우스: 소음이 적은 클릭, 8000DPI, 휴대용, 노트북 및 PC용 다중 기기 지원 마우스",
-          "price": 25800,
-          "orders": 16,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4cae8a09a32847ae881fef6143c1389fX.jpg",
-          "url": "https://ko.aliexpress.com/item/1005013319590867.html"
         }
       ],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9447053887",
+          "name": "로지텍 코리아 무선 마우스 MX ANYWHERE 3S",
+          "price": 96800,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/bioxr3ANbo4hNeQqbgU_7eji4Sboyg_qeu2KHxX9t47k2JvZkgSyhMPPdzTkZUY15oE6-d7D6yYA5ldMWmo7BjK8NZ947wqjaxwvHsfJSNReYLz5SzgZ29V_6iWKg7DyIoH-9bktywpVLP7gPiwZ5eto0BSkNjlKVaOXQMcrWbRApZeCRz-b7XCKTaRWLyQ--t1MEkee0x1kAatcBirUT6-C-x6EYX332ijRXa72NJtldplZU-TffXgXbdextywwF-uQd6uEYvv4wRCKMAhgdj_BX33LQ8KccEvqXuUidIxBuqXiYYl4Fwryoa3hm13qP46GYsrNVHMOEnrdnHPp5N0L6Arohs_DizgWe4CTmxgUCQkEZBTx_PDPPt-W5Z3nceS4O5X5p_8OhCjK4smrOFECuHJixZY9XOD2A9VLweEYox4LAKRiPEeMKCYWSlhQJARJtuZUaPISBqwb28pEva6e_CBxhlhi3p18gScQymN63hMgYjxs_WZ79A11K9Ege6XGzsaqAb2VWA==",
+          "url": "https://www.coupang.com/vp/products/9447053887"
+        },
+        {
+          "id": "9447053887",
+          "name": "로지텍 코리아 무선 마우스 MX ANYWHERE 3S",
+          "price": 106000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/HGJrwjriOoxoPFuXHHfMArgB_UBjM0xzGIvw7DLve86wWgEh0DoCAMaKFwNPEJ7PEQIA-mfpv_qHDz6kD5crbJp8-MWtM0B2sL6M_jrxWGfYsry6U_DPuePBpizh-EKku7dzgjl2C__shjCj_yANViV5mvDwOnPaPe2CeIvBJPuB4rsR0nvE9WUQAMv_fehtXkZOytTb16EzIVJLnD6L0azfGPzU1RT0Y1RbKAHkUUD6aBF8PkVjyOzTNWJx_e65gC_OLmXi66OisBG1xJznHy7Y8G1T5PUt4inAN63HwF0f2l62fF0whgvMwrH1Wpsdw6KLAobboQt3FTz2TQSVWrws90U4LDKqvl3RXeTjj-hEDFdc7tUgHRYeNnwcHvgBmO1S0lWrTjWk1Y1y5MhOMslzy5x_T3JqiOcgp_c8JSR-kGuAG389Vo7uyS3JvD9xhAp1ww0-gWWX9zGKn0_KAMIuBlRm0rImLdOcvj5EWlgdaNEjjZgLHNsv8zfY09qzOczcZwPxpFw1Cu8=",
+          "url": "https://www.coupang.com/vp/products/9447053887"
+        }
+      ],
+      "best": {
+        "aliId": "1005007306839092",
+        "coupangId": "9447053887",
+        "aliTotal": 82691,
+        "coupangPrice": 96800,
+        "verdict": "meh",
+        "diff": 14109,
+        "pct": 15
+      }
     },
     "Dreame H12 Pro": {
       "q": "Dreame H12 Pro",
@@ -360,34 +368,26 @@
       "model": "H12 Pro",
       "cat": "home",
       "why": "드리미 국내 공식 스토어(11번가) H12 Pro FlexReach 598,000원 확인(2026.10 웹). 국내 정발가가 높게 잡히는 드리미 습건식 스틱청소기 본품, 알리 공식 스토어 일반가와 비교 가치. FlexReach·Ultra 등 구성 구분 필요",
-      "at": "2026-10-26T17:24:24.353Z",
+      "at": "2026-10-30T04:24:59.993Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
-          "id": "8915328088",
-          "name": "드리미 올인원 청소기 H12 Pro FlexReach, H12 Pro FlexReach, 블랙",
-          "price": 399000,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/s_TUjd8LEWpHsYdUs2EZp1aKKgeW30zrQ3ikysXgL6zzAD9uGMBCfQi0IEnCIpkCWl2-UE9ymjA0xFkYbjx_mh7zcfJLqxy21L-0ndd2m62BfvySnPrCIcLn39-OjJjNKf10HoYMkT6VL998teqbX_kkRnU4omJa1QxiZN2nmj8iqfHMR5JaDYSNYKkvZbdPdG2TSeKcUKmHtFdfLbvjGzFHt8WyexIO6XAhL9FUw1Mi7qeNEu7KVxcDOEYPUynDS-unEqfGSBEb1NabcjjpP3oUEMvr8qtsvqKBHCHZfOXQuOZwLas2VK5Wjj-o-sD0Y9R1eSysBiBvPrgUitVWklb3ao_gSduDqlK3PgKi1zkcoGpSJVxNLkBkG8-TD7BzNRDKw_6vakyOABdVRtjWwunXIucR7W4AGaSdFndpU43oLmdVBfcsd7TLS_qUHRlatRqStHn32yzph9nKsAzo3aFLuyEaeD7NFL5UybwIIAAblsc0nUmKdl3oPdyISkpk7CoTSSrkAOY=",
-          "url": "https://www.coupang.com/vp/products/8915328088"
-        },
-        {
           "id": "9599824787",
           "name": "dreame H12 Pro FlexReach 2-in-1 & 18,000 Pa (드리미) 물 닦아 청소기 건습 양용 무선",
-          "price": 587130,
+          "price": 591960,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/NR6DIcJn3eQoK7kXNYBdnjEu9R1swu68qPSqJJ2PG9C7BW9e-9uEVbahsfFK5TLM0iEyjpkp20CNeu8ikwdV9On7h-S46fYzYOIv5_HYoljvBCE5beJLBQCuTU6F6u8cGEe4GHl7Xheh5bZlTmGWv_SYPa3W7cUzvMsHwNP8-WT5qMpSBQ1E138KasuXq_8oxarQLlzROFnG0_VUwLpN7BDbO-uVgm75CP2IknfxpIaM_PbzPne7soIDKPEl1AgUMsRdTSK6qk_1gD75ZYq0V-rhD0EP1J9ugkAIE8nCV-WHWxvj6MI62xNHNYuzNZlcFCyZ8cUanAtzd_yIOtlVcwj98ZG9XBG1K5UNmhyvu8jj45Y3zjXDxc_jLk1LYFct3OL0jYRObEDpYqi01cWwfREpR1yk-LrY84ewqh8lzrikLpNboB-I265WzHabVy1CtLjeS_2IWx_0JPAHNY9f0ZrkdA4n3yE-t6f1wpWMUL28L1cZhXF5CAM4J0YNaV-mvnaCkuBbanILlT4x89guudU9Uh7QpPA3xqVsaeQyIZbw0g==",
+          "image": "https://ads-partners.coupang.com/image1/8YiUlxtntnwK2KJd8dNHxzDAcUlo2zXVKvo5-Ui3OuHWmnOtCIkLhBr8Rlvf_0Pq_ZjWubPOPH58_O2XtEzu5D23_poorWwONjj0XJ_sMAhAW2wImXjGKndD5uCDIitl1Y1P4bRoLdiMvnwSvJuJy7frMuWcUQQNFOK4BacuU7jMdLV3zXH-zGWtXqFIqFy2MVXjIEar9bIr-XL8ZAX9JWQl0jUY4itGDAQbrkz2DZ3jY-yr18bSLn5UiZx1JMzWyQt97OQzR5hbx1fMOUrj64rBrzBW-SayiuncX4ZUEBPesIdlRVFrWPRd5wJ6e26wZnQxYAojNpTnnQphRrO4XlL_pr_-wtpVDQKoq2zFJGuGNxHEOfVJOg15_pOkZSn7ZFKbXdWKQlJFXoLO3RjdvlIuR-DPJPb2o3BAn3i_o7Eo8zYfpxEdGC4IGuMQgVe-yE_Et0U7tkdSHYzqjcfwS0diilk-AneM1aZ9C6SEoTP6DgcZ-MXvztROHMyGwBbnvy3-uYB1UmD7dRZC7uSqdAj7h_G9soVrD7uA8uo61zaMgZg8",
           "url": "https://www.coupang.com/vp/products/9599824787"
         },
         {
-          "id": "7959356146",
-          "name": "드리미 H12 Pro 무선 아쿠아 청소기",
-          "price": 937600,
+          "id": "8915328088",
+          "name": "드리미 올인원 청소기 H12 Pro FlexReach",
+          "price": 699000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/SunXzuh6yCqsqw7WSmxOsjqfbi2pQmtiChGGlYSUAFy-vBV6Oo13pmHbZlKCQYpdbGzMvN3G_lMCuK0KGbWghNT0jDwbfc-yu3QXsoTevY1pgem9i6NYW9-u-lPxpWoh-I0KlAaJBmp7uZIhfAP3Mhpo2pwmHiv9r2yg73mSkNxMUDruegehQy2xtoMS_bvBIrUPqmA1ADejYvNF-GmEXKVnwTY-5kmE24yyPQ0jRzPz7oAfvNM8RYm2wn29YBdCrGbEq42hqcNQPieG8YHWcPkEEMnAw3mfs7l0lT-ayW2F3Yflk3txf4QEc9sVgV68T4oWHTdMBdCQ3BbuEEfovd6GpbsXk0GOLCOKrYJOHjZ2DCUlX-eJ0J0EPzcxM0sh2CUXKZ7nq7b7ZzKlurrM3kyjM88m_csKlR7qSMs92506zavJuOZCPL9gEIZidOVnoxMYKPDOx9F9i8OrS9GiHofY6vmbqTgou1S5YnPHNfyOrI8GP3mqSGiSZqcVSUopMHeB1C2qw07IPmOI_c3EjVwcM2b2_jWVqCkivZzc44fosg==",
-          "url": "https://www.coupang.com/vp/products/7959356146"
+          "image": "https://ads-partners.coupang.com/image1/fwPKF4LHM9OlBDQofyneQeRfOfDpEHmZQFk46cYIlm1npM_UQfZqpK5syWTHFkHQ1O32y45wqH-RotRQbRDZldZlXC25pZOLqvqgwRGr0US_HVsywzvkGYlyvMf4L1Uld2T9xGbvHRo-jq1TW-CxlBkEgeXPGoEIC7QypCFS8f9ilTB5VAvwmoEhT4E9Zk5WQkz-Oc48wa6AqvQNLQ6zTv8cswIEhkSZM3dtvRdFKkC3j9JMNlZENvXyezA7as9DWRhz1BI9j3vdTNCiJ5QxYbuqT07VaESmuT93uabWJNw4ghF_xTf0quHiZStXt0ujybvt2jpVCjWcJV7IVPPz4RSnwk5aSHc0ezpa76to3kpmzSrbpddr1Cd-oDBqytqXCrILanXyBJ8jCk-mAIlTZ_PEkNPtHBJQTU19rOtaG8Sf9s6uJgi74LwEnaMhx3tsFbxK98mxhulG8FF-XNvPjpZY_SU-0UIGA3qKSYpZKPZHr8nIAxUPjgWr-OghIujzx2jw-8l1rDAynwOxfeMZibC1BL1CoP3T6ujlXG0gfrz_JAAogJ7q-OhTlSzDf84g8P342De5ENFX_240iCBeKh95aZIJ",
+          "url": "https://www.coupang.com/vp/products/8915328088"
         }
       ]
     },
@@ -3804,5 +3804,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-30T03:24:13.820Z"
+  "updatedAt": "2026-10-30T04:25:01.375Z"
 }
