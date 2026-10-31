@@ -175,7 +175,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-10-31T00:13:48.979Z",
+      "at": "2026-10-31T15:14:58.256Z",
       "recordedKrw": 38610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -183,7 +183,7 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-10-31T00:13:49.344Z",
+      "at": "2026-10-31T15:14:59.014Z",
       "recordedKrw": 89620,
       "found": true,
       "apiPrice": 89620,
@@ -194,7 +194,7 @@
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-10-31T01:40:09.632Z",
+      "at": "2026-10-31T15:14:59.593Z",
       "recordedKrw": 71400,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -377,7 +377,7 @@
     "ali-baseus-inspire-xh1": {
       "productId": "9241501985",
       "keyword": "베이스어스 인스파이어 XH1",
-      "at": "2026-10-31T01:40:10.019Z",
+      "at": "2026-10-31T15:14:59.940Z",
       "recordedKrw": 316300,
       "found": true,
       "apiPrice": 316300,
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T14:17:39.539Z"
+  "updatedAt": "2026-10-31T15:15:00.540Z"
 }

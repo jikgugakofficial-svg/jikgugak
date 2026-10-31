@@ -3,7 +3,7 @@
   "items": {
     "ali-ugreen-7in1-usbc-hub": {
       "itemId": "1005008093143399",
-      "at": "2026-10-31T12:14:13.535Z",
+      "at": "2026-10-31T15:15:02.727Z",
       "recordedKrw": 34036,
       "found": true,
       "apiPrice": 34036,
@@ -59,7 +59,7 @@
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
-      "at": "2026-10-31T11:14:38.933Z",
+      "at": "2026-10-31T15:15:00.541Z",
       "recordedKrw": 128769,
       "found": true,
       "apiPrice": 128769,
@@ -67,7 +67,7 @@
     },
     "ali-edifier-evobuds-pro": {
       "itemId": "1005010122935561",
-      "at": "2026-10-31T12:14:15.583Z",
+      "at": "2026-10-31T15:15:03.911Z",
       "recordedKrw": 68857,
       "found": true,
       "apiPrice": 68857,
@@ -82,5 +82,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T14:17:43.280Z"
+  "updatedAt": "2026-10-31T15:15:04.824Z"
 }
