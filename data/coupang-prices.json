@@ -328,7 +328,7 @@
     "ali-qcy-melobuds-n70": {
       "productId": "8974456611",
       "keyword": "QCY 멜로버즈 N70 노이즈캔슬링 이어폰",
-      "at": "2026-10-30T17:23:48.332Z",
+      "at": "2026-10-31T07:35:10.424Z",
       "recordedKrw": 61880,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -336,7 +336,7 @@
     "ali-edifier-m90-speaker": {
       "productId": "9481089707",
       "keyword": "에디파이어 M90 블루투스 스피커",
-      "at": "2026-10-30T17:23:48.735Z",
+      "at": "2026-10-31T07:35:10.772Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -344,7 +344,7 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-10-30T17:23:49.093Z",
+      "at": "2026-10-31T07:35:11.122Z",
       "recordedKrw": 125900,
       "found": true,
       "apiPrice": 125900,
@@ -355,13 +355,13 @@
     "ali-edifier-evobuds-pro": {
       "productId": "9340326719",
       "keyword": "EDIFIER EvoBuds Pro",
-      "at": "2026-10-30T18:18:51.221Z",
-      "recordedKrw": 114830,
+      "at": "2026-10-31T07:35:11.477Z",
+      "recordedKrw": 114770,
       "found": true,
       "apiPrice": 114770,
       "isRocket": false,
-      "diff": -60,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-cgn-coq10-100-360": {
       "productId": "9294384581",
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T06:16:51.651Z"
+  "updatedAt": "2026-10-31T07:35:11.783Z"
 }
