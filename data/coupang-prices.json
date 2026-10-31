@@ -312,23 +312,29 @@
     "iherb-now-magnesium-caps-400-180": {
       "productId": "26208",
       "keyword": "나우푸드 마그네슘 캡 400mg 180캡슐",
-      "at": "2026-10-31T06:16:50.819Z",
+      "at": "2026-10-31T21:14:36.506Z",
       "recordedKrw": 19570,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 19750,
+      "isRocket": false,
+      "diff": 180,
+      "result": "applied"
     },
     "iherb-on-micronized-creatine-caps-100": {
       "productId": "65105319",
       "keyword": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
-      "at": "2026-10-31T06:16:51.315Z",
+      "at": "2026-10-31T21:14:36.826Z",
       "recordedKrw": 28010,
-      "found": false,
-      "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
+      "found": true,
+      "apiPrice": 27990,
+      "isRocket": false,
+      "diff": -20,
+      "result": "applied"
     },
     "ali-qcy-melobuds-n70": {
       "productId": "8974456611",
       "keyword": "QCY 멜로버즈 N70 노이즈캔슬링 이어폰",
-      "at": "2026-10-31T07:35:10.424Z",
+      "at": "2026-10-31T21:14:37.140Z",
       "recordedKrw": 61880,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -336,7 +342,7 @@
     "ali-edifier-m90-speaker": {
       "productId": "9481089707",
       "keyword": "에디파이어 M90 블루투스 스피커",
-      "at": "2026-10-31T07:35:10.772Z",
+      "at": "2026-10-31T21:14:37.551Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -427,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T20:10:48.003Z"
+  "updatedAt": "2026-10-31T21:14:37.831Z"
 }

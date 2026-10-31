@@ -1105,66 +1105,55 @@
       "model": "G502 X Lightspeed",
       "cat": "it",
       "why": "퀘이사존 2024.06 알리 $41대 핫딜(MX Master 3S와 함께), 국내 정발 유통",
-      "at": "2026-10-27T03:14:39.193Z",
-      "status": "rejected",
+      "at": "2026-10-31T21:14:28.351Z",
+      "status": "new",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005012719958063",
-          "title": "로지텍 G502 X LIGHTSPEED 무선 게이밍 마우스, HERO 25K, 25600 DPI, 13개 프로그래밍 가능 버튼, e스포츠 버전",
-          "price": 107200,
-          "orders": 26,
-          "rating": "100.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb47d1056df264304b939487a99ab7faeM.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012719958063.html"
-        },
-        {
           "id": "1005013095872156",
           "title": "OOO는 로지텍 G502 X LIGHTSPEED 블랙 무선 25600dpi 게이밍 마우스에 사용됩니다.",
-          "price": 131800,
+          "price": 126600,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sea9c7af97a43457d92ccd66f3ddac663P.jpg",
           "url": "https://ko.aliexpress.com/item/1005013095872156.html"
-        },
-        {
-          "id": "1005012976354913",
-          "title": "로지텍 G502 X LIGHTSPEED 무선 게이밍 마우스 LIGHTFORCE 하이브리드 광-기계식 스위치 HERO 25K 센서 13개 프로그래머블 버튼",
-          "price": 134400,
-          "orders": 0,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se01c4a7b20cb4e05ac9b734989b3f0d4Q.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012976354913.html"
         }
       ],
       "coupang": [
         {
-          "id": "9784176722",
-          "name": "로지텍코리아 로지텍G G502 X LIGHTSPEED 무선 게이밍 마우스 PO",
-          "price": 199000,
+          "id": "6796851507",
+          "name": "로지텍 G502 X LIGHTSPEED 무선 게이밍 마우스 910-006184",
+          "price": 119900,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/h8jHtsy8Um6r4dY6h1eayiywbyo-2H4NfTn26CpAvf-m-j8XiVwErKj6CkOBcfWIhojD-6fXULmfh-LZan4wmHZ65FaFzs56NZK2lr5GKsUrtdZoKzdoPDqTy7EI6vYKmXvo9DyCD1f-FkgRfOHz0_gwulYNjbixMLZebzyfPEzCno2Rn5CuvVNGvnjgi_qB9f-WVoFSQGSwTj45I_AwFVbhsV2v3VP84LbDp1KrPhMfGizi5_SXD_UXPwh1_VzevE4AGaKJ2k0t3a0idw1JEMdu11DV4CTPjk1qX9R--ygN1vPjbh5tLiWVqJ9TgTxJmfn2iaauX-wrxHJT1YbtTTkjaFRkagP-A-xcpkV3h2XQ1zAAA1ENBBZpuo_BVGiOlrkBoqMTrs_PqxgY0ZZyMPsSOUQFwkU_tt82_RctPJRhdok9TL4q_VRrQxioT8PeE8cS8G2LDgZEZvqWBzuwOjc_MtOQ8KgsqqPT1FNmdxa3wJvJO1t5f7I5-p2AtHyg--Yq_e9sN-GETurvRqefaFQv9KGKZv-iItqw1oJKS_ji",
-          "url": "https://www.coupang.com/vp/products/9784176722"
+          "image": "https://ads-partners.coupang.com/image1/z6WVprUoc-OkfGZyz1ARZWXXLzQ0smaYkjrFMsNv3aG91FXVzCsUp0XOn5O-uFIY833BH9Pcge3nYFnygrZv-M52wmi-QfPLv_hZ04BGzPEg7UIntg4-lRdDPPwlhsINNr7hs0MUWuYWTPk5-R7jWnHQ5fvpmNBG0jzoHmze2FfM57cLXKZ3xVpB_Wql-6Q0E0qTVA867bVKWSkEdJdKrKHWXX2DQUYYH3r7Q9jeTM3Zl0KJ4SpRGmTE1S92xLtYiTRyZW0EqnnLkH1kwkhZWEzqkxI-c8GUZpbzg1UaFU6y_TyWwJ-pyErxNpgsHq4iuSjbowDVhkROf-B06aaTGHvXr4NgNrtJlEBhTYfxszLn209jH1KJdnPx04ym-Ew4dAh789Nt8U21Cc4f12CupixweX7ov6cO-gaar0_unSBbF26MkXdGHv-WXUiYkQLoY9ZXxVKv3frtvQZxDSBmVa_cxxMQkWmeh0m6_GlrAxbnQj4bhNpM2usisbfghisfWLpVzj3aqSHfaao0TR-8xgN-dKO0RcXBE2ZPGx8gOlTD",
+          "url": "https://www.coupang.com/vp/products/6796851507"
         },
         {
-          "id": "7014927296",
-          "name": "로지텍코리아 G502 X LIGHTSPEED 무선 게이밍 마우스",
-          "price": 199000,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/04UUz9ccGtjC7oVr03aAU2CFrFN8NvAFKWd8AGVJ7M1uxo-tieBDm0TEOwyte1YDYSGa0X88OyRKgtoOC7OFaPYeyCRFpa-SS1ycFFxK9L81Lhoto85LbpdyQrjF1HxHpfSohAN8_gUp5BcSg9OqzQ_VmPNu-lN8UJW95FAx7rTXX1H14zgQbD0W9xng_fy8ClKoP9VNYHrO90LH7t098HsDQuB6F6NXm1TcFVEtpQd8PTiUoaFAgAt7CKWHX-anx2M2lDkDcyEesfSDGYhLBRiNayrnKffqsZJQC9j7P4b3gL9c4p6eWOB3krlK1t_4UVNtKwC5pU1M2mEaiDMfHhFiHcwaDKKdIYfvFV8mdYA3z4A0HnsTK-Qg204HN8xoLKhE4siRLGWV_sXmEmi-VnSoBx0Qo7z5-rxPgal0UIOefyHBTZZkvgeQP72dyjzzUaBtYUpNXfBDRkSMOET4pQ3FIsKhhftzJGWmSWqd9KwTRK3-kMNCmN_jxyOjmz8O3-RgZGhgJfK5ST8wOIOIgQHsO3XDNH2jSxNbNaWqznzq",
-          "url": "https://www.coupang.com/vp/products/7014927296"
+          "id": "6796851507",
+          "name": "로지텍 G502 X LIGHTSPEED 무선 게이밍 마우스 MR0089",
+          "price": 123050,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/yi1Amy3uhd9wg1r5yu1kvl_LJ7zLhugo8d6sdjPMQS7VynmzBRvfa_btFTjDAZy2m0EqSOK9_2wJZu5zFdBg2-nIcIuyunEzSprdcUSM-FLIQxsS4kI377z8oEqCrgJVyRuOtrc4HiZagOsQOZyRwDu2b_6BRuDEJATWrd_nWqoNOcTUMrjxbinUPX8xlZdoY4FSKbgNlCkoIAwY6xhUn8g5zCUl_VyRCLhHZld-zFqzel7DkKe43iqvCXJQHxGfgYXrmV97uSWKDoY1KDIp81JaX47S63ZqWiBAQtzpnks0bW2WYSVMGtnoVMXvwCemPARMEw2YPW309up04EFzs8NHoq6cl0lN1A3TmDFL1elHXR7ZAqtNcW4yQOQHrHldItXyQjfXe7889-EViYNCc4wALJyM1PCDS09mEK-25IHho5CjY0Aro5irOwDbvxzmKEwT_Cw2SGGMlNaPdQoAx12nKr4yYvoAmo_sl_5OxHuNZ_bs39Y81-gjLrcqMjbnw3nVzwN03mdDtQQlXWZSxDUhs9q7MsIi8vlWZRt5V08w",
+          "url": "https://www.coupang.com/vp/products/6796851507"
+        },
+        {
+          "id": "9616640624",
+          "name": "로지텍 G502 X LIGHTSPEED 무선 게이밍 마우스 병행+스토리링크 마우스 패드",
+          "price": 131900,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/JCw84AdRJ7udRj3sJE2W5S2AFyii7p7OXxDvtSZyoNr9pYit6DQtMM2vMUae-rIYnD11MZXc0Fomfn7sk3KKngAFlH5cze33K2Fr2P2Xu9soCwYdoj0YlMe-mMWZqpvQv56Px4OF_lbVqHjA_X1No0vBLpwx-3NpY2_WzhyjHDORC2_t3FRbnSPUFkR6GTUp1RdtoN5b5j-T2keDve9gSLBdcvNRkCJOfrREEbDRSA7rdVydqs2dp1dSKjb1DaaSiOJxBVpqsZEp_64mADKzpgzRUTbj5Yr6hsLZdIkyVvH7Kujf_VlmxHZQVFyL_K5vg0_0RGGgOr02mslO9Zw4IlxEl_HuBCMaa4_VfCwLF2Kc8kz7HJQloRpbvfQiyyxYDpLHSt7talyDR7XEIOlunZGWXGP6WfVio7jxDPD-7S7Vo9EUtDf8QenC08jVM55mAe3x4JXEfIg2wKayr3vYKbd7TCadpR7K5NuEQuCkJVZ6qARgBMYJ2lfmKJas3ZLYw-nIuKNk-p7xY_c9BsErEJLwxBe1MZips60z1xiMA4A=",
+          "url": "https://www.coupang.com/vp/products/9616640624"
         }
       ],
       "best": {
-        "aliId": "1005012719958063",
-        "coupangId": "9784176722",
-        "aliTotal": 107200,
-        "coupangPrice": 199000,
-        "verdict": "good",
-        "diff": 91800,
-        "pct": 46
-      },
-      "review": "2026.10.27 매니저 브라우저 확인: 쿠팡 로켓직구(무상보증) 블랙 107,280원으로 알리 107,200원과 같음 → 직구 이득 없음. API 검색 결과엔 199,000원(로지텍코리아)만 잡혀 46%로 잘못 보였음"
+        "aliId": "1005013095872156",
+        "coupangId": "6796851507",
+        "aliTotal": 126600,
+        "coupangPrice": 119900,
+        "verdict": "bad",
+        "diff": -6700,
+        "pct": -6
+      }
     },
     "Redmi Watch 6": {
       "q": "Redmi Watch 6",
@@ -1172,7 +1161,7 @@
       "model": "Watch 6",
       "cat": "it",
       "why": "샤오미코리아 2026.07 출시 보도(13만 9,800원), 신제품이라 국내외 가격 차 확인 가치",
-      "at": "2026-10-27T03:14:40.753Z",
+      "at": "2026-10-31T21:14:33.604Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -3792,5 +3781,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-31T19:21:39.008Z"
+  "updatedAt": "2026-10-31T21:14:36.504Z"
 }
