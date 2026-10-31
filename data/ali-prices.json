@@ -11,7 +11,7 @@
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
-      "at": "2026-10-31T06:16:51.651Z",
+      "at": "2026-10-31T09:18:26.659Z",
       "recordedKrw": 53100,
       "found": true,
       "apiPrice": 92571,
@@ -19,7 +19,7 @@
     },
     "ali-qcy-t13-earbuds": {
       "itemId": "1005005042789596",
-      "at": "2026-10-31T06:16:54.174Z",
+      "at": "2026-10-31T09:18:27.394Z",
       "recordedKrw": 28890,
       "found": true,
       "apiPrice": 28890,
@@ -67,7 +67,7 @@
     },
     "ali-edifier-evobuds-pro": {
       "itemId": "1005010122935561",
-      "at": "2026-10-31T05:19:56.065Z",
+      "at": "2026-10-31T09:18:24.265Z",
       "recordedKrw": 68857,
       "found": true,
       "apiPrice": 68857,
@@ -82,5 +82,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T08:25:47.123Z"
+  "updatedAt": "2026-10-31T09:18:27.786Z"
 }

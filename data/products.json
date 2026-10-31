@@ -53,7 +53,7 @@
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 27946,
-    "domesticKrw": 27860,
+    "domesticKrw": 20760,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -117,6 +117,13 @@
         "field": "domesticKrw",
         "from": 21670,
         "to": 27860,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.31",
+        "field": "domesticKrw",
+        "from": 27860,
+        "to": 20760,
         "source": "쿠팡"
       }
     ]

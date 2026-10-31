@@ -4,7 +4,7 @@
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
       "keyword": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-      "at": "2026-10-30T18:18:52.291Z",
+      "at": "2026-10-31T09:18:22.855Z",
       "recordedKrw": 31170,
       "found": true,
       "apiPrice": 31170,
@@ -15,29 +15,29 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-10-30T19:26:09.213Z",
-      "recordedKrw": 21670,
+      "at": "2026-10-31T09:18:23.210Z",
+      "recordedKrw": 27860,
       "found": true,
-      "apiPrice": 27860,
+      "apiPrice": 20760,
       "isRocket": false,
-      "diff": 6190,
+      "diff": -7100,
       "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-10-30T19:26:09.651Z",
+      "at": "2026-10-31T09:18:23.579Z",
       "recordedKrw": 10790,
       "found": true,
-      "apiPrice": 12970,
+      "apiPrice": 44900,
       "isRocket": false,
-      "diff": 2180,
+      "diff": 34110,
       "result": "held"
     },
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-10-30T19:26:09.968Z",
+      "at": "2026-10-31T09:18:23.902Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T08:25:43.613Z"
+  "updatedAt": "2026-10-31T09:18:24.265Z"
 }
