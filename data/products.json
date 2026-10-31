@@ -1500,11 +1500,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxmVuzgy",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
     "sample": false,
-    "checkedAt": "2026.10.30 쿠팡 자동",
+    "checkedAt": "2026.10.31 쿠팡 자동",
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23320,
-    "domesticKrw": 21340,
+    "domesticKrw": 17900,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1554,6 +1554,13 @@
         "field": "domesticKrw",
         "from": 17740,
         "to": 21340,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.31",
+        "field": "domesticKrw",
+        "from": 21340,
+        "to": 17900,
         "source": "쿠팡"
       }
     ]
@@ -1653,11 +1660,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.10.30 쿠팡 자동",
+    "checkedAt": "2026.10.31 쿠팡 자동",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 13983,
-    "domesticKrw": 13180,
+    "domesticKrw": 11020,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1715,6 +1722,13 @@
         "from": 10930,
         "to": 13180,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.31",
+        "field": "domesticKrw",
+        "from": 13180,
+        "to": 11020,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1733,7 +1747,7 @@
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46657,
-    "domesticKrw": 38050,
+    "domesticKrw": 33380,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1797,6 +1811,13 @@
         "field": "domesticKrw",
         "from": 33400,
         "to": 38050,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.31",
+        "field": "domesticKrw",
+        "from": 38050,
+        "to": 33380,
         "source": "쿠팡"
       }
     ]
