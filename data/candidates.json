@@ -847,36 +847,36 @@
       "model": "F108 Pro",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 공구 목록 $33.82, 풀배열 입문 키보드로 반복 언급",
-      "at": "2026-10-26T23:10:38.501Z",
+      "at": "2026-10-31T03:24:27.647Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005009384271028",
-          "title": "AULA F108 PRO 기계식 키보드 커스텀 100% 레이아웃 RGB 백라이트 무선 블루투스 하이파이 스위치 게이밍 키보드",
-          "price": 66900,
-          "orders": 1225,
-          "rating": "98.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5383646c4ed04d9089802c42f5b60e3cF.jpg",
-          "url": "https://ko.aliexpress.com/item/1005009384271028.html"
-        },
-        {
-          "id": "1005010037011336",
-          "title": "AULA F108 Pro 게이밍 기계식 키보드 트라이 모드 커스텀 멀티 노브 스크린 RGB e스포츠 무선 키보드 TFT 스마트 디스플레이 탑재",
-          "price": 76500,
-          "orders": 964,
-          "rating": "98.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa562d274062f4f6aa4530a30197c3887h.jpg",
-          "url": "https://ko.aliexpress.com/item/1005010037011336.html"
-        },
-        {
           "id": "1005009845590858",
           "title": "AULA F108 PRO 기계식 키보드 커스텀 100% 레이아웃 RGB 백라이트 무선 블루투스 하이파이 스위치 게이밍 키보드",
-          "price": 63961,
-          "orders": 777,
+          "price": 64841,
+          "orders": 763,
           "rating": "94.9%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3e04b9425dc42e69562757e55d594beF.jpg",
           "url": "https://ko.aliexpress.com/item/1005009845590858.html"
+        },
+        {
+          "id": "1005009384271028",
+          "title": "AULA F108 Pro 게이밍 기계식 키보드 트리플 모드 커스텀 멀티 노브 스크린 RGB e스포츠 무선 키보드 TFT 스마트 디스플레이 탑재",
+          "price": 72200,
+          "orders": 445,
+          "rating": "98.2%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3801258b846b44a68110eb214c139c9dF.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009384271028.html"
+        },
+        {
+          "id": "1005012807909240",
+          "title": "AULA F108 Pro V2 무선 기계식 키보드 트라이 모드 TFT 스마트 디스플레이 8KHz 100% 레이아웃 RGB 핫스왑 가스켓 10000mAh PC용",
+          "price": 72600,
+          "orders": 421,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf150d7385fba40ea88657a6ce753e03cu.png",
+          "url": "https://ko.aliexpress.com/item/1005012807909240.html"
         }
       ],
       "coupang": []
@@ -3801,5 +3801,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-31T01:40:09.630Z"
+  "updatedAt": "2026-10-31T03:24:31.234Z"
 }

@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-10-30T12:18:01.205Z",
+      "at": "2026-10-31T03:24:31.237Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -213,35 +213,35 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-10-30T13:40:43.836Z",
-      "recordedKrw": 25680,
+      "at": "2026-10-31T03:24:31.839Z",
+      "recordedKrw": 22350,
       "found": true,
-      "apiPrice": 22350,
+      "apiPrice": 21130,
       "isRocket": false,
-      "diff": -3330,
+      "diff": -1220,
       "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-10-30T13:40:44.289Z",
-      "recordedKrw": 59900,
+      "at": "2026-10-31T03:24:32.318Z",
+      "recordedKrw": 48240,
       "found": true,
-      "apiPrice": 48240,
+      "apiPrice": 59900,
       "isRocket": false,
-      "diff": -11660,
+      "diff": 11660,
       "result": "applied"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-10-30T13:40:44.904Z",
-      "recordedKrw": 37060,
+      "at": "2026-10-31T03:24:32.670Z",
+      "recordedKrw": 32770,
       "found": true,
       "apiPrice": 32770,
       "isRocket": false,
-      "diff": -4290,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T02:28:57.302Z"
+  "updatedAt": "2026-10-31T03:24:32.997Z"
 }

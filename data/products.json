@@ -1104,11 +1104,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4Bn2RFL0C",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
     "sample": false,
-    "checkedAt": "2026.10.30 쿠팡 자동",
+    "checkedAt": "2026.10.31 쿠팡 자동",
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24875,
-    "domesticKrw": 22350,
+    "domesticKrw": 21130,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1159,6 +1159,13 @@
         "from": 25680,
         "to": 22350,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.31",
+        "field": "domesticKrw",
+        "from": 22350,
+        "to": 21130,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1173,11 +1180,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BodRaPiC",
     "buyUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
     "sample": false,
-    "checkedAt": "2026.10.30 쿠팡 자동",
+    "checkedAt": "2026.10.31 쿠팡 자동",
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 74508,
-    "domesticKrw": 48240,
+    "domesticKrw": 59900,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1227,6 +1234,13 @@
         "field": "domesticKrw",
         "from": 59900,
         "to": 48240,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.10.31",
+        "field": "domesticKrw",
+        "from": 48240,
+        "to": 59900,
         "source": "쿠팡"
       }
     ]
