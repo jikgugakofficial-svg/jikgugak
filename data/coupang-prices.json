@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-10-31T03:24:31.237Z",
+      "at": "2026-10-31T17:13:21.889Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -213,23 +213,23 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-10-31T03:24:31.839Z",
-      "recordedKrw": 22350,
+      "at": "2026-10-31T17:13:22.260Z",
+      "recordedKrw": 21130,
       "found": true,
-      "apiPrice": 21130,
+      "apiPrice": 25690,
       "isRocket": false,
-      "diff": -1220,
+      "diff": 4560,
       "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-10-31T03:24:32.318Z",
-      "recordedKrw": 48240,
+      "at": "2026-10-31T17:13:22.592Z",
+      "recordedKrw": 59900,
       "found": true,
-      "apiPrice": 59900,
+      "apiPrice": 60300,
       "isRocket": false,
-      "diff": 11660,
+      "diff": 400,
       "result": "applied"
     },
     "iherb-jarrow-dophilus-eps-120": {
@@ -407,7 +407,7 @@
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
       "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
-      "at": "2026-10-31T02:28:56.242Z",
+      "at": "2026-10-31T17:13:21.194Z",
       "recordedKrw": 79400,
       "found": true,
       "apiPrice": 79400,
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T16:14:07.118Z"
+  "updatedAt": "2026-10-31T17:13:22.913Z"
 }
