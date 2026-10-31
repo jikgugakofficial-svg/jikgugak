@@ -12,7 +12,7 @@
       "source": "알리"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-10-31T09:18:27.394Z",
+      "at": "2026-10-31T12:14:17.308Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
@@ -32,7 +32,7 @@
       "source": "쿠팡"
     },
     "amazon-crocs-classic-clog:domesticKrw": {
-      "at": "2026-10-30T22:15:22.900Z",
+      "at": "2026-10-31T12:14:12.803Z",
       "slug": "amazon-crocs-classic-clog",
       "field": "domesticKrw",
       "recorded": 41310,
@@ -42,5 +42,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-10-31T11:14:39.927Z"
+  "updatedAt": "2026-10-31T12:14:17.308Z"
 }

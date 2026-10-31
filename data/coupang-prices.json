@@ -105,7 +105,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-10-30T22:15:22.167Z",
+      "at": "2026-10-31T12:14:12.136Z",
       "recordedKrw": 41310,
       "found": true,
       "apiPrice": 59500,
@@ -116,7 +116,7 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-10-30T22:15:22.924Z",
+      "at": "2026-10-31T12:14:12.825Z",
       "recordedKrw": 56190,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -124,7 +124,7 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-10-30T23:13:21.419Z",
+      "at": "2026-10-31T12:14:13.185Z",
       "recordedKrw": 53960,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T11:14:35.986Z"
+  "updatedAt": "2026-10-31T12:14:13.534Z"
 }
