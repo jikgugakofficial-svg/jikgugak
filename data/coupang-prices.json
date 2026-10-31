@@ -64,7 +64,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-10-30T21:17:05.655Z",
+      "at": "2026-10-31T11:14:33.913Z",
       "recordedKrw": 67180,
       "found": true,
       "apiPrice": 57180,
@@ -75,7 +75,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-10-30T21:17:06.110Z",
+      "at": "2026-10-31T11:14:34.912Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -86,7 +86,7 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-10-30T21:17:06.435Z",
+      "at": "2026-10-31T11:14:35.219Z",
       "recordedKrw": 478280,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -94,13 +94,13 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-10-30T21:17:06.836Z",
+      "at": "2026-10-31T11:14:35.595Z",
       "recordedKrw": 95220,
       "found": true,
-      "apiPrice": 95220,
+      "apiPrice": 98800,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 3580,
+      "result": "applied"
     },
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T10:16:26.743Z"
+  "updatedAt": "2026-10-31T11:14:35.986Z"
 }
