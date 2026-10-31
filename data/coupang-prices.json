@@ -194,7 +194,7 @@
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-10-30T11:18:10.961Z",
+      "at": "2026-10-31T01:40:09.632Z",
       "recordedKrw": 71400,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -383,7 +383,7 @@
     "ali-baseus-inspire-xh1": {
       "productId": "9241501985",
       "keyword": "베이스어스 인스파이어 XH1",
-      "at": "2026-10-30T11:18:11.320Z",
+      "at": "2026-10-31T01:40:10.019Z",
       "recordedKrw": 316300,
       "found": true,
       "apiPrice": 316300,
@@ -394,7 +394,7 @@
     "iherb-cgn-s-acetyl-glutathione-120": {
       "productId": "6584056433",
       "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
-      "at": "2026-10-30T11:18:11.668Z",
+      "at": "2026-10-31T01:40:10.338Z",
       "recordedKrw": 81300,
       "found": true,
       "apiPrice": 81300,
@@ -405,7 +405,7 @@
     "iherb-cgn-marine-collagen-500g": {
       "productId": "9127064765",
       "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-      "at": "2026-10-30T11:18:12.066Z",
+      "at": "2026-10-31T01:40:10.745Z",
       "recordedKrw": 82000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T00:13:49.699Z"
+  "updatedAt": "2026-10-31T01:40:11.060Z"
 }
