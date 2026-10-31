@@ -270,10 +270,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DMeNTa7V",
     "sample": false,
-    "checkedAt": "2026.10.30 알리 자동",
+    "checkedAt": "2026.11.01 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 34036,
+    "priceKrw": 35179,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -324,6 +324,13 @@
         "field": "priceKrw",
         "from": 33924,
         "to": 34036,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.01",
+        "field": "priceKrw",
+        "from": 34036,
+        "to": 35179,
         "source": "알리"
       }
     ]
@@ -1452,11 +1459,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BoGlkQCW",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-milk-thistle-extract-300-mg-200-veg-capsules/13870",
     "sample": false,
-    "checkedAt": "2026.10.30 쿠팡 자동",
+    "checkedAt": "2026.11.01 쿠팡 자동",
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33318,
-    "domesticKrw": 24520,
+    "domesticKrw": 28190,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1513,6 +1520,13 @@
         "field": "domesticKrw",
         "from": 27860,
         "to": 24520,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.01",
+        "field": "domesticKrw",
+        "from": 24520,
+        "to": 28190,
         "source": "쿠팡"
       }
     ]

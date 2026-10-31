@@ -235,7 +235,7 @@
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-10-31T03:24:32.670Z",
+      "at": "2026-10-31T18:11:11.247Z",
       "recordedKrw": 32770,
       "found": true,
       "apiPrice": 32770,
@@ -246,7 +246,7 @@
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-10-31T04:22:55.295Z",
+      "at": "2026-10-31T18:11:11.846Z",
       "recordedKrw": 30930,
       "found": true,
       "apiPrice": 30930,
@@ -257,13 +257,13 @@
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-10-31T04:22:56.190Z",
+      "at": "2026-10-31T18:11:12.169Z",
       "recordedKrw": 24520,
       "found": true,
-      "apiPrice": 24520,
+      "apiPrice": 28190,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 3670,
+      "result": "applied"
     },
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T17:13:22.913Z"
+  "updatedAt": "2026-10-31T18:11:12.489Z"
 }
