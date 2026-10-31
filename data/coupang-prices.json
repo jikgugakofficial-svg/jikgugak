@@ -167,7 +167,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-10-31T00:13:48.567Z",
+      "at": "2026-10-31T14:17:39.027Z",
       "recordedKrw": 41230,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-31T13:28:53.615Z"
+  "updatedAt": "2026-10-31T14:17:39.539Z"
 }
