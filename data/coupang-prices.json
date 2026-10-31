@@ -159,7 +159,7 @@
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-10-30T09:29:55.339Z",
+      "at": "2026-10-31T00:13:48.155Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -167,7 +167,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-10-30T09:29:55.719Z",
+      "at": "2026-10-31T00:13:48.567Z",
       "recordedKrw": 41230,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -175,7 +175,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-10-30T09:29:56.085Z",
+      "at": "2026-10-31T00:13:48.979Z",
       "recordedKrw": 38610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -183,7 +183,7 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-10-30T10:27:43.561Z",
+      "at": "2026-10-31T00:13:49.344Z",
       "recordedKrw": 89620,
       "found": true,
       "apiPrice": 89620,
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-10-30T23:13:23.227Z"
+  "updatedAt": "2026-10-31T00:13:49.699Z"
 }
