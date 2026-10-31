@@ -949,23 +949,23 @@
       "model": "ACE68 V2",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 공구 21종에 포함($39.05), 스위치 옵션별 가격 갈림",
-      "at": "2026-10-27T01:23:45.940Z",
-      "status": "rejected",
+      "at": "2026-10-31T13:28:46.840Z",
+      "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012047729328",
           "title": "MCHOSE ACE68 V2 게이밍 키보드 0.001mm 8KHz 폴링 레이트 256k 스캔 레이트 0.008ms 초저지연 유선 TTC 홀 센서 키보드",
-          "price": 60769,
-          "orders": 326,
-          "rating": "97.9%",
+          "price": 69990,
+          "orders": 327,
+          "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf240b93c43b242909d4a036df4231c657.jpg",
           "url": "https://ko.aliexpress.com/item/1005012047729328.html"
         },
         {
           "id": "1005012053861273",
           "title": "MCHOSE ACE68 V2 게이밍 키보드 0.001mm 8KHz 폴링 레이트 256k 스캔 레이트 0.008ms 초저지연 유선 TTC 홀 센서 키보드",
-          "price": 73000,
+          "price": 74000,
           "orders": 3,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scf035ca6585a4860ae9abda9d73f299fF.jpg",
@@ -974,7 +974,7 @@
         {
           "id": "1005011937658037",
           "title": "MCHOSE ACE60 ACE68 V2 게이밍 키보드 0.005mm/0.001mm RT 16K/128K/256K 스캔 레이트 8KHz 폴링 레이트 홀 이펙트 RT DKS SOCD RGB",
-          "price": 53700,
+          "price": 54400,
           "orders": 3,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0b5029bb0864f6a9f9f9a658c907303U.png",
@@ -983,40 +983,31 @@
       ],
       "coupang": [
         {
-          "id": "9669111260",
-          "name": "마이콩 MCHOSE ACE68 V2 게이밍 마그네틱 자석축 기계식 커스텀 키보드",
-          "price": 58900,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/GZwAZjoAsEZUhzzkGZFKUd3NbAIBRcQV9TAlhCp_Iza5IHzZ58s3MYKLQoaSdukwwvKUiNgnxTx3-xbOCNjEeug6F1tNBEfwOdnkNP7EB902h864TDznMz4TKl0ccv8qUQGikwqz1aMX0GtR3McQggZKAjdEhzL0DX8WCxXrFbgPGL28O3p48L64aX0uG6k1NUe2OLrYbb38OZE_RsQDEujX7n9NSgeUmCy5IR2bqqH2XXtrfivTM9U9Kb6yuKEHQzZ0GvooLjbcfQ3sl0-sCa58abEWXrmkNTCn2m-IC8NYj-uD0haCLVaqA27KuB3VkbkRvbFH0jjKprheKkZlHUn7GZ9JPRda-FGBqPpO6I9PbERwPULhpBo2qEdGznkZWrbdy58nKgH2SyMnCMXkDfVk-VQRc6Uy333jqWWU6qXD9uP8F12RXezafpRTDwty9nBczhUkrxjzeLt5FoC1iznGEEz-6VyOFUGAe-0hMaGHO15WZO4_lwOgJVpXj9HpaV8VVDVEzKVDM1EdwKFhMIRgmtjERWFm7pmlvO4kanr2",
-          "url": "https://www.coupang.com/vp/products/9669111260"
-        },
-        {
-          "id": "9540667109",
-          "name": "MCHOSE Ace68 V2 래피드트리거 8K 자석축 게이밍키보드",
-          "price": 67920,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/CvUbMVak5hfBBh0MCq4jeX2yliyCrP5_CRi5IGt2xTHaZdhrnuyhoH03JBLvTdxCKa9ttG9aGTa46Ww3f3Ce19wdqaqkcCs2S7sVWDuHA_9qYd5wHhbcG7QQv6VHOB_K-TC6nTMpvCwDVGr01Vv0k0urt3aA6kHwTYEwdvIl1txGGFVbnRMW5UHWVE4R22Zq6tjOA2tFAaVq6Y7yLnDfB2PLjiElI7LgrJg43EKZIRH9t1mf8K7RmO3s4ZIcuJ2PdOpK1ylZ9dSvScnE5AGe7gWJjVQiffIzynh7sCSth9BzsqSYE6FbjtFBmkcqlm5XXEMsL5XvBawBu6iwU3M4y11nkdhyWTtBZWb-0Ng-kMgdX1fu7pGPhFWrSGCHVIrzgaleENjYpNpS6iUkCEKNybqWS46RlR11W496GiLdKZcbvWbcv3BoZHGOQMfhwPfDw4c9-GoAHeFXl2OcG3dSr9-t5qHincyYGx5rDDijy6xwPOmLnCR07a_wVLJkx5eRLk0aroJu-OCE3w_EPhVnkiMxHj95NAgldCpmthClnBU=",
-          "url": "https://www.coupang.com/vp/products/9540667109"
-        },
-        {
           "id": "9540667109",
           "name": "MCHOSE Ace68 V2 래피드트리거 8K 자석축 게이밍키보드",
           "price": 79900,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/zb0eaxcnEhwTWy6NzUUmO5PMRyf6GDEGn3AAMPpqmkpcIxA3V5yLTQYPAbaVUb3EF67C5e46gaS2DM2gpKaLJM2B1LhIAjLc9GdlJx35fZKcNnrQNk22DsZBBfxfQTC23lmqgkoFXtwdSRxQ3Dp2aNAQrEO4ho3Y5nasSdGvxecov9AVfBc3Iccbdsi6kt-BnJkQEDe8MN9kK5k5ZV6bUP40mwnpzymqgaFd-HD5fe37sWvax4vpDfGEga5mbyve1jZx1GFU3CE6vA2dnctWVDQAyZEJcXMty_b6ZcPjARjR0Rz6tQsLKgGWwGtDlfQfto5MKgaRNYGrLG_hePZEdZSyCdUre_T99JYe4MPoG2v0OsfuCQlFv55dzXoTpA_l_eLiCmU9JYxEc9D-QdjPDwHj5sIkUo-XrsL7BqJK2t--Oh-u01LBsSDWBX4fXCUkeuq95Wi_EnVPdvbOkPTTM1peXhBKhXfnDhLCboRfkRYrqi1tdaZmZCmbTA_af9pEU_PdgHpDBMf2KJTLX6u1XJc3FW8XWQ5qwQ0nzURv2OFFj5NnnAVo",
+          "image": "https://ads-partners.coupang.com/image1/6ktb9Hi8PPC4RhkJ6vDH_ta10Re28i2wO9vFyVdt3suNWdoUSN3uO4eRskmz8mk8g5eB5iHsti8f2c1mQ_qWKD4Cq_f1YIgreVsfCx9OgE9GnV9gEIqLT2m7EjH-iQUqlSrxQC3aKhIF-NncIybqZjX3wk0iJqbHdwPE9Upm-26mEeXHa51YRylDsG1T8oGsjorBgUnLHqjHEO_9i3nIIHuuwtiMqEL_VyAuq3AjpTaQ5xCtv7aCT1wpKRC0xWTYgpw6vVYHunyx-rlpDxn9nqWVfvOntvHZ_eBC93lKFE1sI1X93cUyILLUu0ZLADlonHdNIRcMrJxGWHJMwN_U1a3VeXPxtDxfYDMbWTjpuf09OFbtDueHycLG2ceLi2o0RR3Lzmq5Kh3LohNSL0FhKhlsYBRN2VaJ6xK6Mu83ABKiWh5hN2p5bJdpzRVIOhcXCqN8-WBylLH8-KloVX1zv-gobbfIwflOOJZClnsUUYLF-nU9oG7713aWuBmLA_IOS1bjW820RHSCUG2bUgr3hKmePxUxNrQeQNradVj3VM_evm-E88sIPmlt",
+          "url": "https://www.coupang.com/vp/products/9540667109"
+        },
+        {
+          "id": "9540667109",
+          "name": "MCHOSE Ace68 V2 8K 래피드트리거 자석축 68키 유선 게이밍키보드 국내정발",
+          "price": 89900,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/EwJoIl2DrlebnIlKE9ZMmyqawY22wWNHRUL6Lc2D4Q81MgfX-f8-TwCnFqJ-jnAktVGZQwnnTdoPuKqvuTZOFZntk7uxY2WFSKe4bLWGPrueFReBiTr_67GS3c5HcVJoHj_-LvCJ1LaTfjCxKW0YH6SMAI71Do42mBFLtzMFZGxO2qnh7bBTX9uVejp_MQGIcfGxHSi_Onfx6CEb-oZl1FwOcP_7TdDlqMIbhONsmDalCrzapYVca1wFY4_4S-9zvwZLwSjEy-JtwnQ8EbuAIJHdzslyimQU0MJKOaj1jLkwpsZD4unCT2KlcjZpSBGxK9PobrODNJ27X17fO6yw8cCvtgH8R_N3JGaxPTXQ-3dFSvaIuXBKl6q7fA_GQ8s2Zun_J1qzJemvWajYJZjkmWzuWfs03bzogEuimTr32FjtsKGtooq1TNknXRd4svYJnizuZsnxedNpKp6o6z20fKSPxixpozoaYyCuFNIp142OuqJR-rP_RdhN2-8-85W2_ztIescATQoUrcz7bzHjNQRb7I7bB_-GkdvCT8MkJxl4IP0=",
           "url": "https://www.coupang.com/vp/products/9540667109"
         }
       ],
       "best": {
         "aliId": "1005012047729328",
-        "coupangId": "9669111260",
-        "aliTotal": 60769,
-        "coupangPrice": 58900,
-        "verdict": "bad",
-        "diff": -1869,
-        "pct": -3
-      },
-      "review": "2026.10.27 쿠팡 58,900원이 알리 60,769원보다 쌈, 스위치 옵션별 가격이 갈려 판정 페이지로 약함"
+        "coupangId": "9540667109",
+        "aliTotal": 69990,
+        "coupangPrice": 79900,
+        "verdict": "meh",
+        "diff": 9910,
+        "pct": 12
+      }
     },
     "QCY AilyBuds Pro+": {
       "q": "QCY AilyBuds Pro+",
@@ -1024,7 +1015,7 @@
       "model": "AilyBuds Pro+",
       "cat": "audio",
       "why": "다모앙·밈코 사용 후기 글 존재(AilyBuds Pro 계열), QCY 상위 인기 라인",
-      "at": "2026-10-27T01:23:47.594Z",
+      "at": "2026-10-31T13:28:50.026Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -3793,5 +3784,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-10-31T09:18:22.852Z"
+  "updatedAt": "2026-10-31T13:28:52.133Z"
 }
