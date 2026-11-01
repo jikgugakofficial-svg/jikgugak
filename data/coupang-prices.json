@@ -213,46 +213,43 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-10-31T17:13:22.260Z",
-      "recordedKrw": 21130,
-      "found": true,
-      "apiPrice": 25690,
-      "isRocket": false,
-      "diff": 4560,
-      "result": "applied"
+      "at": "2026-11-01T09:24:07.510Z",
+      "recordedKrw": 25690,
+      "found": false,
+      "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-10-31T17:13:22.592Z",
-      "recordedKrw": 59900,
+      "at": "2026-11-01T09:24:07.853Z",
+      "recordedKrw": 60300,
       "found": true,
       "apiPrice": 60300,
       "isRocket": false,
-      "diff": 400,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-10-31T18:11:11.247Z",
+      "at": "2026-11-01T09:24:08.162Z",
       "recordedKrw": 32770,
       "found": true,
-      "apiPrice": 32770,
+      "apiPrice": 33160,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 390,
+      "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-10-31T18:11:11.846Z",
+      "at": "2026-11-01T09:24:08.454Z",
       "recordedKrw": 30930,
       "found": true,
-      "apiPrice": 30930,
+      "apiPrice": 31670,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 740,
+      "result": "applied"
     },
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
@@ -433,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T08:28:15.684Z"
+  "updatedAt": "2026-11-01T09:24:08.764Z"
 }

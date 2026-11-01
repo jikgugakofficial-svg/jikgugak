@@ -280,7 +280,7 @@
     "checkedAt": "2026.11.01 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 35179,
+    "priceKrw": 33420,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -338,6 +338,13 @@
         "field": "priceKrw",
         "from": 34036,
         "to": 35179,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.01",
+        "field": "priceKrw",
+        "from": 35179,
+        "to": 33420,
         "source": "알리"
       }
     ]
@@ -1319,11 +1326,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.10.30 쿠팡 자동",
+    "checkedAt": "2026.11.01 쿠팡 자동",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 52122,
-    "domesticKrw": 32770,
+    "domesticKrw": 33160,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1389,6 +1396,13 @@
         "from": 37060,
         "to": 32770,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.01",
+        "field": "domesticKrw",
+        "from": 32770,
+        "to": 33160,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1403,11 +1417,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
     "sample": false,
-    "checkedAt": "2026.10.30 쿠팡 자동",
+    "checkedAt": "2026.11.01 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
     "priceKrw": 45315,
-    "domesticKrw": 30930,
+    "domesticKrw": 31670,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1472,6 +1486,13 @@
         "field": "domesticKrw",
         "from": 37270,
         "to": 30930,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.01",
+        "field": "domesticKrw",
+        "from": 30930,
+        "to": 31670,
         "source": "쿠팡"
       }
     ]
