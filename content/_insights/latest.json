@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-31T14:36:00.064Z",
+  "at": "2026-11-01T14:37:24.202Z",
   "window": "최근 7일",
   "instagram": {
     "profile": {
@@ -15,10 +15,10 @@
       "id": "28724042543919894"
     },
     "account7d": {
-      "reach": 1320,
-      "views": 1579,
+      "reach": 1326,
+      "views": 1591,
       "profile_views": 18,
-      "website_clicks": 3,
+      "website_clicks": 4,
       "accounts_engaged": 4,
       "total_interactions": 7,
       "profile_links_taps": 0
@@ -38,7 +38,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18020773703943693/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AZGPXS2VqvB-sOuVK6sPsUN\"}"
+        "insightsFullError": "/18020773703943693/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AzOK5TDA1a5bsFPE2PoEGv_\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfEpwoaggnv/",
@@ -54,7 +54,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18083534270341051/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AFyHKv1UCgl1d6WIoakKQr_\"}"
+        "insightsFullError": "/18083534270341051/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AqMWygN5MhRJiTjh7CBnl3F\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/DfEpuzgm7ST/",
@@ -88,7 +88,7 @@
           "shares": 0,
           "total_interactions": 1
         },
-        "insightsFullError": "/17926364058439477/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AC8Gd-KMRNETaDOKNTbN4CD\"}"
+        "insightsFullError": "/17926364058439477/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ATbb6pqihbWVEzRpWGc56qv\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfCHjGEjoVA/",
@@ -104,7 +104,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18147210499530555/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AmLbWv19xgES8ONQ1yogXJP\"}"
+        "insightsFullError": "/18147210499530555/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A25LXAocLRpgNBF6UBphx-S\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/DfCHhPYlfxC/",
@@ -114,8 +114,8 @@
         "likes": 0,
         "comments": 1,
         "insights": {
-          "reach": 1,
-          "views": 8,
+          "reach": 3,
+          "views": 12,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
@@ -132,13 +132,13 @@
         "likes": 0,
         "comments": 0,
         "insights": {
-          "reach": 15,
+          "reach": 16,
           "views": 16,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/17993811537052347/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"APfdvgNFvBC_4ieHtPGaQMd\"}"
+        "insightsFullError": "/17993811537052347/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A2i1i2OljqR3JhMzrgayNR5\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/De_iDhFiQNi/",
@@ -154,7 +154,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18012672923968954/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ApG-_nLMFrgPIvlWKHlbCyz\"}"
+        "insightsFullError": "/18012672923968954/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AF6zXdAOXg8XMkWV-1ci3xO\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/De_iBjzFG32/",
@@ -164,8 +164,8 @@
         "likes": 0,
         "comments": 0,
         "insights": {
-          "reach": 2,
-          "views": 5,
+          "reach": 3,
+          "views": 6,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
@@ -182,13 +182,13 @@
         "likes": 0,
         "comments": 0,
         "insights": {
-          "reach": 101,
-          "views": 143,
+          "reach": 102,
+          "views": 145,
           "saved": 0,
           "shares": 1,
           "total_interactions": 1
         },
-        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AJxriH1xZpBdhiAB0Tzaad5\"}"
+        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AU0XF2nLhyuhgSCzOZjuRJP\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/De6XG5yEb8s/",
@@ -198,8 +198,8 @@
         "likes": 1,
         "comments": 0,
         "insights": {
-          "reach": 1,
-          "views": 2,
+          "reach": 2,
+          "views": 4,
           "saved": 0,
           "shares": 0,
           "total_interactions": 1,
@@ -216,8 +216,8 @@
         "likes": 0,
         "comments": 0,
         "insights": {
-          "reach": 1,
-          "views": 8,
+          "reach": 2,
+          "views": 11,
           "saved": 0,
           "shares": 0,
           "total_interactions": 0,
@@ -273,7 +273,7 @@
       "is_verified": false
     },
     "account7d": {
-      "views": 12,
+      "views": 28,
       "likes": 0,
       "replies": 0,
       "reposts": 0,
@@ -289,7 +289,7 @@
         "hasLink": false,
         "firstLine": "(광고) 같은 판매자에게서 같은 날 산 물건은 나눠서 받아도 합쳐서 면세 한도를 따져요.",
         "insights": {
-          "views": 41,
+          "views": 49,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -304,7 +304,7 @@
         "hasLink": false,
         "firstLine": "(광고) 광군제 장바구니 속 샤오미 밴드, 이틀 만에 뒤집혔어요. 2,615원 차이예요.",
         "insights": {
-          "views": 29,
+          "views": 31,
           "likes": 0,
           "replies": 2,
           "reposts": 0,
@@ -319,7 +319,7 @@
         "hasLink": false,
         "firstLine": "(광고) 하루 만에 직구 판정이 뒤집힌 상품이 있어요. 샤오미 스마트 밴드 10 프로예요.",
         "insights": {
-          "views": 29,
+          "views": 30,
           "likes": 0,
           "replies": 0,
           "reposts": 0,
@@ -349,7 +349,7 @@
         "hasLink": true,
         "firstLine": "(광고) 면세 한도는 $150이에요. 미국 특송은 $200이고, 한도를 넘으면 배송비 포함 전체에 세금이 붙",
         "insights": {
-          "views": 26,
+          "views": 28,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -364,7 +364,7 @@
         "hasLink": true,
         "firstLine": "(광고) 광군제 11.11 전에 하나만 정해 두세요. 할인율이 아니라 최종가로 비교하기로요.",
         "insights": {
-          "views": 8,
+          "views": 9,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -394,7 +394,7 @@
         "hasLink": true,
         "firstLine": "쿠팡에서 결제하기 전에, 해외 최종가부터 한 번만 검색해 보세요.",
         "insights": {
-          "views": 40,
+          "views": 41,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -432,7 +432,7 @@
         "hasLink": false,
         "firstLine": "결제 전에 이것만 다시 보세요.",
         "insights": {
-          "views": 1,
+          "views": 2,
           "likes": 0,
           "replies": 0
         }
