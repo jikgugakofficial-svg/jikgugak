@@ -1260,11 +1260,20 @@
       "model": "CM400",
       "cat": "it",
       "why": "10Gbps NVMe SSD 케이스 대표 모델로 해외 유통 다수 확인(한국 커뮤니티 근거는 약함)",
-      "at": "2026-10-27T04:16:35.357Z",
-      "status": "none",
-      "coupangTop": 5,
+      "at": "2026-11-01T04:30:12.478Z",
+      "status": "no_ali",
+      "coupangTop": 6,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "8297861884",
+          "name": "Greenlink M.2 NVMe/SATA 이중 프로토콜 하드 드라이브 인클로저 Type-C 케이블, UGREEN CM400(10902)",
+          "price": 29850,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/ZcuGVR3_Lrb-orDaZfdg9mFJdY6CRFcN4BmRZ09bVR6mAzDi98aEjyBFNtLFYm1z4RlS_YMHPZcdKLf3yAK3NpQqoN0f79Jaw42BadkNbEggc_lzWwTYsNB2PSbcx-10Cns6nhNagGz94mcmQbdz79EXmyHymYwKEjt8i5BWxOtAkUmhrT6JtUUCDYxpA5RX1OHrPuZof44-am7AvSsAEOobiFJ-hENBPUanufjB931rg9jOiFEFiSXZUzhdwfrJ2FoXfs9rLKeoQLlbbs9E6sG35kcqpH06uJ-3zwDDDWG12GvCcmLvqqtxZOqcuV4YMP2Ogv33Qx-E2SUoLJ5_Xa61UtybxGd5Zg1r38CZ4vgQeZf4PWPIGJnP0qNUDmYLFTfKG56bXjkvqc12qBZg3QceqrqfU-bJlNF0NxTNvWWEdB7x2o-NuZxjTR3kECmwcQKvexOCUDtfPP__4YFJ9C3_RFckTGad3u-tOLgYhPl_RB3MKcfF5zJh9ZVCmnUZSWJ6z-2ThpJCF1K8wJ61aNxHSAZAM4XnA1ahBTMBHPmKJyIR",
+          "url": "https://www.coupang.com/vp/products/8297861884"
+        }
+      ]
     },
     "Soundcore Sleep A30": {
       "q": "Soundcore Sleep A30",
@@ -1272,7 +1281,7 @@
       "model": "Sleep A30",
       "cat": "audio",
       "why": "수면용 ANC 이어버드 신제품, 국내 정발가가 높은 편이라 알리 공식 스토어와 차이 확인 가치. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T04:16:37.191Z",
+      "at": "2026-11-01T04:30:15.977Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1280,9 +1289,9 @@
         {
           "id": "9721021950",
           "name": "Anker Soundcore Sleep Bluetooth A30(무선 이어폰 5.3)[수면용완전 무선 이어폰IPX4",
-          "price": 244130,
+          "price": 229430,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/l-I3D3vCgK65sHKbl5RN73IptahBJCJCs1q1g_vFOMTAzs3oZob466EcBV0VFY0ytL9et3i1SWsaG-MmFLUHY144X46fMm8q41AWQHyGmTeCh8AvxenZIz1fHcCBj_LeMUcwopJPgALlavCgeeu9UeROjbdSNlhyy24eDr7Et70FX0LUWGZiy19snRJZsQMUnE3b8Xdg6uuGlYdvNaGS0JPeuaaO3V4SDctpir1vqX9o0CaI5FIAM5D1zZp9MTBaWh2t5snRYECAPuABWVYsK_NOKIsGYyu5HLvKtXJO3Ol8_y6KH5KRZsxuPZUjAYHnDfXsCaZot31rGcY2SvPy11VUR4im90qZPd8k6wgJOZUddp1pSRSdnbZRQPTPYAJYLoRMtPb6fm1WM_erEBUfDc7JNkLPX-6kKY-ip2GKhEmuUrFXfHXbryvwsUmSQHagY014zph1KoHnLKUy9q6izCG2L9-gmfozI5lhAiCyDg8KRUy5m-w5PQAHu1_myocxeQV_9jntiqL3KRnAPX7iNjQf4mhNlUCY_iHD66IhpCvM1m0=",
+          "image": "https://ads-partners.coupang.com/image1/QT1maqgiQFu7ZCQCQeW67jvJdeiL809vYo5aU-UsyKItx-f5QKCvk8sqfPQbd8-i1hotZmUFqkjDctIAUKGw_CQDPRVOEQ6EkNN1j3nO6NlD5E2JgAF_nHpgCvF-UE7_gwkXaMx0WEhwOj3XUiFmAT75ip3V97dtOMYcRZwIow-7YtjtJlqSH_glS2pyQOcjDjF85BnrALEwAyDIZ5MefqjyULDN8uYtHHDd0wcWkJC31kSYm0xgeDQQ8AGkzNP2aPttr5_Zt2dighX6m4RQC31YcjIGtwRZRDRdGdpKjM-k4BCfHMERjcV6YJ6F2irqFicwzvycCVLyP9K8LEVz_sS6dRhxtzv1bQLSIOGcZmJBv09tLsOqkVqclpuNoNAFkOjYewWjxsNvKQ761-RkBuoP3Zdoak5NgCM1r6j70TgSt9H-mLlGYZOH-9osfQUxNeJrxZ2pGLERRVbMQWnmvK559JN2Qbsniy8fq6QgYeZxDFZX46Q4fYxZxTya0XbNTBd_-w0JY1fff6P1kQgoDtUJqHKifRvjUUBJUzdxQ58UBwU=",
           "url": "https://www.coupang.com/vp/products/9721021950"
         }
       ]
@@ -3781,5 +3790,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-11-01T03:27:22.404Z"
+  "updatedAt": "2026-11-01T04:30:18.168Z"
 }
