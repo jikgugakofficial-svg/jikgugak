@@ -159,7 +159,7 @@
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-10-31T13:28:53.235Z",
+      "at": "2026-11-01T05:26:20.823Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T04:30:19.615Z"
+  "updatedAt": "2026-11-01T05:26:21.472Z"
 }
