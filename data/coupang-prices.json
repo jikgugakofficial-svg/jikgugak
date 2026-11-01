@@ -254,23 +254,23 @@
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-10-31T18:11:12.169Z",
-      "recordedKrw": 24520,
+      "at": "2026-11-01T10:18:36.305Z",
+      "recordedKrw": 28190,
       "found": true,
-      "apiPrice": 28190,
+      "apiPrice": 25630,
       "isRocket": false,
-      "diff": 3670,
+      "diff": -2560,
       "result": "applied"
     },
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-10-31T19:21:39.011Z",
-      "recordedKrw": 17900,
+      "at": "2026-11-01T10:18:37.033Z",
+      "recordedKrw": 21570,
       "found": true,
-      "apiPrice": 21570,
+      "apiPrice": 17890,
       "isRocket": false,
-      "diff": 3670,
+      "diff": -3680,
       "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-5b-60": {
@@ -430,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T09:24:08.764Z"
+  "updatedAt": "2026-11-01T10:18:37.389Z"
 }
