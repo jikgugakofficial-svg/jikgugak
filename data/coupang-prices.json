@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-10-31T17:13:21.889Z",
+      "at": "2026-11-01T08:28:15.018Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T07:39:17.127Z"
+  "updatedAt": "2026-11-01T08:28:15.684Z"
 }
