@@ -1234,11 +1234,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4Bn2RFL0C",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24875,
-    "domesticKrw": 25690,
+    "domesticKrw": 21300,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1302,6 +1302,13 @@
         "field": "domesticKrw",
         "from": 21130,
         "to": 25690,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 25690,
+        "to": 21300,
         "source": "쿠팡"
       }
     ]

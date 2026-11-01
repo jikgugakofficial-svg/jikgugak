@@ -1810,11 +1810,20 @@
       "model": "Smart Band 10",
       "cat": "it",
       "why": "이미 등록한 밴드 10 프로의 일반형(프로 아님). 샤오미 코리아 정발·알리 글로벌 모두 판매. 가격대가 낮아 1만 원 조건이 걸림",
-      "at": "2026-10-27T10:20:03.219Z",
-      "status": "none",
+      "at": "2026-11-01T23:13:48.974Z",
+      "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9712562128",
+          "name": "Xiaomi Smart Band 10 워치 샤오미 밴드 큰 화면 달리기 수면 심박 21 일 지속",
+          "price": 72690,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/IqVWouhiDtkeWVbJIiI_mMOw9XstOidqKImkOuPTYpzNo7ttvjhyY_PoypCMjyu3joeLpIpPExmOc8jIAt7SZOUoYRMfhmIkPxWh517afE4XVCGnTGmuy_w_e6ySnjx36zqnivCQ1Ri5jC0IZ4iFjV0PTmKWvrGKh6nCZhS3ZEOZzuU31PS5Txfw4W0BZVq7IEddPNDitwdRvCypeEDVVDCOMGFG4SRpbzMcjrvJWa6LQYpxsygssMyAjIyr9bHLJpcnD56gD3Ezfu98jiivew5fbKXVMf2sQqpzbwQssFxymKs_8WPVQs0Xqp00C8oKX4ghltSnm-wX_ZPD4tAUxdWzVK0Tabij-0-ZzxQa3g6QI2DGJaiI2zR1imRYRlq-x7DO7Ov1W9kpHqvQDJ5PDfkBpMj71A07WyFBqpiCqJzxbAyxf0ih5EjkpBZEAEKENW4npqTwRzTdwliOOh7TjLad2MCZBAiTEJiZ7ozG0me9RP37C3ab4PGnigSEXdNoaH-syn9W74lOlUIjMW1P3dj6Z2hzrjaCdv81LFiRARfoXv4W",
+          "url": "https://www.coupang.com/vp/products/9712562128"
+        }
+      ]
     },
     "Redmi Watch 5": {
       "q": "Redmi Watch 5",
@@ -3823,5 +3832,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-11-01T21:15:10.477Z"
+  "updatedAt": "2026-11-01T23:13:54.170Z"
 }
