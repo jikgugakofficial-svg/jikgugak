@@ -4,7 +4,7 @@
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
       "keyword": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-      "at": "2026-10-31T23:12:26.460Z",
+      "at": "2026-11-01T13:30:00.561Z",
       "recordedKrw": 31170,
       "found": true,
       "apiPrice": 31170,
@@ -344,29 +344,29 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-10-31T22:14:05.620Z",
+      "at": "2026-11-01T13:29:59.431Z",
       "recordedKrw": 125900,
       "found": true,
-      "apiPrice": 125900,
-      "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "apiPrice": 117900,
+      "isRocket": true,
+      "diff": -8000,
+      "result": "applied"
     },
     "ali-edifier-evobuds-pro": {
       "productId": "9340326719",
       "keyword": "EDIFIER EvoBuds Pro",
-      "at": "2026-10-31T23:12:25.710Z",
-      "recordedKrw": 114770,
+      "at": "2026-11-01T13:29:59.847Z",
+      "recordedKrw": 114720,
       "found": true,
-      "apiPrice": 114720,
+      "apiPrice": 114570,
       "isRocket": false,
-      "diff": -50,
+      "diff": -150,
       "result": "applied"
     },
     "iherb-cgn-coq10-100-360": {
       "productId": "9294384581",
       "keyword": "캘리포니아 골드 뉴트리션 CoQ10 USP 등급 유비퀴논 100mg 360정",
-      "at": "2026-10-31T23:12:26.074Z",
+      "at": "2026-11-01T13:30:00.151Z",
       "recordedKrw": 95800,
       "found": true,
       "apiPrice": 95800,
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T12:14:57.598Z"
+  "updatedAt": "2026-11-01T13:30:00.960Z"
 }
