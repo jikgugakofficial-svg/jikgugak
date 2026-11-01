@@ -48,7 +48,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-10-31T10:16:25.486Z",
+      "at": "2026-11-01T01:45:10.632Z",
       "recordedKrw": 57750,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -56,7 +56,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-10-31T10:16:26.323Z",
+      "at": "2026-11-01T01:45:11.036Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -64,7 +64,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-10-31T11:14:33.913Z",
+      "at": "2026-11-01T01:45:11.764Z",
       "recordedKrw": 67180,
       "found": true,
       "apiPrice": 57180,
@@ -75,7 +75,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-10-31T11:14:34.912Z",
+      "at": "2026-11-01T01:45:12.083Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T00:11:11.032Z"
+  "updatedAt": "2026-11-01T01:45:12.430Z"
 }
