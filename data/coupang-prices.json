@@ -15,12 +15,12 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-10-31T23:12:26.768Z",
-      "recordedKrw": 20760,
+      "at": "2026-11-01T14:19:59.329Z",
+      "recordedKrw": 24220,
       "found": true,
-      "apiPrice": 24220,
+      "apiPrice": 26760,
       "isRocket": false,
-      "diff": 3460,
+      "diff": 2540,
       "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T13:30:00.960Z"
+  "updatedAt": "2026-11-01T14:19:59.952Z"
 }
