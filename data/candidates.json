@@ -1302,21 +1302,39 @@
       "model": "Cheetah Pro",
       "cat": "it",
       "why": "어메이즈핏 러닝 워치 상위 모델, 국내 정발(amazfit.kr) 정가가 높고 알리 공식 스토어 판매. 같은 브랜드 Active 2는 국내 공식몰 쿠폰가 13.9만 원(2025.04 글)이라 쿠팡 실제가 확인 필요",
-      "at": "2026-10-27T04:16:39.997Z",
-      "status": "no_coupang",
+      "at": "2026-11-01T06:21:49.159Z",
+      "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013297913877",
           "title": "정품 Amazfit Cheetah 2 Pro 스마트워치, 나만의 루트를 만들어 보세요.",
-          "price": 873200,
+          "price": 662200,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf17c8641810f4065bb6530dfe26eb797P.jpg",
           "url": "https://ko.aliexpress.com/item/1005013297913877.html"
         }
       ],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9507506775",
+          "name": "어메이즈핏 스마트워치 CHEETAH 2 PRO",
+          "price": 399000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/Tqi0Z6UaqxwfTQAFTt2Dq-OU-dgdorWpfxBlK_DDZ5lG2S46mcCvzblW2vzJ1KP17EwOJWVN6BkOVSK8uNH6zGBzFqZmnUt9T5Wg2B1HcjSE2g6nBbvSIsiZ0cdIV9u-p7TjTtGOwKQoBIWFo12f41aabgxkXBGGO7fDCYhNayu-4cyC6UTVIx7W31emts_Hb593hAO1PJNjhFLziqQop8LtKQu1V4Zifvn9fFSh8-7nxdCYFIPawlnS_C13aTeyqrhfnY_JwW7y6sk6OVpbiw-2t_dNDFEJTqQhDAy1yuucWdKblcLwm5M4xE72KZ9FemoqFKON3tFHuYLO1DGonC_WsU5G_zB9MOzzgrkqSw1W-O8oEJjRrtqmhcGJijFZIwlfWwji4eqxC_YBX9vobjtM8L9wjIPd2RrLXHTlWEG5jTwNYJR9TRVy8aSCGD2h9chUUNf7-ETZoTFq2KzLvpGS9_EsPDBykudfebtkal_gt8OKMvVBtDWVYeZwCcn-2RVz8kxUmgkHCzQktvk3BPMhlABpV8P0Iy5sItu6iAzcqtg=",
+          "url": "https://www.coupang.com/vp/products/9507506775"
+        }
+      ],
+      "best": {
+        "aliId": "1005013297913877",
+        "coupangId": "9507506775",
+        "aliTotal": 728420,
+        "coupangPrice": 399000,
+        "verdict": "bad",
+        "diff": -329420,
+        "pct": -83
+      }
     },
     "Amazfit Active Edge": {
       "q": "Amazfit Active Edge",
@@ -3790,5 +3808,5 @@
       "coupang": []
     }
   },
-  "updatedAt": "2026-11-01T04:30:18.168Z"
+  "updatedAt": "2026-11-01T06:21:53.666Z"
 }
