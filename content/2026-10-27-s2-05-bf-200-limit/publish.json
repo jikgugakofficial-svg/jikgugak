@@ -1,5 +1,5 @@
 {
-  "approved": true,
+  "approved": false,
   "approvedBy": "운영자(채팅) 2026-10-26 09:57 KST \"둘다 게시해\"",
   "schedule": "2026-10-31T08:52:00Z",
   "liveCheck": "content/_plans/2026-10-26-set2-livecheck.md",
@@ -66,5 +66,6 @@
       "breakeven": "amazon-lego-10280-flower-bouquet",
       "shown": "5만 6천 원"
     }
-  ]
+  ],
+  "heldReason": "11/2 매니저: 10/31부터 환율 확인(fxCheck)이 매시간 막아 실패 메일이 반복돼서 끔. 카드뉴스 쉼 기간이라 다시 그리지 않고, 내용은 블프 전(11/20쯤) 스레드·블로그로 다시 쓸 후보"
 }
