@@ -43,7 +43,7 @@
     },
     "ali-qcy-melobuds-n70": {
       "itemId": "1005009801120235",
-      "at": "2026-11-01T07:39:19.838Z",
+      "at": "2026-11-01T11:13:53.602Z",
       "recordedKrw": 71736,
       "found": true,
       "apiPrice": 71736,
@@ -51,7 +51,7 @@
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
-      "at": "2026-11-01T08:28:18.773Z",
+      "at": "2026-11-01T11:13:57.421Z",
       "recordedKrw": 191780,
       "found": true,
       "apiPrice": 220373,
@@ -75,12 +75,12 @@
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
-      "at": "2026-11-01T08:28:15.684Z",
+      "at": "2026-11-01T11:13:56.924Z",
       "recordedKrw": 184341,
       "found": true,
       "apiPrice": 184341,
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T10:18:41.848Z"
+  "updatedAt": "2026-11-01T11:13:57.857Z"
 }
