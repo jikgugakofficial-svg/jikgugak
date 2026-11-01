@@ -280,7 +280,7 @@
     "checkedAt": "2026.11.01 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 33420,
+    "priceKrw": 32365,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -345,6 +345,13 @@
         "field": "priceKrw",
         "from": 35179,
         "to": 33420,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.01",
+        "field": "priceKrw",
+        "from": 33420,
+        "to": 32365,
         "source": "알리"
       }
     ]
@@ -1991,7 +1998,7 @@
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18653,
-    "domesticKrw": 19750,
+    "domesticKrw": 16370,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2055,6 +2062,13 @@
         "field": "domesticKrw",
         "from": 19570,
         "to": 19750,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.01",
+        "field": "domesticKrw",
+        "from": 19750,
+        "to": 16370,
         "source": "쿠팡"
       }
     ]
