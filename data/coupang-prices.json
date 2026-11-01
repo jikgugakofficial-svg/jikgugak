@@ -108,7 +108,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-01T03:27:23.158Z",
+      "at": "2026-11-01T17:13:45.103Z",
       "recordedKrw": 41310,
       "found": true,
       "apiPrice": 59500,
@@ -430,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T16:15:02.912Z"
+  "updatedAt": "2026-11-01T17:13:46.016Z"
 }
