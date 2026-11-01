@@ -373,11 +373,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DNoucYgu",
     "sample": false,
-    "checkedAt": "2026.10.28 오전",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "ali-aula-f75-keyboard",
     "name": "AULA F75 무선 기계식 키보드 (씨솔트블루·회목축)",
     "priceKrw": 53100,
-    "domesticKrw": 57750,
+    "domesticKrw": 59900,
     "domesticSource": "쿠팡 같은 색상·축, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c4P9xsVT",
     "risks": [
@@ -400,7 +400,16 @@
       "model": "AULA F75 씨솔트블루(Sea Salt Blue)·회목축(알리 회색 스위치), 쿠팡 8721422294 해당 옵션",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 57750,
+        "to": 59900,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "aliexpress",
