@@ -1389,11 +1389,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4Bn2RFL0C",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
     "sample": false,
-    "checkedAt": "2026.11.02 저녁",
+    "checkedAt": "2026.11.03 쿠팡 자동",
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24572,
-    "domesticKrw": 21300,
+    "domesticKrw": 25690,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1472,6 +1472,13 @@
         "from": 24875,
         "to": 24572,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.03",
+        "field": "domesticKrw",
+        "from": 21300,
+        "to": 25690,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1569,11 +1576,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.11.02 저녁",
+    "checkedAt": "2026.11.03 쿠팡 자동",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 51486,
-    "domesticKrw": 33160,
+    "domesticKrw": 37060,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1653,6 +1660,13 @@
         "from": 52122,
         "to": 51486,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.03",
+        "field": "domesticKrw",
+        "from": 33160,
+        "to": 37060,
+        "source": "쿠팡"
       }
     ]
   },

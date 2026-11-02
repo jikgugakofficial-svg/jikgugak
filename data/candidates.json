@@ -2622,36 +2622,17 @@
       "model": "25000mAh 145W",
       "cat": "it",
       "why": "유그린 대용량 고출력 보조배터리, 퀘이사존 알리 충전기·보조배터리 공구 단골 브랜드. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T19:26:15.604Z",
-      "status": "rejected",
+      "at": "2026-11-02T15:34:23.064Z",
+      "status": "no_ali",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005010578415882",
-          "title": "100% 정품 유그린 넥소드 PD 100W 145W 165W 20000mAh 25000mAh 파워뱅크 타입-C 모바일폰 파워뱅크 3C 인증",
-          "price": 40900,
-          "orders": 40,
-          "rating": "92.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8d6fedffe09743a887e521aa070217bci.jpg",
-          "url": "https://ko.aliexpress.com/item/1005010578415882.html"
-        },
-        {
-          "id": "1005013176126272",
-          "title": "인기 상품: UGREEN 넥소드 PD 100W, 145W, 165W, 20000mAh, 25000mAh 보조 배터리 (Type-C 포트 지원, 3C 인증 획득)",
-          "price": 62900,
-          "orders": 16,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83188ea7e9464ecbacf0e22228fd1111I.jpg",
-          "url": "https://ko.aliexpress.com/item/1005013176126272.html"
-        }
-      ],
+      "ali": [],
       "coupang": [
         {
           "id": "9269144269",
           "name": "UGREEN 145W 보조베터리 25000mAh 대용량 LED 디지털 디스플레이 고속 충전 기존",
           "price": 71000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/3N8tNZV_3iaQnMIt3JhfTCtnY1Zm5SPjKuLNHq5G89XJAu-nPPprvwVFeIQ8NjxhJuiqw2qCl2290mfvaMirioWZGjq8ndEGjQo0yKvaztFnFzbasqlTTgQPZTO2QC5gr2j_m-xxPsoYsU-NQ7NLS4MqYvlvi4WQEQ_PhURzuIMykcv06m69MHTQD95GC0xiSluG29mZekujtaqgEFj-TCDHkQoTBtW2VVj470Daa8-9gfXnRBs-UWbQqruwMG1X1QTBm9fm37dNbFy7r6GkrNpBl5o45ps9VCZY5TvVTIco-Ec50EpeWrs3rVSmYYtd4LFFwnrIgJseZAWpIvzczCAG22z3KdouQQE2mbhpTbHFr2wFdfIBA3a1CKlJcRCZfjuhigz8iyZ51G_gEOCfOnyHwzYcr8AHvnEdTeXbv2Z1CV6ghLiM13iUSeEr45TtUCa7tXwC5xpMgGQkbNalIphXWdf0iuMIo4ok9KxAeDTIxt05pBYQhkDVEi1eQ-Pw7fXSh1-xEQ-9_dZeonUCIcONu49M4S5MBYacCCpWGoDG-LUU",
+          "image": "https://ads-partners.coupang.com/image1/Cffcqt1CyBaLBO3-Cc5Go6BPx_X_1YLOgTLp0a6NYMXC16O6AZE0GFxlcbvCQ5LnbHfqW2Th3Z-kKv0ETcKh5r7G_FdzW-ynoOCvJlqKbcikMTsESC0SnT60vzsGDUcNXnQClFhKihat0BSUJqwMwUQcvNNLBERpby4pWCF8FyFskYElJ5_i2pQcIu5ems1TFS6gX6OR9beGKWmfrNDmLZ-HoDXseXRLY1Nd0XzW6wtc_HHmZ4z6D9yUmpJQAfSTUGVmXDnile9VZoW0Q4hR3oEOQp2Y292R4BUb5v-_LMgnzALfVncVKdgPfpSzZU2DSZO7r5olX2Hmgq0NwcFvOOKJ7Nis71w8A7YzgDa4r4-y1WXDZKPmDlxXMPr--n0OlYDBZXLmVrbxPfB8cUvBZudNQpX3fvY-NKdcgniqgjRSByMc_5gJF5i4cdNBU4ZYFWdDD2SShiQp-h3e82reXrgIy3cHPPpjmTeAcLRhcp1aL0ZJvDPztsdDY9Yneix19_9T6Ouid5le5EvUZDZCn-hf9liJ4QbIiHWMBuEpk6GguhDR",
           "url": "https://www.coupang.com/vp/products/9269144269"
         },
         {
@@ -2659,20 +2640,18 @@
           "name": "유그린 25000mAh 145W 보조배터리 PD PPS, 90597A, 그레이",
           "price": 89900,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/kGRsh-u73bvWc4oukHyUNJt_H9q6km_dHMi4is4yq_vbgLZkl9Gf_YdSz-3yCcz2ogK1YFEiQjtngKKbi0oE6vZEy7S2QmVEzvbLSjWIR37r6pywTOXed52nkQdES3m9wYuUQ9ra6QxXizkwlXyFjOwNGc1WDnFZr5qQOEXAvkAikx0ULirj4j7FOonXX4Ij4jd-MYyJWFm9-8M6ppLBngm1hUAQ7TsGG3gANpPxd9Qsf1pT3_upCzS9dZdLF-4oJ1i5C8V8TPLTl4xf6DrWSSG-RFW2T66-l_UJ55jCsCEKcdB2o0zeuCelHqMTFKwR_m9Z6zoSEFK4JOwtjE8LNuGBmq4_i6IoHQqFqzuAe5IIrsyNKHyKtk0hH--7aftgjM4I_pAFyip_xLhTNAw08btkwEinFGqFrbMHrF0PVKi2Y6emfl8j-AlezKZ4ckTinDgBRgQsIq5fft16-rqinKyu6dOrVxzDm0H85e61nVI3UmdrF9Mn76mkwXpAkvf0yKSAeMtM2z4=",
+          "image": "https://ads-partners.coupang.com/image1/1AFZW8-kHfeQ6C-t1ObKixaVJNvImX0mBBCj27HEQDOz6xWpiu1g78Av9TTuB0Yxxr2hcKbDIe5lkBSoTgJptlbIpR3dLDTggIJO0n8GNBbovKVKMArFtepqpx0w2anLjsRwuMszVmnFGTSxt1fyZnYftPMio4hJq3f2LLZ9RWB8H9YFTWIHvE9jDZO3jUcQwb6zLupxtMaOxXgP_donV25n0namQDy27hbdmlKwJITW73nKChn04L9q8LPZGUunMzl4Q4NAsN00NKkM5-QmfkVbjhZkrUa5WjEtFFlPi89ew-MUvQq3NSbjjT30cZ2qqAEee1gctUvaE3J1zhDKzRJPRZyZEiVaAJ-tZrAJMsX8wj317zRvmnji5U2-nWgt5HeWzRe8ynf-YhNj5rkqIDdgHrlqgcFUtI9o_Kmc_rSntA3VZXJJ7oh5V_RctglmHT4FgIAAvJoDfjr9OdE2zeCHoGe27vwvtSHQK9uSkLxSHFfd9WrpBgVA-v-Jl7ylW8sOYttYUFQ=",
           "url": "https://www.coupang.com/vp/products/7940170364"
+        },
+        {
+          "id": "9764032460",
+          "name": "유그린 145W 25000mAh PD PPS 잔량표시 고속충전 보조배터리",
+          "price": 96900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/C1ax4KFc3wWu72zQC25xWgfaAcYeGkpqo9SmOjBOTa08BKIEng0rbViEvlMYVv-VBhJNaOveJOX2rhBx_31gcvSXFrN3Rlvpo6PL-gUoTuz68CmL4pTeqYgak3sxu5Etf7YqVAtXRi8prUQu1dza7qaEpLliVUg5NRpLcXP95QLnmiPJc_DLuf9bw6LPxrxASs1XFnbitQuTDvUZZxnDqrejxA6GhWVgqRVERV3FHjv1z_6RQwzETXX-zSHEnF6azbNtC6tXqffYSbE8AtyRxKENHNH2g2_IYkn48kkCIkjqRIgkm_3pfTRXVWhK70W4VCwvpNksqSaD9PMUj5q2ICs93V8gte83LWE5qOOOpcY6NyHa_rsD6wM3mjK7cR0Tdn7J7_UdRarKpTLeCC9nFe3mm2JAelhH74DuNIqSLqD_ouyYHBnK7GQEdznlfumYyrBFp8YHwYV4DdXoxf9TcW-J8gZEgiQiknGaBg9aqnYfuea-Gl09AVrQTh1b7ER2jtiImXIBaWkXgBjOWTWsA0DnchHm6kMXnD1PAuFHW1NlxGXP",
+          "url": "https://www.coupang.com/vp/products/9764032460"
         }
-      ],
-      "best": {
-        "aliId": "1005010578415882",
-        "coupangId": "9269144269",
-        "aliTotal": 40900,
-        "coupangPrice": 71000,
-        "verdict": "good",
-        "diff": 30100,
-        "pct": 42
-      },
-      "review": "11/2 알리 상품이 여러 용량·옵션을 한 페이지에 묶어 API 가격이 어느 옵션인지 알 수 없음"
+      ]
     },
     "UGREEN NASync DXP2800": {
       "q": "UGREEN NASync DXP2800",
@@ -2680,14 +2659,14 @@
       "model": "DXP2800",
       "cat": "it",
       "why": "유그린 2베이 NAS, 가격대 높아 20%·1만 원 조건 넘기 쉬움. 국내 정발(쿠팡) 판매 여부 불확실. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T21:15:47.497Z",
+      "at": "2026-11-02T15:34:25.693Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005010412722704",
           "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 미포함) 4K 8GB DDR5 RAM",
-          "price": 785800,
+          "price": 797400,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S613b13c3a56548b28a2903e4654178997.jpg",
@@ -2696,7 +2675,7 @@
         {
           "id": "1005012362427429",
           "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 없음) 4K HDMI 8GB DDR5 RAM",
-          "price": 898800,
+          "price": 820900,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S989b99c77c6a44f6a9591408044dc113p.jpg",
@@ -2705,7 +2684,7 @@
         {
           "id": "1005012976859281",
           "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS, N100 쿼드코어 CPU 네트워크 연결 스토리지 (디스크리스)",
-          "price": 705000,
+          "price": 606600,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/See506b937b144a1e92e2de62e44eff9c3.jpg",
@@ -2714,19 +2693,11 @@
       ],
       "coupang": [
         {
-          "id": "9711149531",
-          "name": "8GB 1X8GB DDR5 4800MHZH PC5 - 38400 1.1V CL40 262핀 비ECC SODIMM NEMIX RAM UGREEN NASync DXP2800 및 D",
-          "price": 501500,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/yolKNqA5K1G92OUXyh_zU4woxZoD-GBWu_jhHg2A8CWbahUnw-2c5s3SlYSGTjzFe5mYI2dIN17MGT21VZiIL292_wVJKtEXQZb1SPa7wsGX7uVMsChUSLCqDHhUGyS7NRarrFTNaoQ8C3d6r_vHlusiGPH2Wulx_Hv-449vmplrm4SxevhkGNzsX-IMDMUnSCMXDazKZ6ZCLQyVBjLKCOnoacJ7nvHXJeOlzeTpDIfaYDipK8oYzL1ANIkbLIBUYSdSq8cAq84k8KZ2dVoADEgyopAID75BOYO9w7Gjf1y702fW_P8J4tFalzkMOYKN6S3047omDWHTM5y2P718hytzS0P1fftwvEdbza5iHM8dYupijj3P03-Totgaty3NyhiWSkQGCWQBo8X6I-7__aP42GXhIWHw3cyt7xSxu_8lxXISsZmqQiz8ZPQKVbz00w3Dn_7HUBJjdod5uFonY5nzNjFAUCthMM2rZMWIbyodwtSO9qCXQuGh0K0RnJUVTMbIGwjt_KyHWpQYjpGZ05QXkvYjc_3sLfirTFhjUjpOdU4z_Q==",
-          "url": "https://www.coupang.com/vp/products/9711149531"
-        },
-        {
           "id": "8894406605",
           "name": "UGREEN NASync DXP2800 2베이 데스크탑 NAS 인텔 N100 쿼드코어 CPU 8GB DDR5 RAM 25GbE 2개 M2 NVMe 슬롯 4K HDMI 네트워크",
-          "price": 562590,
+          "price": 565460,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/aqaLbjbjc_57J5cDaqeUgtUYvsLVYg0pdhlkwdQUai8iLRUO1_7NivwTcTAIPmmX09t6sYZcIeMrqnb2RUrHtEiFwmtIO65wzI-HOsvhbeCgCs4FkstxdlLCbKiJzZpxvhhQN1pAhwWfNe0dkAcR78cTu_PjSN3KzO5pd_Hgmv3bNwsDCBbJiIcKNi74grGoU6Zbp9kyqMMA27tSYT9U_bociJKtyVwRkvmM-E33YtEUzfKmW3lKF_kW8Q40Se_FZIufQVypaLm2FjEb7nIfTpIH7r3pjWbnEpDx3Z8oC5gVPqyMNwlhJKE-ct7xitY7f95XVlelY780Jq_oCMSeIMWlDDv8JnhgTkxuJq6ckUy5oz2etYs3otMP4vnprNN_Q6iAtGvy491PYA4ovWETaGxOtNMwuv0S0hKKYs0NKAk5xeIHJ8ABhn3aiq1KJWoLJokYCeeNOn_D9Vub6SMpqeM7BVbjK-fLiABjyYhNFUZ5me9IBOYCqBqXNKjzQXAco9mti-ZzUz7v5mrbVG3VWpm2tl23pXjNEm1cO8q_i3JcZrE=",
+          "image": "https://ads-partners.coupang.com/image1/F33SSVEkyTr88j77F9SPFYJPojyriX-IfGg5GWzdTUZMEaZypAbdQGpZdvNAWE_hvkp93j9U9hzwblrwcnuCfhHdEmwdxG8dRV8M1ldtgaBPJDcsRdNLvDa8erItuQ9eGNZXqGzitq3vHs8OiUnG70BqdTteLkGP2TQOwBjLNu3comjJGDxhFuVOr2stbD2kuTPP0nezNokU-GwxxaUZf9i2P_tdt3H6ndLPhZDQTiCKlqby4f_6jHZz95fZ5ztXmywxOOUl5rqN-H1OeaGzwKesyEikHqbY3jSNWFbNHdVWVu_zT6vFCaqzkNqmjoQa-rZZcbASjaK7Q1qm7hoSupygisA3IxCGs2hGF81m73WNMV-3oUXXrjZgjzdePzCKwnk4yL4rGJmiTeX9nXvKo1ld2n6AyckqUXHeX6eppZGPXqDw0O3lU19zUOuhE6-uLVpqapQOU1R5uROLzePHY5IVs36LyFc3qxOh1rhHFPaAcS7HQzE9GVbqQtbpqSb_L7Y1b9-eUCx7UWNj6AVmL952Z_r1cI58uWPR-APuszd-xg7Y",
           "url": "https://www.coupang.com/vp/products/8894406605"
         },
         {
@@ -2734,18 +2705,26 @@
           "name": "UGREEN NASync DXP2800 2베이 데스크탑 NAS 인텔 N100 쿼드코어 CPU 8GB DDR5 RAM 25GbE 2개 M2 NVMe 슬롯 4K HDMI 네트워크",
           "price": 659440,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/F-rdPfISq_TQZM0QFymi1CV-NwkYr3EihuXhtv57tzBsRltrOGW0e1ivFJl9i9sho8RitJr_tyfaqF712o7oEjNnN2zagQdtxEgNhlGsPr73XPdTIkttXL7zazQJeAoxcJXpkxBB9JBLBTtcZEzMSKgrwuM7N3PoRsXPW3az1Brbfi2zxTkZI1rb1znZs5JIyu8bTViv8Q-wLkb46c73PrVPjkFGGCt0rM2sypuHOUFoVtFwhl59uNeLD6huh6QRZksSQx7QLGolBW2QeYTPHKepqLQox2_Qslyvgczu_ZEcXpFAP1NWiHWnhLhUqCycxEbps3WooFqrW0ECdMHb2ww6mgx2e4K3-gQ878q8AXTL_uQOlin2azERl_r-FYctsi13oKqkVE7BNvEFkpwLxLm22UL_BkQyJxkZZmtoXUIv6EACok2XaiWvc-FjtCHmNrh2ZaKAxVdSOdREiSKjAaKmnCkcDENd-qStmMwZKCgqCg4aNlXNJnkR-hcMn-buPoVwNlZbQsIntbjcHFNesZBWSsRj50LnK2ae6jNH24jR6w==",
+          "image": "https://ads-partners.coupang.com/image1/KKVJ1grRM4Pbi1qzKGGDJVtVpmVCBo7f53VgaM8ey_IE5JopSQNrL2rWYjHDdCUarrpnSnUF7rSXVAd1hefQAEdwug4Bt1Gy2UfU62LuIVZOk00Ze9R1iNpT6bAC9x5Lp4GOwqJyXLnthMEEpbuf7iD-lLbrQZseKlncjtvGAq_pzIcDvrU4OiEtOWlgLAyQyF8MdBW7VUTzyFNDj4wztQ2BfxJFR3zJ-Eo5RO7RCub8MkrPkSgW7eYy5Dyej_vJuA3TPuJcV0CWvMjFPNl2NIPnxs-Xjk0SD3RkDDkFjGKN6TG2NMykMeAKJF0d2cQIJ5XlUXNf3enTXrVvRtm74MFDihJ6yvJhk17GrSiqhNCRTIjzixqjAAJ1aUzu1GMN507jdEvzd3rDrKdVUtkER_B-HDjUpDU89AzRh7CfxUdncp47F0UzrzLYkGG3caUVd7NgrlL7_mp9BSxvS5Sw7EZLu3nQxwI7giusretEpkKQTMHzH_4FK_LNaKd3WR5Jx16o4br4d0oZWb541fXuXIfgdLozI0HZdn-PT2RimPsaZ-g=",
           "url": "https://www.coupang.com/vp/products/9768951682"
+        },
+        {
+          "id": "9333858747",
+          "name": "유그린 고성능 나스 DXP 시리즈 NAS 2베이, DXP2800",
+          "price": 758000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/UExrewpOCTHFrzUIUI_87jRtrkDE7Kr-MKNIm9krn3-Tm3BwTIg0lTfE7vQ_o_kmdgZtixwWEK9QtnYnfQcJzhY6PkKXb5nrn9OfLWFq8IqyfjKobyu7EqtIHOIaMicdARm4G8IN5uTZ13nzkNgQQFNYgYAu8WLMei2kz6jsBeFOvkLfbPVgZY1JVwuNxD6Opg-_MRHHtezxcw1SmTeU6tIkBExYhnSoJCZ5-fo4QcdYV28WwglpZOLSHchWaAk_HDLmoPI0inA7Np6_X0V9ZnuHHl4sDLhcjBVcK5DoyIPQgoaHxa1rVmnxObJv_vyh5RZ2F-yP42bZXK9Lgit0a3GOf5qPKVelqzl21vqa-XAQCbPUWSGsWEZMfw3pgUPQ8wlTSEvGP4dUbHlEdIc5rq1V8sTVqR2mwhVlRq_ricVp8a0XX4v9f2sqrvhf2voVVIHt2gy1FYW4JD8O8h-lZgbQWR7eb7lowUMbHt5_f8A_-Jb05KLptkrjevjzlvJKu-ZHUQQ8eg==",
+          "url": "https://www.coupang.com/vp/products/9333858747"
         }
       ],
       "best": {
         "aliId": "1005010412722704",
-        "coupangId": "9711149531",
-        "aliTotal": 864380,
-        "coupangPrice": 501500,
+        "coupangId": "8894406605",
+        "aliTotal": 877140,
+        "coupangPrice": 565460,
         "verdict": "bad",
-        "diff": -362880,
-        "pct": -72
+        "diff": -311680,
+        "pct": -55
       }
     },
     "Edifier Comfo Base": {
@@ -4758,5 +4737,5 @@
       "warn": "ASIN 후보 2개로 불확실, 색별 가격 차이 큼. 한국 가격을 모르는 상태라 쿠팡이 가치 없으면 바로 뺄 것(C). 배낭 관세는 8%로 계산(실제는 면세 한도 안에서 0)."
     }
   },
-  "updatedAt": "2026-11-02T13:50:22.424Z"
+  "updatedAt": "2026-11-02T15:34:26.966Z"
 }
