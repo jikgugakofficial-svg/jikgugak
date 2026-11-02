@@ -10,7 +10,7 @@
     "domesticUrl": "https://link.coupang.com/a/h1CZEniThk",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-cgn-omega3-premium-100",
     "name": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
     "priceKrw": 16532,
@@ -24,7 +24,7 @@
     "summary": [
       "국내외 같은 100정(1정당 1,100mg) 제품끼리 비교했어요.",
       "하나만 사면 배송비 ₩6,000이 붙어 {diff}({pct}) 싸요. 직구각 기준(₩10,000)에 아깝게 못 미쳐요.",
-      "다른 영양제와 ₩40,000 이상 함께 담으면 배송비가 0원이 돼서 ₩14,638 싸져요. 4종 묶음 페이지를 참고하세요."
+      "다른 영양제와 ₩40,000 이상 함께 담으면 배송비가 0원이 돼서 {diff} 싸져요. 4종 묶음 페이지를 참고하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9228033952",
     "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118",
@@ -49,10 +49,10 @@
     "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
-    "priceKrw": 27946,
+    "priceKrw": 27606,
     "domesticKrw": 26760,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
@@ -139,6 +139,13 @@
         "from": 24220,
         "to": 26760,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 27946,
+        "to": 27606,
+        "source": "아이허브"
       }
     ]
   },
@@ -153,10 +160,10 @@
     "domesticUrl": "https://link.coupang.com/a/h1C2dCAIbQ",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
     "sample": false,
-    "checkedAt": "2026.11.02 새벽 매니저 확인",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-now-vitamin-d3-k2-120",
     "name": "나우푸드 비타민 D3 & K2 120캡슐",
-    "priceKrw": 11647,
+    "priceKrw": 11505,
     "domesticKrw": 12440,
     "domesticSource": "쿠팡 로켓직구 1개(120정) 배송비 포함(와우 무료배송)",
     "risks": [
@@ -190,6 +197,13 @@
           ]
         },
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 11647,
+        "to": 11505,
+        "source": "아이허브"
       }
     ]
   },
@@ -204,10 +218,10 @@
     "domesticUrl": "",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
     "sample": false,
-    "checkedAt": "2026.10.25 저녁",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-cgn-lactobif-30-60",
     "name": "캘리포니아골드뉴트리션 락토비프 30 유산균 60캡슐",
-    "priceKrw": 31803,
+    "priceKrw": 24807,
     "domesticKrw": 50000,
     "domesticSource": "쿠팡 1개, 무료배송",
     "risks": [
@@ -222,7 +236,16 @@
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8221125227?itemId=14708941467&vendorItemId=95973420287",
     "overseasCheckUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
-    "hidden": "2026-10-26 숨김: 쿠팡 국내 최저가(다른 판매자) 확인 전이라 판정 근거 부족. price-checker 확인 후 해제"
+    "hidden": "2026-10-26 숨김: 쿠팡 국내 최저가(다른 판매자) 확인 전이라 판정 근거 부족. price-checker 확인 후 해제",
+    "priceLog": [
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 31803,
+        "to": 24807,
+        "source": "아이허브"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -778,7 +801,7 @@
     "domesticUrl": "https://link.coupang.com/a/h2OJC6rAQu",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-on-gold-standard-whey-5lb",
     "name": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
     "priceKrw": 164128,
@@ -1234,10 +1257,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4Bn2RFL0C",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
     "sample": false,
-    "checkedAt": "2026.11.02 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
-    "priceKrw": 24875,
+    "priceKrw": 24572,
     "domesticKrw": 21300,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -1310,6 +1333,13 @@
         "from": 25690,
         "to": 21300,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 24875,
+        "to": 24572,
+        "source": "아이허브"
       }
     ]
   },
@@ -1324,7 +1354,7 @@
     "domesticUrl": "https://link.coupang.com/a/h4BodRaPiC",
     "buyUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 74508,
@@ -1407,10 +1437,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-    "priceKrw": 52122,
+    "priceKrw": 51486,
     "domesticKrw": 33160,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -1484,6 +1514,13 @@
         "from": 32770,
         "to": 33160,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 52122,
+        "to": 51486,
+        "source": "아이허브"
       }
     ]
   },
@@ -1498,10 +1535,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
     "sample": false,
-    "checkedAt": "2026.11.02 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
-    "priceKrw": 45315,
+    "priceKrw": 44763,
     "domesticKrw": 37270,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -1582,6 +1619,13 @@
         "from": 31670,
         "to": 37270,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 45315,
+        "to": 44763,
+        "source": "아이허브"
       }
     ]
   },
@@ -1596,10 +1640,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4BoGlkQCW",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-milk-thistle-extract-300-mg-200-veg-capsules/13870",
     "sample": false,
-    "checkedAt": "2026.11.02 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-    "priceKrw": 33318,
+    "priceKrw": 32912,
     "domesticKrw": 25520,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -1679,6 +1723,13 @@
         "from": 25630,
         "to": 25520,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 33318,
+        "to": 32912,
+        "source": "아이허브"
       }
     ]
   },
@@ -1693,10 +1744,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxmVuzgy",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
-    "priceKrw": 23320,
+    "priceKrw": 23035,
     "domesticKrw": 17890,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -1769,6 +1820,13 @@
         "from": 21570,
         "to": 17890,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 23320,
+        "to": 23035,
+        "source": "아이허브"
       }
     ]
   },
@@ -1783,7 +1841,7 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxF2x1i0",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58027,
@@ -1874,10 +1932,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
-    "priceKrw": 13983,
+    "priceKrw": 13813,
     "domesticKrw": 11030,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -1957,6 +2015,13 @@
         "from": 13290,
         "to": 11030,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 13983,
+        "to": 13813,
+        "source": "아이허브"
       }
     ]
   },
@@ -1971,10 +2036,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4BzH8wHKu",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-ultra-omega-3-fish-oil-180-fish-softgels/96436",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
-    "priceKrw": 46657,
+    "priceKrw": 46088,
     "domesticKrw": 34930,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -2061,6 +2126,13 @@
         "from": 38400,
         "to": 34930,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 46657,
+        "to": 46088,
+        "source": "아이허브"
       }
     ]
   },
@@ -2075,10 +2147,10 @@
     "domesticUrl": "https://link.coupang.com/a/h4BJD6VK8G",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
-    "priceKrw": 18653,
+    "priceKrw": 18426,
     "domesticKrw": 16370,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -2151,6 +2223,13 @@
         "from": 19750,
         "to": 16370,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 18653,
+        "to": 18426,
+        "source": "아이허브"
       }
     ]
   },
@@ -2165,10 +2244,10 @@
     "domesticUrl": "https://link.coupang.com/a/h8rx3CeVbg",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-on-micronized-creatine-caps-100",
     "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
-    "priceKrw": 29651,
+    "priceKrw": 29289,
     "domesticKrw": 27990,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -2220,6 +2299,13 @@
         "from": 28010,
         "to": 27990,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 29651,
+        "to": 29289,
+        "source": "아이허브"
       }
     ]
   },
@@ -2540,7 +2626,7 @@
     "domesticUrl": "https://link.coupang.com/a/ib10yTQTrU",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-coq10-usp-grade-ubiquinone-100-mg-360-veggie-capsules/95215",
     "sample": false,
-    "checkedAt": "2026.11.02 새벽 매니저 확인",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-cgn-coq10-100-360",
     "name": "캘리포니아골드뉴트리션 CoQ10 유비퀴논 100mg 360캡슐",
     "priceKrw": 58878,
@@ -2648,7 +2734,7 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.28 오전",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-cgn-s-acetyl-glutathione-120",
     "name": "캘리포니아골드뉴트리션 S-아세틸 L-글루타치온 100mg 120캡슐",
     "priceKrw": 57208,
@@ -2688,7 +2774,7 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.28 오전",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-cgn-marine-collagen-500g",
     "name": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
     "priceKrw": 58214,
@@ -2728,7 +2814,11 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
+<<<<<<< Updated upstream
     "checkedAt": "2026.11.02 오전",
+=======
+    "checkedAt": "2026.11.02 저녁",
+>>>>>>> Stashed changes
     "slug": "iherb-jarrow-ultra-boneup-240",
     "name": "자로우 울트라 본업 240정",
     "priceKrw": 54850,
@@ -2757,7 +2847,16 @@
       "note": "쿠팡 상세에 바코드 표기가 없어 상품명·정 수(Ultra BoneUp 240정)로 확인. 아이허브 UPC 790011040057",
       "checkedAt": "2026.10.28"
     },
-    "image": "https://ads-partners.coupang.com/image1/72ryteDOgZN-_1UV7yQwT6p77oNzhBbj7ahCrsth9qAo-QlXPI-7b9_zNBCy7Ob1on7SvldIF3sVDYdS0g1NaadfeeF6rj6ycHR1yFfmCSln_utbBjXJY6sKrn4-7ScXWsf04CkoiQpeL43IejF4IcF1PESxuOdK1vVineIPPaCmhvm7bOAhDx9aqPoZc0Wx8YVqOY9p1ipJeQNOHVtdeR5mNerYPZdUinL7yl50LGdsDC9stioAqQFbRnO9Y2Qps7OFSNMwGEJRcASWs0cFAocQj3WLeOeGiv7xMEeHnf98Mm4D-WXjS4PJ9X76sYoqvzE16O2BLDDnwSdwzHeiTpkLACWNlBIfnPqDJ9AkReVYfB3riTBzNv0oBR_v924N8a7DcCp4KXxubrM0dSJz0kw8ur3S3IRIcKgoIDpA8HdQIvV8a-v6yYgnZzg5XaQn7GynHW76ftmqU4UwefNAmzrui8XLp8NCaQR4whBZYonrfRks0wcribsxPUIHfXruMDY5LwpAZraYhhZygqsafmWRKI2hgT0i9d5i5b5rpUn6iBbk"
+    "image": "https://ads-partners.coupang.com/image1/72ryteDOgZN-_1UV7yQwT6p77oNzhBbj7ahCrsth9qAo-QlXPI-7b9_zNBCy7Ob1on7SvldIF3sVDYdS0g1NaadfeeF6rj6ycHR1yFfmCSln_utbBjXJY6sKrn4-7ScXWsf04CkoiQpeL43IejF4IcF1PESxuOdK1vVineIPPaCmhvm7bOAhDx9aqPoZc0Wx8YVqOY9p1ipJeQNOHVtdeR5mNerYPZdUinL7yl50LGdsDC9stioAqQFbRnO9Y2Qps7OFSNMwGEJRcASWs0cFAocQj3WLeOeGiv7xMEeHnf98Mm4D-WXjS4PJ9X76sYoqvzE16O2BLDDnwSdwzHeiTpkLACWNlBIfnPqDJ9AkReVYfB3riTBzNv0oBR_v924N8a7DcCp4KXxubrM0dSJz0kw8ur3S3IRIcKgoIDpA8HdQIvV8a-v6yYgnZzg5XaQn7GynHW76ftmqU4UwefNAmzrui8XLp8NCaQR4whBZYonrfRks0wcribsxPUIHfXruMDY5LwpAZraYhhZygqsafmWRKI2hgT0i9d5i5b5rpUn6iBbk",
+    "priceLog": [
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 55527,
+        "to": 54850,
+        "source": "아이허브"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -2768,7 +2867,7 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.28 오후",
+    "checkedAt": "2026.11.02 저녁",
     "slug": "iherb-cgn-organic-spirulina-720",
     "name": "캘리포니아골드뉴트리션 유기농 스피룰리나 500mg 720정",
     "priceKrw": 41641,
