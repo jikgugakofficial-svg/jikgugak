@@ -746,11 +746,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OGtLL1Ay",
     "sample": false,
-    "checkedAt": "2026.11.02 새벽 매니저 확인",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "amazon-crocs-classic-clog",
     "name": "크록스 클래식 클로그 10001",
     "category": "apparel",
-    "domesticKrw": 59100,
+    "domesticKrw": 59500,
     "domesticSource": "쿠팡 같은 상품 다른 판매자 최저(새 상품) 블랙, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0014C0LUC",
     "risks": [
@@ -775,6 +775,13 @@
           ]
         },
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 59100,
+        "to": 59500,
+        "source": "쿠팡"
       }
     ],
     "match": {

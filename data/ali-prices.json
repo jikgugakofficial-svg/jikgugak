@@ -19,27 +19,27 @@
     },
     "ali-qcy-t13-earbuds": {
       "itemId": "1005005042789596",
-      "at": "2026-11-02T03:32:14.831Z",
-      "recordedKrw": 26920,
+      "at": "2026-11-02T09:39:31.207Z",
+      "recordedKrw": 26953,
       "found": true,
       "apiPrice": 26953,
-      "result": "applied"
+      "result": "same"
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
-      "at": "2026-11-02T04:38:49.563Z",
-      "recordedKrw": 41849,
+      "at": "2026-11-02T09:39:33.419Z",
+      "recordedKrw": 41900,
       "found": true,
       "apiPrice": 41900,
-      "result": "applied"
+      "result": "same"
     },
     "ali-xiaomi-smart-band-10-pro": {
       "itemId": "1005006405553471",
-      "at": "2026-11-02T04:38:51.766Z",
-      "recordedKrw": 102339,
+      "at": "2026-11-02T09:39:34.264Z",
+      "recordedKrw": 102444,
       "found": true,
       "apiPrice": 102444,
-      "result": "applied"
+      "result": "same"
     },
     "ali-qcy-melobuds-n70": {
       "itemId": "1005009801120235",
@@ -82,5 +82,5 @@
       "result": "applied"
     }
   },
-  "updatedAt": "2026-11-02T08:00:50.191Z"
+  "updatedAt": "2026-11-02T09:39:35.157Z"
 }

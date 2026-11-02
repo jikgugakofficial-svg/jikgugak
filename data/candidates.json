@@ -2501,20 +2501,10 @@
       "model": "Go 4",
       "cat": "audio",
       "why": "JBL 초소형 스피커, 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T13:32:34.582Z",
-      "status": "no_coupang",
+      "at": "2026-11-02T09:39:24.732Z",
+      "status": "none",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005012707073210",
-          "title": "오리지널 JBL GO 4 휴대용 무선 블루투스 스피커 뮤직 큐브 방진 기능으로 휴일 파티, 가족 모임에 적합",
-          "price": 36900,
-          "orders": 137,
-          "rating": "94.7%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6be681d191664664a0b40fddd5e341afJ.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012707073210.html"
-        }
-      ],
+      "ali": [],
       "coupang": []
     },
     "Anker 737 Charger GaNPrime 120W": {
@@ -2523,7 +2513,7 @@
       "model": "737 120W",
       "cat": "it",
       "why": "앤커 120W 3포트 GaNPrime 충전기, 국내 정발가 대비 알리 앤커 공식 스토어 가격 차이 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T15:27:23.363Z",
+      "at": "2026-11-02T09:39:28.353Z",
       "status": "no_ali",
       "coupangTop": 6,
       "ali": [],
@@ -2531,9 +2521,9 @@
         {
           "id": "9793298438",
           "name": "Anker 737 Charger (GaNPrime 120W) 블랙",
-          "price": 142810,
+          "price": 145250,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/KBNpJBVFOEcOUFf-KD6AQeMM3UOH4FtPBoFPN9RKrfuIIX_KVgtP1pHqpJsyjRgachQZR68e5Py8jKtfjBXZjSRdkVhkoqP-0dJ05UC5uXRJqn6Tb7_wqddQc9a9H7emcHTdJgkOUOrUEtfEU6NABOwHz4j7t5s3EJVhWid5nR_NRQjY1A9E860X6KZTRIdklxFyym8c_NzC2mSxZuCLrXPj0YQ3Gls8j9uFcor2BOg0ylXN534xojdNOtZLRdFBzwqhk9FzSxeD0YQi-KBRpRfYRk0gXD-ESZ7kEuxhnAbqMS1WNIF0IXhbGGle5HuX1rmbveAz5J1OUArr5jKHxxqFTWL-X1-m2xl2yEtSkHPHIHtqjZMVp9Z31SMpNg929PafYF-F8dWzaSkbNknN-SDUliNa6waoxEK_9mBJHSogmDS7ABmJ6SkoiRhBq0f6gSBP1W_FkRadja2y5NYyQg8p79l8Vn5D0f2Sn8WR3bU-a585J9SAuz4ZswX4EVQR28ooYGBaXXLcXUaqfhw1UKmEvOEhDFEk2Bg5szbs7NekzbuF",
+          "image": "https://ads-partners.coupang.com/image1/6k12lhPmfyaGN6Vr6nnBLDQ-etOEfYLtXMWzc8rc04189vQYrjPJagAwmXLBm16KfYoDWeypnqlWXUJl5ladCR9O7iAqbfU8IU3xzoZ3ajjJKWX1t78h3CG7rbm8sLZUrRr4leFgrRh2rc1xJg7hc-yl9xqug3e72oE_RPiDw1xVz2yeMMifG4lxtfoAmNn9PmUVn7OTn8Zti8yD-ubtUYhNOqGHIvb8ol2k2Za3UoO7x5xdBgHSEOZ5keqsQnaW7YpJZ7e4GpPF-pUUteIfeXxKsLLCOh8wtIt6m0ztbAFxB774lD3dNZx-PeNSLQ3TAM14cXy-5XePL8aEauYKhko5WhdrBqE9vyU4V8jwP6prrheepFtKBPJg3KUTVIhDz9pq9gokK393MzUOohm24vTG77Xmj3dAzzc8gloXIhwM3pLUnAKW8EGUHQoF1NRl07EiDavJ3jDqnbOyJVZ-2Nn51Iy6Sixct0ETFqA0Fm8R8NYe21Ul3t4eSC4Kdmzj5uHNunpvTrgCwt3EbxAcCyf1jiLmQnE29cm88dIAITKYgQ==",
           "url": "https://www.coupang.com/vp/products/9793298438"
         }
       ]
@@ -4740,5 +4730,5 @@
       "warn": "ASIN 후보 2개로 불확실, 색별 가격 차이 큼. 한국 가격을 모르는 상태라 쿠팡이 가치 없으면 바로 뺄 것(C). 배낭 관세는 8%로 계산(실제는 면세 한도 안에서 0)."
     }
   },
-  "updatedAt": "2026-11-02T08:00:46.061Z"
+  "updatedAt": "2026-11-02T09:39:29.690Z"
 }
