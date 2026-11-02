@@ -115,7 +115,7 @@
     "date": "2026-11-01",
     "stores": "알리익스프레스",
     "scope": "overseas",
-    "status": "reported",
+    "status": "confirmed",
     "note": "알리 연중 최대 할인. 10/29~10/31 예열(장바구니·쿠폰 미리 받기), 본 세일은 11/1 0시~11/18 23:59(한국 시간). 결제 전 관세 넣은 최종가로 국내가와 비교하세요.",
     "cats": [
       "general",
@@ -123,13 +123,8 @@
     ],
     "major": true,
     "end": "2026-11-18",
-    "source": "https://saledoctor.co.kr/blog/2026/10/13/a-singles-day/",
-    "sources": [
-      "https://saledoctor.co.kr/blog/2026/10/13/a-singles-day/",
-      "https://alicouponkorea.com/",
-      "https://piscomu.com/315311"
-    ],
-    "checkNote": "11/1 매니저: 업계 안내 3곳(세일박사·알리쿠폰코리아·피스커뮤) 모두 11/1~11/18. 알리 공식 보도자료 기사는 아직 못 찾음 → reported 유지"
+    "source": "https://www.newsis.com/view/ALSX20261029_0000008016",
+    "checkNote": "11/2 확인: 뉴시스 2026.10.29 기사(알리익스프레스 보도자료 PRNewswire 형식, 알리 대변인 인용)에 11.11 광군제 11월 1일 개막·11/18까지, 예열 10/29~10/31 명시 → confirmed. 본 세일 시각(0시·23:59 KST)은 기사에 없어 note의 시각은 참고용."
   },
   {
     "id": "amazon-bf-week-2026",
