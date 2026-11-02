@@ -4177,6 +4177,584 @@
         "판정쓸모": "CM512 사례처럼 쿠팡에 해외 판매자만 있으면 직구각, 국내 정식판이 있으면 애매·국내가 나음. 헷갈릴 만한 품목이지만 근거는 약함."
       },
       "review": "11/2 알리 상품 번호·국내가 근거 없음"
+    },
+    "Sennheiser HD 599 SE": {
+      "scoutRank": 42,
+      "q": "Sennheiser HD 599 SE",
+      "brand": "Sennheiser",
+      "brandKo": "젠하이저",
+      "model": "HD 599 SE",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "A",
+      "why": "한국 사람이 아마존 직배로 사 온 유선 오픈형 헤드폰의 단골(클리앙 알뜰구매에 \"$99 한국무료직배\" 글, 2020.11.28, 현대카드 쿠폰 후기 $59~79). 작년 블프에도 미국 기사 2곳이 $99~99.95(정가 $240)로 기록. 모델이 오래 안 바뀌어 올해 블프에도 같은 모델일 가능성이 높음.",
+      "evidence": [
+        "https://www.clien.net/service/board/jirum/15633279",
+        "https://www.clien.net/service/board/use/16347497",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.27 기사: 블프 가격 기록 $99.95(정가 $240, 아마존)",
+          "url": "https://hometechnologyreview.com/these-240-audiophile-headphones-are-under-100-for-black-friday-heres-why-audio-enthusiasts-are-going-crazy/"
+        },
+        {
+          "note": "2025.11.26~28 라이브 가격표: $99(아마존)",
+          "url": "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose"
+        }
+      ],
+      "amazonAsin": "B07RFNZYJZ",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B07RFNZYJZ",
+      "korShip": "근거 있음(오래됨): 클리앙 글 제목 \"한국무료직배\"(2020.11.28). 현재 한국 배송 표시는 매니저 확인.",
+      "aliHint": "",
+      "coupangHint": "젠하이저 HD 599 SE (기본 블랙/ 구형 HD 599·HD 559와 섞이지 않게, 쿠팡에 SE 표기가 있는 것만)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 클리앙 알뜰구매 \"[Amazon] 젠하이저 HD599SE 헤드폰 ($99.00/한국무료직배)\" 2020.11.28 + 사용기 글 다수(근거 15633279·16347497).",
+        "같은제품짝": "조건부 예: 모델 HD 599 SE(method:model, 색 블랙). 국내 판매자가 구형 HD 599(베이지)·HD 559를 섞어 파는 글이 있음(클리앙 15633279 댓글). 쿠팡 상품 사진·모델명으로 SE 확인.",
+        "판정쓸모": "조건부 예: 국내 가격 미확인이라 판정 방향은 쿠팡을 본 뒤 확정. 유선 헤드폰은 국내 가격이 높게 유지되는 편이라 직구각이 나올 가능성이 있는 후보."
+      },
+      "expect": "미확인(쿠팡 가격 보기 전). 20만 원 이하 물품이라 미국 특송 면세 안에서 비교.",
+      "warn": "이름이 비슷한 HD 599(2013 일반판, 베이지)·HD 599 SE(블랙) 구분. 아마존 상품 주소는 SE 블랙이지만 색 변형이 여러 개일 수 있음. 미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17)."
+    },
+    "Beats Studio Pro": {
+      "scoutRank": 43,
+      "q": "Beats Studio Pro",
+      "brand": "Beats",
+      "brandKo": "비츠",
+      "model": "Studio Pro",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "A",
+      "why": "미국 블프의 단골 헤드폰이고(비츠 스튜디오 프로 $149~169, 정가 $349) 한국 쿠팡 가격은 미확인(차이가 날 가능성만 추정). 한국 직배 가능 여부가 최대 위험.",
+      "evidence": [
+        "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose",
+        "https://www.trustedreviews.com/deals/the-beats-studio-pro-headphones-are-down-to-a-lower-price-than-black-friday-4412406",
+        "https://www.clien.net/service/board/jirum/19019823"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.26~28 라이브 가격표: $149~169(정가 $349, 아마존·월마트)",
+          "url": "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose"
+        }
+      ],
+      "amazonAsin": "B0CMZQNDR4",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0CMZQNDR4",
+      "korShip": "위험: 같은 애플 계열 에어팟 4 노캔이 \"한국 직배 불가→배대지\"였음(클리앙 2025.07.08, 본문). 비츠는 확인 못 함.",
+      "aliHint": "",
+      "coupangHint": "비츠 스튜디오 프로 (블랙, 애플코리아 정식 수입)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 블프 직구 인기 품목에 애플·비츠가 반복. 비츠 스튜디오 프로 한국 커뮤니티 글은 못 찾음(크림 시세 페이지만 확인, 근거 약함).",
+        "같은제품짝": "조건부 예: 모델 Studio Pro + 색(블랙). 국내 정식판과 미국판은 모델 번호 끝이 다를 수 있음(variant로 기록).",
+        "판정쓸모": "조건부: 직배가 되면 20만 원 안팎 vs 국내 정가 구조라 쓸모 큼. 직배 불가면 탈락."
+      },
+      "expect": "미확인(쿠팡 가격·한국 직배 확인 후).",
+      "warn": "애플 계열(비츠)은 같은 아마존에서 에어팟이 \"한국 직배 불가\"였어요(클리앙 2025.07.08). 비츠도 한국 주소로 결제까지 되는지 매니저가 먼저 확인하고, 안 되면 탈락(배대지 비용 모델은 아직 없음). 색상별 ASIN이 다르므로 비교 색을 하나로 고정(블랙)."
+    },
+    "Beats Powerbeats Pro 2": {
+      "scoutRank": 44,
+      "q": "Beats Powerbeats Pro 2",
+      "brand": "Beats",
+      "brandKo": "비츠",
+      "model": "Powerbeats Pro 2",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "B",
+      "why": "2025년 신제품이 블프에 $199로 내려옴(정가 $249). 한국 정가는 이보다 훨씬 높게 책정되는 애플 계열이라 후보. 가격이 정확히 200달러 한도 바로 아래라, 옵션·쿠폰에 따라 200달러를 넘기면 전체 과세로 뒤집힐 수 있는 점이 판정 설명 소재.",
+      "evidence": [
+        "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose",
+        "https://www.laptopmag.com/deals/headphones/airpods-earbuds/the-new-beats-powerbeats-pro-2-just-hit-an-all-time-low-price-of-usd199-at-amazon",
+        "https://www.clien.net/service/board/jirum/19019823"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.26~28 라이브 가격표: $199(정가 $249, 아마존)",
+          "url": "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose"
+        }
+      ],
+      "amazonAsin": "B0DT2344N3",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0DT2344N3",
+      "korShip": "위험: 애플 계열(위 스튜디오 프로와 같음). 매니저 확인.",
+      "aliHint": "",
+      "coupangHint": "파워비츠 프로 2 (블랙/Jet Black)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 블프 이어폰 가격표 단골. 한국 커뮤니티 글은 못 찾음(damoang 후기 글 제목만 확인).",
+        "같은제품짝": "조건부 예: 모델 Powerbeats Pro 2 + 색(Jet Black). 색마다 상품 번호가 다름.",
+        "판정쓸모": "조건부: 면세 한도(200달러) 근처라 \"한 푼 차이로 과세\" 설명에 좋음. 단, 정확히 한도 아래일 때만 직구각."
+      },
+      "expect": "미확인.",
+      "warn": "애플 계열(비츠)은 같은 아마존에서 에어팟이 \"한국 직배 불가\"였어요(클리앙 2025.07.08). 비츠도 한국 주소로 결제까지 되는지 매니저가 먼저 확인하고, 안 되면 탈락(배대지 비용 모델은 아직 없음). 가격이 200달러에 매우 가까워 쿠폰 없는 날은 초과 가능 → 초과하면 배송비 포함 전체 과세."
+    },
+    "Beats Solo 4": {
+      "scoutRank": 45,
+      "q": "Beats Solo 4",
+      "brand": "Beats",
+      "brandKo": "비츠",
+      "model": "Solo 4",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "B",
+      "why": "아마존에서 반값($99~99.99, 정가 $199.95)으로 내려오는 인기 온이어 헤드폰. 2026.06.21 기사가 \"블랙프라이데이가 이 가격에 마지막으로 내려갔던 때\"라고 적음(연도는 기사에 없음). 한국은 정가 구조가 높은 애플 계열.",
+      "evidence": [
+        "https://gizmodo.com/beats-solo-4-hits-its-black-friday-all-time-low-again-50-off-with-50-hour-battery-2000774955",
+        "https://www.techradar.com/audio/headphones/save-50-percent-on-the-beats-solo-4-and-grab-them-for-their-lowest-ever-price",
+        "https://www.clien.net/service/board/jirum/19019823"
+      ],
+      "usLastBf": [
+        {
+          "note": "블프 최저가 $99대(기사 문구, 연도 미표기) · 같은 가격이 2025.02.05에도 있었음(블프 한정 아님)",
+          "url": "https://www.techradar.com/audio/headphones/save-50-percent-on-the-beats-solo-4-and-grab-them-for-their-lowest-ever-price"
+        }
+      ],
+      "amazonAsin": "B0CZPLV566",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0CZPLV566",
+      "korShip": "위험: 애플 계열. 매니저 확인.",
+      "aliHint": "",
+      "coupangHint": "비츠 솔로 4 (매트 블랙)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 미국 블프 최저가 기사에 반복. 한국 커뮤니티 글은 못 찾음.",
+        "같은제품짝": "조건부 예: 모델 Solo 4 + 색(매트 블랙).",
+        "판정쓸모": "조건부: 가격이 20만 원 아래라 면세 안. 한국 가격 확인 뒤 확정."
+      },
+      "expect": "미확인.",
+      "warn": "애플 계열(비츠)은 같은 아마존에서 에어팟이 \"한국 직배 불가\"였어요(클리앙 2025.07.08). 비츠도 한국 주소로 결제까지 되는지 매니저가 먼저 확인하고, 안 되면 탈락(배대지 비용 모델은 아직 없음). 블프 가격 근거가 연도 없는 기사 문장이라 \"작년 블프 근거\"는 약함(B)."
+    },
+    "Bose QuietComfort Headphones": {
+      "scoutRank": 46,
+      "q": "Bose QuietComfort Headphones",
+      "brand": "Bose",
+      "brandKo": "보스",
+      "model": "QuietComfort Headphones",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "A",
+      "why": "2023년형 보스 QC 헤드폰(울트라 아님)이 작년 블프에 $199(정가 $349~359)까지 내려옴. 한국 코오롱몰 보스 판매가 349,000원(\"QC 헤드폰 아이스 블루\", 2026.11.02 확인, 1세대/2세대 표기는 페이지에 없음)을 참고하면 20% 안팎 차이가 날 수 있는 경계 후보(세대가 같을 때만 의미 있음). 이미 등록된 QC 울트라 2와 다른 모델.",
+      "evidence": [
+        "https://www.kolonmall.com/Brands/BOSE/Product/K1777522010532080NO01",
+        "https://www.clien.net/service/board/use/15511063",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.26~28 라이브 가격표: $199(정가 $349, 아마존)",
+          "url": "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose"
+        },
+        {
+          "note": "슬릭딜 2026.04.11 글 댓글: \"$199가 Black Friday 2025 가격\"",
+          "url": "https://slickdeals.net/f/19410168-199-bose-quietcomfort-bluetooth-headphones-at-amazon"
+        }
+      ],
+      "amazonAsin": "B0CCZ26B5V",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0CCZ26B5V",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17).",
+      "aliHint": "",
+      "coupangHint": "보스 QuietComfort 헤드폰 (블랙, 울트라 아님·1세대)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 보스 직구는 클리앙 알뜰구매 단골(QC35 II $199 글 등), 블프 가격 기사 다수.",
+        "같은제품짝": "조건부 예: 모델 QuietComfort Headphones(2023) + 색 블랙(method:model). ⚠ 아마존에 \"QuietComfort Headphones (2nd Gen)\"(B0GXW9C8QC)이 새로 올라와 있어 세대가 섞이면 안 됨. 쿠팡도 1세대인지 확인.",
+        "판정쓸모": "조건부 예: 코오롱몰 349,000원(세대 미표기)이 1세대 가격이면 약 24%·8만 원대 차이 가능(참고용·쿠팡 가격은 미확인). 쿠팡 할인가에 따라 애매/국내가 나음으로 뒤집힐 수 있어 헷갈리는 상품."
+      },
+      "expect": "미확인(쿠팡 가격 보기 전). 국내 참고가 코오롱몰 349,000원(색 아이스 블루, 정가 표시 없음, 1세대/2세대 불명).",
+      "warn": "2세대가 나오면서 1세대는 재고 정리·가격 변동이 큼(올해 블프 가격이 작년과 다를 수 있음). 한국 배송 표시와 색상별 ASIN 확인. 블프 직전에 세대 구분 다시 확인."
+    },
+    "Bose QuietComfort Earbuds (2024)": {
+      "scoutRank": 47,
+      "q": "Bose QuietComfort Earbuds (2024)",
+      "brand": "Bose",
+      "brandKo": "보스",
+      "model": "QuietComfort Earbuds",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "B",
+      "why": "2024년형 보스 QC 이어버드(울트라 아님)가 작년 블프에 $129(정가 $179)로 내려옴. 한국 정가는 이보다 높은 편이라 후보. 이미 등록된 보스 상품은 헤드폰 QC 울트라 2뿐.",
+      "evidence": [
+        "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.26~28 라이브 가격표: $129(정가 $179, 아마존·월마트)",
+          "url": "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose"
+        }
+      ],
+      "amazonAsin": "B0D8BZDPXB",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0D8BZDPXB",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17).",
+      "aliHint": "",
+      "coupangHint": "보스 QuietComfort 이어버드 (블랙, 울트라 아님)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 보스 블프 가격 기사 다수. 한국 커뮤니티 글은 구형 QC 이어버드 사용기(클리앙 15511063 제목)만 확인 → 근거 약함.",
+        "같은제품짝": "조건부 예: 모델 QuietComfort Earbuds(2024) + 색 블랙. 울트라 이어버드·구형 QC 이어버드(2021)와 이름이 겹쳐 쿠팡에서 섞일 위험.",
+        "판정쓸모": "조건부: 국내 가격 미확인. 쿠팡 로켓직구 상품이 있으면 국내가 나음 가능성."
+      },
+      "expect": "미확인.",
+      "warn": "이름이 같은 \"Bose QuietComfort Earbuds\"가 2021년형(구형)과 2024년형으로 둘 다 존재. 쿠팡 상품명·사진으로 2024년형(USB-C) 확인."
+    },
+    "Bose QuietComfort Ultra Earbuds (2nd Gen)": {
+      "scoutRank": 48,
+      "q": "Bose QuietComfort Ultra Earbuds (2nd Gen)",
+      "brand": "Bose",
+      "brandKo": "보스",
+      "model": "QuietComfort Ultra Earbuds 2nd Gen",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "B",
+      "why": "작년 블프에 $216(블랙만, 정가 $299)로 내려온 플래그십 이어버드. 200달러를 살짝 넘어 \"전체 과세\"가 걸리는 사례라 블프 페이지 설명용 가치가 있음(음향기기 관세 8%+부가세로 계산하면 국내 정식가와 비교가 아슬아슬한 경계).",
+      "evidence": [
+        "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose",
+        "https://www.engadget.com/deals/boses-second-generation-quietcomfort-ultra-earbuds-are-50-off-for-black-friday-130007879.html"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.26~28 라이브 가격표: $216(블랙 한정, 정가 $299, 아마존)",
+          "url": "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose"
+        }
+      ],
+      "amazonAsin": "B0F7M3HPBD",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0F7M3HPBD",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17).",
+      "aliHint": "",
+      "coupangHint": "보스 QuietComfort 울트라 이어버드 2세대",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 보스 이어버드는 블프 기사 단골. 한국 커뮤니티 글은 못 찾음.",
+        "같은제품짝": "조건부 예: 모델 QC Ultra Earbuds 2nd Gen + 색 블랙. 1세대 울트라 이어버드와 혼동 주의.",
+        "판정쓸모": "예: 200달러 초과 사례라 \"한도 넘으면 어떻게 되나\"를 보여 주는 판정."
+      },
+      "expect": "미확인.",
+      "warn": "가격이 200달러를 넘으면 배송비 포함 전체에 관세·부가세가 붙음(블랙 한정 가격일 수 있음). 색마다 가격이 다른 점 주의."
+    },
+    "Sennheiser ACCENTUM Wireless": {
+      "scoutRank": 49,
+      "q": "Sennheiser ACCENTUM Wireless",
+      "brand": "Sennheiser",
+      "brandKo": "젠하이저",
+      "model": "ACCENTUM Wireless",
+      "cat": "audio",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "B",
+      "why": "작년 블프에 $89~99(정가 $189~199)까지 내려온 가성비 ANC 헤드폰. 아마존 $99.95 딜은 2025.10.07에도 있었음. 한국 정가 구조상 차이가 날 수 있으나 국내 가격은 미확인.",
+      "evidence": [
+        "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose",
+        "https://slickdeals.net/f/18672436-99-95-sennheiser-accentum-special-edition-hybrid-anc-wireless-headphones-black-copper-at-amazon",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.26~28 라이브 가격표: Accentum $89~99(정가 $189~199, 베스트바이·아마존)",
+          "url": "https://www.tomsguide.com/live/news/black-friday-2025-headphone-earbud-deals-airpods-sony-bose"
+        },
+        {
+          "note": "슬릭딜 2025.10.07: $99.95(블랙/코퍼 스페셜 에디션 ASIN B0D4RJFCQG, 정가 $159)",
+          "url": "https://slickdeals.net/f/18672436-99-95-sennheiser-accentum-special-edition-hybrid-anc-wireless-headphones-black-copper-at-amazon"
+        }
+      ],
+      "amazonAsin": "B0CGR586KV",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0CGR586KV",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17).",
+      "aliHint": "",
+      "coupangHint": "젠하이저 ACCENTUM Wireless 악센텀 (Plus·이어버드 아님)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 블프 헤드폰 가격표 단골. 한국 커뮤니티 글은 못 찾음(모멘텀 4 글만 확인).",
+        "같은제품짝": "조건부 예: 모델 ACCENTUM Wireless(Plus 아님, 색 블랙). 아마존에 ACCENTUM·ACCENTUM Plus·스페셜 에디션·이어버드가 모두 있어 ASIN이 흩어짐.",
+        "판정쓸모": "조건부: 국내 가격 미확인."
+      },
+      "expect": "미확인.",
+      "warn": "ASIN 후보가 2개(B0CGR586KV 블랙 / B0CHFJJNZ7 블랙)로 검색에 나옴. 판매자=Amazon인 한 개를 매니저가 고르기. Plus·스페셜 에디션 섞이면 탈락."
+    },
+    "Razer DeathAdder V3 Pro": {
+      "scoutRank": 50,
+      "q": "Razer DeathAdder V3 Pro",
+      "brand": "Razer",
+      "brandKo": "레이저",
+      "model": "DeathAdder V3 Pro",
+      "cat": "it",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "B",
+      "why": "작년 블프 주간(2025.11.26) 슬릭딜에 $69.99(정가 $149.99대)로 올라온 무선 게이밍 마우스. 한국 커뮤니티에서 \"아마존 vs 11번가 아마존(11마존) vs 국내 정발\" 가격 비교 글이 반복(클리앙 2021.11.20 데스애더 V2 프로 글에서 11번가 95,000원 vs 아마존 $69.99). 마우스는 키보드와 달리 각인·축 문제가 없어 짝짓기 쉬움.",
+      "evidence": [
+        "https://www.clien.net/service/board/park/16704244",
+        "https://www.clien.net/service/board/jirum/17816941",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "슬릭딜 2025.11.26: $69.99(화이트, 무료배송, 목록가 $85 표기 / ASIN B0B6Y52YXB)",
+          "url": "https://slickdeals.net/f/18877618-69-99-razer-deathadder-v3-pro-wireless-gaming-mouse-w-30k-optical-sensor-white-at-amazon"
+        }
+      ],
+      "amazonAsin": "B0B6XZLNHQ",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0B6XZLNHQ",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17). 이 상품 한국 직배 글은 못 찾음(\"11마존\"은 11번가 대행이라 다른 경로).",
+      "aliHint": "",
+      "coupangHint": "레이저 데스애더 V3 프로 무선 게이밍 마우스 (블랙/화이트 중 하나)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 클리앙 모두의공원 2021.11.20 \"아마존에서 데스애더 v2 pro 엄청 세일\" 글에서 11번가 95,000원 vs 아마존 $69.99 비교 댓글, 11마존 핫딜 글 반복(근거 16704244·17816941).",
+        "같은제품짝": "조건부 예: 모델 DeathAdder V3 Pro + 색(블랙 또는 화이트 하나로). 무선 동글 번들(HyperPolling, B0CQ715H98)·V3 Pro Faker 에디션과 구분.",
+        "판정쓸모": "조건부: 국내 정발가·쿠팡 가격 미확인. 쿠팡 로켓직구 저가가 있으면 국내가 나음."
+      },
+      "expect": "미확인.",
+      "warn": "블랙 ASIN(B0B6XZLNHQ)과 화이트 ASIN(B0B6Y52YXB)이 다름 — 쿠팡에서 고른 색에 맞출 것. 번들·에디션 ASIN은 쓰지 않기. 화이트 $69.99 딜은 색 한정일 수 있음."
+    },
+    "Razer Viper V3 Pro": {
+      "scoutRank": 51,
+      "q": "Razer Viper V3 Pro",
+      "brand": "Razer",
+      "brandKo": "레이저",
+      "model": "Viper V3 Pro",
+      "cat": "it",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "C",
+      "why": "에스포츠 무선 마우스. 확인된 미국 가격 기록은 2026.03.20 슬릭딜 $119.99(정가 $160)뿐이고 작년 블프 가격은 못 찾음 → 근거 약함. DeathAdder V3 Pro와 같은 브랜드라 쿠팡 확인 때 같이 보기 쉬워 후보로 둠.",
+      "evidence": [
+        "https://slickdeals.net/f/19325220-razer-viper-v3-pro-wireless-esports-gaming-mouse-8-programmable-buttons-95-hr-battery-black-119-99",
+        "https://www.clien.net/service/board/use/17308466"
+      ],
+      "usLastBf": [
+        {
+          "note": "작년 블프 근거 없음. 참고: 슬릭딜 2026.03.20 $119.99(검정, ASIN B0CW25XR5R, 댓글에 V4 후속 언급)",
+          "url": "https://slickdeals.net/f/19325220-razer-viper-v3-pro-wireless-esports-gaming-mouse-8-programmable-buttons-95-hr-battery-black-119-99"
+        }
+      ],
+      "amazonAsin": "B0CW25XR5R",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0CW25XR5R",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17).",
+      "aliHint": "",
+      "coupangHint": "레이저 바이퍼 V3 프로 (블랙)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부: 구형 Viper V2 Pro 사용기(클리앙 17308466)만 확인. V3 Pro 직구 글 못 찾음.",
+        "같은제품짝": "조건부: 모델 Viper V3 Pro + 색 블랙. 8K 번들·CS2 에디션·Faker 에디션과 구분.",
+        "판정쓸모": "미확인. 후속 V4가 나와 재고 정리 가격일 가능성."
+      },
+      "expect": "미확인. 근거가 약해 쿠팡을 보고 가치 없으면 바로 뺄 것.",
+      "warn": "후속 모델(V4) 출시로 블프 가격 구조가 달라졌을 수 있음. 가장 먼저 뺄 후보(C)."
+    },
+    "LEGO Icons Dried Flower Centerpiece 10314": {
+      "scoutRank": 52,
+      "q": "LEGO Icons Dried Flower Centerpiece 10314",
+      "brand": "LEGO",
+      "brandKo": "레고",
+      "model": "10314",
+      "cat": "toy",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "A",
+      "why": "이미 등록된 보태니컬 3종(10309·10280·10313)과 같은 계열의 다른 세트. 작년 블프 주간(2025.11.21) 기사에 $34.99(정가 $49.99)로 기록. 레고는 한국이 미국보다 평균 약 43% 비싸다는 클리앙 레고당 글(2021.04.23)이 있고, 같은 글 댓글에 \"아마존에서 많이 샀지만 핫딜 아니면 배송비 더하면 국내와 비슷\" 경험담도 있어 판정이 헷갈리는 품목.",
+      "evidence": [
+        "https://www.clien.net/service/board/cm_lego/16089128",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.21 기사: $34.99(정가 $49.99, 아마존)",
+          "url": "https://www.techradar.com/streaming/entertainment/theres-a-massive-black-friday-lego-sale-at-amazon-here-are-21-deals-id-buy-from-usd6-99"
+        }
+      ],
+      "amazonAsin": "B0BGQLZ921",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0BGQLZ921",
+      "korShip": "근거 있음(간접): 같은 계열 레고 3종이 이미 한국 배송으로 등록돼 있음(레고 10309는 \"아마존 직판 품절, 제3자만\" 사례도 있었음). 이 세트의 Amazon 직판 여부는 매니저 확인.",
+      "aliHint": "",
+      "coupangHint": "레고 10314 드라이 플라워 센터피스",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 클리앙 레고당 \"레고가 가장 싼 지역은..!\"(2021.04.23, 평균가 미국 129.56달러 vs 한국 185.53달러) + 블프 레고 기사 다수.",
+        "같은제품짝": "예: 세트 번호 10314가 같으면 같은 제품(method:barcode 가능: 쿠팡 GTIN 확인). 쿠팡 로켓직구·제3자 판매자 모두 번호로 구분.",
+        "판정쓸모": "예: 국내 재고·가격이 들쭉날쭉해 직구각/애매/국내가 나음이 모두 나올 수 있는 상품."
+      },
+      "expect": "미확인(쿠팡 보기 전). 10309 사례처럼 쿠팡에 배송비가 붙는 경우 확인.",
+      "warn": "레고 세트는 단종(은퇴) 시기가 있어 올해 아마존에서 사라졌을 수 있음. 아마존 직판이 품절이면 제3자 가격이 훨씬 비쌈. 49달러 미만이면 배송비 별도."
+    },
+    "LEGO Icons Fountain Garden 10359": {
+      "scoutRank": 53,
+      "q": "LEGO Icons Fountain Garden 10359",
+      "brand": "LEGO",
+      "brandKo": "레고",
+      "model": "10359",
+      "cat": "toy",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "A",
+      "why": "작년 블프 주간(2025.11.21) 기사에 $69.99(정가 $99.99)로 기록된 세트. 한국 레고 가격이 미국보다 높은 경향(클리앙 2021.04.23 평균 약 43%)과 맞물려 후보. 49달러가 넘어 무료배송 조건에도 맞음.",
+      "evidence": [
+        "https://www.clien.net/service/board/cm_lego/16089128",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.21 기사: $69.99(정가 $99.99, 아마존)",
+          "url": "https://www.techradar.com/streaming/entertainment/theres-a-massive-black-friday-lego-sale-at-amazon-here-are-21-deals-id-buy-from-usd6-99"
+        }
+      ],
+      "amazonAsin": "B0DJ1BM44M",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0DJ1BM44M",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17).",
+      "aliHint": "",
+      "coupangHint": "레고 10359 분수 정원 (아이콘)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 레고 직구 일반 수요는 근거 있음(클리앙 레고당). 이 세트 개별 직구 글은 못 찾음.",
+        "같은제품짝": "예: 세트 번호 10359로 쿠팡과 1:1(바코드 확인 가능).",
+        "판정쓸모": "조건부: 국내 가격 미확인. 10만 원대 세트라 차이가 클 수 있음."
+      },
+      "expect": "미확인.",
+      "warn": "아마존 검색에 이 번호용 조명 키트 등 3자 악세서리가 많음 → 상품 주소는 LEGO 본품(B0DJ1BM44M)만 쓰기. 쿠팡에서도 조명 키트·세트 혼합 상품 제외."
+    },
+    "LEGO Icons Land Rover Classic Defender 90 10317": {
+      "scoutRank": 54,
+      "q": "LEGO Icons Land Rover Classic Defender 90 10317",
+      "brand": "LEGO",
+      "brandKo": "레고",
+      "model": "10317",
+      "cat": "toy",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "A",
+      "why": "작년 블프 주간에 미국 기사 $175(2025.11.21), 슬릭딜 가격 기록상 아마존 $150(2025.11.30, 정가 $240)까지 내려간 대형 아이콘 세트. 한국 레고 가격 구조(미국보다 평균 약 43%)와 맞물려 차이가 클 수 있는 20만 원 이하 고가 세트.",
+      "evidence": [
+        "https://www.clien.net/service/board/cm_lego/16089128",
+        "https://slickdeals.net/f/18907780-walmart-lego-icons-land-rover-classic-defender-90-model-car-building-set-off-road-icon-10317-for-150"
+      ],
+      "usLastBf": [
+        {
+          "note": "2025.11.21 기사: $175(정가 $239.99, 아마존)",
+          "url": "https://www.techradar.com/streaming/entertainment/theres-a-massive-black-friday-lego-sale-at-amazon-here-are-21-deals-id-buy-from-usd6-99"
+        },
+        {
+          "note": "슬릭딜 2025.11.30 가격 이력: 아마존 $150(월마트 $150 딜 글 안의 기록, 댓글엔 한때 $208 언급)",
+          "url": "https://slickdeals.net/f/18907780-walmart-lego-icons-land-rover-classic-defender-90-model-car-building-set-off-road-icon-10317-for-150"
+        }
+      ],
+      "amazonAsin": "B0BSR933M2",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0BSR933M2",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17). 부피·무게가 큰 세트라 \"한국 배송 제외\" 표시가 뜰 수 있음.",
+      "aliHint": "",
+      "coupangHint": "레고 10317 랜드로버 클래식 디펜더 90",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부 예: 레고 직구 일반 수요 근거 있음(클리앙 레고당 2021.04.23). 이 세트 개별 글은 못 찾음.",
+        "같은제품짝": "예: 세트 번호 10317 (쿠팡과 1:1, 바코드 확인 가능).",
+        "판정쓸모": "예: 가격이 높아 20만 원 한도 근처 → 쿠폰·딜 따라 한도 초과 가능성이 판정 소재."
+      },
+      "expect": "미확인.",
+      "warn": "아마존 가격 변동이 큼($150~208 기록). 가격이 200달러를 넘으면 전체 과세. 단종 가능성 확인."
+    },
+    "LEGO Icons Bouquet of Roses 10328": {
+      "scoutRank": 55,
+      "q": "LEGO Icons Bouquet of Roses 10328",
+      "brand": "LEGO",
+      "brandKo": "레고",
+      "model": "10328",
+      "cat": "toy",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "B",
+      "why": "2024년 출시 후 한국 레고코리아가 밸런타인데이용으로 출시를 알린 장미 꽃다발(10328, 2024.01.29 뉴스). 슬릭딜에 2025.04.23 $48(정가 $60) 기록. 작년 블프 가격은 못 찾음 → 근거는 올해 봄 기록뿐. 이미 등록된 10280(꽃다발)과 다른 세트.",
+      "evidence": [
+        "https://www.dailian.co.kr/news/view/1322617",
+        "https://www.clien.net/service/board/cm_lego/16089128"
+      ],
+      "usLastBf": [
+        {
+          "note": "작년 블프 근거 없음. 참고: 슬릭딜 2025.04.23 $48(정가 $60, 아마존)",
+          "url": "https://slickdeals.net/f/18270673-lego-botanicals-bouquet-of-roses-artificial-flowers-fake-red-roses-building-set-for-adults-ages-18-diy-kit-for-home-decoration-gift-for-mother-s-day-10328-48-at-amazon"
+        }
+      ],
+      "amazonAsin": "B0CGY4X222",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B0CGY4X222",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17). 49달러 미만이면 배송비 별도(이 세트는 49달러 안팎이라 경계).",
+      "aliHint": "",
+      "coupangHint": "레고 10328 장미 부케",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "예: 레고코리아 밸런타인데이 출시 기사(2024.01.29, 세트 10328) + 한국 레고 직구 일반 수요(클리앙 레고당).",
+        "같은제품짝": "예: 세트 번호 10328 1:1.",
+        "판정쓸모": "조건부: 49달러 안팎이라 배송비 유무로 뒤집힘 → 헷갈리는 상품."
+      },
+      "expect": "미확인.",
+      "warn": "아마존에 \"10328 + 다른 세트 묶음\" 3자 상품이 많음 → 본품 ASIN(B0CGY4X222)만. 쿠팡도 묶음 제외."
+    },
+    "Osprey Farpoint 40": {
+      "scoutRank": 56,
+      "q": "Osprey Farpoint 40",
+      "brand": "Osprey",
+      "brandKo": "오스프리",
+      "model": "Farpoint 40",
+      "cat": "home",
+      "source": "web",
+      "status": "web",
+      "target": "blackfriday",
+      "at": "2026-11-02T01:49:30.000Z",
+      "grade": "C",
+      "why": "여행용 40L 배낭의 대표 모델. 슬릭딜 2026.01.23에 $111(정가 $185)이고, 그 글 댓글에 \"BF 2025에 40L을 $92에 샀다\"는 사용자 한 명의 기록. 한국 오스프리 정가는 높은 편이라 후보지만, 한국 가격은 미확인이고 근거가 댓글 1개라 약함.",
+      "evidence": [
+        "https://slickdeals.net/f/19131859-osprey-men-s-farpoint-travel-backpack-55l-132-40l-111-more-free-shipping",
+        "https://www.clien.net/service/board/news/18704817"
+      ],
+      "usLastBf": [
+        {
+          "note": "슬릭딜 2026.01.23 글의 댓글 1개: \"BF 2025에 40L을 $92에 구매\"(개인 기록, 검증 안 됨)",
+          "url": "https://slickdeals.net/f/19131859-osprey-men-s-farpoint-travel-backpack-55l-132-40l-111-more-free-shipping"
+        }
+      ],
+      "amazonAsin": "B09KQ262GM",
+      "amazonCheckUrl": "https://www.amazon.com/dp/B09KQ262GM",
+      "korShip": "미확인: 한국 주소로 바꾼 상품 페이지에서 \"대한민국으로 배송/무료 배송\" 표시와 판매·배송 주체(Amazon 직판 여부)를 매니저가 확인. 참고: 한국 주소 49달러 이상 무료배송 기사(클리앙 2024.04.17).",
+      "aliHint": "",
+      "coupangHint": "오스프리 파포인트 40 (남성, 블랙)",
+      "iherbHint": "",
+      "check3": {
+        "찾는사람": "조건부: 한국 커뮤니티 글을 못 찾음. 여행 배낭 일반 수요만 추정.",
+        "같은제품짝": "조건부: 모델 Farpoint 40 + 색 블랙. 아마존에 B09KQ262GM(Osprey Europe 표기)과 B0FGXYSZBZ(신형 표기) 두 상품이 검색됨 → 어느 것이 현행·Amazon 직판인지 확인. 남성 Farpoint와 여성 Fairview 구분.",
+        "판정쓸모": "조건부: 가방은 국내 가격이 높게 유지되는 편이라 쓸모 가능. 근거 약함."
+      },
+      "expect": "미확인.",
+      "warn": "ASIN 후보 2개로 불확실, 색별 가격 차이 큼. 한국 가격을 모르는 상태라 쿠팡이 가치 없으면 바로 뺄 것(C). 배낭 관세는 8%로 계산(실제는 면세 한도 안에서 0)."
     }
   },
   "updatedAt": "2026-11-02T01:46:36.571Z"
