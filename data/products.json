@@ -1744,11 +1744,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxmVuzgy",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
     "sample": false,
-    "checkedAt": "2026.11.02 저녁",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23035,
-    "domesticKrw": 17890,
+    "domesticKrw": 17820,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1827,6 +1827,13 @@
         "from": 23320,
         "to": 23035,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 17890,
+        "to": 17820,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1841,11 +1848,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxF2x1i0",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
     "sample": false,
-    "checkedAt": "2026.11.02 저녁",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58027,
-    "domesticKrw": 35040,
+    "domesticKrw": 36890,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1917,6 +1924,13 @@
         "field": "domesticKrw",
         "from": 30610,
         "to": 35040,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 35040,
+        "to": 36890,
         "source": "쿠팡"
       }
     ]
@@ -2036,11 +2050,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BzH8wHKu",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-ultra-omega-3-fish-oil-180-fish-softgels/96436",
     "sample": false,
-    "checkedAt": "2026.11.02 저녁",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46088,
-    "domesticKrw": 34930,
+    "domesticKrw": 34920,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2064,13 +2078,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.28",
-        "field": "domesticKrw",
-        "from": 33480,
-        "to": 38130,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.28",
         "field": "domesticKrw",
@@ -2133,6 +2140,13 @@
         "from": 46657,
         "to": 46088,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 34930,
+        "to": 34920,
+        "source": "쿠팡"
       }
     ]
   },
