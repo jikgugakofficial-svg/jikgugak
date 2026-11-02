@@ -167,7 +167,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-11-01T19:22:21.048Z",
+      "at": "2026-11-02T12:34:48.777Z",
       "recordedKrw": 41230,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -175,7 +175,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-11-01T19:22:21.399Z",
+      "at": "2026-11-02T12:34:49.173Z",
       "recordedKrw": 36810,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -183,7 +183,7 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-11-01T20:12:25.651Z",
+      "at": "2026-11-02T12:34:49.571Z",
       "recordedKrw": 89620,
       "found": true,
       "apiPrice": 89620,
@@ -194,10 +194,10 @@
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-11-01T21:15:10.480Z",
+      "at": "2026-11-02T12:34:49.888Z",
       "recordedKrw": 71400,
       "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-02T11:33:00.881Z"
+  "updatedAt": "2026-11-02T12:34:50.219Z"
 }

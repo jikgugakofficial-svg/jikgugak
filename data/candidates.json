@@ -2546,11 +2546,39 @@
       "model": "Nano 10000mAh",
       "cat": "it",
       "why": "앤커 케이블 내장 보조배터리, 5000mAh 판은 퀘이사존 알리 $8.75 핫딜. 10000mAh 용량판 정발·알리 비교. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T16:28:01.780Z",
-      "status": "none",
-      "coupangTop": 10,
-      "ali": [],
-      "coupang": []
+      "at": "2026-11-02T12:34:43.132Z",
+      "status": "new",
+      "coupangTop": 9,
+      "ali": [
+        {
+          "id": "1005012230951449",
+          "title": "Anker Nano Power Bank 10000mAh PD 30W 최대 출력 고속 충전 휴대용 고속 충전기 iPhone Samsung용 내장 USB-C 케이블",
+          "price": 63600,
+          "orders": 2,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S092a88bb518949538559766a9fdff9501.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012230951449.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "7925352957",
+          "name": "Anker Power Bank/Anker Nano Power Bank 10000mAh(Po",
+          "price": 80600,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/wvhHEudgcJSKYrl8wjmpa3S0qM3l_LLNEj9cmt-3xAD4R0BDfPlLjqAKM4Qba6jcDI8cSMEi-8oj29sS2pGWO11jK8ZZvxLhjXdDJeiaIB9yqih2wg6udtYeQdrm9uQTo3bF_LEW_mQLdk9mq0ypnRVytZUvzb1z5YsSOcGXOexftCmqZo_uGjbiir1YB4XIUJvdz5QWwfQOGxF7qHCVOLtXodXJG1DD6x3Q5Ws0U257NmpYNos3jQW7zWZhL2MY-HBWxiiSGiZxxlopZQ8uCuyjeTKXq6vxNlRk-i2zcNv6nlVwVq92qCcwCzgBKkfsT-qsoUKstpvMTXQtQ-iu5DsoBO0v0nPsfkxcBn7KJ7pFD3HwOEoXFa2mdHTzno725wOkzTRqnVmWIJCOH3TnnFzzdsMOc1i-o070TutvgiLGxqjqXWFzckdeP0zQb9pBmeQwmKHMsBMjCyJGTZo9mRGZCdvTxTIm_OYiKd5gRX-A2un1WMZchCnkvXAFwhgsq_SlJrLN5-CGL7EG5hON9XHCA6iPa4v0cwebUHKkoQ==",
+          "url": "https://www.coupang.com/vp/products/7925352957"
+        }
+      ],
+      "best": {
+        "aliId": "1005012230951449",
+        "coupangId": "7925352957",
+        "aliTotal": 63600,
+        "coupangPrice": 80600,
+        "verdict": "good",
+        "diff": 17000,
+        "pct": 21
+      }
     },
     "Baseus 3-in-1 MagSafe Wireless Charger 35W": {
       "q": "Baseus 3-in-1 MagSafe Wireless Charger 35W",
@@ -2558,7 +2586,7 @@
       "model": "MagSafe 35W",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 베이스어스 3IN1 맥세이프 무선충전기 Qi2.2 35W 54,186원(알리 스토어 쿠폰, 종료). 국내 정발가 확인 전. 거치대(stand)로 표기되면 본품 필터에 걸릴 수 있음",
-      "at": "2026-10-27T17:29:23.963Z",
+      "at": "2026-11-02T12:34:47.724Z",
       "status": "none",
       "coupangTop": 5,
       "ali": [],
@@ -4730,5 +4758,5 @@
       "warn": "ASIN 후보 2개로 불확실, 색별 가격 차이 큼. 한국 가격을 모르는 상태라 쿠팡이 가치 없으면 바로 뺄 것(C). 배낭 관세는 8%로 계산(실제는 면세 한도 안에서 0)."
     }
   },
-  "updatedAt": "2026-11-02T11:32:59.195Z"
+  "updatedAt": "2026-11-02T12:34:48.774Z"
 }
