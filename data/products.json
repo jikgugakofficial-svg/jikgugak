@@ -456,10 +456,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DN5oKDg4",
     "sample": false,
-    "checkedAt": "2026.11.02 새벽 매니저 확인",
+    "checkedAt": "2026.11.02 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 26920,
+    "priceKrw": 26953,
     "domesticKrw": 21870,
     "domesticSource": "쿠팡, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -528,6 +528,13 @@
           ]
         },
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 26920,
+        "to": 26953,
+        "source": "알리"
       }
     ]
   },
@@ -2645,10 +2652,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/ib10yPa4XY",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 알리 자동",
     "slug": "ali-edifier-evobuds-pro",
     "name": "에디파이어 에보버즈 프로 (EvoBuds Pro) 노이즈캔슬링 이어폰",
-    "priceKrw": 66116,
+    "priceKrw": 66184,
     "domesticKrw": 114570,
     "domesticSource": "쿠팡 해외 판매자, 실버, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmHnoM0Mfq08w2m3iBO7fM9h5GvpSFJFDBOwqUjuEiUAWDUCyZLRcRuMJCcqdfoEyDU1S7jtMhfxAtcPRwZgDkltn6k10GZtfMdnIi0kWLog5STOsTMyIDc9B9vA2IXhMTsHOoNXBt4QcoWsiQtWiY9Ndz5FizQZncEQwJYhSkl74K7JhJORPGcSW8s2UexU1EEDNqjHcUvtQvYSS53IGXeQi0dhDEMy3LsPXA2lJlCSANe3QNixn8LRfAp1nu4dieQ5ZC4zzbMTt34LHvZfEYd7veeEH2Hz1wvRySDOsdIW3WBAMIsHZqmPYB3z2Tv307ic9WcalTogbYPXCbS0JTwDmeWLKnd0Is5LTZhj5anawroHI5x7eMG0Tre9oDGp6LfJLsUyYjkbvJ1yxWfDilvscsXXL328RlT6ZbAbjTDVQ98CptihUtQCvRRxgWxzCtiYRQgX7QD7IxSKb7VzwkS37vWeGg85NrPBPzau2HdAfN1NeTPemyGWooaVCBWUYF8jkv4fRKHj4pRC7bfgAPOCBFcpCzqKaOkaDr9d8QiPpqbvZta0jJiuCeyqrRD4MBBB8AlPIRRdq4yTTjSY3z77VZVLqIBs1sxcrGk0L2u87ZckDkU9kqAZPhl2pTMvwf5qj3OfZ8fc26DCwsYXRFGoJ4GNlgYaaAUwdOnsGQD9qTFMTVkkMvnsZxuPDWEaIhOFrlcuEYlBlA",
@@ -2730,6 +2737,13 @@
         "from": 114720,
         "to": 114570,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "priceKrw",
+        "from": 66116,
+        "to": 66184,
+        "source": "알리"
       }
     ]
   },
