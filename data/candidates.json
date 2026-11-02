@@ -2075,7 +2075,7 @@
       "model": "Clip 5",
       "cat": "audio",
       "why": "JBL 휴대용 스피커 인기 모델, 국내 정발가 대비 알리 JBL 스토어 차이 확인 가치. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T12:16:26.790Z",
+      "at": "2026-11-02T08:00:40.607Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -2461,15 +2461,24 @@
       "model": "Flip 7",
       "cat": "audio",
       "why": "JBL 휴대용 스피커 대표 라인 신제품(Flip 6 후속), 국내 정발가가 높은 편. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-10-27T13:32:30.878Z",
+      "at": "2026-11-02T08:00:44.201Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
+          "id": "1005012906079114",
+          "title": "JBL Flip 7 휴대용 스테레오 블루투스 스피커, 1:1 복제품, 강력한 사운드, IP68 방수 기능, 야외 활동용, 선물용",
+          "price": 33200,
+          "orders": 283,
+          "rating": "83.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd6033b35be34542a5d8335a4049b704N.png",
+          "url": "https://ko.aliexpress.com/item/1005012906079114.html"
+        },
+        {
           "id": "1005012951969936",
           "title": "JBL Flip 7 방수 스피커 - IP68 방진 휴대용 스테레오 시스템, 사운드 부스트 딥 베이스 기능 탑재, 아웃도어용",
-          "price": 57500,
-          "orders": 132,
+          "price": 52300,
+          "orders": 160,
           "rating": "87.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e53ac51e4924a5c86364580ee8b34ddV.jpg",
           "url": "https://ko.aliexpress.com/item/1005012951969936.html"
@@ -2477,20 +2486,11 @@
         {
           "id": "1005012960512314",
           "title": "JBL Flip 7 휴대용 블루투스 스피커 - IP67 방수 강력한 사운드 무선 야외 음악 플레이어",
-          "price": 52100,
-          "orders": 52,
-          "rating": "98.1%",
+          "price": 47400,
+          "orders": 57,
+          "rating": "94.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S174f7d34869741c0a2f2c2d58a575e3eQ.jpg",
           "url": "https://ko.aliexpress.com/item/1005012960512314.html"
-        },
-        {
-          "id": "1005013176720089",
-          "title": "JBL Flip 7 휴대용 블루투스 스피커, IP68 방수 및 방진 기능, 강력한 사운드, 깊고 풍부한 저음, 16시간 재생, 야외 캠핑 및 파티에 적합",
-          "price": 53700,
-          "orders": 26,
-          "rating": "100.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb418a605f722465dbbc160b5cd0e210fR.jpg",
-          "url": "https://ko.aliexpress.com/item/1005013176720089.html"
         }
       ],
       "coupang": []
@@ -4740,5 +4740,5 @@
       "warn": "ASIN 후보 2개로 불확실, 색별 가격 차이 큼. 한국 가격을 모르는 상태라 쿠팡이 가치 없으면 바로 뺄 것(C). 배낭 관세는 8%로 계산(실제는 면세 한도 안에서 0)."
     }
   },
-  "updatedAt": "2026-11-02T05:41:25.950Z"
+  "updatedAt": "2026-11-02T08:00:46.061Z"
 }
