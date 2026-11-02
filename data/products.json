@@ -576,7 +576,15 @@
         "to": 67180,
         "source": "매니저 수정: 자동 반영이 배송비 10,000원을 뺀 것 되돌림"
       }
-    ]
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B09Q4GWMZQ",
+      "model": "LEGO 10309 Succulents(다육식물) 771피스",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -606,7 +614,15 @@
       "다른 아마존 상품과 한 주문에 담아 $49를 넘기면 배송비가 없어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/4899605928",
-    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/0a4d/27f2ee94ab39653c5f514260e9688269f6eab7ceb18e3ba99833a11602a0.jpg"
+    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/0a4d/27f2ee94ab39653c5f514260e9688269f6eab7ceb18e3ba99833a11602a0.jpg",
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B08HW1L75J",
+      "model": "LEGO 10280 Flower Bouquet(꽃다발)",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -636,7 +652,15 @@
       "블프 할인 폭을 보고 판단하세요. 대부분은 쿠팡이 나아요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8832674019",
-    "image": "https://t4c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2025/06/11/15/5/0777b6da-f969-41ac-aecd-24bb062c8577.jpg"
+    "image": "https://t4c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2025/06/11/15/5/0777b6da-f969-41ac-aecd-24bb062c8577.jpg",
+    "match": {
+      "method": "variant",
+      "domestic": "",
+      "overseas": "ASIN B0F3PQHWTZ",
+      "model": "Sony WH-1000XM6(YY2984)",
+      "note": "쿠팡은 플래티넘 실버, 아마존 ASIN은 블랙 — 같은 모델·색만 다름(가격 같은 등급). 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -688,7 +712,15 @@
         "to": 95220,
         "source": "쿠팡"
       }
-    ]
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0B11LJ69K",
+      "model": "Logitech MX Master 3S 그래파이트(쿠팡 표기 블랙)",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -730,7 +762,15 @@
         },
         "source": "매니저 브라우저 확인"
       }
-    ]
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0014C0LUC",
+      "model": "Crocs Classic Clog 10001 블랙(사이즈별 같은 가격)",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -759,7 +799,15 @@
       "국내에 없는 한정 색상을 원할 때만 직구를 고려하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6792297030",
-    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/546431400333345-045c410e-d40c-491b-bf2c-8a11e3401ea1.jpg"
+    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/546431400333345-045c410e-d40c-491b-bf2c-8a11e3401ea1.jpg",
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0CP9Z1S51",
+      "model": "Stanley Quencher H2.0 FlowState 40oz(1.18L)",
+      "note": "색은 쿠팡·아마존 각자 최저가 색 기준(같은 등급 가격). 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -788,7 +836,15 @@
       "같은 C3S라도 ESP(에스프레소용)는 다른 모델이니 확인하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7320682315",
-    "image": "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/be44/f41b0a13c2682fa4da25e62113c7f2c2015f05232539584d746c65e768d6.jpg"
+    "image": "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/be44/f41b0a13c2682fa4da25e62113c7f2c2015f05232539584d746c65e768d6.jpg",
+    "match": {
+      "method": "model",
+      "domestic": "6959493505674",
+      "overseas": "ASIN B0CC4ZNBKL",
+      "model": "Timemore C3S(체스트넛)",
+      "note": "쿠팡 바코드 6959493505674, 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "iherb",
@@ -856,7 +912,15 @@
       "$200을 1달러라도 넘으면 배송비까지 포함해 관부가세가 붙으니 결제 금액을 꼭 확인하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8542629824",
-    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/592600798107144-b1b13ee5-140a-411c-81e5-7bcb35befc89.jpg"
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/592600798107144-b1b13ee5-140a-411c-81e5-7bcb35befc89.jpg",
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B00004SY4H",
+      "model": "Sennheiser HD 600",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -911,7 +975,15 @@
         "to": 519000,
         "source": "쿠팡"
       }
-    ]
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "017817859585",
+      "overseas": "ASIN B0FDKR293G",
+      "model": "Bose QuietComfort Ultra Headphones 2nd Gen 블랙",
+      "note": "쿠팡 바코드 017817859585, 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -941,7 +1013,15 @@
       "$200 아래라면 관부가세가 없어서 세일 때 차이가 크게 날 수 있어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/301650987",
-    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2019/09/02/12/2/c0e12dc2-a813-4e70-872c-d86f43f3ace6.jpg"
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2019/09/02/12/2/c0e12dc2-a813-4e70-872c-d86f43f3ace6.jpg",
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B00HVLUR86",
+      "model": "Audio-Technica ATH-M50x 블랙",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -971,7 +1051,15 @@
       "쿠팡 로켓배송 가격이 낮은 편이라 대부분은 국내가 나아요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8123350236",
-    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2026/04/09/9/3/967bb3f5-813a-4587-9a60-4bf5f2326724.jpg"
+    "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2026/04/09/9/3/967bb3f5-813a-4587-9a60-4bf5f2326724.jpg",
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0047BIWSK",
+      "model": "AeroPress Original",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "aliexpress",
@@ -1213,7 +1301,15 @@
       "{be}가 $49 무료배송 기준보다 낮아서 부케만 담으면 배송비가 따로 붙어요. 레고 10280 같은 다른 아마존 상품과 한 주문에 $49를 넘기면 배송비가 없어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7063125250",
-    "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/rs_quotation_api/ljm6cmc0/81ab8864595c4137afcc13e84cdfd9fd.png"
+    "image": "https://thumbnail5.coupangcdn.com/thumbnails/remote/492x492ex/image/rs_quotation_api/ljm6cmc0/81ab8864595c4137afcc13e84cdfd9fd.png",
+    "match": {
+      "method": "model",
+      "domestic": "5702017416663",
+      "overseas": "ASIN B0BGQL5B3Q",
+      "model": "LEGO 10313 Wildflower Bouquet(야생화 꽃다발)",
+      "note": "쿠팡 바코드 5702017416663(레고 공통 EAN), 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "amazon",
@@ -1244,7 +1340,15 @@
       "미국판은 국내 A/S를 받기 어려울 수 있어요. 쿠팡에는 더 싼 중국 발송 상품도 있지만 정식 유통이 아니라 따로 봤어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/6888265108",
-    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2d42/de34ba528a8c1be90129dfed16a37fb8f92b63737646a07990eba8e013a8.jpg"
+    "image": "https://t2c.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/2d42/de34ba528a8c1be90129dfed16a37fb8f92b63737646a07990eba8e013a8.jpg",
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B09VLK9W3S",
+      "model": "Samsung T7 Shield 1TB 블랙",
+      "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
+      "checkedAt": "2026.11.02"
+    }
   },
   {
     "store": "iherb",
