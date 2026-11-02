@@ -249,23 +249,23 @@
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-11-01T09:24:08.454Z",
-      "recordedKrw": 30930,
+      "at": "2026-11-02T00:11:34.052Z",
+      "recordedKrw": 31670,
       "found": true,
-      "apiPrice": 31670,
+      "apiPrice": 37270,
       "isRocket": false,
-      "diff": 740,
+      "diff": 5600,
       "result": "applied"
     },
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-11-01T10:18:36.305Z",
-      "recordedKrw": 28190,
+      "at": "2026-11-02T00:11:34.662Z",
+      "recordedKrw": 25630,
       "found": true,
-      "apiPrice": 25630,
+      "apiPrice": 25520,
       "isRocket": false,
-      "diff": -2560,
+      "diff": -110,
       "result": "applied"
     },
     "iherb-now-l-arginine-1000-120": {
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-01T23:13:55.801Z"
+  "updatedAt": "2026-11-02T00:11:35.110Z"
 }

@@ -1498,11 +1498,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
     "priceKrw": 45315,
-    "domesticKrw": 31670,
+    "domesticKrw": 37270,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1575,6 +1575,13 @@
         "from": 30930,
         "to": 31670,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 31670,
+        "to": 37270,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1589,11 +1596,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BoGlkQCW",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-milk-thistle-extract-300-mg-200-veg-capsules/13870",
     "sample": false,
-    "checkedAt": "2026.11.01 쿠팡 자동",
+    "checkedAt": "2026.11.02 쿠팡 자동",
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33318,
-    "domesticKrw": 25630,
+    "domesticKrw": 25520,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1664,6 +1671,13 @@
         "field": "domesticKrw",
         "from": 28190,
         "to": 25630,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.02",
+        "field": "domesticKrw",
+        "from": 25630,
+        "to": 25520,
         "source": "쿠팡"
       }
     ]
