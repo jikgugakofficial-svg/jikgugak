@@ -1,11 +1,11 @@
 {
   "approved": false,
   "approvedBy": "",
-  "schedule": "2026-11-05T03:22:00Z",
+  "schedule": "2026-11-05T00:22:00Z",
   "series": "2026-10-29-th-daily (오늘의 판정, 11/2 재작성)",
   "movedFrom": "content/2026-11-01-th-t13 (11/1 운영자 쉬기, 숫자·첫 줄 새로)",
   "livecheck": {
-    "checkBy": "2026-11-05 12:20 KST 전(12:23 실행분)",
+    "checkBy": "2026-11-05 09:20 KST 전",
     "page": "https://www.jikgugak.com/p/ali-qcy-t13-earbuds",
     "items": [
       {

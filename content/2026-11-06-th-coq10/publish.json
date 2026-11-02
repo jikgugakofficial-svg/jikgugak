@@ -1,11 +1,11 @@
 {
   "approved": false,
   "approvedBy": "",
-  "schedule": "2026-11-06T03:22:00Z",
+  "schedule": "2026-11-06T00:22:00Z",
   "series": "2026-10-29-th-daily (오늘의 판정, 11/2 재작성)",
   "movedFrom": "content/2026-10-31-th-coq10 (10/31 확인 못 해 쉼, '16개 중 1개' 문구 틀려서 새로 씀)",
   "livecheck": {
-    "checkBy": "2026-11-06 12:20 KST 전(12:23 실행분)",
+    "checkBy": "2026-11-06 09:20 KST 전",
     "page": "https://www.jikgugak.com/p/iherb-cgn-coq10-100-360",
     "items": [
       {
