@@ -124,7 +124,7 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-01T18:12:07.598Z",
+      "at": "2026-11-02T10:38:32.498Z",
       "recordedKrw": 53960,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -427,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-02T09:39:31.207Z"
+  "updatedAt": "2026-11-02T10:38:33.212Z"
 }
