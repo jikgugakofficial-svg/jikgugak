@@ -49,11 +49,11 @@
     "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.11.02 쿠팡 자동",
+    "checkedAt": "2026.11.03 쿠팡 자동",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 27606,
-    "domesticKrw": 26640,
+    "domesticKrw": 26110,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -77,13 +77,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.10.28",
-        "field": "domesticKrw",
-        "from": 26460,
-        "to": 23430,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.29",
         "field": "domesticKrw",
@@ -146,6 +139,13 @@
         "from": 26760,
         "to": 26640,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.03",
+        "field": "domesticKrw",
+        "from": 26640,
+        "to": 26110,
+        "source": "쿠팡"
       }
     ]
   },
@@ -160,11 +160,11 @@
     "domesticUrl": "https://link.coupang.com/a/h1C2dCAIbQ",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
     "sample": false,
-    "checkedAt": "2026.11.02 저녁",
+    "checkedAt": "2026.11.03 쿠팡 자동",
     "slug": "iherb-now-vitamin-d3-k2-120",
     "name": "나우푸드 비타민 D3 & K2 120캡슐",
     "priceKrw": 11505,
-    "domesticKrw": 12440,
+    "domesticKrw": 13110,
     "domesticSource": "쿠팡 로켓직구 1개(120정) 배송비 포함(와우 무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -204,6 +204,13 @@
         "from": 11647,
         "to": 11505,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.03",
+        "field": "domesticKrw",
+        "from": 12440,
+        "to": 13110,
+        "source": "쿠팡"
       }
     ]
   },
