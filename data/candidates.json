@@ -5433,7 +5433,338 @@
         "diff": -213019,
         "pct": -526
       }
+    },
+    "FiiO GIGAS1": {
+      "q": "FiiO GIGAS1",
+      "brand": "FiiO",
+      "model": "GIGAS1",
+      "cat": "audio",
+      "why": "루리웹 알리 이어폰·DAC 모음에 FIIO(JadeAudio) GIGAS1 헤드폰 앰프 50.89(26.10.01), 45.75(26.10.13). 상품명이 JadeAudio로만 적힐 수 있음",
+      "at": "2026-11-03T06:36:02.408Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005012583052461",
+          "title": "FIIO GIGAS1 클래스 AB 고출력 헤드폰 앰프, 개별 트랜지스터 설계, 4600mW 밸런스드 출력 전력, 4.4mm/3.5mm",
+          "price": 70300,
+          "orders": 274,
+          "rating": "97.9%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S16337209fc3f4fb99dfdf0138aff0a5aP.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012583052461.html"
+        },
+        {
+          "id": "1005012641973752",
+          "title": "FIIO GIGAS1 클래스 AB 고출력 헤드폰 앰프 이산 트랜지스터 디자인 4600mW 밸런스드 출력 전력 4.4mm/3.5mm",
+          "price": 82600,
+          "orders": 15,
+          "rating": "93.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S783bc0c888294c69ae18e2ff9ac70feeJ.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012641973752.html"
+        },
+        {
+          "id": "1005012847915236",
+          "title": "FiiO GIGAS1 자이언트 시리즈 JT7 4600mW 고출력 데스크탑 헤드폰 앰프 알루미늄 합금 3.5mm/4.4mm 입력 PC 액세서리 선물",
+          "price": 85800,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf912735cefa54c80a314138dbd04279dA.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012847915236.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9683456836",
+          "name": "[CTK] 피오 FiiO GIGAS1 자이언트 헤드폰 JT7 데스크탑 전력 증폭기 이어셋 4600mW+4600mW",
+          "price": 67010,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/uo97nRhmXuU4nDDounhBVApoZK21i_zlPoJQeGLf1Q8JIZq4OeOaHKHLXeR1F2kVRNePMzoXNph02LIokfXOACatOB4eG0D0RFJl5BQAXii5PbvsSzG4KDmyGgD_J9l1a-X394YG2ZFXd8NLuVmWvorE7u5fD618T1o2B5WPjO0EcDhXl4EDMuHow5aU4eYZXJ0z2quQ5hsA-D9IZVuHka1Gt6KFc-YIuyaMl1p1N-u6qkpbaXNvREwPkmP6qrPhed8Q_q7-IwXTeiT3PL7uPoD1wHrxbGs3WDmga2YoOSXe_fs6IUaXAxctq9_BuCjZVzjfX8UVlHL-NvV-2CYuyt9Q7T9_Fs-h8i_tnv9Gdxz6z8TCyi0x8XSxJuYzZm3EdisvGOG82xHWFocbBMD6SSOwVt9bqgk2rJ27o2aj6FItxSUMaUhW2x0jqTQhvhXIrMzw0az_bMBJ0grYnx4GJ5v3H9Yzb7BxKhpg6NatAq5fxHDo0erdgDWmL-1OsE8tefeY9f2emHpHwvW9HwGKoS4IlF1QTOQ-0TxATlnAbGbkDPbn",
+          "url": "https://www.coupang.com/vp/products/9683456836"
+        },
+        {
+          "id": "9683456836",
+          "name": "[CTK] 피오 FiiO GIGAS1 자이언트 헤드폰 JT7 데스크탑 전력 증폭기 이어셋 4600mW+4600mW",
+          "price": 70690,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/RnS4FY9jBXV1-bfsRmT-nqtuJpWn36QcGDrlyjgacI84Cbg1nzURuMcyJsqbS2xsjvzqNEtNRxSMk1cDiDIKl7CEznZekmsjYCxbuV21ZcAfBAFkuugY1CrZ0S4exMYZAbn9QALbbXeYb8TkX2Nr7cuscfiX_thBC2__7fHEo4iRG6OfRGz0cfbSnp9K_JULT1-QG2FBMPSG43a_HVFqxFcTmnoYdQcXU1DeJTNLcTA6OZX8UXPlPsOr7jP4HS4Y84vo7p6zioqSxjwU6dHAtqQ3FuSXoJYlGUzU5cFdc4Ho-f3taYzLx2ei7fzilvZsRUPzlNZMUtmLbUztMFheH34I2WPBw6W-DufC_h4h2D7Hqc3ijprd0I8le8C17uOAbSsesRj2rmnyxNcHfr5gfdjEXaebS9HR5Cx_P26c-QTlMC3rBf6Fx0kDVUe38OKDuF5wolvh5ogJb7oBtoPfUNlz5scAgakoMi0FJMIi6YipWmmQJDwYBp6FJlhBhNEhZ7pOJyzHPG5LCGK4fykfI38gGVfXmV4tFiXM0IOuIE9vTw==",
+          "url": "https://www.coupang.com/vp/products/9683456836"
+        },
+        {
+          "id": "9615227498",
+          "name": "[CTK] 피오 FiiO GIGAS1 자이언트 헤드폰 JT7 데스크탑 전력 증폭기 이어셋 4600mW+4600mW",
+          "price": 84900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/OMhPpi3GmDstens1OIuuMYz5evJy5-wAKr-fzvW-F3QCw4vq29NuASJqNcZ6aKoKHUkGVVjpGiuDRmT5xeD98em5Cz0X9HTn4Yau4BV7NGoZnRUe0SFgvLmdLKNZOrrD5bfr66im-0GNg0AY3Af39Qel2awIor016MRoVMBM-jSD5866ltgpP1nCcGvYPpR6GTPOg-aMubcnTkAjbFtiK9jTVuw9IqZl-ge6xuaQjcfTuQ3Uf1hKvRrIzSuxDdwhYdSeKJHw5k5uwmryHjIvZKDSXJ-IB1GBFZorXu1BlbeWVdFelByF4R_0YJRm_U2uhVpu_a3Vk_uhlmWFuZ1b7TMXY_WMFGSfGjUS1G6ULuVB30b4ZOB4z9iHNM7gv_SSDeJJKWAcn77z60vi3VlGcqGX7GC_FJBbd6QnKVXJuP5qbqBnQWV9rGdl_c2BbmPXrx6dhiEyRI9FoKj1q7GcB4zHanKjtYFNpwjkb9GpxpBwMpJTqFzarVN-HV4kVE5ITeffs7tJO5EGCeaGhfu4TfQ_NMzU0m24qNDJDwgCoVqhXwaA",
+          "url": "https://www.coupang.com/vp/products/9615227498"
+        }
+      ],
+      "best": {
+        "aliId": "1005012583052461",
+        "coupangId": "9683456836",
+        "aliTotal": 70300,
+        "coupangPrice": 67010,
+        "verdict": "bad",
+        "diff": -3290,
+        "pct": -5
+      }
+    },
+    "Moondrop CHU 2": {
+      "q": "Moondrop CHU 2",
+      "brand": "Moondrop",
+      "model": "CHU 2",
+      "cat": "audio",
+      "why": "퀘이사존 알리 수월우 츄2 유선 이어폰 $12.33(24.10.01). 마이크 유무 옵션 맞출 것, 상품명이 CHU II로 적힐 수 있음",
+      "at": "2026-11-03T06:36:07.427Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005006499470555",
+          "title": "MOONDROP CHU II / CHU 2 성능 다이나믹 드라이버 이어폰 IEMs 교환 가능 케이블 이어폰 형 헤드폰 HiFi 음악 이어 버드",
+          "price": 33600,
+          "orders": 957,
+          "rating": "95.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71478de1cc0042f1b3e41ec3f5d2177dg.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006499470555.html"
+        },
+        {
+          "id": "1005012708716286",
+          "title": "0.78mm 2핀 밸런스드 케이블 (Moondrop Lan May Chu II Aria 2 16코어 블랙 골드 소프트 헤드폰 IEM 업그레이드 와이어, 마이크 케이블 포함)",
+          "price": 20450,
+          "orders": 5,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S24b7981eab544b6486c446661e0c0de60.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012708716286.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Moondrop CHU III": {
+      "q": "Moondrop CHU III",
+      "brand": "Moondrop",
+      "model": "CHU III",
+      "cat": "audio",
+      "why": "루리웹 알리 이어폰 모음에 Moon-drop CHU III 23.99(26.10.01), 21.60(26.09.01). 마이크 유무 옵션 맞출 것",
+      "at": "2026-11-03T06:36:10.944Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005012952689349",
+          "title": "MOONDROP CHU III 이어폰, 알루미늄-마그네슘 합금 돔 복합 다이어프램 다이내믹 드라이버 LEMs CHU3",
+          "price": 29400,
+          "orders": 1837,
+          "rating": "97.4%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6b1ea8b6cf274b06b6c0fecf2a96101dx.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012952689349.html"
+        },
+        {
+          "id": "1005012965884797",
+          "title": "MOONDROP CHU III 인이어 이어폰 HiFi 다이나믹 드라이버 IEM 알루미늄 마그 돔 다이어프램 유선 이어버드 3.5mm JM-1 CHU3",
+          "price": 29990,
+          "orders": 401,
+          "rating": "99.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0255837ca47e45199b3964291be9a5d6X.png",
+          "url": "https://ko.aliexpress.com/item/1005012965884797.html"
+        },
+        {
+          "id": "1005012952787433",
+          "title": "알루미늄-마그네슘 합금 돔 복합 다이어프램 다이나믹 드라이버가 장착된 MOONDROP CHU III 이어폰 lEMs CHU3",
+          "price": 29400,
+          "orders": 334,
+          "rating": "94.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4f2679471356480f83a83a95773b4338c.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012952787433.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9709139474",
+          "name": "MOONDROP CHU III 하이파이 유선 헤드폰",
+          "price": 30010,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/O_0mpKoLpQ2phBLnO85nFK2RL9fgT9jIV024yvcpaqP52U391t3a46J8YbJv9HbqPH0srodxVhofnELMUh4dtZRJr1FkK11PK-FqcIcNLSLUyrQ1kLfDM_fuK57hH62Vi2k0ppo6TGlwPvGRxmKTT-0CHSbf1AKacDg4_M38jXK6vrn289POc7epPOlF1MRUfZPmkQ2A9iyWUERw4Y5o1JeJ1Kk3Nym-qWUnfxzFSt0Pjzso0bytmaTKW4hCw3JWrtoAnU1x98TzulHIkvoLYJX8rlvmgaFmC7nfdtzNAe10SzY6K982fnoH590XLaYukdpkb0I6aAghbVnlE5gKkyT4fFXpsN4JjOsrZU5OdSUfichGVyqj0mQJYtL0PMX_hqdVPrTnwnBU0hughE2q4ZnGuXAC3uSAadGmCpO-fYMMSpmQn5y8va6_nAyYEa1KtnZ3Zqfsuq5YXGEbfC5v9JE03XhY82QIM5DaW4phd-V0HteIXPdVrnc7lDuvmlIMuHyAn0dDos_L-ASBYpnkXBUJ9hlnJLdhW30EuK6MZPVVnQ==",
+          "url": "https://www.coupang.com/vp/products/9709139474"
+        },
+        {
+          "id": "9709139474",
+          "name": "MOONDROP CHU III 하이파이 유선 헤드폰",
+          "price": 31900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/FjNnJPoh3jY9Ij9hFl3KxwruJlNOMrJzfWsO1mWxVX3-D3HD_zNjqB-5J-QqRcGCRls_yAyJAux9SSK1-4cULn481bz5aYZEOWP4j-t8P_SwJkuFSFP8i1-DufS-Qflltg3ygzzaWejVXvhqqd7n9vy_f65crx513827yXiwN0RrG8GCMssMlVjL7NXPsJGntGr6mTTrQZQKLWkNmVdlW_nqYR34057NFfOnmOwM94RmUwHb3YvQwE-8spZh3r2T6g16f3j_dEdrEDLTnqDScuyl1BJUXHS2HUJXNxQI5k31O2o8BLAsS6FQ-HrrrIXfNwEqX6LcLTdCvLo6uAX1zRd8MdkD9NE5S1DFCgNQbE8_QLvRtoDdneARW6NXVhqGtFfpWDL1J9P0K1dIPja2_hTLCmsgBHbGtmPv0b_PABltFNftDQlhMOHwQc9HEcFmE_DkpKuxl9a9gtj_McV0hrJsuFmFqXnzSixtBFU4P8heqXXfWYV0NlMzG8doxGqpDLQCU5awnNgvvjWWAiAzDk5h-ITvBXlcYRJH0ReHKBjcNcc=",
+          "url": "https://www.coupang.com/vp/products/9709139474"
+        },
+        {
+          "id": "9710703022",
+          "name": "XUAN 환우의 빠른배송 수월우 MOONDROP CHU III 3 하이파이 인이어 이어폰 헤드폰 게임용 음악용 환우의 빠른배송",
+          "price": 31900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/7ESmRyrUl04UXnZf7JH5sBBZo1BRJbvBhiD7CQ7g6WtvFok0clejS4PZ81WPXEaPeMhsD2CSCkuH9Zf9UNdI2L4ZzJfAK5RjXT8aslX-9kVvHBRcb54wjm01PnXmqI_-qBrfUQwOVd3caHkHmJcTVEpoRt00LVWsUS6a3hhQ1FWrIcVLqy6bizK5nmvSTLZKGeibaBt0I7A6yHmi85aRPCRhfxMhvroekm79GwUucvupuSNJyisO6K_m285-zQnkPt7OsBfqFyo4Iu-HxMYHxWhBky4hjjBPgRFxZUSTpqnw20WQUEywmUDfSzFpvSLXc4pdOExMN3KlWzIANoa8SuKIuuhNX_cCeFjyv-85bqGibXa0OL3JBKB025wZrDrprt2OCC-ibFZjTvjk_Aji4xfLsU9gjOhJRbNOh9xK3Qd1Zl6dGF_Q7OOCXkMD3hd91bqNYura7RFNn4DUzsmBXN3FhT_Boo9QTrlrQ6OF4aPKY4yOTiBT_RYyh8AQDGtQhH2tkWHo4vQ5IiaYc2HhRiX9lk2msqpEdRLtauOBIHPTqiUT",
+          "url": "https://www.coupang.com/vp/products/9710703022"
+        }
+      ],
+      "best": {
+        "aliId": "1005012952689349",
+        "coupangId": "9709139474",
+        "aliTotal": 29400,
+        "coupangPrice": 30010,
+        "verdict": "meh",
+        "diff": 610,
+        "pct": 2
+      }
+    },
+    "Moondrop Aria 2": {
+      "q": "Moondrop Aria 2",
+      "brand": "Moondrop",
+      "model": "Aria 2",
+      "cat": "audio",
+      "why": "아카라이브 헤드폰 채널 '쿠팡직구한 아리아2' 글로 쿠팡 판매 확인(글 날짜 확인 못 함) [근거 약함]",
+      "at": "2026-11-03T06:36:14.966Z",
+      "status": "no_coupang",
+      "coupangTop": 5,
+      "ali": [
+        {
+          "id": "1005006182121651",
+          "title": "MOONDROP ARIA 2 이어폰 고성능 IEM 이어버드(분리형 케이블 포함) 0.78mm 2핀 3.5/4.4mm 플러그 ARIA2 이어폰",
+          "price": 119900,
+          "orders": 644,
+          "rating": "95.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb253aaecb41d49199f23c656e6aa3593l.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006182121651.html"
+        },
+        {
+          "id": "1005008551821511",
+          "title": "MOONDROP ARIA 2 이어폰 사전 주문 고성능 IEM 이어버드 탈착식 케이블 0.78mm 2핀 3.5mm 플러그 아리아 2 이어폰",
+          "price": 119900,
+          "orders": 77,
+          "rating": "97.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3bab2bb333fc4755b8d2b683f5500ac16.jpg",
+          "url": "https://ko.aliexpress.com/item/1005008551821511.html"
+        },
+        {
+          "id": "1005006182220791",
+          "title": "MoonDrop Aria 2 이어폰 고성능 LCP 다이어프램 다이나믹 IEM 3.5/4.4mm 이어버드 0.78 2핀 ARIA2 이어폰",
+          "price": 119900,
+          "orders": 11,
+          "rating": "95.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc218377a7cf14911809572b45044c5d6X.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006182220791.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Moondrop Space Travel": {
+      "q": "Moondrop Space Travel",
+      "brand": "Moondrop",
+      "model": "Space Travel",
+      "cat": "audio",
+      "why": "아카라이브 핫딜 후기 채널 수월우 Space Travel 후기(글 날짜 확인 못 함). 색 옵션 맞출 것",
+      "at": "2026-11-03T06:36:19.189Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005005881308243",
+          "title": "Moondrop Space Travel TWS Bluetooth 5.3 이어버드 13mm 향상된 다이나믹 드라이버 IEM 이어폰형 이어폰 소음 제거 헤드셋 SBC AAC",
+          "price": 36000,
+          "orders": 13,
+          "rating": "72.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0bc3e8041d9b451f98868ddd785b0ab4y.jpg",
+          "url": "https://ko.aliexpress.com/item/1005005881308243.html"
+        }
+      ],
+      "coupang": []
+    },
+    "Moondrop Starfield 2": {
+      "q": "Moondrop Starfield 2",
+      "brand": "Moondrop",
+      "model": "Starfield 2",
+      "cat": "audio",
+      "why": "아카라이브 핫딜 채널 수월우 스타필드2 알리 핫딜 글(글 날짜 확인 못 함, 가격은 날짜 미확인이라 생략). 후속 Starfield III와 구분",
+      "at": "2026-11-03T06:36:22.885Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "9703789676",
+          "name": "린솔 Linsoul Moondrop Starfield 2 이어폰 유선이어폰 하이파이 IEM 커널형 음향기기 해외직구 정품",
+          "price": 266000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/0-A8Z1S23-i0ch8i0yzb2Av4nBzigjn4ssBvtjH-UsDdvhPJNdEnwuZgS0U0fwk7_aGMdxFr8lcUlJFIF_MI_UwwuvCWwsp7-B_D-44xMYJtYROuSF6g0NZxLxA2edK-LrG1FU8y2XgPw0KX2isEgM2kp21w1PfVCmCPHSbBueo6e6-4efmXhekqJVr0ayRpKIjKMoYQZQVhxOqGW61oRxSm8ZxFWa64vs9YqXzbfvVoR4SvPt5LpDbCXEvVsBv5goaZtS2NBGYE_R3PQOwhvNaoyMTXqhNCfFIs9qoCL0mM3SSU4nBnlLygftBsBH76WKrQ8IsLpyVJKwlvo4hYu2tijKsGHSaAzKcHx8ecQZr2u2pyZeJlsW_aAUafTJ7PCsYjNdAoLs6x8gFjDo-TJWIEGKYZCgEkbvHGSvchSc2133lmxFm4OKDOg4EixNfeDwpcsfvgrzhXy2Csah1ei21_U_bbNy4qNFgVlfs8LxrLw-LvpUQaI4FX0_MtcxNVnPn55_U4o75DacaKy9eUGibWhrtCPUw0TbdPy35z4a9Cess=",
+          "url": "https://www.coupang.com/vp/products/9703789676"
+        }
+      ]
+    },
+    "KZ ZSN Pro": {
+      "q": "KZ ZSN Pro",
+      "brand": "KZ",
+      "model": "ZSN Pro",
+      "cat": "audio",
+      "why": "클리앙 KZ ZSN PRO 사용기, 약 $20 구매(19.04.08). 오래된 근거라 현재 판매·후속 ZSN Pro X와 구분 확인 필요 [근거 약함]",
+      "at": "2026-11-03T06:36:27.188Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005010379176165",
+          "title": "KZ ZS10 Pro X 인이어 유선 이어폰 음악 헤드폰 하이파이 베이스 모니터 이어버드 스포츠 헤드셋 KZ ZSN PRO AS16 PRO AS12 ZSX",
+          "price": 31700,
+          "orders": 2359,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf8ca78e5f5504fdf8b760a4eeb7b10dcn.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010379176165.html"
+        },
+        {
+          "id": "1005006782753945",
+          "title": "KZ ZSN PRO X 1BA+1DD 하이브리드 드라이브 HIFI 메탈 이어폰 스포츠 소음 차단 이어버드 헤드셋 KZ ZAX ZSX AS10 ASF AS16 AS06",
+          "price": 14750,
+          "orders": 1946,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4052be9feb4436d94bf82f245c7e2119.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006782753945.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "8502968328",
+          "name": "KZ ZSN PRO 2 , 1BA+1DD 하이브리드 드라이버 IEM, 뛰어난 주파수 응답 & 새로운 크로스오버 디자인",
+          "price": 28500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/z8AkdH_fLiHhBwgAz1iMdf2umvpHFLQRUWMUOgDH-po5Uxb7QpUb_mVAHmB1Cz1JWEye4Hzg0uhMRTHiRAlI3GJ5cyEeZ7pTFbIFY7SLgQwccyZpg47EcyUamSuN_IhLDPGdt7f42gZbWG9HjORSwm9n-3nKG0WCV49as6HgjaSD3HPhSQiIPGjhYj6a0pSIV-8-EKTqdk_uKBkfxAA36yZEjNkWAScIvV19KbSrTu1f8QUDSwkpyveTdPQBsOpKdZYqiR7u0o3BpKQxj02ANUCAvuLKN-0eCBHpd4xBf9e2Tn5iGDHZ4CzpgIMje4EDyLo1x742gZdvbnCFSr2HGIQHLSDasP6fJyBZSUncFdZmoeJuUAc91adF4vPzXRlGXZ2DQHdkZrqLQSY6tdjHtFy0aMzDT9naLlj9qy31OgXVnMm3MXLpe5HPDMhIWHRf9XDXyWN82AqRbFjruoj6oj3S8IKAKDyb4_Xpe4Il7Em1L6GH2l_zqfkxeqqIgXyASADWSBk6UNLBvjU6KXBnCvnAqGTBi6nvLrZxINEqMBaKN4kM",
+          "url": "https://www.coupang.com/vp/products/8502968328"
+        },
+        {
+          "id": "8052107518",
+          "name": "KZ ZSN PRO X 1BA 1DD 하이브리드 드라이브 HIFI 메탈 이어폰 이어폰 베이스 이어버드 스포츠 소음 차단 헤드셋",
+          "price": 49500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Hxe6T3qAnxMntMNxH5BwXinoEMHJWq-HZw3GfZRnSVbKUl2CAFA5mBty2kBJIuD0s_XvHqSxM-L60FEeqN-iCG3z7-qSoy2GmKvMq3PcJAlvVNPdYnMPlRphDwKKboOvI-D6f7MQdjDFKwLkPLpn674GMmn4gFi9P2NbDMh0iwTBDF15IjK9YhfcVugYqjYCLoKf3Jp9qpb18UY0vwzGUugSMhx5m-v3q2Y0yaE0X6EqErhWnEjV2XIRjzpOLp54zFWka-M2dJYD5mAa8xXso4MLXxJlhuWg1Ez4NRXgBTZTipPZn3cpHfKgQY3p65HL4QMKi4BKRM93IL170FtLr3zcpClpovOqllkjTXAc5BQPzl8thJhC_rZbKkpCzAEJ_1sJI6RidLppj0oHIaUHeiwYeaBwRmia-nR0CYnSH2F8e2ALKBgETyld-Et-rfpz3wGxcP-QyaIMMhOConBEZNhOX8OmdGHeIXURcQ2Cb3b1UFJd-f4NhZVcVbQezXONxyKEBCB4AEfO79Vz3f6eRnHL1BC9YRWr49zilyj_Tse8VEf1",
+          "url": "https://www.coupang.com/vp/products/8052107518"
+        }
+      ],
+      "best": {
+        "aliId": "1005010379176165",
+        "coupangId": "8502968328",
+        "aliTotal": 31700,
+        "coupangPrice": 28500,
+        "verdict": "bad",
+        "diff": -3200,
+        "pct": -11
+      }
+    },
+    "Soundpeats Capsule3 Pro+": {
+      "q": "Soundpeats Capsule3 Pro+",
+      "brand": "Soundpeats",
+      "model": "Capsule3 Pro+",
+      "cat": "audio",
+      "why": "클리앙 체험단 사용기(24.07.30, 본문에 쿠팡 링크 있음)와 루리웹 알리 이어폰 모음(26.07.01)에 Capsule3 Pro+ 언급",
+      "at": "2026-11-03T06:36:31.001Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
     }
   },
-  "updatedAt": "2026-11-03T05:33:03.706Z"
+  "updatedAt": "2026-11-03T06:36:34.829Z"
 }
