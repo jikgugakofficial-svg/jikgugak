@@ -4998,7 +4998,442 @@
         "diff": -7300,
         "pct": -17
       }
+    },
+    "QCY T13 ANC": {
+      "q": "QCY T13 ANC",
+      "brand": "QCY",
+      "model": "T13 ANC",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY T13 ANC 18,816원(코인+코드, 26.04.09). 등록된 일반 T13과 다른 모델(댓글엔 T13 ANC2 언급, 세대 확인 필요)",
+      "at": "2026-11-03T05:32:31.835Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005010285535355",
+          "title": "QCY T13 ANC 이어폰 Bluetooth 5.3 능동형 소음 제거 무선 헤드폰 4 마이크 ENC TWS 이어 버드 0.068s 낮은 대기 시간 30Hrs",
+          "price": 25600,
+          "orders": 4874,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb880d43f65af45a1bf3c428c35003bd1E.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010285535355.html"
+        },
+        {
+          "id": "1005005222129894",
+          "title": "큐씨와이 T13 ANC 무선 이어폰, 블루투스 5.3, TWS ANC 노이즈 캔슬링 헤드폰, 4 마이크 ENC 헤드셋, 인이어 핸즈프리 이어버드",
+          "price": 27250,
+          "orders": 2404,
+          "rating": "96.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e9026a3fcfd4afd89b16c4b5b78c9caA.jpg",
+          "url": "https://ko.aliexpress.com/item/1005005222129894.html"
+        },
+        {
+          "id": "1005009559267301",
+          "title": "QCY T13 ANC 이어폰 Bluetooth 5.3 능동형 소음 제거 무선 헤드폰 4 마이크 ENC TWS 이어 버드 0.068s 낮은 대기 시간 30Hrs",
+          "price": 26242,
+          "orders": 1980,
+          "rating": "96.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S094e54c37d01434b86d7f7869125e1886.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009559267301.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "7273823749",
+          "name": "QCY 노이즈 캔슬링 블루투스 이어폰, QCY-T13 ANC APP, 블랙, 7시간",
+          "price": 28200,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/O5HBoMlyeap1kg9JO0Rykruj1t2nn80bjrZgLhAFGjnem7SzF1t59HHy-TNGCnIIPKUPH7nvZpKsMFVCOjWkeUHPYaZbA3ZnBUwzQeWKcm1iI7VGYp3rqA5KAr9Lg2rT4uGa0KosqV-80a3XblVbiPN9mDm4Vfd1Dm_cU1gS7M4cVEC9AzgdRYDUo6RIFLWqcLKT1Mj2gDwJg1dMZFNcgagBVS5aOkR2TyerIOt-eVThglMxf0oKOYORS1_6VFQ4ZOwlhQ02XZG1lIkgmvHt4TlKyYdHJBOEP8a6OXuhQ2vFifTRcbS8vInFQENXF8CAP7cggAtu1IifAHFQlrkdNsg0woVNnpV2oRyEkKZ6kjdNQMWJs9KjwrQTqkC_RuwvQ4dDUpiG6KL_vbslqpwlXWxY0YzOWfKC2FBCLkDP-rXgL9tdivuTpAVZFrbEz8MrpJ5cFp9kg73TYcbQzILDhh2ovkDPh1fvVs7goaFpmembjbqkN4jV0UpuatfpXNsNFTQavYEYcbrDJbIsoUXn5aj-i2ITlNU1sSRwS5VR5Pj6UA==",
+          "url": "https://www.coupang.com/vp/products/7273823749"
+        }
+      ],
+      "best": {
+        "aliId": "1005010285535355",
+        "coupangId": "7273823749",
+        "aliTotal": 25600,
+        "coupangPrice": 28200,
+        "verdict": "meh",
+        "diff": 2600,
+        "pct": 9
+      }
+    },
+    "Edifier MR5": {
+      "q": "Edifier MR5",
+      "brand": "Edifier",
+      "model": "MR5",
+      "cat": "audio",
+      "why": "루리웹 알리 에디파이어 MR5 스피커 $89.49(무배·코드+코인+결제할인, 26.11.01). 광군제 중 반복 핫딜",
+      "at": "2026-11-03T05:32:35.881Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "8797237900",
+          "name": "에디파이어 MR5 트라이앰프 파워 스튜디오 모니터 스피커 글로벌버전 유럽형 플러그 220V",
+          "price": 135000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/M2HNoVuMPFzqhienM6kNgo08Ajz0z7okUcjzdH0vpaokvPBKl6OuZYQDSz3AoZKnP1axy_4_t3vcqQiq9yU3BpkKv9r-yBEIShgl6jkkNVdqvj39kK40B4DsOrkYQHKIKm9FaUu7PifZKiVkL-MV8wAA-vBi6E79n0mgLv4dYVduRQrhRY9NG7VQCHXFawbXee1nrpHv2aiAYe-DtJfzO5qnhFeE-iFMh9lOrP6Uwxjj29CzBs1o3R2YK3NWZnmRqjyuVC9puEk2JiN0RHl9-EO4AeeVS9ioq-bDxLpUQopO8Fws3mngJRieE-SE2rHIRT8Rzoq5AP9JOqO7dVzFvP7z9WSl8QDANLy8P04h5M2KOv3kmiwrqNqxqZU60CG1yUXVvchfavNkbA02sH7KxNuT5k36-9hEG-rnmQLKNKIQhj3JU1_oS9Wk6nciU23cm-V2tC4s7uoDg5q1d32BioKIOUGskR9R7c8f8hPfgvzKL1YJD1RoxU_fTPPgx3AiRActnyPrxHWaUWJ5-c2VBbGG5ha67Euad-dfEbOIZqnen-rm",
+          "url": "https://www.coupang.com/vp/products/8797237900"
+        },
+        {
+          "id": "8797237900",
+          "name": "에디파이어 MR5 트라이앰프 파워 스튜디오 모니터 스피커 글로벌버전 유럽형 플러그 220V",
+          "price": 135000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/iHWSeqeRAqnCBOqriHfxtPiG2qZ1krA4oF4DUANkvAkLPvHfCLXnGv5TsypeVXrHRiQc1ZPi3zTloiBwk5Cp_GU1cA0qv-DY1lyUYjeurk0hLlbEsWAx35A1hbrM25eob-UzbEFZ2DNdksVoW9MNBfwGqLv0hJsUjQzrV_r4okYQ_1CfGTs9d5J1a804fgkwL-R-Xegn-6A8QCsL5TVLhw3pyBYXWDC2kKhK0w1bQPduV-UCrR2XOah3dJzzmWZJ5M0U98dx53z8qLGmyxr8OXu_JRrGlTB2OAxoBp7IJxsS3bWI20Jm6hAPCXHMs70k4U8OZ0YZUIWDo5lN7CC4A5cTfjIhFVYmcejhgvFzbr1RUTHmDJE5IZbg_pnep4TK0AukC5ImT-8igS-GjKrsduCV7uk1qeyhIaBg-7sbEh_bXEXUfSmhgw5TeXIKDCPJpS1V4QGjYOmNAWxviIohTAzblgXU91u79DXFV1kvY0LGOSJjS5lGRhlS_6tXYH2QDQQKCqyxI80N0Rn9L7oPnDzRPh_ihUA-9nCwCTO33n4hIV0=",
+          "url": "https://www.coupang.com/vp/products/8797237900"
+        }
+      ]
+    },
+    "Edifier MR3": {
+      "q": "Edifier MR3",
+      "brand": "Edifier",
+      "model": "MR3",
+      "cat": "audio",
+      "why": "루리웹 알리 유튜버 공동구매 모음에 에디파이어 MR3 2.0 스피커 약 $44.20(코드 적용, 26.03.15). 색(블랙·화이트) 옵션 맞출 것",
+      "at": "2026-11-03T05:32:39.665Z",
+      "status": "no_ali",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": [
+        {
+          "id": "9210387279",
+          "name": "에디파이어 MR3 스튜디오 2.0 블루투스 모니터 스피커 글로벌버전 유럽형 플러그 220V",
+          "price": 63530,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/G3ZAiOUqIpn90VT0G0IJ5F_RA5AX7fpbpyWar0kRTzr4iLMc3ffcpvu3tq1xe5s-0uOCb3DGE3EzjLYcmIEUbAB40iLf2C3jkdrQ0wILbpMLF_2fP_AWwLAuDewt_v_nu20UCna8c8W8_nmBr7fQ36pd2jTiUPPCyChBo32DN2hmGrd8o1aKyqeGQdiZ95-xrPf-dUc4aGL7oagp_RNLHPW4UFgwRbyZ7Ejobn0ursFjEo69XUPEFc4l6hyndbr33qjb3GpLR87E-nWJrqvQvfwt6cYSCTs1lZ93gPiTsLCINxSz1-uYwMcJEHjAjjher3BXdBTG2ptkMnaKc6Mv2mT2NzKQP6YzbpznRkx_9qQEberQaLAcRwk4tQib2nVn2Sm8lvC1RU5yLRJosUxhg0Mq4vToGWDOUz2DKxGemak6mllDkgjDVU0O579xuboZOtKatecdeD1TKpaFbjmUsMy5mt7BKHCb8TG1FXJ2BepzIw0t0xnFno6Kv632Mp1oqGold2cZ4u30fF-Vkyl3I0Ek5MFA4yDwHi4kGGOmp0NJeRJC",
+          "url": "https://www.coupang.com/vp/products/9210387279"
+        },
+        {
+          "id": "9210387279",
+          "name": "에디파이어 MR3 스튜디오 2.0 블루투스 모니터 스피커 글로벌버전 유럽형 플러그 220V",
+          "price": 63530,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/d2S1T6RiSoPgAi7fd4D3pE8SEJgTDkbdgJF9XKBVU8laqZFG64dUpSCSuymHes1QDeAoliPKS0eSHR2GmvZkGDm18M16RMFDxT2MrcpyJuy4P_uikvLadgwe5vbwasydii7zN1Qx0D7aKxcFZ1B-cAkXbG9WuQvXCou-MGnL6xmAE_sPViXAtkJ21nFv-yef3SXjqnaR-iNKwXKHzNWwiQV3V29c51xGppNx5o2pmnoGvol3q70gWPWsXcDKk5N9UTQQ0VMWpKtfCfaZwJ9oa_SPbJG-ukBiwZ0mo6oy84lqb7sJZYDMpUHmKai3jq7HcchehO9kYP62XR95Pfw0vRBnoSeuISQWI6RT2l-iN8PpTrcIL87uiG7xQzKYsITEJn1LUVQf83Ek2q3QW4t_Gio33r-hpDwjM5AO3wrexz1Y0kPH0h2gBeolOeOPPZ7VD1YTXi8BHsEX6oZl3VN3qVkm_Ssk9ePg--iANj04ypuiLCH-2ZJM4xEbDs1bDrZqi-8U0nh3ItmoKgjvztHOfJmNEaMIeJdqTTocNYfsKHS40IWr_g==",
+          "url": "https://www.coupang.com/vp/products/9210387279"
+        }
+      ]
+    },
+    "Edifier ES20": {
+      "q": "Edifier ES20",
+      "brand": "Edifier",
+      "model": "ES20",
+      "cat": "audio",
+      "why": "루리웹 알리 에디파이어 ES20 포터블 스피커 $38.89(무배·코드+코인, 25.04.14)",
+      "at": "2026-11-03T05:32:43.684Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005008634383496",
+          "title": "Edifier 휴대용 블루투스 스피커 ES20 무선 스피커 야외 블루투스 사운드 박스 IP67 방수 조명 딥 베이스",
+          "price": 55300,
+          "orders": 71,
+          "rating": "99.1%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5db19c851c614271a898668e17da3290v.jpg",
+          "url": "https://ko.aliexpress.com/item/1005008634383496.html"
+        },
+        {
+          "id": "1005012898636387",
+          "title": "Edifier ES20 IP67 방수 휴대용 블루투스 스피커 딥 베이스 및 주변 조명 효과 마이크가 있는 야외 무선 스피커",
+          "price": 50378,
+          "orders": 41,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd5ed61ca5fd64f67a9a3e2ecb7de117ak.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012898636387.html"
+        },
+        {
+          "id": "1005011592704153",
+          "title": "Edifier ES20 휴대용 블루투스 스피커, IP67 방수 야외 스피커, RGB 조명, 딥 베이스, 무선 사운드 박스",
+          "price": 55300,
+          "orders": 6,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfe49b39645974e8ebf70819442f9ce18a.png",
+          "url": "https://ko.aliexpress.com/item/1005011592704153.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "8627156465",
+          "name": "[신제품]에디파이어 IP67 방진방수 최대15시간 재생 휴대용 블루투스5.4 스피커,ES20",
+          "price": 51000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/bhYckwzrxyNtla4Qbtdgq_uLyXtlvMGIjYZEdKw9sztmEikBhjcwLRn87PrDnNR6vRuYuexJ6P6XpqP_16znHRjwlpV8tEJQYhhhB_iL88bVjpV4DKgef3g_BxpBFZhKWXOsDg7jeLCDQC_dLMjVUr_MeS1v6ujTt3UnH9gdCtdUHuu1ZG_vDO41V4FlhafHvNEgBq3s9TEEj8mxgRJWvwo1v4y9Z1xQjYUofQo94NzpM1hI7agS-Srj1jdANFCCbvsS9dH5lAtD5OQ54DGOE1OssVOZeatULIXE1Zs5CToFnUZykJbEpeWUsHJD-hagioQbtEqUWu_InS-bmmQuuXhCL3ayL_Uilo246YkkvBh0c7oBgAzuK34PJ8UmeR0i7iOU1EvjKEUapvizfEnuDXSHNRLlPWE2LSScuN4F1GbyDlwf_uwUMU50sjmgM3AkURW4aAZ60s1AvPP00Fj1c7Mlm19xH9sYeW7xZX7Fqyz54XUp6PggihyVuZ-z-y_mp4j1CmRHaLbyewd4nqM3yFbjc0WiBX-1QXLsLNUJPfQ=",
+          "url": "https://www.coupang.com/vp/products/8627156465"
+        },
+        {
+          "id": "8627156465",
+          "name": "[신제품]에디파이어 IP67 방진방수 최대15시간 재생 휴대용 블루투스5.4 스피커,ES20",
+          "price": 54000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/RB2JzrQn_e8xUcsARPklTvvoT5LvnhfwwwYCKZ62oJNpKaiV3qHDFvYNelxE_WuttpfRKpAtHR-Cbso6Pa6LIFP9jeM5-SL6eU3nYhPLZQWy1XaoPvCj4lox7f5lmfx75X0806Z2CF_mA9Abl62UKfxDWsXrNpU8WbnlORbuD6FI2dcZu0xCGT0f7quWBsXaGS_C4Y8ZknegFINASNYo-g7AnSQajI5N7Yj08hcmeLUXRfBdP7tr-5tmwl9G7U91tb9S11v7T6JumtlUb_w8tBidUl9_je3DKeY2pd8EXbKEZ1A0KfsQvhvM-ITJQuVffV-_QUhWUjIRFFnuJWyZz3JItOWtX5LiWp21YMoiHeAuWQUe6NFbbsoYoenhnsTtdBvXJtpcx0EVSpZ6moG0kn4N2PKkm_XWGzTgjR9HdRAeBkG46C2sT1IezV1XSpk_qeKe3QlUjdOti2tZH_9mKm0QwQR8aZOzDTzN0BMnk1EnSJ0CCRN5jad5b8tUr5PbN7OP3ZoHnMpoQm8Fcl57ANtX9amgk8Qa8UQ7rfGQMBk=",
+          "url": "https://www.coupang.com/vp/products/8627156465"
+        },
+        {
+          "id": "9004362364",
+          "name": "에디파이어 ES20 포터블 블루투스 스피커 6W",
+          "price": 56050,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/96ohJ1wyZOHGWZIe93HNVNWUuPuUvm7zt2XczYXw7UQKqTMYGGoVzYqz-PyLnF1ZxFBt9gNK7fSWiat97C49OkzfGWaItrWS-fuUag4D1d9FYhcjn-K5zyF0wyZv76kV2R_v7tcl2AnSayrqPI5f8LrySRvU98UZYUspBqP937Wpu5hkztnI-7dCFsLZ7SyM_fnS_agoS_iJhyiATW-FlJ7ReVfsVEk8cl3vMs1Pms_n9RgqnGqEi1b1tiUDeQAS5p6k9pIMogAeAQSlDmzgsCkR19ZM-2B8Nz7QD9Doe1QQUxiGa4gjLK6LyW9K7gOOZs8T_WV6S5JBabHTHaml9wdWva1EWC91e65XlIE9UNl3jBA1EMXm6aMOCm_DOGyeoEidEp28Gy86s-7ceYBj8WmNuJe-0iT7yIhuxoGhzRvAiwr_s6bK6Hs7Si5Pjcc5zt2mPdFNUduKLNIXyveMoAGVpQfalGMb5CvCGXRVHKGC2tNIb1t4In_V_KqnG9jWRHTXktduq8wyhlTf1DSM_qt0Qw==",
+          "url": "https://www.coupang.com/vp/products/9004362364"
+        }
+      ],
+      "best": {
+        "aliId": "1005008634383496",
+        "coupangId": "8627156465",
+        "aliTotal": 55300,
+        "coupangPrice": 51000,
+        "verdict": "bad",
+        "diff": -4300,
+        "pct": -8
+      }
+    },
+    "Edifier Stax Spirit S3": {
+      "q": "Edifier Stax Spirit S3",
+      "brand": "Edifier",
+      "model": "Stax Spirit S3",
+      "cat": "audio",
+      "why": "루리웹 알리 에디파이어 스탁스 스피릿 S3 무선 헤드폰 $143.13(무배·코드+코인+결제할인, 26.09.14)",
+      "at": "2026-11-03T05:32:47.831Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005009214656493",
+          "title": "Alienware AW988 Asus ROG Strix Go 2.4 Corsair HS75 XB Edifier STAX Spirit S3 Steelseries Arctis 9용 배터리 FT823456P",
+          "price": 17350,
+          "orders": 0,
+          "rating": "40.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S506a86f1b4c44108a4af7a6da79d62c0j.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009214656493.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9398207279",
+          "name": "Alienware AW988 Asus Strix Go 2.4 HS75 XB Edifier STAX Spirit S3 Arctis 9용 배터리 FT823456P",
+          "price": 33500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/N19t7DjyHcC5Tu-mN7WTIQdgU9PIc6s8LBiDdbXXtnMfAMIOlnnvv_6TQJlJYhufgJPY4OzqxwNdmDaKE76P8hMlDOS9HaarmfdfXZRK5z2J1I2opc4gZXvOXZfGNnmmU1NKAPIEAYrohF6Gkrg7VPSADVGCbCTrH2eWo4inLUL_5gtrGuYVdpxhtRHniFpF43gChlKy8LpLu2evG6eQ3V3TWQS3aAX0i-fPb2XwUyQ-qG8FZqS9tHmo69-OtVhNnYCFAzCDV1IJ1oB9Z9iT0-bnNgIbyf06uIu5tPJtXk_-YkzliDJ971rRRQq9c3owAJqOrDxhca64kLT2zDndoTSv79565ALRHJ2FLHFvd-4UBCxUcIYpvCOvwpBav8wAoe3ryk0gtDwKX9C-j6gsriWVPxsIGA0uQ3QzrRzHPBwZV3eE5yxhD1sL7rguIq3WbJ1w07YO_vK3k6wbTgBTSNaRKgu0B_6UUrRiwD_KY6-y37KSwSPLlVH5fJ2Jlg1rZg03ZR_n57_V8v3neqpDOt1J6mvdD5yqpmfdUVD_3-7XNmuB",
+          "url": "https://www.coupang.com/vp/products/9398207279"
+        },
+        {
+          "id": "9045415382",
+          "name": "VGP 2022SUMMER Gold Award & Planning Edifier STAX SPIRIT S3 Planar Magnetic Field Driven Headphones",
+          "price": 268300,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/0gEzL2mVgZ4L-gX30tPrC5rPalVX8qFNtH7N_YxU0ibANQ1h69AvCEDVbaCL7dQYYIaPmLVYH4upGf97xKJG8tAPPWHPlBlA8T_ygoQcS2KVDFVaJadD--8xsBPhD82mwkrcdXLEFyQwIRKy74qY3O_bTDYSDa4BMfEhI4MWDciwruW8ps33gHDGcQqjBnCQqyAtf76t1Je4bnvXX9AVNrfu4W3zebtETqeBy0Ag6xJxhmWPNkvyTSMALSVbjBg3mI0dIxakzmOZYTIaWRYyFSo0dx0TDWEuDpTfzparYNDdcllRq8XwxJTQgkAMg7Y4E2VB6FaAqYhupxL1_soX4S-T6bsed38TBX1N4DudnWceSLQfRkN-EvLyQVgYf-iteTbG4veNbImxyrWq_8tgu49w5PsPhQJ4deagKnjjOmKFcayD8nBS9naiZ0gnj6vuvbpuAv8aNYQKCTcjubCs7-qPcqGLAtqFWUx9hQ8D25h-k9jHIvfLjuNZBrTcF4xVMl1V9ViOJ0Yr8aVsamjbWkc-XBi1VvXTU_mKd6pZQkZzjw==",
+          "url": "https://www.coupang.com/vp/products/9045415382"
+        },
+        {
+          "id": "6885521966",
+          "name": "에디파이어 스탁스 스피릿 S3 블루투스 평판형 헤드폰 Stax Spirit",
+          "price": 279900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/NtFFR6vdh0l28me9NgByCgg8U6RtCWQ8is_Kk8GxBeq2_CNQ9-7CnpJgkzQmy8-LUqSblhSQnCuhMwPxbaQ7-p3e2rQlMigxFjRAX03G9sqeb6SqY4PquTXx8oup0HkV4Zr8qH5mngn_EcOuAPfzjUNS_uGRzwKycK9VCo61gGipLYEMAcAnhMxoS8nXJM5zo0hHAPCs4S0VQphcGX9vgvAmTFUya_p6Ze6FpJrljQl8CqYI7biwPHJWeo8e-KhaznVFKbbd3xFAbock2VLHzLRi9wQxVK3IPK5Q00JXwC-JqHtm_yoylOF2O6jfOPzk6B3G-oIf8p9GUOLFR5MW0-11_D6a46xtNAcCdyF2_6vX1fFug3O5JYvf5XicYBs_IJbhDzdwsJnKbB0nF2KZMMLUghE_TnMfmCjXwQCDsz_CWy5hk6iMrbkgr-Z299O8W-lIj0k93n8x3tF-pQXrdmDu0cHmSMch6BerJpOxCUvrQbnjIjBAqoJm3K3uNefkzQAHlFGhbiBQ73usQ7Rnt0qg34hrlTzDLDfJbY5sWlwXcg==",
+          "url": "https://www.coupang.com/vp/products/6885521966"
+        }
+      ],
+      "best": {
+        "aliId": "1005009214656493",
+        "coupangId": "9398207279",
+        "aliTotal": 17350,
+        "coupangPrice": 33500,
+        "verdict": "good",
+        "diff": 16150,
+        "pct": 48
+      }
+    },
+    "Fosi Audio ZH3": {
+      "q": "Fosi Audio ZH3",
+      "brand": "Fosi Audio",
+      "model": "ZH3",
+      "cat": "audio",
+      "why": "루리웹 알리 Fosi Audio ZH3 DAC·헤드폰앰프 약 $103(코인·카드 할인 예상가, 26.06.01), 11월 이어폰·DAC 모음에도 126.99(26.11.01)",
+      "at": "2026-11-03T05:32:51.763Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005010063909302",
+          "title": "Fosi Audio ZH3 데스크탑 HIFI DAC 헤드폰 앰프 완전 밸런스드 프리앰프 XLR/RCA/4.4mm/6.35mm 출력(리모컨 포함)",
+          "price": 237000,
+          "orders": 73,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfef6e30df10145dda19c43856f708ea1F.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010063909302.html"
+        },
+        {
+          "id": "1005010280613851",
+          "title": "FOSI AUDIO zh3 데스크탑 DAC HIFI 헤드폰 앰프 리모컨 포함 12V 트리거 입력 AKM4493SEQ 완전 밸런스드 프리앰프",
+          "price": 279400,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa872671152564590b8d002b3db1f1660I.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010280613851.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9138600124",
+          "name": "Fosi Audio 포시오디오 ZH3 올인원 데스크탑 HIFI DAC 앰프 프리앰프",
+          "price": 234000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/VBG4ssI4GudVYbSKVLVtrVl9BFQY-OFhhU0t--84NtqlaQTVthMD8dNgBUJzkqgNSw1K5xeskCHbx6OeY7wfLFaf45vMop_LlEzhJFEwz2qUeOQZvP3MJSsGkDznI1pRn82TMiu6n_M3D1kKjEzjyGuG5jsPmqsfVmOrWboJudojeMNEAsyZx7JVKnBO9YZydlXFnR4Tok3Z6vPoFyt6k8nEmuurQvCOWpNRTRZTdFpd9Xx4-8rl404uhyWMBhr20Qsn42ei7kWwaDCXmkF1g_uZ-9czW9GT64nu9LFw5JvrIKFUXUVGp28J0VcGuovhZgFsPf2Bptu0Nw9T1jscEU8di1oWyyB6-2GhPTI6xjQ2TuzoeK0OlBZsxlcYNi2VXyU8N90BsbUDhjLDYpRwRxGhw2CecAPy2BFsPOa7Ti-_Y8ElDvEpJk-Lj2jtRvaNHslocAw8P6qybVR9ko4WNBm18TVXrMgl9RR85IqlOkQRtAg2eUnAA3zs-29VLbeZwSYNsBcr168naNomY4UD-Oa2FvUhp8mNMdXpc_gqIbS06w==",
+          "url": "https://www.coupang.com/vp/products/9138600124"
+        },
+        {
+          "id": "9309730119",
+          "name": "포시오디오 ZH3 데스크톱 하이파이 올인원 헤드폰 앰프",
+          "price": 242820,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/4CEsiE1KV-pudnHo4IKiU31zjp1VGhrWJwEHvPQGgVQVhQl9WtPB_GIHtCoJZCHxPSfVyTPvCZadIsMBP7B8aqYO0yHPd3TWZSXm--m3yKcfmi2N0DC70Wr0Se2afnz55gNuMvmFnhhMYWwpcYLHDOGfJnOoQfraQn8M_Pa8MT0L1vFFShCpjvXZBSYwuUtieEU3gLmbaX6ce2Wv3DIM_gp_8SP1EKreIk00wyx60clVJePVPVs9Li_EMb8KXd-H9d4h8wrqFoMJncjpm9XFI9YyNdmLAXeHphIDDdP8LO7EYT2MZ7kpC6GKhoDvXDIsLkXgd32ZqCMlq8wJMSCsbadwm39PBQEIvARbabpX0m6eXKn-JKeStAg_vFdplSSTom3QcTTOhoimXikSwFhdtBlOrbPnGm_6IUjggDtVPElYq-gJV5bw5wCoIemeNulu6dtBMUdwG6iH_ptaEVx9rn3aO4mWjvfXUAyeC6dOCDhw1QSUWcBZDNu8DhWI4hGR8Vs_mBTvRH_6XwxWap3Oi1eKtKeKYzPTiYTxpZvhq-fpNZQc",
+          "url": "https://www.coupang.com/vp/products/9309730119"
+        },
+        {
+          "id": "9443522726",
+          "name": "FOSI AUDIO 포시오디오 ZH3 올인원 테스크탑 헤드폰 앰프 밸런스 디코더 올인원",
+          "price": 294500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/rP8OTTvPhAZY_bLjrCOLsscausK8EUX_YcytwJXwi9ymZisOCu4r2Fbj4zzdJm4ladrAjfl-l8i0JjQPHM0WnDK03ADL_093sC6D9mK7Q_JSriI6xvgi1GbS-AW9O9Q5AQ2UMawNYsvs76xE2hyt6qedWBVjpykFfBmDmk0gyCskssJzIGX656maFPaMsxpo1522pQlBuUAGmLuHkfpTXFP_Fzk0dnXHQSBnO4sUwZ92MqhJtgJbzT48yUXf8GuWTzZi6ddLcrrY3oz4iJp9VhUdArrG7Va7LxEkO3fTN9YNUoh5zKBULH9CQSpEsOn2NICYacdRdlCSJ47ZgodD_RWk_7g1uQC8RQWKiA4KPXm7sEspYqw4B3AwVxOAYFHVwWEJjOwKbZ-0v7cfUeLXLVFL1bIfBotdUVgdHB7mEAGz_8t0gbwUR828rZ0pK-ZuxvFa6cQqUpXgu5OTofHFVAaSSSpotBedPCA4Ujd4uBDRMkhjHagDfHmug-1X1aFzthDf41N7LgDe3_djRJHzaF4GvEaW0hxYXY4R48WzhW1p4ns=",
+          "url": "https://www.coupang.com/vp/products/9443522726"
+        }
+      ],
+      "best": {
+        "aliId": "1005010063909302",
+        "coupangId": "9138600124",
+        "aliTotal": 281556,
+        "coupangPrice": 234000,
+        "verdict": "bad",
+        "diff": -47556,
+        "pct": -20
+      }
+    },
+    "FiiO BTR15": {
+      "q": "FiiO BTR15",
+      "brand": "FiiO",
+      "model": "BTR15",
+      "cat": "audio",
+      "why": "루리웹 후기 '알리에서 할인할 때 100달러에 구매'(24.03.30). 주의: 상품명에 receiver(리시버)가 들어가면 자동 발굴의 액세서리 필터에 걸릴 수 있음",
+      "at": "2026-11-03T05:32:55.746Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005013478227327",
+          "title": "FiiO BTR15 블루투스 DAC/앰프, QCC5125, XMOS XU316, 듀얼 ES9219MQ, 340mW, 4.4mm 밸런스 출력, LDAC, aptX Adaptive 지원, 스마트폰용, 오디오 애호가를 위한 제품",
+          "price": 150100,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S98c7a9bc24454c9e8cad2b80b049c93cJ.png",
+          "url": "https://ko.aliexpress.com/item/1005013478227327.html"
+        },
+        {
+          "id": "1005013468504887",
+          "title": "FiiO BTR15 고해상도 블루투스 5.1 수신기, 휴대용 헤드폰 앰프, USB DAC, 듀얼 ES9219MQ 칩셋, DSD256, LDAC, aptX 지원, 3.5mm 및 4.4mm 출력.",
+          "price": 137200,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a90fa5701374d6b81e4a8e73b598e161.png",
+          "url": "https://ko.aliexpress.com/item/1005013468504887.html"
+        },
+        {
+          "id": "1005011637936267",
+          "title": "FiiO BTR15 블루투스 5.1 수신기 USB DAC AMP 고해상도 헤드폰 앰프 2* ES9219MQ DSD256 LDAC/aptX 3.5/4.4mm 출력",
+          "price": 242400,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se41f72f9bb614cd2bea2731b3e71685c5.jpg",
+          "url": "https://ko.aliexpress.com/item/1005011637936267.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9149567636",
+          "name": "FiiO BTR15 Bluetooth 5.1 휴대용 디코딩 헤드폰 증폭기 올인원",
+          "price": 132000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/FEpK3sLvapqw7VEwFLBYHk7U2F6gPPRe5ilK-vuDX6Dw0nERvXXjKz51rDoVperi11DQknEPUiVrztGXWi7dv0ROsMlrfvKdMjiJnJcNNjRWlmPpZ6t-CkwKNA9RBO9WqFdnyNoyMtW_LyoazrRmd7Qh6hSP6yR9CEKIQwy2XSZN8DPsinTJraXE8VhYSXhomvC7PJ43lsgABG1_DlqRfNQmL8C0PNbXSO2vvSbUsLo_5BAtLx2OHOw_5jPH-O2e4Hpdl5tO5G8tJ4Su1CcAQ6kUSvHBixWGTbPmMrrRkiESHfPEhoySFhAvPzO_1dZ_Bk0Pg8q27L9N2YSTCmwUNgY-Ut4Rsvrci417cPGk7M40kKJVxztzvk8xP_66xz8NmK_zhTsG6g84ZVKkh4JZnk_hqH2e68hBiiVnt8NzieJXsyq-JnPD-96Mf7NxdMQc1AJJ01g9KNdqlCwi5l560ajVaRvoMVycCIxgnTCwFYQcEGLuJfTuByJTFb94aAEdO3anp4bZN3IvThQ_R_7_z68g-N1uox8etPR5VcZC0rHjfQ==",
+          "url": "https://www.coupang.com/vp/products/9149567636"
+        },
+        {
+          "id": "9149567636",
+          "name": "FiiO BTR15 Bluetooth 5.1 휴대용 디코딩 헤드폰 증폭기 올인원",
+          "price": 148000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/rNwdy1m45WPMHruurD2H7DZu2FapAsH50nGJW1DKIGVIzPfu8GcPaWvH5F-Yye70fd3Pdl6f-IqE3uAq9AuMxU0kmxFsm1154SOM30xgdg5SnF6xVRCiTg4REkVMtpTlgnjiiOytdJxO5NJNhEH7b38VgtBm4FFU7q3aHwoVuOfST0SNdG7yOraxweOdf7hpTky-QTrDmihaV16eutVqwifCVhWqYy2nhfH7lSt0lYRNd1aPQ9A6nZKG19dxiNRK3_4I8_SMvMaFFrKw5gBVmBSwipuGULoD0eXLSkcJEeIgixlrdbFYgfTCPqu6CvZ8_Tg-Ltbd-o8vuHpGR155G672pgxkAJaGtxzUT-Nox36u1vEjJsNetwtGXblgGzajGJ9qP9ekmr7yqWpEkMvETB8mOzR5xWl-5HLGTLXRhjvHCcZATLtB_qSnCYDHANmZXMeiZF2qC3ra-YA8Mctb9KIvfYpBguPizW3II470JOddwddiy-wVvHvlh1VUeghEns6uVfOv6nq1TJ1rcem07QzMuW-HXvNwzXglisdr1bGRqzPR",
+          "url": "https://www.coupang.com/vp/products/9149567636"
+        }
+      ],
+      "best": {
+        "aliId": "1005013478227327",
+        "coupangId": "9149567636",
+        "aliTotal": 150100,
+        "coupangPrice": 132000,
+        "verdict": "bad",
+        "diff": -18100,
+        "pct": -14
+      }
+    },
+    "FiiO JM21": {
+      "q": "FiiO JM21",
+      "brand": "FiiO",
+      "model": "JM21",
+      "cat": "audio",
+      "why": "클리앙 사용기에 보급형 DAP FiiO JM21 구매 후기(25.03.03, 구매처·가격은 글에 없음). 색 옵션 맞출 것",
+      "at": "2026-11-03T05:32:59.673Z",
+      "status": "new",
+      "coupangTop": 4,
+      "ali": [
+        {
+          "id": "1005008317894744",
+          "title": "FiiO JM21 안드로이드 13 고음질 음악 플레이어, 스냅드래곤 680 프로세서, 블루투스, Wi-Fi, USB DAC 지원, 최대 12.5시간 재생 가능",
+          "price": 213400,
+          "orders": 617,
+          "rating": "96.9%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S110fb6b91d1141c4ab638cc184ff0d39E.jpg",
+          "url": "https://ko.aliexpress.com/item/1005008317894744.html"
+        },
+        {
+          "id": "1005012601432451",
+          "title": "FIIO RETRO BOX 레트로 블루투스 LDAC 스피커 USB DAC 모드 JM21 M21 M33 플레이어용 빈티지 무선 스피커",
+          "price": 91800,
+          "orders": 30,
+          "rating": "88.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se7ae4fa755ee4f7aa68577f5ca774fa0S.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012601432451.html"
+        },
+        {
+          "id": "1005009948944277",
+          "title": "Fiio Jm21 휴대용 플레이어 스냅드래곤 680 HD 무손실 앰프 듀얼-Cs43198 듀얼-700mw 맞춤형 앰프 스러스트 지원 Spdif",
+          "price": 27400,
+          "orders": 14,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfa735ababa304ce3a9dab993fbbc45fdo.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009948944277.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9505996332",
+          "name": "FiiO Retro Box 무선 블루투스 스피커 HIFI 음질 USB DAC M33 M21 JM21겸용",
+          "price": 40500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/-Wvh3vqjVapAobtP-VmL6PglsNaVRoqAHp0N5p0BA2WNy7bAqrmnNwY0Lpj4pKsjCgrAzaO_x8txmgtriwDAP6CDD3j_vVmQlRNRO2H26F8em2etkSqbPCz_iwsSIEjo88HmPqmhhjs3SUNlt53Sww14P5f9p0N9mpnFcw3xgFuOgfsTbwhm9Ab_1aua_FtdGS3nL_UZKWiILe_FhfmtBPQlUfxWvjoRrBv3dfEyTdNZBevm5xwwirmBauDXmaSDiy7eZP_2jXVvP4qr5oJO6ljXycBPoHMs1tdyLyBuwx5e-wzmSH-zF5-Aov3NhkM96IR6FJDjB90TFOrKKqucYPc3n4H52h3311qgPg94SVfPipUk8IYcyOg9XYovsAva73WUvLIL2s9ub_99R2i6M9N0mn5DAZQlHCbxQpS2ivBiKGGWTuA51i_I_gsNAMcuxYG0gWc3SYR8CTEB1T6KC7sQ1_hw6pvAhEQ8PAgPza0gs2VhdQ63eZw4NLuecCtqUOO6nxviIhYLTlCNeY2hgyBi3lEA1qifonKgn6Vq-3TJZg==",
+          "url": "https://www.coupang.com/vp/products/9505996332"
+        }
+      ],
+      "best": {
+        "aliId": "1005008317894744",
+        "coupangId": "9505996332",
+        "aliTotal": 253519,
+        "coupangPrice": 40500,
+        "verdict": "bad",
+        "diff": -213019,
+        "pct": -526
+      }
     }
   },
-  "updatedAt": "2026-11-03T03:39:20.930Z"
+  "updatedAt": "2026-11-03T05:33:03.706Z"
 }
