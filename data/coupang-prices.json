@@ -48,7 +48,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-03T16:32:02.034Z",
+      "at": "2026-11-03T20:27:55.802Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -56,7 +56,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-03T16:32:05.852Z",
+      "at": "2026-11-03T20:27:57.401Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -64,18 +64,18 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-03T16:32:10.142Z",
+      "at": "2026-11-03T20:28:01.320Z",
       "recordedKrw": 67180,
       "found": true,
-      "apiPrice": 57180,
+      "apiPrice": 56290,
       "isRocket": false,
-      "diff": -10000,
-      "result": "same"
+      "diff": -10890,
+      "result": "applied"
     },
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-03T16:32:13.901Z",
+      "at": "2026-11-03T20:28:05.339Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -86,7 +86,7 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-03T16:32:17.827Z",
+      "at": "2026-11-03T20:28:09.279Z",
       "recordedKrw": 478280,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -94,7 +94,7 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-03T16:32:21.860Z",
+      "at": "2026-11-03T20:28:13.314Z",
       "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
@@ -105,7 +105,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-03T17:32:08.298Z",
+      "at": "2026-11-03T20:28:17.335Z",
       "recordedKrw": 59500,
       "found": true,
       "apiPrice": 59500,
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-03T19:34:24.164Z"
+  "updatedAt": "2026-11-03T20:28:21.344Z"
 }
