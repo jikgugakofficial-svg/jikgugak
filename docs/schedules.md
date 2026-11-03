@@ -1,25 +1,27 @@
 # 예약 작업 목록 (Claude 예약 작업 + GitHub Actions)
 
-Claude 예약 작업은 저장소 밖(claude.ai 계정)에 있어서 여기에 적어 둬요. 새로 만들거나 고치거나 끝나면 이 표도 고쳐요. 예약 작업을 볼 때는 `list_triggers`, 고칠 때는 아래 ID로 `update_trigger`.
+Claude 예약 작업은 저장소 밖에 있어서 여기에 적어 둬요. 새로 만들거나 고치거나 끝나면 이 표도 고쳐요.
 
-마지막 확인: 2026-11-03 17:20 KST
+**11/3 운영자: 예약 작업을 운영자 PC의 Claude 앱(Code 탭, 저장소 `C:\Users\User\Documents\jikgugak`)으로 옮김.** 앱 예약 작업은 앱이 켜져 있을 때만 돌고, 꺼져 있던 시각의 작업은 다음에 켤 때 돌아요. 볼 때는 `list_scheduled_tasks`, 고칠 때는 아래 ID로 `update_scheduled_task`(작업 파일 `C:\Users\User\.claude\scheduled-tasks\<ID>\SKILL.md`). 앱 내장 브라우저로 쿠팡 일반 주소·아이허브·`/api/item`은 되고 알리 상품 화면은 안 떠요. 이 PC엔 python·ffmpeg·gh가 없어 **Actions 수동 실행·릴스 굽기·네이버 키트는 못 해요** → 그런 작업은 claude.ai에 남김.
 
-## 1. 매일·매주 반복 (Claude)
+마지막 확인: 2026-11-03 19:00 KST
+
+## 1. 매일·매주 반복 (Claude 앱, 이 PC)
 | 이름 | 언제 (KST) | 하는 일 | ID |
 | --- | --- | --- | --- |
-| 직구각 아침 점검 (가격·세일) | 매일 08:47 | price-checker 가격 확인(브라우저 연결 시), sale-scout 세일 확인·월요일 과세환율, site-inspector 점검 → 바뀐 것만 커밋, 3~6줄 보고 | trig_01H4ckXecQRyZNwn1qcboKcx |
-| 직구각 저녁 점검 (가격만) | 매일 20:47 | price-checker 가격만, 컴퓨터 미연결이면 건너뜀 | trig_01JwQsfpXkRdnRwFsr1Jsosk |
-| 직구각 주간 상품 후보 찾기 | 매주 월 08:46 | 웹 후보 5개 미만이면 product-scout 10개 → 브라우저 확인 → 통과만 등록(A안) | trig_019Nvm5rDoYYgxsqwYZ4T8kU |
+| 직구각 스레드 당일 확인 | 일~금 08:20 | 그날 `content/<오늘>-th-*/publish.json` livecheck → approved:true(5% 규칙), 게시 시각 넘겨 실행되면 승인 안 하고 보고. 없는 날은 그냥 끝 | jikgugak-thread-livecheck |
+| 직구각 아침 점검 (가격·세일) | 매일 08:47 | 가격(매니저 브라우저)·세일(sale-scout)·월요일 과세환율·후보 확인, site-inspector 점검 → 바뀐 것만 커밋, 3~6줄 보고 | jikgugak-morning-check |
+| 직구각 저녁 점검 (가격만) | 매일 20:47 | 가격만, 브라우저 안 열리면 건너뜀 | jikgugak-evening-check |
+| 직구각 주간 상품 후보 찾기 | 매주 월 08:30 | 웹 후보 5개 미만이면 product-scout 10개 → 브라우저 확인 → 통과는 status:"pass"(쿠팡 링크는 운영자가 Actions links 실행) | jikgugak-weekly-candidates |
 
-## 2. 한 번만 (Claude, 11/3 기준 남은 것)
-| 이름 | 언제 (KST) | 하는 일 | ID |
+## 2. 한 번만
+| 이름 | 언제 (KST) | 하는 일 | 어디 · ID |
 | --- | --- | --- | --- |
-| 11/4 펨도필러스 스레드 당일 확인 | 11/4 08:20 | 그날 스레드 livecheck → approved:true(5% 규칙), 끝나면 다음 게시일 확인을 이어서 예약(11/8까지) | trig_01NhVsVK2uaWDcLMGFuAUJSJ |
-| 11/4 릴스 v2 숫자 재확인·다시 굽기 | 11/4 10:00 | `tools/tvc/cart2_ad.py`로 다시 굽고 판정·5% 확인, 안 되면 v1로 대체 | trig_01PwNnwuCNhwVTuu73T6ddbE |
-| 블프 후보 쿠팡·아마존 확인 | 11/4 14:10 | `candidates.json` blackfriday 등급 A 6개 쿠팡 최저가·아마존 한국 배송 확인 → 통과만 등록 | trig_01MBKCk98LDErxDzy52gtdHL |
-| 11/4 릴스 게시 확인 | 11/4 12:35 | publish-result.json 확인, 빠졌으면 수동 실행 | trig_019MtuHfLBwocXm2zkbEoZnT |
+| 블프 후보 쿠팡·아마존 확인 | 11/4 14:10 | `candidates.json` blackfriday 등급 A 6개 쿠팡 최저가·아마존 한국 배송 확인 → 통과만 등록 | 앱 · jikgugak-bf-candidates-1104 |
+| 11/4 릴스 v2 숫자 재확인·다시 굽기 | 11/4 10:00 | `tools/tvc/cart2_ad.py`로 다시 굽고 판정·5% 확인, 안 되면 v1로 대체 | claude.ai · trig_01PwNnwuCNhwVTuu73T6ddbE |
+| 11/4 릴스 게시 확인 | 11/4 12:35 | publish-result.json 확인, 빠졌으면 gh로 수동 실행 | claude.ai · trig_019MtuHfLBwocXm2zkbEoZnT |
 
-릴스 v2·게시 확인 두 개는 운영자 컴퓨터(hans-win)에 묶여 있어요. 컴퓨터가 꺼져 있으면 돌지 않아요.
+claude.ai에 남은 두 개는 python·gh가 필요해서 옮기지 않았어요(릴스는 운영자 릴스 세션 담당). 11/3에 끈 claude.ai 작업: 아침(trig_01H4ck…)·저녁(trig_01JwQs…)·주간 후보(trig_019Nvm…)·11/4 스레드 확인(trig_01NhVs…, 다음 날 이어 예약하던 방식 → 앱 매일 작업으로 바꿈)·블프 후보(trig_01MBKC…).
 
 ## 3. GitHub Actions (`.github/workflows/`)
 | 작업 | 언제 (KST) | 하는 일 |
