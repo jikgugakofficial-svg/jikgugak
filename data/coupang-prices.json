@@ -124,7 +124,7 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-02T10:38:32.498Z",
+      "at": "2026-11-03T01:44:38.291Z",
       "recordedKrw": 53960,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -132,7 +132,7 @@
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-11-02T11:32:59.199Z",
+      "at": "2026-11-03T01:44:38.869Z",
       "recordedKrw": 137500,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -140,7 +140,7 @@
     "amazon-sennheiser-hd600": {
       "productId": "8542629824",
       "keyword": "젠하이저 HD 600 오픈형 헤드폰",
-      "at": "2026-11-02T11:32:59.548Z",
+      "at": "2026-11-03T01:44:39.417Z",
       "recordedKrw": 355020,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -148,7 +148,7 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-11-02T11:32:59.868Z",
+      "at": "2026-11-03T01:44:39.957Z",
       "recordedKrw": 519000,
       "found": true,
       "apiPrice": 519000,
@@ -430,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-03T00:13:40.140Z"
+  "updatedAt": "2026-11-03T01:44:40.295Z"
 }
