@@ -3,8 +3,8 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { PATHS, coupangKeys, coupangCall, toCoupangItem } from '../../api/_lib/coupang.js';
 
-// 검색 횟수: 쿠팡 제한은 1시간 10회. 방문자가 적은 지금(10/27 운영자 결정)은 이 스크립트가 7회, 사이트 실시간 검색이 1회.
-// 어느 60분을 잘라 봐도 7 + 사이트 2(정각 앞뒤) = 9회로 10회 아래예요. 방문자가 늘면 사이트 몫을 다시 늘려요.
+// 검색 횟수: 이 스크립트 7회/시간, 사이트 실시간 검색 30회/시간(11/3 운영자 결정 1단계, 예전 기준 '1시간 10회'를 넘김).
+// 사이트가 쿠팡에 거부당하면(cp:stop) 검색 전에 /api/coupang?stop=1 로 알고 같이 멈춰요.
 // 한 번이라도 403/429가 나면 data/coupang-guard.json 에 멈춤 표시를 남기고, 사람이 지울 때까지 검색을 안 해요.
 export const SEARCH_PER_HOUR = 7;
 const GUARD = 'data/coupang-guard.json';
@@ -36,9 +36,18 @@ async function call(method, path, opts) {
   return r.json;
 }
 
+// 사이트(api/coupang.js)의 멈춤 표시 확인. 확인이 안 되면(네트워크 오류) 멈춘 것으로 보지 않아요.
+async function siteStopped() {
+  try { const r = await fetch('https://www.jikgugak.com/api/coupang?stop=1', { signal: AbortSignal.timeout(8000) }); const j = await r.json(); return j.stop === true; } catch { return false; }
+}
+
 // 상품 검색: 결과 최대 10개. productUrl 은 제휴 링크라 열지 않아요.
 export async function search(keyword, limit = 10) {
   if (searchBudgetLeft() <= 0) throw new Error('이번 1시간 검색 횟수를 다 썼거나 멈춤 상태예요');
+  if (await siteStopped()) {
+    const g0 = readGuard(); g0.stoppedAt = new Date().toISOString(); g0.stopReason = '사이트 실시간 검색이 쿠팡에 거부당해 같이 멈춤(cp:stop)'; writeGuard(g0);
+    throw new Error('사이트 쪽 쿠팡 검색이 멈춤 상태라 같이 멈췄어요: /admin 과 data/coupang-guard.json 확인');
+  }
   const g = readGuard(); g.calls = [...(g.calls || []).filter((t) => Date.now() - Date.parse(t) < 3600_000), new Date().toISOString()]; writeGuard(g);
   const json = await call('GET', PATHS.search, { query: `keyword=${encodeURIComponent(keyword)}&limit=${limit}` });
   return (json.data?.productData || []).map((p) => ({ ...p, productPrice: Number(p.productPrice) || 0, _item: toCoupangItem(p) }));

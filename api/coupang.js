@@ -1,5 +1,6 @@
 // 쿠팡 실시간 검색 (Vercel 서버 함수 · /api/coupang?q=검색어)
-// 쿠팡 파트너스 공식 검색 API는 1시간 10회 제한이라, 방문자마다 부르지 않고 이렇게 아껴 써요.
+// 쿠팡 검색 API 한도: 예전 기준 '1시간 10회', 최근 개발자 확인은 '1분 50회'(공식 문서 미확인). 11/3 운영자 결정으로
+// 사이트 몫을 1→30회/시간으로 늘렸어요(1단계). 실제 한도가 10회면 첫 403에서 사이트·Actions 둘 다 멈춰요.
 //  1) 같은 검색어 결과는 Redis에 저장해 하루 동안 그대로 써요(7일까지는 '지난 결과'로라도 보여 줘요).
 //  2) 새로 묻는 건 사이트 전체에서 1시간 LIVE_PER_HOUR 회까지만(나머지는 GitHub Actions 가격 대조 몫).
 //  3) 쿠팡이 한 번이라도 거부(403·429)하면 cp:stop 표시를 남기고, 운영자가 /admin 에서 풀 때까지 새로 묻지 않아요.
@@ -10,7 +11,7 @@ import { redis, storeReady, readBody } from './_lib/store.js';
 import { coupangKeys, coupangSearch } from './_lib/coupang.js';
 import { normQ } from './trending.js';
 
-const LIVE_PER_HOUR = 1; // 10/27 방문자가 적어 자동 후보 발굴(Actions 7회)에 몫을 넘겼어요. 방문자가 늘면 다시 늘려요.
+const LIVE_PER_HOUR = 30; // 11/3 운영자: 1 → 30(1단계). 며칠 403이 없으면 다음 단계로 늘려요.
 const FRESH_SEC = 24 * 3600;
 const KEEP_SEC = 7 * 24 * 3600;
 const BLOCK = /(https?:|www\.|@|시발|씨발|병신|개새|섹스|야동|토토|카지노)/i;
@@ -33,6 +34,11 @@ export default async function handler(req, res) {
     const b = await readBody(req);
     if (b.action === 'reset' && storeReady()) { await redis([['DEL', 'cp:stop']]); return send(res, 200, { ok: true, reset: true }); }
     return send(res, 400, { ok: false });
+  }
+  // 공개: 멈춤 여부만(true/false). GitHub Actions가 검색 전에 확인해, 사이트가 거부당했으면 같이 멈춰요.
+  if (url.searchParams.get('stop') === '1') {
+    const [stop] = storeReady() ? await redis([['GET', 'cp:stop']]) : [null];
+    return send(res, 200, { ok: true, stop: Boolean(stop) });
   }
   if (url.searchParams.get('status') === '1') {
     if (!isAdmin()) return send(res, 401, { ok: false, reason: 'unauthorized' });
