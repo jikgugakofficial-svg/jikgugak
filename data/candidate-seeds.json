@@ -746,6 +746,688 @@
       "model": "Mongar 2",
       "cat": "home",
       "why": "네이처하이크 백패킹 2인 텐트 인기 모델(Cloud Up 2와 같은 브랜드), 알리 공식 스토어·국내 유통. 20D/210T 등 소재 버전 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]"
+    },
+    {
+      "q": "QCY MeloBuds Pro HT08",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "MeloBuds Pro",
+      "cat": "audio",
+      "why": "퀘이사존 알리 핫딜 QCY HT08 멜로버즈 30,776원(무배, 할인코드+코인 적용, 25.07.03). 색(블랙·화이트·골드) 옵션 맞출 것",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1819228"
+      ]
+    },
+    {
+      "q": "QCY MeloBuds N60",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "MeloBuds N60",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 N60 ANC 최종가 약 $18.43(26.04.03), 귀찌·커널형 모음글에도 $23.66(26.02.02)",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/103040",
+        "https://bbs.ruliweb.com/market/board/1020/read/101415"
+      ]
+    },
+    {
+      "q": "QCY MeloBuds N50",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "MeloBuds N50",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY Melobuds N50 23,919원(쿠폰+코인, 26.04.08)",
+      "evidence": [
+        "https://bbs.ruliweb.com/news/board/1020/read/103183"
+      ]
+    },
+    {
+      "q": "QCY Crossky C30",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "Crossky C30",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY Crossky C30 클립형 24,773원(쿠폰+코인, 26.04.10). C30S와 다른 모델이라 구분 필요",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/103240"
+      ]
+    },
+    {
+      "q": "QCY Crossky C30S",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "C30S",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 Crossky C30S 최종가 약 $17.2(26.04.03)",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/103040"
+      ]
+    },
+    {
+      "q": "QCY Crossky C50",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "Crossky C50",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 Crossky C50 최종가 약 $17.07(26.04.03)",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/103040"
+      ]
+    },
+    {
+      "q": "QCY H3S ANC",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "H3S",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 H3S ANC 헤드폰 최종가 약 $20.37(26.04.03). 등록된 H3 ANC와 다른 후속 모델",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/103040"
+      ]
+    },
+    {
+      "q": "QCY T13 ANC",
+      "brand": "QCY",
+      "brandKo": "큐씨와이",
+      "model": "T13 ANC",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY T13 ANC 18,816원(코인+코드, 26.04.09). 등록된 일반 T13과 다른 모델(댓글엔 T13 ANC2 언급, 세대 확인 필요)",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/103198"
+      ]
+    },
+    {
+      "q": "Edifier MR5",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "MR5",
+      "cat": "audio",
+      "why": "루리웹 알리 에디파이어 MR5 스피커 $89.49(무배·코드+코인+결제할인, 26.11.01). 광군제 중 반복 핫딜",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/600004/read/134097",
+        "https://bbs.ruliweb.com/market/board/600004/read/133052"
+      ]
+    },
+    {
+      "q": "Edifier MR3",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "MR3",
+      "cat": "audio",
+      "why": "루리웹 알리 유튜버 공동구매 모음에 에디파이어 MR3 2.0 스피커 약 $44.20(코드 적용, 26.03.15). 색(블랙·화이트) 옵션 맞출 것",
+      "evidence": [
+        "https://bbs.ruliweb.com/news/board/1020/read/102415"
+      ]
+    },
+    {
+      "q": "Edifier ES20",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "ES20",
+      "cat": "audio",
+      "why": "루리웹 알리 에디파이어 ES20 포터블 스피커 $38.89(무배·코드+코인, 25.04.14)",
+      "evidence": [
+        "https://m.ruliweb.com/market/board/600004/read/109237"
+      ]
+    },
+    {
+      "q": "Edifier Stax Spirit S3",
+      "brand": "Edifier",
+      "brandKo": "에디파이어",
+      "model": "Stax Spirit S3",
+      "cat": "audio",
+      "why": "루리웹 알리 에디파이어 스탁스 스피릿 S3 무선 헤드폰 $143.13(무배·코드+코인+결제할인, 26.09.14)",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/600004/read/132504"
+      ]
+    },
+    {
+      "q": "Fosi Audio ZH3",
+      "brand": "Fosi Audio",
+      "brandKo": "포시오디오",
+      "model": "ZH3",
+      "cat": "audio",
+      "why": "루리웹 알리 Fosi Audio ZH3 DAC·헤드폰앰프 약 $103(코인·카드 할인 예상가, 26.06.01), 11월 이어폰·DAC 모음에도 126.99(26.11.01)",
+      "evidence": [
+        "https://bbs.ruliweb.com/pc/board/1020/read/104485",
+        "https://bbs.ruliweb.com/market/board/1020/read/108555"
+      ]
+    },
+    {
+      "q": "FiiO BTR15",
+      "brand": "FiiO",
+      "brandKo": "피오",
+      "model": "BTR15",
+      "cat": "audio",
+      "why": "루리웹 후기 '알리에서 할인할 때 100달러에 구매'(24.03.30). 주의: 상품명에 receiver(리시버)가 들어가면 자동 발굴의 액세서리 필터에 걸릴 수 있음",
+      "evidence": [
+        "https://bbs.ruliweb.com/community/board/300143/read/65487938"
+      ]
+    },
+    {
+      "q": "FiiO JM21",
+      "brand": "FiiO",
+      "brandKo": "피오",
+      "model": "JM21",
+      "cat": "audio",
+      "why": "클리앙 사용기에 보급형 DAP FiiO JM21 구매 후기(25.03.03, 구매처·가격은 글에 없음). 색 옵션 맞출 것",
+      "evidence": [
+        "https://www.clien.net/service/board/use/18926207"
+      ]
+    },
+    {
+      "q": "FiiO GIGAS1",
+      "brand": "FiiO",
+      "brandKo": "피오",
+      "model": "GIGAS1",
+      "cat": "audio",
+      "why": "루리웹 알리 이어폰·DAC 모음에 FIIO(JadeAudio) GIGAS1 헤드폰 앰프 50.89(26.10.01), 45.75(26.10.13). 상품명이 JadeAudio로만 적힐 수 있음",
+      "evidence": [
+        "https://bbs.ruliweb.com/mobile/board/1020/read/107653",
+        "https://bbs.ruliweb.com/market/board/1020/read/107972"
+      ]
+    },
+    {
+      "q": "Moondrop CHU 2",
+      "brand": "Moondrop",
+      "brandKo": "수월우",
+      "model": "CHU 2",
+      "cat": "audio",
+      "why": "퀘이사존 알리 수월우 츄2 유선 이어폰 $12.33(24.10.01). 마이크 유무 옵션 맞출 것, 상품명이 CHU II로 적힐 수 있음",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1679704"
+      ]
+    },
+    {
+      "q": "Moondrop CHU III",
+      "brand": "Moondrop",
+      "brandKo": "수월우",
+      "model": "CHU III",
+      "cat": "audio",
+      "why": "루리웹 알리 이어폰 모음에 Moon-drop CHU III 23.99(26.10.01), 21.60(26.09.01). 마이크 유무 옵션 맞출 것",
+      "evidence": [
+        "https://bbs.ruliweb.com/mobile/board/1020/read/107653",
+        "https://bbs.ruliweb.com/xbox/board/1020/read/106818"
+      ]
+    },
+    {
+      "q": "Moondrop Aria 2",
+      "brand": "Moondrop",
+      "brandKo": "수월우",
+      "model": "Aria 2",
+      "cat": "audio",
+      "why": "아카라이브 헤드폰 채널 '쿠팡직구한 아리아2' 글로 쿠팡 판매 확인(글 날짜 확인 못 함) [근거 약함]",
+      "evidence": [
+        "https://arca.live/b/headphones/113980274"
+      ]
+    },
+    {
+      "q": "Moondrop Space Travel",
+      "brand": "Moondrop",
+      "brandKo": "수월우",
+      "model": "Space Travel",
+      "cat": "audio",
+      "why": "아카라이브 핫딜 후기 채널 수월우 Space Travel 후기(글 날짜 확인 못 함). 색 옵션 맞출 것",
+      "evidence": [
+        "https://arca.live/b/hotdealhugi/100848826"
+      ]
+    },
+    {
+      "q": "Moondrop Starfield 2",
+      "brand": "Moondrop",
+      "brandKo": "수월우",
+      "model": "Starfield 2",
+      "cat": "audio",
+      "why": "아카라이브 핫딜 채널 수월우 스타필드2 알리 핫딜 글(글 날짜 확인 못 함, 가격은 날짜 미확인이라 생략). 후속 Starfield III와 구분",
+      "evidence": [
+        "https://arca.live/b/hotdeal/109182485"
+      ]
+    },
+    {
+      "q": "KZ ZSN Pro",
+      "brand": "KZ",
+      "brandKo": "KZ",
+      "model": "ZSN Pro",
+      "cat": "audio",
+      "why": "클리앙 KZ ZSN PRO 사용기, 약 $20 구매(19.04.08). 오래된 근거라 현재 판매·후속 ZSN Pro X와 구분 확인 필요 [근거 약함]",
+      "evidence": [
+        "https://www.clien.net/service/board/use/13356002",
+        "https://www.clien.net/service/board/use/12845505"
+      ]
+    },
+    {
+      "q": "Soundpeats Capsule3 Pro+",
+      "brand": "Soundpeats",
+      "brandKo": "사운드피츠",
+      "model": "Capsule3 Pro+",
+      "cat": "audio",
+      "why": "클리앙 체험단 사용기(24.07.30, 본문에 쿠팡 링크 있음)와 루리웹 알리 이어폰 모음(26.07.01)에 Capsule3 Pro+ 언급",
+      "evidence": [
+        "https://www.clien.net/service/board/chehum/18774474",
+        "https://bbs.ruliweb.com/pc/board/1020/read/105271"
+      ]
+    },
+    {
+      "q": "Soundpeats Air4 Pro",
+      "brand": "Soundpeats",
+      "brandKo": "사운드피츠",
+      "model": "Air4 Pro",
+      "cat": "audio",
+      "why": "아카라이브 핫딜 채널 사운드피츠 Air4 Pro 핫딜 글(글 날짜 확인 못 함, 가격 생략). Air4·Air4 Lite와 구분",
+      "evidence": [
+        "https://arca.live/b/hotdeal/120985063"
+      ]
+    },
+    {
+      "q": "Soundpeats Air4 Lite",
+      "brand": "Soundpeats",
+      "brandKo": "사운드피츠",
+      "model": "Air4 Lite",
+      "cat": "audio",
+      "why": "루리웹 쿠팡 Soundpeats Air4 Lite 26,250원(무배, 24.03.16) → 쿠팡 판매 확인",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/84041"
+      ]
+    },
+    {
+      "q": "Soundpeats PearlClip Pro",
+      "brand": "Soundpeats",
+      "brandKo": "사운드피츠",
+      "model": "PearlClip Pro",
+      "cat": "audio",
+      "why": "아카라이브 핫딜 채널 사운드피츠 펄클립 프로 핫딜 글(글 날짜 확인 못 함, 가격 생략)",
+      "evidence": [
+        "https://arca.live/b/hotdeal/154813933"
+      ]
+    },
+    {
+      "q": "Soundcore P20i",
+      "brand": "Soundcore",
+      "brandKo": "사운드코어",
+      "model": "P20i",
+      "cat": "audio",
+      "why": "뽐뿌 알리뽐뿌 '사운드코어 Anker P20i' 특가 글 2건(글 날짜 확인 못 함, 가격 생략). 색 옵션 맞출 것",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=36774",
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=43537"
+      ]
+    },
+    {
+      "q": "Soundcore Liberty 5 Pro",
+      "brand": "Soundcore",
+      "brandKo": "사운드코어",
+      "model": "Liberty 5 Pro",
+      "cat": "audio",
+      "why": "클리앙 리버티 5 프로 사용기(26.10.18), 댓글에 네이버 약 23만 원 구매 언급. 국내가가 높아 직구 차이 클 수 있음",
+      "evidence": [
+        "https://www.clien.net/service/board/use/19279299"
+      ]
+    },
+    {
+      "q": "Soundcore Space Q45",
+      "brand": "Soundcore",
+      "brandKo": "사운드코어",
+      "model": "Q45",
+      "cat": "audio",
+      "why": "클리앙 Q45 구매·사용기 2건(22.09.17 글: 쿠폰가 136,000원). 오래된 모델이라 판매 지속 확인 필요 [근거 약함]",
+      "evidence": [
+        "https://www.clien.net/service/board/use/17566553",
+        "https://www.clien.net/service/board/use/17624934"
+      ]
+    },
+    {
+      "q": "Soundcore AeroClip",
+      "brand": "Soundcore",
+      "brandKo": "사운드코어",
+      "model": "AeroClip",
+      "cat": "audio",
+      "why": "뽐뿌 알리뽐뿌 '[알리할인] 앤커 사운드코어 에어로 클립' 글(글 날짜 확인 못 함, 가격 생략)",
+      "evidence": [
+        "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&no=63117"
+      ]
+    },
+    {
+      "q": "1MORE SonoFlow Pro HQ51",
+      "brand": "1MORE",
+      "brandKo": "원모어",
+      "model": "SonoFlow Pro",
+      "cat": "audio",
+      "why": "루리웹 옥션 원모어 소노플로우 프로 72,900원(국내 핫딜), 퀘이사존 HQ51 출시 뉴스. 등록 후보 SonoFlow(무印)와 다른 모델",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/93446",
+        "https://quasarzone.com/bbs/qn_hardware/views/1734195"
+      ]
+    },
+    {
+      "q": "Lenovo thinkplus LP40",
+      "brand": "Lenovo",
+      "brandKo": "레노버",
+      "model": "LP40",
+      "cat": "audio",
+      "why": "클리앙 알리 레노버 TWS LP40 10,785원(22.06.21). LP40 Pro·LP40s와 구분 필요, 오래된 근거 [근거 약함]",
+      "evidence": [
+        "https://www.clien.net/service/board/jirum/17347277"
+      ]
+    },
+    {
+      "q": "Baseus Bowie H1i",
+      "brand": "Baseus",
+      "brandKo": "베이스어스",
+      "model": "Bowie H1i",
+      "cat": "audio",
+      "why": "클리앙 3기기 리뷰에 베이서스 보위 H1i 알리 약 $29 구매(23.10.09)",
+      "evidence": [
+        "https://www.clien.net/service/board/use/18352227"
+      ]
+    },
+    {
+      "q": "Haylou Iron N1",
+      "brand": "Haylou",
+      "brandKo": "하이루",
+      "model": "Iron N1",
+      "cat": "it",
+      "why": "아카라이브 핫딜 채널 HAYLOU IRON N1 스마트워치 알리 핫딜(글 날짜 확인 못 함, 가격 생략)",
+      "evidence": [
+        "https://arca.live/b/hotdeal/114389459"
+      ]
+    },
+    {
+      "q": "Fifine AM8",
+      "brand": "Fifine",
+      "brandKo": "파이파인",
+      "model": "AM8",
+      "cat": "audio",
+      "why": "뽐뿌 알리뽐뿌 FIFINE K688·AM8·K669 마이크 특가 글(글 날짜 확인 못 함, 가격 생략). AM8T·RGB 색 버전 구분",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=37188&ppck=1"
+      ]
+    },
+    {
+      "q": "Fifine K669",
+      "brand": "Fifine",
+      "brandKo": "파이파인",
+      "model": "K669",
+      "cat": "audio",
+      "why": "뽐뿌 알리뽐뿌 FIFINE 마이크 특가 글 2건에 K669 반복 등장(글 날짜 확인 못 함, 가격 생략). K669B·K669 Pro와 구분",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=37188&ppck=1",
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=39507&ppck=1"
+      ]
+    },
+    {
+      "q": "Fifine K688",
+      "brand": "Fifine",
+      "brandKo": "파이파인",
+      "model": "K688",
+      "cat": "audio",
+      "why": "뽐뿌 알리뽐뿌 FIFINE 마이크 특가 글 2건에 K688 다이나믹 마이크(글 날짜 확인 못 함, 가격 생략)",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=37188&ppck=1",
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=39507&ppck=1"
+      ]
+    },
+    {
+      "q": "UGREEN Nexode 160W GaN",
+      "brand": "UGREEN",
+      "brandKo": "유그린",
+      "model": "160W",
+      "cat": "it",
+      "why": "루리웹 알리 유그린 신형 160W GaN 충전기 $46.99(26.08.24), 공동구매 모음에 KR GaN 160W $29.44(26.03.15). 한국형 플러그·구형/신형 구분 필요",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/600004/read/131718",
+        "https://bbs.ruliweb.com/news/board/1020/read/102415"
+      ]
+    },
+    {
+      "q": "UGREEN Nexode 500W GaN",
+      "brand": "UGREEN",
+      "brandKo": "유그린",
+      "model": "500W",
+      "cat": "it",
+      "why": "루리웹 알리 유그린 500W GaN 충전기 역대 최저 $102.64(26.08.17), 공동구매 모음 $102.99(26.03.15)",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/600004/read/131481",
+        "https://bbs.ruliweb.com/news/board/1020/read/102415"
+      ]
+    },
+    {
+      "q": "UGREEN 45W 20000mAh Power Bank",
+      "brand": "UGREEN",
+      "brandKo": "유그린",
+      "model": "45W 20000mAh",
+      "cat": "it",
+      "why": "루리웹 알리 유그린 45W 20000mAh KC인증 보조배터리 $23.61(26.08.21). KC판·글로벌판 옵션 구분",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/600004/read/131632",
+        "https://bbs.ruliweb.com/market/board/1020/read/102507"
+      ]
+    },
+    {
+      "q": "UGREEN Qi2 25W 10000mAh Magnetic Power Bank",
+      "brand": "UGREEN",
+      "brandKo": "유그린",
+      "model": "Qi2 25W 10000mAh",
+      "cat": "it",
+      "why": "루리웹 알리 Qi2 25W 유그린 10,000mAh(KC판) 약 $33.93(26.03.18). 등록 후보 30W 10000mAh·Qi2 20000mAh와 다른 모델",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/102507"
+      ]
+    },
+    {
+      "q": "Anker Power Bank 25000mAh 165W A1695",
+      "brand": "Anker",
+      "brandKo": "앤커",
+      "model": "165W 25000mAh",
+      "cat": "it",
+      "why": "루리웹 알리 ANKER 165W 25,000mAh(A1695) $51.98(26.03.18). 모델번호 A1695가 분명",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/102507"
+      ]
+    },
+    {
+      "q": "Anker 737 Power Bank 24000mAh 140W",
+      "brand": "Anker",
+      "brandKo": "앤커",
+      "model": "737 24000mAh",
+      "cat": "it",
+      "why": "루리웹 알리 앤커 737 140W 보조배터리 정발판 약 85,000원(24.06.01), 24000mAh $46.93(25.06.18). 등록 후보 737 충전기(120W)와 다른 제품",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/86131",
+        "https://m.ruliweb.com/market/board/1020/read/96203"
+      ]
+    },
+    {
+      "q": "Anker SOLIX C300 DC",
+      "brand": "Anker",
+      "brandKo": "앤커",
+      "model": "SOLIX C300",
+      "cat": "it",
+      "why": "루리웹 알리 유튜버 공동구매 모음에 Anker SOLIX C300 $105.19(26.03.15). C300 DC·AC 버전 구분 필요",
+      "evidence": [
+        "https://bbs.ruliweb.com/news/board/1020/read/102415"
+      ]
+    },
+    {
+      "q": "Logitech MX Master 4",
+      "brand": "Logitech",
+      "brandKo": "로지텍",
+      "model": "MX Master 4",
+      "cat": "it",
+      "why": "루리웹 알리 공동구매 모음에 로지텍 MX 마스터 4 약 $100.54(26.03.15). 등록 상품 MX Master 3S의 후속, 색 옵션 맞출 것",
+      "evidence": [
+        "https://bbs.ruliweb.com/news/board/1020/read/102415"
+      ]
+    },
+    {
+      "q": "8BitDo Micro",
+      "brand": "8BitDo",
+      "brandKo": "8BitDo",
+      "model": "Micro",
+      "cat": "it",
+      "why": "루리웹 알리 공동구매 모음에 8BitDo 마이크로 컨트롤러 그린 $11.39·블루 $12.06(26.03.15). 색 옵션 맞출 것",
+      "evidence": [
+        "https://bbs.ruliweb.com/news/board/1020/read/102415",
+        "https://arca.live/b/hotdealhugi/110598599"
+      ]
+    },
+    {
+      "q": "8BitDo Ultimate C 2.4G",
+      "brand": "8BitDo",
+      "brandKo": "8BitDo",
+      "model": "Ultimate C 2.4G",
+      "cat": "it",
+      "why": "뽐뿌 알리뽐뿌 8BitDo 얼티밋-C 2.4G 세일 글 2건(글 날짜 확인 못 함, 가격 생략). 블루투스판·등록 후보 Ultimate 2C와 구분",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=35930&ppck=1",
+        "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu8&no=36088"
+      ]
+    },
+    {
+      "q": "Attack Shark X3",
+      "brand": "Attack Shark",
+      "brandKo": "어택샤크",
+      "model": "X3",
+      "cat": "it",
+      "why": "퀘이사존 알리 Attack shark x3 게이밍 마우스 $15.78(24.09.08), 클리앙 리뷰(23.10.09). X3 Pro·X3 Max와 구분",
+      "evidence": [
+        "https://quasarzone.com/bbs/qb_saleinfo/views/1668943",
+        "https://www.clien.net/service/board/use/18352227"
+      ]
+    },
+    {
+      "q": "Attack Shark R1",
+      "brand": "Attack Shark",
+      "brandKo": "어택샤크",
+      "model": "R1",
+      "cat": "it",
+      "why": "루리웹 후기 '알리에서 주문, 2만 원'(25.05.10)",
+      "evidence": [
+        "https://m.ruliweb.com/community/board/300143/read/70613327"
+      ]
+    },
+    {
+      "q": "Attack Shark X11",
+      "brand": "Attack Shark",
+      "brandKo": "어택샤크",
+      "model": "X11",
+      "cat": "it",
+      "why": "뽐뿌 롯데온 어택샤크 X11 충전독 포함 무선 마우스 핫딜(글 날짜 확인 못 함, 가격 생략) → 국내 판매 확인. 색 옵션 맞출 것",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu&no=546548"
+      ]
+    },
+    {
+      "q": "AJAZZ AJ139",
+      "brand": "AJAZZ",
+      "brandKo": "아작스",
+      "model": "AJ139",
+      "cat": "it",
+      "why": "루리웹 알리 AJAZZ AJ139 경량 무선 마우스 $15.31(25.06.16). AJ139 Pro·V2와 구분 필요",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/96136"
+      ]
+    },
+    {
+      "q": "MCHOSE V9 Turbo+",
+      "brand": "MCHOSE",
+      "brandKo": "엠초즈",
+      "model": "V9 Turbo",
+      "cat": "it",
+      "why": "클리앙 MCHOSE V9 Turbo+ 사용기(26.09.13, 구매처·가격 없음). V9 Pro·Turbo·Turbo+ 등급 구분 필요",
+      "evidence": [
+        "https://www.clien.net/service/board/use/19262853"
+      ]
+    },
+    {
+      "q": "MCHOSE G3",
+      "brand": "MCHOSE",
+      "brandKo": "엠초즈",
+      "model": "G3",
+      "cat": "it",
+      "why": "뽐뿌 알리뽐뿌 무선 마우스 모음 글에 Mchose G3 포함(글 날짜 확인 못 함, 가격 생략). G3 Pro·Ultra와 구분",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=43105&page=1&ppck=1"
+      ]
+    },
+    {
+      "q": "Baseus 45W 10000mAh Mini Power Bank",
+      "brand": "Baseus",
+      "brandKo": "베이스어스",
+      "model": "45W 10000mAh",
+      "cat": "it",
+      "why": "루리웹 알리 베이스어스 45W 10000mAh 울트라 미니 파워뱅크 $20.78(코드+코인, 26.03.24), 뽐뿌 알리뽐뿌에도 $17~18 글. 정확한 시리즈명은 글에 없어 상품 페이지에서 확인 필요",
+      "evidence": [
+        "https://bbs.ruliweb.com/xbox/board/1020/read/102708",
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu8&no=88237"
+      ]
+    },
+    {
+      "q": "Xiaomi Mijia Oral Irrigator MEO705",
+      "brand": "Xiaomi",
+      "brandKo": "샤오미",
+      "model": "MEO705",
+      "cat": "home",
+      "why": "루리웹 알리 공동구매 모음에 샤오미 MIJIA 구강세정기 MEO705 $21.48(26.03.15). 모델번호가 분명",
+      "evidence": [
+        "https://bbs.ruliweb.com/news/board/1020/read/102415"
+      ]
+    },
+    {
+      "q": "Xiaomi Mijia Smart DC Fan 1X",
+      "brand": "Xiaomi",
+      "brandKo": "샤오미",
+      "model": "1X",
+      "cat": "home",
+      "why": "루리웹 알리 미지아 스마트DC 선풍기 1X $16.71·$18.03 핫딜, 구매자 주의 글까지 있을 만큼 관심 큼(글 날짜는 본문 미확인). 계절 상품이라 여름 전 우선",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/87921",
+        "https://bbs.ruliweb.com/market/board/1020/read/88038"
+      ]
+    },
+    {
+      "q": "DJI Osmo Pocket 3",
+      "brand": "DJI",
+      "brandKo": "DJI",
+      "model": "Pocket 3",
+      "cat": "it",
+      "why": "클리앙 OSMO Pocket 3 사용기(23.12.28)·국내 가격 글. 본품 단품·콤보 구성 구분 필수",
+      "evidence": [
+        "https://www.clien.net/service/board/use/18499618",
+        "https://www.clien.net/service/board/park/18383966"
+      ]
+    },
+    {
+      "q": "DJI Osmo Pocket 4",
+      "brand": "DJI",
+      "brandKo": "DJI",
+      "model": "Pocket 4",
+      "cat": "it",
+      "why": "루리웹 네이버 DJI 오즈모 포켓 4 사전예약 스탠더드 콤보 662,000원(26.04.17). 콤보 구성 구분 필수",
+      "evidence": [
+        "https://bbs.ruliweb.com/market/board/1020/read/103440"
+      ]
+    },
+    {
+      "q": "DJI Osmo Action 5 Pro",
+      "brand": "DJI",
+      "brandKo": "DJI",
+      "model": "Action 5 Pro",
+      "cat": "it",
+      "why": "클리앙 액션4·액션5 비교 질문글(24.11.23), 댓글에 액션5 64만 원 언급. 스탠더드·어드벤처 콤보 구분 필수",
+      "evidence": [
+        "https://www.clien.net/service/board/park/18845803"
+      ]
+    },
+    {
+      "q": "Insta360 X4",
+      "brand": "Insta360",
+      "brandKo": "인스타360",
+      "model": "X4",
+      "cat": "it",
+      "why": "뽐뿌 Insta360 X4 국내 핫딜 글(글 날짜 확인 못 함, 가격 생략). 등록 후보 X5의 전 모델, 본품만 비교",
+      "evidence": [
+        "https://m.ppomppu.co.kr/new/bbs_view.php?id=ppomppu&no=583587&page=5&ppck=1"
+      ]
     }
   ]
 }
