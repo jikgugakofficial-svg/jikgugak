@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>직구각 릴스 150달러 퀴즈</title>
+<style>
+  @font-face{font-family:D;src:url("../../tools/tvc/fonts/Freesentation-9Black.ttf")}
+  @font-face{font-family:P;src:url("../../tools/cards/fonts/PretendardVariable.ttf");font-weight:100 900}
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#FBF7F3}
+  #bg2,#flash,#endbg{position:absolute;inset:0}
+  #cam{position:absolute;inset:0;transform-origin:540px 1060px}
+  svg{position:absolute;inset:0}
+  #words{position:absolute;inset:0}
+  .w{position:absolute;left:0;top:0;white-space:nowrap;letter-spacing:-0.02em;clip-path:inset(-60% -8% -4% -8%)}
+  .w span{display:inline-block;white-space:pre}
+  .lbl{font-family:P;font-weight:800}
+</style></head>
+<body>
+<div id="bg2"></div>
+<div id="cam"><svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="g"></g><g id="fx"></g></svg></div>
+<div id="flash"></div>
+<div id="endbg"></div>
+<svg id="s2" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="logo"></g></svg>
+<div id="words"></div>
+<script src="timeline.js"></script>
+<script>
+document.fonts.load('900 100px D'); document.fonts.load('800 40px P');
+const T = window.TL, BT = 60 / T.bpm, bt = (b) => b * BT;
+window.DURATION = T.beats * BT;
+const C = { navy:'#1F2E57', orange:'#D23A10', salmon:'#FFC7A6', white:'#FFFFFF', gray:'#5B6170', mute:'#B9C1D6', green:'#0E7C4A', bg:'#FBF7F3' };
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const pg = (t, a, b) => cl((t - a) / (b - a));
+const oc = (x) => 1 - Math.pow(1 - x, 3);
+const o5 = (x) => 1 - Math.pow(1 - x, 5);
+const iq = (x) => x * x;
+const ob = (x, s = 1.9) => { x -= 1; return x * x * ((s + 1) * x + s) + 1; };
+const oe = (x) => x <= 0 ? 0 : x >= 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * 2 * Math.PI / 3) + 1;
+const spring = (dt, f = 1.6, z = 0.3) => dt <= 0 ? 0 : 1 - Math.exp(-z * 2 * Math.PI * f * dt) * (Math.cos(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt) + z / Math.sqrt(1 - z * z) * Math.sin(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt));
+const lerp = (a, b, p) => a + (b - a) * p;
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
+const $ = (id) => document.getElementById(id);
+const isNavy = (b) => b >= T.navy[0] && b < T.navy[1];
+
+// ── 자막 목록(박자 표에서 만듦): [글자, 들어오는 박, 나가는 박, y, 크기, 색, 글꼴] ──
+const W0 = [['150달러,', 0.5, 4, 700, 230, 'orange', 'D'], ['이거 헷갈리죠?', 1.0, 4, 900, 140, 'navy', 'D']];
+T.q.forEach((q0, i) => {
+  const [l1, l2, ans, ex, sub] = T.qs[i], nv = isNavy(q0);
+  W0.push([`Q${i + 1} / 3`, q0, q0 + 8, 470, 46, nv ? 'salmon' : 'orange', 'P']);
+  W0.push([l1, q0 + 0.25, q0 + 8, 640, 120, nv ? 'white' : 'navy', 'D'], [l2, q0 + 0.5, q0 + 8, 800, 120, nv ? 'white' : 'navy', 'D']);
+  W0.push([ex, q0 + 4.5, q0 + 8, 1290, 66, nv ? 'white' : 'navy', 'D'], [sub, q0 + 5, q0 + 8, 1385, 46, nv ? 'mute' : 'gray', 'P']);
+});
+W0.push(['직구각', T.end, null, 1000, 160, 'white', 'D'], ['관세까지 다 더해서 판정', T.end, null, 1140, 54, 'white', 'P']);
+const WD = W0.map(([text, b, out, y, size, col, font]) => ({ text, b, out, y, size, col: C[col], font }));
+for (const w of WD) {
+  const d = document.createElement('div'); d.className = 'w';
+  d.style.cssText += `font-family:${w.font};font-weight:${w.font === 'D' ? 900 : 800};font-size:${w.size}px;color:${w.col}`;
+  w.chars = [...w.text].map((ch) => { const sp = document.createElement('span'); sp.textContent = ch; d.appendChild(sp); return sp; });
+  if (w.b >= T.end) d.style.clipPath = 'none';
+  $('words').appendChild(d); w.d = d;
+}
+let laid = false;
+function layout() {
+  for (const w of WD) {
+    let r = w.d.getBoundingClientRect();
+    if (r.width > 960) { w.size = Math.floor(w.size * 960 / r.width); w.d.style.fontSize = w.size + 'px'; r = w.d.getBoundingClientRect(); }
+    w.wd = r.width; w.hh = r.height;
+  }
+  laid = true;
+}
+function word(w, t) {
+  const t0 = bt(w.b);
+  w.d.style.transform = `translate(${540 - w.wd / 2}px,${w.y - w.hh / 2}px)`;
+  if (w.b >= T.end) { w.d.style.opacity = t >= bt(T.end) ? 1 : 0; return; }
+  if (t < t0 || t >= bt(w.out)) { w.d.style.opacity = 0; return; }
+  w.d.style.opacity = 1;
+  const big = w.size >= 100, out = bt(w.out), n = w.chars.length, st = big ? 0.032 : 0.012;
+  w.chars.forEach((c, i) => {
+    const dt = t - t0 - i * st, sp = big ? spring(dt, 2.0, 0.42) : oc(pg(dt, 0, 0.25));
+    const q = pg(t, out - 0.16 + i * Math.min(0.008, 0.08 / n), out);
+    c.style.transform = `translateY(${(1 - sp) * w.hh * 0.95 - q * w.hh * 1.2}px) rotate(${big ? (1 - cl(sp)) * 10 : 0}deg)`;
+    c.style.opacity = (dt > 0 ? 1 : 0) * (1 - q);
+  });
+}
+
+// ── 그래픽 ──
+const G = $('g'), FX = $('fx');
+function ring(x, y, t, t0, col, r0, r1, dur = 0.45, w = 16) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; el('circle', { cx: x, cy: y, r: r0 + (r1 - r0) * oc(p), fill: 'none', stroke: col, 'stroke-width': w * (1 - p) }, FX); }
+function burst(x, y, t, t0, col, n, r0, r1, dur = 0.35, w = 12) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; const rb = r0 + (r1 - r0) * oc(p), ra = r0 + (r1 - r0) * oc(cl(p * 1.7 - 0.7)); for (let i = 0; i < n; i++) { const a = 2 * Math.PI * i / n + 0.2; el('line', { x1: x + Math.cos(a) * ra, y1: y + Math.sin(a) * ra, x2: x + Math.cos(a) * rb, y2: y + Math.sin(a) * rb, stroke: col, 'stroke-width': w * (1 - p), 'stroke-linecap': 'round' }, FX); } }
+function confetti(x, y, t, t0, seed, cols, n = 30, dur = 1.0) {
+  const tt = t - t0; if (tt <= 0 || tt >= dur) return;
+  let s = seed; const rd = () => ((s = (s * 16807) % 2147483647) / 2147483647);
+  for (let i = 0; i < n; i++) { const a = rd() * 2 * Math.PI, v = 700 + rd() * 700, k = (1 - Math.exp(-tt * 4)) / 4, sz = (14 + rd() * 14) * (1 - 0.5 * tt / dur); const px = x + Math.cos(a) * v * k, py = y + Math.sin(a) * v * k + 1300 * tt * tt; el('rect', { x: px - sz / 2, y: py - sz / 4, width: sz, height: sz / 2, rx: 3, fill: cols[i % cols.length], transform: `rotate(${(rd() * 360 + tt * 600) % 360} ${px} ${py})` }, FX); }
+}
+// 훅: 물음표 풍선 셋
+const BUB = [[230, 1180, 1.5, 70], [540, 1290, 2.0, 92], [850, 1160, 2.5, 74]];
+function drawHook(t) {
+  for (const [x, y, b, r] of BUB) {
+    const t0 = bt(b), out = pg(t, bt(4) - 0.18, bt(4)); if (t < t0 || out >= 1) continue;
+    const s = spring(t - t0, 2.2, 0.32) * (1 - out), yy = y + 14 * Math.sin((t - t0) * 5 + x) - 300 * iq(out);
+    el('circle', { cx: x, cy: yy, r: r * s, fill: C.navy }, G);
+    const tx = el('text', { x, y: yy + r * 0.05 * s, 'text-anchor': 'middle', 'dominant-baseline': 'middle', 'font-family': 'D', 'font-size': r * 1.15 * s, fill: '#fff' }, G); tx.textContent = '?';
+    ring(x, y, t, t0, C.orange, r * 0.8, r * 1.8, 0.35, 8);
+  }
+}
+// 문제: O·X 버튼 → 3·2·1 → 정답 쾅
+const BX = { O: 300, X: 780 }, BY = 1060, BR = 128;
+function drawQ(t, q0, ans, nv) {
+  const t1 = bt(q0 + 1), ta = bt(q0 + 4), out = bt(q0 + 8);
+  if (t < t1 || t >= out) return;
+  const leave = pg(t, out - 0.22, out);
+  for (const k of ['O', 'X']) {
+    const col = k === 'O' ? C.green : C.orange;
+    let s = spring(t - t1 - (k === 'X' ? 0.06 : 0), 2.0, 0.35), x = BX[k], y = BY, a = 1, fillA = 0.14;
+    // 3·2·1 동안 박마다 번갈아 통통
+    for (const b of [1.5, 2.5, 3.5]) { const d = t - bt(q0 + b); if (d > 0 && d < 0.3) s *= 1 + 0.08 * Math.sin(Math.PI * d / 0.3) * ((b === 2.5) === (k === 'X') ? 1.6 : 0.6); }
+    if (t >= ta) { const sp = spring(t - ta, 2.4, 0.3); if (k === ans) { s *= 1 + 0.22 * sp; fillA = 1; x = lerp(x, 540, 0.55 * oc(pg(t, ta, ta + 0.3))); } else { s *= 1 - 0.3 * oc(pg(t, ta, ta + 0.2)); a = 1 - 0.8 * oc(pg(t, ta, ta + 0.2)); } }
+    y += 420 * iq(leave); a *= 1 - leave;
+    const r = BR * s, gg = el('g', { opacity: a }, G);
+    el('circle', { cx: x, cy: y, r, fill: (t >= ta && k === ans) ? col : (nv ? '#2C3D6E' : '#FFFFFF'), stroke: col, 'stroke-width': 12 }, gg);
+    const sc = (t >= ta && k === ans) ? '#fff' : col, sw = 22 * s;
+    if (k === 'O') el('circle', { cx: x, cy: y, r: r * 0.48, fill: 'none', stroke: sc, 'stroke-width': sw }, gg);
+    else { const d = r * 0.42; el('path', { d: `M${x - d} ${y - d} L${x + d} ${y + d} M${x + d} ${y - d} L${x - d} ${y + d}`, stroke: sc, 'stroke-width': sw, 'stroke-linecap': 'round' }, gg); }
+  }
+  // 가운데 3·2·1
+  [1.5, 2.5, 3.5].forEach((b, j) => {
+    const t0 = bt(q0 + b); if (t < t0 || t >= t0 + BT) return;
+    const p = pg(t, t0, t0 + 0.4), sc = 1.6 - 0.6 * oc(p), al = 1 - pg(t, t0 + BT - 0.12, t0 + BT);
+    const tx = el('text', { x: 540, y: 1300, 'text-anchor': 'middle', 'dominant-baseline': 'middle', 'font-family': 'D', 'font-size': 120 * sc, fill: nv ? '#fff' : C.navy, opacity: al }, G); tx.textContent = 3 - j;
+  });
+  const col = ans === 'O' ? C.green : C.orange, cx = lerp(BX[ans], 540, 0.55);
+  ring(cx, BY, t, ta, col, BR, 420, 0.45, 20);
+  burst(cx, BY, t, ta, nv ? C.salmon : C.navy, 14, BR + 40, BR + 200, 0.35, 12);
+  confetti(cx, BY, t, ta, 3 + q0, [col, C.salmon, nv ? '#fff' : C.navy, C.orange]);
+}
+// 배경: 2번 문제 남색(가운데서 번짐 → 다음 문제에 사선으로 걷힘)
+const RMAX = 1.06 * Math.hypot(540, 1060);
+function drawBg(t) {
+  const b2 = $('bg2'); b2.style.background = C.navy;
+  const [a, b] = T.navy;
+  if (t < bt(a) - 0.06) b2.style.clipPath = 'circle(0px at 0 0)';
+  else if (t < bt(b) - 0.05) b2.style.clipPath = `circle(${RMAX * o5(pg(t, bt(a) - 0.06, bt(a) + 0.26))}px at 540px 1060px)`;
+  else { const e = oc(pg(t, bt(b) - 0.05, bt(b) + 0.2)), edge = -400 + 1880 * e; b2.style.clipPath = e >= 1 ? 'circle(0px at 0 0)' : `polygon(${edge + 300}px 0, 2000px 0, 2000px 1920px, ${edge - 300}px 1920px)`; }
+}
+// 로고(ㄱ)·주소: 엔드 카드는 움직임 없이
+const lgG = $('logo');
+const lgH = el('rect', { fill: '#fff' }, lgG), lgV = el('rect', { fill: '#fff' }, lgG), lgS = el('rect', { fill: C.navy }, lgG);
+el('rect', { x: 280, y: 1215, width: 520, height: 94, rx: 47, fill: C.navy }, lgG);
+const urlT = el('text', { x: 540, y: 1262, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: '#fff', class: 'lbl', 'font-size': 42 }, lgG); urlT.textContent = 'www.jikgugak.com';
+(() => { const cx = 540, cy = 690, k = 300 / 522, X = (u) => cx - 150 + u * k, Y = (v) => cy - 150 + v * k;
+  lgH.setAttribute('x', X(20)); lgH.setAttribute('y', Y(20)); lgH.setAttribute('height', 77 * k); lgH.setAttribute('rx', 38 * k); lgH.setAttribute('width', 482 * k);
+  lgV.setAttribute('x', X(425)); lgV.setAttribute('y', Y(20)); lgV.setAttribute('width', 77 * k); lgV.setAttribute('rx', 38 * k); lgV.setAttribute('height', 482 * k);
+  const hs = 96 * k; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', 2 * hs); lgS.setAttribute('height', 2 * hs); lgS.setAttribute('rx', 40 * k); })();
+// 카메라(그래픽만): 박마다 살짝, 정답에 크게 + 기울었다 복귀 + 흔들림
+function cam(t) {
+  let z = 0, rot = 0, sx = 0, sy = 0;
+  for (let k = 4; k < 28; k++) { const d = t - bt(k); if (d >= 0 && d < 0.35) z = Math.max(z, 0.014 * Math.exp(-d * 12)); }
+  T.q.forEach((q0, i) => {
+    const d = t - bt(q0 + 4); if (d >= 0 && d < 0.5) z = Math.max(z, 0.09 * Math.exp(-d * 8));
+    if (d >= 0 && d < 1.2) rot += (i % 2 ? 3 : -3) * (1 - spring(d, 2.2, 0.3));
+    if (d >= 0 && d < 0.22) { const a = 16 * (1 - d / 0.22); sx = a * Math.sin(d * 95); sy = 0.7 * a * Math.cos(d * 81); }
+    const d0 = t - bt(q0); if (d0 >= 0 && d0 < 0.5) z = Math.max(z, 0.05 * Math.exp(-d0 * 8));
+  });
+  return `translate(${sx}px,${sy}px) rotate(${rot}deg) scale(${1 + z})`;
+}
+
+const LEAD = 0.04;
+window.seek = (t0) => {
+  const t = t0 + LEAD;
+  if (!laid) layout();
+  G.innerHTML = ''; FX.innerHTML = '';
+  drawBg(t); drawHook(t);
+  T.q.forEach((q0, i) => drawQ(t, q0, T.qs[i][2], isNavy(q0)));
+  $('endbg').style.background = t >= bt(T.end) ? C.orange : 'transparent';
+  lgG.setAttribute('opacity', t >= bt(T.end) ? 1 : 0);
+  for (const w of WD) word(w, t);
+  $('cam').style.transform = cam(t);
+};
+</script>
+</body></html>
