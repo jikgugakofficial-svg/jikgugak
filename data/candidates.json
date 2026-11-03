@@ -639,28 +639,11 @@
       "model": "Bip 6",
       "cat": "it",
       "why": "퀘이사존 2025.09·11 지마켓 8만 원대 핫딜 댓글 호평(입문 스마트워치), 알리 공식 스토어 판매",
-      "at": "2026-10-30T13:40:41.076Z",
-      "status": "no_ali",
+      "at": "2026-11-03T17:31:35.181Z",
+      "status": "none",
       "coupangTop": 10,
       "ali": [],
-      "coupang": [
-        {
-          "id": "8717826763",
-          "name": "어메이즈핏 Bip 6 스마트워치",
-          "price": 119000,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/fPUz-fsocmm_CIoLfGDFs65Lu5YCYDM3o7X3n4Ji_3cs_QLJ7WRgREAif6UUu4eRy-MiPkleKwc9WL_jfj5weufwZIuhqhMt0uoKH5vrFDyhgYo2dsWbj9JlTggME_OEu6mcJ2a3iGCe1B14ZrgB2iI2dnKp2ufZsDsMtGfoaKZTVCTTCF9snnnAf2hEbRYi9AnWxnMs340lhc5tx6RRETu-EHyiwBKBAtJoUobIL3GLhHCeDEI5wySXWO5aWETmv7y4R2Csu-t0t-pcByna7n6UMfL38YmoQAZa7AvQqBxL40b9HLHwdLUdFOb04_cZ2RFx1vje22TxFK5ALkGZr7cqZ0jeLzn0s7A5NgrPvItH4pzpTnBJOnEwgvnTKSjfZJJhAJAGRedMghp4TlRAQKliEPIUwKKyMKFWhP7F3UVw7twj1R9P51ElENxzT59VNPOipBWRPjnfCv6q4YTY3lCJRYYw8JAnI_inkQYewy8q_zdEGCvar4btsPE4GLlZSG2z51oukxjSyTbaQZFa-SQ85K-QS9_gBQr0fAgsCZThkY0=",
-          "url": "https://www.coupang.com/vp/products/8717826763"
-        },
-        {
-          "id": "8873872597",
-          "name": "어메이즈핏 빕6 (1.97인치 대형 AMOLED 디스플레이)Amazfit_Bip 6-블랙-ISK",
-          "price": 119000,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/LTKn5nejYibTCaGSLV0ufavxhVZRa42tI2XMtINJoegyXvMDZTzSakLCA8g3cXD3X9jG6k8amkD2wOFpyai6ILldEb4KKewNHiK4ga-SZAe9KcMXQ6cs-oh23B9Fr9zdBBNNFaS_K7I33am8HD2KWoaR1BX6KRXJ6z0UxsqLVIyKCh7Uy003te--GnhOEllIQVqDmVyGH9E9yFV2B0L7NnUMxdbWto7jzdOA48Krp3Sd6TIrj3dAeVQ60LIf-qhkSyYSQJK47Igms0xbyDkmLsYjJgRdHyKVhjqIHOor-SSYJ1gyLPltSVRU9AqnrF9OmuPHWpobamlXg-16PlGXE9swhJU55Fy2Nk15LZZkAyVzP225QstLMdTYoF-Morj9wfPcugXshpAEGwn2JUhG9usD35ZAeSoBEtwDCfgOcd2-n_YAheHzeb_YxD_DjnLO0giJo8SLOE8_hMKFPtoLZ1Fozfg_K6F3LnyGn0kvJjxh1ydSxbcDR9uJfMwb1gYRM_2_C05w2m3IaC-Pzs3uUZvOF2LvHYmRJ3T4JknQ9RixtetF",
-          "url": "https://www.coupang.com/vp/products/8873872597"
-        }
-      ]
+      "coupang": []
     },
     "Anker MagGo Slim Power Bank 5000mAh 20W": {
       "q": "Anker MagGo Slim Power Bank 5000mAh 20W",
@@ -668,9 +651,9 @@
       "model": "MagGo",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 $25.08 vs 하이마트 4.7만 원 비교 글(슬림 맥세이프 5000mAh)",
-      "at": "2026-10-30T15:31:31.188Z",
+      "at": "2026-11-03T17:31:40.663Z",
       "status": "none",
-      "coupangTop": 9,
+      "coupangTop": 8,
       "ali": [],
       "coupang": []
     },
@@ -680,7 +663,7 @@
       "model": "Blade 2",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 $26.99(약 3.9만 원) 댓글 활발, 1세대 대비 후기 비교",
-      "at": "2026-10-30T19:26:04.053Z",
+      "at": "2026-11-03T17:31:44.369Z",
       "status": "none",
       "coupangTop": 8,
       "ali": [],
@@ -692,7 +675,7 @@
       "model": "Smart Band 11",
       "cat": "it",
       "why": "샤오미 코리아 공식 몰에 정발 등록, 밴드 시리즈는 퀘이사존 후기에서 알리 직구 1순위(밴드 9 프로 사용자 후기)",
-      "at": "2026-10-30T19:26:06.796Z",
+      "at": "2026-11-03T17:31:48.302Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -704,7 +687,7 @@
       "model": "MeloBuds Neo",
       "cat": "audio",
       "why": "QCY는 한국 알리 이어폰 판매 상위 브랜드(클리앙·퀘이사존 비교 글 상시 등장), 운영자 예시 모델",
-      "at": "2026-10-30T21:17:00.968Z",
+      "at": "2026-11-03T17:31:52.593Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -712,17 +695,17 @@
         {
           "id": "9181779721",
           "name": "QCY T31 멜로버즈 네오 LED디스플레이 블루투스 이어폰, QCY-T31 MeloBuds Neo, 블랙",
-          "price": 25420,
+          "price": 27900,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/Qfk8iwvlwEwlIsDFQUPod7bvRJnWVnZy-aU8suS8EO19R_NwBAU57PMd98uuVfvarn-q7rzSW8bPoI0w6IfAgUPphNb0Er1B2kM0r59mkmmIXbqnjjzFS7O45kbP-Sa16jZ9TxugVbEB9pn4SnLDTZ71qWHP884DoZEnVcPLrW8PJmepaK7DtjlYLa16x_71OqX2duqwX_Ub42oFl6MBa82RqhrdV9UKH9ypJqXgLTWxT0Omlj7bGXWiRwf5l5q89szR8xHI01ybvP6vkYXiEBg4BwdliaVwzlrZhYzHjb45D1JFOCwe41LI63BgZCWJltO4Z1ZXvi3qjh-JvgN9pgE_pQhR49WdEaay9ov1VkqDTDRzAme7TZiX79HuAp48WYCT354mukcwJghob2TvuYJ2ilvKtuo6sZLwUO-5uAfGYl-tMIbLS7n3szxuZ22hqH-0mc4niWb7SrWwfYKPHy7oPltz0CwphMKwoDjPtMvizWJCEszZAE23t-6jH52YLfoM5wtQsQ==",
+          "image": "https://ads-partners.coupang.com/image1/A3JI_BqrZDjx66r4A2aHIcVGsUyRhT3HlnA8GBCZjKhUCFGkcGnacP8VCGuxaZUcWuTFmphJ2PgZtm-rIRjPsbxHllGE0crPibpTrUGFi1ws_al05kCPUAnFLo3EYotVLfKQaxXLsq2lG6kbbiw9GsmiwN0A_bKraTnSABxHVEdJ_jRkF6UjcGpyM8O3PtEBoHPrVlELpq1JqJyKLWOt98RtCSF0l7gANRTowVZqOy0Zb8UxCdtvx44y-AYP9PCjd5dgGc-Uh8B6jWCJ-MbAzoEcRG6S00kJ73KsZRYuZlRXzQstEKyVduTbqfSMjP-uY-SH0M-jC_r63g2OZoAoYlcGuFsRnPZB-OTff40IkYpZfHJfRlQmchAvWtNhnjCmXtoPbwmOCzWbL7a4dmlgSOCtFnJryOTDye6Y3B5VRism1J6wac2Rw2J03nUWvQR6nUm1Sbxgz0wR1rZoApPZ3RE8X-6liJb2hiDMPqRNIjy_64WPWEyNFmW14C4WBWl9ryF_ZHrm",
           "url": "https://www.coupang.com/vp/products/9181779721"
         },
         {
           "id": "9181779721",
           "name": "QCY T31 멜로버즈 네오 LED디스플레이 블루투스 이어폰, 화이트, 7시간, 방수가능, QCY-T31 MeloBuds Neo, 화이트",
-          "price": 25420,
+          "price": 27900,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/tZ9_ggoBknx6oWr3tez4YTWa8Tq7RdOxILs2SQt4aSPr0VWDks2pUUTBm1ObBE8EGBfzz1mbbk_j3TFNp13qF0yFbnm2H99KI5CmcTCFPuSmriOzCv-DPQXfuqmZ5BSs2sB3ZMed1GQSThmjXmKjyaJsMnMMPRxSkzNBrhl3MDNC9QoeNLV9Hc9vDWXGhouSYefUD6bGzqALIx_eYWLP3O9X2WR67CU4RhkVCahVA-Yy7M92aZ-877n6fc1kEYCaDa2u2GWsPAEehjkPVJR9ieZ3Dfa7k-o2PahZJWgi-RoomMm3wVFG3p-0FV49P6lUoYj23p0uUut8b4uRMEIOWFh2XeuWJon29taVrTCfNdut1wXjeuXkd3QwuyRfrYw06xkZMmRMtXw-Qx-et5ILFMJxZl0zFNzO9ZlQbmGfsYvoZVS4E_wToemVEQLDCYEeIgNbXrTcAotvAbc3jK8_bVufOOEPcTcHbWRARGH-NYrYfyFqShPRItOlalPvSoBJkYFoyjb1z_o=",
+          "image": "https://ads-partners.coupang.com/image1/2QjI4zOiwu_ceGRP2dnTliSOaaPPjeTN4q27z6F7BqQujN1C2HuCIbCvcXfMeEH79rUWJYdSHfxbfLbksck_c8h1kFfFZctdtwXgz0q1UJB1RNGKZHEjqGwQBLwfEPe5wLxSgW1E8pZAUtCm8SkXDYPNXuXYwTaSaNoWY6Vtt_-Orf1x9AQzSYLtcy3zdTlfczEfoxisSj1zK31qw3NeZSgk_x2efzVNlJURzxlbGNGZhJxXGO9YRvsBjzKLbcmxhFncnJYc1x8FsTZOVMcqyJAtidbz9zdyGYD3U-u0fzATw9p3zLRtZUD2LAsx-eCJzJ6tetmpHtvFdePW9tbr_m2xDb72mMzNUcNRYVgsYJN9jPa9e-8osOokoAtT0l05Vlf4SCPp2xSl4WbU21jPTD1DGqEklQxMORflHqkOyY3ym9U8B5i9s2-juMWLtfdHwrlG2ES6R42s9BBOfJ-HK1ySwUppzqsnW2OjYtSN0fu9EfzUB54IDfR2Pz8RY8cGyW-6D_J6am0=",
           "url": "https://www.coupang.com/vp/products/9181779721"
         }
       ]
@@ -733,7 +716,7 @@
       "model": "W820NB Plus",
       "cat": "audio",
       "why": "퀘이사존 2026 알리 핫딜 $34.54, 코인샵 $28 댓글(앤커 Q45와 비교 질문)",
-      "at": "2026-10-31T00:13:41.219Z",
+      "at": "2026-11-03T17:31:56.442Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -745,7 +728,7 @@
       "model": "26250mAh",
       "cat": "it",
       "why": "퀘이사존 2026.04 병행 14.8만 원 vs 앤커코리아 정발 20만 원대 글(국내 정발과 가격 차 큼)",
-      "at": "2026-10-31T00:13:46.079Z",
+      "at": "2026-11-03T17:32:00.818Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -755,7 +738,7 @@
           "name": "앤커 프라임 파워뱅크 26250mAh 300W 보조배터리 고속충전 대용량 노트북 기내용 여행용 맥북 갤럭시탭 PPS, 블랙, A110A",
           "price": 219900,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/btiHm3NCS8iB7BB0bqFm58yA1RBSnhBcoJGM4cRG4zRMK3YSuNYVcXAWVePPRRGRcfJ2b83v0eEidpK1hOIUxiV8qERziYElErGto8945rkr-Yu5xUwQV9rnF1Q3G3ZX93VtKkf5CoJX2TTXy1pApsh4huyh6uyHhWCs15ouzw5eOT-GmJw-5hMNlCk16LJ0CutbGRnNjPd5-TVeMGEKN_mxirEIUDoN_kNeBvvltuKxUUlSQHjhmNK_awtcxLMWASwkxGt9JTZ8-z91y6f62vtXpFd1BxNA4Uryb-r9KnlVY-2UrpGBu3K9bA-IdPq2SQd8nmHoL7xwIWS_XMlmF1_sDIM2SOTMcHHZmZQZ40HsghL0vMu0e3LmxynpphjksqvRRP9AL46huf7ViJKKCVK7ca89uyAkCGPZFnT6i6B-uXY2OCpVjZ-p8QDp8ioNQj0VhwIcpS-rq5Y6CJ8CsvFELWUtbr6w7j-id5EyKLQm5h-lEaIwu_cp50bx58CKabGISXYAPEMQJYMA0UYv9W8XrYncxSQDOA==",
+          "image": "https://ads-partners.coupang.com/image1/lL09vXO6T-Rs1-QOlEnDGMzu5oLs3bCxEpf7noDJqGczOGwJhx6JeWAF7kgIFj4wlHHHlHRkt2WfA2VtJbGAKrWwuBRcrw1MaBt0OVW4no6puvYoum2RJcVpVegOh36yRfy8BeXntNdfMdHnEHT0J849Oh4C6LjN0joOMjxAgknG-mCb2076bxKLVAe2I0Ob9mpaQDUzgkw0rvfPDb4mruiHIhTSkJvBbVQR-XVK5oYKsOCJAgWdxgVawmW6KTT504ulF-ZDxP-mxzO53POwGlK4Tj0VaLnBQ1FUpbGa_VYz4_Y0JhKXiZQo0R2rwFCE0BQeuLAHsuw6RFjhzpg3uR6OiSj8TjwWA2nijA_Vy9yVHMLCxaGrNUlbGtiRLWYuo3qg3HIm4iiDhnGyqKHqpjh31gvQAqBe-3-jnT6Bqs0C-8Pz5i1Q4xbi5iridMabCZnxgzMqPUebYpc4lAaNKLisZwlg7J5U5XtW9uGtP9RWWh6vOeoRkmw1vLt__he6gxJSNuwhN_WSyvnt0lVHGtgvs-J07qalT6A2mh42iqp2r9jNzPFDzzkZS1RI6AUvV4NmUIxt-rE37tGF11vExGhlag==",
           "url": "https://www.coupang.com/vp/products/9246902602"
         }
       ]
@@ -766,20 +749,11 @@
       "model": "Nexode 100W",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 4포트 디스플레이 100W 약 5만 원, 네이버 유그린몰 넾다세일과 비교 언급",
-      "at": "2026-10-31T01:40:04.768Z",
-      "status": "no_ali",
+      "at": "2026-11-03T17:32:04.422Z",
+      "status": "none",
       "coupangTop": 10,
       "ali": [],
-      "coupang": [
-        {
-          "id": "9692437984",
-          "name": "UGREEN Nexode 100W GaN USB C 벽걸이형 충전기 4포트 Type-C 고속 ProAir Dell XPS 171615 시리즈 Galaxy S25S24 Pixel",
-          "price": 138460,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/TiJi30dkfe-tDhNKTpog3sRk2hSUn_QZ8Z1L8qjPxIsifzf5GUU_0nt8vjgWsgt6HCEcLdClfflua8_RjddXPKuLPsDkFtG8zZG4kiHCK5DwDmt7nF2WOnyyywlourOR9Cq5aqr_mNkp8PQsZDVRR8K-W22JRiPI50h8X6J3Xx_mpscrEt5xZ6CzuI4KEQfygi9-aDxN3bWY_1mta295i9AYLaMJr-ys-_aWMX7l13sHlvrmR6sNv5L1xiLrwpJfRQ0gloy_tTUxpqkZZYuyezCi1Siwt6PBzHDr7oBQBW5aW15aleUTXeT0aF59okPOVFZfZ3-BUGNOatgwZ3GK05lKO6ut9Miq-lLxM9l8PdadvEbJyKaEnNMhpC-gte0Oy9lhcC2qcrjc-LnNSJpPM__nCmnWOSJx-1cshng21T6TK3lXAjIrBHQuCqYKuiZqGt9GngRWyhHew_fJnmipwuiw-1534KG9S-wo03_m-HCkcOtRgD6km-cZjXpQpzamdvUfRxtxVJmzlfVcPCOaJu3NidvlyvgPC1K8nH8lkhyAoF4=",
-          "url": "https://www.coupang.com/vp/products/9692437984"
-        }
-      ]
+      "coupang": []
     },
     "Baseus Bowie MH1": {
       "q": "Baseus Bowie MH1",
@@ -7029,5 +7003,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-03T16:31:25.896Z"
+  "updatedAt": "2026-11-03T17:32:08.294Z"
 }
