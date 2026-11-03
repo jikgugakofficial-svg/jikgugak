@@ -4761,7 +4761,244 @@
       },
       "expect": "미확인.",
       "warn": "ASIN 후보 2개로 불확실, 색별 가격 차이 큼. 한국 가격을 모르는 상태라 쿠팡이 가치 없으면 바로 뺄 것(C). 배낭 관세는 8%로 계산(실제는 면세 한도 안에서 0)."
+    },
+    "QCY MeloBuds Pro HT08": {
+      "q": "QCY MeloBuds Pro HT08",
+      "brand": "QCY",
+      "model": "MeloBuds Pro",
+      "cat": "audio",
+      "why": "퀘이사존 알리 핫딜 QCY HT08 멜로버즈 30,776원(무배, 할인코드+코인 적용, 25.07.03). 색(블랙·화이트·골드) 옵션 맞출 것",
+      "at": "2026-11-03T03:38:53.419Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "QCY MeloBuds N60": {
+      "q": "QCY MeloBuds N60",
+      "brand": "QCY",
+      "model": "MeloBuds N60",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 N60 ANC 최종가 약 $18.43(26.04.03), 귀찌·커널형 모음글에도 $23.66(26.02.02)",
+      "at": "2026-11-03T03:38:57.143Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "QCY MeloBuds N50": {
+      "q": "QCY MeloBuds N50",
+      "brand": "QCY",
+      "model": "MeloBuds N50",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY Melobuds N50 23,919원(쿠폰+코인, 26.04.08)",
+      "at": "2026-11-03T03:39:00.886Z",
+      "status": "none",
+      "coupangTop": 10,
+      "ali": [],
+      "coupang": []
+    },
+    "QCY Crossky C30": {
+      "q": "QCY Crossky C30",
+      "brand": "QCY",
+      "model": "Crossky C30",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY Crossky C30 클립형 24,773원(쿠폰+코인, 26.04.10). C30S와 다른 모델이라 구분 필요",
+      "at": "2026-11-03T03:39:04.889Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005007393960298",
+          "title": "큐씨와이 Crossky C30 이어 클립 이어폰, 블루투스 5.4, 무선 오픈 이어 스포츠, TWS 이어버드, 이중 연결 헤드폰",
+          "price": 30800,
+          "orders": 286,
+          "rating": "96.6%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf0f13b719c4d49658ea785a21526579db.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007393960298.html"
+        },
+        {
+          "id": "1005007532202733",
+          "title": "QCY Crossky C30 무선 이어폰 블루투스 5.4 이어클립 TWS 스포츠 이어버드 오픈형 이어클립 듀얼 연결 헤드폰",
+          "price": 31600,
+          "orders": 74,
+          "rating": "96.4%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6af74ba6d5014e9dbe1feed65562042a7.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007532202733.html"
+        },
+        {
+          "id": "1005007529297549",
+          "title": "QCY Crossky C30 이어클립 무선 이어폰 Bluetooth 5.4 오픈 이어 스포츠 TWS 이어버드 듀얼 연결 헤드폰 클립온 헤드셋",
+          "price": 31600,
+          "orders": 49,
+          "rating": "90.9%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2928c7b025e496bb27435fc3dccaf52f.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007529297549.html"
+        }
+      ],
+      "coupang": []
+    },
+    "QCY Crossky C30S": {
+      "q": "QCY Crossky C30S",
+      "brand": "QCY",
+      "model": "C30S",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 Crossky C30S 최종가 약 $17.2(26.04.03)",
+      "at": "2026-11-03T03:39:08.929Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005012387181102",
+          "title": "QCY Crossky C30S BH24QT33A 무선 이어폰 블루투스 6.0 이어 클립 이어버드 고해상도 LDAC 공간 사운드 듀얼 연결 헤드폰",
+          "price": 28861,
+          "orders": 2721,
+          "rating": "97.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S68bfc88c9db94ebe83f876ae56909af3A.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012387181102.html"
+        },
+        {
+          "id": "1005008965197230",
+          "title": "QCY Crossky C30S 오픈 이어 무선 이어폰 LDAC 이어 클립 이어버드가 포함된 고해상도 Bluetooth 6.0 클립 온 OWS 스포츠 헤드폰 40시간",
+          "price": 37700,
+          "orders": 1000,
+          "rating": "95.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5be2235de8374881a41cf0afac6a2912h.jpg",
+          "url": "https://ko.aliexpress.com/item/1005008965197230.html"
+        },
+        {
+          "id": "1005013135502206",
+          "title": "QCY 크로스키 C30S 이어클립 무선 이어폰 하이 레졸루션 LDAC 블루투스 6.0 오픈형 이어폰 클립온 스포츠 이어버드 IPX5 BH24QT33A",
+          "price": 27002,
+          "orders": 128,
+          "rating": "94.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S205a66f733e94b50814f006e72e68856C.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013135502206.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "8906816172",
+          "name": "QCY 크로스키 C30S 블루투스 이어폰",
+          "price": 30450,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/XGy-xAKJug9gv61gXCWZdsuhcjqIaENvX6wofjS7VFmSxCDCGVyCp03LiWuvysmGjPph4Y8uRED9-JvifJIuY93KCQEH1qnu27ic3Vr1TjVlQwzAyZGDjWvaDRjxcGO3t_zIARZS1LRvEErsaWLkcySIGWatgOWohMnfW3HyS0ZM1iWwXL-Gag1zFqgBuyoZa7guRCsLeenwx1NnkCwbiLgW4SVVQgs6R_CksZoOUx-E7cadSNacFqE9GxkncLbFjc5Y6mYuQSXsGkeLrTsrG-Y5iOkGe-mc6plXSeNSZU16r-ksw4uEl-ATeXqBTq82gMLlnVXGVZ-fx0hd6hSba3nYbNtagRBlrcvmKCxiTKkfndQTZ0NrfFNa5AS53-6ZIpA-SBSEk72_W23FAxUcgOaCABGu5Ch_xQfz-6SflavLdYFZ66OeDhQojBJ5RZGeVxU7PQrc9aBeqmscD6u3F7iZGJudcu2Iwg7Iwn5C-ly2RUDkTjGxLEWL2pSlfZsg1HJJCdf8eOQ0qP7Gv4_-k3CTsPwqf04_iuRQf5kXMfaw3nhf",
+          "url": "https://www.coupang.com/vp/products/8906816172"
+        },
+        {
+          "id": "8906816172",
+          "name": "QCY 크로스키 C30S 블루투스 이어폰",
+          "price": 57500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/R_HuoFMcdTxscCa8R1E3t7mhuEsgOoD15LTnWOTGue6DxXQwDXBFWsbKTxALEUypOw_XOtWBeDDsyPWQplHP-4lQ-QOKUy8TUevTcVr3kd9ACkLZ06ZTuE39MwS-dwniSrtnwVDR9JiLGsmPQ_PuUau-Ue31heekWai0MUYsM9fW31rgvOiBgpWgacGjRK1l0g9KvNQ-u6MIetIs5U6hErKyca_UhZv5oBCAlgfILhCSpyKwBez2FZWWPawjYQJvZkNbrry7g7gWFR_K3CwPDKN6mcOq5wenwyQ8DgDJsugjlynZBFcByUIl90c5Guz5ZCpEnMpb065rQG-4ebNUXsjeM2kMfnzBcwmkI1wJCrWb18uS6PGqRicQRY6zEtsRJ5_TRa3_WrPT2K-GExUQ8EmO9_IQWe9W6JZPFJwHFSCUcYC-38RTw8A5M5U8ohqsk_ajgWp9PpCXMZiWBteaySpsuO0uXP9fiH86E2cIpXWDaF47-gG-5YF8RtEUi1atPob4Dbtnkl47ihogTNtn2YrL086NB4X1VY2Rog200XShlg==",
+          "url": "https://www.coupang.com/vp/products/8906816172"
+        },
+        {
+          "id": "8906816172",
+          "name": "QCY 크로스키 C30S 블루투스 이어폰",
+          "price": 57500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/kj35AclMWXQCmJ_fkhjehwO7QE-rbUrfHuSgvWu221g2tv3kERkfjd1vX4RGv2UW8bXwZWXSNCDxlZcvrXXppJFXWT1LXQTRhXFQ9w4OKYAjuAWxFiolWRzp1WLIw9U7imv98p60VEnfkvtPEsC9Enmku28MM6j5l4LTdQWmc6Prapvb6s4ec_5xtSUSmDhCDLamSmLPHuKpUaM3IG7NUGcdaAwYMT60iLHMzuAqd9WEdNBSRLz1iOWrusVcmMvuVktHBSCwi4VnpUp6uyrjrK_Ae_AoN2m4vP7GAdDp-2GiepFJBcDv008sh4D7vD4mUpnlO0mxipNoIUo4b-R8OAPd2S2ITPODMLp4wirRs9Njm9EE1_8ynAs2u1EJ2MZkyU5FZMH4SyPAU8_A_ynh1TUZBKR50Kuv3Iz5H29k9FDjaC_fp1GfOX_RM3_zOHkzrqLLs-lYVe5wV9NBeViMFYsnKzXzKP6pZ3h8QQSVIIGhOCQICaOOMCbeMB3Gc9ckqtul45EqQzgkwxbPsjmRSvASOszFYev_FUDEG_pu8ilC1yg=",
+          "url": "https://www.coupang.com/vp/products/8906816172"
+        }
+      ],
+      "best": {
+        "aliId": "1005012387181102",
+        "coupangId": "8906816172",
+        "aliTotal": 28861,
+        "coupangPrice": 30450,
+        "verdict": "meh",
+        "diff": 1589,
+        "pct": 5
+      }
+    },
+    "QCY Crossky C50": {
+      "q": "QCY Crossky C50",
+      "brand": "QCY",
+      "model": "Crossky C50",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 Crossky C50 최종가 약 $17.07(26.04.03)",
+      "at": "2026-11-03T03:39:12.872Z",
+      "status": "no_coupang",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005009084986255",
+          "title": "QCY Crossky C50 오픈 이어 무선 이어버드 블루투스 6.0 컴포트 클립온 이어폰 4 마이크 AI 클리어 콜 베이스 부스트 헤드폰 35시간 재생 시간 스포츠 러닝용",
+          "price": 38970,
+          "orders": 9198,
+          "rating": "97.5%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S23be4eca93b34cb68ad5bfaf8a08d3198.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009084986255.html"
+        }
+      ],
+      "coupang": []
+    },
+    "QCY H3S ANC": {
+      "q": "QCY H3S ANC",
+      "brand": "QCY",
+      "model": "H3S",
+      "cat": "audio",
+      "why": "루리웹 알리 QCY 코인딜 모음에 H3S ANC 헤드폰 최종가 약 $20.37(26.04.03). 등록된 H3 ANC와 다른 후속 모델",
+      "at": "2026-11-03T03:39:16.854Z",
+      "status": "new",
+      "coupangTop": 10,
+      "ali": [
+        {
+          "id": "1005010311409980",
+          "title": "QCY ANC 무선 헤드폰 H3S 56dB 노이즈 캔슬링 하이 레졸루션 3D 공간 오디오 이어폰 LDAC 블루투스 6.0 오버 이어 헤드셋",
+          "price": 51300,
+          "orders": 78,
+          "rating": "97.9%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4e5b4d40ada46599d88d848989dfcc1o.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010311409980.html"
+        },
+        {
+          "id": "1005010338993531",
+          "title": "QCY H3S 오버이어 헤드폰 무선 블루투스 6.0 하이 레졸루션 LDAC 공간 음향 이어폰 듀얼 드라이버 -56dB 적응형 ANC 헤드셋 102시간",
+          "price": 51300,
+          "orders": 31,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S420489ac26f64e7c9d0b4980bd175692k.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010338993531.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9715444280",
+          "name": "QCY H3S EXTREME ANC 노이즈캔슬링 무선 헤드셋 56dB 블루투스 6.0",
+          "price": 44000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Q2oo7OFh8q8D5hAfQ2kWtLk0cvD8WQSy8MgD7eBpKPDWFzGV7LFSBpZBmm04z2TRikOD0noCzVUBzz5OHkLODNsqQLD22-sA2vY6tFsgTApHLn7QV1LQNxXLePWh6tpLv4oR6aA_OiaPNGNek0_vpI8n675DHO5sDIxlSwUYXWPzCFNtcehqcWqdU1dVSme3SCVOz_vz0kaH8xJlse_pNXU06oaU_a6YBLJBGAuwJsgLg4GgjMlFC2NYStLdUJVJBfpo3hAH4F16PwTA09u3NoOfqp2q8XHIZhBneBY6GqkMJgRRdzfl08AOKUVAmIL6hKbftFCzZmsIQ2axQaeKCd0i6D6XKu0PH7a0NVXRWSJLfbIloflrwnbGO6pkMFKzQMK8Pyi0KWSfFhaDQc2dQ69CKlJLnqjCIGEMiOOCzxWU777By_QCO6ij5WXyD_MCSEZfivmU7z7r6UugiI7pPwZBPLd6LLF1BcuOFEGn2FQagLjJDZAfjgjS_R0DTi8NNr08qEL7B2aivVJbRqdCERXjeYbXT96_3ngamXk=",
+          "url": "https://www.coupang.com/vp/products/9715444280"
+        },
+        {
+          "id": "9767820875",
+          "name": "QCY H3S 오버이어 헤드폰 무선 블루투스 6.0 하이 레졸루션 LDAC 공간 음향 이어폰 듀얼 드라이버 -56dB 적응형 ANC 헤드셋 102시간",
+          "price": 70620,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/St1JXVmwZlCr8AngSsRRAT9Q8GIevtaVwZ8DcdTRrNz334JkhSYbGLlaCiIE0EEIqbdPLw8Jm-iOssROpV7C9o-jAOjaStCeoxycRi6gdyNwPm2xqBDW9uDJOAz9MSpfyLpVrfhA0v-64ms0EJgwFUBsEztjtaO5X8E4Y3u0UmrnWllNhn0ONqCVEarAqyyX0WtYGhfAlckfkeR2jszWK5k4u8icDaMnKMVBMRyReMAvc-zb86dWuxk8V7h3kA3L7CVzoOMj6577KIixqzouYcXgdoWXX2sOwwLAyojeoFRQa4KDcgiyrW7UebXkd5g6l79k8pTx4UxFS95TqMQFBhGwqvlBSDnB17uc4lutDUizpMSRfmTko2yNhcpcvyhRwsc-K5FHbsytbopkf6isOBgqUFUA3_OVgUNY4nWARTiw89675FoFHhgb92rstAzkU6QCcWIwBWegl_cieOT4CUuPW_lMeoqQo7LWaNtNldw9kZ77yQrVqEnvscjjq3S9f_v_pQftvDFN4HkwrkT1cwFNZUJPo1ROHatddFYufJpL",
+          "url": "https://www.coupang.com/vp/products/9767820875"
+        },
+        {
+          "id": "9767820875",
+          "name": "QCY H3S 오버이어 헤드폰 무선 블루투스 6.0 하이 레졸루션 LDAC 공간 음향 이어폰 듀얼 드라이버 -56dB 적응형 ANC 헤드셋 102시간",
+          "price": 70620,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/8DfPn-YlKfYpntVh8Lag_UfgRP2Wq0oZOjIF_VXeKGRK8amgJnO_9nFm58coxwLphL0Eoh0UCgT1gu1K_ntzBvcXhGIeUwzI-eJe8jHQp_nSyKfeZG1Wq3CV8CvS2OW6lPpT6qJwT9OtOlVgzBP3kK3nlYrHgRLGvVfaT3kb69JSQUPSdKTSWAxWEXXP3xWJNliehuKL3DWyZqiT4C6TJD3MzGo--Jvy1qCnV3ZWfIkQxyijNjE3mO3MbJUk8631AzHO_SwHG881NQ15lAgTeb2xuQrrRSpDX0YtHOKja7TZQFuly1mn02oPu8wrclwDvFjxvU-dwUewffMS-pd3kB3QmDTetgaSheboUPgQFFK0oO5PSc4PBCbRiyK4GDe9YdHNpz-mTgQ0XTTC96Gu0tS1DvnSACbKIBxoHGd2--XEOUdtYDdxzvuQkeXe62YOpN8sOdimac6-EJytSCLqYiYF6UhYXni1OVXpkv4nk5z-JD5jRZ3yaxy_A-lATKGNL5SQqIcsCfUatRg1x_N7_2X2RyeYf7Ejrgdn6k_xIQ==",
+          "url": "https://www.coupang.com/vp/products/9767820875"
+        }
+      ],
+      "best": {
+        "aliId": "1005010311409980",
+        "coupangId": "9715444280",
+        "aliTotal": 51300,
+        "coupangPrice": 44000,
+        "verdict": "bad",
+        "diff": -7300,
+        "pct": -17
+      }
     }
   },
-  "updatedAt": "2026-11-03T03:30:31.404Z"
+  "updatedAt": "2026-11-03T03:39:20.930Z"
 }
