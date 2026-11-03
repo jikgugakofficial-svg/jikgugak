@@ -3,10 +3,13 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { PATHS, coupangKeys, coupangCall, toCoupangItem } from '../../api/_lib/coupang.js';
 
-// 검색 횟수: 쿠팡 공식 한도는 1분 50번·일별 제한 없음(11/3 확인). 이 스크립트 7회/시간, 사이트 실시간 검색 1분 30회.
+// 검색 횟수: 쿠팡 공식 한도는 1분 50번·일별 제한 없음(11/3 확인). 이 스크립트 30회/시간(호출 사이 4초 → 1분 15회 이하),
+// 사이트 실시간 검색 1분 30회. 둘이 겹쳐도 1분 45회로 50번 아래예요.
 // 사이트가 쿠팡에 거부당하면(cp:stop) 검색 전에 /api/coupang?stop=1 로 알고 같이 멈춰요.
 // 한 번이라도 403/429가 나면 data/coupang-guard.json 에 멈춤 표시를 남기고, 사람이 지울 때까지 검색을 안 해요.
-export const SEARCH_PER_HOUR = 7;
+export const SEARCH_PER_HOUR = 30;
+const GAP_MS = 4000; // 검색 호출 사이 간격
+let lastSearchAt = 0;
 const GUARD = 'data/coupang-guard.json';
 
 export const hasKeys = () => Boolean(coupangKeys());
@@ -48,6 +51,9 @@ export async function search(keyword, limit = 10) {
     const g0 = readGuard(); g0.stoppedAt = new Date().toISOString(); g0.stopReason = '사이트 실시간 검색이 쿠팡에 거부당해 같이 멈춤(cp:stop)'; writeGuard(g0);
     throw new Error('사이트 쪽 쿠팡 검색이 멈춤 상태라 같이 멈췄어요: /admin 과 data/coupang-guard.json 확인');
   }
+  const wait = lastSearchAt + GAP_MS - Date.now();
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  lastSearchAt = Date.now();
   const g = readGuard(); g.calls = [...(g.calls || []).filter((t) => Date.now() - Date.parse(t) < 3600_000), new Date().toISOString()]; writeGuard(g);
   const json = await call('GET', PATHS.search, { query: `keyword=${encodeURIComponent(keyword)}&limit=${limit}` });
   return (json.data?.productData || []).map((p) => ({ ...p, productPrice: Number(p.productPrice) || 0, _item: toCoupangItem(p) }));
