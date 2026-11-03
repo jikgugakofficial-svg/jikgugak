@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { PATHS, coupangKeys, coupangCall, toCoupangItem } from '../../api/_lib/coupang.js';
 
-// 검색 횟수: 이 스크립트 7회/시간, 사이트 실시간 검색 30회/시간(11/3 운영자 결정 1단계, 예전 기준 '1시간 10회'를 넘김).
+// 검색 횟수: 쿠팡 공식 한도는 1분 50번·일별 제한 없음(11/3 확인). 이 스크립트 7회/시간, 사이트 실시간 검색 1분 30회.
 // 사이트가 쿠팡에 거부당하면(cp:stop) 검색 전에 /api/coupang?stop=1 로 알고 같이 멈춰요.
 // 한 번이라도 403/429가 나면 data/coupang-guard.json 에 멈춤 표시를 남기고, 사람이 지울 때까지 검색을 안 해요.
 export const SEARCH_PER_HOUR = 7;

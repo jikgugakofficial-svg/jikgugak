@@ -1,8 +1,8 @@
 // 쿠팡 실시간 검색 (Vercel 서버 함수 · /api/coupang?q=검색어)
-// 쿠팡 검색 API 한도: 예전 기준 '1시간 10회', 최근 개발자 확인은 '1분 50회'(공식 문서 미확인). 11/3 운영자 결정으로
-// 사이트 몫을 1→30회/시간으로 늘렸어요(1단계). 실제 한도가 10회면 첫 403에서 사이트·Actions 둘 다 멈춰요.
-//  1) 같은 검색어 결과는 Redis에 저장해 하루 동안 그대로 써요(7일까지는 '지난 결과'로라도 보여 줘요).
-//  2) 새로 묻는 건 사이트 전체에서 1시간 LIVE_PER_HOUR 회까지만(나머지는 GitHub Actions 가격 대조 몫).
+// 쿠팡 검색 API 한도: 공식 문서 '1분당 최대 50번', 일별 제한 없음(11/3 운영자가 파트너스 API 화면에서 확인).
+// 사이트는 1분 LIVE_PER_MIN 회까지(Actions는 1시간 7회), 합쳐도 1분 50번 아래예요. 403·429가 나면 사이트·Actions 둘 다 멈춰요.
+//  1) 같은 검색어 결과는 Redis에 저장해 6시간 동안 그대로 써요(7일까지는 '지난 결과'로라도 보여 줘요).
+//  2) 새로 묻는 건 사이트 전체에서 1분 LIVE_PER_MIN 회까지만(나머지는 GitHub Actions 몫과 여유분).
 //  3) 쿠팡이 한 번이라도 거부(403·429)하면 cp:stop 표시를 남기고, 운영자가 /admin 에서 풀 때까지 새로 묻지 않아요.
 // 응답의 url 은 파트너스 제휴 링크예요. 화면에서만 쓰고 서버·직원이 열지 않아요.
 // POST { action: 'reset' } + x-admin-key: 멈춤 표시 풀기 / GET ?status=1 + x-admin-key: 상태 보기
@@ -11,11 +11,12 @@ import { redis, storeReady, readBody } from './_lib/store.js';
 import { coupangKeys, coupangSearch } from './_lib/coupang.js';
 import { normQ } from './trending.js';
 
-const LIVE_PER_HOUR = 30; // 11/3 운영자: 1 → 30(1단계). 며칠 403이 없으면 다음 단계로 늘려요.
-const FRESH_SEC = 24 * 3600;
+const LIVE_PER_MIN = 30; // 11/3 공식 한도(1분 50번) 확인 뒤: Actions 몫(한 번에 최대 7회)과 여유 13회를 남겨요.
+const FRESH_SEC = 6 * 3600; // 11/3: 한도가 넉넉해져 가격을 더 자주 새로 받아요(하루 → 6시간).
 const KEEP_SEC = 7 * 24 * 3600;
 const BLOCK = /(https?:|www\.|@|시발|씨발|병신|개새|섹스|야동|토토|카지노)/i;
 const hourKey = () => 'cp:n:' + new Date().toISOString().slice(0, 13).replace(/\D/g, '');
+const minKey = () => 'cp:m:' + new Date().toISOString().slice(0, 16).replace(/\D/g, '');
 const same = (a, b) => { const x = Buffer.from(String(a)); const y = Buffer.from(String(b)); return x.length === y.length && crypto.timingSafeEqual(x, y); };
 
 function send(res, code, obj, cacheSec = 0) {
@@ -43,7 +44,7 @@ export default async function handler(req, res) {
   if (url.searchParams.get('status') === '1') {
     if (!isAdmin()) return send(res, 401, { ok: false, reason: 'unauthorized' });
     const [stop, n] = storeReady() ? await redis([['GET', 'cp:stop'], ['GET', hourKey()]]) : [null, null];
-    return send(res, 200, { ok: true, configured: Boolean(coupangKeys()), stop: stop ? JSON.parse(stop) : null, usedThisHour: Number(n) || 0, perHour: LIVE_PER_HOUR });
+    return send(res, 200, { ok: true, configured: Boolean(coupangKeys()), stop: stop ? JSON.parse(stop) : null, usedThisHour: Number(n) || 0, perMin: LIVE_PER_MIN });
   }
 
   const q = normQ(url.searchParams.get('q'));
@@ -60,9 +61,9 @@ export default async function handler(req, res) {
     if (c && age < FRESH_SEC) return out(c);
     if (stop) return c ? out(c, { stale: true }) : send(res, 200, { ok: false, reason: 'paused' }, 300);
 
-    // 이번 1시간 새 검색 횟수 확인(넘으면 지난 결과나 '잠시 뒤'로)
-    const [n] = await redis([['INCR', hourKey()], ['EXPIRE', hourKey(), '7200']]);
-    if (Number(n) > LIVE_PER_HOUR) return c ? out(c, { stale: true }) : send(res, 200, { ok: false, reason: 'busy' }, 120);
+    // 이번 1분 새 검색 횟수 확인(넘으면 지난 결과나 '잠시 뒤'로). 1시간 합계는 /admin 표시용.
+    const [n] = await redis([['INCR', minKey()], ['EXPIRE', minKey(), '120'], ['INCR', hourKey()], ['EXPIRE', hourKey(), '7200']]);
+    if (Number(n) > LIVE_PER_MIN) return c ? out(c, { stale: true }) : send(res, 200, { ok: false, reason: 'busy' }, 120);
 
     const r = await coupangSearch(q, keys, 10);
     if (r.blocked) {

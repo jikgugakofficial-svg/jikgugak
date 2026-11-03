@@ -129,7 +129,7 @@ async function loadCoupang() {
     if (!d.configured) { box.textContent = 'Vercel에 COUPANG_ACCESS_KEY·COUPANG_SECRET_KEY가 아직 없어요.'; return; }
     box.innerHTML = d.stop
       ? `<div class="item"><b style="color:#B42318">멈춤</b><div class="msg">${esc(kst(d.stop.at))}에 쿠팡이 검색을 거부했어요(${esc(String(d.stop.status))} ${esc(d.stop.message || '')}). 1시간쯤 지난 뒤 풀어 주세요. 계속 거부되면 매니저에게 알려 주세요.</div><div class="acts"><button type="button" class="primary" id="cpreset">멈춤 풀기</button></div></div>`
-      : `<div class="item"><b>정상</b><div class="msg">이번 1시간 새 검색 ${d.usedThisHour}/${d.perHour}번 (같은 검색어는 하루 동안 저장한 결과를 써요)</div></div>`;
+      : `<div class="item"><b>정상</b><div class="msg">이번 1시간 새 검색 ${d.usedThisHour}번 · 한도 1분 ${d.perMin}번 (같은 검색어는 6시간 동안 저장한 결과를 써요)</div></div>`;
     const btn = $('#cpreset');
     if (btn) btn.addEventListener('click', async () => { await fetch('/api/coupang', { method: 'POST', headers: { 'x-admin-key': key, 'Content-Type': 'application/json' }, body: JSON.stringify({ action: 'reset' }) }).catch(() => {}); loadCoupang(); });
   } catch { box.textContent = '상태를 불러오지 못했어요.'; }
