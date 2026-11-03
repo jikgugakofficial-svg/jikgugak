@@ -1447,7 +1447,7 @@
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24572,
-    "domesticKrw": 25690,
+    "domesticKrw": 21130,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1471,13 +1471,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 22150,
-        "to": 25460,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.30",
         "field": "domesticKrw",
@@ -1539,6 +1532,13 @@
         "field": "domesticKrw",
         "from": 23380,
         "to": 25690,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 25690,
+        "to": 21130,
         "source": "쿠팡"
       }
     ]
@@ -1756,11 +1756,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
     "sample": false,
-    "checkedAt": "2026.11.02 저녁",
+    "checkedAt": "2026.11.04 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
     "priceKrw": 44763,
-    "domesticKrw": 37270,
+    "domesticKrw": 31670,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1847,6 +1847,13 @@
         "from": 45315,
         "to": 44763,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 37270,
+        "to": 31670,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2083,11 +2090,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxF2x1i0",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
     "sample": false,
-    "checkedAt": "2026.11.03 쿠팡 자동",
+    "checkedAt": "2026.11.04 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58027,
-    "domesticKrw": 35040,
+    "domesticKrw": 31350,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2173,6 +2180,13 @@
         "field": "domesticKrw",
         "from": 36890,
         "to": 35040,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 35040,
+        "to": 31350,
         "source": "쿠팡"
       }
     ]

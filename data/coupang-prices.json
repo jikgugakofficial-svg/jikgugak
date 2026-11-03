@@ -213,18 +213,18 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-03T18:26:01.946Z",
+      "at": "2026-11-03T22:23:16.745Z",
       "recordedKrw": 25690,
       "found": true,
-      "apiPrice": 25690,
+      "apiPrice": 21130,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -4560,
+      "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-03T18:26:05.488Z",
+      "at": "2026-11-03T22:23:18.748Z",
       "recordedKrw": 60300,
       "found": true,
       "apiPrice": 60300,
@@ -235,7 +235,7 @@
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-11-03T18:26:09.439Z",
+      "at": "2026-11-03T22:23:22.318Z",
       "recordedKrw": 37060,
       "found": true,
       "apiPrice": 37060,
@@ -246,18 +246,18 @@
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-11-03T18:26:13.463Z",
+      "at": "2026-11-03T22:23:27.054Z",
       "recordedKrw": 37270,
       "found": true,
-      "apiPrice": 37270,
+      "apiPrice": 31670,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -5600,
+      "result": "applied"
     },
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-11-03T18:26:17.444Z",
+      "at": "2026-11-03T22:23:30.423Z",
       "recordedKrw": 28190,
       "found": true,
       "apiPrice": 28190,
@@ -268,7 +268,7 @@
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-11-03T18:26:21.818Z",
+      "at": "2026-11-03T22:23:34.313Z",
       "recordedKrw": 21570,
       "found": true,
       "apiPrice": 21570,
@@ -279,18 +279,18 @@
     "iherb-jarrow-fem-dophilus-5b-60": {
       "productId": "6960887991",
       "keyword": "자로우 펨도필러스 50억 CFU 60캡슐",
-      "at": "2026-11-03T19:33:24.006Z",
+      "at": "2026-11-03T22:23:38.901Z",
       "recordedKrw": 35040,
       "found": true,
-      "apiPrice": 35040,
+      "apiPrice": 31350,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -3690,
+      "result": "applied"
     },
     "iherb-now-zinc-50-250": {
       "productId": "6395389697",
       "keyword": "나우푸드 아연 50mg 250정",
-      "at": "2026-11-03T19:33:27.962Z",
+      "at": "2026-11-03T22:23:42.860Z",
       "recordedKrw": 13290,
       "found": true,
       "apiPrice": 13290,
@@ -301,7 +301,7 @@
     "iherb-now-ultra-omega3-180": {
       "productId": "9392378613",
       "keyword": "나우푸드 울트라 오메가3 180정",
-      "at": "2026-11-03T19:33:31.994Z",
+      "at": "2026-11-03T22:23:46.475Z",
       "recordedKrw": 38400,
       "found": true,
       "apiPrice": 38400,
@@ -312,7 +312,7 @@
     "iherb-now-magnesium-caps-400-180": {
       "productId": "26208",
       "keyword": "나우푸드 마그네슘 캡 400mg 180캡슐",
-      "at": "2026-11-03T19:33:39.967Z",
+      "at": "2026-11-03T22:23:54.319Z",
       "recordedKrw": 19750,
       "found": true,
       "apiPrice": 19750,
@@ -424,7 +424,7 @@
     "iherb-cgn-organic-spirulina-720": {
       "productId": "6168309514",
       "keyword": "캘리포니아 골드 뉴트리션 올가닉 스피루리나 500mg 720정",
-      "at": "2026-11-03T19:33:35.973Z",
+      "at": "2026-11-03T22:23:50.800Z",
       "recordedKrw": 56400,
       "found": true,
       "apiPrice": 49700,
@@ -433,5 +433,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-03T21:25:28.677Z"
+  "updatedAt": "2026-11-03T22:23:58.295Z"
 }
