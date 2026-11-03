@@ -2,12 +2,14 @@
 
 직구각(www.jikgugak.com)은 해외직구 최종 체감가(상품가 + 국제 배송비 + 관세·부가세)를 국내 최저가와 비교해 "직구각 / 애매 / 국내가 나음"을 판정하는 제휴 사이트예요. 운영자는 한승호(비개발자 1인 창업자), 문의 메일은 jikgugak.official@gmail.com.
 
-**새 세션은 일을 시작하기 전에 `docs/status.md`(지금 상황·할 일·결정 사항)를 먼저 읽고, 일을 끝내면 그 파일을 고쳐 둬요.** 작업 전 `git pull --rebase`(다른 세션이 동시에 일해요).
+**새 세션은 일을 시작하기 전에 `docs/status.md`(지금 상황·할 일·결정 사항)를 먼저 읽고, 일을 끝내면 그 파일을 고쳐 둬요.** 운영자에게 답하고 보고하는 방식(한국어·간결·운영자 할 일은 맨 끝)은 `docs/operator.md`를 따라요. 작업 전 `git pull --rebase`(다른 세션이 동시에 일해요).
 
 ## 문서 지도 (어디에 무엇이 있나)
 | 문서 | 내용 |
 | --- | --- |
 | `docs/status.md` | 지금 상황·확정 방향·하지 않기로 한 것·일정·할 일 (원본) |
+| `docs/operator.md` | 운영자 정보·답변 방식·일 맡기는 방식 (claude.ai 프로젝트 지시문·메모를 11/3에 옮김) |
+| `docs/schedules.md` | Claude 예약 작업(아침·저녁 점검, 주간 후보, 한 번짜리)과 GitHub Actions 시간표 |
 | `docs/marketing/product-context.md` | 직구각 한 장: 고객·경쟁·망설임·사람들의 말·배운 것 |
 | `docs/marketing/voice.md` · `hook-rules.md` · `playbook.md` | 말투 · 훅 규칙 · 채널별 형식(블로그·릴스·캡션·댓글·스레드) |
 | `docs/marketing/review-checklist.md` · `card-spec.md` · `motion-reference.md` · `ig-profile.md` | 검수표 · 카드 규격 · 영상 기법 · 인스타 프로필 점검 |
