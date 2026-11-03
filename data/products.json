@@ -53,7 +53,7 @@
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 27606,
-    "domesticKrw": 26640,
+    "domesticKrw": 24830,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -77,13 +77,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 23450,
-        "to": 26520,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.30",
         "field": "domesticKrw",
@@ -145,6 +138,13 @@
         "field": "domesticKrw",
         "from": 26110,
         "to": 26640,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.03",
+        "field": "domesticKrw",
+        "from": 26640,
+        "to": 24830,
         "source": "쿠팡"
       }
     ]
@@ -480,7 +480,7 @@
     "checkedAt": "2026.11.03 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 26982,
+    "priceKrw": 28299,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -562,6 +562,13 @@
         "field": "priceKrw",
         "from": 26953,
         "to": 26982,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.03",
+        "field": "priceKrw",
+        "from": 26982,
+        "to": 28299,
         "source": "알리"
       }
     ]
@@ -1114,7 +1121,7 @@
     "checkedAt": "2026.11.03 알리 자동",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-    "priceKrw": 41945,
+    "priceKrw": 43769,
     "domesticKrw": 40900,
     "domesticSource": "쿠팡 로켓배송 화이트 일반판매가 · 와우 회원가 38,850원 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
@@ -1140,13 +1147,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.27",
-        "field": "priceKrw",
-        "from": 29620,
-        "to": 43073,
-        "source": "알리 API(운영자 결정: API를 일반가로)"
-      },
       {
         "at": "2026.10.28",
         "field": "priceKrw",
@@ -1211,6 +1211,13 @@
         "field": "priceKrw",
         "from": 41900,
         "to": 41945,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.03",
+        "field": "priceKrw",
+        "from": 41945,
+        "to": 43769,
         "source": "알리"
       }
     ]
