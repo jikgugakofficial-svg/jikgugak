@@ -50,19 +50,17 @@
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
-      "at": "2026-11-03T15:26:21.119Z",
+      "at": "2026-11-03T18:26:27.028Z",
       "recordedKrw": 221171,
-      "found": true,
-      "apiPrice": 221171,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
-      "at": "2026-11-03T15:26:23.403Z",
+      "at": "2026-11-03T18:26:27.452Z",
       "recordedKrw": 129064,
-      "found": true,
-      "apiPrice": 129064,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     },
     "ali-edifier-evobuds-pro": {
       "itemId": "1005010122935561",
@@ -74,12 +72,11 @@
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
-      "at": "2026-11-03T13:51:57.533Z",
+      "at": "2026-11-03T18:26:25.440Z",
       "recordedKrw": 184234,
-      "found": true,
-      "apiPrice": 184234,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     }
   },
-  "updatedAt": "2026-11-03T17:33:11.638Z"
+  "updatedAt": "2026-11-03T18:26:27.730Z"
 }

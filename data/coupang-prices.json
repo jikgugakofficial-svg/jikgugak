@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-11-03T15:25:29.061Z",
+      "at": "2026-11-03T18:25:59.706Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -213,29 +213,29 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-03T15:25:33.028Z",
-      "recordedKrw": 23380,
+      "at": "2026-11-03T18:26:01.946Z",
+      "recordedKrw": 25690,
       "found": true,
       "apiPrice": 25690,
       "isRocket": false,
-      "diff": 2310,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-03T15:25:37.179Z",
-      "recordedKrw": 56710,
+      "at": "2026-11-03T18:26:05.488Z",
+      "recordedKrw": 60300,
       "found": true,
       "apiPrice": 60300,
       "isRocket": false,
-      "diff": 3590,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-11-03T15:25:41.056Z",
+      "at": "2026-11-03T18:26:09.439Z",
       "recordedKrw": 37060,
       "found": true,
       "apiPrice": 37060,
@@ -246,7 +246,7 @@
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-11-03T15:25:45.478Z",
+      "at": "2026-11-03T18:26:13.463Z",
       "recordedKrw": 37270,
       "found": true,
       "apiPrice": 37270,
@@ -257,24 +257,24 @@
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-11-03T15:25:49.031Z",
-      "recordedKrw": 25520,
+      "at": "2026-11-03T18:26:17.444Z",
+      "recordedKrw": 28190,
       "found": true,
       "apiPrice": 28190,
       "isRocket": false,
-      "diff": 2670,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-11-03T15:25:53.015Z",
-      "recordedKrw": 17600,
+      "at": "2026-11-03T18:26:21.818Z",
+      "recordedKrw": 21570,
       "found": true,
       "apiPrice": 21570,
       "isRocket": false,
-      "diff": 3970,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-jarrow-fem-dophilus-5b-60": {
       "productId": "6960887991",
@@ -430,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-03T17:33:08.714Z"
+  "updatedAt": "2026-11-03T18:26:25.440Z"
 }
