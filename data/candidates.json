@@ -1582,40 +1582,28 @@
       "model": "Space One Pro",
       "cat": "audio",
       "why": "사운드코어 ANC 헤드폰 상위(LDAC), 국내 정발·알리 공식 판매. Space One과 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-01T18:12:02.763Z",
-      "status": "rejected",
+      "at": "2026-11-04T19:39:56.025Z",
+      "status": "no_ali",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005008731579344",
-          "title": "Anker Soundcore Space One Pro, 6개의 마이크로 구동하는 적응형 능동형 소음 차단 헤드폰, 60H A3062",
-          "price": 166200,
-          "orders": 66,
-          "rating": "85.8%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4812c9f4019949249333b1713a841684c.jpg",
-          "url": "https://ko.aliexpress.com/item/1005008731579344.html"
-        }
-      ],
+      "ali": [],
       "coupang": [
         {
           "id": "9791852717",
           "name": "Anker Soundcore Space One Pro (Bluetooth 5.3  3.5   무선 헤드폰)[60시간 음악 재생",
-          "price": 224500,
+          "price": 210990,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/cIHOEAXTDIUalnmvcPjg4quighlahrSt_0YWHwW7RACrrVsAIeb_N8lxaBPIgP0o9FQB3l0mfE5VZLSwPZdRtfeM1F9vIe-elrdmX2SInMUJeJujvuZ91edr_gTPdJ3oYNvfJhWrN3ncLigAg0khbsFrJSaxPuE_6tC0GNjVLWVvQC01RaIzr-46PMz-VxxVLW4fVl9QngA_scQi7mTArdAPgYp-nSAysEnCTY0_3P4lmL733pUi5WdWJlhM1TvfHlIksZkLuxP8uRqoRfVAL5q3Fk_cBDFtyQOU5feOR-6VWzv_vt9FDPVHZYXYlLVHXSwSjc1pzHOPj9kTCwZFjI3qUCz2K_nCNgG1dDY6QbFCjKUXGl9vwZZXZ_hu76eJ0IINYOLYqUgMBvypBdVwbtKHXq5fj525ZVnmQAMXfA3JtU12r3h8bp130gHoAorvJjyOECiByBTNd4z8iJRteKSm7Qg0QwZNEFVRPf7WqscBGT5PWsmJRKVUPVhucBU294yDbclBpICrjh2O9ZiHFJH9kPnMVN2cTR7Bk2x1hz6MTw==",
+          "image": "https://ads-partners.coupang.com/image1/ijN4xK5xXzLqs4n3ijyp9FJjArtDj0UpB3ejQfNjNDxr1s-Bd_hYuiWyKcnrvaYot4ywuwit1brayNmzrHyI1ntMKl7RtM0kSYyxee9hUbQoBcLgWIRxD86ltM5vDFwaDCtyhDwZmCxinLWiAj_SXGc-u0WHXZzQZLX0BtuI-Df8nvy6Tp_eD4YBMdqiGpg69ra-0ylPwc1VgU0x8E154l72y89ccigsU3B1KX8AXaE3oh6me53syY8N0I4DguRRf8lUsg8lg8LcUyuPSONHC3WZ2NsbndLdvh82Uo1Qn0KrcdCqbM5f3ffjsAgU7ndEpzybAAaxRuTz8tuSfkpQLrjSIW__9bwQ6IFNKlPWw_wNuKUaTjGQddB0L9Mjf_01VtiZbVUs_H_Vn3W9kpg5DXq2DoiO7QowFmfs3D7gtkmFx8-MAT2Equs06os_WpUY8vy-PgRGPpW4aErRw1fuhrkpFI4EsGCtuFUxV-3cx-M6bZP2NZ2r2aW_os-ofwlgWIp16h7750gV7Dqz_D50mN5NVw1lE5BY_JMDkysHfXbKOQ==",
           "url": "https://www.coupang.com/vp/products/9791852717"
+        },
+        {
+          "id": "9791849052",
+          "name": "Anker Soundcore Space One Pro (Bluetooth 5.3  3.5   무선 헤드폰)[60시간 음악 재생",
+          "price": 224290,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Aa9srWXZc8azkqIVAdcGOVXvqDszwD0eMpWkESkwQn7hGElevs5STLrse_M5_0ybLKO1slaVEbPReWaMtFMiX1rksA0hb64yij0XzDKIdnpQmMYDzyG05qM4f0BwTqWadeVtNqgwpwogYa4y2ayWWV4jHGZgX01_sfBo8YPDSomzBkeOqA-Sumn4Toh24-NV5p7-8V82sFhERkBRU8oybsCjpz_Q9LCZu21yr6Gr6vUrb4MRVQtOWGQJzHMxbZiOia0ircq5dSfO_G8wXKSfN5EhiS36hEG_0IJ8wWDBft0v5VU5SVczzH_Na5PMVYoCWH5-WIhJNYxRtQmT9mpsezv8778URJkxnNL2oKb05pWzrvQJz499Pba2lppycey54C2Eff9bvhcH1gVgWrAQBH18MEuD9PPX8VzUq8ENy8lEIcBLXV863NUt2M5ketajNiJPmVXDoMPO_ygEi_L03Zoj5T0msK9kdDSC4TAWUOjnoy8ahpyR-wEOc0r-nHeoG4s_eVF5R4bVK_LGw2IhtsEV-KwPWFPN7DiMQMEljKI-RiI=",
+          "url": "https://www.coupang.com/vp/products/9791849052"
         }
-      ],
-      "best": {
-        "aliId": "1005008731579344",
-        "coupangId": "9791852717",
-        "aliTotal": 166200,
-        "coupangPrice": 224500,
-        "verdict": "good",
-        "diff": 58300,
-        "pct": 26
-      },
-      "review": "11/2 쿠팡 187,900 vs 알리 162,749 → 13% 애매"
+      ]
     },
     "Soundcore Liberty 4 NC": {
       "q": "Soundcore Liberty 4 NC",
@@ -1623,25 +1611,25 @@
       "model": "Liberty 4 NC",
       "cat": "audio",
       "why": "퀘이사존 Liberty 4 Pro 알리 $67 핫딜(2024.11) 반응이 컸던 라인의 중급형. Liberty 4 Pro와 이름 비슷해 NC만 맞을 것",
-      "at": "2026-11-01T19:22:13.854Z",
+      "at": "2026-11-04T19:40:00.611Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
-          "id": "9795065244",
+          "id": "9771093746",
           "name": "Anker Soundcore Liberty 4 NC(Blueooth 5.3)",
-          "price": 131180,
+          "price": 123450,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/1x_iiSM9F7uEH_Hq1zu-9CC5tm6eyjCcSvjJj2e-4qM2H3R8EVT2Fh8qQapnRhD85LF-cetxHPVNlWkzmOYqYR3qhMwmdhoez0JSodsKzwdS-DHv3yWv8boE3vT2YQ1fjx1CvD_ZxSOXLcc0xsXp4w3S2jXhCLGaHsv-FD7d6LPO9HNUhBM9lNv5TTyGCvTISTZkwiEo8ATDi_PWUk97ZHkjWtKvjIPfwHNy8G0iX4n6_5o7frLjec3qJ8Ay6y_crtsUaPYG1YrCCAHxwUx0WsvxJPxoXUfLGQxc50GQ17N6yNNQmuQn1P9xDyWj_f1Z8oTZWaO6c7H_FUZmGHlpNB6BXZnqspJ0RBt6fJK6JedhKHqON65Zfl-feUE2t3Isa83jzwPDcI8G5BR6qXmaDDFSM15RGp-ll4Wb8dbotQIprwXnNgRF_uMN0ahFyHccAjGI-XNu-rCTtXIonknFU7fEqun9sByl5YLt316VsjCVplzCwMkcgsLNOIKiTf1c_NlbGABgozq59ZIFVwZQOkDlyciN4kXK2A3ee0ODO1LTtQ==",
-          "url": "https://www.coupang.com/vp/products/9795065244"
+          "image": "https://ads-partners.coupang.com/image1/_idL_pHLvKsFquJI_nWfTUhnKwE43R4KMqY9gMXinNAYsziUf50MlqHCVKWZUFVbXfDZU9K4BipDdfBKyv9uo1jO0JHcH5fm4QEFefJ7yf0vFgpRCTtS8yj-BC2Iq2kq828G550I_nBqeeuebsW5qjD52IvI0L1iPsD34haRdlvPZtdg6YJ_0_ang7Tf_fOTQa0qQAEVgrTp_gTPxBIsRFCpiiOXB-rzn-HLzUVnflwbnyvkoK3FCN6b5Pnv3a9iyY_DhU2ydrzWrEHmjj8J23J3QCUhq4AUUlzgoYFIMgZlDSDGyvc_mMV-NjsGroQb0uM2fYGp76WAcBPSlYhK4Kuk6LxjflB920uh38c7Db4UUiEpRN4RSfcmqWPVSQ5M2NhAtvGYL1h_ipFlCPiE97IlA_hqsQ1L81e5wis27UEwo1hpG2TFkpOEHgGD6pFgSle0IfKite2LbaUZD7AI3paY9hPCjPBBpdYs5QyjwZM6molyrUQUHidNYRrAr6WePn-A84DTYOTsH7EtP6u4n-phmb4fPAI9XSJaa82w21bVHBwQRA==",
+          "url": "https://www.coupang.com/vp/products/9771093746"
         },
         {
           "id": "9777971262",
           "name": "Anker Soundcore Liberty 4 NC (Blueooth 5.3)  3.0     50   IPX4  PSE [완전 무선 이어폰",
-          "price": 143560,
+          "price": 143810,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/29DtlBGnO9oui5I-28KyTuoH501vy7S04eEFc_6B5-L7IbZXKw_FrS07jaCvXQDZm5_oPfj1RC5KXVmhr9sNomS8upv20VdFre9iHgZsN-7dZZ1Bp0vhFxIqQ9D058A-QtQq00PQ0jcKnsKTM2VkvNBNYsA4CwDxKzdKsytnUfMHdFh51EA_KYsbRH3f7rcArbbgXNvtwtpfEQsDYCmE8qc_-rML6CDdmb2h5WQKtIWLFaGkRx-oG53jJFac-i2BknI0SHDPnboGYxY4dbVo_WbSk_vbBbfmkbWtMPjbABaWeDaHrO4qF3tiVoLOC9VwQHOUdc8QCJzpwWp1zf_rqZrTrUf3H-xBkRkUQ5GRcfTZbbK6Mfh5yTj1GISmM3bBLBCNuNia-pptowJc4v3zrK35c96J8N1yNh4Gs5nTK-lm4hlRAfldcUGCaEESE0gNbZ6Doo7BKM-hnl6Ig3O_NGDvqzuwWCo00uurCDMWXgbvmvcGCuA_-iuo7hqTxqvuz24qg2tdKWFrLDxYsslZmjzVwDboEuQ4BsuiHk5zynJFJg==",
+          "image": "https://ads-partners.coupang.com/image1/bMUq-tY35jkg7McKbP7zhCpWuOuWSknpiHu8BYRd_TH2aPEXyJgoE4Gs4nbKvhppivYzaXZ_DIUCuBX0H9TdC9R5LVbes4jVFc7zjPO-4ghfBBQHGp1pfxngTM0MvkbfzD_SqzKD6TuNnJcc367Ok6yziO2zC6lI29x94XlZ933f_l6kr1oNxKoUUH1OoVhVmTwN2pGY__rwOlwJzaC1hIV6UnabuD6So6D6SKK0HG_XgxNqzqocAODsaN2GVwiNDL88z3FSmY4LOP0vZwK8DL5WGMoYWvefrlMg6-CDeCF0IKU2U_tcvd4iRgvYjsii347o9fAm0TD7Bp84AhT9Ouxeo28x7Ooi_PiF-7PtUZJvGSx_BNNhHn0DIkZ5S3xl2Ksk_N2IpLwgPWxxknUV3oqACS8FA6O4pwhBqs8j1wnFiASVDVMg01nop38GleihMx5ypkxli89VBFJOF4KwDF4jxDI8UbTVmqxQd_I7QcdkRdk1jERfp4oQEQm9u75YbqCHjxM9-q3O18ZqQaXzHH5eL04VRhvZhCJrCubszsyT4ujr",
           "url": "https://www.coupang.com/vp/products/9777971262"
         }
       ]
@@ -1652,7 +1640,7 @@
       "model": "Aerofit 2",
       "cat": "audio",
       "why": "퀘이사존 알리 한국 스토어 에어로핏2 72,214원(2025.08, 국내 AS 18개월) 핫딜 글, 쿠팡 로켓직구로 산 후기 댓글도 있음. 쿠팡 정발가 확인 필요",
-      "at": "2026-11-01T19:22:17.854Z",
+      "at": "2026-11-04T19:40:04.459Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1660,17 +1648,17 @@
         {
           "id": "8584585456",
           "name": "Anker Soundcore AeroFit 2 (Bluetooth 5.4)  IP55  [오픈 이어형 무선 이어폰 방진 방수",
-          "price": 149050,
+          "price": 141900,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/-PHMpZ5sIQi1baah-EkbtLz72W7CNUxePefOqDGKHQ0c2ZyU8v2XABWToSCIKHo8W_c5m4InEbMTp9RtB3UbWAa7L2WHLu3IS3Cq1B4WvLd-R22aGO9oV-n3_t21Y6H9pG7hj66OKR8de8ohtg55UI2yXPHqL8iHFTsacUsp85shqyXBrZr2GyROrTlW-NMP7wePKk6zan65tsQV8STewFLriMn2X8gYm5UT6Ms-FAeTyH-fkTEJbSA26f0og-ezvp9wvVJMAtmHBHVibfG1T1Oc653W5IyHUcY0NImakvkxd_2drj-vTZI2r9BeuByrYTA4MFw3A4I3_uoWejVGj4KgQCvNAG4FC6OgV_VoztjETpXQeDemTQaN8OfPckBb1NOWTd0fR4A45MBOJhA4LlVpHGlEimTcWryuPUPxu-zBm9N9UhxbX_1oCMHdcyoJbbcPSA_755dkvw9B5czAbkvfa1dRaJriORZhyT693TZEBqLWw7HDmdgLU5QrkvxBdTwYqIYlsnqQddJPC4MjOT3uf4bFsxEp6M2wApc6lpJcbAk=",
+          "image": "https://ads-partners.coupang.com/image1/-GhGTNW6JeJ_CQdW-HyOO5JqLb_oIBY3rg-MMWTpiXBxtUOxMZkP6QuJMPWXEfEmB-EEp5nz_8bWORLcqjpjzbyKp6P43bPELWtROwCNFj5BFS2PKCy92InVuzv__sQpc902ybaKV8aqHhYJPQtuvQSOkqj8www06ZGiENIDAp2evEJymJOwXJ-8oK9RQ1j-z3D2HDbSj51QrHjZwU6gIZqu6QS_454Yjj-46Nung4d5vuF69wqYBQ-ANQawdXBf8WRmshOUhJZK_M8H66XRCGhu-fTxdEki08uBLXk0563zqcvHwOD1k1RWqaCS4HYp1i4WPdc9rP8wUggf2IGy-D8TvOgey_9jkkT2OV7vPAjEEVDOct7mKjSbuk7bnJcVcOLL4s6MUfTza2Bak_wESInFNuBSuy2MluWL4tc53jR2YyOe0jcW9cxvMI8u1bqghE0rWdFGD5G4cAJ1D0xD2z_MzwP9ef3tkW5_2HLBAr_0qZuc3bHhrvnqX5Y9hswUPQ4zxaTjv9KaIGsSWKYJXIapUJx7rXt_mGD_wa0ibZB2mgH4pmBSy7zajH_Jrs_a7ulc9A-3X6JNFggRqRdKiMa6WR4eRJR_nkk3PNnp_iE=",
           "url": "https://www.coupang.com/vp/products/8584585456"
         },
         {
           "id": "8501167893",
           "name": "Anker Soundcore AeroFit 2 (Bluetooth  IP55  5.4)[오픈 이어형 무선 이어폰 방진 방수",
-          "price": 149050,
+          "price": 143750,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/72Anl4MWgOFIRHdp7wY4WbGkMjnva1CjP2DH4oAIUr4FPe4-K9J1iFUvKvzSM1qRrwtx0_6xGKYcReTriuFZzjyqEQgEsXVjlTR3Ct4i_9wcCZtAdBWySzH2GauxspcsK0askELSN2SKgI95EbULuhfhYZOKky5qd2blFEGYBNwSNFujM-VpzCX5Jxd0nUcP2U2fFyGnTyZkJiI6rhwn4I6raKY_U-6p9ZMb1JBoTmbPjjMJopEkB354HSigF1dFxGmpNZVcRjlSvA3d5dYJ6IRRJ9E8cewt0k15rQmnhKjsSz79hIYqw_n9KYzr0nxFmSM9wlVTT-VKqBSJXmzMiu50FrW5aLKv3Gy6NnOVvmwJ60saxE4jtFrv4JNUytAdS6AzfY81RIjdWRCnb52p-yZcVJlA4ZryQJNWFvykFW78C-bKkpXcJFQUJ90LvP9RKrBVeXtJjWiiLzH4YxRbo4yQGQjXQhzgLmv6psbvTaV1wp9ZswfxN19i8oDzkHtmluF3n9Fxg8nHTRi4iGEl2S7rn71NeK93Wh0VFFqginc6XQA-LQ==",
+          "image": "https://ads-partners.coupang.com/image1/Dzc0sLf4dtup4zTjD0OQZNMMlMOBJx6ZXc6RfjAsPKcEyCsW09IWzm4liHJr4nqdtuGJ1BIC3Hc-inyusynI1Ub5ko9IrImm6lb-Rd6iYoBvUiX5rVQaECZdSzUGwIhRGd-LtMpDO-tOofAm5tjZHMJ7Q1MiwSJ_YnpNuut1EF2xKm6CLiMnBQk798C9v9t3oaAxC0Hq1tFUqg8tUceNpQhD-lCf5I4FQRaqPlej3WMm3brtpdzRzBRntsUpKHF3Uy-JyMDJ-_B93aXebnhPPlf5A5I_Yk23JGt55lNxaaHI-VKnQURYSmVp5UChCvCwkkYSZXvWMTW4-VljKCRRxwq34WWfFbaxYJyK_AotB9EriVueiskaTD0_6mShW9V7RLtcDc7sa5jTEOc4OgZeSNZV8umg94uog9PIMNMTmWvfZzNhjYsgB25Y-nA2R_9JBNgoYl4r95j9Q5nY6Mvf0HmSCpqZ0249Up_wDHfF0oY6JrJhV2LN77u-SloUEQBHC-HAUjTP4mA8OB4Ldq4O_lyXPvTD_dnXnijvebSoL0191JSTKIEB9px3rgQK2dkH0SfFInMmM1ZAmOUPokdq11rPd1DH2TcQzh-8DlgkXA==",
           "url": "https://www.coupang.com/vp/products/8501167893"
         }
       ]
@@ -6947,5 +6935,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-04T16:33:11.882Z"
+  "updatedAt": "2026-11-04T19:40:08.534Z"
 }
