@@ -131,6 +131,7 @@
 
 ## 7. 작업 방법 메모
 - 게시 수동 실행(예약이 빠졌을 때): `gh workflow run publish.yml -R jikgugakofficial-svg/jikgugak --ref main -f mode=publish`(mode를 안 주면 check라 게시 안 함). 결과는 그 폴더 `publish-result.json`.
+- 릴스 굽기(운영자 PC, 11/4 설치·시험 완료): ffmpeg 9.0.2(winget Gyan.FFmpeg)·Playwright 크롬(npm 전역)·numpy·Pillow·scipy. PowerShell에서 먼저 `$env:Path = "C:\Program Files\nodejs;C:\Program Files\Git\cmd;$env:LOCALAPPDATA\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin;" + $env:Path; $env:PYTHONUTF8="1"; $env:NODE_PATH="$env:APPDATA\npm\node_modules"` → `& "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" tools/tvc/cart2_ad.py`(21초 릴스 약 4분 20초). 11/4 시험: 11/3 claude.ai 판과 화면 같음(SSIM 0.99). 게시된 파일을 덮어쓰니 시험은 저장소 복사본에서.
 - 쿠팡: 연달아 열면 Akamai가 막아요(한 페이지마다 15초 이상, 몇 개씩만). 쿠팡 검색 API는 로켓직구 싼 가격을 놓칠 수 있어 브라우저 확인 때 낮은가격순에서 로켓직구도 봐요. 새 상품 쿠팡 링크는 Actions `coupang` mode=deeplink/links: `gh workflow run coupang.yml -R jikgugakofficial-svg/jikgugak --ref main -f mode=links`(딥링크는 `-f mode=deeplink -f args="쿠팡 일반 주소"`). 11/4 이 PC에서 mode=check 성공.
 - 아이허브: kr.iherb.com 주소로 열면 읽혀요(www.iherb.com은 읽기 거부). 할인 코드가 붙어도 비교는 정가 기준.
 - 알리: 붙여넣기 판정은 `/api/item?id=`(대표 옵션 가격). s.click·a.aliexpress 단축 주소는 열지 않아요.

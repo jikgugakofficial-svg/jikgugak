@@ -47,7 +47,7 @@ def site_shot():
     srv = subprocess.Popen([sys.executable, '-m', 'http.server', '8765'], cwd=os.path.join(ROOT, 'dist'), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     try:
         time.sleep(1)
-        env = dict(os.environ, NODE_PATH=subprocess.run(['npm', 'root', '-g'], capture_output=True, text=True).stdout.strip())
+        env = dict(os.environ, NODE_PATH=subprocess.run(['npm', 'root', '-g'], capture_output=True, text=True, shell=os.name == 'nt').stdout.strip())
         subprocess.run(['node', os.path.join(ROOT, 'tools/tvc/site_shot.cjs'), SHOT, os.path.join(D, 'site.png')], check=True, env=env)
     finally:
         srv.terminate()
