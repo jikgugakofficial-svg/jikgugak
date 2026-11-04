@@ -588,7 +588,7 @@
     "name": "레고 보태니컬 다육식물 10309",
     "category": "toy",
     "domesticKrw": 66290,
-    "domesticSource": "쿠팡 ₩57,180 + 배송비 ₩10,000",
+    "domesticSource": "쿠팡 ₩56,290 + 배송비 ₩10,000",
     "buyUrl": "https://www.amazon.com/dp/B09Q4GWMZQ",
     "risks": [
       "10.25 기준 아마존 직판은 품절이고 제3자 판매자 상품만 한국 배송돼요",
@@ -597,7 +597,7 @@
       "배송 1~4주"
     ],
     "summary": [
-      "국내는 재고가 적어 쿠팡도 배송비 포함 ₩67,180이에요.",
+      "국내는 재고가 적어 쿠팡도 배송비가 따로 붙어요.",
       "10월 25일 확인 기준 아마존 직판은 품절이고 제3자 판매자 상품만 한국으로 배송돼요. {be} 이하일 때 직구각이에요.",
       "지금은 쿠팡이 현실적인 선택이에요."
     ],
@@ -683,11 +683,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OD7KnGCa",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.11.04 오전",
     "slug": "amazon-sony-wh-1000xm6",
     "name": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
     "category": "audio",
-    "domesticKrw": 478280,
+    "domesticKrw": 478390,
     "domesticSource": "쿠팡 플래티넘 실버, 무료배송 · 내일 새벽 도착",
     "buyUrl": "https://www.amazon.com/dp/B0F3PQHWTZ",
     "risks": [
@@ -696,7 +696,7 @@
       "결제는 원화 말고 달러로 (환전 수수료)"
     ],
     "summary": [
-      "미국 가격이 면세 한도(200달러)를 넘어서 관부가세가 붙어요. 지금은 국내가 훨씬 싸요.",
+      "면세 한도(200달러)를 넘으면 관부가세가 붙어요. 지금은 국내가 훨씬 싸요.",
       "아마존가가 {be} 이하로 떨어져야 세금을 내고도 직구각이에요.",
       "블프 할인 폭을 보고 판단하세요. 대부분은 쿠팡이 나아요."
     ],
@@ -709,7 +709,16 @@
       "model": "Sony WH-1000XM6(YY2984)",
       "note": "쿠팡은 플래티넘 실버, 아마존 ASIN은 블랙 — 같은 모델·색만 다름(가격 같은 등급). 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
       "checkedAt": "2026.11.02"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 478280,
+        "to": 478390,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -875,11 +884,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OIECENSS",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.11.04 오전",
     "slug": "amazon-timemore-c3s-grinder",
     "name": "타임모어 C3S 핸드 커피 그라인더",
     "category": "home",
-    "domesticKrw": 53960,
+    "domesticKrw": 51080,
     "domesticSource": "쿠팡 로켓직구, 무료배송 · 3일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0CC4ZNBKL",
     "risks": [
@@ -900,7 +909,16 @@
       "model": "Timemore C3S(체스트넛)",
       "note": "쿠팡 바코드 6959493505674, 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
       "checkedAt": "2026.11.02"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 53960,
+        "to": 51080,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -948,13 +966,13 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.28 오전",
+    "checkedAt": "2026.11.04 오전",
     "slug": "amazon-sennheiser-hd600",
     "name": "젠하이저 HD 600 오픈형 헤드폰",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(10.22 확인)",
-    "domesticKrw": 355020,
-    "domesticSource": "쿠팡 와우할인가, 로켓배송",
+    "domesticKrw": 313970,
+    "domesticSource": "쿠팡 쿠폰 적용가, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28aa541IG",
     "buyUrl": "https://www.amazon.com/dp/B00004SY4H",
     "risks": [
@@ -963,8 +981,8 @@
       "국내 정식 A/S 불가"
     ],
     "summary": [
-      "같은 HD 600(오픈형 유선)끼리 비교했어요. 쿠팡은 와우할인가 기준이에요.",
-      "아마존가가 {be} 이하면 직구각이에요. 면세 한도 $200 바로 아래라 세금도 안 붙어요.",
+      "같은 HD 600(오픈형 유선)끼리 비교했어요. 쿠팡은 쿠폰 적용가 기준이에요.",
+      "아마존가가 {be} 이하면 직구각이에요. 면세 한도 $200 이하라 세금이 안 붙어요.",
       "$200을 1달러라도 넘으면 배송비까지 포함해 관부가세가 붙으니 결제 금액을 꼭 확인하세요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8542629824",
@@ -976,7 +994,16 @@
       "model": "Sennheiser HD 600",
       "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
       "checkedAt": "2026.11.02"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 355020,
+        "to": 313970,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -1061,7 +1088,7 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.26 오전",
+    "checkedAt": "2026.11.04 오전",
     "slug": "amazon-audio-technica-ath-m50x",
     "name": "오디오테크니카 ATH-M50x 모니터 헤드폰",
     "category": "audio",
@@ -1099,12 +1126,12 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.11.04 오전",
     "slug": "amazon-aeropress-original",
     "name": "에어로프레스 오리지널 커피메이커",
     "category": "home",
     "shipNote": "US$49 이상 무료 배송(적합 상품)",
-    "domesticKrw": 41230,
+    "domesticKrw": 39610,
     "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cEN7ILQ",
     "buyUrl": "https://www.amazon.com/dp/B0047BIWSK",
@@ -1127,7 +1154,16 @@
       "model": "AeroPress Original",
       "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
       "checkedAt": "2026.11.02"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 41230,
+        "to": 39610,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "aliexpress",
@@ -1364,12 +1400,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h4yGpGCik0",
     "sample": false,
-    "checkedAt": "2026.10.27 오전",
+    "checkedAt": "2026.11.04 오전",
     "slug": "amazon-lego-10313-wildflower-bouquet",
     "name": "레고 보태니컬 들꽃 부케 10313",
     "category": "toy",
-    "domesticKrw": 71400,
-    "domesticSource": "쿠팡 직접 판매, 무료배송",
+    "domesticKrw": 67430,
+    "domesticSource": "쿠팡, 무료배송 · 내일 도착(재고 적음)",
     "buyUrl": "https://www.amazon.com/dp/B0BGQL5B3Q",
     "risks": [
       "US$49 미만이면 배송비 별도",
@@ -1391,7 +1427,16 @@
       "model": "LEGO 10313 Wildflower Bouquet(야생화 꽃다발)",
       "note": "쿠팡 바코드 5702017416663(레고 공통 EAN), 아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
       "checkedAt": "2026.11.02"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 71400,
+        "to": 67430,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "amazon",

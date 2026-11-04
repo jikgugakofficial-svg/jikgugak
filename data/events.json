@@ -32,18 +32,20 @@
     "source": "https://www.ssg.com/hub/ssgday-2026-info"
   },
   {
-    "id": "lottehimart-gajeonjeol-2026",
-    "name": "롯데하이마트 가전절",
-    "date": "2026-10-30",
+    "id": "lottehimart-heating-2026-11",
+    "name": "롯데하이마트 11월 난방가전 할인행사",
+    "date": "2026-11-01",
     "end": "2026-11-30",
-    "stores": "롯데하이마트",
+    "stores": "롯데하이마트 (전국 매장·온라인)",
     "scope": "domestic",
-    "status": "expected",
-    "note": "작년엔 10월 30일~11월 30일 '가전 블랙 프라이데이'를 내걸었어요. 직구 가전은 전압(110V·220V)과 A/S를 함께 따져 보세요.",
+    "status": "reported",
+    "note": "롯데하이마트가 11월 한 달 히터·전기요·장판·가습기를 할인해요(10월 29일 발표). 대부분 제품에 5년 무상 A/S가 붙어요. 직구 가전은 전압(110V·220V)과 A/S를 함께 따져 보세요.",
     "cats": [
-      "electronics"
+      "electronics",
+      "living"
     ],
-    "major": false
+    "major": false,
+    "source": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2352047"
   },
   {
     "id": "11st-grand-2026",
@@ -134,7 +136,7 @@
     "stores": "아마존",
     "scope": "overseas",
     "status": "expected",
-    "note": "작년엔 블프 1주일 전부터 할인을 시작했어요. 레고·헤드폰 목표가를 확인하세요.",
+    "note": "아마존은 블랙프라이데이 날짜(11월 27일)만 공식 확인했고, 블프 위크 시작일은 아직 발표 전이에요. 작년엔 블프 1주일 전부터 할인을 시작했어요. 레고·헤드폰 목표가를 확인하세요.",
     "cats": [
       "general",
       "electronics"
@@ -149,7 +151,7 @@
     "stores": "큐텐 재팬 (Qoo10)",
     "scope": "overseas",
     "status": "expected",
-    "note": "작년 겨울 메가와리는 11월 21일~12월 3일이었어요. 일본에서 발송되는 상품은 $150 면세 기준을 확인하세요.",
+    "note": "큐텐이 올해 발표한 메가와리는 2월 27일~3월 11일, 5월 29일~6월 10일, 8월 28일~9월 9일이었고, 11월 회차 날짜는 아직 발표 전이에요. 작년 겨울 메가와리는 11월 21일~12월 3일이었어요. 일본에서 발송되는 상품은 $150 면세 기준을 확인하세요.",
     "cats": [
       "general",
       "beauty",
@@ -165,7 +167,7 @@
     "stores": "쿠팡",
     "scope": "domestic",
     "status": "expected",
-    "note": "쿠팡이 '연중 가장 큰 직구 쇼핑 행사'라고 밝힌 쿠블프예요. 작년엔 11월 24일~12월 1일 8일간 열렸어요.",
+    "note": "쿠팡이 '연중 가장 큰 직구 쇼핑 행사'라고 밝힌 쿠블프예요. 작년(2025)엔 11월 24일~12월 1일 8일간 열렸어요. 올해 공식 날짜는 아직 발표 전이라 바뀔 수 있어요.",
     "cats": [
       "general",
       "electronics"
@@ -186,7 +188,8 @@
       "health"
     ],
     "major": true,
-    "fixedDate": true
+    "fixedDate": true,
+    "source": "https://www.aboutamazon.com/news/retail/when-is-amazon-black-friday-faq"
   },
   {
     "id": "iherb-bf-2026",
