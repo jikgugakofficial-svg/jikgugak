@@ -131,11 +131,11 @@
 
 ## 7. 작업 방법 메모
 - 게시 수동 실행(예약이 빠졌을 때): `gh workflow run publish.yml -R jikgugakofficial-svg/jikgugak --ref main -f mode=publish`(mode를 안 주면 check라 게시 안 함). 결과는 그 폴더 `publish-result.json`.
-- 쿠팡: 연달아 열면 Akamai가 막아요(한 페이지마다 15초 이상, 몇 개씩만). 쿠팡 검색 API는 로켓직구 싼 가격을 놓칠 수 있어 브라우저 확인 때 낮은가격순에서 로켓직구도 봐요. 새 상품 쿠팡 링크는 Actions `coupang` mode=deeplink/links(운영자 로그인 불필요).
+- 쿠팡: 연달아 열면 Akamai가 막아요(한 페이지마다 15초 이상, 몇 개씩만). 쿠팡 검색 API는 로켓직구 싼 가격을 놓칠 수 있어 브라우저 확인 때 낮은가격순에서 로켓직구도 봐요. 새 상품 쿠팡 링크는 Actions `coupang` mode=deeplink/links: `gh workflow run coupang.yml -R jikgugakofficial-svg/jikgugak --ref main -f mode=links`(딥링크는 `-f mode=deeplink -f args="쿠팡 일반 주소"`). 11/4 이 PC에서 mode=check 성공.
 - 아이허브: kr.iherb.com 주소로 열면 읽혀요(www.iherb.com은 읽기 거부). 할인 코드가 붙어도 비교는 정가 기준.
 - 알리: 붙여넣기 판정은 `/api/item?id=`(대표 옵션 가격). s.click·a.aliexpress 단축 주소는 열지 않아요.
 - 인스타·스레드 게시물 읽기: 공개 게시물은 브라우저에서 메타 정보(캡션)와 화면 캡처로 봐요. 로그인 계정이 직구각이 아니면 아무것도 누르지 않아요.
-- 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"` → 아티팩트 + 사진 zip. **운영자 PC(Windows)에서는** `python`이 Windows 스토어 바로가기에 가려 있어서 전체 경로로: `& "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" tools/publish/naver/kit.py ...`(Python 3.12.10, markdown·beautifulsoup4 설치됨 11/4, 한글 출력은 `$env:PYTHONIOENCODING='utf-8'`). git·node도 PATH에 없어서 `C:\Program Files\Git\cmd`·`C:\Program Files\nodejs`를 앞에 붙여요. gh는 없음.
+- 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"` → 아티팩트 + 사진 zip. **운영자 PC(Windows)에서는** `python`이 Windows 스토어 바로가기에 가려 있어서 전체 경로로: `& "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" tools/publish/naver/kit.py ...`(Python 3.12.10, markdown·beautifulsoup4 설치됨 11/4, 한글 출력은 `$env:PYTHONIOENCODING='utf-8'`). git·node도 PATH에 없어서 `C:\Program Files\Git\cmd`·`C:\Program Files\nodejs`를 앞에 붙여요. gh 설치·로그인 완료(11/4, jikgugakofficial-svg, `& "C:Program FilesGitHub CLIgh.exe"`) → Actions 수동 실행도 이 PC에서 돼요.
 - 서치 콘솔 알림 해석: 숨긴 상품은 '가격 확인 중' 안내 페이지(noindex), `/search`는 의도된 noindex, utm·www 없는 주소는 대체 페이지(정상).
 - 확인 순서: `npm test` → `npm run build` → `node scripts/audit.mjs`. "아이허브 링크가 제휴 링크 아님"·"같은 제품 확인 기록 없음(아마존)"은 알려진 항목.
 

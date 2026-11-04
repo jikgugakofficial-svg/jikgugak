@@ -2,7 +2,7 @@
 
 Claude 예약 작업은 저장소 밖에 있어서 여기에 적어 둬요. 새로 만들거나 고치거나 끝나면 이 표도 고쳐요.
 
-**11/3 운영자: 예약 작업을 운영자 PC의 Claude 앱(Code 탭, 저장소 `C:\Users\User\Documents\jikgugak`)으로 옮김.** 앱 예약 작업은 앱이 켜져 있을 때만 돌고, 꺼져 있던 시각의 작업은 다음에 켤 때 돌아요. 볼 때는 `list_scheduled_tasks`, 고칠 때는 아래 ID로 `update_scheduled_task`(작업 파일 `C:\Users\User\.claude\scheduled-tasks\<ID>\SKILL.md`). 앱 내장 브라우저로 쿠팡 일반 주소·아이허브·`/api/item`은 되고 알리 상품 화면은 안 떠요. 이 PC엔 python·ffmpeg·gh가 없어 **Actions 수동 실행·릴스 굽기·네이버 키트는 못 해요** → 그런 작업은 claude.ai에 남김.
+**11/3 운영자: 예약 작업을 운영자 PC의 Claude 앱(Code 탭, 저장소 `C:\Users\User\Documents\jikgugak`)으로 옮김.** 앱 예약 작업은 앱이 켜져 있을 때만 돌고, 꺼져 있던 시각의 작업은 다음에 켤 때 돌아요. 볼 때는 `list_scheduled_tasks`, 고칠 때는 아래 ID로 `update_scheduled_task`(작업 파일 `C:\Users\User\.claude\scheduled-tasks\<ID>\SKILL.md`). 앱 내장 브라우저로 쿠팡 일반 주소·아이허브·`/api/item`은 되고 알리 상품 화면은 안 떠요. 11/4부터 이 PC에 python(Python312 전체 경로)·gh(로그인 완료)가 있어서 **Actions 수동 실행·네이버 키트는 여기서 돼요.** ffmpeg는 없어서 릴스 굽기는 claude.ai에 남김.
 
 마지막 확인: 2026-11-03 19:00 KST
 
