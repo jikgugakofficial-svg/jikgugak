@@ -15,37 +15,40 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-11-04T12:26:54.200Z",
-      "recordedKrw": 23840,
+      "at": "2026-11-04T16:33:11.944Z",
+      "recordedKrw": 22270,
       "found": true,
-      "apiPrice": 22270,
+      "apiPrice": 22890,
       "isRocket": false,
-      "diff": -1570,
+      "diff": 620,
       "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-11-04T12:26:58.218Z",
+      "at": "2026-11-04T16:33:15.867Z",
       "recordedKrw": 13110,
       "found": true,
-      "apiPrice": 44900,
+      "apiPrice": 13110,
       "isRocket": false,
-      "diff": 31790,
-      "result": "held"
+      "diff": 0,
+      "result": "same"
     },
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-04T12:27:02.136Z",
+      "at": "2026-11-04T16:33:19.898Z",
       "recordedKrw": 59900,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 59900,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
     },
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-04T12:27:06.166Z",
+      "at": "2026-11-04T16:33:23.962Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -53,7 +56,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-04T12:27:10.082Z",
+      "at": "2026-11-04T16:33:27.878Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -61,7 +64,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-04T12:27:14.059Z",
+      "at": "2026-11-04T16:33:31.972Z",
       "recordedKrw": 66290,
       "found": true,
       "apiPrice": 56290,
@@ -72,15 +75,18 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-04T12:27:18.102Z",
+      "at": "2026-11-04T16:33:35.920Z",
       "recordedKrw": 71570,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 71570,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     },
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-04T12:27:22.095Z",
+      "at": "2026-11-04T16:33:40.132Z",
       "recordedKrw": 478390,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -88,7 +94,7 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-04T12:27:26.057Z",
+      "at": "2026-11-04T16:33:44.181Z",
       "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
@@ -99,7 +105,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-04T12:27:29.996Z",
+      "at": "2026-11-04T16:33:47.952Z",
       "recordedKrw": 59500,
       "found": true,
       "apiPrice": 59500,
@@ -110,15 +116,15 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-11-04T12:27:34.186Z",
+      "at": "2026-11-04T16:33:52.095Z",
       "recordedKrw": 56190,
       "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-04T12:27:38.155Z",
+      "at": "2026-11-04T16:33:55.823Z",
       "recordedKrw": 51080,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -126,7 +132,7 @@
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-11-04T12:27:42.088Z",
+      "at": "2026-11-04T16:33:59.954Z",
       "recordedKrw": 137500,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -134,7 +140,7 @@
     "amazon-sennheiser-hd600": {
       "productId": "8542629824",
       "keyword": "젠하이저 HD 600 오픈형 헤드폰",
-      "at": "2026-11-04T13:50:10.773Z",
+      "at": "2026-11-04T16:34:03.931Z",
       "recordedKrw": 313970,
       "found": true,
       "apiPrice": 313970,
@@ -145,12 +151,12 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-11-04T13:50:14.756Z",
-      "recordedKrw": 519000,
+      "at": "2026-11-04T16:34:08.017Z",
+      "recordedKrw": 482700,
       "found": true,
-      "apiPrice": 482700,
+      "apiPrice": 519000,
       "isRocket": true,
-      "diff": -36300,
+      "diff": 36300,
       "result": "applied"
     },
     "amazon-audio-technica-ath-m50x": {
@@ -424,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-04T15:33:09.954Z"
+  "updatedAt": "2026-11-04T16:34:11.906Z"
 }

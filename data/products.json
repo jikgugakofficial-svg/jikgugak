@@ -49,11 +49,11 @@
     "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.11.04 쿠팡 자동",
+    "checkedAt": "2026.11.05 쿠팡 자동",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 27606,
-    "domesticKrw": 22270,
+    "domesticKrw": 22890,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -77,13 +77,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.10.31",
-        "field": "domesticKrw",
-        "from": 27860,
-        "to": 20760,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.01",
         "field": "domesticKrw",
@@ -145,6 +138,13 @@
         "field": "domesticKrw",
         "from": 23840,
         "to": 22270,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 22270,
+        "to": 22890,
         "source": "쿠팡"
       }
     ]
@@ -326,10 +326,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DMeNTa7V",
     "sample": false,
-    "checkedAt": "2026.11.04 알리 자동",
+    "checkedAt": "2026.11.05 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 32372,
+    "priceKrw": 32724,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -354,13 +354,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.27",
-        "field": "priceKrw",
-        "from": 29296,
-        "to": 33659,
-        "source": "알리"
-      },
       {
         "at": "2026.10.28",
         "field": "priceKrw",
@@ -422,6 +415,13 @@
         "field": "priceKrw",
         "from": 32482,
         "to": 32372,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "priceKrw",
+        "from": 32372,
+        "to": 32724,
         "source": "알리"
       }
     ]
@@ -1027,12 +1027,12 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 쿠팡 자동",
+    "checkedAt": "2026.11.05 쿠팡 자동",
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 482700,
+    "domesticKrw": 519000,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1089,6 +1089,13 @@
         "field": "domesticKrw",
         "from": 519000,
         "to": 482700,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 482700,
+        "to": 519000,
         "source": "쿠팡"
       }
     ],
