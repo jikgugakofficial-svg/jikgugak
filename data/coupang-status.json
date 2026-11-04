@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-04T03:27:46.661Z",
-  "mode": "check",
+  "at": "2026-11-04T03:30:04.486Z",
+  "mode": "hourly",
   "ok": true,
-  "message": "연결 확인 성공: 딥링크 API가 응답했어요 (1개)."
+  "message": "후보 발굴 'Naturehike Cloud Up 2': 쿠팡에서 같은 모델 못 찾음"
 }
