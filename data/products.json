@@ -1617,7 +1617,7 @@
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 74508,
-    "domesticKrw": 60300,
+    "domesticKrw": 56270,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1641,13 +1641,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.28",
-        "field": "domesticKrw",
-        "from": 47920,
-        "to": 59900,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.29",
         "field": "domesticKrw",
@@ -1710,6 +1703,13 @@
         "from": 49610,
         "to": 60300,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 60300,
+        "to": 56270,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1728,7 +1728,7 @@
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 51486,
-    "domesticKrw": 33160,
+    "domesticKrw": 37060,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1753,13 +1753,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.27",
-        "field": "domesticKrw",
-        "from": 32770,
-        "to": 37060,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.28",
         "field": "domesticKrw",
@@ -1822,6 +1815,13 @@
         "from": 37060,
         "to": 33160,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 33160,
+        "to": 37060,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1840,7 +1840,7 @@
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
     "priceKrw": 44763,
-    "domesticKrw": 31670,
+    "domesticKrw": 37270,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1865,13 +1865,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.27",
-        "field": "domesticKrw",
-        "from": 31300,
-        "to": 37270,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.28",
         "field": "domesticKrw",
@@ -1933,6 +1926,13 @@
         "field": "domesticKrw",
         "from": 37270,
         "to": 31670,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 31670,
+        "to": 37270,
         "source": "쿠팡"
       }
     ]
@@ -2174,7 +2174,7 @@
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58027,
-    "domesticKrw": 31350,
+    "domesticKrw": 35040,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2199,13 +2199,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.28",
-        "field": "domesticKrw",
-        "from": 30980,
-        "to": 35040,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.28",
         "field": "domesticKrw",
@@ -2267,6 +2260,13 @@
         "field": "domesticKrw",
         "from": 35040,
         "to": 31350,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 31350,
+        "to": 35040,
         "source": "쿠팡"
       }
     ]
@@ -2982,11 +2982,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/ib10yPa4XY",
     "sample": false,
-    "checkedAt": "2026.11.04 알리 자동",
+    "checkedAt": "2026.11.04 쿠팡 자동",
     "slug": "ali-edifier-evobuds-pro",
     "name": "에디파이어 에보버즈 프로 (EvoBuds Pro) 노이즈캔슬링 이어폰",
     "priceKrw": 66131,
-    "domesticKrw": 106700,
+    "domesticKrw": 82790,
     "domesticSource": "쿠팡 해외 판매자, 실버, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmHnoM0Mfq08w2m3iBO7fM9h5GvpSFJFDBOwqUjuEiUAWDUCyZLRcRuMJCcqdfoEyDU1S7jtMhfxAtcPRwZgDkltn6k10GZtfMdnIi0kWLog5STOsTMyIDc9B9vA2IXhMTsHOoNXBt4QcoWsiQtWiY9Ndz5FizQZncEQwJYhSkl74K7JhJORPGcSW8s2UexU1EEDNqjHcUvtQvYSS53IGXeQi0dhDEMy3LsPXA2lJlCSANe3QNixn8LRfAp1nu4dieQ5ZC4zzbMTt34LHvZfEYd7veeEH2Hz1wvRySDOsdIW3WBAMIsHZqmPYB3z2Tv307ic9WcalTogbYPXCbS0JTwDmeWLKnd0Is5LTZhj5anawroHI5x7eMG0Tre9oDGp6LfJLsUyYjkbvJ1yxWfDilvscsXXL328RlT6ZbAbjTDVQ98CptihUtQCvRRxgWxzCtiYRQgX7QD7IxSKb7VzwkS37vWeGg85NrPBPzau2HdAfN1NeTPemyGWooaVCBWUYF8jkv4fRKHj4pRC7bfgAPOCBFcpCzqKaOkaDr9d8QiPpqbvZta0jJiuCeyqrRD4MBBB8AlPIRRdq4yTTjSY3z77VZVLqIBs1sxcrGk0L2u87ZckDkU9kqAZPhl2pTMvwf5qj3OfZ8fc26DCwsYXRFGoJ4GNlgYaaAUwdOnsGQD9qTFMTVkkMvnsZxuPDWEaIhOFrlcuEYlBlA",
     "risks": [
@@ -3012,13 +3012,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 114460,
-        "to": 114830,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.30",
         "field": "priceKrw",
@@ -3081,6 +3074,13 @@
         "from": 66355,
         "to": 66131,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 106700,
+        "to": 82790,
+        "source": "쿠팡"
       }
     ]
   },
