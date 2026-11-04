@@ -1499,7 +1499,7 @@
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24572,
-    "domesticKrw": 21130,
+    "domesticKrw": 23450,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1523,13 +1523,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.30",
-        "field": "domesticKrw",
-        "from": 25460,
-        "to": 25680,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.30",
         "field": "domesticKrw",
@@ -1592,6 +1585,13 @@
         "from": 25690,
         "to": 21130,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 21130,
+        "to": 23450,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1610,7 +1610,7 @@
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 74508,
-    "domesticKrw": 49610,
+    "domesticKrw": 60300,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1695,6 +1695,13 @@
         "field": "domesticKrw",
         "from": 60300,
         "to": 49610,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 49610,
+        "to": 60300,
         "source": "쿠팡"
       }
     ]
@@ -2494,7 +2501,7 @@
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18426,
-    "domesticKrw": 19750,
+    "domesticKrw": 16250,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2518,13 +2525,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.28",
-        "field": "domesticKrw",
-        "from": 19600,
-        "to": 15440,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.29",
         "field": "domesticKrw",
@@ -2586,6 +2586,13 @@
         "field": "domesticKrw",
         "from": 16200,
         "to": 19750,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 19750,
+        "to": 16250,
         "source": "쿠팡"
       }
     ]
@@ -2780,10 +2787,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau662nWai",
     "sample": false,
-    "checkedAt": "2026.11.03 알리 자동",
+    "checkedAt": "2026.11.04 알리 자동",
     "slug": "ali-edifier-m90-speaker",
     "name": "에디파이어 M90 블루투스 스피커 (블랙)",
-    "priceKrw": 221171,
+    "priceKrw": 220422,
     "domesticKrw": 249000,
     "domesticSource": "쿠팡, 한국 정발 블랙, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqtHwHUNvoNtEzQGMfrvzRbufrwqXTbeQ1kju0nMKIMZ8VlgA1MUzhJpkE9B3OlKxCSdVypmqfxCo7GaDyl9I3dIYqB3VolglpYSMPPSNXh01oNgrs6NmHnK0DxlkvANTtQZvGuzfgrC6BoR4nnsui8CxFa5AjN2nt2Qgnc9mMkYcsst4DVWMdzCkG19uVBmkFpCFp2lD2x6sG4XNWp5lHGLk0tj0Y5nty9X67l65e7r5XMKxhjBxVSalcCG4ofW8oDQdfW4rgb1iyeuGaZZowV1hA0Au93itWziAhFu88XI0UkNj32bIN3PeudS2EYC7T7BDN1YTu3HtHvsbDqG7YSzWw7Ls6QOQZKisnQjGehbB4dZex5Nxu0IIQAGq5TlLFSH5S3EJfApYSUbTyCROZHtB9iFDaW9Fi33INvDupzSCu8tnh73jih1PZS7gjqLlBQeNPlnd0dy3jgSWuWTQbjVOSBUCyBfsqLZ89Q6iHfOpfJIs4JwMUUozlTBU1UKNJp7eVGKMK8nl2nSmq9LpobgyxCy4WotKbEqzWqU5ibQJ3bmrxPEwNYSLDzNHHve3sDBTbFv632Jw7cPSuPcNuSo1JXIgLlxkt3ItA7ZnxLSlCg1kZPXZZdaStc52PmqxZuQtEGeDWx0DhqPrQeliYeNFPLeRFPrA2qb0s6zHShJ2j9iiogzOPvCoWjIPkK5dK24xJYbSJoT",
@@ -2837,6 +2844,13 @@
         "from": 220599,
         "to": 221171,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "priceKrw",
+        "from": 221171,
+        "to": 220422,
+        "source": "알리"
       }
     ]
   },
@@ -2850,10 +2864,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.11.04 쿠팡 자동",
+    "checkedAt": "2026.11.04 알리 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 129064,
+    "priceKrw": 128394,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -2879,13 +2893,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.10.27",
-        "field": "priceKrw",
-        "from": 129600,
-        "to": 127045,
-        "source": "알리"
-      },
       {
         "at": "2026.10.28",
         "field": "priceKrw",
@@ -2948,6 +2955,13 @@
         "from": 117900,
         "to": 125900,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "priceKrw",
+        "from": 129064,
+        "to": 128394,
+        "source": "알리"
       }
     ]
   },
@@ -3113,10 +3127,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/icLoGHV3gy",
     "sample": false,
-    "checkedAt": "2026.11.03 알리 자동",
+    "checkedAt": "2026.11.04 알리 자동",
     "slug": "ali-baseus-inspire-xh1",
     "name": "베이스어스 인스파이어 XH1 노이즈캔슬링 헤드폰 (Sound by Bose)",
-    "priceKrw": 184234,
+    "priceKrw": 180524,
     "domesticKrw": 316300,
     "domesticSource": "쿠팡 해외 판매자, 코스믹 블랙, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C27y349f6dLxpGxw0ruz6J5gZhLNS4iyjYDmpb5aNOZEzWD8P54TQMFzGcsDGcyHAym9Rwk7L6Z3lmA7sM4hBsWvgt6f3mrBU2JTj9hcpwGwStMNKP8cZ7Af2tGgWGYloaYuu0LjBOznWf7tunuIZwE5eEhfrxG9cBcmKSSZHPw9pAN5AC104xN2Sl7vqDPpLn9OaqAb2ctuz2WjOe15tCnywLcIA6NlutrPLwrDthkNnJ348grTpjjsHq8yBbfHFiZBGIxI6kVSMI4AXGWS0sc3X7SX0EDwFfPPXlm8KpLkdZg4ojJXEonur2j3erkTyYTyBzQwrbG73MsZ52HpF8drVI4ni6PIC9kn6obSk24JQpbBt5Fsf7VV3i2q82Yz5JmMc8MkI1OVH6ZjDR6870m8rqkdAP5bZFmHUwIx0FMgJ4kc27qryAQARZtxDfr3vck38E4lAWZHHHszQwsOQ9ufLtLnezIAdXCSdGODxRxmSbgs3Qu87GLXd1JAYEUKU7SXlEyOAzZgVyYh5NUhKqFcAgt82TCE32yPh1ZMTrSsDWOeg7LiriTpID11nYLQq2KMWDsRH9IMPNCwONZPheyO8Q2PiFwty2m6D5vURCMwCoy7Ui4uOTNeBao2qHN71iXyDu7Tw8vXJhI4lBEcYx2dw1brmmFXvooYMN8bVScrdgIIk6Qz6rwQNQ7M2ZGgB6YWF354d81lfp",
@@ -3183,6 +3197,13 @@
         "field": "priceKrw",
         "from": 184530,
         "to": 184234,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "priceKrw",
+        "from": 184234,
+        "to": 180524,
         "source": "알리"
       }
     ]
