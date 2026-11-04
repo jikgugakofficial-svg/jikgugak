@@ -107,7 +107,7 @@
 - [ ] 11/4 14:10 블프 후보 6개 확인(예약 작업) → 통과만 등록, 아스타잔틴 보류 판매자 확인.
 - [ ] N3 광군제 알리 추천 브리프 11/3 가격 기준으로 다시(팀장).
 - [ ] seo-strategist 첫 점검(`content/_insights/search-2026-11.md`, 아직 없음).
-- [ ] 11/5 아침: N2·'진짜 직구각 3개' 그날 숫자로 실물 확인 → 글·사진 다시(N2 `capture.mjs`는 Linux 경로라 Windows에서 돌게 고쳐야 함) → 키트 2개 → 운영자 재승인. **키트 도구 `kit.py`는 Python이 필요한데 이 PC에 없음** → 운영자 설치 또는 node로 바꾸기.
+- [ ] 11/5 아침: N2·'진짜 직구각 3개' 그날 숫자로 실물 확인 → 글·사진 다시(N2 `capture.mjs`는 Linux 경로라 Windows에서 돌게 고쳐야 함) → 키트 2개 → 운영자 재승인. 키트 도구는 11/4 이 PC에서 돌아가는 것 확인(아래 7장 Python 경로).
 - [ ] 11/5 스레드 T13: 11/3 확인에서 쿠팡 21,870→22,660원(차이 −14%)이라 당일 확인에서 재승인 필요할 가능성 큼.
 - [ ] 11/5쯤 블프 페이지 법정(`docs/court.md`).
 - [ ] 같은 제품 확인 남은 아마존 13개(11/12 블프 페이지 전).
@@ -119,7 +119,6 @@
 **운영자** (11/4 정리: 카카오 캐시 초기화 끝 · 네이버 서치어드바이저 안 함 · 스레드 프로필 링크는 지금 홈 `www.jikgugak.com` 그대로 · 넾다세일 상자 안 함(세일 11/8 끝) · N0·N1 키트는 숫자 만료로 폐기(11/5 N2·광군제 3개로 대신) · S2-01 두 번 게시(10/27)는 이미 정리됨: SNS 성과 기록상 인스타 카드 1·릴스 1·스레드 1개씩만 남음, 더 지울 것 없음)
 - [ ] 인스타 게시물 3개 고정(아이허브 vs 쿠팡 카드·'바로 판정' 카드·릴스 '장바구니 반전') — 로그인 없이는 확인 못 해요. 이미 했으면 알려 주세요.
 - [ ] `/admin` 의견함 "[연결 테스트]" 의견 삭제 — 매니저는 확인 못 해요. 이미 했으면 알려 주세요.
-- [ ] 11/5 네이버 키트용 Python 설치(또는 매니저가 node로 바꾸는 것 승인).
 - [ ] 아이허브 impact 응답 오면 알려 주기.
 - (선택) 커뮤니티 답변(지식iN·카페, 링크 없이 `content/_plans/2026-10-26-community-answers.md`), 남의 인기 직구 글 숫자 보태기 댓글.
 
@@ -136,7 +135,7 @@
 - 아이허브: kr.iherb.com 주소로 열면 읽혀요(www.iherb.com은 읽기 거부). 할인 코드가 붙어도 비교는 정가 기준.
 - 알리: 붙여넣기 판정은 `/api/item?id=`(대표 옵션 가격). s.click·a.aliexpress 단축 주소는 열지 않아요.
 - 인스타·스레드 게시물 읽기: 공개 게시물은 브라우저에서 메타 정보(캡션)와 화면 캡처로 봐요. 로그인 계정이 직구각이 아니면 아무것도 누르지 않아요.
-- 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"` → 아티팩트 + 사진 zip.
+- 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"` → 아티팩트 + 사진 zip. **운영자 PC(Windows)에서는** `python`이 Windows 스토어 바로가기에 가려 있어서 전체 경로로: `& "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" tools/publish/naver/kit.py ...`(Python 3.12.10, markdown·beautifulsoup4 설치됨 11/4, 한글 출력은 `$env:PYTHONIOENCODING='utf-8'`). git·node도 PATH에 없어서 `C:\Program Files\Git\cmd`·`C:\Program Files\nodejs`를 앞에 붙여요. gh는 없음.
 - 서치 콘솔 알림 해석: 숨긴 상품은 '가격 확인 중' 안내 페이지(noindex), `/search`는 의도된 noindex, utm·www 없는 주소는 대체 페이지(정상).
 - 확인 순서: `npm test` → `npm run build` → `node scripts/audit.mjs`. "아이허브 링크가 제휴 링크 아님"·"같은 제품 확인 기록 없음(아마존)"은 알려진 항목.
 
