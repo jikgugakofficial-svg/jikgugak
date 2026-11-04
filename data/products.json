@@ -1032,7 +1032,7 @@
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 519000,
+    "domesticKrw": 482700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1082,6 +1082,13 @@
         "field": "domesticKrw",
         "from": 482700,
         "to": 519000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 519000,
+        "to": 482700,
         "source": "쿠팡"
       }
     ],
@@ -1192,7 +1199,7 @@
     "checkedAt": "2026.11.04 알리 자동",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-    "priceKrw": 43542,
+    "priceKrw": 44015,
     "domesticKrw": 40900,
     "domesticSource": "쿠팡 로켓배송 화이트 일반판매가 · 와우 회원가 38,850원 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
@@ -1218,13 +1225,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "priceKrw",
-        "from": 43510,
-        "to": 43473,
-        "source": "알리"
-      },
       {
         "at": "2026.10.30",
         "field": "priceKrw",
@@ -1290,6 +1290,13 @@
         "from": 43769,
         "to": 43542,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "priceKrw",
+        "from": 43542,
+        "to": 44015,
+        "source": "알리"
       }
     ]
   },
@@ -1307,7 +1314,7 @@
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
     "priceKrw": 102362,
-    "domesticKrw": 99600,
+    "domesticKrw": 89620,
     "domesticSource": "쿠팡 글레이셔 실버, 로켓배송(쿠폰 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
     "risks": [
@@ -1332,13 +1339,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "priceKrw",
-        "from": 103216,
-        "to": 103021,
-        "source": "알리"
-      },
       {
         "at": "2026.10.29",
         "field": "priceKrw",
@@ -1400,6 +1400,13 @@
         "field": "domesticKrw",
         "from": 94800,
         "to": 99600,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.04",
+        "field": "domesticKrw",
+        "from": 99600,
+        "to": 89620,
         "source": "쿠팡"
       }
     ]
