@@ -13,7 +13,7 @@
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-05T15:36:29.154Z",
+      "at": "2026-11-05T19:37:02.441Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
@@ -33,5 +33,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-05T18:24:00.115Z"
+  "updatedAt": "2026-11-05T19:37:03.262Z"
 }

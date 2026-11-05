@@ -1048,12 +1048,12 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.05 쿠팡 자동",
+    "checkedAt": "2026.11.06 쿠팡 자동",
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 467700,
+    "domesticKrw": 519000,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1131,6 +1131,13 @@
         "field": "domesticKrw",
         "from": 482700,
         "to": 467700,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.06",
+        "field": "domesticKrw",
+        "from": 467700,
+        "to": 519000,
         "source": "쿠팡"
       }
     ],
