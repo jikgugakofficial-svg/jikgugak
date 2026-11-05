@@ -1777,7 +1777,7 @@
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 51629,
-    "domesticKrw": 33160,
+    "domesticKrw": 37060,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1802,13 +1802,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 37060,
-        "to": 32770,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.30",
         "field": "domesticKrw",
@@ -1871,6 +1864,13 @@
         "from": 37060,
         "to": 33160,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 33160,
+        "to": 37060,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1885,11 +1885,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
     "sample": false,
-    "checkedAt": "2026.11.05 오전",
+    "checkedAt": "2026.11.05 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
     "priceKrw": 44886,
-    "domesticKrw": 31670,
+    "domesticKrw": 37270,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1914,20 +1914,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 31300,
-        "to": 37270,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 37270,
-        "to": 31300,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.30",
         "field": "domesticKrw",
@@ -1990,6 +1976,13 @@
         "from": 44763,
         "to": 44886,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 31670,
+        "to": 37270,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2008,7 +2001,7 @@
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33002,
-    "domesticKrw": 25770,
+    "domesticKrw": 26900,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2032,13 +2025,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.01",
-        "field": "domesticKrw",
-        "from": 28190,
-        "to": 25630,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.02",
         "field": "domesticKrw",
@@ -2101,6 +2087,13 @@
         "from": 28190,
         "to": 25770,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 25770,
+        "to": 26900,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2119,7 +2112,7 @@
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23099,
-    "domesticKrw": 19710,
+    "domesticKrw": 20580,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2143,13 +2136,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.01",
-        "field": "domesticKrw",
-        "from": 21570,
-        "to": 17890,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.02",
         "field": "priceKrw",
@@ -2212,6 +2198,13 @@
         "from": 21570,
         "to": 19710,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 19710,
+        "to": 20580,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2230,7 +2223,7 @@
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58187,
-    "domesticKrw": 31350,
+    "domesticKrw": 35040,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2255,13 +2248,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 35040,
-        "to": 30980,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.10.30",
         "field": "domesticKrw",
@@ -2323,6 +2309,13 @@
         "field": "domesticKrw",
         "from": 35040,
         "to": 31350,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 31350,
+        "to": 35040,
         "source": "쿠팡"
       }
     ]
