@@ -1,26 +1,5 @@
 {
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
-  "items": {
-    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-04T12:27:02.136Z",
-      "slug": "iherb-now-vitamin-d3-k2-120",
-      "field": "domesticKrw",
-      "recorded": 13110,
-      "api": 44900,
-      "change": "242%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    },
-    "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-04T20:33:57.407Z",
-      "slug": "ali-aula-f75-keyboard",
-      "field": "priceKrw",
-      "recorded": 53100,
-      "api": 79111,
-      "change": "49%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "알리"
-    }
-  },
-  "updatedAt": "2026-11-04T23:26:39.143Z"
+  "items": {},
+  "updatedAt": "2026-11-05T00:02:58.482Z"
 }
