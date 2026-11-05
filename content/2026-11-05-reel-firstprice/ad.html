@@ -43,8 +43,8 @@ const RD = T.rounds;
 
 // ── 자막(한 장면 12자 이내, 움직임이 되는 말) ──
 const [[, p1, c1, v1, e1], [a2, p2, c2, v2, e2]] = T.R, [r1, r2] = RD;
-const W0 = [['알리 그 가격,', 0.3, 3, 330, 130, 'navy', 'D'], ['나한테도?', 0.8, 3, 500, 170, 'orange', 'D'],
-  ['첫 구매 특가는', 3, p1, 330, 110, 'navy', 'D'], ['처음 한 번만', 3.5, p1, 480, 130, 'orange', 'D']];
+const W0 = [['알리 그 가격,', 0.3, 3, 290, 130, 'navy', 'D'], ['나한테도?', 0.8, 3, 450, 170, 'orange', 'D'],
+  ['첫 구매 특가는', 3, p1, 310, 110, 'navy', 'D'], ['처음 한 번만', 3.5, p1, 450, 130, 'orange', 'D']];
 W0.push([r1.label, p1 + 0.15, e1, 300, 90, 'navy', 'D'], ['떼면 일반가', p1 + 0.4, v1, 450, 120, 'orange', 'D'], ['쿠팡이 더 싸요', v1, e1, 450, 120, 'blue', 'D'], [`${won(r1.diff)} 차이 · 쿠팡 ${r1.cpDate} 기준`, v1 + 0.5, e1, 1650, 56, 'gray', 'P']);
 W0.push([r2.label, a2 + 0.15, e2, 300, 90, 'navy', 'D'], ['일반가로 재도', p2 + 0.2, v2, 450, 120, 'orange', 'D'], ['알리가 더 싸요', v2, e2, 450, 120, 'green', 'D'], [`${won(r2.diff)} 차이 · 쿠팡 ${r2.cpDate} 기준`, v2 + 0.5, e2, 1650, 56, 'gray', 'P']);
 RD.forEach((r, i) => W0.push([r.verdict, T.R[i][3] + 0.15, T.R[i][4], 1535, 84, 'white', 'D', VC[r.verdict]]));
@@ -89,7 +89,7 @@ const TW = 360, TH = 470, TY = 1050;
 const star = (r0, r1, n = 18) => { let d = ''; for (let i = 0; i < n * 2; i++) { const a = Math.PI * i / n - Math.PI / 2, r = i % 2 ? r1 : r0; d += (i ? 'L' : 'M') + (Math.cos(a) * r).toFixed(1) + ' ' + (Math.sin(a) * r).toFixed(1); } return d + 'Z'; };
 const STAR = star(165, 140);
 function tag(par, x, y, rot, sc, head, hc, name, price, op = 1) {
-  el('line', { x1: x, y1: 640, x2: x, y2: y - TH / 2 + 30, stroke: C.gray, 'stroke-width': 4, opacity: op * 0.6 }, par);
+  el('line', { x1: x, y1: 800, x2: x, y2: y - TH / 2 + 30, stroke: C.gray, 'stroke-width': 4, opacity: op * 0.6 }, par);
   const g = el('g', { transform: `translate(${x} ${y}) rotate(${rot} 0 ${-TH / 2 + 30}) scale(${sc})`, opacity: op }, par);
   el('rect', { x: -TW / 2 + 8, y: -TH / 2 + 14, width: TW, height: TH, rx: 34, fill: '#000', opacity: 0.08 }, g);
   el('rect', { x: -TW / 2, y: -TH / 2, width: TW, height: TH, rx: 34, fill: '#fff', stroke: hc, 'stroke-width': 6 }, g);
@@ -133,6 +133,11 @@ function drawTags(t) {
     const wx = aliWin ? ax : cx, col = VC[r.verdict];
     ring(FX, wx, TY + 40, t, bt(v), col, 80, 380, 0.45, 16); burst(FX, wx, TY + 40, t, bt(v), col, 14, 140, 300, 0.35, 10);
     if (r.verdict === '직구각') confetti(FX, wx, TY - 100, t, bt(v), 5 + i, [col, C.orange, C.salmon, C.navy]);
+    // 상품 사진(알리 제휴 API 이미지, 로고·배지 잘라냄): 가격표 위에 한눈에
+    const ip = spring(t - t0 - 0.12, 1.9, 0.42), ig = el('g', { transform: `translate(540 ${680 - leave * 1400}) scale(${ip}) rotate(${(1 - cl(ip)) * (i ? 6 : -6)})` }, G);
+    el('rect', { x: -122, y: -114, width: 252, height: 252, rx: 38, fill: '#000', opacity: 0.07 }, ig);
+    el('rect', { x: -126, y: -126, width: 252, height: 252, rx: 38, fill: '#fff', stroke: '#E4DFDA', 'stroke-width': 4 }, ig);
+    el('image', { href: `prod-${r.slug}.jpg`, x: -112, y: -112, width: 224, height: 224, preserveAspectRatio: 'xMidYMid meet' }, ig);
   });
 }
 // ── 사이트 화면: 휴대폰 안 실제 상품 페이지, 판정 칸 → 합계 줄 ──
