@@ -49,7 +49,7 @@ export function md(src) {
 }
 // --- 머리말(front matter): 첫 줄 --- 부터 다음 --- 까지 "키: 값", faq 는 JSON 배열 한 줄
 export function frontMatter(src) {
-  const m = String(src).match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  const m = String(src).replace(/\r\n/g, '\n').match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/); // Windows(CRLF) 체크아웃도 읽어요
   if (!m) return { meta: {}, body: src };
   const meta = {};
   for (const line of m[1].split('\n')) {
