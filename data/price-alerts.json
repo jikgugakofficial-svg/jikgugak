@@ -2,7 +2,7 @@
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
   "items": {
     "iherb-now-magnesium-caps-400-180:domesticKrw": {
-      "at": "2026-11-05T00:23:11.798Z",
+      "at": "2026-11-05T04:39:32.905Z",
       "slug": "iherb-now-magnesium-caps-400-180",
       "field": "domesticKrw",
       "recorded": 19750,
@@ -12,7 +12,7 @@
       "source": "쿠팡"
     },
     "ali-edifier-evobuds-pro:verdict": {
-      "at": "2026-11-05T00:23:31.737Z",
+      "at": "2026-11-05T04:39:52.867Z",
       "slug": "ali-edifier-evobuds-pro",
       "field": "domesticKrw",
       "recorded": 88700,
@@ -23,17 +23,17 @@
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-05T00:23:41.784Z",
+      "at": "2026-11-05T04:40:11.381Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
-      "api": 79111,
-      "change": "49%",
+      "api": 79467,
+      "change": "50%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-05T01:51:49.392Z",
+      "at": "2026-11-05T04:40:08.999Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 13110,
@@ -43,5 +43,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-05T03:31:12.490Z"
+  "updatedAt": "2026-11-05T04:40:11.842Z"
 }
