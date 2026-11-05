@@ -1060,7 +1060,7 @@
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 519000,
+    "domesticKrw": 482700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1124,6 +1124,13 @@
         "field": "domesticKrw",
         "from": 482700,
         "to": 519000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "domesticKrw",
+        "from": 519000,
+        "to": 482700,
         "source": "쿠팡"
       }
     ],
@@ -1345,10 +1352,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.11.05 쿠팡 자동",
+    "checkedAt": "2026.11.05 알리 자동",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 102362,
+    "priceKrw": 102718,
     "domesticKrw": 99600,
     "domesticSource": "쿠팡 글레이셔 실버, 로켓배송(쿠폰 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
@@ -1374,13 +1381,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.10.30",
-        "field": "priceKrw",
-        "from": 101551,
-        "to": 103021,
-        "source": "알리"
-      },
       {
         "at": "2026.10.30",
         "field": "priceKrw",
@@ -1443,6 +1443,13 @@
         "from": 89620,
         "to": 99600,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "priceKrw",
+        "from": 102362,
+        "to": 102718,
+        "source": "알리"
       }
     ]
   },
@@ -2767,10 +2774,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau66YgbCe",
     "sample": false,
-    "checkedAt": "2026.11.04 알리 자동",
+    "checkedAt": "2026.11.05 알리 자동",
     "slug": "ali-qcy-melobuds-n70",
     "name": "QCY 멜로버즈 N70 (HT18) 노이즈캔슬링 이어폰",
-    "priceKrw": 71752,
+    "priceKrw": 72002,
     "domesticKrw": 61880,
     "domesticSource": "쿠팡 로켓직구, 미드나이트 블랙",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cn3M0mIEYOGmw2TZYQnYSn2Bwn9PEriM7h8ZXNSqc0KHmzoH2Tl1waUMm6FZtUoFyKfpknF8cUC7KUX86k1C8ATybmKpD06eENjAXBJ3ou1eQdz44U1rLXWOuY8uMwEk7lIJ5zaqk4vFOg3JCUDEa0WZ8hsoyfmcSRYA1rIERb9jBjgP5PH45u8pI15qzvUCmeCzcaQG0mxH8OFmHbBj9GsVYdttkaldhALcVMHGpPflAgH4sxnNz3LnkVhcJr6sSOst2TrkYad0JFCZUbVSXflBBpEBivO8mXwHWqFjOMCwVzIF8b5lg0c0kiAho0RAv5bc9N8R74oRhDgtdHvw26eWbAVhYCNUSQT2VmlBk7ZOQhWebaJ4KWRemInxKXtXKBXofzDrsc86rWFb1p5iVemXYbu0AnA6c7VaiOkiOMp3p5B01PSwmdoWcyJSJZtKcm156LIZRzI0WKWxplzl4d36pFWRFlFRBDu8NB5rzeXC87E6WTHqQHnTnYA7LU3L2UC0H3qFJ7gwNvukgrStT8b9tuNYWl4xgdpzH0oF1EfprDtwSvgLlWzIu6qDmcnIq3MQF0SBBd42O1xhM5MaiWIq0k7ZX748cwXVnKT1W4Gm2hIhsr1wCeOsbIsVc7XJxNSSRBOz7RYkGZyKsZeNDOridKcmhN5Rc4Wpppq8a6g1oPARRZffjmW9Aq0SeDL2bH6s2xC0EBrC2g",
@@ -2850,6 +2857,13 @@
         "field": "priceKrw",
         "from": 71996,
         "to": 71752,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.05",
+        "field": "priceKrw",
+        "from": 71752,
+        "to": 72002,
         "source": "알리"
       }
     ]
