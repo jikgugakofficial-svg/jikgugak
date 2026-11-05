@@ -3,14 +3,15 @@
   "items": {
     "ali-ugreen-7in1-usbc-hub": {
       "itemId": "1005008093143399",
-      "at": "2026-11-05T18:23:59.756Z",
+      "at": "2026-11-05T22:28:21.039Z",
       "recordedKrw": 32837,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 32837,
+      "result": "same"
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
-      "at": "2026-11-05T19:37:01.746Z",
+      "at": "2026-11-05T22:28:23.870Z",
       "recordedKrw": 53100,
       "found": true,
       "apiPrice": 79467,
@@ -66,7 +67,7 @@
     },
     "ali-edifier-evobuds-pro": {
       "itemId": "1005010122935561",
-      "at": "2026-11-05T19:36:59.377Z",
+      "at": "2026-11-05T22:28:23.438Z",
       "recordedKrw": 66361,
       "found": true,
       "apiPrice": 66361,
@@ -81,5 +82,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-05T21:25:58.253Z"
+  "updatedAt": "2026-11-05T22:28:24.894Z"
 }
