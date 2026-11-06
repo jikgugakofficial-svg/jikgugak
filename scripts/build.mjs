@@ -671,11 +671,11 @@ function pasteBar(id = 'paste-q') {
 
 // 공개 전 딜 페이지(publishFrom이 아직 안 온 것)는 만들되 noindex·사이트맵·띠·llms.txt에서 빼요
 const dealLive = (d) => !d.publishFrom || d.publishFrom <= kstToday();
-// 블프 페이지(아마존): 아마존 가격은 쓰지 않고 목표가(손익분기)만. 한국 배송은 운영자가 확인한 상품만(11/6 법정 조건 ①③)
+// 블프 페이지(아마존): 아마존 가격은 쓰지 않고 목표가(손익분기)만. 한국 배송은 확인하지 않고 결제 전 확인 안내를 붙여요(11/6 운영자, 아마존이 AI 접속을 막아서)
 function pageDealsAmazon(d) {
   const ev = events.find((e) => e.id === d.event);
   const approx = (n) => { const k = Math.floor(n / 1000), man = Math.floor(k / 10), chun = k % 10; return `약 ${[man ? man + '만' : '', chun ? chun + '천' : ''].filter(Boolean).join(' ')} 원`; };
-  const targets = items.filter((p) => p.store === 'amazon' && !p.sample && p.ev.kind === 'break' && !p.unavailable && p.krShip);
+  const targets = items.filter((p) => p.store === 'amazon' && !p.sample && p.ev.kind === 'break' && !p.unavailable);
   const showTable = targets.length >= 6;
   const rows = targets.map((p) => `<tr>
     <th scope="row"><a href="/p/${esc(p.slug)}">${esc(p.name)}</a></th>
@@ -701,7 +701,8 @@ function pageDealsAmazon(d) {
   <p class="muted small">미국에서 특송으로 오는 일반 물품은 200달러, 우편으로 오면 150달러가 한도예요. 넘으면 넘은 만큼이 아니라 배송비까지 포함한 전체에 관세·부가세가 붙어요.</p>
 </section>
 ${showTable ? `<section class="block" aria-labelledby="bf-target">
-  <div class="block-head"><div><h2 id="bf-target" class="h2">블프 아마존 목표가</h2><span class="muted small">아마존 가격이 이 밑으로 내려가면 직구각이에요. 쿠팡 같은 모델 최저가 기준, 한국 배송은 확인한 상품만 넣었어요.</span></div></div>
+  <div class="block-head"><div><h2 id="bf-target" class="h2">블프 아마존 목표가</h2><span class="muted small">아마존 가격이 이 밑으로 내려가면 직구각이에요. 쿠팡 같은 모델 최저가 기준이에요.</span></div></div>
+  <p class="warn-line">한국 배송은 상품마다 달라요. 결제 전에 아마존에서 '대한민국으로 배송'이 뜨는지 꼭 확인하세요.</p>
   <div class="bf-table-wrap"><table class="bf-table">
     <thead><tr><th scope="col">상품</th><th scope="col">국내 최저가</th><th scope="col">직구각 목표가</th><th scope="col">200달러 기준</th></tr></thead>
     <tbody>${rows}</tbody>
