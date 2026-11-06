@@ -628,7 +628,7 @@ function pageCalculator() {
   <template data-store-options>${Object.entries(CART_STORES).map(([k, c]) => `<option value="${k}">${esc(c.label)}</option>`).join('')}</template>
   <template data-cat-options>${Object.entries(CATEGORIES).map(([k, c]) => `<option value="${k}">${esc(c.label)}</option>`).join('')}</template>
   <section class="calc-in" aria-label="장바구니 입력">
-    <div class="cart-how"><b>쇼핑몰별로 따로 계산해요</b><span>아마존·알리·아이허브는 따로 배송돼서 면세 한도도 따로예요. 같은 쇼핑몰에서 같은 날 산 물건은 한 상자로 합쳐서 봐요.</span></div>
+    <div class="cart-how"><b>쇼핑몰별로 따로 계산해요</b><span>아마존·알리·아이허브는 따로 배송돼서 면세 한도도 따로예요. 같은 쇼핑몰 물건은 넉넉하게 한 상자로 합쳐서 보여 줘요(판매자·구매일이 다르면 실제로는 따로 볼 수 있어요).</span></div>
     <form class="cart-add" data-cart-add>
       <label for="cart-q"><b>담은 상품 넣기</b><span>알리 링크는 이름·가격까지, 아마존·아이허브 링크는 이름과 쇼핑몰이 자동으로 채워져요. 상품 이름만 써도 돼요</span></label>
       <div class="paste-row"><input id="cart-q" type="text" placeholder="알리 링크 또는 상품 이름" autocomplete="off" enterkeyhint="done"><button type="submit" class="btn btn-point">담기</button></div>
@@ -948,6 +948,9 @@ const GUIDES = fs.existsSync(GUIDE_DIR) ? fs.readdirSync(GUIDE_DIR).filter((f) =
   return { slug: f.replace(/\.md$/, ''), ...meta, body };
 }).filter((g) => g.title && g.status !== 'draft').sort((a, b) => (Number(a.order) || 99) - (Number(b.order) || 99)) : [];
 
+// 가이드 본문엔 이번 주 과세환율 숫자가 들어가서, 수정일은 '내용 확인일'과 '이번 주 환율 시작일' 중 늦은 날(11/6 SEO 점검)
+const FX_WEEK_START = (() => { const m = String(RATES.customs.label || '').match(/(\d{4})\.(\d{2})\.(\d{2})~/); return m ? `${m[1]}-${m[2]}-${m[3]}` : ''; })();
+const guideDate = (g) => [String(g.updated || '').replace(/\./g, '-'), FX_WEEK_START].filter(Boolean).sort().pop() || kstToday();
 function pageGuideArticle(g) {
   const urlPath = `/guide/${g.slug}`;
   const faq = Array.isArray(g.faq) ? g.faq : [];
@@ -956,7 +959,7 @@ function pageGuideArticle(g) {
   const related = GUIDES.filter((x) => x.slug !== g.slug).slice(0, 4);
   const body = `
 <nav class="crumbs small muted" aria-label="위치"><a href="/guide">직구 가이드</a> › <span>${esc(g.question || g.title)}</span></nav>
-<div class="page-head"><h1 class="display guide-h1">${esc(guideTokens(g.title))}</h1>${g.updated ? `<p class="muted small">${esc(g.updated)} 기준 · ${esc(FX_LABEL)}</p>` : ''}</div>
+<div class="page-head"><h1 class="display guide-h1">${esc(guideTokens(g.title))}</h1>${g.updated ? `<p class="muted small">내용 확인 ${esc(g.updated)} · 숫자는 ${esc(FX_LABEL)} 기준</p>` : ''}</div>
 <article class="prose guide-article">
 ${mdToHtml(guideTokens(g.body))}
 <div class="guide-cta"><b>내 상품으로 바로 계산해 보세요</b><span>가입 없이 무료예요. 관세·부가세·배송비를 더한 최종가와 국내 최저가를 비교해 직구각인지 판정해요.</span><a class="btn btn-point" href="${esc(cta)}">${esc(ctaLabel)}</a></div>
@@ -965,7 +968,7 @@ ${faq.length ? `<section><h2>자주 묻는 질문</h2>${faq.map((f) => `<h3>${es
 </article>
 ${related.length ? `<section class="block"><h2 class="h2">같이 많이 묻는 질문</h2><ul class="guide-list">${related.map((x) => `<li><a href="/guide/${esc(x.slug)}">${esc(guideTokens(x.question || x.title))}</a></li>`).join('')}</ul></section>` : ''}`;
   const ld = [
-    { '@type': 'Article', headline: guideTokens(g.title), description: guideTokens(g.description || ''), dateModified: g.updated || kstToday(), author: { '@type': 'Organization', name: site.siteName }, publisher: { '@type': 'Organization', name: site.siteName }, mainEntityOfPage: absUrl(urlPath) },
+    { '@type': 'Article', headline: guideTokens(g.title), description: guideTokens(g.description || ''), dateModified: guideDate(g), author: { '@type': 'Organization', name: site.siteName }, publisher: { '@type': 'Organization', name: site.siteName }, mainEntityOfPage: absUrl(urlPath) },
     faq.length ? { '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: guideTokens(f.q), acceptedAnswer: { '@type': 'Answer', text: guideTokens(f.a) } })) } : null,
     { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: '직구 가이드', item: absUrl('/guide') }, { '@type': 'ListItem', position: 2, name: guideTokens(g.question || g.title), item: absUrl(urlPath) }] }
   ];
@@ -1017,8 +1020,8 @@ ${GUIDES.length ? `<section class="block guide-qs"><h2 class="h2">질문별로 �
 <section id="combine">
 <h2>4. 합산과세 주의</h2>
 <ul>
-<li>같은 판매자(해외공급자)에게서 <b>같은 날</b> 산 물건을 나눠 받으면 금액을 합쳐서 따져요.</li>
-<li>하나의 운송장으로 들어온 물건을 나눠 통관해도 합쳐요.</li>
+<li>같은 판매자(해외공급자)에게서 <b>같은 날</b> 산 물건은 나눠 받아도 금액이 합쳐질 수 있어요. 판매자나 구매일이 다르면 따로 보는 게 원칙이에요(2022.11.17부터).</li>
+<li>하나의 운송장으로 들어온 물건은 나눠 통관해도 합쳐질 수 있어요. 애매하면 관세청 고객지원센터(125)에 확인하세요.</li>
 <li>영양제와 다른 상품을 한 상자에 섞으면 상자 전체가 $150 기준을 받아요.</li>
 </ul>
 <p><a href="/calculator#cart">장바구니 합산 계산기로 담은 상품 합계 확인하기 →</a></p>
@@ -1116,7 +1119,7 @@ if (FIXED_SUMMARIES.length) console.warn(`⚠ 판정이 바뀌어 요약 문장 
 
 // lastmod는 내용이 실제로 바뀌는 날만: 상품은 가격 확인일, 홈·세일·캘린더는 매일(환율·D-day), 나머지는 생략
 const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
-const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...GUIDES.map((g) => [`/guide/${g.slug}`, String(g.updated || '').replace(/\./g, '-')]), ...DEALS.map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
+const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...GUIDES.map((g) => [`/guide/${g.slug}`, guideDate(g)]), ...DEALS.map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smap.map(([u, d]) => `  <url><loc>${absUrl(u)}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 // llms.txt: AI 검색(ChatGPT·Claude·Perplexity 등)이 사이트를 한 번에 이해하게 하는 안내 파일(10/28~). 구글은 필요 없다고 했지만 해롭지 않아요.
 // 판정·날짜만 쓰고 아마존 가격은 쓰지 않아요(손익분기만).
@@ -1144,6 +1147,9 @@ write('llms.txt', `# ${site.siteName}
 - [광군제 알리 직구 최종가](${absUrl('/deals/1111')})
 - [해외 세일 캘린더](${absUrl('/calendar')})
 - [직구 가이드: 면세 한도·합산과세·통관부호](${absUrl('/guide')})
+
+## 질문별 답 (직구 가이드)
+${GUIDES.map((g) => `- [${guideTokens(g.title)}](${absUrl('/guide/' + g.slug)}): ${guideTokens(g.description || '')}`).join('\n')}
 
 ## 상품별 판정
 ${items.filter((p) => !p.sample).map(llmsLine).join('\n')}
