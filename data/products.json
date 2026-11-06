@@ -498,10 +498,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DN5oKDg4",
     "sample": false,
-    "checkedAt": "2026.11.06 알리 자동",
+    "checkedAt": "2026.11.07 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 28565,
+    "priceKrw": 25708,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -526,13 +526,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "priceKrw",
-        "from": 28793,
-        "to": 28769,
-        "source": "알리"
-      },
       {
         "at": "2026.10.30",
         "field": "priceKrw",
@@ -597,6 +590,13 @@
         "field": "priceKrw",
         "from": 28279,
         "to": 28565,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "priceKrw",
+        "from": 28565,
+        "to": 25708,
         "source": "알리"
       }
     ]
