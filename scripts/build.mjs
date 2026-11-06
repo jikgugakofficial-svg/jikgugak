@@ -652,7 +652,7 @@ function pageCalculator() {
       <div class="r-total"><span>최종 체감가</span><span data-cr="total">-</span></div>
       <div class="r-row" data-cr-domrow hidden><span>국내가 합계</span><span data-cr="dom">-</span></div>
     </div>
-    <p class="muted small">쇼핑몰마다 한 상자로 보고 계산해요(특송 기준). 같은 판매자에게 같은 날 산 물건은 따로 주문·배송해도 합쳐서 세금을 따져요(<a href="/guide#combine">합산과세</a>). 알리는 판매자가 다르면 따로 계산될 수도 있지만, 여기선 넉넉하게 합쳐서 봐요. ${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이며 실제 세액은 세관 고지를 따릅니다.</p>
+    <p class="muted small">쇼핑몰마다 한 상자로 보고 계산해요(특송 기준). 같은 판매자에게 같은 날 산 물건은 따로 주문·배송해도 합쳐질 수 있어요(<a href="/guide#combine">합산과세</a>, 판매자·구매일이 다르면 따로 보는 게 원칙). 알리는 판매자가 다르면 따로 계산될 수도 있지만, 여기선 넉넉하게 합쳐서 봐요. ${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이며 실제 세액은 세관 고지를 따릅니다.</p>
     <button type="button" class="btn btn-line" data-cart-clear>장바구니 비우기</button>
   </section>
 </div>
