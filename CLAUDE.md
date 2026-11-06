@@ -29,6 +29,7 @@
 - 홍보: `content/YYYY-MM-DD-주제/`(brief·blog·instagram·reel·threads·cards·review·publish.json), 카드 `tools/cards/render.mjs`, 영상 `tools/tvc/`, 게시 `tools/publish/`(README), 네이버 키트 `tools/publish/naver/kit.py`.
 - 방문자 의견: 의견 창(`public/assets/app.js`) → `api/feedback.js`가 Upstash Redis에 저장(1년 자동 삭제) → `/admin`(ADMIN_KEY)에서 확인, 구매 링크 클릭도 여기. 환경 변수: KV_REST_API_URL·KV_REST_API_TOKEN·ADMIN_KEY(선택 RESEND_API_KEY).
 - 확인: `npm test`(계산) → `npm run build` → `node scripts/audit.mjs`(점검). 배포는 main에 push하면 Vercel이 자동으로 해요.
+- **차단 장치(11/6):** ① push 전 자동 검사 `.githooks/pre-push`가 위 세 단계를 돌리고 실패·🔴면 push를 멈춰요(새 작업 환경마다 `git config core.hooksPath .githooks` 한 번). ② Claude Code 훅 `.claude/settings.json` → `.claude/hooks/guard.mjs`가 제휴 링크 열기(브라우저 이동·웹 읽기·curl 등)와 `git push --force`·`git reset --hard`를 실행 전에 막아요. 막히면 이유를 읽고 다른 방법으로 해요. 장치를 끄거나 우회하지 않아요. 브라우저에서 화면의 링크를 '클릭'하는 건 장치가 못 막으니 규칙 1을 계속 지켜요.
 
 ## 판정 규칙
 - 직구각 = 국내보다 20% 이상 **그리고** ₩10,000 이상 쌀 때. 조금이라도 싸면 애매, 아니면 국내가 나음.

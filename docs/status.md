@@ -54,6 +54,7 @@
 - 가격·영업·회계 AI 직원(첫 정산 뒤 회계만 다시 검토).
 - 마케팅 스킬 묶음 통째 설치, 경쟁 광고 자동 수집, AI 워터마크 지우기 도구, 외부 예약 게시 서비스(업리카 등), Postiz.
 - 댓글 키워드 → 자동 DM 자료, "속보" 같은 뉴스인 척하는 훅, 유명인 사진 합성.
+- 코덱스 등 다른 회사 AI로 교차 검수(구독 추가, 검수 직원 있음), 방문자 '해결됐어요/아직이에요' 알림 루프(익명 방문자라 알릴 길 없음, 방문자 늘면 다시), 업무 흐름도 문서 따로 쓰기(배정 표로 충분) — 11/6 영상 '하네스·루프·그래프 엔지니어링' 검토.
 
 ## 3. 사이트·자동화 현재 상태 (10/28 오전 기준)
 **상품**
@@ -147,6 +148,7 @@
 - 네이버 게시 키트: `python3 tools/publish/naver/kit.py content/<폴더> content/<폴더>/naver/naver-kit.html "<이름>"` → 아티팩트 + 사진 zip. **운영자 PC(Windows)에서는** `python`이 Windows 스토어 바로가기에 가려 있어서 전체 경로로: `& "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" tools/publish/naver/kit.py ...`(Python 3.12.10, markdown·beautifulsoup4 설치됨 11/4, 한글 출력은 `$env:PYTHONIOENCODING='utf-8'`). git·node도 PATH에 없어서 `C:\Program Files\Git\cmd`·`C:\Program Files\nodejs`를 앞에 붙여요. gh 설치·로그인 완료(11/4, jikgugakofficial-svg, `& "C:\Program Files\GitHub CLI\gh.exe"`) → Actions 수동 실행도 이 PC에서 돼요.
 - 서치 콘솔 알림 해석: 숨긴 상품은 '가격 확인 중' 안내 페이지(noindex), `/search`는 의도된 noindex, utm·www 없는 주소는 대체 페이지(정상).
 - 확인 순서: `npm test` → `npm run build` → `node scripts/audit.mjs`. "아이허브 링크가 제휴 링크 아님"·"같은 제품 확인 기록 없음(아마존)"은 알려진 항목.
+- **차단 장치(11/6, 운영자 승인, 영상 '하네스·루프 엔지니어링'):** push 전 자동 검사 `.githooks/pre-push`(시험·빌드·점검, 🔴면 멈춤, 약 5초)와 Claude Code 훅 `.claude/hooks/guard.mjs`(제휴 링크 열기·강제 push·reset --hard 막기)가 켜져 있어요. 이 PC는 `core.hooksPath .githooks` 설정 완료. 쪽지에 '끝 기준·멈춤 조건' 칸 추가(기본 3번 실패 시 보고). 자세한 건 `CLAUDE.md` 구조 장.
 
 - **11/2 12:51 스레드(장바구니 계산기) 게시:** https://www.threads.com/@jikgugak.official/post/DfOYexTF86w (12:23 예약 실행이 GitHub에서 늦어져 수동 실행, 중복 없음).
 - **11/3 10:30 아침 정기 점검:** 판정 변동 없음. 아이허브 20개 화면가 = 기록(재고 있음). AULA F75 알리 API 78,584원 알림은 화면(씨솔트블루·회목축 원가 53,848원)과 달라 다른 SKU로 보고 기록 53,100 유지(알림 재발 시 API SKU 확인). 보스 QC 울트라 2: 아마존 한국 무료 배송 다시 표시 → 배송 불가 표시 해제. 세일 새 확정 없음(롯데하이마트 가전절 2026 근거 없음, expected 유지). 과세환율 11.01~11.07 미갱신은 11/3 저녁 빌드에서 1,328.56원(11.01~11.07 관세청 고시)으로 반영돼 해결. 남은 정리: 레고 10309·스탠리 퀜처 요약 속 금액 직접 표기, 아마존 상품 checkedAt 오래됨, 보스 쿠팡가 482,700↔519,000 흔들림.

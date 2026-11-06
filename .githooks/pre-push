@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# push 전 자동 검사 (2026-11-06, 영상 '하네스 엔지니어링'에서 가져옴)
+# main에 push하면 Vercel이 바로 배포해요. 그래서 push 직전에 계산 시험 → 빌드 → 점검을 돌리고,
+# 하나라도 실패하거나 점검에 🔴가 있으면 push를 멈춰요. (약 5초)
+# 켜는 법(새 작업 환경마다 한 번): git config core.hooksPath .githooks
+set -e
+root=$(git rev-parse --show-toplevel)
+cd "$root"
+out=$(npm test 2>&1) || { echo "[push 전 검사] npm test 실패 → push 멈춤"; echo "$out" | tail -10; exit 1; }
+out=$(node scripts/build.mjs 2>&1) || { echo "[push 전 검사] 빌드 실패 → push 멈춤"; echo "$out" | tail -10; exit 1; }
+out=$(node scripts/audit.mjs 2>&1) || { echo "[push 전 검사] 점검 실행 실패 → push 멈춤"; echo "$out" | tail -10; exit 1; }
+red=$(echo "$out" | grep "🔴" || true)
+if [ -n "$red" ]; then
+  echo "[push 전 검사] 점검에 🔴가 있어요. 고친 뒤 push하세요:"; echo "$red"; exit 1
+fi
+echo "[push 전 검사] 시험·빌드·점검 통과"
+exit 0
