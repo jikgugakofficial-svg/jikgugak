@@ -5888,7 +5888,7 @@
       "model": "LP40",
       "cat": "audio",
       "why": "클리앙 알리 레노버 TWS LP40 10,785원(22.06.21). LP40 Pro·LP40s와 구분 필요, 오래된 근거 [근거 약함]",
-      "at": "2026-11-03T09:31:21.184Z",
+      "at": "2026-11-06T09:36:31.433Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -5898,7 +5898,7 @@
           "name": "레노버 LP40 씽크플러스 무선 블루투스 이어폰",
           "price": 28000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/yhTGQWHOqFCMdFdkyh4jZdfb11uG98Rzj8rvM1qcpdQ72HrCDg7hrf2jIjk8WiB1Q7cU_6mgwhluTiIs7XLvROI-eSB3VDSlOf5GGFvMRlHH6EarI-J0YTiqPp7Pdnh11H7X3VYPRi8EEZwB0qFK91QtAVmwQZQHLpbyy0xGLesuBaCNQR3E_VgdpUiai9ZeTE9EcHCIzEMrzHAw4O0601lSYPGmNQs6nOTHlI1w_9YXdYgu40CYXMcxTiq7ezmXxV_WXbc85pPD75E4JJWNKoab5sjQ0qZ2svxCHpvDixxRx4IHtT66_dZhnbPYNaWPRhePqk7xNgRWq-qu_xaVuSDN7KGp2qx998prQCfE9-MlE8jYrerJB3g6uvR42qw2NR-j53ZFSyMVK8LRWlC47ZoFJXDGKs9p1Dt7LNTBJOWY1yRA49InJcvVOI-AthEjKdAaN4vJ5L4GC-q6_pgi19lVqNZcOKX7weC5GFjyb48J3usPmy83ksSRBChbKBpavxJVv7VcluC9HhDGCf5jFDhq1lqmOEFm9gHoGN1SdWCg4u4=",
+          "image": "https://ads-partners.coupang.com/image1/3akSiCwKlNB4rJbz3WNReQJpzdU0Dc-ewemKq4CP3KOA1HfxdxOcU8bFLuDgKGVAan821mffXHLbOvvT_LNy6Ra8T-K-Xuy301AtC5OLhVWt5b6DeYcF-okyGF6Ci9-iJR0zGAUYHF15L4eZg1M0-4nt-5PjP6l7GFxqa_PFjJt1zIlHUUsIo2gtkdL6PO8UET8hRbSBDR84dhjb73hLAFaZ5HfxM3SqNiqet1zqHMhmnz-D7V10fAcaTtfR24wkmVZ8hJ6ln0RyeZ2ziSwhpQnyK-fplBpZYyrUW4Sy6SSk_XrYE2xUsIH5JqSYU3hd77FLEiLINq5zk6H5ecU94ipA_OVWkExEoR2261tKC4sd7gy2_mYAsRaR_TI3arHj1WC4knS-fM0bvmsc_7y6LfYCpnf_q6GW9bfZRCHE5hBHQmyLYdGd9uuh7bGU6NWJprhjA9ZKATQiTfNsHGpTO808K13EEPKjB8nDaflRE26cBOObuJrsT5k3WBqSKyOKyDtgreh_ol93h7GTgJzT7XUJymtVHtfPTo2d1P3V-H8=",
           "url": "https://www.coupang.com/vp/products/7771893126"
         }
       ]
@@ -5909,10 +5909,20 @@
       "model": "Bowie H1i",
       "cat": "audio",
       "why": "클리앙 3기기 리뷰에 베이서스 보위 H1i 알리 약 $29 구매(23.10.09)",
-      "at": "2026-11-03T09:31:25.741Z",
-      "status": "none",
+      "at": "2026-11-06T09:36:35.118Z",
+      "status": "no_coupang",
       "coupangTop": 10,
-      "ali": [],
+      "ali": [
+        {
+          "id": "1005013509910401",
+          "title": "BASEUS(BOWIE H1I)용 보관 세트: 외부 질감을 유지하고, 일상적인 피부 접촉으로 인해 발생할 수 있는 손상 가능성을 줄여줍니다.",
+          "price": 25550,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc6458f2628f54ebb9c2abf2bd51e0577j.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013509910401.html"
+        }
+      ],
       "coupang": []
     },
     "Haylou Iron N1": {
@@ -5921,9 +5931,9 @@
       "model": "Iron N1",
       "cat": "it",
       "why": "아카라이브 핫딜 채널 HAYLOU IRON N1 스마트워치 알리 핫딜(글 날짜 확인 못 함, 가격 생략)",
-      "at": "2026-11-03T09:31:29.394Z",
+      "at": "2026-11-06T09:36:39.010Z",
       "status": "no_ali",
-      "coupangTop": 7,
+      "coupangTop": 2,
       "ali": [],
       "coupang": [
         {
@@ -5931,7 +5941,7 @@
           "name": "Haylou IRON N1 MIL [ 2.13 스마트 워치 완전 방수 미군 규격 아웃도어 스포츠용",
           "price": 127420,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Wb0HHMKNVtbBHQlgWaCnf8udNSqHmvXBN7Ndpq1l3hj3aW8AaVCwHm7hyAtX9FRcZbaYTVhULPoUfOf9WiEwrel0lyXQChbRhtNTo2mb0NXR6KB7REO7E24ukbV2Joxroc3NfswyjbJnV8YcOfBhRnkR3v73hh4lMUSpkxc5zh5YOXt1JMGvOKA37ClCgjojNImYJQQ73uSRbc8D84E5hCpNuQ6TTseVZ1c4h4MJYuhRfkk7MSp-BOhashvxvpI_bGTmOy78DQ-xNxjQJ483j369cMG1UScRMtvrd7Ev4sSy35K8Ab21_qU0iMT40sjYK1UFPcKLR60j40lpzA8HVd58VXndGgUIpbcdm3KluzY1aOl83xSHXwxrHXlnQxQeCRophXjQgLsC-fj1EsPt53OXfdiQDxyxTqH-c0zLwQzgpbFeUOcvaovHlLm3TjNowP0nXD--gTWIpWz8A9AdgnxHf_V1vCMkBTXRCNymhcZGF84OurfUs5aq0wCZVCfqeRK4BCNN-kqqKaQRoqB_yKC0zRSw_XVUaaPs-VKenJNeSg==",
+          "image": "https://ads-partners.coupang.com/image1/kj_QlI2cUqI7r3YwklKFiiFI5G6QMlvHOGoFEKWlv0V0Qj6XNuyjNgW0aapH6PNtk4YUs4WQ46UCKfkTw4H8PmqoWZ1WEEbbh6Xws18gIVI9pTmLIZoNTfuzMhMzOKY2tysFk_Cz0JA8GCIrNbRiie-9cyjppZdmVkFWTbhB4PRS8nh4w-4eUIVtpfzOpOwMPTyi5ne2KAT5zZPFnxoOxPysefNaFtWx-Yq2DtTL-Kw1vBfb96GZnjOwp2FPhV-GzGlNUdldgNP7lUc11vtFYGNGIagx0Ydfiuxo6OXJCvpC42Z9rXA_Chc5o_8xNUbdRio0c0kC9PYv0GnpGyKeQ0CMTnQO3nrEIpi_Xb_k7X3vEFBT0aCgU7GjdCZLOBm9VqkEe96GpHflfBm2iz_EH743uNsIoNetRl3Pb7iAJjuvQKf6ngqdXOByzQGhwIAE9Ym_QBMTlHUpppMEbxhcm3vazoXPgcCepwjNYXkE3YxU4XSIRlkwre2vQlZH9rpwi5kqUAtaMzezwhrV0QaEV6D52Z23iCfcz7OnR0Yfh40=",
           "url": "https://www.coupang.com/vp/products/8983810345"
         }
       ]
@@ -5942,39 +5952,57 @@
       "model": "AM8",
       "cat": "audio",
       "why": "뽐뿌 알리뽐뿌 FIFINE K688·AM8·K669 마이크 특가 글(글 날짜 확인 못 함, 가격 생략). AM8T·RGB 색 버전 구분",
-      "at": "2026-11-03T09:31:33.281Z",
-      "status": "no_coupang",
+      "at": "2026-11-06T09:36:43.158Z",
+      "status": "new",
       "coupangTop": 10,
       "ali": [
         {
+          "id": "1005006033905180",
+          "title": "터치 음소거 버튼, 헤드폰 잭, I/O 컨트롤, PC PS5/4 믹서, 게임용 마이크 Ampligame AM8이 포함된 FIFINE USB/XLR 다이나믹 마이크",
+          "price": 49644,
+          "orders": 826,
+          "rating": "95.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se7099ec5a36c4db6af70f1b18ec02ec3q.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006033905180.html"
+        },
+        {
           "id": "1005004828097942",
           "title": "FIFINE USB/XLR 동적 마이크, 터치 무음 버튼, 헤드폰 잭, I/O 제어, PC PS5/4 믹서, 게임 MIC Ampligame AM8",
-          "price": 68100,
-          "orders": 754,
+          "price": 68800,
+          "orders": 738,
           "rating": "94.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sef56889beea9414cbd1f139ba49e8bf4S.jpg",
           "url": "https://ko.aliexpress.com/item/1005004828097942.html"
         },
         {
-          "id": "1005006033905180",
-          "title": "터치 음소거 버튼, 헤드폰 잭, I/O 컨트롤, PC PS5/4 믹서, 게임용 마이크 Ampligame AM8이 포함된 FIFINE USB/XLR 다이나믹 마이크",
-          "price": 49183,
-          "orders": 741,
-          "rating": "95.7%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se7099ec5a36c4db6af70f1b18ec02ec3q.jpg",
-          "url": "https://ko.aliexpress.com/item/1005006033905180.html"
-        },
-        {
           "id": "1005006459978710",
           "title": "FIFINE USB XLR 다이나믹 마이크, RGB 컨트롤, 헤드폰 잭, 음소거, PC 게임 녹음 스트리밍 AmpliGame-AM8 마이크",
-          "price": 74000,
-          "orders": 272,
+          "price": 74700,
+          "orders": 285,
           "rating": "96.6%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3317d7ea3be4ac68666ab3bd8aa3803N.jpg",
           "url": "https://ko.aliexpress.com/item/1005006459978710.html"
         }
       ],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "7914563459",
+          "name": "FIFINE AM8 USB·XLR 다이나믹 마이크 터치 음소거 RGB 게이밍 스트리밍용",
+          "price": 78100,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Uo6zznnSEHk3FPuAUoA9QW1gEeHq7AssK2A8740tJ7TZF61--ru5rmuRSi9e5xLXjYV3FiYtGkPJGAjiM9aIn6sKwfwhUtfu5OBR0vjdF2WNbaARJnNK37jPSh2RQOPl7EQrENK0DFxeunP4Y3J0bVWLeYDgnnCAKVG92ek57z6P4VG5nIaws2Z9DDs9nteA7tQBSC777WZREr2OpFGNwOxotmpFuQiEoBIRVbN9vMo6iGuHuTSZqLveKhw_EzT0a2JhZ_TD0hyZUtpC69PK6VjkiNhj1kiFg-9Ojm3Kn3sOXWdojXPKABTv5xNhYnIuYB6nCEA_ppGgLXIEi1xhyUkD4Tyoo0f1VKCIKnX6ZmhFDnhcJFrAE3cYNStGqE0fhjLhOzmEuTat_Reb8MqFYk7v-eH3qJvrsnq6qhwheEknsWnbexrupxWMsQds1bXjpuVcyUUfai4aeZWOi8s-KRjehHZwE5IGxmR3KXeKck2jpTQWRii0sBiRaH_1xbehlKPfcFWqEQ1SpfzewGAKmEsZvdc0u6qFFj_UQAJJvmiH",
+          "url": "https://www.coupang.com/vp/products/7914563459"
+        }
+      ],
+      "best": {
+        "aliId": "1005006033905180",
+        "coupangId": "7914563459",
+        "aliTotal": 49644,
+        "coupangPrice": 78100,
+        "verdict": "good",
+        "diff": 28456,
+        "pct": 36
+      }
     },
     "Fifine K669": {
       "q": "Fifine K669",
@@ -5982,7 +6010,7 @@
       "model": "K669",
       "cat": "audio",
       "why": "뽐뿌 알리뽐뿌 FIFINE 마이크 특가 글 2건에 K669 반복 등장(글 날짜 확인 못 함, 가격 생략). K669B·K669 Pro와 구분",
-      "at": "2026-11-03T09:31:37.445Z",
+      "at": "2026-11-06T09:36:47.454Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -5990,9 +6018,9 @@
         {
           "id": "9024588724",
           "name": "FIFINE USB K669 마이크 콘덴서 마이크 단일 지향성 PC용 마이크 넷 통화 재택",
-          "price": 58640,
+          "price": 54090,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/ccJDno-Ksl4LmhjRcdXEdq1eQ-isOeYFDxr4ouyMEb4ZCeIpnzGMGg94WxnfP-Mt0ZVpKcl4R0WMRJJSLu8LszXOMkj3hfE7WNXDcetQ70zuvP6aUgocsk8iTesYG0nN5jPOXyeePpHkUDZHrxXNeCvrkZdGmXoGdSLHjJWeBipQJR_Vm90BKP7FSS33Zbn9fLJx1Ugaq_5ZWnQvyEORpjOmE_v-dqLswDus8WzYOMqI5QMQnxQpkEnabFMsxXoGi2r5WaNsXaaDaGkzXdAQe-haEMa24YcfDVdTbtHd7XX4JIEp3FoQ1vmI5bJK8R9pBv4INb4R09rsr_tEQSlYO6Oo-4NUn4GELSgY2FW-yBqwV-7BbmelnA4fxEDwHrgMRJ1OgSXMUDo79VuFUlWgtDKe3xDcMx5VLWTKdJFtpAV5nw4Tb8ru2910DTeR0_RYtkxICqpIGtWpcHzxZfBhOBH1M9q8w7I_D_GbkrJc9arh6ButeXfWUI_A5UrLK6cxmGlRKOPTgwFPB4LAYDAadvwxd0K8ti2hHydGCteIDqDuAg==",
+          "image": "https://ads-partners.coupang.com/image1/eRZzQZBLuigTOxrteW2qQTm-CumizAvZJJdftytMRWtv3nUXGjwXWrZHNZQnvBwB7frEyep_826HnqQ7v0XjpH9TdwX_ovSw8teo_5hS-xsqxj6qNJ_4hOyf-Gu_DZbBRxt22d9g0JBTTshFpQdLUyHpWfTLLXTxHsleDHqiOyZ0A3HPJahwubxR9gUVKIgewVeE_VhONeK5wpxMclXM09U_qsQYKMJgCHalHpJL55V0mj5ZcVPhtkqM2fXmpajoQ09y4vzgOkcebzilZurK8f0xjVR2x8SfY7D4Y4xruShpJcCW5rldqPQ7XQ-4PXUHOCWQwyf-_Tb6YdCDj9oITfDFKsmz-Xad8R5gtUi1oYDTjWP-pmxeMwehrMCWLrQHKrLHlm8u28DXnV6WFu8Bl3BAFcuU_XO44_8gYTUCZy1ytK0aKDXUNGMRIxGliMbb1BOq0PnBjcNsRHnFbxNxVUzZ0UE98qj-GP7PYb6jAc_QLst4m_XSV1BWyf9jySOVOBD5XwKJc2htk8g0C4MqxnhAX5hCwuTNDJslug3_EC69IRg=",
           "url": "https://www.coupang.com/vp/products/9024588724"
         },
         {
@@ -6000,7 +6028,7 @@
           "name": "FIFINE new K669 PC USB 콘덴서 마이크 K669B 화상회의 온라인수업 게임 유튜브 촬영",
           "price": 64900,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/ryCHomiurPWEclE_r0-ABeaPhTviTWLtv4EertAS2J_flqTQoOGW5HZTN_qKaFU3av462h3Wj9zfwo0hvlH8AUSSgyLbBdHJ6wUk59Q4bQc44v3ROm4TSHswQYanAb4UEGzSS9ILn4B_ppfzi087g9bsaZYzso3iiuSDGuDajAfWULhnk03lybrKS6iy5pi1OGs31iib0YTdcGd4ZreezZDuhwnW4EbG8252KOdNbihxzNhZBb34GeNjNvNW3MdFjeNnbCy5fv1UVRqaZiWfMW7EFyW8cYM1egJ6PjA5IHqrRLPFcxegLuoDLN8MGOTTXP4bUOt10WgfI-zxqHeGw9jz3oxSWMFAycjPiEETvk3uMe_dusVR8JrO96AkT4K2bj1mEkgo-r48iajysLRh1CjIVCBM2jhrUfs1M_nwrFVVgw29KKWiLvP1nLsvvXlxdBHs7uJkiIp42_-mk-ltk8PQ3yvf2f2hJnl43K7iHd2E1_Ju54ZSf9EJ5rsAyO7jb9A-hJuyU8AxWXRbovm5idiZiU3JVR9Yfm6LDYZD",
+          "image": "https://ads-partners.coupang.com/image1/t5myvoPt610vPShYt0PlENPFEgrxQcEGeSN5nuEtHvnTnRCXWOgv08CJDbz0_SD0f_dwAYECy_bVIo17VariiOPzAihYyg40z313nzD1HJ55P4kgR2uXSRcve2TYwgJqH7kNO4thiwswkp17yTaIkwdkfAw2w5hkC-Bro_AJRU8iup9HF35C5xVe1GyoXTyMnxsEEwTk4-eaLCrFhrAAWwYpjhNrFyYbKAEV-xZSQjP2xbo5hqPVVrAYkMKJ_y0MlwvgSaIttMXxq2Si0_B4sjBAKpujOJO3GCeCGoLp0K0_E2L_HZ3wXod5JJ9HDoTWxtoczMV0djOHn81zU5gyhCDWsGjUEEEZd_MF252wF_vJ52-HPO0wAL4cHHjX6p8X2KImTIrQa_L-CxV24aXleD_vwbazKHT6KE7Wuwl04pcy2-4G-e6aTKQ1eFTPNemzkD4zmpbI5HkMDV-hvN3MmhuZ0yRP7bfYhGsdHId23t3ZjpdYr4J8Ubht5FCA6dt0ScYVqfzxcykApwAB6QYzYIvIU98FKWzZIIe4bV8ZAg==",
           "url": "https://www.coupang.com/vp/products/196959340"
         }
       ]
@@ -6011,15 +6039,15 @@
       "model": "K688",
       "cat": "audio",
       "why": "뽐뿌 알리뽐뿌 FIFINE 마이크 특가 글 2건에 K688 다이나믹 마이크(글 날짜 확인 못 함, 가격 생략)",
-      "at": "2026-11-03T09:31:41.487Z",
+      "at": "2026-11-06T09:36:51.223Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005007635109339",
           "title": "FIFINE USB XLR 다이나믹 마이크, 쇼크 마운트, 터치 음소거, 헤드폰 잭, 볼륨 컨트롤, PC 또는 사운드 카드 녹음용-K688",
-          "price": 55900,
-          "orders": 10214,
+          "price": 52365,
+          "orders": 10416,
           "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se509b6ffbbd94e5d8a1cb0b6a47a1f33l.jpg",
           "url": "https://ko.aliexpress.com/item/1005007635109339.html"
@@ -6027,8 +6055,8 @@
         {
           "id": "1005006007773971",
           "title": "FIFINE USB XLR 다이나믹 마이크, 쇼크 마운트, 터치 음소거, 헤드폰 잭, 볼륨 컨트롤, PC 또는 사운드 카드 녹음용-K688",
-          "price": 45078,
-          "orders": 9573,
+          "price": 45454,
+          "orders": 9737,
           "rating": "96.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se509b6ffbbd94e5d8a1cb0b6a47a1f33l.jpg",
           "url": "https://ko.aliexpress.com/item/1005006007773971.html"
@@ -6036,8 +6064,8 @@
         {
           "id": "1005006756024756",
           "title": "FIFINE 녹음 XLR 다이나믹 마이크, 실시간 모니터링 기능, USB 스트리밍 마이크, 게인 노브, PC용 터치 음소거, Mixer-K688",
-          "price": 63031,
-          "orders": 1146,
+          "price": 63488,
+          "orders": 1185,
           "rating": "96.1%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e25ee02fe78484d8571da8a3333d554S.jpg",
           "url": "https://ko.aliexpress.com/item/1005006756024756.html"
@@ -6045,30 +6073,38 @@
       ],
       "coupang": [
         {
-          "id": "8556724091",
-          "name": "FIFINE K688 USB XLR 다이나믹마이크 쇼크 마운트 터치 음소거 헤드폰잭 볼륨 컨트롤 PC 또는 사운드 카드 녹음용",
-          "price": 63600,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/_UOk-PKcHQn3i7N6_dBZKgaOgnRSOCiAFHt3b03NkBwsbbfOVh_QgAy4034h4Vi6VyyZmzVbxkB9Dx3RahBultAVNbjZ1aSaWwiQuWzc5-UojSdUWFBzUz1ZrZlyER4dxPPzfE-vAB_F6XCfZDfvwywp2AGkswUlU5neMeZXQW_Eddo1Y6voCArSHLRXo3IYEQAib_Ay1iXhLhCMh8S1Y9P3n1NbyJy5aZNKjhofE1rFYIaHoOg1L3VN4Qepp66JM9Ie_SDiDRw1lg9jOGBHqpJ2y3UYCEbJ_VQnOiExb_zKz_i5kdJZ7atX5nvNQl4JZNVXYYcsTehBQPOv1H_Kb9bDQDh-2k3_srnsw_qmtiYBQyT6IM2doy8XN-jcs2Zu_ZqvNa3sbQcl6ooz5jJYkj2Du45F1bqfyAatvcNtb99RdsxiUJj7ffMuLEhexUI9IJzF8S0zgd7w4TyeOmhhJEQrtImaoBe5ae4b99FsxAzRqbH7QKq36OxuVHAKLYB6l6YkhU6iOBRFlhsFuS6rJtVenAezMGwLrL5--XshKB8MWFQ=",
-          "url": "https://www.coupang.com/vp/products/8556724091"
-        },
-        {
           "id": "9744439296",
           "name": "FIFINE K688 다이나믹 마이크 USB C타입 XLR 겸용 실시간 모니터링 방송용 스트리밍 게이밍 유튜브 인강 마이크",
           "price": 67000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/9HasWGUb3l75Wn8a9BWDhLtORESzs7x59QTjdGTq9IyxJ_u0ieY0ZPXzLW_MzimjroblZhLCU6VqnoL3AyovD1GE1jJ_EEWSO0hsZiYKa0DwokHyLyy-_pDpKAzGXrGb49jX4-ra21QKdVe4Cxi0iLiqU7okkxoIhUyfdp7MPZKWfHKPNg9FumYOkPBUllAzde3X7AL-nkXkrvm6-Gxvno31MmvoVsNMWffLgYLIKWpj7Zi9orYKsOmQQJ5wqbpWAZmSCsv926p_gAufwA_xqnAUAWOD7g3xpmZxsC_Pue5MAkEhuOOC5feQzVcvJFIy0Y5PTx7w994x4CaKHj7wU_oB4jkkW_Rxc4ZDU4s8q1ejURJt2YA8QEJWkeqhdL1amHdAi51PxT8eTGk7Z9_dqmfxsfKYqnf0GjGWbUY6x2tvkv2BryEFn6aVOs65MWOgwByh2r-qlLVN35_3DbCnTvpbOk428TvTJHlbGCl1yBa2M83BAPgzaRPWERMHm4dHdsk0gpBX_q8FkX73wHXkHwRXWBliYF3rqLVpdGqyxScVidlM",
+          "image": "https://ads-partners.coupang.com/image1/42fBiy5JmCBbaqX248KUAFrGsgrxs0DFGqbcxQ9zemVJw_isyNqc-PIvHYBKmO_jblz7WqZCPBgRWwlVKu1dupvbkI2Z97CfRDvi4KRxtL2PNn_GxIdqWkuEVy95Hs5D7OpyIhJiU4O01ESn2ZipzzdGh8yuYMubiXHgAMD7536Nnor8aVzKltvPz6k1UR24u52IUS38oiXOXEUR1P1EJTMuybkxxwPC-vjHe7dMW8KIwhJKDSPq6cNMZ0uMeBBuFYauPG3nwnEa_4A541Ba3CCd5E0WAphKl2o5y6xR9C8osMDmPjkM9JBpT8ZzG3SdFMiwHqbTtl9N263mP0oZMnkF4SqEewoML7I2gYgmHXYg77V5x0LtNjvyh_uXPPVWq8d7i6kywmv3y7KtQbPRKB7sJity6M3kMvGDB13e3frRS-I0AK52tSu1WKEMjNDa7RYICsC6jg6HnEWvjocr3Kdt3k_zZuAbcM_Sk3I2Rd1GXgX3xIiXl6C0URj51asrgp0nml6qqbX7bjPr7kbme15AhahTcmuzHWt5Ge3ZA22-_tQ=",
           "url": "https://www.coupang.com/vp/products/9744439296"
+        },
+        {
+          "id": "9790783866",
+          "name": "FIFINE USB XLR 다이나믹 마이크 쇼크 마운트 터치 음소거 헤드폰 잭 볼륨 컨트롤 PC 또는 사운드 카드 녹음용-K688",
+          "price": 78330,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/pkzjl-N6P4ByjJxPppk7akqtm6VzYBTuidbsGt6-OBrjEY-E0b2m62Y7yuQdIY0VMO11Zpmv0BcbIkvN8iwdcXLsqmffbbtqktknrADHyqYF1LZDWmGHQ3tsF5eHjS85zYaQ-rRdZcYHCUvH0Jxla7i2c_p2vzgV6Qu5xIFu3Pkm0wzx4b1JgP60gvuVd1ZNuFGMkULvWDaqVY2q0uNqiW5q50AnhufPQyafQ_9ooE2PWKEC1qxYMHsnL7wfoK5HyWa4Wb9SUNzg3tzUFmJtMXxWJ5_dNrjeH7VmkZf1sEda_vISIm58c0X1sCsU61rTyPSYUVUsLigUiumnQec_DfNnrDHr3Z6BBJuGl6I6i59eUnSbYNr39jy5T9_PaoUQimAv0wDWzwpbyJq25uatxgL4xh44KYeJN4NPewW6V3wFD2xWM9g6dOJL_eIXoR7XCP8kzzVUJb1GtrCsXcqU4DBBSQEdUykdag4VfmSET-TRWZXeWl8arNPwd5z073JTY44MFBvUtw35yzInCdCcTqJivQVAwS1PBaT-W5caKgC_wn8=",
+          "url": "https://www.coupang.com/vp/products/9790783866"
+        },
+        {
+          "id": "8785156532",
+          "name": "FIFINE 다이나믹 마이크 XLRUSB 팟캐스트 보컬용 K688",
+          "price": 88000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/bJhwyFqTdKkm84L8bMI1pFyWHk_ZArXwGE6VdtQGa0x92Vw1Kl7g3nXGuzqfm-ExCau1YZDT2Vz2o1XpjMxoZiZE6bQFUVMRPee4b7-a_wJtrWaohfhy5PGfibz8SfIcDQWrtxGts0Sdl9vm8o6-hGg1h71Xa6G92t-6uQMDdyeKlEFYAT-dIJ6SC5rcV6P45fnMrqHUIEqC2cUDqzRf_Fdoch5u_VS8o0mOFcTuoODsCbwhaDJvBN2PSumg7dPQp46v1Cq8MgIZy5Oy5dp6HwjXIlFAczi9xIozT9y3xE476UYigA7PneoXc8z0XCnf-OI6OWYoUIp-mbxgbdnXFVGlAIPR_7R-3QSifwpBKXg8B8FgvK9KcjLrTD7HIV01InZdWKxz9_zEHnghICiZbGb9P2DgvH8RNIGNxioxFFPqRZJ-MxofaWhYbZS68QRfwb3Zlfm9gn5DsnWqKLA8qpIQwyM54oIGJVVTdFik10r0ZQ8sQYbSkUXgXWhajjSuPUGkto1_RzeYHcyRKAoxmD5BjQV9Qy2o-viZBfEekLrf7A==",
+          "url": "https://www.coupang.com/vp/products/8785156532"
         }
       ],
       "best": {
         "aliId": "1005007635109339",
-        "coupangId": "8556724091",
-        "aliTotal": 55900,
-        "coupangPrice": 63600,
-        "verdict": "meh",
-        "diff": 7700,
-        "pct": 12
+        "coupangId": "9744439296",
+        "aliTotal": 52365,
+        "coupangPrice": 67000,
+        "verdict": "good",
+        "diff": 14635,
+        "pct": 22
       }
     },
     "UGREEN Nexode 160W GaN": {
@@ -6077,9 +6113,9 @@
       "model": "160W",
       "cat": "it",
       "why": "루리웹 알리 유그린 신형 160W GaN 충전기 $46.99(26.08.24), 공동구매 모음에 KR GaN 160W $29.44(26.03.15). 한국형 플러그·구형/신형 구분 필요",
-      "at": "2026-11-03T09:31:45.369Z",
+      "at": "2026-11-06T09:36:55.004Z",
       "status": "none",
-      "coupangTop": 8,
+      "coupangTop": 4,
       "ali": [],
       "coupang": []
     },
@@ -6089,9 +6125,9 @@
       "model": "500W",
       "cat": "it",
       "why": "루리웹 알리 유그린 500W GaN 충전기 역대 최저 $102.64(26.08.17), 공동구매 모음 $102.99(26.03.15)",
-      "at": "2026-11-03T09:31:49.329Z",
+      "at": "2026-11-06T09:36:59.055Z",
       "status": "none",
-      "coupangTop": 5,
+      "coupangTop": 1,
       "ali": [],
       "coupang": []
     },
@@ -6953,5 +6989,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-06T08:36:25.462Z"
+  "updatedAt": "2026-11-06T09:37:03.009Z"
 }

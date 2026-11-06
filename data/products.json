@@ -1366,11 +1366,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h28eo3C8UC",
     "sample": false,
-    "checkedAt": "2026.11.06 알리 자동",
+    "checkedAt": "2026.11.06 쿠팡 자동",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
     "priceKrw": 114998,
-    "domesticKrw": 99600,
+    "domesticKrw": 89620,
     "domesticSource": "쿠팡 글레이셔 실버, 로켓배송(쿠폰 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
     "risks": [
@@ -1395,13 +1395,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "priceKrw",
-        "from": 102444,
-        "to": 102710,
-        "source": "알리"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -1464,6 +1457,13 @@
         "from": 102718,
         "to": 114998,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.06",
+        "field": "domesticKrw",
+        "from": 99600,
+        "to": 89620,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2878,10 +2878,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau662nWai",
     "sample": false,
-    "checkedAt": "2026.11.05 알리 자동",
+    "checkedAt": "2026.11.06 알리 자동",
     "slug": "ali-edifier-m90-speaker",
     "name": "에디파이어 M90 블루투스 스피커 (블랙)",
-    "priceKrw": 221189,
+    "priceKrw": 223365,
     "domesticKrw": 249000,
     "domesticSource": "쿠팡, 한국 정발 블랙, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqtHwHUNvoNtEzQGMfrvzRbufrwqXTbeQ1kju0nMKIMZ8VlgA1MUzhJpkE9B3OlKxCSdVypmqfxCo7GaDyl9I3dIYqB3VolglpYSMPPSNXh01oNgrs6NmHnK0DxlkvANTtQZvGuzfgrC6BoR4nnsui8CxFa5AjN2nt2Qgnc9mMkYcsst4DVWMdzCkG19uVBmkFpCFp2lD2x6sG4XNWp5lHGLk0tj0Y5nty9X67l65e7r5XMKxhjBxVSalcCG4ofW8oDQdfW4rgb1iyeuGaZZowV1hA0Au93itWziAhFu88XI0UkNj32bIN3PeudS2EYC7T7BDN1YTu3HtHvsbDqG7YSzWw7Ls6QOQZKisnQjGehbB4dZex5Nxu0IIQAGq5TlLFSH5S3EJfApYSUbTyCROZHtB9iFDaW9Fi33INvDupzSCu8tnh73jih1PZS7gjqLlBQeNPlnd0dy3jgSWuWTQbjVOSBUCyBfsqLZ89Q6iHfOpfJIs4JwMUUozlTBU1UKNJp7eVGKMK8nl2nSmq9LpobgyxCy4WotKbEqzWqU5ibQJ3bmrxPEwNYSLDzNHHve3sDBTbFv632Jw7cPSuPcNuSo1JXIgLlxkt3ItA7ZnxLSlCg1kZPXZZdaStc52PmqxZuQtEGeDWx0DhqPrQeliYeNFPLeRFPrA2qb0s6zHShJ2j9iiogzOPvCoWjIPkK5dK24xJYbSJoT",
@@ -2948,6 +2948,13 @@
         "field": "priceKrw",
         "from": 220422,
         "to": 221189,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.06",
+        "field": "priceKrw",
+        "from": 221189,
+        "to": 223365,
         "source": "알리"
       }
     ]
