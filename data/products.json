@@ -2345,11 +2345,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.11.06 쿠팡 자동",
+    "checkedAt": "2026.11.07 쿠팡 자동",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 13851,
-    "domesticKrw": 11180,
+    "domesticKrw": 13290,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2373,13 +2373,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.02",
-        "field": "priceKrw",
-        "from": 13983,
-        "to": 13813,
-        "source": "아이허브"
-      },
       {
         "at": "2026.11.03",
         "field": "domesticKrw",
@@ -2441,6 +2434,13 @@
         "field": "domesticKrw",
         "from": 13290,
         "to": 11180,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 11180,
+        "to": 13290,
         "source": "쿠팡"
       }
     ]
