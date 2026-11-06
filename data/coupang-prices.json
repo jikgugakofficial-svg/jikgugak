@@ -167,7 +167,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-11-06T13:51:23.358Z",
+      "at": "2026-11-06T17:30:35.048Z",
       "recordedKrw": 39610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -175,7 +175,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-11-06T13:51:27.386Z",
+      "at": "2026-11-06T17:30:39.082Z",
       "recordedKrw": 40900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -183,7 +183,7 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-11-06T13:51:31.359Z",
+      "at": "2026-11-06T17:30:43.060Z",
       "recordedKrw": 89620,
       "found": true,
       "apiPrice": 89620,
@@ -194,7 +194,7 @@
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-11-06T13:51:35.365Z",
+      "at": "2026-11-06T17:30:47.125Z",
       "recordedKrw": 67430,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-11-06T13:51:55.334Z",
+      "at": "2026-11-06T17:31:07.054Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -213,26 +213,29 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-06T13:51:59.344Z",
+      "at": "2026-11-06T17:31:11.222Z",
       "recordedKrw": 25690,
-      "found": false,
-      "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
+      "found": true,
+      "apiPrice": 24500,
+      "isRocket": false,
+      "diff": -1190,
+      "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-06T13:52:03.416Z",
+      "at": "2026-11-06T17:31:15.177Z",
       "recordedKrw": 49480,
       "found": true,
-      "apiPrice": 49480,
+      "apiPrice": 60300,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 10820,
+      "result": "applied"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-11-06T13:52:07.349Z",
+      "at": "2026-11-06T17:31:19.054Z",
       "recordedKrw": 32770,
       "found": true,
       "apiPrice": 32770,
@@ -243,7 +246,7 @@
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-11-06T13:52:11.383Z",
+      "at": "2026-11-06T17:31:23.106Z",
       "recordedKrw": 31300,
       "found": true,
       "apiPrice": 31300,
@@ -254,23 +257,23 @@
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-11-06T15:26:37.223Z",
-      "recordedKrw": 25730,
+      "at": "2026-11-06T17:31:27.067Z",
+      "recordedKrw": 28190,
       "found": true,
       "apiPrice": 28190,
       "isRocket": false,
-      "diff": 2460,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-11-06T15:26:41.231Z",
-      "recordedKrw": 19690,
+      "at": "2026-11-06T17:31:31.044Z",
+      "recordedKrw": 20550,
       "found": true,
-      "apiPrice": 20550,
+      "apiPrice": 21570,
       "isRocket": false,
-      "diff": 860,
+      "diff": 1020,
       "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-5b-60": {
@@ -377,7 +380,7 @@
     "ali-baseus-inspire-xh1": {
       "productId": "9241501985",
       "keyword": "베이스어스 인스파이어 XH1",
-      "at": "2026-11-06T13:51:39.314Z",
+      "at": "2026-11-06T17:30:51.036Z",
       "recordedKrw": 316300,
       "found": true,
       "apiPrice": 316300,
@@ -388,7 +391,7 @@
     "iherb-cgn-s-acetyl-glutathione-120": {
       "productId": "6584056433",
       "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
-      "at": "2026-11-06T13:51:43.327Z",
+      "at": "2026-11-06T17:30:55.234Z",
       "recordedKrw": 81300,
       "found": true,
       "apiPrice": 81300,
@@ -399,7 +402,7 @@
     "iherb-cgn-marine-collagen-500g": {
       "productId": "9127064765",
       "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-      "at": "2026-11-06T13:51:47.335Z",
+      "at": "2026-11-06T17:30:59.268Z",
       "recordedKrw": 82000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -407,7 +410,7 @@
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
       "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
-      "at": "2026-11-06T13:51:51.312Z",
+      "at": "2026-11-06T17:31:03.171Z",
       "recordedKrw": 79400,
       "found": true,
       "apiPrice": 79400,
@@ -427,5 +430,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-06T16:30:39.846Z"
+  "updatedAt": "2026-11-06T17:31:35.057Z"
 }
