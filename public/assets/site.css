@@ -406,7 +406,7 @@ legend { font-size: 15px; font-weight: 800; padding: 0; margin-bottom: 10px; }
   .bf-hero h1 { font-size: 38px; }
   .bf-hero .dday-circle { position: absolute; top: 20px; right: 16px; }
   .bf-table th, .bf-table td { padding: 12px 10px; font-size: 14px; }
-  .bf-table td:last-child { display: none; }
+  .bf-table td:last-child, .bf-table thead th:last-child { display: none; }
 }
 .ev[hidden] { display: none; }
 .ev-filters { margin: 0 0 16px; }

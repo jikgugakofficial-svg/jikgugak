@@ -338,7 +338,7 @@ function domesticSaleNotice() {
 // 진행 중이거나 다가오는 세일의 딜 모음 페이지로 가는 띠 (홈·세일·캘린더)
 function dealPromo() {
   const today = kstToday();
-  const d = DEALS.find((x) => { const e = events.find((ev) => ev.id === x.event); return !e || (e.end || e.date) >= today; });
+  const d = DEALS.find((x) => { const e = events.find((ev) => ev.id === x.event); return dealLive(x) && (!e || (e.end || e.date) >= today); });
   if (!d) return '';
   const e = events.find((ev) => ev.id === d.event);
   return `<a class="deal-promo" href="/deals/${esc(d.slug)}"><span class="deal-promo-pill">${e ? esc(e.name) + ' ' + evDday(e) : '세일 딜'}</span><b>${esc(d.h1)}</b><span class="deal-promo-go">알리 인기 상품 최종가 보기 →</span></a>`;
@@ -669,7 +669,54 @@ function pasteBar(id = 'paste-q') {
 </form>`;
 }
 
+// 공개 전 딜 페이지(publishFrom이 아직 안 온 것)는 만들되 noindex·사이트맵·띠·llms.txt에서 빼요
+const dealLive = (d) => !d.publishFrom || d.publishFrom <= kstToday();
+// 블프 페이지(아마존): 아마존 가격은 쓰지 않고 목표가(손익분기)만. 한국 배송은 운영자가 확인한 상품만(11/6 법정 조건 ①③)
+function pageDealsAmazon(d) {
+  const ev = events.find((e) => e.id === d.event);
+  const approx = (n) => { const k = Math.floor(n / 1000), man = Math.floor(k / 10), chun = k % 10; return `약 ${[man ? man + '만' : '', chun ? chun + '천' : ''].filter(Boolean).join(' ')} 원`; };
+  const targets = items.filter((p) => p.store === 'amazon' && !p.sample && p.ev.kind === 'break' && !p.unavailable && p.krShip);
+  const showTable = targets.length >= 6;
+  const rows = targets.map((p) => `<tr>
+    <th scope="row"><a href="/p/${esc(p.slug)}">${esc(p.name)}</a></th>
+    <td>₩${krw(p.domesticKrw)}<span class="muted small">${esc(String(p.checkedAt || '').replace(/\s.*$/, ''))} 확인</span></td>
+    <td><b class="bf-target">${approx(p.ev.breakeven * PAYFX)}</b><span class="muted small">$${p.ev.breakeven} 이하</span></td>
+    <td>${p.ev.breakeven > p.ev.limit ? `넘음<span class="muted small">세금까지 넣은 목표가</span>` : '한도 안'}</td>
+  </tr>`).join('\n');
+  // 200달러 예시: 음향기기(관세 8%), 국제 배송비 0원 가정, 빌드 때 이번 주 환율로 계산
+  const ex = [[195, 'express', '특송'], [210, 'express', '특송'], [180, 'mail', '우편']].map(([usd, method, how]) => {
+    const c = landedCost({ priceUsd: usd, shipUsd: 0, origin: 'us', method, category: 'audio', fx: FX, payFx: PAYFX });
+    return `<tr><th scope="row">${usd}달러 · ${how}</th><td>₩${krw(c.duty + c.vat)}<span class="muted small">${c.dutyFree ? '면세' : `${c.limit}달러 넘음`}</span></td><td>₩${krw(c.total)}</td><td>${c.dutyFree ? '면세' : `${c.limit}달러 넘음`}</td></tr>`;
+  }).join('');
+  const faq = (d.faq || []).map((f) => `<details class="faq"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('');
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: (d.faq || []).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
+  const body = `
+<div class="page-head"><h1 class="display">${esc(d.h1)}</h1><p class="muted">${esc(d.intro.replace('{krw200}', krw(Math.floor(200 * FX))))}</p>${ev ? `<p class="small"><b>${esc(ev.name)}</b> ${esc(ev.date.slice(5).replace('-', '/'))} · 아마존 블프 위크는 발표 전(예상 11/20~11/30)</p>` : ''}</div>
+<section class="block" aria-labelledby="bf-200">
+  <div class="block-head"><div><h2 id="bf-200" class="h2">200달러 넘으면 세금이 얼마나 붙나요</h2><span class="muted small">음향기기(관세 8%) 예시 · 국제 배송비 0원 가정 · 이번 주 환율로 계산</span></div></div>
+  <div class="bf-table-wrap"><table class="bf-table">
+    <thead><tr><th scope="col">물품가격</th><th scope="col">관세·부가세</th><th scope="col">최종 체감가</th><th scope="col">면세 한도</th></tr></thead>
+    <tbody>${ex}</tbody>
+  </table></div>
+  <p class="muted small">미국에서 특송으로 오는 일반 물품은 200달러, 우편으로 오면 150달러가 한도예요. 넘으면 넘은 만큼이 아니라 배송비까지 포함한 전체에 관세·부가세가 붙어요.</p>
+</section>
+${showTable ? `<section class="block" aria-labelledby="bf-target">
+  <div class="block-head"><div><h2 id="bf-target" class="h2">블프 아마존 목표가</h2><span class="muted small">아마존 가격이 이 밑으로 내려가면 직구각이에요. 쿠팡 같은 모델 최저가 기준, 한국 배송은 확인한 상품만 넣었어요.</span></div></div>
+  <div class="bf-table-wrap"><table class="bf-table">
+    <thead><tr><th scope="col">상품</th><th scope="col">국내 최저가</th><th scope="col">직구각 목표가</th><th scope="col">200달러 기준</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table></div>
+  <p class="muted small">목표가 원화는 결제 환율로 바꾼 값이에요(천 원 단위 버림). 아마존 현재가는 아마존에서 확인하세요.</p>
+</section>` : ''}
+<section class="block">
+  <div class="guide-cta"><b>아마존에서 본 가격으로 바로 계산해 보세요</b><span>아마존 링크 붙여 넣기는 지원하지 않아요. 본 가격과 국내 최저가를 계산기에 넣으면 관세까지 더해 판정해요.</span><a class="btn btn-point" href="/calculator">관세 계산기로 계산하기</a></div>
+</section>
+${faq ? `<section class="block"><h2 class="h2">자주 묻는 질문</h2>${faq}<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script></section>` : ''}
+<p class="muted small">${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이고, 최종 세액은 세관 고지를 따릅니다. 아마존 링크로 구매하면 직구각이 제휴 수수료를 받을 수 있어요(구매가는 같아요).</p>`;
+  return layout({ title: d.title, description: d.description, urlPath: `/deals/${d.slug}`, body, noindex: !dealLive(d) });
+}
 function pageDeals(d) {
+  if (d.kind === 'amazon') return pageDealsAmazon(d);
   const ev = events.find((e) => e.id === d.event);
   const aliMine = items.filter((p) => p.store === 'aliexpress' && !p.sample);
   const chips = d.cats.map((c, i) => `<button type="button" class="deal-chip" data-deal-q="${esc(c.q)}" data-deal-cat="${esc(c.cat || '')}" aria-pressed="${i === 0}">${esc(c.name)}</button>`).join('');
@@ -1119,7 +1166,7 @@ if (FIXED_SUMMARIES.length) console.warn(`⚠ 판정이 바뀌어 요약 문장 
 
 // lastmod는 내용이 실제로 바뀌는 날만: 상품은 가격 확인일, 홈·세일·캘린더는 매일(환율·D-day), 나머지는 생략
 const ckDate = (c) => { const m = String(c || '').match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/); return m ? `${m[1]}-${m[2].padStart(2, '0')}-${m[3].padStart(2, '0')}` : ''; };
-const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...GUIDES.map((g) => [`/guide/${g.slug}`, guideDate(g)]), ...DEALS.map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
+const smap = [['/', kstToday()], ['/sale', kstToday()], ['/calendar', kstToday()], ['/domestic', ''], ['/calculator', ''], ['/guide', ''], ...GUIDES.map((g) => [`/guide/${g.slug}`, guideDate(g)]), ...DEALS.filter(dealLive).map((d) => [`/deals/${d.slug}`, kstToday()]), ...items.map((p) => [`/p/${p.slug}`, ckDate(p.checkedAt)]), ['/disclosure', ''], ['/privacy', '']];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smap.map(([u, d]) => `  <url><loc>${absUrl(u)}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 // llms.txt: AI 검색(ChatGPT·Claude·Perplexity 등)이 사이트를 한 번에 이해하게 하는 안내 파일(10/28~). 구글은 필요 없다고 했지만 해롭지 않아요.
 // 판정·날짜만 쓰고 아마존 가격은 쓰지 않아요(손익분기만).
@@ -1144,7 +1191,7 @@ write('llms.txt', `# ${site.siteName}
 ## 주요 페이지
 - [홈: 오늘의 판정·링크 붙여넣기 판정](${absUrl('/')})
 - [관세 계산기: 단품·장바구니 합산](${absUrl('/calculator')})
-- [광군제 알리 직구 최종가](${absUrl('/deals/1111')})
+${DEALS.filter(dealLive).map((d) => `- [${d.h1}](${absUrl('/deals/' + d.slug)})`).join('\n')}
 - [해외 세일 캘린더](${absUrl('/calendar')})
 - [직구 가이드: 면세 한도·합산과세·통관부호](${absUrl('/guide')})
 
