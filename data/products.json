@@ -1569,7 +1569,7 @@
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24640,
-    "domesticKrw": 24500,
+    "domesticKrw": 25690,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1593,13 +1593,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "domesticKrw",
-        "from": 21300,
-        "to": 25690,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.03",
         "field": "domesticKrw",
@@ -1661,6 +1654,13 @@
         "field": "domesticKrw",
         "from": 25690,
         "to": 24500,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 24500,
+        "to": 25690,
         "source": "쿠팡"
       }
     ]
