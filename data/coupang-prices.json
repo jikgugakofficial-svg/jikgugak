@@ -26,29 +26,26 @@
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-11-06T12:34:30.762Z",
+      "at": "2026-11-06T16:29:42.152Z",
       "recordedKrw": 13110,
       "found": true,
-      "apiPrice": 44900,
+      "apiPrice": 13110,
       "isRocket": false,
-      "diff": 31790,
-      "result": "held"
+      "diff": 0,
+      "result": "same"
     },
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-06T12:34:34.761Z",
+      "at": "2026-11-06T16:29:44.253Z",
       "recordedKrw": 59900,
-      "found": true,
-      "apiPrice": 59900,
-      "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-06T12:34:38.816Z",
+      "at": "2026-11-06T16:29:47.920Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -56,7 +53,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-06T12:34:42.835Z",
+      "at": "2026-11-06T16:29:51.810Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -64,7 +61,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-06T12:34:46.752Z",
+      "at": "2026-11-06T16:29:55.935Z",
       "recordedKrw": 74900,
       "found": true,
       "apiPrice": 64900,
@@ -75,7 +72,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-06T12:34:50.774Z",
+      "at": "2026-11-06T16:29:59.830Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -86,7 +83,7 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-06T12:34:54.737Z",
+      "at": "2026-11-06T16:30:03.807Z",
       "recordedKrw": 478390,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -94,7 +91,7 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-06T12:34:58.718Z",
+      "at": "2026-11-06T16:30:07.740Z",
       "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
@@ -105,7 +102,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-06T12:35:02.777Z",
+      "at": "2026-11-06T16:30:11.809Z",
       "recordedKrw": 59500,
       "found": true,
       "apiPrice": 59500,
@@ -116,7 +113,7 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-11-06T12:35:06.935Z",
+      "at": "2026-11-06T16:30:15.861Z",
       "recordedKrw": 56190,
       "found": false,
       "note": "검색 상위 4개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -124,7 +121,7 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-06T12:35:10.795Z",
+      "at": "2026-11-06T16:30:19.916Z",
       "recordedKrw": 51080,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -132,7 +129,7 @@
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-11-06T12:35:14.829Z",
+      "at": "2026-11-06T16:30:23.860Z",
       "recordedKrw": 137500,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -140,7 +137,7 @@
     "amazon-sennheiser-hd600": {
       "productId": "8542629824",
       "keyword": "젠하이저 HD 600 오픈형 헤드폰",
-      "at": "2026-11-06T12:35:18.796Z",
+      "at": "2026-11-06T16:30:27.753Z",
       "recordedKrw": 313970,
       "found": true,
       "apiPrice": 313970,
@@ -151,18 +148,18 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-11-06T13:51:15.358Z",
-      "recordedKrw": 519000,
+      "at": "2026-11-06T16:30:31.775Z",
+      "recordedKrw": 467700,
       "found": true,
-      "apiPrice": 467700,
+      "apiPrice": 519000,
       "isRocket": true,
-      "diff": -51300,
+      "diff": 51300,
       "result": "applied"
     },
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-11-06T13:51:19.253Z",
+      "at": "2026-11-06T16:30:35.773Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -430,5 +427,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-06T15:27:36.801Z"
+  "updatedAt": "2026-11-06T16:30:39.846Z"
 }

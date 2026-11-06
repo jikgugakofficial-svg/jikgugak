@@ -10,27 +10,26 @@
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
-      "at": "2026-11-06T10:43:34.103Z",
+      "at": "2026-11-06T16:30:39.848Z",
       "recordedKrw": 53100,
       "found": true,
-      "apiPrice": 80268,
+      "apiPrice": 78542,
       "result": "held"
     },
     "ali-qcy-t13-earbuds": {
       "itemId": "1005005042789596",
-      "at": "2026-11-06T12:35:22.769Z",
+      "at": "2026-11-06T16:30:42.820Z",
       "recordedKrw": 28565,
-      "found": true,
-      "apiPrice": 28565,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
-      "at": "2026-11-06T12:35:25.145Z",
-      "recordedKrw": 44660,
+      "at": "2026-11-06T16:30:43.137Z",
+      "recordedKrw": 43699,
       "found": true,
       "apiPrice": 43699,
-      "result": "applied"
+      "result": "same"
     },
     "ali-xiaomi-smart-band-10-pro": {
       "itemId": "1005006405553471",
@@ -81,5 +80,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-06T15:27:39.602Z"
+  "updatedAt": "2026-11-06T16:30:43.730Z"
 }
