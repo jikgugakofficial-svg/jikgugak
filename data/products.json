@@ -340,10 +340,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DMeNTa7V",
     "sample": false,
-    "checkedAt": "2026.11.06 알리 자동",
+    "checkedAt": "2026.11.07 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 33161,
+    "priceKrw": 32091,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -368,13 +368,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.30",
-        "field": "priceKrw",
-        "from": 33924,
-        "to": 34036,
-        "source": "알리"
-      },
       {
         "at": "2026.11.01",
         "field": "priceKrw",
@@ -436,6 +429,13 @@
         "field": "priceKrw",
         "from": 32837,
         "to": 33161,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "priceKrw",
+        "from": 33161,
+        "to": 32091,
         "source": "알리"
       }
     ]
@@ -1680,7 +1680,7 @@
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 74713,
-    "domesticKrw": 60300,
+    "domesticKrw": 49520,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1704,13 +1704,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.04",
-        "field": "domesticKrw",
-        "from": 56710,
-        "to": 60300,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -1773,6 +1766,13 @@
         "from": 49480,
         "to": 60300,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 60300,
+        "to": 49520,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1787,11 +1787,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BomHThKe",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.11.06 쿠팡 자동",
+    "checkedAt": "2026.11.07 쿠팡 자동",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 51629,
-    "domesticKrw": 32770,
+    "domesticKrw": 32340,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1816,13 +1816,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.30",
-        "field": "domesticKrw",
-        "from": 37060,
-        "to": 32770,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.01",
         "field": "domesticKrw",
@@ -1885,6 +1878,13 @@
         "from": 37060,
         "to": 32770,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 32770,
+        "to": 32340,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1899,11 +1899,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BowuLFQa",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-1-billion-cfu-60-veggie-capsules/68259",
     "sample": false,
-    "checkedAt": "2026.11.06 쿠팡 자동",
+    "checkedAt": "2026.11.07 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-1b-60",
     "name": "자로우 펨도필러스 10억 CFU 60캡슐",
     "priceKrw": 44886,
-    "domesticKrw": 31300,
+    "domesticKrw": 30930,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1928,13 +1928,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.30",
-        "field": "domesticKrw",
-        "from": 37270,
-        "to": 30930,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.01",
         "field": "domesticKrw",
@@ -1997,6 +1990,13 @@
         "from": 37270,
         "to": 31300,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 31300,
+        "to": 30930,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2015,7 +2015,7 @@
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33002,
-    "domesticKrw": 28190,
+    "domesticKrw": 26980,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2039,13 +2039,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "domesticKrw",
-        "from": 28190,
-        "to": 25520,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -2108,6 +2101,13 @@
         "from": 25730,
         "to": 28190,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 28190,
+        "to": 26980,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2126,7 +2126,7 @@
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23099,
-    "domesticKrw": 21570,
+    "domesticKrw": 19580,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2150,13 +2150,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.04",
-        "field": "domesticKrw",
-        "from": 17600,
-        "to": 21570,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -2219,6 +2212,13 @@
         "from": 20550,
         "to": 21570,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 21570,
+        "to": 19580,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2233,11 +2233,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxF2x1i0",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
     "sample": false,
-    "checkedAt": "2026.11.06 쿠팡 자동",
+    "checkedAt": "2026.11.07 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 58187,
-    "domesticKrw": 31700,
+    "domesticKrw": 30980,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2262,13 +2262,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.31",
-        "field": "domesticKrw",
-        "from": 35040,
-        "to": 30610,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.01",
         "field": "domesticKrw",
@@ -2331,6 +2324,13 @@
         "from": 35040,
         "to": 31700,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 31700,
+        "to": 30980,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2349,7 +2349,7 @@
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 13851,
-    "domesticKrw": 13290,
+    "domesticKrw": 11180,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2373,13 +2373,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "domesticKrw",
-        "from": 11030,
-        "to": 13290,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.03",
         "field": "domesticKrw",
@@ -2442,6 +2435,13 @@
         "from": 11180,
         "to": 13290,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 13290,
+        "to": 11180,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2460,7 +2460,7 @@
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46215,
-    "domesticKrw": 38400,
+    "domesticKrw": 38370,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2484,13 +2484,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "domesticKrw",
-        "from": 38400,
-        "to": 34980,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -2553,6 +2546,13 @@
         "from": 38800,
         "to": 38400,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 38400,
+        "to": 38370,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2571,7 +2571,7 @@
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18476,
-    "domesticKrw": 19750,
+    "domesticKrw": 17860,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2595,13 +2595,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "domesticKrw",
-        "from": 16370,
-        "to": 19750,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.03",
         "field": "domesticKrw",
@@ -2663,6 +2656,13 @@
         "field": "domesticKrw",
         "from": 18040,
         "to": 19750,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 19750,
+        "to": 17860,
         "source": "쿠팡"
       }
     ]
