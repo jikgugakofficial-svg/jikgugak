@@ -1676,11 +1676,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BodRaPiC",
     "buyUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
     "sample": false,
-    "checkedAt": "2026.11.07 쿠팡 자동",
+    "checkedAt": "2026.11.08 쿠팡 자동",
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 74713,
-    "domesticKrw": 49520,
+    "domesticKrw": 60300,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1704,13 +1704,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.04",
-        "field": "domesticKrw",
-        "from": 60300,
-        "to": 49610,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -1772,6 +1765,13 @@
         "field": "domesticKrw",
         "from": 60300,
         "to": 49520,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.08",
+        "field": "domesticKrw",
+        "from": 49520,
+        "to": 60300,
         "source": "쿠팡"
       }
     ]
@@ -2122,11 +2122,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxmVuzgy",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
     "sample": false,
-    "checkedAt": "2026.11.07 쿠팡 자동",
+    "checkedAt": "2026.11.08 쿠팡 자동",
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23099,
-    "domesticKrw": 20670,
+    "domesticKrw": 21570,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2150,13 +2150,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "domesticKrw",
-        "from": 17600,
-        "to": 21570,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.05",
         "field": "priceKrw",
@@ -2218,6 +2211,13 @@
         "field": "domesticKrw",
         "from": 19580,
         "to": 20670,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.08",
+        "field": "domesticKrw",
+        "from": 20670,
+        "to": 21570,
         "source": "쿠팡"
       }
     ]
@@ -2345,11 +2345,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.11.07 쿠팡 자동",
+    "checkedAt": "2026.11.08 쿠팡 자동",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 13851,
-    "domesticKrw": 11180,
+    "domesticKrw": 13290,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2373,13 +2373,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "domesticKrw",
-        "from": 13290,
-        "to": 10910,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -2441,6 +2434,13 @@
         "field": "domesticKrw",
         "from": 13290,
         "to": 11180,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.08",
+        "field": "domesticKrw",
+        "from": 11180,
+        "to": 13290,
         "source": "쿠팡"
       }
     ]
@@ -2567,11 +2567,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BJD6VK8G",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.11.07 쿠팡 자동",
+    "checkedAt": "2026.11.08 쿠팡 자동",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18476,
-    "domesticKrw": 18850,
+    "domesticKrw": 19750,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2595,13 +2595,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.04",
-        "field": "domesticKrw",
-        "from": 16200,
-        "to": 19750,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -2663,6 +2656,13 @@
         "field": "domesticKrw",
         "from": 17860,
         "to": 18850,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.08",
+        "field": "domesticKrw",
+        "from": 18850,
+        "to": 19750,
         "source": "쿠팡"
       }
     ]
@@ -2976,11 +2976,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.11.07 쿠팡 자동",
+    "checkedAt": "2026.11.08 쿠팡 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
     "priceKrw": 130274,
-    "domesticKrw": 117900,
+    "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
     "risks": [
@@ -3005,13 +3005,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "priceKrw",
-        "from": 128394,
-        "to": 128972,
-        "source": "알리"
-      },
       {
         "at": "2026.11.05",
         "field": "domesticKrw",
@@ -3073,6 +3066,13 @@
         "field": "domesticKrw",
         "from": 125900,
         "to": 117900,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.08",
+        "field": "domesticKrw",
+        "from": 117900,
+        "to": 125900,
         "source": "쿠팡"
       }
     ]
