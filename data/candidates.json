@@ -1355,36 +1355,55 @@
       "model": "GO 3S",
       "cat": "it",
       "why": "인스타360 초소형 액션캠, 알리 공식 스토어 판매·국내 정발. 저장 용량(64/128GB)·번들 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-04T12:26:35.335Z",
-      "status": "no_ali",
+      "at": "2026-11-07T13:33:41.456Z",
+      "status": "new",
       "coupangTop": 10,
-      "ali": [],
+      "ali": [
+        {
+          "id": "1005007315759840",
+          "title": "Insta360 GO3 / GO 3S PULUZ 마그네틱 ABS 퀵 릴리스 베이스 마운트용",
+          "price": 13100,
+          "orders": 213,
+          "rating": "94.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9dc7f9a6678e48569f80e487141daad03.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007315759840.html"
+        }
+      ],
       "coupang": [
         {
-          "id": "8540911210",
-          "name": "인스타360 GO 3S 액션캠 128GB",
-          "price": 339000,
+          "id": "9375760350",
+          "name": "스페이스쉴드 아스트로 익스텐션 확장로드 셀피 스틱 1.5m, 1개, 인스타360 GO 3S",
+          "price": 29900,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/uVBN6Hzg1HrO7whTuUTI5-xs9eoAlyaBrmn3IpPvV1MApwej2Xb9_xliy8uK1LwFhtanfsKpW09NiDq87XuH3kn4PK4zK6rAaRm41Mdnm8HwKU_aT3dX3v87NOsikn4_NsTLVpg_JGdAwCqrbNge56p0ZL3lCFc7hhnJMU1EVv5yqe79BHQI7T0pyQCPl5Mdl7ikgvIPWAtL4v_L7x-DPhQPCzPdtFPn2cmLBIDVc8fR55VUgmhPB6WSGu1NLZWKqHFeUQucVYSeQFsBza7EJmPI8-BBtEvvbRIsVwWXmJKJBk2DjfP1FKJzM6BR7GIr-YkWTYRChZPD4TlSSYRqZvJGHDe4UP6At90b2wV9jseGj2exMUUWWdSEsXxxC0aS41rkbcxp9leKF7qzCFP-NUK_y3gHxiRcbIE1vJ8BOBw4Xv-Nyf_BgITvN-G0vAzYVGHY73Hfl7jpAALasxc0zcUrIXdFakpl-YsCyf5KGu7WLPVoWsZ3om8oA_Wd5earxY_x8rd1rATWdZK7YJmoZ5wtAE9-wTqTu4qiN-SOp8MFgU5eWk3_7xCysezC5iaOLNdC_QbjDC7_kuQ=",
-          "url": "https://www.coupang.com/vp/products/8540911210"
+          "image": "https://ads-partners.coupang.com/image1/SVGX58PtTWsMDV5lSbsi19bXscoojN8VTEBWrrifcfNomJF88SNOwH4Uv4NeOxuTRGZloYRPljGXe73LQSnJmLH2eVvHU4LMdDvoNVPs9VLl9vPZTYRVHKmEJTOxbLsq8IijJLYG5gqPTNh9JgAFAeylbf89UEq79JxF-Qv_s1rZl5Te-GUS8QjY7FJAKHk58x7i06P0G4u9CS5cSq4cVmHwtTvRKLzp3oP34-eni4NixMQjpeckx5yV6HOEKXMp2LE2BBrq4kWQ2GnocFUwas_QlW-11QftMFzOj7L_zgkIaX7OazNHdGkSPZlB99LF_OPU10DZLfi8BrYt1QMPlsa5B2l_KbPDDPBp9174Mfdj_VgclJgx-u2x_cqjs3bdWjFI67zzVPOlbufLtoBX4RNsuJpFunO3__rN7QrbSs-lpdS8wKm4bXJ3bNlzPBWBOLtzpnBAep4RJwums0pWBGJaE9QqCPOO59Brg6FgyXwRVrOqRFUNQ5BLTVs4AjXzeuBqWNsuByE=",
+          "url": "https://www.coupang.com/vp/products/9375760350"
+        },
+        {
+          "id": "9510574589",
+          "name": "스페이스쉴드 아스트로 2in1 일체형 트리포드 확장 로드 셀피 스틱 삼각대 1.2m, 1개, 인스타360 GO 3S",
+          "price": 33400,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/1_RBZpi7ccRSv6AM12DMPFFpKwDtqG36OPEwSlXuzk5WnAip3wUGal82OFnzBNMrvGRUzZ8sHj7GNYFasGtHYMnOQsp151yBVW5bRDfXzXLVHnL6hFZMeEySwOpwWBbvpQNjs0rgNG6hICe2_VSs_xdJfKFyHOSCF2Kw2NgtvSPerGjd3uiVuCD0of8rzL15cHDeDaAKJ_MMSa3CPKOpNRdap6SUBXGy47eTcqu3uC3c-36ksEoR1k4NvHuOFX6-aTrOOLQcGZEIEybv2DWFPPUTEP2qzvWdJF2KQGMWIKms5oYRWMbPGkLB2M2M_KaThYiIOQscaZ97UwzCD5zipLQ6MKDQNzTtN58HDLVmpVEBNWBPGgVEXv_f9ZIphfeuHb0_9EgkJN8T2b-fdvQ6JK6Bj-LWVNi4W-nsms2fz0ijDO9dVp3WkvZTDEJbuHUFqp7Wvb9xi1DjAQmWc7xJVLlMAYui0HTFf3bdm-kBtl4A2rozBzcemS2QYEYUSi_WdXPZNMzE-w==",
+          "url": "https://www.coupang.com/vp/products/9510574589"
         },
         {
           "id": "8540911210",
           "name": "인스타360 GO 3S 액션캠 128GB",
           "price": 339000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/edIWzjI6AxnDJc7teakO0IyV1qafdLP3OXls-m1dD9MaATipjmswGjyvi03lQwfdPohifOswCftIS1_74lCEYrXp9Iu_ldSouzlcTzU6o7f-zLIOH-gOuJP8NL5-CQHgo7HLVIDM4NVhrx0tgJrtsHlW2zJxPKVMOm7U9Mb3SqOCIhRU7x-dEay4vlJMT2-B5WaJ0f4dHoYfpqs03InvHcANrrmOw_tEKaN7C9misQa5nWBcD8LOxp3PekwuBUmVuJSPEtbhc90Mod6ikrtX9UFVMcLWC4US-xGkv-bd6XymGPUFbYjA3duV9oUCL3RLSMcA_gOA4Gc1CxAME5TMRZK622pBLHuxgPA6Wfxya3ZLAsMbq5XMpkLAV6N16A9ZMqhBqgq4dlksEB29VIFNHhJHTzykgj7SokMDSTnu3A32Nd2J0mjHUKxZrCB11920bCHck8OyifRX5XeASQCtlX3zvLDWN66iJCYkp8K_FW4ORloKzCeKf5txJQY1PzbGzEn7k28vuy2nA4dsWzV25jMHGqcyGoh8_nokHZUCiH4U6hp5kusOn_Ye_MnPas1NQzIPSxNHZ3UuiRTh2w==",
+          "image": "https://ads-partners.coupang.com/image1/QHfGpNXz6TONNFatQOlgZYNiGquoJN922T6JShrYVA5_RkOJ7ni6qf7KWghlCsRG8265ceL5gKROtRC7q-Ek9E8lsWt_POowiZ3TgIYQUWO9Y6TmkmsRhZa88dhLkva5WV_gPzJaKtQ8eyoHh8oIEx9Z-aRnqYh8fNsWxZQmzuDYM-hk3YvZaK5uui58EP0LZDp7pLu3qSnEslWe6lpVY8Re8nSQ6sq3lc2IRaUitY2_6n4tePmej0jWy2Q94QNT7lkdRHgJq5nStdb1bKH2vy640VNTyoZD2_LBEfqRq2jffsVXIGISlMu3-TOU7citsJpBSUP55NH46H2_g6vCgTO9eMq0wQpontWxgeFO8nNzDtePFIOnyQTHWqVYVa9yIcGqVSs8_VGlyx0Br3aUeUHyVgeaqkrjQiXy_gRdeG_sPNFou_2ApcxpjBmR4mIauqV1k1di7TcCT6dotZRbF8Zrcdq17CshUrdAJQOvqXJWRFF8P6QHpdfBG-TKx1Ue_nrAAXql81eGHngWHeEYYTdXAQ==",
           "url": "https://www.coupang.com/vp/products/8540911210"
-        },
-        {
-          "id": "9785710338",
-          "name": "중고 Insta360 Go 3S 64GB 및 128GB 모델입니다. 흠집 없고 모든 기능이 정상 작동하며 모든 액세서리가 포함되어 있고 상태가 매우 좋습니다. 분해되지 않은 상태로",
-          "price": 389250,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/D_lsIXDGNIhEDwSOD37VLYgW304Hf_qFKR3uxaeUUbZhfOWA7GTh1o5A4YABx5uDJcBplRgvgHu6MIzlYjRut1m4yL32pnmi9iPxdizaq-PLeTbRb3L9pHk0wfNebfGnh2uVgqMWgjz4A4OCjKdumKvhr6iKfCFO4bjR3tisvQNNyAp-xpqJUHCBto5A8CdE98wFhLBgvaJhbx8rRGbv-0_J1pIIkAdI9q-cnrxKFoPHW2hKUeOpENqX3dHzN-tu99Hr0VVUk_sPjR6Sy22yINwp-hQdc0xS2N01woUnPqUKprktJWoRnXrEydCvyQIaHFaRRpx3CxP1TOGymh657XbM2xGPZJI0QaPnxX37Ngn2pfheGTXVEsk_sHxg2pP31sO3fHLvXCmAYBcAx8SDgD8IFaZRz10BjoCUBxTPs50JuZiIBeb9CanEElrEnB_zL5_o_Rc78Oz3UPaEIYOmEjuAhn8TrASr_LmkRS6QzvO1r-0-pIVyTbU5NuOyy3R_CT3kPuvJTVXC1YR8hjl3XOf3Z6-3klgI0NaM_zEPqBwOV_78ue-x7QhfnviaPFzgSU_OzEwMcLtnNHIjwcukfGsuoAVjmoxYOwlt",
-          "url": "https://www.coupang.com/vp/products/9785710338"
         }
-      ]
+      ],
+      "best": {
+        "aliId": "1005007315759840",
+        "coupangId": "9375760350",
+        "aliTotal": 13100,
+        "coupangPrice": 29900,
+        "verdict": "good",
+        "diff": 16800,
+        "pct": 56
+      }
     },
     "Insta360 Ace Pro 2": {
       "q": "Insta360 Ace Pro 2",
@@ -1392,34 +1411,34 @@
       "model": "Ace Pro 2",
       "cat": "it",
       "why": "인스타360 액션캠 상위 모델, 알리 공식 스토어 판매·국내 정발. 번들(스탠다드/올인원) 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-04T12:26:42.339Z",
+      "at": "2026-11-07T13:33:47.057Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
-          "id": "8514006087",
-          "name": "인스타360 듀얼 배터리 액션 카메라 Ace Pro 2",
-          "price": 415150,
+          "id": "9428312644",
+          "name": "인스타360 Ace Pro 2 싱글 배터리 표준 번들 액션캠",
+          "price": 395200,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/tbgd0ef9nSuR_JHLteRSEYaMp5pjG684AxbUfvCbNhzeJHC84q8JyM2xbm3YuR0iSvEKMd75Rgjm7MWdVwHiYVcr0UqkE2cCl3jGGG_s1KRfJahMSVh8OJWwDMokEeQxf2e30Vj-gPJ8l3eB8v031sKm3G03x_qGmF7fOQeTpigJObFcP1iTrErv8KJuJuCzwKRZNZOvPy8o3hYvQ3AQhla5uxDnWktGxVIN6x0JEbFjxTCaESWNJ5IPbyikZ7gkFfO5Cqa-LBFa9Gzz11hCyxKTZWehiYIGfwD8Xk0kSGos0R27KSWg0hm7OJUZmBbYYlp9vSpQkTalSWSi2lefx3ubK836paauvCaQ_r5LZ3RkIqs9jQSRS4JnjgXiEwyVZJwlqzdDNPKwMGffRcYDmHVr2yLQN6S8PW6MdLS6N7udA0e4QvHJmacXH1h0DLne1HREvCv2YmCTBxAylsBvbLVZne7oImeEqysDNzkUArTKlotQILwphLd3uLu6yFnhyMU0dlmLh5CW1LGb72GhmADB",
-          "url": "https://www.coupang.com/vp/products/8514006087"
+          "image": "https://ads-partners.coupang.com/image1/lIQp1tnpW0J-IqySlP9Qw5ozW5_i4ZKN4-GuNQPJ9DzxsxBpD-q0ot0M3MErKlXPITUxw_fBukHGMeY3JRtmqJ0-VaucI2s93U9dF9VkGYhJvq3w6AXd1UEU9u13obzsF_WoXciQBNKxGL03vwjxJAzFjGeQWGhNvLMo_7E73Dduaa3lk113EVrQ6YxCNa5YRZhkCJxUF1k5zu3a3XOI3IZ-qICkHlkuYyORzCHi3oK2yfdMDlJgAjxwHYBKISYBNp_zuun9PWo3Hgxod2DrqDgTwaeANAXGTbcfN5NnGf7a6JfdIaMVnx4mxhtdDAivM08-n3w_HwtMJJwA7ZYO1pM3Yy2tQApnFUmvbQ4U3J5kZWiFaAnrTZeNgZ8BghczxhDvbWCD6AIt9YCns9xjfeRkzDODFof-CKe_Kojd1AEHbnLQnU1vjz3gM9_sjPmVF4axpjgi8XNQAwEEcKfehYVG3P1Vr7GALqZp9aHwx1UKhUgmljMyylnQaL01oPpwSHWA7TYWjElhU38OPkALwjIJ",
+          "url": "https://www.coupang.com/vp/products/9428312644"
         },
         {
           "id": "8801277234",
           "name": "인스타360 싱글배터리 스냅샷 액션캠 Ace Pro 2",
-          "price": 472150,
+          "price": 497000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/0y157I7ifVzJUXtJ07IIAnkpdW63iJxokIhNefYfEQzvx4tLX42SxEuaq5I7KQ-lZZH68gEpUFN0FtqzfiqMLFplBBJil8Lk0bvdzqgwEhrcPxW7F6QjMhL111RAXREqKmld0M4FY0Rq5OPTwAudhZYpC9XU82HqXUxKANZ8fQ1Qkql7y0-NLxi3dKjwnP8zgw31t17LTchm6gBQrcXD0lCzLe3l4NXFUpKHz21pgF_NpfWk6V7gLT6fwCdczGHs_r7HuAN9Co5DFDKvpGgnqCO4JZ3Oa4uvkn6coRGpzTtOvWfFoveJiRfjVvXHtR2lJYtFBn7sRjHDBd_vYQr-Ow1eUpo5ppqTXHla6h13A6li-P0QFL23PGZsD7au9XGAmuiBheikNwK_NS-gj0xWN5WFpi1GJV4jgpstdc-SfkF66AMVZsV6rsNlhOd0gbausXBGVmDj9-uNAA6d3jonQ2Nz7HNvNj0Xhr6KAPY1g32gyoQtcC4toPXGgiYJrjfBRE1Ty6VIlx6JXHtMBKEdx-1h",
+          "image": "https://ads-partners.coupang.com/image1/0WPrn8-9YfczEPcZ0W6OSEi_C_M_KGLZAHRpyPur8UTVUw7XwEZxkQ-TyO2BFh76qEAgZ5E2KAIQroRTd9vlfIV-R7L_4Y7kvnEAckJp85tHBzkAzD0ddv8RqomOOeohHV8Mo0EJD9pUmA-mKTPjKTqxFR8ZdHDlRqWBVpmN_w2kuyTl7KNKbyD7iqCqeqlR_E8za-MxP5PDRMhdW_WQ0VTJLA8RUsqEnRLN3oRrIZ4F9W8neUgrluHIYVdqRfmcY66C5jbXm6r7Jx7DfIEdwdgtF14O8CERsIWsKFRJig6otNoX-sAnQVy2W2iDyNqF7HDojwPn6MuadRgGsfPzH7MrEjm8JSAtGfo97h1KgWFVfE9B5WvGy2q4whmQ5nRKELdfpqG2ZcjvI0UwMlixxFMXYm2WSsyH0pgnfOLhXngTdpG19fBBYxoMIn0nBNxpUGFzCHLpxPgYkn-DqXBwOC3MvowLdASKaMFR8sFOxu7AbIOlhdx9VBjjOZFP118OARlnFb8bahDQQTh1qOZCVO-D5Q==",
           "url": "https://www.coupang.com/vp/products/8801277234"
         },
         {
-          "id": "8801277234",
-          "name": "인스타360 Ace Pro 2 스냅샷 번들 액션캠",
-          "price": 616550,
+          "id": "8514006087",
+          "name": "인스타360 듀얼 배터리 액션 카메라 Ace Pro 2",
+          "price": 546950,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/5h2_DFXy2OsFkwTU5sb-ho2579dRlBoSUexboiPQaT_PEru6k2I5HFa_sn2WEVokhKC6O99VhiGkc9Py8iUxCSUMYTnUChYiUPflKCS4HvA9GAZOwriz-tDJGwWeQJGgokIeQmfZxVMD1qKt2899eZ4AYha-BFTXxdU0K4a4O6hPqrnRum0_Gj6NKgQMKZj57Ws8oKm6HoEk2HRvgwuLaJoWT3AsRWc60fl0oCH_4KtgBzOzuQCsW8BmuA93C-_C8xfSbGwREaTKMY15_yjA-Px2AgLCJujM_xYL4SOn70GUAH-YiOboRPdGxCL4Wnbf9wJraS-eaYkSs46g3tGX0gxeM4CpXgxNGxUUeHd-QI1IhPijlE8iGcWiJT6-CiCAbkYXu6gaDLpnBfBctkUxyvQtcfxr8o-V2jKD68TKIAlk-cDEVU2AUit4akg0T-yUcCHsavu5A2LsdqzTRSna_uGFv5-Oxti25Xj9rU5gM0XKChasDrFO2MCaPyMWKhNkpuKJD0z4mEH44ce9ibplYnc=",
-          "url": "https://www.coupang.com/vp/products/8801277234"
+          "image": "https://ads-partners.coupang.com/image1/3KRvHgpfSOZH34WF3CNhi8RDbDT_6X3zMzJbyoWbzdRN-VWEN9Xzjha_JPhFlK0796CZva1VhT-vUwGE6o3hXgrDdc6nu3q80MbBBrl6XsCsduqigXoGQwfPfULlvEZotgBc-ponF30z7UkC0gPZmDTjB364GdylZDvQIBqYwWgcXxpLwYpuwW5FQge70LnpsWopqDRkeDvF-zw2mHHXVItuGyPqqXElzq9XCVA1E8bNSslyHQD_mveK7OY2lD5N92i7ItWK6vH7nFHO4Q3ns7qRO-AB4ZZ2r4-NlayV-v8BG1Nm4BhJj89jnykYg1t69DQ9rznKikY7cSERcV8mFmKMQmHjUYqKXNwC_I4VeKmEANKApLvS8mbkRlJpe2CijkXCoIl8beDhn0akh2hXRrm6goYwDAOLvxEFiEw-NU6KFozwzb1SUvSrZoz0Ir7xx3e2s7RIPm1Ix3W_pri0wO8vSWYSt0pE0nHZQYQ64IaltnA4DChgXRPyf-pImUiUma95LuskhjNKGbyx0v68e513",
+          "url": "https://www.coupang.com/vp/products/8514006087"
         }
       ]
     },
@@ -7011,5 +7030,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-07T11:16:19.617Z"
+  "updatedAt": "2026-11-07T13:33:50.691Z"
 }
