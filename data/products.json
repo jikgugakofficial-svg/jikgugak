@@ -1060,7 +1060,7 @@
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 519000,
+    "domesticKrw": 467700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cl6XCfI",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1077,13 +1077,6 @@
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
     "priceLog": [
-      {
-        "at": "2026.10.29",
-        "field": "domesticKrw",
-        "from": 482700,
-        "to": 519000,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.03",
         "field": "domesticKrw",
@@ -1145,6 +1138,13 @@
         "field": "domesticKrw",
         "from": 467700,
         "to": 519000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.07",
+        "field": "domesticKrw",
+        "from": 519000,
+        "to": 467700,
         "source": "쿠팡"
       }
     ],
