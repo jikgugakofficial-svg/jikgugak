@@ -1607,15 +1607,15 @@
       "model": "Space One",
       "cat": "audio",
       "why": "사운드코어 ANC 헤드폰 인기 모델(Space A40의 헤드폰 라인), 국내 정발·알리 공식 판매. Space One Pro와 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-04T16:33:08.098Z",
+      "at": "2026-11-07T19:24:15.030Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005005975276303",
           "title": "Anker SoundCore Space One /Hires/LDAC/블루투스 무선 능동형 소음 감소 이어폰",
-          "price": 105400,
-          "orders": 63,
+          "price": 107000,
+          "orders": 66,
           "rating": "95.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc9d0c1e7dbad4682986c9cadccfa95eej.jpg",
           "url": "https://ko.aliexpress.com/item/1005005975276303.html"
@@ -1625,19 +1625,19 @@
         {
           "id": "9771967331",
           "name": "Anker Soundcore Space One 블랙",
-          "price": 121560,
+          "price": 122850,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/TmCugbBpLQu_GuP9TocIV-updpEwGcAuACATbvMjwy0PXYBQ_bTqoqS0EFCsYAsp6BHRlcAlAc4F50CYy_cOj5qPh4KDakxPJZmGTCrWkL0v-I4Q4XdD0ziBKH2H1AENxe58VUjG7YyWpCQoCDcw0iboWKqJSnhixZ2HIyK_RfnsiP63fEPgTKSFIpPFCkv1YvDpBVxZ5XP_eIKMjVeLU84xg7Bb9feuArhyoktXR9x_P9-VwJfaw-nKg4a8Y5cOsEyLNDAzmP6N7qSK1BUCIEaQF36OTMlXtocrtSryHB9jBBNPavnOzn8XLPvY5ob5DfBCGLET8b_PAa7ndt9UrtumIImHnaZrRAw1n8nKSpDbOdgkL6yXwgQlL-mreqlVM_tSfA_-GgQ5KVByXQI1d4xrlSd-6C3bBSAEE-BJsi6DVVHRmO9fb9Nu_wgCbLPhXCY_rHEDuifaYkGBPeDX3TAlFTFksMfQ4-U-PfgJdZdYUBVZeR27Od_4elSySlpMPYxxV4XppQhcF5NGNfXNf2Ws4wzWHu_ZkXfa-Vjst3t72DU=",
+          "image": "https://ads-partners.coupang.com/image1/WUKWahV9wtCpkfuRWZaykn67uN6p1t6LW6y0_7qHrc-YsRhKpeL8NFIYsG6IJVsb38Tewbff_3feHxP6MDZvoPYRwBgaAvIbAOfJEd295PgbNJy8aI146wrwfpsSJKApGW6-1wAA1wlmfPcUGutgOZP5jvncjQVlwlCN3KZWwJiXV_A3agUxI6DrE_Hjx-B-Rphfz2bD8GfkuiA4SZZ2qXGP9tOgw99CpBzFRyxmDHkBuhmqAsdz1ZDkO4omEbDm2ZpHl0DEckjcz0f7inchSW57RRx7xErQ-zozUv_UbXSz3AMcpobI1PhLLRN3YwecXzCOhA74QrvgA28Hirt7qLC6klk8jYoQ4yB3h9MrZHqgwgNBjbHojgRVm9PgNMsc4I-p_RPB5IksTpnlCbPNITgk7DHjd8vCq8_eyOi9e2D8PMPZPF6oGgWKjYgenmsDZvB9BV-55A7mgOFjcsF7ANBTBiTXSPoOgTmtPUnTp5hmVm_B6BG5opqIgyILz-u44wxNLZ4sFMz5_AfDdGit6ZcIv6FRKg92rCdsRdkS03dGfQ==",
           "url": "https://www.coupang.com/vp/products/9771967331"
         }
       ],
       "best": {
         "aliId": "1005005975276303",
         "coupangId": "9771967331",
-        "aliTotal": 105400,
-        "coupangPrice": 121560,
+        "aliTotal": 107000,
+        "coupangPrice": 122850,
         "verdict": "meh",
-        "diff": 16160,
+        "diff": 15850,
         "pct": 13
       }
     },
@@ -7030,5 +7030,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-07T17:16:22.318Z"
+  "updatedAt": "2026-11-07T19:24:20.288Z"
 }
