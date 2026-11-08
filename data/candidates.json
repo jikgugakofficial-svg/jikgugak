@@ -1754,11 +1754,20 @@
       "model": "Watch 5",
       "cat": "it",
       "why": "레드미 워치 5(일반형, Lite·Active 아님). 레드미 워치 6 퀘이사존 알리 글(국내 대비 비교 댓글)과 같은 라인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T01:51:32.831Z",
-      "status": "none",
+      "at": "2026-11-08T03:31:25.673Z",
+      "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "8809477616",
+          "name": "글로벌 버전 Xiaomi Redmi Watch 5 활성 블루투스 전화 통화 Smartwatch 2 대형 스크린 140 스포츠 모드 5ATM 방수 InStock",
+          "price": 69250,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/qTUV8fK0q6m0dQAtqcJL3OqwGUZuOjYz4paK4k37d2_dTtfqOePFTYcAYlYYVuXshBrP8YsS04BzREDyxnR4BX_7TnMp-IwxVn7XJv79Q-6CrBTfS2-6pJmubdul0lx8RLHD0LeestjZTBGflOOSBYHa2sYuMGaFU12Wq7dvmlY0Tf28ILITRmuAR-cDkalU40cwEqCI9fnG6NvrDMO4XC4nhMGh1y-Wmb57dZ97u76ON8zrgiQhuozOWapMYM37rCd6oNmOv0dd0OrvJHdc7PBlNzdZCIVKx2mA_l-qpElgXLX3J5trtwmOE9RYlPx3UO0eyqkcjG36BiTrP9mAJVObitRPxkSHd8f5j7WJHZBuRDb970k0GyWHod5SQ5gSgKP2uVN0ObZ_lac1v_GNrxUmdQoBs0fcA3_KIKif-b2-qO_io86k3lqDZz-unJCLNzVSJtoiUvyZCbr22esJD-JNDKF9lq6_S1Ny3no541FLXsnmdGUZlnATMoU_X9Gd3Wc4I7Me9_AZtCxy7X5YcurBfKJ5YXovSz2915l4e2kbAfo91q-hFuuc7U-0VIQM7l951VMaW9H2LuGtXONp1rJK7qpfSry8hHhpUw==",
+          "url": "https://www.coupang.com/vp/products/8809477616"
+        }
+      ]
     },
     "Xiaomi Robot Vacuum E10": {
       "q": "Xiaomi Robot Vacuum E10",
@@ -1766,7 +1775,7 @@
       "model": "Robot Vacuum E10",
       "cat": "home",
       "why": "샤오미 코리아 정발 로봇청소기 입문형, 알리 글로벌 판매. 로봇청소기라 부피·AS 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T01:51:38.038Z",
+      "at": "2026-11-08T03:31:30.710Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -7005,5 +7014,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-08T01:46:06.395Z"
+  "updatedAt": "2026-11-08T03:31:34.396Z"
 }
