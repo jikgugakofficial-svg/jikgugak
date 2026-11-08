@@ -1,0 +1,36 @@
+{
+  "approved": false,
+  "approvedBy": "",
+  "schedule": "2026-11-11T00:22:00Z",
+  "series": "2026-11-09-week-sns (광군제 당일, 유형 D 숫자 없음)",
+  "plan": "5주 계획 T-7(성장 계획 5장 유형 D). 가격 숫자 없음, 판정 기준(20%·1만 원)과 세일 끝 날짜만",
+  "livecheck": {
+    "checkBy": "2026-11-11 08:40 KST 전",
+    "page": "https://www.jikgugak.com/deals/1111",
+    "items": [
+      {
+        "what": "알리 광군제 세일 끝 날짜(data/events.json singles-day, confirmed·source 있음)",
+        "url": "data/events.json · https://www.jikgugak.com/calendar",
+        "expect": "본 세일 11/1 0시~11/18 23:59(한국 시간), status confirmed",
+        "inText": "18일 밤까지"
+      },
+      {
+        "what": "판정 기준(data/settings.json rule)",
+        "url": "data/settings.json",
+        "expect": "minSavePct 0.2, minSaveKrw 10000",
+        "inText": "20% 이상, 그리고 1만 원 이상"
+      }
+    ],
+    "note": "가격 숫자가 없는 글이라 실물 확인은 세일 날짜와 기준만. 같은 첫 줄이 3일 안에 올라간 적 없음(11/10 첫 줄과 다름).",
+    "ifChanged": "세일 끝 날짜가 바뀌었거나 confirmed가 아니면 넷째 문단의 '18일 밤까지' 문장을 빼고 게시해도 돼요(숫자 없는 글이라 운영자 재승인 없이 매니저 판단). 판정 기준이 바뀌었으면 멈추고 팀장에게."
+  },
+  "channels": {
+    "threads": {
+      "texts": [
+        "(광고) 오늘 11월 11일, 광군제 장바구니 최종가 확인하셨어요?\n\n할인율이 커 보여도 같은 모델이 국내에서 더 쌀 때가 있어요. 알리에 보이는 가격에 배송비와 관세·부가세까지 더한 게 최종가예요.\n\n직구각은 이 최종가가 국내 최저가보다 20% 이상, 그리고 1만 원 이상 쌀 때만 직구각이라고 해요. 조금 싼 정도면 기다리는 1~2주 값이 안 나올 수 있어요.\n\n알리 광군제 세일은 18일 밤까지예요. 결제 직전 가격으로 한 번만 더 비교해 보세요.\n\n오늘 장바구니에서 제일 고민되는 상품은 뭐예요?"
+      ],
+      "topicTag": "광군제"
+    }
+  },
+  "autoFix": "운영자 11/2: 판정 단어 같고 차이 금액 변화 5% 이내면 매니저가 글 숫자를 그날 값으로 고쳐 바로 게시. 판정이 바뀌거나 5% 넘으면 다시 승인. 이 글은 가격 숫자가 없음"
+}
