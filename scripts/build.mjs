@@ -675,7 +675,7 @@ const dealLive = (d) => !d.publishFrom || d.publishFrom <= kstToday();
 function pageDealsAmazon(d) {
   const ev = events.find((e) => e.id === d.event);
   const approx = (n) => { const k = Math.floor(n / 1000), man = Math.floor(k / 10), chun = k % 10; return `약 ${[man ? man + '만' : '', chun ? chun + '천' : ''].filter(Boolean).join(' ')} 원`; };
-  const targets = items.filter((p) => p.store === 'amazon' && !p.sample && p.ev.kind === 'break' && !p.unavailable);
+  const targets = items.filter((p) => p.store === 'amazon' && !p.sample && p.ev.kind === 'break' && !p.unavailable && !p.bfHold); // bfHold: 쿠팡가 확인이 오래된 상품은 잠시 빼요
   const showTable = targets.length >= 6;
   const rows = targets.map((p) => `<tr>
     <th scope="row"><a href="/p/${esc(p.slug)}">${esc(p.name)}</a></th>
@@ -837,7 +837,7 @@ function nextSaleCircle() {
 function pageSale() {
   const chips = upcoming.slice(0, 5).map((e) => `<span><b>${evRange(e)}</b> ${esc(e.name)} <i ${ddayAttr(e)}>${evDday(e)}</i></span>`).join('');
   const good = items.filter((p) => p.ev.verdict === 'good');
-  const targets = items.filter((p) => p.ev.kind === 'break' && !p.unavailable); // 지금 한국 배송이 안 되는 상품은 목표가 표에서 빼요
+  const targets = items.filter((p) => p.ev.kind === 'break' && !p.unavailable && !p.bfHold); // bfHold: 쿠팡가 확인이 오래된 상품은 잠시 빼요 // 지금 한국 배송이 안 되는 상품은 목표가 표에서 빼요
   const domestic = items.filter((p) => p.ev.verdict === 'bad' || p.ev.verdict === 'meh');
   const rows = targets.map((p) => {
     const sale = nextSaleFor(p.storeName);
