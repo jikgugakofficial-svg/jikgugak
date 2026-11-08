@@ -1,4 +1,4 @@
-<title>네이버 게시 키트</title>
+<title>{{SET}} 키트</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
@@ -102,7 +102,9 @@ code{font-family:var(--mono);font-size:13px}
 <script>
 function flash(key, text){ const m=document.querySelector('[data-msg="'+key+'"]'); if(m){ m.textContent=text; setTimeout(()=>{ m.textContent=''; },2500);} }
 function selectEl(el){ const r=document.createRange(); r.selectNodeContents(el); const s=getSelection(); s.removeAllRanges(); s.addRange(r); return s; }
-async function copyText(t,key){ try{ await navigator.clipboard.writeText(t); flash(key,'복사했어요'); }catch(e){ flash(key,'복사가 막혔어요. 글자를 드래그해서 Ctrl+C 하세요'); } }
+// 클립보드 API가 막힌 화면(앱 파일 보기 등)에선 숨은 입력칸으로 한 번 더 복사해 봐요
+function copyFallback(t){ try{ const ta=document.createElement('textarea'); ta.value=t; ta.setAttribute('readonly',''); ta.style.cssText='position:fixed;top:0;left:0;opacity:0'; document.body.appendChild(ta); ta.select(); const ok=document.execCommand('copy'); ta.remove(); return ok; }catch(e){ return false; } }
+async function copyText(t,key){ try{ await navigator.clipboard.writeText(t); flash(key,'복사했어요'); return; }catch(e){} if(copyFallback(t)){ flash(key,'복사했어요'); return; } flash(key,'복사가 막혔어요. 글자를 드래그해서 Ctrl+C 하세요'); }
 document.querySelectorAll('[data-copy-el]').forEach(b=>b.addEventListener('click',()=>copyText(document.getElementById(b.dataset.copyEl).innerText.trim(), b.dataset.copyEl)));
 document.querySelectorAll('[data-copy-text]').forEach(b=>b.addEventListener('click',()=>copyText(b.dataset.copyText,'tags')));
 document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>copyText(b.dataset.copy,'tags')));
