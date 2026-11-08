@@ -10,10 +10,10 @@
     "domesticUrl": "https://link.coupang.com/a/h1CZEniThk",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-omega-3-premium-fish-oil-100-fish-gelatin-softgels-1-100-mg-per-softgel/62118",
     "sample": false,
-    "checkedAt": "2026.11.04 저녁",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-cgn-omega3-premium-100",
     "name": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-    "priceKrw": 16532,
+    "priceKrw": 16802,
     "domesticKrw": 31170,
     "domesticSource": "쿠팡 1개, 무료배송",
     "risks": [
@@ -36,7 +36,16 @@
       "model": "CGN 오메가3 프리미엄 피쉬 오일 100정 (총 오메가3 640mg·소프트젤당 1,100mg)",
       "note": "",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 16532,
+        "to": 16802,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -160,10 +169,10 @@
     "domesticUrl": "https://link.coupang.com/a/h1C2dCAIbQ",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
     "sample": false,
-    "checkedAt": "2026.11.05 오전",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-now-vitamin-d3-k2-120",
     "name": "나우푸드 비타민 D3 & K2 120캡슐",
-    "priceKrw": 11537,
+    "priceKrw": 11693,
     "domesticKrw": 13110,
     "domesticSource": "쿠팡 로켓직구 1개(120정) 배송비 포함(와우 무료배송)",
     "risks": [
@@ -218,6 +227,13 @@
         "from": 11505,
         "to": 11537,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 11537,
+        "to": 11693,
+        "source": "매니저 브라우저 확인"
       }
     ]
   },
@@ -232,10 +248,10 @@
     "domesticUrl": "",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-lactobif-30-probiotics-60-veggie-capsules/64009",
     "sample": false,
-    "checkedAt": "2026.11.05 오전",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-cgn-lactobif-30-60",
     "name": "캘리포니아골드뉴트리션 락토비프 30 유산균 60캡슐",
-    "priceKrw": 24875,
+    "priceKrw": 25212,
     "domesticKrw": 50000,
     "domesticSource": "쿠팡 1개, 무료배송",
     "risks": [
@@ -265,6 +281,13 @@
         "from": 24807,
         "to": 24875,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 24875,
+        "to": 25212,
+        "source": "매니저 브라우저 확인"
       }
     ]
   },
@@ -980,10 +1003,10 @@
     "domesticUrl": "https://link.coupang.com/a/h2OJC6rAQu",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-whey-protein-double-rich-chocolate-5-05-lb-2-29-kg/27509",
     "sample": false,
-    "checkedAt": "2026.11.04 저녁",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-on-gold-standard-whey-5lb",
     "name": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-    "priceKrw": 164128,
+    "priceKrw": 166809,
     "domesticKrw": 137500,
     "domesticSource": "쿠팡 해외 판매자 1개, 쿠폰가(10월 쿠폰, 기간 한정)·무료배송",
     "risks": [
@@ -1005,7 +1028,16 @@
       "model": "옵티멈 골드 스탠다드 100% 웨이 더블 리치 초콜릿 5lb (쿠팡 6714215076, 유청 구분 혼합·포장 100% WHEY)",
       "note": "쿠팡은 2.27kg, 아이허브는 2.29kg(5.05lb)로 표기만 달라요. 쿠팡에는 바코드가 표시되지 않아 모델·맛으로 맞췄어요",
       "checkedAt": "2026.10.26"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 164128,
+        "to": 166809,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -3364,10 +3396,10 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 저녁",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-cgn-s-acetyl-glutathione-120",
     "name": "캘리포니아골드뉴트리션 S-아세틸 L-글루타치온 100mg 120캡슐",
-    "priceKrw": 57208,
+    "priceKrw": 58143,
     "domesticKrw": 81300,
     "domesticUrl": "https://link.coupang.com/a/icOCWUcqGW",
     "domesticSource": "쿠팡 120정 1개 최저가, 무료배송(해외 배송)",
@@ -3393,7 +3425,16 @@
       "note": "쿠팡 상세에 바코드 표기가 없어 상품명·함량·정 수(100mg, 식물성 120캡슐)로 확인. 아이허브 UPC 898220019007",
       "checkedAt": "2026.10.28"
     },
-    "imageSkip": "10/28 매니저: 쿠팡 제공 사진이 30캡슐 2병(60회분 옵션) 사진이라 120캡슐 비교와 안 맞아 안 씀"
+    "imageSkip": "10/28 매니저: 쿠팡 제공 사진이 30캡슐 2병(60회분 옵션) 사진이라 120캡슐 비교와 안 맞아 안 씀",
+    "priceLog": [
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 57208,
+        "to": 58143,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -3404,10 +3445,10 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 저녁",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-cgn-marine-collagen-500g",
     "name": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-    "priceKrw": 58214,
+    "priceKrw": 59165,
     "domesticKrw": 82000,
     "domesticUrl": "https://link.coupang.com/a/icOCWZKaTk",
     "domesticSource": "쿠팡 500g 1개 최저가, 무료배송(해외 배송)",
@@ -3433,7 +3474,16 @@
       "note": "쿠팡 상세에 바코드 표기가 없어 상품명·맛·용량(무맛 500g)으로 확인. 아이허브 UPC 898220018642",
       "checkedAt": "2026.10.28"
     },
-    "imageSkip": "10/28 매니저: 쿠팡 제공 사진에 '3개' 표시가 있어 1개(500g) 비교와 안 맞아 안 씀"
+    "imageSkip": "10/28 매니저: 쿠팡 제공 사진에 '3개' 표시가 있어 1개(500g) 비교와 안 맞아 안 씀",
+    "priceLog": [
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 58214,
+        "to": 59165,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   },
   {
     "store": "iherb",
@@ -3444,10 +3494,10 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 저녁",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-jarrow-ultra-boneup-240",
     "name": "자로우 울트라 본업 240정",
-    "priceKrw": 54850,
+    "priceKrw": 55746,
     "domesticKrw": 79400,
     "domesticUrl": "https://link.coupang.com/a/icOCW4TpBI",
     "domesticSource": "쿠팡 울트라 본업 240정 1개 최저가, 무료배송(해외 배송)",
@@ -3481,6 +3531,13 @@
         "from": 55527,
         "to": 54850,
         "source": "아이허브"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 54850,
+        "to": 55746,
+        "source": "매니저 브라우저 확인"
       }
     ]
   },
@@ -3493,10 +3550,10 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 저녁",
+    "checkedAt": "2026.11.09 저녁",
     "slug": "iherb-cgn-organic-spirulina-720",
     "name": "캘리포니아골드뉴트리션 유기농 스피룰리나 500mg 720정",
-    "priceKrw": 41641,
+    "priceKrw": 42321,
     "domesticKrw": 56400,
     "domesticUrl": "https://link.coupang.com/a/ic5kAVDfDE",
     "domesticSource": "쿠팡 ₩49,700 + 배송비 ₩6,700",
@@ -3522,6 +3579,15 @@
       "note": "쿠팡 상세에 바코드 표기가 없어 상품명·함량·정 수(유기농 스피룰리나 500mg 720정)로 확인. 아이허브 UPC 898220011766",
       "checkedAt": "2026.10.28"
     },
-    "image": "https://ads-partners.coupang.com/image1/CstokqcDROOqNUZjCj8tth6akgrXLOI1Py9M8Qdd1nOYTr5Hu0PP8tC0VRj7z4mW2WFD9-gKagiw7UuxZtT37flE8Jcog-kHFIwk28k6pmDtGJGKc8BM_ytoTpits5_HmMTqwxEMAo-OFDxTYluO2JfwlrxutCuwcFLFo9eXfGsZOSNzjZ_eYqF88WmFpiTWKkL7Kay4utovPPF8GZ_ooEi1ng5PcK02dm6WdbHmWEWRe18UpxImTXtyQPZ80ConAWcO7zomExK1caYoQ6Y6jkCectV5YczLPiEqONJw3XAOFz7nZ7K3Vh8qtTjLzotU_EC6GAKKY-oPmuq0zp7ZxsbjAJNELFDD-nVbu93Q4ACLljmHsZhFcs1cdAPGmw-iizQqHi0asx9s-n3uhc0FYBj4a5P0hsvzkp_s4Q_oBMY63Lb_0KW4VWnNAjZW_EPKw9kBFQ2_2NjK6kK5Xtvkoxu6TDWDTuBFYZ-TnjT1WwcyEeVLw6UosnGl60o3FA8w7EI_Slzhp213Vma_MNV5p9L-1XbFObQvLjhY7kW6Ql-xpw=="
+    "image": "https://ads-partners.coupang.com/image1/CstokqcDROOqNUZjCj8tth6akgrXLOI1Py9M8Qdd1nOYTr5Hu0PP8tC0VRj7z4mW2WFD9-gKagiw7UuxZtT37flE8Jcog-kHFIwk28k6pmDtGJGKc8BM_ytoTpits5_HmMTqwxEMAo-OFDxTYluO2JfwlrxutCuwcFLFo9eXfGsZOSNzjZ_eYqF88WmFpiTWKkL7Kay4utovPPF8GZ_ooEi1ng5PcK02dm6WdbHmWEWRe18UpxImTXtyQPZ80ConAWcO7zomExK1caYoQ6Y6jkCectV5YczLPiEqONJw3XAOFz7nZ7K3Vh8qtTjLzotU_EC6GAKKY-oPmuq0zp7ZxsbjAJNELFDD-nVbu93Q4ACLljmHsZhFcs1cdAPGmw-iizQqHi0asx9s-n3uhc0FYBj4a5P0hsvzkp_s4Q_oBMY63Lb_0KW4VWnNAjZW_EPKw9kBFQ2_2NjK6kK5Xtvkoxu6TDWDTuBFYZ-TnjT1WwcyEeVLw6UosnGl60o3FA8w7EI_Slzhp213Vma_MNV5p9L-1XbFObQvLjhY7kW6Ql-xpw==",
+    "priceLog": [
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 41641,
+        "to": 42321,
+        "source": "매니저 브라우저 확인"
+      }
+    ]
   }
 ]
