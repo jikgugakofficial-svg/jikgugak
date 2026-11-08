@@ -1986,7 +1986,7 @@
       "model": "Clip 5",
       "cat": "audio",
       "why": "JBL 휴대용 스피커 인기 모델, 국내 정발가 대비 알리 JBL 스토어 차이 확인 가치. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T09:37:33.651Z",
+      "at": "2026-11-08T13:31:45.130Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -2372,36 +2372,36 @@
       "model": "Flip 7",
       "cat": "audio",
       "why": "JBL 휴대용 스피커 대표 라인 신제품(Flip 6 후속), 국내 정발가가 높은 편. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T09:37:38.529Z",
+      "at": "2026-11-08T13:31:51.138Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012906079114",
           "title": "JBL Flip 7 휴대용 스테레오 블루투스 스피커, 1:1 복제품, 강력한 사운드, IP68 방수 기능, 야외 활동용, 선물용",
-          "price": 33200,
-          "orders": 292,
-          "rating": "82.6%",
+          "price": 33500,
+          "orders": 300,
+          "rating": "80.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd6033b35be34542a5d8335a4049b704N.png",
           "url": "https://ko.aliexpress.com/item/1005012906079114.html"
         },
         {
-          "id": "1005012951969936",
-          "title": "JBL Flip 7 방수 스피커 - IP68 방진 휴대용 스테레오 시스템, 사운드 부스트 딥 베이스 기능 탑재, 아웃도어용",
-          "price": 52300,
-          "orders": 187,
-          "rating": "88.1%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e53ac51e4924a5c86364580ee8b34ddV.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012951969936.html"
-        },
-        {
           "id": "1005012960512314",
           "title": "JBL Flip 7 휴대용 블루투스 스피커 - IP67 방수 강력한 사운드 무선 야외 음악 플레이어",
-          "price": 47400,
-          "orders": 65,
-          "rating": "98.5%",
+          "price": 47900,
+          "orders": 67,
+          "rating": "98.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S174f7d34869741c0a2f2c2d58a575e3eQ.jpg",
           "url": "https://ko.aliexpress.com/item/1005012960512314.html"
+        },
+        {
+          "id": "1005013176720089",
+          "title": "JBL Flip 7 휴대용 블루투스 스피커, IP68 방수 및 방진 기능, 강력한 사운드, 깊고 풍부한 저음, 16시간 재생, 야외 캠핑 및 파티에 적합",
+          "price": 52500,
+          "orders": 29,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb418a605f722465dbbc160b5cd0e210fR.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013176720089.html"
         }
       ],
       "coupang": []
@@ -2412,20 +2412,10 @@
       "model": "Go 4",
       "cat": "audio",
       "why": "JBL 초소형 스피커, 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T10:41:19.256Z",
-      "status": "no_coupang",
+      "at": "2026-11-08T13:31:55.022Z",
+      "status": "none",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005012707073210",
-          "title": "오리지널 JBL GO 4 휴대용 무선 블루투스 스피커 뮤직 큐브 방진 기능으로 휴일 파티, 가족 모임에 적합",
-          "price": 33100,
-          "orders": 152,
-          "rating": "94.7%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6be681d191664664a0b40fddd5e341afJ.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012707073210.html"
-        }
-      ],
+      "ali": [],
       "coupang": []
     },
     "Anker 737 Charger GaNPrime 120W": {
@@ -2434,7 +2424,7 @@
       "model": "737 120W",
       "cat": "it",
       "why": "앤커 120W 3포트 GaNPrime 충전기, 국내 정발가 대비 알리 앤커 공식 스토어 가격 차이 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T10:41:25.216Z",
+      "at": "2026-11-08T13:31:59.026Z",
       "status": "no_ali",
       "coupangTop": 2,
       "ali": [],
@@ -2442,17 +2432,17 @@
         {
           "id": "9805749742",
           "name": "Anker 737 Charger (GaNPrime 120W) 블랙",
-          "price": 122280,
+          "price": 124420,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/U6b1pHGPCryWiCVuU0mf6IWhgW2kHjWt1_bkO5My4Q0mrzqBNr9N0slI_47MV--20E8MTyCX5Zw0Fe6mTjXIPGWxzqJOw_HJ8UZh9HW7z1iARa1_FeTZUd5L-mk2KdrFPvI3j_WV-euNuBfzLllQsJoi7UAGMg_2El0DEOqntCNGLuVejNJwBpP8gInznXmJf1ciWZDX1qXMzc9VkhFO8tKlSynTBok5CvEBKzaVo60m9yHl4w35UxB0DWXL-J96nXLchq8SCdfbuQf5IEHbPANslblo4oyfRR35PC1YIwPKzlFb00VNa-SOrgCgMyR9TApyag0Qwxg-OlaYz5o0SBWY8gv3lNhYT1RkBZmVqwEzY1yDZd1K0GLPu25JraoykZPP2jBmGqkivaPpjHZBWts0e97RWxz-bVVZBwZC-C0Oid9z90Jq36XFM5Xk01B5X0hHuGjg4QPcEReetq-NYeZG1QA2ShZj3r6BMRFgRzHWg1EDVDI72f7--btdiWVQVNZ90-_HLzOZ1RiiGBZXaWgDvQ1YaFLYYzIetmBTFw==",
+          "image": "https://ads-partners.coupang.com/image1/r3RStfBrArmuIOA1r9Egi4p6DesK4QRIjeQDzST-DVVOsy309qYgVSnYa1pjVpl0x1o_vltc24MtfQ10y5Nczj_Pyy6r8FbfGeE5f668B9jnnPhR5jJLxxF80k5MY-ztLlkxLLY3ZbYVuK4jh6SIe-F6C_oxSg5ivFXobNrXIeD67gZhs_pgfXCwdORkdfS3402qe_m6pAiHehAZHcQ0tDyaRxueUkicyrVLTZRRwFTx_TSfPUk-Ne6vP-nfsvF6egIk6FqzEadiyMd1YOUwpnilTj-H2kyWYLWYTagE7MjtvRWsLNX8Ja3DEHXYV-maS8OVkHz9OiMyOswU9AUU5sISOqd9XsH_I8ewC9aNjVCWlXe_rnl5VCKfSXmhtXH4IlwCsEum4cWFNVc2WzMjvujQAbuSVLK39TWwyn84mExPISiYiJDAQij_ES5jIx8SR9OphRSWectduAHGz7ATU2ukBbVI9SZVvKaX8l9ONiyhgSmwdEhpIo2AEW_LlFpIeyTtaX5KLHU1lh0iYVRcgyEA5W0zOlcCAoykA2zgo-w=",
           "url": "https://www.coupang.com/vp/products/9805749742"
         },
         {
           "id": "9793298438",
           "name": "Anker 737 Charger (GaNPrime 120W) 블랙",
-          "price": 140040,
+          "price": 142150,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/tRa009KYrQC4VtpMtfGBsKyUv9qk9BHuKYikQSTJ0ofKTjF7zAOBfurYEPiOGslcO-6hX8vJEEcIO6Vqvybty3xaWEHE9M38ZUwd3Bkh8kE1hC7-ZZje9lNety26n1ObOnQwCGDujq8wxpMR7yxuAUH8GfhYlxzHjMKfi4hNk1M-Aw6X-uhjjzfZD3ZyHQwYU2qsbjSqha0yVq5oLqwIAsAJMRi3IMLrrePLbEf8nzag0LSGcyGW7dCjKULd6yPvOfa51nDWhT-fieLxnGcWAQkv-IUPrRsaZrEHpDqRaBTZOSKd4rh4-KJCWzl3mWv2cabLBLmDyS1Te8-149ZRjzKuEpzaFkXdzTti5TwKRQcm0rFAFfHlbf8JDOtdJMmBHTZCoXocY4wQEVlCDigA_PnEsUUavgzGCPpLvBkajDq2czdNXFwhv592qw7dMpDJQ9daazs8ZeTZLw1DPOFtwgF2njudLg4_ks84Y8QiPXBJJviJYT11mnm7EV-1gpJW4GWeu5IAZB0l_R5h3Clq8awkvjvVUryoZf7mz2LShy7A",
+          "image": "https://ads-partners.coupang.com/image1/4VaS7IIYH4Hs5FpS4clZlbcwjiSCyTNvhHf5rvAwL9IIIa12bNkio_EnVI-pz7MaFJuGHgAn4T2egw4hTBadyS9HlQ-u6cQ8c-8WqyZldUO2KAtZ6zWpkU-cOpjbcX6dwBpFsx-kBWA-LAbENTjFQiOVnva3ez4PKzcutgYAyyJ3oWbsEGYvrkhoMJzncduswL1fDin-u21eMrifJUU5Dp5c5I6pn9ySgkfyI8ksWJ2CFdnKtIWFUqSylwxH_mrmwlxDtyrHCvHWTgJfzCOrI7Eb0--qOM63JJJVAp50wcu36roasZVNVUSDUmC-qolVp4Gx8_36tLyJ95h2_VFpFs8WHe2fpsBld61BbHr64WfCyn84qGWDZSj9mblFbasrsFWdJkTGUgEiI3V71qhI7ulADXcfkLsoiAkx-vSmjSi7fDv5qgXOnFM6zWE51ZCmUNLozaiBlTvSK1c9BTgmREAfFhNiyMzHXnOe0xevXU1UMaYtQX7fUk7gwZg28_917efDussYzBuz3BTOP3Sytygpkk9zDRPJKyrHq365798=",
           "url": "https://www.coupang.com/vp/products/9793298438"
         }
       ]
@@ -2463,11 +2453,20 @@
       "model": "553",
       "cat": "it",
       "why": "앤커 파워익스팬드 8-in-1 허브(등록한 유그린 7in1 허브와 비교 가능), 국내 정발·알리 공식 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T12:37:01.478Z",
-      "status": "none",
-      "coupangTop": 6,
+      "at": "2026-11-08T13:32:03.022Z",
+      "status": "no_ali",
+      "coupangTop": 3,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9809005016",
+          "name": "Anker 553 USB-C Hub (8-in-1)",
+          "price": 145500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/ObRcBim9j9DwBKg7OdfNAWvW2JBT2vGw_TWoY0kHDcNRT1AfSSMJwx0mn4kTtofI25zZq1x7PM181KLk17X5cX-R11Gez7CR75YGLOQJSS40eXMFug4QQBzv7YCIKZAtRkmjZFMVf2Oz_8qNn6jgBVvcN74qrYJHX-rLcu9sIDuB6OE0wk6Iba3MsEdqzWkGWdwYsDH-rUQXoOgxidRWyO6UoR9m-RNNP2ODjQWku9KeQJ2gOodmVsxNJ-U2BRxVFjfnKAmELp-0he6KHsdsV7UStF3waAPNGQOEXtV9NaZcdef73chsTjoV8uza1ttSPPCLAiOikMsz2fXrHwyrnJ-5CA67_HMP5Ylv9up3s-3t9Z77e3PVxFwjHWIenVFoHae65OnrYWZNQqeAgLBuy85TEFSGnbBp7f_8syZk1FyD41Q3OLtjfNdmGEIJp7cxIwSC915sfuZpwKYMjlKTYxU29lbqyx1V0milSN0TFVPaGhYf7j2DVVI3zxsNIyW82yB_F34PGat2Sviux0yyr1EKUbH1bdBFmcJxOZCZcYQ=",
+          "url": "https://www.coupang.com/vp/products/9809005016"
+        }
+      ]
     },
     "Anker Nano Power Bank 30W 10000mAh": {
       "q": "Anker Nano Power Bank 30W 10000mAh",
@@ -2475,21 +2474,47 @@
       "model": "Nano 10000mAh",
       "cat": "it",
       "why": "앤커 케이블 내장 보조배터리, 5000mAh 판은 퀘이사존 알리 $8.75 핫딜. 10000mAh 용량판 정발·알리 비교. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T12:37:06.495Z",
-      "status": "no_coupang",
-      "coupangTop": 10,
+      "at": "2026-11-08T13:32:07.024Z",
+      "status": "new",
+      "coupangTop": 7,
       "ali": [
         {
           "id": "1005012230951449",
           "title": "Anker Nano Power Bank 10000mAh PD 30W 최대 출력 고속 충전 휴대용 고속 충전기 iPhone Samsung용 내장 USB-C 케이블",
-          "price": 63700,
+          "price": 64300,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S092a88bb518949538559766a9fdff9501.jpg",
           "url": "https://ko.aliexpress.com/item/1005012230951449.html"
         }
       ],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "7925352957",
+          "name": "Anker Power Bank/Anker Nano Power Bank 10000mAh(Po",
+          "price": 80600,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/ZkZ3KCKhC1iIAFXYZghAEIRCG25Gj0dKJxRFq_AO4WgnNhW4chtutKWUPUuG-lCBVvFmOIxxy94NfZTb3DYptEmJeARTAPUJmVern81wJBkvH4b_wWgvCCm06pjdv8LQZVqVIZlnQt-cguusxX2QWYoBxgYRvCzcT7ds2XlLYa6FFYAKpYsKd0dm1dSzB66oxhpCiDC3a31YIhfK97m2zjAco4RGTyBieeYaxGHGwfclXF8fG1WvNPobifKPqMrrMnCHkieLJuQ4fwOct_VnAfjZ5Y01oTCzUz-2ng08pWPINFnSq8-vOAMiIlqbLoSfJYdNccfB4XQCqPbdaGYc73v0fzp9_GslLQO17T5xm9N6LArrLlbh5Q29tlH8Jlz13H46jJFVOzKcBi_57Y5PXrd5pQIxOBwLpHFJqqoWWSdfIx-uCCuJz24emlplP5ZU1rjLuTxwtI1xwxRspx4yHxkXmekeqsQWZTmZi9H1b1Unz_UShn5EgeUrlG6aki88RGkxChM1LVkWNA_4s85FtwbEFw98cCTytQB-fUUjx7w=",
+          "url": "https://www.coupang.com/vp/products/7925352957"
+        },
+        {
+          "id": "9030014149",
+          "name": "Anker Nano Power Bank (30W, Built-In USB-C Cable) 10000mAh 30W LED USB-C (모바일 출력 대용량",
+          "price": 84160,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/5FnwAlqW3JtD2Utr5A0KVlZq2ZAs_86ut7NOoIrEtvBFsISBJRI-2ioY9uDYtbC2m9kIwWUqJe5PXqyuWQjHhNrgVqDKIRUcr1TlbWpPmHJZeJVyvrYXUKfMz-V1EPlbvY6RMdtkcheoLdDNblBjSb71FaLeWULdloWgdW-xmYBENLHrLhwGYqOn-fERh7BcKBYfr5TGZhgCQQOeSd3gMS4-qzih6rhWX_-AJS2akMqjuqHR7lZcgmTEKrYMMcBCXRvq_GpZZh52F_SCBzmotmb6ieYRYfTK0aLeA3S9FH26i5TyJqan1Pi6l6pNH-fy8T_Bs_afErhJW3Uq14hTdvBVicHE4CICmNOAKXwzODWFpKo8kNC49S0cVX5oxoGE2nUeWDdRaA7CLpALRJ39LZoxhVPh2XScEJJAx7RFxAz_RHqtda4BDRlarBDeL52UIpC8eY8ugtsRCWg7o2yzD2KgGtwsOk_mWdx3UgXWF_ZO0RUwX283w7yeEhVmmM1-9X0z9MSV4qLr_AqOOgG5inXCLJsjoREYE5Bcxr9QJBhG",
+          "url": "https://www.coupang.com/vp/products/9030014149"
+        }
+      ],
+      "best": {
+        "aliId": "1005012230951449",
+        "coupangId": "7925352957",
+        "aliTotal": 64300,
+        "coupangPrice": 80600,
+        "verdict": "good",
+        "diff": 16300,
+        "pct": 20
+      }
     },
     "Baseus 3-in-1 MagSafe Wireless Charger 35W": {
       "q": "Baseus 3-in-1 MagSafe Wireless Charger 35W",
@@ -2497,7 +2522,7 @@
       "model": "MagSafe 35W",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 베이스어스 3IN1 맥세이프 무선충전기 Qi2.2 35W 54,186원(알리 스토어 쿠폰, 종료). 국내 정발가 확인 전. 거치대(stand)로 표기되면 본품 필터에 걸릴 수 있음",
-      "at": "2026-11-05T12:37:10.226Z",
+      "at": "2026-11-08T13:32:11.117Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -7015,5 +7040,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-08T07:42:14.292Z"
+  "updatedAt": "2026-11-08T13:32:15.008Z"
 }
