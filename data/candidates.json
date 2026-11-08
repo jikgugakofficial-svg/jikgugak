@@ -3264,24 +3264,15 @@
       "model": "Ultimate 2C",
       "cat": "it",
       "why": "8BitDo 입문형 무선 패드. 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T21:24:50.467Z",
+      "at": "2026-11-08T23:14:50.343Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005005470604431",
-          "title": "8BitDo - PC, Windows 10, 11, Steam Deck, Raspberry Pi, Android용 새로운 Ultimate 2C 무선 게임 컨트롤러",
-          "price": 32000,
-          "orders": 11888,
-          "rating": "98.5%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b4c0a84a38942daa3c3131f46def2244.jpg",
-          "url": "https://ko.aliexpress.com/item/1005005470604431.html"
-        },
-        {
           "id": "1005007198176707",
           "title": "8BitDo - PC, Windows 10, 11, Steam Deck, Raspberry Pi, Android용 새로운 Ultimate 2C 무선 게임 컨트롤러",
-          "price": 32800,
-          "orders": 4100,
+          "price": 33100,
+          "orders": 4183,
           "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b4c0a84a38942daa3c3131f46def2244.jpg",
           "url": "https://ko.aliexpress.com/item/1005007198176707.html"
@@ -3289,11 +3280,20 @@
         {
           "id": "1005012013826953",
           "title": "8BitDo Ultimate 2C 블루투스 컨트롤러 무선 게임패드 (홀 이펙트 조이스틱 포함) 닌텐도 스위치 / 스위치 2 / OLED 콘솔용",
-          "price": 34500,
-          "orders": 1874,
+          "price": 30900,
+          "orders": 3400,
           "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc34fb1ff5e83486aa61cf72e18359adbT.jpg",
           "url": "https://ko.aliexpress.com/item/1005012013826953.html"
+        },
+        {
+          "id": "1005007506754284",
+          "title": "PC, Windows 10, 11, Steam Deck, Raspberry Pi, Android 게임패드 액세서리용 8BitDo Ultimate 2C 무선 게임 컨트롤러",
+          "price": 31600,
+          "orders": 826,
+          "rating": "96.9%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S768015dd50a4423abb3c1059f6c6597bt.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007506754284.html"
         }
       ],
       "coupang": [
@@ -3302,26 +3302,26 @@
           "name": "[국내정발] 8BitDo Ultimate 2C Bluetooth  얼티밋2C 블루투스 컨트롤러",
           "price": 33500,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/X8xve1jN1sPNv7pyXzfBpOVHN3taLdUqV6w0IlZXbvo3A-z3cmIyUEW71gYi3wvyGdmRCJk-iIqDCBllftPUjNxBCTUOICCTjEd8yadyCwr33aZQdhGqIuD6IgGJSjMh0S99LrgN0PS-WNTsj1oypQoVTSG9CepZKmSQDsVCVXtICGU-rQKAhPdKru--UjSrF5KHQT300pzjg9KcAUmHXjQwFdvD72fpxAJDFIvXmzZwPyutkjFfhyV44OHgkjUpiFhMGYM5OaBn3GyeJ-3wpnkcEbdAA7LPQ5Y7t9BUftMenmewHIb33NwVshH3ke7BGW34cnn_fauCB0sfUYiVnYT4Dg6KpHrcV_X11z_CZKfEbZc3Pz50hbKSntYQ6dGTWA_KeYH5UM2zn1PT_rjgsj1G6azma1TwCrOwPqa9XqEgKd74DZeDQiYjjcYEz6PDcBF5n3ldPeRaqjyrfpDCczxtkNpmch2AQcH4v60fa3tWGQQZ97OzEpymyS0R_P8Vq2B6rVzKECv2MPNfPAIuqggpF6wxZo9nXxY96HQZpkIuaNkg1ol0BDkTToGh-Yxpk6qWz7otZtoawW3NGf79o_VO_TydwAKtMKj26wq0QA==",
+          "image": "https://ads-partners.coupang.com/image1/zRxYc6a_lrJb5f8qzZTst4rVGMYZONmb1Oq3Q4XDDV9bvuzWzazASuQelBtl3Pny9UzBN8mhqZH9fJf4boTut8GpcXhOvouMvf5d1FlFr8lDOrErmiM7W-cik3X3GCZZeod1oibqTJn_mAC1Me2YSeBdLSMUbHKMTwRTs-VmGQm_zxA_Lxnx_furz5dcuyWQ482JGwh7T4LoHDqrG_ROOJygvTjaKZADYHvqlD84cln8gC9IK6TYHoDXoGpEGc3VME4jnL-GaxCWcIX8_8dBV6lvINQw1jWw1vSfcYuYPbJ7nbfAskD0NLGYioVagVP0f2oEVCM1hIqsQLs6KZ7KwSTGV1yOsH28TBPNVFv6ZwEZjn7Ur1aesCuno_Fj0ccWWIyx3SbFM-Win4OX4p_ru7FSXAAUxFdtFooQl5LT7D8O93ztgJ4PJ2jF2nPhR05L3gNJTRTCAEx1gQitQmnSIL57R4m0D69JoeE8iq_t--zPolIWStDbKju5wkPBtTAJNfZ47vjBNsDGtKOiya84a12aQM6srnJyx4DTH8DodTb--oM=",
           "url": "https://www.coupang.com/vp/products/9620580492"
         },
         {
           "id": "9762238730",
           "name": "Nintendo SwitchOLED 콘솔용 홀 효과 조이스틱이 포함된 스위치 2 무선 게임 패드용 8BitDo Ultimate 2C Bluetooth 컨트롤러",
-          "price": 95700,
+          "price": 50000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/oK09yLWEgvMiXUBhoPW5gSY0uQtnPqTr2OA6A4wf78ilaCqZ_ZfVjz1DF5oY0mc2Kkd1NgZuowgEzjQ7CUuAEgW8wlypaAFaYa0V4g2TTlPi9B_Eh0qi6UjQ4vgSfxWQCfbH5ArzzViCxRlPSLcslXxb_ofA2S7FMP6fB6B60hCECXlrAJjdwhaggNzbDbcPjm7450PLC5NZu9dnJcIVe00wQx0m7FGBD2FBkTlcR1L3wdeg4LLTD2k1Y-gCMfhVeDmf8KiRGTO5C7uz81smxW66tGKYgjZkQhmn7pxSbLSQjrcsO-TqaEbGtfZagxYmAVYCXsASLcg8HULgFBB9rQWlEsZlz55rB9AxBINGyTG2WCVlFPZijH6LZufxaEC2Y-4obyT626MQBYWbs9DnV-QTZdIDIyri14O84v2BWN7XLfDNFtiRdSR-uqzCn5cBC3Yx4NTejTd-4UXUiRZKrCS0DDVVEBWbEifOTz6C32nHAp5c025KJDI06mEs16ktSlokR6Hq-TeD-5Wb95JlHbD5PMhHtiShTj_Wol9IfWzHoGq5EHV2Qzw8SzodSN1LQcK0h81pLPkLE2z8G97UDA22zwd0_nqNE1DOPM4e",
+          "image": "https://ads-partners.coupang.com/image1/PoXHiU2eJ69k3IqjPtTk8Ia0121LmUFDQGqjm5I7WKv9y6zBDtwHw3CKUW5SY-GPntQehToeTDSxuqGto1QwJOwioA_Uj_qkIAzX3IFpzdybGs9JCeaYCkSPEuJ3VOWZlfqeaEt9VEQ2WGG-m1km2W_kCyFN8u2Ep40V5QjDMQNIuzGAp0MBWrZVaE4iHXvUscj6a_q3JClHoQmlnRPM72SyorhexKCYFx0b8vJctLUKCS_mOV1g2A1GUX0UbHusiSwHm6dH6HPgnyE-VjxiOJPAoeA_BpsdEI1nIPusLkNBfHM80ekDWAqYzAVswFfN6tM8Q6uKRv0X_0uuIRyhUsQLd3nz156RkMxTisKPlCZZrK_z4LHTGIaAwTx5BPU8_VrIA_GZ2EnSp3muJxZGqVj92ImhYHiKOtAidTkGJfjfTADAMWUjIoBLACtPvY7yN_edGrwHBX6MNBjeVcb2kZBhJ8JlTTNja_ba5v4jlET7jKu9QIdtb4wOMifY6lulxnPQDeJLsmhyKt3yrD2pHEJHm_lqf6Tavj3l291zYT4m6g==",
           "url": "https://www.coupang.com/vp/products/9762238730"
         }
       ],
       "best": {
-        "aliId": "1005005470604431",
+        "aliId": "1005007198176707",
         "coupangId": "9620580492",
-        "aliTotal": 32000,
+        "aliTotal": 33100,
         "coupangPrice": 33500,
         "verdict": "meh",
-        "diff": 1500,
-        "pct": 4
+        "diff": 400,
+        "pct": 1
       }
     },
     "FiiO KA11": {
@@ -7025,5 +7025,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-08T21:17:22.938Z"
+  "updatedAt": "2026-11-08T23:14:55.828Z"
 }

@@ -1576,7 +1576,7 @@
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24640,
-    "domesticKrw": 25690,
+    "domesticKrw": 21180,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1600,13 +1600,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "domesticKrw",
-        "from": 23450,
-        "to": 25690,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -1668,6 +1661,13 @@
         "field": "domesticKrw",
         "from": 24520,
         "to": 25690,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "domesticKrw",
+        "from": 25690,
+        "to": 21180,
         "source": "쿠팡"
       }
     ]
@@ -2022,7 +2022,7 @@
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33002,
-    "domesticKrw": 28190,
+    "domesticKrw": 28630,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2046,13 +2046,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "domesticKrw",
-        "from": 25770,
-        "to": 26900,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.06",
         "field": "domesticKrw",
@@ -2115,6 +2108,13 @@
         "from": 28630,
         "to": 28190,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "domesticKrw",
+        "from": 28190,
+        "to": 28630,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2133,7 +2133,7 @@
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23099,
-    "domesticKrw": 21570,
+    "domesticKrw": 20670,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2157,13 +2157,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "domesticKrw",
-        "from": 20580,
-        "to": 21570,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.06",
         "field": "domesticKrw",
@@ -2225,6 +2218,13 @@
         "field": "domesticKrw",
         "from": 20670,
         "to": 21570,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "domesticKrw",
+        "from": 21570,
+        "to": 20670,
         "source": "쿠팡"
       }
     ]
@@ -2352,11 +2352,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.11.08 쿠팡 자동",
+    "checkedAt": "2026.11.09 쿠팡 자동",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 13851,
-    "domesticKrw": 12800,
+    "domesticKrw": 11190,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2380,13 +2380,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.04",
-        "field": "domesticKrw",
-        "from": 13290,
-        "to": 10930,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.05",
         "field": "domesticKrw",
@@ -2448,6 +2441,13 @@
         "field": "domesticKrw",
         "from": 13290,
         "to": 12800,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "domesticKrw",
+        "from": 12800,
+        "to": 11190,
         "source": "쿠팡"
       }
     ]
@@ -2578,7 +2578,7 @@
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18476,
-    "domesticKrw": 19750,
+    "domesticKrw": 17880,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2602,13 +2602,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "domesticKrw",
-        "from": 19750,
-        "to": 18820,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.06",
         "field": "domesticKrw",
@@ -2670,6 +2663,13 @@
         "field": "domesticKrw",
         "from": 18850,
         "to": 19750,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "domesticKrw",
+        "from": 19750,
+        "to": 17880,
         "source": "쿠팡"
       }
     ]
