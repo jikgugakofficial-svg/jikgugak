@@ -48,6 +48,22 @@
     "source": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2352047"
   },
   {
+    "id": "himart-black-friday-2026-11",
+    "name": "하이마트 블프 (블랙 프라이데이)",
+    "date": "2026-11-06",
+    "end": "2026-11-30",
+    "stores": "롯데하이마트 (전국 매장·온라인)",
+    "scope": "domestic",
+    "status": "expected",
+    "note": "롯데하이마트가 11월 30일까지 연중 최대 규모 가전 행사를 열어요. 김치냉장고·전기밥솥·이사 가전 할인 위주라, 직구 가전과 비교할 품목이 있는지 먼저 보세요.",
+    "cats": [
+      "electronics",
+      "living"
+    ],
+    "major": false,
+    "source": "https://biz.sbs.co.kr/amp/article/20000344657"
+  },
+  {
     "id": "11st-grand-2026",
     "name": "11번가 그랜드 십일절",
     "date": "2026-11-01",
