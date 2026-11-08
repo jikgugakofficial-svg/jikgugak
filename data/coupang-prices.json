@@ -119,7 +119,7 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-11-08T12:17:16.741Z",
+      "at": "2026-11-08T16:16:29.993Z",
       "recordedKrw": 56190,
       "found": false,
       "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -127,15 +127,18 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-08T12:17:20.637Z",
+      "at": "2026-11-08T16:16:33.955Z",
       "recordedKrw": 51080,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 125900,
+      "isRocket": false,
+      "diff": 74820,
+      "result": "held"
     },
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-11-08T12:17:24.716Z",
+      "at": "2026-11-08T16:16:37.998Z",
       "recordedKrw": 137500,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -143,7 +146,7 @@
     "amazon-sennheiser-hd600": {
       "productId": "8542629824",
       "keyword": "젠하이저 HD 600 오픈형 헤드폰",
-      "at": "2026-11-08T12:17:28.623Z",
+      "at": "2026-11-08T16:16:41.936Z",
       "recordedKrw": 313970,
       "found": true,
       "apiPrice": 313970,
@@ -154,7 +157,7 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-11-08T12:17:32.642Z",
+      "at": "2026-11-08T16:16:46.017Z",
       "recordedKrw": 467700,
       "found": true,
       "apiPrice": 467700,
@@ -165,7 +168,7 @@
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-11-08T13:32:15.016Z",
+      "at": "2026-11-08T16:16:50.272Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -173,7 +176,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-11-08T13:32:19.070Z",
+      "at": "2026-11-08T16:16:54.133Z",
       "recordedKrw": 39610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -181,7 +184,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-11-08T13:32:23.113Z",
+      "at": "2026-11-08T16:16:58.133Z",
       "recordedKrw": 40900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -189,7 +192,7 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-11-08T13:32:27.057Z",
+      "at": "2026-11-08T16:17:01.985Z",
       "recordedKrw": 99600,
       "found": true,
       "apiPrice": 99600,
@@ -200,7 +203,7 @@
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-11-08T13:32:31.022Z",
+      "at": "2026-11-08T16:17:06.096Z",
       "recordedKrw": 67430,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -208,7 +211,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-11-08T13:32:51.044Z",
+      "at": "2026-11-08T16:17:26.069Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -389,7 +392,7 @@
     "ali-baseus-inspire-xh1": {
       "productId": "9241501985",
       "keyword": "베이스어스 인스파이어 XH1",
-      "at": "2026-11-08T13:32:35.302Z",
+      "at": "2026-11-08T16:17:09.984Z",
       "recordedKrw": 316300,
       "found": true,
       "apiPrice": 316300,
@@ -400,7 +403,7 @@
     "iherb-cgn-s-acetyl-glutathione-120": {
       "productId": "6584056433",
       "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
-      "at": "2026-11-08T13:32:39.033Z",
+      "at": "2026-11-08T16:17:14.097Z",
       "recordedKrw": 81300,
       "found": true,
       "apiPrice": 81300,
@@ -411,7 +414,7 @@
     "iherb-cgn-marine-collagen-500g": {
       "productId": "9127064765",
       "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-      "at": "2026-11-08T13:32:43.013Z",
+      "at": "2026-11-08T16:17:18.013Z",
       "recordedKrw": 82000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -419,7 +422,7 @@
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
       "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
-      "at": "2026-11-08T13:32:47.051Z",
+      "at": "2026-11-08T16:17:21.988Z",
       "recordedKrw": 79400,
       "found": true,
       "apiPrice": 79400,
@@ -439,5 +442,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-08T15:16:24.742Z"
+  "updatedAt": "2026-11-08T16:17:29.994Z"
 }
