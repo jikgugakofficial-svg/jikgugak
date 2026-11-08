@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>직구각 릴스 광군제 면세 한도 퀴즈</title>
+<style>
+  @font-face{font-family:D;src:url("../../tools/tvc/fonts/Freesentation-9Black.ttf")}
+  @font-face{font-family:P;src:url("../../tools/cards/fonts/PretendardVariable.ttf");font-weight:100 900}
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#FBF7F3}
+  #bg2,#endbg{position:absolute;inset:0}
+  #cam{position:absolute;inset:0;transform-origin:540px 1000px}
+  svg{position:absolute;inset:0}
+  #words{position:absolute;inset:0}
+  .w{position:absolute;left:0;top:0;white-space:nowrap;letter-spacing:-0.02em;clip-path:inset(-60% -8% -4% -8%)}
+  .w span{display:inline-block;white-space:pre}
+  .lbl{font-family:P;font-weight:800}
+</style></head>
+<body>
+<div id="bg2"></div>
+<div id="cam"><svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="g"></g><g id="fx"></g></svg></div>
+<svg id="ui" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="site"></g><g id="cta"></g></svg>
+<div id="endbg"></div>
+<svg id="s2" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="logo"></g></svg>
+<div id="words"></div>
+<script src="timeline.js"></script>
+<script>
+document.fonts.load('900 100px D'); document.fonts.load('800 40px P');
+const T = window.TL, BT = 60 / T.bpm, bt = (b) => b * BT;
+window.DURATION = T.beats * BT;
+const C = { navy:'#1F2E57', orange:'#D23A10', salmon:'#FFC7A6', white:'#FFFFFF', gray:'#5B6170', green:'#0E7C4A', red:'#C4301A', blue:'#2F5FD0', bg:'#FBF7F3', line:'#E4DFDA' };
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const pg = (t, a, b) => cl((t - a) / (b - a));
+const oc = (x) => 1 - Math.pow(1 - x, 3);
+const o5 = (x) => 1 - Math.pow(1 - x, 5);
+const iq = (x) => x * x;
+const spring = (dt, f = 1.4, z = 0.32) => dt <= 0 ? 0 : 1 - Math.exp(-z * 2 * Math.PI * f * dt) * (Math.cos(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt) + z / Math.sqrt(1 - z * z) * Math.sin(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt));
+const lerp = (a, b, p) => a + (b - a) * p;
+const won = (n) => Math.round(n).toLocaleString('ko-KR') + '원';
+const manwon = (n) => { const k = Math.floor(n / 1000), man = Math.floor(k / 10), chun = k % 10; return `${man}만${chun ? ' ' + chun + '천' : ''} 원`; };
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
+const txt = (par, x, y, s, attrs) => { const e = el('text', { x, y, 'text-anchor': 'middle', 'dominant-baseline': 'middle', ...attrs }, par); e.textContent = s; return e; };
+const $ = (id) => document.getElementById(id);
+
+// ── 자막(한 장면 12자 이내, 움직임이 되는 말) ──
+const K150 = manwon(T.k150), K200 = manwon(T.k200);
+const W0 = [['광군제 면세 한도,', 0.3, 4, 330, 110, 'navy', 'D'], ['원화로 얼마?', 0.8, 4, 470, 150, 'orange', 'D'],
+  ['담아 볼게요', 6, T.hit, 400, 120, 'navy', 'D'],
+  ['정답 ②', T.hit + 0.1, T.gear[0], 330, 84, 'white', 'D', C.green], [K150, T.hit + 0.4, T.gear[0], 470, 150, 'orange', 'D'],
+  ['150달러 × 환율', T.gear[0] + 0.1, T.gear[1], 330, 110, 'navy', 'D'], [`${T.period} 과세환율 ${T.fxText}원`, T.gear[0] + 0.5, T.gear[1], 440, 46, 'gray', 'P'],
+  ['③은 미국 특송', T.third[0] + 0.1, T.third[1], 330, 110, 'navy', 'D'], ['200달러 기준', T.third[0] + 0.4, T.third[1], 470, 130, 'orange', 'D'],
+  ['선을 넘으면', T.over[0] + 0.1, T.over[1], 330, 110, 'navy', 'D'], ['배송비까지 전체에', T.over[0] + 0.6, T.over[1], 470, 120, 'red', 'D'],
+  ['결제 전', T.site[0] + 0.25, T.site[1], 300, 100, 'white', 'D'], ['합계 하나만', T.site[0] + 0.6, T.site[1], 420, 110, 'salmon', 'D'],
+  ['장바구니 계산기', T.cta[0] + 0.25, T.cta[1], 520, 120, 'navy', 'D'], ['프로필 링크에', T.cta[0] + 0.75, T.cta[1], 680, 130, 'orange', 'D'],
+  ['직구각', T.end, null, 1000, 160, 'white', 'D'], ['최종가로 판정', T.end, null, 1140, 54, 'white', 'P']];
+const WD = W0.map(([text, b, out, y, size, col, font, pill]) => ({ text, b, out, y, size, col: C[col], font, pill }));
+for (const w of WD) {
+  const d = document.createElement('div'); d.className = 'w';
+  d.style.cssText += `font-family:${w.font};font-weight:${w.font === 'D' ? 900 : 800};font-size:${w.size}px;color:${w.col}`;
+  w.chars = [...w.text].map((ch) => { const sp = document.createElement('span'); sp.textContent = ch; d.appendChild(sp); return sp; });
+  if (w.b >= T.end) d.style.clipPath = 'none';
+  if (w.pill) { d.style.background = w.pill; d.style.padding = '6px 52px 12px'; d.style.borderRadius = '999px'; d.style.clipPath = 'none'; }
+  $('words').appendChild(d); w.d = d;
+}
+let laid = false;
+function layout() { for (const w of WD) { let r = w.d.getBoundingClientRect(); if (r.width > 960) { w.size = Math.floor(w.size * 960 / r.width); w.d.style.fontSize = w.size + 'px'; r = w.d.getBoundingClientRect(); } w.wd = r.width; w.hh = r.height; } laid = true; }
+function word(w, t) {
+  const t0 = bt(w.b);
+  w.d.style.transform = `translate(${540 - w.wd / 2}px,${w.y - w.hh / 2}px)`;
+  if (w.b >= T.end) { w.d.style.opacity = t >= bt(T.end) ? 1 : 0; return; }
+  if (t < t0 || t >= bt(w.out)) { w.d.style.opacity = 0; return; }
+  w.d.style.opacity = 1;
+  if (w.pill) { const sp = spring(t - t0, 2.4, 0.35), q = pg(t, bt(w.out) - 0.16, bt(w.out)); w.d.style.transform += ` scale(${(2.2 - 1.2 * sp) * (1 - q)}) rotate(${(1 - cl(sp)) * -8}deg)`; }
+  const big = w.size >= 100, out = bt(w.out), n = w.chars.length, st = big ? 0.03 : 0.012;
+  w.chars.forEach((c, i) => {
+    const dt = t - t0 - i * st, sp = big ? spring(dt, 2.0, 0.42) : oc(pg(dt, 0, 0.25));
+    const q = pg(t, out - 0.16 + i * Math.min(0.008, 0.08 / n), out);
+    c.style.transform = `translateY(${(1 - sp) * w.hh * 0.95 - q * w.hh * 1.2}px) rotate(${big ? (1 - cl(sp)) * 10 : 0}deg)`;
+    c.style.opacity = (dt > 0 ? 1 : 0) * (1 - q);
+  });
+}
+
+// ── 효과 ──
+const G = $('g'), FX = $('fx');
+function ring(par, x, y, t, t0, col, r0, r1, dur = 0.45, w = 16) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; el('circle', { cx: x, cy: y, r: r0 + (r1 - r0) * oc(p), fill: 'none', stroke: col, 'stroke-width': w * (1 - p) }, par); }
+function burst(par, x, y, t, t0, col, n, r0, r1, dur = 0.35, w = 12) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; const rb = r0 + (r1 - r0) * oc(p), ra = r0 + (r1 - r0) * oc(cl(p * 1.7 - 0.7)); for (let i = 0; i < n; i++) { const a = 2 * Math.PI * i / n + 0.2; el('line', { x1: x + Math.cos(a) * ra, y1: y + Math.sin(a) * ra, x2: x + Math.cos(a) * rb, y2: y + Math.sin(a) * rb, stroke: col, 'stroke-width': w * (1 - p), 'stroke-linecap': 'round' }, par); } }
+
+// ── 게이지: 장바구니 위 세로 기둥, 0~30만 원. 보기 ①②③ 선이 가로지름 ──
+const GX = 320, GW = 130, YB = 1380, YT = 650, MAX = 300000;
+const Y = (v) => YB - (v / MAX) * (YB - YT);
+const OPTS = [[150000, '① 15만 원'], [T.k150, `② ${manwon(T.k150)}`], [T.k200, `③ ${manwon(T.k200)}`]];
+function level(t) {
+  const steps = [[T.drops[0], 90000], [T.drops[1], 165000], [T.drops[2], 185000]];
+  let v = 0; for (const [b, val] of steps) { const s = spring(t - bt(b), 2.2, 0.45); v = lerp(v, val, cl(s, 0, 1.15)); }
+  v = lerp(v, T.k150, oc(pg(t, bt(8.3), bt(T.hit))));
+  v = lerp(v, 240000, oc(pg(t, bt(T.over[0] + 0.6), bt(T.over[0] + 1.2))));
+  return v;
+}
+function drawGauge(t) {
+  if (t >= bt(T.site[0]) + 0.2) return;
+  const gA = bt(T.gear[0]), gB = bt(T.gear[1]), fade = 1 - 0.8 * (pg(t, gA, gA + 0.3) - pg(t, gB - 0.3, gB));
+  const g = el('g', { opacity: cl(fade, 0, 1) }, G);
+  const rise = oe(pg(t, 0.1, 0.9));
+  const top = lerp(YB, YT, rise);
+  // 기둥 틀
+  el('rect', { x: GX - GW / 2, y: top, width: GW, height: YB - top, rx: 26, fill: '#fff', stroke: C.navy, 'stroke-width': 8 }, g);
+  // 채움(넘치면 전체가 빨갛게)
+  const v = level(t), fy = Y(v);
+  const redP = pg(t, bt(T.over[0] + 2.5), bt(T.over[0] + 2.8));
+  const col = redP > 0 ? C.red : C.orange;
+  if (v > 1000) el('rect', { x: GX - GW / 2 + 8, y: fy, width: GW - 16, height: YB - fy - 8, rx: 18, fill: col, opacity: redP > 0 ? 0.8 + 0.2 * Math.sin((t - bt(T.over[0] + 2.5)) * 14) : 1 }, g);
+  // 넘쳐 흐름
+  const ov = pg(t, bt(T.over[0] + 1.2), bt(T.over[0] + 2));
+  if (ov > 0) { const y2 = Y(T.k150); el('path', { d: `M${GX - GW / 2} ${fy + 10} q-30 ${80 * ov} -10 ${200 * ov}`, stroke: col, 'stroke-width': 18, fill: 'none', 'stroke-linecap': 'round' }, g); }
+  // 배송비 상자(넘치면 같이 빨갛게)
+  const sb = spring(t - bt(T.over[0] + 1.8), 2, 0.45);
+  if (sb > 0) { const sg = el('g', { transform: `translate(${GX - GW / 2 - 110} ${YB - 70}) scale(${sb})` }, g); el('rect', { x: -70, y: -60, width: 140, height: 120, rx: 18, fill: redP > 0 ? C.red : '#F8B89E' }, sg); txt(sg, 0, 0, '배송비', { class: 'lbl', 'font-size': 34, fill: '#fff' }); }
+  // 관세+부가세 블록이 위에 쌓임
+  const tb = pg(t, bt(T.over[0] + 3.2), bt(T.over[0] + 3.5));
+  if (tb > 0) { const ty = lerp(-200, fy - 110, iq(tb)); const tg = el('g', {}, g); el('rect', { x: GX - GW / 2 - 30, y: ty, width: GW + 60, height: 100, rx: 18, fill: C.navy }, tg); txt(tg, GX, ty + 52, '관세+부가세', { class: 'lbl', 'font-size': 32, fill: '#fff' }); }
+  // 보기 선과 카드
+  OPTS.forEach(([val, label], i) => {
+    const cb = T.cards[i], ly = Y(val);
+    if (t < bt(cb) - 0.05) return;
+    const sp = spring(t - bt(cb), 2.6, 0.4);
+    const passed = i === 0 && t >= bt(T.pass1) + 0.1;
+    const dropP = passed ? pg(t, bt(T.pass1) + 0.1, bt(T.pass1) + 0.7) : 0;
+    const hitP = i === 1 ? pg(t, bt(T.hit), bt(T.hit) + 0.15) : 0;
+    const gone3 = i === 2 ? pg(t, bt(T.third[0]), bt(T.third[0]) + 0.5) : 0;
+    if (dropP >= 1 || (i === 2 && t >= bt(T.third[1]))) return;
+    const lineCol = i === 1 && t >= bt(T.hit) ? C.orange : C.gray;
+    const flash = i === 1 && t >= bt(T.hit) && t < bt(T.hit) + 0.4 ? 0.5 + 0.5 * Math.sin((t - bt(T.hit)) * 40) : 1;
+    el('line', { x1: GX - GW / 2 - 20, y1: ly, x2: lerp(GX, 960, sp), y2: ly, stroke: lineCol, 'stroke-width': i === 1 && t >= bt(T.hit) ? 8 : 5, 'stroke-dasharray': '16 12', opacity: (1 - dropP) * flash }, g);
+    const cx = 760 + gone3 * 40, cy = ly + dropP * 900, leave3 = i === 2 ? pg(t, bt(T.third[1]) - 0.3, bt(T.third[1])) : 0;
+    const sc = (0.3 + 0.7 * sp) * (1 + 0.15 * (i === 1 ? spring(t - bt(T.hit), 2.4, 0.4) * (t >= bt(T.hit) ? 1 : 0) : 0));
+    const cg = el('g', { transform: `translate(${cx + leave3 * 400} ${cy}) rotate(${dropP * 40 + gone3 * 12}) scale(${sc})`, opacity: (1 - dropP) * (1 - leave3) }, g);
+    const fill = passed ? '#C9CDD6' : i === 1 && t >= bt(T.hit) ? C.green : '#fff';
+    el('rect', { x: -190, y: -52, width: 380, height: 104, rx: 30, fill, stroke: i === 1 && t >= bt(T.hit) ? C.green : C.navy, 'stroke-width': 6 }, cg);
+    txt(cg, 0, 4, label, { 'font-family': 'D', 'font-size': 52, fill: fill === '#fff' ? C.navy : '#fff' });
+    if (i === 2 && gone3 > 0) { const tg = el('g', { transform: `translate(-140 -72) rotate(-10) scale(${spring(t - bt(T.third[0]) - 0.15, 2.4, 0.4)})` }, cg); el('rect', { x: -60, y: -28, width: 120, height: 56, rx: 14, fill: C.orange }, tg); txt(tg, 0, 3, '블프', { 'font-family': 'D', 'font-size': 36, fill: '#fff' }); }
+    if (i === 1) { ring(FX, cx, cy, t, bt(T.hit), C.green, 60, 320, 0.45, 16); burst(FX, cx, cy, t, bt(T.hit), C.green, 14, 140, 280, 0.35, 10); }
+  });
+  // 장바구니 + 떨어지는 상자
+  const cs = spring(t - 0.05, 1.8, 0.4), cg2 = el('g', { transform: `translate(${GX} ${YB + 40}) scale(${0.55 * cs})` }, g);
+  el('path', { d: 'M-230 -150 L-180 -150 L-130 90 L170 90 L210 -80 L-150 -80', fill: 'none', stroke: C.navy, 'stroke-width': 20, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }, cg2);
+  el('circle', { cx: -90, cy: 150, r: 26, fill: C.navy }, cg2); el('circle', { cx: 130, cy: 150, r: 26, fill: C.navy }, cg2);
+  T.drops.forEach((b, i) => {
+    const p = pg(t, bt(b) - 0.3, bt(b)); if (p <= 0 || t > bt(b) + 0.25) return;
+    const y = lerp(150, YB - 20, iq(p)), x = GX + (i - 1) * 30;
+    el('rect', { x: x - 45, y: y - 45, width: 90, height: 90, rx: 14, fill: ['#F29270', '#F8B89E', '#E86A40'][i], transform: `rotate(${(1 - p) * 25 * (i - 1)} ${x} ${y})`, opacity: 1 - pg(t, bt(b), bt(b) + 0.25) }, g);
+  });
+  // 물음표(꼭대기에 매달려 흔들림)
+  if (t < bt(4)) { const qa = Math.sin(t * 5) * 14 * (1 - pg(t, bt(3.5), bt(4))), qg = el('g', { transform: `translate(${GX} ${YT - 20}) rotate(${qa})`, opacity: rise }, g); el('line', { x1: 0, y1: 0, x2: 0, y2: -70, stroke: C.gray, 'stroke-width': 4 }, qg); txt(qg, 0, -120, '?', { 'font-family': 'D', 'font-size': 120, fill: C.orange }); }
+}
+const oe = (x) => x <= 0 ? 0 : x >= 1 ? 1 : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * 2 * Math.PI / 3) + 1;
+
+// ── 톱니 기계: 150달러 칩이 들어가 원화 칩으로 나옴 ──
+function drawGear(t) {
+  const [a, b] = T.gear; if (t < bt(a) - 0.1 || t >= bt(b)) return;
+  const inP = spring(t - bt(a), 1.8, 0.45), outP = pg(t, bt(b) - 0.25, bt(b));
+  const g = el('g', { transform: `translate(540 960) scale(${inP * (1 - outP)})` }, G);
+  const rot = (t - bt(a)) * 220, teeth = 12, R0 = 130, R1 = 165;
+  let d = ''; for (let i = 0; i < teeth * 2; i++) { const ang = (Math.PI * i) / teeth, r = i % 2 ? R0 : R1; d += (i ? 'L' : 'M') + (Math.cos(ang) * r).toFixed(1) + ' ' + (Math.sin(ang) * r).toFixed(1); }
+  el('path', { d: d + 'Z', fill: C.navy, transform: `rotate(${rot})` }, g);
+  el('circle', { cx: 0, cy: 0, r: 90, fill: C.bg }, g);
+  txt(g, 0, 4, '×', { 'font-family': 'D', 'font-size': 110, fill: C.orange });
+  const chip = (x, y, s, col, sc = 1) => { const cg = el('g', { transform: `translate(${x} ${y}) scale(${sc})` }, g); el('rect', { x: -150, y: -50, width: 300, height: 100, rx: 50, fill: col }, cg); txt(cg, 0, 4, s, { 'font-family': 'D', 'font-size': 50, fill: '#fff' }); };
+  const p1 = oc(pg(t, bt(a) + 0.2, bt(a + 1.6)));
+  if (p1 < 1) chip(lerp(-440, -60, p1), 0, '150달러', C.navy, 1 - 0.6 * pg(p1, 0.7, 1));
+  const p2 = oc(pg(t, bt(a + 1.7), bt(a + 2.4)));
+  if (p2 > 0) { chip(lerp(60, 330, p2), lerp(0, 230, p2), won(T.k150), C.orange, 0.5 + 0.5 * p2); burst(FX, 540 + 330, 960 + 230, t, bt(a + 2.4), C.orange, 10, 140, 230, 0.3, 9); }
+}
+// ── 사이트 화면: 휴대폰 안 실제 관세 계산기 장바구니 영수증 → 물품가 합계 줄 → 과세환율 줄 ──
+const site = $('site');
+const phone = el('g', {}, site);
+const PW = 560, PH = 1010, [IMGW, IMGH] = T.shot;
+el('rect', { x: -PW / 2, y: 0, width: PW, height: PH, rx: 56, fill: '#0F1A38' }, phone);
+el('rect', { x: -PW / 2 + 16, y: 16, width: PW - 32, height: PH - 32, rx: 44, fill: '#FFFFFF' }, phone);
+const clip = el('clipPath', { id: 'scr' }, el('defs', {}, phone)); el('rect', { x: -PW / 2 + 16, y: 16, width: PW - 32, height: PH - 32, rx: 44 }, clip);
+const IW = PW - 32, IH = IW * IMGH / IMGW;
+el('image', { href: 'site.png', x: -IW / 2, y: 16, width: IW, height: IH, 'clip-path': 'url(#scr)', preserveAspectRatio: 'xMidYMin slice' }, phone);
+const hl = el('rect', { fill: 'none', stroke: C.orange, 'stroke-width': 8, rx: 16 }, phone);
+function drawSite(t) {
+  const [a, b] = T.site; if (t < bt(a) || t >= bt(b)) { phone.setAttribute('opacity', 0); return; }
+  const sp = spring(t - bt(a) - 0.1, 1.6, 0.42), leave = pg(t, bt(b) - 0.2, bt(b));
+  phone.setAttribute('opacity', 1 - leave);
+  phone.setAttribute('transform', `translate(540 ${520 + (1 - sp) * 1400 - leave * 300}) rotate(${(1 - cl(sp)) * 8})`);
+  const R0 = T.rows, seq = [[a + 1.5, R0.goods], [a + 2.5, R0.fx]].filter((s) => s[1]);
+  let k = -1; seq.forEach(([bb], i) => { if (t >= bt(bb)) k = i; });
+  if (k < 0) { hl.setAttribute('opacity', 0); return; }
+  const cur = seq[k][1], prv = seq[Math.max(0, k - 1)][1], m = k ? oc(pg(t, bt(seq[k][0]), bt(seq[k][0]) + 0.18)) : oc(pg(t, bt(seq[0][0]), bt(seq[0][0]) + 0.25));
+  const y0 = lerp(prv.y0, cur.y0, k ? m : 1), y1 = lerp(prv.y1, cur.y1, k ? m : 1);
+  hl.setAttribute('opacity', 1); hl.setAttribute('x', -IW / 2 + 10); hl.setAttribute('width', (IW - 20) * (k ? 1 : m));
+  hl.setAttribute('y', 16 + y0 * IH - 6); hl.setAttribute('height', (y1 - y0) * IH + 12); hl.setAttribute('stroke-width', k === 1 ? 11 : 8);
+}
+// ── 끝 요청: 담기 칸에 '광군제 장바구니'가 타이핑되고 담기 버튼이 눌림 ──
+function drawCta(t) {
+  const g = $('cta'); g.innerHTML = '';
+  const [a] = T.cta; if (t < bt(a) || t >= bt(T.end)) return;
+  const s = spring(t - bt(a), 1.8, 0.35), cg = el('g', { transform: `translate(540 1080) scale(${s})` }, g);
+  el('rect', { x: -430, y: -90, width: 620, height: 180, rx: 40, fill: '#fff', stroke: C.navy, 'stroke-width': 8 }, cg);
+  const word = '광군제 장바구니', n = Math.min(word.length, Math.max(0, Math.floor((t - bt(a + 1.2)) / 0.09) + 1));
+  const tx = el('text', { x: -390, y: 4, 'dominant-baseline': 'middle', 'font-family': 'D', 'font-size': 60, fill: C.navy }, cg); tx.textContent = t >= bt(a + 1.2) ? word.slice(0, n) : '';
+  if (Math.floor((t - bt(a)) * 2.5) % 2 === 0 && t < bt(a + 3)) el('rect', { x: -390 + (t >= bt(a + 1.2) ? n * 58 : 0), y: -34, width: 6, height: 68, fill: C.orange }, cg);
+  const press = pg(t, bt(a + 3), bt(a + 3) + 0.12) - pg(t, bt(a + 3) + 0.12, bt(a + 3) + 0.3);
+  const bg = el('g', { transform: `translate(330 0) scale(${1 - 0.12 * press})` }, cg);
+  el('rect', { x: -110, y: -90, width: 220, height: 180, rx: 40, fill: C.navy }, bg); txt(bg, 0, 4, '담기', { 'font-family': 'D', 'font-size': 64, fill: '#fff' });
+  ring(g, 540 + 330, 1080, t, bt(a + 3), C.orange, 60, 260, 0.45, 12);
+}
+// ── 배경: 남색 구간 ──
+function drawBg(t) {
+  const b2 = $('bg2'); b2.style.background = C.navy; let cp = 'circle(0px at 0 0)';
+  for (const [a, c] of T.navy) {
+    if (t >= bt(a) - 0.06 && t < bt(c) - 0.05) cp = `circle(${1.06 * Math.hypot(540, 1100) * o5(pg(t, bt(a) - 0.06, bt(a) + 0.26))}px at 540px 1060px)`;
+    else if (t >= bt(c) - 0.05 && t < bt(c) + 0.2) { const e = oc(pg(t, bt(c) - 0.05, bt(c) + 0.2)), edge = -400 + 1880 * e; cp = `polygon(${edge + 300}px 0, 2000px 0, 2000px 1920px, ${edge - 300}px 1920px)`; }
+  }
+  b2.style.clipPath = cp;
+}
+// ── 로고 ──
+const lgG = $('logo');
+const lgH = el('rect', { fill: '#fff' }, lgG), lgV = el('rect', { fill: '#fff' }, lgG), lgS = el('rect', { fill: C.navy }, lgG);
+el('rect', { x: 280, y: 1215, width: 520, height: 94, rx: 47, fill: C.navy }, lgG);
+const urlT = el('text', { x: 540, y: 1262, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: '#fff', class: 'lbl', 'font-size': 42 }, lgG); urlT.textContent = 'www.jikgugak.com';
+(() => { const cx = 540, cy = 690, k = 300 / 522, X = (u) => cx - 150 + u * k, Y = (v) => cy - 150 + v * k;
+  lgH.setAttribute('x', X(20)); lgH.setAttribute('y', Y(20)); lgH.setAttribute('height', 77 * k); lgH.setAttribute('rx', 38 * k); lgH.setAttribute('width', 482 * k);
+  lgV.setAttribute('x', X(425)); lgV.setAttribute('y', Y(20)); lgV.setAttribute('width', 77 * k); lgV.setAttribute('rx', 38 * k); lgV.setAttribute('height', 482 * k);
+  const hs = 96 * k; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', 2 * hs); lgS.setAttribute('height', 2 * hs); lgS.setAttribute('rx', 40 * k); })();
+// ── 카메라(그래픽만): 보기 꽂힘·상자에 살짝, 정답·넘침에 크게 ──
+function cam(t) {
+  let z = 0, rot = 0, sx = 0, sy = 0;
+  const hit = (b, amt, sh, tl) => { const d = t - bt(b); if (d >= 0 && d < 0.5) z = Math.max(z, amt * Math.exp(-d * 8)); if (sh && d >= 0 && d < 0.22) { const a = sh * (1 - d / 0.22); sx = a * Math.sin(d * 95); sy = 0.7 * a * Math.cos(d * 81); } if (tl && d >= 0 && d < 1.2) rot += tl * (1 - spring(d, 2.2, 0.3)); };
+  T.cards.forEach((b) => hit(b, 0.02, 4, 0)); T.drops.forEach((b) => hit(b, 0.025, 0, 0));
+  hit(T.hit, 0.08, 14, -2.5); hit(T.over[0] + 2.5, 0.1, 20, 3); hit(T.over[0] + 3.5, 0.04, 8, 0);
+  return `translate(${sx}px,${sy}px) rotate(${rot}deg) scale(${1 + z})`;
+}
+
+const LEAD = 0.04;
+window.seek = (t0) => {
+  const t = t0 + LEAD;
+  if (!laid) layout();
+  G.innerHTML = ''; FX.innerHTML = '';
+  drawBg(t); drawGauge(t); drawGear(t); drawSite(t); drawCta(t);
+  $('endbg').style.background = t >= bt(T.end) ? C.orange : 'transparent';
+  lgG.setAttribute('opacity', t >= bt(T.end) ? 1 : 0);
+  for (const w of WD) word(w, t);
+  $('cam').style.transform = cam(t);
+};
+</script>
+</body></html>
