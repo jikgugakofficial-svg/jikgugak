@@ -3114,14 +3114,23 @@
       "model": "X Pro Elite",
       "cat": "home",
       "why": "오클린 전동칫솔 대표 모델, 국내 정식 출시(터치스크린 모델 보도)·알리 공식 스토어 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T19:35:44.012Z",
+      "at": "2026-11-08T21:17:05.111Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
+          "id": "1005010360280779",
+          "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합한 1개",
+          "price": 35700,
+          "orders": 2,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd203ca25bff14c19884d4ca4f884c53cF.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010360280779.html"
+        },
+        {
           "id": "1005010639294062",
           "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합",
-          "price": 29450,
+          "price": 29750,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd18111bafe849a58862d99b33cadcdbL.jpg",
@@ -3130,20 +3139,11 @@
         {
           "id": "1005010333278875",
           "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합",
-          "price": 33900,
+          "price": 34200,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S65d3abdfb4684114a929cb14f89b57a19.jpg",
           "url": "https://ko.aliexpress.com/item/1005010333278875.html"
-        },
-        {
-          "id": "1005010360280779",
-          "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합한 1개",
-          "price": 35300,
-          "orders": 2,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd203ca25bff14c19884d4ca4f884c53cF.jpg",
-          "url": "https://ko.aliexpress.com/item/1005010360280779.html"
         }
       ],
       "coupang": []
@@ -3154,7 +3154,7 @@
       "model": "X10",
       "cat": "home",
       "why": "오클린 전동칫솔 상위 모델, 국내 정발·알리 공식 판매. 색상·칫솔모 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T19:35:48.058Z",
+      "at": "2026-11-08T21:17:11.163Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -3166,15 +3166,15 @@
       "model": "Ultimate 2",
       "cat": "it",
       "why": "8BitDo 무선 게임패드(국내 유통 + 알리 공식 스토어). Ultimate 2C와 이름 비슷해 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T19:35:51.355Z",
+      "at": "2026-11-08T21:17:15.065Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005004698856770",
           "title": "TMR 조이스틱, 전환 가능한 트리거, 모션 제어, 8단 속도를 갖춘 PC 및 Android용 8BitDo Ultimate 2 무선 게임 컨트롤러",
-          "price": 62100,
-          "orders": 4363,
+          "price": 62700,
+          "orders": 4511,
           "rating": "97.4%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S42bef25c3a964da3b4074a07d58ac7e4U.jpg",
           "url": "https://ko.aliexpress.com/item/1005004698856770.html"
@@ -3182,8 +3182,8 @@
         {
           "id": "1005012013826953",
           "title": "8BitDo Ultimate 2C 블루투스 컨트롤러 무선 게임패드 (홀 이펙트 조이스틱 포함) 닌텐도 스위치 / 스위치 2 / OLED 콘솔용",
-          "price": 34500,
-          "orders": 1874,
+          "price": 30900,
+          "orders": 3400,
           "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc34fb1ff5e83486aa61cf72e18359adbT.jpg",
           "url": "https://ko.aliexpress.com/item/1005012013826953.html"
@@ -3191,8 +3191,8 @@
         {
           "id": "1005009946855833",
           "title": "8BitDo Ultimate 2 무선 게임 컨트롤러 PC 및 안드로이드용-Evernight(혼카이: 스타 레일 공식 라이선스)",
-          "price": 80900,
-          "orders": 992,
+          "price": 81800,
+          "orders": 1018,
           "rating": "98.2%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0b0bf47ad164b70b75233e3281971761.jpg",
           "url": "https://ko.aliexpress.com/item/1005009946855833.html"
@@ -3202,20 +3202,20 @@
         {
           "id": "9762238730",
           "name": "Nintendo SwitchOLED 콘솔용 홀 효과 조이스틱이 포함된 스위치 2 무선 게임 패드용 8BitDo Ultimate 2C Bluetooth 컨트롤러",
-          "price": 95700,
+          "price": 50000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/GKiGl9UV_ouXvoFRGLgbwQ51HfAYYl1J3Eq58zkXJPmdBEZMfjuhP_4UnkFH-2o4LZ_Px1zIU_L3AaLHqusAkhmStNe3VgQJ3n_oMxw7Cqs3ABYgzZ35N_aZtffmgcoYdUuFsrKVY3zGePM_HGMkD_Xa7l0ebXSc0XAbn4WyeGBsT6xV6AOdACfeuYgGAKkHHOC7RM-orGSE-Qo8gjHWPaPzp_FL_iNzr3MjvaR3OCS_BzAgzX2lBl_hvPuuMcKpBOdDGmu5yIjyLhfRif-zesVvPxSs0nd9aoyUN1zMfEjyiqiS_xR2_sgAP-ri32X_3u2Txrgj55N5t8-ADdF4MIphqvqqB_VwUDw65l6U2dNBIixj3FtnSmUJbNPqe5DJuQR6NM5XSNttqqF-U3_OYA-hNsP-RBzx-NylpHtEpmEthpwr5T5fMv3fHqu3dS3yIujVm4gIVCvIG2eUoDQKDwLkhYYYcUXUAXdWtCYXu-x3rykXWPLvlyHe7bIyOLxp41ER78O9nqfRCmk6URPc_SDmKFKUFxjbZNtWYv8GCHC9Ymo=",
+          "image": "https://ads-partners.coupang.com/image1/AS-rno7j-puxCo6aAYmL5E3I4G4vr5ie4WIVZf5Gst5WrgYhJLv8TaeflFnxwtOzaPnvXjUfpbs_Kq1z_fHaGesCwp3tUHpTknFh9pjIotXy1wlYfAF3cqKGUYEJmhcR4Gm3-Wzg-mVc80yk29ipr_remDJSQRRGA_UfL5JICNGuwW7JUiZYYPk2WTx3MHuerWwEUw_VFKzhk83FZH8jbS6-X9YE9g-fhHqjfgCpo_B5RADafwqAtmoWtePNyh8g-na1RiiWHeHlGGQHWR4PzDEn7SeuelW7Flxdoym-lEq7AbkSOGvjacd4p-6FomTJ6tlYopIgOjfaCpIhHEfcGoZ-F1IncFliaFylJJHPRBzNQ2n4FpHKC8yCR_jNdvuCqnw-GYF3zMS6aQE_ylcdaMtqS4NWE2O_QdjPAdpyvQGxmJjZ6FNsrCZhd9TGivuMhhy3yrxtMRCNa_TXwqF5fpXfXxK4Mvz3MuidGLDpq11p_u6vJ_Bl-t-FcTDmLH362F2z9In8Qi8Y2OGbVjf49GG850hEf2lQhZdzZCVnIEFNebfT",
           "url": "https://www.coupang.com/vp/products/9762238730"
         }
       ],
       "best": {
         "aliId": "1005004698856770",
         "coupangId": "9762238730",
-        "aliTotal": 62100,
-        "coupangPrice": 95700,
-        "verdict": "good",
-        "diff": 33600,
-        "pct": 35
+        "aliTotal": 62700,
+        "coupangPrice": 50000,
+        "verdict": "bad",
+        "diff": -12700,
+        "pct": -25
       }
     },
     "8BitDo Pro 2": {
@@ -3224,15 +3224,15 @@
       "model": "Pro 2",
       "cat": "it",
       "why": "8BitDo 프로 2 무선 컨트롤러, 알리 공식 스토어 판매·국내 유통. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-05T19:35:55.407Z",
+      "at": "2026-11-08T21:17:19.200Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005011781421373",
           "title": "8BitDo Pro 2 유선 게임패드 USB 컨트롤러 닌텐도 스위치 윈도우 스팀 라즈베리 파이 NS 스위치 게임 컨트롤러",
-          "price": 34500,
-          "orders": 142,
+          "price": 34900,
+          "orders": 140,
           "rating": "99.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sea2eddb47eac4b0683ead28eebf67af9Y.jpg",
           "url": "https://ko.aliexpress.com/item/1005011781421373.html"
@@ -3240,8 +3240,8 @@
         {
           "id": "1005010520657253",
           "title": "8BitDo Pro 2 유선 게임패드 USB 컨트롤러 닌텐도 스위치 윈도우 스팀 라즈베리 파이 NS 스위치 게임 컨트롤러",
-          "price": 27953,
-          "orders": 128,
+          "price": 30400,
+          "orders": 125,
           "rating": "99.6%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb8a48590c93f467bbff71f7a84bd6ed5H.jpg",
           "url": "https://ko.aliexpress.com/item/1005010520657253.html"
@@ -3249,8 +3249,8 @@
         {
           "id": "4000927412551",
           "title": "8Bitdo Pro 2 SN30 Pro SF30 Pro 블루투스 게임패드(닌텐도 스위치 2용) 윈도우 안드로이드 MacOS 스팀용 무선 컨트롤러",
-          "price": 50050,
-          "orders": 29,
+          "price": 50500,
+          "orders": 30,
           "rating": "98.2%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1f434fab4f6b41a0a8572bd53aac44cel.png",
           "url": "https://ko.aliexpress.com/item/4000927412551.html"
@@ -7025,5 +7025,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-08T18:13:56.737Z"
+  "updatedAt": "2026-11-08T21:17:22.938Z"
 }
