@@ -12,7 +12,7 @@ Claude 예약 작업은 저장소 밖에 있어서 여기에 적어 둬요. 새�
 | 직구각 스레드 당일 확인 | 일~금 08:20 | 그날 `content/<오늘>-th-*/publish.json` livecheck → approved:true(5% 규칙), 게시 시각 넘겨 실행되면 승인 안 하고 보고. 없는 날은 그냥 끝 | jikgugak-thread-livecheck |
 | 직구각 아침 점검 (가격·세일) | 매일 08:47 | 가격(매니저 브라우저)·세일(sale-scout)·월요일 과세환율·후보 확인, site-inspector 점검 → 바뀐 것만 커밋, 3~6줄 보고 | jikgugak-morning-check |
 | 직구각 저녁 점검 (가격만) | 매일 20:47 | 가격만, 브라우저 안 열리면 건너뜀 | jikgugak-evening-check |
-| 직구각 주간 상품 후보 찾기 | 매주 월 08:30 | 웹 후보 5개 미만이면 product-scout 10개 → 브라우저 확인 → 통과는 status:"pass"(쿠팡 링크는 운영자가 Actions links 실행) | jikgugak-weekly-candidates |
+| 직구각 상품 찾기·등록 | **매일 13:30**(11/9 운영자: 상품 서치·등록 꾸준히) | product-scout 1~3명 후보 → 쿠팡 공식 API·아마존 ASIN 웹 검색·알리 /api/item·아이허브 화면 확인 → 통과만 등록, 제휴 링크는 gh로 Actions links → 빌드·점검·푸시 | jikgugak-weekly-candidates |
 
 ## 2. 한 번만
 | 이름 | 언제 (KST) | 하는 일 | 어디 · ID |
