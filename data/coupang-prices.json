@@ -148,18 +148,18 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-11-09T08:52:07.766Z",
-      "recordedKrw": 519000,
+      "at": "2026-11-09T13:57:12.582Z",
+      "recordedKrw": 482700,
       "found": true,
       "apiPrice": 482700,
       "isRocket": true,
-      "diff": -36300,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-11-09T08:52:11.669Z",
+      "at": "2026-11-09T13:57:16.463Z",
       "recordedKrw": 208000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -167,7 +167,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-11-09T08:52:15.745Z",
+      "at": "2026-11-09T13:57:20.576Z",
       "recordedKrw": 39610,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -175,7 +175,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-11-09T08:52:19.702Z",
+      "at": "2026-11-09T13:57:24.651Z",
       "recordedKrw": 40900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -183,18 +183,18 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-11-09T08:52:23.662Z",
-      "recordedKrw": 96600,
+      "at": "2026-11-09T13:57:28.614Z",
+      "recordedKrw": 99600,
       "found": true,
       "apiPrice": 99600,
       "isRocket": true,
-      "diff": 3000,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-11-09T08:52:27.897Z",
+      "at": "2026-11-09T13:57:32.649Z",
       "recordedKrw": 67430,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-11-09T08:52:47.788Z",
+      "at": "2026-11-09T13:57:52.548Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -383,7 +383,7 @@
     "ali-baseus-inspire-xh1": {
       "productId": "9241501985",
       "keyword": "베이스어스 인스파이어 XH1",
-      "at": "2026-11-09T08:52:31.625Z",
+      "at": "2026-11-09T13:57:36.495Z",
       "recordedKrw": 316300,
       "found": true,
       "apiPrice": 316300,
@@ -394,7 +394,7 @@
     "iherb-cgn-s-acetyl-glutathione-120": {
       "productId": "6584056433",
       "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
-      "at": "2026-11-09T08:52:35.752Z",
+      "at": "2026-11-09T13:57:40.704Z",
       "recordedKrw": 81300,
       "found": true,
       "apiPrice": 81300,
@@ -405,7 +405,7 @@
     "iherb-cgn-marine-collagen-500g": {
       "productId": "9127064765",
       "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-      "at": "2026-11-09T08:52:39.652Z",
+      "at": "2026-11-09T13:57:44.527Z",
       "recordedKrw": 82000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -413,7 +413,7 @@
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
       "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
-      "at": "2026-11-09T08:52:43.658Z",
+      "at": "2026-11-09T13:57:48.899Z",
       "recordedKrw": 79400,
       "found": true,
       "apiPrice": 79400,
@@ -435,7 +435,7 @@
     "amazon-beats-studio-pro": {
       "productId": "7568571509",
       "keyword": "비츠 스튜디오 프로 무선 헤드폰",
-      "at": "2026-11-09T08:52:51.677Z",
+      "at": "2026-11-09T13:57:56.581Z",
       "recordedKrw": 218000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -443,15 +443,15 @@
     "amazon-beats-powerbeats-pro-2": {
       "productId": "8605086546",
       "keyword": "비츠 파워비츠 프로 2 운동용 이어폰",
-      "at": "2026-11-09T08:52:55.622Z",
+      "at": "2026-11-09T13:58:00.529Z",
       "recordedKrw": 254030,
       "found": false,
-      "note": "검색 상위 2개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-beats-solo-4": {
       "productId": "8163708318",
       "keyword": "비츠 솔로 4 무선 헤드폰",
-      "at": "2026-11-09T10:30:14.803Z",
+      "at": "2026-11-09T13:58:04.553Z",
       "recordedKrw": 179000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -459,13 +459,13 @@
     "amazon-bose-qc-headphones": {
       "productId": "7579231557",
       "keyword": "보스 QC 헤드폰",
-      "at": "2026-11-09T10:30:18.727Z",
+      "at": "2026-11-09T13:58:08.606Z",
       "recordedKrw": 279000,
       "found": true,
-      "apiPrice": 349000,
-      "isRocket": false,
-      "diff": 70000,
-      "result": "held"
+      "apiPrice": 279000,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
     },
     "amazon-bose-qc-earbuds": {
       "productId": "8350898413",
@@ -571,5 +571,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-09T12:40:19.075Z"
+  "updatedAt": "2026-11-09T13:58:12.699Z"
 }
