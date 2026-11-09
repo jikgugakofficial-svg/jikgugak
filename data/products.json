@@ -2625,11 +2625,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BJD6VK8G",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 자동",
+    "checkedAt": "2026.11.10 쿠팡 자동",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18727,
-    "domesticKrw": 18870,
+    "domesticKrw": 19750,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2653,13 +2653,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 18040,
-        "to": 19750,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -2721,6 +2714,13 @@
         "field": "domesticKrw",
         "from": 17880,
         "to": 18870,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 18870,
+        "to": 19750,
         "source": "쿠팡"
       }
     ]
