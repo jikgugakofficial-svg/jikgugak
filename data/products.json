@@ -4162,5 +4162,84 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). UPC 097855177797(웹 검색). 쿠팡 같은 상품 번호에 색별 가격이 달라 낮은 값 사용",
       "checkedAt": "2026.11.09"
     }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.09 쿠팡·알리 API 매니저",
+    "slug": "ali-moondrop-space-travel-2",
+    "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
+    "category": "audio",
+    "priceKrw": 35680,
+    "domesticKrw": 56070,
+    "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
+    "domesticSource": "쿠팡 판매자 상품(병행 수입)",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmR5Do9s39Am3I7OImYr5U7X0MQ5InVx6Aragav0mTzfBoEblVyqDzdpD9qW2pLwT9YDprJISkGwKaJ7DTGKZreI1JGfkYzJEP8O95yzx4XbzP998fwX9MNhcOpVrw08dYmhKsnxkCrs4ZmcnP2REFVlREuaM2Iw5HINwy7kKkzoBsP58M8thPpW5sKjyswyvYZKhKVFPTk0OMuWTCeo5NLsklSTsfSenEJSGCOfJQRzRXchSEdSoDzjBdTftuqtd2mj7tJbYlekY7NLZqJUANmjQfzulBaZ5hogwN9j31EmAv3WfaZ5snidvispmm3obKw2xmpnXSXPc4Rmj663FSd71hRsNLNZ7BcySBExBn20Tz6xSFlQMi4Qbntx2ZUuzXZ29qf1zj3QyMzKCpyVvLB3OQRH5Hh8lHHZTWUsH8Bqe7CsNpiyAndVquj0uZASOuY9FfFHF4wxYJeMZpaJerLeRulNZbA3Stmz9BmTDqgQeWlu0gzXbwBJjkOkJ6ARQUIKr39maBiqwOdUJff9WjOiT4dZPOJfgq1Il0KMkRPpu67NRB95psNIuaLqVQJyxX61io7aOTbDB4cudUzEFXZJi4XUXDDkgZGZaQW5k9cmXHbu7z1dPEVUcMYJaQVLZCx7V0sHtuIGsD4P5oXmQ5mUqz3j1kBrv7UXkWEWSR1QafP4KhfVtC6iTWhofatyKCEpuJqGdomgSG",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9764598863",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005009402878815.html",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8c2f23e26a244f91b0b6851a8d014d5ca.jpg",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "울트라(Space Travel 2 Ultra)는 다른 제품이에요"
+    ],
+    "summary": [
+      "무드롭 공식 스토어 스페이스 트래블 2와 쿠팡 같은 모델(울트라 아님)을 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요. 쿠팡도 해외 판매자 병행 수입 상품이에요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "MOONDROP Space Travel 2 (ANC, BT 6.0, 울트라 아님)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 알리 제휴 API 제목(무드롭 공식 스토어)으로 맞춤. 색 옵션 미확인(11/9 매니저)",
+      "checkedAt": "2026.11.09"
+    }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.09 쿠팡·알리 API 매니저",
+    "slug": "ali-redragon-k617-fizz",
+    "name": "레드드래곤 K617 피즈 60% 기계식 키보드 (레드 스위치)",
+    "category": "it",
+    "priceKrw": 44219,
+    "domesticKrw": 68600,
+    "domesticUrl": "https://link.coupang.com/a/iw00qwJNzo",
+    "domesticSource": "쿠팡 판매자 상품",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoGKa546nJ7QGaKgFup9jmHp2OR3LokgIDIn2WPsNt5PKr4VZLyPe8FVvdM0RA2bwfTrGSJK22yPTz0zxn7hu5XUsZoAoJvz548zG7WH4hcXIV3au8oNbXAwonMGWxI9LpucmObsB81QGoedUwZ7M9Yg1K6wfEnsSSXd5eSaONeIleU76tPHKgyTyJE7CK3feBkaHWiJY32oJZl1bHpc6gfwunpMo7rXPf9ygO0umPe3aa53kLjUApSxtZ2N1HkiXrwu1qCMeNNHxj2ZinhKWT88WFg0WqMJwIK6Rc6LasUtcw8x05r9TT9rX6nzdBLBff9WJwEMMvB8s9B3J7E17ZwL8BgLz86MgRG7AreKzdgZmukkyBOEG3ID3bFXiDuEnu0KlJqOi9AUj4MF4Kc6PMV7CoJADGivJbylnC0TOcLYvbbDJHVuenTWSYfkHT36L5jEW9rlm8Mv8AfkmGfmtxbX6nuzqVO2XXvk3WJ01z43uYsTY5r4d5EOx3TgghzEO1UTyWvq7hYi3JOa3DfOkVlp11GGV4pPWGGeQNXxksU2SP7Oy0daGjlczjtgOGUtHwnVnmcflqk9GxmkQmtbSobKdprndAbjFYOs9iGST7QH3T4G7yXs48NwZoReEpuJAdfBBkesfimWOoTGozZYcCYoirQZxGg8D83DN8t2oPvUxs7OBf4SUuCtyLdJJypZN7b1RPkUFHulg0",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7795587320",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006388894172.html",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5bfe39fdd1de40c1ac6e037c05b346cai.jpg",
+    "risks": [
+      "배송 1~2주",
+      "영문 키캡(한글 각인 없음)",
+      "키캡 색 옵션마다 가격이 달라요",
+      "K617 HE(마그네틱 스위치)는 다른 제품이에요"
+    ],
+    "summary": [
+      "레드드래곤 공식 스토어 K617 피즈(유선, 레드 스위치)와 쿠팡 같은 모델을 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요. 쿠팡은 판매자마다 가격 차이가 커요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Redragon K617 Fizz 60% 61키 유선, 리니어 레드 스위치",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(화이트·그레이 키캡)과 알리 제휴 API 제목으로 맞춤. 알리 키캡 색 옵션 미확인(11/9 매니저)",
+      "checkedAt": "2026.11.09"
+    }
   }
 ]

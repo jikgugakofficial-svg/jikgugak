@@ -1,0 +1,278 @@
+[
+  {
+    "name": "어택샤크 X3 무선 게이밍 마우스 (PAW3395)",
+    "brand": "Attack Shark",
+    "model": "X3 PAW3395 26K DPI 트라이모드(일반 X3, Pro/Max 아님)",
+    "category": "it",
+    "ali": {
+      "productId": "1005010114569881",
+      "title": "Attack Shark X3 PAW3395 무선 마우스 ... 26KDPI (Stone's Store)",
+      "apiPrice": 45475,
+      "searchMin": 36600,
+      "option": "item API 기본 옵션가(색상별 최저는 검색가 36,600)"
+    },
+    "coupang": {
+      "productId": "9344616145",
+      "name": "공격상어 X3가벼운 마우스 PAW3395e스포츠 게임용 3모드 무선 마우스",
+      "price": 64250,
+      "rocket": false
+    },
+    "diffPct": 29.2,
+    "diffKrw": 18775,
+    "why": "가성비 게이밍 마우스로 커뮤니티·유튜브에서 자주 언급, 알리 판매 1,854건",
+    "warn": "색상·번들(독 포함 여부) 옵션별로 가격 다름. X3 Pro/Max/PAW3950(42K)은 다른 제품. 쿠팡은 3P 판매자, 바코드 확인 필요"
+  },
+  {
+    "name": "8BitDo 얼티메이트 2C 블루투스 컨트롤러 (스위치/PC)",
+    "brand": "8BitDo",
+    "model": "Ultimate 2C 블루투스(스위치·스위치2 호환, 홀이펙트)",
+    "category": "toy",
+    "ali": {
+      "productId": "1005012013826953",
+      "title": "8BitDo Ultimate 2C 블루투스 컨트롤러 ... 스위치/스위치 2/OLED (Stone's Store)",
+      "apiPrice": 42205,
+      "searchMin": 30900,
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9762238730",
+      "name": "Nintendo SwitchOLED 콘솔용 홀 효과 조이스틱이 포함된 스위치 2 무선 게임 패드용 8BitDo Ultimate 2C Bluetooth 컨트롤러",
+      "price": 50000,
+      "rocket": false
+    },
+    "diffPct": 15.6,
+    "diffKrw": 7795,
+    "why": "스위치 2·스팀덱용 저가 패드로 인기, 알리 3,400건",
+    "warn": "알리 공식 스토어 상품은 2.4G 동글(PC용) 버전이라 다름. 블루투스(스위치용) 옵션끼리만. 쿠팡 9141315476(50,650)도 'for Switch 블루투스' 동일 계열"
+  },
+  {
+    "name": "AJAZZ AJ139 V2 MC 무선 게이밍 마우스",
+    "brand": "AJAZZ",
+    "model": "AJ139 V2 MC PAW3311 24000DPI 자기충전 도크",
+    "category": "it",
+    "ali": {
+      "productId": "1005009030228894",
+      "title": "AJAZZ AJ139 V2 MC PAW3311 RGB 자기 충전 베이스 ... (Ajazz Official Store)",
+      "apiPrice": 33221,
+      "searchMin": 23100,
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "8861796087",
+      "name": "AJAZZ AJ139 V2 MC PAW3311 무선 게임용 마우스 RGB 자기 충전 도크 매크로 마우스 PC 게이머 용 Bluetooth 12000-24000DP",
+      "price": 42500,
+      "rocket": false
+    },
+    "diffPct": 21.8,
+    "diffKrw": 9279,
+    "why": "가벼운 무선 마우스 입문작으로 언급 많음, 알리 2,043건",
+    "warn": "AJ139 PRO(PAW3395)·V3와 다름. 쿠팡 9683900316(111,000)은 같은 이름이어도 가격대 이상. 차이 1만 원 근처(9.3천 원)라 옵션 따라 갈림"
+  },
+  {
+    "name": "유그린 145W 25000mAh 보조배터리 (PB205)",
+    "brand": "UGREEN",
+    "model": "Nexode PB205/90597A 145W 25000mAh 그레이",
+    "category": "it",
+    "ali": {
+      "productId": "1005005654971205",
+      "title": "UGREEN PD 145W 빠른 충전 전원 은행 ... 25000mAh (UGREEN Direct Store)",
+      "apiPrice": 92300,
+      "searchMin": 74800,
+      "option": "item API 기본 옵션가(검색 최저는 74,800)"
+    },
+    "coupang": {
+      "productId": "7940170364",
+      "name": "유그린 25000mAh 145W 보조배터리 PD PPS, 90597A, 그레이",
+      "price": 89900,
+      "rocket": true
+    },
+    "diffPct": -2.7,
+    "diffKrw": -2400,
+    "why": "노트북 충전용 대용량 보조배터리로 검색 많음",
+    "warn": "국내가 나음 예시. 알리 옵션별 가격 편차 큼. 항공 반입·용량 한도 주의"
+  },
+  {
+    "name": "KZ ZSN Pro X 유선 이어폰 (1BA+1DD)",
+    "brand": "KZ",
+    "model": "ZSN Pro X 1BA+1DD (마이크 유무 옵션 확인)",
+    "category": "audio",
+    "ali": {
+      "productId": "1005009266952579",
+      "title": "KZ ZSN Pro X 메탈 헤드폰 1ba+1dd (KZ Flagship Store)",
+      "apiPrice": 14816,
+      "searchMin": 15150,
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9012184448",
+      "name": "CBay kz zsn.Pro x 금속 이어폰1ba + 1dd.하이브리드 ... 블루투스 이어폰",
+      "price": 25300,
+      "rocket": false
+    },
+    "diffPct": 41.4,
+    "diffKrw": 10484,
+    "why": "입문 유선 IEM 대표 모델, 알리 1,961건",
+    "warn": "마이크 유무·케이블 옵션 다름. 'ZSN Pro'(X 없음)·'Pro 2'와 다른 제품. 쿠팡 8573629872는 43,800. 소액이라 배송비 포함 시 차이 줄 수 있음"
+  },
+  {
+    "name": "VXE 드래곤플라이 R1 Pro Max 무선 마우스",
+    "brand": "VXE (ATK)",
+    "model": "R1 Pro Max PAW3395 2.4G/BT",
+    "category": "it",
+    "ali": {
+      "productId": "1005007675157598",
+      "title": "ATK VXE 드래곤플라이 R1 Pro MAX 무선 게이밍 마우스 PAW3395 (InnovaDigital Boutique)",
+      "apiPrice": 35267,
+      "searchMin": 28220,
+      "option": "item API 기본 옵션가. 제목에 'R1 SE 플러스' 혼재라 옵션 확인 필수"
+    },
+    "coupang": {
+      "productId": "9809532577",
+      "name": "ATK VXE 드래곤플라이 R1 프로 맥스 e스포츠 게이밍 마우스 경량 PAW3395 2.4G 무선 R1 SE 플러스 블루투스 FPS 마우스 충전식",
+      "price": 43060,
+      "rocket": false
+    },
+    "diffPct": 18.1,
+    "diffKrw": 7793,
+    "why": "초경량 가성비 마우스, 알리 1,934건",
+    "warn": "R1 SE·SE 플러스·Pro·Pro Max 등급 혼재 상품(제목에 여러 등급). Pro Max 옵션이 확실할 때만"
+  },
+  {
+    "name": "피파인 K688 USB/XLR 다이나믹 마이크",
+    "brand": "Fifine",
+    "model": "K688 (쇼크마운트 포함)",
+    "category": "it",
+    "ali": {
+      "productId": "1005006007773971",
+      "title": "FIFINE USB XLR 다이나믹 마이크, 쇼크 마운트 ... K688 (FIFINE Choice Store)",
+      "apiPrice": 59429,
+      "searchMin": 48000,
+      "option": "item API 기본 옵션가(최저 48,000)"
+    },
+    "coupang": {
+      "productId": "8556724091",
+      "name": "FIFINE K688 USB XLR 다이나믹마이크 쇼크 마운트 터치 음소거 헤드폰잭 볼륨 컨트롤 PC 또는 사운드 카드 녹음용",
+      "price": 63600,
+      "rocket": false
+    },
+    "diffPct": 6.6,
+    "diffKrw": 4171,
+    "why": "방송·녹음 입문 마이크, 알리 9,834건",
+    "warn": "애매/국내가 나음 예시. 쇼크마운트·암 포함 번들 여부 옵션 확인"
+  },
+  {
+    "name": "QCY 크로스키 C30 오픈형 이어폰",
+    "brand": "QCY",
+    "model": "Crossky C30 (BH24QT33A, C30S 아님)",
+    "category": "audio",
+    "ali": {
+      "productId": "1005010443102720",
+      "title": "QCY 크로스키 C30 오픈 이어 무선 이어폰 블루투스 5.4 (QCY Official Store)",
+      "apiPrice": 32691,
+      "searchMin": 29450,
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "8301861177",
+      "name": "QCY 크로스키 C30 블루투스 이어폰",
+      "price": 26500,
+      "rocket": false
+    },
+    "diffPct": -23.4,
+    "diffKrw": -6191,
+    "why": "오픈형 가성비 이어폰, 알리 5,333건",
+    "warn": "국내가 나음 예시. 쿠팡 C30S(57,500~65,800)·T33은 다른 제품"
+  },
+  {
+    "name": "무드롭 스페이스 트래블 2 무선 이어폰",
+    "brand": "Moondrop",
+    "model": "Space Travel 2 (ULTRA 아님, ANC BT6.0)",
+    "category": "audio",
+    "ali": {
+      "productId": "1005009402878815",
+      "title": "MOONDROP Space Travel 2 이어폰 HiFi 소음 제거 TWS ... (MOONDROP Official Store)",
+      "apiPrice": 35680,
+      "searchMin": 36400,
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9764598863",
+      "name": "MOONDROP SPACE TRAVEL 2 Bluetooth 6.0 수월비 무선 이어폰 노이즈 캔슬링 운하형",
+      "price": 56070,
+      "rocket": false
+    },
+    "diffPct": 36.4,
+    "diffKrw": 20390,
+    "why": "하이파이 가성비 TWS, 알리 공식 5,147건",
+    "warn": "ULTRA(쿠팡 78,800, 알리 48,600)는 별개 제품. 쿠팡은 병행 3P라 보증·바코드 확인"
+  },
+  {
+    "name": "AULA F99 기계식 키보드",
+    "brand": "AULA",
+    "model": "F99 (F99 Pro 아님, 스위치 옵션 확인)",
+    "category": "it",
+    "ali": {
+      "productId": "1005012910453511",
+      "title": "AULA F99/F99 Pro 맞춤형 기계식 키보드 ... (Stone's Store)",
+      "apiPrice": 86920,
+      "searchMin": 47835,
+      "option": "item API 기본 옵션가(옵션이 F99/Pro 혼재, 최저 47,835)"
+    },
+    "coupang": {
+      "productId": "8142975533",
+      "name": "AULA F99 기계식 3모드 키보드",
+      "price": 39900,
+      "rocket": false
+    },
+    "diffPct": -117.8,
+    "diffKrw": -47020,
+    "why": "독거미 F99는 국내 인기 가성비 키보드",
+    "warn": "국내가 나음 예시. 알리 상품이 F99·F99 Pro 혼재라 옵션 맞추기 어려움. 이미 등록된 F75와 시리즈 다름"
+  },
+  {
+    "name": "레드드래곤 K617 피즈 60% 키보드 (레드 스위치)",
+    "brand": "Redragon",
+    "model": "K617 Fizz 60% 61키 선형 레드 스위치",
+    "category": "it",
+    "ali": {
+      "productId": "1005006388894172",
+      "title": "Redragon K617 Fizz 60% 유선 RGB 게이밍 키보드 ... 빨간색 스위치 (Redragon Gaming Store)",
+      "apiPrice": 44219,
+      "searchMin": 38800,
+      "option": "item API 기본 옵션가(레드 스위치)"
+    },
+    "coupang": {
+      "productId": "7795587320",
+      "name": "레드라곤 K617 Fizz 60 유선 RGB 게이밍 키보드 61 키 핫스왑 컴팩트 기계식 키보드화이트 및 그레이 컬러 키캡 포함 리니어 레드 스위치",
+      "price": 68600,
+      "rocket": false
+    },
+    "diffPct": 35.5,
+    "diffKrw": 24381,
+    "why": "입문용 60% 키보드 단골, 알리 공식 스토어",
+    "warn": "키캡 색(화이트·핑크/그레이) 옵션 일치 필요. 쿠팡은 3P 가격 68,600~194,900 편차 커서 최저가 불안정. 쿠팡 정발은 레드드래곤(Redragon) 직접 판매 확인 필요"
+  },
+  {
+    "name": "피파인 AM8 USB/XLR 다이나믹 마이크",
+    "brand": "Fifine",
+    "model": "AM8 블랙 (붐암 별도)",
+    "category": "it",
+    "ali": {
+      "productId": "1005006033905180",
+      "title": "FIFINE USB/XLR 다이나믹 마이크 터치 음소거 ... Ampligame AM8 (FIFINE Choice Store)",
+      "apiPrice": 75457,
+      "searchMin": 52400,
+      "option": "item API 기본 옵션가(최저 52,400, 번들 옵션 혼재)"
+    },
+    "coupang": {
+      "productId": "8401419634",
+      "name": "피파인 AM8 USB XLR 다이나믹 마이크 게이밍 방송 녹음용 독립 볼륨 노브 원터치 음소거, 검정, AM8",
+      "price": 79500,
+      "rocket": true
+    },
+    "diffPct": 5.1,
+    "diffKrw": 4043,
+    "why": "방송용 마이크 입문 모델",
+    "warn": "마이크 단품과 AM8+붐암 세트 옵션 구분. 옵션 불확실해 가장 낮은 확신"
+  }
+]
