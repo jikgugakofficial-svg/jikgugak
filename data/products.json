@@ -58,11 +58,11 @@
     "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.11.09 오전",
+    "checkedAt": "2026.11.09 쿠팡 자동",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28057,
-    "domesticKrw": 27260,
+    "domesticKrw": 24390,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -86,20 +86,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "domesticKrw",
-        "from": 22270,
-        "to": 22890,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.11.05",
-        "field": "priceKrw",
-        "from": 27606,
-        "to": 27682,
-        "source": "아이허브"
-      },
       {
         "at": "2026.11.05",
         "field": "domesticKrw",
@@ -162,6 +148,13 @@
         "from": 27682,
         "to": 28057,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "domesticKrw",
+        "from": 27260,
+        "to": 24390,
+        "source": "쿠팡"
       }
     ]
   },
@@ -3107,11 +3100,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.11.08 쿠팡 자동",
+    "checkedAt": "2026.11.09 쿠팡 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
     "priceKrw": 130274,
-    "domesticKrw": 117900,
+    "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
     "risks": [
@@ -3138,13 +3131,6 @@
     "priceLog": [
       {
         "at": "2026.11.06",
-        "field": "priceKrw",
-        "from": 128972,
-        "to": 130274,
-        "source": "알리"
-      },
-      {
-        "at": "2026.11.06",
         "field": "domesticKrw",
         "from": 125900,
         "to": 117900,
@@ -3204,6 +3190,13 @@
         "field": "domesticKrw",
         "from": 125900,
         "to": 117900,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "domesticKrw",
+        "from": 117900,
+        "to": 125900,
         "source": "쿠팡"
       }
     ]
