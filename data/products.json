@@ -4048,5 +4048,119 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저)",
       "checkedAt": "2026.11.09"
     }
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/iw0RFRNgJw",
+    "sample": false,
+    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "slug": "amazon-apple-airpods-pro-3",
+    "name": "애플 에어팟 프로 3",
+    "category": "audio",
+    "domesticKrw": 296000,
+    "domesticSource": "쿠팡, 로켓배송",
+    "buyUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9024163013",
+    "risks": [
+      "$200 넘으면 관세 8% + 부가세 10%",
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "미국판은 국내 애플 A/S가 제한될 수 있어요",
+      "결제는 원화 말고 달러로 (환전 수수료)"
+    ],
+    "summary": [
+      "에어팟 프로 3(USB-C, 2025년 출시)끼리 비교했어요. 국내는 쿠팡 로켓배송 정품이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "에어팟 프로 2와 헷갈리지 않게 'Pro 3'를 확인하세요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0FQFB8FMG",
+      "model": "Apple AirPods Pro 3",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저)",
+      "checkedAt": "2026.11.09"
+    }
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/iw0RFWMgns",
+    "sample": false,
+    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "slug": "amazon-sony-wf-1000xm5",
+    "name": "소니 WF-1000XM5 노이즈캔슬링 이어폰",
+    "category": "audio",
+    "domesticKrw": 256810,
+    "domesticSource": "쿠팡 판매자 상품",
+    "buyUrl": "https://www.amazon.com/dp/B0C33XXS56",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8051760807",
+    "risks": [
+      "$200 넘으면 관세 8% + 부가세 10%",
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "헤드폰 WH-1000XM5와 헷갈리지 않기",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "소니 WF-1000XM5 이어폰(블랙, WF1000XM5/B)끼리 비교했어요. 국내 최저가는 쿠팡 판매자 상품이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "쿠팡 로켓배송 정품은 이보다 비싸요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0C33XXS56",
+      "model": "Sony WF-1000XM5 블랙(WF1000XM5/B)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션 미확인",
+      "checkedAt": "2026.11.09"
+    }
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/iw0RF3qO4b",
+    "sample": false,
+    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "slug": "amazon-logitech-g-pro-x-superlight-2",
+    "name": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
+    "category": "it",
+    "domesticKrw": 148700,
+    "domesticSource": "쿠팡",
+    "buyUrl": "https://www.amazon.com/dp/B09NBWL8J5",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9606305559",
+    "risks": [
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "1세대 슈퍼라이트·슈퍼라이트 2c(DEX)와 헷갈리지 않기",
+      "쿠팡은 색마다 가격이 달라요",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "로지텍 G PRO X 슈퍼라이트 2(블랙, 910-006628)끼리 비교했어요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "쿠팡 같은 상품도 색에 따라 가격이 달라요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B09NBWL8J5",
+      "model": "Logitech G PRO X SUPERLIGHT 2 블랙 910-006628",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). UPC 097855177797(웹 검색). 쿠팡 같은 상품 번호에 색별 가격이 달라 낮은 값 사용",
+      "checkedAt": "2026.11.09"
+    }
   }
 ]
