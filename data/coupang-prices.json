@@ -37,7 +37,7 @@
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-09T00:16:00.755Z",
+      "at": "2026-11-09T06:44:45.496Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -48,7 +48,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-09T00:16:04.838Z",
+      "at": "2026-11-09T06:44:49.549Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -56,7 +56,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-09T00:16:08.746Z",
+      "at": "2026-11-09T06:44:53.631Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -64,7 +64,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-09T00:16:12.708Z",
+      "at": "2026-11-09T06:44:57.563Z",
       "recordedKrw": 64690,
       "found": true,
       "apiPrice": 54690,
@@ -75,7 +75,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-09T00:16:16.721Z",
+      "at": "2026-11-09T06:45:01.880Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -86,7 +86,7 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-09T00:16:20.767Z",
+      "at": "2026-11-09T06:45:05.476Z",
       "recordedKrw": 478390,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -94,7 +94,7 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-09T00:16:24.745Z",
+      "at": "2026-11-09T06:45:09.485Z",
       "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
@@ -105,7 +105,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-09T00:16:28.880Z",
+      "at": "2026-11-09T06:45:13.698Z",
       "recordedKrw": 59500,
       "found": true,
       "apiPrice": 59500,
@@ -116,7 +116,7 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-11-09T01:52:26.275Z",
+      "at": "2026-11-09T06:45:18.151Z",
       "recordedKrw": 56190,
       "found": false,
       "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -124,13 +124,10 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-09T01:52:30.202Z",
+      "at": "2026-11-09T06:45:21.566Z",
       "recordedKrw": 51080,
-      "found": true,
-      "apiPrice": 125900,
-      "isRocket": false,
-      "diff": 74820,
-      "result": "held"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
@@ -532,7 +529,54 @@
       "recordedKrw": 277800,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "amazon-apple-airpods-pro-3": {
+      "productId": "9024163013",
+      "keyword": "애플 에어팟 프로 3",
+      "at": "2026-11-09T06:44:25.571Z",
+      "recordedKrw": 296000,
+      "imageAdded": true,
+      "found": true,
+      "apiPrice": 296000,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
+    },
+    "amazon-sony-wf-1000xm5": {
+      "productId": "8051760807",
+      "keyword": "소니 WF-1000XM5 노이즈캔슬링 이어폰",
+      "at": "2026-11-09T06:44:29.845Z",
+      "recordedKrw": 256810,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "amazon-logitech-g-pro-x-superlight-2": {
+      "productId": "9606305559",
+      "keyword": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
+      "at": "2026-11-09T06:44:33.742Z",
+      "recordedKrw": 148700,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-moondrop-space-travel-2": {
+      "productId": "9764598863",
+      "keyword": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
+      "at": "2026-11-09T06:44:37.694Z",
+      "recordedKrw": 56070,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-redragon-k617-fizz": {
+      "productId": "7795587320",
+      "keyword": "레드드래곤 K617 피즈 60% 기계식 키보드",
+      "at": "2026-11-09T06:44:41.526Z",
+      "recordedKrw": 68600,
+      "found": true,
+      "apiPrice": 68600,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-09T04:45:41.221Z"
+  "updatedAt": "2026-11-09T06:45:25.583Z"
 }

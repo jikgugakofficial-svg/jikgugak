@@ -363,10 +363,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DMeNTa7V",
     "sample": false,
-    "checkedAt": "2026.11.07 알리 자동",
+    "checkedAt": "2026.11.09 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 32091,
+    "priceKrw": 32175,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -391,13 +391,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.01",
-        "field": "priceKrw",
-        "from": 34036,
-        "to": 35179,
-        "source": "알리"
-      },
       {
         "at": "2026.11.01",
         "field": "priceKrw",
@@ -459,6 +452,13 @@
         "field": "priceKrw",
         "from": 33161,
         "to": 32091,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.09",
+        "field": "priceKrw",
+        "from": 32091,
+        "to": 32175,
         "source": "알리"
       }
     ]
@@ -4085,7 +4085,8 @@
       "model": "Apple AirPods Pro 3",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저)",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "image": "https://ads-partners.coupang.com/image1/O5qPAj06sTUqYd8DOy3u_FqfHtfn8MTvVgrkS1rz9UmtV_EXT9MxMN-7MCEjkgWDySqXS4Oru-LVK5JBlergj0lS8wmfrnJBt81L3fy6zJC-Y0HTSwVa9mAv1ks3RNgoWMATVhWx3z_JOvHiSag6pE6pAZE4JhvQAm3pX7aK3rjcnv7EmJ4dbIr2Jqw8ySfGMUpKYdYp0fUCNYnKpYdeJfF49wQc3nX1FRdg6qV-_4ineGOZyYuU3opOQ3V1PfhwlGf5vyKu74LhFhmVyfZ6jKwut8pmLnkueWnvfgKQZRsTXKSoNUgpUYzjiI2GlQ4zuTvSE_s-TkiNWYSVbiZUI-9PqbgptaEhCqPG0vAXM7ebsw6n5ub6RvoJKNDKB7DDUHrJo6LtcynxJ20cKrZIHuijo9b3oFQ2__QRANZ_0R8uHdKoxjQb7g3rhuXCjxqptYKezr0vJnrxnyJEkLNNYZ6bnucWThZr2sSpIHfcDgxJWk9F-ZmhDI0zre6-e8vXZhgBuqk-fyn9pHu2HP7t-1va"
   },
   {
     "store": "amazon",
