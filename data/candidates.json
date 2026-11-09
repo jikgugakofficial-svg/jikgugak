@@ -5777,7 +5777,7 @@
       "model": "Air4 Pro",
       "cat": "audio",
       "why": "아카라이브 핫딜 채널 사운드피츠 Air4 Pro 핫딜 글(글 날짜 확인 못 함, 가격 생략). Air4·Air4 Lite와 구분",
-      "at": "2026-11-06T08:35:53.376Z",
+      "at": "2026-11-09T10:29:42.653Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -5789,7 +5789,7 @@
       "model": "Air4 Lite",
       "cat": "audio",
       "why": "루리웹 쿠팡 Soundpeats Air4 Lite 26,250원(무배, 24.03.16) → 쿠팡 판매 확인",
-      "at": "2026-11-06T08:35:57.528Z",
+      "at": "2026-11-09T10:29:46.699Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -5799,7 +5799,7 @@
           "name": "SoundPEATS Air4 Lite 블루투스 5.3 무선 이어폰, 고음질 오디오, AI 통화, 소음 감소 이어버드, 다지점 연결 지원",
           "price": 59800,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/93X23uTtCt6nD-rk94OchNFVMuzScCiBjnh-2Zn-CpQd04--OiQIz4rTB9OonXB1a9mq3nOwOJTUxvKft6lqcnx3XTD-BY1vq-WM4mDGnKDEXsA_li-jdSBpnViMv9LtLj101FV_0k53B8Tb77PpByR14wT-R0vTdvik94M9890fQ_E-gOi5v-6hWrN15o0AHVLqpmMYVfghyx8lJ_c-zemgs3y6DgRnKrorXrd-km853BWZm9P71uJ4y9K9Rjm2CVGuQKZT_nmzafcEz8NsOCqvBPoUC-YPxmjByf6j_TT6paLnes7rO9bPCR9oszsi2qmiVIZGAFXGDMLv8kFi4VJS2_qFSEyQsNuDQg5qy4LKJZbaGXwPyJjapgX00fIIRH9X_JjAG53drR1I8DzggwtH2aidevFt6jZQrwmApNv0i1COAzLFJ0JzujrnxiEFIP1L4GWsG7clBAjWlfpImfXOa3YNkgMeEsPqIHqeuXImfhy6SEF-sUDsG2Z45bgszGRYiNUSFvShJh6sUQjTxdhYTUTSf5Vt9Ekw5oKBxZ9h_g==",
+          "image": "https://ads-partners.coupang.com/image1/N_xPPnIH4NE-bzifN0ttxYNQTccwdsJlsyM26Kumr-tg4yu8zd56iBg91fY8u8pKxsEzlSEJQ9cZqNF0o-BW88DaE9m-wyULIIRkRedOOEc7QLOPCXe400snSx4KKkGwLgKBsL2ooyYoHZhc95IJjydkrp6mjepIb-sufUTPGB2v7pVLUYs_uPDYfRwwCvnAw62CcmJeJzJsZz7TQ9hXnf0jP1lMIguEUjEfJDU44rvdqYBvlG8xNQ-bu1gVxzCh6VLbapE_fSI_YpX4ZnHP7c8tU2no90Alg3Ad3hevL7uWCvIEo327l-xyCcesmInrpEVf_JG1rWQNALPTY_gSzor0HW6FZE1DIarpRGWAO814yxij5YbGI2F7MStQNden9HSwz8bwQ1kta6up2n6rifOUYp99TW9cbSDoVfF2hQIw2-QhoKFRuwtCbh6XfnMrSQrER9gQYgWYpaN1Jp37CdLjjUf_QR6l6a2czcfmUwhXdL_2jkW5VzXKvSeGZxThxicHc96RHLdsS6Fd2j8AZZk-md6EK2l36ogfXAMeV4Q=",
           "url": "https://www.coupang.com/vp/products/7559391067"
         }
       ]
@@ -5810,27 +5810,25 @@
       "model": "PearlClip Pro",
       "cat": "audio",
       "why": "아카라이브 핫딜 채널 사운드피츠 펄클립 프로 핫딜 글(글 날짜 확인 못 함, 가격 생략)",
-      "at": "2026-11-06T08:36:01.666Z",
-      "status": "new",
+      "at": "2026-11-09T10:29:50.700Z",
+      "status": "no_ali",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005008483401507",
-          "title": "SoundPEATS PearlClip Pro 무선 이어폰, 블루투스 5.4 오픈이어 이어버드, AI ENC 클리어 통화, 멀티포인트 연결, IPX5",
-          "price": 47900,
-          "orders": 712,
-          "rating": "95.9%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S46b7d1a39c1f45eeb6690e15d1ec3e57h.jpg",
-          "url": "https://ko.aliexpress.com/item/1005008483401507.html"
-        }
-      ],
+      "ali": [],
       "coupang": [
+        {
+          "id": "8523086443",
+          "name": "사운드피츠 CC 펄클립 Pro 오픈타입 이어클립형 무선 블루투스 이어폰 CC Pearlclip Pro",
+          "price": 46000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/K0NK_vJ7GBhclvtcK1nQOhJo-m5TBwxtn52H9UDrRk0GQ_gmGyUMbvveVX8B7ITU1R-UH1-q4AIAY3PKh8irr72w6iGcMHxzpTYOS0ZbSOPNuyCy2_Sx-HrDOSD7MrUlHMg9mfkJNHvMqGqUraZXx6pzptNqFk9NcHywuZLvxntGG1m0PJwhB0su6mBG0T6Ttt265foMTKBR0rKKZprQJH51JKo5Ba1MNyWSxNvyiWsnpo_UfIBrr5sLv7MJMrJOcGJ9_0F40IroIfVhopygp-pOJkXTwmhKqkB3k8BKmj4SEYLl4k0NQKlMQ2TK7XIt9PSb2IYadlgBGataAz6R8_ArBxtgSooMQGJ6zzLY_SUC2L-HORsaoDLhexT45rI6nTZ2OefWec1QROMJUSTyAOiWdax7pzTISmel5FzQa4JkIBxiVAEDMTJFFbiy9rRCf6jUxOk7DS92kS6VusHfk477E1IXDnYW1eUII6bK0aCFXTQIKPV3EEmPrIlhDiaQLRcgYv9cEh3easdA_UtGMTlE8B08JFTVjhsVFXZLW2TEZA==",
+          "url": "https://www.coupang.com/vp/products/8523086443"
+        },
         {
           "id": "9719475725",
           "name": "SoundPEATS PearlClip Pro 오픈 이어 클립온 이어버드 스포츠 운동에 편안한 안전 착용 | 공간 사운드 12mm 드라이버 24H 플레이 고속 충전 IPX5 블루",
           "price": 58500,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/cDITYTnFrNQEQz4lcOWD_bHTIzjmqrn4Qi7Kd0CmjX2CFwBBCBQMzIXQabimPtRc-KgKahhUuIxTl5oJt5CTHoL7n9HmBWYg64QJ-9Cz3NR5QievsIfPf-5RLzccf1mIx1DrHwEnDFH_1YmhBmSYZOrNVGFaLvFk3VCjJgwtTPRlO_Sd8G_J5m4R5xqOw3v4-atx_MVycb_U3X8csPUMcgLerQkN3VU5KDEYZijGsTtxtArFs5ZdX3gqVJFavUf76D7eO_kC8VzPUn_JFIHXFzni9fOfFTzI-H4g3VV_iSkCF9dJI7_gQHR9qLe-jSLTSfXq5TMVkmSIpDl8v8w7umPKVJRD9JlNHJKwGaZDd0apHMt06ZQQF3BkfW88zg0PRzKtXxNm3PRKlRsaqiDcsu4k6J2UEnfIE9Fz-nPZt8Zdl8tu2ZHsvItjraAe7_AaaOHw9XGufTX-kGdS1XRaI2HiL9JsDwS0TjVT0W8i5QLmSTsxQ5jjfMtu-Ib6itEpV0BmMWHSLnm3t3kwi2d59Pwtusk1xsXaPCNHFo8QOA==",
+          "image": "https://ads-partners.coupang.com/image1/v0eeqpcxpqRAZcd-v1TPxIUvd8jtiOqoDXpzxZxC18Z5Il-I-gT_RWYrpfEUbm7ToOBYmf16vkOSqMlH4X4Ag9osHHSwVg-Cl8IonMTmMFyNReJf63brBPAOk3tPuMuLJgN__GXLrHuelOsnVAaFC88aquy5H_uJki6vP2Q3RP6JKuPoP8xbPaHdzLS9esi4LX69meBoMtnZMbdXYuLslcJnLJWvw-ViebbHivOebjdGQw6ua62Mn6KfVilDpTXenZr9B9QTxiFsfpceB0lhAGUb_avcGxISLDZbG9Y0ZchybNd1w66jYtba2h6khACGN5etyXzvxFLKmvuXg4YYHI95_DncZLmyfxfi2jpmqxF8xF-cMYXk94EeFNNkMU8VM164wTD7GS0aDm92Y9KbrJRI6nArp5xM9L876BUmrOjFfGXTpn0jLxwW1fwbCMiu-9Dvj_wpHO9bws1yzRgV7aL_-Wz27CQJbhBUoo_QJtRQsa4ItHmFxXanQ4VONrTIosI7RsBlouk1cQaolieSB4o6bg28fYkN3gFxMrLx_Q==",
           "url": "https://www.coupang.com/vp/products/9719475725"
         },
         {
@@ -5838,27 +5836,10 @@
           "name": "SoundPEATS PearlClip Pro 오픈 이어 클립온 이어버드 스포츠 운동에 편안한 안전 착용 | 공간 사운드 12mm 드라이버 24H 플레이 고속 충전 IPX5 블루",
           "price": 81500,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/cSopEJY6Akn84w9sca_xRpZy6lumakeEVDhmw4WUkmPcTC9q_2KUVp6NiHzVobQj21CIV-buuLdngErRpYuSsCvoZWPMgx1D8UcCrOCAw3Sbld4ANs56DQlxppbQwMrWTqxDtxrq9mgHQrwJiLW0MW4lVb27KabrGCW_ZjnIkFpW8na0qBlg4fEijbuDJ2-LTzCNDn833Cmcq3Upb_MhebZj6ooqCjNoHlTtbraXHomx_lD6y8GXXJmgtjEClBYQflZ282v07naSHVvx7EG66FdNoMCHJBL3ixk_BHeon-TCquz80jZLGzP08rlu6Di_MipYOYaEBBLRi1HVODMxxkqej-Yx7eUluQFZF7JwZTweRYPMTSlF2DAcfeNKk5HjN3cst5r8gWg49EEuC_oScuH1_Z7XcRCEDe8L3gWUDJR3oeF15y7Bv5YDrt876iIblUiE82Ywa4f025N3cbixisA-yPz0YNGadr6iwUgO_ZkNkdHDFTBFKFVNFfx9tXv7YKKsTMUE3da84to-s5tXh-q0L0UzQgIWeNJxcSxzoec=",
+          "image": "https://ads-partners.coupang.com/image1/uVfiQItWXN4ZfItpuTFgx9AdSTg7fPZIzH3zHwpjOe_NpBg1T1wA8XtnZbpOxVseHDuSRDKTDDQ-m2Ck-_VD01mS2U5zq7wvX9eXDrJf0mazONm1VCJ4qgELAHugZNhBlFRJGFgzWpsNeg4Sp0MG1XgXdeYdDAcuWKK14oYEddKaejUTwnLxyZjw86VsL7I952bR9umcy82Uct3Fli-PECuzcKRr1Itl2diq9zlIcN3urFSSV2w34AvBRnv00Kks7gSrPrrjpA5L5sIS-kWe6wJfEhROguPejHXYuKzBP4oqYeeAt8QUT_G9gZZqWhapZBQFaZUfjsStoLoiQbzvscitLbASZ9IGsPTzx7nTvFlUGn8bwrT4_fWxLlXKGhry5p9Eaw5SP4Z87j14kEwum1YtZm6pMHDEf4z3p9DaAgPzRqgrMPpsfpU6YinYKzt3scw_UWnEfBMR1VROSoDl94Wd8fX9_2nwBm5U1VRUyxs4cBPnM40nxV5AhmHOHL8g1IHSQO_8r0RpermP5oSSuBgD7Rwh5iPYGg5rFetNzUQ=",
           "url": "https://www.coupang.com/vp/products/9719475725"
-        },
-        {
-          "id": "9134740512",
-          "name": "SoundPEATS PearlClip Pro 무선 이어폰, 블루투스 54 오픈이어 이어버드, AI ENC 클리어 통화, 멀티포인트 연결, IPX5",
-          "price": 82900,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/jSPE2J-FNc9BbVzCjZDKzLAqnLXBa6vIWZlHnWdR9d_y1jkSdrUTXa35UztRTwJ9sN8mWR74rmasTMS7obPjwMkDITqdgV46EEulbb31MVIUE-JnElEorVNfK9ZfgczUsWM0ohfG28NFSq8CLLYZvDmLvfe-Hq6PU34s0LLU4BXM3jG80Cy-4u3dTk-oLC0qPRaM-YsHy166ZcrthjoMOh3l91fGR0YT066QGnO0YoN8bzXrLzG_PtpJ_S1sUnXenQ6cTykUxDSs3f_VKYbW-V3_IkWWfFbKVboc57VVd7IzdPKsRNYjCprwGyLY-_fg6LfwL8NNtXkNstdyCxNz3at0BVqupOPFxZKtmsKOSe3M1YyC5Bqqu3RFoswdcwuFMuIeldkb_eZU8QVTv9b4vz32fmCv2RtMIlyIpO1SQymYVMj9uife1PXMfKaSvJB91aIyHiN7wSMXsBdzpU2V12Ullw01XMYvdmEiNMb6v_AH42_FK1OorE9AZvxITKw_tAHRQQVCPkIgcInfQAeA-JuCvpuZU821WOPrpyiLJA==",
-          "url": "https://www.coupang.com/vp/products/9134740512"
         }
-      ],
-      "best": {
-        "aliId": "1005008483401507",
-        "coupangId": "9719475725",
-        "aliTotal": 47900,
-        "coupangPrice": 58500,
-        "verdict": "meh",
-        "diff": 10600,
-        "pct": 18
-      }
+      ]
     },
     "Soundcore P20i": {
       "q": "Soundcore P20i",
@@ -5866,7 +5847,7 @@
       "model": "P20i",
       "cat": "audio",
       "why": "뽐뿌 알리뽐뿌 '사운드코어 Anker P20i' 특가 글 2건(글 날짜 확인 못 함, 가격 생략). 색 옵션 맞출 것",
-      "at": "2026-11-06T08:36:05.567Z",
+      "at": "2026-11-09T10:29:54.700Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -5876,7 +5857,7 @@
           "name": "P20i 트루 와이어리스 사운드코어 10mm 드라이버와 강력한 베이스 블루투스 53 30시간 긴 시간 방수 AI 클리어 콜을 위한 2 마이크 22 프리셋 EQ 앱을 통한",
           "price": 54250,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/vgYDAr2TVuzd3qtcvrxPJqbRNMdaU9HyrUm-hxrgGTKOdkKJRrvi0r72LUJZt4EvCBItbxuJOBuZ46lB5O5zJe_dyz07DmLGXcuDPSV1ukhbIlZSLAEZECkru49tlKdOihBapx717rmRfjP6BqXJz64eb4OiIlpqyOwFOa4AcO_kp33wQGP_t7FxnJ8t-3YNfruuTTsdoynUL_DttXB9wxB1Up_rD1UbyJun1VU1YmO1LQGss8kJTvI-Vu1TRj7QKo0sV4m4lt8lWTuq0N-GDD4c99xlWHSf6UgelVtE9RGM1u3OGGyT1b0igxLdgBZvvivV6PR_1YgjdTDfiBcohgcOqP6dePhnrWJe_xwXxnnC2zyzRzz8YMMzHy7Rus96d7yAWbdeO_NVvakTrPWemyqVZhyv1W81nDjSIOZcckk8YKgOPyVVAuobvDITy2hXjLT6CR-WIrzzjcyNCm-0lEX2u0vPG6ywcLvW07GUhl2GLjskJPu1-2Z-mjY47A_vGOebMfhrgXYDeMwkJgOZWhNLLXHDzIBHoofM6kD2dYFxSkI=",
+          "image": "https://ads-partners.coupang.com/image1/Gy_INpa-7NCrh5VhG0ve-oQd0Nr4GgArQIMs9FtI5HaLf6y8-yBO33UkaRJxJX9om3474vyO8i79BVcA1fHkvoW9S0EMhp_HD-WWDY3tVxhhJ3_GHlyGn9WDLVSGPRaAMWTi2oNGAZX_CSYYGEXQ1tvgSrRnYN1Ve94d3a-JyemW4tzwXfygYdU8MdFY8FieEqXSVyxSwLfmLZtKCZlKgAIIRv89JnVXXqYyDqUHIRbvG8GHtjomq7uu4Jod4Ds3s-NW1sUBohxTPLAlXg_9BEagxz__U80zeEncT23nBE-PLaPGndzDaAMh2-WqGIyUd8Ipker5wmz2NxpQFBbop-qcRHp_UTklLXUF21UePHVorW7IhTwpA25bE-hzJutrXm_PFABAvcyl3tTnF09J9NZAeuYRi7RnZEWUXEdQDM1WGyF2klDFbvEM-by607GUOQ2dVHQSLlyAlBdjR9GQ9f3MZFomr7haeF8pgIw9X2HPrZo-Li_Iy4XwfR_YbhaFT0ycahiPnPfgwUPjmMQdmJtdJ64Jzvt3EZc5XgGV8SMvndw=",
           "url": "https://www.coupang.com/vp/products/9749791031"
         },
         {
@@ -5884,7 +5865,7 @@
           "name": "사운드코어 P20i 30시간 재생 10mm 중저음 블루투스5.3 무선 이어폰",
           "price": 59000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/GGSrqVpccIauW3irGMcE4YDGIbbVNStTxDNTQhG9bFE5GQElwaD7TxscrOUEnkSKytVw-v4nVDsSm1RMIakfHl8dyRlbXv5cbDvxybcwh6jSSyh_ATPTUz4RrMJPQTpjEJm3zF8wv57OMHwRue1-63zWUBHShrM02gn9v4_9M7MevNtx1QhoF29xOtUN1fDYzaBcCAucYD2Wy3XUMJ1pMHeGO5vMoslJtf0GRPx4U5qiDYNdwrx_ScGnaly3vGXvSi_XdDukKDaGwZCKJVjYzNVeRopE9f3OWHWtqI6z9PlsHM30vuYI30vwdXzioVbEoLETvcfS5ciHMBJL58l2ngWcuQHd9tNDJn1vd7i9yCLaQzsCYhxTjp8np398ZkKlJC7cO4EuLuViMeneKUG9Y8DIcMSUXxeYm593s4EAFgXCRm_NKTCAHtHZoKXY-UK-vP12EcsOT-TkZ92BaOYQiZjYoM7vAITmf0zYgAI4Wc-71gseO6CTmEjYWxOLDf1nWG9Pj29pSLjGOUyV2QJ9Er4C-tacEof1ZhLI5nQjy4anRg==",
+          "image": "https://ads-partners.coupang.com/image1/Fv3_qK6RTh56WJeLFl08vIJC3kMLegMacW2U_bv9bxXdBTw1sMqLaOy_oDmjOd8stNeW2Hhheps29kd6HIteOoYQXJNurl95sEPLmB509CNqUjeeP-WrSikKv-uHJPPqpj2qqt8nTGOuNLWxhxdiwBmQlUsVwCpN4RRZL3qb-f7Wpiv1rDs0uVctidw5W4WzZ_v8w1AAsvvCwrQt2kQuaW6ChTmr58RzzZZlJ2zT73KcBRIh40ZYTl-pZMTxK4d2h3yIfssDtthhDsejoalRwMZnzYZFtQsjAsB8tF_zrqdK0_h_-Yi5vwz-QzSvGCw1MmADFZOZgi4vCzTnCihiW83bHd1zGHHo9OxP46Poxr9hWVZ8ufQ1Aay8O25g_gd9uc6Or8jTaFmtkklCt6yln0IBpoNCg0opD-ljuAmvqhVSyi8LUbT3ig-Zhw-UziNL-azFJDfM_eb4zI4WNNz4Ds-P8Z9GocMbp6WQpGyzY-dVU6s2SEWNL2mBA9y0cimBE3fo9-78LYLFv9iHGmy_ieyr4nRAio_LDSNWdMycpyhinQ==",
           "url": "https://www.coupang.com/vp/products/8325204668"
         },
         {
@@ -5892,7 +5873,7 @@
           "name": "앤커 사운드코어 P20i True Wireless 이어폰 10mm 드라이버 블루투스 5.3 30시간 재생 방수",
           "price": 69020,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/SnN9HD65b7I2CHdRSu3K86N2PGn6xV0xQ-DMNAqOCeMpEbAhNQlo-XnB3hYd022gn0wVfMuXU_auIvhis42uj1bkkQZELHdG-QjRXkNTwp1ytEHVztz95KT3kFW9BUW8LabgFdMjs9Sc2gS5qNUmBhfTPgbcrGBMRuVfmXFtpVktMAU_-YPBNkJrQygnQIBDOzCXnO9gzKGxtHZRsMAX3GX6mpE5yBlzcCpRuINhe_i5f5Q-TP1fsU0KrN44XdhFY620SOSDcqvIL6AvljMhFcWooiYrl0HKlTvrK6INF6T32BJRhjTapB0Iwhz8o5UpOMBKOq8cHVJ9M1n76NXbaXrNu7np-BQna_ZVveaJQVceLiCMA1T9YPVMKrfTXVyZ_cQwD6HnEcLGhuXuL_uTP5v2AMhHRG73VZuROqBcOetHlc7f14Vljts1Kq8Av7P7jLPqUioPlnrijhSUtbOIiBlyCw_LwNHZM3YYxIk_exZkEGQkQupB_bvidLe9j-84fFlpQr5qNhtS9auANLmnq0C4Ha0tjD6S1ZXlc41zpuqazg==",
+          "image": "https://ads-partners.coupang.com/image1/4T6CIh5AMrxqHOA64Xtp2ghdbJvl2U346zaoSRg0bASqhaCNgKGW1p_weMXSDCUS569puGJ8ufIFzmk7HNNRxRZ8puxvt12NBeJq75xOBE4jeW9TnHiI7w2yBW9OgBb-et_rn3BybLzW_vt5rfgk1EAtctU1wNicAmW0D-j1HH4DgBCJ6qTTKxVqRGzBnAqsEPXKAnyZb4so8guuTbBDJa6YUCnVKRMWNy2iQsLcSC2fLr-N7UYgKwFlZV4qxzIPAMdibxCpTtgTPOUfhJuMX1RZKhv6_PIgzjECDVMFwZiWSzXis3yZ3q_k2R10Voq6acPx_bg76J4bvGt8-7ocM-6A17VffU_O6m85cXZAuoDM8Cg9PhrU3xYd1Dd8kc3JNeawDZoYKSiJZ6WhDpSZYRiiDnPw06r7WnZ7y9dKNq8z_bsQs2Lxf_50tgeitUAMclE0biy5T840l68i21FP3oabtc1g_hPCttQhZEv2E4PXF_GKtbDBQtiMyO6hxe2DVgXW19younfCiT7klNiEsLoFQCBpWgXmfsSKyLMNTd4miEM=",
           "url": "https://www.coupang.com/vp/products/7604854269"
         }
       ]
@@ -5903,11 +5884,28 @@
       "model": "Liberty 5 Pro",
       "cat": "audio",
       "why": "클리앙 리버티 5 프로 사용기(26.10.18), 댓글에 네이버 약 23만 원 구매 언급. 국내가가 높아 직구 차이 클 수 있음",
-      "at": "2026-11-06T08:36:09.717Z",
-      "status": "none",
+      "at": "2026-11-09T10:29:58.840Z",
+      "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9572809856",
+          "name": "Anker Soundcore Liberty 5 Pro(Bluetooth 6.1) 4.03D [완전 무선 이어폰울트라 노이즈",
+          "price": 268200,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/kzBuxgDNKd1FxQhfk1P9Qf6X299vCzsh4sXQLA-p3Ila1aFwByjdfspZOLWsUL0PEd-mhL6gL2ByV42Qt6OjlYXqt7Y5vabtLLKSMILs1kzECdr9ReXUqY9b7cljt2qXV5wn7QydC-_XI8x81J-Si-XGWnYcDiWxcFHw0ovaXdRypI7qSVkoVynurnJZTW05wNyYKJhD_ua3T1lFpbbL_KgkC60PgLThjCVbEVevVkmjqPceurlMCTcz5vfmL82jKHLUCdxmVAne6mUVUgG4P5wsZ1Bur6jthojfDY66ZHAcUIm7jYqzZQ0iJpP6Z66iAm4bBL0p64KHB2emideQ69rPM9E6SJYFIiOk8NlQBEN2ModuZQRvPLmyv10a-3AmoVK0b0zUkhVTAoJJvyAqO6yPuVB8dD8sGZUQURKQ7TfPgdrue_00FgWVUnBOAQhwT-JfdHlFsFH1lAXSCmbMscyEi_4p1wXTxjITtRwH-c7DSFs6OahdxErWs5ec5cTinG8nQnC-Tdgst72hUdJS5cwzHBMM-spFnKLuLqFvBfPKC2Uu",
+          "url": "https://www.coupang.com/vp/products/9572809856"
+        },
+        {
+          "id": "9693745532",
+          "name": "Anker Soundcore Liberty 5 Pro(Bluetooth 6.1) 4.03D [완전 무선 이어폰울트라 노이즈",
+          "price": 279960,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/yaCoHe3zct2Qo6b0yadJn_hYQCPSmx-5vsBCWBq2RLCXFiMIIr2k82sJU5K1BzgXWY0hvWYdo-0YNOleME63brUxQPbkkFUTcTDxjY8zDieg-bmDat1e0cEEmsBCB08NFSpLUcbVMrRhz4oIe_vEpVEIsUiisB0FT8ZXmbBCt5lyMq31x3j6Icv9z6tc3aSXdcwLlVtygtZRw7MEGPdcr8eIrrUZMo54N9WI1e4x01ebWqYzNvVt5tyY-6deMTtjXmnNJRhOMSt3TdR-tmoHSlRCg2emRHjW4aqwU0p9Kqkyznn2Vhn_jNXG2znLrCd5jB4TT7VSi0-qdHxIHnWB1t2lht3zjn5jDWMh4298JHozyEVL_wo7RmQQNa1j1bYQM5MwQ_iuSE-6FAoLJVQiBRy1zKYTrqgg6loTTvWsAqUXUixM3XXxy2Y5PHEZyaiS5p-yvKmuhK6jiC2iwJAerSRC4Qw8YK2yHjSFOHhwafOQjBR5hxFplQ2cBuMsvC6HbQrNxDaPNasuRlvfDDvHIPmJQ2JRw5yGnO13RI91Cf8jxX4=",
+          "url": "https://www.coupang.com/vp/products/9693745532"
+        }
+      ]
     },
     "Soundcore Space Q45": {
       "q": "Soundcore Space Q45",
@@ -5915,7 +5913,7 @@
       "model": "Q45",
       "cat": "audio",
       "why": "클리앙 Q45 구매·사용기 2건(22.09.17 글: 쿠폰가 136,000원). 오래된 모델이라 판매 지속 확인 필요 [근거 약함]",
-      "at": "2026-11-06T08:36:13.518Z",
+      "at": "2026-11-09T10:30:02.851Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
@@ -5931,38 +5929,22 @@
       ],
       "coupang": [
         {
-          "id": "9771540429",
-          "name": "앤커 사운드코어 스페이스 Q45 무선 블루투스 헤드폰, 화이트, space Q45",
-          "price": 158000,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/5-4NIovrJMfKs-ZH51bbQmmavPhPLV0sVelwLJiSU11Vjw3c810fUE6LW55GHo1J1FlgQo1N9QZYD591l-9EHSYs6-ewCZA5wGU7Rio_xLYh_lG9zXghx65BMxuZcXjmVh9XITi3yYgRX6FSrEL_WQJMHjQvQ286tYxQT-OiTQ_k6MSmZmB1pWElFojdyAfXG14bZC9bpW95S5VKmOMtMcFdQbcLZmNMMouScx5qGLTt8mmVVr_-cUOWQJYJIR_AYp7zQaeRUsB_vTtb4_9_rXt5LDSC9TfCRddu6muhQ_iUpCvnKvjgjz00VofF8Zk94ZenTZCYmmtujGbnFrtWzGiomsYjOqI_NUL6rQ5cSxdwo-u_VtD5JWpgh_XU_6bbzBw9lNlcTm7xJVBChwtvqrT6epKIZ3QnuMlisGsQCZMO5_b_wddCKSVIT_RCyWtVolPVzLFsOF5tIjdYLGbbkeOmp4O1WYHqriapgYiXWNU9mxNbdcgfwYlORFzLjTzJPuZuAbIus-dHVWlGIn2MDRKjp-zT28BzdZpvoWoXw9jXQw==",
-          "url": "https://www.coupang.com/vp/products/9771540429"
-        },
-        {
           "id": "6965116221",
           "name": "앤커 사운드코어 스페이스 Q45 무선 블루투스 헤드폰",
-          "price": 160520,
+          "price": 165100,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/zNtbyE4MQzkIuOJkzDi_F2F1PewS_TgeDoqfCg2poAoMfCTzn1fJrcTc2bfJy3EIrTVfJfLBNqQ7AcUVUpcX7-zXmXY1ASCiNUzXWlZFDLGQDK9pQsD3mxvSpTcycV009rYcAIbC7Jk0XnLWPPyYrwl7lNo9exT5mmU11FY2VVdwELUc9t9h7jfxx9i8E-ahKhtqyjC-C5axSqr05nTGgRVZvdt-lOmdp_XrlFPyaLo2zIRohhap78Bk0KIKpfUmQTnPg-HrYJw6HGnMnpPQCkrri13OLA-Yd35ex6ltuWSKkc53UsMudi7ZFyFKxDDJrnO9VUuhElDZ9apFTv8Dt8MLVFqK2zDIghiIT_-urOAlCrmzLBnXD2lfutHr1cwyZ6B4L2FfHFTJhnA12ZOiGUMVoGzr-XK7GblFQd188vMI_xh8FAzSlUCSGG4mHlC-Iyge-hv3vIeVxgmscfkR56NiIinoPBQ8Wj9rg9e1huecFmRw4DHXu69tsvFi18Fwacl20P8wKkkI_73sMpU5XMXWyypcyLFB4FT-oGU7pulpvFU=",
+          "image": "https://ads-partners.coupang.com/image1/gyRgSeVkxWHd215Egy5w0G7JOlBMmCYuQsgH1JCW3gJPOmVLt9-3OjWfzdWriw4Y-jKkExErvNzcb9uK1z9PHWFbQ15NmTE7j69dcLBgyWDGhnGrlnjbMK16qiTY_XCozzU4U9ENX4M7vezd_wlbBUoZ0PGTAOnTjHIYjvrgIfhFZX19B5flMW0UkOdmGlj-WFzdXtCsNsW6p4PU8MH-vpVJcj_mg6DuM7jPII4yD_wPdAhe6VMfGOS80hk90r-uT6_bieEQo7bRQLVAgGfiB_ScQ81O7GwJMBIdKgSTIY9Ck6MvqkZahex764W2OpZ_5gsEiiMXRwN_L4PoZ1RyMc3AbXRU3r2-Q4rD2L5ZFhtKdZnQDommhK1tbuUOj-oSSBUUPdml23Coc7wIRCexunJ81WckfQ8uBJjzlKccBJ7G7751nyZ4lxE4e_Bdlsv5-EsYmOHl_YcWPEigVYY0YG9LPgMbth2-zp4H-km9eifS8ajLmCCIch7ZDqlhea77cAoHS3t7sAFsyOf5NfMkCnuyOmxbTmG8WRrLw4HdcY7T",
           "url": "https://www.coupang.com/vp/products/6965116221"
-        },
-        {
-          "id": "9777191650",
-          "name": "Anker Soundcore Space Q45 화이트",
-          "price": 165130,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/il8s3u8rQOr6dlVviuQ1BpCEPz84x-hStoUs7Bel8Qj4mtFzbZbsXXiunoH-j0QqJaviogppDRXU7eI-J0OQBhTd2acrmnYNERmtlP_wiO11goF1A_UiiFazXQ1yx7Y6T5GuWe-m1ALjI4bA10mMAyu7Ca6P6737nOnk1EaKbDIAKIwGmP1SSynZ-vjJtShSu1IUyjy2UliSK51DaNQIMVkjNCS1ixldd5vAmFSpEGWfFIeijL6kooVG-zc6q9a50cX4bja4u4vrV_l94kGtBnURSaabXpz2nC2nOBqlq2PC0NZ0QNV3hjTN8UvNatk7iKjPEV-4jQiuHXgHzNSghq1nRmmas6l8nTJQRL7awgXTazR3rK4melUQXpC-9YxgxJsG-T_Auzv1XV-eZcPiLN8rCFUn-bdkrFMm3Pn8t9jKFUTgT_KCGYAwrX_RlQYVop-efN6dltfOTOp57w-gIqjxun8Eh-6xVAIW4vklNc_hKHPfEFKmq5WsSBYUOsLFD35wCYVXtlyW-Mfa3YXC7-vqxM-ZPAm6usq0JqXdfJElfQ==",
-          "url": "https://www.coupang.com/vp/products/9777191650"
         }
       ],
       "best": {
         "aliId": "1005007987483549",
-        "coupangId": "9771540429",
+        "coupangId": "6965116221",
         "aliTotal": 176353,
-        "coupangPrice": 158000,
+        "coupangPrice": 165100,
         "verdict": "bad",
-        "diff": -18353,
-        "pct": -12
+        "diff": -11253,
+        "pct": -7
       }
     },
     "Soundcore AeroClip": {
@@ -5971,7 +5953,7 @@
       "model": "AeroClip",
       "cat": "audio",
       "why": "뽐뿌 알리뽐뿌 '[알리할인] 앤커 사운드코어 에어로 클립' 글(글 날짜 확인 못 함, 가격 생략)",
-      "at": "2026-11-06T08:36:17.517Z",
+      "at": "2026-11-09T10:30:06.843Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -5983,9 +5965,9 @@
       "model": "SonoFlow Pro",
       "cat": "audio",
       "why": "루리웹 옥션 원모어 소노플로우 프로 72,900원(국내 핫딜), 퀘이사존 HQ51 출시 뉴스. 등록 후보 SonoFlow(무印)와 다른 모델",
-      "at": "2026-11-06T08:36:21.551Z",
+      "at": "2026-11-09T10:30:10.787Z",
       "status": "none",
-      "coupangTop": 10,
+      "coupangTop": 8,
       "ali": [],
       "coupang": []
     },
@@ -7345,5 +7327,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-09T08:51:59.740Z"
+  "updatedAt": "2026-11-09T10:30:14.799Z"
 }
