@@ -2173,11 +2173,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxmVuzgy",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 자동",
+    "checkedAt": "2026.11.10 쿠팡 자동",
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23411,
-    "domesticKrw": 20670,
+    "domesticKrw": 21570,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2201,13 +2201,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 21570,
-        "to": 19580,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -2269,6 +2262,13 @@
         "field": "domesticKrw",
         "from": 19580,
         "to": 20670,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 20670,
+        "to": 21570,
         "source": "쿠팡"
       }
     ]
@@ -2403,11 +2403,11 @@
     "domesticUrl": "https://link.coupang.com/a/h4BxPNxLs4",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.11.09 오전",
+    "checkedAt": "2026.11.10 쿠팡 자동",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 14038,
-    "domesticKrw": 11190,
+    "domesticKrw": 13290,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2431,20 +2431,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "domesticKrw",
-        "from": 10930,
-        "to": 13290,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.11.05",
-        "field": "priceKrw",
-        "from": 13813,
-        "to": 13851,
-        "source": "아이허브"
-      },
       {
         "at": "2026.11.05",
         "field": "domesticKrw",
@@ -2507,6 +2493,13 @@
         "from": 13851,
         "to": 14038,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 11190,
+        "to": 13290,
+        "source": "쿠팡"
       }
     ]
   },
