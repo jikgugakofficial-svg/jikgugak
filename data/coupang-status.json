@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-09T01:53:31.553Z",
-  "mode": "hourly",
+  "at": "2026-11-09T02:03:18.473Z",
+  "mode": "links",
   "ok": true,
-  "message": "후보 발굴 'FiiO KA11': 애매 (알리 최종 47,100원 / 쿠팡 47,990원)"
+  "message": "링크 만들기: 쿠팡 10개, 알리 0개 → data/new-links.json"
 }
