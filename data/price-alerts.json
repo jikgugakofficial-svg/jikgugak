@@ -10,7 +10,27 @@
       "change": "242%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "amazon-timemore-c3s-grinder:domesticKrw": {
+      "at": "2026-11-09T01:52:34.282Z",
+      "slug": "amazon-timemore-c3s-grinder",
+      "field": "domesticKrw",
+      "recorded": 51080,
+      "api": 125900,
+      "change": "146%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
+    },
+    "ali-aula-f75-keyboard:priceKrw": {
+      "at": "2026-11-09T01:53:29.660Z",
+      "slug": "ali-aula-f75-keyboard",
+      "field": "priceKrw",
+      "recorded": 53100,
+      "api": 78542,
+      "change": "48%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
     }
   },
-  "updatedAt": "2026-11-09T00:16:36.865Z"
+  "updatedAt": "2026-11-09T01:53:30.107Z"
 }
