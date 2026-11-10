@@ -176,12 +176,12 @@
     "domesticUrl": "https://link.coupang.com/a/h1C2dCAIbQ",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
     "sample": false,
-    "checkedAt": "2026.11.10 저녁",
+    "checkedAt": "2026.11.10 오전",
     "slug": "iherb-now-vitamin-d3-k2-120",
     "name": "나우푸드 비타민 D3 & K2 120캡슐",
     "priceKrw": 11702,
-    "domesticKrw": 13110,
-    "domesticSource": "쿠팡 로켓직구 1개(120정) 배송비 포함(와우 무료배송)",
+    "domesticKrw": 14390,
+    "domesticSource": "쿠팡 Coupang Global 1개(120정) 11,890 + 배송비 2,500",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
       "6병까지 자가사용 인정",
@@ -189,7 +189,7 @@
     ],
     "summary": [
       "하나만 사면 배송비 ₩6,000이 붙어 국내가 {diff} 더 싸요.",
-      "다른 영양제와 함께 담아 배송비가 없어져도 쿠팡이 더 싸요.",
+      "다른 영양제와 함께 담아 배송비가 없어지면 아이허브가 조금 싸져서 애매해져요.",
       "D3·K2만 필요하면 쿠팡이 나아요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/28205",
@@ -248,6 +248,13 @@
         "from": 11693,
         "to": 11702,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 13110,
+        "to": 14390,
+        "source": "매니저 브라우저 확인(쿠팡)"
       }
     ]
   },
@@ -494,7 +501,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h1DNoucYgu",
     "sample": false,
-    "checkedAt": "2026.11.02 쿠팡 자동",
+    "checkedAt": "2026.11.10 오전",
     "slug": "ali-aula-f75-keyboard",
     "name": "AULA F75 무선 기계식 키보드 (씨솔트블루·회목축)",
     "priceKrw": 53100,
@@ -655,7 +662,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OAxXpVmK",
     "sample": false,
-    "checkedAt": "2026.11.08 쿠팡 자동",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-lego-10309-succulents",
     "name": "레고 보태니컬 다육식물 10309",
     "category": "toy",
@@ -776,12 +783,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OD7KnGCa",
     "sample": false,
-    "checkedAt": "2026.11.04 오전",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-sony-wh-1000xm6",
     "name": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
     "category": "audio",
-    "domesticKrw": 478390,
-    "domesticSource": "쿠팡 플래티넘 실버, 무료배송 · 내일 새벽 도착",
+    "domesticKrw": 471000,
+    "domesticSource": "쿠팡 플래티넘 실버 일반판매가(와우 451,000), 무료배송 · 내일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0F3PQHWTZ",
     "risks": [
       "$200 넘으면 관세 8% + 부가세 10%",
@@ -810,6 +817,13 @@
         "from": 478280,
         "to": 478390,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 478390,
+        "to": 471000,
+        "source": "매니저 브라우저 확인(쿠팡)"
       }
     ]
   },
@@ -978,7 +992,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h2OIECENSS",
     "sample": false,
-    "checkedAt": "2026.11.04 오전",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-timemore-c3s-grinder",
     "name": "타임모어 C3S 핸드 커피 그라인더",
     "category": "home",
@@ -1076,7 +1090,7 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 오전",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-sennheiser-hd600",
     "name": "젠하이저 HD 600 오픈형 헤드폰",
     "category": "audio",
@@ -1233,13 +1247,13 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 오전",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-audio-technica-ath-m50x",
     "name": "오디오테크니카 ATH-M50x 모니터 헤드폰",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(10.26 확인)",
-    "domesticKrw": 208000,
-    "domesticSource": "쿠팡 직접 판매, 로켓배송 블랙",
+    "domesticKrw": 209280,
+    "domesticSource": "쿠팡 쿠폰 적용가, 로켓배송 블랙",
     "domesticUrl": "https://link.coupang.com/a/h28cvy7hQX",
     "buyUrl": "https://www.amazon.com/dp/B00HVLUR86",
     "risks": [
@@ -1261,7 +1275,16 @@
       "model": "Audio-Technica ATH-M50x 블랙",
       "note": "아마존 상세에 바코드가 안 보여 쿠팡 모델명·세트 번호와 아마존 ASIN 상품명으로 확인(11/2 매니저)",
       "checkedAt": "2026.11.02"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 208000,
+        "to": 209280,
+        "source": "매니저 브라우저 확인(쿠팡)"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -1271,13 +1294,13 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.04 오전",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-aeropress-original",
     "name": "에어로프레스 오리지널 커피메이커",
     "category": "home",
     "shipNote": "US$49 이상 무료 배송(적합 상품)",
-    "domesticKrw": 39610,
-    "domesticSource": "쿠팡 와우 쿠폰가, 로켓배송",
+    "domesticKrw": 52400,
+    "domesticSource": "쿠팡 일반판매가(와우 49,780), 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/h28cEN7ILQ",
     "buyUrl": "https://www.amazon.com/dp/B0047BIWSK",
     "risks": [
@@ -1307,6 +1330,13 @@
         "from": 41230,
         "to": 39610,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 39610,
+        "to": 52400,
+        "source": "매니저 브라우저 확인(쿠팡)"
       }
     ]
   },
@@ -1542,12 +1572,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/h4yGpGCik0",
     "sample": false,
-    "checkedAt": "2026.11.04 오전",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-lego-10313-wildflower-bouquet",
     "name": "레고 보태니컬 들꽃 부케 10313",
     "category": "toy",
-    "domesticKrw": 67430,
-    "domesticSource": "쿠팡, 무료배송 · 내일 도착(재고 적음)",
+    "domesticKrw": 78900,
+    "domesticSource": "쿠팡(판매자 배송), 무료배송 · 내일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0BGQL5B3Q",
     "risks": [
       "US$49 미만이면 배송비 별도",
@@ -1577,6 +1607,13 @@
         "from": 71400,
         "to": 67430,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 67430,
+        "to": 78900,
+        "source": "매니저 브라우저 확인(쿠팡)"
       }
     ]
   },
@@ -3818,7 +3855,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzXSuzlY",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "checkedAt": "2026.11.10 오전",
     "slug": "amazon-bose-qc-headphones",
     "name": "보스 QC 헤드폰(1세대)",
     "category": "audio",
