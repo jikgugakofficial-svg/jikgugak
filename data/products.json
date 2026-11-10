@@ -1362,10 +1362,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynD4fhASy",
     "sample": false,
-    "checkedAt": "2026.11.10 알리 자동",
+    "checkedAt": "2026.11.11 알리 자동",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-    "priceKrw": 42877,
+    "priceKrw": 41448,
     "domesticKrw": 40900,
     "domesticSource": "쿠팡 로켓배송 화이트 일반판매가 · 와우 회원가 38,850원 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
@@ -1391,13 +1391,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "priceKrw",
-        "from": 41900,
-        "to": 41945,
-        "source": "알리"
-      },
       {
         "at": "2026.11.03",
         "field": "priceKrw",
@@ -1459,6 +1452,13 @@
         "field": "priceKrw",
         "from": 43286,
         "to": 42877,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "priceKrw",
+        "from": 42877,
+        "to": 41448,
         "source": "알리"
       }
     ]
@@ -1679,11 +1679,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD4E65Iq",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-glycinate-180-tablets-100-mg-per-tablet/88819",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24992,
-    "domesticKrw": 24820,
+    "domesticKrw": 26130,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1707,13 +1707,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 25690,
-        "to": 24520,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -1776,6 +1769,13 @@
         "from": 23250,
         "to": 24820,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 24820,
+        "to": 26130,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1790,11 +1790,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD4M1Kii",
     "buyUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
     "sample": false,
-    "checkedAt": "2026.11.10 저녁",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 75783,
-    "domesticKrw": 49490,
+    "domesticKrw": 61150,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1818,20 +1818,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "domesticKrw",
-        "from": 60300,
-        "to": 49480,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 49480,
-        "to": 60300,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -1894,6 +1880,13 @@
         "from": 75725,
         "to": 75783,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 49490,
+        "to": 61150,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2132,11 +2125,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD45qsuq",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-milk-thistle-extract-300-mg-200-veg-capsules/13870",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33475,
-    "domesticKrw": 28630,
+    "domesticKrw": 30140,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2160,13 +2153,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 28190,
-        "to": 27120,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -2229,6 +2215,13 @@
         "from": 26820,
         "to": 28630,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 28630,
+        "to": 30140,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2243,11 +2236,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5dJ9Ai",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-l-arginine-1-000-mg-120-tablets/411",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23429,
-    "domesticKrw": 20910,
+    "domesticKrw": 21760,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2271,13 +2264,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 19580,
-        "to": 20670,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -2339,6 +2325,13 @@
         "field": "domesticKrw",
         "from": 19590,
         "to": 20910,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 20910,
+        "to": 21760,
         "source": "쿠팡"
       }
     ]
@@ -2466,11 +2459,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5pzYI0",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-zinc-50-mg-250-tablets/883",
     "sample": false,
-    "checkedAt": "2026.11.10 저녁",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 14049,
-    "domesticKrw": 11200,
+    "domesticKrw": 13490,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2494,20 +2487,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "domesticKrw",
-        "from": 11190,
-        "to": 13290,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.11.06",
-        "field": "domesticKrw",
-        "from": 13290,
-        "to": 11180,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -2570,6 +2549,13 @@
         "from": 14038,
         "to": 14049,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 11200,
+        "to": 13490,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2584,11 +2570,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5wLhiC",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-ultra-omega-3-fish-oil-180-fish-softgels/96436",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46877,
-    "domesticKrw": 40500,
+    "domesticKrw": 42640,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2612,13 +2598,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 40500,
-        "to": 38400,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -2681,6 +2660,13 @@
         "from": 37940,
         "to": 40500,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 40500,
+        "to": 42640,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2695,11 +2681,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5CH0OO",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18741,
-    "domesticKrw": 16170,
+    "domesticKrw": 19870,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2723,13 +2709,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 19750,
-        "to": 17860,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -2792,6 +2771,13 @@
         "from": 17880,
         "to": 16170,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 16170,
+        "to": 19870,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2806,11 +2792,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5IA6rk",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-on-micronized-creatine-caps-100",
     "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
     "priceKrw": 29791,
-    "domesticKrw": 33990,
+    "domesticKrw": 34220,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2834,13 +2820,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.01",
-        "field": "domesticKrw",
-        "from": 28010,
-        "to": 27990,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.02",
         "field": "priceKrw",
@@ -2902,6 +2881,13 @@
         "field": "domesticKrw",
         "from": 28890,
         "to": 33990,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 33990,
+        "to": 34220,
         "source": "쿠팡"
       }
     ]
