@@ -1801,7 +1801,7 @@
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 75783,
-    "domesticKrw": 61150,
+    "domesticKrw": 49490,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1825,13 +1825,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 60300,
-        "to": 49520,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -1893,6 +1886,13 @@
         "field": "domesticKrw",
         "from": 49490,
         "to": 61150,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 61150,
+        "to": 49490,
         "source": "쿠팡"
       }
     ]
@@ -2247,7 +2247,7 @@
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23429,
-    "domesticKrw": 21760,
+    "domesticKrw": 22020,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2271,13 +2271,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 20670,
-        "to": 21570,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -2339,6 +2332,13 @@
         "field": "domesticKrw",
         "from": 20910,
         "to": 21760,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 21760,
+        "to": 22020,
         "source": "쿠팡"
       }
     ]
@@ -2470,7 +2470,7 @@
     "slug": "iherb-now-zinc-50-250",
     "name": "나우푸드 아연 50mg 250정",
     "priceKrw": 14049,
-    "domesticKrw": 13490,
+    "domesticKrw": 13660,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2494,13 +2494,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 11180,
-        "to": 13290,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -2562,6 +2555,13 @@
         "field": "domesticKrw",
         "from": 11200,
         "to": 13490,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 13490,
+        "to": 13660,
         "source": "쿠팡"
       }
     ]
@@ -4067,7 +4067,7 @@
     "slug": "amazon-lego-10328-bouquet-of-roses",
     "name": "레고 보태니컬 장미 꽃다발 10328",
     "category": "toy",
-    "domesticKrw": 67430,
+    "domesticKrw": 60430,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CGY4X222",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7792209105",
@@ -4104,6 +4104,13 @@
         "field": "domesticKrw",
         "from": 60430,
         "to": 67430,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 67430,
+        "to": 60430,
         "source": "쿠팡"
       }
     ]
