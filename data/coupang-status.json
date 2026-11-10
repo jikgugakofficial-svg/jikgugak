@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-10T01:22:14.914Z",
+  "at": "2026-11-10T01:23:10.130Z",
   "mode": "links",
-  "ok": false,
-  "message": "실패: 쿠팡 API 오류 200: URL count should be less than or equal 20"
+  "ok": true,
+  "message": "링크 만들기: 쿠팡 16개, 알리 0개 → data/new-links.json"
 }
