@@ -65,11 +65,11 @@
     "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.11.10 저녁",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28078,
-    "domesticKrw": 24390,
+    "domesticKrw": 20990,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -93,20 +93,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "domesticKrw",
-        "from": 24030,
-        "to": 26860,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 26860,
-        "to": 24260,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -169,6 +155,13 @@
         "from": 28057,
         "to": 28078,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 24390,
+        "to": 20990,
+        "source": "쿠팡"
       }
     ]
   },

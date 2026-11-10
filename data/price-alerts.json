@@ -32,7 +32,7 @@
       "source": "쿠팡"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-10T19:35:06.246Z",
+      "at": "2026-11-10T23:17:31.279Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
@@ -40,16 +40,6 @@
       "change": "43%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
-    },
-    "iherb-doctors-best-magnesium-240:domesticKrw": {
-      "at": "2026-11-10T17:29:43.860Z",
-      "slug": "iherb-doctors-best-magnesium-240",
-      "field": "domesticKrw",
-      "recorded": 24390,
-      "api": 16950,
-      "change": "31%",
-      "reason": "변화가 커서(30% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
     },
     "iherb-on-micronized-creatine-caps-100:verdict": {
       "at": "2026-11-10T22:21:40.380Z",
@@ -61,7 +51,17 @@
       "to": "애매",
       "source": "쿠팡",
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
+    },
+    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
+      "at": "2026-11-10T23:16:52.407Z",
+      "slug": "iherb-now-vitamin-d3-k2-120",
+      "field": "domesticKrw",
+      "recorded": 13220,
+      "api": 44900,
+      "change": "240%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-10T22:21:50.844Z"
+  "updatedAt": "2026-11-10T23:17:32.009Z"
 }

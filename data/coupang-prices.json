@@ -4,7 +4,7 @@
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
       "keyword": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-      "at": "2026-11-10T17:29:35.864Z",
+      "at": "2026-11-10T23:16:40.484Z",
       "recordedKrw": 31170,
       "found": true,
       "apiPrice": 31170,
@@ -15,29 +15,29 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-11-10T17:29:39.835Z",
+      "at": "2026-11-10T23:16:44.421Z",
       "recordedKrw": 24390,
       "found": true,
-      "apiPrice": 16950,
+      "apiPrice": 20990,
       "isRocket": false,
-      "diff": -7440,
-      "result": "held"
+      "diff": -3400,
+      "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-11-10T17:29:43.860Z",
-      "recordedKrw": 14390,
+      "at": "2026-11-10T23:16:48.428Z",
+      "recordedKrw": 13220,
       "found": true,
-      "apiPrice": 13220,
+      "apiPrice": 44900,
       "isRocket": false,
-      "diff": -1170,
-      "result": "applied"
+      "diff": 31680,
+      "result": "held"
     },
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-10T17:30:08.325Z",
+      "at": "2026-11-10T23:17:12.447Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -48,15 +48,15 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-10T18:23:06.599Z",
+      "at": "2026-11-10T23:17:16.446Z",
       "recordedKrw": 59900,
       "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-10T18:23:10.578Z",
+      "at": "2026-11-10T23:17:20.813Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -64,7 +64,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-10T18:23:14.624Z",
+      "at": "2026-11-10T23:17:24.389Z",
       "recordedKrw": 64690,
       "found": true,
       "apiPrice": 54690,
@@ -353,7 +353,7 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-11-10T16:30:24.194Z",
+      "at": "2026-11-10T23:16:28.477Z",
       "recordedKrw": 125900,
       "found": true,
       "apiPrice": 125900,
@@ -364,18 +364,18 @@
     "ali-edifier-evobuds-pro": {
       "productId": "9340326719",
       "keyword": "EDIFIER EvoBuds Pro",
-      "at": "2026-11-10T17:29:27.827Z",
-      "recordedKrw": 79440,
+      "at": "2026-11-10T23:16:32.717Z",
+      "recordedKrw": 78560,
       "found": true,
       "apiPrice": 78560,
       "isRocket": false,
-      "diff": -880,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "iherb-cgn-coq10-100-360": {
       "productId": "9294384581",
       "keyword": "캘리포니아 골드 뉴트리션 CoQ10 USP 등급 유비퀴논 100mg 360정",
-      "at": "2026-11-10T17:29:31.832Z",
+      "at": "2026-11-10T23:16:36.510Z",
       "recordedKrw": 95800,
       "found": true,
       "apiPrice": 95800,
@@ -530,7 +530,7 @@
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
       "keyword": "애플 에어팟 프로 3",
-      "at": "2026-11-10T17:29:47.995Z",
+      "at": "2026-11-10T23:16:52.407Z",
       "recordedKrw": 296000,
       "found": true,
       "apiPrice": 296000,
@@ -541,7 +541,7 @@
     "amazon-sony-wf-1000xm5": {
       "productId": "8051760807",
       "keyword": "소니 WF-1000XM5 노이즈캔슬링 이어폰",
-      "at": "2026-11-10T17:29:51.839Z",
+      "at": "2026-11-10T23:16:56.379Z",
       "recordedKrw": 256810,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -549,19 +549,15 @@
     "amazon-logitech-g-pro-x-superlight-2": {
       "productId": "9606305559",
       "keyword": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
-      "at": "2026-11-10T17:29:55.865Z",
-      "recordedKrw": 148700,
-      "imageAdded": true,
-      "found": true,
-      "apiPrice": 166000,
-      "isRocket": false,
-      "diff": 17300,
-      "result": "applied"
+      "at": "2026-11-10T23:17:00.466Z",
+      "recordedKrw": 166000,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "ali-moondrop-space-travel-2": {
       "productId": "9764598863",
       "keyword": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
-      "at": "2026-11-10T17:30:00.036Z",
+      "at": "2026-11-10T23:17:04.494Z",
       "recordedKrw": 56070,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -569,7 +565,7 @@
     "ali-redragon-k617-fizz": {
       "productId": "7795587320",
       "keyword": "레드드래곤 K617 피즈 60% 기계식 키보드",
-      "at": "2026-11-10T17:30:03.797Z",
+      "at": "2026-11-10T23:17:08.607Z",
       "recordedKrw": 68600,
       "found": true,
       "apiPrice": 68600,
@@ -605,5 +601,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-10T22:21:48.417Z"
+  "updatedAt": "2026-11-10T23:17:28.396Z"
 }
