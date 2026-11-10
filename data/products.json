@@ -401,7 +401,7 @@
     "checkedAt": "2026.11.10 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 31847,
+    "priceKrw": 30786,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -426,13 +426,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.01",
-        "field": "priceKrw",
-        "from": 33420,
-        "to": 32365,
-        "source": "알리"
-      },
       {
         "at": "2026.11.02",
         "field": "priceKrw",
@@ -494,6 +487,13 @@
         "field": "priceKrw",
         "from": 32175,
         "to": 31847,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "priceKrw",
+        "from": 31847,
+        "to": 30786,
         "source": "알리"
       }
     ]
@@ -1157,7 +1157,7 @@
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 519000,
+    "domesticKrw": 482700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/iynCarFhMy",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1174,13 +1174,6 @@
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "domesticKrw",
-        "from": 519000,
-        "to": 467700,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -1242,6 +1235,13 @@
         "field": "domesticKrw",
         "from": 482700,
         "to": 519000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 519000,
+        "to": 482700,
         "source": "쿠팡"
       }
     ],
