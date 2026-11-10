@@ -42,7 +42,7 @@
       "source": "알리"
     },
     "iherb-doctors-best-magnesium-240:domesticKrw": {
-      "at": "2026-11-10T12:33:28.927Z",
+      "at": "2026-11-10T17:29:43.860Z",
       "slug": "iherb-doctors-best-magnesium-240",
       "field": "domesticKrw",
       "recorded": 24390,
@@ -50,17 +50,7 @@
       "change": "31%",
       "reason": "변화가 커서(30% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
-    },
-    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-10T12:33:32.911Z",
-      "slug": "iherb-now-vitamin-d3-k2-120",
-      "field": "domesticKrw",
-      "recorded": 14390,
-      "api": 44900,
-      "change": "212%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-10T16:30:31.567Z"
+  "updatedAt": "2026-11-10T17:30:14.911Z"
 }
