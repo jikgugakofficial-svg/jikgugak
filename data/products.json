@@ -2698,11 +2698,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5CH0OO",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.11.10 저녁",
+    "checkedAt": "2026.11.10 쿠팡 자동",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18741,
-    "domesticKrw": 17880,
+    "domesticKrw": 16170,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2726,20 +2726,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 17860,
-        "to": 18850,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 18850,
-        "to": 19750,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -2802,6 +2788,13 @@
         "from": 18727,
         "to": 18741,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 17880,
+        "to": 16170,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2816,11 +2809,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5IA6rk",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
     "sample": false,
-    "checkedAt": "2026.11.10 저녁",
+    "checkedAt": "2026.11.10 쿠팡 자동",
     "slug": "iherb-on-micronized-creatine-caps-100",
     "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
     "priceKrw": 29791,
-    "domesticKrw": 28890,
+    "domesticKrw": 33990,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2844,13 +2837,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.10.31",
-        "field": "domesticKrw",
-        "from": 28400,
-        "to": 28010,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.01",
         "field": "domesticKrw",
@@ -2912,6 +2898,13 @@
         "field": "domesticKrw",
         "from": 24630,
         "to": 28890,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "domesticKrw",
+        "from": 28890,
+        "to": 33990,
         "source": "쿠팡"
       }
     ]

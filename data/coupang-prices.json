@@ -312,29 +312,29 @@
     "iherb-now-magnesium-caps-400-180": {
       "productId": "26208",
       "keyword": "나우푸드 마그네슘 캡 400mg 180캡슐",
-      "at": "2026-11-10T06:36:34.738Z",
+      "at": "2026-11-10T11:30:40.100Z",
       "recordedKrw": 17880,
       "found": true,
-      "apiPrice": 17880,
+      "apiPrice": 16170,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -1710,
+      "result": "applied"
     },
     "iherb-on-micronized-creatine-caps-100": {
       "productId": "65105319",
       "keyword": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
-      "at": "2026-11-10T06:36:38.619Z",
+      "at": "2026-11-10T11:30:44.086Z",
       "recordedKrw": 28890,
       "found": true,
-      "apiPrice": 28890,
+      "apiPrice": 33990,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 5100,
+      "result": "applied"
     },
     "ali-qcy-melobuds-n70": {
       "productId": "8974456611",
       "keyword": "QCY 멜로버즈 N70 노이즈캔슬링 이어폰",
-      "at": "2026-11-10T06:36:42.623Z",
+      "at": "2026-11-10T11:30:48.105Z",
       "recordedKrw": 61880,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -342,7 +342,7 @@
     "ali-edifier-m90-speaker": {
       "productId": "9481089707",
       "keyword": "에디파이어 M90 블루투스 스피커",
-      "at": "2026-11-10T06:36:46.628Z",
+      "at": "2026-11-10T11:30:52.107Z",
       "recordedKrw": 249000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -350,7 +350,7 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-11-10T06:36:50.669Z",
+      "at": "2026-11-10T11:30:56.207Z",
       "recordedKrw": 125900,
       "found": true,
       "apiPrice": 125900,
@@ -361,7 +361,7 @@
     "ali-edifier-evobuds-pro": {
       "productId": "9340326719",
       "keyword": "EDIFIER EvoBuds Pro",
-      "at": "2026-11-10T06:36:54.708Z",
+      "at": "2026-11-10T11:31:00.161Z",
       "recordedKrw": 79440,
       "found": true,
       "apiPrice": 79440,
@@ -424,7 +424,7 @@
     "iherb-cgn-organic-spirulina-720": {
       "productId": "6168309514",
       "keyword": "캘리포니아 골드 뉴트리션 올가닉 스피루리나 500mg 720정",
-      "at": "2026-11-10T05:34:45.495Z",
+      "at": "2026-11-10T11:30:36.099Z",
       "recordedKrw": 56400,
       "found": true,
       "apiPrice": 49700,
@@ -598,5 +598,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-10T10:36:52.575Z"
+  "updatedAt": "2026-11-10T11:31:04.076Z"
 }
