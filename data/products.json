@@ -4344,5 +4344,119 @@
         "source": "알리"
       }
     ]
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/iyCmqi3BWS",
+    "sample": false,
+    "checkedAt": "2026.11.10 쿠팡 API 매니저",
+    "slug": "amazon-sony-wh-1000xm5",
+    "name": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
+    "category": "audio",
+    "domesticKrw": 327720,
+    "domesticSource": "쿠팡 판매자 상품",
+    "buyUrl": "https://www.amazon.com/dp/B09XS7JWHH",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8879659697",
+    "risks": [
+      "$200 넘으면 관세 8% + 부가세 10%",
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "후속 모델 WH-1000XM6, 이어폰 WF-1000XM5와 헷갈리지 않기",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "소니 WH-1000XM5 헤드폰(블랙, XM5BK)끼리 비교했어요. 국내 최저가는 쿠팡 판매자 상품이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "쿠팡 로켓배송(실버·핑크)은 이보다 비싸요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B09XS7JWHH",
+      "model": "Sony WH-1000XM5 블랙(WH1000XM5/B, XM5BK)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색: camelcamelcamel·uniquephoto·슬릭딜에서 블랙 확인, 아마존 화면은 열지 않음)으로 맞춤(11/10 매니저). 쿠팡 판매자 상품 색 옵션 미확인",
+      "checkedAt": "2026.11.10"
+    }
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/iyCmqpFIgm",
+    "sample": false,
+    "checkedAt": "2026.11.10 쿠팡 API 매니저",
+    "slug": "amazon-sennheiser-momentum-4",
+    "name": "젠하이저 모멘텀 4 와이어리스 헤드폰",
+    "category": "audio",
+    "domesticKrw": 293660,
+    "domesticSource": "쿠팡 로켓배송",
+    "buyUrl": "https://www.amazon.com/dp/B0B6GHW1SX",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7776776856",
+    "risks": [
+      "$200 넘으면 관세 8% + 부가세 10%",
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "이어폰 모멘텀 트루 와이어리스 4, 모멘텀 4 SE와 헷갈리지 않기",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "젠하이저 모멘텀 4 와이어리스 헤드폰(블랙, M4AEBT)끼리 비교했어요. 국내 최저가는 쿠팡 로켓배송이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "$200을 넘으면 관세·부가세가 붙어서 손익분기를 꼭 확인하세요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0B6GHW1SX",
+      "model": "Sennheiser MOMENTUM 4 Wireless 블랙(M4AEBT)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(M4AEBT, 블랙 옵션)과 아마존 ASIN(웹 검색: camelcamelcamel·manuals.plus에서 블랙 확인, 아마존 화면은 열지 않음)으로 맞춤(11/10 매니저)",
+      "checkedAt": "2026.11.10"
+    }
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "domesticUrl": "https://link.coupang.com/a/iyCmqzhXCC",
+    "sample": false,
+    "checkedAt": "2026.11.10 쿠팡 API 매니저",
+    "slug": "amazon-garmin-forerunner-265",
+    "name": "가민 포러너 265 러닝 스마트워치 (46mm)",
+    "category": "it",
+    "domesticKrw": 452100,
+    "domesticSource": "쿠팡 로켓배송",
+    "buyUrl": "https://www.amazon.com/dp/B0BS1T9J4Y",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7209583295",
+    "risks": [
+      "$200 넘으면 부가세 10%(스마트워치 관세 0% 기준)",
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "42mm 포러너 265S, 포러너 165·255와 헷갈리지 않기",
+      "미국판은 한국어 메뉴·국내 정식 A/S가 다를 수 있어요"
+    ],
+    "summary": [
+      "가민 포러너 265 46mm(블랙/파우더 그레이, 010-02810-00)끼리 비교했어요. 국내 최저가는 쿠팡 로켓배송이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "$200을 넘으면 부가세가 붙어서 손익분기를 꼭 확인하세요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0BS1T9J4Y",
+      "model": "Garmin Forerunner 265 46mm 블랙/파우더 그레이(010-02810-00)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(포러너 265, 크기·색 표기 없음)과 아마존 ASIN(웹 검색: camelcamelcamel·아마존 싱가포르 목록에서 46mm 블랙/파우더 그레이 확인, 아마존 화면은 열지 않음)으로 맞춤(11/10 매니저). 쿠팡 로켓 색·크기 옵션 미확인(265S는 다른 이름)",
+      "checkedAt": "2026.11.10"
+    }
   }
 ]
