@@ -556,10 +556,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9pSRP2",
     "sample": false,
-    "checkedAt": "2026.11.10 알리 자동",
+    "checkedAt": "2026.11.11 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 25504,
+    "priceKrw": 24654,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -584,16 +584,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.02",
-        "change": {
-          "domesticKrw": [
-            22660,
-            21870
-          ]
-        },
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.02",
         "field": "priceKrw",
@@ -655,6 +645,13 @@
         "field": "priceKrw",
         "from": 25748,
         "to": 25504,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "priceKrw",
+        "from": 25504,
+        "to": 24654,
         "source": "알리"
       }
     ]
@@ -4073,11 +4070,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzYhYh77",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "amazon-lego-10328-bouquet-of-roses",
     "name": "레고 보태니컬 장미 꽃다발 10328",
     "category": "toy",
-    "domesticKrw": 60430,
+    "domesticKrw": 67430,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CGY4X222",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7792209105",
@@ -4107,6 +4104,13 @@
         "field": "domesticKrw",
         "from": 58430,
         "to": 60430,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 60430,
+        "to": 67430,
         "source": "쿠팡"
       }
     ]
@@ -4409,11 +4413,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iyCmqpFIgm",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 API 매니저",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "amazon-sennheiser-momentum-4",
     "name": "젠하이저 모멘텀 4 와이어리스 헤드폰",
     "category": "audio",
-    "domesticKrw": 293660,
+    "domesticKrw": 322710,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0B6GHW1SX",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7776776856",
@@ -4436,7 +4440,16 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(M4AEBT, 블랙 옵션)과 아마존 ASIN(웹 검색: camelcamelcamel·manuals.plus에서 블랙 확인, 아마존 화면은 열지 않음)으로 맞춤(11/10 매니저)",
       "checkedAt": "2026.11.10"
     },
-    "image": "https://ads-partners.coupang.com/image1/ZlOp5aSGn_KJNEzSZu2YPOlTQJTvobXGXAcWj2taA6wHKSL2onnOCw7NJeiBgnSd29XXau6pdrW_gGNOOqyuCVAMgsPv-pjof3Dosrl81HiXRlAiVcTnIa6KpdtTxnL2AToFBt2Aa2q0bQVrKzMs-Amu6XEOwKtyU17-b8zysmgoQD-UfIuL0NRj2iJ2_sTo0Qiyb0rnY_WjpBqqHDtjMmr4gD4idMZoj2vAf7xev0ZCA-z1Q5VOWLbQ4AEgQEoG0vZtr6qWK69HzYXZd8psxxmF0b-9rzDpWa5lDrIBdxJgn3Z4SqSWNu3kSsfDL-0vmm0wwI49Wy92GvWnXPjRZGCMkOBBsdXU_3pEmnhU01BxpcAQ8CNTsa23HOFXawbty2Ndt654YF91kjKrbGZWX4sYL4c78IdWJjcvYtUa_yZj64ruWGQJ_P0TD4kQpttws-gzZKvFYj0IsBmPs_dVxaxdxpEV0PQRCe4HYd1SNr5UDexvbe6aaZXvCTv0VV4dEd79RQii8FE-V-IJPo1GxpYyroKWHUVIn_Ad47fHo6ympwRZF52A-J482VLD0WnoNdv3hbhMavz_Ipg="
+    "image": "https://ads-partners.coupang.com/image1/ZlOp5aSGn_KJNEzSZu2YPOlTQJTvobXGXAcWj2taA6wHKSL2onnOCw7NJeiBgnSd29XXau6pdrW_gGNOOqyuCVAMgsPv-pjof3Dosrl81HiXRlAiVcTnIa6KpdtTxnL2AToFBt2Aa2q0bQVrKzMs-Amu6XEOwKtyU17-b8zysmgoQD-UfIuL0NRj2iJ2_sTo0Qiyb0rnY_WjpBqqHDtjMmr4gD4idMZoj2vAf7xev0ZCA-z1Q5VOWLbQ4AEgQEoG0vZtr6qWK69HzYXZd8psxxmF0b-9rzDpWa5lDrIBdxJgn3Z4SqSWNu3kSsfDL-0vmm0wwI49Wy92GvWnXPjRZGCMkOBBsdXU_3pEmnhU01BxpcAQ8CNTsa23HOFXawbty2Ndt654YF91kjKrbGZWX4sYL4c78IdWJjcvYtUa_yZj64ruWGQJ_P0TD4kQpttws-gzZKvFYj0IsBmPs_dVxaxdxpEV0PQRCe4HYd1SNr5UDexvbe6aaZXvCTv0VV4dEd79RQii8FE-V-IJPo1GxpYyroKWHUVIn_Ad47fHo6ympwRZF52A-J482VLD0WnoNdv3hbhMavz_Ipg=",
+    "priceLog": [
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 293660,
+        "to": 322710,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",

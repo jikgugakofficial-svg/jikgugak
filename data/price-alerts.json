@@ -2,7 +2,7 @@
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
   "items": {
     "amazon-bose-qc-headphones:domesticKrw": {
-      "at": "2026-11-10T09:32:45.541Z",
+      "at": "2026-11-10T15:26:57.682Z",
       "slug": "amazon-bose-qc-headphones",
       "field": "domesticKrw",
       "recorded": 279000,
@@ -12,7 +12,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-earbuds:domesticKrw": {
-      "at": "2026-11-10T09:32:49.546Z",
+      "at": "2026-11-10T15:27:01.730Z",
       "slug": "amazon-bose-qc-earbuds",
       "field": "domesticKrw",
       "recorded": 169000,
@@ -22,7 +22,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-ultra-earbuds-2:domesticKrw": {
-      "at": "2026-11-10T09:32:53.596Z",
+      "at": "2026-11-10T15:27:05.634Z",
       "slug": "amazon-bose-qc-ultra-earbuds-2",
       "field": "domesticKrw",
       "recorded": 309000,
@@ -32,12 +32,12 @@
       "source": "쿠팡"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-10T10:36:55.267Z",
+      "at": "2026-11-10T15:27:37.175Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
-      "api": 77920,
-      "change": "47%",
+      "api": 75904,
+      "change": "43%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
     },
@@ -62,5 +62,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-10T13:50:34.570Z"
+  "updatedAt": "2026-11-10T15:27:38.057Z"
 }
