@@ -473,7 +473,7 @@
     "amazon-bose-qc-earbuds": {
       "productId": "8350898413",
       "keyword": "보스 QC 이어버드",
-      "at": "2026-11-10T15:26:57.682Z",
+      "at": "2026-11-10T20:27:18.807Z",
       "recordedKrw": 169000,
       "found": true,
       "apiPrice": 229000,
@@ -484,7 +484,7 @@
     "amazon-bose-qc-ultra-earbuds-2": {
       "productId": "8903883649",
       "keyword": "보스 QC 울트라 이어버드 2세대",
-      "at": "2026-11-10T15:27:01.730Z",
+      "at": "2026-11-10T20:27:22.635Z",
       "recordedKrw": 309000,
       "found": true,
       "apiPrice": 359000,
@@ -495,7 +495,7 @@
     "amazon-razer-deathadder-v3-pro": {
       "productId": "9444695999",
       "keyword": "레이저 데스애더 V3 프로 무선 마우스",
-      "at": "2026-11-10T15:27:05.634Z",
+      "at": "2026-11-10T20:27:26.685Z",
       "recordedKrw": 155830,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -503,7 +503,7 @@
     "amazon-lego-10359-fountain-garden": {
       "productId": "8776305217",
       "keyword": "레고 아이콘 분수 정원 10359",
-      "at": "2026-11-10T15:27:09.732Z",
+      "at": "2026-11-10T20:27:30.692Z",
       "recordedKrw": 109350,
       "found": false,
       "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -608,5 +608,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-10T19:35:03.498Z"
+  "updatedAt": "2026-11-10T20:27:34.619Z"
 }
