@@ -4256,11 +4256,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡·알리 API 매니저",
+    "checkedAt": "2026.11.10 알리 자동",
     "slug": "ali-moondrop-space-travel-2",
     "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
     "category": "audio",
-    "priceKrw": 35680,
+    "priceKrw": 35316,
     "domesticKrw": 56070,
     "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
     "domesticSource": "쿠팡 판매자 상품(병행 수입)",
@@ -4285,7 +4285,16 @@
       "model": "MOONDROP Space Travel 2 (ANC, BT 6.0, 울트라 아님)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 알리 제휴 API 제목(무드롭 공식 스토어)으로 맞춤. 색 옵션 미확인(11/9 매니저)",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.10",
+        "field": "priceKrw",
+        "from": 35680,
+        "to": 35316,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
@@ -4295,11 +4304,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡·알리 API 매니저",
+    "checkedAt": "2026.11.10 알리 자동",
     "slug": "ali-redragon-k617-fizz",
     "name": "레드드래곤 K617 피즈 60% 기계식 키보드 (레드 스위치)",
     "category": "it",
-    "priceKrw": 44219,
+    "priceKrw": 43769,
     "domesticKrw": 68600,
     "domesticUrl": "https://link.coupang.com/a/iw00qwJNzo",
     "domesticSource": "쿠팡 판매자 상품",
@@ -4325,6 +4334,15 @@
       "model": "Redragon K617 Fizz 60% 61키 유선, 리니어 레드 스위치",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(화이트·그레이 키캡)과 알리 제휴 API 제목으로 맞춤. 알리 키캡 색 옵션 미확인(11/9 매니저)",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.10",
+        "field": "priceKrw",
+        "from": 44219,
+        "to": 43769,
+        "source": "알리"
+      }
+    ]
   }
 ]
