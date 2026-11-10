@@ -1,11 +1,11 @@
 {
   "approved": false,
   "approvedBy": "",
-  "schedule": "2026-11-12T00:22:00Z",
+  "schedule": "2026-11-12T02:22:00Z",
   "series": "2026-11-09-week-sns (광군제 남은 기간, 유형 C)",
   "plan": "5주 계획 T-6 유형 C를 11/10에서 옮김(11/10은 같은 숫자의 릴스가 있어서). '내일 광군제' 대신 '세일 18일까지'로 고침",
   "livecheck": {
-    "checkBy": "2026-11-12 08:40 KST 전",
+    "checkBy": "2026-11-12 11:00 KST 전",
     "page": "https://www.jikgugak.com/calculator",
     "items": [
       {

@@ -1,11 +1,11 @@
 {
   "approved": false,
   "approvedBy": "",
-  "schedule": "2026-11-13T00:22:00Z",
+  "schedule": "2026-11-13T02:22:00Z",
   "series": "2026-11-09-week-sns (블프 B-1, 흔한 실수)",
   "plan": "5주 계획 B-1(11/14 토)을 11/13 금으로 당김(토요일 스레드 쉼). '200달러 원화값 + 질문'에 특송·우편 차이를 더함. 같은 날 네이버 N6(아마존 200달러)과 같은 주제",
   "livecheck": {
-    "checkBy": "2026-11-13 08:40 KST 전",
+    "checkBy": "2026-11-13 11:00 KST 전",
     "page": "https://www.jikgugak.com/deals/blackfriday",
     "items": [
       {

@@ -4,15 +4,18 @@ Claude 예약 작업은 저장소 밖에 있어서 여기에 적어 둬요. 새�
 
 **11/3 운영자: 예약 작업을 운영자 PC의 Claude 앱(Code 탭, 저장소 `C:\Users\User\Documents\jikgugak`)으로 옮김.** 앱 예약 작업은 앱이 켜져 있을 때만 돌고, 꺼져 있던 시각의 작업은 다음에 켤 때 돌아요. 볼 때는 `list_scheduled_tasks`, 고칠 때는 아래 ID로 `update_scheduled_task`(작업 파일 `C:\Users\User\.claude\scheduled-tasks\<ID>\SKILL.md`). 앱 내장 브라우저로 쿠팡 일반 주소·아이허브·`/api/item`은 되고 알리 상품 화면은 안 떠요. 11/4부터 이 PC에 python(Python312 전체 경로)·gh(로그인 완료)가 있어서 **Actions 수동 실행·네이버 키트·릴스 굽기도 여기서 돼요**(11/4 ffmpeg·Playwright 설치, 굽는 법은 status.md 7장).
 
-마지막 확인: 2026-11-03 19:00 KST
+마지막 확인: 2026-11-10 10:20 KST
+
+**11/10 운영자: 평일 10시 출근해서 PC를 켜요.** 그래서 아침 작업은 10시 뒤로 옮기고, 스레드 게시도 11/11부터 09:22 → 11:22.
 
 ## 1. 매일·매주 반복 (Claude 앱, 이 PC)
 | 이름 | 언제 (KST) | 하는 일 | ID |
 | --- | --- | --- | --- |
-| 직구각 스레드 당일 확인 | 일~금 08:20 | 그날 `content/<오늘>-th-*/publish.json` livecheck → approved:true(5% 규칙), 게시 시각 넘겨 실행되면 승인 안 하고 보고. 없는 날은 그냥 끝 | jikgugak-thread-livecheck |
-| 직구각 아침 점검 (가격·세일) | 매일 08:47 | 가격(매니저 브라우저)·세일(sale-scout)·월요일 과세환율·후보 확인, site-inspector 점검 → 바뀐 것만 커밋, 3~6줄 보고 | jikgugak-morning-check |
+| 직구각 스레드 당일 확인 | 일~금 10:05 | 그날 `content/<오늘>-th-*/publish.json` livecheck → approved:true(5% 규칙), 게시(11:22) 시각 넘겨 실행되면 승인 안 하고 보고. 없는 날은 그냥 끝 | jikgugak-thread-livecheck |
+| 직구각 아침 점검 (가격·세일) | 매일 10:30 | 가격(매니저 브라우저)·세일(sale-scout)·월요일 과세환율·후보 확인, site-inspector 점검 → 바뀐 것만 커밋, 3~6줄 보고 | jikgugak-morning-check |
 | 직구각 저녁 점검 (가격만) | 매일 20:47 | 가격만, 브라우저 안 열리면 건너뜀 | jikgugak-evening-check |
 | 직구각 상품 찾기·등록 | **매일 13:30**(11/9 운영자: 상품 서치·등록 꾸준히) | product-scout 1~3명 후보 → 쿠팡 공식 API·아마존 ASIN 웹 검색·알리 /api/item·아이허브 화면 확인 → 통과만 등록, 제휴 링크는 gh로 Actions links → 빌드·점검·푸시 | jikgugak-weekly-candidates |
+| 직구각 총괄 주간 점검·계획 | 매주 월 11:10 | 매니저가 숫자 모음 → chief-planner(페이블)가 지난주 마무리 점검 + 이번 주 계획(`content/_plans/<월>-weekly-plan.md`, status 0장) → 매니저 검토·커밋, 10줄 보고 | jikgugak-weekly-chief |
 
 ## 2. 한 번만
 | 이름 | 언제 (KST) | 하는 일 | 어디 · ID |
