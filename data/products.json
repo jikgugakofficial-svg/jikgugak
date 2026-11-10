@@ -549,10 +549,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9pSRP2",
     "sample": false,
-    "checkedAt": "2026.11.09 알리 자동",
+    "checkedAt": "2026.11.10 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 25748,
+    "priceKrw": 25504,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -577,13 +577,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.01",
-        "field": "priceKrw",
-        "from": 28890,
-        "to": 26920,
-        "source": "알리"
-      },
       {
         "at": "2026.11.02",
         "change": {
@@ -648,6 +641,13 @@
         "field": "priceKrw",
         "from": 25708,
         "to": 25748,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "priceKrw",
+        "from": 25748,
+        "to": 25504,
         "source": "알리"
       }
     ]
@@ -3239,10 +3239,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/ib10yPa4XY",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 자동",
+    "checkedAt": "2026.11.10 알리 자동",
     "slug": "ali-edifier-evobuds-pro",
     "name": "에디파이어 에보버즈 프로 (EvoBuds Pro) 노이즈캔슬링 이어폰",
-    "priceKrw": 67189,
+    "priceKrw": 66504,
     "domesticKrw": 79440,
     "domesticSource": "쿠팡 해외 판매자, 실버, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmHnoM0Mfq08w2m3iBO7fM9h5GvpSFJFDBOwqUjuEiUAWDUCyZLRcRuMJCcqdfoEyDU1S7jtMhfxAtcPRwZgDkltn6k10GZtfMdnIi0kWLog5STOsTMyIDc9B9vA2IXhMTsHOoNXBt4QcoWsiQtWiY9Ndz5FizQZncEQwJYhSkl74K7JhJORPGcSW8s2UexU1EEDNqjHcUvtQvYSS53IGXeQi0dhDEMy3LsPXA2lJlCSANe3QNixn8LRfAp1nu4dieQ5ZC4zzbMTt34LHvZfEYd7veeEH2Hz1wvRySDOsdIW3WBAMIsHZqmPYB3z2Tv307ic9WcalTogbYPXCbS0JTwDmeWLKnd0Is5LTZhj5anawroHI5x7eMG0Tre9oDGp6LfJLsUyYjkbvJ1yxWfDilvscsXXL328RlT6ZbAbjTDVQ98CptihUtQCvRRxgWxzCtiYRQgX7QD7IxSKb7VzwkS37vWeGg85NrPBPzau2HdAfN1NeTPemyGWooaVCBWUYF8jkv4fRKHj4pRC7bfgAPOCBFcpCzqKaOkaDr9d8QiPpqbvZta0jJiuCeyqrRD4MBBB8AlPIRRdq4yTTjSY3z77VZVLqIBs1sxcrGk0L2u87ZckDkU9kqAZPhl2pTMvwf5qj3OfZ8fc26DCwsYXRFGoJ4GNlgYaaAUwdOnsGQD9qTFMTVkkMvnsZxuPDWEaIhOFrlcuEYlBlA",
@@ -3269,13 +3269,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "priceKrw",
-        "from": 66184,
-        "to": 66355,
-        "source": "알리"
-      },
       {
         "at": "2026.11.04",
         "field": "domesticKrw",
@@ -3338,6 +3331,13 @@
         "from": 78070,
         "to": 79440,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.10",
+        "field": "priceKrw",
+        "from": 67189,
+        "to": 66504,
+        "source": "알리"
       }
     ]
   },
@@ -4419,7 +4419,8 @@
       "model": "Sennheiser MOMENTUM 4 Wireless 블랙(M4AEBT)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(M4AEBT, 블랙 옵션)과 아마존 ASIN(웹 검색: camelcamelcamel·manuals.plus에서 블랙 확인, 아마존 화면은 열지 않음)으로 맞춤(11/10 매니저)",
       "checkedAt": "2026.11.10"
-    }
+    },
+    "image": "https://ads-partners.coupang.com/image1/ZlOp5aSGn_KJNEzSZu2YPOlTQJTvobXGXAcWj2taA6wHKSL2onnOCw7NJeiBgnSd29XXau6pdrW_gGNOOqyuCVAMgsPv-pjof3Dosrl81HiXRlAiVcTnIa6KpdtTxnL2AToFBt2Aa2q0bQVrKzMs-Amu6XEOwKtyU17-b8zysmgoQD-UfIuL0NRj2iJ2_sTo0Qiyb0rnY_WjpBqqHDtjMmr4gD4idMZoj2vAf7xev0ZCA-z1Q5VOWLbQ4AEgQEoG0vZtr6qWK69HzYXZd8psxxmF0b-9rzDpWa5lDrIBdxJgn3Z4SqSWNu3kSsfDL-0vmm0wwI49Wy92GvWnXPjRZGCMkOBBsdXU_3pEmnhU01BxpcAQ8CNTsa23HOFXawbty2Ndt654YF91kjKrbGZWX4sYL4c78IdWJjcvYtUa_yZj64ruWGQJ_P0TD4kQpttws-gzZKvFYj0IsBmPs_dVxaxdxpEV0PQRCe4HYd1SNr5UDexvbe6aaZXvCTv0VV4dEd79RQii8FE-V-IJPo1GxpYyroKWHUVIn_Ad47fHo6ympwRZF52A-J482VLD0WnoNdv3hbhMavz_Ipg="
   },
   {
     "store": "amazon",
@@ -4457,6 +4458,7 @@
       "model": "Garmin Forerunner 265 46mm 블랙/파우더 그레이(010-02810-00)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(포러너 265, 크기·색 표기 없음)과 아마존 ASIN(웹 검색: camelcamelcamel·아마존 싱가포르 목록에서 46mm 블랙/파우더 그레이 확인, 아마존 화면은 열지 않음)으로 맞춤(11/10 매니저). 쿠팡 로켓 색·크기 옵션 미확인(265S는 다른 이름)",
       "checkedAt": "2026.11.10"
-    }
+    },
+    "image": "https://ads-partners.coupang.com/image1/yWJEv4G1Q9GO1dOOySwQk_B2-lL_Za3ciP-HtnR1j1LpQOu4t3M_N-ribtkL__xkelGKSpL_owkVuPNtc4OA4ZI84X6Hgmy9u4Lwf-cKBFeLakat6uDq3BY69wV3JCSqnvS9qHnsbe7oK9BvVEm9hTZA3TLD3jQ8UaKhj4_33_XrnTCmLVPM4Mr80ztbsPGE9JyYGVIiQyFza42VbXDnqsWjnbYHkm7KyymPzdK-hqFU6h8udTgBUHpXL1c9WbbQrQHuJn77SsKCgylfL9AnrHHt3FW-T6oHoSzIfLfkxPujIC5kGvnpQeFw_NlfUBBbxucveCMy3geeO8cKNU0THqmPMKws0k0oCBURdwejLctxfobbTMPYDEhO5gFaQBxrmdJlUKGy8Jw9Rt7GZo6gkb9IWVCVBjcE_krq56XZgMOBD_ymeH2XnK6LutMSIdPkAf4mGPl3bAFgmPfNN249U47FuTBf12Cpdb2RPhEXRLmW9rEzS5-5jDhCw6t2tPk3Aoy7cUk1r7k47VU7uA4G8g=="
   }
 ]
