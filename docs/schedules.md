@@ -13,7 +13,7 @@ Claude 예약 작업은 저장소 밖에 있어서 여기에 적어 둬요. 새�
 | --- | --- | --- | --- |
 | 직구각 스레드 당일 확인 | 일~금 10:05 | 그날 `content/<오늘>-th-*/publish.json` livecheck → approved:true(5% 규칙), 게시(11:22) 시각 넘겨 실행되면 승인 안 하고 보고. 없는 날은 그냥 끝 | jikgugak-thread-livecheck |
 | 직구각 아침 점검 (가격·세일) | 매일 10:30 | 가격(매니저 브라우저)·세일(sale-scout)·월요일 과세환율·후보 확인, site-inspector 점검 → 바뀐 것만 커밋, 3~6줄 보고 | jikgugak-morning-check |
-| 직구각 저녁 점검 (가격만) | 매일 20:47 | 가격만, 브라우저 안 열리면 건너뜀 | jikgugak-evening-check |
+| 직구각 저녁 점검 (가격만) | 매일 18:00 | 가격만, 브라우저 안 열리면 건너뜀 | jikgugak-evening-check |
 | 직구각 상품 찾기·등록 | **매일 13:30**(11/9 운영자: 상품 서치·등록 꾸준히) | product-scout 1~3명 후보 → 쿠팡 공식 API·아마존 ASIN 웹 검색·알리 /api/item·아이허브 화면 확인 → 통과만 등록, 제휴 링크는 gh로 Actions links → 빌드·점검·푸시 | jikgugak-weekly-candidates |
 | 직구각 총괄 주간 점검·계획 | 매주 월 11:10 | 매니저가 숫자 모음 → chief-planner(페이블)가 지난주 마무리 점검 + 이번 주 계획(`content/_plans/<월>-weekly-plan.md`, status 0장) → 매니저 검토·커밋, 10줄 보고 | jikgugak-weekly-chief |
 
