@@ -69,7 +69,7 @@
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28078,
-    "domesticKrw": 20990,
+    "domesticKrw": 23740,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -93,13 +93,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 24260,
-        "to": 27120,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -161,6 +154,13 @@
         "field": "domesticKrw",
         "from": 24390,
         "to": 20990,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 20990,
+        "to": 23740,
         "source": "쿠팡"
       }
     ]
@@ -4163,11 +4163,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iw0RFRNgJw",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "amazon-apple-airpods-pro-3",
     "name": "애플 에어팟 프로 3",
     "category": "audio",
-    "domesticKrw": 296000,
+    "domesticKrw": 299900,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9024163013",
@@ -4190,7 +4190,16 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저)",
       "checkedAt": "2026.11.09"
     },
-    "image": "https://ads-partners.coupang.com/image1/O5qPAj06sTUqYd8DOy3u_FqfHtfn8MTvVgrkS1rz9UmtV_EXT9MxMN-7MCEjkgWDySqXS4Oru-LVK5JBlergj0lS8wmfrnJBt81L3fy6zJC-Y0HTSwVa9mAv1ks3RNgoWMATVhWx3z_JOvHiSag6pE6pAZE4JhvQAm3pX7aK3rjcnv7EmJ4dbIr2Jqw8ySfGMUpKYdYp0fUCNYnKpYdeJfF49wQc3nX1FRdg6qV-_4ineGOZyYuU3opOQ3V1PfhwlGf5vyKu74LhFhmVyfZ6jKwut8pmLnkueWnvfgKQZRsTXKSoNUgpUYzjiI2GlQ4zuTvSE_s-TkiNWYSVbiZUI-9PqbgptaEhCqPG0vAXM7ebsw6n5ub6RvoJKNDKB7DDUHrJo6LtcynxJ20cKrZIHuijo9b3oFQ2__QRANZ_0R8uHdKoxjQb7g3rhuXCjxqptYKezr0vJnrxnyJEkLNNYZ6bnucWThZr2sSpIHfcDgxJWk9F-ZmhDI0zre6-e8vXZhgBuqk-fyn9pHu2HP7t-1va"
+    "image": "https://ads-partners.coupang.com/image1/O5qPAj06sTUqYd8DOy3u_FqfHtfn8MTvVgrkS1rz9UmtV_EXT9MxMN-7MCEjkgWDySqXS4Oru-LVK5JBlergj0lS8wmfrnJBt81L3fy6zJC-Y0HTSwVa9mAv1ks3RNgoWMATVhWx3z_JOvHiSag6pE6pAZE4JhvQAm3pX7aK3rjcnv7EmJ4dbIr2Jqw8ySfGMUpKYdYp0fUCNYnKpYdeJfF49wQc3nX1FRdg6qV-_4ineGOZyYuU3opOQ3V1PfhwlGf5vyKu74LhFhmVyfZ6jKwut8pmLnkueWnvfgKQZRsTXKSoNUgpUYzjiI2GlQ4zuTvSE_s-TkiNWYSVbiZUI-9PqbgptaEhCqPG0vAXM7ebsw6n5ub6RvoJKNDKB7DDUHrJo6LtcynxJ20cKrZIHuijo9b3oFQ2__QRANZ_0R8uHdKoxjQb7g3rhuXCjxqptYKezr0vJnrxnyJEkLNNYZ6bnucWThZr2sSpIHfcDgxJWk9F-ZmhDI0zre6-e8vXZhgBuqk-fyn9pHu2HP7t-1va",
+    "priceLog": [
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 296000,
+        "to": 299900,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -4523,12 +4532,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.11 쿠팡 API 매니저",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "amazon-apple-pencil-pro",
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 166810,
+    "domesticKrw": 166820,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4549,7 +4558,17 @@
       "model": "Apple Pencil Pro MX2D3AM/A (단일 색)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(Apple 애플펜슬 프로, 로켓)과 아마존 ASIN(웹 검색: slickdeals 아마존 딜·데저트카트 목록, 아마존 화면은 열지 않음)으로 맞춤(11/11 매니저)",
       "checkedAt": "2026.11.11"
-    }
+    },
+    "image": "https://ads-partners.coupang.com/image1/xJdWIy_XfRI-_gB1xNOv3WX_zQsPt89fuPEo1w1eOwa9O130esBxbc6c43AEDMFmrpQdJ4xuTICNbYpCWHHzawZMK1QAyI4vZELIhcMLEdWH_RTlDKwAa1CicA38mLV33fN7CXgkzsmIzWAmxwvSJPpF7P2k4Wtda-hjb1dsodivsdE4SF8WtjqZLFgKg7V6GRbDFUW3BFwBJ01BhNO-s2wd5eXxJimI0Ao_Vj5vAYE1NA930XgU2SQkswAxkYyHdcfJFuh-V0wo5jcViIVerU5C0-e36q0wBzKLSZSeDUQFESNupX2VmvYiIbzAFRppjabd6FbRZ9L3aURP63M1f5ujA_W6XrRjmxBLQ1FsL3iUvgMW4v5tC83X6dXWvcJpbZS5XORHNH9zIwj8Y_GsqmY08RbFQ2R8zGyyHspxPb16ZtfxbshEe7k6cBCu2YBVlMI6fRPizAfkm7uiU2pYUpWgNW3uzWpRJomsEhe-gg_TPdo4PH3zenqAxO0H-4sL5D0QNxNESq_0WEQmxOx4SK5nTLtt4oVqMMHnpQRhsjslCd5c",
+    "priceLog": [
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 166810,
+        "to": 166820,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -4587,7 +4606,8 @@
       "model": "Elgato Stream Deck MK.2 15키 블랙 (10GBA9901)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(엘가토 STREAM DECK MK 2, 로켓, 화이트 에디션은 따로 220,000원)과 아마존 ASIN(웹 검색: gadgetscout·데저트카트 목록, 아마존 화면은 열지 않음)으로 맞춤(11/11 매니저). 쿠팡 로켓 색은 상품명에 화이트 표기가 없어 블랙으로 봄",
       "checkedAt": "2026.11.11"
-    }
+    },
+    "image": "https://ads-partners.coupang.com/image1/UzzxNIWP9HLQAfEOUwajMwDjvn807sNa0qsH2Afa-flhkm7xHpJ3nxi0vpwc-XUOc8mSwxb9f179w537We6lrck5Q6i0F-gUfzLi1UZBUskT6SQIclpgD_YHRQNlSBkbheFerqKhsJNi_iDvgKIrE_mZGwtb9dNF_6MeMjVqikvLFtmKAIuhDx1gfeHhGD0VKea8Zl38X2PW-Jhv8SrWFIga2LeEDcRVUDaVz5ER4JA2gdJjqvB93fd3emCdyG6BzuF51U-7aku0OhWcemRvmib1YjI5mBhJVQUJqKboaLl3RvE7FMZekazxvPbloks03Tg9snIcO-QuYskZcXaARB9X7Yw6dCCulyhsRva36OiKu8U-mk4KlWCuzqpJRg_1iRWFbpN5p9CzMiwrGecfSv5bwkqEvZEX6W-HmNj66hOPu5kP6Vxisuv1VqtwzGMfgJQGz0JBMA4DdIJH-DH6NMsL4JgV5_3i2F2OI0oCGQUj1UAv5GMohv-DjLA92jhmEO5S4fWG_bvjnlteSXiqNi2CSQ=="
   },
   {
     "store": "aliexpress",
@@ -4637,7 +4657,7 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.11 쿠팡 API 매니저",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "ali-moondrop-chu2",
     "domesticUrl": "https://link.coupang.com/a/iAjCVuRlEi",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CogRJU9pVzmRNozV57SjUb6HvXXuvLYXy1ujDWvXn9OHhrHTTaPMZbocE9o4j3zfdDLP5MclN9nwQ6u1Sc3zFGwDzw7RlANvhZY34q4oqn3SO0CupnZQ15xSTqZYFzKIDanIZIdzY4nKYcaSkZ3GzDEVarMMVFD7evrX5YRBEku9A4VWgMbjAEGhUhLzl1uBnnR4gUM6USijvpyV9Ih8qPVYDJhMuQ9mCfdkvUm3e2Qas4Zjy68uhwPmkwHXrBWnd6qzoaQJtKLq84Z5V7cIySkmKY5Zl6Nnf86tplRSJ6revVTWNM5YtOLetZXnkbqXljuG21YxDg6LI5WXWwLLd119a0SEolIDHG72wbwVPYcUOBonOsXSXAgOAS7kk05H0v5oO5BclK6a7RrdgztNo8ZZR5wWixwwRFYGDLg7gDDSnBJotIiZSgZohDwtbFsOecvCEFwBUImpqN7Ke5MHXJCnXfN1LbrPAd7ml2dgyNkemlpSV2o5lGohdbIwHD2XmFreaJjRmeAxVVjJrS7lNQo2IcZkyiFPjjXH1AL45th2TLXJrIrpnjl47skmnbet8Fm9qb8I1DuPvCrTI0sY4u3P8Twe118PLScG6EDU3cP4PcSU5ftt4YLSquEiFTCcvT9LPPxFTxu5wtyTw36vPWGda0TYiuYGchCpWNOLcE4KbUlkPEMQXu5zC3pDFJEdFoE8UINkH3Lbvm",
@@ -4645,7 +4665,7 @@
     "name": "문드롭 츄2 (CHU II) 유선 인이어 이어폰",
     "category": "audio",
     "priceKrw": 32773,
-    "domesticKrw": 89100,
+    "domesticKrw": 98800,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9725175748",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006499470555.html",
@@ -4667,7 +4687,16 @@
       "model": "MOONDROP CHU II 3.5mm (DSP 아님)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(문드롭 츄2 CHU II)과 알리 제휴 API 제목(HiFiGo Store, 문드롭 공식 스토어 아님)으로 맞춤. 마이크 유무 옵션 미확인(11/11 매니저)",
       "checkedAt": "2026.11.11"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 89100,
+        "to": 98800,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "aliexpress",

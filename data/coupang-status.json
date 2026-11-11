@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-11T05:22:38.297Z",
-  "mode": "links",
+  "at": "2026-11-11T05:40:16.672Z",
+  "mode": "hourly",
   "ok": true,
-  "message": "링크 만들기: 쿠팡 5개, 알리 3개 → data/new-links.json"
+  "message": "- 사진 못 찾음: amazon-beats-studio-pro (검색어 '비츠 스튜디오 프로 무선 헤드폰' 상위 10개에 같은 상품 번호 없음 → coupangKeyword 고치기)"
 }
