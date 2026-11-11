@@ -46,7 +46,7 @@
     ],
     "major": false,
     "source": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2352047",
-    "checkNote": "11/10 확인: 웹이코노미 2026.10.29 기사(회사 제공 사진, 11월 한 달)뿐 — 공식 공지·보도자료 원문이 없어 reported 유지(11/5 매니저 판단과 같음)."
+    "checkNote": "11/10 확인: 웹이코노미 2026.10.29 기사(회사 제공 사진, 11월 한 달)뿐 — 공식 공지·보도자료 원문이 없어 reported 유지(11/5 매니저 판단과 같음). 11/11 재확인: 같은 기사(롯데하이마트 10/29 발표, 시작·종료일 없음, 히터·가습기 가격 명시), 공식 원문·두 번째 2026년 기사 못 찾음 → reported 유지. 2025년 sateconomy 11/10 기사는 작년 행사라 근거에서 뺌."
   },
   {
     "id": "himart-black-friday-2026-11",
@@ -63,7 +63,7 @@
     ],
     "major": false,
     "source": "https://biz.sbs.co.kr/amp/article/20000344657",
-    "checkNote": "11/10 확인: SBS Biz 2026.11.06 기사(11월 30일까지, 회사 발표 인용) 1곳뿐 — 공식 원문 없어 expected 유지. 시작일 미확인."
+    "checkNote": "11/11 확인: SBS Biz 2026.11.06 기사(회사 발표 인용, 11월 30일까지·온라인 쿠폰 15일까지) 1곳뿐 — 공식 원문·두 번째 기사 없어 expected 유지(뉴스 1곳은 confirmed 아님, 11/5 매니저 기준). 시작일 미확인."
   },
   {
     "id": "11st-grand-2026",
