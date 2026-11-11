@@ -22,7 +22,7 @@
       "source": "쿠팡"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-11T04:39:18.614Z",
+      "at": "2026-11-11T10:42:28.243Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
@@ -32,7 +32,7 @@
       "source": "알리"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-11T05:39:40.047Z",
+      "at": "2026-11-11T10:42:24.700Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 13220,
@@ -52,5 +52,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-11T09:38:53.506Z"
+  "updatedAt": "2026-11-11T10:42:28.993Z"
 }
