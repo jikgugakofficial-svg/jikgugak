@@ -1109,12 +1109,12 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.10 오전",
+    "checkedAt": "2026.11.12 쿠팡 자동",
     "slug": "amazon-sennheiser-hd600",
     "name": "젠하이저 HD 600 오픈형 헤드폰",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(10.22 확인)",
-    "domesticKrw": 313970,
+    "domesticKrw": 345030,
     "domesticSource": "쿠팡 쿠폰 적용가, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/iynCantMWq",
     "buyUrl": "https://www.amazon.com/dp/B00004SY4H",
@@ -1145,6 +1145,13 @@
         "from": 355020,
         "to": 313970,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 313970,
+        "to": 345030,
+        "source": "쿠팡"
       }
     ]
   },
