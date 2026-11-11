@@ -1,0 +1,262 @@
+[
+  {
+    "name": "문드롭 츄2(CHU II) 유선 인이어 이어폰",
+    "brand": "Moondrop",
+    "model": "CHU II (CHU 2) 다이나믹 드라이버 IEM, 교환 케이블",
+    "category": "audio",
+    "aliId": "1005006499470555",
+    "ali": {
+      "productId": "1005006499470555",
+      "title": "MOONDROP CHU II / CHU 2 ... IEMs (HiFiGo Store)",
+      "apiPrice": 32773,
+      "searchMin": 33500,
+      "orders": 971,
+      "rating": "95.8%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9725175748",
+      "name": "문드롭 츄2 CHU II 알루미늄 마그네슘 진동판 교체형 케이블 인이어 HIFI 유선 이어폰",
+      "price": 89100,
+      "rocket": false
+    },
+    "diffPct": 63.2,
+    "diffKrw": 56327,
+    "why": "1) 찾는 사람: 알리 판매 971건·평점 95.8%, 퀘이사존 알리 핫딜 '수월우 츄2'(candidate-seeds 근거, 직접 URL은 이번에 못 열어 매니저 확인) 2) 같은 제품 짝: 쿠팡도 'CHU II 알루미늄 마그네슘 진동판 3.5mm' 같은 모델명. 쿠팡 다른 등록 105,000·116,600 3) 판정 쓸모: 차이 5만 원대로 직구각 확실, 낮은 가격대라 면세·관세 문제 없음",
+    "warn": "알리 판매자는 공식 스토어가 아니라 HiFiGo Store(공인 리셀러 성격). 마이크 유무·3.5mm/Type-C 옵션 맞출 것. 쿠팡은 3P 판매자라 바코드 확인 필요, 쿠팡 일부 등록은 105,000·116,600이라 가격 들쭉날쭉. 공식 MOONDROP Official Store 같은 모델 판매 여부는 매니저 확인"
+  },
+  {
+    "name": "트루히어 x 크리날클 제로:레드(ZERO:RED) 이중 다이내믹 인이어",
+    "brand": "Truthear",
+    "model": "ZERO:RED 듀얼 다이나믹 0.78 2핀(마이크 없는 기본)",
+    "category": "audio",
+    "aliId": "1005005589751589",
+    "ali": {
+      "productId": "1005005589751589",
+      "title": "TRUTHEAR X Crinacle ZERO:RED ... (Shenzhenaudio Store)",
+      "apiPrice": 76098,
+      "searchMin": 77700,
+      "orders": 660,
+      "rating": "97.6%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "7795145118",
+      "name": "TRUTHEAR 헤드폰 이어폰 ... 트루히어 x 크리나클 제로 레드 듀얼 다이내믹 드라이버 인이어",
+      "price": 112690,
+      "rocket": false
+    },
+    "diffPct": 32.5,
+    "diffKrw": 36592,
+    "why": "1) 찾는 사람: 입문 IEM 단골 추천, 알리 660건·평점 97.6%(직접 근거 URL은 못 열음, 매니저 확인) 2) 같은 제품 짝: 쿠팡도 ZERO:RED 같은 이름(다른 등록 146,600·189,980) 3) 판정 쓸모: 약 3.7만 원 차이, 직구각 판정 가능",
+    "warn": "알리 판매자가 Shenzhenaudio Store(공식 아님). 마이크 있는 버전·케이블 종류(3.5/4.4/USB-C) 옵션 맞출 것. ZERO:BLUE2·ZERO(기본)와 혼동 금지. 쿠팡 3P라 바코드 확인 필요"
+  },
+  {
+    "name": "7Hz x 크리나클 제로2(Zero:2) 유선 이어폰",
+    "brand": "7Hz",
+    "model": "Zero:2 10mm 다이나믹 IEM (마이크 없는 기본 케이블)",
+    "category": "audio",
+    "aliId": "1005006223567646",
+    "ali": {
+      "productId": "1005006223567646",
+      "title": "7Hz x Crinacle Zero :2 업데이트된 10mm ... IEM (DD-Audio Store)",
+      "apiPrice": 27817,
+      "searchMin": 30300,
+      "orders": 1296,
+      "rating": "96.3%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "7842609698",
+      "name": "7Hz X 크리나클 제로2 이어폰",
+      "price": 42500,
+      "rocket": true
+    },
+    "diffPct": 34.5,
+    "diffKrw": 14683,
+    "why": "1) 찾는 사람: 알리 판매 1,296건, 입문 IEM로 커뮤니티 언급 많음(직접 URL은 못 열음) 2) 같은 제품 짝: 쿠팡 로켓 'Zero 2' 같은 모델(색 블루도 있음) 3) 판정 쓸모: 차이 약 1.5만 원·35%, 로켓이라 국내 대안이 분명",
+    "warn": "쿠팡은 로켓배송(빠른 도착)이라 배송 속도·반품 편의가 차이. 쿠팡 색 옵션(블루 등)·케이블(마이크 유무) 맞출 것. 알리 DD-Audio Store는 공식 아님. 바코드 확인 필요"
+  },
+  {
+    "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
+    "brand": "Baseus",
+    "model": "Bowie MH1 48dB ANC LDAC 오버이어",
+    "category": "audio",
+    "aliId": "1005007015955340",
+    "ali": {
+      "productId": "1005007015955340",
+      "title": "베이스어스 보위 MH1 블루투스 헤드폰 48dB 노이즈 캔슬링 ... (BASEUS Co.,Ltd. Store)",
+      "apiPrice": 87216,
+      "searchMin": 95200,
+      "orders": 280,
+      "rating": "95.0%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9723250878",
+      "name": "베이스어스 Baseus Bowie MH1 Wireless Noise Cancelling Headphones 고속충전기 보조배터리 USB케이블 차량용거치대(키워드 나열형 제목)",
+      "price": 178600,
+      "rocket": false
+    },
+    "diffPct": 51.2,
+    "diffKrw": 91384,
+    "why": "1) 찾는 사람: 퀘이사존 2026.03 알리 핫딜 $32.24 글(조회 3천, candidate-seeds 근거, 직접 URL은 이번에 못 열음) 2) 같은 제품 짝: 알리 베이스어스 공식 스토어 MH1, 쿠팡은 3P가 'Bowie MH1' 제목으로 판매 3) 판정 쓸모: 차이 약 9만 원·51%로 가장 큰 격차",
+    "warn": "쿠팡 상품명이 충전기·거치대 키워드를 나열해 헤드폰 본품만 오는지(번들 아닌지) 상세 확인 필수. 같은 제목 다른 등록 267,500도 있음. 색상 옵션 맞출 것. 알리는 공식 스토어라 믿을 만하나 알리 이벤트가(퀘이사존 $32)와 API 가격 87,216은 옵션 차이일 수 있음. 바코드 확인"
+  },
+  {
+    "name": "문드롭 레이즈(Rays) 게이밍 이어폰 (평판형 하이브리드)",
+    "brand": "Moondrop",
+    "model": "Rays 1DD+1평판 (USB-C DSP 옵션 vs 3.5mm 옵션 구분 필요)",
+    "category": "audio",
+    "aliId": "1005008788754958",
+    "ali": {
+      "productId": "1005008788754958",
+      "title": "MOONDROP RAYS 게이밍 이어폰 Gravity USB-C DSP ... (MOONDROP Official Store)",
+      "apiPrice": 117081,
+      "searchMin": 119600,
+      "orders": 229,
+      "rating": "97.2%",
+      "option": "item API 기본 옵션가(제목에 USB-C DSP 표기)"
+    },
+    "coupang": {
+      "productId": "9812419647",
+      "name": "하이파이고 HiFiGo Moondrop Rays 1DD+1 Planar Drivers Gaming IEMs 이어폰 유선이어폰 하이파이 IEM DAC",
+      "price": 208700,
+      "rocket": false
+    },
+    "diffPct": 43.9,
+    "diffKrw": 91619,
+    "why": "1) 찾는 사람: 알리 공식 스토어 229건·평점 97.2%, 게이밍 IEM 신제품(직접 근거 URL 못 열음) 2) 같은 제품 짝: 쿠팡 판매자가 HiFiGo, 제목에 'DAC' 표기라 USB-C 버전일 수 있음(확인 필요) 3) 판정 쓸모: 차이 약 9만 원·44%",
+    "warn": "Rays는 3.5mm(일반)·USB-C DSP 두 버전이 있어 옵션 불일치 위험이 가장 큼. 쿠팡 상세에서 어느 버전인지 확인 후 알리 옵션 맞추기. 쿠팡 3P, 바코드 확인. 신제품이라 가격 변동 클 수 있음"
+  },
+  {
+    "name": "FiiO 스노우스카이 에코 미니(Echo Mini) MP3 플레이어",
+    "brand": "FiiO / Snowsky",
+    "model": "Snowsky Echo Mini 블루투스 HiFi MP3 (3.5mm+4.4mm)",
+    "category": "audio",
+    "aliId": "1005008395661117",
+    "ali": {
+      "productId": "1005008395661117",
+      "title": "FiiO SnowSky Echo 미니 HiFi 블루투스 MP3 플레이어 ... 3.5mm 및 4.4mm 헤드폰 출력 (BrightAudio Store)",
+      "apiPrice": 64417,
+      "searchMin": 73700,
+      "orders": 677,
+      "rating": "95.2%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9567240449",
+      "name": "Fiio Snowsky Echo 미니 무선 블루투스 Mp3 미니 워크맨 8GB 사용자 정의 지원 Dsd 레트로 휴대용 블루투스",
+      "price": 82900,
+      "rocket": false
+    },
+    "diffPct": 22.3,
+    "diffKrw": 18483,
+    "why": "1) 찾는 사람: 레트로 MP3 워크맨 유행, 알리 677건·평점 95.2%(직접 근거 URL 못 열음) 2) 같은 제품 짝: 쿠팡 3P 'Snowsky Echo Mini' 같은 모델. 쿠팡 다른 등록 101,000·147,600 3) 판정 쓸모: 약 1.8만 원·22%로 직구각 경계선 위",
+    "warn": "색상·메모리(8GB 포함/미포함, microSD 별도) 옵션 맞출 것. 알리 판매자 BrightAudio Store는 공식 아님. 배터리 내장 소형 전자기기라 통관 문제 없는지 매니저 확인. 쿠팡 3P 바코드 확인"
+  },
+  {
+    "name": "포시오디오 DS2 USB DAC 헤드폰 앰프 동글 (듀얼 CS43131)",
+    "brand": "Fosi Audio",
+    "model": "DS2 Dual CS43131 3.5mm+4.4mm 동글",
+    "category": "it",
+    "aliId": "1005006691690191",
+    "ali": {
+      "productId": "1005006691690191",
+      "title": "Fosi Audio DS2 미니 오디오 USB DAC 동글 헤드폰 앰프 ... 3.5MM 및 4.4MM (Fosi Audio Official Store)",
+      "apiPrice": 66110,
+      "searchMin": 53699,
+      "orders": 1321,
+      "rating": "96.9%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "8356225908",
+      "name": "Fosi Audio DS2 USB C to AUX DAC 3.5mm DSD256 4.4mm CS43131 iPhone 15 Pro Max Plus iPad",
+      "price": 116500,
+      "rocket": false
+    },
+    "diffPct": 43.3,
+    "diffKrw": 50390,
+    "why": "1) 찾는 사람: 알리 공식 스토어 1,321건, 가성비 동글 DAC로 오디오 커뮤니티에서 자주 언급(직접 근거 URL 못 열음) 2) 같은 제품 짝: 쿠팡 3P 'DS2 CS43131 3.5/4.4mm' 동일 모델(HiFiGo 118,100도 있음) 3) 판정 쓸모: 약 5만 원·43%",
+    "warn": "알리 옵션(색·케이블)별로 가격이 다름(최저 53,699 ~ 기본 66,110). 쿠팡 포시오디오 공식은 다른 모델(SK02·Q4)을 별도로 팔 수 있으니 DS2만 비교. 바코드 확인"
+  },
+  {
+    "name": "포시오디오 BT20A 블루투스 파워 앰프 (TPA3116D2, 100W)",
+    "brand": "Fosi Audio",
+    "model": "BT20A TPA3116D2 100W 블루투스 5.0 (Pro·Max 아님)",
+    "category": "it",
+    "aliId": "1005001295784555",
+    "ali": {
+      "productId": "1005001295784555",
+      "title": "Fosi Audio BT20A Bluetooth TPA3116D2 사운드 전력 증폭기 100W ... (Fosi Audio Official Store)",
+      "apiPrice": 64088,
+      "searchMin": 58900,
+      "orders": 314,
+      "rating": "96.0%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9812540636",
+      "name": "Fosi Audio BT20A Bluetooth 5.0 2.0CH 100W2 TPA3116 2 Hi-Fi D 파워 앰프 스테레오 오디오",
+      "price": 149240,
+      "rocket": false
+    },
+    "diffPct": 57.1,
+    "diffKrw": 85152,
+    "why": "1) 찾는 사람: 데스크 미니 앰프로 유명, 알리 314건·평점 96.0%(직접 근거 URL 못 열음) 2) 같은 제품 짝: 쿠팡 3P도 'BT20A 5.0 100W' 같은 모델. 쿠팡 포시 BT20A Pro 138,000은 다른 모델이라 비교 제외 3) 판정 쓸모: 약 8.5만 원·57%",
+    "warn": "전원 어댑터 플러그 옵션(US/EU/KR) 확인 필수: 알리 US 플러그를 고르면 220V 한국 콘센트에 변환 필요. 포함 어댑터 전압·인증(KC) 여부 확인. 가장 큰 격차라 쿠팡 3P 상품이 BT20A 본체+어댑터 구성인지 확인. 바코드 확인"
+  },
+  {
+    "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
+    "brand": "Fosi Audio",
+    "model": "Q4 미니 스테레오 USB DAC/앰프(광·동축·RCA)",
+    "category": "it",
+    "aliId": "1005002448803062",
+    "ali": {
+      "productId": "1005002448803062",
+      "title": "Fosi Audio Q4 미니 스테레오 USB 게임용 DAC 및 헤드폰 앰프 ... (HIFI MADE FUN Store)",
+      "apiPrice": 47265,
+      "searchMin": 47600,
+      "orders": 278,
+      "rating": "99.0%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "7401672495",
+      "name": "포시 오디오 Q4 DAC 헤드폰 앰프 소형 미니 스테레오 24비트 광 디지털 컴팩트 덕 192KHz PC USB/광/동축/RCA",
+      "price": 103800,
+      "rocket": false
+    },
+    "diffPct": 54.5,
+    "diffKrw": 56535,
+    "why": "1) 찾는 사람: 알리 278건·평점 99.0%, 데스크 DAC로 오디오 커뮤니티 언급(직접 근거 URL 못 열음) 2) 같은 제품 짝: 쿠팡 'Q4 DAC 24비트 192KHz 광/동축/RCA' 설명 일치(다른 등록 145,900) 3) 판정 쓸모: 약 5.7만 원·54%",
+    "warn": "알리 판매자 HIFI MADE FUN Store는 Fosi 공식 아님(공식 스토어 Q4 목록 24건은 가격 비슷 47,374). 전원 어댑터(USB 5V)·플러그 옵션 확인. 쿠팡 포시 공식 Q4 정발품이면 다른 등록이라 가격·보증 차이. 바코드 확인"
+  },
+  {
+    "name": "앤커 사운드코어 스페이스 원(Space One) A3035 ANC 헤드폰",
+    "brand": "Anker Soundcore",
+    "model": "Space One A3035 (Pro·A3062 아님)",
+    "category": "audio",
+    "aliId": "1005005975276303",
+    "ali": {
+      "productId": "1005005975276303",
+      "title": "Anker SoundCore Space One /Hires/LDAC/블루투스 무선 능동형 소음 감소 (Global Digital Original Store)",
+      "apiPrice": 103202,
+      "searchMin": 105400,
+      "orders": 65,
+      "rating": "96.2%",
+      "option": "item API 기본 옵션가"
+    },
+    "coupang": {
+      "productId": "9731536487",
+      "name": "Anker Soundcore Space One 화이트",
+      "price": 126040,
+      "rocket": false
+    },
+    "diffPct": 18.1,
+    "diffKrw": 22838,
+    "why": "1) 찾는 사람: 가성비 ANC 헤드폰 후속 모델로 검색 많음, 단 알리 판매 65건뿐(직접 근거 URL 못 열음) 2) 같은 제품 짝: 쿠팡 3P 'Anker Soundcore Space One' 같은 A3035(색 화이트·블랙) 3) 판정 쓸모: 약 2.3만 원이지만 18%라 '애매' 판정 후보",
+    "warn": "20% 미만이라 직구각이 아니라 애매가 나올 가능성이 큼(판정 쓸모는 있음). 색상(화이트 126,040 / 블랙 128,510) 맞출 것. 알리 판매자는 앤커 공식 아님(Global Digital Original Store), 판매 65건으로 표본 적음. 쿠팡 3P 바코드 확인"
+  }
+]

@@ -4513,5 +4513,200 @@
       "checkedAt": "2026.11.10"
     },
     "image": "https://ads-partners.coupang.com/image1/yWJEv4G1Q9GO1dOOySwQk_B2-lL_Za3ciP-HtnR1j1LpQOu4t3M_N-ribtkL__xkelGKSpL_owkVuPNtc4OA4ZI84X6Hgmy9u4Lwf-cKBFeLakat6uDq3BY69wV3JCSqnvS9qHnsbe7oK9BvVEm9hTZA3TLD3jQ8UaKhj4_33_XrnTCmLVPM4Mr80ztbsPGE9JyYGVIiQyFza42VbXDnqsWjnbYHkm7KyymPzdK-hqFU6h8udTgBUHpXL1c9WbbQrQHuJn77SsKCgylfL9AnrHHt3FW-T6oHoSzIfLfkxPujIC5kGvnpQeFw_NlfUBBbxucveCMy3geeO8cKNU0THqmPMKws0k0oCBURdwejLctxfobbTMPYDEhO5gFaQBxrmdJlUKGy8Jw9Rt7GZo6gkb9IWVCVBjcE_krq56XZgMOBD_ymeH2XnK6LutMSIdPkAf4mGPl3bAFgmPfNN249U47FuTBf12Cpdb2RPhEXRLmW9rEzS5-5jDhCw6t2tPk3Aoy7cUk1r7k47VU7uA4G8g=="
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.11 쿠팡 API 매니저",
+    "slug": "amazon-apple-pencil-pro",
+    "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
+    "name": "애플 펜슬 프로",
+    "category": "it",
+    "domesticKrw": 166810,
+    "domesticSource": "쿠팡 로켓배송",
+    "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
+    "risks": [
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "아이패드 프로(M4 이후)·에어(M2 이후)·미니(A17 Pro)에서만 써요. 애플 펜슬 2세대·USB-C와 헷갈리지 않기",
+      "미국판도 국내 애플 A/S는 받을 수 있지만 결제 전 확인하세요"
+    ],
+    "summary": [
+      "애플 펜슬 프로(MX2D3AM/A, 단일 색)끼리 비교했어요. 국내 최저가는 쿠팡 로켓배송이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "아마존 할인 때 자주 이 가격 근처까지 내려가요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0D3J71RM7",
+      "model": "Apple Pencil Pro MX2D3AM/A (단일 색)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(Apple 애플펜슬 프로, 로켓)과 아마존 ASIN(웹 검색: slickdeals 아마존 딜·데저트카트 목록, 아마존 화면은 열지 않음)으로 맞춤(11/11 매니저)",
+      "checkedAt": "2026.11.11"
+    }
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.11 쿠팡 API 매니저",
+    "slug": "amazon-elgato-stream-deck-mk2",
+    "domesticUrl": "https://link.coupang.com/a/iAjCVmhKUK",
+    "name": "엘가토 스트림 덱 MK.2 (15키, 블랙)",
+    "category": "it",
+    "domesticKrw": 217560,
+    "domesticSource": "쿠팡 로켓배송",
+    "buyUrl": "https://www.amazon.com/dp/B09738CV2G",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8518179410",
+    "risks": [
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "$200 넘으면 부가세 10%(관세 0% 기준)",
+      "화이트 에디션·스트림 덱 네오·XL·시저 키는 다른 제품이에요",
+      "미국판은 국내 정식 A/S(코르세어 코리아)가 다를 수 있어요"
+    ],
+    "summary": [
+      "엘가토 스트림 덱 MK.2(15키, 10GBA9901)끼리 비교했어요. 국내 최저가는 쿠팡 로켓배송이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "미국 정가는 $149.99라 할인할 때만 노려볼 만해요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B09738CV2G",
+      "model": "Elgato Stream Deck MK.2 15키 블랙 (10GBA9901)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(엘가토 STREAM DECK MK 2, 로켓, 화이트 에디션은 따로 220,000원)과 아마존 ASIN(웹 검색: gadgetscout·데저트카트 목록, 아마존 화면은 열지 않음)으로 맞춤(11/11 매니저). 쿠팡 로켓 색은 상품명에 화이트 표기가 없어 블랙으로 봄",
+      "checkedAt": "2026.11.11"
+    }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.11 쿠팡 API 매니저",
+    "slug": "ali-baseus-bowie-mh1",
+    "domesticUrl": "https://link.coupang.com/a/iAjCVp61Zs",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4mvv0PPC9csy2RCzz21U3D6FIN60SceCatXdrTmeX6oiETm5cG5mYlGFSHDFjnHvWL6lbgKtj9EdKq7C84MIpgBPdB900HZShecjt9E7TlAhW8osaQ6FJtQlQRrBgaWiOg6dbftEJfF5sqdbC2H1ILhpsl08yAVxJZIKhSdhC6t8AVvepaJJsnS74gDuj69vZUcVUWVWWWGOBiLAD4J6QUdyPRTxVgmcRprFvr0os4UzWJpyCp5n77np9M8jn7aKIkuPS42G5odcB2Y9J2smIrameDdMrGB4zXuBInLDk1pVmYfDCnXQ0E23SjPmjIWr0u31ZwBXIYYfANuouDadMHE7XSMsG035YAs9niF6WesMUHlZ2o2yYY4fuoSAZJnj8OrJ35M9GSllW6G67rfLgg3iZXe6tjIsWkbQNqZcjXluhAbguTdOPWUsVj2iE4sNe3SNJ67PoBnkPcrcxlsL3WLnEqEXm2lND5IxRmV8ZghtgTTFzTXtC5eEnagH9NQXEM9TlHeXJ9NnlDVss8MlzEjxAYChw2bZze23K61gz6USlRYlaNBP6ZGoFqOHaHuW1mx8ya4WKXNob4NY2T5CThFEFuZjJEO69EV23OhTKPGoDOQuH9imkPdTCe23HWfugp1BLDdIzlKApyYWpf4MppqTaMRBKryMCXZe85HySLwvjxurhyICUvZulpiGY1Kg8YzPggso0A4Dq",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
+    "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
+    "category": "audio",
+    "priceKrw": 86751,
+    "domesticKrw": 176600,
+    "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007015955340.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "알리는 색·옵션마다 가격이 달라요. 결제 전 고른 옵션 가격을 확인하세요",
+      "보위 M2s·H1i 등 다른 보위 헤드폰과 헷갈리지 않기"
+    ],
+    "summary": [
+      "베이스어스 공식 스토어 보위 MH1과 쿠팡 같은 모델을 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요. 쿠팡은 해외 판매자 상품이에요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Baseus Bowie MH1 (ANC, LDAC)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(베이스어스 MH1 노이즈캔슬링 무선 헤드폰)과 알리 제휴 API 제목(BASEUS Co.,Ltd. Store)으로 맞춤. 색 옵션 미확인(11/11 매니저)",
+      "checkedAt": "2026.11.11"
+    }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.11 쿠팡 API 매니저",
+    "slug": "ali-moondrop-chu2",
+    "domesticUrl": "https://link.coupang.com/a/iAjCVuRlEi",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CogRJU9pVzmRNozV57SjUb6HvXXuvLYXy1ujDWvXn9OHhrHTTaPMZbocE9o4j3zfdDLP5MclN9nwQ6u1Sc3zFGwDzw7RlANvhZY34q4oqn3SO0CupnZQ15xSTqZYFzKIDanIZIdzY4nKYcaSkZ3GzDEVarMMVFD7evrX5YRBEku9A4VWgMbjAEGhUhLzl1uBnnR4gUM6USijvpyV9Ih8qPVYDJhMuQ9mCfdkvUm3e2Qas4Zjy68uhwPmkwHXrBWnd6qzoaQJtKLq84Z5V7cIySkmKY5Zl6Nnf86tplRSJ6revVTWNM5YtOLetZXnkbqXljuG21YxDg6LI5WXWwLLd119a0SEolIDHG72wbwVPYcUOBonOsXSXAgOAS7kk05H0v5oO5BclK6a7RrdgztNo8ZZR5wWixwwRFYGDLg7gDDSnBJotIiZSgZohDwtbFsOecvCEFwBUImpqN7Ke5MHXJCnXfN1LbrPAd7ml2dgyNkemlpSV2o5lGohdbIwHD2XmFreaJjRmeAxVVjJrS7lNQo2IcZkyiFPjjXH1AL45th2TLXJrIrpnjl47skmnbet8Fm9qb8I1DuPvCrTI0sY4u3P8Twe118PLScG6EDU3cP4PcSU5ftt4YLSquEiFTCcvT9LPPxFTxu5wtyTw36vPWGda0TYiuYGchCpWNOLcE4KbUlkPEMQXu5zC3pDFJEdFoE8UINkH3Lbvm",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71478de1cc0042f1b3e41ec3f5d2177dg.jpg",
+    "name": "문드롭 츄2 (CHU II) 유선 인이어 이어폰",
+    "category": "audio",
+    "priceKrw": 32773,
+    "domesticKrw": 89100,
+    "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9725175748",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006499470555.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "마이크 있는 케이블·USB-C(DSP) 버전은 옵션 가격이 달라요",
+      "츄(1세대)·츄2 DSP와 헷갈리지 않기"
+    ],
+    "summary": [
+      "문드롭 츄2(3.5mm)를 알리 HiFiGo 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요. 쿠팡은 해외 판매자 상품이에요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "MOONDROP CHU II 3.5mm (DSP 아님)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(문드롭 츄2 CHU II)과 알리 제휴 API 제목(HiFiGo Store, 문드롭 공식 스토어 아님)으로 맞춤. 마이크 유무 옵션 미확인(11/11 매니저)",
+      "checkedAt": "2026.11.11"
+    }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.11 쿠팡 API 매니저",
+    "slug": "ali-fosi-q4",
+    "domesticUrl": "https://link.coupang.com/a/iAjCVAb6hU",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmjFQcc9fZcBZyKU6KI0fH7mquEK3lHeqFaaesEXTPKQawzRS89FVZXoHbCU8UhGXfvw67PMJMSV3lZuR3kRS6GEeB0msB53fiQTum5n77aV1TAzGw8kaWsQGaKEzsAbWaV2cSE29BIYdv0DmKBimhAbBQw6uMqXepl1R4pfcvgvQdMKpgj72F1ZAHkdQZUWjHIM9d9FUvvrYtssgeGQMfhGNIWYDBbuuO1CNbIrbs2YyiFIehdJXLcGaEz8l0X1nA34GT0ys7D380lAClKeIQFZsdLmmiVAtdNRQQEsQUbysgxq5OGrUQowbcxiGLWS9IgD7LxNb0h5YKsKXLE0G8jxQZAhlaS4UFSTTfdDmnGXAy2S00Dp3LDZdod9hPKeOnTefEpJToIy4FIKojVmPYvZC8NueLbitSJ1bavvjsivVhK4rmeVd4tfOYPWQPNylC1tH34NZI7GWWm32Yn5QyxJDnp5tiyFZ7iy4RggECaryqLJoiMGrYjCN1Klo7hFtBmqC0GloZkLUt2gmPTwEAwZ7RF4C0ddGGuFkhJKRUTwZ6ld4J1iXHpWll0USkzud4koVWrOt5bx9mSjbjlQeVl4AHft7oETaOQE4rJirIK4oRy1TWJjvOZhGekuarqiXSvmQ1YhN0wF0FVFv7qmCKCykKqks8mYb7yBpzmNTrqOMPK6e4vLPk4NPmdsEyeKs2sakIGwj2oDi0",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/A5b901685149643f1a661b7d54a26db6f6.jpg",
+    "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
+    "category": "audio",
+    "priceKrw": 47265,
+    "domesticKrw": 103800,
+    "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/7401672495",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005002448803062.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "알리 판매자는 포시 공식 스토어가 아니에요(공식 스토어도 비슷한 가격)",
+      "Q5s·K5 Pro 등 다른 포시 DAC와 헷갈리지 않기"
+    ],
+    "summary": [
+      "포시오디오 Q4 DAC·헤드폰 앰프를 알리와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요. 쿠팡은 해외 판매자 상품이에요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Fosi Audio Q4 (USB 전원 DAC·헤드폰 앰프)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(포시 오디오 Q4 DAC 헤드폰 앰프)과 알리 제휴 API 제목(HIFI MADE FUN Store)으로 맞춤(11/11 매니저)",
+      "checkedAt": "2026.11.11"
+    }
   }
 ]
