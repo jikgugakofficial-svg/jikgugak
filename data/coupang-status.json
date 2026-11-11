@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-11T01:17:39.272Z",
-  "mode": "report",
+  "at": "2026-11-11T01:46:26.605Z",
+  "mode": "hourly",
   "ok": true,
-  "message": "쿠팡 실적 20261104~20261110: 클릭 6 · 주문 2건 · 수익 1,040원"
+  "message": "- 사진 못 찾음: amazon-beats-studio-pro (검색어 '비츠 스튜디오 프로 무선 헤드폰' 상위 10개에 같은 상품 번호 없음 → coupangKeyword 고치기)"
 }
