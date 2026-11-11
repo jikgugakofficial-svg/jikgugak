@@ -4,7 +4,7 @@
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
       "keyword": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-      "at": "2026-11-11T10:41:52.663Z",
+      "at": "2026-11-11T16:34:05.567Z",
       "recordedKrw": 31170,
       "found": true,
       "apiPrice": 31170,
@@ -15,24 +15,24 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-11-11T10:42:16.757Z",
+      "at": "2026-11-11T16:34:29.446Z",
       "recordedKrw": 23740,
       "found": true,
-      "apiPrice": 23740,
+      "apiPrice": 23680,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -60,
+      "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-11-11T10:42:20.712Z",
+      "at": "2026-11-11T16:34:33.426Z",
       "recordedKrw": 13220,
       "found": true,
-      "apiPrice": 44900,
+      "apiPrice": 13130,
       "isRocket": false,
-      "diff": 31680,
-      "result": "held"
+      "diff": -90,
+      "result": "applied"
     },
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
@@ -326,18 +326,18 @@
     "iherb-on-micronized-creatine-caps-100": {
       "productId": "65105319",
       "keyword": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
-      "at": "2026-11-11T10:41:28.742Z",
+      "at": "2026-11-11T16:33:41.411Z",
       "recordedKrw": 29640,
       "found": true,
-      "apiPrice": 29640,
+      "apiPrice": 38500,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 8860,
+      "result": "held"
     },
     "ali-qcy-melobuds-n70": {
       "productId": "8974456611",
       "keyword": "QCY 멜로버즈 N70 노이즈캔슬링 이어폰",
-      "at": "2026-11-11T10:41:32.661Z",
+      "at": "2026-11-11T16:33:45.462Z",
       "recordedKrw": 61880,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -345,7 +345,7 @@
     "ali-edifier-m90-speaker": {
       "productId": "9481089707",
       "keyword": "에디파이어 M90 블루투스 스피커",
-      "at": "2026-11-11T10:41:36.676Z",
+      "at": "2026-11-11T16:33:49.528Z",
       "recordedKrw": 249000,
       "found": false,
       "note": "같은 상품 번호는 있지만 옵션 번호가 달라요(다른 색·구성일 수 있어 반영 안 함)"
@@ -353,7 +353,7 @@
     "ali-soundcore-liberty-4-pro": {
       "productId": "8502414141",
       "keyword": "앤커 사운드코어 리버티 4 프로",
-      "at": "2026-11-11T10:41:40.672Z",
+      "at": "2026-11-11T16:33:53.414Z",
       "recordedKrw": 125900,
       "found": true,
       "apiPrice": 125900,
@@ -364,7 +364,7 @@
     "ali-edifier-evobuds-pro": {
       "productId": "9340326719",
       "keyword": "EDIFIER EvoBuds Pro",
-      "at": "2026-11-11T10:41:44.739Z",
+      "at": "2026-11-11T16:33:57.515Z",
       "recordedKrw": 78560,
       "found": true,
       "apiPrice": 78560,
@@ -375,7 +375,7 @@
     "iherb-cgn-coq10-100-360": {
       "productId": "9294384581",
       "keyword": "캘리포니아 골드 뉴트리션 CoQ10 USP 등급 유비퀴논 100mg 360정",
-      "at": "2026-11-11T10:41:48.653Z",
+      "at": "2026-11-11T16:34:01.446Z",
       "recordedKrw": 95800,
       "found": true,
       "apiPrice": 95800,
@@ -530,13 +530,13 @@
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
       "keyword": "애플 에어팟 프로 3",
-      "at": "2026-11-11T11:39:22.122Z",
-      "recordedKrw": 299900,
+      "at": "2026-11-11T16:34:37.454Z",
+      "recordedKrw": 308000,
       "found": true,
       "apiPrice": 308000,
       "isRocket": true,
-      "diff": 8100,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-sony-wf-1000xm5": {
       "productId": "8051760807",
@@ -606,29 +606,29 @@
     "amazon-apple-pencil-pro": {
       "productId": "8106270209",
       "keyword": "애플 펜슬 프로",
-      "at": "2026-11-11T10:41:56.681Z",
-      "recordedKrw": 166820,
+      "at": "2026-11-11T16:34:09.553Z",
+      "recordedKrw": 166730,
       "found": true,
-      "apiPrice": 166730,
+      "apiPrice": 166660,
       "isRocket": true,
-      "diff": -90,
+      "diff": -70,
       "result": "applied"
     },
     "amazon-elgato-stream-deck-mk2": {
       "productId": "8518179410",
       "keyword": "엘가토 스트림 덱 MK.2",
-      "at": "2026-11-11T10:42:00.607Z",
+      "at": "2026-11-11T16:34:13.350Z",
       "recordedKrw": 217560,
       "found": true,
-      "apiPrice": 217560,
+      "apiPrice": 212000,
       "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "diff": -5560,
+      "result": "applied"
     },
     "ali-baseus-bowie-mh1": {
       "productId": "9257308613",
       "keyword": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰",
-      "at": "2026-11-11T10:42:04.692Z",
+      "at": "2026-11-11T16:34:17.481Z",
       "recordedKrw": 176600,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -636,7 +636,7 @@
     "ali-moondrop-chu2": {
       "productId": "9725175748",
       "keyword": "문드롭 츄2 유선 인이어 이어폰",
-      "at": "2026-11-11T10:42:08.657Z",
+      "at": "2026-11-11T16:34:21.529Z",
       "recordedKrw": 98800,
       "found": true,
       "apiPrice": 98800,
@@ -647,7 +647,7 @@
     "ali-fosi-q4": {
       "productId": "7401672495",
       "keyword": "포시오디오 Q4 USB DAC 헤드폰 앰프",
-      "at": "2026-11-11T10:42:12.659Z",
+      "at": "2026-11-11T16:34:25.456Z",
       "recordedKrw": 103800,
       "found": true,
       "apiPrice": 103800,
@@ -656,5 +656,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-11T15:29:08.263Z"
+  "updatedAt": "2026-11-11T16:34:41.464Z"
 }
