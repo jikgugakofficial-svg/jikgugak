@@ -75,7 +75,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-10T18:23:18.520Z",
+      "at": "2026-11-11T00:15:17.774Z",
       "recordedKrw": 71570,
       "found": true,
       "apiPrice": 71570,
@@ -86,7 +86,7 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-10T18:23:22.548Z",
+      "at": "2026-11-11T00:15:21.696Z",
       "recordedKrw": 471000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -94,7 +94,7 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-10T18:23:26.452Z",
+      "at": "2026-11-11T00:15:25.576Z",
       "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
@@ -105,7 +105,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-10T18:23:30.533Z",
+      "at": "2026-11-11T00:15:29.686Z",
       "recordedKrw": 59500,
       "found": true,
       "apiPrice": 59500,
@@ -116,7 +116,7 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-11-10T18:23:34.525Z",
+      "at": "2026-11-11T00:15:34.282Z",
       "recordedKrw": 38400,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -601,5 +601,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-10T23:17:28.396Z"
+  "updatedAt": "2026-11-11T00:15:37.616Z"
 }
