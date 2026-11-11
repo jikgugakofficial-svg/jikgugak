@@ -4683,14 +4683,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.11 알리 자동",
+    "checkedAt": "2026.11.12 알리 자동",
     "slug": "ali-baseus-bowie-mh1",
     "domesticUrl": "https://link.coupang.com/a/iAjCVp61Zs",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4mvv0PPC9csy2RCzz21U3D6FIN60SceCatXdrTmeX6oiETm5cG5mYlGFSHDFjnHvWL6lbgKtj9EdKq7C84MIpgBPdB900HZShecjt9E7TlAhW8osaQ6FJtQlQRrBgaWiOg6dbftEJfF5sqdbC2H1ILhpsl08yAVxJZIKhSdhC6t8AVvepaJJsnS74gDuj69vZUcVUWVWWWGOBiLAD4J6QUdyPRTxVgmcRprFvr0os4UzWJpyCp5n77np9M8jn7aKIkuPS42G5odcB2Y9J2smIrameDdMrGB4zXuBInLDk1pVmYfDCnXQ0E23SjPmjIWr0u31ZwBXIYYfANuouDadMHE7XSMsG035YAs9niF6WesMUHlZ2o2yYY4fuoSAZJnj8OrJ35M9GSllW6G67rfLgg3iZXe6tjIsWkbQNqZcjXluhAbguTdOPWUsVj2iE4sNe3SNJ67PoBnkPcrcxlsL3WLnEqEXm2lND5IxRmV8ZghtgTTFzTXtC5eEnagH9NQXEM9TlHeXJ9NnlDVss8MlzEjxAYChw2bZze23K61gz6USlRYlaNBP6ZGoFqOHaHuW1mx8ya4WKXNob4NY2T5CThFEFuZjJEO69EV23OhTKPGoDOQuH9imkPdTCe23HWfugp1BLDdIzlKApyYWpf4MppqTaMRBKryMCXZe85HySLwvjxurhyICUvZulpiGY1Kg8YzPggso0A4Dq",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
     "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
     "category": "audio",
-    "priceKrw": 86285,
+    "priceKrw": 86751,
     "domesticKrw": 176600,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
@@ -4720,6 +4720,13 @@
         "field": "priceKrw",
         "from": 86751,
         "to": 86285,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 86285,
+        "to": 86751,
         "source": "알리"
       }
     ]

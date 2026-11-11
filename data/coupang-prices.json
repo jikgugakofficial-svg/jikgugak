@@ -552,7 +552,7 @@
     "amazon-logitech-g-pro-x-superlight-2": {
       "productId": "9606305559",
       "keyword": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
-      "at": "2026-11-11T17:38:15.865Z",
+      "at": "2026-11-11T23:30:46.757Z",
       "recordedKrw": 166000,
       "found": true,
       "apiPrice": 166000,
@@ -563,7 +563,7 @@
     "ali-moondrop-space-travel-2": {
       "productId": "9764598863",
       "keyword": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
-      "at": "2026-11-11T17:38:19.906Z",
+      "at": "2026-11-11T23:30:50.824Z",
       "recordedKrw": 56070,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -571,7 +571,7 @@
     "ali-redragon-k617-fizz": {
       "productId": "7795587320",
       "keyword": "레드드래곤 K617 피즈 60% 기계식 키보드",
-      "at": "2026-11-11T17:38:23.973Z",
+      "at": "2026-11-11T23:30:54.692Z",
       "recordedKrw": 68600,
       "found": true,
       "apiPrice": 68600,
@@ -662,5 +662,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-11T22:37:04.400Z"
+  "updatedAt": "2026-11-11T23:30:58.689Z"
 }
