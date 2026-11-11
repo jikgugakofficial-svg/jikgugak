@@ -50,7 +50,7 @@
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
-      "at": "2026-11-11T13:58:54.010Z",
+      "at": "2026-11-11T19:42:19.520Z",
       "recordedKrw": 220399,
       "found": true,
       "apiPrice": 220399,
@@ -58,7 +58,7 @@
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
-      "at": "2026-11-11T13:58:54.531Z",
+      "at": "2026-11-11T19:42:20.416Z",
       "recordedKrw": 128400,
       "found": true,
       "apiPrice": 128400,
@@ -74,10 +74,11 @@
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
-      "at": "2026-11-11T13:58:52.065Z",
+      "at": "2026-11-11T19:42:17.329Z",
       "recordedKrw": 179541,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 179541,
+      "result": "same"
     },
     "ali-moondrop-space-travel-2": {
       "itemId": "1005009402878815",
@@ -118,5 +119,5 @@
       "note": "not_found"
     }
   },
-  "updatedAt": "2026-11-11T18:32:39.443Z"
+  "updatedAt": "2026-11-11T19:42:21.297Z"
 }

@@ -4475,11 +4475,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iyCmqpFIgm",
     "sample": false,
-    "checkedAt": "2026.11.11 쿠팡 자동",
+    "checkedAt": "2026.11.12 쿠팡 자동",
     "slug": "amazon-sennheiser-momentum-4",
     "name": "젠하이저 모멘텀 4 와이어리스 헤드폰",
     "category": "audio",
-    "domesticKrw": 322710,
+    "domesticKrw": 293660,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0B6GHW1SX",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7776776856",
@@ -4509,6 +4509,13 @@
         "field": "domesticKrw",
         "from": 293660,
         "to": 322710,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 322710,
+        "to": 293660,
         "source": "쿠팡"
       }
     ]
