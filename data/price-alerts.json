@@ -2,7 +2,7 @@
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
   "items": {
     "amazon-bose-qc-ultra-earbuds-2:domesticKrw": {
-      "at": "2026-11-11T03:32:39.214Z",
+      "at": "2026-11-11T08:38:31.415Z",
       "slug": "amazon-bose-qc-ultra-earbuds-2",
       "field": "domesticKrw",
       "recorded": 309000,
@@ -12,7 +12,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-earbuds:domesticKrw": {
-      "at": "2026-11-11T03:32:35.123Z",
+      "at": "2026-11-11T08:38:27.366Z",
       "slug": "amazon-bose-qc-earbuds",
       "field": "domesticKrw",
       "recorded": 169000,
@@ -40,7 +40,17 @@
       "change": "240%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "amazon-bose-qc-headphones:domesticKrw": {
+      "at": "2026-11-11T08:38:23.385Z",
+      "slug": "amazon-bose-qc-headphones",
+      "field": "domesticKrw",
+      "recorded": 279000,
+      "api": 349000,
+      "change": "25%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-11T06:43:26.675Z"
+  "updatedAt": "2026-11-11T08:38:51.974Z"
 }
