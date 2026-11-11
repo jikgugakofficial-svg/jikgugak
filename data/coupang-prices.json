@@ -216,35 +216,35 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-10T21:23:16.732Z",
+      "at": "2026-11-11T03:33:07.117Z",
       "recordedKrw": 26130,
       "found": true,
-      "apiPrice": 26130,
+      "apiPrice": 21390,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -4740,
+      "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-10T21:23:20.653Z",
-      "recordedKrw": 61150,
+      "at": "2026-11-11T03:33:11.072Z",
+      "recordedKrw": 49490,
       "found": true,
-      "apiPrice": 49490,
+      "apiPrice": 49410,
       "isRocket": false,
-      "diff": -11660,
+      "diff": -80,
       "result": "applied"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-11-10T21:23:24.749Z",
+      "at": "2026-11-11T03:33:15.113Z",
       "recordedKrw": 37240,
       "found": true,
-      "apiPrice": 37240,
+      "apiPrice": 32880,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -4360,
+      "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
@@ -446,7 +446,7 @@
     "amazon-beats-powerbeats-pro-2": {
       "productId": "8605086546",
       "keyword": "비츠 파워비츠 프로 2 운동용 이어폰",
-      "at": "2026-11-10T19:34:51.539Z",
+      "at": "2026-11-11T03:32:19.371Z",
       "recordedKrw": 254030,
       "found": false,
       "note": "검색 상위 8개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -454,7 +454,7 @@
     "amazon-beats-solo-4": {
       "productId": "8163708318",
       "keyword": "비츠 솔로 4 무선 헤드폰",
-      "at": "2026-11-10T19:34:55.454Z",
+      "at": "2026-11-11T03:32:23.137Z",
       "recordedKrw": 179000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -462,18 +462,18 @@
     "amazon-bose-qc-headphones": {
       "productId": "7579231557",
       "keyword": "보스 QC 헤드폰",
-      "at": "2026-11-10T19:34:59.503Z",
+      "at": "2026-11-11T03:32:27.023Z",
       "recordedKrw": 279000,
       "found": true,
-      "apiPrice": 349000,
-      "isRocket": false,
-      "diff": 70000,
-      "result": "held"
+      "apiPrice": 279000,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
     },
     "amazon-bose-qc-earbuds": {
       "productId": "8350898413",
       "keyword": "보스 QC 이어버드",
-      "at": "2026-11-10T20:27:18.807Z",
+      "at": "2026-11-11T03:32:30.966Z",
       "recordedKrw": 169000,
       "found": true,
       "apiPrice": 229000,
@@ -484,7 +484,7 @@
     "amazon-bose-qc-ultra-earbuds-2": {
       "productId": "8903883649",
       "keyword": "보스 QC 울트라 이어버드 2세대",
-      "at": "2026-11-10T20:27:22.635Z",
+      "at": "2026-11-11T03:32:35.123Z",
       "recordedKrw": 309000,
       "found": true,
       "apiPrice": 359000,
@@ -495,7 +495,7 @@
     "amazon-razer-deathadder-v3-pro": {
       "productId": "9444695999",
       "keyword": "레이저 데스애더 V3 프로 무선 마우스",
-      "at": "2026-11-10T20:27:26.685Z",
+      "at": "2026-11-11T03:32:39.214Z",
       "recordedKrw": 155830,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -503,7 +503,7 @@
     "amazon-lego-10359-fountain-garden": {
       "productId": "8776305217",
       "keyword": "레고 아이콘 분수 정원 10359",
-      "at": "2026-11-10T20:27:30.692Z",
+      "at": "2026-11-11T03:32:43.118Z",
       "recordedKrw": 109350,
       "found": false,
       "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -511,18 +511,18 @@
     "amazon-lego-10328-bouquet-of-roses": {
       "productId": "7792209105",
       "keyword": "레고 보태니컬 장미 꽃다발 10328",
-      "at": "2026-11-10T21:23:08.652Z",
-      "recordedKrw": 67430,
+      "at": "2026-11-11T03:32:59.404Z",
+      "recordedKrw": 60430,
       "found": true,
-      "apiPrice": 60430,
+      "apiPrice": 58430,
       "isRocket": true,
-      "diff": -7000,
+      "diff": -2000,
       "result": "applied"
     },
     "amazon-osprey-farpoint-40": {
       "productId": "9267318199",
       "keyword": "오스프리 파포인트 40 여행 배낭",
-      "at": "2026-11-10T21:23:12.637Z",
+      "at": "2026-11-11T03:33:03.110Z",
       "recordedKrw": 277800,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -576,7 +576,7 @@
     "amazon-sony-wh-1000xm5": {
       "productId": "8879659697",
       "keyword": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
-      "at": "2026-11-10T21:22:56.739Z",
+      "at": "2026-11-11T03:32:47.468Z",
       "recordedKrw": 327720,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -584,7 +584,7 @@
     "amazon-sennheiser-momentum-4": {
       "productId": "7776776856",
       "keyword": "젠하이저 모멘텀 4 와이어리스 헤드폰",
-      "at": "2026-11-10T21:23:00.663Z",
+      "at": "2026-11-11T03:32:51.607Z",
       "recordedKrw": 322710,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -592,7 +592,7 @@
     "amazon-garmin-forerunner-265": {
       "productId": "7209583295",
       "keyword": "가민 포러너 265 러닝 스마트워치",
-      "at": "2026-11-10T21:23:04.661Z",
+      "at": "2026-11-11T03:32:55.061Z",
       "recordedKrw": 452100,
       "found": true,
       "apiPrice": 452100,
@@ -601,5 +601,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-11T01:46:20.788Z"
+  "updatedAt": "2026-11-11T03:33:19.287Z"
 }

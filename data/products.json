@@ -398,10 +398,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9hkMSa",
     "sample": false,
-    "checkedAt": "2026.11.10 알리 자동",
+    "checkedAt": "2026.11.11 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 30786,
+    "priceKrw": 30610,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -426,13 +426,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.02",
-        "field": "priceKrw",
-        "from": 32365,
-        "to": 32399,
-        "source": "알리"
-      },
       {
         "at": "2026.11.03",
         "field": "priceKrw",
@@ -494,6 +487,13 @@
         "field": "priceKrw",
         "from": 31847,
         "to": 30786,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "priceKrw",
+        "from": 30786,
+        "to": 30610,
         "source": "알리"
       }
     ]
@@ -1683,7 +1683,7 @@
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24992,
-    "domesticKrw": 26130,
+    "domesticKrw": 21390,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1707,13 +1707,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 24520,
-        "to": 21170,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -1776,6 +1769,13 @@
         "from": 24820,
         "to": 26130,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 26130,
+        "to": 21390,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1794,7 +1794,7 @@
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 75783,
-    "domesticKrw": 49490,
+    "domesticKrw": 49410,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1818,13 +1818,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 49520,
-        "to": 60300,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -1887,6 +1880,13 @@
         "from": 61150,
         "to": 49490,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 49490,
+        "to": 49410,
+        "source": "쿠팡"
       }
     ]
   },
@@ -1901,11 +1901,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD4TgU9I",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-jarro-dophilus-eps-120-veggie-caps-5-billion-cfu-per-capsule/7006",
     "sample": false,
-    "checkedAt": "2026.11.10 쿠팡 자동",
+    "checkedAt": "2026.11.11 쿠팡 자동",
     "slug": "iherb-jarrow-dophilus-eps-120",
     "name": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
     "priceKrw": 52368,
-    "domesticKrw": 37240,
+    "domesticKrw": 32880,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1930,13 +1930,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "priceKrw",
-        "from": 51486,
-        "to": 51629,
-        "source": "아이허브"
-      },
       {
         "at": "2026.11.05",
         "field": "domesticKrw",
@@ -1998,6 +1991,13 @@
         "field": "domesticKrw",
         "from": 32540,
         "to": 37240,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 37240,
+        "to": 32880,
         "source": "쿠팡"
       }
     ]
@@ -4060,7 +4060,7 @@
     "slug": "amazon-lego-10328-bouquet-of-roses",
     "name": "레고 보태니컬 장미 꽃다발 10328",
     "category": "toy",
-    "domesticKrw": 60430,
+    "domesticKrw": 58430,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CGY4X222",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7792209105",
@@ -4104,6 +4104,13 @@
         "field": "domesticKrw",
         "from": 67430,
         "to": 60430,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "domesticKrw",
+        "from": 60430,
+        "to": 58430,
         "source": "쿠팡"
       }
     ]
@@ -4279,11 +4286,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.10 알리 자동",
+    "checkedAt": "2026.11.11 알리 자동",
     "slug": "ali-moondrop-space-travel-2",
     "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
     "category": "audio",
-    "priceKrw": 35316,
+    "priceKrw": 35115,
     "domesticKrw": 56070,
     "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
     "domesticSource": "쿠팡 판매자 상품(병행 수입)",
@@ -4316,6 +4323,13 @@
         "from": 35680,
         "to": 35316,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "priceKrw",
+        "from": 35316,
+        "to": 35115,
+        "source": "알리"
       }
     ]
   },
@@ -4327,11 +4341,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.10 알리 자동",
+    "checkedAt": "2026.11.11 알리 자동",
     "slug": "ali-redragon-k617-fizz",
     "name": "레드드래곤 K617 피즈 60% 기계식 키보드 (레드 스위치)",
     "category": "it",
-    "priceKrw": 43769,
+    "priceKrw": 43518,
     "domesticKrw": 68600,
     "domesticUrl": "https://link.coupang.com/a/iw00qwJNzo",
     "domesticSource": "쿠팡 판매자 상품",
@@ -4364,6 +4378,13 @@
         "field": "priceKrw",
         "from": 44219,
         "to": 43769,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.11",
+        "field": "priceKrw",
+        "from": 43769,
+        "to": 43518,
         "source": "알리"
       }
     ]
