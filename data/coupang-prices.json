@@ -37,7 +37,7 @@
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-11T05:40:00.046Z",
+      "at": "2026-11-11T11:39:42.107Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -48,7 +48,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-11T05:40:04.291Z",
+      "at": "2026-11-11T11:39:46.150Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -534,18 +534,18 @@
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
       "keyword": "애플 에어팟 프로 3",
-      "at": "2026-11-11T05:39:40.047Z",
-      "recordedKrw": 296000,
+      "at": "2026-11-11T11:39:22.122Z",
+      "recordedKrw": 299900,
       "found": true,
-      "apiPrice": 299900,
+      "apiPrice": 308000,
       "isRocket": true,
-      "diff": 3900,
+      "diff": 8100,
       "result": "applied"
     },
     "amazon-sony-wf-1000xm5": {
       "productId": "8051760807",
       "keyword": "소니 WF-1000XM5 노이즈캔슬링 이어폰",
-      "at": "2026-11-11T05:39:43.943Z",
+      "at": "2026-11-11T11:39:26.048Z",
       "recordedKrw": 256810,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -553,7 +553,7 @@
     "amazon-logitech-g-pro-x-superlight-2": {
       "productId": "9606305559",
       "keyword": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
-      "at": "2026-11-11T05:39:48.156Z",
+      "at": "2026-11-11T11:39:30.345Z",
       "recordedKrw": 166000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -561,7 +561,7 @@
     "ali-moondrop-space-travel-2": {
       "productId": "9764598863",
       "keyword": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
-      "at": "2026-11-11T05:39:52.130Z",
+      "at": "2026-11-11T11:39:34.160Z",
       "recordedKrw": 56070,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -569,7 +569,7 @@
     "ali-redragon-k617-fizz": {
       "productId": "7795587320",
       "keyword": "레드드래곤 K617 피즈 60% 기계식 키보드",
-      "at": "2026-11-11T05:39:56.055Z",
+      "at": "2026-11-11T11:39:38.096Z",
       "recordedKrw": 68600,
       "found": true,
       "apiPrice": 68600,
@@ -657,5 +657,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-11T10:42:24.700Z"
+  "updatedAt": "2026-11-11T11:39:50.179Z"
 }
