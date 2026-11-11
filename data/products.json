@@ -69,7 +69,7 @@
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28078,
-    "domesticKrw": 23680,
+    "domesticKrw": 20840,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -93,13 +93,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 24390,
-        "to": 27260,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.09",
         "field": "priceKrw",
@@ -161,6 +154,13 @@
         "field": "domesticKrw",
         "from": 23740,
         "to": 23680,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 23680,
+        "to": 20840,
         "source": "쿠팡"
       }
     ]
@@ -566,7 +566,7 @@
     "checkedAt": "2026.11.12 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 23513,
+    "priceKrw": 27027,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -591,13 +591,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "priceKrw",
-        "from": 26982,
-        "to": 28299,
-        "source": "알리"
-      },
       {
         "at": "2026.11.04",
         "field": "priceKrw",
@@ -659,6 +652,13 @@
         "field": "priceKrw",
         "from": 24493,
         "to": 23513,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 23513,
+        "to": 27027,
         "source": "알리"
       }
     ]
@@ -4573,7 +4573,7 @@
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 166660,
+    "domesticKrw": 166640,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4616,6 +4616,13 @@
         "field": "domesticKrw",
         "from": 166730,
         "to": 166660,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 166660,
+        "to": 166640,
         "source": "쿠팡"
       }
     ]
