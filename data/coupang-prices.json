@@ -216,101 +216,101 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-11T21:12:44.034Z",
+      "at": "2026-11-12T03:31:03.772Z",
       "recordedKrw": 26090,
       "found": true,
-      "apiPrice": 26090,
+      "apiPrice": 21190,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -4900,
+      "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-11T21:12:48.011Z",
+      "at": "2026-11-12T03:31:07.924Z",
       "recordedKrw": 61770,
       "found": true,
-      "apiPrice": 61770,
+      "apiPrice": 48960,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -12810,
+      "result": "applied"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-11-11T21:12:52.005Z",
+      "at": "2026-11-12T03:31:11.728Z",
       "recordedKrw": 37190,
       "found": true,
-      "apiPrice": 37190,
+      "apiPrice": 32660,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -4530,
+      "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-11-11T21:12:56.022Z",
+      "at": "2026-11-12T03:31:15.807Z",
       "recordedKrw": 37270,
       "found": true,
-      "apiPrice": 37270,
+      "apiPrice": 31300,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -5970,
+      "result": "applied"
     },
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-11-11T21:13:00.001Z",
+      "at": "2026-11-12T03:31:19.753Z",
       "recordedKrw": 29650,
       "found": true,
-      "apiPrice": 29650,
+      "apiPrice": 26680,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -2970,
+      "result": "applied"
     },
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-11-11T21:13:04.011Z",
+      "at": "2026-11-12T03:31:24.025Z",
       "recordedKrw": 21990,
       "found": true,
-      "apiPrice": 21990,
+      "apiPrice": 19600,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -2390,
+      "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-5b-60": {
       "productId": "6960887991",
       "keyword": "자로우 펨도필러스 50억 CFU 60캡슐",
-      "at": "2026-11-11T21:13:08.008Z",
+      "at": "2026-11-12T03:31:27.769Z",
       "recordedKrw": 35830,
       "found": true,
-      "apiPrice": 35830,
+      "apiPrice": 31300,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -4530,
+      "result": "applied"
     },
     "iherb-now-zinc-50-250": {
       "productId": "6395389697",
       "keyword": "나우푸드 아연 50mg 250정",
-      "at": "2026-11-11T21:13:11.984Z",
+      "at": "2026-11-12T03:31:31.733Z",
       "recordedKrw": 13630,
       "found": true,
-      "apiPrice": 13630,
+      "apiPrice": 12830,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -800,
+      "result": "applied"
     },
     "iherb-now-ultra-omega3-180": {
       "productId": "9392378613",
       "keyword": "나우푸드 울트라 오메가3 180정",
-      "at": "2026-11-11T21:13:16.016Z",
+      "at": "2026-11-12T03:31:35.768Z",
       "recordedKrw": 42640,
       "found": true,
-      "apiPrice": 42640,
+      "apiPrice": 38370,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -4270,
+      "result": "applied"
     },
     "iherb-now-magnesium-caps-400-180": {
       "productId": "26208",
@@ -503,15 +503,15 @@
     "amazon-lego-10359-fountain-garden": {
       "productId": "8776305217",
       "keyword": "레고 아이콘 분수 정원 10359",
-      "at": "2026-11-11T19:42:05.217Z",
+      "at": "2026-11-12T03:30:39.760Z",
       "recordedKrw": 109350,
       "found": false,
-      "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-lego-10328-bouquet-of-roses": {
       "productId": "7792209105",
       "keyword": "레고 보태니컬 장미 꽃다발 10328",
-      "at": "2026-11-11T21:12:37.352Z",
+      "at": "2026-11-12T03:30:55.708Z",
       "recordedKrw": 58430,
       "found": true,
       "apiPrice": 58430,
@@ -522,13 +522,10 @@
     "amazon-osprey-farpoint-40": {
       "productId": "9267318199",
       "keyword": "오스프리 파포인트 40 여행 배낭",
-      "at": "2026-11-11T21:12:39.992Z",
+      "at": "2026-11-12T03:30:59.721Z",
       "recordedKrw": 277800,
-      "found": true,
-      "apiPrice": 277800,
-      "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
@@ -582,7 +579,7 @@
     "amazon-sony-wh-1000xm5": {
       "productId": "8879659697",
       "keyword": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
-      "at": "2026-11-11T19:42:09.301Z",
+      "at": "2026-11-12T03:30:43.707Z",
       "recordedKrw": 327720,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -590,18 +587,18 @@
     "amazon-sennheiser-momentum-4": {
       "productId": "7776776856",
       "keyword": "젠하이저 모멘텀 4 와이어리스 헤드폰",
-      "at": "2026-11-11T19:42:13.540Z",
-      "recordedKrw": 322710,
+      "at": "2026-11-12T03:30:47.755Z",
+      "recordedKrw": 293660,
       "found": true,
-      "apiPrice": 293660,
+      "apiPrice": 356840,
       "isRocket": true,
-      "diff": -29050,
-      "result": "applied"
+      "diff": 63180,
+      "result": "held"
     },
     "amazon-garmin-forerunner-265": {
       "productId": "7209583295",
       "keyword": "가민 포러너 265 러닝 스마트워치",
-      "at": "2026-11-11T21:12:32.156Z",
+      "at": "2026-11-12T03:30:51.813Z",
       "recordedKrw": 452100,
       "found": true,
       "apiPrice": 452100,
@@ -662,5 +659,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-12T01:58:05.406Z"
+  "updatedAt": "2026-11-12T03:31:39.780Z"
 }

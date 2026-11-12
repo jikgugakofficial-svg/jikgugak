@@ -3,10 +3,10 @@
   "items": {
     "ali-ugreen-7in1-usbc-hub": {
       "itemId": "1005008093143399",
-      "at": "2026-11-11T21:13:34.998Z",
-      "recordedKrw": 30610,
+      "at": "2026-11-12T03:31:42.411Z",
+      "recordedKrw": 32017,
       "found": true,
-      "apiPrice": 32017,
+      "apiPrice": 31939,
       "result": "applied"
     },
     "ali-aula-f75-keyboard": {
@@ -83,19 +83,19 @@
     },
     "ali-moondrop-space-travel-2": {
       "itemId": "1005009402878815",
-      "at": "2026-11-11T21:13:32.018Z",
+      "at": "2026-11-12T03:31:39.781Z",
       "recordedKrw": 35115,
       "found": true,
-      "apiPrice": 35115,
-      "result": "same"
+      "apiPrice": 35029,
+      "result": "applied"
     },
     "ali-redragon-k617-fizz": {
       "itemId": "1005006388894172",
-      "at": "2026-11-11T21:13:34.105Z",
+      "at": "2026-11-12T03:31:41.931Z",
       "recordedKrw": 43518,
       "found": true,
-      "apiPrice": 43518,
-      "result": "same"
+      "apiPrice": 43411,
+      "result": "applied"
     },
     "ali-baseus-bowie-mh1": {
       "itemId": "1005007015955340",
@@ -122,5 +122,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-12T01:58:08.809Z"
+  "updatedAt": "2026-11-12T03:31:43.188Z"
 }
