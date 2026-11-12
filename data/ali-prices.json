@@ -11,18 +11,18 @@
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
-      "at": "2026-11-11T22:37:06.567Z",
+      "at": "2026-11-12T04:40:37.931Z",
       "recordedKrw": 53100,
       "found": true,
-      "apiPrice": 80638,
+      "apiPrice": 76996,
       "result": "held"
     },
     "ali-qcy-t13-earbuds": {
       "itemId": "1005005042789596",
-      "at": "2026-11-11T22:37:07.334Z",
-      "recordedKrw": 23513,
+      "at": "2026-11-12T04:40:38.353Z",
+      "recordedKrw": 27027,
       "found": true,
-      "apiPrice": 27027,
+      "apiPrice": 23728,
       "result": "applied"
     },
     "ali-qcy-h3-anc-headphones": {
@@ -67,11 +67,11 @@
     },
     "ali-edifier-evobuds-pro": {
       "itemId": "1005010122935561",
-      "at": "2026-11-11T22:37:04.401Z",
+      "at": "2026-11-12T04:40:35.702Z",
       "recordedKrw": 66124,
       "found": true,
-      "apiPrice": 66124,
-      "result": "same"
+      "apiPrice": 65962,
+      "result": "applied"
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
@@ -122,5 +122,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-12T03:31:43.188Z"
+  "updatedAt": "2026-11-12T04:40:38.717Z"
 }
