@@ -3953,11 +3953,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzX1PGlU",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 자동",
+    "checkedAt": "2026.11.12 쿠팡 API",
     "slug": "amazon-bose-qc-ultra-earbuds-2",
     "name": "보스 QC 울트라 이어버드 2세대",
     "category": "audio",
-    "domesticKrw": 309000,
+    "domesticKrw": 359000,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0F7M3HPBD",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8903883649",
@@ -3988,6 +3988,13 @@
         "from": 359000,
         "to": 309000,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 309000,
+        "to": 359000,
+        "source": "쿠팡 API(로켓, 11/11~12 이어짐, 화면 차단)"
       }
     ]
   },
