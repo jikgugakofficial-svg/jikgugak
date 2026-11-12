@@ -2150,7 +2150,7 @@
     "slug": "iherb-now-silymarin-300-200",
     "name": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
     "priceKrw": 33475,
-    "domesticKrw": 26680,
+    "domesticKrw": 28160,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2174,13 +2174,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "priceKrw",
-        "from": 33002,
-        "to": 33449,
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -2243,6 +2236,13 @@
         "from": 29650,
         "to": 26680,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 26680,
+        "to": 28160,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2261,7 +2261,7 @@
     "slug": "iherb-now-l-arginine-1000-120",
     "name": "나우푸드 L-아르기닌 1000mg 120정",
     "priceKrw": 23429,
-    "domesticKrw": 19600,
+    "domesticKrw": 20690,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2285,13 +2285,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 19580,
-        "to": 20670,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.10",
         "field": "domesticKrw",
@@ -2353,6 +2346,13 @@
         "field": "domesticKrw",
         "from": 21990,
         "to": 19600,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 19600,
+        "to": 20690,
         "source": "쿠팡"
       }
     ]
@@ -2595,7 +2595,7 @@
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46877,
-    "domesticKrw": 38370,
+    "domesticKrw": 40500,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2619,13 +2619,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "priceKrw",
-        "from": 46215,
-        "to": 46841,
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -2688,6 +2681,13 @@
         "from": 42640,
         "to": 38370,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 38370,
+        "to": 40500,
+        "source": "쿠팡"
       }
     ]
   },
@@ -2706,7 +2706,7 @@
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18741,
-    "domesticKrw": 17860,
+    "domesticKrw": 15970,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2730,13 +2730,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 17880,
-        "to": 18870,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.10",
         "field": "domesticKrw",
@@ -2798,6 +2791,13 @@
         "field": "domesticKrw",
         "from": 17000,
         "to": 17860,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 17860,
+        "to": 15970,
         "source": "쿠팡"
       }
     ]
@@ -3034,10 +3034,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau662nWai",
     "sample": false,
-    "checkedAt": "2026.11.11 알리 자동",
+    "checkedAt": "2026.11.12 알리 자동",
     "slug": "ali-edifier-m90-speaker",
     "name": "에디파이어 M90 블루투스 스피커 (블랙)",
-    "priceKrw": 220399,
+    "priceKrw": 219861,
     "domesticKrw": 249000,
     "domesticSource": "쿠팡, 한국 정발 블랙, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqtHwHUNvoNtEzQGMfrvzRbufrwqXTbeQ1kju0nMKIMZ8VlgA1MUzhJpkE9B3OlKxCSdVypmqfxCo7GaDyl9I3dIYqB3VolglpYSMPPSNXh01oNgrs6NmHnK0DxlkvANTtQZvGuzfgrC6BoR4nnsui8CxFa5AjN2nt2Qgnc9mMkYcsst4DVWMdzCkG19uVBmkFpCFp2lD2x6sG4XNWp5lHGLk0tj0Y5nty9X67l65e7r5XMKxhjBxVSalcCG4ofW8oDQdfW4rgb1iyeuGaZZowV1hA0Au93itWziAhFu88XI0UkNj32bIN3PeudS2EYC7T7BDN1YTu3HtHvsbDqG7YSzWw7Ls6QOQZKisnQjGehbB4dZex5Nxu0IIQAGq5TlLFSH5S3EJfApYSUbTyCROZHtB9iFDaW9Fi33INvDupzSCu8tnh73jih1PZS7gjqLlBQeNPlnd0dy3jgSWuWTQbjVOSBUCyBfsqLZ89Q6iHfOpfJIs4JwMUUozlTBU1UKNJp7eVGKMK8nl2nSmq9LpobgyxCy4WotKbEqzWqU5ibQJ3bmrxPEwNYSLDzNHHve3sDBTbFv632Jw7cPSuPcNuSo1JXIgLlxkt3ItA7ZnxLSlCg1kZPXZZdaStc52PmqxZuQtEGeDWx0DhqPrQeliYeNFPLeRFPrA2qb0s6zHShJ2j9iiogzOPvCoWjIPkK5dK24xJYbSJoT",
@@ -3133,6 +3133,13 @@
         "from": 221668,
         "to": 220399,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 220399,
+        "to": 219861,
+        "source": "알리"
       }
     ]
   },
@@ -3146,10 +3153,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.11.11 알리 자동",
+    "checkedAt": "2026.11.12 알리 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 128400,
+    "priceKrw": 128238,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -3175,13 +3182,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 117900,
-        "to": 125900,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -3243,6 +3243,13 @@
         "field": "priceKrw",
         "from": 129242,
         "to": 128400,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 128400,
+        "to": 128238,
         "source": "알리"
       }
     ]
