@@ -1,16 +1,6 @@
 {
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
   "items": {
-    "amazon-bose-qc-headphones:domesticKrw": {
-      "at": "2026-11-12T01:57:53.462Z",
-      "slug": "amazon-bose-qc-headphones",
-      "field": "domesticKrw",
-      "recorded": 279000,
-      "api": 349000,
-      "change": "25%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    },
     "amazon-sennheiser-momentum-4:domesticKrw": {
       "at": "2026-11-12T03:30:51.792Z",
       "slug": "amazon-sennheiser-momentum-4",
@@ -18,26 +8,6 @@
       "recorded": 293660,
       "api": 356840,
       "change": "22%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    },
-    "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-12T04:40:38.353Z",
-      "slug": "ali-aula-f75-keyboard",
-      "field": "priceKrw",
-      "recorded": 53100,
-      "api": 76996,
-      "change": "45%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "알리"
-    },
-    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-12T05:43:01.370Z",
-      "slug": "iherb-now-vitamin-d3-k2-120",
-      "field": "domesticKrw",
-      "recorded": 13130,
-      "api": 44900,
-      "change": "242%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
     },
@@ -52,5 +22,5 @@
       "source": "알리"
     }
   },
-  "updatedAt": "2026-11-12T07:58:51.406Z"
+  "updatedAt": "2026-11-12T09:08:15.283Z"
 }
