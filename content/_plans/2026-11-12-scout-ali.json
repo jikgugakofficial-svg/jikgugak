@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-12",
+  "source": "web(알리 제휴 API 검색·item + 쿠팡 실시간 검색)",
+  "candidates": [
+    {
+      "name": "유그린 넥소드 에어 65W GaN 초소형 충전기",
+      "brand": "UGREEN",
+      "model": "Nexode Air 65W GaN Ultra Mini (AVS PPS PD3.0)",
+      "category": "charger",
+      "aliId": "1005012274502051",
+      "ali": {
+        "productId": "1005012274502051",
+        "title": "UGREEN Nexode Air 65W GaN 초소형 PD3.0 충전기 (Ugreen Official Store)",
+        "apiPrice": 33177,
+        "searchMin": 30600,
+        "orders": 6929,
+        "rating": "98.5%",
+        "option": "item API 기본 옵션가"
+      },
+      "coupang": {
+        "productId": "9780240448",
+        "name": "UGREEN 넥소드 에어 65W GaN 초소형 PD3.0 충전기 맥북 삼성 호환",
+        "price": 53900,
+        "rocket": false
+      },
+      "diffPct": 38.4,
+      "diffKrw": 20723,
+      "why": "1) 찾는 사람: 알리 6,929건·평점 98.5%, 유그린 공식 스토어, 맥북·노트북 겸용 65W 소형 충전기는 상시 검색 2) 같은 제품 짝: 쿠팡 3P도 '넥소드 에어 65W GaN 초소형 PD3.0' 같은 모델명(다른 등록 66,900) 3) 판정 쓸모: 약 2만 원 차이, 3만 원대라 면세·관세 문제 없음",
+      "warn": "220V 충전기라 국내 플러그(KC) 확인 필요: 알리 판매 옵션이 한국 플러그(KR)인지 EU/US인지 매니저가 옵션 확인. 쿠팡은 3P(공식 아님), 바코드·모델번호(CD3xx) 확인"
+    },
+    {
+      "name": "베이스어스 보위 MC2 에어 클립온 오픈형 이어버드",
+      "brand": "Baseus",
+      "model": "Bowie MC2 Air (오픈형 이어클립, 블루투스 6.0)",
+      "category": "audio",
+      "aliId": "1005010724623265",
+      "ali": {
+        "productId": "1005010724623265",
+        "title": "Baseus Bowie MC2 AIR 클립온 TWS 이어버드 (BASEUS Co.,Ltd. Store)",
+        "apiPrice": 41212,
+        "searchMin": 39151,
+        "orders": 16391,
+        "rating": "96.4%",
+        "option": "item API 기본 옵션가"
+      },
+      "coupang": {
+        "productId": "9685144131",
+        "name": "Baseus 보위 MC2 에어 오픈 이어버드 운동 러닝용 클라우드컴포트",
+        "price": 68900,
+        "rocket": false
+      },
+      "diffPct": 40.2,
+      "diffKrw": 27688,
+      "why": "1) 찾는 사람: 알리 16,391건, 오픈형 이어클립은 러닝·통화용 검색 많음 2) 같은 제품 짝: 쿠팡 'Baseus 보위 MC2 에어' 같은 모델명(다른 등록 97,920) 3) 판정 쓸모: 차이 2.7만 원대로 직구각 확실, 5만 원 미만",
+      "warn": "색상 맞출 것. 쿠팡 3P, 후기 96.4%. 이어폰은 전파인증(KC) 문제 가능성: 알리 직구 무선 이어폰 공통 주의. 바코드 확인"
+    },
+    {
+      "name": "로얄클루지 RK R75 한국어 가스켓 기계식 키보드",
+      "brand": "Royal Kludge",
+      "model": "RK R75 80키 75% 한국어 레이아웃, 핫스왑, 유선",
+      "category": "keyboard",
+      "aliId": "1005006362922981",
+      "ali": {
+        "productId": "1005006362922981",
+        "title": "RK Royal Kludge R75 한국어 기계식 키보드 80키 (RK Official Store)",
+        "apiPrice": 62252,
+        "searchMin": 53000,
+        "orders": 54,
+        "rating": "94.5%",
+        "option": "item API 기본 옵션가(스위치 미확인)"
+      },
+      "coupang": {
+        "productId": "9355217456",
+        "name": "[국내정발] RK Royal Kludge 로얄클루지 유선키보드 R75",
+        "price": 79900,
+        "rocket": true
+      },
+      "diffPct": 22.1,
+      "diffKrw": 17648,
+      "why": "1) 찾는 사람: 한글 각인 75% 가스켓 키보드로 입문자 검색 많음, 알리 54건은 표본 적음 2) 같은 제품 짝: 쿠팡 정발 R75 vs 알리 공식 스토어 R75 한국어, 스위치만 맞추면 같은 모델 3) 판정 쓸모: 차이 17.6천 원(22%)으로 직구각 경계, 가격이 오르내리면 애매로 갈 수 있음",
+      "warn": "경계 후보(22.1%). 알리 검색 최저 53,000과 item API 62,252가 달라 옵션(스위치 색)에 따라 가격이 다름 → 매니저가 쿠팡과 같은 스위치로 맞출 것. 쿠팡 정발은 국내 AS 있음(차이점). 쿠팡 R75 핑크멜로디 59,000은 다른 에디션이라 제외"
+    },
+    {
+      "name": "베이스어스 65W GaN 고속 충전기",
+      "brand": "Baseus",
+      "model": "Baseus 65W USB-C GaN 충전기 (PD/QC)",
+      "category": "charger",
+      "aliId": "1005009757326705",
+      "ali": {
+        "productId": "1005009757326705",
+        "title": "베이스어스 65W USB C 충전기 GaN QC PD (BASEUS Official Store)",
+        "apiPrice": 25987,
+        "searchMin": 28050,
+        "orders": 1069,
+        "rating": "97.7%",
+        "option": "item API 기본 옵션가(포트 수·플러그 미확인)"
+      },
+      "coupang": {
+        "productId": "9797165570",
+        "name": "베이스어스 65W GaN PD C타입 고속 충전기 노트북 호환",
+        "price": 53900,
+        "rocket": false
+      },
+      "diffPct": 51.8,
+      "diffKrw": 27913,
+      "why": "1) 찾는 사람: 65W 노트북 겸용 GaN 충전기 상시 수요, 알리 1,069건·평점 97.7%, 공식 스토어 2) 같은 제품 짝: 쿠팡 3P 'Baseus 65W GaN PD' (같은 65W 모델로 추정, 포트 수·모델번호는 확인 필요) 3) 판정 쓸모: 약 2.8만 원 차이, 2만 원대 소액이라 면세 문제 없음",
+      "warn": "같은 모델 확인 약함: 쿠팡 쪽 모델번호·포트(1C인지 2C1A인지) 정보가 검색 결과에 없음 → 매니저가 쿠팡 일반 주소에서 모델번호 확인. 쿠팡 다른 등록 39,900(GaN6 Pro 4포트, 다른 제품)·62,900. 플러그 규격(KR/EU) 옵션 확인"
+    },
+    {
+      "name": "유그린 100W·65W GaN 6in1 데스크탑 충전기",
+      "brand": "UGREEN",
+      "model": "UGREEN 100W/65W GaN 6-in-1 데스크탑 충전기",
+      "category": "charger",
+      "aliId": "1005004921468312",
+      "ali": {
+        "productId": "1005004921468312",
+        "title": "UGREEN 100W 65W GaN 충전기 6 in 1 데스크탑 (Ugreen Official Store)",
+        "apiPrice": 39610,
+        "searchMin": 34452,
+        "orders": 3812,
+        "rating": "98.1%",
+        "option": "item API 기본 옵션가(100W/65W 모델 구분 필요)"
+      },
+      "coupang": {
+        "productId": "9179258908",
+        "name": "UGREEN 100W 65W GaN 충전기 6 in 1 데스크탑 노트북 고속 아이폰17 16 15 프로 맥스",
+        "price": 63600,
+        "rocket": false
+      },
+      "diffPct": 37.7,
+      "diffKrw": 23990,
+      "why": "1) 찾는 사람: 멀티포트 데스크탑 충전기 상시 수요, 알리 3,812건·평점 98.1% 2) 같은 제품 짝: 쿠팡 3P 제목이 알리 제목과 같음(알리 상품 재판매 가능성 높음), 100W/65W 옵션만 맞추면 됨 3) 판정 쓸모: 약 2.4만 원 차이로 직구각 가능, 쿠팡 쪽이 알리 재판매라면 가격 차이가 유지될 가능성",
+      "warn": "쿠팡 판매자가 알리 상품 재판매(3P)로 보여 같은 제품일 가능성은 높지만 옵션(65W냐 100W냐)이 쿠팡 제목에 구분되지 않음 → 매니저가 옵션 확인. 이 쿠팡 등록은 해외배송일 수 있음. KC·플러그 규격 확인"
+    }
+  ],
+  "dropped": [
+    {
+      "name": "AJAZZ AK820 Pro 키보드",
+      "reason": "알리 item API 53,129 vs 쿠팡 60,000 → 차이 6,871원(11.5%)이라 1만 원 미만. 쿠팡 다른 등록 46,870(모델 미확인)이면 더 작음"
+    },
+    {
+      "name": "어택샤크 K86 키보드",
+      "reason": "알리 item API 75,878 vs 쿠팡 73,790 → 알리가 더 비쌈(검색가 52,422와 item 가격이 달라 옵션 차이 의심)"
+    },
+    {
+      "name": "머캐닉 K500-B94 키보드",
+      "reason": "쿠팡 28,600 < 알리 29,700"
+    },
+    {
+      "name": "GameSir Nova Lite",
+      "reason": "쿠팡 20,950 < 알리 30,700"
+    },
+    {
+      "name": "GameSir X5 Lite",
+      "reason": "쿠팡 21,050(유선 X5 라이트)로 같은 모델이 알리 18,073과 3천 원 차이. 쿠팡 35,190·61,900은 다른 등록(정발·Xbox형)"
+    },
+    {
+      "name": "GameSir Cyclone 2",
+      "reason": "쿠팡 40,070 < 알리 57,360"
+    },
+    {
+      "name": "GameSir G7 Pro 8K(Aimlabs)",
+      "reason": "쿠팡 75,000 < 알리 98,787"
+    },
+    {
+      "name": "GameSir G7 SE",
+      "reason": "쿠팡 같은 모델 검색에 안 잡힘(국내 비교 불가)"
+    },
+    {
+      "name": "SIMGOT EW200",
+      "reason": "쿠팡 47,420 < 알리 53,700"
+    },
+    {
+      "name": "SMSL SU-1 DAC",
+      "reason": "쿠팡 89,000 < 알리 95,400"
+    },
+    {
+      "name": "샤오미 미지아 S500 전기면도기",
+      "reason": "쿠팡 26,560 ≈ 알리 26,300"
+    },
+    {
+      "name": "샤오미 미지아 전동칫솔 프로 / T302",
+      "reason": "쿠팡 33,190가 알리 40,719보다 쌈 / T302는 쿠팡 본체 상품 없음(칫솔모뿐)"
+    },
+    {
+      "name": "샤오미 라우터 BE6500",
+      "reason": "쿠팡 쪽이 '호환' 표기 3P 재판매로 같은 모델 확인 불가 + 무선기기 전파인증(KC) 문제 가능성, 가격 차이는 큼(알리 89,800 vs 쿠팡 183,120)이라 매니저가 원하면 별도 검토"
+    },
+    {
+      "name": "UGREEN 마그플로우 에어 5000mAh Qi2",
+      "reason": "쿠팡 로켓 54,900 vs 알리 50,228 → 차이 4천 원대"
+    },
+    {
+      "name": "UGREEN HiTune S3 에어 / 무선 마우스 / 240W 케이블 / 100W GaN(CD244)",
+      "reason": "쿠팡에 유그린 정식 판매 상품이 있어 쿠팡이 알리와 비슷하거나 더 쌈(마우스 22,500~, 케이블 12,400~) 또는 같은 모델 확인 불가(100W)"
+    },
+    {
+      "name": "베이스어스 7in1 허브 / 마그네틱 보조배터리",
+      "reason": "쿠팡에 같은 모델 정발·피코고(35,520) 있어 차이 작음 또는 같은 모델 없음"
+    },
+    {
+      "name": "하이로 S40 ANC·워치 4S",
+      "reason": "쿠팡에서 같은 모델 검색에 안 잡힘"
+    },
+    {
+      "name": "렉사 microSD / Fanxiang·Netac SSD / 킹스톤 NV3",
+      "reason": "쿠팡 같은 모델·용량 비교를 못 맞춤(용량·옵션별 가격 폭 큼, 시세 급변)"
+    },
+    {
+      "name": "Logitech G102·M650·K380·Lift, 라미 Lamzu Maya, Zaopin Z2, 로지텍 G435·C270",
+      "reason": "알리 상품이 공식 스토어가 아니거나 중고·병행·소량 판매, 또는 쿠팡 같은 모델 검색에 안 잡힘"
+    },
+    {
+      "name": "EarFun Air Pro 4, Tronsmart, CUKTECH, Flydigi Vader",
+      "reason": "알리 판매 건수 0~2건, 또는 본체가 아닌 액세서리만 검색됨"
+    }
+  ],
+  "notes": "쿠팡 호출은 4초 간격으로 약 25회, 403·429·stop 없음. 알리 item API 일반가가 search 최저가와 다른 경우 item 값을 apiPrice로 사용. 후보 5개만 통과(억지로 채우지 않음). 모든 쿠팡 가격은 API 검색 결과 최저 같은 모델 기준이며 2개·3개 묶음 옵션은 확인 못 함."
+}

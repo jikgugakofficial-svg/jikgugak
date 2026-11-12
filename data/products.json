@@ -4847,5 +4847,85 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(포시 오디오 Q4 DAC 헤드폰 앰프)과 알리 제휴 API 제목(HIFI MADE FUN Store)으로 맞춤(11/11 매니저)",
       "checkedAt": "2026.11.11"
     }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.12 쿠팡 API 매니저",
+    "slug": "ali-ugreen-nexode-air-65w",
+    "domesticUrl": "https://link.coupang.com/a/iBYTJWEq9k",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmyH9YFbcdrf7wjUSwbCj003MaHic22LKqNgmHQyfHpkAyTjzAOBpVFIPerq3SIEmLXaLdVhi0KffVdKJvOT9rXGrF13sg7bkeeZdXFvQenLAVLuEFjAwYEqSufUFEYWM1Ailj7x8eW8o2PDOzdB3WSnDx3dHCy1cM5a6nPlvV99eZOjpmewHDo8UZh7c6u6LpYROnc2NhKUeuOMHA8yr4BuYplbMUAvTcWaxxEDzxavmsTFpX6iXDlvbXxftfxZhjhzaeOrww9iB06I4Z2ZGqCw3HZ5UHp8JRviOZE3MelcU6Fid7PzgtN6j3izhfQRhfN16nbiGKjPD3iNX1pFX1UyTOC2wVTt7TqjW2LebZ2DDais0XWLH3wOpPSolOWnhYNA4Ayh8FqMC1bvceVzup9WDcYyf69KPT2Utyqj7SE8pcafVQ4nIgP3lUYZm0QqU0lJy6XhmpUdM3IKak6KAPVfxitzqWf8cNsjtOhruqGl46TTTwtwuYVHjZAD8DcrFPQfOZz5G8UY9kExKhIgU9qfXoBhc20Jp78QpjRgRQZGh52G8zNJYXZRtZlA9hLy9KkubgSvQB9NHW5avtpg6YzJQgwNXLr5J6yb5WRxSE0JWRm16V6FSyxiBgtsV3tj8NMs9FGmxWu8x51sRQYEMi0bR5QCb48Fk68RNG5JWDLKfakUXXp0ybNPp1F3VRIeH8K4X8YKWzgzC8",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa1381f441eea416d9504e0d6a600c793q.jpg",
+    "name": "유그린 넥소드 에어 65W GaN 초소형 충전기",
+    "category": "it",
+    "priceKrw": 33177,
+    "domesticKrw": 53900,
+    "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9780240448",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005012274502051.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "플러그 옵션은 EU(한국 콘센트와 같은 모양)로 고르세요",
+      "포트 1개(USB-C) 제품이에요. 3포트 넥소드 65W와 다른 모델이에요"
+    ],
+    "summary": [
+      "유그린 넥소드 에어 65W(USB-C 1포트) 충전기를 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요. 쿠팡은 해외 판매자 상품이에요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "UGREEN Nexode Air 65W GaN Ultra Mini (USB-C 1포트, PD3.0·PPS)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(UGREEN 넥소드 에어 65W GaN 초소형 PD3.0)과 알리 제휴 API 제목(Ugreen Official Store)으로 맞춤(11/12 매니저)",
+      "checkedAt": "2026.11.12"
+    }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.12 쿠팡 API 매니저",
+    "slug": "ali-baseus-bowie-mc2-air",
+    "domesticUrl": "https://link.coupang.com/a/iBYTJ0WdY4",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmw60uOJpAqeUVXDbUeL1qHvdQeWl41L7J9jgxvoVM1R9UKRrh8QGFfHBBqdQtmWnpeCj02R0JNpBCr6mKkuXcVeuBmi1rMXY9U5GAcz8p08Y6tvms82Cp3rHA4q0Vx8lnVkZxGZwPX4iJ7W10HgPTHacHe1T4qgHwWblWy2ThjzG5we4U5aiTuHGQVUWxQb851chv3mHlQL6AP3H8cXYZozm6moOB8oW4AhYbkjbDV2Nj9AiBeaQLHahtIvOJNcCPp9THhjE0GUAKatsELtE00p4kCCRi73cJbHeOvT6HusBsZdK8ArShAvvIb99V4W2knlVNf4B6TNLfsnI5PwdDD3E8D9PcevmKVwOAOauwBUfl6BVkaZbuAvIULL456jZAusoeT0U5m6SCjXfhXK9Y358giPjm65fOoo6ZXvxlOuqSvCbyiDtKfExVWiNFfGU4ooK89yOL2ijSfDZ3cJOjjeBmPU4GihTz3357D0VYLV9xMP580h6FDEt9waUSfwEx7szJWLGepq4kmqjwnIoqwxKKPjRIfR0xtGVdV5tNQXXEffjmSKl9H7b5o1jbUlQFtM3o04vpSpu5yEnwddKaZYkpwCJcISk9DkXdARAvsSgsWWDnqqpmKyCOsRFtMJC2Q5LvNC5J2pCeev0I74qlJjkx0tB1tDj5ny3OEMdW9RrhSbA7IdfGafvkyW8vPHxdXLXHUEebxIQ8",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
+    "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
+    "category": "audio",
+    "priceKrw": 41212,
+    "domesticKrw": 68900,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005010724623265.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "색상 옵션마다 가격이 다를 수 있어요. 결제 화면에서 확인하세요",
+      "MC2 에어와 MC2(노이즈 캔슬링)·MH1은 다른 모델이에요"
+    ],
+    "summary": [
+      "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰을 알리 베이스어스 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요. 쿠팡 로켓배송 상품은 이보다 더 비싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Baseus Bowie MC2 Air (오픈형 이어클립, 블루투스 6.0)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(베이스어스 보위 MC2 에어 오픈 이어버드)과 알리 제휴 API 제목(BASEUS Co.,Ltd. Store, Bowie MC2 AIR)으로 맞춤. 색은 따로 맞추지 않음(11/12 매니저)",
+      "checkedAt": "2026.11.12"
+    }
   }
 ]

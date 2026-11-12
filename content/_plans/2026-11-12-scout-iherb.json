@@ -1,0 +1,228 @@
+{
+ "date": "2026-11-12",
+ "note": "아이허브 가격은 웹 검색(주로 미국 사이트)에서 본 추정값, 환율 1,340 기준. kr.iherb.com 화면으로 매니저가 다시 확인. 쿠팡 가격은 jikgugak.com/api/coupang 결과(11/12).",
+ "candidates": [
+  {
+   "status": "candidate",
+   "strength": "강",
+   "name": "내추럴 바이탈리티 칼름 마그네슘 드링크 믹스 라즈베리 레몬 453g",
+   "brand": "Natural Vitality",
+   "model": "CALM Magnesium Supplement Drink Mix, Raspberry-Lemon, 16 oz (453 g) (칼슘 포함·체리·30포 상품과 다름)",
+   "category": "supplement",
+   "iherb": {
+    "productId": "5124",
+    "iherbCode": "",
+    "upc": "",
+    "size": "453g",
+    "iherbUrl": "https://kr.iherb.com/pr/natural-vitality-calm-magnesium-supplement-drink-mix-raspberry-lemon-16-oz-453-g/5124",
+    "url": "https://kr.iherb.com/pr/natural-vitality-calm-magnesium-supplement-drink-mix-raspberry-lemon-16-oz-453-g/5124",
+    "expectKrw": "미국 사이트 $29.76(웹 검색 추정) 기준 약 4.0만 원, 한국 사이트 가격·판매 여부 매니저 확인"
+   },
+   "coupang": {
+    "productId": "7608101707",
+    "name": "내추럴바이탈리티 캄 마그네슘 라즈베리 레몬 드링크 믹스 파우더 453g 1개",
+    "price": 79000,
+    "rocket": false,
+    "perUnitIfBundle": "검색 결과 다른 상품 3222029(시트레이트 라즈베리레몬) 73,000·30팩 69,100도 있음, 453g 맛·구성 일반 주소에서 확인"
+   },
+   "why": "1) 칼름은 수면·스트레스 마그네슘으로 꾸준히 검색되고 쿠팡 검색 결과가 전부 마켓 재판매(6.9만~14.5만 원). 2) 같은 453g 라즈베리 레몬이면 아이허브 상품번호 5124로 짝이 되고 맛·용량이 하나라 옵션 혼동이 적음. 3) 쿠팡 7.9만 vs 아이허브 약 4.0만 원(4만 원 미만이면 배송비 6,000)으로 차이 약 3만 원, 20%·1만 원 모두 넘을 가능성이 높아 판정이 쓸모 있음. 근거 세기 강",
+   "warn": "UPC·상품 코드는 웹 검색으로 못 찾음(매니저가 아이허브 화면에서 UPC 확인 후 쿠팡 Global Trade Item Number와 대조, 안 맞으면 variant). 같은 칼름이라도 칼슘 포함·체리·30포·미국판과 한국 유통판 구성이 다를 수 있음. 아이허브 가격은 미국 사이트 추정, 마그네슘 시트레이트 파우더라 건강기능식품 면세 $150(배송비 포함) 적용"
+  },
+  {
+   "status": "candidate",
+   "strength": "중",
+   "name": "BSN 신타-6 아이솔레이트 프로틴 초콜릿 밀크쉐이크 912g(2.01lb)",
+   "brand": "BSN",
+   "model": "Syntha-6 Isolate Protein Powder Drink Mix, Chocolate Milkshake, 2.01 lb (912 g)",
+   "category": "supplement",
+   "iherb": {
+    "productId": "46349",
+    "iherbCode": "",
+    "upc": "",
+    "size": "912g(2.01lb)",
+    "iherbUrl": "https://kr.iherb.com/pr/bsn-syntha-6-isolate-protein-powder-drink-mix-chocolate-milkshake-2-01-lb-912-g/46349",
+    "url": "https://kr.iherb.com/pr/bsn-syntha-6-isolate-protein-powder-drink-mix-chocolate-milkshake-2-01-lb-912-g/46349",
+    "expectKrw": "미국 사이트 $50.74(웹 검색 추정) 기준 약 6.8만 원, 한국 사이트 가격 매니저 확인"
+   },
+   "coupang": {
+    "productId": "8289044097",
+    "name": "비에스엔 신타-6 아이솔레이트 프로틴 파우더 드링크 믹스 초콜릿 밀크쉐이크",
+    "price": 113710,
+    "rocket": false,
+    "perUnitIfBundle": "검색 결과 중 같은 계열 단일 최저가, 용량(912g인지 4.02lb인지)이 제목에 없어 일반 주소에서 확인 필수"
+   },
+   "why": "1) 신타-6는 국내 헬스 커뮤니티에서 꾸준히 찾는 프로틴이고 쿠팡 상단이 전부 마켓 재판매(11만 원대). 2) 아이허브 상품번호 46349로 초콜릿 밀크쉐이크 2.01lb와 짝이 됨(맛·용량 지정). 3) 쿠팡 11.4만 vs 아이허브 약 6.8만 원이면 차이 약 4.5만 원으로 판정이 쓸모 있음. 근거 세기 중(쿠팡 용량 확인 전)",
+   "warn": "쿠팡 11.4만 원이 4.02lb(아이허브 $88.21)일 수 있음. 용량이 다르면 100g당 가격으로 환산하거나 후보에서 빼기. 식품이라 면세 $150에 배송비 합산, 바코드·UPC는 매니저가 대조. 한국 판매 여부 화면 확인"
+  },
+  {
+   "status": "candidate",
+   "strength": "중",
+   "name": "옵티멈뉴트리션 골드스탠다드 100% 카제인 초콜릿 4lb(1.81kg)",
+   "brand": "Optimum Nutrition",
+   "model": "Gold Standard 100% Casein, Chocolate, 4 lb (1.81 kg) (슈프림 3.97lb·바닐라와 맛·용량이 달라 맛 확인 필수)",
+   "category": "supplement",
+   "iherb": {
+    "productId": "87128",
+    "iherbCode": "",
+    "upc": "",
+    "size": "4lb(1.81kg)",
+    "iherbUrl": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-casein-chocolate-4-lb-1-81-kg/87128",
+    "url": "https://kr.iherb.com/pr/optimum-nutrition-gold-standard-100-casein-chocolate-4-lb-1-81-kg/87128",
+    "expectKrw": "같은 4lb 프렌치 바닐라 미국 사이트 $91.46(웹 검색 추정) 기준 약 12.3만 원, 초콜릿 가격은 매니저 확인"
+   },
+   "coupang": {
+    "productId": "8288993016",
+    "name": "Optimum Nutrition Gold Standard 100% Casein Protein Powder 옵티멈 뉴트리션 카세인",
+    "price": 189000,
+    "rocket": false,
+    "perUnitIfBundle": "다른 상품 8203798536(초코맛 28서빙) 232,900은 용량이 달라 제외. 189,000 상품의 맛·용량(4lb 여부) 일반 주소에서 확인"
+   },
+   "why": "1) 카제인은 야간 단백질로 국내 검색이 꾸준한데 국내 정식 유통이 적어 쿠팡이 재판매 위주. 2) 아이허브 4lb와 같은 맛·용량이면 짝이 됨. 3) 쿠팡 18.9만 vs 아이허브 약 12만 원대로 차이 약 6만 원, 배송비를 더해도 판정이 쓸모 있음. 근거 세기 중",
+   "warn": "쿠팡 189,000 상품의 맛·용량이 불명확(제목에 없음). 맛마다 아이허브 상품번호가 다름(초콜릿 87128·초콜릿 슈프림 27530·프렌치 바닐라 116772). 식품이라 면세 $150에 배송비 합산, UPC 대조 필요"
+  },
+  {
+   "status": "candidate",
+   "strength": "중",
+   "name": "옵티멈뉴트리션 에센셜 아미노 에너지 프루트 퓨전 270g",
+   "brand": "Optimum Nutrition",
+   "model": "Essential Amin.O. Energy, Fruit Fusion, 9.5 oz (270 g) (맛마다 아이허브 번호가 다름, 쿠팡은 블루 라즈베리·블루베리 모히토 등)",
+   "category": "supplement",
+   "iherb": {
+    "productId": "33925",
+    "iherbCode": "",
+    "upc": "",
+    "size": "270g(30서빙)",
+    "iherbUrl": "https://kr.iherb.com/pr/optimum-nutrition-essential-amin-o-energy-fruit-fusion-9-5-oz-270-g/33925",
+    "url": "https://kr.iherb.com/pr/optimum-nutrition-essential-amin-o-energy-fruit-fusion-9-5-oz-270-g/33925",
+    "expectKrw": "가격 못 찾음(웹 검색으로 미확인, 매니저가 화면 확인)"
+   },
+   "coupang": {
+    "productId": "9246021679",
+    "name": "옵티멈 뉴트리션 에센셜 아미노 에너지 파우더 블루 라즈베리맛 270g",
+    "price": 72600,
+    "rocket": false,
+    "perUnitIfBundle": "같은 계열 9811753131(블루베리 모히토) 최저 122,830부터, 맛을 아이허브와 같은 걸로 맞춰야 함"
+   },
+   "why": "1) 헬스·러닝 커뮤니티에서 아미노 에너지 검색이 많음. 2) 270g 30서빙 맛만 맞추면 짝이 됨(아이허브 ie 사이트에서 프루트 퓨전 33925 확인). 3) 쿠팡 7.3만 원은 영국 정가(약 25유로대)의 2배 안팎이라 차이 가능성 높음, 판정이 쓸모 있음. 근거 세기 중(아이허브 한국 가격 미확인)",
+   "warn": "아이허브 한국 사이트 판매 여부·가격 미확인(웹 검색에 kr.iherb 페이지 안 나옴). 쿠팡과 같은 맛을 아이허브에서 찾아 상품번호를 바꿔야 함. 식품이라 면세 $150 배송비 합산"
+  },
+  {
+   "status": "candidate",
+   "strength": "중",
+   "name": "리뉴라이프 얼티밋 플로라 프로바이오틱 150억 CFU 30캡슐",
+   "brand": "Renew Life",
+   "model": "Ultimate Flora Probiotic, 15 Billion CFU, 30 Delayed Release Vegan Capsules (여성용 54407·300억·500억 등 다른 제품과 구분)",
+   "category": "supplement",
+   "iherb": {
+    "productId": "101804",
+    "iherbCode": "REN-12097",
+    "upc": "631257120977",
+    "size": "30캡슐",
+    "iherbUrl": "https://kr.iherb.com/pr/renew-life-ultimate-flora-probiotic-15-billion-cfu-30-delayed-release-vegan-capsules/101804",
+    "url": "https://kr.iherb.com/pr/renew-life-ultimate-flora-probiotic-15-billion-cfu-30-delayed-release-vegan-capsules/101804",
+    "expectKrw": "미국 사이트 $22.01(웹 검색 추정) 기준 약 2.9만 원+배송비 6,000, 한국 사이트 가격 매니저 확인"
+   },
+   "coupang": {
+    "productId": "8931635786",
+    "name": "리뉴라이프 Ultimate Flora 에브리데이 프로바이오틱 150억 CFU 지연 방출 베지 캡슐 30정 1개",
+    "price": 49400,
+    "rocket": false,
+    "perUnitIfBundle": "단품 1개 기준(검색 결과 46,600 여성용·48,300 300억은 다른 제품)"
+   },
+   "why": "1) 리뉴라이프는 국내 정식 유통이 드물어 마켓 재판매가 많고 유산균 검색이 꾸준함. 2) 아이허브 UPC 631257120977로 짝이 됨(쿠팡 Global Trade Item Number 대조). 3) 쿠팡 4.9만 vs 아이허브 약 3.5만 원(배송비 포함)으로 차이 약 1.4만 원·28%라 직구각 경계선, 판정이 쓸모 있음. 근거 세기 중",
+   "warn": "차이가 20%·1만 원 경계라 가격이 조금만 바뀌어도 애매로 바뀜. 쿠팡 4.9만 원이 일반 주소에서 150억 30캡슐 단품인지 확인. 4만 원 미만이라 배송비 6,000 적용, 다른 상품과 묶음 안내 가능"
+  },
+  {
+   "status": "candidate",
+   "strength": "약",
+   "name": "가든오브라이프 비타민 코드 우먼 홀푸드 멀티비타민 120캡슐",
+   "brand": "Garden of Life",
+   "model": "Vitamin Code Women Whole Food Multivitamin, 120 Vegetarian Capsules (50세 이상용 10861·RAW One 75캡슐과 다름)",
+   "category": "supplement",
+   "iherb": {
+    "productId": "10413",
+    "iherbCode": "GOL-11366",
+    "upc": "658010113663",
+    "size": "120캡슐",
+    "iherbUrl": "https://kr.iherb.com/pr/garden-of-life-vitamin-code-women-whole-food-multivitamin-120-vegetarian-capsules/10413",
+    "url": "https://kr.iherb.com/pr/garden-of-life-vitamin-code-women-whole-food-multivitamin-120-vegetarian-capsules/10413",
+    "expectKrw": "미국 사이트 $34.29(웹 검색 추정) 기준 약 4.6만 원(4만 원 이상이라 배송비 무료), 한국 사이트 가격 매니저 확인"
+   },
+   "coupang": {
+    "productId": "6009335140",
+    "name": "Garden of Life 비타민 코드 우먼 베지테리안 캡슐",
+    "price": 69000,
+    "rocket": false,
+    "perUnitIfBundle": "용량 불명, 같은 계열 424628(50세 이상용 120정) 62,600은 다른 제품이라 제외"
+   },
+   "why": "1) 종합비타민 검색이 많고 가든오브라이프는 국내 정식 유통이 적음. 2) UPC 658010113663으로 짝이 되지만 쿠팡 69,000 상품의 용량(120캡슐인지)·여성/50+ 구분이 불명확. 3) 맞다면 차이 약 2.3만 원으로 판정이 쓸모 있음. 근거 세기 약",
+   "warn": "쿠팡 69,000이 120캡슐 우먼이 아니면 빼기. 여성용과 50+·남성용 혼동 주의. 일반 주소에서 Global Trade Item Number가 658010113663인지 확인"
+  }
+ ],
+ "dropped": [
+  {
+   "name": "나우푸드 에리스리톨 1134g",
+   "reason": "쿠팡 검색에 '1+1' 2개 묶음(82,600, 개당 약 41,300)만 잡혀 단품가를 못 찾음. 단품 비교 불가(이전 라칸토 에리스리톨도 약한 후보였음)"
+  },
+  {
+   "name": "나우푸드 사일리움 허스크 파우더",
+   "reason": "쿠팡 15,900으로 이미 저렴해 직구 이득 없음"
+  },
+  {
+   "name": "나우푸드 아슈와간다 450mg",
+   "reason": "쿠팡 단품 14,840~22,250이라 아이허브(배송비 6,000 포함)와 차이 1만 원 미만 가능성, 묶음 옵션이 섞여 개당 확인 어려움"
+  },
+  {
+   "name": "누티바 MCT 오일 946ml",
+   "reason": "아이허브 미국 사이트 $38.03(약 5.1만 원)인데 쿠팡 단품 52,300이라 차이 없음. 등록 가치 2·3번 아니오"
+  },
+  {
+   "name": "브래그 애플사이다비니거 946ml",
+   "reason": "아이허브에서 해당 32oz가 단종·품절 표시(웹 검색). 같은 제품 짝 불가"
+  },
+  {
+   "name": "닥터스베스트 유비퀴놀 100mg 60소프트젤",
+   "reason": "아이허브 $36.99(약 5.0만 원)인데 쿠팡 최저 48,100이라 차이 없음"
+  },
+  {
+   "name": "나우푸드 프로바이오틱-10 1000억",
+   "reason": "아이허브 100B 60캡슐 약 $56~58(웹 검색 추정, 약 7.6만 원)이 쿠팡 51,600보다 비쌈. 국내가 나음 쪽"
+  },
+  {
+   "name": "에인션트 뉴트리션 멀티 콜라겐 프로틴 454g",
+   "reason": "아이허브 약 $45(6만 원)인데 쿠팡 옵션·용량이 섞여 있고 차이 없을 가능성. 진트·바이탈프로틴 콜라겐도 이미 탈락한 계열"
+  },
+  {
+   "name": "에머젠씨 30포",
+   "reason": "쿠팡 73,900은 3박스 세트(개당 약 2.5만 원)라 개당가로 하면 아이허브 약 1.5만 원+배송비와 차이 1만 원 안팎, 판정 쓸모 낮음"
+  },
+  {
+   "name": "프라이멀키친 아보카도 오일 마요네즈 503ml",
+   "reason": "쿠팡 단품 18,300으로 아이허브 약 1.3만 원+배송비 6,000과 차이 없음"
+  },
+  {
+   "name": "가든오브라이프 비타민코드 로우원 여성 75캡슐",
+   "reason": "쿠팡 48,400 vs 아이허브 $30.09(약 4.0만 원): 차이 약 8천 원이라 직구각 기준(1만 원) 미달"
+  },
+  {
+   "name": "스포츠리서치 D3+K2 120",
+   "reason": "한국 판매 제외 가능성(스포츠리서치 콜라겐 선례), 쿠팡 48,100이고 아이허브 가격·한국 판매 여부를 웹으로 확인 못 함"
+  },
+  {
+   "name": "다이마타이즈 엘리트 100% 웨이 5lb",
+   "reason": "아이허브 지역별 최저가도 $103~167로 쿠팡 99,720~110,890보다 비쌈. 국내가 나음"
+  },
+  {
+   "name": "퓨어인캡슐레이션 마그네슘 글리시네이트",
+   "reason": "아이허브 한국 판매 여부와 같은 구성(쿠팡 '마그네슘 90캡슐' 용량 불명)을 확인 못 함. 웹 검색에 kr.iherb 페이지 없음"
+  },
+  {
+   "name": "네이처스바운티 헤어 스킨 네일 250정",
+   "reason": "웹 검색에서 아이허브 상품 페이지를 못 찾음(짝 불가). 쿠팡 35,980~63,600 편차만 큼"
+  },
+  {
+   "name": "나우푸드 슈퍼 엔자임·닥터스베스트 CoQ10·네이처스웨이 삼부커스·솔가 D3",
+   "reason": "쿠팡 단품가 1.3만~3.1만 원대로 이미 낮아 20%·1만 원 격차가 나기 어려움"
+  }
+ ]
+}
