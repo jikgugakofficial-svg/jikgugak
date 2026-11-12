@@ -42,19 +42,19 @@
     },
     "ali-qcy-melobuds-n70": {
       "itemId": "1005009801120235",
-      "at": "2026-11-12T09:37:28.067Z",
-      "recordedKrw": 71744,
+      "at": "2026-11-12T16:42:37.510Z",
+      "recordedKrw": 71569,
       "found": true,
       "apiPrice": 71569,
-      "result": "applied"
+      "result": "same"
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
-      "at": "2026-11-12T10:42:23.712Z",
-      "recordedKrw": 220399,
+      "at": "2026-11-12T16:42:40.567Z",
+      "recordedKrw": 219861,
       "found": true,
       "apiPrice": 219861,
-      "result": "applied"
+      "result": "same"
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
@@ -74,10 +74,11 @@
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
-      "at": "2026-11-12T09:37:28.748Z",
+      "at": "2026-11-12T16:42:40.109Z",
       "recordedKrw": 179541,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 179103,
+      "result": "applied"
     },
     "ali-moondrop-space-travel-2": {
       "itemId": "1005009402878815",
@@ -135,5 +136,5 @@
       "result": "applied"
     }
   },
-  "updatedAt": "2026-11-12T15:37:35.084Z"
+  "updatedAt": "2026-11-12T16:42:41.284Z"
 }
