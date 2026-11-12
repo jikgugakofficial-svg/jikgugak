@@ -4874,7 +4874,7 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.12 알리 자동",
+    "checkedAt": "2026.11.13 쿠팡 자동",
     "slug": "ali-fosi-q4",
     "domesticUrl": "https://link.coupang.com/a/iAjCVAb6hU",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmjFQcc9fZcBZyKU6KI0fH7mquEK3lHeqFaaesEXTPKQawzRS89FVZXoHbCU8UhGXfvw67PMJMSV3lZuR3kRS6GEeB0msB53fiQTum5n77aV1TAzGw8kaWsQGaKEzsAbWaV2cSE29BIYdv0DmKBimhAbBQw6uMqXepl1R4pfcvgvQdMKpgj72F1ZAHkdQZUWjHIM9d9FUvvrYtssgeGQMfhGNIWYDBbuuO1CNbIrbs2YyiFIehdJXLcGaEz8l0X1nA34GT0ys7D380lAClKeIQFZsdLmmiVAtdNRQQEsQUbysgxq5OGrUQowbcxiGLWS9IgD7LxNb0h5YKsKXLE0G8jxQZAhlaS4UFSTTfdDmnGXAy2S00Dp3LDZdod9hPKeOnTefEpJToIy4FIKojVmPYvZC8NueLbitSJ1bavvjsivVhK4rmeVd4tfOYPWQPNylC1tH34NZI7GWWm32Yn5QyxJDnp5tiyFZ7iy4RggECaryqLJoiMGrYjCN1Klo7hFtBmqC0GloZkLUt2gmPTwEAwZ7RF4C0ddGGuFkhJKRUTwZ6ld4J1iXHpWll0USkzud4koVWrOt5bx9mSjbjlQeVl4AHft7oETaOQE4rJirIK4oRy1TWJjvOZhGekuarqiXSvmQ1YhN0wF0FVFv7qmCKCykKqks8mYb7yBpzmNTrqOMPK6e4vLPk4NPmdsEyeKs2sakIGwj2oDi0",
@@ -4882,7 +4882,7 @@
     "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
     "category": "audio",
     "priceKrw": 47150,
-    "domesticKrw": 103800,
+    "domesticKrw": 102070,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7401672495",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005002448803062.html",
@@ -4912,6 +4912,13 @@
         "from": 47265,
         "to": 47150,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 103800,
+        "to": 102070,
+        "source": "쿠팡"
       }
     ]
   },
