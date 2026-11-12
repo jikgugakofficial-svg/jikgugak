@@ -4718,7 +4718,7 @@
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
     "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
     "category": "audio",
-    "priceKrw": 86751,
+    "priceKrw": 86445,
     "domesticKrw": 176600,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
@@ -4755,6 +4755,13 @@
         "field": "priceKrw",
         "from": 86285,
         "to": 86751,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 86751,
+        "to": 86445,
         "source": "알리"
       }
     ]
