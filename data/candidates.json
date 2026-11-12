@@ -6264,15 +6264,24 @@
       "model": "45W 20000mAh",
       "cat": "it",
       "why": "루리웹 알리 유그린 45W 20000mAh KC인증 보조배터리 $23.61(26.08.21). KC판·글로벌판 옵션 구분",
-      "at": "2026-11-09T12:38:47.004Z",
+      "at": "2026-11-12T14:36:07.743Z",
       "status": "no_coupang",
-      "coupangTop": 5,
+      "coupangTop": 9,
       "ali": [
+        {
+          "id": "1005006194560383",
+          "title": "UGREEN CCC 인증 55W 20000mAh 파워 뱅크 샤오미 삼성 45W 고속 충전 휴대용 충전기 외장 예비 배터리",
+          "price": 56700,
+          "orders": 164,
+          "rating": "98.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2592b199c16e4bf1ba603c039409af31r.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006194560383.html"
+        },
         {
           "id": "1005006713405875",
           "title": "【CCC】UGREEN 45W 파워뱅크 10000mAh/20000mAh 휴대용 파워뱅크 휴대폰 외장 배터리 PD45W TFT 스크린",
-          "price": 72300,
-          "orders": 48,
+          "price": 71000,
+          "orders": 53,
           "rating": "96.7%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9044ea9a88c94eb7b3274ebb18b3153fw.jpg",
           "url": "https://ko.aliexpress.com/item/1005006713405875.html"
@@ -6280,20 +6289,11 @@
         {
           "id": "1005013421722162",
           "title": "UGREEN 20000mAh 보조 배터리, 45W PD 고속 충전, TFT 스마트 디스플레이, ATL 배터리 셀, 접이식 USB-C 케이블, 아이폰 18용 3포트.",
-          "price": 89000,
+          "price": 87600,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se52c70f193b74c9b82248a3fa3dbcd21U.png",
           "url": "https://ko.aliexpress.com/item/1005013421722162.html"
-        },
-        {
-          "id": "1005012275597315",
-          "title": "UGREEN Nexode 파워뱅크 20000mAh 45W 내장 케이블 포함 고속 충전 휴대용 충전기",
-          "price": 50100,
-          "orders": 1,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0f80406a5ce34005a29e930defa8cf13e.png",
-          "url": "https://ko.aliexpress.com/item/1005012275597315.html"
         }
       ],
       "coupang": []
@@ -6304,11 +6304,20 @@
       "model": "Qi2 25W 10000mAh",
       "cat": "it",
       "why": "루리웹 알리 Qi2 25W 유그린 10,000mAh(KC판) 약 $33.93(26.03.18). 등록 후보 30W 10000mAh·Qi2 20000mAh와 다른 모델",
-      "at": "2026-11-09T12:38:51.029Z",
-      "status": "none",
-      "coupangTop": 4,
+      "at": "2026-11-12T14:36:11.764Z",
+      "status": "no_ali",
+      "coupangTop": 9,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9811759445",
+          "name": "유그린 마그플로우 Qi2 25W PD 45W 10000mAh 파워뱅크 마그네틱 고속 충전 휴대용 보조배터리 외장 배터리 파워 스테이션",
+          "price": 101500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/N_BYpGcYtMrEMkm2NwphQjGUR-LAX2plU10oe96-A_SgJQpg6n-1FzwWPh-TCsICRs0KSo_-e49uXRhy7SNDTebLPMl-cnl8VOXqo2RkudQGxdWfNL6OwjaVNKKTfq9clft90g_DAPx15b1Bgt1j9Io_UnoTkym-35bZ0_X5PvwV7zrVZDzWmx2-QQ2e9ihl98k46Vj-WhVne-mZSmhx9_Rcu6_BUPzDQuMrAaIvzpm7lHbS6YrLBOIni91z2Z1xLqu2_D4Xt39AUrnbO6R9O48JAQlrxtxm3ATgLpdhHqBE-FMSCJJRfO0fgfrF6dluorT06vwIwzDsZJZHoPUCAwpprnwzjz384UE6AckozqW3K88Q5PrKT5eRQkTbVDK87Ie4uDTw5AsI_f9JCdn5MYqPiL2r16g9bCGMGwPLaz8-2ZmxLCH4aTeK5k04dGeoa_z9d5z_1g5HB10ByyDhf99UVW8FP03y1eiY997kfRHWE2Dsn0FQSv84huY80HLGQ4UHUdg8wf75ApCvjWMvcGDxvL-a5NkPbJcmvRd1YfNjUSk=",
+          "url": "https://www.coupang.com/vp/products/9811759445"
+        }
+      ]
     },
     "Anker Power Bank 25000mAh 165W A1695": {
       "q": "Anker Power Bank 25000mAh 165W A1695",
@@ -6316,14 +6325,14 @@
       "model": "165W 25000mAh",
       "cat": "it",
       "why": "루리웹 알리 ANKER 165W 25,000mAh(A1695) $51.98(26.03.18). 모델번호 A1695가 분명",
-      "at": "2026-11-09T12:38:55.372Z",
+      "at": "2026-11-12T14:36:15.762Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013221842343",
           "title": "안커 165W 고속 충전 보조 배터리, 25000mAh 대용량, 자동 감김식 케이블, 휴대폰용, 선물용, ANKER A1695",
-          "price": 109400,
+          "price": 107400,
           "orders": 6,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd13418cd88542e5b1c6c54c772014b5W.jpg",
@@ -6332,7 +6341,7 @@
         {
           "id": "1005012951267025",
           "title": "Anker A1695 25000mAh 파워뱅크 165W PD 내장형 수납식 USB-C 케이블 고속 충전 휴대용 충전기 (휴대폰, 노트북 안전용)",
-          "price": 112400,
+          "price": 110400,
           "orders": 1,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sed0c27018108482a800787158f81ebb3h.jpg",
@@ -6342,21 +6351,21 @@
       "coupang": [
         {
           "id": "8816536214",
-          "name": "앤커 랩탑 파워뱅크 25000mAh 165W 보조배터리 고속충전 대용량 노트북 C타입 케이블 일체형",
+          "name": "앤커 랩탑 파워뱅크 25000mAh 165W 보조배터리 고속충전 대용량 노트북 C타입 케이블 일체형, 블랙, A1695",
           "price": 99900,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/qafvwZV3RPVmCIrIqT0vCui2B-ScHPoHd9eK3Aq1q4Po__yaN8sNYLsfqPTCUXm-MNLT_lLx6Sn6Vd7by9nDkRXLe8hdH_8C-6QNJuN41rF6Eei6bBekFfu0lJxYrWgQZMnHYCIozj--v8qLWaPc828F9g46dfDvRF3rsUEQaV9ZxNeU_MBKh0r7Lj05mQnYcCR_na8wz7xc2EVk6I81l40OFV8yAx27ENZH7CSBJZVH90lyIERCPXhtlBTY2RvG9O1d5YF3DuZioFI28dmujB56wlFembFUsVDd9Zgea6zxLRqszcR2pwMbZU6JkJF2TYBky52S1xjv8ava0_hKqr5RD2m_O6pv8tUu1o1DxTy2FLMtxQANTc4FSEVvf01fJdJ23xuJyKwu6u2qoRMude6Rzpm3c28zVqji0NEQkaNk9dUB97L16f9n63Y2zi8_6IF55EwUpjG9IUu1c165dguBkxmlbYGJlmmCMF5V_7o5RYLrsZmVu6xLMICkQchfGnNERvnO8e2vMdX4tpCZ2-lElRYSIy7WyXpFGJwmITvbTwEqgFKDj_pkHPAOghAdrkPDIFI_Iu19jg2tfa0yCpAYxhWJgkJztgVQ",
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/-VxyF7UHLnn-gLap-btxWvW8IA1szS9GbwQ_fMHq04xLs0tsp4XOLfTwenqQEzJXlJXy6l4fs_HZzvUxOUbdDymr97EdfmdLif9vE06b8aBbWAys-IXRmLpWx-5kewMRFR_XbDk2ZL5-Q69DHcperI1CGurzdcK4e-WqLmbcY0OTOGHZ7nvasMeh_iWXyH2OW2pRFXMQGe0GzuwFjzwCvPtNrMEngeY6wC26FLvN8WGfHdpHY6VmOu1K2jXG7MI-j7nEUHLjogfmWAZ-CN1kqBKRriz_I4CxTOikjaduRRm_Xu-MA6Ys-2cxVMzuNwmLQGWzUO-RWLcyaNyywioh_1GqV_Xpjt0zOS-0HfexlPDMdyPCNGPfrqV-eyLh3hrkH48m1Cq7SwMcaEvn6N059o-mnSRqOfE1azdz5OWF15ulJ1qPS_CK526M2fnxQU5dxDwHfKRx7-WaFAXHtNXG-AyWSkmjxcV_8mfM7Yls-JBXTmaA-4ETGhsHFS6ilJ4nX3ibF5YW_18T8UWgpuhNptq-aowV5PuMl56XR3_smkiCaxBhmhlHyy5xI-k1F9Qpc6D9yW9AKIbnFK_tmT5xa2_6NUk=",
           "url": "https://www.coupang.com/vp/products/8816536214"
         }
       ],
       "best": {
         "aliId": "1005013221842343",
         "coupangId": "8816536214",
-        "aliTotal": 109400,
+        "aliTotal": 107400,
         "coupangPrice": 99900,
         "verdict": "bad",
-        "diff": -9500,
-        "pct": -10
+        "diff": -7500,
+        "pct": -8
       }
     },
     "Anker 737 Power Bank 24000mAh 140W": {
@@ -6365,14 +6374,23 @@
       "model": "737 24000mAh",
       "cat": "it",
       "why": "루리웹 알리 앤커 737 140W 보조배터리 정발판 약 85,000원(24.06.01), 24000mAh $46.93(25.06.18). 등록 후보 737 충전기(120W)와 다른 제품",
-      "at": "2026-11-09T12:38:59.079Z",
+      "at": "2026-11-12T14:36:19.794Z",
       "status": "no_coupang",
-      "coupangTop": 4,
+      "coupangTop": 9,
       "ali": [
+        {
+          "id": "1005013048497324",
+          "title": "세일즈 앤커 737 휴대폰 보조 배터리 앤커 A1289 듀얼 140W 고속 충전 24000mAh TFT 디지털 디스플레이 아웃도어 3C 인증",
+          "price": 118600,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0f12e92431f74c26a6dd5da94eb82a02h.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013048497324.html"
+        },
         {
           "id": "1005012194408287",
           "title": "Anker 보조 배터리 737 140W 24000mAh PowerCore 3 포트 휴대용 고속 충전 디지털 디스플레이",
-          "price": 400500,
+          "price": 393600,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc45fae45276c46bc99c625b6d61551e86.jpg",
@@ -6387,14 +6405,14 @@
       "model": "SOLIX C300",
       "cat": "it",
       "why": "루리웹 알리 유튜버 공동구매 모음에 Anker SOLIX C300 $105.19(26.03.15). C300 DC·AC 버전 구분 필요",
-      "at": "2026-11-09T12:39:03.023Z",
+      "at": "2026-11-12T14:36:23.865Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005011688551758",
           "title": "골드셀러 치아오지앤커 SOLIX C300 DC 앤커 아웃도어 에너지 저장 모바일 파워 서플라이 휴대용 300W 고출력 90000mAh 대용량",
-          "price": 662000,
+          "price": 650600,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S889578d9c8834215988d403e6366db0e5.jpg",
@@ -6407,18 +6425,18 @@
           "name": "Anker SOLIX C300 DC 전력 뱅크 스테이션 실외 288Wh 휴대용 발전소 LiFePO4 배터리 300W 태양광 발전기 캠핑 여행 및 비상 시 사용 가능월 충전기 포",
           "price": 629800,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/1HwuxE8aauLHSkk21GKfrlOBHXlw65JBjpnzk4_ELgko7RxFDK92001-I1dpqs8n6g0Tim64gnYetc_mZ7BGA-Lt5XUoVpv5l_thJFwG0AMb7zh4COm5X30dW7JvHpN5f_XPxr7b7euyULwLpTKehDG_gzIdMnxCj6aV_R3qal0AfrASlXOSTZRO4c2KCe_kNmQmDOjJsGbRCK33r5rkjWBaqJ8RDnf9Gn2YKr2J2u3pLpwF1pSXTUPbZtA2CvFbSBMUIfNWaz2kWhKDSS7TSmjtepc7QmRhXDjb2tGgTXFatM6HOkVgDxOKtsO4bD0DYqgpX2p03KOF-tMfSBSE5DR5IHyPqGBhfGAnuhymGNSiz3ZEEz1AfjYp4MTsXnMaSKcJbDpGhGTLAFekqsMWmP44nquB46G4l0JycagNJUee9fImFNHNcpZPuiaDUBQB4i9zv-ZXSyKvS8omNAgSWRd7kUWailtRxKZK-l3CpnjWNvvczn3CJp6h_U_CZ3wmOcIo1VSkFyeckLJmRYQu00u54SlwqB-V8s7DRRMi9V_NdBhp",
+          "image": "https://ads-partners.coupang.com/image1/8eI6AzVaxMqTA8Tv8aWU9tMA44lE70c3SB39UNlvAPPDflTbq-11zpQjfEeIb6lv4mmPZX7losz8Yu9k_BJc6nAdddrdjRimSj4UZyFH5NoLWRvkCcxkCa45PB7bUDqqDodzd-l4RqGSVEfa5WcHHZ3n8oroiLiNV2BS0hm2py9oN4iWP61E1rt-wCViPhchhW0jmhDffylNCp66Z-3R_Sk0l44aKk4ZT48FmX6MozSwKmFQjuIHWmkcljJ0KAmpdw99f0NPXuZanxexsH3DP3NK6kVRZjb4EmwDHBY6mwiGDY5v7I_1XTgm48W49g7vqYEVKsr8fstslvRfb8wsYk5efZyf3pNLljOS2RVa6icSMXY90TsgjbGkK67Y8ZISl-MeJRFcFpebDwtYKB5-4sjRhCgne7ShFVXlJkF5-5zJz_yDf56_eHP0bvhGEsn7DVhynzr2sWaICs5gdvlI5omAaQCA2sgPUQHKfPEYZpIvcXxzldo3P9r9O4kmmyQde3_ORSN-MsZ_Ro4lLOs68JagZ39rVJyPxvAq4LdhNxMNusQ=",
           "url": "https://www.coupang.com/vp/products/9675085830"
         }
       ],
       "best": {
         "aliId": "1005011688551758",
         "coupangId": "9675085830",
-        "aliTotal": 728200,
+        "aliTotal": 715660,
         "coupangPrice": 629800,
         "verdict": "bad",
-        "diff": -98400,
-        "pct": -16
+        "diff": -85860,
+        "pct": -14
       }
     },
     "Logitech MX Master 4": {
@@ -6427,14 +6445,14 @@
       "model": "MX Master 4",
       "cat": "it",
       "why": "루리웹 알리 공동구매 모음에 로지텍 MX 마스터 4 약 $100.54(26.03.15). 등록 상품 MX Master 3S의 후속, 색 옵션 맞출 것",
-      "at": "2026-11-09T12:39:07.120Z",
+      "at": "2026-11-12T14:36:27.760Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013225098973",
           "title": "인체공학적 디자인의 무선 마우스, 로지텍 MX Master 4. MagSpeed 스크롤 기능을 갖춘 블루투스 오피스 마우스로, 여러 기기에서 생산성을 높일 수 있습니다.",
-          "price": 216800,
+          "price": 213000,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd3aed107d4b430d8bb2c8ebb1b5f3b3Y.jpg",
@@ -6443,7 +6461,7 @@
         {
           "id": "1005013215076623",
           "title": "정품 로지텍 MX Master 4 무선 블루투스 오피스 마우스, 8K 멀티 디바이스 전환 기능, AI 스마트 전자기 스크롤 휠",
-          "price": 219200,
+          "price": 215400,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0334fa3fc8ff45028bc19cada2d5e69ap.jpg",
@@ -6456,15 +6474,7 @@
           "name": "로지텍 MX MASTER 4 FOR MAC 무선마우스",
           "price": 161700,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/V5LkRb84q32zmcWKV6-bqusfzE1OjSdjfXrmdKxxZPMvfCGg8vA_xg2CLT_coCNe0peZAcbFIT96iNZVoYWCfSIKMwON9b1FA1vZ2a1RaiLplyKnxPL6cnezkn_PTJS25hRITDWmbOaegwXI5CWzYrtDstrp5ipI84vdVAgaGvwykpp-ToHDDT2G0VQxn70tRKXbS9S0eZme98wbyj2hyU7Hk7lP95yF1FfvV4j1PEskmVDWf_q9OPfedgmlD7qgM8Hes_cCOm1cXOAvNr6uaV92Auoah0TF_q-Vmoa0lYRwqMbBzZQxW9TyxVwnIJXtKAi_LjxFHyNY3BdOuBCU8WDYqUET8IYbO0yWTw9uBqD3b_sZfmOmRbuqq5MLywyN1KEoCOEWRVthUgl442Hvq6q0_gAs02eA5UHwl5C8-2aGvYNO08a3_cCCvVf8ODoOe22rARru3skT_gcYDT5tjQ1iQ8DkrG1DexMGpubO6T0VB9Ct1uwNTJ3KpYliOgcIJ68fM-xAl-tDGsbVybZm1iJHrSbkl3qJtqF3Sb3gjVrjcKMOWZlrvZdJqNz_COayMcFNQ3keiIyYJK9r",
-          "url": "https://www.coupang.com/vp/products/9102036529"
-        },
-        {
-          "id": "9102036529",
-          "name": "로지텍 MX MASTER 4 FOR MAC 무선마우스",
-          "price": 161700,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/M2AMzUycWkGhGjQAM2LTryzRBVnT1BZUT6AzwxRdj2ZoEIvshElO5BKVGUx6EE7_WVS2pgzoK0Yewz7S36WRM2dweJxgDUMPynPNbH28gWIZuufxJnyZ7ppQiFB7FSoXUpPYuzkfIJpLdMfwOUDMULk1u3Fmmzl4aWcQVEKQNc-OuyikJiuaj22xvXTI_Ra6-qne82HlPGPA-OnaHh3w8dLrrZCMFqDeVNKi83VvCZruhVpowiupEX__u5Mx8osaSAcZQH7uIHTwKUKfc3IhtQJ8-TwKqu0Ar1YChEvTfpd7WUPFFOyb9ta20uB_37yTh-jwTUlnQJXjmqrxxZQau1djOqVSfmAoMDYWQXKX852ralTiTgZRkCDnpRasOZ56A0qLyuprzlkxjfEUSXFcq9NCprA-cvchc5YLmbLqEx9C1JFX-aKGIG7F1uri9XzylcpLx62QnC6RFlBOrVVpvlnB_cvm_aWXT876IPrEwCYPYmlEer7aFHIjA5Q8NTd8VkrDkD8I1Cu2ELWDSb8kosAgQ1Ns5NploWPa59r_g8TFM4RLyR1nHgUpxUBhAA55e67AdK86o55P9us=",
+          "image": "https://ads-partners.coupang.com/image1/5FFZeRrKOB1VUh-j5PdwWSZJ1p2v4hAY7zJgjjOclwA5ncyDm1505N0Ri_qTh-FpZuL9LL7l9MMLreCxSLN00tHNb7FkfXBxVJVGI-tWklAoR5gSD1rdkKsdy6uS3pk-T_B2zO5mgH6v6cqqsnjQF1Te6gmDARUb62sIUow1uYpA4GuvdmhYidelJarSTaWTQYeAHic9MTQx9KwuD5YxxA-Fx9GlghKbc-qFMJA6Q5jWQA4tyK2sELwHQ4Ud9p_sCQvkcVc1vvIOTjk4qNh-kYtuCWalAQMxSJg7KbgFw9V9woV6kEd0AyhxbsVFf33A1pt0ACjjPdiR9-Phr1a0NLlQK_Guxwwlwt0MzzSWlxJckdgQAFfPRzZw_kEUiGdSiNeO-P1Md-yw1JEEd2hBcllS4wU6QB0hm9voi92Sgxbpy5AU1hFJqKnDPes5SwQmIolcXtcCf1OJzYAX_qRaUeyBdz7uCo_Ra8QD5VAVBGvFNlNNaQ-cMLFwdO4q3EVTmJAlZD1D2ZY2Y5hLYBs3E4kvng==",
           "url": "https://www.coupang.com/vp/products/9102036529"
         },
         {
@@ -6472,18 +6482,26 @@
           "name": "로지텍 MX MASTER 4 무선 마우스",
           "price": 179000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/N4oti4Uhld64tUzCN8NmeKu--QNadHdKzkeu2cWlLS62qBGWk80ea5EF9k36PamGW9UT55I3dpj-d1bh5YJYCAdEGwEhuFAJMwy3UOyUE2iZmXjrDbvsQKgdLLIWbBNYdR81FUHb1S1pse4xz55k_IpuylS2AW1n5ws9KAAx5NTimXJgH0dEfnzDfwIBKHHaMz7QHjA76ge948poQWqnqEOkMh0pFYbNZlQZo1Q5HWIjmumpKZX6hqdAWo5CgjrEk272M5VEvpRGD3ro0XioP7isKSupoHWXas-JcVlDpgnn6C72ib4SNoa_D4hRSM70ND6v7VUsAEyNyQSC0hTt7mXGGpaYpzwAYy52DJsTrn9aUbE5cF0X2kYmm9EcXgZI9QjiSRVaAiiKc-5lUIfciZEGuoHplgEOayDBse7BJQtQwMLtAChDyNPHtvMQnRtk_9OSdUzhVviEmRr2MTTzCbrL_QLo1n89zD1Xpt4Q5jWm91r-RZrhZaqwaN-JkhanAGZtoOaa6O-hQs0wdj_DVt1eiDmhaXZLkfSGdmj1Wmv-Z8MCzuTfI8ivLJ7DMtphLVWwJ0Up3yJ7A8w=",
+          "image": "https://ads-partners.coupang.com/image1/SA4NAAWhUTzgoLnfSIGKG43f5nQpqF-4WI9LyOLGbQ09jcg08lACx498z_WD_oM68zKElpTiQJlydzr5TcnrVGDJ4a-ONfjBo-l2oBLE8uzpOPyfv3Y1o74PRDW5c4HehAPygJfnjnbzHNoMqaYWeg1T9HZMUdDIKASaXa1fCk7CEsqg443DduVg5jzdiwEqCGDOVFW61BgTGFrfHPvxdGo4v-oZon0BoVZ-YkvAzDXxGqKhojGt_2jEf-wCpOsYoKtL0biT4ru34lXVrCznbGqnibhJ6TVMa4p45EPa4hk-RCp26j7TtM1KP9BrMp_Z_M1U4C2pl5ByizlODFhYMRRN2DMPc5K7-wRwkpKps17qSVt-9Y00HThx3CK0XIqI9tubeZBs10uQoFj71Nd1JmZEpXwSO2YYhI0SyPLdrnAdupBRkpxYkndXEJWnY4t-UUm7e2JI85-Sh8Xel5MdD8LLTLCa84zY_BCo6R_JoDYxZDhs0b2zSc4okYlCuIJ3BIsHN6c_tigonSSJg2aRvNRwrg==",
+          "url": "https://www.coupang.com/vp/products/9101803314"
+        },
+        {
+          "id": "9101803314",
+          "name": "로지텍 MX MASTER 4 무선 마우스",
+          "price": 179000,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/rpK6F0lKPDRJlugvrrsSizoiw_TsP3du-V5ROAvjALwnBKglgI1GusgJaNQCDvcKABEFiYNyeb6L1MnJUg_IQxM9JeR4MGwx66Rb5Xe5G7efx4S9_VVWWoruDzW36E3xVqItDL-sHoE4wpL0pQM4AnY-3-_LOKwx4MdbtAr5GYA1s_9R46L88OsA-KlYpmO1fuoDMlCna_KN3po8Ciivon7UP1b7CVMxYGtRJcCKZgd0TmArdBV2M8fxCNB3cd870VNyKdaAxdv0Dh9cmbTeX-YR1H8_gvNBs0Uacu9KUInmPFcIvWRHlZGglwohBJyCn7Dt4Qir_XhiHreEROBdX6PScfx15Rr53GsDclJgN4ODv51i2VARcxdW0SXkNd7pWRdBORMlZ8mJxQ-fhlKck95FTVVeALfxbRlxPMabt8HrlATZAKxXVuR-xkOC2XK2NAVv2Tn-j-436scyk9HWaVym_BfZFcfY6k1M7Nu8fJGnmyj3COzlZK9V_nhPMkve7ujZcfGjuz6DC19ARSV-cRmJ",
           "url": "https://www.coupang.com/vp/products/9101803314"
         }
       ],
       "best": {
         "aliId": "1005013225098973",
         "coupangId": "9102036529",
-        "aliTotal": 238480,
+        "aliTotal": 234300,
         "coupangPrice": 161700,
         "verdict": "bad",
-        "diff": -76780,
-        "pct": -47
+        "diff": -72600,
+        "pct": -45
       }
     },
     "8BitDo Micro": {
@@ -6492,7 +6510,7 @@
       "model": "Micro",
       "cat": "it",
       "why": "루리웹 알리 공동구매 모음에 8BitDo 마이크로 컨트롤러 그린 $11.39·블루 $12.06(26.03.15). 색 옵션 맞출 것",
-      "at": "2026-11-09T12:39:11.148Z",
+      "at": "2026-11-12T14:36:31.810Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -6502,7 +6520,7 @@
           "name": "[국내정발] 8BitDo Micro Bluetooth Gamepad 마이크로 컨트롤러 일러스트 단축키",
           "price": 25550,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/s3vBHbKOfAv5qswWs2bktRYQUW6Z7Vea6icWG2JUVGAn36o14qFBVId2vh5OLS6vjy3FptP_mmulhlsYVOtoY_bUNTLwKDvN5is_kDbukG3RAy4S4ruVuYKBVawMiMFfGDFjWGyL5_NKvvC9ZnDmX59XIx7XpeIFRXAwJTj6h4wNiFdLwIiMUG0fwe0VpQvcjrUgx_UyENSWFt2Bi3N_ZkbDjBV41I_hfdqY3uft1t9c2qRI-hsLWdoAjKV8obz9oyiDY6Cdg4uFJZAsfPfuEtfS3xVGEdBEl9WxQLKL9z7Ka6_-OMJxYPvNrjbKCnv451Ohbdzrc-FuOCfcmyK4G2o-CQ6BOOg1h48Qap9_HjBOBe3PT-G9xZHqUvx8PWE6iAvUtKjQHhXYf7eHIAJwuYBcVEvcGtRmcUHxaEZBw_6YucN7x2aHRQxaFtTMVVk7kVBarzh5BLud4VxU3hvUpRmir7ad6GXWAxspiEtivaBE1pUvVFb_O8Mg5LefxsDdiNXxzllaR4W6TQF8T0f7yu5G-rMAeYjOkLL-aPPfawhfgSc=",
+          "image": "https://ads-partners.coupang.com/image1/kTxXOH5mNn_EhbiJkdjPyhmt980uyOuqhzJ7oy-UQxFL4SG2Te6udBmBS63yd2g_co6_xgbDl5H5SrwqRY_rIy67qlRu18oU8WuD3M2G8_-qyyskHhMySrjnUak5lk7jW8ErP0T_fUxr1SlWBV7zl9hcO-NelbnkNhfmde10lNYA95r0bl7Ng0VSyTecVpNaI0U4AoCbGdStJVlLGW51YOO3PwPUz5X7kYc9a7rXwIVVZtn1IhVhMzDGy-ibca0uCmDUreI255oaVlySL4Dn1FhscYsqhJuVW6w9ltM_R5NCClvGrnOO7UbnWYoyUo0hAY3tcz88m2Mw41zOH-3vu2r0j0D-ERBxw4Mex4CTU_HhiZsAabDC8iK3JwnYQ_xQGYCKbyY4Fc5323RZY26fshTYN8vFjj5X6trVplJzXDqflNbLPVhZDaIIDU6e4NO0eg_RM7sfY7vjZ0fLnfvY-XX1aVDSD6Pwx6vABeSdo5_1k4LdtTg6q5dfBLxSIt5F684frxC1zqBjAR-adbBrbWauyMCtrko69xpQ6SHBAVT4hIY=",
           "url": "https://www.coupang.com/vp/products/8178855541"
         },
         {
@@ -6510,7 +6528,7 @@
           "name": "8BitDo Micro 마이크로 블루투스 게임패드",
           "price": 35000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/nvCjlLUWOZFv1Z3EnoDJuQMLLO0bVq_upjwbXz7W5YabymiyvMdHEXUZB9IWb7rAm_GVRjA7NH0EmiU0qO54vuODDtNaOYGLtwy1OycS-BOOR-IOK8C8pR9eW-gUzj_2YUVsoHKmjBLGKWPERTYmtXODTLjzI23l9dYeD2qw1wzbQRqapcdiR30vccAoks-C7m61SOm9RahKuGxmWEzhg4L-sYZGkOSqLiGbPz9tz_PLM9aMxAgDabmLMoywYUh6W84OLiFbvUwC-aVLFdlKEtHYqueXm0s6WH-CS40nNtFo3Sq_17WvZcNaKsQnWMe7Xn-QCGEvQduPuc389zI44XLfvD_StodIVLys0Ju8cXYAmPQxniFl6o5pdJUQiXCBrh0Y0RleDcWPWuiDz1OCsyr_RS8wzoHfeSz6Q-3knx64-rIbCHdwSqNWxHeBreWXm31Dm57-2Bnwmr7EZT-Gy-CuKzqyNpYEMDmiRgJwZW10p7mjEIITpx-5WUhITmywhPjAKQuJdGJbGfAQ2W6nirHCGuSl7qruoePZNEuUeQ6rTg==",
+          "image": "https://ads-partners.coupang.com/image1/wFVHTtjc3z75tKbowEBDvea7BPvSRmUCGCA-ZtHaPATuYPlf8lKsPABqZiM0k43BLkVjhEEnQyJ36ziismz9JtZjh26OAQwOkvP6S1C02C819RY_MKmPwt7TD1OrvECzC8olH8rHNm8ONOGUCgS7-MekNqWkLTRdRehJ5DuLs5l2f65vh_2e0tHdSpnCWwtKazHKaoBzjzXy-GMgVN0NzdNoV5peTxvu5ZcOPXzO8vRPb8eqqaMVkBjicFvVMbiNmwWlrcLnoWtdVo4_yx6jKY9h2NijKpvOamriAzjKULv7WjptLPAlVaX4eZYwiR6JMKvtp8bzYOK2uCB5o7ge8BRDtAmTYZi2KETPpI_ilsXeTTNPK62kTL4N4E819Tn7xdnlb7ifYOpaqd3RXTi8QuPnIgiFVlco-JKX0jDoY8zf9coW7EoHyP_M4tlPCzvt7zZnYfg2KyAl67bT9VbtXilLYI7TXqtwvVP0_P2p07dufIWkE3AQSSQknGnPMgXXa4zUSYNV7gOPLmPW8vN6e-Z0pNQD45hU_YYJgRZgkweGDg==",
           "url": "https://www.coupang.com/vp/products/8049148904"
         }
       ]
@@ -6521,9 +6539,9 @@
       "model": "Ultimate C 2.4G",
       "cat": "it",
       "why": "뽐뿌 알리뽐뿌 8BitDo 얼티밋-C 2.4G 세일 글 2건(글 날짜 확인 못 함, 가격 생략). 블루투스판·등록 후보 Ultimate 2C와 구분",
-      "at": "2026-11-09T12:39:15.260Z",
+      "at": "2026-11-12T14:36:35.771Z",
       "status": "no_ali",
-      "coupangTop": 1,
+      "coupangTop": 6,
       "ali": [],
       "coupang": [
         {
@@ -6531,7 +6549,7 @@
           "name": "8BitDo Ultimate C/2C 무선 2.4G 게임 컨트롤러 패드 조이스틱 PC Windows 10 11 Steam Deck Raspberry Pi",
           "price": 78610,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/ghSzy0w404Hdn2SAgvU8UluAxyuaWkO89jeuSpg15IekljHPuQyawkliwPQaZCNVJ7d2lJFnCXKwo_beA5M3vnlnoRziqwziT_Kenr92EyQfDffVTVYQaLbBDPxuqpNp40n8HTDsh8brDN4ROzLBlf7h4uBPCbXypFUANsgV5jfkmHOUv4Y46fuZy4hwUZmCgUiuKAhmVEG9SdMwZCy7P2JuA8bVVGS0RCjSOWvXWqiUe9Ixus20xClML97Y9w5FlxAh9zT8wbTw0yQ68tJcXgQTAVWchYRFCp4zPp8z8BOSyb2BYGYvo_DszS9pK4sAS9djscacU4vYgTJddyWCiUiaQTnsDZSYRp6amzHm0T9p06uvHDZ65yVFOytRS91Bb1nIsUHQHgiezpQQwMZbyHj8yts7FM6IBMdhjNPwzIKL4g5XTRKRAauEW580-bhtjhtnJdQJE9Yyio6vEsM3NS7UsOXb02RBvCMmBIxwNsZahJyUgbHPYkzBLZl-HhmtiPghpYxn2N3J4ssk5VLNkiF4kfGBbvVodU0MYnE0iig=",
+          "image": "https://ads-partners.coupang.com/image1/9lNaVP8QbvYi1GQb9qvD5Gap8rmwGbsf4Hvm4MylxclUmYISNO4x-ZkhkNz6gflCduz9OpYmrdQGe0yXF-VAgl1h7qhpLpuHnR2bI1u8RWFCrw2dYo6H1O38pf2ChmZ0uK9ikEhuSuSLieRDS0TL2qUN-ez-MjMJTmeKHWtST0rpvzhTH5o8dTP-LUAKrNWW6SXJ6qzhjBs_z_jQgmbgofO5jsAbzCC4BIBFZzqfIgglYEor9KoVvj1FJAWycPa33SQ1KYPyPsiQ98hyp7WlE1MBUsXSuhswTnMs8HHKA-0BnjJq043SsMraV2-7Fd-62LgDe_hG9yfv8lw_qvOBcQhSdKG8yPCL4UUw0ALRK8dd_obFeDJ7tNT7xcc5EwzUzLK97O-k5YWip1WnNH1MAC-k2Qrb3RB5wVZlr6OCPtk2ymWVYsy7DsvZikjHBii0TBuX4dCXtNC7di4IvohF5EHCbEZamrbHPC0k4XXujVYAG23wco9lpbHG_ddYEpAwXRnZHvur0zy6mgqJK_V58z396CG-0ya38DA0VTQb6rXI_fM=",
           "url": "https://www.coupang.com/vp/products/8218410345"
         }
       ]
@@ -7415,5 +7433,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-12T12:42:26.233Z"
+  "updatedAt": "2026-11-12T14:36:39.728Z"
 }

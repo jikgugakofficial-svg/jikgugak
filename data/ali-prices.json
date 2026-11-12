@@ -98,15 +98,15 @@
     },
     "ali-baseus-bowie-mh1": {
       "itemId": "1005007015955340",
-      "at": "2026-11-12T05:43:53.020Z",
-      "recordedKrw": 86751,
+      "at": "2026-11-12T14:37:42.042Z",
+      "recordedKrw": 86445,
       "found": true,
-      "apiPrice": 86445,
+      "apiPrice": 86074,
       "result": "applied"
     },
     "ali-moondrop-chu2": {
       "itemId": "1005006499470555",
-      "at": "2026-11-12T07:58:48.166Z",
+      "at": "2026-11-12T14:37:42.442Z",
       "recordedKrw": 32773,
       "found": true,
       "apiPrice": 26852,
@@ -130,12 +130,12 @@
     },
     "ali-baseus-bowie-mc2-air": {
       "itemId": "1005010724623265",
-      "at": "2026-11-12T05:43:52.209Z",
+      "at": "2026-11-12T14:37:39.864Z",
       "recordedKrw": 41212,
       "found": true,
-      "apiPrice": 41212,
-      "result": "same"
+      "apiPrice": 37668,
+      "result": "applied"
     }
   },
-  "updatedAt": "2026-11-12T12:43:29.972Z"
+  "updatedAt": "2026-11-12T14:37:42.816Z"
 }

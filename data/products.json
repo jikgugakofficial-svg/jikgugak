@@ -1175,7 +1175,7 @@
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 482700,
+    "domesticKrw": 467700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/iynCarFhMy",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1192,13 +1192,6 @@
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 467700,
-        "to": 519000,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -1260,6 +1253,13 @@
         "field": "domesticKrw",
         "from": 519000,
         "to": 482700,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 482700,
+        "to": 467700,
         "source": "쿠팡"
       }
     ],
@@ -4748,7 +4748,7 @@
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
     "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
     "category": "audio",
-    "priceKrw": 86445,
+    "priceKrw": 86074,
     "domesticKrw": 176600,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
@@ -4792,6 +4792,13 @@
         "field": "priceKrw",
         "from": 86751,
         "to": 86445,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 86445,
+        "to": 86074,
         "source": "알리"
       }
     ]
@@ -4951,14 +4958,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.12 쿠팡 API 매니저",
+    "checkedAt": "2026.11.12 알리 자동",
     "slug": "ali-baseus-bowie-mc2-air",
     "domesticUrl": "https://link.coupang.com/a/iBYTJ0WdY4",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmw60uOJpAqeUVXDbUeL1qHvdQeWl41L7J9jgxvoVM1R9UKRrh8QGFfHBBqdQtmWnpeCj02R0JNpBCr6mKkuXcVeuBmi1rMXY9U5GAcz8p08Y6tvms82Cp3rHA4q0Vx8lnVkZxGZwPX4iJ7W10HgPTHacHe1T4qgHwWblWy2ThjzG5we4U5aiTuHGQVUWxQb851chv3mHlQL6AP3H8cXYZozm6moOB8oW4AhYbkjbDV2Nj9AiBeaQLHahtIvOJNcCPp9THhjE0GUAKatsELtE00p4kCCRi73cJbHeOvT6HusBsZdK8ArShAvvIb99V4W2knlVNf4B6TNLfsnI5PwdDD3E8D9PcevmKVwOAOauwBUfl6BVkaZbuAvIULL456jZAusoeT0U5m6SCjXfhXK9Y358giPjm65fOoo6ZXvxlOuqSvCbyiDtKfExVWiNFfGU4ooK89yOL2ijSfDZ3cJOjjeBmPU4GihTz3357D0VYLV9xMP580h6FDEt9waUSfwEx7szJWLGepq4kmqjwnIoqwxKKPjRIfR0xtGVdV5tNQXXEffjmSKl9H7b5o1jbUlQFtM3o04vpSpu5yEnwddKaZYkpwCJcISk9DkXdARAvsSgsWWDnqqpmKyCOsRFtMJC2Q5LvNC5J2pCeev0I74qlJjkx0tB1tDj5ny3OEMdW9RrhSbA7IdfGafvkyW8vPHxdXLXHUEebxIQ8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
     "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
     "category": "audio",
-    "priceKrw": 41212,
+    "priceKrw": 37668,
     "domesticKrw": 68900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
@@ -4981,6 +4988,15 @@
       "model": "Baseus Bowie MC2 Air (오픈형 이어클립, 블루투스 6.0)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(베이스어스 보위 MC2 에어 오픈 이어버드)과 알리 제휴 API 제목(BASEUS Co.,Ltd. Store, Bowie MC2 AIR)으로 맞춤. 색은 따로 맞추지 않음(11/12 매니저)",
       "checkedAt": "2026.11.12"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 41212,
+        "to": 37668,
+        "source": "알리"
+      }
+    ]
   }
 ]
