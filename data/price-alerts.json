@@ -40,7 +40,27 @@
       "change": "36%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
+      "at": "2026-11-12T12:43:10.292Z",
+      "slug": "iherb-now-vitamin-d3-k2-120",
+      "field": "domesticKrw",
+      "recorded": 13130,
+      "api": 44900,
+      "change": "242%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
+    },
+    "ali-aula-f75-keyboard:priceKrw": {
+      "at": "2026-11-12T12:43:28.200Z",
+      "slug": "ali-aula-f75-keyboard",
+      "field": "priceKrw",
+      "recorded": 53100,
+      "api": 75314,
+      "change": "42%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
     }
   },
-  "updatedAt": "2026-11-12T11:39:51.085Z"
+  "updatedAt": "2026-11-12T12:43:29.972Z"
 }

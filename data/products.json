@@ -69,7 +69,7 @@
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28078,
-    "domesticKrw": 23560,
+    "domesticKrw": 18960,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -93,13 +93,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 27260,
-        "to": 24390,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -161,6 +154,13 @@
         "field": "domesticKrw",
         "from": 20840,
         "to": 23560,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 23560,
+        "to": 18960,
         "source": "쿠팡"
       }
     ]
@@ -566,7 +566,7 @@
     "checkedAt": "2026.11.12 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 23728,
+    "priceKrw": 25306,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -591,13 +591,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "priceKrw",
-        "from": 28153,
-        "to": 28279,
-        "source": "알리"
-      },
       {
         "at": "2026.11.06",
         "field": "priceKrw",
@@ -659,6 +652,13 @@
         "field": "priceKrw",
         "from": 27027,
         "to": 23728,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 23728,
+        "to": 25306,
         "source": "알리"
       }
     ]
@@ -4617,7 +4617,7 @@
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 162920,
+    "domesticKrw": 162940,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4674,6 +4674,13 @@
         "field": "domesticKrw",
         "from": 166640,
         "to": 162920,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.12",
+        "field": "domesticKrw",
+        "from": 162920,
+        "to": 162940,
         "source": "쿠팡"
       }
     ]
@@ -4895,14 +4902,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.12 쿠팡 API 매니저",
+    "checkedAt": "2026.11.12 알리 자동",
     "slug": "ali-ugreen-nexode-air-65w",
     "domesticUrl": "https://link.coupang.com/a/iBYTJWEq9k",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmyH9YFbcdrf7wjUSwbCj003MaHic22LKqNgmHQyfHpkAyTjzAOBpVFIPerq3SIEmLXaLdVhi0KffVdKJvOT9rXGrF13sg7bkeeZdXFvQenLAVLuEFjAwYEqSufUFEYWM1Ailj7x8eW8o2PDOzdB3WSnDx3dHCy1cM5a6nPlvV99eZOjpmewHDo8UZh7c6u6LpYROnc2NhKUeuOMHA8yr4BuYplbMUAvTcWaxxEDzxavmsTFpX6iXDlvbXxftfxZhjhzaeOrww9iB06I4Z2ZGqCw3HZ5UHp8JRviOZE3MelcU6Fid7PzgtN6j3izhfQRhfN16nbiGKjPD3iNX1pFX1UyTOC2wVTt7TqjW2LebZ2DDais0XWLH3wOpPSolOWnhYNA4Ayh8FqMC1bvceVzup9WDcYyf69KPT2Utyqj7SE8pcafVQ4nIgP3lUYZm0QqU0lJy6XhmpUdM3IKak6KAPVfxitzqWf8cNsjtOhruqGl46TTTwtwuYVHjZAD8DcrFPQfOZz5G8UY9kExKhIgU9qfXoBhc20Jp78QpjRgRQZGh52G8zNJYXZRtZlA9hLy9KkubgSvQB9NHW5avtpg6YzJQgwNXLr5J6yb5WRxSE0JWRm16V6FSyxiBgtsV3tj8NMs9FGmxWu8x51sRQYEMi0bR5QCb48Fk68RNG5JWDLKfakUXXp0ybNPp1F3VRIeH8K4X8YKWzgzC8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa1381f441eea416d9504e0d6a600c793q.jpg",
     "name": "유그린 넥소드 에어 65W GaN 초소형 충전기",
     "category": "it",
-    "priceKrw": 33177,
+    "priceKrw": 33034,
     "domesticKrw": 53900,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9780240448",
@@ -4925,7 +4932,16 @@
       "model": "UGREEN Nexode Air 65W GaN Ultra Mini (USB-C 1포트, PD3.0·PPS)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(UGREEN 넥소드 에어 65W GaN 초소형 PD3.0)과 알리 제휴 API 제목(Ugreen Official Store)으로 맞춤(11/12 매니저)",
       "checkedAt": "2026.11.12"
-    }
+    },
+    "priceLog": [
+      {
+        "at": "2026.11.12",
+        "field": "priceKrw",
+        "from": 33177,
+        "to": 33034,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
