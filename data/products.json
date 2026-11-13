@@ -1531,10 +1531,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynD4kVspU",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 113194,
+    "priceKrw": 112901,
     "domesticKrw": 94600,
     "domesticSource": "쿠팡 글레이셔 실버, 로켓배송(쿠폰 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
@@ -1560,13 +1560,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.08",
-        "field": "domesticKrw",
-        "from": 89620,
-        "to": 99600,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -1629,6 +1622,13 @@
         "from": 97800,
         "to": 94600,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 113194,
+        "to": 112901,
+        "source": "알리"
       }
     ]
   },
@@ -1741,7 +1741,7 @@
     "slug": "iherb-now-magnesium-glycinate-180",
     "name": "나우푸드 마그네슘 글리시네이트 180정 (1정당 100mg)",
     "priceKrw": 24992,
-    "domesticKrw": 22890,
+    "domesticKrw": 24440,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1765,13 +1765,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 21180,
-        "to": 24530,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.10",
         "field": "domesticKrw",
@@ -1833,6 +1826,13 @@
         "field": "domesticKrw",
         "from": 25850,
         "to": 22890,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 22890,
+        "to": 24440,
         "source": "쿠팡"
       }
     ]
@@ -3918,11 +3918,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzXSuzlY",
     "sample": false,
-    "checkedAt": "2026.11.10 오전",
+    "checkedAt": "2026.11.13 쿠팡 자동",
     "slug": "amazon-bose-qc-headphones",
     "name": "보스 QC 헤드폰(1세대)",
     "category": "audio",
-    "domesticKrw": 279000,
+    "domesticKrw": 269000,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CCZ26B5V",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7579231557",
@@ -3946,7 +3946,16 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 같은 상품 번호에 색별 가격이 달라 API 최신값 사용",
       "checkedAt": "2026.11.09"
     },
-    "image": "https://ads-partners.coupang.com/image1/yToGrRHYPIWzKCe_yZJ4xQspO7V-R6Owsj4dCcW9GC-NXZpy4fnm5TrYJg_XjCxx9JQLP5zqakD5TkUvSEEDsk3FErMfU2MFCOlvFGq4Z4Qu1YidQAUeNwcgB0yjEaUu270s6H3n4fA9tFMA_ODa2UXBWbzIPDYsbtGhnv9oFeWFL9E0VuOpkEAtPCdKY85XOqbVLOvt4UqWPUIkLHa5USy-vkeN0nvUHh2T5ml73oTB7mXqJ89lSn5j9iV1W1H_U6VCiz1X7w3xehTFGJYdIiJ46t51Kqp8mz_F-x0JXbCxsMlx2ZiLZGQQBkEwAVz2u0hiP5NYcMoglvkZVkbJJevRoMFX-vx1bK880XOb9wGbqhsZTMPtJBoBpS28I3yrcdO9Fsat1G7vg8Ppy2e-5dwhdPRTaq96dfXta65t8Mc8L3zSV9DDWx0KbFMsoU8LalyeKsellBtl5mEmQy2bXT5-1on1pTWFZbz2-wmM6WKBUHDovqE3M-nfX4EXguVTyOolM17iF3ngkiyai33lh8MRU7UBaER-xLsTKml3H7o="
+    "image": "https://ads-partners.coupang.com/image1/yToGrRHYPIWzKCe_yZJ4xQspO7V-R6Owsj4dCcW9GC-NXZpy4fnm5TrYJg_XjCxx9JQLP5zqakD5TkUvSEEDsk3FErMfU2MFCOlvFGq4Z4Qu1YidQAUeNwcgB0yjEaUu270s6H3n4fA9tFMA_ODa2UXBWbzIPDYsbtGhnv9oFeWFL9E0VuOpkEAtPCdKY85XOqbVLOvt4UqWPUIkLHa5USy-vkeN0nvUHh2T5ml73oTB7mXqJ89lSn5j9iV1W1H_U6VCiz1X7w3xehTFGJYdIiJ46t51Kqp8mz_F-x0JXbCxsMlx2ZiLZGQQBkEwAVz2u0hiP5NYcMoglvkZVkbJJevRoMFX-vx1bK880XOb9wGbqhsZTMPtJBoBpS28I3yrcdO9Fsat1G7vg8Ppy2e-5dwhdPRTaq96dfXta65t8Mc8L3zSV9DDWx0KbFMsoU8LalyeKsellBtl5mEmQy2bXT5-1on1pTWFZbz2-wmM6WKBUHDovqE3M-nfX4EXguVTyOolM17iF3ngkiyai33lh8MRU7UBaER-xLsTKml3H7o=",
+    "priceLog": [
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 279000,
+        "to": 269000,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -3958,11 +3967,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzXXOLTw",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "checkedAt": "2026.11.13 쿠팡 자동",
     "slug": "amazon-bose-qc-earbuds",
     "name": "보스 QC 이어버드(2024)",
     "category": "audio",
-    "domesticKrw": 169000,
+    "domesticKrw": 164000,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D8BZDPXB",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8350898413",
@@ -3985,7 +3994,16 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션 미확인",
       "checkedAt": "2026.11.09"
     },
-    "image": "https://ads-partners.coupang.com/image1/SIRyVTEtc2HV7U0xSKRM55Mjy0CF9Xnot5hz4Cpl1ft3vibjCf6zeaFnGyUJp_JfEPs3EIryPx2Dpizv46AmiBls34s9dGwKYdu55YJGybNTjAkOoU79tskTQhhOmPgwVZHGwnv7Rvmflzoh04tXcTngXJAZqplSMD0aPFa7OB7xoRda1bcZzmKXKelkbqwBxvEvOclXXLXJN0YgPOIzukBWR1b0SZdekQRxfivHHvtkpUF8G5MtKHb-r21dqXfMEbDfKWPI_xDZFvnW5j8asUqYm1QnzhCg85RU7Jw77PX4XJmlWiKO2dKckl3ge3EXdbvkk0UUjnKBEzY2rV_zOOcatWRgbqLA9C6-tIP60tnDhelqR60c2-hQ2aPvQcbAoegeTRAYY0876iLPDImb-0txfUUPDhN7jUuHY3pSIbH0in5xf_g4IvJfKF-7OnPU3J1vcM3RaVsaQa9NzZZjVw2XCm2RvMTckqPiMgd9IqDgEnyw54kfCd5N3EZN-YTT9WR1UbiMmxLmqft4maUfeK-Tn1KOyY-_f4f0pGcn8zFRgvmwWdxwz7AJyCVbsY47jBhozHmLb4_DEHrIbO1JTtwYTg=="
+    "image": "https://ads-partners.coupang.com/image1/SIRyVTEtc2HV7U0xSKRM55Mjy0CF9Xnot5hz4Cpl1ft3vibjCf6zeaFnGyUJp_JfEPs3EIryPx2Dpizv46AmiBls34s9dGwKYdu55YJGybNTjAkOoU79tskTQhhOmPgwVZHGwnv7Rvmflzoh04tXcTngXJAZqplSMD0aPFa7OB7xoRda1bcZzmKXKelkbqwBxvEvOclXXLXJN0YgPOIzukBWR1b0SZdekQRxfivHHvtkpUF8G5MtKHb-r21dqXfMEbDfKWPI_xDZFvnW5j8asUqYm1QnzhCg85RU7Jw77PX4XJmlWiKO2dKckl3ge3EXdbvkk0UUjnKBEzY2rV_zOOcatWRgbqLA9C6-tIP60tnDhelqR60c2-hQ2aPvQcbAoegeTRAYY0876iLPDImb-0txfUUPDhN7jUuHY3pSIbH0in5xf_g4IvJfKF-7OnPU3J1vcM3RaVsaQa9NzZZjVw2XCm2RvMTckqPiMgd9IqDgEnyw54kfCd5N3EZN-YTT9WR1UbiMmxLmqft4maUfeK-Tn1KOyY-_f4f0pGcn8zFRgvmwWdxwz7AJyCVbsY47jBhozHmLb4_DEHrIbO1JTtwYTg==",
+    "priceLog": [
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 169000,
+        "to": 164000,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",

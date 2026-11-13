@@ -1,16 +1,6 @@
 {
   "note": "자동 가격 반영 중 사람이 볼 것: 판정이 바뀐 상품(요약 문장 확인) · 변화가 커서 반영 안 한 상품(옵션 확인) · 금액을 직접 쓴 문장. 처리하면 지워요.",
   "items": {
-    "amazon-bose-qc-headphones:domesticKrw": {
-      "at": "2026-11-13T05:42:26.077Z",
-      "slug": "amazon-bose-qc-headphones",
-      "field": "domesticKrw",
-      "recorded": 279000,
-      "api": 349000,
-      "change": "25%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    },
     "amazon-bose-qc-ultra-earbuds-2:domesticKrw": {
       "at": "2026-11-12T23:24:30.925Z",
       "slug": "amazon-bose-qc-ultra-earbuds-2",
@@ -52,16 +42,6 @@
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
     },
-    "amazon-bose-qc-earbuds:domesticKrw": {
-      "at": "2026-11-13T05:42:30.244Z",
-      "slug": "amazon-bose-qc-earbuds",
-      "field": "domesticKrw",
-      "recorded": 169000,
-      "api": 229000,
-      "change": "36%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    },
     "ali-aula-f75-keyboard:priceKrw": {
       "at": "2026-11-13T10:40:58.290Z",
       "slug": "ali-aula-f75-keyboard",
@@ -71,7 +51,17 @@
       "change": "41%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
+    },
+    "amazon-lego-10328-bouquet-of-roses:domesticKrw": {
+      "at": "2026-11-13T13:56:06.482Z",
+      "slug": "amazon-lego-10328-bouquet-of-roses",
+      "field": "domesticKrw",
+      "recorded": 58430,
+      "api": 70800,
+      "change": "21%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-13T12:40:09.698Z"
+  "updatedAt": "2026-11-13T13:56:26.152Z"
 }
