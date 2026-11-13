@@ -139,15 +139,14 @@
     },
     "ali-simgot-ew300": {
       "itemId": "1005007543694300",
-      "at": "2026-11-13T05:42:38.044Z",
+      "at": "2026-11-13T15:28:15.309Z",
       "recordedKrw": 82142,
-      "found": true,
-      "apiPrice": 82142,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     },
     "ali-kz-pr3": {
       "itemId": "1005007805659342",
-      "at": "2026-11-13T05:42:40.716Z",
+      "at": "2026-11-13T15:28:17.062Z",
       "recordedKrw": 35693,
       "found": true,
       "apiPrice": 35693,
@@ -155,11 +154,10 @@
     },
     "ali-truthear-zero-blue2": {
       "itemId": "1005008606126729",
-      "at": "2026-11-13T05:42:41.159Z",
+      "at": "2026-11-13T15:28:17.541Z",
       "recordedKrw": 75715,
-      "found": true,
-      "apiPrice": 75715,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     },
     "ali-kz-zsn-pro-2": {
       "itemId": "1005006997565403",
@@ -170,5 +168,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-13T13:56:26.152Z"
+  "updatedAt": "2026-11-13T15:28:17.815Z"
 }

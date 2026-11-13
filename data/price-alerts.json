@@ -12,11 +12,11 @@
       "source": "쿠팡"
     },
     "iherb-on-micronized-creatine-caps-100:verdict": {
-      "at": "2026-11-13T01:52:03.840Z",
+      "at": "2026-11-13T15:27:51.519Z",
       "slug": "iherb-on-micronized-creatine-caps-100",
       "field": "domesticKrw",
       "recorded": 29370,
-      "api": 38150,
+      "api": 37950,
       "from": "국내가 나음",
       "to": "애매",
       "source": "쿠팡",
@@ -61,7 +61,17 @@
       "change": "21%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "ali-edifier-evobuds-pro:domesticKrw": {
+      "at": "2026-11-13T15:28:07.375Z",
+      "slug": "ali-edifier-evobuds-pro",
+      "field": "domesticKrw",
+      "recorded": 77240,
+      "api": 112060,
+      "change": "45%",
+      "reason": "변화가 커서(30% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-13T13:56:26.152Z"
+  "updatedAt": "2026-11-13T15:28:17.815Z"
 }
