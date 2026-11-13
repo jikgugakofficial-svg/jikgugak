@@ -33,7 +33,7 @@
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-13T03:33:07.829Z",
+      "at": "2026-11-13T10:40:07.350Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 13130,
@@ -61,7 +61,17 @@
       "change": "36%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "ali-aula-f75-keyboard:priceKrw": {
+      "at": "2026-11-13T10:40:58.290Z",
+      "slug": "ali-aula-f75-keyboard",
+      "field": "priceKrw",
+      "recorded": 53100,
+      "api": 75102,
+      "change": "41%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
     }
   },
-  "updatedAt": "2026-11-13T09:38:51.094Z"
+  "updatedAt": "2026-11-13T10:40:58.980Z"
 }
