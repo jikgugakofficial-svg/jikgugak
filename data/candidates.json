@@ -769,14 +769,14 @@
       "model": "Bowie MH1",
       "cat": "audio",
       "why": "퀘이사존 2026.03 알리 핫딜 $32.24(ANC·LDAC 헤드폰), 조회 3천",
-      "at": "2026-11-09T23:21:51.629Z",
+      "at": "2026-11-13T01:51:11.934Z",
       "status": "no_coupang",
-      "coupangTop": 2,
+      "coupangTop": 5,
       "ali": [
         {
           "id": "1005010537701039",
           "title": "Baseus Bowie MH1 헤드폰 무선 블루투스 6.0 이어폰 능동형 소음 제거 이어버드 고해상도 LDAC 80H 재생 시간 헤드셋",
-          "price": 103400,
+          "price": 101600,
           "orders": 5,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b1f9d7e52b64e089bcfe0d394e74270A.jpg",
@@ -785,7 +785,7 @@
         {
           "id": "1005010537683682",
           "title": "Baseus Bowie MH1 헤드폰 무선 블루투스 6.0 이어폰 HiFi 플래그십 능동형 소음 제거 이어버드 고해상도 LDAC 헤드셋",
-          "price": 105000,
+          "price": 103200,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saa2b7555d24947c0ae399dc8e9899e8e0.jpg",
@@ -794,7 +794,7 @@
         {
           "id": "1005010733599925",
           "title": "Baseus Bowie MH1 헤드폰 무선 블루투스 6.0 이어폰 HiFi 플래그십 능동형 소음 제거 이어버드 Hi-Res LDAC 헤드셋",
-          "price": 112800,
+          "price": 110700,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4da85d73a54b4b9e931243a16cf17f3cc.png",
@@ -809,36 +809,36 @@
       "model": "F108 Pro",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 공구 목록 $33.82, 풀배열 입문 키보드로 반복 언급",
-      "at": "2026-11-09T23:21:55.594Z",
+      "at": "2026-11-13T01:51:15.805Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005012295888427",
-          "title": "AULA F108 Pro V2 기계식 키보드 트라이 모드 100% 레이아웃 RGB 백라이트 핫스왑 게이밍 키보드 (e스포츠 PC 컴퓨터 게이머용)",
-          "price": 65365,
-          "orders": 1002,
-          "rating": "95.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S34ce667b3ada410aa4b398d21e0e8fc3C.png",
-          "url": "https://ko.aliexpress.com/item/1005012295888427.html"
-        },
-        {
           "id": "1005009845590858",
           "title": "AULA F108 PRO 기계식 키보드 커스텀 100% 레이아웃 RGB 백라이트 무선 블루투스 하이파이 스위치 게이밍 키보드",
-          "price": 72064,
-          "orders": 829,
-          "rating": "94.8%",
+          "price": 71626,
+          "orders": 851,
+          "rating": "94.7%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3e04b9425dc42e69562757e55d594beF.jpg",
           "url": "https://ko.aliexpress.com/item/1005009845590858.html"
         },
         {
-          "id": "1005009384271028",
-          "title": "AULA F108 Pro 게이밍 기계식 키보드 트리플 모드 커스텀 멀티 노브 스크린 RGB e스포츠 무선 키보드 TFT 스마트 디스플레이 탑재",
-          "price": 78447,
-          "orders": 688,
-          "rating": "98.1%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3801258b846b44a68110eb214c139c9dF.jpg",
-          "url": "https://ko.aliexpress.com/item/1005009384271028.html"
+          "id": "1005012434973773",
+          "title": "AULA F108 Pro V2 무선 기계식 키보드 트라이 모드 TFT 스마트 디스플레이 8KHz 100% 레이아웃 RGB 핫스왑 가스켓 10000mAh PC용",
+          "price": 78500,
+          "orders": 677,
+          "rating": "94.5%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3b34c8e7d4ff490b89006c7a355f85624.png",
+          "url": "https://ko.aliexpress.com/item/1005012434973773.html"
+        },
+        {
+          "id": "1005013277901738",
+          "title": "AULA F108 Pro 트리플 모드 블루투스 2.4G 유선 기계식 키보드 완전 맞춤형 핫스왑 가능 키 가스켓 구조 RGB",
+          "price": 68800,
+          "orders": 400,
+          "rating": "99.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S26b2ededa08e4b289e5c51114bc9fa25N.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013277901738.html"
         }
       ],
       "coupang": []
@@ -849,20 +849,30 @@
       "model": "Active 2",
       "cat": "it",
       "why": "퀘이사존 지마켓 세일 글에서 Bip 6와 비교 고민 댓글(둥근 화면 선호), 알리 공식 스토어 판매",
-      "at": "2026-11-09T23:21:59.695Z",
-      "status": "no_ali",
+      "at": "2026-11-13T01:51:19.848Z",
+      "status": "no_coupang",
       "coupangTop": 10,
-      "ali": [],
-      "coupang": [
+      "ali": [
         {
-          "id": "9439766520",
-          "name": "Amazfit Active 2 Smart Watch 어메이즈핏 액티브 2 스마트 워치 44mm 레드 실리콘",
-          "price": 195100,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Sf6dK_Bwu-2qiiqnSRjGDwCyY0d261kkOJMXwqzHEyb6bYczdMnyX2SmSCQky5GnFe-m32bPZIQvxTzkN9cZw8JoOW7bz5j93P-RmoMjr1SudCgNLLW_-qzjdzLdEqEr0L2pi77fDlczW6EMwUVCyfYL0VMPMIspp5kAKw733igrW5VN2n-uHaP6L9wF2nxlx6yilsQpdNfQAWzoNvXGSEA3K3UkIpwLwRD_DonFH17gKGdS77rLNPN4ZcGHWFt80IaasbwWBjqRYRclKPJD5DrOjjmrvJ55NW3XMUrOx4aKtQfgZn7Piq0P0vXpkzY_muBWM7RhIAkVCF152jUZHvIETmKi0mdi0mQYWcoWIBxxGNpzAQ_1rvNSVYMVEM-RkdYttbUN-DuffEW3-vuAYcevF1zaDVXN9iFMuQXQ5ZFY39Q8B35mr8-S1hLbkg2eOkn1MQSMuO3DEIYw9CekWFco4jqh0J2vgrvzABkXjW7TtMFxb8UO1sARcXHPiOw4N-YIV2_C9wHyyEn0rSECYKT6Y_MGp8qi3JrAuo-SfUbod-foTLOXxG96MLeiZfYcU13IDiSawCbKkwj3-3CjaGm3tARYsQYmZTEfiA==",
-          "url": "https://www.coupang.com/vp/products/9439766520"
+          "id": "1005012010307613",
+          "title": "Amazfit Active 2(A2437)용 충전 베이스 Amazfit Active2 BIP6 어댑터 액세서리용 스마트 워치 마그네틱 충전기",
+          "price": 4000,
+          "orders": 58,
+          "rating": "96.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S48f8d719765547f689263492747118d72.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012010307613.html"
+        },
+        {
+          "id": "1005008664588206",
+          "title": "Amazfit Active 2(A2437)용 충전 베이스, Amazfit Active 2 Square(A2434)용 마그네틱 충전기 및 Amazfit BIP6(A2435)용 어댑터",
+          "price": 8030,
+          "orders": 10,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3291dcdb72f94b9fbc14efaced1cc45bP.png",
+          "url": "https://ko.aliexpress.com/item/1005008664588206.html"
         }
-      ]
+      ],
+      "coupang": []
     },
     "Anker 511 Charger Nano 3 30W": {
       "q": "Anker 511 Charger Nano 3 30W",
@@ -870,9 +880,9 @@
       "model": "Nano 3",
       "cat": "it",
       "why": "운영자 예시 모델, 앤커 공식 스토어 알리 상시 판매·국내 정발 있음(웹 근거 약함)",
-      "at": "2026-11-09T23:22:03.618Z",
+      "at": "2026-11-13T01:51:23.971Z",
       "status": "none",
-      "coupangTop": 1,
+      "coupangTop": 5,
       "ali": [],
       "coupang": []
     },
@@ -882,36 +892,11 @@
       "model": "Space A40",
       "cat": "audio",
       "why": "퀘이사존 알리 코인샵 정발판 4.9만 원 핫딜 댓글에서 가성비·국내 AS 호평",
-      "at": "2026-11-09T23:22:07.590Z",
-      "status": "no_ali",
+      "at": "2026-11-13T01:51:27.837Z",
+      "status": "none",
       "coupangTop": 10,
       "ali": [],
-      "coupang": [
-        {
-          "id": "9733745531",
-          "name": "Anker Soundcore Space A40   2.0   LDAC      PSE (완전 무선 이어폰) [50시간 재생 소형",
-          "price": 125030,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/tm0PrBKr0mAUbSWVtmY9O_aBJ95zK9BxOu5zU7i-xXNXVcwgR8wQQgF8zRtKbQBNIJxMHXyo3He9cewLxPwtvMGE06bdbOLV-ZSJCu0kwgaw2qmtZx66w8o8Xd-D8-QGjcyDlh80Whx2iaE57nHonJAzRU0ZqvryA7XUlDhl8BYFfn48UHsaiPYL5iP9z3xH5wuFS9-Nup2aOIe3nGbysbKGSW-nK0N1GMXT7lN1hlqZvunFOb8Z2hQzIaPofUaKKQWIUjiu5dm5QT8yTq4KD91-AU1yvSpz-0CuIoZo0jTty_BhnP67BkCqyR7m8OL12kBj6Rru06zMd_6Z0nnYdf7InP2ofJhEl7dacq1gnmjD5iTqbQtMGi1RoKKThcR_-doHwHAlHwGsp1_NHuSL368wyFfiSaBu88oDhDG-W5G2LfJlAG0_fGsdMtC7nvzBAyV7V-NmfwH7Dg2mmlZEwYx8pYEnexjtEX_YyxfUtkZP0XEu4807Kqrue9NBNq7j-ctbav6mP0Hfr-zJ02JjvtBBz6hY8Qd8N-1UZS0Kzg==",
-          "url": "https://www.coupang.com/vp/products/9733745531"
-        },
-        {
-          "id": "9734966871",
-          "name": "Anker Soundcore Space   2.0   LDAC      PSE A40(완전 무선 이어폰) [50시간 재생 소형",
-          "price": 126280,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/w03Ui4UOnWeNIVLhwwgKBJq__XKOzYL0zlHhQdX38vm2RFPGgLuqRQiyf3H4hY_EQjY_6rpEHA8rk2zFtTEc98qKQZPE5Gl2Twtmk2wTrMGG_Y6o0Yhoq1jCC3LvW10F6e5K-ecQx-17kD8lD8PLs7pd7ZiZNdgnJSQowmOXJ6LrjReyeAsjHY3RI4SU_mYCXTf_ylWvugzlBwSTU3AzQlfyHVEVe4tqIMlGlzYY65snj6h2GgCe4A-uGGARLRJ-YruatzTLlfSPsHbHqAyDYrR0_d9bxhKUIfX-LcDbHQlI1NUeDLglU8nMHTFpb6eguwz9_upk3UPHjryzW9N1wuXnig0xsAoPvimHpb5e8AZTvthHr_M-dKOwPHsspeNff0Go30Q8j4z3sf-q7_p4lpdIsJVXrjHvjqxdl5Up_l5B7SrOJR-6nrbhzQNp-gTiRha-2GHSIW4g7tHc3I1mWyrXsQ9m0k-Z_Z3J7AamEL3Xk4UIW17G0sTc4YGn4MtN2dGluVGpFOTOr-VNjwt4w6LCZMoJe2aYgbw-m3_x2Q==",
-          "url": "https://www.coupang.com/vp/products/9734966871"
-        },
-        {
-          "id": "9693840151",
-          "name": "Anker Soundcore Space A40   2.0   LDAC      PSE (완전 무선 이어폰) [50시간 재생 소형",
-          "price": 136200,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Xfwf2qmXTKuMqNSoXcdIjUv8ca40YGbzj1Gg2muQc-li0gyDdz1rLzIjK2mQkDE4ZOqF25Kcf5kVWe2ORKU2BndgGg0mreuJwj5JoGlOXGHwbqHg9ntVlLMCErAIbjOFkgTT9KWFLsj0v5y3jpS1n4k7eAR6iQRanz7hS0ecMc2BrHx6u8SoytW1TwlOqjWqVzlzYdeQrl5wc3ed2XH7jdwX_yvajPICWISGjPVFo-lX2I342Df663hX_-xv7NqhjYx8U5n8NcQ_eH8nJX3Pg9h1LXgk66VyUGcPRz3-Kkl7s3J2B3DXzFi_Ae4iy_Ppm8esurbXTNI1v4IvEUnizGMwRP7SAa62aXUCGPkwx_Ip2Nt5Sgr963SXf7wiRB-54k7WglgWuB8UrBr6TLIxNIUOLZBTDuesfJsc4d3AeKBw8iAU5UF05ORAJWw2AROYDbAbJs4eO9OcHJgFwApDVTqwQwHMMHRi3Juc_dkpkqyvJZcih9mI0WryMqoBh1B7vGHIMecovg-SCfkBwxjWETnCGzFd7PVcCPvIScFWIQ==",
-          "url": "https://www.coupang.com/vp/products/9693840151"
-        }
-      ]
+      "coupang": []
     },
     "MCHOSE ACE68 V2": {
       "q": "MCHOSE ACE68 V2",
@@ -919,36 +904,36 @@
       "model": "ACE68 V2",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 공구 21종에 포함($39.05), 스위치 옵션별 가격 갈림",
-      "at": "2026-11-09T23:22:11.779Z",
+      "at": "2026-11-13T01:51:32.112Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005011937658037",
-          "title": "MCHOSE ACE60 ACE68 V2 게이밍 키보드 0.005mm/0.001mm RT 16K/128K/256K 스캔 레이트 8KHz 폴링 레이트 홀 이펙트 RT DKS SOCD RGB",
-          "price": 52700,
-          "orders": 4,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0b5029bb0864f6a9f9f9a658c907303U.png",
-          "url": "https://ko.aliexpress.com/item/1005011937658037.html"
+          "id": "1005012047729328",
+          "title": "MCHOSE ACE68 V2 게이밍 키보드 0.001mm 8KHz 폴링 레이트 256k 스캔 레이트 0.008ms 초저지연 유선 TTC 홀 센서 키보드",
+          "price": 61232,
+          "orders": 384,
+          "rating": "98.1%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf240b93c43b242909d4a036df4231c657.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012047729328.html"
         },
         {
           "id": "1005012053861273",
           "title": "MCHOSE ACE68 V2 게이밍 키보드 0.001mm 8KHz 폴링 레이트 256k 스캔 레이트 0.008ms 초저지연 유선 TTC 홀 센서 키보드",
-          "price": 74900,
+          "price": 73700,
           "orders": 3,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scf035ca6585a4860ae9abda9d73f299fF.jpg",
           "url": "https://ko.aliexpress.com/item/1005012053861273.html"
         },
         {
-          "id": "1005011932863257",
-          "title": "MCHOSE Ace 60 68 Ace68 V2 마그네틱 스위치 기계식 키보드 오리지널 0.08ms RT0.001mm 256K 게이밍 키보드 맞춤형 E-스포츠",
-          "price": 59257,
+          "id": "1005011937658037",
+          "title": "MCHOSE ACE60 ACE68 V2 게이밍 키보드 0.005mm/0.001mm RT 16K/128K/256K 스캔 레이트 8KHz 폴링 레이트 홀 이펙트 RT DKS SOCD RGB",
+          "price": 51800,
           "orders": 3,
-          "rating": "20.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2e4ac90a20104dde85e58f4b3eddaf5fd.jpg",
-          "url": "https://ko.aliexpress.com/item/1005011932863257.html"
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0b5029bb0864f6a9f9f9a658c907303U.png",
+          "url": "https://ko.aliexpress.com/item/1005011937658037.html"
         }
       ],
       "coupang": [
@@ -957,15 +942,7 @@
           "name": "MCHOSE Ace68 V2 8K 한글 래피드트리거 자석축 68키 유선 게이밍키보드 국내정발",
           "price": 79900,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/FzUCKzejTCDoziAcF1U9a4Xi_0GoXgudaZ0bEjPPPmxjxNc0in0BoSjcQ2g2fwazyqB711GrQfYw9T8Hg-ESxvf8noXt9Fs6vJp5gaKpNEB3_97FFA1uz8p8Nx7tk4_Yo9OsTI8L3o-6-64hc4HG4SxI-DgCVc3hFfzS-1BuUj3xhQUFHUcCMwyLDFc40S0BwgHCmPpsyxg-uzEcoXaK3o61t6hRR6BmWACegeWXi9KLbqHkMGgwDxoQOAggrOO8bT2asStrN5_jOsegRc3HKi_imXEbkmgWV-wtx-jaOybmoQ33ujxsaT8TIXmHlPOQkxWDsOMk7MOVRtGrxuK2fEDVSnWFwo3FeTT36peSrTt7aB8dQ1pJEUP01a6SVQjeos04qw8cPC3Akgq3KHgwbcVU3CV-TreGPFbhlnzpNGlAmPSKjcM8e7P4CZPLHPm9Etvu4M5gGHRvHHJvo52cRgsctcs_9Z1uTuLwHAlnefqhIBe4XQL-WKasRLNFIN9Pc9-lSzEZVdQJgu1G8E-n6JEeDpUErZsuGD1SMfEpjLbPpnbGvpyM",
-          "url": "https://www.coupang.com/vp/products/9540667109"
-        },
-        {
-          "id": "9540667109",
-          "name": "MCHOSE Ace68 V2 8K 한글 래피드트리거 자석축 68키 유선 게이밍키보드 국내정발",
-          "price": 79900,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/FV97_E9hCHbqizp1FdW9eSgDmQEGMvSVv4jaLlMLnNqk_MHcCO8CrpmWuCyOwwe74X6qhLooZ2rPHRIvHYHeCNj-OASH-aL3Nk-PCd2QCscoVUJG-WpiNB0f4T3iZpyqo-KvWeXmvuYX3ZwhV-OJFfV-kVm2-QAz9R_wPstL3BN5PFBznCAWQz8Cjyvt0wuvfYr9lwVOnCiC23g5pfEyGh1wmusb16-eNrwNaet8_5zQYyRfkpUnOnGGdEVx7mF_9khF9DZLCap6ZoIqS3d96RcrFiRL8aNN11Ek1PPqwkogXIGFqoV9O1vwYkQ4c_snhrK06B9aBT2ikDL1N-2dKi5i-4ObWO06kCNUJvzOH6A5W8sCDfNc19zck1uXiw-xydYTzR20GBSv8_t_h-7L712e13HoWdaAl2skggXcIAowup84Ng7yb7hWIj7g6cdnghoPuuBiQVTmneBRlX6K5KNhpMdnFWKMfGu627aOeOgib7SirgahPqqzydZeW75xKL9KqDqQfaJ_qJLiUdTloa9lzOyZWX-LyVS_9WKds5zA59xNJrzsGeU=",
+          "image": "https://ads-partners.coupang.com/image1/x_JyrDcsC8OMzwArx-rgGzWNAoT_VHEvV6UL2b3XzVn0C3q4gQBN871qLQcy9ASNZd8tkA4QZGV7wlyUbXGcjiUkl_4xQniCgGq3TZvCnNjwe1VFDn9O5ueaaEUzxsBGV5dB6uizQli5tFdQEJu-L2Va8ybYK8JkY0QG2VsAoHziQPfTUzg3Y-VEax3_FPKtQ7ym_gs9NpDt-9rjXcguJnvgFFvwzGso2tOEk32A1XDqRwScupw63Q3nhirzbzpYjozE8km-0FR51yJ9RjHPavQ692po_hmr_QLuKu1CfMDrJ0LOcKaLJr8TpHoMmd2bX37A8PuklCduGmDyoLdTMdr5oIetZQn1Zk2M-xujtfB-MJTDdYwXgdNzJJ5S45t8RjRNqY6Q0rO97KxmMamv99SPu4jpi_HArf-9eXCMWznzjVjxiL40LOmMnaPtVOE2qLnbzACCkCNt-pdrBeukgCE2w5e0XAwc_HP2j2PRv1d61s_9V40kA-x-RGNG8TiHGdThcHaB_lxUpoQWdWS0Jj2LXoz1n06Islziq8wn96sJ81jGuGZkthAJqnQ=",
           "url": "https://www.coupang.com/vp/products/9540667109"
         },
         {
@@ -973,18 +950,18 @@
           "name": "MCHOSE Ace68 V2 8K 한글 래피드트리거 자석축 68키 유선 게이밍키보드 국내정발",
           "price": 79990,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/N4YdmCcfYTVPA5RHN03pjF38C-rf6SCLAgDS1fvsXxxUKCDkWNbyMcmc7Nj3mB9YudbjqoyAA-ABYdXJhhZ9CpiufwqpBOm4TBDn1lWeB4UY58kmsXslDNTRQQJ-HT9Dr-ddnN1ZIwLi6QNboYc5RHYz-5PAUPzruJRHQIAQPprtJYI7ZJxwEw63YdwNmVKdZ3aOgVO5xTe1sRwVdCXiKidtnj-mIaNbqAgu7HnzSDqoczrrmexBaATxQd3SI50uE5G0rkuLa8ERn46mOsY-UuANz9bqOmXgC4svEISg5gHoz7VZ6jUsgFp4IdSBW_OEqjSTlq_nCX4I9uHtUuy2PTT1acb8FpvoVHFWeeaaK7SPbNJQNJoq1gDWp9T7k6iuDKnAto-x5pQVB_Vyk3btm7TbBeD_sQKNV7nfNn3qHrgrmOLk1grBVpkY7xjHCPe2nHA7YqPb58mpvPjzK5Xzmbcpi_6E7nCFtS7iFb6y0-VCPUzmHUsYWT5T4tBZ1jmPDOyg2QckxeqoNPfbF3AP7jrtoVXjWDWlmvXJedwYLbRU0ED-oN4T",
+          "image": "https://ads-partners.coupang.com/image1/JMbbrMsm8ARcfvvNJACRMco9HVrbcm72HmX4arfCCaOi3EFqR6kxkMcyJSSoFUGZ717Jqb-Jsg4BUbGXwC6uySWg3vmZa0cG8NCXpIcNXDqb2Ks066-vZ6hWJ27OFVzQD3-A4_dVLF-Yv59RCTfwvdeG5185deaaUIUOY3xico79GHNCevyxvS0aWRi4-nBnb4iH4oU2FBTKwaiEFnkb19P-P_5zBccjwd2297BdAXux0wGbx5X7wjElwFeu6C4FFdfoczvGH3ntOWH7sBgX8T7I_uSLPUbesyc3Ux1azdZfviDOhMKvNkjjBIHahPOUyzhpVS7HYuyfQt6kmosNTo0Wwmqn0vAJX5qAgTKMVR1BBWYFae_IOrkIux6ZT89sQLDV0Y7-5T7RAt7S6Ai_K-EipTX97nrf0oGI_Jc36RPQsSqhp6jVNgFUzxGAKOO6oInHCSHs_rhdBZXiA0mN-xJTgbUYycUmmeBNlIoojNGU5rGJfua6kTRMPTreadPleqsrtho7iFOVmggJ9aIsYpUiknC51Ivks2nPO3jUvhQdAdrnM3raej-E",
           "url": "https://www.coupang.com/vp/products/9540667109"
         }
       ],
       "best": {
-        "aliId": "1005011937658037",
+        "aliId": "1005012047729328",
         "coupangId": "9540667109",
-        "aliTotal": 52700,
+        "aliTotal": 61232,
         "coupangPrice": 79900,
         "verdict": "good",
-        "diff": 27200,
-        "pct": 34
+        "diff": 18668,
+        "pct": 23
       }
     },
     "QCY AilyBuds Pro+": {
@@ -993,7 +970,7 @@
       "model": "AilyBuds Pro+",
       "cat": "audio",
       "why": "다모앙·밈코 사용 후기 글 존재(AilyBuds Pro 계열), QCY 상위 인기 라인",
-      "at": "2026-11-09T23:22:15.562Z",
+      "at": "2026-11-13T01:51:35.924Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -1005,7 +982,7 @@
       "model": "Balance 2",
       "cat": "it",
       "why": "퀘이사존 지마켓 세일 글 국내가 35~36만 원, 고가라 국내외 가격 차 클 수 있음",
-      "at": "2026-11-09T23:22:19.719Z",
+      "at": "2026-11-13T01:51:40.065Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1013,17 +990,17 @@
         {
           "id": "8868960053",
           "name": "어메이즈핏 스마트워치 Balance 2",
-          "price": 359000,
+          "price": 369000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/1lVZJFZETgs2kTiT1slKt3AKfUQOphdfufHcp7cjI9D2RNvevHrQKxSI8KH80poRFXX1F5Wg8Cee_2OsV8n3N7llBkIKSd4RupMVh3ElOzuTq9EBUJv4OAbkBDbx8IlTZphU3uM6-qTNZ6Lx24CBsWZj5UScQPLzy7-XCzHcD1bXmMPRx9LcBnjKvnqJhJUcxxHOotujC93bjNgNQPptwx9zG3cwRyyIByrlEq6twWGchQVChcRvhqG_c4MdVcXwz4KJqNPiUna0gjuSkIqsucopXpD6hreDi46LoORC7gKz5PGQ_ONCt9iETbgRMJZF9yPhU6neoMJqw7skObK99NvSfk-fpzCVLx-NWF45kwrE7scYPrDoGCY6y2ZQvCue4wAcYJOPm0oAIxnaRAF4iBMj2VYXD9nsr-cNwQFOxXKGpe1_kXKmQ0ckrXH6-KDoShiE-LynTdZLF2D_dO6HMDZleFaK21yNn7rooqkqMZR4ztcPujsqHdcdso9Uf1cmwna-KbwkyRmuvoA2PTqV3nQI5lfGZP_L9eYMPOTgIJGK806Of2gFuE-IqlA4RjktLxY4fHYd0FNQVATE5Y2Zzk2WS2SDAc21zhHa",
+          "image": "https://ads-partners.coupang.com/image1/cdlxro-aW7U-hlKScdcGRDsXtxUasWEStNuLoUO9WJaoL5Uc7uAl6gW-Z8Q3mKquMC9KR5mcrI9via5T3Hy44Z8k6HxdDcxYs9BXSih-ZTGLlRrdwb0UGPgHYCc6Jh2OPp_Kf0-ik0ABXE_2U9leHDCa57Imq8A842fWElAGJkVK5xgy93BYee233o9ViEPhUl5xiVUjvWPQd4oc9YGb2idcudZQYDDqY1H13TLz422cDL6iC1-RET-Y5F4jsKbG1qBHdp44O-vej655NVHwb8UChf6oYgDQ4UuZz_1LxuEdx6Bd3AoV-sFnRiocKMM66cAnlqQw3TJ0z8TCVnBEsEEO1X-PBZj0l0dHmYVcaieYjg5c5d-7xXc3Lo0WXsVlEObAJXBLB3xJv7pS2N6SrhXLfLj4-Fy0dDboG__4KmAZ43aQG0g1o3BbcefRvFmHoG-C3aFum357gLyNQXGqFpgA7NJK93McUB05AlfJR80o91-NuPOkLt4XpsD9CDXqWqkJho2D7aM_TGPE_tiVCb_Jj-I3WarGiKvE6c1sy_7Mb5XlofQ6O7E-sq4-ZehsRgJy-pa4VYTFOL74TyQBcKrYwWDX7tbqm5zsl8RmLrg=",
           "url": "https://www.coupang.com/vp/products/8868960053"
         },
         {
           "id": "8880986145",
           "name": "Amazfit Balance 2 47mm AMOLED 사파이어글래스 배터리 21일",
-          "price": 389640,
+          "price": 378880,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/LfnZTPRp-wi4OjgwLZOZ-EB6qK1eAy8q1J7ROi88vDbGmFkvqJYdQV--5mOnxG9Fqw-bHaIVOem_QN7IJ-btL2pQlh9LsgDVMDCe7E1_oC8GAhpWJIjefJAgCW_5V4L5NYghUcYnZ2sXevBX3jKzeCFd5NxCVr1UMEp46ftnLvYYJHHrw2ZmmfIvk4EoLk4nElVueOx8aqwqZBUqGTmrof8sk7L6uSKQ4EJRV1YWb3heD9YTckrydWzgxROFS-J1H2F36j_c54m6t6PP43jpJGRN_MV84MkbNTFr_ikz3CV63Q8ZZoSpl4WNxNhb459YGGbPUUng1BVWx_lJTW0QT4_qmOrD_nkM8LmGhYlKmjYxBoiIZeR-R3N7UXmJS5u1z_xHtCjAEPsnLbQ6swznjWVN419OkB-Vv8pXDPAvhi-dQgPIir0HGdJ7J_IXZBgqdDxrc1CR9bdsFdlaohQdE6WUNKUPvnmkHZoJirv5PStCGeXDqTWh65sF1LyuCL9omnjV2bMIoOkmdny8mq8M6t8bMu1Zc6E3IcsKSHEDsvGK-FqTSlmzIq7kaxyf_Hwj0pB85X3WXLvv9YJyNjswN1uQE4vv8N_VS0dXkw==",
+          "image": "https://ads-partners.coupang.com/image1/38sTnd3tUeSvVmxx38vXEsElt_8driTd1IRwhgPlQGVW63bFHctL3ypOOnbXzeAjzcFLt9RGHdHo8dXV58IrIky486Ch2ZgSRjMURpjflZTOtvMesf6d6fPpjDIbpal3UEMi3wzyDmJPmfu3yYxF9O9v-kgWLR4A8LfNgZUjM24gVXpnQsiQGRY9irsbZdoHaoiSVD9Wv3GN6xfNTFBAj0dkDBQu9OLsCeWPJuF0VdOKpD7oCYnbobQ22tMMLl40O5gG3fOrG5fHZB1WdfjW_1oCCbR2-Q8TxJC8nackpowhexEIZF7UuXCMlXEj2CjlYfVe_EEKmsWQTIqpnjM5lKy06Mv0NSPbt6jzfDGjx2_jNgnK2gOX05FS9LaMG37_FxBHECja_3PXcGh5B3bueq8WU_1yXJJjh65daONbZVENDHOB-rCl2QI1ATfS7NYF4lmRoeirDoiyaTFQNXKI41izXh36l-WV6IuAGp9_MUnzKh-HZK2Lg7LklmD3t0CjF7M7HrszoQxXxBh4jNHECjsEpKQ_OBuqVP-51kmmSeKGstVg8_BeOy0Ad-BAOcr3T9J-H4vO467QisXhb0mr4Dmbl3FTb0hV7RCXmuam",
           "url": "https://www.coupang.com/vp/products/8880986145"
         }
       ]
@@ -7339,5 +7316,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-12T23:23:47.056Z"
+  "updatedAt": "2026-11-13T01:51:43.914Z"
 }
