@@ -4,7 +4,7 @@
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
       "keyword": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-      "at": "2026-11-13T15:28:11.338Z",
+      "at": "2026-11-13T22:25:50.403Z",
       "recordedKrw": 31170,
       "found": true,
       "apiPrice": 31170,
@@ -375,7 +375,7 @@
     "iherb-cgn-coq10-100-360": {
       "productId": "9294384581",
       "keyword": "캘리포니아 골드 뉴트리션 CoQ10 USP 등급 유비퀴논 100mg 360정",
-      "at": "2026-11-13T15:28:07.375Z",
+      "at": "2026-11-13T22:25:46.467Z",
       "recordedKrw": 95800,
       "found": true,
       "apiPrice": 95800,
@@ -606,21 +606,24 @@
     "amazon-apple-pencil-pro": {
       "productId": "8106270209",
       "keyword": "애플 펜슬 프로",
-      "at": "2026-11-13T16:34:02.643Z",
-      "recordedKrw": 162870,
+      "at": "2026-11-13T22:25:54.260Z",
+      "recordedKrw": 162900,
       "found": true,
-      "apiPrice": 162900,
+      "apiPrice": 162880,
       "isRocket": true,
-      "diff": 30,
+      "diff": -20,
       "result": "applied"
     },
     "amazon-elgato-stream-deck-mk2": {
       "productId": "8518179410",
       "keyword": "엘가토 스트림 덱 MK.2",
-      "at": "2026-11-13T16:34:06.584Z",
+      "at": "2026-11-13T22:25:58.221Z",
       "recordedKrw": 210900,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 222000,
+      "isRocket": false,
+      "diff": 11100,
+      "result": "applied"
     },
     "ali-baseus-bowie-mh1": {
       "productId": "9257308613",
@@ -721,5 +724,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-13T21:30:52.480Z"
+  "updatedAt": "2026-11-13T22:26:02.275Z"
 }

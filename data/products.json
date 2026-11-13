@@ -4700,7 +4700,7 @@
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 162900,
+    "domesticKrw": 162880,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4724,13 +4724,6 @@
     },
     "image": "https://ads-partners.coupang.com/image1/xJdWIy_XfRI-_gB1xNOv3WX_zQsPt89fuPEo1w1eOwa9O130esBxbc6c43AEDMFmrpQdJ4xuTICNbYpCWHHzawZMK1QAyI4vZELIhcMLEdWH_RTlDKwAa1CicA38mLV33fN7CXgkzsmIzWAmxwvSJPpF7P2k4Wtda-hjb1dsodivsdE4SF8WtjqZLFgKg7V6GRbDFUW3BFwBJ01BhNO-s2wd5eXxJimI0Ao_Vj5vAYE1NA930XgU2SQkswAxkYyHdcfJFuh-V0wo5jcViIVerU5C0-e36q0wBzKLSZSeDUQFESNupX2VmvYiIbzAFRppjabd6FbRZ9L3aURP63M1f5ujA_W6XrRjmxBLQ1FsL3iUvgMW4v5tC83X6dXWvcJpbZS5XORHNH9zIwj8Y_GsqmY08RbFQ2R8zGyyHspxPb16ZtfxbshEe7k6cBCu2YBVlMI6fRPizAfkm7uiU2pYUpWgNW3uzWpRJomsEhe-gg_TPdo4PH3zenqAxO0H-4sL5D0QNxNESq_0WEQmxOx4SK5nTLtt4oVqMMHnpQRhsjslCd5c",
     "priceLog": [
-      {
-        "at": "2026.11.11",
-        "field": "domesticKrw",
-        "from": 166810,
-        "to": 166820,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.11",
         "field": "domesticKrw",
@@ -4793,6 +4786,13 @@
         "from": 162870,
         "to": 162900,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 162900,
+        "to": 162880,
+        "source": "쿠팡"
       }
     ]
   },
@@ -4805,12 +4805,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.14 쿠팡 자동",
     "slug": "amazon-elgato-stream-deck-mk2",
     "domesticUrl": "https://link.coupang.com/a/iAjCVmhKUK",
     "name": "엘가토 스트림 덱 MK.2 (15키, 블랙)",
     "category": "it",
-    "domesticKrw": 210900,
+    "domesticKrw": 222000,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B09738CV2G",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8518179410",
@@ -4847,6 +4847,13 @@
         "field": "domesticKrw",
         "from": 212000,
         "to": 210900,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 210900,
+        "to": 222000,
         "source": "쿠팡"
       }
     ]
