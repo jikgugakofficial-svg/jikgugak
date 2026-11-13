@@ -15,18 +15,18 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-11-13T16:34:22.661Z",
-      "recordedKrw": 18880,
+      "at": "2026-11-13T23:23:11.301Z",
+      "recordedKrw": 18850,
       "found": true,
-      "apiPrice": 18850,
+      "apiPrice": 18860,
       "isRocket": false,
-      "diff": -30,
+      "diff": 10,
       "result": "applied"
     },
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-11-13T16:34:34.550Z",
+      "at": "2026-11-13T23:23:23.299Z",
       "recordedKrw": 13130,
       "found": true,
       "apiPrice": 13130,
@@ -37,7 +37,7 @@
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-13T16:34:58.567Z",
+      "at": "2026-11-13T23:23:47.311Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -48,7 +48,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-13T17:32:27.114Z",
+      "at": "2026-11-13T23:23:51.322Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -56,7 +56,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-13T17:32:30.988Z",
+      "at": "2026-11-13T23:23:55.344Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -530,7 +530,7 @@
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
       "keyword": "애플 에어팟 프로 3",
-      "at": "2026-11-13T16:34:38.586Z",
+      "at": "2026-11-13T23:23:27.394Z",
       "recordedKrw": 308000,
       "found": true,
       "apiPrice": 308000,
@@ -541,7 +541,7 @@
     "amazon-sony-wf-1000xm5": {
       "productId": "8051760807",
       "keyword": "소니 WF-1000XM5 노이즈캔슬링 이어폰",
-      "at": "2026-11-13T16:34:42.539Z",
+      "at": "2026-11-13T23:23:31.288Z",
       "recordedKrw": 256810,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -549,23 +549,26 @@
     "amazon-logitech-g-pro-x-superlight-2": {
       "productId": "9606305559",
       "keyword": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
-      "at": "2026-11-13T16:34:46.587Z",
+      "at": "2026-11-13T23:23:35.385Z",
       "recordedKrw": 166000,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 215000,
+      "isRocket": false,
+      "diff": 49000,
+      "result": "held"
     },
     "ali-moondrop-space-travel-2": {
       "productId": "9764598863",
       "keyword": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
-      "at": "2026-11-13T16:34:50.610Z",
+      "at": "2026-11-13T23:23:39.329Z",
       "recordedKrw": 56070,
       "found": false,
-      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "ali-redragon-k617-fizz": {
       "productId": "7795587320",
       "keyword": "레드드래곤 K617 피즈 60% 기계식 키보드",
-      "at": "2026-11-13T16:34:54.544Z",
+      "at": "2026-11-13T23:23:43.273Z",
       "recordedKrw": 68600,
       "found": true,
       "apiPrice": 68600,
@@ -628,7 +631,7 @@
     "ali-baseus-bowie-mh1": {
       "productId": "9257308613",
       "keyword": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰",
-      "at": "2026-11-13T16:34:10.590Z",
+      "at": "2026-11-13T23:22:59.350Z",
       "recordedKrw": 176600,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -636,7 +639,7 @@
     "ali-moondrop-chu2": {
       "productId": "9725175748",
       "keyword": "문드롭 츄2 유선 인이어 이어폰",
-      "at": "2026-11-13T16:34:14.568Z",
+      "at": "2026-11-13T23:23:03.326Z",
       "recordedKrw": 98800,
       "found": true,
       "apiPrice": 98800,
@@ -647,7 +650,7 @@
     "ali-fosi-q4": {
       "productId": "7401672495",
       "keyword": "포시오디오 Q4 USB DAC 헤드폰 앰프",
-      "at": "2026-11-13T16:34:18.658Z",
+      "at": "2026-11-13T23:23:07.316Z",
       "recordedKrw": 101740,
       "found": true,
       "apiPrice": 101740,
@@ -658,7 +661,7 @@
     "ali-ugreen-nexode-air-65w": {
       "productId": "9780240448",
       "keyword": "유그린 넥소드 에어 65W GaN 초소형 충전기",
-      "at": "2026-11-13T16:34:26.596Z",
+      "at": "2026-11-13T23:23:15.350Z",
       "recordedKrw": 53900,
       "found": true,
       "apiPrice": 53900,
@@ -669,10 +672,13 @@
     "ali-baseus-bowie-mc2-air": {
       "productId": "9685144131",
       "keyword": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
-      "at": "2026-11-13T16:34:30.704Z",
+      "at": "2026-11-13T23:23:19.343Z",
       "recordedKrw": 68900,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 68900,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     },
     "ali-simgot-ew300": {
       "productId": "8797291766",
@@ -724,5 +730,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-13T22:26:02.275Z"
+  "updatedAt": "2026-11-13T23:23:59.529Z"
 }
