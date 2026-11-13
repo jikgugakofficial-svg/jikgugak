@@ -134,7 +134,31 @@
       "found": true,
       "apiPrice": 41212,
       "result": "applied"
+    },
+    "ali-simgot-ew300": {
+      "itemId": "1005007543694300",
+      "at": "2026-11-13T05:42:38.044Z",
+      "recordedKrw": 82142,
+      "found": true,
+      "apiPrice": 82142,
+      "result": "same"
+    },
+    "ali-kz-pr3": {
+      "itemId": "1005007805659342",
+      "at": "2026-11-13T05:42:40.716Z",
+      "recordedKrw": 35693,
+      "found": true,
+      "apiPrice": 35693,
+      "result": "same"
+    },
+    "ali-truthear-zero-blue2": {
+      "itemId": "1005008606126729",
+      "at": "2026-11-13T05:42:41.159Z",
+      "recordedKrw": 75715,
+      "found": true,
+      "apiPrice": 75715,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-13T04:40:25.733Z"
+  "updatedAt": "2026-11-13T05:42:42.026Z"
 }
