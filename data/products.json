@@ -65,11 +65,11 @@
     "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.11.12 쿠팡 자동",
+    "checkedAt": "2026.11.13 쿠팡 자동",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28078,
-    "domesticKrw": 18960,
+    "domesticKrw": 18940,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -93,13 +93,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 24390,
-        "to": 27260,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -161,6 +154,13 @@
         "field": "domesticKrw",
         "from": 23560,
         "to": 18960,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 18960,
+        "to": 18940,
         "source": "쿠팡"
       }
     ]
@@ -1393,7 +1393,7 @@
     "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-    "priceKrw": 42544,
+    "priceKrw": 42423,
     "domesticKrw": 40900,
     "domesticSource": "쿠팡 로켓배송 화이트 일반판매가 · 와우 회원가 38,850원 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
@@ -1419,13 +1419,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "priceKrw",
-        "from": 44214,
-        "to": 44660,
-        "source": "알리"
-      },
       {
         "at": "2026.11.06",
         "field": "priceKrw",
@@ -1487,6 +1480,13 @@
         "field": "priceKrw",
         "from": 41126,
         "to": 42544,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 42544,
+        "to": 42423,
         "source": "알리"
       }
     ]
@@ -4895,14 +4895,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-fosi-q4",
     "domesticUrl": "https://link.coupang.com/a/iAjCVAb6hU",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmjFQcc9fZcBZyKU6KI0fH7mquEK3lHeqFaaesEXTPKQawzRS89FVZXoHbCU8UhGXfvw67PMJMSV3lZuR3kRS6GEeB0msB53fiQTum5n77aV1TAzGw8kaWsQGaKEzsAbWaV2cSE29BIYdv0DmKBimhAbBQw6uMqXepl1R4pfcvgvQdMKpgj72F1ZAHkdQZUWjHIM9d9FUvvrYtssgeGQMfhGNIWYDBbuuO1CNbIrbs2YyiFIehdJXLcGaEz8l0X1nA34GT0ys7D380lAClKeIQFZsdLmmiVAtdNRQQEsQUbysgxq5OGrUQowbcxiGLWS9IgD7LxNb0h5YKsKXLE0G8jxQZAhlaS4UFSTTfdDmnGXAy2S00Dp3LDZdod9hPKeOnTefEpJToIy4FIKojVmPYvZC8NueLbitSJ1bavvjsivVhK4rmeVd4tfOYPWQPNylC1tH34NZI7GWWm32Yn5QyxJDnp5tiyFZ7iy4RggECaryqLJoiMGrYjCN1Klo7hFtBmqC0GloZkLUt2gmPTwEAwZ7RF4C0ddGGuFkhJKRUTwZ6ld4J1iXHpWll0USkzud4koVWrOt5bx9mSjbjlQeVl4AHft7oETaOQE4rJirIK4oRy1TWJjvOZhGekuarqiXSvmQ1YhN0wF0FVFv7qmCKCykKqks8mYb7yBpzmNTrqOMPK6e4vLPk4NPmdsEyeKs2sakIGwj2oDi0",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/A5b901685149643f1a661b7d54a26db6f6.jpg",
     "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
     "category": "audio",
-    "priceKrw": 47150,
+    "priceKrw": 47027,
     "domesticKrw": 102070,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7401672495",
@@ -4940,6 +4940,13 @@
         "from": 103800,
         "to": 102070,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 47150,
+        "to": 47027,
+        "source": "알리"
       }
     ]
   },
