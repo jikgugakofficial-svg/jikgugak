@@ -1,0 +1,349 @@
+{
+  "date": "2026-11-13",
+  "source": "web(알리 제휴 API 검색·item + 쿠팡 실시간 검색)",
+  "candidates": [
+    {
+      "name": "심고 EW300 1DD+평판+PZT 하이브리드 유선 이어폰",
+      "brand": "SIMGOT",
+      "model": "EW300 (DSP 아닌 3.5mm 기본형)",
+      "category": "audio",
+      "aliId": "1005007543694300",
+      "ali": {
+        "productId": "1005007543694300",
+        "title": "SIMGOT EW300 1DD+1 평면+1PZT 하이브리드 IEM (Linsoul Audio Store)",
+        "apiPrice": 82142,
+        "searchMin": 94000,
+        "orders": 881,
+        "rating": "96.5%",
+        "option": "item API 기본 옵션가(색·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "8572669541",
+        "name": "린소울 심고 EW300 1DD+1Planar+1PZT 하이브리드 드라이버 이어 모니터",
+        "price": 168700,
+        "rocket": false
+      },
+      "diffPct": 51.3,
+      "diffKrw": 86558,
+      "why": "1) 찾는 사람: 알리 881건·평점 96.5%, 입문 하이파이 IEM 인기 모델(알리 검색 상위 4개가 EW300) 2) 같은 제품 짝: 쿠팡 3P도 'EW300 1DD+1Planar+1PZT' 같은 모델명(린소울 재판매) 3) 판정 쓸모: 약 8.7만 원 차이·8만 원대라 직구각 확실, 면세 한도 이내(유선이라 KC 전파인증 불필요)",
+      "warn": "알리 EW300(기본)과 EW300 DSP(USB-C 내장 DAC, 107,000)는 다른 모델이라 DSP 옵션을 고르면 안 됨. 쿠팡 판매자는 린소울 재판매인 3P. 알리 상품은 Linsoul 스토어(유통사). 바코드·모델번호 확인, 케이블 단자(3.5/4.4) 옵션 확인"
+    },
+    {
+      "name": "KZ ZSN Pro 2 1BA+1DD 하이브리드 유선 이어폰",
+      "brand": "KZ",
+      "model": "ZSN Pro 2 (1BA+1DD)",
+      "category": "audio",
+      "aliId": "1005006997565403",
+      "ali": {
+        "productId": "1005006997565403",
+        "title": "KZ ZSN Pro 2 하이브리드 1BA+1DD 이어폰 (Stone's Store)",
+        "apiPrice": 17540,
+        "searchMin": 13450,
+        "orders": 5653,
+        "rating": "98.0%",
+        "option": "item API 기본 옵션가(색·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "8502968328",
+        "name": "KZ ZSN PRO 2, 1BA+1DD 하이브리드 드라이버 IEM",
+        "price": 28500,
+        "rocket": false
+      },
+      "diffPct": 38.5,
+      "diffKrw": 10960,
+      "why": "1) 찾는 사람: 알리 5,653건·평점 98.0%, 알리 이어폰 입문 추천 단골 2) 같은 제품 짝: 쿠팡 'KZ ZSN PRO 2 1BA+1DD' 같은 모델명(3P) 3) 판정 쓸모: 차이 약 1.1만 원·38%, 2만 원 미만 소액이라 면세·관세 문제 없음, 다만 차이가 1만 원대 초반이라 가격 변동 시 애매로 바뀔 수 있음",
+      "warn": "알리 다른 스토어(Earphones Store 13,450·KZ Franchised 14,700)가 더 싼데 판매자·옵션(마이크 유무·색)이 달라 가격폭이 있음. 마이크 포함/미포함 옵션 맞출 것. 쿠팡은 3P"
+    },
+    {
+      "name": "KZ Castor Pro 2DD 유선 이어폰",
+      "brand": "KZ",
+      "model": "Castor PRO (2DD)",
+      "category": "audio",
+      "aliId": "1005011653973175",
+      "ali": {
+        "productId": "1005011653973175",
+        "title": "KZ Castor PRO 캐스터 프로 2DD 인이어 이어폰 (Stone's Store)",
+        "apiPrice": 20236,
+        "searchMin": 13459,
+        "orders": 7572,
+        "rating": "98.0%",
+        "option": "item API 기본 옵션가(색·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "9692609954",
+        "name": "KZ 캐스터 프로 유선 인이어 이어폰 다이나믹 드라이버 하이엔드 튜닝",
+        "price": 30400,
+        "rocket": false
+      },
+      "diffPct": 33.4,
+      "diffKrw": 10164,
+      "why": "1) 찾는 사람: 알리 7,572건·평점 98.0%, 튜닝 가능한 2DD로 입문자 검색 많음 2) 같은 제품 짝: 쿠팡 'KZ 캐스터 프로' 같은 모델명(3P, 다른 등록 48,100은 더 비쌈) 3) 판정 쓸모: 차이 약 1만 원·33%로 기준선 근처, 2만 원대라 면세 문제 없음",
+      "warn": "차이가 1만 원을 겨우 넘어 가격이 바뀌면 애매로 떨어질 수 있음(알리 최저 13,459 스토어도 있음). 케이블 마이크 유무·색상 옵션 확인. 쿠팡 3P, 바코드 확인"
+    },
+    {
+      "name": "KZ PR3 13.2mm 평판 드라이버 유선 이어폰",
+      "brand": "KZ",
+      "model": "PR3 (13.2mm 평면 드라이버)",
+      "category": "audio",
+      "aliId": "1005007805659342",
+      "ali": {
+        "productId": "1005007805659342",
+        "title": "KZ PR3 인이어 유선 이어폰, 평면 드라이버, 13.2mm (Stone's Store)",
+        "apiPrice": 35693,
+        "searchMin": 30553,
+        "orders": 798,
+        "rating": "98.0%",
+        "option": "item API 기본 옵션가(색·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "8530166420",
+        "name": "KZ PR3, 13.2mm 평면 드라이버 IEM",
+        "price": 57590,
+        "rocket": false
+      },
+      "diffPct": 38,
+      "diffKrw": 21897,
+      "why": "1) 찾는 사람: 알리 798건·평점 98.0%, 평판형 입문 IEM으로 후기 많은 편 2) 같은 제품 짝: 쿠팡 'KZ PR3 13.2mm 평면 드라이버 IEM' 같은 모델명(다른 등록 85,900은 더 비쌈) 3) 판정 쓸모: 차이 약 2.2만 원·38%로 직구각 확실, 3만 원대라 면세 이내",
+      "warn": "마이크 유무(PR3 mic/no mic)·색상 옵션 확인. 쿠팡 3P. 바코드 확인"
+    },
+    {
+      "name": "트루히어 x 크리날클 제로:블루2(ZERO:BLUE2) 이중 다이내믹 인이어",
+      "brand": "Truthear",
+      "model": "ZERO:BLUE2 (3.5mm, 이중 DD)",
+      "category": "audio",
+      "aliId": "1005008606126729",
+      "ali": {
+        "productId": "1005008606126729",
+        "title": "TRUTHEAR X Crinacle Zero:BLUE2 유선 인이어 3.5mm (Shenzhenaudio Store)",
+        "apiPrice": 75715,
+        "searchMin": 77300,
+        "orders": 257,
+        "rating": "94.5%",
+        "option": "item API 기본 옵션가(제목상 3.5mm 플러그)"
+      },
+      "coupang": {
+        "productId": "8704415331",
+        "name": "TRUTHEAR 트루히어 x 크리나클 제로BLUE2 듀얼 다이내믹 드라이버 인이어 탈착식 케이블 3.5mm",
+        "price": 136900,
+        "rocket": false
+      },
+      "diffPct": 44.7,
+      "diffKrw": 61185,
+      "why": "1) 찾는 사람: 알리 257건, 가성비 IEM으로 알려진 제로 시리즈(이미 뺀 제로:레드의 후속) 2) 같은 제품 짝: 쿠팡 3P도 'ZERO:BLUE2 3.5mm 탈착식 케이블' 같은 모델명(다른 등록 143,300) 3) 판정 쓸모: 차이 약 6.1만 원·45%로 직구각 확실, 7만 원대라 면세 이내",
+      "warn": "알리 판매자 Shenzhenaudio는 공식 스토어가 아님(후기 94.5%)이라 정품 여부 유의. 쿠팡도 3P. 3.5mm와 4.4mm 옵션 가격이 다를 수 있어 알리 옵션을 3.5mm에 맞출 것"
+    },
+    {
+      "name": "히디즈 S9 Pro Plus 마르타 USB DAC 헤드폰 앰프 동글",
+      "brand": "Hidizs",
+      "model": "S9 Pro Plus Martha (ES9038Q2M, 3.5/4.4mm)",
+      "category": "audio",
+      "aliId": "1005009179002345",
+      "ali": {
+        "productId": "1005009179002345",
+        "title": "Hidizs S9 Pro Plus Martha HiFi 밸런스드 동글 USB DAC AMP (hidizs Official Store)",
+        "apiPrice": 78970,
+        "searchMin": 81400,
+        "orders": 12,
+        "rating": "95.0%",
+        "option": "item API 기본 옵션가(공식 스토어, 판매 12건). 다른 판매자 BrightAudio 76,400(64건)은 item API 실패"
+      },
+      "coupang": {
+        "productId": "9350821969",
+        "name": "HIDIZS S9 프로 밸런스드 MARTHA HIFI 동글 플러스 DAC",
+        "price": 143400,
+        "rocket": false
+      },
+      "diffPct": 44.9,
+      "diffKrw": 64430,
+      "why": "1) 찾는 사람: 알리 공식 스토어 판매 12건(BrightAudio 64건), DAC 동글은 이어폰 사는 사람이 같이 찾는 품목 2) 같은 제품 짝: 쿠팡 3P도 'HIDIZS S9 Pro Plus Martha' 같은 모델명(다른 등록 146,650·154,000) 3) 판정 쓸모: 차이 약 6.4만 원·45%로 직구각 확실, 8만 원 미만이라 면세 이내",
+      "warn": "판매 12건으로 적음(공식 스토어라 정품 가능성은 높음). 쿠팡은 모두 3P 재판매라 AS가 다름. 전자제품 인증(KC) 필요 여부 확인. 바코드·모델번호 확인"
+    },
+    {
+      "name": "KZ ZS10 Pro 2 1DD+4BA 하이브리드 유선 이어폰",
+      "brand": "KZ",
+      "model": "ZS10 PRO 2 (1DD+4BA, 4단계 튜닝 스위치)",
+      "category": "audio",
+      "aliId": "1005006820582639",
+      "ali": {
+        "productId": "1005006820582639",
+        "title": "KZ ZS10 Pro 2 금속 이어폰 4단계 튜닝 스위치 (KZ Global Factory Store)",
+        "apiPrice": 29894,
+        "searchMin": 29350,
+        "orders": 1402,
+        "rating": "94.7%",
+        "option": "item API 기본 옵션가(색·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "8039879552",
+        "name": "Linsoul x KZ ZS10 PRO 2, 1DD+4BA 하이브리드 IEM",
+        "price": 77640,
+        "rocket": false
+      },
+      "diffPct": 61.5,
+      "diffKrw": 47746,
+      "why": "1) 찾는 사람: 알리 1,402건, ZS10 시리즈는 국내 입문 IEM 단골 검색어 2) 같은 제품 짝: 쿠팡 'Linsoul x KZ ZS10 PRO 2 1DD+4BA' 같은 모델명(다른 등록 46,250은 'ZS10'만 표기돼 Pro 2인지 확인 불가) 3) 판정 쓸모: 차이 약 4.8만 원·61%로 직구각 확실, 3만 원대라 면세 이내",
+      "warn": "쿠팡 46,250 등록(ZS10 금속 이어폰)이 Pro 2라면 차이가 1.6만 원·35%로 줄어듦: 매니저가 쿠팡 일반 주소로 모델 확인. 알리 평점 94.7%로 낮은 편. 마이크 유무·색상 옵션 확인"
+    },
+    {
+      "name": "트루히어 헥사(HEXA) 1DD+3BA 하이브리드 유선 이어폰",
+      "brand": "Truthear",
+      "model": "HEXA (1DD+3BA, 0.78mm 2핀)",
+      "category": "audio",
+      "aliId": "1005004929936956",
+      "ali": {
+        "productId": "1005004929936956",
+        "title": "Truthear HEXA 하이브리드 이어폰 0.78 2핀 1DD+3BA (Shenzhenaudio Store)",
+        "apiPrice": 104841,
+        "searchMin": 107000,
+        "orders": 150,
+        "rating": "97.7%",
+        "option": "item API 기본 옵션가(색·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "7208271365",
+        "name": "트루히어 Hexa 1DD+3BA 하이브리드 인이어 이어폰",
+        "price": 140980,
+        "rocket": false
+      },
+      "diffPct": 25.6,
+      "diffKrw": 36139,
+      "why": "1) 찾는 사람: 알리 150건·평점 97.7%, 트루히어 대표 하이브리드 IEM 2) 같은 제품 짝: 쿠팡 3P도 'Hexa 1DD+3BA 하이브리드' 같은 모델명(다른 등록 197,800은 더 비쌈) 3) 판정 쓸모: 차이 약 3.6만 원·26%로 직구각이나 10만 원대라 환율·가격 변동에 민감",
+      "warn": "Shenzhenaudio 스토어는 공식 아님. 10만 원대 단품이라 환율 변동으로 애매가 될 수 있음. 케이블·색상 옵션 확인, 쿠팡 3P"
+    },
+    {
+      "name": "문드롭 아리아2(ARIA 2) 다이내믹 IEM",
+      "brand": "Moondrop",
+      "model": "ARIA 2 (0.78mm 2핀, 3.5mm/4.4mm)",
+      "category": "audio",
+      "aliId": "1005007119609734",
+      "ali": {
+        "productId": "1005007119609734",
+        "title": "MoonDrop ARIA2 고성능 인이어 IEM (BrightAudio Store)",
+        "apiPrice": 116492,
+        "searchMin": 119000,
+        "orders": 13,
+        "rating": "90.0%",
+        "option": "공식 스토어(1005006182121651, 672건·96.1%) item API가 ApiCallLimit로 계속 실패해 BrightAudio 리스팅으로 확인, 검색가는 둘 다 119,000. 플러그(3.5/4.4) 옵션 미확인"
+      },
+      "coupang": {
+        "productId": "9179384074",
+        "name": "MoonDrop Aria 2 HIFI 3.5mm 4.4mm 0.78mm 2pin IEM",
+        "price": 152850,
+        "rocket": false
+      },
+      "diffPct": 23.8,
+      "diffKrw": 36358,
+      "why": "1) 찾는 사람: 알리 공식 스토어 672건·평점 96.1%, 문드롭 아리아2는 국내 입문 IEM 인기 모델 2) 같은 제품 짝: 쿠팡 3P도 'MoonDrop Aria 2 3.5/4.4mm 0.78mm 2pin' 같은 모델명(다른 등록 287,000은 훨씬 비쌈) 3) 판정 쓸모: 차이 약 3.6만 원·24%로 직구각이나 12만 원대라 환율·가격 변동에 민감",
+      "warn": "알리 공식 스토어 item 호출이 실패해 매니저가 알리 일반 주소로 가격 재확인 필요. 쿠팡 3P 최저가 152,850(3.5/4.4mm 함께 표기라 플러그 옵션 확인). 바코드 확인"
+    },
+    {
+      "name": "KZ ZS12 Pro 2 1DD+5BA 하이브리드 유선 이어폰",
+      "brand": "KZ",
+      "model": "ZS12 PRO 2 (1DD+5BA)",
+      "category": "audio",
+      "aliId": "1005012724273280",
+      "ali": {
+        "productId": "1005012724273280",
+        "title": "KZ ZS12 PRO 2 1DD+5BA 하이브리드 HiFi 인이어 (KZ Earbuds Authentic Store)",
+        "apiPrice": 47159,
+        "searchMin": 42663,
+        "orders": 486,
+        "rating": "96.2%",
+        "option": "item API 기본 옵션가(색·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "9217585331",
+        "name": "Keephifi KZ ZS12 PRO 2 플래그십급 슈퍼리니어 1DD+5BA 하이브리드 HIFI IEM",
+        "price": 60200,
+        "rocket": true
+      },
+      "diffPct": 21.7,
+      "diffKrw": 13041,
+      "why": "1) 찾는 사람: 알리 486건·평점 96.2%, KZ 플래그십 라인 신모델 2) 같은 제품 짝: 쿠팡 'KZ ZS12 PRO 2 1DD+5BA' 같은 모델명(Keephifi 3P, 로켓 표기) 3) 판정 쓸모: 차이 약 1.3만 원·22%로 기준선 바로 위라 가격이 조금만 바뀌어도 애매로 떨어질 수 있음, 4만 원대라 면세 이내",
+      "warn": "기준선(20%·1만 원) 근처라 가장 약한 후보. 쿠팡 로켓 표기라 배송비는 무료일 수 있음(일반 주소로 확인). 마이크 유무·색상 옵션 확인"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Tangzu Waner 2 / Waner SG2",
+      "reason": "알리 24,900(Waner2 BrightAudio)·27,350(SG 2 공식) vs 쿠팡 탕주 상관완아2 34,500: 차이 1만 원 미만, SG 2와 쿠팡 모델 일치 확인 불가"
+    },
+    {
+      "name": "Tangzu Wu Zetian Legend Edition",
+      "reason": "알리 item API comparable:false, 판매 8건, 가격 30만 원대라 면세 한도 초과 가능성 큼. 쿠팡 'Legend' 609,300(린솔)과 차이는 큼"
+    },
+    {
+      "name": "7Hz Timeless II",
+      "reason": "쿠팡 238,400이 알리 269,000보다 쌈"
+    },
+    {
+      "name": "Simgot EA500 LM",
+      "reason": "쿠팡 110,000(심갓 정발)이 알리 119,800보다 쌈"
+    },
+    {
+      "name": "Simgot EW100",
+      "reason": "알리 23,800~26,900(판매 50건 이하)인데 쿠팡 같은 모델 검색에 안 잡힘"
+    },
+    {
+      "name": "Moondrop Dawn Pro 2",
+      "reason": "알리 71,300 vs 쿠팡 81,800: 차이 12.8%로 20% 미만"
+    },
+    {
+      "name": "Moondrop Quarks",
+      "reason": "쿠팡에 같은 모델(Quarks) 없음(Quark2 x Muse Dash는 다른 모델)"
+    },
+    {
+      "name": "KZ EDX Pro",
+      "reason": "알리 7,840(판매 28,845건) vs 쿠팡 14,000: 차이 6천 원대로 1만 원 미만"
+    },
+    {
+      "name": "CCA CRA",
+      "reason": "알리 12,550 vs 쿠팡 로켓 18,000: 차이 5천 원대로 1만 원 미만"
+    },
+    {
+      "name": "KZ ZEX Pro / KZ PR2",
+      "reason": "ZEX Pro는 쿠팡 같은 모델 검색에 안 잡힘. PR2는 알리 판매 39건·15건으로 적어 후순위(쿠팡 린솔 111,400 대비 알리 44,600으로 차이는 큼, 필요하면 재검토)"
+    },
+    {
+      "name": "Letshuoer S12",
+      "reason": "쿠팡 같은 모델 검색에 안 잡힘(알리 140,604, 공식 스토어 220건)"
+    },
+    {
+      "name": "FiiO FD3 / FD3 Pro",
+      "reason": "쿠팡은 FD3 Pro 281,020, 알리 FD3/FD3 프로 124,570은 옵션 구분 불가(item API에 옵션 미표시): 같은 옵션 확인 안 되어 뺌"
+    },
+    {
+      "name": "Keychron(K2·Q1 Max·K3 Max·C1/C2 Pro·M6)",
+      "reason": "알리 Keychron 공식 스토어 키보드는 판매 1~3건이고 쿠팡 같은 모델 검색에 안 잡힘 또는 구성 다름"
+    },
+    {
+      "name": "Epomaker TH80 V2 Pro",
+      "reason": "알리 92,200(ANSI US)이 쿠팡 71,280(75배열)보다 비쌈"
+    },
+    {
+      "name": "Attack Shark R3",
+      "reason": "쿠팡 54,500이 알리 99,900보다 쌈"
+    },
+    {
+      "name": "VXE R1 SE / R1 SE+",
+      "reason": "알리 22,950 vs 쿠팡 ATK VXE R1 SE+ 28,900: 차이 6천 원대로 1만 원 미만(SE와 SE+ 모델도 다름)"
+    },
+    {
+      "name": "Wowstick 1F+ Pro",
+      "reason": "알리 42,100 vs 쿠팡 49,900: 차이 15.6%로 20% 미만"
+    },
+    {
+      "name": "Ulanzi TT88 셀카봉 삼각대",
+      "reason": "알리 24,082 vs 쿠팡 울란지 30,000: 차이 1만 원 미만"
+    },
+    {
+      "name": "Blackdog 캠핑 랜턴",
+      "reason": "알리 20,227 vs 쿠팡 블랙독 랜턴 2.0 23,900: 차이 작음"
+    },
+    {
+      "name": "HOTO PIXELDRIVE",
+      "reason": "알리 8만~10만 원대인데 판매 5건 이하이고 쿠팡 같은 모델 검색에 안 잡힘"
+    }
+  ],
+  "notes": "추천 순위: 1 EW300, 2 ZSN Pro 2, 3 Castor Pro, 4 PR3, 5 Zero:Blue2, 6 Hidizs S9 Pro Plus, 7 ZS10 Pro 2, 8 Hexa, 9 Aria 2, 10 ZS12 Pro 2. 쿠팡 API 403·429 없음. 알리 item API가 아리아2 공식(1005006182121651)·히디즈 BrightAudio(1005006514291120)는 ApiCallLimit로 계속 실패. 알리 가격은 item API 기본가(배송비 별도·옵션 미표시), 쿠팡은 모두 3P(바코드·모델번호 미확인)이므로 매니저가 일반 주소로 같은 옵션 확인."
+}

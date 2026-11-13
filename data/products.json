@@ -5075,5 +5075,204 @@
         "source": "알리"
       }
     ]
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.13 쿠팡 API 매니저",
+    "slug": "ali-simgot-ew300",
+    "domesticUrl": "https://link.coupang.com/a/iDBoDSbfW0",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4PLXIDZysKBfVMy6eZsCnUNbWjmn49lXFM16vLUwbw2uMZKfCipilPbbLv4vFQVLQXN2Vu58G2Mc6Wv9jYQpumBzmbg0cYbeDZ4zOQ9Rr3N3hlrdDu7oah9RJYP9XnlwpyoIi1BVUBAMmR6b9OoH2YuzP2bmDskTXYXqVzS5bEKWUoq5LEYxDTXM01AB9ifpgVqhSy9brK8U2cOT7xH2aW1SBthRBR7XQBfF1tLj2G3YjWLi2T6zUW1OV8FmWLYjWzjOlnxwBLTaiqg7cq2A0q4x3S1Hznpr44iDGPWvqeuBL5TUPNliZRhjmSqoFheRI5Eq2yV0xTe5WH9t30uOyrepE0Ug346gwaQZa5AF0yJMekViK4ZMgXevA9U2MVcNULmz2wW4rU6MXIssFnrBZuyalx7ebQDHI5Cd4VvHzvoUCCEOrjxqdIA3yVuuneGbG0QK8ovPO3jTcnpdWaIHB8GSMc6J3VOOJuxXeCGY8Gk32Wht3nrgepDTQM78hpVbAcEwtFY4V8ZABJkwS33oC95OYMc6kguQOj0DMV1aJhXEJX0zzd7DJ121aUvS37xo3PowJfV83QpgCMdwAUBJcYnypOntfF36VxYRcYv2FCgfN6L4JYkoMmRuONuNy5hfp0t5dnCrJT9wtCs4AjChVh5vTcL006C7u869DbCjGX1m7C9DSwDZJKWyHSPIf4fh0aq5QTpEf2RlS",
+    "name": "심고 EW300 하이브리드 유선 이어폰 (3.5mm)",
+    "category": "audio",
+    "priceKrw": 82142,
+    "domesticKrw": 154300,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8797291766",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007543694300.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "EW300 DSP(USB-C 내장 DAC)는 다른 모델이에요. 알리에서 기본형을 고르세요",
+      "케이블 단자(3.5mm/4.4mm) 옵션마다 가격이 다를 수 있어요. 결제 화면에서 확인하세요"
+    ],
+    "summary": [
+      "심고 EW300 유선 이어폰을 알리 린소울 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "SIMGOT EW300 (1DD+1평면+1PZT, 기본형·3.5mm)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(린소울 심고 EW300 1DD+1Planar+1PZT)과 알리 제휴 API 제목(Linsoul Audio Store, SIMGOT EW300)으로 맞춤(11/13 매니저). EW300 DSP(USB-C)는 다른 모델",
+      "checkedAt": "2026.11.13"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb219353d0a004168906076fdef9d383cU.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.13 쿠팡 API 매니저",
+    "slug": "ali-kz-pr3",
+    "domesticUrl": "https://link.coupang.com/a/iDBoDWyajY",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoQLj5PUmsVwKkDK4jiTkB74RukE7hXMAPWjdoLFtzJw9rzLzY6jRHIyVZw1j7AubDLP31xQVSTXbFUviJ4jniIwN3P8Euf5L8Gv0l1n8btu8M0doENqYlyNZpZaSs3MwN0wYY1Kui4lBSjd7VTbMHFjQL1tqFL4K50eZc0cmvCHb5rZ5GgkweldTayVmSGWpg2MM46dXYt0hvd4zu50yUFdbQ3uI8kCBsWjoUwJ5yh0vrsvcjUtVGkn2b2fO0isQjWcp1jzCj5QGbzpR2j7XgYmu5wDv5Zg3HZXNFw8mOyTZOhzOV0Yd3CZL7zbiO8MzhMY7v06dh3JB9wSWsmHvnNP7Yxk4XewDxWJ5kJqQnwvqpIGtyOJ7Zw3CQbQVN9tkBEvtIRF4p5i2pxfRP55OgZ4trRl9ruEFE1FbfRCYB3YeMwEZ9iEHsDybQlvGRGvD1XHWH9YytXnoraEwpBXlFx21QWGE4tMMAJZOs30WDs0r6YJquOQXVpWd0igr1CBCu42KxpaA6wWnf0mezpPbVstk3fVH0g60o6PgMUxYzXaqOVdkuCjpBcTsOxnAnx4YnuKCQwHJg5MRqstbJc6AvKn7PbSozQP9Z8DrJ9FBJa6EdmR7JCVvXleHIIC3BPoGpBmKz2FeXxzL0uDFl1PMpSvD1Qw4udALP9brPoZfgQbgoJLRKE5mJgeLe6aNLXB4ZTbKOYuTTyaDb",
+    "name": "KZ PR3 평면 드라이버 유선 이어폰",
+    "category": "audio",
+    "priceKrw": 35693,
+    "domesticKrw": 57590,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8530166420",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007805659342.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "마이크 유무·색상 옵션마다 가격이 달라요. 결제 화면에서 확인하세요",
+      "PR2·듀오닉 등 다른 KZ 평면 이어폰과 헷갈리지 마세요"
+    ],
+    "summary": [
+      "KZ PR3 평면 드라이버 이어폰을 알리와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "KZ PR3 (13.2mm 평면 드라이버)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(KZ PR3, 13.2mm 평면 드라이버 IEM)과 알리 제휴 API 제목(Stone's Store, KZ PR3 13.2mm)으로 맞춤(11/13 매니저). 마이크 유무·색은 따로 맞추지 않음",
+      "checkedAt": "2026.11.13"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7098c794e3e547e7a731472188cb4d3d8.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.13 쿠팡 API 매니저",
+    "slug": "ali-truthear-zero-blue2",
+    "domesticUrl": "https://link.coupang.com/a/iDBoD2z4zA",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4kHHbp3TDqGITuVjyLBOJb2rCkBj0zAzxTSJtOe2Io3RbTVDr9T1HBfvL2hkBfkFc1mvIqYXQitsRzlVwLm46ekub51BmgHVVSaBgpas0b9twRGnz7GkcjNFlYgE8jivOGYCzsIWvSkxJbNwv2F1SrMs0XlYiYToH5c1buUT4QzgvPbcIxUOw1mqpNrUGEIa8DiOkai46Gbe2Aezmkfjo4J7NLijXY6lgZPD449RjvSY5qVTwydVew6F83j4tQtIgAMeW9JeZARslGzUfspa3A3cTMrReO3jMBBRcQrpfII8mnO9KDMbMmz1tDyUfW75Dpi13Vk8RhoSFt0jmg1Co4Uho8o9WWIYGQbe6NDqegtqURf72gSJM5qrGzrXUqiWBu4p21hFAWNlQoJlcDuUSzcnGMYKzwDC7qdyqcjWmXnLF8CompFD7ljYxCTeuHZx1L3hCUbDIfHNnRMyVtD8tpCTxyQgUk2DzYU9YQEQhv1683Ugx5jPWB24R0NZWExDoTpkiMxYoxFy1Rkp9iDWGoEhizGqHVxtbTw169fnVhjUGZJmtQkX51hzz7PwQpPlZ2Ozqw04dBVd1pV37NO8xTOW91OFSXKkGVaY7S6PK1VgOjbXdHgaKSLtCN0Bsw8l3svs84sEoSDszYprI1dPFRUwqeudPrWtmtMDlQrK5ymh8FaPx8YfzyKDK4AfcGDYZfwA1W1cnQWza",
+    "name": "트루히어 x 크리나클 제로:블루2 유선 이어폰 (3.5mm)",
+    "category": "audio",
+    "priceKrw": 75715,
+    "domesticKrw": 136900,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8704415331",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005008606126729.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "알리 판매자는 공식 스토어가 아닌 유통사(Shenzhenaudio)예요",
+      "제로:레드·제로(1세대)는 다른 모델이에요. 4.4mm 옵션은 가격이 달라요"
+    ],
+    "summary": [
+      "트루히어 제로:블루2(3.5mm)를 알리 Shenzhenaudio 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "TRUTHEAR x Crinacle Zero:BLUE2 (듀얼 다이내믹, 3.5mm)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(트루히어 x 크리나클 제로BLUE2 3.5mm)과 알리 제휴 API 제목(Shenzhenaudio Store, Zero:BLUE2 3.5mm)으로 맞춤(11/13 매니저)",
+      "checkedAt": "2026.11.13"
+    },
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0641b0ecadef474892ed1ae398f12e5b1.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.13 쿠팡 API 매니저",
+    "slug": "ali-kz-zsn-pro-2",
+    "domesticUrl": "https://link.coupang.com/a/iDBoD7XW8W",
+    "name": "KZ ZSN Pro 2 하이브리드 유선 이어폰",
+    "category": "audio",
+    "priceKrw": 17540,
+    "domesticKrw": 28500,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8502968328",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006997565403.html",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "마이크 유무·색상 옵션마다 가격이 달라요. 결제 화면에서 확인하세요",
+      "ZSN Pro(1세대)·ZSN Pro X는 다른 모델이에요",
+      "차이가 1만 원 근처라 가격이 조금만 바뀌어도 판정이 바뀔 수 있어요"
+    ],
+    "summary": [
+      "KZ ZSN Pro 2 이어폰을 알리와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "KZ ZSN Pro 2 (1BA+1DD)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(KZ ZSN PRO 2, 1BA+1DD 하이브리드 드라이버 IEM)과 알리 제휴 API 제목(Stone's Store, KZ ZSN Pro 2 1BA+1DD)으로 맞춤(11/13 매니저). 마이크 유무·색은 따로 맞추지 않음. ZSN Pro(1세대)·ZSN Pro X와 다름",
+      "checkedAt": "2026.11.13"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dAoFgA2noAoGy6x2X4FfWfxZvKufh99pJcFD3AWRk48tCjbOcRbgLfEYqCDzcTnf3EOvoN60Wjrg2E2wYmXp1SoXv5t7GY5KkiDDZ97OZcKWRxs6cmNIKbU0qzXsvT0G00z5zxWKuT6OSCqDANNKPYiIejghKElRb2nkNQwZKaNUVN28CfHxIlxAVma5GpjV1Vlze4Vlt6dmFRM3WNcy3C56RiRFiD3cecyQX4pBRdjOCGHffT9GjeQvMCrXN5tWQ6w39YVxDRbsvqkhnVkWL9LgIs1bDBTljryrsNKYQOdOEZjXeH3cqGh14ZAFhAUHAm6awZfRlJjojtRpzO3FiWkgx2CKHF0mYIkGZFOPqPaEvwcjYczZwyHLTOB5NMSrs6wAL3wcnovqICCnFtiN0mokNeVce3840R8kv5ekef6S2OBFv1KELF8aVVIEbnnUIWcrSXwpsxnRpfutkPmyvCvSu7AWh7pZ2hUDYUNHnwhMezNQQha9Jcnm5J6GtIoOEOcwo4cqP7Q1qFQZQ4BiNePuKeZGS5yv3i9hrhPOHIZg69XoP7MZEs7yv4VAHjwDqVaybqtIjgBVOTbHKydLD2D04jTQM4cgYE1vvrw0T8Cy64u9LMaHBRIADpbPqJVVkb7b6m9OPFI89isSvfmlcq9dOrynS4LBCwvyTibCLmU1rtgLM3Qt2MxVbg9eH8uxyIl3txLvC2uM",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3610354feb7b4edd972e176f6bbfb3dct.jpg"
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.13 쿠팡 API 매니저",
+    "slug": "amazon-marshall-emberton-3",
+    "domesticUrl": "https://link.coupang.com/a/iDBoEc0TRI",
+    "name": "마샬 엠버튼 3 블루투스 스피커 (블랙 앤 브라스)",
+    "category": "audio",
+    "domesticKrw": 244810,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "buyUrl": "https://www.amazon.com/dp/B0DDCJMDJC",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9225565449",
+    "risks": [
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "$200 넘으면 관세·부가세가 붙어요",
+      "엠버튼 2·엠버튼 3 SE·윌렌 2는 다른 제품이에요",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "마샬 엠버튼 3(블랙 앤 브라스, 1006884)끼리 비교했어요. 국내 최저가는 쿠팡 판매자 상품이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "쿠팡은 색 옵션마다 가격이 달라(24만~26만 원대) 가장 싼 옵션 기준이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0DDCJMDJC",
+      "model": "Marshall Emberton III 블랙 앤 브라스 (1006884)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(마샬 엠버튼3 블루투스 스피커, 옵션가 244,810~268,000)과 아마존 ASIN(웹 검색: camelcamelcamel·mac.bid·슬릭딜, 아마존 화면은 열지 않음)으로 맞춤(11/13 매니저). 쿠팡 색 옵션 미확인, 최저 옵션가 기준",
+      "checkedAt": "2026.11.13"
+    }
   }
 ]
