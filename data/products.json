@@ -5301,13 +5301,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 API 매니저",
+    "checkedAt": "2026.11.14 쿠팡 자동",
     "slug": "ali-kz-zsn-pro-2",
     "domesticUrl": "https://link.coupang.com/a/iDBoD7XW8W",
     "name": "KZ ZSN Pro 2 하이브리드 유선 이어폰",
     "category": "audio",
     "priceKrw": 17540,
-    "domesticKrw": 28500,
+    "domesticKrw": 30000,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8502968328",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006997565403.html",
@@ -5332,7 +5332,16 @@
       "checkedAt": "2026.11.13"
     },
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dAoFgA2noAoGy6x2X4FfWfxZvKufh99pJcFD3AWRk48tCjbOcRbgLfEYqCDzcTnf3EOvoN60Wjrg2E2wYmXp1SoXv5t7GY5KkiDDZ97OZcKWRxs6cmNIKbU0qzXsvT0G00z5zxWKuT6OSCqDANNKPYiIejghKElRb2nkNQwZKaNUVN28CfHxIlxAVma5GpjV1Vlze4Vlt6dmFRM3WNcy3C56RiRFiD3cecyQX4pBRdjOCGHffT9GjeQvMCrXN5tWQ6w39YVxDRbsvqkhnVkWL9LgIs1bDBTljryrsNKYQOdOEZjXeH3cqGh14ZAFhAUHAm6awZfRlJjojtRpzO3FiWkgx2CKHF0mYIkGZFOPqPaEvwcjYczZwyHLTOB5NMSrs6wAL3wcnovqICCnFtiN0mokNeVce3840R8kv5ekef6S2OBFv1KELF8aVVIEbnnUIWcrSXwpsxnRpfutkPmyvCvSu7AWh7pZ2hUDYUNHnwhMezNQQha9Jcnm5J6GtIoOEOcwo4cqP7Q1qFQZQ4BiNePuKeZGS5yv3i9hrhPOHIZg69XoP7MZEs7yv4VAHjwDqVaybqtIjgBVOTbHKydLD2D04jTQM4cgYE1vvrw0T8Cy64u9LMaHBRIADpbPqJVVkb7b6m9OPFI89isSvfmlcq9dOrynS4LBCwvyTibCLmU1rtgLM3Qt2MxVbg9eH8uxyIl3txLvC2uM",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3610354feb7b4edd972e176f6bbfb3dct.jpg"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3610354feb7b4edd972e176f6bbfb3dct.jpg",
+    "priceLog": [
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 28500,
+        "to": 30000,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",
