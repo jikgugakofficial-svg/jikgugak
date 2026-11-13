@@ -48,7 +48,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-13T10:40:31.401Z",
+      "at": "2026-11-13T17:32:27.114Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -56,7 +56,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-13T10:40:35.417Z",
+      "at": "2026-11-13T17:32:30.988Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -64,7 +64,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-13T10:40:39.309Z",
+      "at": "2026-11-13T17:32:34.769Z",
       "recordedKrw": 64690,
       "found": true,
       "apiPrice": 54690,
@@ -75,18 +75,18 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-13T10:40:43.213Z",
-      "recordedKrw": 71570,
+      "at": "2026-11-13T17:32:38.742Z",
+      "recordedKrw": 71500,
       "found": true,
       "apiPrice": 71500,
       "isRocket": false,
-      "diff": -70,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-13T10:40:47.179Z",
+      "at": "2026-11-13T17:32:42.799Z",
       "recordedKrw": 471000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -94,7 +94,7 @@
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-13T10:40:51.174Z",
+      "at": "2026-11-13T17:32:46.852Z",
       "recordedKrw": 101920,
       "found": true,
       "apiPrice": 101920,
@@ -105,13 +105,13 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-13T11:37:21.818Z",
-      "recordedKrw": 59500,
+      "at": "2026-11-13T17:32:50.779Z",
+      "recordedKrw": 59800,
       "found": true,
       "apiPrice": 59800,
       "isRocket": false,
-      "diff": 300,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
@@ -718,5 +718,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-13T16:35:02.778Z"
+  "updatedAt": "2026-11-13T17:32:54.785Z"
 }
