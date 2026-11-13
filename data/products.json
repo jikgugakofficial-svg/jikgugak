@@ -65,11 +65,11 @@
     "domesticUrl": "https://link.coupang.com/a/ibpAfOIwSW",
     "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-high-absorption-magnesium-lysinate-glycinate-chelated-albion-traacs-240-tablets-100-mg-per-tablet/16567",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.14 쿠팡 자동",
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28078,
-    "domesticKrw": 18880,
+    "domesticKrw": 18850,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -93,13 +93,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "domesticKrw",
-        "from": 24950,
-        "to": 24390,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.10",
         "field": "priceKrw",
@@ -161,6 +154,13 @@
         "field": "domesticKrw",
         "from": 18940,
         "to": 18880,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 18880,
+        "to": 18850,
         "source": "쿠팡"
       }
     ]
@@ -4688,12 +4688,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.14 쿠팡 자동",
     "slug": "amazon-apple-pencil-pro",
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 162870,
+    "domesticKrw": 162900,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4778,6 +4778,13 @@
         "field": "domesticKrw",
         "from": 162830,
         "to": 162870,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 162870,
+        "to": 162900,
         "source": "쿠팡"
       }
     ]
