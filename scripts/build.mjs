@@ -691,7 +691,7 @@ function pageDealsAmazon(d) {
   const faq = (d.faq || []).map((f) => `<details class="faq"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join('');
   const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: (d.faq || []).map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   const body = `
-<div class="page-head"><h1 class="display">${esc(d.h1)}</h1><p class="muted">${esc(d.intro.replace('{krw200}', krw(Math.floor(200 * FX))))}</p>${ev ? `<p class="small"><b>${esc(ev.name)}</b> ${esc(ev.date.slice(5).replace('-', '/'))} · 아마존 블프 위크는 발표 전(예상 11/20~11/30)</p>` : ''}</div>
+<div class="page-head"><h1 class="display">${esc(d.h1)}</h1><p class="muted">${esc(d.intro.replace('{krw200}', krw(Math.floor(200 * FX))))}</p>${ev ? `<p class="small"><b>${esc(ev.name)}</b> ${esc(ev.date.slice(5).replace('-', '/'))}${(() => { const aw = events.find((e) => e.id === 'amazon-bf-week-2026'); if (!aw) return ''; const r = `${aw.date.slice(5).replace('-', '/')}~${(aw.end || aw.date).slice(5).replace('-', '/')}`; return aw.status === 'confirmed' ? ` · 아마존 블프 위크 ${esc(r)}(아마존 공식 발표)` : ` · 아마존 블프 위크는 발표 전(예상 ${esc(r)})`; })()}</p>` : ''}</div>
 <section class="block" aria-labelledby="bf-200">
   <div class="block-head"><div><h2 id="bf-200" class="h2">200달러 넘으면 세금이 얼마나 붙나요</h2><span class="muted small">음향기기(관세 8%) 예시 · 국제 배송비 0원 가정 · 이번 주 환율로 계산</span></div></div>
   <div class="bf-table-wrap"><table class="bf-table">
