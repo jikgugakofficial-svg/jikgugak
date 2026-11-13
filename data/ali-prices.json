@@ -35,17 +35,18 @@
     },
     "ali-xiaomi-smart-band-10-pro": {
       "itemId": "1005006405553471",
-      "at": "2026-11-12T21:29:31.308Z",
+      "at": "2026-11-13T04:40:22.296Z",
       "recordedKrw": 113194,
       "found": false,
       "note": "not_found"
     },
     "ali-qcy-melobuds-n70": {
       "itemId": "1005009801120235",
-      "at": "2026-11-12T21:29:31.659Z",
+      "at": "2026-11-13T04:40:24.113Z",
       "recordedKrw": 71569,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 71384,
+      "result": "applied"
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
@@ -72,10 +73,11 @@
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
-      "at": "2026-11-12T22:26:59.603Z",
+      "at": "2026-11-13T04:40:24.864Z",
       "recordedKrw": 179103,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 178638,
+      "result": "applied"
     },
     "ali-moondrop-space-travel-2": {
       "itemId": "1005009402878815",
@@ -134,5 +136,5 @@
       "result": "applied"
     }
   },
-  "updatedAt": "2026-11-13T03:33:52.099Z"
+  "updatedAt": "2026-11-13T04:40:25.733Z"
 }
