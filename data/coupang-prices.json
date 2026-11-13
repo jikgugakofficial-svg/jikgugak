@@ -216,12 +216,12 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-13T13:56:10.760Z",
-      "recordedKrw": 22890,
+      "at": "2026-11-13T20:33:35.140Z",
+      "recordedKrw": 24440,
       "found": true,
-      "apiPrice": 24440,
+      "apiPrice": 25730,
       "isRocket": false,
-      "diff": 1550,
+      "diff": 1290,
       "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
@@ -511,7 +511,7 @@
     "amazon-lego-10328-bouquet-of-roses": {
       "productId": "7792209105",
       "keyword": "레고 보태니컬 장미 꽃다발 10328",
-      "at": "2026-11-13T13:56:02.453Z",
+      "at": "2026-11-13T20:33:27.103Z",
       "recordedKrw": 58430,
       "found": true,
       "apiPrice": 70800,
@@ -522,13 +522,10 @@
     "amazon-osprey-farpoint-40": {
       "productId": "9267318199",
       "keyword": "오스프리 파포인트 40 여행 배낭",
-      "at": "2026-11-13T13:56:06.482Z",
+      "at": "2026-11-13T20:33:31.202Z",
       "recordedKrw": 277800,
-      "found": true,
-      "apiPrice": 277800,
-      "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
@@ -598,7 +595,7 @@
     "amazon-garmin-forerunner-265": {
       "productId": "7209583295",
       "keyword": "가민 포러너 265 러닝 스마트워치",
-      "at": "2026-11-13T13:55:58.539Z",
+      "at": "2026-11-13T20:33:23.229Z",
       "recordedKrw": 452000,
       "found": true,
       "apiPrice": 452000,
@@ -724,5 +721,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-13T19:37:50.432Z"
+  "updatedAt": "2026-11-13T20:33:39.095Z"
 }

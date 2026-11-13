@@ -33,7 +33,7 @@
       "source": "쿠팡"
     },
     "ali-moondrop-chu2:priceKrw": {
-      "at": "2026-11-13T12:40:08.941Z",
+      "at": "2026-11-13T20:33:41.241Z",
       "slug": "ali-moondrop-chu2",
       "field": "priceKrw",
       "recorded": 32773,
@@ -53,7 +53,7 @@
       "source": "알리"
     },
     "amazon-lego-10328-bouquet-of-roses:domesticKrw": {
-      "at": "2026-11-13T13:56:06.482Z",
+      "at": "2026-11-13T20:33:31.202Z",
       "slug": "amazon-lego-10328-bouquet-of-roses",
       "field": "domesticKrw",
       "recorded": 58430,
@@ -93,5 +93,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-13T19:37:53.515Z"
+  "updatedAt": "2026-11-13T20:33:42.052Z"
 }
