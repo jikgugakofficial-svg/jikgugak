@@ -1836,7 +1836,7 @@
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 75783,
-    "domesticKrw": 61210,
+    "domesticKrw": 48720,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1860,13 +1860,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "priceKrw",
-        "from": 74713,
-        "to": 75725,
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.09",
         "field": "domesticKrw",
@@ -1928,6 +1921,13 @@
         "field": "domesticKrw",
         "from": 48960,
         "to": 61210,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 61210,
+        "to": 48720,
         "source": "쿠팡"
       }
     ]
@@ -3055,10 +3055,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau662nWai",
     "sample": false,
-    "checkedAt": "2026.11.12 알리 자동",
+    "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-edifier-m90-speaker",
     "name": "에디파이어 M90 블루투스 스피커 (블랙)",
-    "priceKrw": 219861,
+    "priceKrw": 219291,
     "domesticKrw": 249000,
     "domesticSource": "쿠팡, 한국 정발 블랙, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqtHwHUNvoNtEzQGMfrvzRbufrwqXTbeQ1kju0nMKIMZ8VlgA1MUzhJpkE9B3OlKxCSdVypmqfxCo7GaDyl9I3dIYqB3VolglpYSMPPSNXh01oNgrs6NmHnK0DxlkvANTtQZvGuzfgrC6BoR4nnsui8CxFa5AjN2nt2Qgnc9mMkYcsst4DVWMdzCkG19uVBmkFpCFp2lD2x6sG4XNWp5lHGLk0tj0Y5nty9X67l65e7r5XMKxhjBxVSalcCG4ofW8oDQdfW4rgb1iyeuGaZZowV1hA0Au93itWziAhFu88XI0UkNj32bIN3PeudS2EYC7T7BDN1YTu3HtHvsbDqG7YSzWw7Ls6QOQZKisnQjGehbB4dZex5Nxu0IIQAGq5TlLFSH5S3EJfApYSUbTyCROZHtB9iFDaW9Fi33INvDupzSCu8tnh73jih1PZS7gjqLlBQeNPlnd0dy3jgSWuWTQbjVOSBUCyBfsqLZ89Q6iHfOpfJIs4JwMUUozlTBU1UKNJp7eVGKMK8nl2nSmq9LpobgyxCy4WotKbEqzWqU5ibQJ3bmrxPEwNYSLDzNHHve3sDBTbFv632Jw7cPSuPcNuSo1JXIgLlxkt3ItA7ZnxLSlCg1kZPXZZdaStc52PmqxZuQtEGeDWx0DhqPrQeliYeNFPLeRFPrA2qb0s6zHShJ2j9iiogzOPvCoWjIPkK5dK24xJYbSJoT",
@@ -3085,20 +3085,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.02",
-        "change": {
-          "domesticKrw": [
-            208000,
-            249000
-          ],
-          "priceKrw": [
-            191780,
-            220373
-          ]
-        },
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.02",
         "field": "priceKrw",
@@ -3161,6 +3147,13 @@
         "from": 220399,
         "to": 219861,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 219861,
+        "to": 219291,
+        "source": "알리"
       }
     ]
   },
@@ -3174,10 +3167,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.11.12 알리 자동",
+    "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 128238,
+    "priceKrw": 127875,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -3203,13 +3196,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "domesticKrw",
-        "from": 125900,
-        "to": 117900,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.08",
         "field": "domesticKrw",
@@ -3271,6 +3257,13 @@
         "field": "priceKrw",
         "from": 128400,
         "to": 128238,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 128238,
+        "to": 127875,
         "source": "알리"
       }
     ]
