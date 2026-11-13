@@ -69,7 +69,7 @@
     "slug": "iherb-doctors-best-magnesium-240",
     "name": "닥터스베스트 고흡수 마그네슘 240정 (1정당 100mg)",
     "priceKrw": 28078,
-    "domesticKrw": 18940,
+    "domesticKrw": 18880,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(무료배송)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -93,13 +93,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 27260,
-        "to": 24950,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.10",
         "field": "domesticKrw",
@@ -161,6 +154,13 @@
         "field": "domesticKrw",
         "from": 18960,
         "to": 18940,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 18940,
+        "to": 18880,
         "source": "쿠팡"
       }
     ]
@@ -408,7 +408,7 @@
     "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 31649,
+    "priceKrw": 31567,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -433,13 +433,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "priceKrw",
-        "from": 32837,
-        "to": 33161,
-        "source": "알리"
-      },
       {
         "at": "2026.11.07",
         "field": "priceKrw",
@@ -501,6 +494,13 @@
         "field": "priceKrw",
         "from": 31588,
         "to": 31649,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 31649,
+        "to": 31567,
         "source": "알리"
       }
     ]
@@ -2727,7 +2727,7 @@
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
     "priceKrw": 18741,
-    "domesticKrw": 17570,
+    "domesticKrw": 15890,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2751,13 +2751,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "priceKrw",
-        "from": 18727,
-        "to": 18741,
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.10",
         "field": "domesticKrw",
@@ -2819,6 +2812,13 @@
         "field": "domesticKrw",
         "from": 19850,
         "to": 17570,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 17570,
+        "to": 15890,
         "source": "쿠팡"
       }
     ]
@@ -4359,11 +4359,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.12 알리 자동",
+    "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-moondrop-space-travel-2",
     "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
     "category": "audio",
-    "priceKrw": 35029,
+    "priceKrw": 34938,
     "domesticKrw": 56070,
     "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
     "domesticSource": "쿠팡 판매자 상품(병행 수입)",
@@ -4410,6 +4410,13 @@
         "from": 35115,
         "to": 35029,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 35029,
+        "to": 34938,
+        "source": "알리"
       }
     ]
   },
@@ -4421,11 +4428,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.12 알리 자동",
+    "checkedAt": "2026.11.13 알리 자동",
     "slug": "ali-redragon-k617-fizz",
     "name": "레드드래곤 K617 피즈 60% 기계식 키보드 (레드 스위치)",
     "category": "it",
-    "priceKrw": 43411,
+    "priceKrw": 43298,
     "domesticKrw": 68600,
     "domesticUrl": "https://link.coupang.com/a/iw00qwJNzo",
     "domesticSource": "쿠팡 판매자 상품",
@@ -4472,6 +4479,13 @@
         "field": "priceKrw",
         "from": 43518,
         "to": 43411,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "priceKrw",
+        "from": 43411,
+        "to": 43298,
         "source": "알리"
       }
     ]
@@ -4645,7 +4659,7 @@
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 162830,
+    "domesticKrw": 162870,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4724,6 +4738,13 @@
         "from": 162890,
         "to": 162830,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 162830,
+        "to": 162870,
+        "source": "쿠팡"
       }
     ]
   },
@@ -4736,12 +4757,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.12 쿠팡 자동",
+    "checkedAt": "2026.11.13 쿠팡 자동",
     "slug": "amazon-elgato-stream-deck-mk2",
     "domesticUrl": "https://link.coupang.com/a/iAjCVmhKUK",
     "name": "엘가토 스트림 덱 MK.2 (15키, 블랙)",
     "category": "it",
-    "domesticKrw": 212000,
+    "domesticKrw": 210900,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B09738CV2G",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8518179410",
@@ -4771,6 +4792,13 @@
         "field": "domesticKrw",
         "from": 217560,
         "to": 212000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 212000,
+        "to": 210900,
         "source": "쿠팡"
       }
     ]
@@ -4902,7 +4930,7 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 알리 자동",
+    "checkedAt": "2026.11.13 쿠팡 자동",
     "slug": "ali-fosi-q4",
     "domesticUrl": "https://link.coupang.com/a/iAjCVAb6hU",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmjFQcc9fZcBZyKU6KI0fH7mquEK3lHeqFaaesEXTPKQawzRS89FVZXoHbCU8UhGXfvw67PMJMSV3lZuR3kRS6GEeB0msB53fiQTum5n77aV1TAzGw8kaWsQGaKEzsAbWaV2cSE29BIYdv0DmKBimhAbBQw6uMqXepl1R4pfcvgvQdMKpgj72F1ZAHkdQZUWjHIM9d9FUvvrYtssgeGQMfhGNIWYDBbuuO1CNbIrbs2YyiFIehdJXLcGaEz8l0X1nA34GT0ys7D380lAClKeIQFZsdLmmiVAtdNRQQEsQUbysgxq5OGrUQowbcxiGLWS9IgD7LxNb0h5YKsKXLE0G8jxQZAhlaS4UFSTTfdDmnGXAy2S00Dp3LDZdod9hPKeOnTefEpJToIy4FIKojVmPYvZC8NueLbitSJ1bavvjsivVhK4rmeVd4tfOYPWQPNylC1tH34NZI7GWWm32Yn5QyxJDnp5tiyFZ7iy4RggECaryqLJoiMGrYjCN1Klo7hFtBmqC0GloZkLUt2gmPTwEAwZ7RF4C0ddGGuFkhJKRUTwZ6ld4J1iXHpWll0USkzud4koVWrOt5bx9mSjbjlQeVl4AHft7oETaOQE4rJirIK4oRy1TWJjvOZhGekuarqiXSvmQ1YhN0wF0FVFv7qmCKCykKqks8mYb7yBpzmNTrqOMPK6e4vLPk4NPmdsEyeKs2sakIGwj2oDi0",
@@ -4910,7 +4938,7 @@
     "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
     "category": "audio",
     "priceKrw": 47027,
-    "domesticKrw": 102070,
+    "domesticKrw": 101740,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7401672495",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005002448803062.html",
@@ -4954,6 +4982,13 @@
         "from": 47150,
         "to": 47027,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.13",
+        "field": "domesticKrw",
+        "from": 102070,
+        "to": 101740,
+        "source": "쿠팡"
       }
     ]
   },
