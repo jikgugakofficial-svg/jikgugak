@@ -12,7 +12,7 @@
       "source": "쿠팡"
     },
     "iherb-on-micronized-creatine-caps-100:verdict": {
-      "at": "2026-11-13T21:30:36.468Z",
+      "at": "2026-11-14T04:33:25.437Z",
       "slug": "iherb-on-micronized-creatine-caps-100",
       "field": "domesticKrw",
       "recorded": 29370,
@@ -33,7 +33,7 @@
       "source": "쿠팡"
     },
     "ali-moondrop-chu2:priceKrw": {
-      "at": "2026-11-13T20:33:41.241Z",
+      "at": "2026-11-14T04:33:27.515Z",
       "slug": "ali-moondrop-chu2",
       "field": "priceKrw",
       "recorded": 32773,
@@ -53,7 +53,7 @@
       "source": "알리"
     },
     "amazon-lego-10328-bouquet-of-roses:domesticKrw": {
-      "at": "2026-11-13T20:33:31.202Z",
+      "at": "2026-11-14T04:32:33.442Z",
       "slug": "amazon-lego-10328-bouquet-of-roses",
       "field": "domesticKrw",
       "recorded": 58430,
@@ -93,5 +93,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-14T03:30:37.963Z"
+  "updatedAt": "2026-11-14T04:33:28.268Z"
 }
