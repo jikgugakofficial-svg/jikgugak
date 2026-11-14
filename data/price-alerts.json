@@ -23,7 +23,7 @@
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-14T13:34:34.708Z",
+      "at": "2026-11-14T19:27:05.842Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 13130,
@@ -33,7 +33,7 @@
       "source": "쿠팡"
     },
     "ali-moondrop-chu2:priceKrw": {
-      "at": "2026-11-14T12:18:46.001Z",
+      "at": "2026-11-14T19:27:08.199Z",
       "slug": "ali-moondrop-chu2",
       "field": "priceKrw",
       "recorded": 32773,
@@ -93,7 +93,7 @@
       "source": "쿠팡"
     },
     "ali-edifier-evobuds-pro:domesticKrw": {
-      "at": "2026-11-14T12:18:31.322Z",
+      "at": "2026-11-14T19:26:21.770Z",
       "slug": "ali-edifier-evobuds-pro",
       "field": "domesticKrw",
       "recorded": 79020,
@@ -103,7 +103,7 @@
       "source": "쿠팡"
     },
     "ali-ugreen-nexode-air-65w:domesticKrw": {
-      "at": "2026-11-14T13:34:26.678Z",
+      "at": "2026-11-14T19:26:57.815Z",
       "slug": "ali-ugreen-nexode-air-65w",
       "field": "domesticKrw",
       "recorded": 53900,
@@ -113,5 +113,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-14T18:14:58.203Z"
+  "updatedAt": "2026-11-14T19:27:09.054Z"
 }
