@@ -2857,11 +2857,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5IA6rk",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
     "sample": false,
-    "checkedAt": "2026.11.12 쿠팡 자동",
+    "checkedAt": "2026.11.14 쿠팡 자동",
     "slug": "iherb-on-micronized-creatine-caps-100",
     "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
     "priceKrw": 29791,
-    "domesticKrw": 29370,
+    "domesticKrw": 35590,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2885,13 +2885,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.05",
-        "field": "priceKrw",
-        "from": 29289,
-        "to": 29370,
-        "source": "아이허브"
-      },
       {
         "at": "2026.11.07",
         "field": "domesticKrw",
@@ -2953,6 +2946,13 @@
         "field": "domesticKrw",
         "from": 29640,
         "to": 29370,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 29370,
+        "to": 35590,
         "source": "쿠팡"
       }
     ]
@@ -4707,7 +4707,7 @@
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 162800,
+    "domesticKrw": 162680,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4731,13 +4731,6 @@
     },
     "image": "https://ads-partners.coupang.com/image1/xJdWIy_XfRI-_gB1xNOv3WX_zQsPt89fuPEo1w1eOwa9O130esBxbc6c43AEDMFmrpQdJ4xuTICNbYpCWHHzawZMK1QAyI4vZELIhcMLEdWH_RTlDKwAa1CicA38mLV33fN7CXgkzsmIzWAmxwvSJPpF7P2k4Wtda-hjb1dsodivsdE4SF8WtjqZLFgKg7V6GRbDFUW3BFwBJ01BhNO-s2wd5eXxJimI0Ao_Vj5vAYE1NA930XgU2SQkswAxkYyHdcfJFuh-V0wo5jcViIVerU5C0-e36q0wBzKLSZSeDUQFESNupX2VmvYiIbzAFRppjabd6FbRZ9L3aURP63M1f5ujA_W6XrRjmxBLQ1FsL3iUvgMW4v5tC83X6dXWvcJpbZS5XORHNH9zIwj8Y_GsqmY08RbFQ2R8zGyyHspxPb16ZtfxbshEe7k6cBCu2YBVlMI6fRPizAfkm7uiU2pYUpWgNW3uzWpRJomsEhe-gg_TPdo4PH3zenqAxO0H-4sL5D0QNxNESq_0WEQmxOx4SK5nTLtt4oVqMMHnpQRhsjslCd5c",
     "priceLog": [
-      {
-        "at": "2026.11.12",
-        "field": "domesticKrw",
-        "from": 166730,
-        "to": 166660,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.12",
         "field": "domesticKrw",
@@ -4799,6 +4792,13 @@
         "field": "domesticKrw",
         "from": 162880,
         "to": 162800,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 162800,
+        "to": 162680,
         "source": "쿠팡"
       }
     ]
