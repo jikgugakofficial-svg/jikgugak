@@ -1859,7 +1859,7 @@
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
     "priceKrw": 75783,
-    "domesticKrw": 47350,
+    "domesticKrw": 56460,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -1883,13 +1883,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "priceKrw",
-        "from": 75725,
-        "to": 75783,
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.11",
         "field": "domesticKrw",
@@ -1951,6 +1944,13 @@
         "field": "domesticKrw",
         "from": 60910,
         "to": 47350,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 47350,
+        "to": 56460,
         "source": "쿠팡"
       }
     ]
@@ -4579,11 +4579,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iyCmqpFIgm",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.14 쿠팡 자동",
     "slug": "amazon-sennheiser-momentum-4",
     "name": "젠하이저 모멘텀 4 와이어리스 헤드폰",
     "category": "audio",
-    "domesticKrw": 356840,
+    "domesticKrw": 319200,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0B6GHW1SX",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7776776856",
@@ -4634,6 +4634,13 @@
         "field": "domesticKrw",
         "from": 322710,
         "to": 356840,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 356840,
+        "to": 319200,
         "source": "쿠팡"
       }
     ]
@@ -5062,14 +5069,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 알리 자동",
+    "checkedAt": "2026.11.14 알리 자동",
     "slug": "ali-ugreen-nexode-air-65w",
     "domesticUrl": "https://link.coupang.com/a/iBYTJWEq9k",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmyH9YFbcdrf7wjUSwbCj003MaHic22LKqNgmHQyfHpkAyTjzAOBpVFIPerq3SIEmLXaLdVhi0KffVdKJvOT9rXGrF13sg7bkeeZdXFvQenLAVLuEFjAwYEqSufUFEYWM1Ailj7x8eW8o2PDOzdB3WSnDx3dHCy1cM5a6nPlvV99eZOjpmewHDo8UZh7c6u6LpYROnc2NhKUeuOMHA8yr4BuYplbMUAvTcWaxxEDzxavmsTFpX6iXDlvbXxftfxZhjhzaeOrww9iB06I4Z2ZGqCw3HZ5UHp8JRviOZE3MelcU6Fid7PzgtN6j3izhfQRhfN16nbiGKjPD3iNX1pFX1UyTOC2wVTt7TqjW2LebZ2DDais0XWLH3wOpPSolOWnhYNA4Ayh8FqMC1bvceVzup9WDcYyf69KPT2Utyqj7SE8pcafVQ4nIgP3lUYZm0QqU0lJy6XhmpUdM3IKak6KAPVfxitzqWf8cNsjtOhruqGl46TTTwtwuYVHjZAD8DcrFPQfOZz5G8UY9kExKhIgU9qfXoBhc20Jp78QpjRgRQZGh52G8zNJYXZRtZlA9hLy9KkubgSvQB9NHW5avtpg6YzJQgwNXLr5J6yb5WRxSE0JWRm16V6FSyxiBgtsV3tj8NMs9FGmxWu8x51sRQYEMi0bR5QCb48Fk68RNG5JWDLKfakUXXp0ybNPp1F3VRIeH8K4X8YKWzgzC8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa1381f441eea416d9504e0d6a600c793q.jpg",
     "name": "유그린 넥소드 에어 65W GaN 초소형 충전기",
     "category": "it",
-    "priceKrw": 33020,
+    "priceKrw": 32949,
     "domesticKrw": 53900,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9780240448",
@@ -5114,6 +5121,13 @@
         "from": 33177,
         "to": 33020,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "priceKrw",
+        "from": 33020,
+        "to": 32949,
+        "source": "알리"
       }
     ]
   },
@@ -5125,14 +5139,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 알리 자동",
+    "checkedAt": "2026.11.14 알리 자동",
     "slug": "ali-baseus-bowie-mc2-air",
     "domesticUrl": "https://link.coupang.com/a/iBYTJ0WdY4",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmw60uOJpAqeUVXDbUeL1qHvdQeWl41L7J9jgxvoVM1R9UKRrh8QGFfHBBqdQtmWnpeCj02R0JNpBCr6mKkuXcVeuBmi1rMXY9U5GAcz8p08Y6tvms82Cp3rHA4q0Vx8lnVkZxGZwPX4iJ7W10HgPTHacHe1T4qgHwWblWy2ThjzG5we4U5aiTuHGQVUWxQb851chv3mHlQL6AP3H8cXYZozm6moOB8oW4AhYbkjbDV2Nj9AiBeaQLHahtIvOJNcCPp9THhjE0GUAKatsELtE00p4kCCRi73cJbHeOvT6HusBsZdK8ArShAvvIb99V4W2knlVNf4B6TNLfsnI5PwdDD3E8D9PcevmKVwOAOauwBUfl6BVkaZbuAvIULL456jZAusoeT0U5m6SCjXfhXK9Y358giPjm65fOoo6ZXvxlOuqSvCbyiDtKfExVWiNFfGU4ooK89yOL2ijSfDZ3cJOjjeBmPU4GihTz3357D0VYLV9xMP580h6FDEt9waUSfwEx7szJWLGepq4kmqjwnIoqwxKKPjRIfR0xtGVdV5tNQXXEffjmSKl9H7b5o1jbUlQFtM3o04vpSpu5yEnwddKaZYkpwCJcISk9DkXdARAvsSgsWWDnqqpmKyCOsRFtMJC2Q5LvNC5J2pCeev0I74qlJjkx0tB1tDj5ny3OEMdW9RrhSbA7IdfGafvkyW8vPHxdXLXHUEebxIQ8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
     "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
     "category": "audio",
-    "priceKrw": 41106,
+    "priceKrw": 37571,
     "domesticKrw": 68900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
@@ -5176,6 +5190,13 @@
         "field": "priceKrw",
         "from": 41212,
         "to": 41106,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "priceKrw",
+        "from": 41106,
+        "to": 37571,
         "source": "알리"
       }
     ]

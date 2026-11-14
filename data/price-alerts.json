@@ -53,7 +53,7 @@
       "source": "알리"
     },
     "amazon-lego-10328-bouquet-of-roses:domesticKrw": {
-      "at": "2026-11-14T04:32:33.442Z",
+      "at": "2026-11-14T11:17:08.256Z",
       "slug": "amazon-lego-10328-bouquet-of-roses",
       "field": "domesticKrw",
       "recorded": 58430,
@@ -63,7 +63,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-headphones:domesticKrw": {
-      "at": "2026-11-14T03:30:10.440Z",
+      "at": "2026-11-14T11:16:36.160Z",
       "slug": "amazon-bose-qc-headphones",
       "field": "domesticKrw",
       "recorded": 269000,
@@ -93,5 +93,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-14T10:23:19.096Z"
+  "updatedAt": "2026-11-14T11:17:32.119Z"
 }
