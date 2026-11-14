@@ -2967,11 +2967,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau66YgbCe",
     "sample": false,
-    "checkedAt": "2026.11.13 알리 자동",
+    "checkedAt": "2026.11.14 쿠팡 자동",
     "slug": "ali-qcy-melobuds-n70",
     "name": "QCY 멜로버즈 N70 (HT18) 노이즈캔슬링 이어폰",
     "priceKrw": 71384,
-    "domesticKrw": 61880,
+    "domesticKrw": 58730,
     "domesticSource": "쿠팡 로켓직구, 미드나이트 블랙",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cn3M0mIEYOGmw2TZYQnYSn2Bwn9PEriM7h8ZXNSqc0KHmzoH2Tl1waUMm6FZtUoFyKfpknF8cUC7KUX86k1C8ATybmKpD06eENjAXBJ3ou1eQdz44U1rLXWOuY8uMwEk7lIJ5zaqk4vFOg3JCUDEa0WZ8hsoyfmcSRYA1rIERb9jBjgP5PH45u8pI15qzvUCmeCzcaQG0mxH8OFmHbBj9GsVYdttkaldhALcVMHGpPflAgH4sxnNz3LnkVhcJr6sSOst2TrkYad0JFCZUbVSXflBBpEBivO8mXwHWqFjOMCwVzIF8b5lg0c0kiAho0RAv5bc9N8R74oRhDgtdHvw26eWbAVhYCNUSQT2VmlBk7ZOQhWebaJ4KWRemInxKXtXKBXofzDrsc86rWFb1p5iVemXYbu0AnA6c7VaiOkiOMp3p5B01PSwmdoWcyJSJZtKcm156LIZRzI0WKWxplzl4d36pFWRFlFRBDu8NB5rzeXC87E6WTHqQHnTnYA7LU3L2UC0H3qFJ7gwNvukgrStT8b9tuNYWl4xgdpzH0oF1EfprDtwSvgLlWzIu6qDmcnIq3MQF0SBBd42O1xhM5MaiWIq0k7ZX748cwXVnKT1W4Gm2hIhsr1wCeOsbIsVc7XJxNSSRBOz7RYkGZyKsZeNDOridKcmhN5Rc4Wpppq8a6g1oPARRZffjmW9Aq0SeDL2bH6s2xC0EBrC2g",
     "risks": [
@@ -2996,13 +2996,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.02",
-        "field": "priceKrw",
-        "from": 71736,
-        "to": 71809,
-        "source": "알리"
-      },
       {
         "at": "2026.11.03",
         "field": "priceKrw",
@@ -3065,6 +3058,13 @@
         "from": 71569,
         "to": 71384,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.14",
+        "field": "domesticKrw",
+        "from": 61880,
+        "to": 58730,
+        "source": "쿠팡"
       }
     ]
   },
