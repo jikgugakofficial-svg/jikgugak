@@ -2468,9 +2468,9 @@
       "model": "10000mAh 30W",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 공구 \"Yugreen 30W 마그네틱 보조배터리\" $38.41. 국내 유그린 정발가 확인 전",
-      "at": "2026-11-11T15:28:04.646Z",
+      "at": "2026-11-14T21:17:22.872Z",
       "status": "none",
-      "coupangTop": 8,
+      "coupangTop": 2,
       "ali": [],
       "coupang": []
     },
@@ -2480,15 +2480,15 @@
       "model": "25000mAh 145W",
       "cat": "it",
       "why": "유그린 대용량 고출력 보조배터리, 퀘이사존 알리 충전기·보조배터리 공구 단골 브랜드. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-11T16:33:33.566Z",
+      "at": "2026-11-14T21:17:26.843Z",
       "status": "new",
-      "coupangTop": 10,
+      "coupangTop": 9,
       "ali": [
         {
           "id": "1005010578415882",
           "title": "100% 정품 유그린 넥소드 PD 100W 145W 165W 20000mAh 25000mAh 파워뱅크 타입-C 모바일폰 파워뱅크 3C 인증",
-          "price": 41400,
-          "orders": 50,
+          "price": 41200,
+          "orders": 51,
           "rating": "92.7%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8d6fedffe09743a887e521aa070217bci.jpg",
           "url": "https://ko.aliexpress.com/item/1005010578415882.html"
@@ -2496,8 +2496,8 @@
         {
           "id": "1005013176126272",
           "title": "인기 상품: UGREEN 넥소드 PD 100W, 145W, 165W, 20000mAh, 25000mAh 보조 배터리 (Type-C 포트 지원, 3C 인증 획득)",
-          "price": 49600,
-          "orders": 31,
+          "price": 49990,
+          "orders": 40,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83188ea7e9464ecbacf0e22228fd1111I.jpg",
           "url": "https://ko.aliexpress.com/item/1005013176126272.html"
@@ -2505,30 +2505,22 @@
       ],
       "coupang": [
         {
-          "id": "7940170364",
-          "name": "유그린 25000mAh 145W 보조배터리 PD PPS, 90597A, 그레이",
-          "price": 89900,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/r8fbXB3-xNCtLY3gr9f_Awwz5vrP9RMn0iw1Pp0p6UZly_G-l_-ulvpC3uRbpsNkBhAIEAr7PvYy5BIFh-8B8oFqvRsyJKAXP9oXk2vt9YOyuTgn2DlO1GhsYOAH0vZgkpxJwIc1D0lB3K_jtWdJmFTSTeuvgVsooVTg0hVUMyUaBf5N67_tnqoAwLLY0kNHfyaHJUMSNFW4fYuaqRcCVxnJntMJQTpVYJaWQfLaYe8sbLcSrgYH790yk6OMJSKeK4bQsP2YYk-u40N6F24WpcGS2bay0qXtKexFa2KzGwHtsE7elwn6MXtp-LKMlCt2eRGq8AdNhp2DJUis2-feQ1IC6SqDsbhwH_0Hk-S9Csrpp1YQCJ8Un4dyupFcKtq8tfecMdkNhRlRcN46s89IuLB_tcNw-J4VhJuRpPWiGDi4qvZVgw6tjh-YpzBB-eK_JvwP7mTXF0oTAW_SiSi9dbJvG8bOjRJfyMXkLz6X0QGp0PvZlExn4s0GkS8GtWX22UkroTq26g==",
-          "url": "https://www.coupang.com/vp/products/7940170364"
-        },
-        {
-          "id": "9811199106",
-          "name": "유그린 UGREEN UGREEN Nexode Powerbank 25000mAh 145W 충전기 USB케이블 허브 컴퓨터액세서리 C타입 해외직구 정품",
-          "price": 2359100,
+          "id": "9269144269",
+          "name": "UGREEN 145W 보조베터리 25000mAh 대용량 LED 디지털 디스플레이 고속 충전 기존",
+          "price": 71000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/xz6Ui394D2txqQ3lx8JsAAKvVjEIVG1JcFW73-t1H5nuqoiVu2R6og-fAsVIUXrLU0OMojogGTYIBIwSz0mcfKs7I2Yt9F-E7Jj4NVOMH8C7M9JzK0FozH_QDsCBxJxPIMyLtBvN5uEvuOCA0AbG5vI0PeGi5Gt5iYECB8Hf6PS-LLTic50io1aYvkr8hsnbORrBVvPJwqL1Skxmk-4pvwKQ103GU9oDy2I1L99RlniXdZjOJ39tmoWCT3MxBZHpEIlJ_pKGJwVgVqWdnKpfKKSowR2oJRkRW2HsQXM8LPBZkwjfyruzlulf68Eft3cizoCM1hFiFsSiFj7uqD5sFqQohZQsFyF0UOs5s4K2um0-r0DCJayTUKqBP2YdtARI5PKwqbRJ9H8kjnIw_Xb2ngdOlj1rSJO4gqLeU0wHUPcGqsNug022Xn9p_OAY3PWmIWzvss3wrQGgtplPdiDzP-asamBppysDOhClF5wViRXDmIMzYiewPzBn7ekiXFCDwAkYNLgvj3c5xCc_DNJIaXdfMMm5ur9MSiQFOoTOreXte3PT",
-          "url": "https://www.coupang.com/vp/products/9811199106"
+          "image": "https://ads-partners.coupang.com/image1/jqmSBL3ndEzPYZ6Djq_bWMuZiS8mwN26fk4Sz49brSiJpVW05-SqqqamlkuILuGrPoovah5I2VWg5aV0V99CQeF93vmy4rnYTSpyvcn_peZYU-zCfWxRMVBDeRPHtncOgRcOi8sCrjscuTgAgt_rVrYsRsVBJXAabyhJbYatvhjp2jftqxCbvCjXNH_BSLgr3FlewS7JzPagF3dXvJ-7rX5-dkqXelna_AAsj3ZshBP03DjKcHh9SuqgZ1j2DQGWCdw6PYjhd7QMzZ-ce1SxnI6wjwZ8p2ETTMS3e0ct7cp9L_I1JS7K6qzCT0l_OID3AgKP5aEAYu8CBlDYEK4fVfLrmzOXQYTS2i2DhxmH9QkgtDkIxNYLHdrwa8YjNTwXmII0y-q1Jm8M8elHv7GEkZK1GgTOkOHXUeXoTe5_ZpbsxCpIZk4Qh6Ftk7tmeT2RDwmJayb6hDX-kfIN3cOdb2QvSc9Oq047ojALBh8SLYdxkIAHVbAASaehAH5waALqvz8JtT5cZKQsYVfoaSVOS7X_J5v2aJizAQ1cQGfiEw==",
+          "url": "https://www.coupang.com/vp/products/9269144269"
         }
       ],
       "best": {
         "aliId": "1005010578415882",
-        "coupangId": "7940170364",
-        "aliTotal": 41400,
-        "coupangPrice": 89900,
+        "coupangId": "9269144269",
+        "aliTotal": 41200,
+        "coupangPrice": 71000,
         "verdict": "good",
-        "diff": 48500,
-        "pct": 54
+        "diff": 29800,
+        "pct": 42
       }
     },
     "UGREEN NASync DXP2800": {
@@ -2537,45 +2529,45 @@
       "model": "DXP2800",
       "cat": "it",
       "why": "유그린 2베이 NAS, 가격대 높아 20%·1만 원 조건 넘기 쉬움. 국내 정발(쿠팡) 판매 여부 불확실. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-11T16:33:37.806Z",
+      "at": "2026-11-14T21:17:30.908Z",
       "status": "new",
-      "coupangTop": 10,
+      "coupangTop": 5,
       "ali": [
         {
           "id": "1005010412722704",
           "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 미포함) 4K 8GB DDR5 RAM",
-          "price": 794200,
+          "price": 790900,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S613b13c3a56548b28a2903e4654178997.jpg",
           "url": "https://ko.aliexpress.com/item/1005010412722704.html"
         },
         {
+          "id": "1005010486009968",
+          "title": "4K 8GB DDR5 RAM TLF UGREEN NASync DXP2800 2 랙 데스크탑 NAS N100 쿼드 코어 CPU 네트워크 연결 스토리지 (디스크 미포함)",
+          "price": 691600,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S891116c8b6374b4e9384091b55f1070aA.jpg",
+          "url": "https://ko.aliexpress.com/item/1005010486009968.html"
+        },
+        {
           "id": "1005012362427429",
           "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 없음) 4K HDMI 8GB DDR5 RAM",
-          "price": 817600,
+          "price": 814200,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S989b99c77c6a44f6a9591408044dc113p.jpg",
           "url": "https://ko.aliexpress.com/item/1005012362427429.html"
-        },
-        {
-          "id": "1005012976859281",
-          "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS, N100 쿼드코어 CPU 네트워크 연결 스토리지 (디스크리스)",
-          "price": 604200,
-          "orders": 0,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/See506b937b144a1e92e2de62e44eff9c3.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012976859281.html"
         }
       ],
       "coupang": [
         {
           "id": "8894406605",
           "name": "UGREEN NASync DXP2800 2베이 데스크탑 NAS 인텔 N100 쿼드코어 CPU 8GB DDR5 RAM 25GbE 2개 M2 NVMe 슬롯 4K HDMI 네트워크",
-          "price": 573250,
+          "price": 527720,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/BY1xV5KmkR-djWsWBXFHcPTHp2SU4ZD25eZw2phncp069Tyhb7XwnbmjO058_JGWdFStuls9AfDnYPLFEwUhmX_jbWl2R9vGwkWAEQ5pqj_C_zSisx3J8KkOv0E4RuM23sALap6Rr08RDAeTbOZ6LsP_Hmnovep-Y4bLBFcsgBnCDM_frJ3jpAExKu9yNvxtMmBQxgTMzXRVAk9oDQa0YpD4ea7IPX1lxSPLYYxzKuL4r9PcXytrYRe5ng70G1r9rIvDLYXJovSeWFr3G9hfpVGBrqhC6YIbQkuk43NaA-Pj4cPnPYB8l4cFz5MfqFaMXLoWXLohz13B0SEK9PYy2qSQFSwlrgPb7D52Z6BfXffx8xdqLr9ePPZhusZyf4H97t7zz2nU1POTYRvm5U7K6jd0mtvlGsYOqEE9Yecja4SZPmlT4qFM72wL4zDYq_z7nAxzBOaqp5uSxMQBygQj6hkeDo5bgyvt7r0f1ONtqeR7qNdGRXZ7e_6AdsTwSoy7W2jsR0htSTLhsq87CEC88s7Lgo4ACUcAjtqzNRict_e8yrU=",
+          "image": "https://ads-partners.coupang.com/image1/2oR2s98g0SxkWXLK2iPHfB9b450glyIC6Z4h62izBzQ8xYEDUquHSLdLbXIxlsXFbg7YfxHwiRo7Qc6iGfXApH9E3aHXZ_HO7UHrTey6JBj1UpQ8emQ3j6Ul51HZWSw4vtffsZJFch88arlcC4VQcYSxw5UaObJ2f84D5_Zm_t0rm-ckRRkKf39lQGcHkNDxdY5Ml5uxv96kE5WsrkBSG638H4vzJ2M_ncdtc8uDpyUDpQXTDaJmDebyH3BqOEnF0Il-Y3vQ74twQV5EwBgtO8FJmyZdvwCpGQzEsbPJ584ySUi53t72FBhuAikWOuInlLrYYnkv7-m7-DsayIZrsrRxr56tui7aVGkBqXw_REv0KwmaaaCGH0rrRsgiw7tbu4CMLrhNtZa4DSVlck3jgS7SBGgWBTcqai4UMJdFGn3-0iNTCUzwvxP5AroSEzlA54-WBMd88wxQsEyIzp-20CChD5SjzlwZ3tVvaN3hoUIl9uqsYL16YI1vvSPPBloTJk_kVtjiVS7bwxkvBYWLwN9DhHCaMKxtVruPh5M6mQI=",
           "url": "https://www.coupang.com/vp/products/8894406605"
         },
         {
@@ -2583,18 +2575,18 @@
           "name": "UGREEN NASync DXP2800 2베이 데스크톱 NAS 번들 2.5GB 스위치 포함",
           "price": 898800,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/EX-IhtPlxR7upqStEVoQCRgd3AYJYel25qh4FaNbqVtqTFF4_sLsQiXqwsADPUW8Zz7xeANs1uHUD6wGl8QY2CsZ4Xd7IoQV-I6Q-CrwSlvPP-QP2SRDk4coTbuGe24bOCi8at5MJWZrDuhp6ZRNZcK1yYIbD7ryXmv9Db_I9eCbmRggn4XD4YBF7KwkD6WGtCo_SdiqZiT2rBmDZuzYUdomdL1OC71E4wdmmt6-RIAVDdBJlBUF_ZIBq0Eln7SipumTdefoTsjhJX7c_YeuRcgnANaU3DoS5ntZvYinL-UmPAMPVfxcfahvHaUvsO-29WxGr2vi7BNugafSnhtoe_qNe2FWkPgh9YiPQxlkviZTPXlppG6v0CCxWJDaMGwkpoUxURGiAJnWSIm8paSyowxFY9n_fqKk0xwEMIcTCBIVSCl4LH8dTN15ntdeB045VM8QxDkql8obaP2YXaEpllcTwZBZzgzKPaHkkcmDWosy1cOnc4Wn_qrRfO7tytJmkvkrn_dcl8dJ-CYoF6qTjI_CoQa5IwWo7zuPvyUCgkiWj6ERpQ==",
+          "image": "https://ads-partners.coupang.com/image1/YJW0A4SgDfVKtrU0YJipo9jbnyYhjuQZ8XtacfPQbFrNPICuF_uZtTZz78HslmOR0RcQhYHarAVJS4DxegTKL0PFljm7UkZe-moOHYhRR72YcP4_JtNQvucllgoWElf_T_40KFe1CwvRvZi5gzsin0IbmBPERg4uDWDN0MZnqVwnAwCccDRCLD3KI3vYdhIEFrTmm09-2LaS9NLVZx98pKAlYXrBgl-1oyDS6js_C9SQEcr68pT_FlAK4KJjETQasih_a1CcDnBvChicjKzhVXKk3D4GxOzoHF_Y239hp2yL__fIYmG1FCU0rpzWbBlnVpdRwZVqyYd37aWWv4B79OA40Rhgw2xYFBtu-T4SzXLcQEhyiydjiZdAgAM3VzxLhZKOC5HmxetXeGoAyuDm2yFyTob3KVJuOK-u9_Ytw07fBCVGbOWaalrALXGKA-uxkHuVHSny-jJr0sfIAQa72QPRb_8cAerppKaEKSRAxW8cVc2BOyNXkQW4FoOoxA_lNy7hB8FeG5an2M6fizAkiZUhuyPs4EbiW-DuSCtL5Q==",
           "url": "https://www.coupang.com/vp/products/9332634492"
         }
       ],
       "best": {
         "aliId": "1005010412722704",
         "coupangId": "8894406605",
-        "aliTotal": 873620,
-        "coupangPrice": 573250,
+        "aliTotal": 869990,
+        "coupangPrice": 527720,
         "verdict": "bad",
-        "diff": -300370,
-        "pct": -52
+        "diff": -342270,
+        "pct": -65
       }
     },
     "Edifier Comfo Base": {
@@ -2939,14 +2931,14 @@
       "model": "Osmo Mobile 7",
       "cat": "it",
       "why": "DJI 스마트폰 짐벌 인기 모델, 국내 정발가 대비 알리 DJI 스토어 차이 확인. 7P·SE와 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-11T19:41:08.833Z",
+      "at": "2026-11-14T21:17:34.844Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013474248215",
           "title": "DJI Osmo Mobile 8/7P/7 짐벌 안정화 장치용 OM 자석 마운트, 양면 자석으로 제작되어 MagSafe 휴대폰에 빠르게 장착 가능",
-          "price": 29100,
+          "price": 28950,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7ea9a02dbef04d35b626a5865eee6d5ct.jpg",
@@ -2959,18 +2951,26 @@
           "name": "DJI Osmo Mobile 7 짐벌, 단일상품, 그레이, 1개",
           "price": 71500,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/mwORA08hr7kpLhremxduEdOJ91O1B2eTa1jgdqS6Wpmu3ZMZOnVditRu8pAU1YV4KtVd6NHNLP-e3rUCj4WBXp-tA-0EH-y3FCwbWmVzIpBdlOBh-TOj34Zc7ZSesHjjR46Ifhr8b3EJSn1BVDX9KdtNbOYuUXXpzL-61iOdDXFP5J_Xwz1sc7kj1cPSwVPNTVTypcXdocInGeWryO2-WQ6WY29xTRwfyt2tFAv3qLlHGUJ-k7kjuqKqoOGh5yYyXpJJ6BEVrjhoEc-hZHOz7aS4HPCMwhkjehkH70Ktq2dOgal1Z5vKiOOkloxwB6ifTF5wq1_sB-r-Byt7gOllgUF2n9ogkuHrQRteTG80ZGXniA4vfA-r51ibKMfC7HNHltzYMLt7zlnH4LH5I4b0KNAbIRsJPpChrMPJkvnyarcmfI0BZzmlB5tWbaQ50xx7Twi9Rq97cZ4rkeyhD5dM9HXG4yXdt-6luC22MMM-D0iD0gie8u5sfLdGfi8f8j8hcpKOkejOGcZ9wA==",
+          "image": "https://ads-partners.coupang.com/image1/GJKumv6xKCgeP7e0GKKYc_4t_6Gyvk9uy8kLZO9apnfwiKwnvjwQ_-Z36v7o61XirzEjgGkxyZaO9YPrTNwlsrtPJRbKKLBCu3WiDnPFPR3plh93yfHi7dpVIkVoNEwTe1wNSURDpDcL6-Sse-1E0oxjkKgJZeFDihY89TcmijQ34iXS6IwYzBd94NeoNglZmUtnrvWL6YzLdUY_cZSu8O7OtR-9Wt24ef4E3OLz5brTbjaSqS9AvdnFyEcAdBZmNILr4i2Y93lxQOBrq7PsVvHN9Pza8hnj6zpBn3KLmnt2FfEq04pv6F2t0BQOLYCH3FmS0wxWemPORfdi0FiYJXsfQu500sACEfrOq7NEAIY6Qx-XatfAb4fZWayD9OI9Xo8f1HatAD1XIcpaWoPfEReLcKxI1ok1YK5kdmLfELPijMFesB7RmfaAM3apu_YRctesrF-NtG6OXjmyh1tKHLFK8Brg7Dy3BlDBCUJOQABAFL2dBWwiWC6yyC2Qs7ce15IM7PMlxeA=",
           "url": "https://www.coupang.com/vp/products/9366718078"
+        },
+        {
+          "id": "9756674373",
+          "name": "DJI Osmo Mobile 7 스마트폰 짐벌 안정화 장치 3축 흔들림 방지 기능 내장형 삼각대 접이식 핸드헬드 안정화 장치",
+          "price": 211250,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/jipYbbmH-uy55Qn3ju_r9p8eWXt4-Y25N3cN2PxunHM270VXAqtC7P_HZHqbmVnN73elEaZEvY8SuusgmHh6om5UnuxTZEQRiQJQ5SAMTSoQZHFfmom4qfGKWnmesbbybfNI8-qdwmzlzNELzHgmQs3x97OEt6lA6df7r8pGzFsfjK0djyZTc1OxTIFT4ay8U6MAnPS6NitCRHb4CRq2YJPXp2ZBawcXaQ0YOZ9m-GwjbOSArxTMAvBmEtZfENaAsAFMfhwJwas4nv966Po-puCCL8WeKCOUciDZIW7WxBHMC7yBjdOk0xBv4TxlgIo5q44zGnhqe6UQxpr_ZwRSKbmsk1vbqYYMYwe2z9rMtRyRySNSfOIQVF1vrokheIb-rX5Ibf0QlXQW8P5p5KMZAtXFek_xA7v1cAU0J-jse4Oa2q9VRNZEUD9ieShyH1rCwo6JeHFUb4SsCZe0z6wSiSQDhApAD5kSpwZHvhO-QP_vKN3eugMiVrJnm6TpiWNGi5LHQffmFWJT_Z0J2IkPE9J7sosLwLlWjrib3zuUGKgoog==",
+          "url": "https://www.coupang.com/vp/products/9756674373"
         }
       ],
       "best": {
         "aliId": "1005013474248215",
         "coupangId": "9366718078",
-        "aliTotal": 29100,
+        "aliTotal": 28950,
         "coupangPrice": 71500,
         "verdict": "good",
-        "diff": 42400,
-        "pct": 59
+        "diff": 42550,
+        "pct": 60
       }
     },
     "DJI Mic Mini": {
@@ -2979,15 +2979,15 @@
       "model": "Mic Mini",
       "cat": "it",
       "why": "DJI 초소형 무선 마이크 인기 모델, 구성(1TX+1RX / 2TX+1RX + 충전케이스) 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-11T19:41:13.318Z",
+      "at": "2026-11-14T21:17:39.269Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013028747657",
           "title": "DJI Mic Mini 2 Mic 3 송신기용 자기 충전 베이스 충전 케이블 어댑터 액세서리",
-          "price": 7300,
-          "orders": 124,
+          "price": 7570,
+          "orders": 130,
           "rating": "92.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfc1af3de80714b63beac64a00dd3ea4d0.jpg",
           "url": "https://ko.aliexpress.com/item/1005013028747657.html"
@@ -2995,8 +2995,8 @@
         {
           "id": "1005012723760606",
           "title": "DJI Mic Mini 2 Mic 3 송신기용 자기 충전 베이스 충전 케이블 어댑터 액세서리",
-          "price": 6735,
-          "orders": 119,
+          "price": 7241,
+          "orders": 116,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S50a55a47941d491aa14f91dd1f30ebb6e.jpg",
           "url": "https://ko.aliexpress.com/item/1005012723760606.html"
@@ -3004,9 +3004,9 @@
         {
           "id": "1005009817023810",
           "title": "DJI Mic Mini/Mini 2/Mini2S 무선 마이크 수신기용 새로운 Type-C 어댑터, 스마트폰, PC, 태블릿용 USB 액세서리",
-          "price": 18100,
-          "orders": 113,
-          "rating": "93.3%",
+          "price": 18000,
+          "orders": 115,
+          "rating": "93.7%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Acb46df4c52c04fd5b36f2bb864179ab1A.jpg",
           "url": "https://ko.aliexpress.com/item/1005009817023810.html"
         }
@@ -7228,5 +7228,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-14T19:26:05.927Z"
+  "updatedAt": "2026-11-14T21:17:42.847Z"
 }
