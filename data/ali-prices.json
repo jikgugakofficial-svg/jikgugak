@@ -51,7 +51,7 @@
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
-      "at": "2026-11-13T23:24:01.162Z",
+      "at": "2026-11-14T07:44:50.086Z",
       "recordedKrw": 219291,
       "found": true,
       "apiPrice": 219291,
@@ -59,7 +59,7 @@
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
-      "at": "2026-11-13T23:24:01.833Z",
+      "at": "2026-11-14T07:44:50.470Z",
       "recordedKrw": 127875,
       "found": true,
       "apiPrice": 127875,
@@ -162,12 +162,12 @@
     },
     "ali-kz-zsn-pro-2": {
       "itemId": "1005006997565403",
-      "at": "2026-11-13T23:23:59.530Z",
+      "at": "2026-11-14T07:44:47.843Z",
       "recordedKrw": 17540,
       "found": true,
       "apiPrice": 17540,
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-14T06:31:34.840Z"
+  "updatedAt": "2026-11-14T07:44:50.830Z"
 }
