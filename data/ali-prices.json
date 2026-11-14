@@ -99,11 +99,10 @@
     },
     "ali-baseus-bowie-mh1": {
       "itemId": "1005007015955340",
-      "at": "2026-11-13T19:37:53.124Z",
+      "at": "2026-11-14T03:30:37.658Z",
       "recordedKrw": 85850,
-      "found": true,
-      "apiPrice": 85850,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     },
     "ali-moondrop-chu2": {
       "itemId": "1005006499470555",
@@ -123,7 +122,7 @@
     },
     "ali-ugreen-nexode-air-65w": {
       "itemId": "1005012274502051",
-      "at": "2026-11-13T19:37:50.433Z",
+      "at": "2026-11-14T03:30:34.530Z",
       "recordedKrw": 33020,
       "found": true,
       "apiPrice": 33020,
@@ -131,7 +130,7 @@
     },
     "ali-baseus-bowie-mc2-air": {
       "itemId": "1005010724623265",
-      "at": "2026-11-13T19:37:52.297Z",
+      "at": "2026-11-14T03:30:36.942Z",
       "recordedKrw": 41106,
       "found": true,
       "apiPrice": 41106,
@@ -170,5 +169,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-14T01:47:12.060Z"
+  "updatedAt": "2026-11-14T03:30:37.962Z"
 }
