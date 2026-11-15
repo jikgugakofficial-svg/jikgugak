@@ -27,11 +27,10 @@
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
-      "at": "2026-11-15T11:21:39.578Z",
+      "at": "2026-11-15T18:15:30.588Z",
       "recordedKrw": 42558,
-      "found": true,
-      "apiPrice": 42558,
-      "result": "same"
+      "found": false,
+      "note": "not_found"
     },
     "ali-xiaomi-smart-band-10-pro": {
       "itemId": "1005006405553471",
@@ -107,15 +106,14 @@
     },
     "ali-moondrop-chu2": {
       "itemId": "1005006499470555",
-      "at": "2026-11-15T11:21:37.059Z",
+      "at": "2026-11-15T18:15:27.689Z",
       "recordedKrw": 32773,
-      "found": true,
-      "apiPrice": 26782,
-      "result": "held"
+      "found": false,
+      "note": "not_found"
     },
     "ali-fosi-q4": {
       "itemId": "1005002448803062",
-      "at": "2026-11-15T11:21:39.057Z",
+      "at": "2026-11-15T18:15:30.029Z",
       "recordedKrw": 47027,
       "found": true,
       "apiPrice": 47027,
@@ -170,5 +168,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-15T17:18:38.362Z"
+  "updatedAt": "2026-11-15T18:15:30.905Z"
 }
