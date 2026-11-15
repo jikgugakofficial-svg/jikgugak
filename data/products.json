@@ -4894,14 +4894,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 알리 자동",
+    "checkedAt": "2026.11.15 알리 자동",
     "slug": "ali-baseus-bowie-mh1",
     "domesticUrl": "https://link.coupang.com/a/iAjCVp61Zs",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4mvv0PPC9csy2RCzz21U3D6FIN60SceCatXdrTmeX6oiETm5cG5mYlGFSHDFjnHvWL6lbgKtj9EdKq7C84MIpgBPdB900HZShecjt9E7TlAhW8osaQ6FJtQlQRrBgaWiOg6dbftEJfF5sqdbC2H1ILhpsl08yAVxJZIKhSdhC6t8AVvepaJJsnS74gDuj69vZUcVUWVWWWGOBiLAD4J6QUdyPRTxVgmcRprFvr0os4UzWJpyCp5n77np9M8jn7aKIkuPS42G5odcB2Y9J2smIrameDdMrGB4zXuBInLDk1pVmYfDCnXQ0E23SjPmjIWr0u31ZwBXIYYfANuouDadMHE7XSMsG035YAs9niF6WesMUHlZ2o2yYY4fuoSAZJnj8OrJ35M9GSllW6G67rfLgg3iZXe6tjIsWkbQNqZcjXluhAbguTdOPWUsVj2iE4sNe3SNJ67PoBnkPcrcxlsL3WLnEqEXm2lND5IxRmV8ZghtgTTFzTXtC5eEnagH9NQXEM9TlHeXJ9NnlDVss8MlzEjxAYChw2bZze23K61gz6USlRYlaNBP6ZGoFqOHaHuW1mx8ya4WKXNob4NY2T5CThFEFuZjJEO69EV23OhTKPGoDOQuH9imkPdTCe23HWfugp1BLDdIzlKApyYWpf4MppqTaMRBKryMCXZe85HySLwvjxurhyICUvZulpiGY1Kg8YzPggso0A4Dq",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
     "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
     "category": "audio",
-    "priceKrw": 85850,
+    "priceKrw": 86036,
     "domesticKrw": 176600,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
@@ -4959,6 +4959,13 @@
         "field": "priceKrw",
         "from": 86074,
         "to": 85850,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.15",
+        "field": "priceKrw",
+        "from": 85850,
+        "to": 86036,
         "source": "알리"
       }
     ]
@@ -5097,14 +5104,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.14 알리 자동",
+    "checkedAt": "2026.11.15 알리 자동",
     "slug": "ali-ugreen-nexode-air-65w",
     "domesticUrl": "https://link.coupang.com/a/iBYTJWEq9k",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmyH9YFbcdrf7wjUSwbCj003MaHic22LKqNgmHQyfHpkAyTjzAOBpVFIPerq3SIEmLXaLdVhi0KffVdKJvOT9rXGrF13sg7bkeeZdXFvQenLAVLuEFjAwYEqSufUFEYWM1Ailj7x8eW8o2PDOzdB3WSnDx3dHCy1cM5a6nPlvV99eZOjpmewHDo8UZh7c6u6LpYROnc2NhKUeuOMHA8yr4BuYplbMUAvTcWaxxEDzxavmsTFpX6iXDlvbXxftfxZhjhzaeOrww9iB06I4Z2ZGqCw3HZ5UHp8JRviOZE3MelcU6Fid7PzgtN6j3izhfQRhfN16nbiGKjPD3iNX1pFX1UyTOC2wVTt7TqjW2LebZ2DDais0XWLH3wOpPSolOWnhYNA4Ayh8FqMC1bvceVzup9WDcYyf69KPT2Utyqj7SE8pcafVQ4nIgP3lUYZm0QqU0lJy6XhmpUdM3IKak6KAPVfxitzqWf8cNsjtOhruqGl46TTTwtwuYVHjZAD8DcrFPQfOZz5G8UY9kExKhIgU9qfXoBhc20Jp78QpjRgRQZGh52G8zNJYXZRtZlA9hLy9KkubgSvQB9NHW5avtpg6YzJQgwNXLr5J6yb5WRxSE0JWRm16V6FSyxiBgtsV3tj8NMs9FGmxWu8x51sRQYEMi0bR5QCb48Fk68RNG5JWDLKfakUXXp0ybNPp1F3VRIeH8K4X8YKWzgzC8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa1381f441eea416d9504e0d6a600c793q.jpg",
     "name": "유그린 넥소드 에어 65W GaN 초소형 충전기",
     "category": "it",
-    "priceKrw": 32949,
+    "priceKrw": 33056,
     "domesticKrw": 53900,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9780240448",
@@ -5156,6 +5163,13 @@
         "from": 33020,
         "to": 32949,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.15",
+        "field": "priceKrw",
+        "from": 32949,
+        "to": 33056,
+        "source": "알리"
       }
     ]
   },
@@ -5167,14 +5181,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.14 알리 자동",
+    "checkedAt": "2026.11.15 알리 자동",
     "slug": "ali-baseus-bowie-mc2-air",
     "domesticUrl": "https://link.coupang.com/a/iBYTJ0WdY4",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmw60uOJpAqeUVXDbUeL1qHvdQeWl41L7J9jgxvoVM1R9UKRrh8QGFfHBBqdQtmWnpeCj02R0JNpBCr6mKkuXcVeuBmi1rMXY9U5GAcz8p08Y6tvms82Cp3rHA4q0Vx8lnVkZxGZwPX4iJ7W10HgPTHacHe1T4qgHwWblWy2ThjzG5we4U5aiTuHGQVUWxQb851chv3mHlQL6AP3H8cXYZozm6moOB8oW4AhYbkjbDV2Nj9AiBeaQLHahtIvOJNcCPp9THhjE0GUAKatsELtE00p4kCCRi73cJbHeOvT6HusBsZdK8ArShAvvIb99V4W2knlVNf4B6TNLfsnI5PwdDD3E8D9PcevmKVwOAOauwBUfl6BVkaZbuAvIULL456jZAusoeT0U5m6SCjXfhXK9Y358giPjm65fOoo6ZXvxlOuqSvCbyiDtKfExVWiNFfGU4ooK89yOL2ijSfDZ3cJOjjeBmPU4GihTz3357D0VYLV9xMP580h6FDEt9waUSfwEx7szJWLGepq4kmqjwnIoqwxKKPjRIfR0xtGVdV5tNQXXEffjmSKl9H7b5o1jbUlQFtM3o04vpSpu5yEnwddKaZYkpwCJcISk9DkXdARAvsSgsWWDnqqpmKyCOsRFtMJC2Q5LvNC5J2pCeev0I74qlJjkx0tB1tDj5ny3OEMdW9RrhSbA7IdfGafvkyW8vPHxdXLXHUEebxIQ8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
     "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
     "category": "audio",
-    "priceKrw": 37571,
+    "priceKrw": 41106,
     "domesticKrw": 68900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
@@ -5225,6 +5239,13 @@
         "field": "priceKrw",
         "from": 41106,
         "to": 37571,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.15",
+        "field": "priceKrw",
+        "from": 37571,
+        "to": 41106,
         "source": "알리"
       }
     ]
