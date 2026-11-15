@@ -43,7 +43,7 @@
       "source": "알리"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-15T00:16:03.194Z",
+      "at": "2026-11-15T09:27:59.652Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
@@ -93,7 +93,7 @@
       "source": "쿠팡"
     },
     "ali-edifier-evobuds-pro:domesticKrw": {
-      "at": "2026-11-15T03:31:07.678Z",
+      "at": "2026-11-15T09:27:37.051Z",
       "slug": "ali-edifier-evobuds-pro",
       "field": "domesticKrw",
       "recorded": 79020,
@@ -113,5 +113,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-15T07:49:29.014Z"
+  "updatedAt": "2026-11-15T09:28:00.045Z"
 }
