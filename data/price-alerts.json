@@ -23,7 +23,7 @@
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-15T03:31:51.493Z",
+      "at": "2026-11-15T11:21:01.126Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 13130,
@@ -33,7 +33,7 @@
       "source": "쿠팡"
     },
     "ali-moondrop-chu2:priceKrw": {
-      "at": "2026-11-15T03:31:53.613Z",
+      "at": "2026-11-15T11:21:39.057Z",
       "slug": "ali-moondrop-chu2",
       "field": "priceKrw",
       "recorded": 32773,
@@ -113,5 +113,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-15T10:24:38.656Z"
+  "updatedAt": "2026-11-15T11:21:40.314Z"
 }

@@ -26,7 +26,7 @@
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
-      "at": "2026-11-15T03:31:54.437Z",
+      "at": "2026-11-15T11:21:39.578Z",
       "recordedKrw": 42558,
       "found": true,
       "apiPrice": 42558,
@@ -104,7 +104,7 @@
     },
     "ali-moondrop-chu2": {
       "itemId": "1005006499470555",
-      "at": "2026-11-15T03:31:51.494Z",
+      "at": "2026-11-15T11:21:37.059Z",
       "recordedKrw": 32773,
       "found": true,
       "apiPrice": 26782,
@@ -112,7 +112,7 @@
     },
     "ali-fosi-q4": {
       "itemId": "1005002448803062",
-      "at": "2026-11-15T03:31:53.613Z",
+      "at": "2026-11-15T11:21:39.057Z",
       "recordedKrw": 47027,
       "found": true,
       "apiPrice": 47027,
@@ -167,5 +167,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-15T10:24:38.655Z"
+  "updatedAt": "2026-11-15T11:21:40.313Z"
 }
