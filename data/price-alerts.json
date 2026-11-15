@@ -63,7 +63,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-headphones:domesticKrw": {
-      "at": "2026-11-15T06:35:34.629Z",
+      "at": "2026-11-15T15:22:36.414Z",
       "slug": "amazon-bose-qc-headphones",
       "field": "domesticKrw",
       "recorded": 269000,
@@ -73,7 +73,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-earbuds:domesticKrw": {
-      "at": "2026-11-15T00:15:40.089Z",
+      "at": "2026-11-15T15:22:40.488Z",
       "slug": "amazon-bose-qc-earbuds",
       "field": "domesticKrw",
       "recorded": 164000,
@@ -113,5 +113,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-15T14:25:50.593Z"
+  "updatedAt": "2026-11-15T15:22:48.631Z"
 }
