@@ -43,12 +43,12 @@
       "source": "알리"
     },
     "ali-aula-f75-keyboard:priceKrw": {
-      "at": "2026-11-14T10:23:18.651Z",
+      "at": "2026-11-15T00:16:03.194Z",
       "slug": "ali-aula-f75-keyboard",
       "field": "priceKrw",
       "recorded": 53100,
-      "api": 75102,
-      "change": "41%",
+      "api": 79426,
+      "change": "50%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
     },
@@ -63,7 +63,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-headphones:domesticKrw": {
-      "at": "2026-11-14T17:17:03.536Z",
+      "at": "2026-11-15T00:15:36.101Z",
       "slug": "amazon-bose-qc-headphones",
       "field": "domesticKrw",
       "recorded": 269000,
@@ -73,7 +73,7 @@
       "source": "쿠팡"
     },
     "amazon-bose-qc-earbuds:domesticKrw": {
-      "at": "2026-11-14T17:17:07.590Z",
+      "at": "2026-11-15T00:15:40.089Z",
       "slug": "amazon-bose-qc-earbuds",
       "field": "domesticKrw",
       "recorded": 164000,
@@ -113,5 +113,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-14T23:16:18.691Z"
+  "updatedAt": "2026-11-15T00:16:04.046Z"
 }

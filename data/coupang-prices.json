@@ -205,7 +205,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-11-14T16:18:37.968Z",
+      "at": "2026-11-15T00:15:16.132Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -438,7 +438,7 @@
     "amazon-beats-studio-pro": {
       "productId": "7568571509",
       "keyword": "비츠 스튜디오 프로 무선 헤드폰",
-      "at": "2026-11-14T16:18:42.007Z",
+      "at": "2026-11-15T00:15:20.334Z",
       "recordedKrw": 218000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -446,7 +446,7 @@
     "amazon-beats-powerbeats-pro-2": {
       "productId": "8605086546",
       "keyword": "비츠 파워비츠 프로 2 운동용 이어폰",
-      "at": "2026-11-14T16:18:45.938Z",
+      "at": "2026-11-15T00:15:24.044Z",
       "recordedKrw": 254030,
       "found": false,
       "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -454,7 +454,7 @@
     "amazon-beats-solo-4": {
       "productId": "8163708318",
       "keyword": "비츠 솔로 4 무선 헤드폰",
-      "at": "2026-11-14T16:18:49.974Z",
+      "at": "2026-11-15T00:15:28.066Z",
       "recordedKrw": 179000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -462,7 +462,7 @@
     "amazon-bose-qc-headphones": {
       "productId": "7579231557",
       "keyword": "보스 QC 헤드폰",
-      "at": "2026-11-14T17:16:59.624Z",
+      "at": "2026-11-15T00:15:32.054Z",
       "recordedKrw": 269000,
       "found": true,
       "apiPrice": 349000,
@@ -473,7 +473,7 @@
     "amazon-bose-qc-earbuds": {
       "productId": "8350898413",
       "keyword": "보스 QC 이어버드",
-      "at": "2026-11-14T17:17:03.560Z",
+      "at": "2026-11-15T00:15:36.101Z",
       "recordedKrw": 164000,
       "found": true,
       "apiPrice": 229000,
@@ -484,7 +484,7 @@
     "amazon-bose-qc-ultra-earbuds-2": {
       "productId": "8903883649",
       "keyword": "보스 QC 울트라 이어버드 2세대",
-      "at": "2026-11-14T17:17:07.591Z",
+      "at": "2026-11-15T00:15:40.089Z",
       "recordedKrw": 359000,
       "found": true,
       "apiPrice": 359000,
@@ -495,7 +495,7 @@
     "amazon-razer-deathadder-v3-pro": {
       "productId": "9444695999",
       "keyword": "레이저 데스애더 V3 프로 무선 마우스",
-      "at": "2026-11-14T17:17:11.576Z",
+      "at": "2026-11-15T00:15:44.100Z",
       "recordedKrw": 155830,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -503,10 +503,10 @@
     "amazon-lego-10359-fountain-garden": {
       "productId": "8776305217",
       "keyword": "레고 아이콘 분수 정원 10359",
-      "at": "2026-11-14T17:17:15.566Z",
+      "at": "2026-11-15T00:15:48.070Z",
       "recordedKrw": 109350,
       "found": false,
-      "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-lego-10328-bouquet-of-roses": {
       "productId": "7792209105",
@@ -579,7 +579,7 @@
     "amazon-sony-wh-1000xm5": {
       "productId": "8879659697",
       "keyword": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
-      "at": "2026-11-14T17:17:19.596Z",
+      "at": "2026-11-15T00:15:52.197Z",
       "recordedKrw": 327720,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -587,12 +587,12 @@
     "amazon-sennheiser-momentum-4": {
       "productId": "7776776856",
       "keyword": "젠하이저 모멘텀 4 와이어리스 헤드폰",
-      "at": "2026-11-14T17:17:23.656Z",
-      "recordedKrw": 319200,
+      "at": "2026-11-15T00:15:56.181Z",
+      "recordedKrw": 356840,
       "found": true,
-      "apiPrice": 356840,
+      "apiPrice": 319200,
       "isRocket": true,
-      "diff": 37640,
+      "diff": -37640,
       "result": "applied"
     },
     "amazon-garmin-forerunner-265": {
@@ -730,5 +730,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-14T23:16:15.413Z"
+  "updatedAt": "2026-11-15T00:16:00.164Z"
 }

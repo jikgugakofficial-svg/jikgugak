@@ -4590,7 +4590,7 @@
     "slug": "amazon-sennheiser-momentum-4",
     "name": "젠하이저 모멘텀 4 와이어리스 헤드폰",
     "category": "audio",
-    "domesticKrw": 356840,
+    "domesticKrw": 319200,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0B6GHW1SX",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7776776856",
@@ -4655,6 +4655,13 @@
         "field": "domesticKrw",
         "from": 319200,
         "to": 356840,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.15",
+        "field": "domesticKrw",
+        "from": 356840,
+        "to": 319200,
         "source": "쿠팡"
       }
     ]
