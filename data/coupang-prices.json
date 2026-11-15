@@ -216,67 +216,67 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-15T01:49:20.393Z",
-      "recordedKrw": 25730,
+      "at": "2026-11-15T07:49:01.910Z",
+      "recordedKrw": 21800,
       "found": true,
-      "apiPrice": 21800,
+      "apiPrice": 24360,
       "isRocket": false,
-      "diff": -3930,
+      "diff": 2560,
       "result": "applied"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-15T01:49:24.421Z",
+      "at": "2026-11-15T07:49:05.842Z",
       "recordedKrw": 60910,
       "found": true,
-      "apiPrice": 60910,
+      "apiPrice": 47350,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -13560,
+      "result": "applied"
     },
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-11-15T01:49:28.335Z",
-      "recordedKrw": 36940,
+      "at": "2026-11-15T07:49:09.848Z",
+      "recordedKrw": 31880,
       "found": true,
-      "apiPrice": 31880,
+      "apiPrice": 36930,
       "isRocket": false,
-      "diff": -5060,
+      "diff": 5050,
       "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-1b-60": {
       "productId": "8336583914",
       "keyword": "자로우 펨도필러스 10억 CFU 60캡슐",
-      "at": "2026-11-15T01:49:32.364Z",
-      "recordedKrw": 37270,
+      "at": "2026-11-15T07:49:13.851Z",
+      "recordedKrw": 30560,
       "found": true,
-      "apiPrice": 30560,
+      "apiPrice": 37270,
       "isRocket": false,
-      "diff": -6710,
+      "diff": 6710,
       "result": "applied"
     },
     "iherb-now-silymarin-300-200": {
       "productId": "7156986260",
       "keyword": "나우푸드 밀크시슬 추출물 300mg 200캡슐",
-      "at": "2026-11-15T01:49:36.323Z",
-      "recordedKrw": 29650,
+      "at": "2026-11-15T07:49:18.072Z",
+      "recordedKrw": 26230,
       "found": true,
-      "apiPrice": 26230,
+      "apiPrice": 28000,
       "isRocket": false,
-      "diff": -3420,
+      "diff": 1770,
       "result": "applied"
     },
     "iherb-now-l-arginine-1000-120": {
       "productId": "7066907732",
       "keyword": "나우푸드 L-아르기닌 1000mg 120정",
-      "at": "2026-11-15T01:49:40.312Z",
-      "recordedKrw": 21680,
+      "at": "2026-11-15T07:49:21.901Z",
+      "recordedKrw": 19230,
       "found": true,
-      "apiPrice": 19230,
+      "apiPrice": 20520,
       "isRocket": false,
-      "diff": -2450,
+      "diff": 1290,
       "result": "applied"
     },
     "iherb-jarrow-fem-dophilus-5b-60": {
@@ -470,18 +470,18 @@
     "amazon-bose-qc-earbuds": {
       "productId": "8350898413",
       "keyword": "보스 QC 이어버드",
-      "at": "2026-11-15T00:15:36.101Z",
+      "at": "2026-11-15T07:48:25.874Z",
       "recordedKrw": 164000,
       "found": true,
-      "apiPrice": 229000,
-      "isRocket": false,
-      "diff": 65000,
-      "result": "held"
+      "apiPrice": 164000,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
     },
     "amazon-bose-qc-ultra-earbuds-2": {
       "productId": "8903883649",
       "keyword": "보스 QC 울트라 이어버드 2세대",
-      "at": "2026-11-15T00:15:40.089Z",
+      "at": "2026-11-15T07:48:29.825Z",
       "recordedKrw": 359000,
       "found": true,
       "apiPrice": 359000,
@@ -492,7 +492,7 @@
     "amazon-razer-deathadder-v3-pro": {
       "productId": "9444695999",
       "keyword": "레이저 데스애더 V3 프로 무선 마우스",
-      "at": "2026-11-15T00:15:44.100Z",
+      "at": "2026-11-15T07:48:33.878Z",
       "recordedKrw": 155830,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -500,15 +500,15 @@
     "amazon-lego-10359-fountain-garden": {
       "productId": "8776305217",
       "keyword": "레고 아이콘 분수 정원 10359",
-      "at": "2026-11-15T00:15:48.070Z",
+      "at": "2026-11-15T07:48:37.789Z",
       "recordedKrw": 109350,
       "found": false,
-      "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-lego-10328-bouquet-of-roses": {
       "productId": "7792209105",
       "keyword": "레고 보태니컬 장미 꽃다발 10328",
-      "at": "2026-11-15T01:49:12.215Z",
+      "at": "2026-11-15T07:48:53.771Z",
       "recordedKrw": 58430,
       "found": true,
       "apiPrice": 70800,
@@ -519,7 +519,7 @@
     "amazon-osprey-farpoint-40": {
       "productId": "9267318199",
       "keyword": "오스프리 파포인트 40 여행 배낭",
-      "at": "2026-11-15T01:49:16.306Z",
+      "at": "2026-11-15T07:48:57.789Z",
       "recordedKrw": 277800,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -573,7 +573,7 @@
     "amazon-sony-wh-1000xm5": {
       "productId": "8879659697",
       "keyword": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
-      "at": "2026-11-15T00:15:52.197Z",
+      "at": "2026-11-15T07:48:41.795Z",
       "recordedKrw": 327720,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -581,18 +581,18 @@
     "amazon-sennheiser-momentum-4": {
       "productId": "7776776856",
       "keyword": "젠하이저 모멘텀 4 와이어리스 헤드폰",
-      "at": "2026-11-15T00:15:56.181Z",
-      "recordedKrw": 356840,
+      "at": "2026-11-15T07:48:45.822Z",
+      "recordedKrw": 319200,
       "found": true,
       "apiPrice": 319200,
       "isRocket": true,
-      "diff": -37640,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-garmin-forerunner-265": {
       "productId": "7209583295",
       "keyword": "가민 포러너 265 러닝 스마트워치",
-      "at": "2026-11-15T01:49:08.489Z",
+      "at": "2026-11-15T07:48:49.807Z",
       "recordedKrw": 452000,
       "found": true,
       "apiPrice": 452000,
@@ -718,5 +718,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-15T06:35:34.629Z"
+  "updatedAt": "2026-11-15T07:49:26.089Z"
 }
