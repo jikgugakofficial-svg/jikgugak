@@ -180,8 +180,8 @@
     "slug": "iherb-now-vitamin-d3-k2-120",
     "name": "나우푸드 비타민 D3 & K2 120캡슐",
     "priceKrw": 11462,
-    "domesticKrw": 13130,
-    "domesticSource": "쿠팡 Coupang Global 1개(120정) 11,890 + 배송비 2,500",
+    "domesticKrw": 14930,
+    "domesticSource": "쿠팡 Coupang Global 1개(120정) 12,430 + 배송비 2,500",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
       "6병까지 자가사용 인정",
@@ -269,6 +269,13 @@
         "from": 13220,
         "to": 13130,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.16",
+        "field": "domesticKrw",
+        "from": 13130,
+        "to": 14930,
+        "source": "매니저 브라우저 확인(쿠팡)"
       }
     ]
   },
