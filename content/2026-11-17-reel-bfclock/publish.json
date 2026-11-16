@@ -1,6 +1,6 @@
 {
-  "approved": false,
-  "approvedBy": "",
+  "approved": true,
+  "approvedBy": "운영자(채팅) 2026-11-16 '게시해' (미리보기 확인 후, 11/17 예약. 가격·환율 없는 글이라 아침 livecheck는 블프 페이지 FAQ·events.json 날짜만 확인)",
   "schedule": "2026-11-17T03:25:00Z",
   "note": "11/17(화) 12:25 릴스. 화요일 퀴즈(시계판 핀 3개). 운영자 미리보기 '게시해' 뒤에만 approved:true. 상품·가격·환율 없음(날짜·시각만). 첫 줄 끝 #광고. 근거·장면은 storyboard.md.",
   "livecheck": {
