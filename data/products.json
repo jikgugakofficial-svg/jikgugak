@@ -2437,7 +2437,7 @@
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 59020,
-    "domesticKrw": 30890,
+    "domesticKrw": 35790,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2462,13 +2462,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "domesticKrw",
-        "from": 31680,
-        "to": 35830,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.11",
         "field": "domesticKrw",
@@ -2530,6 +2523,13 @@
         "field": "domesticKrw",
         "from": 35790,
         "to": 30890,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.16",
+        "field": "domesticKrw",
+        "from": 30890,
+        "to": 35790,
         "source": "쿠팡"
       }
     ]
@@ -4174,11 +4174,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzYhYh77",
     "sample": false,
-    "checkedAt": "2026.11.16 오전 쿠팡 API",
+    "checkedAt": "2026.11.16 쿠팡 자동",
     "slug": "amazon-lego-10328-bouquet-of-roses",
     "name": "레고 보태니컬 장미 꽃다발 10328",
     "category": "toy",
-    "domesticKrw": 70800,
+    "domesticKrw": 62670,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CGY4X222",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7792209105",
@@ -4236,6 +4236,13 @@
         "field": "domesticKrw",
         "from": 58430,
         "to": 70800,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.16",
+        "field": "domesticKrw",
+        "from": 70800,
+        "to": 62670,
         "source": "쿠팡"
       }
     ]
@@ -4442,11 +4449,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 알리 자동",
+    "checkedAt": "2026.11.16 알리 자동",
     "slug": "ali-moondrop-space-travel-2",
     "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
     "category": "audio",
-    "priceKrw": 34938,
+    "priceKrw": 35036,
     "domesticKrw": 56070,
     "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
     "domesticSource": "쿠팡 판매자 상품(병행 수입)",
@@ -4499,6 +4506,13 @@
         "field": "priceKrw",
         "from": 35029,
         "to": 34938,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.16",
+        "field": "priceKrw",
+        "from": 34938,
+        "to": 35036,
         "source": "알리"
       }
     ]
@@ -4625,7 +4639,7 @@
     "slug": "amazon-sennheiser-momentum-4",
     "name": "젠하이저 모멘텀 4 와이어리스 헤드폰",
     "category": "audio",
-    "domesticKrw": 356840,
+    "domesticKrw": 398990,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0B6GHW1SX",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7776776856",
@@ -4704,6 +4718,13 @@
         "field": "domesticKrw",
         "from": 319200,
         "to": 356840,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.16",
+        "field": "domesticKrw",
+        "from": 356840,
+        "to": 398990,
         "source": "쿠팡"
       }
     ]
