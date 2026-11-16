@@ -570,10 +570,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9pSRP2",
     "sample": false,
-    "checkedAt": "2026.11.13 알리 자동",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 25235,
+    "priceKrw": 25293,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -598,13 +598,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.07",
-        "field": "priceKrw",
-        "from": 28565,
-        "to": 25708,
-        "source": "알리"
-      },
       {
         "at": "2026.11.09",
         "field": "priceKrw",
@@ -666,6 +659,13 @@
         "field": "priceKrw",
         "from": 25306,
         "to": 25235,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 25235,
+        "to": 25293,
         "source": "알리"
       }
     ]
@@ -5258,14 +5258,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.15 알리 자동",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-baseus-bowie-mc2-air",
     "domesticUrl": "https://link.coupang.com/a/iBYTJ0WdY4",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmw60uOJpAqeUVXDbUeL1qHvdQeWl41L7J9jgxvoVM1R9UKRrh8QGFfHBBqdQtmWnpeCj02R0JNpBCr6mKkuXcVeuBmi1rMXY9U5GAcz8p08Y6tvms82Cp3rHA4q0Vx8lnVkZxGZwPX4iJ7W10HgPTHacHe1T4qgHwWblWy2ThjzG5we4U5aiTuHGQVUWxQb851chv3mHlQL6AP3H8cXYZozm6moOB8oW4AhYbkjbDV2Nj9AiBeaQLHahtIvOJNcCPp9THhjE0GUAKatsELtE00p4kCCRi73cJbHeOvT6HusBsZdK8ArShAvvIb99V4W2knlVNf4B6TNLfsnI5PwdDD3E8D9PcevmKVwOAOauwBUfl6BVkaZbuAvIULL456jZAusoeT0U5m6SCjXfhXK9Y358giPjm65fOoo6ZXvxlOuqSvCbyiDtKfExVWiNFfGU4ooK89yOL2ijSfDZ3cJOjjeBmPU4GihTz3357D0VYLV9xMP580h6FDEt9waUSfwEx7szJWLGepq4kmqjwnIoqwxKKPjRIfR0xtGVdV5tNQXXEffjmSKl9H7b5o1jbUlQFtM3o04vpSpu5yEnwddKaZYkpwCJcISk9DkXdARAvsSgsWWDnqqpmKyCOsRFtMJC2Q5LvNC5J2pCeev0I74qlJjkx0tB1tDj5ny3OEMdW9RrhSbA7IdfGafvkyW8vPHxdXLXHUEebxIQ8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
     "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
     "category": "audio",
-    "priceKrw": 41106,
+    "priceKrw": 37675,
     "domesticKrw": 68900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
@@ -5323,6 +5323,13 @@
         "field": "priceKrw",
         "from": 37571,
         "to": 41106,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 41106,
+        "to": 37675,
         "source": "알리"
       }
     ]
