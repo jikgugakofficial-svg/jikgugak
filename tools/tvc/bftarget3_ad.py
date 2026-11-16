@@ -58,6 +58,9 @@ def sync_caption(n):
     for i, ((_, _, cap), it) in enumerate(zip(ITEMS, n['items'])):
         line = f"{CIRCLE[i]} {cap}: {it['usd']}달러(약 {manwon(it['won'])}), 국내 {it['dom']:,}원"
         t = re.sub(rf'^{CIRCLE[i]} [^\n]*$', line, t, flags=re.M)
+    hook = manwon(n['items'][-1]['dom'])  # 훅·둘째 문단의 '국내 ○만 ○천 원'은 마지막 상품(에어팟) 국내가
+    t = re.sub(r'^국내 \d+만(?: \d천)? 원, 아마존은 얼마면\?', f'국내 {hook}, 아마존은 얼마면?', t, flags=re.M)
+    t = re.sub(r'\d+만(?: \d천)? 원은 에어팟 프로 3의', f'{hook}은 에어팟 프로 3의', t)
     m, d = n['payDate'][5:7], n['payDate'][8:10]
     t = re.sub(r'결제 환율 [\d,.]+원\(\d+\.\d+\)', f"결제 환율 {n['payFx']:,.2f}원({m}.{d})".replace('.00원', '원'), t)
     pj['channels']['reels']['text'] = t
@@ -66,6 +69,9 @@ def sync_caption(n):
             if x['name'].split()[0] in it['what']:
                 it['expect'] = re.sub(r'목표가 \d+달러 이하\(약 [^,]+원', f"목표가 {x['usd']}달러 이하(약 {manwon(x['won'])}", it['expect'])
                 it['inText'] = re.sub(r'\d+달러\(약 [^)]+\)', f"{x['usd']}달러(약 {manwon(x['won'])})", it['inText'])
+                it['inText'] = re.sub(r'국내 \d+만(?: \d천)? 원', f"국내 {manwon(x['dom'])}", it['inText'])
+                it['inText'] = re.sub(r'국내 [\d,]+원', f"국내 {x['dom']:,}원", it['inText'])
+                it['expect'] = re.sub(r'^쿠팡 [\d,]+원', f"쿠팡 {x['dom']:,}원", it['expect'])
     json.dump(pj, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
     open(f, 'a', encoding='utf-8').write('\n')
 
