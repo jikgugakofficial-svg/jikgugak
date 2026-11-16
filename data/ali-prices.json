@@ -131,11 +131,11 @@
     },
     "ali-simgot-ew300": {
       "itemId": "1005007543694300",
-      "at": "2026-11-16T09:26:24.305Z",
-      "recordedKrw": 82142,
+      "at": "2026-11-16T22:28:59.652Z",
+      "recordedKrw": 82370,
       "found": true,
       "apiPrice": 82370,
-      "result": "applied"
+      "result": "same"
     },
     "ali-kz-pr3": {
       "itemId": "1005007805659342",
@@ -177,7 +177,7 @@
     },
     "ali-trn-vx-pro-plus": {
       "itemId": "1005007347440400",
-      "at": "2026-11-16T05:56:52.832Z",
+      "at": "2026-11-16T22:28:56.986Z",
       "recordedKrw": 46292,
       "found": true,
       "apiPrice": 46292,
@@ -185,12 +185,12 @@
     },
     "ali-qcy-crossky-c30s": {
       "itemId": "1005012387181102",
-      "at": "2026-11-16T09:26:22.445Z",
+      "at": "2026-11-16T22:28:59.096Z",
       "recordedKrw": 40349,
       "found": true,
       "apiPrice": 40349,
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-16T21:30:39.700Z"
+  "updatedAt": "2026-11-16T22:29:00.166Z"
 }

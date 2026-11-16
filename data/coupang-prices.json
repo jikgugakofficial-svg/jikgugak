@@ -210,7 +210,7 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-16T14:08:40.945Z",
+      "at": "2026-11-16T22:28:48.991Z",
       "recordedKrw": 24360,
       "found": false,
       "note": "검색 상위 2개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -218,7 +218,7 @@
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-16T14:08:44.833Z",
+      "at": "2026-11-16T22:28:52.974Z",
       "recordedKrw": 47350,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -475,24 +475,21 @@
     "amazon-lego-10328-bouquet-of-roses": {
       "productId": "7792209105",
       "keyword": "레고 보태니컬 장미 꽃다발 10328",
-      "at": "2026-11-16T14:08:32.995Z",
-      "recordedKrw": 70800,
+      "at": "2026-11-16T22:28:40.961Z",
+      "recordedKrw": 62670,
       "found": true,
-      "apiPrice": 62670,
+      "apiPrice": 70100,
       "isRocket": true,
-      "diff": -8130,
+      "diff": 7430,
       "result": "applied"
     },
     "amazon-osprey-farpoint-40": {
       "productId": "9267318199",
       "keyword": "오스프리 파포인트 40 여행 배낭",
-      "at": "2026-11-16T14:08:37.086Z",
+      "at": "2026-11-16T22:28:44.979Z",
       "recordedKrw": 277800,
-      "found": true,
-      "apiPrice": 277800,
-      "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
@@ -546,7 +543,7 @@
     "amazon-sony-wh-1000xm5": {
       "productId": "8879659697",
       "keyword": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
-      "at": "2026-11-16T14:08:20.903Z",
+      "at": "2026-11-16T22:28:29.398Z",
       "recordedKrw": 327720,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -554,18 +551,18 @@
     "amazon-sennheiser-momentum-4": {
       "productId": "7776776856",
       "keyword": "젠하이저 모멘텀 4 와이어리스 헤드폰",
-      "at": "2026-11-16T14:08:24.912Z",
-      "recordedKrw": 356840,
+      "at": "2026-11-16T22:28:32.983Z",
+      "recordedKrw": 398990,
       "found": true,
-      "apiPrice": 398990,
-      "isRocket": false,
-      "diff": 42150,
-      "result": "applied"
+      "apiPrice": 319000,
+      "isRocket": true,
+      "diff": -79990,
+      "result": "held"
     },
     "amazon-garmin-forerunner-265": {
       "productId": "7209583295",
       "keyword": "가민 포러너 265 러닝 스마트워치",
-      "at": "2026-11-16T14:08:29.100Z",
+      "at": "2026-11-16T22:28:37.646Z",
       "recordedKrw": 452000,
       "found": true,
       "apiPrice": 452000,
@@ -757,5 +754,5 @@
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-11-16T21:30:36.998Z"
+  "updatedAt": "2026-11-16T22:28:56.985Z"
 }
