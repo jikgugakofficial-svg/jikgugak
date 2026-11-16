@@ -1,0 +1,241 @@
+{
+  "date": "2026-11-16",
+  "source": "알리 제휴 API 검색·item(일반가=item API 가격) + 쿠팡 공식 API 실시간 검색(사이트 /api/coupang). 제휴 링크·쿠팡 화면은 열지 않음. 쿠팡 같은 모델 최저가는 API 결과 중 이름이 같은 상품만 고름.",
+  "candidates": [
+    {
+      "name": "SONOFF SNZB-02D 지그비 LCD 온습도 센서 (2.5인치 LCD, 1개)",
+      "brand": "SONOFF",
+      "model": "SNZB-02D (2.5인치 LCD 원판. 신형 SNZB-02DR2 3.6인치 아님)",
+      "category": "smarthome",
+      "aliId": "1005005287154188",
+      "ali": {
+        "productId": "1005005287154188",
+        "title": "1-4PCS SONOFF SNZB-02D Zigbee LCD 디지털 온도계 스마트 온도 습도 센서 (SONOFF Official Store)",
+        "apiPrice": 13456,
+        "searchMin": 13750,
+        "orders": 1676,
+        "rating": "97.6%",
+        "option": "item API 기본 옵션가. 제목이 '1-4PCS'라 수량 옵션이 있고 최저가는 1개일 가능성이 큼 → 매니저가 1개 가격 확인"
+      },
+      "coupang": {
+        "productId": "9541404843",
+        "name": "SONOFF SNZB 02D Zigbee 온도 습도 센서 SNZB-02D EWeLink 용 LCD 화면 포함 ZigBee Bridge Alexa",
+        "price": 46800,
+        "rocket": false
+      },
+      "diffPct": 71.3,
+      "diffKrw": 33344,
+      "why": "1) 찾는 사람: 알리 공식 스토어 1,676건·평점 97.6%(검색 상위 SNZB-02D 3개 스토어 합 3천 건대), 홈어시스턴트·지그비 입문 사람들이 먼저 사는 센서 2) 같은 제품 짝: 쿠팡 3P 제목이 'SNZB 02D … 2.5인치 LCD'로 모델·화면 크기가 같음(쿠팡 다른 등록은 197,800~296,600이라 최저 46,800만 기준) 3) 판정 쓸모: 약 3.3만 원 차이·71%로 직구각이 분명하고 1.4만 원대라 면세·관세 문제 없음",
+      "warn": "알리 제목 '1-4PCS'의 1개 가격인지 매니저가 일반 주소에서 확인. 알리에 SNZB-02D 판매가 여러 스토어(Official·Flagship) 있어 공식 스토어 기준. 쿠팡 일부 등록은 SNZB-02P 등 다른 모델이 섞여 있음(02P는 비교 안 함). 지그비 센서라 허브(ZBDongle·ZBBridge)가 따로 필요하다는 점을 요약에 적을 것. 바코드·모델번호 미확인(쿠팡 3P)",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "SONOFF SNZB-02D 2.5인치 LCD, 1개",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.16"
+      }
+    },
+    {
+      "name": "SONOFF ZBDongle-P 지그비 3.0 USB 동글 플러스",
+      "brand": "SONOFF",
+      "model": "ZBDongle-P (CC2652P, E 모델 아님)",
+      "category": "smarthome",
+      "aliId": "1005003685442972",
+      "ali": {
+        "productId": "1005003685442972",
+        "title": "SONOFF Zigbee 게이트웨이 3.0, ZBDongle-P USB 동글 허브, Matter 지원, 홈 어시스턴트, Zigbee2MQTT 코디네이터 (SONOFF Official Store)",
+        "apiPrice": 23710,
+        "searchMin": 24200,
+        "orders": 1278,
+        "rating": "97.7%",
+        "option": "item API 기본 옵션가(단품 구성으로 보임, 안테나·케이스 번들 옵션 여부 미확인)"
+      },
+      "coupang": {
+        "productId": "6758190303",
+        "name": "SONOFF ZBDongle P Zigbee 3 0 USB 동글 플러스 게이트웨이 지지대 홈 어시스턴트 ZHA Zigbee2MQTT 시리즈",
+        "price": 39430,
+        "rocket": false
+      },
+      "diffPct": 39.9,
+      "diffKrw": 15720,
+      "why": "1) 찾는 사람: 알리 공식 스토어 1,278건·97.7%(SONOFF-Flagship 판매는 4,363건), 홈어시스턴트·Zigbee2MQTT 코디네이터 단골 추천 2) 같은 제품 짝: 쿠팡 3P 제목이 'ZBDongle P'로 같은 모델(쿠팡 다른 등록 70,250·162,680은 제외, 같은 이름) 3) 판정 쓸모: 약 1.6만 원 차이·40%로 직구각, 2.4만 원대라 면세·관세 문제 없음",
+      "warn": "ZBDongle-E(MG21)는 다른 모델이고 쿠팡에는 E가 22,900~로 더 싸게 있으니 P끼리만 비교. 쿠팡 제목의 '지지대'가 번들(받침·연장)인지 매니저가 일반 주소에서 확인. 알리 Flagship 스토어는 item API가 ApiCallLimit로 실패해 공식 스토어 가격만 확인함. 바코드·모델번호 미확인(쿠팡 3P)",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "SONOFF ZBDongle-P 단품",
+        "note": "쿠팡 3P 바코드 확인 필요, 번들 구성 확인",
+        "checkedAt": "2026.11.16"
+      }
+    },
+    {
+      "name": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
+      "brand": "KZ",
+      "model": "ZS10 Pro X (1DD+4BA, 2핀). ZS10 Pro 2와 다른 모델",
+      "category": "audio",
+      "aliId": "1005006677926866",
+      "ali": {
+        "productId": "1005006677926866",
+        "title": "KZ ZS10 PRO X 메탈 헤드셋 하이브리드 드라이버 HIFI 베이스 이어버드 (Stone's Store)",
+        "apiPrice": 27736,
+        "searchMin": 26909,
+        "orders": 3605,
+        "rating": "98.0%",
+        "option": "item API 기본 옵션가(마이크 유무·색 옵션 미확인, 옵션 간 가격 차는 1~2천 원 수준). 공식 스토어형인 KZ Flagship Store(1005009233006009)는 item 30,507, 1,333건"
+      },
+      "coupang": {
+        "productId": "8054846488",
+        "name": "KZ ZS10 PRO X HIFI 베이스 헤드셋 하이브리드 이어폰 스포츠 소음 차단 이어버드 ZS10PROX",
+        "price": 57900,
+        "rocket": false
+      },
+      "diffPct": 52.1,
+      "diffKrw": 30164,
+      "why": "1) 찾는 사람: 알리 3,605건·98.0%(같은 모델 스토어 6곳 합 1만 건 이상), KZ 중가형 단골 2) 같은 제품 짝: 쿠팡 3P 제목이 알리 판매자 제목을 그대로 옮긴 ZS10PROX(쿠팡 다른 등록 67,500) 3) 판정 쓸모: 약 3만 원 차이·52%로 직구각 확실, 2만 원대라 면세·관세 문제 없음",
+      "warn": "마이크 유무·색 옵션을 쿠팡 상품과 같은 것으로 맞출 것(옵션 가격 폭이 작아 판정은 안 바뀜). 알리 Stone's Store는 KZ 재판매 스토어라 KZ Flagship(30,507)도 함께 확인. ZS10 Pro 2·ZSN Pro X는 이미 뺀 다른 모델이니 혼동 금지. 쿠팡 3P라 바코드 확인 필요",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "KZ ZS10 Pro X (마이크 유무·색은 매니저 확인)",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.16"
+      }
+    },
+    {
+      "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
+      "brand": "TRN",
+      "model": "VX Pro+ (8BA+1DD, 2핀)",
+      "category": "audio",
+      "aliId": "1005007347440400",
+      "ali": {
+        "productId": "1005007347440400",
+        "title": "TRN VX Pro+ 8BA+1DD 하이브리드 인이어 이어폰 IEM 하이파이 모니터 러닝 헤드폰 (TRN Official Store)",
+        "apiPrice": 46292,
+        "searchMin": 47300,
+        "orders": 321,
+        "rating": "96.3%",
+        "option": "item API 기본 옵션가(마이크 유무·케이블 옵션 미확인)"
+      },
+      "coupang": {
+        "productId": "9116528802",
+        "name": "TRN VX Pro+ 8BA+1DD 하이브리드 인이어 IEM 기술 하이파이 모니터 러닝 헤드폰",
+        "price": 69340,
+        "rocket": false
+      },
+      "diffPct": 33.2,
+      "diffKrw": 23048,
+      "why": "1) 찾는 사람: TRN 공식 스토어 321건·96.3%(판매량은 KZ보다 적은 편이라 다소 약함), TRN 플래그십급 IEM으로 입문 하이브리드 비교글에 자주 등장 2) 같은 제품 짝: 쿠팡 3P 제목이 'VX Pro+ 8BA+1DD'로 모델·드라이버 구성까지 같음 3) 판정 쓸모: 약 2.3만 원 차이·33%로 직구각, 4.6만 원대라 면세·관세 문제 없음",
+      "warn": "VX Pro(비+)와 VX Pro+ 혼동 금지(알리 다른 스토어는 VX Pro 6만 원대 재고 표기 상품이 섞임). 마이크 유무 옵션 맞출 것. 판매량이 적어 찾는 사람 근거가 상대적으로 약하니 매니저가 우선순위 판단. 쿠팡 3P라 바코드 확인 필요",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "TRN VX Pro+ 8BA+1DD",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.16"
+      }
+    },
+    {
+      "name": "QCY Crossky C30S 오픈형 이어클립 무선 이어폰 (블루투스 6.0, LDAC)",
+      "brand": "QCY",
+      "model": "Crossky C30S (BH24QT33A). C30 비S와 다른 모델",
+      "category": "audio",
+      "aliId": "1005012387181102",
+      "ali": {
+        "productId": "1005012387181102",
+        "title": "QCY Crossky C30S BH24QT33A 무선 이어폰 블루투스 6.0 이어 클립 이어버드 LDAC (QCY Official Store)",
+        "apiPrice": 40349,
+        "searchMin": 30595,
+        "orders": 2936,
+        "rating": "97.5%",
+        "option": "item API 기본 옵션가(색 옵션 미확인). 검색가 30,595와 item 가격이 달라 옵션별 가격 차가 있어 보임"
+      },
+      "coupang": {
+        "productId": "8906816172",
+        "name": "QCY 크로스키 C30S 블루투스 이어폰",
+        "price": 57500,
+        "rocket": false
+      },
+      "diffPct": 29.8,
+      "diffKrw": 17151,
+      "why": "1) 찾는 사람: 알리 공식 스토어 2,936건·97.5%, 같은 모델 다른 공식 등록도 955건, 이미 등록된 QCY T13·H3 ANC·N70과 같은 브랜드 흐름 2) 같은 제품 짝: 쿠팡 3P 'QCY 크로스키 C30S'(같은 상품 번호에 65,800 옵션도 있어 색 옵션별 가격 폭이 있음, 다른 3P 등록 96,600·108,100) 3) 판정 쓸모: 약 1.7만 원 차이·30%로 직구각 기준(20%·1만 원) 통과, 4만 원대라 면세·관세 문제 없음. 쿠팡 같은 모델 최저는 57,500",
+      "warn": "알리 item API 가격(40,349)이 검색 최저(30,595)보다 높아 옵션별 가격이 다름: 매니저가 일반 주소에서 쿠팡 57,500 옵션과 같은 색을 맞춰 알리 가격 확인(검색가 기준이면 차이가 더 커짐). C30(비S) 쿠팡 31,960은 다른 모델이라 비교 안 함. 무선기기(KC 전파인증) 안내는 기존 QCY 상품과 같은 문구 사용. 쿠팡 3P라 바코드 확인 필요",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "QCY Crossky C30S (색은 매니저 확인)",
+        "note": "쿠팡 3P 바코드 확인 필요, 색 옵션 맞출 것",
+        "checkedAt": "2026.11.16"
+      }
+    },
+    {
+      "name": "탕주(Tangzu) HE Cai Wenji 10mm 싱글 DD 유선 이어폰 (3.5mm)",
+      "brand": "Tangzu",
+      "model": "HE Cai Wenji (3.5mm 마이크 없는 기본형)",
+      "category": "audio",
+      "aliId": "1005012307211146",
+      "ali": {
+        "productId": "1005012307211146",
+        "title": "HE Cai Wenji 10mm 싱글 다이나믹 드라이버 인이어 모니터 (TANGZU Official Store)",
+        "apiPrice": 17523,
+        "searchMin": 17900,
+        "orders": 631,
+        "rating": "96.6%",
+        "option": "item API 기본 옵션가. API comparable:false(옵션·구성 표기가 없어 어느 옵션 가격인지 불명, 최저가는 3.5mm 마이크 없음일 가능성이 큼)"
+      },
+      "coupang": {
+        "productId": "9821700690",
+        "name": "TANGZU 탕주 Cai Wenji 하이파이 인이어 유선 이어폰 3.5mm",
+        "price": 31760,
+        "rocket": false
+      },
+      "diffPct": 44.8,
+      "diffKrw": 14237,
+      "why": "1) 찾는 사람: 탕주 공식 스토어 631건·96.6%(신작이라 누적은 적지만 짧은 기간에 많이 팔림), 탕주 입문 IEM으로 이미 뺀 Waner·Wu Zetian과 달리 국내 3P가 비슷한 가격에 파는 모델 2) 같은 제품 짝: 쿠팡 3P 제목이 'Cai Wenji 3.5mm'(마이크 포함·Type-C는 33,390~38,240이라 제외) 3) 판정 쓸모: 약 1.4만 원 차이·45%로 직구각이나 금액이 크지 않아 가격이 조금만 움직여도 애매로 바뀔 수 있음",
+      "warn": "comparable:false라 옵션 확인 필수(3.5mm·마이크 없음·색). 차이가 1만 원대 초반이라 판정이 흔들릴 수 있어 우선순위 낮음. 쿠팡 3P라 바코드 확인 필요",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "Tangzu HE Cai Wenji 3.5mm 마이크 없음",
+        "note": "쿠팡 3P 바코드·옵션 확인 필요",
+        "checkedAt": "2026.11.16"
+      }
+    }
+  ],
+  "excluded": [
+    {"name": "UGREEN Nexode 200W 25000mAh 보조배터리", "reason": "쿠팡 유그린 정발 로켓 100,900이 알리 item 140,045(공식 스토어)보다 쌈. 쿠팡 3P 192,300은 비싼 재판매일 뿐"},
+    {"name": "UGREEN 160W GaN 충전기 / 100W 4포트", "reason": "알리 item 가격(115,443)이 검색가(60,711)와 크게 달라 옵션 불명, 쿠팡에 유그린 같은 모델 검색이 안 잡혀 비교 불가"},
+    {"name": "AULA F99 키보드", "reason": "쿠팡 3P 168,000~178,000 vs 알리 item 96,943(검색가 54,395와 item 가격 차가 커 어느 스위치 옵션인지 불명), 쿠팡은 '사전 윤활 리니어' 한 구성뿐. 옵션 불명이라 뺌(매니저가 스위치별 가격 보면 후속 후보)"},
+    {"name": "MCHOSE ACE68 V2", "reason": "쿠팡 국내 정발 로켓 79,900·3P 65,320 vs 알리 61,266(검색 기준): 차이 1만 원 미만 또는 국내가 나음"},
+    {"name": "Machenike G1 게임패드", "reason": "알리 item 31,738 vs 쿠팡 정발 로켓 35,990: 차이 4천 원대"},
+    {"name": "Machenike G5 Pro", "reason": "알리는 G5 Pro(V1·V2), 쿠팡은 G5 Pro V3라 다른 모델"},
+    {"name": "8BitDo Ultimate 3C+", "reason": "알리 공식 item 46,168 vs 쿠팡 3P 51,500~54,800: 차이 1만 원 미만"},
+    {"name": "8BitDo Retro R8 마우스", "reason": "쿠팡 87,000은 GoW 한정판, 알리 57,714는 Xbox 에디션이라 같은 구성 아님"},
+    {"name": "8BitDo Ultimate 3(3모드 Xbox)", "reason": "쿠팡 '3세대' 등록이 어느 모델인지 알리와 못 맞춤(독 포함 여부도 불명)"},
+    {"name": "EasySMX D15 / X20 Pro", "reason": "알리 D15는 비공식 소량 판매(34건), X20 Pro 공식은 comparable:false·판매 7~17건"},
+    {"name": "GuliKit KK3 Max / Elves 2 Pro / Anbernic RG35XX H", "reason": "알리 판매 5~251건 3P 위주이고 쿠팡 같은 모델·구성 못 맞춤(KK3 Pro와 MAX 다름, RG35XX H는 저장 용량 옵션)"},
+    {"name": "GameSir X2 Pro / G7 Pro / T4N Pro", "reason": "알리 X2 Pro는 comparable:false·판매 15건, G7 Pro는 이미 뺀 모델과 같은 계열(쿠팡이 쌈), T4N Pro 알리 판매 0~2건"},
+    {"name": "QCY T13 Pro (HT23)", "reason": "알리 item 33,358 vs 쿠팡 38,700: 차이 5천 원대"},
+    {"name": "QCY MeloBuds N60 / H3S ANC", "reason": "N60은 쿠팡 같은 모델 검색에 안 잡힘, H3S는 쿠팡 44,000 정도로 알리 item 64,236보다 쌈"},
+    {"name": "QCY Crossky C30 (비S)", "reason": "쿠팡 31,960이 알리 30,700과 비슷(쿠팡 60,700 등록은 비싼 3P일 뿐)"},
+    {"name": "Fifine K688 USB/XLR 마이크", "reason": "알리 item 56,974(Choice Store) vs 쿠팡 3P 63,600: 차이 1만 원 미만(쿠팡 피파인 정발 89,940~)"},
+    {"name": "Lenovo GM2 Pro / LP40 Pro / XT 시리즈", "reason": "알리 7,000~13,000원대 초저가라 쿠팡 16,900과 차이 1만 원 미만이고 GM2 Pro는 쿠팡 같은 모델 검색 안 잡힘"},
+    {"name": "CCA Xyrra", "reason": "알리 19,950~24,000(판매 2~33건)로 찾는 사람 근거 부족(쿠팡 45,720·48,160은 차이는 큼). 필요하면 재검토"},
+    {"name": "TINHIFI T2 MKIII / C1 / T5S / C5, Kiwi Ears 시리즈, TRN Caravel(TK1)", "reason": "알리 API에 같은 모델이 없거나(Kiwi Ears·T2 MKIII·Caravel은 검색 결과 0건) 판매 0~7건 3P 위주"},
+    {"name": "Fosi Audio IM4 / ZH3", "reason": "IM4는 알리 판매 25건뿐, ZH3는 전원 어댑터가 따로 필요한 데스크탑 DAC·앰프라 이번 규칙(②)으로 제외(차이는 큼: 쿠팡 294,500 vs 알리 208,326)"},
+    {"name": "Edifier W830NB / FiiO KA11·KA13·JM21·GIGAS1·BTR15 / Moondrop Dawn Pro 2·Moonriver 2", "reason": "쿠팡에 같은 모델 정식 판매가 알리와 비슷하거나 더 쌈(KA11 47,990 vs 알리 46,300 등), W830NB는 쿠팡 본체 없음, Dawn Pro 2는 이미 뺌"},
+    {"name": "Baseus Inspire XP1 / Eli Sport 2 / Bowie M2s, 8BitDo Pro 2·Pro 3", "reason": "쿠팡 같은 모델 검색이 한글·영문 어느 쪽으로도 안 잡힘(국내 비교 불가)"},
+    {"name": "Aqara M3 허브·무선 미니 스위치", "reason": "알리 Aqara Head Office Store가 '한국본사정품'으로 국내와 같은 판매처라 직구 이점 없음"},
+    {"name": "SONOFF ZBDongle-E / SNZB-02P / TRVZB / SNZB-04PR2·03P", "reason": "ZBDongle-E는 쿠팡 22,900이 알리 30,200보다 쌈, TRVZB는 comparable:false, 04PR2·03P·02P는 쿠팡 같은 모델 검색에 안 잡히거나 02P는 가격 들쭉날쭉(27,030~73,870)해 같은 구성 확인 불가"},
+    {"name": "Toocki·Essager·Joyroom·INIU·Mcdodo 충전기·보조배터리", "reason": "알리 공식 스토어 판매가 케이블·액세서리 위주이거나 본체 검색 0건·판매 10~43건"},
+    {"name": "Govee, SwitchBot, TP-Link Tapo 카메라", "reason": "알리 API에 본체 상품이 없음(Tapo는 거치대·부품만 검색됨)"},
+    {"name": "Magcubic HY300 Pro 프로젝터", "reason": "이번 찾을 범위(오디오·충전·키보드·마우스·게임패드·스마트홈 소품)에 맞지 않고 옵션(플러그·Pro/Pro+)이 여러 개라 후순위"},
+    {"name": "Huawei FreeClip 2 / OnePlus Buds Pro 3 / Nothing Ear / realme Buds Air 7 Pro", "reason": "알리 판매자가 공식 아님·판매 7~66건이거나 comparable:false, 쿠팡 같은 모델 확인 못 함"}
+  ],
+  "notes": "추천 순위: 1 SONOFF SNZB-02D(71%·약 3.3만 원), 2 KZ ZS10 Pro X(52%·약 3.0만 원), 3 TRN VX Pro+(33%·약 2.3만 원), 4 QCY Crossky C30S(30%·약 1.7만 원), 5 SONOFF ZBDongle-P(40%·약 1.6만 원), 6 Tangzu Cai Wenji(45%·약 1.4만 원, 옵션 불명으로 마지막). 후보는 10개를 못 채웠음(억지로 채우지 않음): 같은 모델·옵션이 분명하고 쿠팡에 같은 모델이 있으며 차이가 1만 원 이상인 짝이 6개뿐이었음. 쿠팡 API는 403·429·stop 없이 약 70회 호출(4초 간격), 알리 item API는 SONOFF-Flagship ZBDongle-P가 ApiCallLimit로 실패해 SONOFF Official 가격 사용. 알리 가격은 item API 기본가(배송비 별도·옵션 미표시)이고 알리 item 가격이 검색 최저가와 자주 달라(검색가가 더 낮은 경우 다수) 옵션별 가격 차가 있음 → 매니저가 일반 주소에서 같은 옵션 가격 확인. 쿠팡은 모두 3P(바코드·모델번호 미확인이라 match.method는 model로 초안, 바코드는 매니저가 확인). 알리 중 KZ·TRN·QCY·SONOFF 공식·유통 스토어 확인, 무선 제품(QCY·SONOFF 지그비)은 KC 전파인증·직구 인증 문구를 기존 QCY 상품과 같게 쓸 것. 이미 등록된 상품·이전 뺀 후보와 겹치는 것 없음(KZ ZS10 Pro 2·ZSN Pro X·Castor, QCY T13·H3·N70, 심고 EW300, 포시오디오 등은 제외하고 찾음). 쿠팡 일반 주소(domesticCheckUrl)는 https://www.coupang.com/vp/products/<쿠팡 상품번호>, 알리는 https://ko.aliexpress.com/item/<알리 상품번호>.html"
+}
