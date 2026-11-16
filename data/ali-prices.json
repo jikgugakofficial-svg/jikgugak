@@ -164,7 +164,31 @@
       "found": true,
       "apiPrice": 17540,
       "result": "same"
+    },
+    "ali-sonoff-snzb-02d": {
+      "itemId": "1005005287154188",
+      "at": "2026-11-16T05:56:50.102Z",
+      "recordedKrw": 13456,
+      "found": true,
+      "apiPrice": 13456,
+      "result": "same"
+    },
+    "ali-kz-zs10-pro-x": {
+      "itemId": "1005006677926866",
+      "at": "2026-11-16T05:56:52.410Z",
+      "recordedKrw": 27736,
+      "found": true,
+      "apiPrice": 27736,
+      "result": "same"
+    },
+    "ali-trn-vx-pro-plus": {
+      "itemId": "1005007347440400",
+      "at": "2026-11-16T05:56:52.832Z",
+      "recordedKrw": 46292,
+      "found": true,
+      "apiPrice": 46292,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-16T03:46:11.098Z"
+  "updatedAt": "2026-11-16T05:56:53.238Z"
 }
