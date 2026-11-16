@@ -7,6 +7,7 @@ const { chromium } = require('playwright');
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 3 });
   await p.goto(`http://127.0.0.1:${process.env.SHOT_PORT || 8765}${path}`); await p.waitForTimeout(600);
   if (clickSel) { await p.click(clickSel); await p.waitForTimeout(400); }
+  if (process.env.HIDE) await p.evaluate((h) => { for (const e of document.querySelectorAll(h)) e.style.visibility = 'hidden'; }, process.env.HIDE); // 예: D-3처럼 날마다 바뀌는 표시 숨김
   await p.evaluate(() => { for (const e of document.querySelectorAll('*')) { const s = getComputedStyle(e).position; if (s === 'fixed' || s === 'sticky') e.style.display = 'none'; } });
   const box = await p.evaluate(([t, bo]) => { const a = document.querySelector(t).getBoundingClientRect(), c = document.querySelector(bo).getBoundingClientRect(); return { top: a.top + scrollY - 16, bottom: c.bottom + scrollY + 16 }; }, [topSel, botSel]);
   const H = Math.min(900, box.bottom - box.top);

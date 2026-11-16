@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>직구각 릴스 블프 시작 시각 퀴즈</title>
+<style>
+  @font-face{font-family:D;src:url("../../tools/tvc/fonts/Freesentation-9Black.ttf")}
+  @font-face{font-family:P;src:url("../../tools/cards/fonts/PretendardVariable.ttf");font-weight:100 900}
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#FBF7F3}
+  #bg2,#endbg{position:absolute;inset:0}
+  #cam{position:absolute;inset:0;transform-origin:540px 1000px}
+  svg{position:absolute;inset:0}
+  #words{position:absolute;inset:0}
+  .w{position:absolute;left:0;top:0;white-space:nowrap;letter-spacing:-0.02em;clip-path:inset(-60% -8% -4% -8%)}
+  .w span{display:inline-block;white-space:pre}
+  .lbl{font-family:P;font-weight:800}
+</style></head>
+<body>
+<div id="bg2"></div>
+<div id="cam"><svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="g"></g><g id="fx"></g></svg></div>
+<svg id="ui" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="site"></g><g id="cta"></g></svg>
+<div id="endbg"></div>
+<svg id="s2" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="logo"></g></svg>
+<div id="words"></div>
+<script src="timeline.js"></script>
+<script>
+document.fonts.load('900 100px D'); document.fonts.load('800 40px P');
+const T = window.TL, BT = 60 / T.bpm, bt = (b) => b * BT;
+window.DURATION = T.beats * BT;
+const C = { navy:'#1F2E57', orange:'#D23A10', salmon:'#FFC7A6', white:'#FFFFFF', gray:'#5B6170', green:'#0E7C4A', red:'#C4301A', blue:'#2F5FD0', bg:'#FBF7F3', line:'#E4DFDA' };
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const pg = (t, a, b) => cl((t - a) / (b - a));
+const oc = (x) => 1 - Math.pow(1 - x, 3);
+const o5 = (x) => 1 - Math.pow(1 - x, 5);
+const iq = (x) => x * x;
+const spring = (dt, f = 1.4, z = 0.32) => dt <= 0 ? 0 : 1 - Math.exp(-z * 2 * Math.PI * f * dt) * (Math.cos(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt) + z / Math.sqrt(1 - z * z) * Math.sin(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt));
+const lerp = (a, b, p) => a + (b - a) * p;
+const won = (n) => Math.round(n).toLocaleString('ko-KR') + '원';
+const manwon = (n) => { const k = Math.floor(n / 1000), man = Math.floor(k / 10), chun = k % 10; return `${man}만${chun ? ' ' + chun + '천' : ''} 원`; };
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
+const txt = (par, x, y, s, attrs) => { const e = el('text', { x, y, 'text-anchor': 'middle', 'dominant-baseline': 'middle', ...attrs }, par); e.textContent = s; return e; };
+const $ = (id) => document.getElementById(id);
+
+// ── 자막(한 장면 12자 이내) ──
+const W0 = [['블프 시작,', 0.3, T.hit, 330, 120, 'navy', 'D'], ['한국은 몇 시?', 0.8, T.hit, 470, 150, 'orange', 'D'],
+  ['정답 ②', T.hit + 0.1, T.clocks[1], 330, 84, 'white', 'D', C.green], ['오후 5시 1분', T.hit + 0.4, T.clocks[1], 470, 150, 'orange', 'D'],
+  ['30일까지', T.cal[0] + 0.1, T.stamp[0], 330, 110, 'navy', 'D'], [T.days + '일', T.cal[0] + 0.5, T.stamp[0], 470, 160, 'orange', 'D'],
+  ['27일은', T.stamp[0] + 0.1, T.stamp[1], 330, 110, 'navy', 'D'], ['블프 당일', T.stamp[0] + 0.5, T.stamp[1], 470, 150, 'red', 'D'],
+  ['아마존 블프 위크', T.site[0] + 0.25, T.site[1], 300, 100, 'white', 'D'], [T.range, T.site[0] + 0.6, T.site[1], 420, 110, 'salmon', 'D'],
+  ['목표가는', T.end, null, 1010, 140, 'white', 'D'], ['프로필 링크', T.end, null, 1160, 140, 'white', 'D']];
+const WD = W0.map(([text, b, out, y, size, col, font, pill]) => ({ text, b, out, y, size, col: C[col], font, pill }));
+for (const w of WD) {
+  const d = document.createElement('div'); d.className = 'w';
+  d.style.cssText += `font-family:${w.font};font-weight:${w.font === 'D' ? 900 : 800};font-size:${w.size}px;color:${w.col}`;
+  w.chars = [...w.text].map((ch) => { const sp = document.createElement('span'); sp.textContent = ch; d.appendChild(sp); return sp; });
+  if (w.b >= T.end) d.style.clipPath = 'none';
+  if (w.pill) { d.style.background = w.pill; d.style.padding = '6px 52px 12px'; d.style.borderRadius = '999px'; d.style.clipPath = 'none'; }
+  $('words').appendChild(d); w.d = d;
+}
+let laid = false;
+function layout() { for (const w of WD) { let r = w.d.getBoundingClientRect(); if (r.width > 960) { w.size = Math.floor(w.size * 960 / r.width); w.d.style.fontSize = w.size + 'px'; r = w.d.getBoundingClientRect(); } w.wd = r.width; w.hh = r.height; } laid = true; }
+function word(w, t) {
+  const t0 = bt(w.b);
+  w.d.style.transform = `translate(${540 - w.wd / 2}px,${w.y - w.hh / 2}px)`;
+  if (w.b >= T.end) { w.d.style.opacity = t >= bt(T.end) ? 1 : 0; return; }
+  if (t < t0 || t >= bt(w.out)) { w.d.style.opacity = 0; return; }
+  w.d.style.opacity = 1;
+  if (w.pill) { const sp = spring(t - t0, 2.4, 0.35), q = pg(t, bt(w.out) - 0.16, bt(w.out)); w.d.style.transform += ` scale(${(2.2 - 1.2 * sp) * (1 - q)}) rotate(${(1 - cl(sp)) * -8}deg)`; }
+  const big = w.size >= 100, out = bt(w.out), n = w.chars.length, st = big ? 0.03 : 0.012;
+  w.chars.forEach((c, i) => {
+    const dt = t - t0 - i * st, sp = big ? spring(dt, 2.0, 0.42) : oc(pg(dt, 0, 0.25));
+    const q = pg(t, out - 0.16 + i * Math.min(0.008, 0.08 / n), out);
+    c.style.transform = `translateY(${(1 - sp) * w.hh * 0.95 - q * w.hh * 1.2}px) rotate(${big ? (1 - cl(sp)) * 10 : 0}deg)`;
+    c.style.opacity = (dt > 0 ? 1 : 0) * (1 - q);
+  });
+}
+
+// ── 효과 ──
+const G = $('g'), FX = $('fx');
+function ring(par, x, y, t, t0, col, r0, r1, dur = 0.45, w = 16) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; el('circle', { cx: x, cy: y, r: r0 + (r1 - r0) * oc(p), fill: 'none', stroke: col, 'stroke-width': w * (1 - p) }, par); }
+function burst(par, x, y, t, t0, col, n, r0, r1, dur = 0.35, w = 12) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; const rb = r0 + (r1 - r0) * oc(p), ra = r0 + (r1 - r0) * oc(cl(p * 1.7 - 0.7)); for (let i = 0; i < n; i++) { const a = 2 * Math.PI * i / n + 0.2; el('line', { x1: x + Math.cos(a) * ra, y1: y + Math.sin(a) * ra, x2: x + Math.cos(a) * rb, y2: y + Math.sin(a) * rb, stroke: col, 'stroke-width': w * (1 - p), 'stroke-linecap': 'round' }, par); } }
+const rad = (d) => (d - 90) * Math.PI / 180;
+
+// ── 시계 하나(바늘 각도: 12시 = 0도) ──
+function clock(par, cx, cy, r, hA, mA, opt = {}) {
+  const g = el('g', { transform: `translate(${cx} ${cy}) scale(${opt.s ?? 1})` }, par);
+  el('circle', { cx: 0, cy: 0, r, fill: '#fff', stroke: C.navy, 'stroke-width': r * 0.07 }, g);
+  for (let i = 0; i < 12; i++) { const a = rad(i * 30), big = i % 3 === 0; el('line', { x1: Math.cos(a) * r * (big ? 0.74 : 0.8), y1: Math.sin(a) * r * (big ? 0.74 : 0.8), x2: Math.cos(a) * r * 0.88, y2: Math.sin(a) * r * 0.88, stroke: big ? C.navy : C.gray, 'stroke-width': big ? r * 0.045 : r * 0.022, 'stroke-linecap': 'round' }, g); }
+  const hand = (A, len, w, col) => el('line', { x1: -Math.cos(rad(A)) * r * 0.1, y1: -Math.sin(rad(A)) * r * 0.1, x2: Math.cos(rad(A)) * r * len, y2: Math.sin(rad(A)) * r * len, stroke: col, 'stroke-width': w, 'stroke-linecap': 'round' }, g);
+  hand(hA, 0.5, r * 0.075, C.navy); hand(mA, 0.72, r * 0.045, opt.mcol || C.orange);
+  el('circle', { cx: 0, cy: 0, r: r * 0.06, fill: C.navy }, g);
+  return g;
+}
+
+// ── 1) 큰 시계 + 물음표 + 핀 3개 ──
+const CX = 540, CY = 1050, CR = 260;
+const PINS = [[-30, '① 19일 0시'], [150, '② 오후 5시 1분'], [30, '③ 20일 0시']];
+function drawBig(t) {
+  const out = pg(t, bt(T.hit + 0.7), bt(T.hit + 1.1)); if (out >= 1) return;
+  const s = spring(t - 0.05, 1.6, 0.4) * (1 - out), hit = t >= bt(T.hit);
+  const spin = t * 260, hA = hit ? 150.5 : spin * 0.4 + 20, mA = hit ? 6 : spin * 1.3;
+  clock(G, CX, CY, CR, hA, mA, { s });
+  if (t < bt(T.pins[0])) { const qa = Math.sin(t * 5) * 14 * (1 - pg(t, bt(T.pins[0]) - 0.3, bt(T.pins[0]))), qg = el('g', { transform: `translate(${CX} ${CY - CR - 10}) rotate(${qa}) scale(${s})` }, G); el('line', { x1: 0, y1: 0, x2: 0, y2: -60, stroke: C.gray, 'stroke-width': 4 }, qg); txt(qg, 0, -110, '?', { 'font-family': 'D', 'font-size': 120, fill: C.orange }); }
+  PINS.forEach(([A, label], i) => {
+    const b = T.pins[i]; if (t < bt(b) - 0.05) return;
+    const sp = spring(t - bt(b), 2.6, 0.4), wrong = i !== 1 && hit, good = i === 1 && hit;
+    const drop = wrong ? pg(t, bt(T.hit) + 0.05, bt(T.hit) + 0.6) : 0; if (drop >= 1) return;
+    const a = rad(A), rx = CX + Math.cos(a) * CR, ry = CY + Math.sin(a) * CR, L = 130 * cl(sp, 0, 1.1);
+    const fx = CX + Math.cos(a) * (CR + L), fy = CY + Math.sin(a) * (CR + L) + drop * 900;
+    const g = el('g', { opacity: (1 - drop) * (1 - out) }, G);
+    el('line', { x1: rx, y1: ry, x2: fx, y2: fy, stroke: C.navy, 'stroke-width': 7 }, g);
+    el('circle', { cx: rx, cy: ry, r: 16, fill: good ? C.green : C.orange, stroke: '#fff', 'stroke-width': 5 }, g);
+    const fill = wrong ? '#C9CDD6' : good ? C.green : '#fff';
+    const sc = (0.3 + 0.7 * sp) * (1 + (good ? 0.15 * spring(t - bt(T.hit), 2.4, 0.4) : 0));
+    const lx = fx + (i === 0 ? -120 : i === 2 ? 120 : 60), ly = fy + (i === 1 ? 40 : -45);
+    const cg = el('g', { transform: `translate(${lx} ${ly}) rotate(${drop * (i ? 40 : -40)}) scale(${sc})` }, g);
+    const wdt = i === 1 ? 430 : 320;
+    el('rect', { x: -wdt / 2, y: -50, width: wdt, height: 100, rx: 30, fill, stroke: good ? C.green : C.navy, 'stroke-width': 6 }, cg);
+    txt(cg, 0, 4, label, { 'font-family': 'D', 'font-size': 46, fill: fill === '#fff' ? C.navy : '#fff' });
+    if (good) { ring(FX, lx, ly, t, bt(T.hit), C.green, 60, 320, 0.45, 16); burst(FX, lx, ly, t, bt(T.hit), C.green, 14, 160, 300, 0.35, 10); }
+  });
+}
+
+// ── 2) 두 도시 시계: 미국 태평양 19일 0:01 = 서울 19일 17:01(바늘이 휙 돌아감) ──
+function drawClocks(t) {
+  const [a, b] = T.clocks; if (t < bt(a) + 1.0 || t >= bt(b)) return;
+  const leave = pg(t, bt(b) - 0.2, bt(b)), R2 = 180, Y2 = 1000;
+  [[275, '미국 태평양', '19일 0:01', 0], [805, '서울', '19일 17:01', 1]].forEach(([x, city, when, k]) => {
+    const s = spring(t - bt(a) - 1.0 - k * 0.12, 2.0, 0.42) * (1 - leave);
+    let hA = 0.5, mA = 6;
+    if (k) { const p = o5(pg(t, bt(T.spin[0]), bt(T.spin[1]))); hA = lerp(0.5, 360 + 150.5, p); mA = lerp(6, 6 + 360 * 4, p); }
+    clock(G, x, Y2, R2, hA, mA, { s, mcol: k ? C.orange : C.blue });
+    const lg = el('g', { transform: `translate(${x} ${Y2 + R2 + 60}) scale(${s})` }, G);
+    txt(lg, 0, 0, city, { class: 'lbl', 'font-size': 44, fill: C.gray });
+    const done = !k || t >= bt(T.spin[1]);
+    el('rect', { x: -175, y: 40, width: 350, height: 96, rx: 48, fill: k && done ? C.orange : C.navy }, lg);
+    txt(lg, 0, 92, done ? when : '19일', { 'font-family': 'D', 'font-size': 52, fill: '#fff' });
+    if (k) burst(FX, x, Y2, t, bt(T.spin[1]), C.orange, 12, R2 + 10, R2 + 110, 0.35, 10);
+  });
+  const s = spring(t - bt(a) - 1.2, 2, 0.45) * (1 - leave);
+  if (s > 0.01) txt(G, 540, Y2, '=', { 'font-family': 'D', 'font-size': 120 * s, fill: C.navy });
+}
+
+// ── 3) 달력: 19~30일 칸이 차례로 칠해지고 27일에 도장 ──
+const CAL = { x0: 120, w: 120, y0: 830, h: 125 };
+const cell = (d) => { const i = d - 15; return [CAL.x0 + (i % 7) * CAL.w + CAL.w / 2, CAL.y0 + Math.floor(i / 7) * CAL.h + CAL.h / 2]; };
+function drawCal(t) {
+  const a = T.cal[0], b = T.stamp[1]; if (t < bt(a) - 0.1 || t >= bt(b)) return;
+  const s = spring(t - bt(a) + 0.1, 1.8, 0.42), leave = pg(t, bt(b) - 0.2, bt(b));
+  const g = el('g', { transform: `translate(540 1000) scale(${s * (1 - leave)}) translate(-540 -1000)` }, G);
+  el('rect', { x: CAL.x0 - 30, y: 640, width: 7 * CAL.w + 60, height: 3 * CAL.h + 240, rx: 40, fill: '#fff', stroke: C.navy, 'stroke-width': 8 }, g);
+  el('path', { d: `M${CAL.x0 - 30} 740 V680 a40 40 0 0 1 40 -40 H${CAL.x0 + 7 * CAL.w - 10} a40 40 0 0 1 40 40 V740 Z`, fill: C.navy }, g);
+  txt(g, 540, 692, '11월', { 'font-family': 'D', 'font-size': 56, fill: '#fff' });
+  '일월화수목금토'.split('').forEach((d, i) => txt(g, CAL.x0 + i * CAL.w + CAL.w / 2, 785, d, { class: 'lbl', 'font-size': 36, fill: i === 0 ? C.red : C.gray }));
+  const p0 = bt(T.paint[0]), p1 = bt(T.paint[1]), st = bt(T.stamp[0]);
+  for (let d = 15; d <= 30; d++) {
+    const [x, y] = cell(d), pt = d >= 19 ? p0 + (d - 19) * (p1 - p0) / 11 : 1e9, p = oc(pg(t, pt, pt + 0.12));
+    if (p > 0) el('rect', { x: x - CAL.w / 2 + 6, y: y - CAL.h / 2 + 6, width: (CAL.w - 12) * p, height: CAL.h - 12, rx: 18, fill: d === 27 && t >= st ? C.red : C.orange }, g);
+    txt(g, x, y + 4, String(d), { 'font-family': 'D', 'font-size': 52, fill: p > 0.5 ? '#fff' : C.navy });
+  }
+  if (t >= st - 0.15) {
+    const [x, y] = cell(27), p = pg(t, st - 0.15, st), sc = t < st ? lerp(3, 1, iq(p)) : 1 + 0.08 * Math.exp(-(t - st) * 10);
+    const sg = el('g', { transform: `translate(${x - 40} ${y + 150}) rotate(-12) scale(${sc})`, opacity: t < st ? p : 1 }, g);
+    el('rect', { x: -150, y: -58, width: 300, height: 116, rx: 22, fill: '#fff', stroke: C.red, 'stroke-width': 10 }, sg);
+    txt(sg, 0, 6, '블프 당일', { 'font-family': 'D', 'font-size': 58, fill: C.red });
+    el('line', { x1: x, y1: y + 58, x2: x, y2: y + 90, stroke: C.red, 'stroke-width': 8, 'stroke-linecap': 'round', opacity: t < st ? 0 : 1 }, g);
+    ring(FX, x - 40, y + 150, t, st, C.red, 60, 300, 0.45, 14);
+  }
+}
+
+// ── 4) 사이트 화면: 실제 세일 캘린더의 아마존 블프 위크 줄 → 날짜 → 시작 시각 문장 ──
+const site = $('site');
+const phone = el('g', {}, site);
+const [IMGW, IMGH] = T.shot, IW = 900, IH = IW * IMGH / IMGW, PW = IW + 40, PH = IH + 40, IY = 20;
+el('rect', { x: -PW / 2, y: 0, width: PW, height: PH, rx: 40, fill: C.salmon }, phone);
+el('rect', { x: -PW / 2 + 8, y: 8, width: PW - 16, height: PH - 16, rx: 32, fill: '#FFFFFF' }, phone);
+const clip = el('clipPath', { id: 'scr' }, el('defs', {}, phone)); el('rect', { x: -IW / 2, y: IY, width: IW, height: IH, rx: 20 }, clip);
+el('image', { href: 'site.png', x: -IW / 2, y: IY, width: IW, height: IH, 'clip-path': 'url(#scr)', preserveAspectRatio: 'xMidYMin slice' }, phone);
+const hl = el('rect', { fill: 'none', stroke: C.orange, 'stroke-width': 8, rx: 16 }, phone);
+function drawSite(t) {
+  const [a, b] = T.site; if (t < bt(a) || t >= bt(b)) { phone.setAttribute('opacity', 0); return; }
+  const sp = spring(t - bt(a) - 0.1, 1.6, 0.42), leave = pg(t, bt(b) - 0.2, bt(b));
+  phone.setAttribute('opacity', 1 - leave);
+  phone.setAttribute('transform', `translate(540 ${540 + (1 - sp) * 1400 - leave * 300}) rotate(${(1 - cl(sp)) * 8})`);
+  const R0 = T.rows, seq = [[a + 1.5, R0.title], [a + 2.5, R0.range], [a + 3.5, R0.text]].filter((s) => s[1]);
+  let k = -1; seq.forEach(([bb], i) => { if (t >= bt(bb)) k = i; });
+  if (k < 0) { hl.setAttribute('opacity', 0); return; }
+  const cur = seq[k][1], prv = seq[Math.max(0, k - 1)][1], m = k ? oc(pg(t, bt(seq[k][0]), bt(seq[k][0]) + 0.18)) : oc(pg(t, bt(seq[0][0]), bt(seq[0][0]) + 0.25));
+  const y0 = lerp(prv.y0, cur.y0, k ? m : 1), y1 = lerp(prv.y1, cur.y1, k ? m : 1);
+  hl.setAttribute('opacity', 1); hl.setAttribute('x', -IW / 2 + 10); hl.setAttribute('width', (IW - 20) * (k ? 1 : m));
+  hl.setAttribute('y', IY + y0 * IH - 6); hl.setAttribute('height', (y1 - y0) * IH + 12); hl.setAttribute('stroke-width', k === 2 ? 11 : 8);
+}
+// ── 배경: 남색 구간 ──
+function drawBg(t) {
+  const b2 = $('bg2'); b2.style.background = C.navy; let cp = 'circle(0px at 0 0)';
+  for (const [a, c] of T.navy) {
+    if (t >= bt(a) - 0.06 && t < bt(c) - 0.05) cp = `circle(${1.06 * Math.hypot(540, 1100) * o5(pg(t, bt(a) - 0.06, bt(a) + 0.26))}px at 540px 1060px)`;
+    else if (t >= bt(c) - 0.05 && t < bt(c) + 0.2) { const e = oc(pg(t, bt(c) - 0.05, bt(c) + 0.2)), edge = -400 + 1880 * e; cp = `polygon(${edge + 300}px 0, 2000px 0, 2000px 1920px, ${edge - 300}px 1920px)`; }
+  }
+  b2.style.clipPath = cp;
+}
+// ── 로고(엔드 카드) ──
+const lgG = $('logo');
+const lgH = el('rect', { fill: '#fff' }, lgG), lgV = el('rect', { fill: '#fff' }, lgG), lgS = el('rect', { fill: C.navy }, lgG);
+el('rect', { x: 280, y: 1300, width: 520, height: 94, rx: 47, fill: C.navy }, lgG);
+const urlT = el('text', { x: 540, y: 1347, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: '#fff', class: 'lbl', 'font-size': 42 }, lgG); urlT.textContent = 'www.jikgugak.com';
+(() => { const cx = 540, cy = 700, k = 300 / 522, X = (u) => cx - 150 + u * k, Y = (v) => cy - 150 + v * k;
+  lgH.setAttribute('x', X(20)); lgH.setAttribute('y', Y(20)); lgH.setAttribute('height', 77 * k); lgH.setAttribute('rx', 38 * k); lgH.setAttribute('width', 482 * k);
+  lgV.setAttribute('x', X(425)); lgV.setAttribute('y', Y(20)); lgV.setAttribute('width', 77 * k); lgV.setAttribute('rx', 38 * k); lgV.setAttribute('height', 482 * k);
+  const hs = 96 * k; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', 2 * hs); lgS.setAttribute('height', 2 * hs); lgS.setAttribute('rx', 40 * k); })();
+// ── 카메라(그래픽만) ──
+function cam(t) {
+  let z = 0, rot = 0, sx = 0, sy = 0;
+  const hit = (b, amt, sh, tl) => { const d = t - bt(b); if (d >= 0 && d < 0.5) z = Math.max(z, amt * Math.exp(-d * 8)); if (sh && d >= 0 && d < 0.22) { const a = sh * (1 - d / 0.22); sx = a * Math.sin(d * 95); sy = 0.7 * a * Math.cos(d * 81); } if (tl && d >= 0 && d < 1.2) rot += tl * (1 - spring(d, 2.2, 0.3)); };
+  T.pins.forEach((b) => hit(b, 0.02, 4, 0));
+  hit(T.hit, 0.08, 14, -2.5); hit(T.spin[1], 0.05, 8, 0); hit(T.stamp[0], 0.1, 20, 3);
+  return `translate(${sx}px,${sy}px) rotate(${rot}deg) scale(${1 + z})`;
+}
+
+const LEAD = 0.04;
+window.seek = (t0) => {
+  const t = t0 + LEAD;
+  if (!laid) layout();
+  G.innerHTML = ''; FX.innerHTML = '';
+  drawBg(t); drawBig(t); drawClocks(t); drawCal(t); drawSite(t);
+  $('endbg').style.background = t >= bt(T.end) ? C.orange : 'transparent';
+  lgG.setAttribute('opacity', t >= bt(T.end) ? 1 : 0);
+  for (const w of WD) word(w, t);
+  $('cam').style.transform = cam(t);
+};
+</script>
+</body></html>
