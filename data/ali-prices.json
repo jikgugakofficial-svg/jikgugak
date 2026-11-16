@@ -50,11 +50,11 @@
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
-      "at": "2026-11-15T21:19:10.140Z",
+      "at": "2026-11-16T11:02:59.812Z",
       "recordedKrw": 219291,
       "found": true,
-      "apiPrice": 219291,
-      "result": "same"
+      "apiPrice": 219902,
+      "result": "applied"
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
@@ -151,19 +151,19 @@
     },
     "ali-truthear-zero-blue2": {
       "itemId": "1005008606126729",
-      "at": "2026-11-15T20:17:16.146Z",
+      "at": "2026-11-16T11:02:56.710Z",
       "recordedKrw": 75715,
       "found": true,
-      "apiPrice": 75715,
-      "result": "same"
+      "apiPrice": 75926,
+      "result": "applied"
     },
     "ali-kz-zsn-pro-2": {
       "itemId": "1005006997565403",
-      "at": "2026-11-15T21:19:07.842Z",
+      "at": "2026-11-16T11:02:59.407Z",
       "recordedKrw": 17540,
       "found": true,
-      "apiPrice": 17540,
-      "result": "same"
+      "apiPrice": 17581,
+      "result": "applied"
     },
     "ali-sonoff-snzb-02d": {
       "itemId": "1005005287154188",
@@ -198,5 +198,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-16T09:26:25.958Z"
+  "updatedAt": "2026-11-16T11:03:00.850Z"
 }
