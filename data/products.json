@@ -5888,13 +5888,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 알리 자동",
+    "checkedAt": "2026.11.18 쿠팡 자동",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
     "priceKrw": 46445,
-    "domesticKrw": 65390,
+    "domesticKrw": 65480,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
     "risks": [
@@ -5926,6 +5926,13 @@
         "from": 46292,
         "to": 46445,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "domesticKrw",
+        "from": 65390,
+        "to": 65480,
+        "source": "쿠팡"
       }
     ]
   },
