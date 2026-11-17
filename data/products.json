@@ -4213,7 +4213,7 @@
     "slug": "amazon-lego-10328-bouquet-of-roses",
     "name": "레고 보태니컬 장미 꽃다발 10328",
     "category": "toy",
-    "domesticKrw": 70800,
+    "domesticKrw": 70100,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CGY4X222",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7792209105",
@@ -4292,6 +4292,13 @@
         "field": "domesticKrw",
         "from": 70100,
         "to": 70800,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "domesticKrw",
+        "from": 70800,
+        "to": 70100,
         "source": "쿠팡"
       }
     ]

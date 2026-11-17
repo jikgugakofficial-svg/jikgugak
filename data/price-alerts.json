@@ -42,7 +42,7 @@
       "source": "쿠팡"
     },
     "amazon-sennheiser-momentum-4:domesticKrw": {
-      "at": "2026-11-17T15:32:43.231Z",
+      "at": "2026-11-17T22:34:59.803Z",
       "slug": "amazon-sennheiser-momentum-4",
       "field": "domesticKrw",
       "recorded": 398990,
@@ -60,7 +60,27 @@
       "change": "18%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
+    },
+    "amazon-bose-qc-headphones:domesticKrw": {
+      "at": "2026-11-17T22:34:15.744Z",
+      "slug": "amazon-bose-qc-headphones",
+      "field": "domesticKrw",
+      "recorded": 269000,
+      "api": 349000,
+      "change": "30%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
+    },
+    "amazon-bose-qc-earbuds:domesticKrw": {
+      "at": "2026-11-17T22:34:19.989Z",
+      "slug": "amazon-bose-qc-earbuds",
+      "field": "domesticKrw",
+      "recorded": 164000,
+      "api": 229000,
+      "change": "40%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-17T21:33:32.522Z"
+  "updatedAt": "2026-11-17T22:35:14.811Z"
 }
