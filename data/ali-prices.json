@@ -207,7 +207,7 @@
     },
     "ali-truthear-zero-red": {
       "itemId": "1005005589751589",
-      "at": "2026-11-17T05:43:33.609Z",
+      "at": "2026-11-17T21:33:29.073Z",
       "recordedKrw": 76178,
       "found": true,
       "apiPrice": 76178,
@@ -215,7 +215,7 @@
     },
     "ali-tangzu-waner-sg2-red-lion": {
       "itemId": "1005011615420740",
-      "at": "2026-11-17T05:43:34.061Z",
+      "at": "2026-11-17T21:33:31.254Z",
       "recordedKrw": 26979,
       "found": true,
       "apiPrice": 26979,
@@ -223,12 +223,12 @@
     },
     "ali-sonoff-minir4": {
       "itemId": "1005005260044338",
-      "at": "2026-11-17T07:59:15.727Z",
-      "recordedKrw": 11532,
+      "at": "2026-11-17T21:33:32.106Z",
+      "recordedKrw": 11410,
       "found": true,
       "apiPrice": 11410,
-      "result": "applied"
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-17T19:46:10.176Z"
+  "updatedAt": "2026-11-17T21:33:32.521Z"
 }

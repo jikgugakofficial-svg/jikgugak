@@ -3608,11 +3608,11 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 쿠팡 자동",
+    "checkedAt": "2026.11.18 쿠팡 자동",
     "slug": "iherb-cgn-s-acetyl-glutathione-120",
     "name": "캘리포니아골드뉴트리션 S-아세틸 L-글루타치온 100mg 120캡슐",
     "priceKrw": 56994,
-    "domesticKrw": 77000,
+    "domesticKrw": 81300,
     "domesticUrl": "https://link.coupang.com/a/icOCWUcqGW",
     "domesticSource": "쿠팡 120정 1개 최저가, 무료배송(해외 배송)",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-s-acetyl-l-glutathione-100-mg-120-veggie-capsules/103272",
@@ -3658,6 +3658,13 @@
         "field": "domesticKrw",
         "from": 81300,
         "to": 77000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "domesticKrw",
+        "from": 77000,
+        "to": 81300,
         "source": "쿠팡"
       }
     ]
