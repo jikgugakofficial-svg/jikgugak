@@ -12,7 +12,7 @@
       "source": "쿠팡"
     },
     "amazon-elgato-stream-deck-mk2:domesticKrw": {
-      "at": "2026-11-16T16:25:58.736Z",
+      "at": "2026-11-17T00:25:24.053Z",
       "slug": "amazon-elgato-stream-deck-mk2",
       "field": "domesticKrw",
       "recorded": 222000,
@@ -32,7 +32,7 @@
       "source": "쿠팡"
     },
     "ali-ugreen-nexode-air-65w:domesticKrw": {
-      "at": "2026-11-16T16:26:18.734Z",
+      "at": "2026-11-17T00:25:43.913Z",
       "slug": "ali-ugreen-nexode-air-65w",
       "field": "domesticKrw",
       "recorded": 53900,
@@ -52,7 +52,7 @@
       "source": "알리"
     },
     "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-16T17:44:44.508Z",
+      "at": "2026-11-17T00:25:51.937Z",
       "slug": "iherb-now-vitamin-d3-k2-120",
       "field": "domesticKrw",
       "recorded": 14930,
@@ -92,5 +92,5 @@
       "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-16T23:26:18.083Z"
+  "updatedAt": "2026-11-17T00:25:55.211Z"
 }
