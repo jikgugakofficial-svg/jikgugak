@@ -1687,11 +1687,20 @@
       "model": "Smart Band 10",
       "cat": "it",
       "why": "이미 등록한 밴드 10 프로의 일반형(프로 아님). 샤오미 코리아 정발·알리 글로벌 모두 판매. 가격대가 낮아 1만 원 조건이 걸림",
-      "at": "2026-11-14T04:32:13.447Z",
-      "status": "none",
-      "coupangTop": 5,
+      "at": "2026-11-17T04:39:01.038Z",
+      "status": "no_ali",
+      "coupangTop": 10,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9712562128",
+          "name": "Xiaomi Smart Band 10 워치 샤오미 밴드 큰 화면 달리기 수면 심박 21 일 지속",
+          "price": 77570,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Y4FtE0HO4ASnDuwiY325IMGndOBAL3hW4gsxYnLq1yJsR1VsDkqERtcMlgYOXTNKdLEIQrh-72wnv_la7vbNzXy_EQKlyHfXJoSRsa4pm73IXZpLFjp8FmsUy8auwly5tszT4Mll3qsPQ4DYb11gS--PLUmfKuJ1jvjNX8jkQIuxCtTv7dw3ZbUO-uH1OeTirXF64C5X_NrjJaLrrurK71dMqstX7DzqK_vEbrMa5lyHk2YQrEPiNiNFASzKkTUssn3xkNSN84ShLLHfuCnyKGvvvCzIULCtDHen1xmT4nPIPcJQbX0Y07LKTv_qYLqEVDhuBFTzJJD6m_RCKswC9SI4f9pp52fN3Gybe9vRBQh6SWJf1wuxnyHcZ53A8_yE3C90pNJWtox82JJtGwNoPvIWafsvRgpxQo_ktctb5hcsrCd8C_1-hH6CKfIOyAAVS2cDBQHqgNWPgZsEUzzHZ04caEC5PF6GNIpXIrIo5adnwf5wzTS7-CEEPhN6szDKJ2FJSKGKL8oSh7xmO1ZKzX8tHMX3_BqfYbSSe3MHh6EEGw==",
+          "url": "https://www.coupang.com/vp/products/9712562128"
+        }
+      ]
     },
     "Redmi Watch 5": {
       "q": "Redmi Watch 5",
@@ -1699,7 +1708,7 @@
       "model": "Watch 5",
       "cat": "it",
       "why": "레드미 워치 5(일반형, Lite·Active 아님). 레드미 워치 6 퀘이사존 알리 글(국내 대비 비교 댓글)과 같은 라인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-14T04:32:17.798Z",
+      "at": "2026-11-17T04:39:04.991Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1709,7 +1718,7 @@
           "name": "글로벌 버전 Xiaomi Redmi Watch 5 활성 블루투스 전화 통화 Smartwatch 2 대형 스크린 140 스포츠 모드 5ATM 방수 InStock",
           "price": 69250,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/EC68j9s4AH9lDkj5EE5OL8ebQZBeMnYWS8c0MxBgmKkm0d9-rvWo1cOwbvAzCN6-L5OGjdYv42o_Hn5ctT0BaWvpVNJLKFikVAG_W1b8hNEKO-esRgLIRRBtSUHyf_KUwKHutPRj7_3HB2oDbELS9aIEPKX7hoMWjIOHgoOLAFDUspOvL1NaD1QQx_maxOffKJLZRfeTJ0YWIDssmeapaE4WZJYg5BwMBuhovMR7gvH07YNafbJhz6msgnDEJ_DHzTOmLgMb-eLiZZ5b2DZ1VhzPCOdFju1-WWImSO_fJG1WMgnUqJC8G6JJYNTHW9Q5R4WeEXMZqGXOKioPE9CXYffeUaoJWLmiNClHOKeCG5iA4Hycf4oOr1-AXrlnN3o433-w4muH82d_X44kfOK379XYKv2K2oKZLhlgd5Z0kqXchgIPMeWndPC6ylXy08a377Kh1-R8O012K0mPCZ8-3n-sqplsh1LXmfKoaANp3J5mqaOlwbYvD--SaaaUwTY2jhKqqGaBzdsDExhxcOXPPV_D3CXZ_xbtGM6Vs6qTPNHgv7Q=",
+          "image": "https://ads-partners.coupang.com/image1/-EDNB_qvS5eBZG07-ApGexa0QoXn4i_-clZ-x9ayh4TqR0glIxnO0DKD9WfdGIV4379Z31AA53r3iCY5y_V4O8Kzk-jE5hjdpowdksiV0uECOZKHeEMIYdhlgDNHzQa0GmjuCVxyUjDneVDWmIpB4kotX2k5AUoyOsi7KEYaSyNltoRIMLJklJV-HRd_cDSHR570iwJGQWrr6X1Jecgl4B2kpgpBR774EmNVb_w-1F04YCaBhh53SgLGgghb3n9YdtqDUR1n4SnrOd7w-lGjwqEWyAexP0bjIYpA135iG2KQAR6VVNJfWORx_HAE2RSCHoNOm-oAtYBicoyZ4B0xMxVUfwRH4xIIgocTgK0p0NuPbGTk_T9FNQ6eBZWNBxQ5IERRouSCMyCbap6qnG8T1cBIjwOODjlOlyHOmzq6VFQOCgfMzmxGWioYJFRc0NxRhNY7L_GCTiU6RYhs83nGk_VoWZp2wKcLc19WnmQ7x3cdOWIlOTuxEInDGOasVJg0q1asLYHzxBpdqndh6LZXwLE2SvgSarAbPmeKUseM8Lw2yRU=",
           "url": "https://www.coupang.com/vp/products/8809477616"
         }
       ]
@@ -1720,7 +1729,7 @@
       "model": "Robot Vacuum E10",
       "cat": "home",
       "why": "샤오미 코리아 정발 로봇청소기 입문형, 알리 글로벌 판매. 로봇청소기라 부피·AS 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-14T04:32:21.620Z",
+      "at": "2026-11-17T04:39:09.408Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -7365,5 +7374,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-17T01:56:27.472Z"
+  "updatedAt": "2026-11-17T04:39:12.999Z"
 }

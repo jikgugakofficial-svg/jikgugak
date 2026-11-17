@@ -3608,11 +3608,11 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 저녁",
+    "checkedAt": "2026.11.17 쿠팡 자동",
     "slug": "iherb-cgn-s-acetyl-glutathione-120",
     "name": "캘리포니아골드뉴트리션 S-아세틸 L-글루타치온 100mg 120캡슐",
     "priceKrw": 56994,
-    "domesticKrw": 81300,
+    "domesticKrw": 77000,
     "domesticUrl": "https://link.coupang.com/a/icOCWUcqGW",
     "domesticSource": "쿠팡 120정 1개 최저가, 무료배송(해외 배송)",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-s-acetyl-l-glutathione-100-mg-120-veggie-capsules/103272",
@@ -3652,6 +3652,13 @@
         "from": 58143,
         "to": 58187,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "domesticKrw",
+        "from": 81300,
+        "to": 77000,
+        "source": "쿠팡"
       }
     ]
   },
@@ -3953,11 +3960,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzXSuzlY",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.17 쿠팡 자동",
     "slug": "amazon-bose-qc-headphones",
     "name": "보스 QC 헤드폰(1세대)",
     "category": "audio",
-    "domesticKrw": 269000,
+    "domesticKrw": 279000,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CCZ26B5V",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7579231557",
@@ -3988,6 +3995,13 @@
         "field": "domesticKrw",
         "from": 279000,
         "to": 269000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "domesticKrw",
+        "from": 269000,
+        "to": 279000,
         "source": "쿠팡"
       }
     ]
@@ -4985,7 +4999,7 @@
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
     "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
     "category": "audio",
-    "priceKrw": 86462,
+    "priceKrw": 86375,
     "domesticKrw": 176600,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
@@ -5057,6 +5071,13 @@
         "field": "priceKrw",
         "from": 86036,
         "to": 86462,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 86462,
+        "to": 86375,
         "source": "알리"
       }
     ]
@@ -5300,7 +5321,7 @@
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
     "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
     "category": "audio",
-    "priceKrw": 37675,
+    "priceKrw": 37800,
     "domesticKrw": 68900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
@@ -5365,6 +5386,13 @@
         "field": "priceKrw",
         "from": 41106,
         "to": 37675,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 37675,
+        "to": 37800,
         "source": "알리"
       }
     ]
