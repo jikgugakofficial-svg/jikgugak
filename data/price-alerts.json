@@ -12,7 +12,7 @@
       "source": "쿠팡"
     },
     "amazon-elgato-stream-deck-mk2:domesticKrw": {
-      "at": "2026-11-17T00:25:24.053Z",
+      "at": "2026-11-17T09:41:09.527Z",
       "slug": "amazon-elgato-stream-deck-mk2",
       "field": "domesticKrw",
       "recorded": 222000,
@@ -22,7 +22,7 @@
       "source": "쿠팡"
     },
     "ali-ugreen-nexode-air-65w:domesticKrw": {
-      "at": "2026-11-17T00:25:43.913Z",
+      "at": "2026-11-17T09:41:29.076Z",
       "slug": "ali-ugreen-nexode-air-65w",
       "field": "domesticKrw",
       "recorded": 53900,
@@ -30,7 +30,17 @@
       "change": "24%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
+      "at": "2026-11-17T09:41:37.082Z",
+      "slug": "iherb-now-vitamin-d3-k2-120",
+      "field": "domesticKrw",
+      "recorded": 14930,
+      "api": 11630,
+      "change": "22%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-17T07:59:19.133Z"
+  "updatedAt": "2026-11-17T09:42:03.916Z"
 }

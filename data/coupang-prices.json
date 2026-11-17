@@ -12,7 +12,7 @@
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-11-17T00:25:36.011Z",
+      "at": "2026-11-17T09:41:21.089Z",
       "recordedKrw": 18790,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -20,12 +20,12 @@
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-11-17T00:25:47.959Z",
+      "at": "2026-11-17T09:41:33.119Z",
       "recordedKrw": 14930,
       "found": true,
-      "apiPrice": 44900,
+      "apiPrice": 11630,
       "isRocket": false,
-      "diff": 29970,
+      "diff": -3300,
       "result": "held"
     },
     "ali-ugreen-7in1-usbc-hub": {
@@ -497,7 +497,7 @@
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
       "keyword": "애플 에어팟 프로 3",
-      "at": "2026-11-17T01:56:27.491Z",
+      "at": "2026-11-17T09:41:37.082Z",
       "recordedKrw": 296000,
       "found": true,
       "apiPrice": 296000,
@@ -508,7 +508,7 @@
     "amazon-sony-wf-1000xm5": {
       "productId": "8051760807",
       "keyword": "소니 WF-1000XM5 노이즈캔슬링 이어폰",
-      "at": "2026-11-17T01:56:31.464Z",
+      "at": "2026-11-17T09:41:41.013Z",
       "recordedKrw": 256810,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -576,18 +576,18 @@
     "amazon-apple-pencil-pro": {
       "productId": "8106270209",
       "keyword": "애플 펜슬 프로",
-      "at": "2026-11-17T00:25:16.013Z",
-      "recordedKrw": 162740,
+      "at": "2026-11-17T09:41:01.093Z",
+      "recordedKrw": 162480,
       "found": true,
       "apiPrice": 162480,
       "isRocket": true,
-      "diff": -260,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-elgato-stream-deck-mk2": {
       "productId": "8518179410",
       "keyword": "엘가토 스트림 덱 MK.2",
-      "at": "2026-11-17T00:25:20.024Z",
+      "at": "2026-11-17T09:41:05.041Z",
       "recordedKrw": 222000,
       "found": true,
       "apiPrice": 182000,
@@ -598,7 +598,7 @@
     "ali-baseus-bowie-mh1": {
       "productId": "9257308613",
       "keyword": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰",
-      "at": "2026-11-17T00:25:24.053Z",
+      "at": "2026-11-17T09:41:09.527Z",
       "recordedKrw": 176600,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -606,7 +606,7 @@
     "ali-moondrop-chu2": {
       "productId": "9725175748",
       "keyword": "문드롭 츄2 유선 인이어 이어폰",
-      "at": "2026-11-17T00:25:27.944Z",
+      "at": "2026-11-17T09:41:13.044Z",
       "recordedKrw": 98800,
       "found": true,
       "apiPrice": 98800,
@@ -617,18 +617,18 @@
     "ali-fosi-q4": {
       "productId": "7401672495",
       "keyword": "포시오디오 Q4 USB DAC 헤드폰 앰프",
-      "at": "2026-11-17T00:25:32.026Z",
+      "at": "2026-11-17T09:41:17.054Z",
       "recordedKrw": 101970,
       "found": true,
-      "apiPrice": 101970,
+      "apiPrice": 102110,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 140,
+      "result": "applied"
     },
     "ali-ugreen-nexode-air-65w": {
       "productId": "9780240448",
       "keyword": "유그린 넥소드 에어 65W GaN 초소형 충전기",
-      "at": "2026-11-17T00:25:39.976Z",
+      "at": "2026-11-17T09:41:25.205Z",
       "recordedKrw": 53900,
       "found": true,
       "apiPrice": 66900,
@@ -639,7 +639,7 @@
     "ali-baseus-bowie-mc2-air": {
       "productId": "9685144131",
       "keyword": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
-      "at": "2026-11-17T00:25:43.913Z",
+      "at": "2026-11-17T09:41:29.076Z",
       "recordedKrw": 68900,
       "found": true,
       "apiPrice": 68900,
@@ -696,18 +696,15 @@
     "amazon-razer-huntsman-v3-pro-tkl": {
       "productId": "9689633221",
       "keyword": "레이저 헌츠맨 V3 프로 TKL 게이밍 키보드",
-      "at": "2026-11-17T01:56:35.592Z",
+      "at": "2026-11-17T09:41:45.101Z",
       "recordedKrw": 329000,
-      "found": true,
-      "apiPrice": 329000,
-      "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-shure-mv7-plus-white": {
       "productId": "9720309396",
       "keyword": "슈어 MV7+ 팟캐스트 마이크",
-      "at": "2026-11-17T01:56:39.472Z",
+      "at": "2026-11-17T09:41:49.156Z",
       "recordedKrw": 495000,
       "found": true,
       "apiPrice": 495000,
@@ -718,7 +715,7 @@
     "ali-sonoff-snzb-02d": {
       "productId": "8807347296",
       "keyword": "소노프 SNZB-02D 지그비 온습도 센서",
-      "at": "2026-11-17T01:56:43.500Z",
+      "at": "2026-11-17T09:41:53.137Z",
       "recordedKrw": 27900,
       "found": true,
       "apiPrice": 27900,
@@ -729,7 +726,7 @@
     "ali-kz-zs10-pro-x": {
       "productId": "8054846488",
       "keyword": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
-      "at": "2026-11-17T01:56:47.543Z",
+      "at": "2026-11-17T09:41:57.069Z",
       "recordedKrw": 57900,
       "found": true,
       "apiPrice": 57900,
@@ -803,5 +800,5 @@
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-11-17T07:59:15.726Z"
+  "updatedAt": "2026-11-17T09:42:01.076Z"
 }
