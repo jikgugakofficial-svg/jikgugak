@@ -5878,5 +5878,204 @@
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005012387181102.html",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C40nmX0mJrVoajQnFSIbmEds8wMxhXApBDhBaBPYzIfnWvrcA1A9afSYsL9oY758Za3bBYDdoxgfPyZle5SmgjlI6GOagRT16hLs1O755S9PNrjGvhwjabdPnXqTQP9335Iy3sU8Oto8TgEETNF5gBz85THWBBtgfixEZrDkozYOzEZzkX3jwIWyEVymPXw8RhuHa4mbzwUIoFfFr3CbePHCxnCyuIUvF58vU7v8BNNqghFS6oTOYqJ6KS2vfl9Zn1vu8yS8XZkDBep7pkCHfb0qasEziKLs8GxXXvMjfEzv0JpH2gqMKJsOimc5bV4UEmqKvPO7MVI2YpFkiDEDCJOUeCu3szDIgUgcsNasp8xdP0K2etc9yhSLZDsbJdHdXw8vR1AGdmOMPSodXLJxISfYMSvswlcJrzHVcFCp36Y8nMCwMaYrMd3xxA2VQRX5XaHtZ5s8YeZLpM4q47jEOoGhCWT00FDpQsrszAOdMC8S8W4ZXFVXnpGsWfFYOzAXwxqUSXZXIO0gyoUgo0x5JhRkMKziXZ19MKpYESdm8BB5ew8FtfVwZZJKQW7aM8lr7sXWFVZH6jqKaunWLMqQDonn8jhxhq7SAvsYqSW1nyo7dMhLUMtDcUe6KpsCShwSnabuvyGBjxnXhQd1CLzqlZufdrsVYeee5ubwdkf5uXdYiEyVv1mvX5V1VaVq3ZgGx8nl1loNb7ns8D",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S68bfc88c9db94ebe83f876ae56909af3A.jpg"
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "slug": "amazon-beats-pill-2024-matte-black",
+    "domesticUrl": "https://link.coupang.com/a/iKe17WEOES",
+    "name": "비츠 필 블루투스 스피커 2024 (매트 블랙)",
+    "category": "audio",
+    "domesticKrw": 242620,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "buyUrl": "https://www.amazon.com/dp/B0D4SX9RC6",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9570716552",
+    "risks": [
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "$200 넘으면 관세·부가세가 붙어요",
+      "구형 비츠 필+(Pill+)는 다른 상품이에요",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "비츠 필 2024년형 블랙끼리 비교했어요. 국내 최저가는 쿠팡 판매자 상품이에요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "미국 정가는 $149.99라 면세 한도($200) 안이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0D4SX9RC6",
+      "model": "Beats Pill (2024) 매트 블랙, 미국 MW443LL/A",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(비츠 필 휴대용 블루투스 스피커 블랙)과 아마존 ASIN(웹 검색: camelcamelcamel·tiendamia·encarguelo, 아마존 화면은 열지 않음)으로 맞춤. 지금 판매되는 필은 2024년형뿐이라 같은 세대로 봄(11/17 매니저)",
+      "checkedAt": "2026.11.17"
+    }
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9719002042",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005009920180201.html",
+    "slug": "ali-baseus-bowie-mp1",
+    "domesticUrl": "https://link.coupang.com/a/iKe171rCO4",
+    "name": "베이스어스 보위 MP1 ANC 무선 이어폰",
+    "category": "audio",
+    "priceKrw": 52024,
+    "domesticKrw": 135900,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "색 옵션마다 가격이 다를 수 있어요. 결제 화면에서 확인하세요",
+      "보위 M2s·MC2 등은 다른 모델이에요"
+    ],
+    "summary": [
+      "베이스어스 보위 MP1을 알리 공식 스토어(BASEUS Co.,Ltd.)와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Baseus Bowie MP1 ANC (블루투스 6.0, LDAC)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(베이스어스 보위 MP1 ANC 블루투스 6.0)과 알리 제휴 API 제목(같은 문구, 공식 스토어)으로 맞춤(11/17 매니저). 색은 양쪽 가장 싼 옵션 기준",
+      "checkedAt": "2026.11.17"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2o3clFUP4qB69VAFul752TktSyFey3Lmp3v59uJGAThp9EfQadG97RMf9Q92lJpSfOUdorz876czHmWkp9ftZ1UVZWRR1xgFBBtqmCmR2QnHcCPokxl5w9mCfnx7xuV9MLy7vvDcaU13dp9wacDCriUTtSrOvrm9bPbqWGffdMDvCB954MVTCeMykOW3z6aRfPGlRPSgjxe2S0ZKnaVHCYQ4jLydV9QutK8EqnQtVhPAvgNBl9l3pgoExYHnS056lU2jSqQmNZHFKyYZMi4wllyASuQPAvsjWosVyaRlsMhHVqfeqHrJ606mRrBMvr0sBBEtUMzS9Tnyy6AQfdqdbaDn2jhVZGAWvudQG20XrwA1As2kV9UfxZJq82Ih2rY7BvZ48z6pKgnYLtwkb4IGqlO1inHvRhimuLDuUuRY7jpKAyUJETQof1gAy0n03u0gsAQugsL0NgJknIudzdXSzFj0scXDn25BNJxWKXsuENcFQPkk73wg9tPF5wA5vxvGUxOyohTT7HWQNVEfXYb88uuRHvByuMBQ4KegiNyoBU24Zp9KMWleJToh1PsfVuLuqOnVBlp7XjEjGX6vhjWi0vJ0qgmEyJ6N5TtVjzx1WU8hULeqkGxVplGoQedUj1xylIVJ9I8yGgOnBPWlPBttc4QjSEYyAVTfvfmAQwU70GQiG5EIbFwoRVOEiQQIMyCcsTlQO57AOnAX2",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0149f302beb423db38eb48a906309ffk.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9498763335",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005589751589.html",
+    "slug": "ali-truthear-zero-red",
+    "domesticUrl": "https://link.coupang.com/a/iKe175DaRo",
+    "name": "트루히어 x 크리나클 제로:레드 유선 이어폰",
+    "category": "audio",
+    "priceKrw": 76178,
+    "domesticKrw": 126870,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "알리 판매처는 공식 스토어가 아닌 오디오 전문 판매점이에요",
+      "케이블 단자(3.5mm 등) 옵션을 결제 화면에서 확인하세요",
+      "제로(기본형)·제로:블루2는 다른 모델이에요"
+    ],
+    "summary": [
+      "트루히어 제로:레드를 알리 오디오 판매점과 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "TRUTHEAR x Crinacle ZERO:RED (0.78 2핀 케이블)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(TRUTHEAR x Crinacle ZERORED, 0.78 2핀 케이블 포함)과 알리 제휴 API 제목(같은 구성)으로 맞춤(11/17 매니저)",
+      "checkedAt": "2026.11.17"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CofgCXnQ3ldnNKmhd2zG1CCqw7eLi9lDMRi4KMohHAp7hzc4GdEt7ZWUsyPa4IbciRzusG4gYqqAGkEcoK4UdMIO8w29DT5NX3q620Y6D6bvB9kMctH2xM6qdN2KfIyN6pHcG9ZxsDwVoQx4uzLAZkdyGimwl866ITeAsgxmju3YQyDaksdb3lAXhrUsokLj2EsicjsIx39frq4KivTd2f5751oxT91ccN24jorQh3wAUs6akldMWzAjFNZRqcYnPhtW2nKrsrFgFe8gqUMFR5dn3rTITrd3bj4ZLYJAwelBb2o8uBRZThDOzdS0I5XTdI5shfRBowcBrkA9DUtXaEvD5mO9DJXKRLmd723kPVmdehzKPptsDIofl4s694XJUyEDHii8yPQD3M9b3tXANjoQUbGox5yP7VvFMEv5PGqtzfcyOUCo1Q0QdkKLFToVHiw36hNhMf6jnPVvHh75JdPNM4Y5paZcg7eAIIG1GhChQ5fbRF7vpD43xwOm99cmdqzo1Nsjkg3SDufb9AuKb5qZ87ir6wu5BpYGQ81jN2nqajLjLof4ShumHX19ng9KKymD3qOF6isMpuyWbVsIEW6O5Om0joOlXH05C6yCepZD4ZMvkq5jrxGkPt9o6sUlAWWMIAa3ddvfeGmeGZrDVhFNbnMTzt0lhdfuXOJNw0ohZbf0oyaDIL4gllENMo7euVXvXl00ENv0Mo",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbaee8d187fad472e8d8c9ccb15685841i.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9691700942",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005011615420740.html",
+    "slug": "ali-tangzu-waner-sg2-red-lion",
+    "domesticUrl": "https://link.coupang.com/a/iKe18cEths",
+    "name": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
+    "category": "audio",
+    "priceKrw": 26979,
+    "domesticKrw": 58500,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~2주",
+      "국내 A/S 받기 어려워요",
+      "마이크 있음/없음 옵션마다 가격이 달라요(쿠팡 58,500~61,700). 결제 화면에서 확인하세요",
+      "완얼 S.G(1세대)·일반 색상판은 다른 상품이에요"
+    ],
+    "summary": [
+      "탕주 완얼 S.G II 레드 라이온 에디션을 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "TANGZU WAN'ER S.G II Red Lion Edition",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(탕저 완얼 S.G II 레드 라이온, 산차이 와이드 보어 이어팁·실리콘 파우치)과 알리 제휴 API 제목(같은 구성)으로 맞춤(11/17 매니저). 마이크 옵션은 양쪽 가장 싼 옵션 기준",
+      "checkedAt": "2026.11.17"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cow587JpWAKgv3rNd4Hn2v48jLTxXMwz5IIkvYa5IMrEwGNSEKHnYoDVDueavdednwh4t0gHYxMCxN45wnhsJ2OhJuGdFc5UkzdFuK5tiddATDFs2Y1joEs2DuFmQymar2MB7YzTPidWRGFbXLn7076HBNyIr7F6bSSqsIETTrVNvKH1a7MFK6MNUwhsrx0vdosf4DBGzklTWMhQHfSOVXvKViOuStnwVZG1Zn697WrMiITgwU2mjn6IGAvuJKx8XKT81MaKnCPCKdp7BOwEFMHNzBI19yS35d0WTdMoIAgsjRe9y3h1B2qthmhN4GeAJRF7SwyzJL7S7Dh8mLENSpsihYT43mtE2h9fG4H64VWkANJZMOinFeIEOtvYLHaNIWxile940tkE52A76GuYuDhtsLV2vxypWYTJTPg7nzyv9p7LEQTzMLe1eaEva6mGDJkuCOQau6bKnGgh5fjMWscAsVGmD6IxSh12qNnx3ZI43ki9lL9l2ziXWY8MOcExRQGkDGvE9nMoYomSX7e6QuhaAkgUqPUFEgImeASBJ8QGhtvYNeT4O5MtcZqduN1mfXWP7fngLXTscZVOcsGqy83tJBpn89rdzVLhYQy93HCy8FwAzz6sy8oyAYdU1MQzUGHK4kpdUyJCEZTWYtiVMqTI1qHZXsV01SWKkSBtygN4AqYwvnLvoHQiqLjpDfJYMpYmveQ210z4ON",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S88d6a193e34c4e6b9f0524bcf2183fc8X.png"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9555459833",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005260044338.html",
+    "slug": "ali-sonoff-minir4",
+    "domesticUrl": "https://link.coupang.com/a/iKe18gOkTs",
+    "name": "소노프 MINIR4 와이파이 스마트 스위치 모듈",
+    "category": "it",
+    "priceKrw": 11532,
+    "domesticKrw": 21870,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~2주",
+      "220V 배선 작업이 필요한 모듈이에요. 전기 작업이 익숙하지 않으면 전문가에게 맡기세요",
+      "수량(1~10개) 옵션마다 가격이 달라요. 1개 옵션인지 결제 화면에서 확인하세요",
+      "MINIR4M(Matter)·MINIR2는 다른 모델이에요"
+    ],
+    "summary": [
+      "소노프 MINIR4를 알리 공식 스토어와 쿠팡 같은 모델 1개 기준으로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "SONOFF MINIR4 Extreme (Wi-Fi, 1개)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(Sonoff Mini R4 Extreme)과 알리 제휴 API 제목(SONOFF MINIR4 익스트림, 공식 스토어)으로 맞춤(11/17 매니저). 알리 API 가격은 가장 싼 수량 옵션",
+      "checkedAt": "2026.11.17"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmRhmDbtR7oO7Xwk1VN4s6tCtUkgVcjQ6AAlBPgoCe7oAtzJf4o8LwUdlbq2JRaZppBgvZFxHoSkAdTL6sTYmg5AjNuW2EXiTiTvPtZd5Y6zpa91E0F3X4eWhOjMhEo3nJMi8YgHq6fsRmmjiyEcmVb4L62xzlDWLUGsFvnpK4cTpPVOfM2z3Nlz6GhUJXQKtNvFoiX63nV1ErIBTvIriBWaJgW11pnNvM0jhr5zJKvphv8rL0TLgE1feibn1eQUHVscdPk2u6s3In4yof3hSyvPpfYTqv0yprtHrK44JY6F071jb9b5qk4hJc9c8llBgrrb2eWRZASICpy18gBecMk72ufLHWmyxPsrQ5mvNgf2hoR2qCdVV8WiVp4bAhlNLwLJQpAKPUzGpRg3CBPMetGrftSrOc2cdiZ0ag8nzJnLNIo1vd3wnyacquHK96ddOsoeGG9LY556i0iuYhwPobxkd1g9KcC4Tp9htmRP5KhvGBaDQQ4WET1RNjuwthKbTKuAZZ13TTX2hq9JLUaXse1c1Fvna9rxwdUNSCFJfyg4XXLz5CYZ7KWMBvUjBglIYZW5S9Mn2iGmlLgTUaUkJ7JgGn2AdhuATdBPYJycgeqQmsoD3FNDpeEUu2Vd2fzfDRNVFJXG2vD3X6O3hH0xh5Dy5bf9oKobd6Q8ubMo8tyDU6ThJECt29ksmNoIURhkw08EhyXYThKTN3",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S345b8c85e50f4f52b97ccb3be2bea0842.jpg"
   }
 ]

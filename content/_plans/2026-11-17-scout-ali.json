@@ -1,0 +1,229 @@
+{
+  "date": "2026-11-17",
+  "source": "알리 제휴 API 검색·item(일반가=item API 가격) + 쿠팡 공식 API 실시간 검색(사이트 /api/coupang, 4초 간격 12회, 403·429·stop 없음). 제휴 링크·쿠팡 화면은 열지 않음. 쿠팡 같은 모델 최저가는 API 결과 중 이름이 같은 상품만 고름.",
+  "candidates": [
+    {
+      "name": "베이스어스 보위 MP1 ANC 무선 이어폰 (블루투스 6.0, -55dB)",
+      "brand": "Baseus",
+      "model": "Bowie MP1 ANC",
+      "category": "audio",
+      "aliId": "1005009920180201",
+      "ali": {
+        "productId": "1005009920180201",
+        "title": "베이스어스 보위 MP1 ANC 블루투스 6.0 트루 무선 이어버드 -55dB 어댑티브 하이브리드 ANC (BASEUS Co.,Ltd. Store)",
+        "apiPrice": 58900,
+        "searchMin": 58900,
+        "orders": 1113,
+        "rating": "96.5%",
+        "option": "검색 API 가격. item API가 ApiCallLimit/not_found로 4번 실패해 기본 옵션 확인 못 함 → 매니저가 일반 주소에서 색·가격 확인"
+      },
+      "coupang": {
+        "productId": "9719002042",
+        "name": "베이스어스 보위 MP1 ANC 블루투스 6.0 트루 무선 이어버드 -55dB 어댑티브 하이브리드 ANC 이어폰 하이 레졸루션",
+        "price": 135900,
+        "rocket": false
+      },
+      "diffPct": 56.7,
+      "diffKrw": 77000,
+      "why": "1) 찾는 사람: 알리 공식 스토어 1,113건·평점 96.5%, 등록된 베이스어스 보위 MH1·MC2 에어와 같은 라인이라 이어서 찾는 사람이 있음 2) 같은 제품 짝: 쿠팡 3P 제목이 알리 공식 제목과 같은 문장(Bowie MP1 ANC·BT6.0·-55dB)이라 모델 일치. 쿠팡의 다른 등록(320,600)은 더 비싼 재판매 3) 판정 쓸모: 약 7.7만 원 차이·57%로 직구각이 분명하고 6만 원대라 $150 이하 면세",
+      "warn": "item API 가격 못 읽음(검색가 58,900). 색상 옵션·쿠팡 상세의 색 확인 필요. 쿠팡 로켓 최저가는 없음(확인 시점). 무선 이어폰이라 KC 전파인증 문구를 기존 QCY·베이스어스 상품과 같게. 바코드·모델번호 미확인(쿠팡 3P)",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "Baseus Bowie MP1 ANC (BT 6.0, -55dB), 색상은 매니저 확인",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.17"
+      }
+    },
+    {
+      "name": "울란지 VL49 RGB 미니 LED 비디오 조명 (2000mAh, 콜드슈 3개)",
+      "brand": "Ulanzi",
+      "model": "VL49",
+      "category": "camera",
+      "aliId": "1005001657822748",
+      "ali": {
+        "productId": "1005001657822748",
+        "title": "Ulanzi VL49 풀 컬러 RGB LED 비디오 라이트, 2500K-9000K 800LUX 마그네틱 미니 필 3 콜드 슈 2000mAh c타입 카메라 라이트 (Ulanzi Photography Select Store)",
+        "apiPrice": 22141,
+        "searchMin": 23550,
+        "orders": 3124,
+        "rating": "96.5%",
+        "option": "item API 기본 옵션가. 단품 외 번들 옵션 여부 미확인"
+      },
+      "coupang": {
+        "productId": "9802530985",
+        "name": "ULANZI VL49 RGB 비디오 조명 LED 카메라 360 컬러 휴대용 사진 콜드 3개 포함 2000mAh 충전식 CRI 95 2500",
+        "price": 61900,
+        "rocket": false
+      },
+      "diffPct": 64.2,
+      "diffKrw": 39759,
+      "why": "1) 찾는 사람: 브이로그·스마트폰 촬영 입문용 조명, 알리 3,124건·96.5%이고 쿠팡에도 같은 모델명으로 팔림 2) 같은 제품 짝: 쿠팡 3P 제목이 알리 제목 그대로(VL49·RGB·콜드슈 3개·2000mAh·CRI95) 3) 판정 쓸모: 약 4만 원 차이·64%로 직구각이 분명, 2만 원대라 관세 걱정 없음",
+      "warn": "쿠팡은 3P 재판매라 가격이 부풀려졌을 수 있음(쿠팡에 울란지 정식 판매처가 따로 있는지 매니저가 확인). Ulanzi Official Store가 아니라 Ulanzi Photography Select Store(3천 건) 기준. 배터리 내장 제품이라 항공 배송·국내 직구 가능 여부 확인. 바코드 미확인",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "Ulanzi VL49 RGB 비디오 라이트 (2000mAh, 콜드슈 3개)",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.17"
+      }
+    },
+    {
+      "name": "트루히어 x 크리나클 제로:레드 듀얼 다이나믹 유선 이어폰 (0.78 2핀 케이블 포함)",
+      "brand": "Truthear",
+      "model": "x Crinacle ZERO:RED",
+      "category": "audio",
+      "aliId": "1005005589751589",
+      "ali": {
+        "productId": "1005005589751589",
+        "title": "TRUTHEAR X Crinacle ZERO:RED 듀얼 다이나믹 드라이버 인이어 헤드폰(0.78 2핀 케이블 포함) (Shenzhenaudio Store)",
+        "apiPrice": 76178,
+        "searchMin": 77800,
+        "orders": 673,
+        "rating": "97.6%",
+        "option": "item API 기본 옵션가(3.5mm/4.4mm 케이블 옵션 가능성) → 매니저 확인"
+      },
+      "coupang": {
+        "productId": "7795145118",
+        "name": "TRUTHEAR 헤드폰 이어폰 헤드셋 유선 트루히어 x 크리나클 제로 레드 듀얼 다이나믹 드라이버 인이어 게이밍",
+        "price": 127310,
+        "rocket": false
+      },
+      "diffPct": 40.2,
+      "diffKrw": 51132,
+      "why": "1) 찾는 사람: 이미 등록한 제로:블루2와 한 쌍으로 같이 찾는 인기 입문 IEM, 알리 673건·97.6% 2) 같은 제품 짝: 쿠팡 제목이 제로 레드 듀얼 DD 인이어(알리 같은 문장). 쿠팡 다른 등록은 189,980이라 최저 127,310만 기준 3) 판정 쓸모: 약 5.1만 원 차이·40%로 직구각, 7만 원대라 $150 이하 면세",
+      "warn": "Shenzhenaudio는 공식 스토어가 아닌 오디오 전문 판매점(673건). 공식 Truthear 스토어가 확인되면 교체. 쿠팡 3P는 제목만 보고 맞춘 것이라 케이블 플러그(3.5mm/4.4mm) 구성이 같은지 매니저 확인. 바코드 미확인",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "Truthear x Crinacle ZERO:RED (듀얼 DD, 0.78 2핀 케이블 포함)",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.17"
+      }
+    },
+    {
+      "name": "울란지 TT88 오버헤드 셀카봉 삼각대 (맥세이프 클램프 포함, 1.44m)",
+      "brand": "Ulanzi",
+      "model": "TT88",
+      "category": "camera",
+      "aliId": "1005008114773505",
+      "ali": {
+        "productId": "1005008114773505",
+        "title": "Ulanzi TT88 오버헤드 셀카봉 무선 삼각대 Magsafe&Phone 클립 (Ulanzi Official Store)",
+        "apiPrice": 30150,
+        "searchMin": 28850,
+        "orders": 1077,
+        "rating": "98.6%",
+        "option": "item API 기본 옵션가(검색가가 더 낮아 옵션 차이 있음) → 매니저가 클램프 구성 확인. 같은 모델 Ulanzi Direct Sale 1,918건 item 31,997 / PhotoVlog 6,954건 검색 24,229"
+      },
+      "coupang": {
+        "productId": "9822661664",
+        "name": "Ulanzi TT88 오버헤드 셀카봉, 맥세이프 호환 클램프 포함, 사진 삼각대, 360 ° 파노라마 촬영",
+        "price": 59700,
+        "rocket": false
+      },
+      "diffPct": 49.5,
+      "diffKrw": 29550,
+      "why": "1) 찾는 사람: 오버헤드 촬영(요리·핸드메이드 영상)용 인기 삼각대, 알리 TT88 판매 합계 1만 건 이상 2) 같은 제품 짝: 쿠팡 제목이 TT88 맥세이프 클램프 포함 1.44m(알리와 같은 문장). 클램프 옵션을 매니저가 맞출 것 3) 판정 쓸모: 약 3만 원 차이·49%로 직구각, 3만 원대라 면세 문제 없음",
+      "warn": "클램프 종류(맥세이프+일반 폰 클립 둘 다인지)와 공식 스토어 옵션 가격이 달라 매니저가 일반 주소에서 같은 옵션 가격 확인. 쿠팡은 3P 한 곳. 바코드 미확인",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "Ulanzi TT88 1.44m 오버헤드 셀카봉 (맥세이프 클램프 포함)",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.17"
+      }
+    },
+    {
+      "name": "소노프 MINIR4 와이파이 스마트 스위치 (익스트림, 1개)",
+      "brand": "SONOFF",
+      "model": "MINIR4 (Matter 모델 MINIR4M 아님)",
+      "category": "smarthome",
+      "aliId": "1005005260044338",
+      "ali": {
+        "productId": "1005005260044338",
+        "title": "SONOFF MINIR4 익스트림 WiFi 스마트 스위치 1-10개 초소형 외부 스위치 제어 eWeLink Alexa Google 릴레이 모드 분리 제어 (SONOFF Official Store)",
+        "apiPrice": 11532,
+        "searchMin": 12450,
+        "orders": 447,
+        "rating": "98.3%",
+        "option": "제목이 1-10개라 수량 옵션. item API 기본가가 1개 가격일 가능성 → 매니저 확인"
+      },
+      "coupang": {
+        "productId": "9772682690",
+        "name": "스마트 홈 자동화 솔루션을 위한 범용 DIY 모듈 SONOFF MinIR4 WiFi 조명 스위치 1팩",
+        "price": 30300,
+        "rocket": false
+      },
+      "diffPct": 61.9,
+      "diffKrw": 18768,
+      "why": "1) 찾는 사람: 이미 등록한 소노프 SNZB-02D와 같은 스마트홈 DIY 사람들이 이어서 찾는 스위치, 공식 스토어 447건·98.3% 2) 같은 제품 짝: 쿠팡이 MinIR4 1팩(알리와 같은 모델·단품). MINIR4M(Matter)은 별도 모델이라 비교 안 함 3) 판정 쓸모: 약 1.9만 원 차이·62%로 직구각, 1만 원대라 관세 문제 없음",
+      "warn": "벽 배선 설치가 필요한 모듈(220V)이라 KC 인증·전기 설치 주의를 요약에 넣을 것. 쿠팡 3P 한 곳. 바코드 미확인",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "SONOFF MINIR4 1개 (MINIR4M 아님)",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.17"
+      }
+    },
+    {
+      "name": "탕주 완얼 SG II 레드 라이온 싱글 다이나믹 유선 이어폰 (10mm PET)",
+      "brand": "Tangzu",
+      "model": "Waner SG II Red Lion Edition",
+      "category": "audio",
+      "aliId": "1005011615420740",
+      "ali": {
+        "productId": "1005011615420740",
+        "title": "TANGZU WANER SG 2 레드 라이온 에디션 10mm PET 싱글 다이나믹 인이어 이어폰 (TANGZU Official Store)",
+        "apiPrice": 26979,
+        "searchMin": 27550,
+        "orders": 2356,
+        "rating": "96.8%",
+        "option": "item API 기본 옵션가(플러그·마이크 옵션 가능) → 매니저 확인. item API가 comparable:false"
+      },
+      "coupang": {
+        "productId": "9810574617",
+        "name": "TANGZU 탕주 Waner S.G II Red Lion 유선 이어폰 인이어 모니터",
+        "price": 45930,
+        "rocket": false
+      },
+      "diffPct": 41.3,
+      "diffKrw": 18951,
+      "why": "1) 찾는 사람: 탕주 입문 IEM(공식 스토어 2,356건·96.8%), 등록한 KZ·트루히어 계열과 같이 찾는 사람이 많음 2) 같은 제품 짝: 쿠팡이 Waner S.G II Red Lion으로 에디션까지 같음(쿠팡 다른 등록 SG 52,700은 레드 라이온 아님) 3) 판정 쓸모: 약 1.9만 원 차이·41%로 직구각, 2.7만 원이라 면세 문제 없음",
+      "warn": "에디션명(레드 라이온)·플러그 옵션을 일반 주소에서 확인. 탕주 Cai Wenji를 옵션 불명으로 뺀 전례가 있어 옵션 목록을 꼭 확인. 쿠팡 3P 한 곳. 바코드 미확인",
+      "matchDraft": {
+        "method": "model",
+        "domestic": "",
+        "overseas": "",
+        "model": "Tangzu Waner SG II Red Lion Edition (10mm PET 싱글 DD)",
+        "note": "쿠팡 3P 바코드 확인 필요",
+        "checkedAt": "2026.11.17"
+      }
+    }
+  ],
+  "rejected": [
+    {"name": "Moondrop Dawn Pro 2 USB DAC", "reason": "알리 공식 71,800 vs 쿠팡 3P 81,800: 차이 1만 원 미만"},
+    {"name": "SIMGOT EW200", "reason": "쿠팡 59,000 로켓이 알리 54,200과 거의 같음"},
+    {"name": "AJAZZ AJ139 V2 MC (PAW3311)", "reason": "알리 공식 item 32,410(검색가 24,500과 달라 옵션 불명) vs 쿠팡 42,500: 차이 약 1.0만 원이라 배송비까지 보면 판정이 애매해 쓸모 낮음"},
+    {"name": "AJAZZ AK820 Pro", "reason": "쿠팡 116,060~130,340 vs 알리 35,600(비공식)·Epomaker 76,800: 스위치·레이아웃 옵션 여러 개라 구성 불명"},
+    {"name": "Baseus Bowie MC2 S", "reason": "쿠팡 검색에 같은 모델 없음(MC2 에어만 있고 이미 등록)"},
+    {"name": "SONOFF ZBBridge-P / TRVZB 밸브", "reason": "ZBBridge-P는 쿠팡 검색에 같은 모델이 안 잡힘, TRVZB는 온돌 난방 한국에서 수요 낮음"},
+    {"name": "Moondrop Quarks", "reason": "쿠팡에 같은 모델 없음, 알리 판매 168건"},
+    {"name": "Hollyland Lark M2", "reason": "알리 판매자가 비공식 소량(51건 이하)이라 가격 신뢰 낮음"},
+    {"name": "Attack Shark R1·X11·X3", "reason": "이전 후보 수집에서 X3는 쿠팡 28,360이 알리 35,800보다 쌈, R1·X11은 쿠팡에 같은 모델 없음"},
+    {"name": "Xiaomi 라우터 AX3000T", "reason": "알리 판매자 소규모(144건 이하)·중국판 가능성, 같은 옵션 확인 어려움"},
+    {"name": "Redmi Buds 6 Pro / 6 Active", "reason": "알리 판매 0~57건 소규모 비공식 스토어"},
+    {"name": "Keychron K2 HE, Lamzu Thorn V2, MonsGeek FUN60", "reason": "스위치·색상 옵션이 여럿이라 item API 가격이 어느 옵션인지 모름"},
+    {"name": "Trimui Smart Pro / Anbernic RG28XX·RG35XX Pro / Miyoo Mini Plus", "reason": "공식 스토어가 아닌 3P 위주이고 저장 용량·색 옵션이 여럿"},
+    {"name": "Aqara 센서·Hub M3", "reason": "알리 3P 위주, Hub M3는 한국 공식 225,170이라 국내가와 비슷할 가능성이 높고 확인 못 함"},
+    {"name": "Lenovo LP40 Pro / KZ EDX Pro / CCA CRA", "reason": "알리 가격이 1만 원 안팎이라 국내가와 차이가 1만 원 미만 가능성 높음"},
+    {"name": "Ulanzi MA60 / Hohem / Zhiyun", "reason": "알리 판매자 비공식 소량이거나 가격이 높아 쿠팡 같은 모델을 못 맞춤"}
+  ],
+  "notes": "후보 6개(목표 10개 못 채움, 억지로 채우지 않음). 추천 순위: 1 베이스어스 보위 MP1 ANC(57%·7.7만 원, 단 item API 못 읽음), 2 울란지 VL49(64%·4.0만 원), 3 트루히어 제로:레드(40%·5.1만 원), 4 울란지 TT88(49%·3.0만 원), 5 소노프 MINIR4(62%·1.9만 원), 6 탕주 완얼 SG II(41%·1.9만 원, 옵션 불명). 쿠팡은 모두 3P(바코드 미확인이라 match.method는 model로 초안). 쿠팡 일반 주소 https://www.coupang.com/vp/products/<쿠팡 상품번호>, 알리 https://ko.aliexpress.com/item/<알리 상품번호>.html. 알리 item API가 MP1 한 개에 ApiCallLimit이 이어져 검색가를 썼음. 쿠팡 API 12회 호출·403/429/stop 없음. 알리 item API 가격이 검색 최저가와 달라(AJ139·TT88 등) 옵션별 가격 차가 있어 매니저가 일반 주소에서 같은 옵션 확인."
+}
