@@ -193,7 +193,31 @@
       "found": true,
       "apiPrice": 40349,
       "result": "same"
+    },
+    "ali-baseus-bowie-mp1": {
+      "itemId": "1005009920180201",
+      "at": "2026-11-17T05:43:31.166Z",
+      "recordedKrw": 52024,
+      "found": true,
+      "apiPrice": 52024,
+      "result": "same"
+    },
+    "ali-truthear-zero-red": {
+      "itemId": "1005005589751589",
+      "at": "2026-11-17T05:43:33.609Z",
+      "recordedKrw": 76178,
+      "found": true,
+      "apiPrice": 76178,
+      "result": "same"
+    },
+    "ali-tangzu-waner-sg2-red-lion": {
+      "itemId": "1005011615420740",
+      "at": "2026-11-17T05:43:34.061Z",
+      "recordedKrw": 26979,
+      "found": true,
+      "apiPrice": 26979,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-17T04:40:16.868Z"
+  "updatedAt": "2026-11-17T05:43:34.489Z"
 }

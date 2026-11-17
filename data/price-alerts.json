@@ -60,7 +60,17 @@
       "change": "18%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
+    },
+    "amazon-sennheiser-momentum-4:domesticKrw": {
+      "at": "2026-11-17T05:43:07.175Z",
+      "slug": "amazon-sennheiser-momentum-4",
+      "field": "domesticKrw",
+      "recorded": 398990,
+      "api": 303050,
+      "change": "24%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-17T04:40:16.868Z"
+  "updatedAt": "2026-11-17T05:43:34.490Z"
 }
