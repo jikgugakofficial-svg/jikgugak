@@ -50,7 +50,17 @@
       "change": "20%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "ali-moondrop-chu2:priceKrw": {
+      "at": "2026-11-17T19:46:09.490Z",
+      "slug": "ali-moondrop-chu2",
+      "field": "priceKrw",
+      "recorded": 32773,
+      "api": 26946,
+      "change": "18%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
     }
   },
-  "updatedAt": "2026-11-17T18:33:07.318Z"
+  "updatedAt": "2026-11-17T19:46:10.177Z"
 }
