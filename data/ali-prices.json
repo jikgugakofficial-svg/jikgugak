@@ -3,10 +3,11 @@
   "items": {
     "ali-ugreen-7in1-usbc-hub": {
       "itemId": "1005008093143399",
-      "at": "2026-11-16T16:26:18.735Z",
+      "at": "2026-11-17T01:57:30.379Z",
       "recordedKrw": 31567,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 31656,
+      "result": "applied"
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
@@ -65,10 +66,11 @@
     },
     "ali-edifier-evobuds-pro": {
       "itemId": "1005010122935561",
-      "at": "2026-11-16T16:26:20.699Z",
+      "at": "2026-11-17T01:57:30.759Z",
       "recordedKrw": 65792,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 65975,
+      "result": "applied"
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
@@ -87,10 +89,11 @@
     },
     "ali-redragon-k617-fizz": {
       "itemId": "1005006388894172",
-      "at": "2026-11-16T14:09:23.558Z",
+      "at": "2026-11-17T01:57:27.571Z",
       "recordedKrw": 43298,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 43420,
+      "result": "applied"
     },
     "ali-baseus-bowie-mh1": {
       "itemId": "1005007015955340",
@@ -191,5 +194,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-17T00:25:55.211Z"
+  "updatedAt": "2026-11-17T01:57:31.570Z"
 }
