@@ -168,25 +168,27 @@
     },
     "ali-sonoff-snzb-02d": {
       "itemId": "1005005287154188",
-      "at": "2026-11-16T21:30:39.059Z",
+      "at": "2026-11-17T10:45:05.879Z",
       "recordedKrw": 13456,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 13501,
+      "result": "applied"
     },
     "ali-kz-zs10-pro-x": {
       "itemId": "1005006677926866",
-      "at": "2026-11-16T21:30:39.399Z",
+      "at": "2026-11-17T10:45:08.317Z",
       "recordedKrw": 27736,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 28812,
+      "result": "applied"
     },
     "ali-trn-vx-pro-plus": {
       "itemId": "1005007347440400",
-      "at": "2026-11-16T22:28:56.986Z",
+      "at": "2026-11-17T10:45:09.087Z",
       "recordedKrw": 46292,
       "found": true,
-      "apiPrice": 46292,
-      "result": "same"
+      "apiPrice": 46445,
+      "result": "applied"
     },
     "ali-qcy-crossky-c30s": {
       "itemId": "1005012387181102",
@@ -229,5 +231,5 @@
       "result": "applied"
     }
   },
-  "updatedAt": "2026-11-17T09:42:03.915Z"
+  "updatedAt": "2026-11-17T10:45:09.838Z"
 }

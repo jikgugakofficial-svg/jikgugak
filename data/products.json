@@ -5741,12 +5741,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 API 매니저",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-sonoff-snzb-02d",
     "domesticUrl": "https://link.coupang.com/a/iIA5cW37Ku",
     "name": "소노프 SNZB-02D 지그비 온습도 센서 (LCD, 1개)",
     "category": "it",
-    "priceKrw": 13456,
+    "priceKrw": 13501,
     "domesticKrw": 27900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8807347296",
@@ -5771,7 +5771,16 @@
     },
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005287154188.html",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cnp5i9yt8L4h0Bj02mfEXMy7U2M86rpt9iHAh3pVm5RGxWIbtzL1WjATnJVjYYjloI64qqzN1s0Qi5cWmBAegYo5NQq8n30kYnY0uvmFTAQuUFVeVj9kfg3C45CmiZuxVbpJKygXeBh9PuvvXKa4PEXRy2Vclp4ojnMJVgCNxlJNQRjpKJdvqUvqvn5C4NllfSf2LIZe9fpKFdo0mtSD9wKCfI7GIT6rYFAUjmMqq87jiC14fReIBHl7HBxgZVgFDCNmuTIV7jrvqATSlFY4LuRr88ofxSbdfwj3ElnpPLb7yVXzPafujEgnUuLPoBcDLITBLn30gPwPVabKCLXzBW9ESSeQ4BkDobbka9F42v8Nh1ECtP3AGVzJFlRqoWoaTTmoJzjXasri8mWQ79LLGq1ZPUzacO0jElGFNn594OZFaWYIRXU0kdkDy2o2B0yNJy57gIJrMS6Bx9KNRYLwvX5iSp1pbdtKYze6zKQiEkb0n7qUNleCIj29s5TQmTrY4GMGC9abeTJrr3E7dgdREek1zNAOGGZUDRM2L9TXg2OzPVXi0N8aM1l1k8TGH4jNs5BixOs67h2ui31PHU4RYu11UmstjUP43elOtvG3oUol3tZnsFyhuQAFdh1aC62eMB5YQqiea4bNoHLiHqaUjVPe1yxxhqG19lLkU0XaT6RAyLWbno0chz4OBBK0HFZI9iwEXTkcCbM4xL",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S358f9c82fd874adb974ca9f0b8afddc6Y.jpg"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S358f9c82fd874adb974ca9f0b8afddc6Y.jpg",
+    "priceLog": [
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 13456,
+        "to": 13501,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
@@ -5781,12 +5790,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 API 매니저",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-kz-zs10-pro-x",
     "domesticUrl": "https://link.coupang.com/a/iIA5c2ZaQm",
     "name": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 27736,
+    "priceKrw": 28812,
     "domesticKrw": 57900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8054846488",
@@ -5811,7 +5820,16 @@
     },
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005006677926866.html",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cn3IOfDxfy5k0cZweSr0E9Id3bYJ1909INSOJ6QLMb2CstkJTKk8GmE2bPSe2fy65BD1GDbQlPgMKwozaMyC6icFvRx6dxlu7yjjtywnyueENyenIu0CUYVODp6gBIqvo4E7zAk1GrGDRGasCHyLx0laZyyekNJ4IN4XMHxn1laj9bGvGs7p04H6WpueRpJwip7XvkWAVOeF4jEfhV1AdtgG9yrQddidjhGL0kLpfcmcwtk6I3rEwr2ddbRsTc9VmDDBrkYMuYiXbBW10IPLrY7ZWMpfggKQi7FJUxRTELqCwO073yreZptwn3OSBTgJ7tJ5IzlrJzK9e3Wl9RadO25oZqeirbfRtr0IMJPS6fscibLVx2JNsktqJLX7rLCTGUPsAF4qjMsjrYWuVO14hMsv23C4MtVFdMaN0tYajBxpKoHxAy9HBDq21FXMjSKY70Az00TocBLXpbLpyUDE1KxrasWAaBo65lAYqvDXwXPOQMYOXBev3e0Y828FIRfNi3SoOnMQpKcpnC5ABjJmoOszSAwFrHym3jLfWaHqkM5aQmTcQJeIjIdgYWc6Wqh9X94k7zUxmjKgnVBW89lN2CRCD7uadCQJuL55iL76Hak9E6Lv32EwABHEUZ7yDsNq4hUj0ZYgNI5EanSdevIre7BSfOPWlUeFCnYu5ByPlKPKzt4WHPfax8fQtMPFvBVhSSLORKntOxZyFX",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6e8656e73a56489ba617fe7f21e22804l.jpg"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6e8656e73a56489ba617fe7f21e22804l.jpg",
+    "priceLog": [
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 27736,
+        "to": 28812,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
@@ -5821,12 +5839,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 API 매니저",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 46292,
+    "priceKrw": 46445,
     "domesticKrw": 65390,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
@@ -5851,7 +5869,16 @@
     },
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007347440400.html",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cne436PtYBWz7qihgBioJfgpWOeGK3LP0iTn8mxCy6bR2TvzzuGWM7q2HC2Nu7PCHoGR1hbZNRhpk7GNiln3G5fyaZJzUHxS5DwJWg8t5LIjhJFaNuWdKXdOUyssmVVmoq2CR4lnDbq5198ACcO46TRXxB2bazcs17LvgkJbleH4hSH9mY2oEhs9Z15MBQo0hTS6Oj1kIyOmOUXNn8isBzokXyvWfc3YibRkr6EZqyUSQzalRB4E3nhARTAJtV0HjcktZtg543KnScMXf23nETTwyDr5QVAq9EKLRHaskKk501Ie15voIxOL1oJjxTioU15HOrXmxkmS0MSXPzh5f3E86IhDt677goA1dAqKj5z9Abw8pNJL35Iks7OVmpNG9WtV7z26H3aC4F4TLnUN0dMQUAbNxloqN7G96KHYRz9P4heUwUyAPnvkPOqolcg19wKe8kSELPtRz4gPowVUPsBwPVl2EQYsydA50NLL6ZpETfHyyqVHYWn3bC70kqnbnmtZ3aQAFPsgnghfMhFYj9K9g7s8BY31PGwLsZLdCL7ak1hkE1yspLmUwYfeNJDwG5jXCu0tcsJXeaQBR7IyteU0EqQV4zWpKcIgeRgX63vrLzMvUPGty00yl8XpjibQgwGSnclUY2478OTB18o8kIL6HSrHPPTa8yqT7O0tDVBpBUCzezAKQU73VWVYuUPc1zL6cc5plttew4",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S84bc544faae04a55897cbeb284bc6f6at.jpg"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S84bc544faae04a55897cbeb284bc6f6at.jpg",
+    "priceLog": [
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 46292,
+        "to": 46445,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
@@ -5861,13 +5888,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 API 매니저",
+    "checkedAt": "2026.11.17 쿠팡 자동",
     "slug": "ali-qcy-crossky-c30s",
     "domesticUrl": "https://link.coupang.com/a/iIA5dcg3wa",
     "name": "QCY 크로스키 C30S 오픈형 클립 이어폰",
     "category": "audio",
     "priceKrw": 40349,
-    "domesticKrw": 57500,
+    "domesticKrw": 65800,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8906816172",
     "risks": [
@@ -5891,7 +5918,16 @@
     },
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005012387181102.html",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C40nmX0mJrVoajQnFSIbmEds8wMxhXApBDhBaBPYzIfnWvrcA1A9afSYsL9oY758Za3bBYDdoxgfPyZle5SmgjlI6GOagRT16hLs1O755S9PNrjGvhwjabdPnXqTQP9335Iy3sU8Oto8TgEETNF5gBz85THWBBtgfixEZrDkozYOzEZzkX3jwIWyEVymPXw8RhuHa4mbzwUIoFfFr3CbePHCxnCyuIUvF58vU7v8BNNqghFS6oTOYqJ6KS2vfl9Zn1vu8yS8XZkDBep7pkCHfb0qasEziKLs8GxXXvMjfEzv0JpH2gqMKJsOimc5bV4UEmqKvPO7MVI2YpFkiDEDCJOUeCu3szDIgUgcsNasp8xdP0K2etc9yhSLZDsbJdHdXw8vR1AGdmOMPSodXLJxISfYMSvswlcJrzHVcFCp36Y8nMCwMaYrMd3xxA2VQRX5XaHtZ5s8YeZLpM4q47jEOoGhCWT00FDpQsrszAOdMC8S8W4ZXFVXnpGsWfFYOzAXwxqUSXZXIO0gyoUgo0x5JhRkMKziXZ19MKpYESdm8BB5ew8FtfVwZZJKQW7aM8lr7sXWFVZH6jqKaunWLMqQDonn8jhxhq7SAvsYqSW1nyo7dMhLUMtDcUe6KpsCShwSnabuvyGBjxnXhQd1CLzqlZufdrsVYeee5ubwdkf5uXdYiEyVv1mvX5V1VaVq3ZgGx8nl1loNb7ns8D",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S68bfc88c9db94ebe83f876ae56909af3A.jpg"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S68bfc88c9db94ebe83f876ae56909af3A.jpg",
+    "priceLog": [
+      {
+        "at": "2026.11.17",
+        "field": "domesticKrw",
+        "from": 57500,
+        "to": 65800,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",
