@@ -3099,10 +3099,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau662nWai",
     "sample": false,
-    "checkedAt": "2026.11.16 알리 자동",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-edifier-m90-speaker",
     "name": "에디파이어 M90 블루투스 스피커 (블랙)",
-    "priceKrw": 219902,
+    "priceKrw": 220631,
     "domesticKrw": 249000,
     "domesticSource": "쿠팡, 한국 정발 블랙, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqtHwHUNvoNtEzQGMfrvzRbufrwqXTbeQ1kju0nMKIMZ8VlgA1MUzhJpkE9B3OlKxCSdVypmqfxCo7GaDyl9I3dIYqB3VolglpYSMPPSNXh01oNgrs6NmHnK0DxlkvANTtQZvGuzfgrC6BoR4nnsui8CxFa5AjN2nt2Qgnc9mMkYcsst4DVWMdzCkG19uVBmkFpCFp2lD2x6sG4XNWp5lHGLk0tj0Y5nty9X67l65e7r5XMKxhjBxVSalcCG4ofW8oDQdfW4rgb1iyeuGaZZowV1hA0Au93itWziAhFu88XI0UkNj32bIN3PeudS2EYC7T7BDN1YTu3HtHvsbDqG7YSzWw7Ls6QOQZKisnQjGehbB4dZex5Nxu0IIQAGq5TlLFSH5S3EJfApYSUbTyCROZHtB9iFDaW9Fi33INvDupzSCu8tnh73jih1PZS7gjqLlBQeNPlnd0dy3jgSWuWTQbjVOSBUCyBfsqLZ89Q6iHfOpfJIs4JwMUUozlTBU1UKNJp7eVGKMK8nl2nSmq9LpobgyxCy4WotKbEqzWqU5ibQJ3bmrxPEwNYSLDzNHHve3sDBTbFv632Jw7cPSuPcNuSo1JXIgLlxkt3ItA7ZnxLSlCg1kZPXZZdaStc52PmqxZuQtEGeDWx0DhqPrQeliYeNFPLeRFPrA2qb0s6zHShJ2j9iiogzOPvCoWjIPkK5dK24xJYbSJoT",
@@ -3129,13 +3129,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.03",
-        "field": "priceKrw",
-        "from": 220599,
-        "to": 221171,
-        "source": "알리"
-      },
       {
         "at": "2026.11.04",
         "field": "priceKrw",
@@ -3197,6 +3190,13 @@
         "field": "priceKrw",
         "from": 219291,
         "to": 219902,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 219902,
+        "to": 220631,
         "source": "알리"
       }
     ]
@@ -3964,7 +3964,7 @@
     "slug": "amazon-bose-qc-headphones",
     "name": "보스 QC 헤드폰(1세대)",
     "category": "audio",
-    "domesticKrw": 279000,
+    "domesticKrw": 269000,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CCZ26B5V",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7579231557",
@@ -4002,6 +4002,13 @@
         "field": "domesticKrw",
         "from": 269000,
         "to": 279000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "domesticKrw",
+        "from": 279000,
+        "to": 269000,
         "source": "쿠팡"
       }
     ]
@@ -5524,13 +5531,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 알리 자동",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-truthear-zero-blue2",
     "domesticUrl": "https://link.coupang.com/a/iDBoD2z4zA",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4kHHbp3TDqGITuVjyLBOJb2rCkBj0zAzxTSJtOe2Io3RbTVDr9T1HBfvL2hkBfkFc1mvIqYXQitsRzlVwLm46ekub51BmgHVVSaBgpas0b9twRGnz7GkcjNFlYgE8jivOGYCzsIWvSkxJbNwv2F1SrMs0XlYiYToH5c1buUT4QzgvPbcIxUOw1mqpNrUGEIa8DiOkai46Gbe2Aezmkfjo4J7NLijXY6lgZPD449RjvSY5qVTwydVew6F83j4tQtIgAMeW9JeZARslGzUfspa3A3cTMrReO3jMBBRcQrpfII8mnO9KDMbMmz1tDyUfW75Dpi13Vk8RhoSFt0jmg1Co4Uho8o9WWIYGQbe6NDqegtqURf72gSJM5qrGzrXUqiWBu4p21hFAWNlQoJlcDuUSzcnGMYKzwDC7qdyqcjWmXnLF8CompFD7ljYxCTeuHZx1L3hCUbDIfHNnRMyVtD8tpCTxyQgUk2DzYU9YQEQhv1683Ugx5jPWB24R0NZWExDoTpkiMxYoxFy1Rkp9iDWGoEhizGqHVxtbTw169fnVhjUGZJmtQkX51hzz7PwQpPlZ2Ozqw04dBVd1pV37NO8xTOW91OFSXKkGVaY7S6PK1VgOjbXdHgaKSLtCN0Bsw8l3svs84sEoSDszYprI1dPFRUwqeudPrWtmtMDlQrK5ymh8FaPx8YfzyKDK4AfcGDYZfwA1W1cnQWza",
     "name": "트루히어 x 크리나클 제로:블루2 유선 이어폰 (3.5mm)",
     "category": "audio",
-    "priceKrw": 75926,
+    "priceKrw": 76178,
     "domesticKrw": 136900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8704415331",
@@ -5562,6 +5569,13 @@
         "from": 75715,
         "to": 75926,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 75926,
+        "to": 76178,
+        "source": "알리"
       }
     ]
   },
@@ -5573,12 +5587,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 알리 자동",
+    "checkedAt": "2026.11.17 알리 자동",
     "slug": "ali-kz-zsn-pro-2",
     "domesticUrl": "https://link.coupang.com/a/iDBoD7XW8W",
     "name": "KZ ZSN Pro 2 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 17581,
+    "priceKrw": 17653,
     "domesticKrw": 30000,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8502968328",
@@ -5618,6 +5632,13 @@
         "field": "priceKrw",
         "from": 17540,
         "to": 17581,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.17",
+        "field": "priceKrw",
+        "from": 17581,
+        "to": 17653,
         "source": "알리"
       }
     ]
@@ -6063,7 +6084,7 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "checkedAt": "2026.11.17 쿠팡 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9691700942",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005011615420740.html",
     "slug": "ali-tangzu-waner-sg2-red-lion",
@@ -6071,7 +6092,7 @@
     "name": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
     "category": "audio",
     "priceKrw": 26979,
-    "domesticKrw": 58500,
+    "domesticKrw": 61700,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
       "배송 1~2주",
@@ -6093,7 +6114,16 @@
       "checkedAt": "2026.11.17"
     },
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cow587JpWAKgv3rNd4Hn2v48jLTxXMwz5IIkvYa5IMrEwGNSEKHnYoDVDueavdednwh4t0gHYxMCxN45wnhsJ2OhJuGdFc5UkzdFuK5tiddATDFs2Y1joEs2DuFmQymar2MB7YzTPidWRGFbXLn7076HBNyIr7F6bSSqsIETTrVNvKH1a7MFK6MNUwhsrx0vdosf4DBGzklTWMhQHfSOVXvKViOuStnwVZG1Zn697WrMiITgwU2mjn6IGAvuJKx8XKT81MaKnCPCKdp7BOwEFMHNzBI19yS35d0WTdMoIAgsjRe9y3h1B2qthmhN4GeAJRF7SwyzJL7S7Dh8mLENSpsihYT43mtE2h9fG4H64VWkANJZMOinFeIEOtvYLHaNIWxile940tkE52A76GuYuDhtsLV2vxypWYTJTPg7nzyv9p7LEQTzMLe1eaEva6mGDJkuCOQau6bKnGgh5fjMWscAsVGmD6IxSh12qNnx3ZI43ki9lL9l2ziXWY8MOcExRQGkDGvE9nMoYomSX7e6QuhaAkgUqPUFEgImeASBJ8QGhtvYNeT4O5MtcZqduN1mfXWP7fngLXTscZVOcsGqy83tJBpn89rdzVLhYQy93HCy8FwAzz6sy8oyAYdU1MQzUGHK4kpdUyJCEZTWYtiVMqTI1qHZXsV01SWKkSBtygN4AqYwvnLvoHQiqLjpDfJYMpYmveQ210z4ON",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S88d6a193e34c4e6b9f0524bcf2183fc8X.png"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S88d6a193e34c4e6b9f0524bcf2183fc8X.png",
+    "priceLog": [
+      {
+        "at": "2026.11.17",
+        "field": "domesticKrw",
+        "from": 58500,
+        "to": 61700,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "aliexpress",
