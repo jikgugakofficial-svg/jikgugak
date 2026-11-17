@@ -42,11 +42,11 @@
     },
     "ali-qcy-melobuds-n70": {
       "itemId": "1005009801120235",
-      "at": "2026-11-17T09:42:02.975Z",
-      "recordedKrw": 71582,
+      "at": "2026-11-17T23:31:00.886Z",
+      "recordedKrw": 71819,
       "found": true,
       "apiPrice": 71819,
-      "result": "applied"
+      "result": "same"
     },
     "ali-edifier-m90-speaker": {
       "itemId": "1005011600003372",
@@ -74,7 +74,7 @@
     },
     "ali-baseus-inspire-xh1": {
       "itemId": "1005009462893635",
-      "at": "2026-11-17T09:42:03.632Z",
+      "at": "2026-11-17T23:31:02.591Z",
       "recordedKrw": 179137,
       "found": false,
       "note": "not_found"
@@ -168,11 +168,11 @@
     },
     "ali-sonoff-snzb-02d": {
       "itemId": "1005005287154188",
-      "at": "2026-11-17T10:45:05.879Z",
-      "recordedKrw": 13456,
+      "at": "2026-11-17T23:31:02.939Z",
+      "recordedKrw": 13501,
       "found": true,
       "apiPrice": 13501,
-      "result": "applied"
+      "result": "same"
     },
     "ali-kz-zs10-pro-x": {
       "itemId": "1005006677926866",
@@ -230,5 +230,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-17T22:35:14.811Z"
+  "updatedAt": "2026-11-17T23:31:03.878Z"
 }
