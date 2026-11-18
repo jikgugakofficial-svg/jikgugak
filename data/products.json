@@ -3215,7 +3215,7 @@
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
     "priceKrw": 128698,
-    "domesticKrw": 125900,
+    "domesticKrw": 117900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
     "risks": [
@@ -3240,13 +3240,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "domesticKrw",
-        "from": 117900,
-        "to": 125900,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.09",
         "field": "priceKrw",
@@ -3308,6 +3301,13 @@
         "field": "domesticKrw",
         "from": 117900,
         "to": 125900,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "domesticKrw",
+        "from": 125900,
+        "to": 117900,
         "source": "쿠팡"
       }
     ]
@@ -5055,14 +5055,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 알리 자동",
+    "checkedAt": "2026.11.18 알리 자동",
     "slug": "ali-baseus-bowie-mh1",
     "domesticUrl": "https://link.coupang.com/a/iAjCVp61Zs",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4mvv0PPC9csy2RCzz21U3D6FIN60SceCatXdrTmeX6oiETm5cG5mYlGFSHDFjnHvWL6lbgKtj9EdKq7C84MIpgBPdB900HZShecjt9E7TlAhW8osaQ6FJtQlQRrBgaWiOg6dbftEJfF5sqdbC2H1ILhpsl08yAVxJZIKhSdhC6t8AVvepaJJsnS74gDuj69vZUcVUWVWWWGOBiLAD4J6QUdyPRTxVgmcRprFvr0os4UzWJpyCp5n77np9M8jn7aKIkuPS42G5odcB2Y9J2smIrameDdMrGB4zXuBInLDk1pVmYfDCnXQ0E23SjPmjIWr0u31ZwBXIYYfANuouDadMHE7XSMsG035YAs9niF6WesMUHlZ2o2yYY4fuoSAZJnj8OrJ35M9GSllW6G67rfLgg3iZXe6tjIsWkbQNqZcjXluhAbguTdOPWUsVj2iE4sNe3SNJ67PoBnkPcrcxlsL3WLnEqEXm2lND5IxRmV8ZghtgTTFzTXtC5eEnagH9NQXEM9TlHeXJ9NnlDVss8MlzEjxAYChw2bZze23K61gz6USlRYlaNBP6ZGoFqOHaHuW1mx8ya4WKXNob4NY2T5CThFEFuZjJEO69EV23OhTKPGoDOQuH9imkPdTCe23HWfugp1BLDdIzlKApyYWpf4MppqTaMRBKryMCXZe85HySLwvjxurhyICUvZulpiGY1Kg8YzPggso0A4Dq",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
     "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
     "category": "audio",
-    "priceKrw": 86375,
+    "priceKrw": 86229,
     "domesticKrw": 176600,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
@@ -5141,6 +5141,13 @@
         "field": "priceKrw",
         "from": 86462,
         "to": 86375,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 86375,
+        "to": 86229,
         "source": "알리"
       }
     ]
@@ -6108,14 +6115,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "checkedAt": "2026.11.18 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9719002042",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005009920180201.html",
     "slug": "ali-baseus-bowie-mp1",
     "domesticUrl": "https://link.coupang.com/a/iKe171rCO4",
     "name": "베이스어스 보위 MP1 ANC 무선 이어폰",
     "category": "audio",
-    "priceKrw": 52024,
+    "priceKrw": 51657,
     "domesticKrw": 135900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6138,7 +6145,16 @@
       "checkedAt": "2026.11.17"
     },
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2o3clFUP4qB69VAFul752TktSyFey3Lmp3v59uJGAThp9EfQadG97RMf9Q92lJpSfOUdorz876czHmWkp9ftZ1UVZWRR1xgFBBtqmCmR2QnHcCPokxl5w9mCfnx7xuV9MLy7vvDcaU13dp9wacDCriUTtSrOvrm9bPbqWGffdMDvCB954MVTCeMykOW3z6aRfPGlRPSgjxe2S0ZKnaVHCYQ4jLydV9QutK8EqnQtVhPAvgNBl9l3pgoExYHnS056lU2jSqQmNZHFKyYZMi4wllyASuQPAvsjWosVyaRlsMhHVqfeqHrJ606mRrBMvr0sBBEtUMzS9Tnyy6AQfdqdbaDn2jhVZGAWvudQG20XrwA1As2kV9UfxZJq82Ih2rY7BvZ48z6pKgnYLtwkb4IGqlO1inHvRhimuLDuUuRY7jpKAyUJETQof1gAy0n03u0gsAQugsL0NgJknIudzdXSzFj0scXDn25BNJxWKXsuENcFQPkk73wg9tPF5wA5vxvGUxOyohTT7HWQNVEfXYb88uuRHvByuMBQ4KegiNyoBU24Zp9KMWleJToh1PsfVuLuqOnVBlp7XjEjGX6vhjWi0vJ0qgmEyJ6N5TtVjzx1WU8hULeqkGxVplGoQedUj1xylIVJ9I8yGgOnBPWlPBttc4QjSEYyAVTfvfmAQwU70GQiG5EIbFwoRVOEiQQIMyCcsTlQO57AOnAX2",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0149f302beb423db38eb48a906309ffk.jpg"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0149f302beb423db38eb48a906309ffk.jpg",
+    "priceLog": [
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 52024,
+        "to": 51657,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
