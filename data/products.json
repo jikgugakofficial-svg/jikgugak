@@ -6182,14 +6182,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9719002042",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005009920180201.html",
     "slug": "ali-baseus-bowie-mp1",
     "domesticUrl": "https://link.coupang.com/a/iKe171rCO4",
     "name": "베이스어스 보위 MP1 ANC 무선 이어폰",
     "category": "audio",
-    "priceKrw": 51657,
+    "priceKrw": 45191,
     "domesticKrw": 135900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6219,6 +6219,13 @@
         "field": "priceKrw",
         "from": 52024,
         "to": 51657,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 51657,
+        "to": 45191,
         "source": "알리"
       }
     ]

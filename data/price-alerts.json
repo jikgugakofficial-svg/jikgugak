@@ -43,7 +43,7 @@
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
     },
     "ali-moondrop-chu2:priceKrw": {
-      "at": "2026-11-18T09:39:48.518Z",
+      "at": "2026-11-18T22:32:21.202Z",
       "slug": "ali-moondrop-chu2",
       "field": "priceKrw",
       "recorded": 32773,
@@ -73,5 +73,5 @@
       "source": "알리"
     }
   },
-  "updatedAt": "2026-11-18T21:35:08.992Z"
+  "updatedAt": "2026-11-18T22:32:21.682Z"
 }
