@@ -19,11 +19,11 @@
     },
     "ali-qcy-t13-earbuds": {
       "itemId": "1005005042789596",
-      "at": "2026-11-17T18:33:03.928Z",
+      "at": "2026-11-18T07:58:21.891Z",
       "recordedKrw": 25397,
       "found": true,
-      "apiPrice": 25397,
-      "result": "same"
+      "apiPrice": 28004,
+      "result": "applied"
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
@@ -120,19 +120,19 @@
     },
     "ali-ugreen-nexode-air-65w": {
       "itemId": "1005012274502051",
-      "at": "2026-11-17T18:33:06.074Z",
+      "at": "2026-11-18T07:58:23.964Z",
       "recordedKrw": 33257,
       "found": true,
-      "apiPrice": 33257,
-      "result": "same"
+      "apiPrice": 33094,
+      "result": "applied"
     },
     "ali-baseus-bowie-mc2-air": {
       "itemId": "1005010724623265",
-      "at": "2026-11-17T18:33:06.476Z",
+      "at": "2026-11-18T07:58:24.644Z",
       "recordedKrw": 37800,
       "found": true,
-      "apiPrice": 37800,
-      "result": "same"
+      "apiPrice": 37534,
+      "result": "applied"
     },
     "ali-simgot-ew300": {
       "itemId": "1005007543694300",
@@ -239,5 +239,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-18T05:47:19.635Z"
+  "updatedAt": "2026-11-18T07:58:25.015Z"
 }
