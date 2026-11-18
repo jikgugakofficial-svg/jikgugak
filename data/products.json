@@ -2660,7 +2660,7 @@
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46877,
-    "domesticKrw": 42640,
+    "domesticKrw": 37940,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2684,13 +2684,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.12",
-        "field": "domesticKrw",
-        "from": 42640,
-        "to": 38370,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.12",
         "field": "domesticKrw",
@@ -2752,6 +2745,13 @@
         "field": "domesticKrw",
         "from": 37940,
         "to": 42640,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "domesticKrw",
+        "from": 42640,
+        "to": 37940,
         "source": "쿠팡"
       }
     ]
@@ -2878,11 +2878,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5IA6rk",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
     "sample": false,
-    "checkedAt": "2026.11.17 저녁",
+    "checkedAt": "2026.11.18 쿠팡 자동",
     "slug": "iherb-on-micronized-creatine-caps-100",
     "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
     "priceKrw": 29182,
-    "domesticKrw": 37480,
+    "domesticKrw": 37510,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2906,13 +2906,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "priceKrw",
-        "from": 29370,
-        "to": 29768,
-        "source": "매니저 브라우저 확인"
-      },
       {
         "at": "2026.11.10",
         "field": "priceKrw",
@@ -2974,6 +2967,13 @@
         "field": "domesticKrw",
         "from": 37950,
         "to": 37480,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "domesticKrw",
+        "from": 37480,
+        "to": 37510,
         "source": "쿠팡"
       }
     ]
@@ -5853,12 +5853,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 알리 자동",
+    "checkedAt": "2026.11.18 알리 자동",
     "slug": "ali-kz-zs10-pro-x",
     "domesticUrl": "https://link.coupang.com/a/iIA5c2ZaQm",
     "name": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 28812,
+    "priceKrw": 27851,
     "domesticKrw": 57900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8054846488",
@@ -5890,6 +5890,13 @@
         "field": "priceKrw",
         "from": 27736,
         "to": 28812,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 28812,
+        "to": 27851,
         "source": "알리"
       }
     ]
@@ -5958,12 +5965,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 쿠팡 자동",
+    "checkedAt": "2026.11.18 알리 자동",
     "slug": "ali-qcy-crossky-c30s",
     "domesticUrl": "https://link.coupang.com/a/iIA5dcg3wa",
     "name": "QCY 크로스키 C30S 오픈형 클립 이어폰",
     "category": "audio",
-    "priceKrw": 40349,
+    "priceKrw": 40516,
     "domesticKrw": 65800,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8906816172",
@@ -5996,6 +6003,13 @@
         "from": 57500,
         "to": 65800,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 40349,
+        "to": 40516,
+        "source": "알리"
       }
     ]
   },
