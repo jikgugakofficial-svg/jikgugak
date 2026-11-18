@@ -7,15 +7,15 @@
       "model": "F87 Pro",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 반복(2024.12 3.5만 원대, 2026.06 광군제 전 공구 $28대), 알리 키보드 중 언급 최다",
-      "at": "2026-11-15T21:17:51.843Z",
+      "at": "2026-11-18T21:33:49.658Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005006838602057",
           "title": "AULA F87 Pro 기계식 키보드 2.4g/Usb/블루투스 트라이 모드 무선 87 키 Rgb Pbt 가스켓 5 레이어 침묵 전체 키 충격 없음",
-          "price": 44374,
-          "orders": 1969,
+          "price": 44275,
+          "orders": 1998,
           "rating": "98.1%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S39262c17df8a456b816ca859e3197852p.jpg",
           "url": "https://ko.aliexpress.com/item/1005006838602057.html"
@@ -23,8 +23,8 @@
         {
           "id": "1005007614925149",
           "title": "AULA F87 Pro 가스켓 게임용 기계식 키보드 75% TKL 레이아웃 무선 핫 스왑 RGB 맞춤형 Bluetooth 키보드 2024 새로운 색상",
-          "price": 47500,
-          "orders": 1092,
+          "price": 43566,
+          "orders": 1107,
           "rating": "97.4%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc1c4b747793742b581b169e3446acf33G.png",
           "url": "https://ko.aliexpress.com/item/1005007614925149.html"
@@ -32,9 +32,9 @@
         {
           "id": "1005010559897387",
           "title": "AULA F87 Pro V2 E-스포츠 기계식 키보드 2.4g/USB/블루투스 핫스왑 RGB 긴 배터리 수명 커스텀 가스켓 5층 PC 게이밍",
-          "price": 57561,
-          "orders": 854,
-          "rating": "95.7%",
+          "price": 57430,
+          "orders": 875,
+          "rating": "96.2%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sef19a82fa3b24b03adc6133664bdec74W.jpg",
           "url": "https://ko.aliexpress.com/item/1005010559897387.html"
         }
@@ -47,39 +47,39 @@
       "model": "G Pro X Superlight 2",
       "cat": "it",
       "why": "퀘이사존 알리 직구 핫딜 반복(2025.12·2026.03 약 9.9만 원대), 국내 정발가 16.7만 원대(2026.06 핫딜 글)라 차이 큼",
-      "at": "2026-11-15T21:17:55.823Z",
-      "status": "new",
+      "at": "2026-11-18T21:33:53.596Z",
+      "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005006918193827",
           "title": "Logitech G PRO X SUPERLIGHT 2 무선 게이밍 마우스, 프로그래밍 가능한 버튼 5개, 44k DPI 센서, 8kHz 반복을 갖춘 60g 프로급 마우스",
-          "price": 148000,
-          "orders": 457,
+          "price": 131924,
+          "orders": 466,
           "rating": "98.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S89924b6525a54516965e14ab00b79783P.jpg",
           "url": "https://ko.aliexpress.com/item/1005006918193827.html"
-        }
-      ],
-      "coupang": [
+        },
         {
-          "id": "8502090609",
-          "name": "로지텍 G PRO X SUPERLIGHT 2 DEX 무선 마우스",
-          "price": 163800,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/5m5Utxx3YySDmaPI5kcV5Lm6-rDyObTYWApHvnQQCTO454tXhE8xGBJfzLl843gVjbTdShU5j-GucoaA-AHfJWubM6IlGUr226OXpei9If8Fd8h-b55gjUOHJUkTGpnkiNRYRjpIcfwqR6qqN3isb8c9N3UIcMFrSWRizGKeEkrTDYpgZGxXg7DYyTzb8oby0fTBhjej5AB5gKEkX8fu02L9uyigpYiI3QkBtnOIIknFbbzQfLI-Lq1QXcqlprBt5hhiaYUz-NJl9y7EwR0mgWITOOEI3hdXm5u2fXDHlauglRTkll6EbH9AI9duhiqEsxqpKNnsOxakpmpnGKKT7IsGnx845HvTcVMpqJgG-eH7JCRn-PtOli_PrOojJamb1T3EaIV7yuy5H5X7Gsna5xFPfGP-xQ_H1J9I7l3M5N9H6SH1gDEXyC0lO-4oDA0n_FulAQxx-KIp66wMuS0fMFXqllmDDj8gPZxTeRSJKyv_sCpgoT5Dcjk2ick5VL_0iEMoIKyTG76U9VZtA4zrEM_kwqw=",
-          "url": "https://www.coupang.com/vp/products/8502090609"
+          "id": "1005006686564952",
+          "title": "Logitech G PRO X Superlight 2 마우스 사이드 키 마이크로 스위치 메인 보드 회로 기판 케이블 용 기존 새 마우스 유연한 케이블",
+          "price": 9400,
+          "orders": 50,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3a0d75e766784a76b8766dfbbef7a69dp.jpg",
+          "url": "https://ko.aliexpress.com/item/1005006686564952.html"
+        },
+        {
+          "id": "1005008587312345",
+          "title": "Logitech G Pro X Superlight 2 및 2 DEX 마우스 버튼 수리 액세서리 마이크로 스위치 어셈블리 소형 플레이트 수리에 적합한 1Pcs",
+          "price": 6970,
+          "orders": 38,
+          "rating": "97.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S69b1c368d9d14fe6affdd97fec484647u.jpg",
+          "url": "https://ko.aliexpress.com/item/1005008587312345.html"
         }
       ],
-      "best": {
-        "aliId": "1005006918193827",
-        "coupangId": "8502090609",
-        "aliTotal": 148000,
-        "coupangPrice": 163800,
-        "verdict": "meh",
-        "diff": 15800,
-        "pct": 10
-      }
+      "coupang": []
     },
     "UGREEN Nexode 65W GaN": {
       "q": "UGREEN Nexode 65W GaN",
@@ -87,20 +87,11 @@
       "model": "Nexode 65W",
       "cat": "it",
       "why": "퀘이사존 2026.05 알리 핫딜 조회 1.4만·댓글 23(2025.07에도 같은 계열 글), 포트·디자인 변형 있음",
-      "at": "2026-11-15T21:18:00.045Z",
-      "status": "no_ali",
+      "at": "2026-11-18T21:33:57.837Z",
+      "status": "none",
       "coupangTop": 10,
       "ali": [],
-      "coupang": [
-        {
-          "id": "9801936530",
-          "name": "UGREEN Nexode 65W USB C GaN Charger-3 Ports Wall Charger Bundle",
-          "price": 99200,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/mS64tcfXcDhBd-Lnmb_RboMfMAv6FjfmRYYhQkrZlf2QtwB0HnJmAPbor_bLmnqSW9kI-1BZ3lB8rIqMLBY0g9kVHLUaxEFpwXB9j1hjfK4A1Q2vQPWKEWvP7C9-LB03lSPjVGvtRkkzWe_P3eg0PSEX1YWYVcGz-BEVAwsjOeThyzsqa81GjA5LCe2QQlI5dk8vFjPXnDKSeYVmzqitECc06cqpTdHucO7fH_wb9G8dvd5wHtr8gjquToSUxNlWPr1qayZv24jKyTYf95C0Al3_DAYaGsGUNRQmbJ2DeyixWDGONJ5UaDcHqsYG39TYvyRRUHXbIOAERp4mzcF_Vi6nMqaGe_V04nZhz2lGGeQw5WrdZGoFZi8lioquI50A_CRg19ClvZ6i6UisMlOPbhvG79BOUhylQPGrYkJxx5lAI5NHNgrY4LbYIttqNlXW0mXZjOfs_XKG-a3GIFUh-R4X8HFUhZuUHuA4ASc98zPgdfT2rsi1ReYiNjaUbMaBi9rsHawJLVRqYU79mlD_Ma8aXO08jgZulIGZPAg73R-ce78=",
-          "url": "https://www.coupang.com/vp/products/9801936530"
-        }
-      ]
+      "coupang": []
     },
     "QCY MeloBuds N70": {
       "q": "QCY MeloBuds N70",
@@ -120,20 +111,10 @@
       "model": "M90",
       "cat": "audio",
       "why": "퀘이사존 2026.06 알리 공구 21종에 포함($91.94), 바이앰프 2.0 스피커",
-      "at": "2026-11-15T21:18:03.838Z",
-      "status": "no_coupang",
+      "at": "2026-11-18T21:34:01.755Z",
+      "status": "none",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005011600003372",
-          "title": "에디파이어 Edifier M90 바이앰프 2.0 스피커 컴팩트 디자인 블루투스 V6.0 LDAC 하이 레졸루션 오디오 무선 스피커 (리모컨 포함) 100W RMS",
-          "price": 185200,
-          "orders": 6177,
-          "rating": "98.3%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sde4c458cda2049de80f1e965e5dcc502Q.png",
-          "url": "https://ko.aliexpress.com/item/1005011600003372.html"
-        }
-      ],
+      "ali": [],
       "coupang": []
     },
     "Soundcore Liberty 4 Pro": {
@@ -6849,14 +6830,23 @@
       "model": "Pocket 3",
       "cat": "it",
       "why": "클리앙 OSMO Pocket 3 사용기(23.12.28)·국내 가격 글. 본품 단품·콤보 구성 구분 필수",
-      "at": "2026-11-15T21:17:35.835Z",
+      "at": "2026-11-18T21:33:33.589Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
+          "id": "1005012117757350",
+          "title": "DJI OSMO Pocket 4/3 액세서리용 BRDRC 마그네틱 매크로 렌즈 클로즈업 필터 HD 매크로 사진 렌즈",
+          "price": 26450,
+          "orders": 1,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S384f31c35820499dac3daf0e51df6e93v.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012117757350.html"
+        },
+        {
           "id": "1005013448939269",
           "title": "M07K-RC07 무선 블루투스 리모컨, DJI Osmo Pocket 3, 4 및 Nano 액션 카메라용",
-          "price": 35100,
+          "price": 35600,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa782b585838148a0ab83094424973f96U.jpg",
@@ -6865,7 +6855,7 @@
         {
           "id": "1005013262577240",
           "title": "DJI Osmo Pocket 3 액션 카메라 LCD 화면 및 터치스크린 수리",
-          "price": 99400,
+          "price": 99200,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S728cd6b326a44bc19f28f88e21205241T.jpg",
@@ -6880,7 +6870,7 @@
       "model": "Pocket 4",
       "cat": "it",
       "why": "루리웹 네이버 DJI 오즈모 포켓 4 사전예약 스탠더드 콤보 662,000원(26.04.17). 콤보 구성 구분 필수",
-      "at": "2026-11-15T21:17:39.803Z",
+      "at": "2026-11-18T21:33:37.525Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -6888,17 +6878,17 @@
         {
           "id": "9447870768",
           "name": "DJI Osmo Pocket 4 스탠더드 콤보 액션캠",
-          "price": 619500,
+          "price": 620000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/DFM4kh6qIfrkD7O9DN6th3tAQN2G8DrPmJ2QDqRJAG42tyGCPpz8k1YabSaIv-4ZKJSYTSMTAcoxEwaEOuJMxvVqO-CKnjgp3qRuUE8Rk8S63kGEZ02v_Md6NfHVGPeClaVx5ChXo-mLKxxT1H0Okxzjo8hexd9dKsXiIi-b5XoE5DU09IlM9Yv0hJ0zOD1i9MRhbQ7f-RU4yMv7GKLNLP53Xh9dM9uibcfCMUHD5MyXn8siheWbaVXcHhU0dt1lVzjOZBB63xpUNyoyct54rFvhsHS4G9TagFnrsvJGhkdgfWSwF06h620P8gekd-fU7V6A9NX5caBMF9eo3PQ2-qlkbsCdEqiemi4hCIHugBSGYf5x9hOPwR0-Vgu916Z2mTCLN5lzgJwL2_PD7jjgSj-Zax9TBTql0RNDQHXLnPKAx2VNYeo0tUC6eg0Nx-67NiqHycUcsXAyIJUUsjl7Ejw772KggDjqRP3nNVwK4hudZORxyOvYx38j83zs1iGact2gjOf-N4iW70YMP-e26Th69NKsSXz6Lf6SqsIQyTHyZ5W0IW7q1GsAvCRFTuq_Z1UFS7A9cnoPndJTIg==",
+          "image": "https://ads-partners.coupang.com/image1/WaPNnEx2r5Mt9g-6WeIuiZppEuPPj4mW4hkQ51TnKcAKBEBnRMXsGBvwDve52wqglwCCfHbdPa5Lpl3Yf2tJBOQcejknedCowSXnonl844-fJGTC6aHie3Z9Pfp4mgaXStDCKH8-9auXQI-N927Vd49EEjNwueBgHVrej4hDvDm-zJ1px434mO74RNL03vRpU8egyUMH3urw7QucWBANF54W6d49-HWfH3gfUcycXDLzV1x804ZR0OYQvkQgIqOP1mxIV35aI9D3ujmiTuTlTgQXCkaNhXiwFubBzOc3RTZPYjsXDS8XlY8Bx9ccZYfgqGrbc3WbglNPegP6xWJhOc23dUslHAEth8MHOW6ioSpQcOWlywFqEHg7ivVC9JdTJMbvLjoj-20zfPZEFVNTxw2yJgXkyVydm-HCPNgMjCP8LOtxfK6DhlJIY7sRKFuLB6BbZuirjE3x65Et0RAL2PBI8Pvtk3RY3y_EStn3FgeqPFEeeKNVlLfV8TRdMuIrl9Dkyl57OLyVbvvjd386-FCx38I9hZ-UnCwiLIcYEPf3-NwH1V_qqsxM0LJI9ZgRugCoZDWWSQ5nP7grvdo=",
           "url": "https://www.coupang.com/vp/products/9447870768"
         },
         {
           "id": "9447870763",
           "name": "DJI Osmo Pocket 4 크리에이터 콤보 액션캠",
-          "price": 768800,
+          "price": 776550,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/6Y9TNQHeWkQ77pIi6cXwTeDaYmR_0pcJiGKBNKrF01ZCaB9MIv0RXQo-JM23a1AA8xNu0cOmjiHg9RSodQjaquE20QQ13EhbY4XMlCbgqCiZxRb4paREASpkYD6O28GUpgA2qBeg-t1gahUpIW-HLxyg8NuLzyr4K4UswLwzrR5_b9W2mRvTQ3BfEcxABK3u67KlSFNNsr5MW_fgpB33sftlR4zQZJDAcZs0fEwLstm_l5ZYIqBsihuqYt2Pm7VnGjuJO2uGlSfwzFajnLw2SJnC66DlfmgxBiVbah6Tv0TJC1Puor9UVV9ihoo-f0iJZ7-cu5uklcnOxFx8MLa56RnuS5c1QvPioclMCTIQg34X5ptJ_p-Mfw56GlHWMAZuBxodU6DN_e1uQsnWs4CX-HFKr0l6ZSbGB2I1MX1sEXp6ewWvioI_QbTZOR-6P7OkCc7VFDuJ65gwCAQqi9hqKm3vthdYFTr4fTmkJl-JYetauDVwmheKCa-BQt13BUenzeSB2gX4MijS9Sqq5pqsVv3CjbNZxrhEvs_jMQQe608xxCXsNhuUcA4Qm60uOsDrihRsK4aNUPgedOha60Q=",
+          "image": "https://ads-partners.coupang.com/image1/dyksqmudbA6_uPGzdziQmrTJ7zhvbsRQlp9Y6vt-joBEYvwiDBS_UObiDuaIpsN834E3hgrAZM8yP5FlkL19BoXV8RLLBW-JMaWK2e-Vpw_oJgPH7f3tKO_vsYUQInZMOm7e2v2v-H-j3_te5Mtn4NkSsMOoe2GabS0Mv4gLpeIVm6GMJ_iwShaxgVE8euIxdO5rFUuR9ZH6z8kSfaWOK3fU_q3dbcEVDbvi6jQ0AUNPTt3o6kEbtTNMxhtBchergCduKMmR6uruCPttWqso8IukIIB49nMsC7Q7JzSth7OkXZEgGGPIB3JHUFZTlZHMFFNwo0wD1hEWJelGNzfPkgHDWGGkX5RJJrvx_zwlZDsxEo70TPhik5B09obuNXCiE0Oohay_9yMQYkwdLJ5PJSRfhIxJiPTLsC37C8IVPIpi66Jnd2Ah9VGd29BKUxQraPQ08GxCgR-f9JIblcKpPWGq1AR8IMMPFjPxe1Wy0O5oE_PGmhlHPC5D7cL2fBLQcUIzG62qXCiuasSXefU_C-b_9y1LYbFrwltCZgmkvhxf3CrHZboBUQUPTS0b8nJ6mqKv6SXVtFYDw7DQK6k=",
           "url": "https://www.coupang.com/vp/products/9447870763"
         }
       ]
@@ -6909,73 +6899,36 @@
       "model": "Action 5 Pro",
       "cat": "it",
       "why": "클리앙 액션4·액션5 비교 질문글(24.11.23), 댓글에 액션5 64만 원 언급. 스탠더드·어드벤처 콤보 구분 필수",
-      "at": "2026-11-15T21:17:43.800Z",
-      "status": "new",
+      "at": "2026-11-18T21:33:41.571Z",
+      "status": "no_ali",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005009971425167",
-          "title": "K&F CONCEPT DJI Osmo Action 5 Pro/4용 블랙 디퓨전 1/4 필터, 영화 같은 미스트 효과, 다층 코팅 광학 유리, 합금 프레임",
-          "price": 28600,
-          "orders": 6,
-          "rating": "100.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S727f9d122e6944b6805adf8a51c9fc7bq.png",
-          "url": "https://ko.aliexpress.com/item/1005009971425167.html"
-        },
-        {
-          "id": "1005009972850598",
-          "title": "K&F CONCEPT DJI Osmo Action 5 Pro/4/3용 가변 ND32-512 필터 간편한 스냅온 설치 원래 필터 제거 필요 없음",
-          "price": 35700,
-          "orders": 4,
-          "rating": "80.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0af1ed86dfba464da047ceab3f87f6128.jpg",
-          "url": "https://ko.aliexpress.com/item/1005009972850598.html"
-        },
-        {
-          "id": "1005013161579222",
-          "title": "VV** DJI Osmo 헬멧용 턱 클립, DJI Osmo Action 6/5 Pro/4/Nano/360 정품",
-          "price": 54900,
-          "orders": 0,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sffdf32fc94e64e5cbbdfeec290f30161I.jpg",
-          "url": "https://ko.aliexpress.com/item/1005013161579222.html"
-        }
-      ],
+      "ali": [],
       "coupang": [
         {
-          "id": "8476810327",
-          "name": "DJI 1년 연장 프리미엄 지원(Osmo Action 5 Pro)",
-          "price": 65890,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Q86lJPSXNOxbrYb4Qy1p_51xHsNEzZ3UFxsSEUcXIqQO-xIymeN1lXVfddi44k1tMzkBsIeWZu9Cj0_D8zUIyQk31qhbyuuMvTMDCTuqdmqtcAp671CppiiuxEffvDCx3ee8LH-NPCJLj3CFHz3D_r3hEnuUXlrJl87hcZKKxmwK-yYM8FZqEaztVlZp8T80EudjL3udayk89J4HlnUBdp5FDm007PybD64VpDJKOmtM5_eLuTNrzy1yoFzs5hsZsIEnm8T1XFznsYTh4G_qoCRZRKgHmmr7WogsyUG5GsajAWg9yNf92BMDJpC0KGULEogY-k15VPLjLdXTvIUCGu2LU4ejmLuXZ5GT765RN-0O3_R7Jm1vg46H2kI-QA0roAYYQ8glUdzIqN_AQ67d-KxBEK5FcL1syEHL6PxheN8Xfcv6lUfnGz6Yp8Fj107U305UrfMSJCfQc3xrZgrrUwX8Di80FkM9A0k9avh7ZOVD7CxJPR_bxQQQEKvsvxbIXrMXfRqVQMbGE43xNCT5zXpmORw_8yuiPumoJfofTK0gSVNNuX-ggVp6VD4nE2Mk1Re9e0oGDOYrSWgVZYLe9HSDPg==",
-          "url": "https://www.coupang.com/vp/products/8476810327"
+          "id": "8829498491",
+          "name": "DJI Osmo Action 5 pro 에센셜 콤보 액션캠",
+          "price": 447800,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/KFm1mGGX8wSgLQIbKAEVMiBEz7Yt5V6hsccG2RaEZW9eE7fP1TLWImFWhlg1FlVPMqrkSP49cUU4jxl9cWIOzbdagKF3Wrg1nT7Jx7XpI7lm1mjfge52SX5UZ6CNsi6wnQ_pukmKaouIaSu0yjDreScFzq8R9RNZR6-CB3Jcauq_niQdcZKNhuVlqI6uWeCfiAm3wcr9FzQ0TwMuouGEPeprtHRoRVwn8vOO81WxHRfSfWvNVuS8_YcYDrR6aH035vtAvLBCFHMsktTMmADxcH4yrrmwVxrc7MNgeG5Gmq06NvehHr1PDyJwil_ggRW5Stl7aUfbLabKSSHzFKODNt1SI_m_oNYBRHdYF2_xzddcGiZeS9HGTzwTTBYdaNGXf-BrHwLOlNW3amg0AFg6o0BOQxI59rPhyVv658wFvvWY-Y3Fon_qA1Y1abKe7boiQb6i4Wpc2yF80vIRnECwX99Ab9CdiYLCJu07TWtWLLcQCyFW4mO8sgdXfqahThwGw-aapbRDTYSwWYJgeHu0w5cFpADPNEKdjBb1Bh07t8kRVOrYvCGi24Tlz5WNXUZnglUuHp-RiuaL-2-tLrGG",
+          "url": "https://www.coupang.com/vp/products/8829498491"
         },
         {
           "id": "9360090483",
           "name": "DJI Osmo Action 5 pro 스탠더드 콤보 액션캠",
-          "price": 416700,
+          "price": 449000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/T-b-ErMC72tIZWuET144IKiSGWDPwtlUBpjBgXL2Z7hMdoQV5N597o4N59fcOlUKT1tkIu_HQNaNnXKjzgSI8eLbgaimt6BuuaCHuuOkhVSm9LVZ7mLVf_pjKap1nIB-GmS77dHHP3Eic4BLKeo0ykGpybL_MnJu7uLMPYd9X6X6EnJEXk9CcOuUGwEY9ddLx5bSZdjFKYGslHu4TG4av1Ll69rhGIISbkd5mP61xv1oGUsHCvLA2rqqBe5j3pQadoetWtuXwB6oAi43zv8zEfOS3hRWwGc0EpfZWgnWhgXW4rB-h1MrHQq5hslEWolA7GLosfA6Y60d8sL1nBgq5Fhke8vDtgh84mR-9BiKTHUH6IxsTQGN_xP1tVztZ_ujm3Z_bqKLMR2UV9iDhTINm8gUr-VgP9xecV49qPXnGm65nN8Y0JciDUjbofQMPNMP4Pdw9OPuo9lOH1QYpHhdgCxe-ZysHlbm6mV38vpijksHr44LxDLGGHT_XMyjObCQuOICeYHOcSkJYEknCT1Du6CWxzR5JMZF3Up4cV7cQdG17ZNXqU5E0cjscSVp13pLp8OHG6Oxg-Hucb88Lg4bkqsdg6hg3rnfCmeBmg8a",
+          "image": "https://ads-partners.coupang.com/image1/7qA1i6cSYqr5rF7s7pfdHNNYAJRQ6rzS004D4H76EJGyDwaGRIhAWLd_C6sezTlM1qiVNMyQQ7sY5EBORjf5MMBg9GRzjzJzMjPWWf2t__NrTkkUVfcExBFjd2rpnDBlSDxF85jG7xa7BmIKdrzwjJhqXm8kswyCoiOl3P0b1GR1Kxv0rUCzuOE_P3DZSp68OqblQ1cVPriu4yETrEkfhXbftxAvKJq6AaEij8ZJTi6wH0CZQftErTRXBx9_hk35UwxOwVA5bVh27xqhg0WH7GCQK5YoF0WauFvg6AR4pAbSBCQXWFeOTOFv4W0cUKrtPBTiCtx4Ow4GbTGmf9Xb9XZOXcyOFk7D4ceE-Oipmu1LetEdfIo5cCjHGPIY62mI-n07FSlCidcT8vQFWjnp71ECL9KCdc2HgUerqY35tHqjA1jjgDwdYicyO2igZJfRK7BcQlB20kaITW2v5dJSuk-4QGjhBmgyoeElK3YxyL7JLN70sGh-9dcjJmpCZBx4NCDlsMru9iGKu2ByT1r1AtvuYM51ZRxSw_EoVcHs_YJwgNM1TLuFnD9lgtX8xWVM00mWMi4V2DTqaw2w7Y_bo85U211obMOSaRqHVxlC3yo=",
           "url": "https://www.coupang.com/vp/products/9360090483"
         },
         {
-          "id": "8829498491",
-          "name": "DJI Osmo Action 5 pro 에센셜 콤보 액션캠",
-          "price": 430770,
+          "id": "8304682977",
+          "name": "DJI Osmo Action 5 pro 어드밴처 콤보 액션캠",
+          "price": 593000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/-9MVuWVf3sX8ywdG-6sdddlY8Q6kdghihmZ_H7CrW6RFCYo30NXcj7ecPQalWuS5DgP0YJRvbCS6MRZaf82Ob7NI6Enqo0YwPZHqNbI4xq7vFeONU8hKxWT6_bQaem8eugh7rTersYikYG3gTj-PjHM9dh1WEqsWJObcW48MDGEEi1APZVQ7wwZBO8Pp_fYsDwscoR8S0SNNONSTZ62m9qky3BjK0xmRjoJ8ECJ1DQ4tCKo7pqdlkjsOYhzZBKYyuEWLSi8Ff7500jLyAF_wVIf2fG_SbI7RZG4cZjeabRpJ9ClmBNdZOIiW2l69qZzCp7gobQyxlz7nFj1lpEy9eqe5OroAvZtzdk2ky1YWPTxIA_maiYMppT1bWuc281RiqE3TOnH9-mFKCopyvRvxm7mWK2ZUAC4XcXkobCNduWtN_zOHViwqj3ODpASDKpBXpjpFCso3haXtM6-RO0SVbv1qYMSod5O3zJR51rmiQTiCHaX6cT4_gzFCG5VV5k71_twFgaO_DL5sSeUlWozBH-wHbylH23xXjvfEUa4viTB3MpwHXJSZky_0iDVfN9lB7vTTV1IJESHHFue8Oqs=",
-          "url": "https://www.coupang.com/vp/products/8829498491"
+          "image": "https://ads-partners.coupang.com/image1/m2gNffnHVW4NHdUEm5B-cPSVe_Dnpt5DTzi2cVqY0qXvrF3BAcVyEKikd68VR0dBdBFa8XaajaPSDNh-etVxm2GGTEFbyVO9ypl-tNxkHjjrOe6VQZI7KbDV4JqpXLOumzFYEjS_CVht0hoVhtJ2vWnOrvy_9pJOW30GcRVig-7jcDNPk2EYGsmP2HZDyPjSIEefLa5z34m7kG_rOfsg8Or13s4HZ-CEh19CnryWN0gE15Iw5Qkifah2DxkvefZAF5t-66y0hTjJ6cygKN2TCVldrmXnMGooqG2-tPqJhtCdUAS589s-Xn8Z6dm46L3dfkTwlUvdKHQrq5QeCjqXiktp0Zkk---x9OzS93tn1dy3pyciplJgurUibhKGtvRIj78uu1pZY3fTBzkhqW2KWfqojY2QcJQVnHWUd-zGh511opcUAiDNIrxjMf5BiSWawYknKL3jzH7uWevzAVbXWdLyg3QUYHwBtD0YP7XBVQGVPEeUcWsiIkToI9cc6lqdXGHlA7-z2SDgYPwuaozNWJaORSD5cs5sSXqHYIt0Foyx3m_zsQtxSYE0jnX2NdHmxDt9p40AMWZWNpNXRf12",
+          "url": "https://www.coupang.com/vp/products/8304682977"
         }
-      ],
-      "best": {
-        "aliId": "1005009971425167",
-        "coupangId": "8476810327",
-        "aliTotal": 28600,
-        "coupangPrice": 65890,
-        "verdict": "good",
-        "diff": 37290,
-        "pct": 57
-      }
+      ]
     },
     "Insta360 X4": {
       "q": "Insta360 X4",
@@ -6983,7 +6936,7 @@
       "model": "X4",
       "cat": "it",
       "why": "뽐뿌 Insta360 X4 국내 핫딜 글(글 날짜 확인 못 함, 가격 생략). 등록 후보 X5의 전 모델, 본품만 비교",
-      "at": "2026-11-15T21:17:47.898Z",
+      "at": "2026-11-18T21:33:45.750Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -6991,25 +6944,25 @@
         {
           "id": "8099203929",
           "name": "인스타360 X4 360도 촬영 액션캠",
-          "price": 552000,
+          "price": 602000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/T_MeT9pnVGv0sZ_AT01POGIo2rXCw1LLorx-vnx6CtCg_2F9hpy6CkAzu0BdMsd4FQ9nwf3EJIliL96NNhZ1UVd15SNhGyKSrVcFEoG4FNMeghGkYIq76-Xjv3eE0uRSeYt8JDTFys9W3IqrUUmxgzSF8cuMWjFIre7wZ_nwKwwO4xI2uvKw3G2i22PNB9xmSvnMz1YW4hjnt9pohl3gGd834zIZO9CvLpz5GtRqVigXDMzw1YWA3Q2FZO2xD6pP_Gp4D8kBdDI2N6Lqq6DZxTofK0DnVWekK0IlToNsg4Z4WR0gmKKVdvDNTsfhRCVxQDgmEJtVpFuYOc6868_w_dk9FfSgxI1t0yPJ5hk7aMguV_CM_QuvpMu_82VcwYpr_Li9mFz1lwyEGyUoYoTaGwrp30hDQvNWGmjuXcr6-J3QNPyExWY32jR5GdWAjro0YlcbbiE49l-gww1_aykQ4gF1yglB8JNAKz-niqkFd48PGyLHmXQVSo-nc4Y2__Fh8SIp_kVyzWYqucqi6zdgVEOF",
+          "image": "https://ads-partners.coupang.com/image1/6aihOY4d334Q31cq6Z_IHzVyaH_nlIALU8WdtJNbCT16rZ1eue3Qif_eCCaKh7BhgbvtL6YQOK-NIxYPQkLOGhK9Kfzwg5obJmpOCvPeTmN9RjnLeVCJPYF9gzsjn7E29N1pFA1hxoIA56cYw_niQ10ed9_QWYusdhHaztkevO3G5HZXvsMq0DlqYVlQ2B8zsat-IVEeAN32TyVqZuICns5Lfw4lp7YrkSX-4g_4zSqq95OBdSsHVUFb1hUF4usFZiXXuwn87aCiRbwSqYyO2pdi7IOyuKuqaDGw9jocWQ83WLSx-DeWOK80ENs3XzubY1KEyCwAw7Tnj1kN88WWI0prdRZI_tu0TKlSQ0rs8KsPyVw3vtCtsr6KrTrWXXU-pye7fuUlPeRzReOnxXTWexnsyiO9Y3004DGAE7m2OS4nmxZtVrOIUVGmmbFxjSICplYDhYWUMMVlWlkrOhfvjboUwveZCTnAltnOEtR4ycegMlSlWzT7NXZQlDgO6ne0gM5WDmdpKqIlArZD2cHeJbQc",
           "url": "https://www.coupang.com/vp/products/8099203929"
         },
         {
-          "id": "8530074907",
-          "name": "Insta360 X4-8K 4K AI 방수 360도 액션 카메라, 웨어러블 카메라, 광각 비디오",
-          "price": 794650,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/PDKvAxLJEaDmXvWCPHI2EIZT7PcLuk_JvRYdZk_dZcC4mYK7sHN1Qp2_sil_EscGdEZCUVQbFwJ2AO_ppJezl9yTMeZt6Bn8Nx1suLdcBlJA-u6gXVemwpRNcaYE7nQMM_6zGnNDJhAnZYoPavxPT0fhWjs9qK0jUwbMZcb3b4n18s6DyTtyGfkFCf9aNV9rP1HxIXDBJrresXqAAnY64e-2dGXMU09LYhJzDnbwKSu4sObqMMHfZKI5qFEzFTybeCABi7SxgUTbUGtWMJRCTr3ttUaU91lhrAGvQfBr3itNiro77gXHdHAhYR9PxsKoe4dMc4pIQZtEbyLk3vagk8uoQF1u-zckIEFY6_glUyDFFMo_eQ8k18wMmwG3UpXaKoFsHqmn3i8SNHL2RaqdPGW5mKY7TxRvQ3SyBVZsbjWJFe5AZv4BqgwxWh_UuhSdxrATw6mAWXHSqbOA4TgfLnWUFOVzu0Qho6C811q0TOKvSDAHOcpIhzgzgkeWg_9_ZbSgkrnWhNpEDcgvoKEmgsf8Me6dUstNj_cCvu0dGrpMoUla",
-          "url": "https://www.coupang.com/vp/products/8530074907"
+          "id": "8234029278",
+          "name": "인스타360 X4 번들 액션캠 세트",
+          "price": 743820,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/7DZ55n6_YFBPWTh-7LPpQEh3gwMVilzdtdvIIKreSHbiXAEudAOUkTKYwuMqZw9UEYEfOC85NF1XZ8qQHOQnKYCBTlneIRUOwsW6LMSQ_0fosbFHKs93jrvnmlBcEj3E_Qv6so9QTib10N-YExQpnGyQcoIcYuOPQmTQwN4dwm96Itx6Q7tvsZWw1oY_vrSHX61S5nLQqarKCW4cK_LYH7IVFaEPzZKvYJ7y0uxQx-HRnl9GM-GBSgs8c4mBYmqLPistFPpFnh4E6QdreVI3BwAVX8rgTeD53hBYjm0-071bZD3LrXqJC14mAU4ihERSvoMDD1HZAPkVekVkFab5Ep-jT6V6VJTzpVJM0keEFuG7c1P3Iiuh66yp7fFGZMbCMzHfbESouDURbzdbqdotSYHRkWQzAQ6pSPgqA2oeCfzQfy_HzXHxm4Uas2apvizXE6NIUFqJfjXkylCRjI813dJCiweVkGFQJ0qHAq0mieIRu45302uNFpE_VTU_P_KETduV01k1e6acUPY7Cj_hwi5D-U72",
+          "url": "https://www.coupang.com/vp/products/8234029278"
         },
         {
           "id": "8049324685",
           "name": "인스타360 X4 파노라마 액션 카메라 128GB",
           "price": 809380,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/g6zbpTuYBR6wLuGSgzIZLG2gwltyhxGR_ovWbGGmCZR2MksSOO2FIBQIptRlydRGqdM94uAR3UKAbPl8G1y-tM_KB3dOVFnMnss0ej5rWH2AwzY_YV09wsJWre9QyYN97H_wxhPpGrfEJrIAJqyHraNJrilQaFrj1rE35UVLWq8i2l9UDJFwOGOe_Hx4xm-aXS_8nizJYBu_xJzQRGroqBG1miry5Gvdjthgq0A9x3Pew64wvAVsqxqVL8l8oI6ue1Mtgm1lPSjwas2FRhiou6uJWF31hWoaEGx__t8bzbBkFbbOuObhMRLkVAiTAHfE06PEnfwVWn-FQulULAkFif5JO2Kj7iqAOGeK5NHcy0QIj-tQvcpZUTG0xuyIq58H0uFGSen9qySNJMFx7tDEnQOcMH_IYggxN60NEymANFa_bA6wXdQXzaoq4W2dizH5W0LnV_0Rpxpy0fRWJE_B8ZWwTKG4yNiUA7IkhcxD4JfR03Ai23pLHLcP9P_FX7cwT7KCTLkOIGoZ2Ed4OB06R_B0tYpgGcZNJRVVTDK9I9FfSw==",
+          "image": "https://ads-partners.coupang.com/image1/tqacLsuj0m0mg0CdtiKL3Jelekd6piElOf6pOgAj0NJz4inNJoziqcF_STzcO-96t_Cta66oLtDoM0Bq4XRUbq4bw1yh28_HLUkBuA3_wdCCRxKcSPCwZGVojQCBSYmdDf6pSdcS64NTyfyvL0LVN7lDVuVZGqanw_kQUl4PLNCiOGNXKo_st2vAcMs-jQlAi4WPYVV5UbrYdSXcubeoIE9PJ6836Ni5tMDpgPC7o-rEXrX1Snxw3XqODYTHIDYZj9ZEMZf4w1qFNFSbePTWKS0eHxwWkK057k4ZShRLdTnJDl9B2isUYzGSvg3TM0kaZ3NaCHyswT__aURNaiSzCCyaACTv4vTRt17Accse7CyrZOujtp5fTB_3fI4_WdXaNuPrYePGPIRRsGqqDJTlBxZk83Zw6UWTAYl2C2aLW5FcypfEEW9nQLjwJpmuGtpoJe7MzaYdbFFtrqJAm5oc-Nv2krP-zqhl6J3_66D1Dqx7TkLaS3GpcCzNZsg-S8v-G9UyeHWY9gW5WPIksL8cIY8NcV76P-1CrMscILwoTQ9wOQ==",
           "url": "https://www.coupang.com/vp/products/8049324685"
         }
       ]
@@ -7288,5 +7241,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-18T19:42:23.662Z"
+  "updatedAt": "2026-11-18T21:34:05.558Z"
 }
