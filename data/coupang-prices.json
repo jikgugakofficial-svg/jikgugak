@@ -58,7 +58,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-18T03:34:49.754Z",
+      "at": "2026-11-18T11:40:37.193Z",
       "recordedKrw": 64690,
       "found": true,
       "apiPrice": 54690,
@@ -810,5 +810,5 @@
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-11-18T10:42:31.883Z"
+  "updatedAt": "2026-11-18T11:40:41.188Z"
 }
