@@ -4509,7 +4509,7 @@
     "slug": "ali-moondrop-space-travel-2",
     "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
     "category": "audio",
-    "priceKrw": 35151,
+    "priceKrw": 34904,
     "domesticKrw": 56070,
     "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
     "domesticSource": "쿠팡 판매자 상품(병행 수입)",
@@ -4577,6 +4577,13 @@
         "from": 35036,
         "to": 35151,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 35151,
+        "to": 34904,
+        "source": "알리"
       }
     ]
   },
@@ -4592,7 +4599,7 @@
     "slug": "ali-redragon-k617-fizz",
     "name": "레드드래곤 K617 피즈 60% 기계식 키보드 (레드 스위치)",
     "category": "it",
-    "priceKrw": 43563,
+    "priceKrw": 43257,
     "domesticKrw": 68600,
     "domesticUrl": "https://link.coupang.com/a/iw00qwJNzo",
     "domesticSource": "쿠팡 판매자 상품",
@@ -4660,6 +4667,13 @@
         "field": "priceKrw",
         "from": 43420,
         "to": 43563,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 43563,
+        "to": 43257,
         "source": "알리"
       }
     ]
