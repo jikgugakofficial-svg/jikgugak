@@ -199,7 +199,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-11-17T21:33:13.117Z",
+      "at": "2026-11-18T05:46:16.371Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -402,7 +402,7 @@
     "amazon-beats-studio-pro": {
       "productId": "7568571509",
       "keyword": "비츠 스튜디오 프로 무선 헤드폰",
-      "at": "2026-11-17T21:33:17.410Z",
+      "at": "2026-11-18T05:46:20.553Z",
       "recordedKrw": 218000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -410,7 +410,7 @@
     "amazon-beats-powerbeats-pro-2": {
       "productId": "8605086546",
       "keyword": "비츠 파워비츠 프로 2 운동용 이어폰",
-      "at": "2026-11-17T21:33:21.395Z",
+      "at": "2026-11-18T05:46:24.251Z",
       "recordedKrw": 254030,
       "found": false,
       "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -418,7 +418,7 @@
     "amazon-beats-solo-4": {
       "productId": "8163708318",
       "keyword": "비츠 솔로 4 무선 헤드폰",
-      "at": "2026-11-17T21:33:25.053Z",
+      "at": "2026-11-18T05:46:28.601Z",
       "recordedKrw": 179000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -426,7 +426,7 @@
     "amazon-bose-qc-headphones": {
       "productId": "7579231557",
       "keyword": "보스 QC 헤드폰",
-      "at": "2026-11-17T22:34:12.006Z",
+      "at": "2026-11-18T05:46:32.366Z",
       "recordedKrw": 269000,
       "found": true,
       "apiPrice": 349000,
@@ -437,7 +437,7 @@
     "amazon-bose-qc-earbuds": {
       "productId": "8350898413",
       "keyword": "보스 QC 이어버드",
-      "at": "2026-11-17T22:34:16.045Z",
+      "at": "2026-11-18T05:46:36.432Z",
       "recordedKrw": 164000,
       "found": true,
       "apiPrice": 229000,
@@ -448,7 +448,7 @@
     "amazon-bose-qc-ultra-earbuds-2": {
       "productId": "8903883649",
       "keyword": "보스 QC 울트라 이어버드 2세대",
-      "at": "2026-11-17T22:34:19.989Z",
+      "at": "2026-11-18T05:46:40.370Z",
       "recordedKrw": 359000,
       "found": true,
       "apiPrice": 359000,
@@ -459,7 +459,7 @@
     "amazon-razer-deathadder-v3-pro": {
       "productId": "9444695999",
       "keyword": "레이저 데스애더 V3 프로 무선 마우스",
-      "at": "2026-11-17T22:34:44.128Z",
+      "at": "2026-11-18T05:47:04.314Z",
       "recordedKrw": 155830,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -467,7 +467,7 @@
     "amazon-lego-10359-fountain-garden": {
       "productId": "8776305217",
       "keyword": "레고 아이콘 분수 정원 10359",
-      "at": "2026-11-17T22:34:47.826Z",
+      "at": "2026-11-18T05:47:08.297Z",
       "recordedKrw": 109350,
       "found": false,
       "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -540,7 +540,7 @@
     "amazon-sony-wh-1000xm5": {
       "productId": "8879659697",
       "keyword": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
-      "at": "2026-11-17T22:34:51.807Z",
+      "at": "2026-11-18T05:47:12.305Z",
       "recordedKrw": 327720,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -756,7 +756,7 @@
     "amazon-beats-pill-2024-matte-black": {
       "productId": "9570716552",
       "keyword": "비츠 필 블루투스 스피커 2024",
-      "at": "2026-11-17T22:34:23.832Z",
+      "at": "2026-11-18T05:46:44.315Z",
       "recordedKrw": 242620,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -764,7 +764,7 @@
     "ali-baseus-bowie-mp1": {
       "productId": "9719002042",
       "keyword": "베이스어스 보위 MP1 ANC 무선 이어폰",
-      "at": "2026-11-17T22:34:27.826Z",
+      "at": "2026-11-18T05:46:48.353Z",
       "recordedKrw": 135900,
       "found": true,
       "apiPrice": 135900,
@@ -775,7 +775,7 @@
     "ali-truthear-zero-red": {
       "productId": "9498763335",
       "keyword": "트루히어 x 크리나클 제로:레드 유선 이어폰",
-      "at": "2026-11-17T22:34:31.866Z",
+      "at": "2026-11-18T05:46:52.465Z",
       "recordedKrw": 126870,
       "found": false,
       "note": "검색 상위 7개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -783,7 +783,7 @@
     "ali-tangzu-waner-sg2-red-lion": {
       "productId": "9691700942",
       "keyword": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
-      "at": "2026-11-17T22:34:35.843Z",
+      "at": "2026-11-18T05:46:56.310Z",
       "recordedKrw": 61700,
       "found": true,
       "apiPrice": 61700,
@@ -794,7 +794,7 @@
     "ali-sonoff-minir4": {
       "productId": "9555459833",
       "keyword": "소노프 MINIR4 와이파이 스마트 스위치 모듈",
-      "at": "2026-11-17T22:34:39.801Z",
+      "at": "2026-11-18T05:47:00.331Z",
       "recordedKrw": 21870,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -816,5 +816,5 @@
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-11-18T04:42:16.192Z"
+  "updatedAt": "2026-11-18T05:47:16.601Z"
 }
