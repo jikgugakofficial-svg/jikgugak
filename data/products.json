@@ -5517,13 +5517,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 알리 자동",
+    "checkedAt": "2026.11.18 알리 자동",
     "slug": "ali-kz-pr3",
     "domesticUrl": "https://link.coupang.com/a/iDBoDWyajY",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoQLj5PUmsVwKkDK4jiTkB74RukE7hXMAPWjdoLFtzJw9rzLzY6jRHIyVZw1j7AubDLP31xQVSTXbFUviJ4jniIwN3P8Euf5L8Gv0l1n8btu8M0doENqYlyNZpZaSs3MwN0wYY1Kui4lBSjd7VTbMHFjQL1tqFL4K50eZc0cmvCHb5rZ5GgkweldTayVmSGWpg2MM46dXYt0hvd4zu50yUFdbQ3uI8kCBsWjoUwJ5yh0vrsvcjUtVGkn2b2fO0isQjWcp1jzCj5QGbzpR2j7XgYmu5wDv5Zg3HZXNFw8mOyTZOhzOV0Yd3CZL7zbiO8MzhMY7v06dh3JB9wSWsmHvnNP7Yxk4XewDxWJ5kJqQnwvqpIGtyOJ7Zw3CQbQVN9tkBEvtIRF4p5i2pxfRP55OgZ4trRl9ruEFE1FbfRCYB3YeMwEZ9iEHsDybQlvGRGvD1XHWH9YytXnoraEwpBXlFx21QWGE4tMMAJZOs30WDs0r6YJquOQXVpWd0igr1CBCu42KxpaA6wWnf0mezpPbVstk3fVH0g60o6PgMUxYzXaqOVdkuCjpBcTsOxnAnx4YnuKCQwHJg5MRqstbJc6AvKn7PbSozQP9Z8DrJ9FBJa6EdmR7JCVvXleHIIC3BPoGpBmKz2FeXxzL0uDFl1PMpSvD1Qw4udALP9brPoZfgQbgoJLRKE5mJgeLe6aNLXB4ZTbKOYuTTyaDb",
     "name": "KZ PR3 평면 드라이버 유선 이어폰",
     "category": "audio",
-    "priceKrw": 35774,
+    "priceKrw": 35922,
     "domesticKrw": 57590,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8530166420",
@@ -5554,6 +5554,13 @@
         "field": "priceKrw",
         "from": 35693,
         "to": 35774,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 35774,
+        "to": 35922,
         "source": "알리"
       }
     ]
