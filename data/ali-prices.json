@@ -82,19 +82,19 @@
     },
     "ali-moondrop-space-travel-2": {
       "itemId": "1005009402878815",
-      "at": "2026-11-18T04:42:17.784Z",
-      "recordedKrw": 35151,
+      "at": "2026-11-18T18:31:31.177Z",
+      "recordedKrw": 34904,
       "found": true,
       "apiPrice": 34904,
-      "result": "applied"
+      "result": "same"
     },
     "ali-redragon-k617-fizz": {
       "itemId": "1005006388894172",
-      "at": "2026-11-18T04:42:18.475Z",
-      "recordedKrw": 43563,
+      "at": "2026-11-18T18:31:31.911Z",
+      "recordedKrw": 43257,
       "found": true,
       "apiPrice": 43257,
-      "result": "applied"
+      "result": "same"
     },
     "ali-baseus-bowie-mh1": {
       "itemId": "1005007015955340",
@@ -234,12 +234,12 @@
     },
     "ali-redragon-k530-pro": {
       "itemId": "1005004887739101",
-      "at": "2026-11-18T04:42:16.193Z",
+      "at": "2026-11-18T18:31:28.470Z",
       "recordedKrw": 29043,
       "found": true,
       "apiPrice": 29043,
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-18T16:44:32.964Z"
+  "updatedAt": "2026-11-18T18:31:32.343Z"
 }
