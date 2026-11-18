@@ -5928,7 +5928,7 @@
     "domesticUrl": "https://link.coupang.com/a/iIA5c2ZaQm",
     "name": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 27851,
+    "priceKrw": 27639,
     "domesticKrw": 57900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8054846488",
@@ -5968,6 +5968,13 @@
         "from": 28812,
         "to": 27851,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 27851,
+        "to": 27639,
+        "source": "알리"
       }
     ]
   },
@@ -5979,12 +5986,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 쿠팡 자동",
+    "checkedAt": "2026.11.18 알리 자동",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 46445,
+    "priceKrw": 46118,
     "domesticKrw": 65480,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
@@ -6024,6 +6031,13 @@
         "from": 65390,
         "to": 65480,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 46445,
+        "to": 46118,
+        "source": "알리"
       }
     ]
   },
@@ -6040,7 +6054,7 @@
     "domesticUrl": "https://link.coupang.com/a/iIA5dcg3wa",
     "name": "QCY 크로스키 C30S 오픈형 클립 이어폰",
     "category": "audio",
-    "priceKrw": 40516,
+    "priceKrw": 40207,
     "domesticKrw": 65800,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8906816172",
@@ -6079,6 +6093,13 @@
         "field": "priceKrw",
         "from": 40349,
         "to": 40516,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 40516,
+        "to": 40207,
         "source": "알리"
       }
     ]
