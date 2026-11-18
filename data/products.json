@@ -409,10 +409,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9hkMSa",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 32238,
+    "priceKrw": 31537,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -437,13 +437,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "priceKrw",
-        "from": 31847,
-        "to": 30786,
-        "source": "알리"
-      },
       {
         "at": "2026.11.11",
         "field": "priceKrw",
@@ -505,6 +498,13 @@
         "field": "priceKrw",
         "from": 31760,
         "to": 32238,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 32238,
+        "to": 31537,
         "source": "알리"
       }
     ]
@@ -935,11 +935,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9Vmedg",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.19 쿠팡 자동",
     "slug": "amazon-crocs-classic-clog",
     "name": "크록스 클래식 클로그 10001",
     "category": "apparel",
-    "domesticKrw": 59800,
+    "domesticKrw": 59900,
     "domesticSource": "쿠팡 같은 상품 다른 판매자 최저(새 상품) 블랙, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0014C0LUC",
     "risks": [
@@ -977,6 +977,13 @@
         "field": "domesticKrw",
         "from": 59500,
         "to": 59800,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "domesticKrw",
+        "from": 59800,
+        "to": 59900,
         "source": "쿠팡"
       }
     ],

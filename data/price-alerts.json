@@ -61,7 +61,17 @@
       "change": "40%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "ali-aula-f75-keyboard:priceKrw": {
+      "at": "2026-11-18T19:43:26.634Z",
+      "slug": "ali-aula-f75-keyboard",
+      "field": "priceKrw",
+      "recorded": 53100,
+      "api": 75009,
+      "change": "41%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
     }
   },
-  "updatedAt": "2026-11-18T18:31:32.343Z"
+  "updatedAt": "2026-11-18T19:43:26.634Z"
 }
