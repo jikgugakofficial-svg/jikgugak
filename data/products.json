@@ -6243,5 +6243,86 @@
         "source": "알리"
       }
     ]
+  },
+  {
+    "store": "amazon",
+    "origin": "us",
+    "method": "express",
+    "priceUsd": null,
+    "shipUsd": 0,
+    "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.18 쿠팡 API 매니저",
+    "slug": "amazon-shure-sm7b",
+    "name": "슈어 SM7B 다이내믹 보컬 마이크",
+    "category": "audio",
+    "domesticKrw": 838350,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "buyUrl": "https://www.amazon.com/dp/B0002E4Z8M",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8526632283",
+    "risks": [
+      "한국 배송은 상품마다 달라요. 결제 전 아마존에서 '대한민국으로 배송'이 뜨는지 확인하세요",
+      "$200 넘으면 관세·부가세가 붙어요",
+      "쿠팡에 모델명 없이 '슈어 방송 스튜디오용 유선마이크'로 올라온 로켓 상품(799,000원)이 있어요. SM7B라면 국내가 더 낮아지니 같이 보세요",
+      "SM7dB(프리앰프 내장)·스탠드·케이블 세트는 다른 상품이에요",
+      "국내 정식 A/S 불가"
+    ],
+    "summary": [
+      "슈어 SM7B 단품끼리 비교했어요. 국내가는 쿠팡에서 이름에 SM7B가 적힌 상품 중 최저가예요.",
+      "아마존가가 {be} 이하일 때 직구각이에요.",
+      "면세 한도($200)를 넘는 제품이라 관세·부가세까지 넣은 기준이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "ASIN B0002E4Z8M",
+      "model": "Shure SM7B (단품, 블랙)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(SHURE 슈어 SM7B 보컬 방송 녹음용 다이나믹 마이크)과 아마존 ASIN(웹 검색: desertcart 여러 나라 사이트, 아마존 화면은 열지 않음)으로 맞춤. 쿠팡 105,900·127,500원 'SM7B' 표기 상품은 정품가와 너무 달라 비교에서 뺌(11/18 매니저)",
+      "checkedAt": "2026.11.18"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iLSToJT7OC"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.18 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9774599606",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005004887739101.html",
+    "slug": "ali-redragon-k530-pro",
+    "name": "레드라곤 K530 PRO 드라코닉 60% 무선 기계식 키보드",
+    "category": "it",
+    "priceKrw": 29043,
+    "domesticKrw": 75290,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~2주",
+      "스위치(축)·색 옵션마다 가격이 달라요. 알리·쿠팡 모두 고른 옵션 가격을 결제 화면에서 확인하세요",
+      "한글 각인이 없는 영문 키캡이에요",
+      "쿠팡 최저가는 해외 상품을 다시 파는 판매자라 가격이 자주 바뀌어요",
+      "K530(구형, 유선)·K530 RGB는 다른 모델이에요",
+      "고장 시 해외 반품이 번거로워요"
+    ],
+    "summary": [
+      "레드라곤 K530 PRO 드라코닉(60%, 3모드 무선)을 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Redragon K530 PRO Draconic (60%, 61키, 블루투스·2.4G·유선)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(Redragon K530 PRO Draconic 60% 61키)과 알리 제휴 API 제목(Redragon Gaming Store, K530 Pro Draconic 3모드 61키)으로 맞춤. 알리 API 가격은 가장 싼 축·색 옵션일 수 있음(11/18 매니저)",
+      "checkedAt": "2026.11.18"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iLSToP1uUK",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2Wv7KxTj2YnCezIQUZ6FRcjLy9yxguWqoKb9DrdV1GZJrq6tTjWH1jhQAxpY4AjHf0lLOjuC2Gx1PreW5i7O5nvV1d7zfNyOApqrgbHyerjQV1KAyN16iM69UVnPY9lwdPbCaJOHftwIhDSCrQi8cDJWfvsdHOxzH89RoNrH94TuuSQ8oWlf6cyZetLZJrAiqDz0fN3eQzSwNVkFbDwGYBk7ejahBph9LCvmR20cBPGobJuXy3CKXGSEjP93TXRXBCEaldispdIHX5lzMerrLBP9b2lmelNHc0aFTGP187JB40CiYa3FfTlgjg8bWlHKGwumvxbl4pUIlCDmy6VN5zE3Ba5uJ7yzFyVz21HE75LnxMJrs2Dwl3IvwcNJ5hz9PsAdYbgPHSuUgcrfORqkft2KVhUnBd1sNjJOafiEH2Gg58utGSJ7lDU8LC42RZdkLAkNplFjNJ7Ws4BTn0ECzQyLYgOneVDLsf1u5qwmIKX5dymda3FUQDDDMgN7QmfNZe7P5px1ycjKxJOWrtueaAJ9TEjrXLJWwee2YDVRIVwEmMVmsuZgxXjuBG9ovYm6da8brN5HOWSpQWBmBBIH7Dsg3dkXfsXxJ1D1kDjfekbzSpcXQVi4F3Qjz13vySbw7kHgGZSpQHELxhcTGZMwRxfjxoLSZnNSkzLA1NUebJqQtewwZwAD37TKWrlcHN6HOBUmRa8wRjOPI",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3acc58a983f645f3854489767891c9car.png"
   }
 ]
