@@ -6164,14 +6164,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 쿠팡 API 매니저",
+    "checkedAt": "2026.11.18 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9498763335",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005589751589.html",
     "slug": "ali-truthear-zero-red",
     "domesticUrl": "https://link.coupang.com/a/iKe175DaRo",
     "name": "트루히어 x 크리나클 제로:레드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 76178,
+    "priceKrw": 75640,
     "domesticKrw": 126870,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6195,7 +6195,16 @@
       "checkedAt": "2026.11.17"
     },
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CofgCXnQ3ldnNKmhd2zG1CCqw7eLi9lDMRi4KMohHAp7hzc4GdEt7ZWUsyPa4IbciRzusG4gYqqAGkEcoK4UdMIO8w29DT5NX3q620Y6D6bvB9kMctH2xM6qdN2KfIyN6pHcG9ZxsDwVoQx4uzLAZkdyGimwl866ITeAsgxmju3YQyDaksdb3lAXhrUsokLj2EsicjsIx39frq4KivTd2f5751oxT91ccN24jorQh3wAUs6akldMWzAjFNZRqcYnPhtW2nKrsrFgFe8gqUMFR5dn3rTITrd3bj4ZLYJAwelBb2o8uBRZThDOzdS0I5XTdI5shfRBowcBrkA9DUtXaEvD5mO9DJXKRLmd723kPVmdehzKPptsDIofl4s694XJUyEDHii8yPQD3M9b3tXANjoQUbGox5yP7VvFMEv5PGqtzfcyOUCo1Q0QdkKLFToVHiw36hNhMf6jnPVvHh75JdPNM4Y5paZcg7eAIIG1GhChQ5fbRF7vpD43xwOm99cmdqzo1Nsjkg3SDufb9AuKb5qZ87ir6wu5BpYGQ81jN2nqajLjLof4ShumHX19ng9KKymD3qOF6isMpuyWbVsIEW6O5Om0joOlXH05C6yCepZD4ZMvkq5jrxGkPt9o6sUlAWWMIAa3ddvfeGmeGZrDVhFNbnMTzt0lhdfuXOJNw0ohZbf0oyaDIL4gllENMo7euVXvXl00ENv0Mo",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbaee8d187fad472e8d8c9ccb15685841i.jpg"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbaee8d187fad472e8d8c9ccb15685841i.jpg",
+    "priceLog": [
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 76178,
+        "to": 75640,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",
@@ -6205,14 +6214,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 쿠팡 자동",
+    "checkedAt": "2026.11.18 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9691700942",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005011615420740.html",
     "slug": "ali-tangzu-waner-sg2-red-lion",
     "domesticUrl": "https://link.coupang.com/a/iKe18cEths",
     "name": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
     "category": "audio",
-    "priceKrw": 26979,
+    "priceKrw": 26774,
     "domesticKrw": 61700,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6243,6 +6252,13 @@
         "from": 58500,
         "to": 61700,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 26979,
+        "to": 26774,
+        "source": "알리"
       }
     ]
   },
@@ -6254,14 +6270,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 알리 자동",
+    "checkedAt": "2026.11.18 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9555459833",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005260044338.html",
     "slug": "ali-sonoff-minir4",
     "domesticUrl": "https://link.coupang.com/a/iKe18gOkTs",
     "name": "소노프 MINIR4 와이파이 스마트 스위치 모듈",
     "category": "it",
-    "priceKrw": 11410,
+    "priceKrw": 11330,
     "domesticKrw": 21870,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6291,6 +6307,13 @@
         "field": "priceKrw",
         "from": 11532,
         "to": 11410,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.18",
+        "field": "priceKrw",
+        "from": 11410,
+        "to": 11330,
         "source": "알리"
       }
     ]
