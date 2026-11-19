@@ -145,7 +145,7 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-11-18T21:34:21.625Z",
+      "at": "2026-11-19T06:39:42.031Z",
       "recordedKrw": 519000,
       "found": true,
       "apiPrice": 519000,
@@ -156,7 +156,7 @@
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-11-18T21:34:25.725Z",
+      "at": "2026-11-19T06:39:46.098Z",
       "recordedKrw": 209280,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -164,7 +164,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-11-18T21:34:37.532Z",
+      "at": "2026-11-19T06:39:58.035Z",
       "recordedKrw": 52400,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -172,7 +172,7 @@
     "ali-qcy-h3-anc-headphones": {
       "productId": "7876965230",
       "keyword": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-      "at": "2026-11-18T21:34:41.658Z",
+      "at": "2026-11-19T06:40:02.048Z",
       "recordedKrw": 40900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -180,7 +180,7 @@
     "ali-xiaomi-smart-band-10-pro": {
       "productId": "9644182900",
       "keyword": "샤오미 스마트 밴드 10 프로",
-      "at": "2026-11-18T21:34:45.602Z",
+      "at": "2026-11-19T06:40:05.983Z",
       "recordedKrw": 99600,
       "found": true,
       "apiPrice": 99600,
@@ -191,7 +191,7 @@
     "amazon-lego-10313-wildflower-bouquet": {
       "productId": "7063125250",
       "keyword": "레고 보태니컬 들꽃 부케 10313",
-      "at": "2026-11-18T21:34:49.624Z",
+      "at": "2026-11-19T06:40:10.150Z",
       "recordedKrw": 78900,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -356,7 +356,7 @@
     "ali-baseus-inspire-xh1": {
       "productId": "9241501985",
       "keyword": "베이스어스 인스파이어 XH1",
-      "at": "2026-11-18T21:34:53.900Z",
+      "at": "2026-11-19T06:40:14.054Z",
       "recordedKrw": 315500,
       "found": true,
       "apiPrice": 315500,
@@ -367,7 +367,7 @@
     "iherb-cgn-s-acetyl-glutathione-120": {
       "productId": "6584056433",
       "keyword": "캘리포니아 골드 뉴트리션 S-아세틸 L-글루타치온 100mg 120정",
-      "at": "2026-11-18T21:34:57.611Z",
+      "at": "2026-11-19T06:40:18.097Z",
       "recordedKrw": 81300,
       "found": true,
       "apiPrice": 81300,
@@ -644,7 +644,7 @@
     "ali-simgot-ew300": {
       "productId": "8797291766",
       "keyword": "심고 EW300 하이브리드 유선 이어폰",
-      "at": "2026-11-18T21:35:01.624Z",
+      "at": "2026-11-19T06:40:22.151Z",
       "recordedKrw": 154300,
       "found": true,
       "apiPrice": 154300,
@@ -655,7 +655,7 @@
     "ali-kz-pr3": {
       "productId": "8530166420",
       "keyword": "KZ PR3 평면 드라이버 유선 이어폰",
-      "at": "2026-11-18T23:30:35.341Z",
+      "at": "2026-11-19T06:40:26.014Z",
       "recordedKrw": 57590,
       "found": false,
       "note": "검색 상위 7개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -663,7 +663,7 @@
     "ali-truthear-zero-blue2": {
       "productId": "8704415331",
       "keyword": "트루히어 x 크리나클 제로:블루2 유선 이어폰",
-      "at": "2026-11-18T23:30:39.260Z",
+      "at": "2026-11-19T06:40:30.278Z",
       "recordedKrw": 136900,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -671,7 +671,7 @@
     "ali-kz-zsn-pro-2": {
       "productId": "8502968328",
       "keyword": "KZ ZSN Pro 2 하이브리드 유선 이어폰",
-      "at": "2026-11-18T23:30:43.321Z",
+      "at": "2026-11-19T06:40:34.012Z",
       "recordedKrw": 30000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -799,7 +799,7 @@
     "amazon-shure-sm7b": {
       "productId": "8526632283",
       "keyword": "슈어 SM7B 다이내믹 보컬 마이크",
-      "at": "2026-11-18T21:34:29.855Z",
+      "at": "2026-11-19T06:39:50.521Z",
       "recordedKrw": 838350,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -807,11 +807,19 @@
     "ali-redragon-k530-pro": {
       "productId": "9774599606",
       "keyword": "레드라곤 K530 PRO 드라코닉 60% 무선 기계식 키보드",
-      "at": "2026-11-18T21:34:34.063Z",
+      "at": "2026-11-19T06:39:54.007Z",
       "recordedKrw": 75290,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-sonoff-zbminir2": {
+      "productId": "9319489567",
+      "keyword": "소노프 ZBMINIR2 지그비 스마트 스위치 모듈",
+      "at": "2026-11-19T06:39:38.041Z",
+      "recordedKrw": 29100,
+      "found": false,
+      "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-11-19T04:44:08.408Z"
+  "updatedAt": "2026-11-19T06:40:38.109Z"
 }

@@ -5722,7 +5722,7 @@
     "domesticUrl": "https://link.coupang.com/a/iDBoD7XW8W",
     "name": "KZ ZSN Pro 2 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 17518,
+    "priceKrw": 17949,
     "domesticKrw": 30000,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8502968328",
@@ -5783,6 +5783,13 @@
         "field": "priceKrw",
         "from": 19465,
         "to": 17518,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 17518,
+        "to": 17949,
         "source": "알리"
       }
     ]

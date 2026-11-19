@@ -30,7 +30,17 @@
       "change": "20%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "ali-edifier-m90-speaker:priceKrw": {
+      "at": "2026-11-19T06:40:41.190Z",
+      "slug": "ali-edifier-m90-speaker",
+      "field": "priceKrw",
+      "recorded": 219075,
+      "api": 287910,
+      "change": "31%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
     }
   },
-  "updatedAt": "2026-11-19T04:44:10.874Z"
+  "updatedAt": "2026-11-19T06:40:41.190Z"
 }
