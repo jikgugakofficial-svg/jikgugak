@@ -4902,12 +4902,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.17 쿠팡 자동",
+    "checkedAt": "2026.11.19 쿠팡 자동",
     "slug": "amazon-apple-pencil-pro",
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 162480,
+    "domesticKrw": 161360,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4931,13 +4931,6 @@
     },
     "image": "https://ads-partners.coupang.com/image1/xJdWIy_XfRI-_gB1xNOv3WX_zQsPt89fuPEo1w1eOwa9O130esBxbc6c43AEDMFmrpQdJ4xuTICNbYpCWHHzawZMK1QAyI4vZELIhcMLEdWH_RTlDKwAa1CicA38mLV33fN7CXgkzsmIzWAmxwvSJPpF7P2k4Wtda-hjb1dsodivsdE4SF8WtjqZLFgKg7V6GRbDFUW3BFwBJ01BhNO-s2wd5eXxJimI0Ao_Vj5vAYE1NA930XgU2SQkswAxkYyHdcfJFuh-V0wo5jcViIVerU5C0-e36q0wBzKLSZSeDUQFESNupX2VmvYiIbzAFRppjabd6FbRZ9L3aURP63M1f5ujA_W6XrRjmxBLQ1FsL3iUvgMW4v5tC83X6dXWvcJpbZS5XORHNH9zIwj8Y_GsqmY08RbFQ2R8zGyyHspxPb16ZtfxbshEe7k6cBCu2YBVlMI6fRPizAfkm7uiU2pYUpWgNW3uzWpRJomsEhe-gg_TPdo4PH3zenqAxO0H-4sL5D0QNxNESq_0WEQmxOx4SK5nTLtt4oVqMMHnpQRhsjslCd5c",
     "priceLog": [
-      {
-        "at": "2026.11.13",
-        "field": "domesticKrw",
-        "from": 162830,
-        "to": 162870,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.14",
         "field": "domesticKrw",
@@ -4999,6 +4992,13 @@
         "field": "domesticKrw",
         "from": 162740,
         "to": 162480,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "domesticKrw",
+        "from": 162480,
+        "to": 161360,
         "source": "쿠팡"
       }
     ]
@@ -5073,14 +5073,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "slug": "ali-baseus-bowie-mh1",
     "domesticUrl": "https://link.coupang.com/a/iAjCVp61Zs",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4mvv0PPC9csy2RCzz21U3D6FIN60SceCatXdrTmeX6oiETm5cG5mYlGFSHDFjnHvWL6lbgKtj9EdKq7C84MIpgBPdB900HZShecjt9E7TlAhW8osaQ6FJtQlQRrBgaWiOg6dbftEJfF5sqdbC2H1ILhpsl08yAVxJZIKhSdhC6t8AVvepaJJsnS74gDuj69vZUcVUWVWWWGOBiLAD4J6QUdyPRTxVgmcRprFvr0os4UzWJpyCp5n77np9M8jn7aKIkuPS42G5odcB2Y9J2smIrameDdMrGB4zXuBInLDk1pVmYfDCnXQ0E23SjPmjIWr0u31ZwBXIYYfANuouDadMHE7XSMsG035YAs9niF6WesMUHlZ2o2yYY4fuoSAZJnj8OrJ35M9GSllW6G67rfLgg3iZXe6tjIsWkbQNqZcjXluhAbguTdOPWUsVj2iE4sNe3SNJ67PoBnkPcrcxlsL3WLnEqEXm2lND5IxRmV8ZghtgTTFzTXtC5eEnagH9NQXEM9TlHeXJ9NnlDVss8MlzEjxAYChw2bZze23K61gz6USlRYlaNBP6ZGoFqOHaHuW1mx8ya4WKXNob4NY2T5CThFEFuZjJEO69EV23OhTKPGoDOQuH9imkPdTCe23HWfugp1BLDdIzlKApyYWpf4MppqTaMRBKryMCXZe85HySLwvjxurhyICUvZulpiGY1Kg8YzPggso0A4Dq",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
     "name": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰 (LDAC)",
     "category": "audio",
-    "priceKrw": 86229,
+    "priceKrw": 86340,
     "domesticKrw": 176600,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9257308613",
@@ -5167,6 +5167,13 @@
         "from": 86375,
         "to": 86229,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 86229,
+        "to": 86340,
+        "source": "알리"
       }
     ]
   },
@@ -5235,7 +5242,7 @@
     "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
     "category": "audio",
     "priceKrw": 46981,
-    "domesticKrw": 102380,
+    "domesticKrw": 102060,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7401672495",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005002448803062.html",
@@ -5259,13 +5266,6 @@
       "checkedAt": "2026.11.11"
     },
     "priceLog": [
-      {
-        "at": "2026.11.13",
-        "field": "domesticKrw",
-        "from": 103800,
-        "to": 102070,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.13",
         "field": "priceKrw",
@@ -5327,6 +5327,13 @@
         "field": "domesticKrw",
         "from": 102110,
         "to": 102380,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "domesticKrw",
+        "from": 102380,
+        "to": 102060,
         "source": "쿠팡"
       }
     ]
@@ -5437,14 +5444,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "slug": "ali-baseus-bowie-mc2-air",
     "domesticUrl": "https://link.coupang.com/a/iBYTJ0WdY4",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmw60uOJpAqeUVXDbUeL1qHvdQeWl41L7J9jgxvoVM1R9UKRrh8QGFfHBBqdQtmWnpeCj02R0JNpBCr6mKkuXcVeuBmi1rMXY9U5GAcz8p08Y6tvms82Cp3rHA4q0Vx8lnVkZxGZwPX4iJ7W10HgPTHacHe1T4qgHwWblWy2ThjzG5we4U5aiTuHGQVUWxQb851chv3mHlQL6AP3H8cXYZozm6moOB8oW4AhYbkjbDV2Nj9AiBeaQLHahtIvOJNcCPp9THhjE0GUAKatsELtE00p4kCCRi73cJbHeOvT6HusBsZdK8ArShAvvIb99V4W2knlVNf4B6TNLfsnI5PwdDD3E8D9PcevmKVwOAOauwBUfl6BVkaZbuAvIULL456jZAusoeT0U5m6SCjXfhXK9Y358giPjm65fOoo6ZXvxlOuqSvCbyiDtKfExVWiNFfGU4ooK89yOL2ijSfDZ3cJOjjeBmPU4GihTz3357D0VYLV9xMP580h6FDEt9waUSfwEx7szJWLGepq4kmqjwnIoqwxKKPjRIfR0xtGVdV5tNQXXEffjmSKl9H7b5o1jbUlQFtM3o04vpSpu5yEnwddKaZYkpwCJcISk9DkXdARAvsSgsWWDnqqpmKyCOsRFtMJC2Q5LvNC5J2pCeev0I74qlJjkx0tB1tDj5ny3OEMdW9RrhSbA7IdfGafvkyW8vPHxdXLXHUEebxIQ8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
     "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
     "category": "audio",
-    "priceKrw": 37534,
+    "priceKrw": 37582,
     "domesticKrw": 68900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
@@ -5523,6 +5530,13 @@
         "field": "priceKrw",
         "from": 37800,
         "to": 37534,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 37534,
+        "to": 37582,
         "source": "알리"
       }
     ]

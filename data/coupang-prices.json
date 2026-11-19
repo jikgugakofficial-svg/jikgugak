@@ -4,15 +4,15 @@
     "iherb-cgn-omega3-premium-100": {
       "productId": "9228033952",
       "keyword": "캘리포니아골드뉴트리션 오메가3 프리미엄 피쉬 오일 100정",
-      "at": "2026-11-19T01:57:56.726Z",
+      "at": "2026-11-19T11:39:18.050Z",
       "recordedKrw": 31170,
       "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "iherb-doctors-best-magnesium-240": {
       "productId": "8321734081",
       "keyword": "닥터스베스트 고흡수 마그네슘 240정",
-      "at": "2026-11-19T03:35:59.973Z",
+      "at": "2026-11-19T11:39:42.069Z",
       "recordedKrw": 18790,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -20,7 +20,7 @@
     "iherb-now-vitamin-d3-k2-120": {
       "productId": "28205",
       "keyword": "나우푸드 비타민 D3 & K2 120캡슐",
-      "at": "2026-11-19T03:36:11.892Z",
+      "at": "2026-11-19T11:39:54.062Z",
       "recordedKrw": 14450,
       "found": true,
       "apiPrice": 11630,
@@ -494,7 +494,7 @@
     "amazon-apple-airpods-pro-3": {
       "productId": "9024163013",
       "keyword": "애플 에어팟 프로 3",
-      "at": "2026-11-19T03:36:15.921Z",
+      "at": "2026-11-19T11:39:58.254Z",
       "recordedKrw": 296000,
       "found": true,
       "apiPrice": 296000,
@@ -505,7 +505,7 @@
     "amazon-sony-wf-1000xm5": {
       "productId": "8051760807",
       "keyword": "소니 WF-1000XM5 노이즈캔슬링 이어폰",
-      "at": "2026-11-19T03:36:19.904Z",
+      "at": "2026-11-19T11:40:02.067Z",
       "recordedKrw": 256810,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -570,18 +570,18 @@
     "amazon-apple-pencil-pro": {
       "productId": "8106270209",
       "keyword": "애플 펜슬 프로",
-      "at": "2026-11-19T01:58:00.772Z",
+      "at": "2026-11-19T11:39:22.058Z",
       "recordedKrw": 162480,
       "found": true,
-      "apiPrice": 162480,
+      "apiPrice": 161360,
       "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "diff": -1120,
+      "result": "applied"
     },
     "amazon-elgato-stream-deck-mk2": {
       "productId": "8518179410",
       "keyword": "엘가토 스트림 덱 MK.2",
-      "at": "2026-11-19T01:58:04.697Z",
+      "at": "2026-11-19T11:39:26.012Z",
       "recordedKrw": 222000,
       "found": true,
       "apiPrice": 182000,
@@ -592,7 +592,7 @@
     "ali-baseus-bowie-mh1": {
       "productId": "9257308613",
       "keyword": "베이스어스 보위 MH1 노이즈캔슬링 헤드폰",
-      "at": "2026-11-19T03:35:47.907Z",
+      "at": "2026-11-19T11:39:30.067Z",
       "recordedKrw": 176600,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -600,7 +600,7 @@
     "ali-moondrop-chu2": {
       "productId": "9725175748",
       "keyword": "문드롭 츄2 유선 인이어 이어폰",
-      "at": "2026-11-19T03:35:51.890Z",
+      "at": "2026-11-19T11:39:34.087Z",
       "recordedKrw": 98800,
       "found": true,
       "apiPrice": 98800,
@@ -611,18 +611,18 @@
     "ali-fosi-q4": {
       "productId": "7401672495",
       "keyword": "포시오디오 Q4 USB DAC 헤드폰 앰프",
-      "at": "2026-11-19T03:35:55.932Z",
+      "at": "2026-11-19T11:39:38.052Z",
       "recordedKrw": 102380,
       "found": true,
-      "apiPrice": 102380,
+      "apiPrice": 102060,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -320,
+      "result": "applied"
     },
     "ali-ugreen-nexode-air-65w": {
       "productId": "9780240448",
       "keyword": "유그린 넥소드 에어 65W GaN 초소형 충전기",
-      "at": "2026-11-19T03:36:03.920Z",
+      "at": "2026-11-19T11:39:46.107Z",
       "recordedKrw": 53900,
       "found": true,
       "apiPrice": 53900,
@@ -633,7 +633,7 @@
     "ali-baseus-bowie-mc2-air": {
       "productId": "9685144131",
       "keyword": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
-      "at": "2026-11-19T03:36:07.999Z",
+      "at": "2026-11-19T11:39:50.072Z",
       "recordedKrw": 68900,
       "found": true,
       "apiPrice": 68900,
@@ -690,13 +690,10 @@
     "amazon-razer-huntsman-v3-pro-tkl": {
       "productId": "9689633221",
       "keyword": "레이저 헌츠맨 V3 프로 TKL 게이밍 키보드",
-      "at": "2026-11-19T03:36:23.961Z",
+      "at": "2026-11-19T11:40:06.118Z",
       "recordedKrw": 329000,
-      "found": true,
-      "apiPrice": 329000,
-      "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-shure-mv7-plus-white": {
       "productId": "9720309396",
@@ -821,5 +818,5 @@
       "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-11-19T10:41:22.366Z"
+  "updatedAt": "2026-11-19T11:40:10.095Z"
 }
