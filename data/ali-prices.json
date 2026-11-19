@@ -11,18 +11,18 @@
     },
     "ali-aula-f75-keyboard": {
       "itemId": "1005007099240050",
-      "at": "2026-11-18T19:43:26.110Z",
+      "at": "2026-11-19T10:41:22.366Z",
       "recordedKrw": 53100,
       "found": true,
-      "apiPrice": 75009,
+      "apiPrice": 75136,
       "result": "held"
     },
     "ali-qcy-t13-earbuds": {
       "itemId": "1005005042789596",
-      "at": "2026-11-18T21:35:05.546Z",
-      "recordedKrw": 28004,
+      "at": "2026-11-19T10:41:24.865Z",
+      "recordedKrw": 25274,
       "found": true,
-      "apiPrice": 25274,
+      "apiPrice": 24223,
       "result": "applied"
     },
     "ali-qcy-h3-anc-headphones": {
@@ -123,11 +123,11 @@
     },
     "ali-ugreen-nexode-air-65w": {
       "itemId": "1005012274502051",
-      "at": "2026-11-18T21:35:07.936Z",
+      "at": "2026-11-19T10:41:25.262Z",
       "recordedKrw": 33094,
       "found": true,
-      "apiPrice": 33094,
-      "result": "same"
+      "apiPrice": 33137,
+      "result": "applied"
     },
     "ali-baseus-bowie-mc2-air": {
       "itemId": "1005010724623265",
@@ -247,5 +247,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-19T09:41:56.230Z"
+  "updatedAt": "2026-11-19T10:41:25.943Z"
 }
