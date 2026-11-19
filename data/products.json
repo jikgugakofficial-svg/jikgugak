@@ -4463,11 +4463,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iw0RF3qO4b",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 자동",
     "slug": "amazon-logitech-g-pro-x-superlight-2",
     "name": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
     "category": "it",
-    "domesticKrw": 144000,
+    "domesticKrw": 143000,
     "domesticSource": "쿠팡",
     "buyUrl": "https://www.amazon.com/dp/B09NBWL8J5",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9606305559",
@@ -4504,6 +4504,13 @@
         "field": "domesticKrw",
         "from": 166000,
         "to": 144000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "domesticKrw",
+        "from": 144000,
+        "to": 143000,
         "source": "쿠팡"
       }
     ]

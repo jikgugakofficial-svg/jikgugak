@@ -92,7 +92,17 @@
       "change": "20%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "amazon-stanley-quencher-40oz:domesticKrw": {
+      "at": "2026-11-19T21:30:44.447Z",
+      "slug": "amazon-stanley-quencher-40oz",
+      "field": "domesticKrw",
+      "recorded": 38400,
+      "api": 100000,
+      "change": "160%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-19T19:45:28.291Z"
+  "updatedAt": "2026-11-19T21:30:52.641Z"
 }
