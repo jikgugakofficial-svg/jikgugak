@@ -154,19 +154,19 @@
     },
     "ali-truthear-zero-blue2": {
       "itemId": "1005008606126729",
-      "at": "2026-11-19T04:44:09.917Z",
-      "recordedKrw": 75640,
+      "at": "2026-11-19T19:45:23.994Z",
+      "recordedKrw": 75738,
       "found": true,
       "apiPrice": 75738,
-      "result": "applied"
+      "result": "same"
     },
     "ali-kz-zsn-pro-2": {
       "itemId": "1005006997565403",
-      "at": "2026-11-19T06:40:40.129Z",
-      "recordedKrw": 17518,
+      "at": "2026-11-19T19:45:27.457Z",
+      "recordedKrw": 17949,
       "found": true,
       "apiPrice": 17949,
-      "result": "applied"
+      "result": "same"
     },
     "ali-sonoff-snzb-02d": {
       "itemId": "1005005287154188",
@@ -242,12 +242,12 @@
     },
     "ali-sonoff-zbminir2": {
       "itemId": "1005007783265126",
-      "at": "2026-11-19T06:40:38.110Z",
+      "at": "2026-11-19T19:45:26.629Z",
       "recordedKrw": 10093,
       "found": true,
       "apiPrice": 10093,
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-19T18:36:21.773Z"
+  "updatedAt": "2026-11-19T19:45:28.290Z"
 }
