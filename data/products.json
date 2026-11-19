@@ -6259,7 +6259,7 @@
     "domesticUrl": "https://link.coupang.com/a/iKe171rCO4",
     "name": "베이스어스 보위 MP1 ANC 무선 이어폰",
     "category": "audio",
-    "priceKrw": 45191,
+    "priceKrw": 45251,
     "domesticKrw": 135900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6297,6 +6297,13 @@
         "from": 51657,
         "to": 45191,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 45191,
+        "to": 45251,
+        "source": "알리"
       }
     ]
   },
@@ -6308,14 +6315,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9498763335",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005589751589.html",
     "slug": "ali-truthear-zero-red",
     "domesticUrl": "https://link.coupang.com/a/iKe175DaRo",
     "name": "트루히어 x 크리나클 제로:레드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 75640,
+    "priceKrw": 75738,
     "domesticKrw": 126870,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6347,6 +6354,13 @@
         "from": 76178,
         "to": 75640,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 75640,
+        "to": 75738,
+        "source": "알리"
       }
     ]
   },
@@ -6358,14 +6372,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9691700942",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005011615420740.html",
     "slug": "ali-tangzu-waner-sg2-red-lion",
     "domesticUrl": "https://link.coupang.com/a/iKe18cEths",
     "name": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
     "category": "audio",
-    "priceKrw": 26774,
+    "priceKrw": 26820,
     "domesticKrw": 61700,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6402,6 +6416,13 @@
         "field": "priceKrw",
         "from": 26979,
         "to": 26774,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 26774,
+        "to": 26820,
         "source": "알리"
       }
     ]

@@ -201,27 +201,27 @@
     },
     "ali-baseus-bowie-mp1": {
       "itemId": "1005009920180201",
-      "at": "2026-11-18T22:32:21.203Z",
-      "recordedKrw": 51657,
+      "at": "2026-11-19T12:46:21.922Z",
+      "recordedKrw": 45191,
       "found": true,
-      "apiPrice": 45191,
+      "apiPrice": 45251,
       "result": "applied"
     },
     "ali-truthear-zero-red": {
       "itemId": "1005005589751589",
-      "at": "2026-11-18T23:31:35.316Z",
+      "at": "2026-11-19T12:46:23.676Z",
       "recordedKrw": 75640,
       "found": true,
-      "apiPrice": 75640,
-      "result": "same"
+      "apiPrice": 75738,
+      "result": "applied"
     },
     "ali-tangzu-waner-sg2-red-lion": {
       "itemId": "1005011615420740",
-      "at": "2026-11-18T23:31:37.251Z",
+      "at": "2026-11-19T12:46:24.128Z",
       "recordedKrw": 26774,
       "found": true,
-      "apiPrice": 26774,
-      "result": "same"
+      "apiPrice": 26820,
+      "result": "applied"
     },
     "ali-sonoff-minir4": {
       "itemId": "1005005260044338",
@@ -248,5 +248,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-19T11:40:12.899Z"
+  "updatedAt": "2026-11-19T12:46:24.530Z"
 }
