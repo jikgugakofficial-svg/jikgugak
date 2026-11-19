@@ -3218,7 +3218,7 @@
     "checkedAt": "2026.11.19 알리 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 127717,
+    "priceKrw": 127935,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -3244,13 +3244,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.11",
-        "field": "priceKrw",
-        "from": 129242,
-        "to": 128400,
-        "source": "알리"
-      },
       {
         "at": "2026.11.12",
         "field": "priceKrw",
@@ -3312,6 +3305,13 @@
         "field": "priceKrw",
         "from": 128698,
         "to": 127717,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 127717,
+        "to": 127935,
         "source": "알리"
       }
     ]
@@ -4516,11 +4516,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "slug": "ali-moondrop-space-travel-2",
     "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
     "category": "audio",
-    "priceKrw": 34904,
+    "priceKrw": 34948,
     "domesticKrw": 56070,
     "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
     "domesticSource": "쿠팡 판매자 상품(병행 수입)",
@@ -4594,6 +4594,13 @@
         "field": "priceKrw",
         "from": 35151,
         "to": 34904,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 34904,
+        "to": 34948,
         "source": "알리"
       }
     ]
@@ -6474,13 +6481,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 쿠팡 API 매니저",
+    "checkedAt": "2026.11.19 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9774599606",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005004887739101.html",
     "slug": "ali-redragon-k530-pro",
     "name": "레드라곤 K530 PRO 드라코닉 60% 무선 기계식 키보드",
     "category": "it",
-    "priceKrw": 29043,
+    "priceKrw": 29081,
     "domesticKrw": 75290,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6506,7 +6513,16 @@
     },
     "domesticUrl": "https://link.coupang.com/a/iLSToP1uUK",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2Wv7KxTj2YnCezIQUZ6FRcjLy9yxguWqoKb9DrdV1GZJrq6tTjWH1jhQAxpY4AjHf0lLOjuC2Gx1PreW5i7O5nvV1d7zfNyOApqrgbHyerjQV1KAyN16iM69UVnPY9lwdPbCaJOHftwIhDSCrQi8cDJWfvsdHOxzH89RoNrH94TuuSQ8oWlf6cyZetLZJrAiqDz0fN3eQzSwNVkFbDwGYBk7ejahBph9LCvmR20cBPGobJuXy3CKXGSEjP93TXRXBCEaldispdIHX5lzMerrLBP9b2lmelNHc0aFTGP187JB40CiYa3FfTlgjg8bWlHKGwumvxbl4pUIlCDmy6VN5zE3Ba5uJ7yzFyVz21HE75LnxMJrs2Dwl3IvwcNJ5hz9PsAdYbgPHSuUgcrfORqkft2KVhUnBd1sNjJOafiEH2Gg58utGSJ7lDU8LC42RZdkLAkNplFjNJ7Ws4BTn0ECzQyLYgOneVDLsf1u5qwmIKX5dymda3FUQDDDMgN7QmfNZe7P5px1ycjKxJOWrtueaAJ9TEjrXLJWwee2YDVRIVwEmMVmsuZgxXjuBG9ovYm6da8brN5HOWSpQWBmBBIH7Dsg3dkXfsXxJ1D1kDjfekbzSpcXQVi4F3Qjz13vySbw7kHgGZSpQHELxhcTGZMwRxfjxoLSZnNSkzLA1NUebJqQtewwZwAD37TKWrlcHN6HOBUmRa8wRjOPI",
-    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3acc58a983f645f3854489767891c9car.png"
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3acc58a983f645f3854489767891c9car.png",
+    "priceLog": [
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 29043,
+        "to": 29081,
+        "source": "알리"
+      }
+    ]
   },
   {
     "store": "aliexpress",

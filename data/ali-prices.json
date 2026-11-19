@@ -59,10 +59,10 @@
     },
     "ali-soundcore-liberty-4-pro": {
       "itemId": "1005007868177829",
-      "at": "2026-11-18T16:44:32.104Z",
-      "recordedKrw": 128698,
+      "at": "2026-11-19T08:02:53.473Z",
+      "recordedKrw": 127717,
       "found": true,
-      "apiPrice": 127717,
+      "apiPrice": 127935,
       "result": "applied"
     },
     "ali-edifier-evobuds-pro": {
@@ -82,11 +82,11 @@
     },
     "ali-moondrop-space-travel-2": {
       "itemId": "1005009402878815",
-      "at": "2026-11-18T18:31:31.177Z",
+      "at": "2026-11-19T08:02:55.880Z",
       "recordedKrw": 34904,
       "found": true,
-      "apiPrice": 34904,
-      "result": "same"
+      "apiPrice": 34948,
+      "result": "applied"
     },
     "ali-redragon-k617-fizz": {
       "itemId": "1005006388894172",
@@ -231,11 +231,11 @@
     },
     "ali-redragon-k530-pro": {
       "itemId": "1005004887739101",
-      "at": "2026-11-18T18:31:28.470Z",
+      "at": "2026-11-19T08:02:55.174Z",
       "recordedKrw": 29043,
       "found": true,
-      "apiPrice": 29043,
-      "result": "same"
+      "apiPrice": 29081,
+      "result": "applied"
     },
     "ali-sonoff-zbminir2": {
       "itemId": "1005007783265126",
@@ -246,5 +246,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-19T06:40:41.190Z"
+  "updatedAt": "2026-11-19T08:02:56.583Z"
 }
