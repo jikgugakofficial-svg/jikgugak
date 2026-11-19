@@ -5955,12 +5955,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.20 알리 자동",
     "slug": "ali-sonoff-snzb-02d",
     "domesticUrl": "https://link.coupang.com/a/iIA5cW37Ku",
     "name": "소노프 SNZB-02D 지그비 온습도 센서 (LCD, 1개)",
     "category": "it",
-    "priceKrw": 13405,
+    "priceKrw": 13422,
     "domesticKrw": 27900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8807347296",
@@ -5999,6 +5999,13 @@
         "field": "priceKrw",
         "from": 13501,
         "to": 13405,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "priceKrw",
+        "from": 13405,
+        "to": 13422,
         "source": "알리"
       }
     ]
@@ -6372,7 +6379,7 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.20 쿠팡 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9691700942",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005011615420740.html",
     "slug": "ali-tangzu-waner-sg2-red-lion",
@@ -6380,7 +6387,7 @@
     "name": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
     "category": "audio",
     "priceKrw": 26820,
-    "domesticKrw": 61700,
+    "domesticKrw": 58500,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
       "배송 1~2주",
@@ -6424,6 +6431,13 @@
         "from": 26774,
         "to": 26820,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "domesticKrw",
+        "from": 61700,
+        "to": 58500,
+        "source": "쿠팡"
       }
     ]
   },

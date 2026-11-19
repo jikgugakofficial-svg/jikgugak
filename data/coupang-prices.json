@@ -210,15 +210,15 @@
     "iherb-now-magnesium-glycinate-180": {
       "productId": "1366689007",
       "keyword": "나우푸드 마그네슘 글리시네이트 180정",
-      "at": "2026-11-19T09:41:21.156Z",
+      "at": "2026-11-19T16:46:19.507Z",
       "recordedKrw": 24360,
       "found": false,
-      "note": "검색 상위 3개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 2개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "iherb-sr-omega3-triple-180": {
       "productId": "6854281548",
       "keyword": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-      "at": "2026-11-19T09:41:25.060Z",
+      "at": "2026-11-19T16:46:23.403Z",
       "recordedKrw": 47350,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -226,7 +226,7 @@
     "iherb-jarrow-dophilus-eps-120": {
       "productId": "7626263931",
       "keyword": "자로우 도피러스 EPS 유산균 100억 CFU 120캡슐",
-      "at": "2026-11-19T09:41:28.997Z",
+      "at": "2026-11-19T16:46:27.689Z",
       "recordedKrw": 31880,
       "found": false,
       "note": "검색 상위 2개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -456,7 +456,7 @@
     "amazon-razer-deathadder-v3-pro": {
       "productId": "9444695999",
       "keyword": "레이저 데스애더 V3 프로 무선 마우스",
-      "at": "2026-11-19T09:40:53.075Z",
+      "at": "2026-11-19T16:45:51.320Z",
       "recordedKrw": 155830,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -464,15 +464,15 @@
     "amazon-lego-10359-fountain-garden": {
       "productId": "8776305217",
       "keyword": "레고 아이콘 분수 정원 10359",
-      "at": "2026-11-19T09:40:56.840Z",
+      "at": "2026-11-19T16:45:55.593Z",
       "recordedKrw": 109350,
       "found": false,
-      "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-lego-10328-bouquet-of-roses": {
       "productId": "7792209105",
       "keyword": "레고 보태니컬 장미 꽃다발 10328",
-      "at": "2026-11-19T09:41:13.250Z",
+      "at": "2026-11-19T16:46:11.300Z",
       "recordedKrw": 70800,
       "found": true,
       "apiPrice": 70800,
@@ -483,7 +483,7 @@
     "amazon-osprey-farpoint-40": {
       "productId": "9267318199",
       "keyword": "오스프리 파포인트 40 여행 배낭",
-      "at": "2026-11-19T09:41:17.048Z",
+      "at": "2026-11-19T16:46:15.304Z",
       "recordedKrw": 277800,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -537,7 +537,7 @@
     "amazon-sony-wh-1000xm5": {
       "productId": "8879659697",
       "keyword": "소니 WH-1000XM5 노이즈캔슬링 헤드폰",
-      "at": "2026-11-19T09:41:00.875Z",
+      "at": "2026-11-19T16:45:59.273Z",
       "recordedKrw": 327720,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -545,15 +545,18 @@
     "amazon-sennheiser-momentum-4": {
       "productId": "7776776856",
       "keyword": "젠하이저 모멘텀 4 와이어리스 헤드폰",
-      "at": "2026-11-19T09:41:04.926Z",
+      "at": "2026-11-19T16:46:03.388Z",
       "recordedKrw": 398990,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 319000,
+      "isRocket": true,
+      "diff": -79990,
+      "result": "held"
     },
     "amazon-garmin-forerunner-265": {
       "productId": "7209583295",
       "keyword": "가민 포러너 265 러닝 스마트워치",
-      "at": "2026-11-19T09:41:08.901Z",
+      "at": "2026-11-19T16:46:07.409Z",
       "recordedKrw": 452000,
       "found": true,
       "apiPrice": 452000,
@@ -741,7 +744,7 @@
     "amazon-beats-pill-2024-matte-black": {
       "productId": "9570716552",
       "keyword": "비츠 필 블루투스 스피커 2024",
-      "at": "2026-11-19T08:02:33.687Z",
+      "at": "2026-11-19T16:45:31.268Z",
       "recordedKrw": 242620,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -749,7 +752,7 @@
     "ali-baseus-bowie-mp1": {
       "productId": "9719002042",
       "keyword": "베이스어스 보위 MP1 ANC 무선 이어폰",
-      "at": "2026-11-19T08:02:37.509Z",
+      "at": "2026-11-19T16:45:35.382Z",
       "recordedKrw": 135900,
       "found": true,
       "apiPrice": 135900,
@@ -760,7 +763,7 @@
     "ali-truthear-zero-red": {
       "productId": "9498763335",
       "keyword": "트루히어 x 크리나클 제로:레드 유선 이어폰",
-      "at": "2026-11-19T08:02:41.476Z",
+      "at": "2026-11-19T16:45:39.496Z",
       "recordedKrw": 126870,
       "found": false,
       "note": "검색 상위 2개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -768,18 +771,18 @@
     "ali-tangzu-waner-sg2-red-lion": {
       "productId": "9691700942",
       "keyword": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
-      "at": "2026-11-19T08:02:45.502Z",
+      "at": "2026-11-19T16:45:43.331Z",
       "recordedKrw": 61700,
       "found": true,
-      "apiPrice": 61700,
+      "apiPrice": 58500,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -3200,
+      "result": "applied"
     },
     "ali-sonoff-minir4": {
       "productId": "9555459833",
       "keyword": "소노프 MINIR4 와이파이 스마트 스위치 모듈",
-      "at": "2026-11-19T08:02:49.477Z",
+      "at": "2026-11-19T16:45:47.293Z",
       "recordedKrw": 21870,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -809,5 +812,5 @@
       "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     }
   },
-  "updatedAt": "2026-11-19T15:39:40.504Z"
+  "updatedAt": "2026-11-19T16:46:31.342Z"
 }

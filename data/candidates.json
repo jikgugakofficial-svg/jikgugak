@@ -1332,35 +1332,17 @@
       "model": "Flow 2 Pro",
       "cat": "it",
       "why": "인스타360 스마트폰 짐벌 신제품, 국내 정발·알리 공식 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-16T16:25:10.193Z",
-      "status": "new",
+      "at": "2026-11-19T16:45:23.089Z",
+      "status": "no_ali",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005009118900336",
-          "title": "Insta360 Flow 2 Pro 자기 전화 모듈 360 °   모바일 짐벌용 회전 지원 긁힘 방지 초박형 휴대용 액세서리",
-          "price": 22900,
-          "orders": 11,
-          "rating": "100.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Abef7e9a20b694deebfe79e3b0c9e9276X.png",
-          "url": "https://ko.aliexpress.com/item/1005009118900336.html"
-        }
-      ],
+      "ali": [],
       "coupang": [
-        {
-          "id": "8688806779",
-          "name": "인스타360 Flow 2 Pro AI 트래커",
-          "price": 65000,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/b3Cukgf3R6TUROS6b5zpHc0q6YKMbcM41MffXmTqOMdklsaDeqtf1CIbQVdwvxTrwW9BK5HpN0BQKd9FqvXBGnl2P4-6aZ6R1FOspXitcTw0EuXbCxRgUpBFxw3qhd2GQJCF-v9Dxb1VXo6XK3wHDFk29W9prJaI_Hre7PeMEOLCiafzp_g3gD7nWZHUxf1ST9fTFk6ojtc9W9FKVKeVP2r706qudEx7sWt7NKLZiNrV1jvlMitLJOMxXk_HBIBR8OfOSFN78HQ7s04HYDdPQcOVq0nuheyKRR3k65hiY0xFugYJTaJT7MhFdX0wxFXMBoBPL8ydpA1Dl8hiVTwV8JhnuJfaOe4zIYN0sa8ddKFYxyB3IDUtJ3D4TU8YNgG1IKNhaHyEt9HXSHAC49ssFZbT57OWgE4tGy0s39MJTk9SJ69ruxyfQg7KYCxcBMJeu_z9VDtACHON-DbQSy_bKVKgDGyrfd1MeJ4LD7fbQ_dbIk9MTeDP0myWaRzRLucH9gSS8z2jzKAPVr-2tH1ADKtdDEk=",
-          "url": "https://www.coupang.com/vp/products/8688806779"
-        },
         {
           "id": "8680370593",
           "name": "인스타360 Flow 2 Pro 표준 번들",
-          "price": 157000,
+          "price": 147870,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/TLC45Ng62oPcEg5aTB0pZb7cq3bVdWkoB27aMW_bHHXfpUR7xF_v2FScrc1WFwfSc11wS7XnfJfxUDiWJHePobvr7S6y2yXOBW2KyFNXBlDYhZVOIk_XjBc4a3DGM_sqZzr_FiRCPa5ie-9XSuPOuba5bEyxcpTyWM4_XCTsBXBE-xr3RY_J5Hp-T9GjmxaCwGnt-G3Z9ZHfi_sq8xXgn-o0XUN43hG_agGCc3l5ywsvnmPkVWmGv9GPCqDHrQHgaSuK4T6axASIGz_Ztj8YwBUX1JjzxTSAUXQZZQVkHd5jzgZ0Lkyhyv7piaYjs-a819SgrEfhpxthIpGtpXd9d6ggft64iLazIRN8vVfHvKEr6A_tzXHL6cGzqy7VS4bQfxZl8Ns1TTKmuDvwvPw5rTP8toYkXaoUC2ahjf2E5ZIlcVL5cGEDoNrMzzMQhAzdDdkyzzGMqWZCBacHYENweCU9pO4sBeCGqmeTADCNQCsBLJmcL1XTVHIIhGwF_N5X0SpcJ6VUZLm8HTDBZexl_tai",
+          "image": "https://ads-partners.coupang.com/image1/8shW4GrOsOZoNZlF8ij_qDmyGFWkPTbW866gQV5cOlwOUM0K1hm0mKOA1AV7QTaCWiThlab5AiH4uBd1pDlSR-hZ4JPQYkf4gRztnqcIs1r7sw-thQnp0Hx21IeLFRIzAITT60nDDuj1zbxH_htl9mGli-bjFKxz-hcKdNMFabhXTV1bqet7MktxKDXssHIKg6ub_LpXD8jjMNLFoI-MqAKfnvhHTyJu8HGGkGTn6wfDLyhFidwj4HIOhOhNSyAhowg3a-kKTXErEmjSrMgfsh7Kz5OZfvHx8Sof9Gn7cplfrmbD0oAN3K4yonBJD7UFjezaTEGngYT67zNlRErXp6YwuLeD_xyF7nlSbO_ELQVH0VJuHoEQYQh5kthZ063xm91dQlbHiJ_zghpCMpmEXVsdN2qcN6EBG8fMKYSDsZzrANb-tv8qcu74fJ8Dt78W-QoZeREMLp_ayjApDxTgxwYhZlgS8iTeigM6GAyKiAr6QQSA2sfGMYnA-xlgy5GfKda5RMkVkjQIsNqTEzg3eA88",
           "url": "https://www.coupang.com/vp/products/8680370593"
         },
         {
@@ -1368,19 +1350,18 @@
           "name": "인스타360 Flow 2 Pro AI 트래커 번들 스마트폰 짐벌",
           "price": 179000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/7BnmlFsiXG9qG_Jq7P6wmJ-ltKFslGQHobJhhATRTBrkx917x9Kce2K2Z_3q6mQQb4H-XL0VcD4MRnYHurvEepbd--m8nKm7nacezIMxy65SixbzNlntZhkqHa-Tvvv6q52s5hPy_k0FenfykYdd5bR4F_DhUgIU4Bdb96Jh3lTlY1jFQSj9QpcS7rCMdvTuJVrv02wfnDy_GFg6XW301rvezKJtdeoDsvlMhQl0ec8JmCiXavpG6H8hc67MYUQwPx2iCewgmNGWm4ZVhhVFYQBPzQlPe58L7HQ1uY4Yes5K6dpa8b6haClQlOHAdtbaLJ-hlDBrCCiHfHMT1tzIWtXUiUuhiOF0BAId2378fqhRx9RjScfRbJXc3kmJoyWVi0tJ3YjRLUjdUM3OIFPmFJxBJIO7IlGkDeno5DjWKNwzGopSJL1bUxOcky29QexrmpN4BRCppq_lR49EKWvUBc-EfotZFSChvV31iK2EdJYDmwUsgYws_BCIYl2Yhieu2fHItWQIDiqw3d0UibPEfmYzGW8Pivy8RqydzwsVni1SGA==",
+          "image": "https://ads-partners.coupang.com/image1/pAbIyqTa9E6NrblrpGjOsaIVR-u4MGrx_ZLwCzHhO1nV7KS6-7Xea0bAshjhoIFRoBqDiPqU7eutZmu8nAdltPO9cEKgCK4RwHJPTMb27zm6M3IqAsmiB9xf-eMFFbOkgCx_SW939AIsAyhnLVyI1qmcVIBtIt1Fix1T5vyiVxOUqe6eFbXgoEwx9tRpiyW0N1eX5Ixo8camCQ1rZZVQPDk18LcLUju7mlMxkb7egl-b_8vSxyG2pBLUJw5poDruY__ZbGp30to4hDaaV4JWyNsbumoBrOK8uDVWcZVxa1X4DMDcu8W_kcgknQDxxwzCwhxCKZK6M0kPMSCvPNzmZ0l1Q3gDFepHnsp0MR2vMom5ay8TyZhCZpE83K8J94_RxyfAxao9xhoPO42mxIbUjUC0jAfq9z9ozDpbzHNqc4SYkR996DkqZuTyHfIIp91tjljcCMt9dDvQjEhTacfJpFkvpshAoo17gluncPVj_qSQX_VCJizQ9a8K0lNtdB58A1PQsrTrWDxEWsyk9ypuJ4ywMijZXjcxX3fbedFyRR3GR0k=",
           "url": "https://www.coupang.com/vp/products/8700850284"
+        },
+        {
+          "id": "8673037646",
+          "name": "[정품인증] 인스타360 Flow 2 Pro AI 트렉커번들 그레이 / 스마트폰짐벌",
+          "price": 179000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Kzl8A_lXVnejVZLjK365zCq1pkK0h2X11TqrA22bEsSH7oBMfH1I516XIk1OHTo6uqsu_0xGw8rhi1GJCrh-XjwxrmGiVWt0eWyy4RPATMCdOBteS-sc-j__95YuYQY6cbo9zzUiDS4GUr5gxPRZHloJJ8jylS2mcv-2qxASnJMs4GAFJBj2r0pw6etPnnsCgMuL64eeSCGJi5idzlwPSjclqyBKafcyDO6qcwRR5OyTCrXduv-mv6rOyOpyYN5eiQRpILqb3VDnijsa9MWhkOysiB5j43D-gjQiSSCfdYQ4HpC7_GyT1Ihm9G0iv8c_Xn4YvXiYeCy5KiIssThyMiWqzkYXnibSUM71TYfVPR788v1dXCpeyE1himltEjKsvAkEWSrNWVt-GSoqZ0iDvwubIfbZGkysBKoycKvknNKfPXBcMxCYCf-wLpRoQ-he7LEWEzGJefga2PbubkxE21fTpJ4GDj63Tdw00cQM5buHckKGpKtMtzMAuZF-2Ouo5IDRu9MADYI_rdVpHIA-slgOkJCJX62QlaAkRNvqEpDdmK3awg==",
+          "url": "https://www.coupang.com/vp/products/8673037646"
         }
-      ],
-      "best": {
-        "aliId": "1005009118900336",
-        "coupangId": "8688806779",
-        "aliTotal": 22900,
-        "coupangPrice": 65000,
-        "verdict": "good",
-        "diff": 42100,
-        "pct": 65
-      }
+      ]
     },
     "Insta360 GO Ultra": {
       "q": "Insta360 GO Ultra",
@@ -1388,7 +1369,7 @@
       "model": "GO Ultra",
       "cat": "it",
       "why": "인스타360 초소형 액션캠 신작(2025), 국내 정발·알리 공식 판매. 번들·용량 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-16T16:25:15.717Z",
+      "at": "2026-11-19T16:45:27.377Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1398,7 +1379,7 @@
           "name": "인스타360 GO Ultra 액션캠 표준 번들",
           "price": 479000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/ABZ6vw8cIXEmyFpcABrTuoy0nV0ZtXEg05xSRFEbQxHU8xLc27pnUHmJ2xhm4T6Ec0rwszVmybTRxMaSxwyP8EXD7QdLmNPPbeXOcgDQbjkPp8kY25t0ApntXiE7uBxAfnCR8fuF3NmWugzEYz3F2itHQyvmM058WCJMNowHsgrrASQiCg1qq6EPPp5ArMv2CAEJqZGMbnxftdCZQi3Sut8aqWZktgZweSR-kj_03b85wegdAUN6vsDlWpImrsbrtQDiZ36LhxfSlU5Mrp6ExkDE0sN87_7YfB1z-pGyORFT1zqJGMn-ZulxDR_qbzrxfVwk1lHKilBBNXcwvlIFEkjB6MdSOsp0hWJ8VdgkS4HLSOwmu2YbfePh1kiRGFFdX4c58nTrFMQ4ocvrr2Nnz6NxuiUC28q9gsCm-3-Vv29YHaJJlcSo2lI0r27O-4wiDStElCG6OO7tVprpaWECIEcSgNr-SDbWUo58b-LUVqNLg4FDewWxOzIv4Wo_NxLy46q03g80miFseBthwOTRsTER4ecB5B0SjWods3EuzexnYn8b",
+          "image": "https://ads-partners.coupang.com/image1/Naf2WwHKeBwqEzoWNcETM9jerNXN1ufhtTnIRhHUkUiBW7_y0HSYH9ccU2brCx6IZKc9IIet6YP1dc6E7mUoX8A7tAQua0YmxEyoevHb5Xmy0qHVcunNhjRZMWSxAXb2LMlQQXxGj4J2Ohb3DWB6M8Ql266RuWVsU83lrHVBQaaqRIHdWfWXTBzXdctnkfPhxqFGugrMWaxHAvCEJj2q49BsbdH-G16lW-_bJ5u2iz6WYOhiaJZqYUZ-O-7qryo499AjB7sCgNv49V6r4fFdsOpqa9vuMCZZN3q9NNDZZpG5o31ku_Y9116ABEdnasSP-28BpuYeifxDbCE4IzL6oHlv3MCc6XVPabirCAWGQLvZhkTWkIn4DcFjydKq4cntx55GivinUcgvGw9XgWav47e8v-im5VZOO7Yft1xBJRq_ayl4fyS62P9yl4NlO_yGVzcn1EFd4Wovklhdkub4AoPK3Q9z87Cu-Z1LpuWccO0ZazPy1QJikEmjCGIVxjw-yzEJY5m8o01IU2xIUsdySIsiU8iEgV_ZXE9L79U8Z6yP2uE=",
           "url": "https://www.coupang.com/vp/products/9020977113"
         },
         {
@@ -1406,16 +1387,16 @@
           "name": "인스타360 GO Ultra 액션캠 표준 번들",
           "price": 486390,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/9n0yi_-Za1Qo2kcn9mSv100XJQlbG2qaqHj3CYCPVIFiWBc7ZE_CPNwHZ3ykEtM_ftjGCg_I9Yj8ILQ5p_awrKKSsOFs-B0r_89x7AdUiOVTu-0NHv3l0U31IxpTkTzB-Ft1HaGUxsvrQS6UJHMY385k5bT6mqRm4bui5BWzL8t2-IpNtRkjcaJ47xXE8ZiPHjJ95k9dw2bqXuxQCdWvTnf5eHnWybEYnCOc-8iU00dC9JU5qLfQlsbiIllyzrSc4-3Esme_pzS5GUIxtQf2yKmuzdvbCDa4ey7wH8QlPEPgshqxE6zniHvp4EFWzH_Ds4CgbfnheB_fsQQTu7J-exrgohwQAHHRXcXkt5iQz0meAYzq2uWUUO232VN-zfKAfbapDaY6ibEWG-sUgyYK-dP9RfTH4SkusbAnPn6B637TTHz_bb-bqyCAAJ1PWfiV7KoXZ4Ssii9RKMK62WC5B_TkZtYv289BSpR76ed0UZqWWcM_S7ty3TKHGfH3ZD1He4GCN6zXgcgUF-Q2-eSWpET6",
+          "image": "https://ads-partners.coupang.com/image1/HhZnP44Fj9DkjF9YHiadKvogdZpOQQjLG9tFurdrH9odr6XkspIT_mdQBt2mrWdzTXlv7dMAnr46KaGmWNSGqVBOoHqfjHYfcACwQk_hIrkA8GU7T3EDYkqo8M4eoGVSfol_MRJvbFuykK4uqNbSA4EVlfFqK3-cv65vcDisTQ7ZDbJ31PbnRGs3HwMzkXjicwt8DvnOj6y8Hf-apFI3h5-IROfSb2BuBs-UjWxdG4pXpjCRdIo3HGEdBdSEWGzEbtfDCZ3bHrz1p_52W6gdZNe69i4ByUxTLp8K1RHRl2mwI5hV999L-cRBsYctBhtdEVwZEzITSYsFIitkpxHelilof75OfxjzLjyDeI_n72E4sWHRcdmHxWksn97LHfhGOk4XbT6qPJEcCV3Xd0usVyVhSSEMGSt6MaGwLcFr0myAf8nVX-OniGi5Ru43bgLXt0ZNI3WGHnvA6dwCtjOHxlosyN4BRZ04qgp6BU5OFNBPuAIYQKtNRPPiLucluna9HUaMls1vsQpqrbcr82NbRjkd",
           "url": "https://www.coupang.com/vp/products/9020977113"
         },
         {
-          "id": "9428312648",
-          "name": "인스타360 GO Ultra 라이프스타일 번들",
-          "price": 598920,
+          "id": "9141324559",
+          "name": "인스타360 GO Ultra 액션캠 크리에이터 번들, CINSBBEA, 미드나잇 블랙",
+          "price": 583000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/ueTHeYxs0kUJQMPyuQwyKKlPiS7Kx7v6jSF1u4QMkAYsVX33r9L2ZfAb4zdRLWNvYECrFylzJZ7WKDwgdITSsFRiPLjm0f2tPSm78IX6AJjQYzmwlkgZcft2hZvsmHSX_sfXP68L2n5X_19ww9NuZQ9L01ZdvZvzF8UFuR4EZLmcwI6kGTxxqvC6-ZgCgfkbhdFI3ejKWJbeWGbAwiEBwZzI-QI5m5ZUfWUhaGThSIg-S0sQRPzo7Yaph0aoK50LRGDg6xJoj-BrFDbx94SqosBrvgeQ5ibJgYPjXChsslZCXFG-rr2PnFDaUb97rYpytM6ZMt5SBuTjECW-i7Q8L6nXnEMGmmKNIfMGYWvuXhIFOKLkF8lEouPwlgDBNUyAFQC9EUA8vQPOb-zOewuhp2DwLRbA4rvfQB6iMr5sP9-_nkL3lgvkrmp_3l7iSP1YkfGiEfrWucg2jII4b53JMG-pzZHyDXc32fdBh3bhMcG4y1vR9gzkaKTsJb17H6Nqb59_jv2Pv07MfpUkIDuFH-NmHyze",
-          "url": "https://www.coupang.com/vp/products/9428312648"
+          "image": "https://ads-partners.coupang.com/image1/1HCdk9WRpZPbtsWT1CpiJiMNgem6wMgZESNCZYItHIUNhKLB_cGBTw6mFLW8JHRT_6WougyirSo9Oq6PQzv328hc7za9lRqu7ppTG8Mcys_ogBJqfkpax97f9wJLbtFdyFqp7gHfEj0hpNeWLF08_5RYNOHanQXfvIKxamtBGsLVtNeOwulqL8j6yIe-mYnOb709bFkKJ42y3Blif7H0LIh4JSrv0xKQqZPBgNoiGhQNSlXJ_tbsMRdaEwiVuIwDd9--gcejKH09yFM7UgLdpN4roH8sy8_NHSCLBK2X5mz17cOIN7phUnjuW6016-dHTVZspvpKjxAzX2iNKU1xUNjVRJe3tf7GkpDw2KMFKU3wYa8qYTDvuvk4EnSCcz6xTD7eqjZkQQwPRMjLaU2R7KjwMcUOOoueDOTRUVAcnsTwJPFi1MI44rxLZZcyWl3cZWwxoV4DKeeoyDYnTfq53iD4Cepn8HTnjZhYeSQJHvNEU-iKsLWxFezyLuvCoy32Zbr-etgUHPc=",
+          "url": "https://www.coupang.com/vp/products/9141324559"
         }
       ]
     },
@@ -7190,5 +7171,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-19T14:36:28.780Z"
+  "updatedAt": "2026-11-19T16:45:31.235Z"
 }
