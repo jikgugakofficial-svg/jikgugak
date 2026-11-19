@@ -5955,12 +5955,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "slug": "ali-kz-zs10-pro-x",
     "domesticUrl": "https://link.coupang.com/a/iIA5c2ZaQm",
     "name": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 27639,
+    "priceKrw": 29296,
     "domesticKrw": 57900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8054846488",
@@ -6007,6 +6007,13 @@
         "from": 27851,
         "to": 27639,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 27639,
+        "to": 29296,
+        "source": "알리"
       }
     ]
   },
@@ -6018,12 +6025,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 알리 자동",
+    "checkedAt": "2026.11.19 알리 자동",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 46118,
+    "priceKrw": 46178,
     "domesticKrw": 65480,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
@@ -6069,6 +6076,13 @@
         "field": "priceKrw",
         "from": 46445,
         "to": 46118,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.19",
+        "field": "priceKrw",
+        "from": 46118,
+        "to": 46178,
         "source": "알리"
       }
     ]
