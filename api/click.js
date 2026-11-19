@@ -1,12 +1,12 @@
 // 구매(제휴) 링크 클릭 수 집계: 어느 유입 채널(src)에서 온 사람이 어느 쇼핑몰(to)로, 어느 페이지(pg)에서 나갔는지 '합계'만 세요.
-// 누가 눌렀는지는 저장하지 않아요. 날짜별 400일 보관. GET은 운영자(ADMIN_KEY)만 최근 30일 합계를 봐요.
+// 방문(visit)·페이지 열람(pv)도 같은 방식으로 합계만 세요(11/19, Vercel 화면을 안 봐도 매일 숫자가 쌓이게). 누가 눌렀는지는 저장하지 않아요. 날짜별 400일 보관. GET은 운영자(ADMIN_KEY)만 최근 30일 합계를 봐요.
 import crypto from 'node:crypto';
 import { redis, storeReady, readBody } from './_lib/store.js';
 
 const kstDay = (offset = 0) => new Date(Date.now() + 9 * 3600e3 - offset * 864e5).toISOString().slice(0, 10).replace(/-/g, '');
 const clean = (s, n) => String(s || '').toLowerCase().replace(/[^a-z0-9/_.-]/g, '').slice(0, n) || '-';
 const same = (a, b) => { const x = Buffer.from(String(a)); const y = Buffer.from(String(b)); return x.length === y.length && crypto.timingSafeEqual(x, y); };
-const STORES = new Set(['coupang', 'aliexpress', 'amazon', 'iherb', 'naver', 'other', 'app_card', 'app_prompt', 'app_install', 'app_open']); // app_*: 홈 화면 앱 설치 안내·설치·앱으로 열기 횟수
+const STORES = new Set(['coupang', 'aliexpress', 'amazon', 'iherb', 'naver', 'other', 'app_card', 'app_prompt', 'app_install', 'app_open', 'visit', 'pv']); // app_*: 홈 화면 앱 설치 안내·설치·앱으로 열기 횟수, visit: 방문(탭 하나에 한 번, 처음 들어온 페이지), pv: 페이지 열람
 
 export default async function handler(req, res) {
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -33,8 +33,9 @@ export default async function handler(req, res) {
       const rows = await redis([...Array(days)].map((_, i) => ['HGETALL', `clk:${kstDay(i)}`]));
       const total = {};
       rows.forEach((r) => { for (let i = 0; r && i < r.length; i += 2) total[r[i]] = (total[r[i]] || 0) + Number(r[i + 1]); });
+      const daily = rows.map((r, i) => { const o = { day: kstDay(i), visit: 0, pv: 0 }; for (let j = 0; r && j < r.length; j += 2) { const to = r[j].split('|')[1]; if (to === 'visit' || to === 'pv') o[to] += Number(r[j + 1]); } return o; });
       const items = Object.entries(total).map(([k, n]) => { const [src, to, page] = k.split('|'); return { src, to, page, n }; }).sort((a, b) => b.n - a.n);
-      return send(200, { ok: true, days, items });
+      return send(200, { ok: true, days, items, daily });
     } catch { return send(200, { ok: false }); }
   }
   return send(405, { ok: false });

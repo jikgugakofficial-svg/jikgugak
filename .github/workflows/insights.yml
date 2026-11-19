@@ -1,4 +1,4 @@
-# 인스타·스레드 성과를 Meta 공식 API로 읽어 content/_insights/ 에 기록해요(읽기만 해요).
+# 인스타·스레드 성과(Meta 공식 API)와 사이트 방문·구매 클릭 합계(/api/click, ADMIN_KEY)를 읽어 content/_insights/ 에 기록해요(읽기만 해요).
 # 매일 23:10 KST에 돌고, content/_insights/request.txt 를 바꿔 push하면 바로 한 번 돌아요.
 name: insights
 on:
@@ -23,6 +23,7 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          ADMIN_KEY: ${{ secrets.ADMIN_KEY }}
         run: node tools/publish/insights.mjs
       - name: Save
         run: |

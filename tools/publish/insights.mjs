@@ -1,4 +1,4 @@
-// 인스타그램·스레드 성과(도달·조회·프로필 방문·링크 클릭 등)를 Meta 공식 API로 읽어 content/_insights/latest.json 에 남겨요.
+// 인스타그램·스레드 성과와 사이트 방문·구매 클릭 합계(site)(도달·조회·프로필 방문·링크 클릭 등)를 Meta 공식 API로 읽어 content/_insights/latest.json 에 남겨요.
 // 토큰(IG_TOKEN·THREADS_TOKEN)은 GitHub Secrets에만 있어요. 이 파일은 읽기만 하고 아무것도 올리지 않아요.
 //   node tools/publish/insights.mjs
 import { writeFileSync, mkdirSync } from 'node:fs';
@@ -61,7 +61,29 @@ async function threads() {
   return out;
 }
 
-const report = { at: new Date().toISOString(), window: '최근 7일', instagram: await instagram(), threads: await threads() };
+// 사이트 방문·구매 클릭(직구각이 직접 센 합계, 11/19). GitHub Secrets에 ADMIN_KEY가 있을 때만 읽어요.
+async function site() {
+  const key = process.env.ADMIN_KEY;
+  if (!key) return { skipped: 'ADMIN_KEY 없음(GitHub Secrets에 넣으면 매일 기록)' };
+  try {
+    const d = await (await fetch('https://www.jikgugak.com/api/click?days=30', { headers: { 'x-admin-key': key } })).json();
+    if (!d.ok) return { error: d.reason || 'not ok' };
+    const sum = (rows, f) => { const m = {}; rows.forEach((x) => { m[f(x)] = (m[f(x)] || 0) + x.n; }); return Object.fromEntries(Object.entries(m).sort((a, b) => b[1] - a[1])); };
+    const vis = d.items.filter((x) => x.to === 'visit');
+    const clk = d.items.filter((x) => !x.to.startsWith('app_') && x.to !== 'visit' && x.to !== 'pv');
+    const total = (rows) => rows.reduce((a, x) => a + x.n, 0);
+    return {
+      window: '최근 30일(방문은 11/19부터 셈)',
+      visits30: total(vis), pageviews30: total(d.items.filter((x) => x.to === 'pv')),
+      visits7: (d.daily || []).slice(0, 7).reduce((a, x) => a + x.visit, 0),
+      daily: (d.daily || []).slice(0, 14),
+      visitsBySource: sum(vis, (x) => x.src), landing: sum(vis, (x) => x.page),
+      clicks30: total(clk), clicksBySource: sum(clk, (x) => x.src), clicksByStore: sum(clk, (x) => x.to),
+    };
+  } catch (e) { return { error: String(e.message || e) }; }
+}
+
+const report = { at: new Date().toISOString(), window: '최근 7일', instagram: await instagram(), threads: await threads(), site: await site() };
 mkdirSync('content/_insights', { recursive: true });
 writeFileSync('content/_insights/latest.json', JSON.stringify(report, null, 2) + '\n');
 writeFileSync(`content/_insights/${report.at.slice(0, 10)}.json`, JSON.stringify(report, null, 2) + '\n');

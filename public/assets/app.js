@@ -320,16 +320,22 @@ document.addEventListener('click', (e) => {
     src = u || sessionStorage.getItem('jg_src') || '';
     if (!src) {
       const r = document.referrer ? new URL(document.referrer).hostname : '';
-      src = !r ? 'direct' : /google\./.test(r) ? 'google' : /naver\./.test(r) ? 'naver' : /daum\.|kakao/.test(r) ? 'daum' : /instagram\./.test(r) ? 'instagram' : /threads\./.test(r) ? 'threads' : /bing\./.test(r) ? 'bing' : r.endsWith('jikgugak.com') ? 'direct' : 'etc';
+      src = !r ? 'direct' : /chatgpt\.|openai\./.test(r) ? 'chatgpt.com' : /gemini\./.test(r) ? 'gemini' : /perplexity\./.test(r) ? 'perplexity' : /google\./.test(r) ? 'google' : /naver\./.test(r) ? 'naver' : /daum\.|kakao/.test(r) ? 'daum' : /instagram\./.test(r) ? 'instagram' : /threads\./.test(r) ? 'threads' : /facebook\./.test(r) ? 'facebook' : /bing\./.test(r) ? 'bing' : r.endsWith('jikgugak.com') ? 'direct' : 'etc';
     }
     sessionStorage.setItem('jg_src', src);
   } catch { src = src || 'direct'; }
+  // 운영자 기기(관리 화면 비밀번호가 저장된 브라우저)는 방문·클릭을 세지 않아요.
+  let me = false; try { me = !!localStorage.getItem('jg_admin'); } catch { /* 모름 */ }
+  if (me) return;
+  const beacon = (body) => { try { navigator.sendBeacon('/api/click', new Blob([body], { type: 'application/json' })); } catch { fetch('/api/click', { method: 'POST', body, headers: { 'Content-Type': 'application/json' }, keepalive: true }).catch(() => {}); } };
+  // 방문 수(합계만, 11/19): 페이지 열람은 매번, 방문은 탭 하나에 한 번(처음 들어온 페이지로).
+  beacon(JSON.stringify({ src, to: 'pv', page: location.pathname }));
+  try { if (!sessionStorage.getItem('jg_v')) { sessionStorage.setItem('jg_v', '1'); beacon(JSON.stringify({ src, to: 'visit', page: location.pathname })); } } catch { /* 세지 않음 */ }
   const storeOf = (h) => /coupang|coupa\.ng/.test(h) ? 'coupang' : /aliexpress/.test(h) ? 'aliexpress' : /amazon|amzn/.test(h) ? 'amazon' : /iherb/.test(h) ? 'iherb' : /naver/.test(h) ? 'naver' : 'other';
   document.addEventListener('click', (e) => {
     const a = e.target.closest && e.target.closest('a[rel~="sponsored"], a[data-buy]');
     if (!a || !a.href) return;
     let host = ''; try { host = new URL(a.href).hostname; } catch { return; }
-    const body = JSON.stringify({ src, to: storeOf(host), page: location.pathname });
-    try { navigator.sendBeacon('/api/click', new Blob([body], { type: 'application/json' })); } catch { fetch('/api/click', { method: 'POST', body, headers: { 'Content-Type': 'application/json' }, keepalive: true }).catch(() => {}); }
+    beacon(JSON.stringify({ src, to: storeOf(host), page: location.pathname }));
   }, true);
 })();

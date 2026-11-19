@@ -581,7 +581,8 @@ ${domesticSaleNotice()}
   <h2 id="before-title">결제 전 30초 체크</h2>
   <div><a href="/guide#address">영문 주소 넣는 법</a><a href="/guide#pccc">통관부호 유효기간 확인</a><a href="/guide#combine">합산과세 주의</a></div>
 </section>
-${qaHtml}`;
+${qaHtml}
+${guideBlock({ amazon: 'us', aliexpress: 'ali', iherb: 'iherb' }[p.store] || 'common', 3)}`;
   return layout({ title: `${p.name} 직구 vs 쿠팡 최종가, 관세 포함`, description: desc, urlPath: `/p/${p.slug}`, body, ld, image: p.image || '', scripts: ev.kind === 'priced' ? [] : ['/assets/mini-calc.js'] });
 }
 
@@ -712,6 +713,7 @@ ${showTable ? `<section class="block" aria-labelledby="bf-target">
 <section class="block">
   <div class="guide-cta"><b>아마존에서 본 가격으로 바로 계산해 보세요</b><span>아마존 링크 붙여 넣기는 지원하지 않아요. 본 가격과 국내 최저가를 계산기에 넣으면 관세까지 더해 판정해요.</span><a class="btn btn-point" href="/calculator">관세 계산기로 계산하기</a></div>
 </section>
+${guideBlock('us', 4, 'black-friday-direct-duty')}
 ${faq ? `<section class="block"><h2 class="h2">자주 묻는 질문</h2>${faq}<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script></section>` : ''}
 <p class="muted small">${esc(FX_LABEL)}. 관세율은 품목별 기본세율 예시이고, 최종 세액은 세관 고지를 따릅니다. 아마존 링크로 구매하면 직구각이 제휴 수수료를 받을 수 있어요(구매가는 같아요).</p>`;
   return layout({ title: d.title, description: d.description, urlPath: `/deals/${d.slug}`, body, noindex: !dealLive(d) });
@@ -735,6 +737,7 @@ ${aliMine.length ? `<section class="block"><div class="block-head"><div><h2 clas
   <ol class="deal-list" data-deal-list></ol>
   <p class="muted small">판매량순으로 보여 드려요. "국내가 넣고 판정"을 누르면 같은 상품을 쿠팡 최저가와 비교할 수 있어요. 알리 링크로 구매하면 직구각이 제휴 수수료를 받을 수 있어요(구매가는 같아요).</p>
 </section>
+${guideBlock('ali', 4, d.slug === '1111' ? 'singles-day-ali-duty-limit' : '')}
 ${faq ? `<section class="block"><h2 class="h2">자주 묻는 질문</h2>${faq}<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script></section>` : ''}
 <p class="muted small">${esc(FX_LABEL)}. 최종 세액은 세관 고지를 따릅니다.</p>`;
   return layout({ title: d.title, description: d.description, urlPath: `/deals/${d.slug}`, body, scripts: ['/assets/deals.js'] });
@@ -991,6 +994,16 @@ const guideTokens = (t) => String(t)
   .replace(/\{fxLabel\}/g, RATES.customs.label || '')
   .replace(/\{krw150\}/g, formatKrw(Math.floor(150 * FX)))
   .replace(/\{krw200\}/g, formatKrw(Math.floor(200 * FX)));
+// 가이드 주제(11/19 검색·AI 노출): 같은 주제 가이드끼리, 상품·딜 페이지에서도 그 주제 가이드로 바로 연결해요(전엔 앞 4개·/guide 목록만).
+function guideTopic(slug) { return /ali|singles|split|same-seller/.test(slug) ? 'ali' : /iherb/.test(slug) ? 'iherb' : /us-direct|black-friday/.test(slug) ? 'us' : 'common'; }
+function guidesFor(topic, n, except = '', pin = '') {
+  const rank = (g) => (g.slug === pin ? -1 : guideTopic(g.slug) === topic ? 0 : guideTopic(g.slug) === 'common' ? 1 : 2);
+  return GUIDES.filter((g) => g.slug !== except).map((g, i) => [g, rank(g), i]).sort((a, b) => a[1] - b[1] || a[2] - b[2]).slice(0, n).map((x) => x[0]);
+}
+function guideBlock(topic, n, pin = '', title = '같이 많이 묻는 질문') {
+  const list = guidesFor(topic, n, '', pin);
+  return list.length ? `<section class="block"><h2 class="h2">${title}</h2><ul class="guide-list">${list.map((x) => `<li><a href="/guide/${esc(x.slug)}">${esc(guideTokens(x.question || x.title))}</a></li>`).join('')}</ul></section>` : '';
+}
 const GUIDES = fs.existsSync(GUIDE_DIR) ? fs.readdirSync(GUIDE_DIR).filter((f) => f.endsWith('.md') && !f.startsWith('_')).map((f) => {
   const { meta, body } = frontMatter(fs.readFileSync(path.join(GUIDE_DIR, f), 'utf8'));
   return { slug: f.replace(/\.md$/, ''), ...meta, body };
@@ -1004,7 +1017,7 @@ function pageGuideArticle(g) {
   const faq = Array.isArray(g.faq) ? g.faq : [];
   const cta = g.cta || '/calculator';
   const ctaLabel = cta.includes('#cart') ? '장바구니 합계로 계산하기' : cta.startsWith('/search') ? '상품 링크 붙여 넣고 판정하기' : '관세 계산기로 계산하기';
-  const related = GUIDES.filter((x) => x.slug !== g.slug).slice(0, 4);
+  const related = guidesFor(guideTopic(g.slug), 4, g.slug);
   const body = `
 <nav class="crumbs small muted" aria-label="위치"><a href="/guide">직구 가이드</a> › <span>${esc(g.question || g.title)}</span></nav>
 <div class="page-head"><h1 class="display guide-h1">${esc(guideTokens(g.title))}</h1>${g.updated ? `<p class="muted small">내용 확인 ${esc(g.updated)} · 숫자는 ${esc(FX_LABEL)} 기준</p>` : ''}</div>
