@@ -1,0 +1,96 @@
+{
+ "date": "2026-11-19",
+ "note": "쿠팡 공식 API 15회 모두 사용(차단·멈춤 없음). 아마존·쿠팡 화면·제휴 링크는 열지 않음. ASIN은 웹 검색 결과(비아마존 페이지)만 근거. 환율 과세 1345.2·결제 1331.1, 배송비 0 가정(US$49 이상 무료 배송은 매니저 확인). 후보 10개를 못 채움: 쿠팡에 같은 모델이 안 보이거나 손익분기가 평소 미국가보다 낮아 뺌(억지로 채우지 않음).",
+ "candidates": [
+  {
+   "name": "젠하이저 HD 560S 오픈형 유선 헤드폰",
+   "brand": "Sennheiser", "model": "HD 560S", "category": "audio",
+   "asin": "B08J9MVB6W",
+   "asinEvidence": [
+    "https://camelcamelcamel.com/product/B08J9MVB6W",
+    "https://www.desertcart.nz/products/230902391-sennheiser-hd-560s-open-back-reference-grade-headphones-for-audio"
+   ],
+   "asinNote": "웹 검색에서 B08J9MVB6W가 camelcamelcamel·desertcart.nz에 HD 560S로 나옴. 같은 모델에 B08HNFV61M도 desertcart.sg·th에 나와 ASIN이 2개 보임(둘 다 560S 표기, 어느 쪽이 현재 주 상품인지는 매니저가 상품 주소에서 모델명 확인).",
+   "coupang": {"productId": "7883063327", "name": "젠하이저 HD 560S 오픈형 유선 헤드폰", "price": 212970, "rocket": true, "alt": [], "note": "11/19 API 검색 1건. 이름에 HD 560S 명시, 로켓. 색은 단일(블랙)."},
+   "breakeven": {"usd": 127, "krw": 212970, "memo": "쿠팡 212,970원 기준(audio 8%, 면세 $200 이내라 관세 없음, 배송비 0) 손익분기 약 $127. 아마존가가 $127 이하면 직구각."},
+   "check3": {"search": "예: 오디오파일 입문 오픈형 헤드폰으로 헤드폰 커뮤니티 언급 많음(근거는 이번 검색에서 미확인, 매니저 판단 필요)", "pair": "예: 모델명 HD 560S 일치. 바코드는 못 봄 -> match.method=model", "verdict": "예: 블프 기간 할인가가 손익분기 근처에서 오르내리면 판정이 쓸모 있음(손익분기만 사용, 아마존가 미기재)"},
+   "why": "국내 로켓 21만원대 오픈형 레퍼런스 헤드폰. 블프 주간 달러 가격이 손익분기 근처일 때 판정이 갈림.",
+   "warn": "ASIN 2개 혼재, 케이블 구성(3.5mm 단자·6.3 어댑터) 지역판 동일한지 확인, 국내 정식 A/S 불가.",
+   "recommend": "conditional"
+  },
+  {
+   "name": "베이어다이나믹 DT 990 PRO 250옴 스튜디오 헤드폰",
+   "brand": "beyerdynamic", "model": "DT 990 PRO (250 ohm)", "category": "audio",
+   "asin": "B0011UB9CQ",
+   "asinEvidence": [
+    "https://sentinel.rocketium.com/products/amazon/B0011UB9CQ",
+    "https://www.desertcart.sn/products/3666065-dt-990-pro-250-ohm-over-ear-studio-headphones-mixing"
+   ],
+   "asinNote": "B0011UB9CQ = DT 990 PRO 250 ohm(모델번호 718033)로 두 곳 일치. 블랙 에디션·80옴과는 다른 ASIN일 수 있음.",
+   "coupang": {"productId": "9662730804", "name": "베이어다이나믹 DT 990 프로 유선 스튜디오 헤드폰", "price": 199500, "rocket": false, "alt": [], "note": "11/19 API. 상품명에 옴(250) 표기가 없어 상품 페이지에서 250옴·기본(블랙 에디션 아님) 확인 필요. 다른 상품 DT990 Pro X는 335,000원이라 별개 모델."},
+   "breakeven": {"usd": 119, "krw": 199500, "memo": "쿠팡 199,500원 기준 손익분기 약 $119(면세 $200 이내)."},
+   "check3": {"search": "예: 스튜디오·게이밍 오픈형 헤드폰 커뮤니티 언급 많음(미확인)", "pair": "예: 250옴 확인되면 같은 모델. 옴·에디션 확인 못 하면 빼야 함", "verdict": "예: 손익분기 $119가 낮아 큰 할인일 때만 직구각 -> 쓸모는 제한적"},
+   "why": "국내 20만원 안팎 스튜디오 헤드폰. 큰 세일 때만 직구각이 될 가능성.",
+   "warn": "250옴 vs 80옴 혼동 주의, 쿠팡 판매자(로켓 아님). 손익분기가 평소 미국가보다 낮을 수 있어 가치 낮음.",
+   "recommend": "hold"
+  },
+  {
+   "name": "가민 포러너 965 러닝 스마트워치 (47mm)",
+   "brand": "Garmin", "model": "Forerunner 965 (010-02809-00)", "category": "it",
+   "asin": "B0BS1TP8TJ",
+   "asinEvidence": [
+    "https://www.desertcart.sn/products/552158510-garmin-forerunner-965-running-smartwatch-colorful-amoled-display-training-metrics",
+    "https://aislegopher.com/p/garmin-forerunner-965-running-smartwatch-colorful-amoled-training-metrics/15706208"
+   ],
+   "asinNote": "ASIN이 둘로 나옴: B0BS1TP8TJ(desertcart), B0BS1XZY7T(블랙/파우더그레이 표기 트래커). 색 변형 ASIN일 가능성. 모델번호 010-02809-00, UPC 753759313838(카본그레이)로 모델은 확인. 색·ASIN 확정 못 함.",
+   "coupang": {"productId": "7357651112", "name": "가민 포러너 965 러닝 스마트워치", "price": 819000, "rocket": true, "alt": [], "note": "색·밴드 구성이 이름에 없어 상품 페이지 확인 필요."},
+   "breakeven": {"usd": 447, "krw": 819000, "memo": "쿠팡 819,000원 기준(it 0%, 특송 $200 초과라 과세 구간) 손익분기 약 $447."},
+   "check3": {"search": "예: 러닝 워치 검색 많음(미확인)", "pair": "색 ASIN 미확정 -> 약함", "verdict": "예: 블프 할인이 $447 근처라 쓸모 있을 수 있으나 후속 모델 등장으로 가격이 계속 움직임"},
+   "why": "국내 80만원대 러닝 워치. 블프 할인과 손익분기가 맞닿을 수 있음.",
+   "warn": "ASIN 확정 못 함, 색 구성 불명, 한국 정식 A/S·지도 지역판 차이.",
+   "recommend": "hold"
+  },
+  {
+   "name": "엘가토 스트림 덱 + (플러스, 블랙)",
+   "brand": "Elgato", "model": "Stream Deck + 10GBD9901", "category": "it",
+   "asin": "",
+   "asinEvidence": ["https://www.computeralliance.com.au/elgato-stream-deck-plus-black-10gbd9901"],
+   "asinNote": "모델번호 10GBD9901·EAN 0840006645146은 확인했으나 ASIN은 웹 검색으로 못 찾음. ASIN 없어서 등록 불가.",
+   "coupang": {"productId": "6925350110", "name": "엘가토 8버튼 스트림 덱 플러스 + 다이얼 LCD 컨트롤러", "price": 262000, "rocket": false, "alt": [{"productId": "7260768265", "name": "스트림 덱 플러스 화이트", "price": 262000, "rocket": false}], "note": "블랙·화이트 같은 가격. 비로켓."},
+   "breakeven": {"usd": 157, "krw": 262000, "memo": "쿠팡 262,000원 기준 손익분기 약 $157(면세 $200 이내)."},
+   "check3": {"search": "방송·편집 입문자 검색 있음(미확인)", "pair": "ASIN 못 찾아 아니오", "verdict": "손익분기 유용"},
+   "why": "MK.2 등록 상품과 같은 계열. 매니저가 ASIN만 확인되면 가능.",
+   "warn": "ASIN 없음.",
+   "recommend": "no"
+  },
+  {
+   "name": "레이저 바이퍼 V3 프로 무선 마우스 (블랙)",
+   "brand": "Razer", "model": "Viper V3 Pro", "category": "it",
+   "asin": "B0CSPN2G5Z",
+   "asinEvidence": [
+    "https://www.desertcart.sn/products/622995465-razer-viper-v3-pro-ultra-lightweight-wireless-esports-gaming-mouse",
+    "https://ca.seekmonkey.com/products/B0CW25XR5R-razer-viper-v3-pro-wireless-gaming-mouse-54g-lightweight-8k-polling-35-000-dpi-optical-sensor-with-advanced-features-gen-3-optical-switches-8-programmable-controls-usb-c-charging-black"
+   ],
+   "asinNote": "ASIN 2개(B0CSPN2G5Z, B0CW25XR5R) 일치 안 함. 확정 못 함.",
+   "coupang": {"productId": "9707102379", "name": "레이저코리아 바이퍼 V3 프로 유무선 게이밍 마우스 바브삼 + 스왑 세트, 블랙 (정품)", "price": 239000, "rocket": true, "alt": [{"productId": "8665590610", "name": "바이퍼 V3 프로 SE (별개 상품)", "price": 159000, "rocket": true}], "note": "정품 번들(바브삼·스왑 세트)이라 해외 기본 구성과 다를 수 있음."},
+   "breakeven": {"usd": 143, "krw": 239000, "memo": "쿠팡 239,000원 기준 손익분기 약 $143."},
+   "check3": {"search": "게이밍 마우스 검색 있음", "pair": "번들 구성·ASIN 불일치로 아니오", "verdict": "후속 V4 출시로 가격 변동 큼"},
+   "why": "구성 차이와 ASIN 혼재로 보류.",
+   "warn": "번들 구성 차이, ASIN 2개.",
+   "recommend": "no"
+  }
+ ],
+ "rejected": [
+  {"name": "로지텍 MX Master 4", "reason": "쿠팡 최저 123,480원 기준 손익분기 약 $74로 평소 미국가보다 한참 낮아 판정이 쓸모없음"},
+  {"name": "젠하이저 HD 650", "reason": "쿠팡에 모델명 명시 상품이 없음(이름 '오픈형 다이나믹 하이파이 헤드셋'), 같은 모델 확인 불가"},
+  {"name": "로데 와이어리스 GO II", "reason": "쿠팡 검색에 본품이 안 나옴(송신기 단독·케이블만)"},
+  {"name": "레고 리븐델 10316", "reason": "쿠팡에 본품이 안 나옴(장식장·조명 액세서리만)"},
+  {"name": "JBL 차지 6 / 플립 7", "reason": "쿠팡 검색에 같은 모델이 안 나옴(액세서리·타사 스피커뿐)"},
+  {"name": "카시오 G-SHOCK GA-2100-1A1", "reason": "쿠팡에 일본판 GA-2100-7AJF(화이트)와 해외배송 판매자만 있고 같은 모델·색의 국내 정식 판매가 안 보임"},
+  {"name": "킨들 스크라이브", "reason": "쿠팡이 64GB·프리미엄 펜 번들·색상별로 갈려 같은 구성 확인 어려움"},
+  {"name": "헬리녹스 체어원", "reason": "쿠팡 85,800~93,240원으로 국내가 쌈"},
+  {"name": "마샬 미들턴 2", "reason": "쿠팡에 미들톤(1세대)과 2가 같이 나와 세대 구분 불명확, 가격대 편차 큼"},
+  {"name": "엘가토 스트림 덱 +", "reason": "ASIN을 웹 검색으로 못 찾음"},
+  {"name": "레이저 바이퍼 V3 프로", "reason": "ASIN 2개 불일치, 쿠팡은 번들 구성"}
+ ]
+}

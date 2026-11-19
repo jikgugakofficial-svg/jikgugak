@@ -6500,5 +6500,47 @@
     "domesticUrl": "https://link.coupang.com/a/iLSToP1uUK",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2Wv7KxTj2YnCezIQUZ6FRcjLy9yxguWqoKb9DrdV1GZJrq6tTjWH1jhQAxpY4AjHf0lLOjuC2Gx1PreW5i7O5nvV1d7zfNyOApqrgbHyerjQV1KAyN16iM69UVnPY9lwdPbCaJOHftwIhDSCrQi8cDJWfvsdHOxzH89RoNrH94TuuSQ8oWlf6cyZetLZJrAiqDz0fN3eQzSwNVkFbDwGYBk7ejahBph9LCvmR20cBPGobJuXy3CKXGSEjP93TXRXBCEaldispdIHX5lzMerrLBP9b2lmelNHc0aFTGP187JB40CiYa3FfTlgjg8bWlHKGwumvxbl4pUIlCDmy6VN5zE3Ba5uJ7yzFyVz21HE75LnxMJrs2Dwl3IvwcNJ5hz9PsAdYbgPHSuUgcrfORqkft2KVhUnBd1sNjJOafiEH2Gg58utGSJ7lDU8LC42RZdkLAkNplFjNJ7Ws4BTn0ECzQyLYgOneVDLsf1u5qwmIKX5dymda3FUQDDDMgN7QmfNZe7P5px1ycjKxJOWrtueaAJ9TEjrXLJWwee2YDVRIVwEmMVmsuZgxXjuBG9ovYm6da8brN5HOWSpQWBmBBIH7Dsg3dkXfsXxJ1D1kDjfekbzSpcXQVi4F3Qjz13vySbw7kHgGZSpQHELxhcTGZMwRxfjxoLSZnNSkzLA1NUebJqQtewwZwAD37TKWrlcHN6HOBUmRa8wRjOPI",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3acc58a983f645f3854489767891c9car.png"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.19 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9319489567",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007783265126.html",
+    "slug": "ali-sonoff-zbminir2",
+    "name": "소노프 ZBMINIR2 지그비 스마트 스위치 모듈",
+    "category": "it",
+    "priceKrw": 10093,
+    "domesticKrw": 29100,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~2주",
+      "지그비 허브(소노프 ZBBridge 등)가 따로 있어야 쓸 수 있어요",
+      "중성선이 있는 스위치 박스에만 설치돼요. 220V 배선 작업이라 익숙하지 않으면 전문가에게 맡기세요",
+      "쿠팡은 같은 상품에 여러 개 묶음 옵션(110,600원)이 있어요. 1개 옵션 가격인지 확인하세요",
+      "알리도 수량 옵션이 있으면 가격이 달라요. 1개 옵션인지 결제 화면에서 확인하세요",
+      "ZBMINIL2(중성선 없는 집용)·MINIR4(와이파이)는 다른 모델이에요"
+    ],
+    "summary": [
+      "소노프 ZBMINIR2(지그비)를 알리 공식 스토어와 쿠팡 같은 모델 1개 기준으로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "SONOFF ZBMINIR2 Extreme (지그비 3.0, 1개, 중성선 필요)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(SONOFF ZBMINIR2 익스트림 소노프 지그비 스위치)과 알리 제휴 API 제목(SONOFF ZBMINIR2 익스트림, SONOFF Official Store)으로 맞춤. 쿠팡 같은 상품 번호에 29,100·110,600원 두 옵션이 있어 29,100원을 1개 옵션으로 봄(다른 판매자 1개 35,000·45,900원). 알리 API 가격은 가장 싼 옵션(11/19 매니저)",
+      "checkedAt": "2026.11.19"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iNyboLINxs",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoUtxY0NK1OISUj3Azos9uqkHu6ahDe5DRFka7wOqLukbB2vf5bc2XzT6KVkLPJTrWOTYV44rTCS2l4HBGCsXQe23bpsPcs9JImt11sah4mRiEr1A3aNE7QVlpnA4DAEuqn7dYZ82NpPhIaVBWsZBexR0AdZbuDZ3DcKaJBuQbZd2X457CBdECNIR3ufcmwxiz631mZ77uoHEC3lx8HuV3eVYtL0uzmo9ql6YSyywpGaIo6rzPCz7KfgfzGDgFYslO5ShaRHEcnVc96GcyprbZlMrdVACIQmNindoLvjLO9egGwLd29guf1LoOmwJgqfv86kzorcvkWmaJEiCqiD5CndJ2h60PQQZOWVwVIgy6ABzfcN8ShvmuPaHOBTvym5sHhOHCJryM1VtkXhWzaGW8VCX96QC1PAgANRH9bXsf0deAmQbqwBTY4eqerHA5twHqi3ZDPf6J0RyH6AVLJ0Nx32h69ZbNwQ9kaxErLg76601E5l48xgVmsQ4c9G71IQWzcnqPdFvIzY8ZKkWOedWw0Zf6CItcoOAJMV4sjctxcSSGNmisgJ2FQeaesZsg2krC6wzB8wWxiozdYQMzkqgm4Vo9mZkXilLOy8DaQbHKIc0y1TLfqhZyrB6CzuYo9ZHQBYVAXI42Dj3hBPpZ1yXw8DdQHNPleGZf48DJSAQXmaGK8uWY6NSP6ls3Yiulv86mklrziG7CxxY1",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7db5098500284affa29cec54eaf1ae1do.jpg"
   }
 ]
