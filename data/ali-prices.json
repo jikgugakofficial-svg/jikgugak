@@ -27,11 +27,11 @@
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
-      "at": "2026-11-19T00:35:05.687Z",
-      "recordedKrw": 42506,
+      "at": "2026-11-19T14:37:31.538Z",
+      "recordedKrw": 42525,
       "found": true,
-      "apiPrice": 42525,
-      "result": "applied"
+      "apiPrice": 40758,
+      "result": "held"
     },
     "ali-xiaomi-smart-band-10-pro": {
       "itemId": "1005006405553471",
@@ -115,11 +115,11 @@
     },
     "ali-fosi-q4": {
       "itemId": "1005002448803062",
-      "at": "2026-11-19T00:35:03.925Z",
+      "at": "2026-11-19T14:37:31.109Z",
       "recordedKrw": 46981,
       "found": true,
-      "apiPrice": 46981,
-      "result": "same"
+      "apiPrice": 47042,
+      "result": "applied"
     },
     "ali-ugreen-nexode-air-65w": {
       "itemId": "1005012274502051",
@@ -225,11 +225,11 @@
     },
     "ali-sonoff-minir4": {
       "itemId": "1005005260044338",
-      "at": "2026-11-18T23:31:37.945Z",
+      "at": "2026-11-19T14:37:28.990Z",
       "recordedKrw": 11330,
       "found": true,
-      "apiPrice": 11330,
-      "result": "same"
+      "apiPrice": 11344,
+      "result": "applied"
     },
     "ali-redragon-k530-pro": {
       "itemId": "1005004887739101",
@@ -248,5 +248,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-19T12:46:24.530Z"
+  "updatedAt": "2026-11-19T14:37:31.994Z"
 }
