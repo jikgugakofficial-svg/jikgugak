@@ -6702,5 +6702,86 @@
     "domesticUrl": "https://link.coupang.com/a/iNyboLINxs",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoUtxY0NK1OISUj3Azos9uqkHu6ahDe5DRFka7wOqLukbB2vf5bc2XzT6KVkLPJTrWOTYV44rTCS2l4HBGCsXQe23bpsPcs9JImt11sah4mRiEr1A3aNE7QVlpnA4DAEuqn7dYZ82NpPhIaVBWsZBexR0AdZbuDZ3DcKaJBuQbZd2X457CBdECNIR3ufcmwxiz631mZ77uoHEC3lx8HuV3eVYtL0uzmo9ql6YSyywpGaIo6rzPCz7KfgfzGDgFYslO5ShaRHEcnVc96GcyprbZlMrdVACIQmNindoLvjLO9egGwLd29guf1LoOmwJgqfv86kzorcvkWmaJEiCqiD5CndJ2h60PQQZOWVwVIgy6ABzfcN8ShvmuPaHOBTvym5sHhOHCJryM1VtkXhWzaGW8VCX96QC1PAgANRH9bXsf0deAmQbqwBTY4eqerHA5twHqi3ZDPf6J0RyH6AVLJ0Nx32h69ZbNwQ9kaxErLg76601E5l48xgVmsQ4c9G71IQWzcnqPdFvIzY8ZKkWOedWw0Zf6CItcoOAJMV4sjctxcSSGNmisgJ2FQeaesZsg2krC6wzB8wWxiozdYQMzkqgm4Vo9mZkXilLOy8DaQbHKIc0y1TLfqhZyrB6CzuYo9ZHQBYVAXI42Dj3hBPpZ1yXw8DdQHNPleGZf48DJSAQXmaGK8uWY6NSP6ls3Yiulv86mklrziG7CxxY1",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7db5098500284affa29cec54eaf1ae1do.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상이라 배송비 없음",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "slug": "iherb-doctors-best-ala-600-180",
+    "name": "닥터스베스트 알파리포산 600mg 180정",
+    "priceKrw": 45064,
+    "domesticKrw": 82680,
+    "domesticUrl": "https://link.coupang.com/a/iPcTELwhpI",
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "buyUrl": "https://kr.iherb.com/pr/doctor-s-best-alpha-lipoic-acid-600-600-mg-180-veggie-caps/30032",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8460206154",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/doctor-s-best-alpha-lipoic-acid-600-600-mg-180-veggie-caps/30032",
+    "coupangKeyword": "닥터스베스트 알파리포산 600",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준(배송비 포함)",
+      "6병까지 자가사용 인정",
+      "60정·150mg·300mg 제품과 함량·정 수가 달라요",
+      "쿠팡은 판매자 한 곳 가격이라 바뀔 수 있어요"
+    ],
+    "summary": [
+      "닥터스베스트 알파리포산 600mg 베지 캡슐 180정끼리 비교했어요.",
+      "아이허브가 쿠팡보다 {diff}({pct}) 싸고, 4만 원이 넘어 배송비도 없어요.",
+      "아이허브 화면의 정기배송 할인은 빼고 1회 구매가로 비교했어요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "753950002494",
+      "model": "Doctor's Best Alpha-Lipoic Acid 600, 600mg 180 Veggie Caps (DRB-00249)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(Doctor's Best 알파리포산 600 600mg 베지 캡슐 180정)과 아이허브 화면(600mg·180개, UPC 753950002494)으로 맞춤. 쿠팡에 로켓·묶음 옵션은 API에 안 보임(60정 34,420원은 다른 용량)",
+      "checkedAt": "2026.11.20"
+    }
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "slug": "iherb-now-sunflower-lecithin-powder-454g",
+    "name": "나우푸드 해바라기 레시틴 순수 분말 454g",
+    "priceKrw": 25103,
+    "domesticKrw": 43110,
+    "domesticUrl": "https://link.coupang.com/a/iPcTEO9xFk",
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-sunflower-lecithin-pure-powder-1-lb-454-g/59514",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/823789",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-sunflower-lecithin-pure-powder-1-lb-454-g/59514",
+    "coupangKeyword": "나우푸드 선플라워 레시틴 파우더",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준(배송비 포함)",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약",
+      "액상(리퀴드)·소프트젤 레시틴은 다른 제품이에요",
+      "쿠팡은 같은 상품에 5개·6개 묶음 옵션이 있어요. 1개 옵션 가격인지 확인하세요"
+    ],
+    "summary": [
+      "나우푸드 해바라기 레시틴 순수 분말 454g(1lb)끼리 비교했어요.",
+      "하나만 사서 배송비 ₩6,000이 붙어도 아이허브가 쿠팡보다 {diff}({pct}) 싸요.",
+      "다른 영양제와 ₩40,000 이상 담으면 배송비가 없어져 차이가 더 커져요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "733739023148",
+      "model": "NOW Foods Sunflower Lecithin Pure Powder 1 lb (454g) (NOW-02314)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(나우푸드 선플라워 레시틴 퓨어 파우더, 같은 상품 번호 다른 판매자 이름에 454g)과 아이허브 화면(454g, UPC 733739023148)으로 맞춤. 최저 43,110원 줄은 이름에 용량이 없지만 이 제품 분말은 454g 한 가지",
+      "checkedAt": "2026.11.20"
+    }
   }
 ]
