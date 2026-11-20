@@ -21,7 +21,37 @@
       "change": "18%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "알리"
+    },
+    "ali-edifier-evobuds-pro:domesticKrw": {
+      "at": "2026-11-20T03:33:01.637Z",
+      "slug": "ali-edifier-evobuds-pro",
+      "field": "domesticKrw",
+      "recorded": 79020,
+      "api": 106380,
+      "change": "35%",
+      "reason": "변화가 커서(30% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
+    },
+    "amazon-elgato-stream-deck-mk2:domesticKrw": {
+      "at": "2026-11-20T03:33:17.642Z",
+      "slug": "amazon-elgato-stream-deck-mk2",
+      "field": "domesticKrw",
+      "recorded": 222000,
+      "api": 182000,
+      "change": "18%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
+    },
+    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
+      "at": "2026-11-20T03:33:45.698Z",
+      "slug": "iherb-now-vitamin-d3-k2-120",
+      "field": "domesticKrw",
+      "recorded": 14450,
+      "api": 11620,
+      "change": "20%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-20T01:55:02.562Z"
+  "updatedAt": "2026-11-20T03:33:52.873Z"
 }

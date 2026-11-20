@@ -4383,11 +4383,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iw0RFRNgJw",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "checkedAt": "2026.11.20 쿠팡 자동",
     "slug": "amazon-apple-airpods-pro-3",
     "name": "애플 에어팟 프로 3",
     "category": "audio",
-    "domesticKrw": 296000,
+    "domesticKrw": 299900,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9024163013",
@@ -4431,6 +4431,13 @@
         "field": "domesticKrw",
         "from": 308000,
         "to": 296000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "domesticKrw",
+        "from": 296000,
+        "to": 299900,
         "source": "쿠팡"
       }
     ]
@@ -4932,12 +4939,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 자동",
     "slug": "amazon-apple-pencil-pro",
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 161360,
+    "domesticKrw": 161540,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4961,13 +4968,6 @@
     },
     "image": "https://ads-partners.coupang.com/image1/xJdWIy_XfRI-_gB1xNOv3WX_zQsPt89fuPEo1w1eOwa9O130esBxbc6c43AEDMFmrpQdJ4xuTICNbYpCWHHzawZMK1QAyI4vZELIhcMLEdWH_RTlDKwAa1CicA38mLV33fN7CXgkzsmIzWAmxwvSJPpF7P2k4Wtda-hjb1dsodivsdE4SF8WtjqZLFgKg7V6GRbDFUW3BFwBJ01BhNO-s2wd5eXxJimI0Ao_Vj5vAYE1NA930XgU2SQkswAxkYyHdcfJFuh-V0wo5jcViIVerU5C0-e36q0wBzKLSZSeDUQFESNupX2VmvYiIbzAFRppjabd6FbRZ9L3aURP63M1f5ujA_W6XrRjmxBLQ1FsL3iUvgMW4v5tC83X6dXWvcJpbZS5XORHNH9zIwj8Y_GsqmY08RbFQ2R8zGyyHspxPb16ZtfxbshEe7k6cBCu2YBVlMI6fRPizAfkm7uiU2pYUpWgNW3uzWpRJomsEhe-gg_TPdo4PH3zenqAxO0H-4sL5D0QNxNESq_0WEQmxOx4SK5nTLtt4oVqMMHnpQRhsjslCd5c",
     "priceLog": [
-      {
-        "at": "2026.11.14",
-        "field": "domesticKrw",
-        "from": 162870,
-        "to": 162900,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.14",
         "field": "domesticKrw",
@@ -5029,6 +5029,13 @@
         "field": "domesticKrw",
         "from": 162480,
         "to": 161360,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "domesticKrw",
+        "from": 161360,
+        "to": 161540,
         "source": "쿠팡"
       }
     ]
@@ -5265,14 +5272,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.20 알리 자동",
     "slug": "ali-fosi-q4",
     "domesticUrl": "https://link.coupang.com/a/iAjCVAb6hU",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmjFQcc9fZcBZyKU6KI0fH7mquEK3lHeqFaaesEXTPKQawzRS89FVZXoHbCU8UhGXfvw67PMJMSV3lZuR3kRS6GEeB0msB53fiQTum5n77aV1TAzGw8kaWsQGaKEzsAbWaV2cSE29BIYdv0DmKBimhAbBQw6uMqXepl1R4pfcvgvQdMKpgj72F1ZAHkdQZUWjHIM9d9FUvvrYtssgeGQMfhGNIWYDBbuuO1CNbIrbs2YyiFIehdJXLcGaEz8l0X1nA34GT0ys7D380lAClKeIQFZsdLmmiVAtdNRQQEsQUbysgxq5OGrUQowbcxiGLWS9IgD7LxNb0h5YKsKXLE0G8jxQZAhlaS4UFSTTfdDmnGXAy2S00Dp3LDZdod9hPKeOnTefEpJToIy4FIKojVmPYvZC8NueLbitSJ1bavvjsivVhK4rmeVd4tfOYPWQPNylC1tH34NZI7GWWm32Yn5QyxJDnp5tiyFZ7iy4RggECaryqLJoiMGrYjCN1Klo7hFtBmqC0GloZkLUt2gmPTwEAwZ7RF4C0ddGGuFkhJKRUTwZ6ld4J1iXHpWll0USkzud4koVWrOt5bx9mSjbjlQeVl4AHft7oETaOQE4rJirIK4oRy1TWJjvOZhGekuarqiXSvmQ1YhN0wF0FVFv7qmCKCykKqks8mYb7yBpzmNTrqOMPK6e4vLPk4NPmdsEyeKs2sakIGwj2oDi0",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/A5b901685149643f1a661b7d54a26db6f6.jpg",
     "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
     "category": "audio",
-    "priceKrw": 47042,
+    "priceKrw": 47262,
     "domesticKrw": 102060,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7401672495",
@@ -5297,13 +5304,6 @@
       "checkedAt": "2026.11.11"
     },
     "priceLog": [
-      {
-        "at": "2026.11.13",
-        "field": "domesticKrw",
-        "from": 102070,
-        "to": 101740,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.14",
         "field": "domesticKrw",
@@ -5365,6 +5365,13 @@
         "field": "priceKrw",
         "from": 46981,
         "to": 47042,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "priceKrw",
+        "from": 47042,
+        "to": 47262,
         "source": "알리"
       }
     ]
@@ -6425,14 +6432,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 자동",
+    "checkedAt": "2026.11.20 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9691700942",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005011615420740.html",
     "slug": "ali-tangzu-waner-sg2-red-lion",
     "domesticUrl": "https://link.coupang.com/a/iKe18cEths",
     "name": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
     "category": "audio",
-    "priceKrw": 26820,
+    "priceKrw": 26909,
     "domesticKrw": 58500,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6484,6 +6491,13 @@
         "from": 61700,
         "to": 58500,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "priceKrw",
+        "from": 26820,
+        "to": 26909,
+        "source": "알리"
       }
     ]
   },
@@ -6495,14 +6509,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.20 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9555459833",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005260044338.html",
     "slug": "ali-sonoff-minir4",
     "domesticUrl": "https://link.coupang.com/a/iKe18gOkTs",
     "name": "소노프 MINIR4 와이파이 스마트 스위치 모듈",
     "category": "it",
-    "priceKrw": 11344,
+    "priceKrw": 11398,
     "domesticKrw": 21870,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6546,6 +6560,13 @@
         "field": "priceKrw",
         "from": 11330,
         "to": 11344,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "priceKrw",
+        "from": 11344,
+        "to": 11398,
         "source": "알리"
       }
     ]
