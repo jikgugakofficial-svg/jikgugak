@@ -80,15 +80,15 @@
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-19T21:30:28.437Z",
-      "recordedKrw": 471000,
+      "at": "2026-11-20T05:45:14.623Z",
+      "recordedKrw": 468000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-19T21:30:32.470Z",
+      "at": "2026-11-20T05:45:18.659Z",
       "recordedKrw": 95220,
       "found": true,
       "apiPrice": 95220,
@@ -99,7 +99,7 @@
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-19T21:30:36.782Z",
+      "at": "2026-11-20T05:45:22.647Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -110,18 +110,15 @@
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-11-19T21:30:40.480Z",
+      "at": "2026-11-20T05:45:26.669Z",
       "recordedKrw": 38400,
-      "found": true,
-      "apiPrice": 100000,
-      "isRocket": true,
-      "diff": 61600,
-      "result": "held"
+      "found": false,
+      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-19T21:30:44.447Z",
+      "at": "2026-11-20T05:45:30.662Z",
       "recordedKrw": 51080,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -129,15 +126,15 @@
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-11-19T22:30:17.521Z",
+      "at": "2026-11-20T05:45:34.893Z",
       "recordedKrw": 137500,
       "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-sennheiser-hd600": {
       "productId": "8542629824",
       "keyword": "젠하이저 HD 600 오픈형 헤드폰",
-      "at": "2026-11-19T22:30:21.493Z",
+      "at": "2026-11-20T05:45:38.636Z",
       "recordedKrw": 350000,
       "found": true,
       "apiPrice": 350000,
@@ -148,18 +145,18 @@
     "amazon-bose-qc-ultra-headphones-2": {
       "productId": "9153372586",
       "keyword": "보스 QC 울트라 헤드폰 2세대",
-      "at": "2026-11-19T22:30:29.463Z",
-      "recordedKrw": 467700,
+      "at": "2026-11-20T05:45:46.692Z",
+      "recordedKrw": 519000,
       "found": true,
       "apiPrice": 519000,
       "isRocket": true,
-      "diff": 51300,
-      "result": "applied"
+      "diff": 0,
+      "result": "same"
     },
     "amazon-audio-technica-ath-m50x": {
       "productId": "301650987",
       "keyword": "오디오테크니카 ATH-M50x 모니터 헤드폰",
-      "at": "2026-11-19T22:30:33.443Z",
+      "at": "2026-11-20T05:45:50.646Z",
       "recordedKrw": 209280,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -167,7 +164,7 @@
     "amazon-aeropress-original": {
       "productId": "8123350236",
       "keyword": "에어로프레스 오리지널 커피메이커",
-      "at": "2026-11-19T22:30:45.496Z",
+      "at": "2026-11-20T05:46:02.782Z",
       "recordedKrw": 52400,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -793,7 +790,7 @@
     "amazon-shure-sm7b": {
       "productId": "8526632283",
       "keyword": "슈어 SM7B 다이내믹 보컬 마이크",
-      "at": "2026-11-19T22:30:37.536Z",
+      "at": "2026-11-20T05:45:54.943Z",
       "recordedKrw": 838350,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -801,7 +798,7 @@
     "ali-redragon-k530-pro": {
       "productId": "9774599606",
       "keyword": "레드라곤 K530 PRO 드라코닉 60% 무선 기계식 키보드",
-      "at": "2026-11-19T22:30:41.704Z",
+      "at": "2026-11-20T05:45:58.785Z",
       "recordedKrw": 75290,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -809,11 +806,35 @@
     "ali-sonoff-zbminir2": {
       "productId": "9319489567",
       "keyword": "소노프 ZBMINIR2 지그비 스마트 스위치 모듈",
-      "at": "2026-11-19T22:30:25.463Z",
+      "at": "2026-11-20T05:45:42.714Z",
       "recordedKrw": 29100,
       "found": false,
-      "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "iherb-doctors-best-ala-600-180": {
+      "productId": "8460206154",
+      "keyword": "닥터스베스트 알파리포산 600",
+      "at": "2026-11-20T05:45:06.828Z",
+      "recordedKrw": 82680,
+      "imageAdded": true,
+      "found": true,
+      "apiPrice": 82680,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
+    },
+    "iherb-now-sunflower-lecithin-powder-454g": {
+      "productId": "823789",
+      "keyword": "나우푸드 선플라워 레시틴 파우더",
+      "at": "2026-11-20T05:45:10.688Z",
+      "recordedKrw": 43110,
+      "imageAdded": true,
+      "found": true,
+      "apiPrice": 43110,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-20T04:41:38.960Z"
+  "updatedAt": "2026-11-20T05:46:06.709Z"
 }
