@@ -137,11 +137,11 @@
     },
     "ali-simgot-ew300": {
       "itemId": "1005007543694300",
-      "at": "2026-11-19T18:36:20.540Z",
+      "at": "2026-11-20T07:57:32.258Z",
       "recordedKrw": 83364,
       "found": true,
-      "apiPrice": 83364,
-      "result": "same"
+      "apiPrice": 83754,
+      "result": "applied"
     },
     "ali-kz-pr3": {
       "itemId": "1005007805659342",
@@ -185,18 +185,18 @@
     },
     "ali-trn-vx-pro-plus": {
       "itemId": "1005007347440400",
-      "at": "2026-11-19T16:46:34.021Z",
+      "at": "2026-11-20T07:57:29.976Z",
       "recordedKrw": 46178,
       "found": true,
-      "apiPrice": 46178,
-      "result": "same"
+      "apiPrice": 46394,
+      "result": "applied"
     },
     "ali-qcy-crossky-c30s": {
       "itemId": "1005012387181102",
-      "at": "2026-11-19T18:36:17.697Z",
-      "recordedKrw": 40207,
+      "at": "2026-11-20T07:57:31.895Z",
+      "recordedKrw": 41989,
       "found": true,
-      "apiPrice": 41989,
+      "apiPrice": 41707,
       "result": "applied"
     },
     "ali-baseus-bowie-mp1": {
@@ -248,5 +248,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-20T05:46:11.166Z"
+  "updatedAt": "2026-11-20T07:57:32.699Z"
 }

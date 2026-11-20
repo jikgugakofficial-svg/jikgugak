@@ -5587,13 +5587,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.20 알리 자동",
     "slug": "ali-simgot-ew300",
     "domesticUrl": "https://link.coupang.com/a/iDBoDSbfW0",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4PLXIDZysKBfVMy6eZsCnUNbWjmn49lXFM16vLUwbw2uMZKfCipilPbbLv4vFQVLQXN2Vu58G2Mc6Wv9jYQpumBzmbg0cYbeDZ4zOQ9Rr3N3hlrdDu7oah9RJYP9XnlwpyoIi1BVUBAMmR6b9OoH2YuzP2bmDskTXYXqVzS5bEKWUoq5LEYxDTXM01AB9ifpgVqhSy9brK8U2cOT7xH2aW1SBthRBR7XQBfF1tLj2G3YjWLi2T6zUW1OV8FmWLYjWzjOlnxwBLTaiqg7cq2A0q4x3S1Hznpr44iDGPWvqeuBL5TUPNliZRhjmSqoFheRI5Eq2yV0xTe5WH9t30uOyrepE0Ug346gwaQZa5AF0yJMekViK4ZMgXevA9U2MVcNULmz2wW4rU6MXIssFnrBZuyalx7ebQDHI5Cd4VvHzvoUCCEOrjxqdIA3yVuuneGbG0QK8ovPO3jTcnpdWaIHB8GSMc6J3VOOJuxXeCGY8Gk32Wht3nrgepDTQM78hpVbAcEwtFY4V8ZABJkwS33oC95OYMc6kguQOj0DMV1aJhXEJX0zzd7DJ121aUvS37xo3PowJfV83QpgCMdwAUBJcYnypOntfF36VxYRcYv2FCgfN6L4JYkoMmRuONuNy5hfp0t5dnCrJT9wtCs4AjChVh5vTcL006C7u869DbCjGX1m7C9DSwDZJKWyHSPIf4fh0aq5QTpEf2RlS",
     "name": "심고 EW300 하이브리드 유선 이어폰 (3.5mm)",
     "category": "audio",
-    "priceKrw": 83364,
+    "priceKrw": 83754,
     "domesticKrw": 154300,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8797291766",
@@ -5645,6 +5645,13 @@
         "field": "priceKrw",
         "from": 83257,
         "to": 83364,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "priceKrw",
+        "from": 83364,
+        "to": 83754,
         "source": "알리"
       }
     ]
@@ -6148,12 +6155,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.20 알리 자동",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 46178,
+    "priceKrw": 46394,
     "domesticKrw": 65480,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
@@ -6207,6 +6214,13 @@
         "from": 46118,
         "to": 46178,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "priceKrw",
+        "from": 46178,
+        "to": 46394,
+        "source": "알리"
       }
     ]
   },
@@ -6223,7 +6237,7 @@
     "domesticUrl": "https://link.coupang.com/a/iIA5dcg3wa",
     "name": "QCY 크로스키 C30S 오픈형 클립 이어폰",
     "category": "audio",
-    "priceKrw": 41989,
+    "priceKrw": 41707,
     "domesticKrw": 65800,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8906816172",
@@ -6276,6 +6290,13 @@
         "field": "priceKrw",
         "from": 40207,
         "to": 41989,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "priceKrw",
+        "from": 41989,
+        "to": 41707,
         "source": "알리"
       }
     ]
