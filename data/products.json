@@ -2449,11 +2449,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5jYuey",
     "buyUrl": "https://kr.iherb.com/pr/jarrow-formulas-fem-dophilus-60-veggie-capsules/9346",
     "sample": false,
-    "checkedAt": "2026.11.19 쿠팡 자동",
+    "checkedAt": "2026.11.21 쿠팡 자동",
     "slug": "iherb-jarrow-fem-dophilus-5b-60",
     "name": "자로우 펨도필러스 50억 CFU 60캡슐",
     "priceKrw": 57814,
-    "domesticKrw": 30500,
+    "domesticKrw": 35770,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2478,13 +2478,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.12",
-        "field": "domesticKrw",
-        "from": 35830,
-        "to": 31300,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.13",
         "field": "domesticKrw",
@@ -2546,6 +2539,13 @@
         "field": "domesticKrw",
         "from": 30890,
         "to": 30500,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "domesticKrw",
+        "from": 30500,
+        "to": 35770,
         "source": "쿠팡"
       }
     ]
@@ -2672,11 +2672,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5wLhiC",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-ultra-omega-3-fish-oil-180-fish-softgels/96436",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 자동",
+    "checkedAt": "2026.11.21 쿠팡 자동",
     "slug": "iherb-now-ultra-omega3-180",
     "name": "나우푸드 울트라 오메가3 (EPA 500·DHA 250) 180정",
     "priceKrw": 46485,
-    "domesticKrw": 37940,
+    "domesticKrw": 42640,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2700,13 +2700,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.14",
-        "field": "domesticKrw",
-        "from": 42640,
-        "to": 40500,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.15",
         "field": "domesticKrw",
@@ -2768,6 +2761,13 @@
         "field": "domesticKrw",
         "from": 42640,
         "to": 37940,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "domesticKrw",
+        "from": 37940,
+        "to": 42640,
         "source": "쿠팡"
       }
     ]
@@ -2894,11 +2894,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5IA6rk",
     "buyUrl": "https://kr.iherb.com/pr/optimum-nutrition-micronized-creatine-capsules-100-capsules-1-25-g-per-capsule/68619",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 자동",
+    "checkedAt": "2026.11.21 쿠팡 자동",
     "slug": "iherb-on-micronized-creatine-caps-100",
     "name": "옵티멈 뉴트리션 미분화 크레아틴 캡슐 100정",
     "priceKrw": 29542,
-    "domesticKrw": 37630,
+    "domesticKrw": 37400,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -2922,13 +2922,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "domesticKrw",
-        "from": 28890,
-        "to": 33990,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.11",
         "field": "domesticKrw",
@@ -2991,6 +2984,13 @@
         "from": 37530,
         "to": 37630,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "domesticKrw",
+        "from": 37630,
+        "to": 37400,
+        "source": "쿠팡"
       }
     ]
   },
@@ -3004,11 +3004,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau66YgbCe",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.21 쿠팡 자동",
     "slug": "ali-qcy-melobuds-n70",
     "name": "QCY 멜로버즈 N70 (HT18) 노이즈캔슬링 이어폰",
     "priceKrw": 71740,
-    "domesticKrw": 58730,
+    "domesticKrw": 58180,
     "domesticSource": "쿠팡 로켓직구, 미드나이트 블랙",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cn3M0mIEYOGmw2TZYQnYSn2Bwn9PEriM7h8ZXNSqc0KHmzoH2Tl1waUMm6FZtUoFyKfpknF8cUC7KUX86k1C8ATybmKpD06eENjAXBJ3ou1eQdz44U1rLXWOuY8uMwEk7lIJ5zaqk4vFOg3JCUDEa0WZ8hsoyfmcSRYA1rIERb9jBjgP5PH45u8pI15qzvUCmeCzcaQG0mxH8OFmHbBj9GsVYdttkaldhALcVMHGpPflAgH4sxnNz3LnkVhcJr6sSOst2TrkYad0JFCZUbVSXflBBpEBivO8mXwHWqFjOMCwVzIF8b5lg0c0kiAho0RAv5bc9N8R74oRhDgtdHvw26eWbAVhYCNUSQT2VmlBk7ZOQhWebaJ4KWRemInxKXtXKBXofzDrsc86rWFb1p5iVemXYbu0AnA6c7VaiOkiOMp3p5B01PSwmdoWcyJSJZtKcm156LIZRzI0WKWxplzl4d36pFWRFlFRBDu8NB5rzeXC87E6WTHqQHnTnYA7LU3L2UC0H3qFJ7gwNvukgrStT8b9tuNYWl4xgdpzH0oF1EfprDtwSvgLlWzIu6qDmcnIq3MQF0SBBd42O1xhM5MaiWIq0k7ZX748cwXVnKT1W4Gm2hIhsr1wCeOsbIsVc7XJxNSSRBOz7RYkGZyKsZeNDOridKcmhN5Rc4Wpppq8a6g1oPARRZffjmW9Aq0SeDL2bH6s2xC0EBrC2g",
     "risks": [
@@ -3033,13 +3033,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "priceKrw",
-        "from": 72900,
-        "to": 72158,
-        "source": "알리"
-      },
       {
         "at": "2026.11.11",
         "field": "priceKrw",
@@ -3102,6 +3095,13 @@
         "from": 71406,
         "to": 71740,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "domesticKrw",
+        "from": 58730,
+        "to": 58180,
+        "source": "쿠팡"
       }
     ]
   },
@@ -3115,10 +3115,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau662nWai",
     "sample": false,
-    "checkedAt": "2026.11.19 저녁",
+    "checkedAt": "2026.11.21 알리 자동",
     "slug": "ali-edifier-m90-speaker",
     "name": "에디파이어 M90 블루투스 스피커 (블랙)",
-    "priceKrw": 287910,
+    "priceKrw": 289259,
     "domesticKrw": 249000,
     "domesticSource": "쿠팡, 한국 정발 블랙, 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4dqtHwHUNvoNtEzQGMfrvzRbufrwqXTbeQ1kju0nMKIMZ8VlgA1MUzhJpkE9B3OlKxCSdVypmqfxCo7GaDyl9I3dIYqB3VolglpYSMPPSNXh01oNgrs6NmHnK0DxlkvANTtQZvGuzfgrC6BoR4nnsui8CxFa5AjN2nt2Qgnc9mMkYcsst4DVWMdzCkG19uVBmkFpCFp2lD2x6sG4XNWp5lHGLk0tj0Y5nty9X67l65e7r5XMKxhjBxVSalcCG4ofW8oDQdfW4rgb1iyeuGaZZowV1hA0Au93itWziAhFu88XI0UkNj32bIN3PeudS2EYC7T7BDN1YTu3HtHvsbDqG7YSzWw7Ls6QOQZKisnQjGehbB4dZex5Nxu0IIQAGq5TlLFSH5S3EJfApYSUbTyCROZHtB9iFDaW9Fi33INvDupzSCu8tnh73jih1PZS7gjqLlBQeNPlnd0dy3jgSWuWTQbjVOSBUCyBfsqLZ89Q6iHfOpfJIs4JwMUUozlTBU1UKNJp7eVGKMK8nl2nSmq9LpobgyxCy4WotKbEqzWqU5ibQJ3bmrxPEwNYSLDzNHHve3sDBTbFv632Jw7cPSuPcNuSo1JXIgLlxkt3ItA7ZnxLSlCg1kZPXZZdaStc52PmqxZuQtEGeDWx0DhqPrQeliYeNFPLeRFPrA2qb0s6zHShJ2j9iiogzOPvCoWjIPkK5dK24xJYbSJoT",
@@ -3145,13 +3145,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.06",
-        "field": "priceKrw",
-        "from": 221189,
-        "to": 223365,
-        "source": "알리"
-      },
       {
         "at": "2026.11.09",
         "field": "priceKrw",
@@ -3214,6 +3207,13 @@
         "from": 219075,
         "to": 287910,
         "source": "매니저 확인(알리 API)"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "priceKrw",
+        "from": 287910,
+        "to": 289259,
+        "source": "알리"
       }
     ]
   },
@@ -3227,10 +3227,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.21 알리 자동",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 127935,
+    "priceKrw": 128361,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -3256,13 +3256,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.12",
-        "field": "priceKrw",
-        "from": 128400,
-        "to": 128238,
-        "source": "알리"
-      },
       {
         "at": "2026.11.13",
         "field": "priceKrw",
@@ -3324,6 +3317,13 @@
         "field": "priceKrw",
         "from": 127717,
         "to": 127935,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "priceKrw",
+        "from": 127935,
+        "to": 128361,
         "source": "알리"
       }
     ]
@@ -5818,12 +5818,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.21 알리 자동",
     "slug": "ali-kz-zsn-pro-2",
     "domesticUrl": "https://link.coupang.com/a/iDBoD7XW8W",
     "name": "KZ ZSN Pro 2 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 17949,
+    "priceKrw": 18009,
     "domesticKrw": 30000,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8502968328",
@@ -5891,6 +5891,13 @@
         "field": "priceKrw",
         "from": 17518,
         "to": 17949,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "priceKrw",
+        "from": 17949,
+        "to": 18009,
         "source": "알리"
       }
     ]

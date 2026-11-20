@@ -1660,7 +1660,7 @@
       "model": "Robot Vacuum S10",
       "cat": "home",
       "why": "샤오미 로봇청소기 중급형, 국내 정발·알리 판매(S10+·S10 Pro와 구분 필요). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T09:40:37.040Z",
+      "at": "2026-11-20T18:02:16.987Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -1672,14 +1672,14 @@
       "model": "C920",
       "cat": "it",
       "why": "로지텍 웹캠 스테디셀러, 국내 정발가가 일정하고 알리 공식 스토어 판매. C920s와 구분 필요(모델명 정확히). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T09:40:41.177Z",
+      "at": "2026-11-20T18:02:20.986Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012105990962",
           "title": "로지텍 C920e HD 프로 웹캠 와이드스크린 비디오 채팅 녹화 USB 스마트 1080p 웹 카메라 (컴퓨터용) C920 업그레이드 버전 CMOS",
-          "price": 84000,
+          "price": 83800,
           "orders": 5,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9bbdeebe0f1f4b5dbc6285a19ba04d9d2.jpg",
@@ -1688,30 +1688,22 @@
       ],
       "coupang": [
         {
-          "id": "6628649451",
-          "name": "로지텍 C920 HD Pro 웹캠",
-          "price": 72690,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/J2JUvqHRmXfRZmV8Jzzra5NCVersL95H3Y3R9YEsl-tFJtsuHiOQpeqj2AEnmPRvO6q1fgkWU7U4kC9eVVzURAAw9XIWaE1nn60HZoMdk0A1nUEJ6BRl-9svPx98Wfbk5RGblG_ub10DWNP8kz-0hRtB-j8uzbPGzaC9tFPuAsHU6hihePsGQ4Q1nso_gh_oogwg9uFMFSt9TKwWnJrw3VaXF5cboLIWZASkrG_RDS9RWaI0I0w_JrPQ2OHr2DbZ_Dr6c6cU21vy9pyD6puTxDGdOQPFltImIKZGIO1w4iE6z8Mz2JzW2TcBGOzRQO9xiJ3w4INMseqcioNc2Gd_gjSLAE9xdnsLu4xx9ISGu9Zx-2gyCzM-Iy0oiEdprUqnKvguaBHZH-sYi7hKmdhVwo3GUoAymzy9Hn9_9fryxBhbY1Mb-aef9OJnUjwG5roakYox030AloeuiaOr6C9fPVgM5YUYKO5GwNL8UyZbysXUV2w1_JSXH3VuZRdtzhNXMdBPskiGLyqoixWwOJ3GPzWgc-aLPQMNvPiCn1ocSd6KxIuB",
-          "url": "https://www.coupang.com/vp/products/6628649451"
-        },
-        {
           "id": "9785548775",
           "name": "로지텍 C920 HD Pro 웹캠",
           "price": 139000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/fsT94DML_aW0DY17fhe84YsEf4ySY3v4hzLU6rQ4wyv7LWX8ooSfV_2MmNCaPdAwam-taIQakd8ywyLpuI6WuU7YXjECln2D7BzSIWQx8lpTRuMX_rlD-48iNQuFtr7o0I2LrVEII_I5m3tR3I1pXhp2MgVInu3ofyeLam1wFpU4fTXysZqseQUAd-OunYLz8HullJJqpboGsPPUqyLN12ZNcrMQk1xxPvApzQ51785vrb7gmjR9KFMRhC4ovAd6mRjDnE26YBgNgGjGXfBfmTFkmNO74E0NVTlmfxI6nrMejl8Id9_b5tygo5-qIgRMSBF1F43-GdN8FHVNtq0U6FTyyeN0mQTcqWO1kFSjQVYBqBzNpTHBVDS2VGXZZHAdJOByyOx_4l7r2FJGD_I7u1-_nD0lgxsSJlrnDuB_7DOJy0XcUgbdG_eJbYe0kjdzfgdHLxPpEhG5RMCjrdd-K47u2duvsZvrxjn83Hd9UDnJMgGRcboYM9ZJU6M_KY5KU75tI_jsbserUPCkSFW3tyVwkTLGG5LJz60RPYguNDf2Mw==",
+          "image": "https://ads-partners.coupang.com/image1/vjVrdPWH1qw6O_OYvhB0PfEIOdUCCV7oeqoMW6xdVZ_J4ncDXeTA_xcVZe_PIupXU-ro_1QuHYkWg-I4Q3hQDjshKeM5aYafmzcmuqFU3YBfjmE6SaoUjABUuiLhM_x2RiiX1pGBSlWIpcK2E-X1rYLuCmV-wC3c5vRAl-QdPRGQ7eFgftXFViZY91FxXbV7fBzdxP6lQPCnUqvddlJgJQWrZmGMybIPyHkL6cHNZH4_pfndQ8lX3fj_BEIfydgJR48NJqwNb5_jS2hUR4HXfgMaWLnYLsmx65R8VbvFxDQamnOFkxwjXaBKJcP_VBbVP2L2nQ9jLpHmciKOBCxpzcaFZEOyNSOXQ90VzXcrs82ZnEuuvu-okefyO7oyu4pDoaH8R4MreQAYJOzbj56ZEf-IkeBR02F5S5laCcx1bEeNsSm3hxIkXueHUTtjViUrjiXBsjI-aqgt0IKlbICWZnNebPwtQmAT6hYNsBQUkrT4Ky4o-x4xA9EK06CRcQsPCdJeN43YzL3-1MwA9xhDAyvrS5-WlYoxCyHSOmxk_zKqCZI=",
           "url": "https://www.coupang.com/vp/products/9785548775"
         }
       ],
       "best": {
         "aliId": "1005012105990962",
-        "coupangId": "6628649451",
-        "aliTotal": 84000,
-        "coupangPrice": 72690,
-        "verdict": "bad",
-        "diff": -11310,
-        "pct": -16
+        "coupangId": "9785548775",
+        "aliTotal": 83800,
+        "coupangPrice": 139000,
+        "verdict": "good",
+        "diff": 55200,
+        "pct": 40
       }
     },
     "Logitech Pebble Mouse 2 M350s": {
@@ -1720,15 +1712,15 @@
       "model": "M350s",
       "cat": "it",
       "why": "로지텍 저가 무선 마우스. 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T09:40:45.166Z",
+      "at": "2026-11-20T18:02:25.044Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012428737228",
           "title": "로지텍 페블 마우스 2 M350s 무선 블루투스 마우스 4000DPI 77g",
-          "price": 26650,
-          "orders": 48,
+          "price": 23568,
+          "orders": 50,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6da273e11c7d4cf1a8bc25117a7586a3h.jpg",
           "url": "https://ko.aliexpress.com/item/1005012428737228.html"
@@ -1736,8 +1728,8 @@
         {
           "id": "1005012853126039",
           "title": "로지텍 페블 2 콤보 K380s 키보드 M350s 마우스 세트 블루투스 로지 볼트 무소음 슬림 멀티 디바이스 무선 오피스 키보드 마우스",
-          "price": 53700,
-          "orders": 7,
+          "price": 47427,
+          "orders": 8,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S251951a3dfdb43528e758efcc736fffdf.jpg",
           "url": "https://ko.aliexpress.com/item/1005012853126039.html"
@@ -1745,7 +1737,7 @@
         {
           "id": "1005012844145704",
           "title": "오리지널 로지텍 페블 마우스 2 M350s 무소음 블루투스 무선 마우스 멀티 디바이스 슬림 휴대용 조용한 클릭 오피스 마우스",
-          "price": 27250,
+          "price": 27150,
           "orders": 6,
           "rating": "20.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2de6619a55d84a24b480a3099b0a0fb1l.jpg",
@@ -1760,14 +1752,14 @@
       "model": "V10S",
       "cat": "home",
       "why": "퀘이사존 알리 드리미 V10S $77.35(2025.05, 무료배송) 핫딜 글, 작년 광군제 구매 후기 댓글. 국내 정발 유통 여부 불확실(쿠팡에 같은 모델이 없으면 탈락)",
-      "at": "2026-11-17T09:40:49.084Z",
+      "at": "2026-11-20T18:02:28.904Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012624860292",
           "title": "Dreame V10S R10 R10 Pure V11GT CleanX U8 V10 XR용 옵션 오리지널 엣지 클리닝 소프트 롤러 브러시(녹색 불빛이 먼지를 보여줍니다)",
-          "price": 501000,
+          "price": 499800,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3748c18a384b4966b4e4577f4bca594cF.jpg",
@@ -1776,7 +1768,7 @@
         {
           "id": "1005012355281180",
           "title": "Dreame V10S R10 R10 Pure V11GT CleanX U8 V10 XR용 오리지널 엣지 클리닝 소프트 롤러 브러시(녹색 불빛으로 먼지 감지) 옵션)",
-          "price": 74700,
+          "price": 74500,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3dbcc3ef53e14191bc6645e68b58e15ae.jpg",
@@ -1786,21 +1778,21 @@
       "coupang": [
         {
           "id": "8818807620",
-          "name": "드리미 레이저 무선진공청소기 V10s",
+          "name": "드리미 레이저 무선진공청소기 V10s, 레이저 무선청소기 V10s, White",
           "price": 159000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/_33urTnk6OCLvNCp_3PV6O8j2OU8svzze4tDxAxVMRB9Xk0GyyRCUSVf7b7D343qjVWxfL9LB-AwJxM265i-iWr6KPo6ioeI7eV3UOXg-YITGbJn-gxylfJ-1cbWejataPFoOadCYZFn1QLQhsQokj9OS3m48p7JBZYfjcqNbhH_T0M_FsdUYIjnNIsr3ZdiOiy6L9_oyjxFUNawWBYqYEXSD3m9tj2Ff03Hg48VHiTSgru0uy5PpJMvqcBHC_pPK_7uEgudU6UWUWrwNIJP_fAYblAUV_Tujt33qnacyZgcnS00t9pNQOa9boWtTF50sTIvU1ovpB2ZgJ2pH4ff9Ff_cTYPJtzgRbyZ1VY0WdUTNM8as9axz3S_D427TU4o6eQLiQHTQArE6TOQkp8hfhL-DZC1vQ10uugS9cSi57TuZ1zeTyPri0B4EBEDUzLPvhaeQ_w1V_axkic2Sz_WsE6ubbbPG3ouRYUK1stq0Jbr6FFZW7fLOf-5az8lJNDWKpS5PZkf4KFscwulo0-infjyaWpiV8ZUpnTcVpd81qe-IvY=",
+          "image": "https://ads-partners.coupang.com/image1/f3GYwCp7GjoauM5Yf3azzpHDDCDW7aCPv7oS-IreratIrTmntiZYnMKqadBDWlVR5sBZsP8qHe_cmhR30SFhwq747clXA-XFCW-I6YOEdZqDbEHu7XVtgYnjaPKUNz-yhSJvJDQqGchi51paiFix1tWH_Wkob787zZNNu-71zljX2MRmDvj0fo5K0MxyydXymFiso7kZoEvQUGBAtoXgdaNBuWFm1QmG28nbpGBS-g0laUN5lct54CuT0-gMykZvW5kgfFOuNNt4Be6auJ5Zf_d8A8s0dQAPR-yNJpv_dQxjYDMO-pmo-cNSwCNr8qncyapSOA3dhe4mUirBqRs4IRY9J269d1KcD14auIr4bj8mrS4AlV98FiPVX0pQzNmY4iMQZNEcrj8GmrFSfXPIqssxjtF-UoAiEn0aDdbuYesH7Q32P214ipha9Qrwa9wHm8tGNR-ikXAuDhD3LGz-F9eC72InTC1vTNYPbS4zCFHVVKRer8_4l3pc0FN-Vtss2qdhKJRzRqJtQ11Wfi_XQpTAa8aW1fY=",
           "url": "https://www.coupang.com/vp/products/8818807620"
         }
       ],
       "best": {
         "aliId": "1005012624860292",
         "coupangId": "8818807620",
-        "aliTotal": 595188,
+        "aliTotal": 593762,
         "coupangPrice": 159000,
         "verdict": "bad",
-        "diff": -436188,
-        "pct": -274
+        "diff": -434762,
+        "pct": -273
       }
     },
     "Sennheiser HD 560S": {
@@ -1809,26 +1801,26 @@
       "model": "HD 560S",
       "cat": "audio",
       "why": "젠하이저 오픈형 헤드폰 인기 모델(등록한 HD 600과 같은 계열), 국내 정발·알리 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T09:40:53.175Z",
+      "at": "2026-11-20T18:02:32.969Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
+          "id": "7210420183",
+          "name": "젠하이저 HD 560S 유선 헤드폰",
+          "price": 103770,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/oASJ7n6nutoxyNxwoA90vrZapaKL6UaxjwlAggLHmrsC6LztLa5t4pBB_xBSsPaWcwT6YrWUFFpWOOdNJenLttcM3mrRr5uqKaU0WPK6xGdBoawacB06kOwaiM8JC_kHeT1soZtTYNLIqV08SWpBNxTVthZ67NGm9WIXxdWpsuk-a4Q8gRYLKgKPaOWIMKGk5lsZwmmeiaEVUfhk5VFfGNsTIYFBjOlSdErI2eizehoibuGFR1Db1TXXYRZ4o-Yoh0sH9xFjWPhgMZ3MvUuyRfhiu2uIs_M3EFgkiGQcWzhDEbPpJmUgmcb4Ivb-hWgq_x_rej2TL_pBkB_36oO9xRYObrXxfQK3vvBOfa6AxYzTih8dc77HaX4AHTFVTXU-irNolTsMSPdlGh58aAGBfRGP6X28pQzixbKdDvUGcNHI07CoF0t_UGhrWxB1VfHwDvlYxeLUz-Ogia254ikPAz3GiZUU0caJvSLBtJvGYZFW1KLGlgcWJBzrWmvZk1eJcfDXU-DBKExbJp7W4-8rA6gvQHLJqpR0w6UJ4La6PJkbAQ==",
+          "url": "https://www.coupang.com/vp/products/7210420183"
+        },
+        {
           "id": "7883063327",
           "name": "젠하이저 HD 560S 오픈형 유선 헤드폰",
           "price": 179000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/ohZZDtx-0cTBsD7eokD-UH4J_fk7sLmS3imWMGjB7ef58mjGEdcuC0OABbSZyo-DRMSVAYEAhi1RXHhz0dvkBMAsHqPw4bb8AZLTquTjY8NRTSrlmqcw7EfiKFiK0B3ADexrrgaoAuPEISaKR5povIqZNZ6qFd5xWg_PZW7cB96XXZdiyMmmscsQ787GRKAzTBDU6upyj69SLs60--d9lWMW7oIKUjZ_6y_5O1CwoIbHCeYt0-9zyRicIxYwk13iKCNO6c4vl8neuL5Ly8SCR2iTSDaDx9gKWN16wSyT9VTNj31l0Q8NrXjcgoBNzNsqofunnjQJniTMpKPS-25qGVziXuHPHkJV8lLM6M3Ccpmk6lkib9xXdcgc821BTG8mQsSJ3yQXxZllsVIeMzq3P2PJL66YTa-BmrkLmd0A-2WhXEwV9q8yGp_uU2sqr4C6KGfodLOASGwlcyE3lU5hD5Gyg2XoibtL1aCPFB19VhSOLgDSgTzY6LBTMo5DI5UbUp7sgfK-M807C2ghL2TMYmxy",
+          "image": "https://ads-partners.coupang.com/image1/K_coQJcTbZbcQRpqK4xo55CctLnU3_K3K1YZ-8Rj18O4wFC3tqruhGsiSg0SliqrA121oBL2j08kk3juiwxMqkHqsFPfdgLR1W6cKHMpgibUiAmqfFpqn2ES-iYLYC1D3-pNtlHhwsDR7lcyqjR36D2fxuwBjKaV-l4eypNO9WKUxM9eLMbI_et3ZYz3zqd0la6RgJ72VpJco0ciBSc9SB-aFd38cvPIxSxXhJs6CV0y-498aWXK9QqHhx7-_r2Q6HnwMC6EMA5Dv3TdbaqQhrBvlNIXH1vR5DXPK3dLbvrrSnDuyah3Bn_NqndMP9FL_fvU12J8NfdbrySKfA9LHidFtaP5VbEk7ieXA2xy4LTB7ktfmV0Rfm0_aYJmcOYsOndbh7EpVEE8H2bDgMBzzf-VgnLPFfRlASn_1f30yI5ZBnz7PewCgrVG8IBXOiGQHzlYG07_BK3WZcx4mGGvZPk4fnDb1nGSEpmY1b_bRfiSihoxIGXFm2cxYduRtlw_T9BRqVFyzbyk8cdwlNbb1l5MgA==",
           "url": "https://www.coupang.com/vp/products/7883063327"
-        },
-        {
-          "id": "7210420183",
-          "name": "젠하이저 HD 560S 유선 헤드폰",
-          "price": 272880,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/13V5zTyhn-ETjTQW15d96ew7jdwhf4QmrBlxj25xQJtAI1lnHuUfzIBfpdzhf4uW25oM3q1iI4eqlM3UEHwTx48N6ZEQqrhYHRPAAXSDx6tyiKDXAJgs0luFpZ2PVKq7LMOUh34w6PBl-Y_h5908RB9AAZ1bNzcUFLhaHe_vTcN-gC9SaRXhxq7-zMSEEVjBt8huPHHso3rXXN-cLyvq8Vj9QVloEeH5qZAKNrIdOAarPniihe5kpMfIyCqi3zftN6v5P0rahizK7ap4p3v2DFWY-omc-kFdZksuMcXrSXB_y2aCEq_1fhAX7TAehkZ0mBw7ZOoBFvOeHuGAZmRjx1w5o_aaIy5n8PHdvy_IexI6AMuPLYDvAts4BYocVo8k3RcRDG3oJoid0XthkX3KrafqtgMstDLiceOgJ8bmc-IkGb3R4S-OFVtAMIG9VR35L2cXlJcES7GM6wHKGpQeTJTv4XEx9MhzSds7I9E584WuVHDggOXkwTXTFx113nMnPlzrzs_J3SA8qRBTTy9bnpTJlZ2186_kgNhGIoII9yq9Xw==",
-          "url": "https://www.coupang.com/vp/products/7210420183"
         }
       ]
     },
@@ -1838,16 +1830,16 @@
       "model": "ATH-M40x",
       "cat": "audio",
       "why": "등록한 ATH-M50x의 아랫급 모니터 헤드폰, 국내 정발·알리 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T09:40:57.230Z",
+      "at": "2026-11-20T18:02:36.933Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013313159028",
           "title": "오디오테크니카 ATH-M50x, ATH-M40x, ATH-M70x, ATH-M60x 모델용 그래핀 7N OCC 차폐 동축 혼합 이어폰 케이블 (LN007801)",
-          "price": 27200,
+          "price": 29100,
           "orders": 5,
-          "rating": "",
+          "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5c2ea6ea383542b8995d4ca841ed2beaO.jpg",
           "url": "https://ko.aliexpress.com/item/1005013313159028.html"
         },
@@ -1863,7 +1855,7 @@
         {
           "id": "1005013154481288",
           "title": "팔라듐 그래핀 코팅, 99% 순도 은 도금, 오디오테크니카 ATH-M50x, ATH-M40x, ATH-M70x, M60x, 8343 모델용 이어폰 케이블",
-          "price": 46400,
+          "price": 46300,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb0b9d40cfed44e4f89c009ac51e9b2fbu.jpg",
@@ -7179,5 +7171,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-20T04:40:39.038Z"
+  "updatedAt": "2026-11-20T18:02:40.900Z"
 }
