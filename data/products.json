@@ -677,7 +677,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9wnwLA",
     "sample": false,
-    "checkedAt": "2026.11.10 오전",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-lego-10309-succulents",
     "name": "레고 보태니컬 다육식물 10309",
     "category": "toy",
@@ -760,7 +760,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9BNa5A",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-lego-10280-flower-bouquet",
     "name": "레고 보태니컬 플라워 부케 10280",
     "category": "toy",
@@ -807,12 +807,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9Iw36i",
     "sample": false,
-    "checkedAt": "2026.11.10 오전",
+    "checkedAt": "2026.11.20 오전",
     "slug": "amazon-sony-wh-1000xm6",
     "name": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
     "category": "audio",
-    "domesticKrw": 471000,
-    "domesticSource": "쿠팡 플래티넘 실버 일반판매가(와우 451,000), 무료배송 · 내일 도착",
+    "domesticKrw": 468000,
+    "domesticSource": "쿠팡 플래티넘 실버 일반판매가(와우 459,750~), 무료배송 · 내일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0F3QJLD3B",
     "risks": [
       "$200 넘으면 관세 8% + 부가세 10%",
@@ -832,7 +832,7 @@
       "overseas": "ASIN B0F3QJLD3B",
       "model": "Sony WH-1000XM6 플래티넘 실버(WH1000XM6S)",
       "note": "쿠팡·아마존 모두 플래티넘 실버로 맞춤(11/10 운영자: 같은 색 찾기). 아마존 ASIN은 웹 검색(Slickdeals 플래티넘 실버 딜 링크·desertcart)으로 확인, 아마존 화면은 열지 않음. 이전 ASIN B0F3PQHWTZ는 블랙",
-      "checkedAt": "2026.11.10"
+      "checkedAt": "2026.11.20"
     },
     "priceLog": [
       {
@@ -848,6 +848,13 @@
         "from": 478390,
         "to": 471000,
         "source": "매니저 브라우저 확인(쿠팡)"
+      },
+      {
+        "at": "2026.11.20",
+        "field": "domesticKrw",
+        "from": 471000,
+        "to": 468000,
+        "source": "매니저 브라우저 확인(쿠팡)"
       }
     ]
   },
@@ -861,7 +868,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9ORzhI",
     "sample": false,
-    "checkedAt": "2026.11.14 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-logitech-mx-master-3s",
     "name": "로지텍 MX Master 3S 무선 마우스",
     "category": "it",
@@ -1040,7 +1047,8 @@
         "to": 38400,
         "source": "매니저 브라우저(11/10 아침, 기본 옵션 블랙 2.0)·쿠팡 공식 API 같은 상품 번호 6792297030"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -1086,7 +1094,8 @@
         "to": 51080,
         "source": "매니저 브라우저 확인"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "iherb",
@@ -1150,7 +1159,7 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-sennheiser-hd600",
     "name": "젠하이저 HD 600 오픈형 헤드폰",
     "category": "audio",
@@ -1386,7 +1395,8 @@
         "to": 209280,
         "source": "매니저 브라우저 확인(쿠팡)"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -1440,7 +1450,8 @@
         "to": 52400,
         "source": "매니저 브라우저 확인(쿠팡)"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "aliexpress",
@@ -1717,7 +1728,8 @@
         "to": 78900,
         "source": "매니저 브라우저 확인(쿠팡)"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -1729,7 +1741,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynD4xEb0K",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-samsung-t7-shield-1tb",
     "name": "삼성 T7 Shield 포터블 SSD 1TB (블랙)",
     "category": "it",
@@ -3884,7 +3896,8 @@
       "model": "Beats Studio Pro 블랙(MQTP3LL/A)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션은 화면을 못 봐서 미확인",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -3922,7 +3935,8 @@
       "model": "Beats Powerbeats Pro 2",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션 미확인",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -3959,7 +3973,8 @@
       "model": "Beats Solo 4 매트 블랙(MUW23LL/A)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션 미확인",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4022,7 +4037,8 @@
         "to": 269000,
         "source": "쿠팡"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4070,7 +4086,8 @@
         "to": 164000,
         "source": "쿠팡"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4082,7 +4099,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzX1PGlU",
     "sample": false,
-    "checkedAt": "2026.11.12 쿠팡 API",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-bose-qc-ultra-earbuds-2",
     "name": "보스 QC 울트라 이어버드 2세대",
     "category": "audio",
@@ -4163,7 +4180,8 @@
       "model": "Razer DeathAdder V3 Pro 무선(블랙)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션 미확인",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4201,7 +4219,8 @@
       "model": "LEGO Icons 10359 Fountain Garden 1,302피스",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 세트 번호 같음",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4213,7 +4232,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzYhYh77",
     "sample": false,
-    "checkedAt": "2026.11.18 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-lego-10328-bouquet-of-roses",
     "name": "레고 보태니컬 장미 꽃다발 10328",
     "category": "toy",
@@ -4351,7 +4370,8 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저)",
       "checkedAt": "2026.11.09"
     },
-    "image": "https://ads-partners.coupang.com/image1/601rkyHehIyFm1GW67mijNFMDq-syhpdKlTnpA3bNLUxjrfTaa8NWVaGjhYpSLv5-ql5cREbcLE6BJWicK5sowqXbohZJXnRyj68h3I5WGbfMWHRnfxb9b8kXVOS0M0ro7AlFiXNbNF_RcH7n25ij8ovXXbZw-tDO3UXv0zEfgtfJghrzUFtFYFVjwUVwOxVl4ejxi1eVinDLx6nZofZT7b2b2HkmC-CNrZ08eOIOeofydGVT27fTGsmn8D0iNcRRngmk7S0ff7loKzU6MkuFje50wKpb61lez96ptU-hb1qAsslOQuHjFoHL6Q7f1AgaJ_nrQ6md_fu8XtvUrP8XKbXApwoFXIr-bouBHl9X19ADANM3Ejt9QVgT-yKVWmQHJvQq31OjKgb17t_7xX2AqtbnPxSbXvX4qqTK_AcPiB2R5kKJX0rQS4D-CQs3TTPMtaJbMdgyIaMGXdJC6AbyqjlHa4J0YNos-waUONXxxl0Cs4cWSbBBy0O0zijT4npO4x01r509k4mcMRXEqe6cLjsWPUQRzHmZDzhSQCUQA=="
+    "image": "https://ads-partners.coupang.com/image1/601rkyHehIyFm1GW67mijNFMDq-syhpdKlTnpA3bNLUxjrfTaa8NWVaGjhYpSLv5-ql5cREbcLE6BJWicK5sowqXbohZJXnRyj68h3I5WGbfMWHRnfxb9b8kXVOS0M0ro7AlFiXNbNF_RcH7n25ij8ovXXbZw-tDO3UXv0zEfgtfJghrzUFtFYFVjwUVwOxVl4ejxi1eVinDLx6nZofZT7b2b2HkmC-CNrZ08eOIOeofydGVT27fTGsmn8D0iNcRRngmk7S0ff7loKzU6MkuFje50wKpb61lez96ptU-hb1qAsslOQuHjFoHL6Q7f1AgaJ_nrQ6md_fu8XtvUrP8XKbXApwoFXIr-bouBHl9X19ADANM3Ejt9QVgT-yKVWmQHJvQq31OjKgb17t_7xX2AqtbnPxSbXvX4qqTK_AcPiB2R5kKJX0rQS4D-CQs3TTPMtaJbMdgyIaMGXdJC6AbyqjlHa4J0YNos-waUONXxxl0Cs4cWSbBBy0O0zijT4npO4x01r509k4mcMRXEqe6cLjsWPUQRzHmZDzhSQCUQA==",
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4363,7 +4383,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iw0RFRNgJw",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-apple-airpods-pro-3",
     "name": "애플 에어팟 프로 3",
     "category": "audio",
@@ -4451,7 +4471,8 @@
       "model": "Sony WF-1000XM5 블랙(WF1000XM5/B)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션 미확인",
       "checkedAt": "2026.11.09"
-    }
+    },
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4746,7 +4767,8 @@
       "model": "Sony WH-1000XM5 블랙(WH1000XM5/B, XM5BK)",
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색: camelcamelcamel·uniquephoto·슬릭딜에서 블랙 확인, 아마존 화면은 열지 않음)으로 맞춤(11/10 매니저). 쿠팡 판매자 상품 색 옵션 미확인",
       "checkedAt": "2026.11.10"
-    }
+    },
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4850,7 +4872,8 @@
         "to": 398990,
         "source": "쿠팡"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "amazon",
@@ -4862,7 +4885,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iyCmqzhXCC",
     "sample": false,
-    "checkedAt": "2026.11.12 쿠팡 자동",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-garmin-forerunner-265",
     "name": "가민 포러너 265 러닝 스마트워치 (46mm)",
     "category": "it",
@@ -5070,7 +5093,8 @@
         "to": 222000,
         "source": "쿠팡"
       }
-    ]
+    ],
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "aliexpress",
@@ -5852,7 +5876,7 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.13 쿠팡 API 매니저",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-marshall-emberton-3",
     "domesticUrl": "https://link.coupang.com/a/iDBoEc0TRI",
     "name": "마샬 엠버튼 3 블루투스 스피커 (블랙 앤 브라스)",
@@ -5891,7 +5915,7 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 API 매니저",
+    "checkedAt": "2026.11.20 쿠팡 API 매니저",
     "slug": "amazon-razer-huntsman-v3-pro-tkl",
     "domesticUrl": "https://link.coupang.com/a/iIA5cMwriD",
     "name": "레이저 헌츠맨 V3 프로 TKL 게이밍 키보드 (US 배열)",
@@ -5959,7 +5983,8 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(SHURE MV7+ PLUS, 화이트, MV7+)과 아마존 ASIN(웹 검색: camelcamelcamel·pricehistory, 아마존 화면은 열지 않음)으로 맞춤(11/16 매니저)",
       "checkedAt": "2026.11.16"
     },
-    "image": "https://ads-partners.coupang.com/image1/VVY-nv_TY4f8T4y1VWDDBGRJKiQZMmYjRYu7PzazqFBR8QDlH7H2Cym2clJGfpYS9oudAs1Z3HD9cQ1Yas9ndDEJfGfDITUVTClXIJCup_hnHEq4RBsxYIADGjEUrTY63kTi0mf1ws0lfej-GjB66aREQ0kQzNXg6vHP8z8AS3R9mJfS-ENPI5bTc0k7BqRb6t3sr3EcsU-lfZ-tOivHsd9BMrPA9DS9ru4SodXAhcIg3ks0R1t6Wb2FRtwhBtHbSb9iicrGLPDhTQSuGBajS1Nh32YxiRUDtUgiUdYVVAsDoekZYp1rk3IsSK2gakoEOXv48oXVlNCDfc79OR3beR8s5CZPg0ZtLEiziNWZ3igtnEARN5CNCTDBuy1WjCL5ejzdTJCgUG0BaFPN_IIf9PsA4Ic5V7CUAUpxNCEFo6q3OGRlXc-oaGykOS_NLuMj0R7niZ2RjEURB5q4zywZTatnKWq9nWLXwjOvfDQbe3hvXTXRIM7NpHuJaHBTiLp4rNa-g349Zy8pzUkUls4itG4LO7h48kAtTbJhyxW-RyT3XNqCnQe1CoX9LnjtP8zwen4IoRxgJgPmpCsfD1YQoWRf60M="
+    "image": "https://ads-partners.coupang.com/image1/VVY-nv_TY4f8T4y1VWDDBGRJKiQZMmYjRYu7PzazqFBR8QDlH7H2Cym2clJGfpYS9oudAs1Z3HD9cQ1Yas9ndDEJfGfDITUVTClXIJCup_hnHEq4RBsxYIADGjEUrTY63kTi0mf1ws0lfej-GjB66aREQ0kQzNXg6vHP8z8AS3R9mJfS-ENPI5bTc0k7BqRb6t3sr3EcsU-lfZ-tOivHsd9BMrPA9DS9ru4SodXAhcIg3ks0R1t6Wb2FRtwhBtHbSb9iicrGLPDhTQSuGBajS1Nh32YxiRUDtUgiUdYVVAsDoekZYp1rk3IsSK2gakoEOXv48oXVlNCDfc79OR3beR8s5CZPg0ZtLEiziNWZ3igtnEARN5CNCTDBuy1WjCL5ejzdTJCgUG0BaFPN_IIf9PsA4Ic5V7CUAUpxNCEFo6q3OGRlXc-oaGykOS_NLuMj0R7niZ2RjEURB5q4zywZTatnKWq9nWLXwjOvfDQbe3hvXTXRIM7NpHuJaHBTiLp4rNa-g349Zy8pzUkUls4itG4LO7h48kAtTbJhyxW-RyT3XNqCnQe1CoX9LnjtP8zwen4IoRxgJgPmpCsfD1YQoWRf60M=",
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
   },
   {
     "store": "aliexpress",
