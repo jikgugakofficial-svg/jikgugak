@@ -74,7 +74,7 @@
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
     },
     "amazon-bose-qc-earbuds:domesticKrw": {
-      "at": "2026-11-19T15:39:36.447Z",
+      "at": "2026-11-20T00:26:17.863Z",
       "slug": "amazon-bose-qc-earbuds",
       "field": "domesticKrw",
       "recorded": 164000,
@@ -102,7 +102,17 @@
       "change": "160%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "amazon-bose-qc-headphones:domesticKrw": {
+      "at": "2026-11-20T00:26:13.653Z",
+      "slug": "amazon-bose-qc-headphones",
+      "field": "domesticKrw",
+      "recorded": 269000,
+      "api": 349000,
+      "change": "30%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-19T23:26:01.487Z"
+  "updatedAt": "2026-11-20T00:27:05.279Z"
 }
