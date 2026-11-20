@@ -327,6 +327,9 @@ document.addEventListener('click', (e) => {
   // 운영자 기기(관리 화면 비밀번호가 저장된 브라우저)는 방문·클릭을 세지 않아요.
   let me = false; try { me = !!localStorage.getItem('jg_admin'); } catch { /* 모름 */ }
   if (me) return;
+  // 사람이 아닌 방문(검색 로봇·배포 때 화면을 찍는 자동 브라우저 등)은 세지 않아요(11/20: 첫날 57건 중 54건이 홈 직접 방문).
+  let robot = false; try { robot = !!navigator.webdriver || /bot|crawl|spider|headless|screenshot|lighthouse|preview|monitor|pingdom|uptime/i.test(navigator.userAgent || ''); } catch { /* 모름 */ }
+  if (robot) return;
   const beacon = (body) => { try { navigator.sendBeacon('/api/click', new Blob([body], { type: 'application/json' })); } catch { fetch('/api/click', { method: 'POST', body, headers: { 'Content-Type': 'application/json' }, keepalive: true }).catch(() => {}); } };
   // 방문 수(합계만, 11/19): 페이지 열람은 매번, 방문은 탭 하나에 한 번(처음 들어온 페이지로).
   beacon(JSON.stringify({ src, to: 'pv', page: location.pathname }));

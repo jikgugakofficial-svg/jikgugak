@@ -17,6 +17,8 @@ export default async function handler(req, res) {
   if (req.method === 'POST') {
     const b = await readBody(req);
     const to = STORES.has(b.to) ? b.to : 'other';
+    // 방문·열람은 사람 것만: 로봇·자동 브라우저(배포 화면 캡처 등)의 요청은 세지 않아요.
+    if ((to === 'visit' || to === 'pv') && /bot|crawl|spider|headless|screenshot|lighthouse|preview|monitor|pingdom|uptime/i.test(String(req.headers['user-agent'] || ''))) return send(200, { ok: true, skipped: 'robot' });
     // 페이지는 묶어서: /p/상품, /deals/1111, /search, / 등
     const pg = clean(b.page, 60).replace(/^\/p\/.+/, '/p').replace(/^\/social\/.+/, '/social');
     const field = `${clean(b.src, 20)}|${to}|${pg}`;
