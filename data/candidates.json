@@ -1870,10 +1870,38 @@
       "model": "Clip 5",
       "cat": "audio",
       "why": "JBL 휴대용 스피커 인기 모델, 국내 정발가 대비 알리 JBL 스토어 차이 확인 가치. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T19:44:34.099Z",
-      "status": "none",
+      "at": "2026-11-21T00:15:38.506Z",
+      "status": "no_coupang",
       "coupangTop": 10,
-      "ali": [],
+      "ali": [
+        {
+          "id": "1005013629203677",
+          "title": "Camping Beach JBL Clip 5 휴대용 블루투스 스피커, 파티용 LED 조명, 핸즈프리 통화, 자동차 여행 및 여행용 HiFi",
+          "price": 31200,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8d2980a0c3bc479c812fec1d04337182t.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013629203677.html"
+        },
+        {
+          "id": "1005013645794408",
+          "title": "새 제품 JBL Clip 5 휴대용 블루투스 스피커 USB-C 고속 충전, 충전식 배터리, 캠핑 및 가정용, 선물용 JBL",
+          "price": 29800,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S807553c1740441cda01d6a0afe6a20dfP.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013645794408.html"
+        },
+        {
+          "id": "1005013649964748",
+          "title": "JBL CLIP 5 방수 블루투스 스피커, 낚시꾼에게 이상적, IP67 방수 등급, 초소형 프레임, 선명한 베이스",
+          "price": 33200,
+          "orders": 0,
+          "rating": "",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S14f88baf96054cad9ad65166e9d418820.png",
+          "url": "https://ko.aliexpress.com/item/1005013649964748.html"
+        }
+      ],
       "coupang": []
     },
     "Edifier MR4 MKII": {
@@ -2256,36 +2284,36 @@
       "model": "Flip 7",
       "cat": "audio",
       "why": "JBL 휴대용 스피커 대표 라인 신제품(Flip 6 후속), 국내 정발가가 높은 편. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T19:44:38.805Z",
+      "at": "2026-11-21T00:15:42.609Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005012906079114",
-          "title": "JBL Flip 7 휴대용 스테레오 블루투스 스피커, 1:1 복제품, 강력한 사운드, IP68 방수 기능, 야외 활동용, 선물용",
-          "price": 33100,
-          "orders": 336,
-          "rating": "81.7%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd6033b35be34542a5d8335a4049b704N.png",
-          "url": "https://ko.aliexpress.com/item/1005012906079114.html"
-        },
-        {
           "id": "1005012951969936",
           "title": "JBL Flip 7 방수 스피커 - IP68 방진 휴대용 스테레오 시스템, 사운드 부스트 딥 베이스 기능 탑재, 아웃도어용",
-          "price": 52200,
-          "orders": 264,
-          "rating": "86.8%",
+          "price": 52000,
+          "orders": 271,
+          "rating": "87.7%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e53ac51e4924a5c86364580ee8b34ddV.jpg",
           "url": "https://ko.aliexpress.com/item/1005012951969936.html"
         },
         {
           "id": "1005012960512314",
           "title": "JBL Flip 7 휴대용 블루투스 스피커 - IP67 방수 강력한 사운드 무선 야외 음악 플레이어",
-          "price": 47300,
-          "orders": 79,
+          "price": 47200,
+          "orders": 82,
           "rating": "98.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S174f7d34869741c0a2f2c2d58a575e3eQ.jpg",
           "url": "https://ko.aliexpress.com/item/1005012960512314.html"
+        },
+        {
+          "id": "1005012786793015",
+          "title": "JBL Flip 7 휴대용 블루투스 스피커 IP68 방수 방진 딥 베이스 AI 사운드 부스트 16시간 재생시간 야외 캠핑 파티용",
+          "price": 77100,
+          "orders": 29,
+          "rating": "90.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa9712947e6fa40848d5f68ee27698449O.jpg",
+          "url": "https://ko.aliexpress.com/item/1005012786793015.html"
         }
       ],
       "coupang": []
@@ -2296,7 +2324,7 @@
       "model": "Go 4",
       "cat": "audio",
       "why": "JBL 초소형 스피커, 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T19:44:42.623Z",
+      "at": "2026-11-21T00:15:46.526Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -2308,7 +2336,7 @@
       "model": "737 120W",
       "cat": "it",
       "why": "앤커 120W 3포트 GaNPrime 충전기, 국내 정발가 대비 알리 앤커 공식 스토어 가격 차이 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T19:44:46.553Z",
+      "at": "2026-11-21T00:15:50.540Z",
       "status": "no_ali",
       "coupangTop": 6,
       "ali": [],
@@ -2316,9 +2344,9 @@
         {
           "id": "9793298438",
           "name": "Anker 737 Charger (GaNPrime 120W) 블랙",
-          "price": 113470,
+          "price": 113770,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/D8L9nb1B2C_uX7mID0Mz7eh77LZRINNIpuMUABSMVSqIKna7r1ZF2BwzBn88_hcMa66-WDtXu4v3PqHdFDct9zQqwjnYnN-wTMljiax6pGJ3AhwKVZybRuryBJLORUXYHzwmD-yXAVmI6xeyt4DAwIGVUTXhBqY5g-AQcxjDIj6DPcxvqa3zAhdowOKObuUUiy2eHTGtgY-SFI-pMuQeLI9jNjo65QnbQbNkaBuvaGZkSQTwqRnUYEj_UPGZNQTBQH51NkGALFFDnnlfNmB-yNDg7c-pAb8bGW-kazTA4Pk6WsL_Tw7dcCx2Y0G3vW5e3WnaeTWPpAJVDCkpE1EbyereFzjI7WJd1EyIWoDP760adoQmPmnX33MD8GMOSa6aTY64AGEcx0xZXBIemp_oJxCERecqa6gQdmxOyxBo5PVV6iKjlFR-6n_TJ1o4W_O6y8NEDjx39XQsCDy654lvKNC8FJKbVHTNLUJjnQmpjsgsJH42lO5QBDzbM1U8FH-r6KTowMBhyM6ente7Rv1zwFbb-xEq163RjUsNi-26NivyZ2Q=",
+          "image": "https://ads-partners.coupang.com/image1/8PVHKHQwXYDNNw6p8DiT33NLwvFSejaluGglJXu5BpqdxZUR8z_KlziiMRrJ0sAbbGWY12AxRi2jokEV1m2AZtVMtNgiW8p-33lmrxbVJzFtfsloz5W_-m5lz0jF_jw080JXBzgCHVwYlb_fn81mIpHDyFqIrx-oqvys0QfU3IHzUbwfR8GQERrOGz6ftyVYSu0lSaQh6SA4TfLX-5uHl3Es1JC46jnMOLeySGtAixCMr6TxVk8zEBaxRNv4tfcReKhZzQxrM0ptRFOuT9q3bTtLVuan6b-5rSEfGNsQrK_Bfcbw9c5GPLfZvPFeHdReEcyFYtpqlUL-6s7kqon3CaczTyiZQvP14XNyHZ5ybAYbwxBuNYADfe0rjh7XfOer1jaZZd77NFk-Fm4NJM78uQe6ld_ypcQb_a_OOE-g3UakKhnu3f390yrV2eaYRP9IY1BgFTokeLTsm4uRfP6ESUPEMrVLasHxpVmjp7j8sc_HojktkRrhIrpX5M5P5bzDokLB6sngEICcv7zVFyTzDy5TDzS54sPGHXK5k51V6y8zuZ4=",
           "url": "https://www.coupang.com/vp/products/9793298438"
         }
       ]
@@ -2329,7 +2357,7 @@
       "model": "553",
       "cat": "it",
       "why": "앤커 파워익스팬드 8-in-1 허브(등록한 유그린 7in1 허브와 비교 가능), 국내 정발·알리 공식 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T19:44:50.588Z",
+      "at": "2026-11-21T00:15:54.541Z",
       "status": "none",
       "coupangTop": 6,
       "ali": [],
@@ -2341,26 +2369,26 @@
       "model": "Nano 10000mAh",
       "cat": "it",
       "why": "앤커 케이블 내장 보조배터리, 5000mAh 판은 퀘이사존 알리 $8.75 핫딜. 10000mAh 용량판 정발·알리 비교. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T19:44:54.573Z",
+      "at": "2026-11-21T00:15:58.549Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
-          "id": "7925352957",
-          "name": "Anker Power Bank/Anker Nano Power Bank 10000mAh(Po",
-          "price": 80600,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/3Dc3kT3J8GjmlTDa3MgKiy1lWbLhOrQHWRPvpx5jt9T_PdcyeGc9x4VctcU6pqWh_tvy8vj23YL3SbaDgkPF9FSMKkLeozstOldinfK8Nr692FRTe5BxxFPDACGHJ8BO3_SaCdK5bOFMs0rzCTdYWE1DvjCC1Hw2NkpaTL3nvQ2GUFCnDqIzyDQ3URnDmVyi9UytWZmRw-gf6-PZd9OnSxEnb1H-w24rJ_6om9ZL9Qpn_Sd-alkiuZmP_5ADkpuzrUvmUzboriXV7PWSc0cfvkFBXfagByokb9zSVEWLRPOhYweBEPxSS2wSZ1qePQs_VD_UfiShOxwkTyy8kKrnzY2MP8nuUANfnna3yRB89dfQplyvFEBmd4t5WEK982gvfm2uVqr7lcReg60vrO7UPVhEIqypGCU56gvlPGlgjS7wATyKi-y8b8G5qekTqA6pFhAcVZf16DLcq_7LRgRtXpFG2_BcNoeGNdoJ1aTuMVTfe3IH7jGzJc8wNTTOHFM1XfirWqVG7HD9dUbOdd52od9KewXDPxt6rrRjyMsIRtwdPQ==",
-          "url": "https://www.coupang.com/vp/products/7925352957"
-        },
-        {
           "id": "9030014149",
           "name": "Anker Nano Power Bank (30W, Built-In USB-C Cable) 10000mAh 30W LED USB-C (모바일 출력 대용량",
-          "price": 81760,
+          "price": 81730,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/cHqfprq8BVobfRfHcL9TpnQJaF-ejwVGAg-A2yHeM7nilSN3qJDtDrjOYyvFLEiGffUuf7wl_NrxG3dEOxhX1xecnEqNKhFBQ99iWRF6a1lQ8wL9UZkpBTrvJA30VD2Bpl9NsfQlLtP5Pz9AlZ0ZQnIZbhAl7Q91AbJWtVJzSH_C08DpRlLdekzzX3gDt_tB5BME38D1hJmtuIFINW4ikxqsjO-Qjlg3XV5A3HJGIdQk03NaRnp4Z6GP2hz_6dfOi5clDiyXei6k0weoYqdswmexnCdypnxLkpt300Lj44uwWR2WQUGeBaJVisAvbLQIM-1XaHppXK2bL-p1thNS1N6EfDBMrw7mTHXNYuBwj79WJtoV28MIc3AfzO5VXm190b9yiqaDZFMXexvhFkgfyJBaTUxd68XdydFZjDlC_x8VOI7_ghRI4elt1op0Ngfdy1qk3lj-TVhKFB6X4WNcFvkSzbXv8lh-2fEcmdZgaS8p12XJUIA-hdprkGFHywD0pM4Fqjwl1tB7gQi_MUs0pWZZlvpCmj2IvaXUwRNeHph8-A==",
+          "image": "https://ads-partners.coupang.com/image1/CwXcV_et_a0Qd_BcC_F7GA93-e2eqBgRGJjdLhl53Dd5HVkdoH_2Y0rm1ZAKKWE7G4TFC0lrdDFrnkzk77zP_Q7UDUUSgE63IpykHaVGH7N0AdzYlSllpyZQNIaNkkv-iDgntxGWZLifkZ5Jm0KXlzBsM3O2MNDmpILTAypMqGbwcAdi4jVbvVGFGiu_mvp7dVtyq4J3Y7E-qWBVm7Nn8SqpoILV2XRLCtS7Uo5cPRYygkTLlsFgh9oCKY6KpZSCtc7Al_wMw0G53mgWbKpED0Kxwjh9RRREP8myhvprrIDa8mmvWZqCaA8y8QsmCIrPUskkO4gD_-YoVnltYU7jTkfvfV-34pgIdSoo75CJtmKbQC9_qgSWom2VzOhT4y1mb0jarvjwzB0bQytumD9ISGcjMaiSC6Z8ZkYnX25OFHA6eKw-w4Q9b8yK7GlxTHYNP8IBmmybfDNQ3wcMTPQ-bDuZD_B-mN0xJg2QRnriUq1k84fpVRFA5UjqTjlkOaem2X7imy_cDm7kT5Xzm-mY96buxQVwV0FGFWuIlmB3SJ8g5g==",
           "url": "https://www.coupang.com/vp/products/9030014149"
+        },
+        {
+          "id": "7995828837",
+          "name": "Anker Nano Power Bank (30W, Built-In USB-C Cable) 10000mAh 30W LED USB-C (모바일 출력 대용량",
+          "price": 85510,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Dr9KbChzvp7hGarfDmmNQh7O3hFroko_ecM3nROa14PsagCIm6xCtlkTnWAmNkhJ-mvVizi7Et8xliq7N_lirOVVvbdIIdPwLdgtGo96d4fUoW0pbvmUq3plDH6JjcTPdsoP-JSir-L6HMEGrHixgpMBpUTNBI8GXEfQktfmZw72Vh2Y5CBMwJCDmlQ6jR9PWB__rkcAqNRn4OF3PgmhEfzoOGPfhbVAD4SXynyCBPL8Kki2KZXVyklZJfe9T5kEr0TB0gRb6Y0FXtpiCb1Z_bSxfR97RQINPsongx2AnAnjqbbdSrvfyYJeMO6LfRzeT13TpgjGQEX52p01Rofrv-fgWPLl3gtaqc8zkVVmg3hAAKFLltDZnw1g8mK16cFQ-hIO28n2gxcz8ZCdfI0idEOXjLoQVSwzHTx3NlGzFjJLmZ3aJZMVTz546lnhsqJS_y7s2zs1NNQMagPDu74nOoXHRedXZQ04y42ThyN_03ypDORNyokvjiRXX4kflDN0YHrQLlcu6FrBwtNU-DS5tAI2l2PnSO3oQZzIEBMKR9l5nQ==",
+          "url": "https://www.coupang.com/vp/products/7995828837"
         }
       ]
     },
@@ -2370,9 +2398,9 @@
       "model": "MagSafe 35W",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 베이스어스 3IN1 맥세이프 무선충전기 Qi2.2 35W 54,186원(알리 스토어 쿠폰, 종료). 국내 정발가 확인 전. 거치대(stand)로 표기되면 본품 필터에 걸릴 수 있음",
-      "at": "2026-11-17T19:44:58.525Z",
+      "at": "2026-11-21T00:16:02.597Z",
       "status": "none",
-      "coupangTop": 4,
+      "coupangTop": 5,
       "ali": [],
       "coupang": []
     },
@@ -2382,7 +2410,7 @@
       "model": "XP1",
       "cat": "audio",
       "why": "베이스어스 ANC 오픈형 이어폰, 알리 베이스어스 공식 스토어 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T19:45:02.560Z",
+      "at": "2026-11-21T00:16:06.592Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -7171,5 +7199,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-20T18:02:40.900Z"
+  "updatedAt": "2026-11-21T00:16:10.560Z"
 }
