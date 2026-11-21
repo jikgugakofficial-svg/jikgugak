@@ -3074,15 +3074,15 @@
       "model": "Pro 2",
       "cat": "it",
       "why": "8BitDo 프로 2 무선 컨트롤러, 알리 공식 스토어 판매·국내 유통. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T00:31:37.500Z",
+      "at": "2026-11-21T16:23:37.082Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005011781421373",
           "title": "8BitDo Pro 2 유선 게임패드 USB 컨트롤러 닌텐도 스위치 윈도우 스팀 라즈베리 파이 NS 스위치 게임 컨트롤러",
-          "price": 34400,
-          "orders": 141,
+          "price": 34300,
+          "orders": 139,
           "rating": "99.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sea2eddb47eac4b0683ead28eebf67af9Y.jpg",
           "url": "https://ko.aliexpress.com/item/1005011781421373.html"
@@ -3090,8 +3090,8 @@
         {
           "id": "1005010520657253",
           "title": "8BitDo Pro 2 유선 게임패드 USB 컨트롤러 닌텐도 스위치 윈도우 스팀 라즈베리 파이 NS 스위치 게임 컨트롤러",
-          "price": 29990,
-          "orders": 126,
+          "price": 28152,
+          "orders": 124,
           "rating": "99.6%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb8a48590c93f467bbff71f7a84bd6ed5H.jpg",
           "url": "https://ko.aliexpress.com/item/1005010520657253.html"
@@ -3099,8 +3099,8 @@
         {
           "id": "4000927412551",
           "title": "8Bitdo Pro 2 SN30 Pro SF30 Pro 블루투스 게임패드(닌텐도 스위치 2용) 윈도우 안드로이드 MacOS 스팀용 무선 컨트롤러",
-          "price": 49900,
-          "orders": 39,
+          "price": 54400,
+          "orders": 41,
           "rating": "98.1%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1f434fab4f6b41a0a8572bd53aac44cel.png",
           "url": "https://ko.aliexpress.com/item/4000927412551.html"
@@ -3114,24 +3114,15 @@
       "model": "Ultimate 2C",
       "cat": "it",
       "why": "8BitDo 입문형 무선 패드. 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T01:57:42.614Z",
+      "at": "2026-11-21T16:23:41.378Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005005470604431",
-          "title": "8BitDo - PC, Windows 10, 11, Steam Deck, Raspberry Pi, Android용 새로운 Ultimate 2C 무선 게임 컨트롤러",
-          "price": 31900,
-          "orders": 13910,
-          "rating": "98.5%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b4c0a84a38942daa3c3131f46def2244.jpg",
-          "url": "https://ko.aliexpress.com/item/1005005470604431.html"
-        },
-        {
           "id": "1005012013826953",
           "title": "8BitDo Ultimate 2C 블루투스 컨트롤러 무선 게임패드 (홀 이펙트 조이스틱 포함) 닌텐도 스위치 / 스위치 2 / OLED 콘솔용",
-          "price": 30500,
-          "orders": 4315,
+          "price": 29200,
+          "orders": 4476,
           "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc34fb1ff5e83486aa61cf72e18359adbT.jpg",
           "url": "https://ko.aliexpress.com/item/1005012013826953.html"
@@ -3140,10 +3131,19 @@
           "id": "1005007198176707",
           "title": "8BitDo - PC, Windows 10, 11, Steam Deck, Raspberry Pi, Android용 새로운 Ultimate 2C 무선 게임 컨트롤러",
           "price": 32700,
-          "orders": 4277,
+          "orders": 4234,
           "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b4c0a84a38942daa3c3131f46def2244.jpg",
           "url": "https://ko.aliexpress.com/item/1005007198176707.html"
+        },
+        {
+          "id": "1005007506754284",
+          "title": "PC, Windows 10, 11, Steam Deck, Raspberry Pi, Android 게임패드 액세서리용 8BitDo Ultimate 2C 무선 게임 컨트롤러",
+          "price": 28270,
+          "orders": 837,
+          "rating": "96.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S768015dd50a4423abb3c1059f6c6597bt.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007506754284.html"
         }
       ],
       "coupang": [
@@ -3152,26 +3152,26 @@
           "name": "[국내정발] 8BitDo Ultimate 2C Bluetooth  얼티밋2C 블루투스 컨트롤러",
           "price": 33500,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/rmN5gAjihIrg9ogerg22gbjpHPem5MjZlcAkMU6Jjwcl-R8bYJqF1lI23wnnvQ1_V9r1GSUQxACSGSYO8DsGSw1SxwBP8nQLdmZwRPRBRPD7phgxI2p5Nugl2EvWLEdfr_nSFMTlJpvAnKs_evYQUalW3pbuYoglGKQgegbJzMu8apBjGPbJXspg54rE0wLJMFToWPu_K6JShVQn_CphcDt_CTWwMq5TukJhnVj7s7FiGiq5RQH4h6LJaVbe16EeW3CwWjNd4L5o_4Pa3BnAS6tMQcsd8FVsFBwG0CGKS575beR_ZdqyhN9prp41veFmNPWiMrn13WIRytjyxafXALf48jTbarF47LDwsfiNC02VQhIp_g1Lm_ggHRwhnp07-2AmTyzSvvnue6j0tjlXwbOo6uCwcyeEP2u1_Zo2y4Hq1LZj8Rhu8J0estJ8c1v55tc0oIUtgTnryxFYn8BT-9eha0rll6rvmV7xw3r8eDL9oMDL3JDWPTbkdSxiOW7vyx7cMACEBXXuh3CCMTGwK9E-dL1LgyLO374C4-vQe1k-yxHAB5UAo-AZMVBMtGvoV96ujuLb5ZkuoQ_SCA2lZzfUfy1glsTEyBE17w==",
+          "image": "https://ads-partners.coupang.com/image1/MGe3UHMtUlaFw1W3MH3HCxUd1FPT_iWK_VZeRdK1xfa7bt8fbxambQ3aWGZJfaOrmu-wepbY6AzLtwu_vcJ4xf8vmt5Ay74ozuh0xk2nFuxFekoIB3RC_sMz89FLcwWoV945qgaQ6hlBtBPdHYMmZZm0bYkffeD147QUpg7jpQJXWn5il1ItWQHe2WLBdeSaOptUGOG6Q8sUawkWyakazGTdCj_aom-5W2YIy0ebX1h_g5esFpoeLZgJ8v1av-inuWIrcL4z3_1U7AuJFa5U8W6j24QZ8ijUQ_rO3q3CMjNeZOrE15vMVlVYAP_1cYE4zqVGsAjJXsEQL-wsTTLKjcUP6cj9tmy43D0B7rTnR0M8bjlXaTSImJ1yUZNq4tShYiAjt5mM7aMqKJmIgmuOuq1cxs1Xa4lAiAkKAr3r9Y40Xkr3VQs9OhfL3_kas3_a70nRr-Bwjf0S6afEw8djlmVxjXMW0cYXgijZvwo5QhoCQ-9tLS-yW8000k6aHTufC-k5wvXeL7TbkqAfJNEoV-Nt5UoUfFRNBIKcYLy1KmMtlS2es2VM7ygGtf4x_F64RroiVMFnz8WGQmYuz0zHNYLa5Q1rnX7l6YEqiIe3I-Y=",
           "url": "https://www.coupang.com/vp/products/9620580492"
         },
         {
           "id": "9762238730",
           "name": "Nintendo SwitchOLED 콘솔용 홀 효과 조이스틱이 포함된 스위치 2 무선 게임 패드용 8BitDo Ultimate 2C Bluetooth 컨트롤러",
-          "price": 50000,
+          "price": 95700,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/dWWY6hdRRXd63vr6dfYyh9clqLxPHH06Z8-JTBt11WSpiRJFxQpmuOTM8KsUhacMpMfcWdrjDEH8bQJ4GoGBQU9qitecnhYWYJ_Euez1seOywk_wdyEd77euuxrl16IFMA2rD48EL8tmUcHzQ-dZm6uuNmSNvEHy4LJbDnJLKG5kCmCzCDcMZJRbe5_w45wNRWcFZr1GYO-A0Njq4TgdV36dS9CNqyRKSbPCC4dU7pWRH3pDPdjt9pQ5f_hYh5gNbA7SzLtqxPomfDJaersmhTHltFdJp1AkqfcgYK1Ntq1F6YtOjiOro4bVjRESTqasQujsp3I8blTgfD9kOBy9B5uiMUSq-pq6uQOSODTMIacX3MfBxMzTmxCCRMK0JHLr9_t78bnCHvQCNTvoiYIRdWHIebXd-rPNqV79i3AzCn27rQKXVE5TzdU-BqCM5gE91dGeXJPKiEkhcvVSoaZwNyRmoELL7aocLPdyG6li7cVdswAPdH-qIl_BzypdMTUpnwjS4rwon7noXTAA-CfbEIjoNhFAMAts0higDs3wKxG7_gLf4gW3DmXVTTHEz7TnIlq-R3D31UMofKQZWNBQBpOZYTWYvl5IhPzm2A==",
+          "image": "https://ads-partners.coupang.com/image1/lbuqX1KDtIVwTkmxldNkKTf5qEpMPAvsyu-DdAb2lr7ehy8Ec3BCe7yLX0pHWjrvTDuOVRDRmN8u6RkZT39kNj6qD7uyh2epYlPfI8gwP5Ex0XhTk3dz3Jcb3rgW6bTFdv2IdE7PrVQyZZx8t_zS9zxEPlujvnMIs-W1uP_d5rOgEn2I-f-J7bgmWHOwyzUg1mdiCNA1nfGgEhsgpGpD41Kk48x8tzL9Vl3IAxmjopacKkvbbmvUMs2nqWEOYrYKSMnMyVjUkQEb0_94up2QWnt2xHCyei22a5vX6UiUOGtGXBT7S21_k6vI9zQ80OtHZyRLgRxhzUIMTgHOTwJKx_Aa4cjaNJn90ZSuPxE1lvNudTq-CyfWsomZxd4_ArgCBPbuo4vXi0A-0bxfKe_Jc6n0hRkrxoHu3QPpx_TFdE8El8RUYMJWa1wjUGhLxHyln2vtFgAQ74BQV3QLIwL411o84NHc4_Bxw1n7UNFQPpbYKeLosHfodZJ-t750n1fFSc5YbI5PHMPR_6bkIA7JBcP4T7uq3VlxPOjy8RzC75axUSGtgV89-BNUeN-Y0FIlFfAp-FLshwIY0QPiWm9ihDMyk9ushZKid-G7Xsuq",
           "url": "https://www.coupang.com/vp/products/9762238730"
         }
       ],
       "best": {
-        "aliId": "1005005470604431",
+        "aliId": "1005012013826953",
         "coupangId": "9620580492",
-        "aliTotal": 31900,
+        "aliTotal": 29200,
         "coupangPrice": 33500,
         "verdict": "meh",
-        "diff": 1600,
-        "pct": 5
+        "diff": 4300,
+        "pct": 13
       }
     },
     "FiiO KA11": {
@@ -3180,15 +3180,15 @@
       "model": "KA11",
       "cat": "audio",
       "why": "FiiO 휴대용 USB DAC 동글 인기 모델, 국내 정식 유통 + 알리 FiiO 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T03:34:25.237Z",
+      "at": "2026-11-21T16:23:45.428Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012492464615",
           "title": "FiiO KA11 휴대용 USB DAC 헤드폰 앰프 HiFi 오디오 어댑터 Type-C/Lightning 지원 iPhone Android용 DSD256 PCM384kHz",
-          "price": 58700,
-          "orders": 3,
+          "price": 59000,
+          "orders": 4,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfda84c6a1dbb4fe893564a57034381d6v.jpg",
           "url": "https://ko.aliexpress.com/item/1005012492464615.html"
@@ -3196,7 +3196,7 @@
         {
           "id": "1005013390398760",
           "title": "FiiO KA11 오디오 어댑터, USB-C to 3.5mm, 32bit/384KHz, 안드로이드/iOS/윈도우용 HiFi DAC 앰프, 선물용",
-          "price": 47500,
+          "price": 47700,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6c4c57cb3977410395bc9ed65adf392fr.jpg",
@@ -3205,7 +3205,7 @@
         {
           "id": "1005013317211979",
           "title": "FiiO KA11 DAC 헤드폰 앰프, USB Type C-라이트닝 어댑터, 고음질 오디오, DSD256 지원, 휴대용 이어폰 디코더, 선물용",
-          "price": 56000,
+          "price": 56300,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb21aef4dc5bc41d89e287920495b43e7x.jpg",
@@ -3214,30 +3214,38 @@
       ],
       "coupang": [
         {
+          "id": "9769919042",
+          "name": "FiiO KA11",
+          "price": 42000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/fUMeh2uykPMO-i51fVI4TR-UGjG33DkrZ_5j66slU62zwxjJBq5fGu4dX4p7BrwXrZwIXCny0nAvqJ-zEfvoLI6c8fBPiCTT8r3xdCvKygJVPZ60slEYM4rJIrPOAaqmb2UKaaZrKMh3SuQJMTtnDsZ6xdyDDjuy16_zOkuRarNRkHQHpKkMVXmq9Bhpsj2wSl3yvDSR4F2XHXAhV8lqQWEM3Re-sVnMAGQKFeU1eHYWKIWJIb3dLrNpbCkBRZIvhYdoA6V9tbqpRXdw9dj_8HKaT0srtuqtlnw_oVQu5kcn3rC9se_oCQjLgcQHGwhHizc2rJSXlCzVkD_hMVZBnNDbNm5_UltbILh-8i-SuP5i3dKFtvJmTy9AU2xY9MVkSIyjJHjqswPURDJDY-sVK8IUD9aCtEu-ACMofG4LF6MHQakw0m7vCBlopP8hAnWBARUvBYcUz9zZKT8wr1cDkDyIKWEWXrAHdwTHPKXR0ckCliTJacycYTDobXMDNI1h6Gxl4Dl5Ex97w5IrHJH4CZvPg6AWqbA18cVb2rc7DG33G0I5",
+          "url": "https://www.coupang.com/vp/products/9769919042"
+        },
+        {
+          "id": "9830654341",
+          "name": "FiiO KA11 포터블 DAC AMP 피오, 1개, 레드, KA11",
+          "price": 46500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/Uk5OHpsrVBlqxvijUtCM6azl2Lj0goO47c0lYR33H5rSvL3PFg0iCI7JbwH4kzOfRgag-l3EfMAq4RKGrQadxpYWyf_xy0JRUjKlfKmZ_glrrNmyAWrxYRZymKnSfmr3VOleX3uuq6BD2KzHHIWaIapIUmRhqgddjCiI1ZxK6cIFZajbBonSpM87LXMveqwoW0s17WqvwFYe2RaDA3zib7yI1fX4cBtO3en1ntTQqYu0Wuo81kx8jzI2z6qBrlY74S_x1Ok7GtXxjB-RNacO3M3ZHMUcRtS1LwSF_XnzTiYW4XFr3uGAadNJcpg8pY7h0i0c0rzA2qgM55m41Jr7sEgzy5LZq8omq79_tVcO3vVpVsyxTWE2jtKzj2B2qQL0UgriW7472gJmogsR4Q0VOCDLXqffTJsSbuxPWhOA2Yjs3S_vz_lwGgffKfKNAy4VuRs8LO64nfis9SfBElF9Tm5PhfJBjjHGz50l0hBd1VXM2MkvKp6g6BdsdtLfJCTuXDfnvTbkCHcEkxkPQjsPhl6mHNURPcg=",
+          "url": "https://www.coupang.com/vp/products/9830654341"
+        },
+        {
           "id": "8863345031",
           "name": "FiiO KA11 휴대용디코딩 DAC 헤드폰 앰프 DSD256 안드로이드 아이폰용, 티타늄",
           "price": 47990,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/W-60ggai3Jx5D-4nW0ka1qVBQCx1c8ZH1nS4a6cfSJcuwAW2KjOoilaB4ijExnWaRylxbtj-Fq1OMQ34YgtPfsZMnd3W3FGFl0NVeFG34feowf4u1HyuSQQIPG6jaq2VjYJanyoXZynzq9LdZMVTqsIxMU_gf5wr0PWwOhC8mtDimuIAfQ3EIiTAcSSGgNZq7mEGV-ujCxwYmwU9wJzw3pt851d1y0lBMd2nwh_2mb1kOZq8EhtoSEfon1lRN1FUZXhXJ6NZ7CyVB6V63cze4NJ1XV637XXPFQ8fVBY8A7IkRUMAQJ-07JGD0NBjCSaMfgUNgNCq631vL1XIiHC0PD6nOX083NBuIheRDyw6pOhbJ8mMyEfNbYB0wwU56p9n4IgZK7DFdEdsg7a7jJUrjRq_8McGRIrNMESQ9R_g8pVtqA069gGsyqBulknIwBSOUhhDIG1SxJaeWROq9Po2kWbgZdsw5yWK9no_tbGo5m1_si10NcrzggwDlMKzgFILHkq8mc1Cq_i8elTGp6D1q2OPv5q4m17Q51czIMHENp2ko3Ec",
+          "image": "https://ads-partners.coupang.com/image1/TvGyTJWvFZrplYNOTiQSpBa9YJLB3s-nRHflMtm0H87TIYCnb11zd5CqcRbajAAxN7yZmv1VxHfmKXWVuJBFb5o1RimDaMoMf-9MhKLPCKWscQXYp53QwdTQE2R-eOyor3OdzBJwnfwzAG-hWt97NdKSOeunvZKK8VQ_om1wd_q6VHRoZVsZD_TcTh_fAyxs_pqYYeSIoQvVgu_NSK4BAuWlhSNL9jvK6GMur579idzLVFtguY1YrhOq74qwHnZSp8bC6xbQZe7oek2W8Pv_SI8IQm-OYVzA8T99uI7FnQ-Cf6x9c_LIXR6mqcIoJ3VEfaD8LBYOIB_dmzrn-6gf6v7fzeCaxqwcQrTijb_TSRDX-xGLGxNYxcJD6q72YYu0Ef-qnOhPEua6tlyfGoVMN0HlqEpOcYyV7zxS6G0FBvSgzZ5BDHwTyt0A6r2Oh4RkrY-P_tVKH3oKQJWe195ymKgNRJVjamWrDIQtl-jIzq2Ea_TjDjZheqWzcKyn7uGyvgjse9RhJmh3Dux5t87wtXA3kE9MGx5Tlmjg3-nWO6I4pw==",
           "url": "https://www.coupang.com/vp/products/8863345031"
-        },
-        {
-          "id": "8010258771",
-          "name": "FiiO 피오 KA11 포터블 DAC 꼬다리 앰프",
-          "price": 59890,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/hO728yBlB9FsXsN6hIaPay6iP1tKZKHNtULq273oMOU1paYKhAvm5Il_VZRknOaWCH3H_zy58JozjDvV-VU1yFNPepNlmq2EF94vlnHlzR_Gy0OXUl6ZsTn4pGU7HStQ7pgTuj4XBZWPOcmxkYRcBGF2vBoiIYTOag9VQOIfyf45ny3Om-4BT4icPYrH4eEvelNuo48IBH9X_qGgA3fzU1IuySTvBapQCDJ7cs11fs2_itAzGIJwLDq0zq_3oyFzrAinX0LtIvScFU8ONMbrdKj1n41AyzYN3xWEoEi-b3d8w-CpgsDLBjuu8kvU7shZkX80MQuT0gZvieoT9UMbcFUNuel13eXEBQmE2y28Jc-No6-5DiS8lZ9i562KzbAgAthR1AZbxm5jvMbpWtSEMrW0i3YGm3SGJJZRi1-ADu2WlHp0XR09wmHEa710ItbNXF0bWmO1n0YlSgE3rZt-k3k0yKM7uYHzGEIqxqmY4Tkn_-0wS4ULsjHXXc0MDXMbSbQvT8vMCvSzgVT1y-WWCNTYqKoN19dvTR5Z-ExILBv2wamg",
-          "url": "https://www.coupang.com/vp/products/8010258771"
         }
       ],
       "best": {
         "aliId": "1005012492464615",
-        "coupangId": "8863345031",
-        "aliTotal": 58700,
-        "coupangPrice": 47990,
+        "coupangId": "9769919042",
+        "aliTotal": 59000,
+        "coupangPrice": 42000,
         "verdict": "bad",
-        "diff": -10710,
-        "pct": -22
+        "diff": -17000,
+        "pct": -40
       }
     },
     "FiiO KA13": {
@@ -3246,23 +3254,23 @@
       "model": "KA13",
       "cat": "audio",
       "why": "FiiO 데스크형 DAC/앰프 신제품, 국내 정식 유통 + 알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T03:34:30.100Z",
+      "at": "2026-11-21T16:23:49.255Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005007469993423",
           "title": "FiiO KA13 듀얼 CS43131 휴대용 DAC 증폭기, IOS 및 안드로이드용, 3.5mm 및 4.4mm 균형 출력, 550mW 고전력",
-          "price": 76600,
-          "orders": 459,
-          "rating": "96.7%",
+          "price": 77000,
+          "orders": 460,
+          "rating": "96.8%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8a243a8c3efc4225b223f937a7f65df9z.jpg",
           "url": "https://ko.aliexpress.com/item/1005007469993423.html"
         },
         {
           "id": "1005013071837607",
           "title": "FiiO KA13 USB DAC 헤드폰 앰프 듀얼 CS43131 HiFi 무손실 550mW 3.5mm 4.4mm 출력 PC 안드로이드 IOS 데스크탑 여행용 선물",
-          "price": 86000,
+          "price": 86400,
           "orders": 1,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf01a7c7941b24e84954ec2f18075a63bY.jpg",
@@ -3271,7 +3279,7 @@
         {
           "id": "1005013255706094",
           "title": "FiiO KA13 헤드폰 앰프, USB DAC, 젬스톤 사운드, 듀얼 CS43131, 하이파이 무손실 오디오, 550mW, 3.5mm+4.4mm 출력, 384kHz/32bit, DSD256 지원",
-          "price": 85200,
+          "price": 85600,
           "orders": 1,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S648b91bfb7e14857b8c8a2a6556e4cc3n.jpg",
@@ -3284,15 +3292,15 @@
           "name": "Fiio KA13 DAC 디코딩 헤드폰 앰프",
           "price": 56900,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/otDPC5HEi6mFAW3EouGLPUMqUS5Q9myh3tQyCNSU58c-HikftJqYaP8xNAa169ZOwFT-G4Hy5-Oin3VuwYaSMWHYniXsrOfmclrqoQfQoH2U8MFU_3ZA11oaXf5JgQaTWCAmVelVVf4hwDc7DNE2M32te7Qf2_ot7Y9y0DoKl9HRMiOVMgbDfgG1x_igIrK1HowtAhGjIZ5tkktxxx9qxnKVmjRtk7Xx4AAAiDViIj_HwtVmOcr7pGiY5LooM4mvU9Y4l6pT3vRUJuNXJLU_bydFgj9Qvs5_MFxJGLiWZcVmWn7iYUS5iNyQdDeJy7zrFgrDsbeU7jq6qjjSNcNNE2zlZF-_z7MTF0ECJvASRmwjqPHPlsNTM8PkAE4qWJyT3qyOLDmPvPSvtAEe2V11ii535gDHrhstHNm1z9UmJxzqfXpSrgVeN1dbYqpCZ1mvqzii3fiMXUAbYK--69WH7YpNDvGxp0Ne-bZMCLCz3SmqSMLy4fFicnM2w3Y1XhLAmJIP9vDGjDFsek8YkvDPj18-_le9m1RSryOQd7I7WWcKgaY=",
+          "image": "https://ads-partners.coupang.com/image1/AXQO9tQzgCY88g59AXl_qL-CB5XE81ceIv9oj_tYTwDA9CBPxt7kXJCr5BriLC5PzizZRbnhFoEw9npCqLBTFSHxmLcYRCbI8jwK45n4d4J42hKWC3CV4zXwG7cgFTNczgIesOTEgp_-2uqDC_wO1pkD4eilFVScMSQ0Z_iIN0dpy2YF2o3MU51g1F33IvGEqZdqahqJe3BMUFhqC8cpmwMkoUOwWmXvwb2qkDt4OyqxSQjr0vM8X9qhGxOgAaD61uOlduso0glSupJWXxCN6MGKkFWaxXjSmcjgBImiUW08kiliDwtRCMmaxI5xC8JZqUf0uMvOPQ-gpkQPg6nzqPx2iE3Hi3FKlMJe7w55xtf1AHnF4QrXxgduyYWz7cUqmEwPWdyabBbwAu2fd2NZpMqknMZ_L0Pwvuy9SL7akMFGQO6MQPCENyPHBQVqbNY4N2aFXHtxzBvrSz4RpVmqmsiqYcOhYh0TqalGYIIwTdg5NfZFqE6jSStET5M1a7WWF6WgDd9xxrUGjYAqZZfqsuBmnwFZlx9Yhh06PQYdheiMzQ==",
           "url": "https://www.coupang.com/vp/products/9412890672"
         },
         {
           "id": "8105969083",
           "name": "Fiio KA13 디코딩 헤드폰 앰프",
-          "price": 72800,
+          "price": 75200,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/r6gbHO64UHb2tAByrxHmQRnJlGyhP6kKsGruNaofFb7V03q6lOOmr7fiJyKztywPMqNQcoTtVoPvaN_9cFuVfz5r1mvUVPzD7QP8flovD1SBTxzegpUNmwxCL_NpHE7dVcVnJReFPLp-M7MlSRt0soBIOKDO-4hmr9WFKCeSP-5w-j1gBVdD8HifGx4n90Qoaaj_atnYxZNTU80OOlv0ykGvu-80J84EVUeQGPExdUFE4f4rb1N9ps-9KzOzCEubCzeMNmWQdcBTq90vXN-6u0NvP_rHo91kr8K9nFxPI4Z74BTRIlB8WXmAqkdmuNE9EEOKRMnkr_wtrpp1JF5wIQqCaT_ZFGl78xqbhxRSdeOV-H4MVjYQgnBmGLLpBIOBPST4mcAjkcveBJWlq2vr-5LIY0NQ_Z_-H3h43MbaJJRoMP6xpL1fskK65hah2ywSKwUkH5pGZmrtQ-b0rcYcph5r0iYEj0TZ2zCrCihTYxASI-0GVvr6oh6f3bowuU47nEcg4x_kAFMYg-sc_XuWIMNeKe0nrQHuXUQRi21X3lBFzZNz",
+          "image": "https://ads-partners.coupang.com/image1/2EGi-AxFcsttUX5n2D9dS4i6tohIMrGIqWZ4LRpI8c3VdRGdkAVA5G2K1_XFKgz49oZqpes6MepoD3eDGixff4CkSs1eQExJ0_jBkmjrpjHhmLviaaeyYyWrd_tewKxg7e6svbvlo8He_03YNW7VuiZrVKEQT9ul4ZMcccfLB3z5uEVlXHC9UvJ1RL7fdJ75WRWjRVla3i_GavTx-u_sEr5kxC_ywyexQq8r2pZfFI6aJMjK9RLgEC9GgZRu0M9Y2HeePqa8QgQ-urpO7hjiSCnMvrr5zJ-RwdhhhbkezXVRHNnD1EVjreFGc2ds3NHrAM7ZE8KcWr1aoBV7eg2wYkPgCxDCybSygDU7fmEjqoCdidauz56Enc1isdpsOKkCY217Hza7Tfq7CSVrdc1NK6_hUvJFhI14snhusfoEaQY2OGp4XQ219WqWQcFXJu-BV0VvbAkFf6O9UYh_2LhDnhmx20XQbqz1uldUoWPcJpwcLn9R7K6_zyQL2-Ix0auaU2yN8RftxmYcCH7kdNEuDA9w-4GsR2f_NmWTTGhB9FEveEI=",
           "url": "https://www.coupang.com/vp/products/8105969083"
         },
         {
@@ -3300,17 +3308,17 @@
           "name": "FiiO KA13 휴대용 디코딩 헤드폰 앰프",
           "price": 75200,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Ki_hbaZmSw-l1mrQKluUh8aDuyvfI1qyPm-CaAnMhAeXipJHrs48rzcGfiVlO60pcfo9eONoTqK5tzK2G8ONRy-bQQnxNLdua1hHFkvE75EnTdY08o0yL--IElb0Sy8TQvJygLrtwBEeuKywoIk7rOPPovPx2Cg_EdX4TzaAxS_H3T8PyHKhmKrA6wYj2hvo7L4XfYKmICSpBB1Em4niP_Pf7I6vUWt5XXCF7dadxIDcOHsVhCAseQtxaroBZMYJtlHNtOiCKlrLRQq7tzqSRkhQYHuVtqcehdWb88z3QmCPdJIottOj7QBm3WLuoJG0OFLScsiRAbBaRZ47HE7fC56spmEY6cGBO2lXX6XLvqYV4bsDHkgER7nP_hVXgDG42oZuDSV5WN-0K_YYDcMixGkmcqJF5AiIZUhcm-5EnHGnLOEkzKj1aNZlbm_0IUmxPiQojGxCy0-_IkwfqTa6ZcaW8v4VUQxLpiPRSGNbsyzFYpoq8C0XO0ATa5gW6pi91owuqupjlfQTBVoEoyVLgD9Y_XAD2FT6KTaupsR1h5sH9Q==",
+          "image": "https://ads-partners.coupang.com/image1/s9whg6QS2fpm6K7dsz0mqCVfX1VtMLisn2471KDaJSh09Ah0kyhD4yKO-mQ7n6ESu-ADKtblWETx2RYpzzvuNTRsxmexR248CdatHrbrOcL3U0Pj__4wYO673d_xJsg4FnJq-MVimCt5u9qdk2lOWIwDwrh-iVirWi2PKnjb2TX79KWzMFz5E80H26uRgPnkhosdtioEK9bLfiE0FP31L9PUidmgCmhGtIfAgJjY3mA-rZdxCwgDRqgVTetOFj2GuqAkEl7zHaybvGJGi2IAMeva2SxpkdhR-h2cqWVOjVL-cVub68F48bk3YBqilnsHXmr9DJeM4BKJPS6CuJ-EqZW8nKOO43bVfHVuj25ORDRbI1EdC6yCVZQMepXTB5D_srgLiFe2g4MmquHM677V_iWlFyUC_IUHr2BtcH1CR8SbXB6hSH0ahvrPVTum7cdzPTOANP5HknJBkwYfSLQcf9HIX17JNJ46VmFsf_ohJY1Klu0W0etuT3QvRyf4ogaenGMEFXW-FHqSGjma5RPiS2laSDsv9B3RtyfFI3PJ30dQ_2c=",
           "url": "https://www.coupang.com/vp/products/8825750612"
         }
       ],
       "best": {
         "aliId": "1005007469993423",
         "coupangId": "9412890672",
-        "aliTotal": 76600,
+        "aliTotal": 77000,
         "coupangPrice": 56900,
         "verdict": "bad",
-        "diff": -19700,
+        "diff": -20100,
         "pct": -35
       }
     },
@@ -3320,7 +3328,7 @@
       "model": "SonoFlow",
       "cat": "audio",
       "why": "1MORE 가성비 ANC 헤드폰, 국내 공식몰 유통 + 알리 1MORE 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:56:49.621Z",
+      "at": "2026-11-21T16:23:53.392Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -3332,15 +3340,15 @@
       "model": "R1280DB",
       "cat": "audio",
       "why": "에디파이어 대표 북쉘프 블루투스 스피커(국내 정발 유통). [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:56:53.973Z",
+      "at": "2026-11-21T16:23:57.459Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005006148604843",
           "title": "Edifier R1280DB 전원 블루투스 책장 스피커, RCA AUX 광학 동축 입력 리모컨, 2.0 스피커, 42W RMS PC 스피커",
-          "price": 116400,
-          "orders": 41,
+          "price": 117200,
+          "orders": 38,
           "rating": "92.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S15987fd03eec4551b2d708ab4cda967ci.jpg",
           "url": "https://ko.aliexpress.com/item/1005006148604843.html"
@@ -3348,38 +3356,38 @@
       ],
       "coupang": [
         {
-          "id": "9822126578",
-          "name": "새로운 RC10E Edifier R1280DB용 리모콘 강력함 책장 스피커",
-          "price": 22360,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/9opVru6fdbERQskM9juf6Up-jBo_4a7sqUTN3hmWbEhiCF868D-oJVtQD004ip8eBnGkTS8hY4iAyWHqROiFZyhzYM5CQSdfxq0vSm68CGYsN0QENrGJJzydiR6lLzANy5pOBb3VXsIv0Oq_owjN2cEakZmsvD_-uei6x3YDfBlSD2SSMi-4tW4ZXHfjzyTP4xA2rgX9saK5aWmH7FhQyCadsxgGFm8JSM0oR7HDYiMakRDG0j5AZW514kLNlNsWU-_biUj4fvlkn00HI1ec3JvHYR_fRy9bV2vk-oGQHW2VxPJz478ff1L5RujKGhl6dVBkZWaYc5qG0gmybRxaYrwsHPqLDGWnW1CxNMZk7xrecGVfS2Pbmbm74gzcuULDWIwIoGkE-HUy_qzMLSyYoEKi1uDfI3pT90sfqOYLpvAle7v5IUbyFdoHjfNQXS-En4u5s_6xEhUL_ICCEbbELp0lO7KpPSvbplAHtO0bfxUpY5scueszSwk5_nBIjil-FrjHl_E_bpxMU4b4AihNQjG7OP3MPCFf7wZ7D0YUY-Y=",
-          "url": "https://www.coupang.com/vp/products/9822126578"
-        },
-        {
-          "id": "9743252141",
-          "name": "RC10E ​ Edifier R1280DB용 리모콘 강력함 책장 스피커",
-          "price": 23160,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/E2A8H0dR-McTzld_E_HwUA7wZIzRilPLmFx0q28DGUckwKjN439wzrb8K23HBiuQk0lG24iTpgdkfkXiVH64fPQbpx0oU_vWWJEInGV3FyO3_8bXWCsespCU7DiEpbk0koUpZwR6Aq0X6RdAsokNH8_8A34AmrQjjKQwA0amIIbk9pH4pMSq1zce_AyzNy0ZGOT4XUyX-2YlI7Oh5WIWjJRyY9OkPE99-3xyXl8A3g6jCAnILUk64TYOwyARwiA4eZrUdD_k2t7vFQAQGFtbKhLCC2JCH9VLGx3aThrs8iVU4GNRyG-Y_hZyHNl5EWkNt3umyZ5y5MeSE3KtlKyq95SsJ8F00xYyqbM8CBoSWM-NjRS4ys6SvRHY49NAp3GfLHs4LLxm0Jp6LbMhuSIMquqW_uR9iPQni-pS4qmMv2D4Bn_t8ZHyRiEVq2RK_S0vwwt7oZk-gvlRIPZgzdUYg8Oh3alUinfONdOwOPD-1RnBE_ibdBVWtjqaHR7kI9iNMcBWqYPf2wIDKkW5qxrvzOoMTGeZ0Mc51zD9Im6Upl0=",
-          "url": "https://www.coupang.com/vp/products/9743252141"
-        },
-        {
           "id": "8505774458",
           "name": "에디파이어 2.0 스테리오 시스템 북쉘프 스피커리모컨포함,R1280DB",
           "price": 123120,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/vSCXXzHhykKqKgVBvbqzyY2SDpKj_um3qBhF3dX-XQ0pKRdCaQPXkSlB6C-67pnh6mg-QryMItSEpi26cLfwtr8QKm9I0s1ITqYqfsyQe_u5-_qHy4JgA4dNmvUKD4Z0PxzrjIUUHdyY4qjnudNJyUMawSkPJLQRVhvgJ60gfCqWQCLzpusG95xLV3_FmtAAA9R1TuF4-R8MTfy1sc8IDhZlz4OwzGvNhLws0cBiQeGUWxBPKJ0W6XLq_n6o-nce8lmvZ64zf6IVg1FmkOlKpi20GkhCBMcGXOUgCONygC3Y0mHUdy7SZGvkeLAL7KTYigomblec76HuCYrzqVmMT9_976Qh9joocu8h5BtANcY9yIkMTXwy24YzmEkRtZQbZdsqgwUgvrErU4nTzWk6--FHBZ4RgZ8-0Pp9HpL1tmuGApIC0n_pgSD7Ro7r08frsT1ndPkm7OK0i5cVgYn2pa94ZsszN7MBUl3QLbdszRQp5IVqBo5CKelYjqoX8RsyXge8IQOpXJEgZxRUZP6-ZlDA55qqYgMxjNsFSOttZA==",
+          "image": "https://ads-partners.coupang.com/image1/foguwOb1FTkQ_r4gfgNPjPn-ieCRRiH02ZOw4zMIKRV8ekDGdjEx0Il8aqdk7rCanTkZSYt04xaHKfohXFsNZPoOpFr0ywVXt0_ztxdotawlpOpu4p737w1JlXWyUDTQDjp8oww0WQeNrOcL_ftVx2uuSXDMCUzT0B_PeBFhf8Cb-0HVOo2Dxnlb6PL_lED7T1pnNNkt5c-3yVuyURyDuGBmKSYZAAtSP42hBtBGL1SjxdoaMvVYSYK6CEmxE0G7rjXJHDcl4aXNWoSoxGMIOJn-zRTsOJ6IUrHg4EUfYGSYmNO0-gtbu_Sm_moTEWEVAsL17UKJsvOy9VTTE1zeDPW2qazGU58_jLx_D3dkiRUVRkVptg__MEu3x_tErdB4xbRJV6l4IdJvFFbJRHidQ8xwNSiwi6ItA8xP7e64OTJf2mJ3IWex0c2EBh3xZ6isad79xLtYkbMysltxIRzDO1SYixueI1Jiw3RMduoxWpL5QrVjJ34Y5FxYsrpjhqLBIra9OL639QtkEQ3YYeGtnigzbJMHiJobWQ_WqCj_NNfkLw==",
           "url": "https://www.coupang.com/vp/products/8505774458"
+        },
+        {
+          "id": "8505774458",
+          "name": "에디파이어 2.0 스테리오 시스템 북쉘프 스피커리모컨포함,R1280DB",
+          "price": 125910,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/p_yXp6Y9mwS5D1ykp38cfxx4FVVNyX3WGptVTJpLS_Q4V0TMhS4fsKbI5UjApVo72uYgeO5sq27wyz1TnRibe-pHnabrKDub8ydMRDVzMTy426ez9LQxiivUPsA50w8mIFyVx6T-ZFzxIIWd_bS34KULJ5LgmdCbngZwCnoRpW7G-JUijIh9DAkyRQB-j3FeV4gArVeIq9Q3w4xjnSx8579l_yk1Kj1IiwrsVufWEoW-LC5IUVWmua-QSUZ6SaZAYvJz35jeGe3REzrTU08r8BvG6GeJVrsz4nB9OPgRxB1tXmkU3hktnsG7vT-j5slSnGZ89U3Mndy3KdTpTY3u_DqVAihvCC3-GLVgJMFRTu7WklQ9WETPDfDYqjDgszaj9aOTojGhfjG0T3lE5OwCdJ96bHAzNhotJELgjN64gPlfEGIznqrB3ESUdtUMEfH19PnXrf6_qLQcbsYhGjzQ8JX5_X8wRpIiaIz0pyNRW3HJGHPgkiMEW9oqxpwhpWrHB9gzHzoMokV5_sTDCc2ApnviAfsmkIVvY62lhlkMQBk=",
+          "url": "https://www.coupang.com/vp/products/8505774458"
+        },
+        {
+          "id": "7906595021",
+          "name": "Edifier 에디파이어 R1280DB 블루투스 책장 스피커 AUX 리모컨 42W PC",
+          "price": 194000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/czJD49idEMQofpGGczg2RrgEkF1enF2IYJ3TZbyuT_otg86N1vvhxmcrflx3YC7I_4LkagjFecpibhu0HtvE8CIfsYpJhVNY8YZMb7c6gS9zPiMLXFMZlGgUJQ0Nc17KNhPiP9ZkzubloscVaml-fsbovKJSxIU6AlgbSbngUAzqJ8Mp6APb5UUuLxx2JdWjRH1vo57pg12eQxnuqDklMtiNN9P3tnZz_mKFAhYrB9HoUg-Ewp-_08KnFefmwKfFIs-IVrFcCy-uyt5g6fwhH6M8l1zHQdTnOC-TthqC0tT5G8bwnPyLIGziQ7vEgqgW4ht6nXoKaBNbt40rxZuYumdOAcNBUug4TMmMGerWRfbHG-E_A2EsIeIESRH7wkX5SlhL6e8tWtb0YHmAJZZuhmlb4pgPPw4lIE7ZyaJ6QRJrtWiAlrCYiNYbW_cOtsvXuf2ae7mblECol7Ql_Y4yCbHoQWeKBV3KGvUqJ7DAN_vGbAY5CZrJM9eOjhz5BtF3aTrHGQDBaMVA5zTkL_vHRk5Hcn57yFgb0PZrwsS5a2nCuA==",
+          "url": "https://www.coupang.com/vp/products/7906595021"
         }
       ],
       "best": {
         "aliId": "1005006148604843",
-        "coupangId": "9822126578",
-        "aliTotal": 116400,
-        "coupangPrice": 22360,
-        "verdict": "bad",
-        "diff": -94040,
-        "pct": -421
+        "coupangId": "8505774458",
+        "aliTotal": 117200,
+        "coupangPrice": 123120,
+        "verdict": "meh",
+        "diff": 5920,
+        "pct": 5
       }
     },
     "Edifier NeoBuds Pro 2": {
@@ -3388,14 +3396,14 @@
       "model": "NeoBuds Pro 2",
       "cat": "audio",
       "why": "에디파이어 ANC 이어폰 상위 모델, 국내 정발·알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:56:57.989Z",
+      "at": "2026-11-21T16:24:01.314Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005006075728176",
           "title": "[월드 프리미어] Edifier Neobuds Pro 2 -50dB 능동형 소음 제거 TWS 블루투스 이어폰 LDAC 고해상도 오디오 8-MIC ENC",
-          "price": 181800,
+          "price": 183000,
           "orders": 0,
           "rating": "0.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se9126be1d6c24a04b70c73ea8cf1f8b9Z.jpg",
@@ -3410,7 +3418,7 @@
       "model": "TWS1 Pro 2",
       "cat": "audio",
       "why": "에디파이어 가성비 ANC 이어폰, 국내 정발·알리 공식 스토어. 가격대가 낮아 1만 원 조건이 걸림. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:57:01.899Z",
+      "at": "2026-11-21T16:24:05.340Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -7164,5 +7172,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-21T07:42:41.606Z"
+  "updatedAt": "2026-11-21T16:24:09.374Z"
 }

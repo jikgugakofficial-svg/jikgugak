@@ -567,10 +567,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9pSRP2",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.22 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 24223,
+    "priceKrw": 24805,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -595,13 +595,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.12",
-        "field": "priceKrw",
-        "from": 24493,
-        "to": 23513,
-        "source": "알리"
-      },
       {
         "at": "2026.11.12",
         "field": "priceKrw",
@@ -663,6 +656,13 @@
         "field": "priceKrw",
         "from": 25274,
         "to": 24223,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.22",
+        "field": "priceKrw",
+        "from": 24223,
+        "to": 24805,
         "source": "알리"
       }
     ]
@@ -868,11 +868,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9ORzhI",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "checkedAt": "2026.11.22 쿠팡 자동",
     "slug": "amazon-logitech-mx-master-3s",
     "name": "로지텍 MX Master 3S 무선 마우스",
     "category": "it",
-    "domesticKrw": 95220,
+    "domesticKrw": 95320,
     "domesticSource": "쿠팡 로켓직구, 무료배송 · 3일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0B11LJ69K",
     "risks": [
@@ -921,6 +921,13 @@
         "from": 101920,
         "to": 95220,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.22",
+        "field": "domesticKrw",
+        "from": 95220,
+        "to": 95320,
+        "source": "쿠팡"
       }
     ],
     "match": {
@@ -942,11 +949,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9Vmedg",
     "sample": false,
-    "checkedAt": "2026.11.19 쿠팡 자동",
+    "checkedAt": "2026.11.22 쿠팡 자동",
     "slug": "amazon-crocs-classic-clog",
     "name": "크록스 클래식 클로그 10001",
     "category": "apparel",
-    "domesticKrw": 59900,
+    "domesticKrw": 56900,
     "domesticSource": "쿠팡 같은 상품 다른 판매자 최저(새 상품) 블랙, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B0014C0LUC",
     "risks": [
@@ -991,6 +998,13 @@
         "field": "domesticKrw",
         "from": 59800,
         "to": 59900,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.22",
+        "field": "domesticKrw",
+        "from": 59900,
+        "to": 56900,
         "source": "쿠팡"
       }
     ],
@@ -5398,14 +5412,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.22 알리 자동",
     "slug": "ali-ugreen-nexode-air-65w",
     "domesticUrl": "https://link.coupang.com/a/iBYTJWEq9k",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmyH9YFbcdrf7wjUSwbCj003MaHic22LKqNgmHQyfHpkAyTjzAOBpVFIPerq3SIEmLXaLdVhi0KffVdKJvOT9rXGrF13sg7bkeeZdXFvQenLAVLuEFjAwYEqSufUFEYWM1Ailj7x8eW8o2PDOzdB3WSnDx3dHCy1cM5a6nPlvV99eZOjpmewHDo8UZh7c6u6LpYROnc2NhKUeuOMHA8yr4BuYplbMUAvTcWaxxEDzxavmsTFpX6iXDlvbXxftfxZhjhzaeOrww9iB06I4Z2ZGqCw3HZ5UHp8JRviOZE3MelcU6Fid7PzgtN6j3izhfQRhfN16nbiGKjPD3iNX1pFX1UyTOC2wVTt7TqjW2LebZ2DDais0XWLH3wOpPSolOWnhYNA4Ayh8FqMC1bvceVzup9WDcYyf69KPT2Utyqj7SE8pcafVQ4nIgP3lUYZm0QqU0lJy6XhmpUdM3IKak6KAPVfxitzqWf8cNsjtOhruqGl46TTTwtwuYVHjZAD8DcrFPQfOZz5G8UY9kExKhIgU9qfXoBhc20Jp78QpjRgRQZGh52G8zNJYXZRtZlA9hLy9KkubgSvQB9NHW5avtpg6YzJQgwNXLr5J6yb5WRxSE0JWRm16V6FSyxiBgtsV3tj8NMs9FGmxWu8x51sRQYEMi0bR5QCb48Fk68RNG5JWDLKfakUXXp0ybNPp1F3VRIeH8K4X8YKWzgzC8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa1381f441eea416d9504e0d6a600c793q.jpg",
     "name": "유그린 넥소드 에어 65W GaN 초소형 충전기",
     "category": "it",
-    "priceKrw": 33137,
+    "priceKrw": 33257,
     "domesticKrw": 53900,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9780240448",
@@ -5485,6 +5499,13 @@
         "from": 33094,
         "to": 33137,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.22",
+        "field": "priceKrw",
+        "from": 33137,
+        "to": 33257,
+        "source": "알리"
       }
     ]
   },
@@ -5496,14 +5517,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.22 알리 자동",
     "slug": "ali-baseus-bowie-mc2-air",
     "domesticUrl": "https://link.coupang.com/a/iBYTJ0WdY4",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmw60uOJpAqeUVXDbUeL1qHvdQeWl41L7J9jgxvoVM1R9UKRrh8QGFfHBBqdQtmWnpeCj02R0JNpBCr6mKkuXcVeuBmi1rMXY9U5GAcz8p08Y6tvms82Cp3rHA4q0Vx8lnVkZxGZwPX4iJ7W10HgPTHacHe1T4qgHwWblWy2ThjzG5we4U5aiTuHGQVUWxQb851chv3mHlQL6AP3H8cXYZozm6moOB8oW4AhYbkjbDV2Nj9AiBeaQLHahtIvOJNcCPp9THhjE0GUAKatsELtE00p4kCCRi73cJbHeOvT6HusBsZdK8ArShAvvIb99V4W2knlVNf4B6TNLfsnI5PwdDD3E8D9PcevmKVwOAOauwBUfl6BVkaZbuAvIULL456jZAusoeT0U5m6SCjXfhXK9Y358giPjm65fOoo6ZXvxlOuqSvCbyiDtKfExVWiNFfGU4ooK89yOL2ijSfDZ3cJOjjeBmPU4GihTz3357D0VYLV9xMP580h6FDEt9waUSfwEx7szJWLGepq4kmqjwnIoqwxKKPjRIfR0xtGVdV5tNQXXEffjmSKl9H7b5o1jbUlQFtM3o04vpSpu5yEnwddKaZYkpwCJcISk9DkXdARAvsSgsWWDnqqpmKyCOsRFtMJC2Q5LvNC5J2pCeev0I74qlJjkx0tB1tDj5ny3OEMdW9RrhSbA7IdfGafvkyW8vPHxdXLXHUEebxIQ8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb361503483724ba6af2f43c65fc618ccy.png",
     "name": "베이스어스 보위 MC2 에어 오픈형 이어클립 이어폰",
     "category": "audio",
-    "priceKrw": 37582,
+    "priceKrw": 37758,
     "domesticKrw": 68900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9685144131",
@@ -5589,6 +5610,13 @@
         "field": "priceKrw",
         "from": 37534,
         "to": 37582,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.22",
+        "field": "priceKrw",
+        "from": 37582,
+        "to": 37758,
         "source": "알리"
       }
     ]
@@ -6846,11 +6874,11 @@
     "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "checkedAt": "2026.11.22 쿠팡 자동",
     "slug": "iherb-now-sunflower-lecithin-powder-454g",
     "name": "나우푸드 해바라기 레시틴 순수 분말 454g",
     "priceKrw": 25103,
-    "domesticKrw": 43110,
+    "domesticKrw": 43040,
     "domesticUrl": "https://link.coupang.com/a/iPcTEO9xFk",
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-sunflower-lecithin-pure-powder-1-lb-454-g/59514",
@@ -6877,6 +6905,15 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(나우푸드 선플라워 레시틴 퓨어 파우더, 같은 상품 번호 다른 판매자 이름에 454g)과 아이허브 화면(454g, UPC 733739023148)으로 맞춤. 최저 43,110원 줄은 이름에 용량이 없지만 이 제품 분말은 454g 한 가지",
       "checkedAt": "2026.11.20"
     },
-    "image": "https://ads-partners.coupang.com/image1/9mhO8jRIoNCacUaJ9hY1qDdB1KrSSp5Slza7FlsB9sFqCHM0K9MKloQXgkRmdoCJpZNcI4NKPkOM1j5VAh68dZyvW3euwZu_ceM9lqzh0i3W-c1mV9IV5h-4PdPZpGZ7k_p6U7g5KU3N4guPD53i8UuXIHvcQmewl1nKREuvuNRD4oV_WWp27cLOHj4cazr8tiYNCy93EXJkaPCrQvusweeCN36oC4R6zjnEnAztkIzrHoyqiSGb5CQdEmznnv1qO0puxzn-ZpJ5iHLVUwlufiOMksnBd6AbtfdY2-785oIApMf9ScehpUxiUTZ9RU3XaRBTVa1JPzHQlOYrwINhaehTnbM_3ugDW8BtTW6jawilHZ0-H1_n07koNh7gr_ZpnehoWnVYxEvm--GbwUAel9LX9jFfcKGfgiDYQwJuY5163IFrT2MFBz90kPfmuArOHSkCaxllPSB_P12OHGLkzLzidpXxSmCT-IG02ADp_YBMNt28Uo4ahRjmJ_7Yseqd8fWPz421Qvp5kv6qd6-A3UpXhVhR7Zmf8E5GVQAM"
+    "image": "https://ads-partners.coupang.com/image1/9mhO8jRIoNCacUaJ9hY1qDdB1KrSSp5Slza7FlsB9sFqCHM0K9MKloQXgkRmdoCJpZNcI4NKPkOM1j5VAh68dZyvW3euwZu_ceM9lqzh0i3W-c1mV9IV5h-4PdPZpGZ7k_p6U7g5KU3N4guPD53i8UuXIHvcQmewl1nKREuvuNRD4oV_WWp27cLOHj4cazr8tiYNCy93EXJkaPCrQvusweeCN36oC4R6zjnEnAztkIzrHoyqiSGb5CQdEmznnv1qO0puxzn-ZpJ5iHLVUwlufiOMksnBd6AbtfdY2-785oIApMf9ScehpUxiUTZ9RU3XaRBTVa1JPzHQlOYrwINhaehTnbM_3ugDW8BtTW6jawilHZ0-H1_n07koNh7gr_ZpnehoWnVYxEvm--GbwUAel9LX9jFfcKGfgiDYQwJuY5163IFrT2MFBz90kPfmuArOHSkCaxllPSB_P12OHGLkzLzidpXxSmCT-IG02ADp_YBMNt28Uo4ahRjmJ_7Yseqd8fWPz421Qvp5kv6qd6-A3UpXhVhR7Zmf8E5GVQAM",
+    "priceLog": [
+      {
+        "at": "2026.11.22",
+        "field": "domesticKrw",
+        "from": 43110,
+        "to": 43040,
+        "source": "쿠팡"
+      }
+    ]
   }
 ]
