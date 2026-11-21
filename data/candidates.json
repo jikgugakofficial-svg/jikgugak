@@ -3430,15 +3430,15 @@
       "model": "NM790",
       "cat": "it",
       "why": "렉사 NVMe SSD 가성비 모델, 용량별(1·2·4TB) 가격이 크게 달라 용량 맞춰야 함. 국내 유통(쿠팡)·알리 공식 스토어. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:57:06.022Z",
+      "at": "2026-11-21T21:53:31.164Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005006488800821",
           "title": "렉사 SSD 1TB NM790 내장형 솔리드 스테이트 드라이브 512GB 2TB 4TB ARES M2 2280 PCIe Gen4x4 NVMe 정품 하드 디스크 (데스크탑, PS5용)",
-          "price": 185800,
-          "orders": 7,
+          "price": 166200,
+          "orders": 9,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S725f8a3be16d4aa1a7b2c3d7ad812695U.jpg",
           "url": "https://ko.aliexpress.com/item/1005006488800821.html"
@@ -3448,20 +3448,28 @@
         {
           "id": "9146073932",
           "name": "렉사 Lexar NM790 SSD 2TB PCIe Gen4 NVMe M.2 2280 내부 솔리드 스테이트 드라이브 (LNM790X002T-RNNNU)",
-          "price": 352400,
+          "price": 333600,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/MvkKdrWGT6aFxIDcMhbE7mmSPWiJ3YW4zmmG0zmz2tG3_mpl2qkIBClZtVv_mV1RpQh2Jtmtifbb_aDWg2JCUoItxBaqnqxm_ATaHeQ6DU5v8F3kTRT-UnmodusIKoVPvERvDW6nKbyFbxoCHedjbQWiozj5lLkQB9yRSh9TYdureXjE4coGKysLsfr9IfT-7rHt6EDJs2adIn6r1CkPOIiGBweAwRaalGT40_QYDHWDLgeyCzwbKL7ylpicK5WdCBH-VWK4tCAQQHKPBOY2P-tTUyufNzxAZoSgNVX-bIEAGAkt9smHZKwdFVGrtb8INmNM5kLdkSE0IgJI4T0x3jKdJckqE9ARlw_Bro_K6vl_St1YUNDWZXkzRJnaxv-ZDuLEv-L9HV3ldqrp2DL1LQF5TnqFH_O4UvFZkHelAjeb8ODYTQ8wFf-W1pYrckQWGRLYdpsgmaqEEXPyCMu87BlcShUMSeJQeUAicfZQOhbqvcSoM3UY88L5F6ykWrDy7HAzzEY--qOrFERnNI3_useyZ8tLa8_dkGAvqHr9qw==",
+          "image": "https://ads-partners.coupang.com/image1/2IfzxvE7DadLGG8f2IXEDtgGQ8busPPDgBEUV9fcwGKC5yl53c7bc0AITT6aY6U4OgLcbsl2MMBi02XljHKbCfF9D9wBPMRFU2drpPnG312eEmifg47vnhf4Qkr9vOjvfwhiewUWCM6kVMyUIyJhPtaIsuKwYPCeeJCwVNy551iFFJZmE1OIPrDjW4ctQS3zYV1IuCejkk1cgvFHeHDikPX5nXLvWOzbz8UwvG72Re4MSd1hyBGeCIKxmU8g1cI80GoeclS7VtYRsN8t1KGQBxbd6txkbPQSwIRYSOo3qAvYyt1aRIFTihuY8xFOJJ0poaetdTqFXFgLlU5NTcEP6Kt58ygUL43wY0PkJKmBlUMwl3UFizytyMcwdCInvIPV3RZI_YgrHKwxVAVO9mrbWEEKxjBxSKKhROA3XRE0VjPSxre_aTT7kHJw0Jhs_l930JFMASl6AYvv_NcfhV3We7ixQip4YgHLX030VNiGlFUjb5lzonu5R0zAbUi9UmbwGr6KMEDOpeMEQo4RyCzbfA3EI3z0NxsEXTEWhb5Db7HMtw==",
           "url": "https://www.coupang.com/vp/products/9146073932"
+        },
+        {
+          "id": "9831356234",
+          "name": "렉사 1TB NM790 NVMe SSD 히트싱크 포함 74006500 MBs M.2 2280 PCIe Gen 4x4",
+          "price": 434500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/yntEPvXrwcgCrBjTykx1r4f7FpVZAJ7hHKeXgwAO11esf1C1ZrqxfUmS-cqilYGFoBTor6cq6w4TriGIUQDfYB-gL7n0KjIBfkSCfj81UnWxW0rFS34RSNIRpjRVP4tNFpQPbJ3IOpgu-WFhHVdRnE6RFE5tHRXbQ8i6Vlm9Eg4ZDS01I6ui918EuvRor7eUPl1Llz50eW2EznXCUvPcukqw-I838Pk7GdyTEaqh9wPgt2CMnVVF0U_xQmnnUjfBHSr7qxPXGM6qtqRZlx_1rzR3l7Wsn51IBvLflodWqgIE36rvgdNfPXuPDQ0XjH_HA_Ivm1uzDFBoF0DsfHNw2XHucG-AEJigHZXLR9CrCjX8HbfNX4FGcrRX8d4STDmRPAOCEvntkF_NR04C1RVrcUkdPjDh9hTCD6EC_YFo-fikiNWuHk4RDk4sqH87-CDLFnDlwid82st6Rwq8UeFQK_XVqtPJZkhm7WiIL5nsh1K0mbA4ltlex6PQrhiSyn7xyYle7nQ7-K85Br_sMFfKTGqK67YYywIAMK7E1y-JaQCSAL0=",
+          "url": "https://www.coupang.com/vp/products/9831356234"
         }
       ],
       "best": {
         "aliId": "1005006488800821",
         "coupangId": "9146073932",
-        "aliTotal": 185800,
-        "coupangPrice": 352400,
+        "aliTotal": 166200,
+        "coupangPrice": 333600,
         "verdict": "good",
-        "diff": 166600,
-        "pct": 47
+        "diff": 167400,
+        "pct": 50
       }
     },
     "Bambu Lab A1 mini": {
@@ -3470,17 +3478,17 @@
       "model": "A1 mini",
       "cat": "it",
       "why": "뱀부랩 입문 3D 프린터, 국내 정발가 대 글로벌 스토어 가격 차이 확인. Combo(AMS lite 포함)·단품 구분 필요. 부피 커서 배송비 주의. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:57:09.974Z",
+      "at": "2026-11-21T21:53:35.247Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
           "id": "8561319085",
-          "name": "Bambu Lab A1 mini 3D 프린터 글로벌판",
-          "price": 305500,
+          "name": "Bambu Lab A1 mini 3D 프린터 글로벌판, AMS 미포함, 3D프린터",
+          "price": 318000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/Bjh7kxEBWdDpb3PFBozcz5YQ6LsdwOJYB7oTK1lpsWH5g314u0Mxoa0cYSYrshuLWItepm66OqCLcQdXDhRiBZ_8lVZ2_cGvmtB9swAsjzV83_9iAaNH4SDuNGS7LM39e7aaBz4DQu1jmcMfLPuoO1bATv25yP78PNNOlqriAHvc3SBvKs7kWcQDlG9xhc6DK1CWXrIkBf-fxa_Ap5wZ_xcho40ZnxxJkl2FvDl8jiQbeI4eea2CxfCvRNuNI927NavRypdadhGGw2n2HpcXyOhVUgehLPVRF662v4TQV4upVqddkyHIU-UqU38AGmPnNTyMEdv9hM_FmnkQuihuunqxHAYtzeMz6n80gEpJeopV-2Bb7BkLSXDGtSI5aTf2SjDroa39AgDpvJ-vKe9lPHdcix9zEj_dQQCcA5RyRrcSG5oMvXmVdhIOTPEedgzrxlGCHdup7Qyq27TCFKzBIbfIwf8d4_NhmKLr4XAPusKyDQ6DeChnXWnDDfwruKTWXY93ZUUJjxFgLTzngYqn-9JB8xaeVOvISvLsHgjE",
+          "image": "https://ads-partners.coupang.com/image1/AUP73a6nDCcDN9d1AYZP4uDNfiKDhArPdRsDwdiUqsolrBL0_WSDXNxydhFIK98fnIzMgSuoPqbOSJWxUY60hI3xT5GyemkPX6nTQMYx7wdqcbE4FYpef5wR5I15vePkOa0ZBJz2hBlVTEmyNU_GyN5DKF6ezyVEqRDS7LDbSYEMMq9a3WkQGPL9sotfJmfZqyEAH8QchEFrXr7L86pjn_xfpWqtALJi4OWibROrSVRPhDOOqvzYldpO5mxy7n0XpHG4EHgEU7BclkBxFgX9tyyhJnv-kmePMpyijMct_Xr0w2lvqbf3S_uEL-3q5VkBL4opfLjDXU9zyhnq54RF7ynGJoRQ4pPxpbnwf7CR26k0pp4GUgefROcI-6_ypLUJ-4f0W4YJwbCYeFXrWQR2HhIdax0uEvsBFfnFgsnnJ0njhBq9TbBcwzwWKNgzO_iXKwTMTl2Z-qNtaBsacvSA611p83uFCcYl9zKvftraILCp7Hciwp4IWwtfaBNdOJ3-JXH7j8ULm8FkJSlbr4JM51xaVJDX",
           "url": "https://www.coupang.com/vp/products/8561319085"
         },
         {
@@ -3488,7 +3496,7 @@
           "name": "(Bambu Lab) 뱀부랩 A1 mini 3D프린터",
           "price": 319000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/vsCjIuvOwE6oFlusvvm3RBaEJy3lVQaWpMKWqOhcoshb5YpR20QJOkrV-GIO6MLjvgfThjpHJCJooHkDFjI1lSB9mDxIVTu5fVmovYjrnDv_tA90I8lAMEllbtPWmsxXeQy8-lY2D7OnUcqi7YuzWHcPrUFzKa1Oc5QUkiSBD7n-rploRPLPpfeS3CBiv6doy2QXOeDb3xbW5HzNdgPlgCaB2o-yidcV9bRc6vpACR_n-wx_kJrfZtF430zZHgoHYWhH2cAtbfHEX8nCqEUx4HWLXaIn-xTnLEoZvhV86Idl58bfL0JlnZRwgbPUF6d2CplO7ttYcE-8TYkZKvVRVSE6GO6lTmju3X7kmUobA2JffSXOE0PCXvWqc_vDvEQ77KMeTlgyQKlGyQm7GSZZHQEDxFh4SFPJo-OygUX6xSpRl-h_jJGIE31J5bqaZcZW1gbldA2ofpqt3KH7hYjbGhyXXH06PsFdH8pxCUoJjWd0JUlyqW0dnOL813-_WOjFynV-arPCNF48f5TBidRr_v1im0rCclVZuq03OH-Mkg==",
+          "image": "https://ads-partners.coupang.com/image1/uap3FjL9EfnYIq3DuZjd6oTM8iE9x3TNuX72CGEVdyhL6AMiwgpkAypIAktz15h_OVUKk0LWF9x1BgJ-ZJeePbhAMWo9iHLn4mh3cCjWiVusM5CCZ7M7PSE_yaQ_cU1fXTz8hsTwDCDFMdWfwdAgwKLPRvdQxe2H2r4oX3TIkhh4x6AZqyAqHR6JuJBYa6B2xb0It-6Obt6tRDTpXgDANtodWOWClXMI6JKpMfeDRj1x2tSDEYXUW-cqcXUCElg1T6Qc5txSQGQeEReg6OJR-J02TCnw4WeYMtcTghz7OvBw91Ud_lFsUIctVOSgszqMCXnd0Bc9JKHruy1Ue-4awe8o5dGiya7ShF9T_eE72HE_tDo-ZoJEKUfDv7qK8POWM6BQo2I-1r3wMkXgOdUPefcB4K-bSsyPa6WOuH0Y7qgqoP1UtW7xFj2mc2IzTJ34F4VrzwSQcG1KhOosob9LozQZJ1nhjj8l8vJWadb7dEfQ2mEwtPieseYXHeZZxCc1OQa6ZRgoNMbRcj6l4OZqwsxLcTJD1hpu9EfOGgd69BOrVCQ=",
           "url": "https://www.coupang.com/vp/products/9814602906"
         },
         {
@@ -3496,7 +3504,7 @@
           "name": "Bambu Lab A1 Mini 뱀부랩 A1 미니 3D프린터 글로벌 버전 덕유항공 국내 AS 보장, 뱀부랩 한국 공식서비스 센터",
           "price": 499000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Na_bAP4em4w04--1NXcessPxZXRL3rCYa0xhPUZlzeW8sw4qn7fDT0vUwY2lYUWa8gc8AIA9DlwiKcDKbIKTk0rzpAmazmscerh8pBNkD4qam6K-ZZuZKC2jGrhTKHuadBt7lmBEXW361t_wb6hBBD_AmkvhHy29PymBqJf1FlesBfF2HP8q4ek7MABzBMAFiXMIAcQp1QC0AFUjOixKYuIT0orXMmwxQ0VnzfSOi2310pYkcLWH6yk3lunMG-4sSBjQK4C1u3EEdVkg8qz-8dXlMnO3e2mJYzuDkASoK_S08m8ePtYqUP7MDH7T285oQWmwsJJ88qeDAgj2dRL6Fh_Uv9yVXxHlnC-jS-xSg1W66_wtpcKB8Mr42yO3YTjLEiqwas_wpSjYl5wXyxMYb9GEGqmHc1lvBY7X1k3ySytsuitO5KxmbURu75L_pJM_UkNcPitO6OpUCeRg2Qm_eBokXTDcb5lDQAf83_zacb1GnEwy-is0byTnvTZMfXGsFS1h0dSJf0qAITAMXxjTFsfmnMtp5uvIZZGE-EKL2g==",
+          "image": "https://ads-partners.coupang.com/image1/Y2bGOYxYwcYnJy9SYwnhb0unkWTYzSQHp-lmx1h9H1I-L51m4AjwHTXajwy_nvs2XLR_ez_-3nQdFl6bi4bjT0F3U0MLqyNOqrRk-yi6IVW8lIAmO2BX-epRa9Y5yRGULgGPC8P2asJnkuGtZ7Ua7QILJWmG6-VwyDJ5aGhe__hVZ_3Wbr1sdwhgLjhBqH1FB89WT1ISCxu_hG9Ovs2m3DWV_bfToTyf2NKBz0sy6I5sIOPz1fYyVSgz3cjzK6ZGtDoNNFN14s0dVYwVoCERYNFv2oA8mGArqgTqctswFsHy5zyh4BALMEfMyiGSSvAzmDbzPFDU3svEPqw8ix_ahL-5gMKi7fkLm_pYl1eKJXZHxFNBha8JJfIS-PpeTrD4G7Uh1TaE149QLohY6ex57G_8tTL0MOPNBofjEVzsy-dbIDkNbp-Sib8qexPq0yU5_4yor4XSzuYvkghVZ2J_3Fp61TSeQftUaRVC44CjkXPvyAe5dE_LBpg9mYee5q2amiJdLy8HySvdzq5iQGT3zcfP0bpr6bRt5gvDvAfHtw594Tc=",
           "url": "https://www.coupang.com/vp/products/9700975863"
         }
       ]
@@ -3507,64 +3515,36 @@
       "model": "Centauri Carbon",
       "cat": "it",
       "why": "엘레구 밀폐형 3D 프린터 신작(2025), 알리 공식 스토어 판매. 국내 유통 여부 불확실. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:57:13.966Z",
-      "status": "new",
+      "at": "2026-11-21T21:53:39.199Z",
+      "status": "no_ali",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005009567595057",
-          "title": "ELEGOO Centauri Carbon 260x271mm 양면 PEI PEO PET PEY 히트베드 스프링 스틸 시트용 빌드 플레이트",
-          "price": 7200,
-          "orders": 287,
-          "rating": "95.5%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se9f8d54681d4420b9c279ae02ca5fe87q.png",
-          "url": "https://ko.aliexpress.com/item/1005009567595057.html"
-        },
-        {
-          "id": "1005012453802983",
-          "title": "Elegoo CC 2 핫엔드 0.2/0.4/0.6/0.8mm 조립형 압출기 핫엔드 키트 업그레이드 (Elegoo Centauri Carbon 2 핫엔드 / Centauri 노즐용)",
-          "price": 11500,
-          "orders": 138,
-          "rating": "97.5%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1c30b970028349b5893e680cc776318eB.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012453802983.html"
-        }
-      ],
+      "ali": [],
       "coupang": [
         {
-          "id": "9803519525",
-          "name": "Centauri Carbon 고속 노즐용 0.2/0.4/0.6/0.8 사이즈 노즐 Elegoo 2 Hotend 3D 프린터 액세서리용",
-          "price": 12400,
+          "id": "9818914867",
+          "name": "ELEGOO Centauri Carbon CC1 1380mm 타입-C 신호선 익스트루더 통신 연결 케이블 프린팅 부품",
+          "price": 36600,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/EOMU-qsWOacKMlrSEFFjvGNEfwmzKnUAvxCf98tezyUjHqqExfVfPfHWU03OG9nBCT84w-84ZakikMgs6swO54mJ-GCPJQzraAddIC8L9JG_jhjBS4I_AZSHYMbYHSrCl0wEbMu1fRHsV13kEhvKGSJ1PwQBZJMY-ywCKmjYlHH3RD0UjslUARMeXx3iNxxGQRiJlWpuiOBX7VtvVEPPBi3ms1E0V1YvX_Z9nPa63vhOfxbTR7fdtme8sg8OfgIpWqCGt0Gcm0ptiWQqkRxbieYZKH_-Bd34OigCZz85c6CO2kXdH6HcVYNtiubFfP3ZBmvym9r2dPTM41Z8zyxrE_oALGLGZo0oHVTEtiE1Ily-nboRvkh1UVxem1RsKwoje5b5hM8z56YZLjKf4A4JYrLDar4WyibrUwgxUgpX-qMj3Jb0ynl4SAW8TsFeHspyI9i4BdI928RRWlg9c61bdl4ATDk5-NprPRi--bHRuzEeWt3ooqtYlXDi8Xl57g_V3x6q8et4uFNTs8hsQo6MUJkBh6qfowBAsamM1_tGFss=",
-          "url": "https://www.coupang.com/vp/products/9803519525"
+          "image": "https://ads-partners.coupang.com/image1/Gs40jIXSXacChpGiGsltQ9snuDOIAcbCQPcp4mJb4eDD16Z7n5o3XtOdGRt7a3tYqyS90n96lMMvdKn1u97AWkLM7bOc1N2_xoolnAoQiv-8aGIDd7VYjr9MWWP5T3mJPqY_730kPGTduV-cMrVjDHulzs1Vx2TnhG3cdAEJWsaBwg5axgGXhu0mI_SEpJOfpoZv-_si1ks94myGL2SvJ7TI9w5G5MpPW0zHbJiuV_rbaE9NGVfXvGUPScQxyJsRj4Y8DWEXqclhsVeovYv-GdXasKoB17ITcxydyw4hWM9HLvndYz5ywJUZ9bcvNpv3Yq1AONC6r_iXS-6hHHZpFkokSrLnjMNPtwD6uHJKZ6bS-XtfqtseJGhQOxBxjpksBYRc4eZTmpz-HlNkuG7NpQNraoxy-B6iTgTI3Sb9ihGu8tusBaEG3OrDwa7vSvEzK35LNivp7aTxuI1yxVNmg7YImJGvzkH8pYK4Qityi_O2kfXL0zOulaROQOFVLnKCvMf50ZN5VezCOMFS9YxKFYhZq3ZcpOkkNenPoOGrmQ==",
+          "url": "https://www.coupang.com/vp/products/9818914867"
         },
         {
-          "id": "9824572651",
-          "name": "Elegoo Centauri Carbon용 260x271MM PEI 빌드 플레이트 양면 매끄러운 텍스처 유연한 가열 베드 플레이트",
-          "price": 27100,
+          "id": "9834756117",
+          "name": "오리지널 ELEGOO Centauri Carbon 2 콤보 필라멘트 허브 5방향 부품 스위치 CC2 3D 프린터 부품용 멀티 컬",
+          "price": 42100,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/VEDamP1pvL2Vp7Z-VKxDFSWNquGbSLPFd42VvTWoAjbWuuJ4RUbuazhPgNZInYrTi48DJERWdNJksEGHj5LPhNUR8A5D-T-FV-iH_KNXz5pOj-nt8OCsQoluz-R7J9eqj2ZBsgul_xhj4-KmPpQciVTY2ZFfKaPOjOQsyvjge_qn1vqum7MDFUcgVqq2GoqiGOWksNOYWqzkL3gOD1avYZCjq-R2EXsidEo5bzXEJpkFSiMIQKrzzLmtEnGzXmwtl9DODNznKTA70d0OAV3rnKVG7wkBqeqVpSNogaaDd8k0inw4S2Ev4r8hH5OX_Zu3kInUJLcRf79rTSx7XhuWBhJkbi6TwiSCQ7MXhObsjx9Gp1m7kLzcoI5zwtE9JnzaZE4bhdsRnPGcJRUPr658R_2XAhkcqjUP8OcHqB5brHxiMTLDYlcPmKTHfdsEFkgunsavTXsOtGT1y9z4kTRfnMPSnzniAmh5boMeqP9B2GhWEmxc7LOkFFKp7smME88EeeGSNq6oxFGMerycyyiPQ6-c9o-6n13jpBI4xiXoR40R",
-          "url": "https://www.coupang.com/vp/products/9824572651"
+          "image": "https://ads-partners.coupang.com/image1/995wsVLrIIeoIUfb93j7KExZjgcXr1eVb1XACdxmhM5eSbh3mITSVl15NVCKOAdCEhIG7bx0p32GmBgqlkmlIZsIQqrI5BzElOuHz1yIdr7NlDN9_RHQLrrTcoQsiolUdGDfmX1_4o_VngDZDVgZXhfxcNu0eRgNxJbO5oUxD_D0ugabU3zpLExg7Lbltg8-MGnH-eqk-4VcXJ4t3abR6QPcjZK3N8M-vhARB_kfLh9hLIbHNESgdvU0Lpv64dkDY-Z2riFrdZyHNBD_RBqPTBVtoRbqclPR0kWR0NnmymRTkOpduJFVXo-0st35JoL8MM5dqkEFE2Zw4JcynajyAoj-GEiVBKWu48_WHB7YkuIilr8VuqWSK9vX0bkKZcypZUYUCtk-FtYjCHkDg5nri5zRP5_gCjnZEkJ2jtkpUU21_8OWuPU64uthdd3XuTEC93WW687_hrxy5NsjSK19vCdgj8Qjk-d4WJQJesjaH-EaphwBQXlgW-VOOz4N4iE_JR-UgjDdDHq1-WCRjUZLkMlqDW5UC5zqwlfApaYfWg==",
+          "url": "https://www.coupang.com/vp/products/9834756117"
         },
         {
-          "id": "9822775681",
-          "name": "Elegoo Centauri Carbon Hotend Bi-Metal Centauri Carbon 업그레이드용 압출기 Centauri Carbon 노즐 더",
-          "price": 125100,
+          "id": "9834461183",
+          "name": "오리지널 ELEGOO Centauri Carbon 2 콤보 필라멘트 허브 5방향 부품 스위치 CC2 3D 프린터 부품용 멀티 컬",
+          "price": 42100,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/gacDHtW1avmACqQygZLy6u5dgDuyEJMpPbxwdHFHYWNLjYuHcJeGP1sONCFaON4xtAzTxC3MsNV16nu6gDJzXQGA4Npzt0jpLTw1IQDCk-enU-Owta8fUsbPJ7gzMkkb27pF2-NBv7XHAJxovn79FK2DIvJXRw0ZgI_VbSDwEPj8cudGyShS5XPWceD_Fst4vR8JjM7SU52kPwGXk9316e3ShagF3-XvnkboqZ0Pcqn6-88E0fRVqZiINfpMru9VQ0pMev4IBFcQC1jnRyluvrhBM-m1bZj3y-_drZD7DVODLQhtVRsKhltgdJ7ULAVmnZkq7pIHUMLG-LLU7XrLm7Lif3HZu5RxP2nndL-svH_b69mnEbqx9jqxKVHAm_1uA8GuC74SEbyE2dfhRY0IitP9jrzQLbibTtNqmPFsYwjKiEwhrzzmvelkSbZ-WxdlLW_QOB4uVH9oulxDkJ6kEDXnHGJSjkaZ12OVKw2p5oOlxJNhH-wi2tIB8cJAWjCTeOP6aZzhjqI88QiVhWkz_q2xoxpTq--GQay8spaxdQ==",
-          "url": "https://www.coupang.com/vp/products/9822775681"
+          "image": "https://ads-partners.coupang.com/image1/MZ6EEyD9ir1nvd58MU4EZnvnnIHB5jxm0_moe7P_6xpJ-BSvSTGnOctOTX3VlFTjozy_DJlk9Es0rJcnZWjJ2lkJT-9hcX4Rsp8dbtmIbmrKKpl9lPEM_js7yqxrEvapRAqFNf-WxC07uRRwczvcWKSrQo6pyzvU4pylNkJSToMzd50cJ04MyoziCh8QXawSKLdTeq-ZqrhPxm-TRhOVTJxD8AFdqHhNikyzuCIanp57AvngaY4bGiy2tX8J2dP0SwTTb2M-HCt4e57tnffMsGocYYL-zlJUz2ycbZvb7Y6LEdijqAdKEZ-uDbB1Rz5HUDIHxeDVhipSnp4NwfI0N8vmX9qVgrxvxBhQoOoC4H_9p4vPpGxhpaQmQcOZOhHc6lfc95zTteMDND1LHtQ50LJVDWfTwjEjhdOwgpPFKeaYOH3OLlQ6VcT7_Nf_P1afH6LqKQ32TnOVEpI4DG4qZySNuMRKyTDBaj5wg3da2DJH1jNq580UcH8yl7cKyNteiEvXwKuS72yLuBiznbKt5HBNLSJGFLQPdi9h_FeUmA6F",
+          "url": "https://www.coupang.com/vp/products/9834461183"
         }
-      ],
-      "best": {
-        "aliId": "1005009567595057",
-        "coupangId": "9803519525",
-        "aliTotal": 7200,
-        "coupangPrice": 12400,
-        "verdict": "meh",
-        "diff": 5200,
-        "pct": 42
-      }
+      ]
     },
     "Naturehike Mongar 2": {
       "q": "Naturehike Mongar 2",
@@ -3572,63 +3552,63 @@
       "model": "Mongar 2",
       "cat": "home",
       "why": "네이처하이크 백패킹 2인 텐트 인기 모델(Cloud Up 2와 같은 브랜드), 알리 공식 스토어·국내 유통. 20D/210T 등 소재 버전 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T07:57:17.977Z",
+      "at": "2026-11-21T21:53:43.369Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
+          "id": "1005013100917446",
+          "title": "Naturehike Mongar 2인용 초경량 캠핑 텐트 20D 나일론 PU4000 방수 3계절 백패킹/야외 하이킹/트레킹 텐트",
+          "price": 140700,
+          "orders": 47,
+          "rating": "100.0%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7bbf868fc61e4c8d92c0ff593690449fZ.jpg",
+          "url": "https://ko.aliexpress.com/item/1005013100917446.html"
+        },
+        {
           "id": "1005008417384920",
           "title": "Naturehike Mongar UL 하이킹 텐트 1 2 인 15D 나일론 초경량 방수 더블 레이어 야외 배낭 여행 캠핑 텐트",
-          "price": 190400,
-          "orders": 12,
+          "price": 191600,
+          "orders": 11,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sab775c294e784d0294dcca8959d5482a2.jpg",
           "url": "https://ko.aliexpress.com/item/1005008417384920.html"
-        },
-        {
-          "id": "1005011707305078",
-          "title": "Naturehike Mongar 캠핑 텐트 배낭 여행용 대피소 텐트 방수 휴대용 초경량 야외 캠핑 1 2 3 명",
-          "price": 134200,
-          "orders": 2,
-          "rating": "100.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a189e38ff824409873afda7d818c31bM.jpg",
-          "url": "https://ko.aliexpress.com/item/1005011707305078.html"
         }
       ],
       "coupang": [
+        {
+          "id": "8620462650",
+          "name": "네이처하이크 Mongar 2 텐트 210T 폴리에스테르 캠핑 하이킹 초경량 방수 배낭 3계절 야외 백패킹",
+          "price": 200500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/kTaTWJ6xbcA-HxjakbmU6pK9zZeXSWaQmtzFAC4IsO_E8FU4zxCfDz7j9P_9u_JNfuD_aB3KUFN4VOjLYWyFqLACzmi2pwApQuQ8egdHeoeoa0Aei_BMGvPfKSf5IeU8vEHVeEFq3kDBIB2iV2e1rHZwo95ShH0d27kpA2CsYQzMwOeFacEXoU4G-n5tYdXlriHfDv9MIEjmHTDUX5bAvt4up8fjSpKuf6xdOqXQtimDUJ2yGSQGu9PnecwWB3nf7Y8gEBTC6h7oMXkcg5iYvw7y5sl3uw72ST5v0oR_XfAJjLPxKO7Bf2BXOw4lOiO_qtQIX9kBRTogeBn0EpTzmMIoDSjcnIUtjvNyjFcbmO_Gk8YlurDK71ZL9o6c1GP5y71LxTzkSRCC1tm55C6aPpCzxtK6Niu4gW5RX9sgrhPxOXMkEKmZjP-9MWS2mGr3LKXc68stcmgQeJZV0B3tgjkWhLcFG-JEs6aMvwFEee7OJz8jDfk18yYiLjDJwf4ZJ4MyiNCkg8OALD3_PTr2clhuFvd5lsgpuqFsoVNeSZVRW90=",
+          "url": "https://www.coupang.com/vp/products/8620462650"
+        },
         {
           "id": "9812917386",
           "name": "Naturehike 텐트 2인용 Mongar UL 몽가 그라운드시트 첨부 이중층 내수압 자립식, 01 빠른 Mainland, 2~3인",
           "price": 214800,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/1LdibbAGVePkHTY-1CcoLHYOCDUMjT33v7z9kRKbqWOiTEmu3Vu-fsGZFqnX1o-lsmOVTjdtELhFUqmxSPQzGEojMf9Uos4rl8g_rCW-zGOOa7wB3iPwKKqR2Oh8-kJrXRV9jfr2iP8bKqZCcvdcgja-nXASiM1XW3wXOUfOWjn9KPgEgB1fbXWL1_3o51arupZSjpaI7lXNuY8Qkqg0E-E--amcChgrnhSwVn5H4tyPlrVlHG5gJtDM8Z9096mxU8ST5nP-6C8upIrLlPKXgcDAFwC7gffAxENp_cIWa4PRL6SBp_jwgYyGGq5T7TPFT0gtyhwsaXrOwcqmgZWz9xZaWb6sP4jro_eHG-6NHbXljG8JKzmhX8MJX5v0uW10RBBe68SJ9ABIlHrtF9tcpf6wchYO6n1J-qbMe15whOJZRbHowRyKNLc2grvNgP2nDrBuP4u7gAy9NvgPmLcPQvjFUuU0g1KVaKidHeGk3yycnv30u2kMonZ1MexKLsprhzXrIhv4_sAzgCoVPRHKnRIqI2IyFYbGR6CH6W2dI94LGRtQ",
+          "image": "https://ads-partners.coupang.com/image1/_LIh85F3smFWno6M_HC7DoZNWccskeC1o5KBgcEiLxUIi7032op9ezyjRnvX-EbM-z5p58eUNhMTc1CMPRjwbT_StHYhDkMcT-XmOXsfhvbZIfq1hBHL18XOHwu0ILXIMczDwCJnfdMh-V7c1mkcdAJpQRGCb7b1JkKb77D68ZmMrypWJKpxaRcis0HTtAFnQFafz9-O5AUrkdtz5ew3jx3SYYsRIgCs7y_A92M5JBQFtunCbSx7rket3AvAzOpNLip5bf_6IZOs7fbuUglL7W5FOsZc99RemonfqFGQdwwAuRR8T_fG5vlroEN3vKwLA9yA1O7PgbekTbb4wn6fno7iUgubjnEiqM75i0sLjHQknFkvMmJLNd3Uad2jVGNEOvlGgKod0VOcLDVJOKsVN4lTPkaumrU2AHsjS7I5twoBjEsO6AUFOUH8F73nTpjgUbEt6M4HwfkxlSBovSisRUs7SrukToVHJaHLYdWr1vj4J12b0iTwJVifYeFOrUnnsTGylTjolp2kAkwi_6RQVTHilCj-WtNG4UMia9MIxcr0r3k=",
           "url": "https://www.coupang.com/vp/products/9812917386"
-        },
-        {
-          "id": "9474233882",
-          "name": "Naturehike 텐트 2인용 Mongar UL 몽가 그라운드시트 첨부 이중층 내수압 자립식",
-          "price": 238390,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/JIdPzcsaA-lP0bu1JG3ZY03IRcO-c9wenWQOtaPiC5cvrmVjCHkN97RHVsFnZO-uaB9osbTOHBn1A5Pd0ohCW7prG_PfHvxF4Mpc9FjpihYhrq9IcQjYc-ynbtkL3AqKBayEupbjDplsaM_Nx7VeZZfxnJbo6VdQQnFttDyaXQbhKll7NEThP4aryjdD48pjTXpdwim70vo_uYlcVDE94z8XXRGPZLaHQsSTeXIlP9MrS1FjE2hSddwBxtg1Y9VGnRNtOo4qvLUHtJuouUruH3y4QJXztu832X0shFmPn_mcJFBAYtxaLWqetiui1z3QnMFjWFlHGz8tTJg0ShNmZ1DfckF1G_AXtCMCy4UrNQ0jL4EkMC90MTGIEXg7TC2uBxFV_5okv5go1xXhf2MDMAQfmdOG9UfKdOWbeqNqbaz4j37oEgzE_o-LvLCqSmchZ5o24w9Iq1VWfttXlPJ0hlGoNFtSZQ5sI-itsPfOfSi4IGVnP7ysNO4Mw2iTYc6qkdKljDqMamDGMFze1DeN2MQ5xeJzkQbfmh0La3T_KjgNazz7lA==",
-          "url": "https://www.coupang.com/vp/products/9474233882"
         },
         {
           "id": "9775207033",
           "name": "Naturehike UL Mongar 15 1500 mm 공식 숍 텐트 자립식 1명2인용 더블 월 D나일론",
-          "price": 299020,
+          "price": 302420,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/-nmwSd8lTq495_Ps-mnyyta1GmwS-11UYWZXTMxxg0etizjFbf5M4Xfq2zaceG6EkwZUKPFznos45UE969JfI_JO2wBsHVPn-En0JPvKz4Ug73aeOJJA7CtyX3Tmz3RIhWLy4AxvgULoEu4GSEKP1b2zOZVGYoaecwiavwTxn7ba2CULXqTgxktQa5wrteygQilWqt3jyvThm-0P5Hq2FHpI-lrm8xgLz9oxzNLt-FnEoNuJ_tmimWGtmG_ACvj46FnJkBQUJ58QCMNvYTbTdn8FDACRUpKGJNovKf4-bwokzNFjqerrWWSEgLXvaf4SK6u7HtiiG3wJdacD1u4EulYipW3itEuDEMlltaMOMVMK-0uwbWJ5Uta9jKH4ZS8h3_ocKRaTJ_S2cnXzpFxmUBo0C4A04uxtGkAhbxpsC6CvZLwxM0P8buObiEnXL6zlVXDSHQJhDudFdjjWCPYOvYQvMi0TPgtmy-xfV_Qdp7vcEBDOMYtMMtt8tZvfAzfCqoWZ5cErAH4jz0j7lMbkeqMLLSpUl_UF2F-gb_iFKvye3eU=",
+          "image": "https://ads-partners.coupang.com/image1/Mkyx8-fpP8jg53m5MkKW_OGi8iWoqSgIH4_T2JvbJrFxlGvW-bXKr0RY-vpQLh9zblYCDtgIAoyroCkZdgeIuxsRHGagkvGPbEuQd-3qORlbujb8kuZH64hduXORZTvM9NjhcWI4jyrzo8q3H5oDeqElPM68cui8Vxg_uVReX816rOB3waTFzvHlbjFQWGppzJE3SXgWm2YgIlS2dhURv5aHZniKdL3foBeqG8EbbjLya8kZ1DWwFWj-2K7qvzal5XRfLSAHGz7Q4wLltZsVqGSredNXUBr9fL9y_0-2jAoXTSWofPk1rEEr2sxO3fzs4aliFS7zZ551e41yF5A4f4I98h4JAAFXrAZYZn1n-w9z1BdvUI_Oeq7Yia1fVhTKCz9WI7Yq6As3HKL31TrPjiTyMVL7H05oqoWS2CbZWxjVhYV2TlRfMsSUbRm4VhmeE1reV1zPC5Z_0iVuvXA8AzrMhp7pHExJNJsupJNDtfLAxyH1sCYYodbVVnN1DRuSLnQD6IJB3_pEq3KjD_ydNNcafmebL-EUWzyxA1TwKSXcJaql",
           "url": "https://www.coupang.com/vp/products/9775207033"
         }
       ],
       "best": {
-        "aliId": "1005008417384920",
-        "coupangId": "9812917386",
-        "aliTotal": 190400,
-        "coupangPrice": 214800,
-        "verdict": "meh",
-        "diff": 24400,
-        "pct": 11
+        "aliId": "1005013100917446",
+        "coupangId": "8620462650",
+        "aliTotal": 140700,
+        "coupangPrice": 200500,
+        "verdict": "good",
+        "diff": 59800,
+        "pct": 30
       }
     },
     "CGN Ubiquinol 100mg 120c": {
@@ -4580,7 +4560,7 @@
       "model": "MeloBuds Pro",
       "cat": "audio",
       "why": "퀘이사존 알리 핫딜 QCY HT08 멜로버즈 30,776원(무배, 할인코드+코인 적용, 25.07.03). 색(블랙·화이트·골드) 옵션 맞출 것",
-      "at": "2026-11-18T09:38:13.355Z",
+      "at": "2026-11-21T21:53:47.189Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -4592,7 +4572,7 @@
       "model": "MeloBuds N60",
       "cat": "audio",
       "why": "루리웹 알리 QCY 코인딜 모음에 N60 ANC 최종가 약 $18.43(26.04.03), 귀찌·커널형 모음글에도 $23.66(26.02.02)",
-      "at": "2026-11-18T09:38:17.384Z",
+      "at": "2026-11-21T21:53:51.205Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -4604,7 +4584,7 @@
       "model": "MeloBuds N50",
       "cat": "audio",
       "why": "루리웹 알리 QCY Melobuds N50 23,919원(쿠폰+코인, 26.04.08)",
-      "at": "2026-11-18T09:38:21.370Z",
+      "at": "2026-11-21T21:53:55.296Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -4616,64 +4596,56 @@
       "model": "Crossky C30",
       "cat": "audio",
       "why": "루리웹 알리 QCY Crossky C30 클립형 24,773원(쿠폰+코인, 26.04.10). C30S와 다른 모델이라 구분 필요",
-      "at": "2026-11-18T09:38:25.380Z",
+      "at": "2026-11-21T21:53:59.210Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005007393960298",
           "title": "큐씨와이 Crossky C30 이어 클립 이어폰, 블루투스 5.4, 무선 오픈 이어 스포츠, TWS 이어버드, 이중 연결 헤드폰",
-          "price": 30600,
-          "orders": 275,
-          "rating": "96.9%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf0f13b719c4d49658ea785a21526579db.jpg",
+          "price": 30700,
+          "orders": 274,
+          "rating": "96.8%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sef8bd9ee13ce44abb425a9e5591596d8h.jpg",
           "url": "https://ko.aliexpress.com/item/1005007393960298.html"
-        },
-        {
-          "id": "1005007532202733",
-          "title": "QCY Crossky C30 무선 이어폰 블루투스 5.4 이어클립 TWS 스포츠 이어버드 오픈형 이어클립 듀얼 연결 헤드폰",
-          "price": 31300,
-          "orders": 63,
-          "rating": "95.7%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6af74ba6d5014e9dbe1feed65562042a7.jpg",
-          "url": "https://ko.aliexpress.com/item/1005007532202733.html"
         },
         {
           "id": "1005007529297549",
           "title": "QCY Crossky C30 이어클립 무선 이어폰 Bluetooth 5.4 오픈 이어 스포츠 TWS 이어버드 듀얼 연결 헤드폰 클립온 헤드셋",
-          "price": 31300,
-          "orders": 60,
+          "price": 31500,
+          "orders": 65,
           "rating": "90.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2928c7b025e496bb27435fc3dccaf52f.jpg",
           "url": "https://ko.aliexpress.com/item/1005007529297549.html"
+        },
+        {
+          "id": "1005007532202733",
+          "title": "QCY Crossky C30 무선 이어폰 블루투스 5.4 이어클립 TWS 스포츠 이어버드 오픈형 이어클립 듀얼 연결 헤드폰",
+          "price": 31500,
+          "orders": 60,
+          "rating": "95.6%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6af74ba6d5014e9dbe1feed65562042a7.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007532202733.html"
         }
       ],
       "coupang": [
         {
-          "id": "9809832069",
-          "name": "넥밴드이어폰 큐씨와이 Crossky C30 이어 클립 이어폰 블루투스 54 무선 오픈 스포츠 TWS 이어버드 이중 연결 헤드폰 Black",
-          "price": 60700,
+          "id": "8552788139",
+          "name": "무선이어폰 무선 블루투스 QCY Crossky C30 블루투스 이어폰 이어 클립 TWS 스포츠 버드 오픈 듀얼 연결 방수 헤드폰",
+          "price": 47840,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/3XVn5SDAVelRuqOW3X8JZKn7T4y5OCscPO5KGA8Igfxhel0nx8z5gk9QBoa__5qRfIn0UIVKSvlpXEee-7FsItzqd6TxP55iO3pN4EBDJryL5BZU0HRKv9v-EoKGxk5CwiDGOe3jDEsMvCaiILLsNBPOEXOxBk6Dk4iv7JZdI6KD10TBm7KpGr73IxGsXk06151nJaYHpeBjVygeJ4ElHXKOavE7bFX1OBoqZ8_CNmvYlwYaBcaqZIuP3ufcCf0BANN07mV5ZB8PYDgLQT5CXJ4bAvb9M4nJMLvCCpYU1AwMnmr9zNaarT_96UT2a7lc9bpohkV6lm4PPBhiyzOcIYGH1c3oPhbXdmh3DHf1y1BQEEy9eh6qA-XC-cPXITwgxuPgRiAYzU3v8e8nO7bDZI5OcHQeiC47CIJPVpzQ-XWZ-5bBSBX1lK6fu4GlK7SpInG80qXeOap5KaaglH9ZU4ZlRlvZypokbwDkzIvXu6bKrh6WfpxyjCHstbfsZSgvopxpSEtWg206E2Oiu6mXZLoz22UNts9haUPi24mIrldyTi3P",
-          "url": "https://www.coupang.com/vp/products/9809832069"
-        },
-        {
-          "id": "9809832069",
-          "name": "넥밴드이어폰 큐씨와이 Crossky C30 이어 클립 이어폰 블루투스 54 무선 오픈 스포츠 TWS 이어버드 이중 연결 헤드폰 Black",
-          "price": 64800,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/RBRSS1VlY-Zyjx5XRPnMO1H8yrSMgNZQp0WZj00d3_Lnwl0aA_XYBAUlfJXbaUbNGWP7OxeA8AI2MUl-T2l5YpRYrCtkjjR2LDSvEmjes6iIPrHN_gritH9qMzLdjc4wtHXbddqhHaYGKD5BCwdKQvKWFwrbu6v0Q3X38iode02Q92mh27bvjWN6WoZkNcXy7le2F0OAPUl8tOdMV5blXZWrd9SLU616UTDynxf2PJcI2VVXPpsw5bilCp4jv3uXTl69ErjojFYrECJWvi9FC5R8kIAsPsnHA-pzo5NDRCWrupdJjAfVh7Axyr7z8atnwRwJp2gW3doDvAVdK2BcKrCQcSoEqdSV5tOT3k91IzMYxTO2Uhr2nOvzr-HkrPv1y6qST5tzAuILvAdXhKZ3X2zDVXvN1qpyvJyE6iv_-kqGpw8IFN16_rkzXvfKj0MQMLklSAJBVOj9_yFe3QjBGH41pl_T6gJwJCzFLX27_nevQYz_U71gW-bE10LrrilVlwPBeoC6tf1ngWhC3QElrR8hDaAKjKlDrexnN2C7wX0yupc=",
-          "url": "https://www.coupang.com/vp/products/9809832069"
+          "image": "https://ads-partners.coupang.com/image1/ehOo7h6dv809oMX4ej0axfqlRdSjC_YQVMIph0T2Ib72Eti7x6av-P4R22MouUfLySmGsHVbP3g-9j4s_n3PXm4IB0Cwds2jInIXmfu4sPsuayUF67b4u4U6d7jUt9dE748319sqJDDYcsZtqu9yEBF4O5U-Xqo4vmaD4vTsyAObC2MevLNVnVVXZYJ5gwvF8sJUYIwhqXKoc4WmT5LwMK36BmGb6fjlwWJHW9Gi81-WMmebo_UIhBMCumxtH49_cd11n6vWrBvaVQtFyqUOathv0TtU_nlfrjUwR5Vvbgt8DTZrHlm853gfjG3QOB_nFEDJwNZQfhJL-sEoRswp7C9ksLqwddNls5x2F37cUqX7hyVLWsszMdicrivHhoCm8u4mzqhkIXJB9VsLH4oDLnXpmXxAVS2H-6mLgW7ouOnYbZQML9ZqSt8d0eFfCytIm9lVHHl0b8t7SZOZ0rO2DcpymTxBvxDVRV1uNqmMj-N84nz4h4BX9RwHphnvGVZpvXlzsBb6lYtOcznqnMnODOdu-Vy-l3icuVFFuul8-WcNhFL84w==",
+          "url": "https://www.coupang.com/vp/products/8552788139"
         }
       ],
       "best": {
         "aliId": "1005007393960298",
-        "coupangId": "9809832069",
-        "aliTotal": 30600,
-        "coupangPrice": 60700,
+        "coupangId": "8552788139",
+        "aliTotal": 30700,
+        "coupangPrice": 47840,
         "verdict": "good",
-        "diff": 30100,
-        "pct": 50
+        "diff": 17140,
+        "pct": 36
       }
     },
     "QCY Crossky C30S": {
@@ -7172,5 +7144,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-21T16:24:09.374Z"
+  "updatedAt": "2026-11-21T21:54:03.291Z"
 }
