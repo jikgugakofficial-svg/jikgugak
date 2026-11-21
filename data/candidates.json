@@ -2422,11 +2422,20 @@
       "model": "10000mAh 30W",
       "cat": "it",
       "why": "퀘이사존 2026.06 알리 공구 \"Yugreen 30W 마그네틱 보조배터리\" $38.41. 국내 유그린 정발가 확인 전",
-      "at": "2026-11-17T21:32:09.194Z",
-      "status": "none",
+      "at": "2026-11-21T07:42:09.397Z",
+      "status": "no_ali",
       "coupangTop": 7,
       "ali": [],
-      "coupang": []
+      "coupang": [
+        {
+          "id": "9630211501",
+          "name": "유그린 맥세이프보조배터리 10000mAh C타입 고속 무선 UGREEN 일본 30W PB570 UGREEN",
+          "price": 88900,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/R8ggHRVwibM6UiDRR1AHeOYImiufOkzGir1YZToDfvp3ie7afzdwedppUPnBqERsUlaDU0-AW9Y0j9sIsbmQK3zBM6gu7btCpxCz9xRbzft2XQSiFgabrn-n_v1pRJ_ny0dv7Dk07jb2A85gjLw9pflipjzhZ8oCrVNeu_y41g-JyFeI0f-fI_pEtZjEwbySlbKEHTntTXxzbu8NNIjXSNbmYNgZW0HdPqQtREZVrI9hyDNHq4McslZgf0rzl4imyTPgK7ZuI4998vgQVJiiCE8zS_DCeaJAJWFtFGq5ijROLoIIstjHdKdJ3EJGckhT028wGyf5eboAIE5-CZTT6A7mn_OebVCZjyEMSMQtDFnKRPbyIHaoWtDrQibyk2tzCFyjywRAxiUrfsoYyu65BBXy-NfyE0bN3ubhZvxnY6lsICA2PYSXRYGaHS9aobIikTIhMkQ6IX7zoXIgjKKCZ_UPF6BA4WkWFRBqn_BaL4k8PVTDa9QZRLDnq4FnGVMCRlTsPeOm3yLE9lAimyqTksZpJhrdCwHwWwmJTV2586jw-q4=",
+          "url": "https://www.coupang.com/vp/products/9630211501"
+        }
+      ]
     },
     "UGREEN 25000mAh 145W Power Bank": {
       "q": "UGREEN 25000mAh 145W Power Bank",
@@ -2434,24 +2443,15 @@
       "model": "25000mAh 145W",
       "cat": "it",
       "why": "유그린 대용량 고출력 보조배터리, 퀘이사존 알리 충전기·보조배터리 공구 단골 브랜드. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T21:32:13.157Z",
+      "at": "2026-11-21T07:42:13.390Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
-          "id": "1005010578415882",
-          "title": "100% 정품 유그린 넥소드 PD 100W 145W 165W 20000mAh 25000mAh 파워뱅크 타입-C 모바일폰 파워뱅크 3C 인증",
-          "price": 41500,
-          "orders": 53,
-          "rating": "92.7%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8d6fedffe09743a887e521aa070217bci.jpg",
-          "url": "https://ko.aliexpress.com/item/1005010578415882.html"
-        },
-        {
           "id": "1005013176126272",
           "title": "인기 상품: UGREEN 넥소드 PD 100W, 145W, 165W, 20000mAh, 25000mAh 보조 배터리 (Type-C 포트 지원, 3C 인증 획득)",
-          "price": 50300,
-          "orders": 43,
+          "price": 50100,
+          "orders": 45,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83188ea7e9464ecbacf0e22228fd1111I.jpg",
           "url": "https://ko.aliexpress.com/item/1005013176126272.html"
@@ -2463,26 +2463,18 @@
           "name": "UGREEN 145W 보조베터리 25000mAh 대용량 LED 디지털 디스플레이 고속 충전 기존",
           "price": 71000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Xb1jnkFBbFK28xxkXbVr-jpTMldHx75jr3PagydTL5iOA9GpvAMEp8Ov0IQU8ShIiKu-43KO_xZv0R_t3O2JsZJsQ40jaAQ6rGS8fuPYU0C1lhBF4jXksglsxHHyoY9yW38qddAJPc3kBKJeHc5_0SrpG-OdugV6iuYdv4HeESbJPRbg83rU1vtvkQT3jy6rslQiFosJB0K6zRnKdC14Pud95eRaWnsocEIQtZKCOaRdvZcK0rLplnO6n_DnvzTUT8Fd2PaKf_hEXfbzuZ9Z10lpIbUr-iSOBhMTfMsCERQMWVQYet4btUGZI9M7vYl1w88QkExNtpf5TdZ4zvYjGt9pIGKZwWBUgnnq3GmzTBkJuds12AQ67d6McAw8KJ9kBYELEq03LtApd1ralHzMpHNT4Ky89HTkjToo2DpexI_IbOGYN9B2zo_GtwPVhpWyTKnQgEBXs8bgCo8fhSqAjRJi9sR5xjZnVNAuJNWkqFHppUISiBpJG7CjowdGvX0XQ3dUmPRjcvi41JgUYDzlnGBbdYRB3CpwL7mr-2qQGHoW-rNXtg==",
+          "image": "https://ads-partners.coupang.com/image1/e-Qo6lSVqjPmYUJpe8uO2KjbZc7pWXfjpfubGK94lGsgNkpca51FgVTFyh_PK2qljKwTrv7WvBURTcNMWwv5Q2ha4d5FJ_5NXtp6wrW-KpjAe0sA0MPoUlwxx_9WDSfY_kH9WdrKyykYFUkfzdE178lUv_0r_IifEXNRCfEE-mDuS7Z_rIpCKUGNaonArTb2lu3j8ZhfPld3SXXEwI1Q7NLxf0HM5UGm8k8Sh4F9GFN_JaSisOsGE1edTGoxhKjxiiqJF3RjzmhEuJtYnJsP9TyTgYVXY6W-wyJ9TK3QP7BraJg04yHJbIJB-mra5qX249lKf7DHZh3czI1-awMZok8xBH12JfTuGWEfZeVO71LwtgqfmTjLq91WRF6rf6cIkqY4YibDpHBJPu3y-Iupt0mmjZiebVKtnpmYeIySjry4yYIDXuRzJHFGRCsNjstblOH4_dzKdSO-WJjo7Y1saB5o4g5KoqG57HSQ0OEOls0np261temXHe7ybSEwy06yk5Z3Qyux49zZ64Bp-wxn2laqu0V-IaYbDWFsbHPpDQ==",
           "url": "https://www.coupang.com/vp/products/9269144269"
-        },
-        {
-          "id": "7940170364",
-          "name": "유그린 25000mAh 145W 보조배터리 PD PPS, 90597A, 그레이",
-          "price": 89900,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/KgrbJiS4PPU3wn7HKiz6ydAIPm9nc0GzsBV_SuNwTjtH-z8gAtxVicf6l6N1ukD7pyo1VHdGHJWLnMjCg5h2NQimtcYATljVYex5ZUH1SFBby0ANAYScUJf0yQYoXZYcI9VYwP2y24lrqgqiITCDuhfD-A1Lp6z5gs-FPsZ7UpVFM44bmq3NIIGfBeSM2P4SSE38cP-GWTiLOrOlIFiZFHJysLviEAixO3r593_Yqep52z8BqvNKOkesoixZFxKVZFMv2z0uKXDg_bnao2BOrNDnK7-77r0xEn4kplnycpv29M4XbXP6az3ZsGsrfdtL_hQefxC4l8GtAeEs924ZGVTwF4TxqCH1ULXKgMei49lQ7E54GkzRFg-ztHusI5b6UJRgJ1nCGFg1CH8M8OCFl_WRKyX29VVaNhg_02j3DYFz4Y2yDRP7kg-41rczDbMhemj2dwHcUlAmkAyT2ZoVuLUDXaCNag4oi9H8IOraoRMo1E3jT5HIj_3RqmzwtnjQB-6Thw3IF3o=",
-          "url": "https://www.coupang.com/vp/products/7940170364"
         }
       ],
       "best": {
-        "aliId": "1005010578415882",
+        "aliId": "1005013176126272",
         "coupangId": "9269144269",
-        "aliTotal": 41500,
+        "aliTotal": 50100,
         "coupangPrice": 71000,
         "verdict": "good",
-        "diff": 29500,
-        "pct": 42
+        "diff": 20900,
+        "pct": 29
       }
     },
     "UGREEN NASync DXP2800": {
@@ -2491,14 +2483,14 @@
       "model": "DXP2800",
       "cat": "it",
       "why": "유그린 2베이 NAS, 가격대 높아 20%·1만 원 조건 넘기 쉬움. 국내 정발(쿠팡) 판매 여부 불확실. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T21:32:17.129Z",
+      "at": "2026-11-21T07:42:17.458Z",
       "status": "new",
-      "coupangTop": 8,
+      "coupangTop": 7,
       "ali": [
         {
           "id": "1005010412722704",
           "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 미포함) 4K 8GB DDR5 RAM",
-          "price": 796000,
+          "price": 794000,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S613b13c3a56548b28a2903e4654178997.jpg",
@@ -2507,7 +2499,7 @@
         {
           "id": "1005010486009968",
           "title": "4K 8GB DDR5 RAM TLF UGREEN NASync DXP2800 2 랙 데스크탑 NAS N100 쿼드 코어 CPU 네트워크 연결 스토리지 (디스크 미포함)",
-          "price": 696200,
+          "price": 694400,
           "orders": 1,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S891116c8b6374b4e9384091b55f1070aA.jpg",
@@ -2516,7 +2508,7 @@
         {
           "id": "1005012362427429",
           "title": "UGREEN NASync DXP2800 2베이 데스크탑 NAS N100 쿼드 코어 CPU 네트워킹 연결 스토리지(디스크 없음) 4K HDMI 8GB DDR5 RAM",
-          "price": 819400,
+          "price": 817400,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S989b99c77c6a44f6a9591408044dc113p.jpg",
@@ -2527,9 +2519,9 @@
         {
           "id": "8894406605",
           "name": "UGREEN NASync DXP2800 2베이 데스크탑 NAS 인텔 N100 쿼드코어 CPU 8GB DDR5 RAM 25GbE 2개 M2 NVMe 슬롯 4K HDMI 네트워크",
-          "price": 527720,
+          "price": 529050,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/xGTWsVejl_3MFfJdxBqDfS3JJ5rTQe6rcbX3LYrUwNnl0F-8dY7szg89CMj6QnyQAORnQySqeyuP1jl-tibphiW_LgMMFV7UBo58WGrnOlPQsqYF7j4C-i-um86OuNWWDYmqnt-UUtfOMyX9NIszbZATJab3PUwav1VfRGCj-LgSVZBnPx6U8af54m0yUPgOCiDxg1Lujf9u57YhZa1w-UCo5ZnrfYHPs_AmNap9ECawv5drfQZ-Jpm_S0rNvu9uNszk-zGjrMKOrmcxZey8aQQR_4oPXy4S0YUpGkgwAaOLXskhP98CXyjPjtQjQ99cMeq2I4OR2poYAwCOCXi-3r71QaeM1EZIE96jBB_AhhyTRy_NjpC-1_5sKp9ML9sXGj00fKqru-WHpQntOpYNitowImjQ2c4YjiNDyAbec1HWGQYYJee2B5AQp9pJSbkm2N6OC6rL0iuYL_wRIW5lndPWfDuL6QuZVQ76-hDp2eEkxjEoZI_gvMLGu6b4KlYyZUEPvC_foDPobW9-Xj5XXFQkyEdJZ_PHULDEYqNylmOlhasp",
+          "image": "https://ads-partners.coupang.com/image1/dNa6tWWU1sAac3lidF7XnuhDtydSgFLzrddmwsKkZitPAMWolGGxpkiFI18QlzqgzU6b9f_DhIxnkdb_pb_y8QULTJY4TBE-7nLjVEa5zAFI3iA3AhjfhRkqkd-iYuADN1Eo7g85yZEESp0rQCY-yfG-bq3UzsyCmHUaX6QfD2U_1xzxwL06zAbUbq7hzRO4fFfTuOcQ7_NgGd_Doe7sIhSOJgg7DpUxtDBzjqbqgz3JI9L0oTMFEY_h7oHTtJRPvOz3pGWe_CFeE9C3E7BHOGEase2bjg6WWg4NaYq9Ems1xIfImCk1HeNXmDJnhfpENftuu9DguJ-MMjf__tGHL43wjMIAGtFXwzAUQfFtkKwxhKFwwQfj8xwN4xYa9p5rSJGyHtzjSUQ7kwC5G2v5Cj8KZLsqfifsSFGm-6eIOKxhmCzl72WNonQMVio4F6mZscojuMK4ddkseUpkpa40M70wFM_S-MtLneI8LhEh377wKaeE9BqeJKUt0F-ynuOIrgN3_UZVp_XsjGGvyNBHgZV_cwdHhWKRpmmexfvzcC1x1k4=",
           "url": "https://www.coupang.com/vp/products/8894406605"
         },
         {
@@ -2537,18 +2529,18 @@
           "name": "유그린 고성능 나스 DXP 시리즈 NAS 2베이, DXP2800",
           "price": 626010,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/OH4HN4VlH1AOQX6gOFqPubRlj69Ajqby7HcOw-7VZ8NC7VSeW17kYajLxpTlmDvTAdd4f-_BF46ai7k2ENlfauLDZnXn411J2XSJyanJOSaJvoPbSWnSzo8IGHuacDVT3mUGAKvWOpxTiwDWBasv0W834U-G18xQ9oIp7JfgxxcIXZVzwYJpsVrLoxe5gfIAmNO6-EjLoX25IGz1rC-FbqUSSJiwE3eshVtuvyb-4BtqpHMk3kIPeJss7dPbyaHP5Zoyms8PRWklJWvB5qiQmzr7kVTp9P6_5Da4McslgbFEJ-IvsP9bqCq1cvL04A_0oRxiDG5MqeO_nyMW9lF0G8lRHa6Qlv73eDhPLoPBJkfSQTUK8jmOxfj5R6cInLBvjjzXUfFmSjWEoT_pmxlkGSQr1qNrNBc-Z4BD1_jLyjS_tUhUZakr8nl6ZgC03C2KVaxXYztq_fazFr46ZMm13wn2lPQn62o7TtxWNUKuiW_8UhBDHxHcL_RRuXpImay3tzL1bKp7P00K",
+          "image": "https://ads-partners.coupang.com/image1/AXDbiipFwTErY4wQAWX-zkwi7oyIaxKHWrZ-1TVX1cdbmoHuJT4QNuenNXZu03ip5iA67Az0k_ccCRTYuZ2hUZaHnWrBF8TESD1Szmo_lIRbzUfPOXKdjQ2FZQ9vUnot0JkbREL5b-KD1LwzEzZIQNPwEpZflziIKkItNHFFD6h_sWM3HP3HUBXNYkSrdXxD55zlRC_B0C6CsNAKopLZhVGibItOmBbcgvaYYYVEOUYIDyAphIFpd_The0OzIYO8O9O-DyFAvbFLLgl0MsZUJIOZ8AaIoQ96Fem624-FnFEwT1qnSxFkyNs-togxg9l_AWMPkprAKH7KJPDTzFTJfi2F_i7SwOhGlgCE7OCA7Ws6Q2Jpg_5S_RmuJA6s7rdP36jUd5Da9v3TA1M3JfH1f4emouQa4ajexZbcxnRpHKtvhaNyU3OjzJqYWTInCjv0xu7gmDuTnCazM8JN4mLU4YkaI_JcLjCrReLKiFCW80dq8giGI99izrSkJg2rmSb6_agQETP-5w==",
           "url": "https://www.coupang.com/vp/products/9333858747"
         }
       ],
       "best": {
         "aliId": "1005010412722704",
         "coupangId": "8894406605",
-        "aliTotal": 875600,
-        "coupangPrice": 527720,
+        "aliTotal": 873400,
+        "coupangPrice": 529050,
         "verdict": "bad",
-        "diff": -347880,
-        "pct": -66
+        "diff": -344350,
+        "pct": -65
       }
     },
     "Edifier Comfo Base": {
@@ -2893,14 +2885,14 @@
       "model": "Osmo Mobile 7",
       "cat": "it",
       "why": "DJI 스마트폰 짐벌 인기 모델, 국내 정발가 대비 알리 DJI 스토어 차이 확인. 7P·SE와 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T21:32:21.084Z",
+      "at": "2026-11-21T07:42:21.325Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013474248215",
           "title": "DJI Osmo Mobile 8/7P/7 짐벌 안정화 장치용 OM 자석 마운트, 양면 자석으로 제작되어 MagSafe 휴대폰에 빠르게 장착 가능",
-          "price": 29150,
+          "price": 25900,
           "orders": 0,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7ea9a02dbef04d35b626a5865eee6d5ct.jpg",
@@ -2913,7 +2905,7 @@
           "name": "DJI Osmo Mobile 7 짐벌, 단일상품, 그레이, 1개",
           "price": 71500,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/F68IydONCySdp92hF8epYTvnTR54XdzVED_NwD8DsxkRHV05Hq2kbPo33-FYpRQqsiyenjEfKTGkQrk11wp1tHbaCu8uU6cp4FM-oo-DdrLGzIJtntFvivs8v23ieR1V09vvlIDknPzwaLCtaMdTFTO8YdhVIsP1Djgmpw43BsviTYQXAzSiy7m6kLj6S9M08b1nKae9suVuCkmUcpDBNx_iNRBNLOqvPtGKSY0cT4XaYnHrADi07KcTmFqAlSvaqr8eGgmBV_8sQPQcl8cyLoVvqicHcM4eXh8ZzgNmfqeKUrkFq6KIm8KYuM-43x65ZHm-kXnpQJJpp-nOrLeiN7m37HtDys6wkFng7wxa3Qf_E34KoCBdUceWNjYJIHLTG6ch97NEevfwDo6rGsEr3lOOPrEnBP2irmPKU9VxA9ZSEWcSGuZww5HU3keyVd6uTHV65n7oWNbVE2pXPG7IWdI9zY5ov0dmxdT3btscAV5YpyDgdv7c08hLnGDcGzk6uve58I6ZMqk=",
+          "image": "https://ads-partners.coupang.com/image1/BOZ44KX5VZnysh_yBL6hJtSAX6Bk2dJK1EEck0tbO2RyirnEA-XtEIR58HlYAQLUVw3jiOGsaekzHRWrngSmTgqHiez2fPY5yZZ9cfVeSQ3l0azrALstPtT-8Cj2nSkFfrCyiDvKgklTvR4PYuHaKxpDC4l51FpdIQM2hBUN9FzxzEBZ5rhAfEh32H5ewhP9v8P_aKNw3KjrlCT7hLOrAeVLXi1tIy7MFGZxZemgmKbbIG2U2X88Q6C4qddEe1Zb3jj21CuxxtIiiGWCCUbBgxRYu6iJeYdlCo2BOMWbE0YMvOfq8Bj4EhTgOJHjriLLC4cp7OLJEg3RCDAxX3o0aAGIKR-2mcXgfTfMr8FOthLBQNFOdaNzBfLBKSSQW980XVQgXwuSlA9ssPrOdgeGx7B8Ab1JVz4sab-5B6Pwlwib6yw6Wgv_N-VxLUVWAZhXIhvRuZmCyenbilXHg8NLuaYgggC-0T2IqzKeF-LRo696MsI-vyXn0kn8EKKPKmjZtntpbzh-hxEU",
           "url": "https://www.coupang.com/vp/products/9366718078"
         },
         {
@@ -2921,18 +2913,18 @@
           "name": "DJI Osmo Mobile 7 스마트폰 짐벌 안정화 장치 3축 흔들림 방지 기능 내장형 삼각대 접이식 핸드헬드 안정화 장치",
           "price": 211250,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Ohi4PCs60fB5ovAiOj8lt3IyODZWmLJnoJmDmBfZLF0BD81q1SzaU745X1l3JOuvxiatBDw3Dchu7leGiT93OrUxjB32adhPVbiZI1I2DlQ5mOibG1GazO7irUqWzNYJOfP_H85nWpi2qIo1r1q2cTSd9KP3vFhL1qq6pP_ibDCgkFYu7daB0KdzOfrSWxJKDpZYuq3YuBOif8FTmDnXc9fVs4UKrgcg7Z9OANvbCh1TF8fw2ZXOHyugPB-hVvy5-e4jncogyydrDKwnnUBejN2Genbtp9DI58xiJAN40r3DGFIVFBr2Osjoj36Ux4H9Uas3_AVR6vcWj9w5ssduTG4cG-o-TG059wQPatHUP0Y7h-Z4ZBLLTz3ZQbsbhxa32v0TdiOUlxwR6za4cvvWTxXkCIe4-2B1usNO-yFOX1VxNPasHfcH-AgY-LwMAXtu4T6vceXxGh1XUmkZc9avYHkSzijf_MdL_WliR1ly-z8w75jjbrdIghZasBuxv8uwh-6PExGAzOI8Wc7MygNSXSrRX-9sdTyTq6XS1-eT9LovCA==",
+          "image": "https://ads-partners.coupang.com/image1/wBEmD4EoY_nSr2MqwInLJ9fnWOJlbeLX5C-XOudH37vnNxhuQrnGhFbXA3OuxkU7CF3IWeyv26xNTf5VrDCM0wliahsH1arSFgoCIImwOaLvgsncCatyBxv1sSjlH2MhT_YhYT1rYUORsWE1076mMgwD26cNS5EqVBYc46oQh82_kcsDV_Lvs2Wwku8OmDw8t2RSBfoOnzsw0p4Hx6XzxvoYR7rFOjgilsBWb_MrCQX4MbHKncnyx7j-9MFRievftRe-UqC8JRt8tViZbP62H2kpYsI9e074AOjOaQ595yGsBhBb8FWz9Gy00hlOnotiB5ARJNzzPLNjDiknvxhZDM6-f47_tvFwnWuovFkkBhw3Tn8BQS4SiHx_zHYwu96pVWftwn1BBNAzX_AMlWmhEir-7-Uf9QBFvwPOMEu_VNynQyrWFz6AkNBYUWDoY_mDBLBV-LAII1JkUfYM6Z-UYdgRPsBYEbYKCX9y1zMnuCbDumzpX6BwnZ73WV6ih77AJ9c1Vtv7KPpmNkezt79j-gV7QESTKNbmRR7lceHahDrjowQ=",
           "url": "https://www.coupang.com/vp/products/9756674373"
         }
       ],
       "best": {
         "aliId": "1005013474248215",
         "coupangId": "9366718078",
-        "aliTotal": 29150,
+        "aliTotal": 25900,
         "coupangPrice": 71500,
         "verdict": "good",
-        "diff": 42350,
-        "pct": 59
+        "diff": 45600,
+        "pct": 64
       }
     },
     "DJI Mic Mini": {
@@ -2941,24 +2933,24 @@
       "model": "Mic Mini",
       "cat": "it",
       "why": "DJI 초소형 무선 마이크 인기 모델, 구성(1TX+1RX / 2TX+1RX + 충전케이스) 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-17T21:32:25.184Z",
+      "at": "2026-11-21T07:42:25.365Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005013028747657",
           "title": "DJI Mic Mini 2 Mic 3 송신기용 자기 충전 베이스 충전 케이블 어댑터 액세서리",
-          "price": 7600,
-          "orders": 132,
-          "rating": "93.3%",
+          "price": 7700,
+          "orders": 131,
+          "rating": "94.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfc1af3de80714b63beac64a00dd3ea4d0.jpg",
           "url": "https://ko.aliexpress.com/item/1005013028747657.html"
         },
         {
           "id": "1005009817023810",
           "title": "DJI Mic Mini/Mini 2/Mini2S 무선 마이크 수신기용 새로운 Type-C 어댑터, 스마트폰, PC, 태블릿용 USB 액세서리",
-          "price": 18100,
-          "orders": 120,
+          "price": 18050,
+          "orders": 122,
           "rating": "94.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Acb46df4c52c04fd5b36f2bb864179ab1A.jpg",
           "url": "https://ko.aliexpress.com/item/1005009817023810.html"
@@ -2966,8 +2958,8 @@
         {
           "id": "1005012723760606",
           "title": "DJI Mic Mini 2 Mic 3 송신기용 자기 충전 베이스 충전 케이블 어댑터 액세서리",
-          "price": 7287,
-          "orders": 119,
+          "price": 7640,
+          "orders": 120,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S50a55a47941d491aa14f91dd1f30ebb6e.jpg",
           "url": "https://ko.aliexpress.com/item/1005012723760606.html"
@@ -2981,8 +2973,8 @@
       "model": "X Pro Elite",
       "cat": "home",
       "why": "오클린 전동칫솔 대표 모델, 국내 정식 출시(터치스크린 모델 보도)·알리 공식 스토어 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T00:31:25.068Z",
-      "status": "new",
+      "at": "2026-11-21T07:42:29.411Z",
+      "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
@@ -2997,7 +2989,7 @@
         {
           "id": "1005010639294062",
           "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합",
-          "price": 29350,
+          "price": 29300,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd18111bafe849a58862d99b33cadcdbL.jpg",
@@ -3006,32 +2998,14 @@
         {
           "id": "1005010333278875",
           "title": "Oclean X Pro Elite 전동 칫솔 충전기 USB 충전 도크에 적합",
-          "price": 33800,
+          "price": 33700,
           "orders": 2,
           "rating": "",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S65d3abdfb4684114a929cb14f89b57a19.jpg",
           "url": "https://ko.aliexpress.com/item/1005010333278875.html"
         }
       ],
-      "coupang": [
-        {
-          "id": "9416826061",
-          "name": "Oclean X Pro Elite 전동 칫솔용 새 충전기 USB 도크",
-          "price": 56700,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/4Xmv5iocwv6_fxV54WC4Rh83g3vYgjMhaQGgKUkzdTWt6ynDd1kjNUa4fClAfLZ2pPyGLylMza8Uus6yQJnXsAmhxzLazgtvlIavGVYTrawu3FQxFyxqMEdrcaSLwb6NYOa_msOPYObggRJXsgvTVk0gg5QUqzJDwaXTodzxpJ3JrEBATlnqO5aJbsEz_0d8OVYgIq0dRyqMVooz3mdEadzZZnOLFW3ElDrn13axkk14HGC1Bc4uE1hJWlBMYdb7yehzu-rRaeE0QaGwBPdXnj5RhqQhTNEnl6nIgXIKjJY6ZfvAkPH88ZuT6AGnUHafCZh5OjzBXIVZvjSV1NiBlpm5xY_M9AMlQdLGE-0O4_IAopoE3K_wEWSfELxTC2vFyfu2LMAfmsNXE8CFVr5q1AxAKKm_XSX6Gzdbv0XaAqC_flYNT_RidH99ERRAJmImEacvxpRce_fBJXZIXjWbJjZJr0VOdg19iKAp4lpsnFyNBGo73wu4m0DbvFYzo7YO26pQdwPJsumIjWMrOs8hskfGVT6ZNv2gx_UYWZQczG7O4RQ=",
-          "url": "https://www.coupang.com/vp/products/9416826061"
-        }
-      ],
-      "best": {
-        "aliId": "1005010360280779",
-        "coupangId": "9416826061",
-        "aliTotal": 35200,
-        "coupangPrice": 56700,
-        "verdict": "good",
-        "diff": 21500,
-        "pct": 38
-      }
+      "coupang": []
     },
     "Oclean X10": {
       "q": "Oclean X10",
@@ -3039,7 +3013,7 @@
       "model": "X10",
       "cat": "home",
       "why": "오클린 전동칫솔 상위 모델, 국내 정발·알리 공식 판매. 색상·칫솔모 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T00:31:29.466Z",
+      "at": "2026-11-21T07:42:33.409Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -3051,56 +3025,47 @@
       "model": "Ultimate 2",
       "cat": "it",
       "why": "8BitDo 무선 게임패드(국내 유통 + 알리 공식 스토어). Ultimate 2C와 이름 비슷해 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T00:31:33.531Z",
+      "at": "2026-11-21T07:42:37.362Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005004698856770",
           "title": "TMR 조이스틱, 전환 가능한 트리거, 모션 제어, 8단 속도를 갖춘 PC 및 Android용 8BitDo Ultimate 2 무선 게임 컨트롤러",
-          "price": 62000,
-          "orders": 5272,
+          "price": 61900,
+          "orders": 5361,
           "rating": "97.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S42bef25c3a964da3b4074a07d58ac7e4U.jpg",
           "url": "https://ko.aliexpress.com/item/1005004698856770.html"
         },
         {
-          "id": "1005012013826953",
-          "title": "8BitDo Ultimate 2C 블루투스 컨트롤러 무선 게임패드 (홀 이펙트 조이스틱 포함) 닌텐도 스위치 / 스위치 2 / OLED 콘솔용",
-          "price": 30500,
-          "orders": 4315,
-          "rating": "98.0%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc34fb1ff5e83486aa61cf72e18359adbT.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012013826953.html"
-        },
-        {
-          "id": "1005009946855833",
-          "title": "8BitDo Ultimate 2 무선 게임 컨트롤러 PC 및 안드로이드용-Evernight(혼카이: 스타 레일 공식 라이선스)",
-          "price": 80700,
-          "orders": 1137,
-          "rating": "98.3%",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0b0bf47ad164b70b75233e3281971761.jpg",
-          "url": "https://ko.aliexpress.com/item/1005009946855833.html"
+          "id": "1005009561846505",
+          "title": "TMR 조이스틱, 모션 컨트롤을 갖춘 PC 및 Android용 8BitDo Ultimate 2 무선 게임 컨트롤러 - WUCHANG: Fallen Feathers",
+          "price": 69900,
+          "orders": 1129,
+          "rating": "97.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S26f39f65807c45ee83eb1a204c0d5fbaE.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009561846505.html"
         }
       ],
       "coupang": [
         {
           "id": "9762238730",
           "name": "Nintendo SwitchOLED 콘솔용 홀 효과 조이스틱이 포함된 스위치 2 무선 게임 패드용 8BitDo Ultimate 2C Bluetooth 컨트롤러",
-          "price": 50000,
+          "price": 95700,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Vp4i2W8xsJO7iaHBVp8vlVAjjAg82CzozSC9LfE8UXKSdkrg1--f8TITZ0pWkz4bZj2c5CHK9H2RcYZK_7Fza7p_WpnJRauTy6VS3mHMMF5hEcLOukKvHkQI8Kb3EoE3rYH2Vu5k40_6SP32c5r93mw6OWnn-OmxbV_863BkAvaK9lBNkFLvfH7cM-Qop_ZG5iP21yoWPrzyCj_QK-Xf5N00_i1vmH1cldDyPlr4b7AX5nQgT9OFNjPR8k_Q8-lD0ynlZ_7A24rc7bvKB9eQWhhac_ZrE1gT9-tKxVNY6Jo9TNfafx3GxmtASCO3enct2rZaB4yGkXuVdm2l1-H5GiNmQHXmgG1dgsqDwC0UnFKHSXG6vVD2ZsmZ6umdZpisBobG5pnSDe9VtDLIVKx3xQhLlnusfcRS-Y8n2419bu7O1fcmAbEVsYcQE81jsaav05B4HB-rnvI3jVL143xy4cyTzLPMgBgtKbu0FD5tgBZWC8BqkMzRMUvd9bcS75lgmyhyM3jmHHwtRguFGELdoGnIInFn-vrVOwP4Evy7xgUZq4o=",
+          "image": "https://ads-partners.coupang.com/image1/BZfWW8j4SJrYw9wcBdXUZqgCnZwB-nOipaWlD3PJyVXKPk3gRMo6T96yVa6dP9390LHmabMRfJtx9cUR3DBOiDkqDFKMSGFVoQgdhr98MyGsvTSmEbAqBg9S2hJ1bZhUZVjf3NGV483st8Y9gCmx_ZrwJ8xX7qRDyvvkiK9e7CC9kCMERRZj3s0a5rvh3sfhFRs7aNrEXZ48l-iKbWtXHkiJKhPGFa4UfOqcYYO16F0_WBQ3H175JhTqbYFW0BHtcj4222_CmSKxICFhfzg-_sHOluXjF1v6BqG8i4c_s5dQkMJ3N6N0TrFjV6kPnG49epiLaUZsLDkGousyZhmIPHT3-wg01qbbKB3hP72OedJEXtWOEvEGJLbnMv2BDzkC7Sf3Un0GdR82c-I1eDvFxDGqxc6RxcVCpYz2vNsZ-cfpU9r4vlHc7GB_vjOO3AYh3dDTt5g4ckfq5P6N6_WCMmd8X5cY01TOZRb6pBpUCzg-a53cOZMa4ES8XnF6lMFlfAEQpZw8BYMCCEAIdbW85R3OkBjx6ZLhk3rhl66ThkFLkg==",
           "url": "https://www.coupang.com/vp/products/9762238730"
         }
       ],
       "best": {
         "aliId": "1005004698856770",
         "coupangId": "9762238730",
-        "aliTotal": 62000,
-        "coupangPrice": 50000,
-        "verdict": "bad",
-        "diff": -12000,
-        "pct": -24
+        "aliTotal": 61900,
+        "coupangPrice": 95700,
+        "verdict": "good",
+        "diff": 33800,
+        "pct": 35
       }
     },
     "8BitDo Pro 2": {
@@ -7199,5 +7164,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-21T00:16:10.560Z"
+  "updatedAt": "2026-11-21T07:42:41.606Z"
 }

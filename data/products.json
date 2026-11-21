@@ -3338,10 +3338,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/ib10yPa4XY",
     "sample": false,
-    "checkedAt": "2026.11.19 저녁",
+    "checkedAt": "2026.11.21 알리 자동",
     "slug": "ali-edifier-evobuds-pro",
     "name": "에디파이어 에보버즈 프로 (EvoBuds Pro) 노이즈캔슬링 이어폰",
-    "priceKrw": 65811,
+    "priceKrw": 66119,
     "domesticKrw": 79020,
     "domesticSource": "쿠팡 해외 판매자, 실버, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmHnoM0Mfq08w2m3iBO7fM9h5GvpSFJFDBOwqUjuEiUAWDUCyZLRcRuMJCcqdfoEyDU1S7jtMhfxAtcPRwZgDkltn6k10GZtfMdnIi0kWLog5STOsTMyIDc9B9vA2IXhMTsHOoNXBt4QcoWsiQtWiY9Ndz5FizQZncEQwJYhSkl74K7JhJORPGcSW8s2UexU1EEDNqjHcUvtQvYSS53IGXeQi0dhDEMy3LsPXA2lJlCSANe3QNixn8LRfAp1nu4dieQ5ZC4zzbMTt34LHvZfEYd7veeEH2Hz1wvRySDOsdIW3WBAMIsHZqmPYB3z2Tv307ic9WcalTogbYPXCbS0JTwDmeWLKnd0Is5LTZhj5anawroHI5x7eMG0Tre9oDGp6LfJLsUyYjkbvJ1yxWfDilvscsXXL328RlT6ZbAbjTDVQ98CptihUtQCvRRxgWxzCtiYRQgX7QD7IxSKb7VzwkS37vWeGg85NrPBPzau2HdAfN1NeTPemyGWooaVCBWUYF8jkv4fRKHj4pRC7bfgAPOCBFcpCzqKaOkaDr9d8QiPpqbvZta0jJiuCeyqrRD4MBBB8AlPIRRdq4yTTjSY3z77VZVLqIBs1sxcrGk0L2u87ZckDkU9kqAZPhl2pTMvwf5qj3OfZ8fc26DCwsYXRFGoJ4GNlgYaaAUwdOnsGQD9qTFMTVkkMvnsZxuPDWEaIhOFrlcuEYlBlA",
@@ -3368,13 +3368,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "priceKrw",
-        "from": 67189,
-        "to": 66504,
-        "source": "알리"
-      },
       {
         "at": "2026.11.11",
         "field": "domesticKrw",
@@ -3437,6 +3430,13 @@
         "from": 66193,
         "to": 65811,
         "source": "매니저 확인(알리 API)"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "priceKrw",
+        "from": 65811,
+        "to": 66119,
+        "source": "알리"
       }
     ]
   },
@@ -6190,13 +6190,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.21 쿠팡 자동",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
     "priceKrw": 46394,
-    "domesticKrw": 65480,
+    "domesticKrw": 65370,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
     "risks": [
@@ -6256,6 +6256,13 @@
         "from": 46178,
         "to": 46394,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.21",
+        "field": "domesticKrw",
+        "from": 65480,
+        "to": 65370,
+        "source": "쿠팡"
       }
     ]
   },

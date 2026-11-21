@@ -79,7 +79,27 @@
       "lines": [
         "쿠팡은 같은 상품에 여러 개 묶음 옵션(110,600원)이 있어요. 1개 옵션 가격인지 확인하세요"
       ]
+    },
+    "ali-ugreen-7in1-usbc-hub:priceKrw": {
+      "at": "2026-11-21T07:43:43.254Z",
+      "slug": "ali-ugreen-7in1-usbc-hub",
+      "field": "priceKrw",
+      "recorded": 30525,
+      "api": 35250,
+      "change": "15%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
+    },
+    "ali-aula-f75-keyboard:priceKrw": {
+      "at": "2026-11-21T07:43:44.948Z",
+      "slug": "ali-aula-f75-keyboard",
+      "field": "priceKrw",
+      "recorded": 53100,
+      "api": 75388,
+      "change": "42%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "알리"
     }
   },
-  "updatedAt": "2026-11-21T00:17:14.247Z"
+  "updatedAt": "2026-11-21T07:43:44.953Z"
 }

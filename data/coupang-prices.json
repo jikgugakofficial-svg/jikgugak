@@ -31,7 +31,7 @@
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-20T04:41:18.946Z",
+      "at": "2026-11-21T07:43:17.366Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -42,7 +42,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-20T04:41:23.090Z",
+      "at": "2026-11-21T07:43:21.403Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -50,7 +50,7 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-20T04:41:27.207Z",
+      "at": "2026-11-21T07:43:25.422Z",
       "recordedKrw": 22660,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -58,7 +58,7 @@
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-20T04:41:30.941Z",
+      "at": "2026-11-21T07:43:29.350Z",
       "recordedKrw": 64690,
       "found": true,
       "apiPrice": 54690,
@@ -69,7 +69,7 @@
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-20T04:41:34.925Z",
+      "at": "2026-11-21T07:43:33.362Z",
       "recordedKrw": 71500,
       "found": true,
       "apiPrice": 71500,
@@ -513,23 +513,23 @@
     "amazon-logitech-g-pro-x-superlight-2": {
       "productId": "9606305559",
       "keyword": "로지텍 G PRO X 슈퍼라이트 2 무선 마우스",
-      "at": "2026-11-20T04:41:06.929Z",
+      "at": "2026-11-21T07:43:05.339Z",
       "recordedKrw": 143000,
       "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "ali-moondrop-space-travel-2": {
       "productId": "9764598863",
       "keyword": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
-      "at": "2026-11-20T04:41:11.008Z",
+      "at": "2026-11-21T07:43:09.728Z",
       "recordedKrw": 56070,
       "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "ali-redragon-k617-fizz": {
       "productId": "7795587320",
       "keyword": "레드드래곤 K617 피즈 60% 기계식 키보드",
-      "at": "2026-11-20T04:41:15.185Z",
+      "at": "2026-11-21T07:43:13.333Z",
       "recordedKrw": 68600,
       "found": true,
       "apiPrice": 68600,
@@ -687,7 +687,7 @@
     "amazon-razer-huntsman-v3-pro-tkl": {
       "productId": "9689633221",
       "keyword": "레이저 헌츠맨 V3 프로 TKL 게이밍 키보드",
-      "at": "2026-11-20T04:40:42.954Z",
+      "at": "2026-11-21T07:42:41.608Z",
       "recordedKrw": 329000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -695,7 +695,7 @@
     "amazon-shure-mv7-plus-white": {
       "productId": "9720309396",
       "keyword": "슈어 MV7+ 팟캐스트 마이크",
-      "at": "2026-11-20T04:40:47.035Z",
+      "at": "2026-11-21T07:42:45.503Z",
       "recordedKrw": 495000,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -703,7 +703,7 @@
     "ali-sonoff-snzb-02d": {
       "productId": "8807347296",
       "keyword": "소노프 SNZB-02D 지그비 온습도 센서",
-      "at": "2026-11-20T04:40:51.027Z",
+      "at": "2026-11-21T07:42:49.471Z",
       "recordedKrw": 27900,
       "found": true,
       "apiPrice": 27900,
@@ -714,35 +714,29 @@
     "ali-kz-zs10-pro-x": {
       "productId": "8054846488",
       "keyword": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
-      "at": "2026-11-20T04:40:55.088Z",
+      "at": "2026-11-21T07:42:53.372Z",
       "recordedKrw": 57900,
-      "found": true,
-      "apiPrice": 57900,
-      "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "ali-trn-vx-pro-plus": {
       "productId": "8379294884",
       "keyword": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
-      "at": "2026-11-20T04:40:59.106Z",
+      "at": "2026-11-21T07:42:57.344Z",
       "recordedKrw": 65480,
       "found": true,
-      "apiPrice": 65480,
+      "apiPrice": 65370,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": -110,
+      "result": "applied"
     },
     "ali-qcy-crossky-c30s": {
       "productId": "8906816172",
       "keyword": "QCY 크로스키 C30S 오픈형 클립 이어폰",
-      "at": "2026-11-20T04:41:03.021Z",
+      "at": "2026-11-21T07:43:01.366Z",
       "recordedKrw": 65800,
-      "found": true,
-      "apiPrice": 65800,
-      "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-beats-pill-2024-matte-black": {
       "productId": "9570716552",
@@ -817,9 +811,8 @@
     "iherb-doctors-best-ala-600-180": {
       "productId": "8460206154",
       "keyword": "닥터스베스트 알파리포산 600",
-      "at": "2026-11-20T05:45:06.828Z",
+      "at": "2026-11-21T07:43:37.413Z",
       "recordedKrw": 82680,
-      "imageAdded": true,
       "found": true,
       "apiPrice": 82680,
       "isRocket": false,
@@ -839,5 +832,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-21T00:17:10.600Z"
+  "updatedAt": "2026-11-21T07:43:41.419Z"
 }
