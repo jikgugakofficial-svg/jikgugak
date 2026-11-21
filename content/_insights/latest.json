@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-20T14:54:37.339Z",
+  "at": "2026-11-21T20:27:24.542Z",
   "window": "최근 7일",
   "instagram": {
     "profile": {
@@ -38,7 +38,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18196596010403906/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A45H86Xx3fUJHadjTg68pAd\"}"
+        "insightsFullError": "/18196596010403906/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ADqRFgYBgrSWuciN831sKoM\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/Df3j_BovesU/",
@@ -54,7 +54,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/17967246426228495/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AI0iWUy85nJVrxjpYx1Q57W\"}"
+        "insightsFullError": "/17967246426228495/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AV50LA39SZfTSwZTK6uRSjG\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/Df1Ag0VQgWP/",
@@ -70,7 +70,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18389555341229757/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AV5er83bbjTyThavvs-UW_x\"}"
+        "insightsFullError": "/18389555341229757/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AMzyydQoZ1a81teavvol84P\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfoIhGRBW1U/",
@@ -86,7 +86,7 @@
           "shares": 0,
           "total_interactions": 1
         },
-        "insightsFullError": "/17956729410035623/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"Akc5BHL9opMVZKMCBWPmIhX\"}"
+        "insightsFullError": "/17956729410035623/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A2V6ZuOAk8_bpUejF8A94q7\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dfljru2Br22/",
@@ -102,7 +102,7 @@
           "shares": 0,
           "total_interactions": 3
         },
-        "insightsFullError": "/18137770828658952/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AaOdNBqk2Vd7mj4_Cps9WOw\"}"
+        "insightsFullError": "/18137770828658952/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ALdg6KOjsZ_qOUpG-MORjuC\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/Dfi-etIKe9A/",
@@ -118,7 +118,7 @@
           "shares": 0,
           "total_interactions": 1
         },
-        "insightsFullError": "/17931263616181914/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"Av7qQXD41vp73FAUi-ab3Ox\"}"
+        "insightsFullError": "/17931263616181914/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AAZKq3cCBaF11cCgkZL6xt1\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfWG_VZj_4O/",
@@ -134,7 +134,7 @@
           "shares": 0,
           "total_interactions": 2
         },
-        "insightsFullError": "/18156367858542262/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AxpK-V9cUkQn_9bRTGtGKWp\"}"
+        "insightsFullError": "/18156367858542262/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ACer-kNHPzSFizxQ9w6mw-t\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfTgaAnnRGX/",
@@ -150,7 +150,7 @@
           "shares": 0,
           "total_interactions": 1
         },
-        "insightsFullError": "/18126832249914634/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AM_d1idnU48WMkq7mwJHcsB\"}"
+        "insightsFullError": "/18126832249914634/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AVRvFze5ohTaINI7fwi-RjX\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfQ7nJXE-kS/",
@@ -166,7 +166,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18123815069294191/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AL18cGEOYL0nmhxV31gWzqx\"}"
+        "insightsFullError": "/18123815069294191/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AqkIzTzkihrb-cEXtAsbinw\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfGpRqHCeZC/",
@@ -182,7 +182,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18020773703943693/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AYHkCpcbwjBGth-9pBUKC_x\"}"
+        "insightsFullError": "/18020773703943693/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AAZxYrZ6ihCuR7PR-F6AJEO\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfEpwoaggnv/",
@@ -198,7 +198,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18083534270341051/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A5LQMqrvy8O0-ojeinUMr_I\"}"
+        "insightsFullError": "/18083534270341051/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AzPBTB29NhrmwUvWTjiL2Uc\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/DfEpuzgm7ST/",
@@ -232,7 +232,7 @@
           "shares": 0,
           "total_interactions": 1
         },
-        "insightsFullError": "/17926364058439477/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ASg1MkaaII2T2jit8KEds4Q\"}"
+        "insightsFullError": "/17926364058439477/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AVes-7kGn3QBoJuGi2DFF5G\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/DfCHjGEjoVA/",
@@ -248,7 +248,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18147210499530555/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AvGOnunpWjbDEtIdd6Rnm7_\"}"
+        "insightsFullError": "/18147210499530555/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AX-z7q0vbBcsSrkjj4A84bQ\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/DfCHhPYlfxC/",
@@ -282,7 +282,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/17993811537052347/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AvqCKxnP9SI0yd4nwrW_pmd\"}"
+        "insightsFullError": "/17993811537052347/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"ApJHbq29mnUrM1Dooygi5js\"}"
       },
       {
         "permalink": "https://www.instagram.com/reel/De_iDhFiQNi/",
@@ -298,7 +298,7 @@
           "shares": 0,
           "total_interactions": 0
         },
-        "insightsFullError": "/18012672923968954/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AtFmEIW1icv3c4r_d4-C6bh\"}"
+        "insightsFullError": "/18012672923968954/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"A5yb5IUYMKLkWadZxpRh8uj\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/De_iBjzFG32/",
@@ -332,7 +332,7 @@
           "shares": 1,
           "total_interactions": 1
         },
-        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"Agc6QczpUqpLELpy-SWSOuh\"}"
+        "insightsFullError": "/17957768679272973/insights: {\"message\":\"The Media Insights API does not support the profile_visits, profile_activity, follows metric for this media product type.\",\"type\":\"IGApiException\",\"code\":100,\"fbtrace_id\":\"AU6Sq6CtXEip4RZq9OTn_ap\"}"
       },
       {
         "permalink": "https://www.instagram.com/p/De6XG5yEb8s/",
@@ -363,7 +363,7 @@
       "username": "jikgugak.official"
     },
     "account7d": {
-      "views": 6,
+      "views": 8,
       "likes": 0,
       "replies": 0,
       "reposts": 0,
@@ -379,7 +379,7 @@
         "hasLink": false,
         "firstLine": "(광고) 직구각에 올린 아이허브 상품 20개 중 13개는 쿠팡이 더 쌌어요(11.16 기준).",
         "insights": {
-          "views": 82,
+          "views": 87,
           "likes": 0,
           "replies": 0,
           "reposts": 0,
@@ -394,7 +394,7 @@
         "hasLink": false,
         "firstLine": "(광고) 아마존 블프 위크가 오늘 오후 5시 1분에 시작해요. 결제 화면에서 원화로 낼지 물어보면 뭘 고르세",
         "insights": {
-          "views": 336,
+          "views": 337,
           "likes": 0,
           "replies": 0,
           "reposts": 0,
@@ -604,7 +604,7 @@
         "hasLink": false,
         "firstLine": "(광고) 아이허브가 늘 싸다고 생각했는데, 같은 스포츠리서치 오메가3 180정이 쿠팡 로켓직구보다 26,58",
         "insights": {
-          "views": 53,
+          "views": 54,
           "likes": 0,
           "replies": 1,
           "reposts": 0,
@@ -782,6 +782,16 @@
     "visits7": 119,
     "daily": [
       {
+        "day": "20261122",
+        "visit": 0,
+        "pv": 0
+      },
+      {
+        "day": "20261121",
+        "visit": 0,
+        "pv": 0
+      },
+      {
         "day": "20261120",
         "visit": 60,
         "pv": 61
@@ -840,16 +850,6 @@
         "day": "20261109",
         "visit": 0,
         "pv": 0
-      },
-      {
-        "day": "20261108",
-        "visit": 0,
-        "pv": 0
-      },
-      {
-        "day": "20261107",
-        "visit": 0,
-        "pv": 0
       }
     ],
     "visitsBySource": {
@@ -862,8 +862,8 @@
     "landing": {
       "/": 80,
       "/p": 18,
-      "/guide/black-friday-direct-duty": 4,
       "/calendar": 4,
+      "/guide/black-friday-direct-duty": 4,
       "/guide/duty-vat-formula": 4,
       "/guide/us-direct-200-dollar-limit": 3,
       "/deals/1111": 3,
