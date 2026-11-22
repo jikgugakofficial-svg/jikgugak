@@ -6141,12 +6141,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.23 알리 자동",
     "slug": "ali-kz-zs10-pro-x",
     "domesticUrl": "https://link.coupang.com/a/iIA5c2ZaQm",
     "name": "KZ ZS10 Pro X 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 29394,
+    "priceKrw": 29555,
     "domesticKrw": 57900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8054846488",
@@ -6206,6 +6206,13 @@
         "field": "priceKrw",
         "from": 29296,
         "to": 29394,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "priceKrw",
+        "from": 29394,
+        "to": 29555,
         "source": "알리"
       }
     ]
@@ -6302,12 +6309,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.23 알리 자동",
     "slug": "ali-qcy-crossky-c30s",
     "domesticUrl": "https://link.coupang.com/a/iIA5dcg3wa",
     "name": "QCY 크로스키 C30S 오픈형 클립 이어폰",
     "category": "audio",
-    "priceKrw": 41707,
+    "priceKrw": 38336,
     "domesticKrw": 65800,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8906816172",
@@ -6367,6 +6374,13 @@
         "field": "priceKrw",
         "from": 41989,
         "to": 41707,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "priceKrw",
+        "from": 41707,
+        "to": 38336,
         "source": "알리"
       }
     ]
@@ -6895,11 +6909,11 @@
     "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.22 쿠팡 자동",
+    "checkedAt": "2026.11.23 쿠팡 자동",
     "slug": "iherb-now-sunflower-lecithin-powder-454g",
     "name": "나우푸드 해바라기 레시틴 순수 분말 454g",
     "priceKrw": 25103,
-    "domesticKrw": 43040,
+    "domesticKrw": 43480,
     "domesticUrl": "https://link.coupang.com/a/iPcTEO9xFk",
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-sunflower-lecithin-pure-powder-1-lb-454-g/59514",
@@ -6933,6 +6947,13 @@
         "field": "domesticKrw",
         "from": 43110,
         "to": 43040,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "domesticKrw",
+        "from": 43040,
+        "to": 43480,
         "source": "쿠팡"
       }
     ]
