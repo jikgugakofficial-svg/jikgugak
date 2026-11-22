@@ -210,27 +210,27 @@
     },
     "ali-truthear-zero-red": {
       "itemId": "1005005589751589",
-      "at": "2026-11-20T01:55:01.693Z",
+      "at": "2026-11-22T02:40:56.889Z",
       "recordedKrw": 75738,
       "found": true,
-      "apiPrice": 75738,
-      "result": "same"
+      "apiPrice": 76092,
+      "result": "applied"
     },
     "ali-tangzu-waner-sg2-red-lion": {
       "itemId": "1005011615420740",
-      "at": "2026-11-20T03:33:49.702Z",
-      "recordedKrw": 26820,
+      "at": "2026-11-22T02:40:59.195Z",
+      "recordedKrw": 26909,
       "found": true,
-      "apiPrice": 26909,
+      "apiPrice": 24245,
       "result": "applied"
     },
     "ali-sonoff-minir4": {
       "itemId": "1005005260044338",
-      "at": "2026-11-20T03:33:52.090Z",
-      "recordedKrw": 11344,
+      "at": "2026-11-22T02:41:00.066Z",
+      "recordedKrw": 11398,
       "found": true,
       "apiPrice": 11398,
-      "result": "applied"
+      "result": "same"
     },
     "ali-redragon-k530-pro": {
       "itemId": "1005004887739101",
@@ -249,5 +249,5 @@
       "result": "applied"
     }
   },
-  "updatedAt": "2026-11-21T21:55:05.602Z"
+  "updatedAt": "2026-11-22T02:41:00.957Z"
 }

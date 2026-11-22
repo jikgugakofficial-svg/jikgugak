@@ -6487,14 +6487,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.22 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9498763335",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005589751589.html",
     "slug": "ali-truthear-zero-red",
     "domesticUrl": "https://link.coupang.com/a/iKe175DaRo",
     "name": "트루히어 x 크리나클 제로:레드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 75738,
+    "priceKrw": 76092,
     "domesticKrw": 126870,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6533,6 +6533,13 @@
         "from": 75640,
         "to": 75738,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.22",
+        "field": "priceKrw",
+        "from": 75738,
+        "to": 76092,
+        "source": "알리"
       }
     ]
   },
@@ -6544,14 +6551,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.22 알리 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9691700942",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005011615420740.html",
     "slug": "ali-tangzu-waner-sg2-red-lion",
     "domesticUrl": "https://link.coupang.com/a/iKe18cEths",
     "name": "탕주 완얼 S.G II 레드 라이온 유선 이어폰",
     "category": "audio",
-    "priceKrw": 26909,
+    "priceKrw": 24245,
     "domesticKrw": 58500,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6609,6 +6616,13 @@
         "field": "priceKrw",
         "from": 26820,
         "to": 26909,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.22",
+        "field": "priceKrw",
+        "from": 26909,
+        "to": 24245,
         "source": "알리"
       }
     ]
