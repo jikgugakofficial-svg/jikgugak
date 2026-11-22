@@ -176,11 +176,11 @@
     "domesticUrl": "https://link.coupang.com/a/iynB9cxII0",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-vitamin-d3-k2-120-capsules/10056",
     "sample": false,
-    "checkedAt": "2026.11.19 쿠팡 자동",
+    "checkedAt": "2026.11.23 쿠팡 자동",
     "slug": "iherb-now-vitamin-d3-k2-120",
     "name": "나우푸드 비타민 D3 & K2 120캡슐",
     "priceKrw": 11604,
-    "domesticKrw": 14450,
+    "domesticKrw": 14440,
     "domesticSource": "쿠팡 Coupang Global 1개(120정) 12,430 + 배송비 2,500",
     "risks": [
       "건강기능식품: 미국발도 $150 기준",
@@ -204,13 +204,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.02",
-        "field": "priceKrw",
-        "from": 11647,
-        "to": 11505,
-        "source": "아이허브"
-      },
       {
         "at": "2026.11.03",
         "field": "domesticKrw",
@@ -272,6 +265,13 @@
         "field": "domesticKrw",
         "from": 14930,
         "to": 14450,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "domesticKrw",
+        "from": 14450,
+        "to": 14440,
         "source": "쿠팡"
       }
     ]
@@ -4967,12 +4967,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.21 쿠팡 자동",
+    "checkedAt": "2026.11.23 쿠팡 자동",
     "slug": "amazon-apple-pencil-pro",
     "domesticUrl": "https://link.coupang.com/a/iAjCVhNNFk",
     "name": "애플 펜슬 프로",
     "category": "it",
-    "domesticKrw": 161500,
+    "domesticKrw": 161460,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0D3J71RM7",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8106270209",
@@ -4996,13 +4996,6 @@
     },
     "image": "https://ads-partners.coupang.com/image1/xJdWIy_XfRI-_gB1xNOv3WX_zQsPt89fuPEo1w1eOwa9O130esBxbc6c43AEDMFmrpQdJ4xuTICNbYpCWHHzawZMK1QAyI4vZELIhcMLEdWH_RTlDKwAa1CicA38mLV33fN7CXgkzsmIzWAmxwvSJPpF7P2k4Wtda-hjb1dsodivsdE4SF8WtjqZLFgKg7V6GRbDFUW3BFwBJ01BhNO-s2wd5eXxJimI0Ao_Vj5vAYE1NA930XgU2SQkswAxkYyHdcfJFuh-V0wo5jcViIVerU5C0-e36q0wBzKLSZSeDUQFESNupX2VmvYiIbzAFRppjabd6FbRZ9L3aURP63M1f5ujA_W6XrRjmxBLQ1FsL3iUvgMW4v5tC83X6dXWvcJpbZS5XORHNH9zIwj8Y_GsqmY08RbFQ2R8zGyyHspxPb16ZtfxbshEe7k6cBCu2YBVlMI6fRPizAfkm7uiU2pYUpWgNW3uzWpRJomsEhe-gg_TPdo4PH3zenqAxO0H-4sL5D0QNxNESq_0WEQmxOx4SK5nTLtt4oVqMMHnpQRhsjslCd5c",
     "priceLog": [
-      {
-        "at": "2026.11.14",
-        "field": "domesticKrw",
-        "from": 162880,
-        "to": 162800,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.14",
         "field": "domesticKrw",
@@ -5064,6 +5057,13 @@
         "field": "domesticKrw",
         "from": 161540,
         "to": 161500,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "domesticKrw",
+        "from": 161500,
+        "to": 161460,
         "source": "쿠팡"
       }
     ]
@@ -5300,7 +5300,7 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.21 쿠팡 자동",
+    "checkedAt": "2026.11.23 쿠팡 자동",
     "slug": "ali-fosi-q4",
     "domesticUrl": "https://link.coupang.com/a/iAjCVAb6hU",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmjFQcc9fZcBZyKU6KI0fH7mquEK3lHeqFaaesEXTPKQawzRS89FVZXoHbCU8UhGXfvw67PMJMSV3lZuR3kRS6GEeB0msB53fiQTum5n77aV1TAzGw8kaWsQGaKEzsAbWaV2cSE29BIYdv0DmKBimhAbBQw6uMqXepl1R4pfcvgvQdMKpgj72F1ZAHkdQZUWjHIM9d9FUvvrYtssgeGQMfhGNIWYDBbuuO1CNbIrbs2YyiFIehdJXLcGaEz8l0X1nA34GT0ys7D380lAClKeIQFZsdLmmiVAtdNRQQEsQUbysgxq5OGrUQowbcxiGLWS9IgD7LxNb0h5YKsKXLE0G8jxQZAhlaS4UFSTTfdDmnGXAy2S00Dp3LDZdod9hPKeOnTefEpJToIy4FIKojVmPYvZC8NueLbitSJ1bavvjsivVhK4rmeVd4tfOYPWQPNylC1tH34NZI7GWWm32Yn5QyxJDnp5tiyFZ7iy4RggECaryqLJoiMGrYjCN1Klo7hFtBmqC0GloZkLUt2gmPTwEAwZ7RF4C0ddGGuFkhJKRUTwZ6ld4J1iXHpWll0USkzud4koVWrOt5bx9mSjbjlQeVl4AHft7oETaOQE4rJirIK4oRy1TWJjvOZhGekuarqiXSvmQ1YhN0wF0FVFv7qmCKCykKqks8mYb7yBpzmNTrqOMPK6e4vLPk4NPmdsEyeKs2sakIGwj2oDi0",
@@ -5308,7 +5308,7 @@
     "name": "포시오디오 Q4 USB DAC 헤드폰 앰프",
     "category": "audio",
     "priceKrw": 47262,
-    "domesticKrw": 101930,
+    "domesticKrw": 103550,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7401672495",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005002448803062.html",
@@ -5332,13 +5332,6 @@
       "checkedAt": "2026.11.11"
     },
     "priceLog": [
-      {
-        "at": "2026.11.15",
-        "field": "domesticKrw",
-        "from": 101970,
-        "to": 102060,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.17",
         "field": "domesticKrw",
@@ -5400,6 +5393,13 @@
         "field": "domesticKrw",
         "from": 102060,
         "to": 101930,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "domesticKrw",
+        "from": 101930,
+        "to": 103550,
         "source": "쿠팡"
       }
     ]

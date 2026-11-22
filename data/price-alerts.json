@@ -23,7 +23,7 @@
       "source": "알리"
     },
     "ali-edifier-evobuds-pro:domesticKrw": {
-      "at": "2026-11-21T00:16:18.778Z",
+      "at": "2026-11-22T18:03:19.041Z",
       "slug": "ali-edifier-evobuds-pro",
       "field": "domesticKrw",
       "recorded": 79020,
@@ -33,22 +33,12 @@
       "source": "쿠팡"
     },
     "amazon-elgato-stream-deck-mk2:domesticKrw": {
-      "at": "2026-11-21T00:16:34.605Z",
+      "at": "2026-11-22T18:03:35.073Z",
       "slug": "amazon-elgato-stream-deck-mk2",
       "field": "domesticKrw",
       "recorded": 222000,
       "api": 182000,
       "change": "18%",
-      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
-      "source": "쿠팡"
-    },
-    "iherb-now-vitamin-d3-k2-120:domesticKrw": {
-      "at": "2026-11-21T00:17:02.646Z",
-      "slug": "iherb-now-vitamin-d3-k2-120",
-      "field": "domesticKrw",
-      "recorded": 14450,
-      "api": 10830,
-      "change": "25%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
     },
@@ -140,7 +130,17 @@
       "to": "국내가 나음",
       "source": "알리",
       "reason": "반영하면 판정이 바뀌어요. 실물 확인 후 가격과 요약 문장을 같이 고쳐 주세요(자동 반영 안 함)"
+    },
+    "ali-ugreen-nexode-air-65w:domesticKrw": {
+      "at": "2026-11-22T18:03:55.005Z",
+      "slug": "ali-ugreen-nexode-air-65w",
+      "field": "domesticKrw",
+      "recorded": 53900,
+      "api": 66900,
+      "change": "24%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-22T10:22:48.803Z"
+  "updatedAt": "2026-11-22T18:04:18.743Z"
 }
