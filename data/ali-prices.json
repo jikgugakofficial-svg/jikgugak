@@ -27,19 +27,19 @@
     },
     "ali-qcy-h3-anc-headphones": {
       "itemId": "1005012204345276",
-      "at": "2026-11-20T04:41:38.961Z",
-      "recordedKrw": 40758,
+      "at": "2026-11-22T10:22:47.019Z",
+      "recordedKrw": 40893,
       "found": true,
-      "apiPrice": 40893,
-      "result": "applied"
+      "apiPrice": 41525,
+      "result": "held"
     },
     "ali-xiaomi-smart-band-10-pro": {
       "itemId": "1005006405553471",
-      "at": "2026-11-20T04:41:40.470Z",
-      "recordedKrw": 101754,
+      "at": "2026-11-22T10:22:47.927Z",
+      "recordedKrw": 102231,
       "found": true,
       "apiPrice": 102231,
-      "result": "applied"
+      "result": "same"
     },
     "ali-qcy-melobuds-n70": {
       "itemId": "1005009801120235",
@@ -114,11 +114,11 @@
     },
     "ali-fosi-q4": {
       "itemId": "1005002448803062",
-      "at": "2026-11-20T03:33:52.490Z",
-      "recordedKrw": 47042,
+      "at": "2026-11-22T10:22:44.905Z",
+      "recordedKrw": 47262,
       "found": true,
       "apiPrice": 47262,
-      "result": "applied"
+      "result": "same"
     },
     "ali-ugreen-nexode-air-65w": {
       "itemId": "1005012274502051",
@@ -249,5 +249,5 @@
       "result": "applied"
     }
   },
-  "updatedAt": "2026-11-22T02:41:00.957Z"
+  "updatedAt": "2026-11-22T10:22:48.803Z"
 }
