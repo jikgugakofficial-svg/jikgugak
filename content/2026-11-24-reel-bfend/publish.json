@@ -1,6 +1,6 @@
 {
-  "approved": false,
-  "approvedBy": "",
+  "approved": true,
+  "approvedBy": "운영자 \"게시해\" 2026-11-23 오전(미리보기 5개 묶음 A, 팀장 검수 게시 가능)",
   "schedule": "2026-11-24T03:25:00Z",
   "note": "11/24(화) 12:25 릴스. 화요일 퀴즈(마지막 날 맞히기, 달력 장면만). 운영자 '게시해' 뒤에만 approved:true. 상품·가격·환율 없음(날짜만). 첫 줄 끝 #광고. 게시 때 유료 광고 포함 켜기. 장면은 storyboard.md.",
   "livecheck": {
