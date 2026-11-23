@@ -1484,7 +1484,7 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynD4fhASy",
     "sample": false,
-    "checkedAt": "2026.11.23 저녁",
+    "checkedAt": "2026.11.23 오전",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
     "priceKrw": 42569,
@@ -2874,10 +2874,10 @@
     "domesticUrl": "https://link.coupang.com/a/iynD5CH0OO",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-magnesium-caps-400-mg-180-veg-capsules/662",
     "sample": false,
-    "checkedAt": "2026.11.18 오전",
+    "checkedAt": "2026.11.23 오전",
     "slug": "iherb-now-magnesium-caps-400-180",
     "name": "나우푸드 마그네슘 캡 400mg 180캡슐",
-    "priceKrw": 18584,
+    "priceKrw": 18706,
     "domesticKrw": 15850,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -2971,6 +2971,13 @@
         "from": 16730,
         "to": 15850,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "priceKrw",
+        "from": 18584,
+        "to": 18706,
+        "source": "아이허브 화면(매니저)"
       }
     ]
   },
@@ -3549,10 +3556,10 @@
     "domesticUrl": "https://link.coupang.com/a/ib10yTQTrU",
     "buyUrl": "https://kr.iherb.com/pr/california-gold-nutrition-coq10-usp-grade-ubiquinone-100-mg-360-veggie-capsules/95215",
     "sample": false,
-    "checkedAt": "2026.11.18 오전",
+    "checkedAt": "2026.11.23 오전",
     "slug": "iherb-cgn-coq10-100-360",
     "name": "캘리포니아골드뉴트리션 CoQ10 유비퀴논 100mg 360캡슐",
-    "priceKrw": 58662,
+    "priceKrw": 59045,
     "domesticKrw": 113400,
     "domesticSource": "쿠팡 해외 판매자 1개, 무료배송",
     "risks": [
@@ -3598,6 +3605,13 @@
         "from": 95800,
         "to": 113400,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "priceKrw",
+        "from": 58662,
+        "to": 59045,
+        "source": "아이허브 화면(매니저)"
       }
     ]
   },
@@ -3722,10 +3736,10 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 오전",
+    "checkedAt": "2026.11.23 오전",
     "slug": "iherb-cgn-s-acetyl-glutathione-120",
     "name": "캘리포니아골드뉴트리션 S-아세틸 L-글루타치온 100mg 120캡슐",
-    "priceKrw": 56998,
+    "priceKrw": 57371,
     "domesticKrw": 81300,
     "domesticUrl": "https://link.coupang.com/a/icOCWUcqGW",
     "domesticSource": "쿠팡 120정 1개 최저가, 무료배송(해외 배송)",
@@ -3780,6 +3794,13 @@
         "from": 77000,
         "to": 81300,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "priceKrw",
+        "from": 56998,
+        "to": 57371,
+        "source": "아이허브 화면(매니저)"
       }
     ]
   },
@@ -3792,10 +3813,10 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 오전",
+    "checkedAt": "2026.11.23 오전",
     "slug": "iherb-cgn-marine-collagen-500g",
     "name": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-    "priceKrw": 58000,
+    "priceKrw": 58380,
     "domesticKrw": 82000,
     "domesticUrl": "https://link.coupang.com/a/icOCWZKaTk",
     "domesticSource": "쿠팡 500g 1개 최저가, 무료배송(해외 배송)",
@@ -3836,6 +3857,13 @@
         "from": 59165,
         "to": 59210,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "priceKrw",
+        "from": 58000,
+        "to": 58380,
+        "source": "아이허브 화면(매니저)"
       }
     ]
   },
@@ -3848,10 +3876,10 @@
     "shipNote": "₩40,000 이상이라 배송비 없음",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.18 오전",
+    "checkedAt": "2026.11.23 오전",
     "slug": "iherb-jarrow-ultra-boneup-240",
     "name": "자로우 울트라 본업 240정",
-    "priceKrw": 55323,
+    "priceKrw": 55685,
     "domesticKrw": 79400,
     "domesticUrl": "https://link.coupang.com/a/icOCW4TpBI",
     "domesticSource": "쿠팡 울트라 본업 240정 1개 최저가, 무료배송(해외 배송)",
@@ -3899,6 +3927,13 @@
         "from": 55746,
         "to": 55789,
         "source": "매니저 브라우저 확인"
+      },
+      {
+        "at": "2026.11.23",
+        "field": "priceKrw",
+        "from": 55323,
+        "to": 55685,
+        "source": "아이허브 화면(매니저)"
       }
     ]
   },
