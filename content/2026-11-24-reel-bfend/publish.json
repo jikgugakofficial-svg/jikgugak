@@ -1,0 +1,38 @@
+{
+  "approved": false,
+  "approvedBy": "",
+  "schedule": "2026-11-24T03:25:00Z",
+  "note": "11/24(화) 12:25 릴스. 화요일 퀴즈(마지막 날 맞히기, 달력 장면만). 운영자 '게시해' 뒤에만 approved:true. 상품·가격·환율 없음(날짜만). 첫 줄 끝 #광고. 게시 때 유료 광고 포함 켜기. 장면은 storyboard.md.",
+  "livecheck": {
+    "checkBy": "2026-11-24 11:40 KST 전",
+    "items": [
+      {
+        "what": "events.json 아마존 블프 위크(amazon-bf-week-2026)",
+        "url": "data/events.json",
+        "expect": "date 2026-11-19, end 2026-11-30, status confirmed",
+        "inText": "30일까지, 7일"
+      },
+      {
+        "what": "events.json 블랙프라이데이(black-friday)",
+        "url": "data/events.json",
+        "expect": "date 2026-11-27, status confirmed",
+        "inText": "27일"
+      },
+      {
+        "what": "events.json 사이버먼데이(cyber-monday)",
+        "url": "data/events.json",
+        "expect": "date 2026-11-30, status confirmed",
+        "inText": "30일, 사이버먼데이"
+      }
+    ],
+    "ifChanged": "날짜가 다르면 영상·캡션을 새 값으로 다시 굽고 재승인. 게시가 하루 밀리면 '7일'을 '6일'로."
+  },
+  "channels": {
+    "reels": {
+      "video": "publish/reel-bfend.mp4",
+      "text": "아마존 블프 위크, 마지막 날은 언제일까요? #광고\n\n정답은 ③ 30일 월요일이에요.\n오늘부터 30일까지 7일이에요.\n27일은 블랙프라이데이 당일이고, 30일은 사이버먼데이예요. 위크는 그날까지 이어져요.\n\n💡 할인율보다 목표가 아래인지 먼저 보세요.\n📌 상품별 목표가는 프로필 링크 표에 있어요.\n\n직구각 링크로 구매하면 수수료를 받을 수 있어요(구매가는 같아요).\n\n#블랙프라이데이 #아마존직구 #사이버먼데이 #직구관세 #직구각",
+      "shareToFeed": true
+    }
+  },
+  "autoFix": "운영자 11/2: 판정 단어 같고 차이 금액 변화 5% 이내면 매니저가 글 숫자를 그날 값으로 고쳐 바로 게시. 이 릴스는 가격·환율 없음(날짜만)"
+}
