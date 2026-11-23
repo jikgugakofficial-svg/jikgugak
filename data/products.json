@@ -7076,5 +7076,47 @@
         "source": "쿠팡"
       }
     ]
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.23 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9780240425",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007443357573.html",
+    "slug": "ali-ugreen-nexode-mini-100w-12000",
+    "name": "유그린 넥소드 미니 100W 보조배터리 12000mAh",
+    "category": "it",
+    "priceKrw": 75197,
+    "domesticKrw": 103700,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 2~3주 (11/23 화면 기준 12/8~18 도착)",
+      "알리는 같은 상품에 12000mAh·20000mAh·묶음 옵션이 있어요. 결제 화면에서 100W 12000mAh인지 확인하세요",
+      "쿠팡도 같은 상품 번호에 가격이 다른 옵션(103,700·176,900원)이 있어요. 12000mAh 옵션 가격인지 확인하세요",
+      "쿠팡엔 유그린 공식 판매가 아닌 해외 구매대행 판매자 상품만 있어요",
+      "알리는 첫 구매·1인 1개 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요",
+      "리튬 배터리 제품이라 기내 반입은 100Wh 이하 규정을 확인하세요"
+    ],
+    "summary": [
+      "유그린 넥소드 미니 100W 12000mAh를 알리 공식 스토어와 쿠팡 같은 모델끼리 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "UGREEN Nexode 미니 100W 12000mAh 보조배터리 (1개)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(UGREEN 넥소드 미니 100W PD 보조배터리 12000mAh 20000mAh)과 알리 제휴 API 제목(Ugreen Official Store)으로 맞춤. 쿠팡 같은 모델은 9780240425(103,700·176,900원 두 옵션)·9814972544(163,700원) 둘 다 판매자 상품이라 가장 낮은 103,700원을 12000mAh로 봄. 알리 화면 옵션: 100W 12000mAh·100W 20000mAh·20000mAh 묶음, 화면 할인가(1인 1개)는 12000mAh가 더 싸서 API 가격(가장 싼 옵션)을 12000mAh로 봄(11/23 매니저)",
+      "checkedAt": "2026.11.23"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iTUaYauucu",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4sog3Q1uDyMKULdB6H5ZYfp1MNknIRvtRLbygo3GJ5Ip6UjsAzSerxgag3lxKO7UsHyE5AkoCELqQqEPhiY7Q2OU3BezE4qFm6LNYWKn1WmWrJ5fEq9lg9mSSBjfsFDs787Nj2ayklFS0iZTErbhc2O6JhlgKDudi6dA91qFdmkdTxVtuA3ruJzMSynCtlTdDGX792L3EiLkxAqk3vOLQzjYg0QLSdMG0n4btBoLvZDD1NVIkpEFfbmSqH8VqmOJyqjIjo1opPsYQEbV85i0Rt0j3RqiAyj3pwTC3izD2uLPf5wOJX9rFcjJ1BwzAR8DxtJ2oPY1pmq8iloi5KmqptJNAIHUIiA8yd8WngjT1gnvIn51lTemS1ith9P2PirYo8a1nHEkgC0w6y779xrRfwAKJtgFiYnIM1prZCkv461pusxGhKSzeqkBHqiKEihSMTbmJBLmbVEk8fmissO7HUTzbG2FRugpnxvaWIkogXm3ZltNIZrBAugOHkShqI64mjdj5qJZ9qsOd7JA8aZV30CWP9dlZ7aGYrCnFRRV5Y9mcjIBM3MQvjjn3r0B8oQQZKEsoTPzuO1zf5Uw5slSQOrbbpgiPQY9YsmYuYKh0zxKAuo5DNxeawEHBJAG9nzxBnQyql4NYIui5dX2GZio0ARqkt6lxZeM5X1FMEk2otRMGyZSbTeYOq9HoH1eKqq2aawTkLtsWtPWM",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc7e305417c2b45d0ae4b53fc33743569t.jpg"
   }
 ]
