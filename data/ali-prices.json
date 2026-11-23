@@ -154,18 +154,17 @@
     },
     "ali-truthear-zero-blue2": {
       "itemId": "1005008606126729",
-      "at": "2026-11-20T09:39:33.456Z",
-      "recordedKrw": 75738,
-      "found": true,
-      "apiPrice": 76092,
-      "result": "applied"
+      "at": "2026-11-23T20:35:25.385Z",
+      "recordedKrw": 76092,
+      "found": false,
+      "note": "not_found"
     },
     "ali-kz-zsn-pro-2": {
       "itemId": "1005006997565403",
-      "at": "2026-11-20T18:03:40.901Z",
-      "recordedKrw": 17949,
+      "at": "2026-11-23T20:35:27.957Z",
+      "recordedKrw": 18009,
       "found": true,
-      "apiPrice": 18009,
+      "apiPrice": 18225,
       "result": "applied"
     },
     "ali-sonoff-snzb-02d": {
@@ -242,10 +241,10 @@
     },
     "ali-sonoff-zbminir2": {
       "itemId": "1005007783265126",
-      "at": "2026-11-20T09:39:34.212Z",
-      "recordedKrw": 10093,
+      "at": "2026-11-23T20:35:27.073Z",
+      "recordedKrw": 10140,
       "found": true,
-      "apiPrice": 10140,
+      "apiPrice": 10211,
       "result": "applied"
     },
     "ali-ugreen-nexode-mini-100w-12000": {
@@ -257,5 +256,5 @@
       "result": "applied"
     }
   },
-  "updatedAt": "2026-11-23T08:16:19.227Z"
+  "updatedAt": "2026-11-23T20:35:28.808Z"
 }
