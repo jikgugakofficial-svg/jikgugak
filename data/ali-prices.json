@@ -138,18 +138,18 @@
     },
     "ali-simgot-ew300": {
       "itemId": "1005007543694300",
-      "at": "2026-11-20T07:57:32.258Z",
-      "recordedKrw": 83364,
+      "at": "2026-11-23T08:16:17.992Z",
+      "recordedKrw": 83754,
       "found": true,
-      "apiPrice": 83754,
+      "apiPrice": 84336,
       "result": "applied"
     },
     "ali-kz-pr3": {
       "itemId": "1005007805659342",
-      "at": "2026-11-20T09:39:31.392Z",
-      "recordedKrw": 36486,
+      "at": "2026-11-23T08:16:18.829Z",
+      "recordedKrw": 36607,
       "found": true,
-      "apiPrice": 36607,
+      "apiPrice": 36844,
       "result": "applied"
     },
     "ali-truthear-zero-blue2": {
@@ -247,7 +247,15 @@
       "found": true,
       "apiPrice": 10140,
       "result": "applied"
+    },
+    "ali-ugreen-nexode-mini-100w-12000": {
+      "itemId": "1005007443357573",
+      "at": "2026-11-23T08:16:15.659Z",
+      "recordedKrw": 75197,
+      "found": true,
+      "apiPrice": 75719,
+      "result": "applied"
     }
   },
-  "updatedAt": "2026-11-22T23:52:15.709Z"
+  "updatedAt": "2026-11-23T08:16:19.227Z"
 }
