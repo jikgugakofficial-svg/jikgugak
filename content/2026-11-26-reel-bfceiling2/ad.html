@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>직구각 릴스 200달러 천장</title>
+<style>
+  @font-face{font-family:D;src:url("../../tools/tvc/fonts/Freesentation-9Black.ttf")}
+  @font-face{font-family:P;src:url("../../tools/cards/fonts/PretendardVariable.ttf");font-weight:100 900}
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#FBF7F3}
+  #bg2,#endbg{position:absolute;inset:0}
+  #cam{position:absolute;inset:0;transform-origin:540px 1000px}
+  svg{position:absolute;inset:0}
+  #words{position:absolute;inset:0}
+  .w{position:absolute;left:0;top:0;white-space:nowrap;letter-spacing:-0.02em;clip-path:inset(-60% -8% -4% -8%)}
+  .w span{display:inline-block;white-space:pre}
+  .lbl{font-family:P;font-weight:800}
+</style></head>
+<body>
+<div id="bg2"></div>
+<div id="cam"><svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="g"></g><g id="fx"></g></svg></div>
+<svg id="ui" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="site"></g><g id="cta"></g></svg>
+<div id="endbg"></div>
+<svg id="s2" width="1080" height="1920" viewBox="0 0 1080 1920"><g id="logo"></g></svg>
+<div id="words"></div>
+<script src="timeline.js"></script>
+<script>
+document.fonts.load('900 100px D'); document.fonts.load('800 40px P');
+const T = window.TL, BT = 60 / T.bpm, bt = (b) => b * BT;
+window.DURATION = T.beats * BT;
+const C = { navy:'#1F2E57', orange:'#D23A10', salmon:'#FFC7A6', white:'#FFFFFF', gray:'#5B6170', green:'#0E7C4A', red:'#C4301A', blue:'#2F5FD0', bg:'#FBF7F3', line:'#E4DFDA' };
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const pg = (t, a, b) => cl((t - a) / (b - a));
+const oc = (x) => 1 - Math.pow(1 - x, 3);
+const o5 = (x) => 1 - Math.pow(1 - x, 5);
+const iq = (x) => x * x;
+const spring = (dt, f = 1.4, z = 0.32) => dt <= 0 ? 0 : 1 - Math.exp(-z * 2 * Math.PI * f * dt) * (Math.cos(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt) + z / Math.sqrt(1 - z * z) * Math.sin(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt));
+const lerp = (a, b, p) => a + (b - a) * p;
+const won = (n) => Math.round(n).toLocaleString('ko-KR') + '원';
+const manwon = (n) => { const k = Math.floor(n / 1000), man = Math.floor(k / 10), chun = k % 10; return `${man}만${chun ? ' ' + chun + '천' : ''} 원`; };
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
+const txt = (par, x, y, s, attrs) => { const e = el('text', { x, y, 'text-anchor': 'middle', 'dominant-baseline': 'middle', ...attrs }, par); e.textContent = s; return e; };
+const $ = (id) => document.getElementById(id);
+
+// ── 자막(한 장면 12자 이내). T: dom(국내가)·usd(목표가)·won(원화)·taxPct·subLine ──
+const W0 = [[T.hook1 || '200달러 넘으면,', 0.3, T.cross, 330, 110, 'navy', 'D'], [T.hook2 || '직구는 끝일까요?', 0.8, T.cross, 470, 140, 'orange', 'D'],
+  ['200달러 천장', T.cross + 0.1, T.hit, 400, 130, 'red', 'D'],
+  ['아니에요', T.hit + 0.1, T.line[0], 330, 120, 'navy', 'D'], ['국내가가 높으면', T.hit + 0.4, T.line[0], 470, 130, 'orange', 'D'],
+  [`국내 ${manwon(T.dom)}`, T.line[0] + 0.1, T.touch[0], 330, 110, 'navy', 'D'], ['20% 싼 선', T.line[0] + 0.5, T.touch[0], 470, 140, 'orange', 'D'],
+  [`${T.usd}달러에서`, T.touch[0] + 0.1, T.chip[0], 330, 120, 'navy', 'D'], ['딱 닿아요', T.touch[0] + 0.5, T.chip[0], 470, 150, 'orange', 'D'],
+  [`${T.usd}달러 이하`, T.chip[0] + 0.1, T.end, 330, 130, 'orange', 'D'], [`약 ${manwon(T.won)}`, T.chip[0] + 0.4, T.end, 470, 120, 'navy', 'D'],
+  ['목표가는', T.end, null, 1010, 140, 'white', 'D'], ['프로필 링크', T.end, null, 1160, 140, 'white', 'D']];
+const WD = W0.map(([text, b, out, y, size, col, font]) => ({ text, b, out, y, size, col: C[col], font }));
+for (const w of WD) {
+  const d = document.createElement('div'); d.className = 'w';
+  d.style.cssText += `font-family:${w.font};font-weight:${w.font === 'D' ? 900 : 800};font-size:${w.size}px;color:${w.col}`;
+  w.chars = [...w.text].map((ch) => { const sp = document.createElement('span'); sp.textContent = ch; d.appendChild(sp); return sp; });
+  if (w.b >= T.end) d.style.clipPath = 'none';
+  $('words').appendChild(d); w.d = d;
+}
+let laid = false;
+function layout() { for (const w of WD) { let r = w.d.getBoundingClientRect(); if (r.width > 960) { w.size = Math.floor(w.size * 960 / r.width); w.d.style.fontSize = w.size + 'px'; r = w.d.getBoundingClientRect(); } w.wd = r.width; w.hh = r.height; } laid = true; }
+function word(w, t) {
+  const t0 = bt(w.b);
+  w.d.style.transform = `translate(${540 - w.wd / 2}px,${w.y - w.hh / 2}px)`;
+  if (w.b >= T.end) { w.d.style.opacity = t >= bt(T.end) ? 1 : 0; return; }
+  if (t < t0 || t >= bt(w.out)) { w.d.style.opacity = 0; return; }
+  w.d.style.opacity = 1;
+  const big = w.size >= 100, out = bt(w.out), n = w.chars.length, st = big ? 0.03 : 0.012;
+  w.chars.forEach((c, i) => {
+    const dt = t - t0 - i * st, sp = big ? spring(dt, 2.0, 0.42) : oc(pg(dt, 0, 0.25));
+    const q = pg(t, out - 0.16 + i * Math.min(0.008, 0.08 / n), out);
+    c.style.transform = `translateY(${(1 - sp) * w.hh * 0.95 - q * w.hh * 1.2}px) rotate(${big ? (1 - cl(sp)) * 10 : 0}deg)`;
+    c.style.opacity = (dt > 0 ? 1 : 0) * (1 - q);
+  });
+}
+
+// ── 효과 ──
+const G = $('g'), FX = $('fx');
+function ring(par, x, y, t, t0, col, r0, r1, dur = 0.45, w = 16) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; el('circle', { cx: x, cy: y, r: r0 + (r1 - r0) * oc(p), fill: 'none', stroke: col, 'stroke-width': w * (1 - p) }, par); }
+function burst(par, x, y, t, t0, col, n, r0, r1, dur = 0.35, w = 12) { const p = pg(t, t0, t0 + dur); if (p <= 0 || p >= 1) return; const rb = r0 + (r1 - r0) * oc(p), ra = r0 + (r1 - r0) * oc(cl(p * 1.7 - 0.7)); for (let i = 0; i < n; i++) { const a = 2 * Math.PI * i / n + 0.2; el('line', { x1: x + Math.cos(a) * ra, y1: y + Math.sin(a) * ra, x2: x + Math.cos(a) * rb, y2: y + Math.sin(a) * rb, stroke: col, 'stroke-width': w * (1 - p), 'stroke-linecap': 'round' }, par); } }
+
+// ── 그림: 왼쪽 막대(아마존가 + 세금 블록), 빨간 천장(200달러), 오른쪽 국내가 기둥, 20% 싼 선 ──
+const BASE = 1440, CEIL = 1080, BX = 330, BW = 220, DX = 770, DW = 220, DTOP = 760, TAXH = 120;
+const LINE = BASE - (BASE - DTOP) * 0.8;   // 국내가의 80% 높이(그림, 비율만)
+function barTop(t) {
+  let y = lerp(BASE, 800, oc(pg(t, bt(T.cross) - 1.0, bt(T.cross) + 0.15)));            // 천장을 뚫음
+  const want = LINE + TAXH;                                                                   // 세금 블록 위가 선에 딱 닿는 높이
+  const d = spring(t - bt(T.touch[0]) - 0.2, 1.6, 0.5);
+  if (t >= bt(T.touch[0]) + 0.2) y = lerp(800, want, cl(d, 0, 1.08));
+  return y;
+}
+function drawScene(t) {
+  if (t >= bt(T.end)) return;
+  // 바닥
+  el('line', { x1: 140, y1: BASE, x2: 940, y2: BASE, stroke: C.line, 'stroke-width': 6, 'stroke-linecap': 'round' }, G);
+  // 천장(쿵 내려옴, 뚫리면 금)
+  const cd = spring(t - 0.15, 2.0, 0.45), cy = lerp(560, CEIL, cl(cd, 0, 1.05)), cracked = t >= bt(T.cross);
+  const cg = el('g', {}, G);
+  el('rect', { x: 140, y: cy - 14, width: 800, height: 28, rx: 14, fill: C.red, opacity: cracked ? 0.85 : 1 }, cg);
+  const lg = el('g', { transform: `translate(550 ${cy - 52})` }, cg); el('rect', { x: -90, y: -32, width: 180, height: 64, rx: 32, fill: C.red }, lg); txt(lg, 0, 3, '200달러', { 'font-family': 'D', 'font-size': 40, fill: '#fff' });
+  if (cracked) { const p = oc(pg(t, bt(T.cross), bt(T.cross) + 0.25)); for (const [dx, dy] of [[-60, -40], [70, -30], [-30, 45], [50, 50]]) el('line', { x1: BX, y1: cy, x2: BX + dx * p, y2: cy + dy * p, stroke: C.navy, 'stroke-width': 6, 'stroke-linecap': 'round' }, cg); burst(FX, BX, cy, t, bt(T.cross), C.red, 10, 30, 170, 0.35, 10); }
+  // 왼쪽 막대(아마존가)
+  if (t >= bt(T.cross) - 1.0) {
+    const top = barTop(t);
+    el('rect', { x: BX - BW / 2, y: top, width: BW, height: BASE - top, rx: 24, fill: C.navy }, G);
+    txt(G, BX, BASE - 50, '아마존가', { class: 'lbl', 'font-size': 38, fill: '#fff' });
+    // 세금 블록이 얹힘
+    if (t >= bt(T.hit) - 0.3) {
+      const p = pg(t, bt(T.hit) - 0.3, bt(T.hit)), ty = t < bt(T.hit) ? lerp(200, top - TAXH, iq(p)) : top - TAXH;
+      const tg = el('g', {}, G);
+      el('rect', { x: BX - BW / 2 - 20, y: ty, width: BW + 40, height: TAXH - 8, rx: 20, fill: C.orange }, tg);
+      txt(tg, BX, ty + 42, `세금 약 ${T.taxPct}%`, { 'font-family': 'D', 'font-size': 40, fill: '#fff' });
+      txt(tg, BX, ty + 84, T.taxNote, { class: 'lbl', 'font-size': 26, fill: '#fff' });
+      if (t >= bt(T.hit)) ring(FX, BX, ty + 50, t, bt(T.hit), C.orange, 40, 260, 0.4, 12);
+      // 닿는 순간
+      const tt = bt(T.touch[0]) + 0.75;
+      if (t >= tt) { burst(FX, BX, LINE, t, tt, C.green, 12, 40, 200, 0.35, 10); const s = spring(t - tt, 2.4, 0.4), ug = el('g', { transform: `translate(${BX} ${LINE - 60}) scale(${s})` }, G); el('rect', { x: -120, y: -38, width: 240, height: 76, rx: 38, fill: C.green }, ug); txt(ug, 0, 3, `${T.usd}달러`, { 'font-family': 'D', 'font-size': 44, fill: '#fff' }); }
+    }
+  }
+  // 오른쪽 국내가 기둥 + 20% 싼 선
+  const [l0] = T.line;
+  if (t >= bt(l0) - 0.2) {
+    const s = spring(t - bt(l0) + 0.1, 1.7, 0.42), top = lerp(BASE, DTOP, cl(s, 0, 1.05));
+    el('rect', { x: DX - DW / 2, y: top, width: DW, height: BASE - top, rx: 24, fill: C.salmon, stroke: C.orange, 'stroke-width': 6 }, G);
+    txt(G, DX, top - 46, T.domLabel || '국내가', { class: 'lbl', 'font-size': 40, fill: C.navy, opacity: pg(s, 0.6, 1) });
+    const lp = oc(pg(t, bt(l0) + 0.7, bt(l0) + 1.4));
+    if (lp > 0) {
+      el('line', { x1: DX + DW / 2 + 10, y1: LINE, x2: lerp(DX + DW / 2 + 10, 150, lp), y2: LINE, stroke: C.green, 'stroke-width': 8, 'stroke-dasharray': '22 14', 'stroke-linecap': 'round' }, G);
+      // 국내가의 20%만큼 깎인 부분 표시
+      el('rect', { x: DX - DW / 2 + 8, y: top + 8, width: DW - 16, height: Math.max(0, LINE - top - 8), rx: 18, fill: '#fff', opacity: 0.6 * lp }, G);
+      txt(G, DX, (top + LINE) / 2, '-20%', { 'font-family': 'D', 'font-size': 48, fill: C.orange, opacity: lp });
+    }
+  }
+  // 목표가 칩 + 보조 줄
+  if (t >= bt(T.chip[0])) {
+    const s = spring(t - bt(T.chip[0]) - 0.1, 2.2, 0.42), g = el('g', { transform: `translate(540 610) scale(${s})` }, G);
+    txt(g, 0, 0, T.subLine, { class: 'lbl', 'font-size': 34, fill: C.gray });
+  }
+}
+// ── 로고(엔드 카드) ──
+const lgG = $('logo');
+const lgH = el('rect', { fill: '#fff' }, lgG), lgV = el('rect', { fill: '#fff' }, lgG), lgS = el('rect', { fill: C.navy }, lgG);
+el('rect', { x: 280, y: 1290, width: 520, height: 94, rx: 47, fill: C.navy }, lgG);
+const urlT = el('text', { x: 540, y: 1337, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: '#fff', class: 'lbl', 'font-size': 42 }, lgG); urlT.textContent = 'www.jikgugak.com';
+const endT = el('text', { x: 540, y: 1440, 'text-anchor': 'middle', 'dominant-baseline': 'middle', fill: '#fff', class: 'lbl', 'font-size': 40 }, lgG); endT.textContent = T.endSmall;
+(() => { const cx = 540, cy = 700, k = 300 / 522, X = (u) => cx - 150 + u * k, Y = (v) => cy - 150 + v * k;
+  lgH.setAttribute('x', X(20)); lgH.setAttribute('y', Y(20)); lgH.setAttribute('height', 77 * k); lgH.setAttribute('rx', 38 * k); lgH.setAttribute('width', 482 * k);
+  lgV.setAttribute('x', X(425)); lgV.setAttribute('y', Y(20)); lgV.setAttribute('width', 77 * k); lgV.setAttribute('rx', 38 * k); lgV.setAttribute('height', 482 * k);
+  const hs = 96 * k; lgS.setAttribute('x', X(154) - hs); lgS.setAttribute('y', Y(386) - hs); lgS.setAttribute('width', 2 * hs); lgS.setAttribute('height', 2 * hs); lgS.setAttribute('rx', 40 * k); })();
+// ── 카메라 ──
+function cam(t) {
+  let z = 0, sx = 0, sy = 0;
+  const hit = (b, amt, sh) => { const d = t - bt(b); if (d >= 0 && d < 0.5) z = Math.max(z, amt * Math.exp(-d * 8)); if (sh && d >= 0 && d < 0.22) { const a = sh * (1 - d / 0.22); sx = a * Math.sin(d * 95); sy = 0.7 * a * Math.cos(d * 81); } };
+  hit(0.6, 0.03, 8); hit(T.cross, 0.07, 16); hit(T.hit, 0.06, 12); hit(T.touch[0] + 1.5, 0.05, 8);
+  return `translate(${sx}px,${sy}px) scale(${1 + z})`;
+}
+
+const LEAD = 0.04;
+window.seek = (t0) => {
+  const t = t0 + LEAD;
+  if (!laid) layout();
+  G.innerHTML = ''; FX.innerHTML = '';
+  drawScene(t);
+  $('endbg').style.background = t >= bt(T.end) ? C.orange : 'transparent';
+  lgG.setAttribute('opacity', t >= bt(T.end) ? 1 : 0);
+  for (const w of WD) word(w, t);
+  $('cam').style.transform = cam(t);
+};
+</script>
+</body></html>
