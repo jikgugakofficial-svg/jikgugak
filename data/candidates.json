@@ -87,7 +87,7 @@
       "model": "Nexode 65W",
       "cat": "it",
       "why": "퀘이사존 2026.05 알리 핫딜 조회 1.4만·댓글 23(2025.07에도 같은 계열 글), 포트·디자인 변형 있음",
-      "at": "2026-11-18T21:33:57.837Z",
+      "at": "2026-11-24T16:26:14.042Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -99,7 +99,7 @@
       "model": "MeloBuds N70",
       "cat": "audio",
       "why": "클리앙 P31i 글 댓글에서 QCY 대표 비교 모델로 언급(성능은 QCY 우세 평)",
-      "at": "2026-11-18T23:30:03.017Z",
+      "at": "2026-11-24T16:26:21.961Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -111,11 +111,55 @@
       "model": "M90",
       "cat": "audio",
       "why": "퀘이사존 2026.06 알리 공구 21종에 포함($91.94), 바이앰프 2.0 스피커",
-      "at": "2026-11-18T21:34:01.755Z",
-      "status": "none",
+      "at": "2026-11-24T16:26:17.999Z",
+      "status": "new",
       "coupangTop": 10,
-      "ali": [],
-      "coupang": []
+      "ali": [
+        {
+          "id": "1005011600003372",
+          "title": "에디파이어 Edifier M90 바이앰프 2.0 스피커 컴팩트 디자인 블루투스 V6.0 LDAC 하이 레졸루션 오디오 무선 스피커 (리모컨 포함) 100W RMS",
+          "price": 187200,
+          "orders": 6110,
+          "rating": "98.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sde4c458cda2049de80f1e965e5dcc502Q.png",
+          "url": "https://ko.aliexpress.com/item/1005011600003372.html"
+        }
+      ],
+      "coupang": [
+        {
+          "id": "9837740193",
+          "name": "에디파이어 Edifier M90 바이앰프 2.0 스피커 컴팩트 디자인 블루투스 LDAC 하이 레졸루션 오디오 무선 리",
+          "price": 456300,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/RPLsM4tlJJhbRYoZRKzihQOLdDfAdkhE0VFj6fQoz5lEZB4_9KLRJmVMO1vNYMFzTzgUUaqzuWWdPjz46enepIZpfyT8VHrDQwFzIyaWpgFtaADfys5bzc4A6xn8ryD_TysJEDvuHCpdXHD2uJyIYOqwlmTjv3DNIWU1OM3Uqh0vfdqZUN76_dlxOUkPuuhI6GrqTfLUM90C5oLyh9KImxX0CLz5EArfffbP3tR_zvBNySWg_YuoZVo1x-DDri2OIHs32VvfrOdgbT7HgAIu19r3OBNp14bphnWaZFgIeU1KrVR0QctiNpbE5xzvYU50MKpAN2KkMhcGb5yBOJyvDkVKDU47L7GB1YUvtvyWtvKyY9n1yW6Q_Do4n5ZqMNO413gfD1a6glgcLvoUxxqmOzh8DOHQjtzYyq1y_yZ7q1doHyfzxoGIdo-0rE2EolsUdIyeBFdC1Ds_xW2H__1gly3qatAHGN1bCe_4-DMPpO2ma7q8UCvhi1BaIQ2IFgnQ1ywplkl81l0CbyfjGc0qwv0zZuIZylx8FBQ_vSxt8xejYfo=",
+          "url": "https://www.coupang.com/vp/products/9837740193"
+        },
+        {
+          "id": "9838564526",
+          "name": "EDIFIER M90 Bluetooth 2.4 GHz HDMI SUB OUT 데스크탑 스피커 6.0[2026년 신모델]100W",
+          "price": 574300,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/LeGCcJSPh5uG6BM4LX9EdMrop91b3heWLXI5IMESuYxn_M37z3PgAiZAOUhavQTtoHy1I_KM81fahoD4LrhJPnOusOwQ4AmrCfD4dHFZoTRaQMoVraR-C3kLzN_qktWabfWGWcUgUm6rmKJe5IxibxLFwuoYBphFzZaihmvbE7nASn6wu7SXIN5tXo4K5-eOJGhtICPHu92-s4tX5RzItWnnAPLaS_4N3OtbJqtTP2glQ3aXJYTO_n9wat43tVS8a3lgL2z5KP3i-4MNb5sJ_6Nv1HHjwCyBZZ_M_t3jeN5iBJE5UFxU9mfnNjXz3Xsiu0V5xgv2dgPhPbXoEbJBGpgGvv1TrWD8Up0np-6Bi7Q2WquioLKyiAQDwn8Yaa_U1gI7YNUHe8IQVrRRaUkhctg3FwPFSfboKKwPYGMvaXoCEbmkU-RHn3zvUSP9-WM2L4PwGs1Pn7lCCf0qbh4emDaEjqSBDGK45XMfv-Hn8jS4zrqC_JawQ6NuYLY0ivO0Gp-W6wFLeHnL1tvdEc27ugbTpWt5P143452xZaeEmdjb2g==",
+          "url": "https://www.coupang.com/vp/products/9838564526"
+        },
+        {
+          "id": "9838564590",
+          "name": "M90 Bluetooth [VGP2026SUMMER금상&데스크탑 오디오 대상]EDIFIER 데스크탑 스피커",
+          "price": 574300,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/PQp_2tdMx9s_rMOxPcZYx1aQwY895qKCaRoc_R5RPfPWDy8mEIO4qLxaT3AyaapnVE2p3JOCw8JsBeQOpVzbGjtx3nmdTgrmw1KLdEfrILuGllSChoutawIiiTKSIA2udkTpqlKB3JfF2PrTN4Q1I4r2FgxH5sfVmXHXC65IgbWBHuwCmn589CVlxj0KxxmyvgY8r1WrwtZ5ef5U9Nr2ahEukwwfGjGWUnevs9au8klCLS0zbR1NYzT6yEI69T0bIiijF8va4qAO5rdp7T7t9mueO5OJJ14IhE-7dbj9D51W1O7HpZNsemdshyU6SPMyIqEUkIo5Xxw0xtpFEwRMoJVOv_VVxe6kVQjZHr9y8Z89OAJ0x-xwiQPYqOF2-sbi33q1_-BNS9zk7LtkYwhlaFZPV6OqywTQm8BX6fxdvfT09RI05dpaYx9-fucmJHdP9fBrWSEcoa_56DjE8AxfunR596wNcSHMMheXGx_zYq2k2lNVP7K1BxLu78cAuSyQSVCWsZeJ1YWoeLzs6x9K28No7SMw7QPKdWdmQr4FCmwRCZYx",
+          "url": "https://www.coupang.com/vp/products/9838564590"
+        }
+      ],
+      "best": {
+        "aliId": "1005011600003372",
+        "coupangId": "9837740193",
+        "aliTotal": 187200,
+        "coupangPrice": 456300,
+        "verdict": "good",
+        "diff": 269100,
+        "pct": 59
+      }
     },
     "Soundcore Liberty 4 Pro": {
       "q": "Soundcore Liberty 4 Pro",
@@ -123,15 +167,15 @@
       "model": "Liberty 4 Pro",
       "cat": "audio",
       "why": "퀘이사존 2024.11 알리 $67 핫딜(정발 대기 의견 다수), 구형이라 후순위",
-      "at": "2026-11-18T23:30:07.221Z",
+      "at": "2026-11-24T16:26:25.980Z",
       "status": "new",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005011962429151",
           "title": "Anker Soundcore Liberty 4 Pro 무선 블루투스 TWS 이어폰 LDAC 고해상도 딥 노이즈 감소 인이어 스포츠 이어폰",
-          "price": 125600,
-          "orders": 46,
+          "price": 127400,
+          "orders": 48,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e43f49e9f134b6fad46260e20fbd6e5f.jpg",
           "url": "https://ko.aliexpress.com/item/1005011962429151.html"
@@ -139,7 +183,7 @@
         {
           "id": "1005011960448588",
           "title": "Anker Soundcore 오리지널 신제품 Liberty 4 Pro 무선 블루투스 TWS 이어버드 LDAC 고해상도 소음 차단 스포츠 이어폰",
-          "price": 127400,
+          "price": 129200,
           "orders": 6,
           "rating": "100.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S06d5ed863933449890c2d454f216cebcS.jpg",
@@ -148,21 +192,29 @@
       ],
       "coupang": [
         {
+          "id": "9766177264",
+          "name": "Anker Soundcore Liberty 4 Pro(Bluetooth 5.3) 3.5  A.C.A.A 4.0  & [캐널형 완전 무선",
+          "price": 197590,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/W595DhQS0rDOy2SZW49K0lnPhpHfBzD7yGsiQH7Ek2eZfx1bKqpwW_B7GO5PNrIOTm_irketBjDGSoq_baLw58MCUI1xJRNnwm1wUTNa1kZcphwule_f_c8qovK16e9ujydfaSDOWEaBCa-mCmCPEx5nl37kUpQuhPc9EwQacsu8LHG0qfN0INGWBiNHb8RhR0e75kzymaINjlfao73QgJlQGKaBt_kWF4aMDpBIJh3nob3yitww6_jWV0t4TdzXB9Zx67RZ29Z9L4L641Wq3gbpphjQ1i-worbHWn0A_fwVWucECuJ1kMGRTOwSNH5Kj8cDr032k8N2-SOWV_cjnNgzdC2mlTD14wUgqBSzlmkVBA2RZPFc2xpKHEQfTCUYzfXZUFBLaJKjgHPmgO6RSJLdvJ-OiiUFcOmGz56FLF7PfbwkKB4lHDZf7H4jkv6yEhoRnGWlqZBE2nK365-s54Y30iL_4poj71Hj9BJHgYy8jTPwFiYFCEzhWC8XoCSO1w4uswVc3HTl6VBtguPawvOfTwlmPOtpo8HVSUuGKuay87U=",
+          "url": "https://www.coupang.com/vp/products/9766177264"
+        },
+        {
           "id": "8457551423",
           "name": "Anker 앵커 완전 무선 이어폰 Soundcore Liberty 4 Pro Bluetooth 딥 그린",
-          "price": 197520,
+          "price": 259800,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/VPlU_YMHSa8sLENVVHq8L3lnFPRShxcdGHK4hNqJoTdwq8wgifYlzWBpRfDkQ9zKkz5lcnyTy64V2KVyDrPgqRMTQ6OMq9-1B5bBeHM285A_KWsA1RnCxRzHdcYBxRpJgS3-eBt55VHNlo3N5QYtpsHRlbgc1tq2YL56Mvbxw2GJqAN4s2kbv2OmV1uoyczvpiFCZnANzF3dQa-JpLVKYmeK3pDVvTZSM4DQgZftjP6VKBejjt-XfIYh32MLUgdbvEICGY4QD2qsDDEucBQ9t7Ql11IAnZf2grq1FNEpI1BYsqIktrHQVa6oj7wXTNiNvIwKQRHtvER4UmHADi9yx_SSbZsdVxImoOCpy1EgGXChlVSs8RnkW5jALaMSZs0_NDjtURa_-e_roV9NiLhvW5VLFgQ_GakncJXSgDUnN0v86ccp4wN7J6z41qUuinwkXkaKO1AXLL0T-maI7VQ_ccy8FiBaJW9vbyimNUy3-Oniwbx34KAC1rxQgrTzESuJGysvodXA1ixdUXToFO6gOs7kUb-o9THDOuIVh7mvaqXkr7Y=",
+          "image": "https://ads-partners.coupang.com/image1/0Phl7X_qhBeNZ1KZ0Hps48-ota8J1yTkESrYLCCQQIavtNblV8UvmMLMP0r1R2lawrWtN7JJsLJewoftFgu2FQ18zLbpOF3tTXZJUeE3md6dwlUh0CLNAscbPJO7l-EWUwVk99hbYXuTlHTj0oilWNvMWmoCUbtkXpmbVtphCR7khO6Q6EXGBuanmCksi0IwAwhC41ZdPp9W2iQTxwSq3H-AcKNV53psKSMkMdaz2Gd4aJZkAoPeS5zc0iZQxwbJVyoJws9j27A0UGhvA5ynfB112wZvbT96AaELxconfFPWHy4Vt09CQvPh9cbsqwgJsvLGL25mmd7j5nQj9DDHpb-4VoRAEJTm3-rQaAZ0yNbgtTDiuF0oTmJ7XfDiAU2v83Pes1TjIhXohEUTC25j3V9rRi3SJ-7gFPDr-bKw6F3n7b9WGsRAjDYJg1yuytsFmsV83Wj0JbLS9OAPhUYFf28usTsuYPwtr2-GPVpcAYDaEs8FJdw4xiYZA18q466fgTnVghB5T3nkBdZ0Xr2sWkXDs_4MemI112mclKx3YJGimiSc",
           "url": "https://www.coupang.com/vp/products/8457551423"
         }
       ],
       "best": {
         "aliId": "1005011962429151",
-        "coupangId": "8457551423",
-        "aliTotal": 125600,
-        "coupangPrice": 197520,
+        "coupangId": "9766177264",
+        "aliTotal": 127400,
+        "coupangPrice": 197590,
         "verdict": "good",
-        "diff": 71920,
+        "diff": 70190,
         "pct": 36
       }
     },
@@ -172,32 +224,32 @@
       "model": "G304X",
       "cat": "it",
       "why": "퀘이사존 알리 핫딜 G304X 32,602원(무료배송, 종료·알리 쿠폰+코인딜). 같은 계열 G304는 1.2만 원짜리 가품 주의 글도 있어 공식 스토어만 볼 것. 국내 정발가는 이번에 확인 못 함",
-      "at": "2026-11-18T23:30:11.457Z",
+      "at": "2026-11-24T16:26:30.043Z",
       "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005012756914868",
           "title": "로지텍 G304X 무선 게이밍 마우스 57g 경량 듀얼 모드 6개 프로그래밍 가능 버튼 FPS 발로란트 LOL PC 게임용 긴 배터리 수명",
-          "price": 39634,
-          "orders": 463,
-          "rating": "94.7%",
+          "price": 37170,
+          "orders": 485,
+          "rating": "94.5%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2d14073c4095414ca39dd0d5ddb4778fX.jpg",
           "url": "https://ko.aliexpress.com/item/1005012756914868.html"
         },
         {
           "id": "1005011940293074",
           "title": "로지텍 G304X 라이트스피드 게이밍 마우스, 듀얼 모드, HERO25K 센서, 25600 DPI, 6개의 프로그래밍 가능한 버튼, PC 및 노트북용.",
-          "price": 48500,
-          "orders": 307,
-          "rating": "98.7%",
+          "price": 42268,
+          "orders": 293,
+          "rating": "98.0%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/S71ec278cc5f747798e37ddca46a870f3L.jpg",
           "url": "https://ko.aliexpress.com/item/1005011940293074.html"
         },
         {
           "id": "1005012130798082",
           "title": "로지텍 G304X 무선 게이밍 마우스 57g 경량 듀얼 모드, 6개 프로그래밍 가능 버튼, FPS 발로란트 LOL P용 긴 배터리 수명",
-          "price": 43864,
+          "price": 44459,
           "orders": 180,
           "rating": "98.2%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se852b3da2ef24453ab09a0f327a5ba12t.jpg",
@@ -212,7 +264,7 @@
       "model": "W830NB",
       "cat": "audio",
       "why": "같은 브랜드 W820NB Plus가 퀘이사존 알리 $34.54~38.05 핫딜(2025~26, 댓글 활발)로 반복, W830NB는 상위(하이브리드 ANC) 모델이라 정발가와 차이 클 수 있음. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T23:30:15.401Z",
+      "at": "2026-11-24T16:26:34.014Z",
       "status": "none",
       "coupangTop": 10,
       "ali": [],
@@ -224,29 +276,10 @@
       "model": "W800BT Plus",
       "cat": "audio",
       "why": "에디파이어 입문 온이어 헤드폰 라인(W820NB Plus와 같은 가격대 비교 대상). 국내 정발가·알리 공식 판매 여부는 후보 발굴 결과로 확인. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-18T23:30:19.333Z",
-      "status": "no_coupang",
+      "at": "2026-11-24T16:26:38.082Z",
+      "status": "none",
       "coupangTop": 10,
-      "ali": [
-        {
-          "id": "1005012367889592",
-          "title": "Edifier W800BT/W800BT PLUS 무선 블루투스 헤드셋 헤드폰 배터리용 3.7V 1500mAh 604050 배터리",
-          "price": 9960,
-          "orders": 1,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e392043c685496881afc2e7d232a3c3f.jpg",
-          "url": "https://ko.aliexpress.com/item/1005012367889592.html"
-        },
-        {
-          "id": "1005013273699316",
-          "title": "에디파이어 W800BT/W800BT PLUS 무선 블루투스 헤드셋용 3.7V 1800mAh 604050 배터리",
-          "price": 19300,
-          "orders": 0,
-          "rating": "",
-          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S55261e8c76424df3b34d13178d9ccfe3W.jpg",
-          "url": "https://ko.aliexpress.com/item/1005013273699316.html"
-        }
-      ],
+      "ali": [],
       "coupang": []
     },
     "Edifier QR30": {
@@ -255,34 +288,34 @@
       "model": "QR30",
       "cat": "audio",
       "why": "퀘이사존 2026.01 네이버 정발 89,100원(핫게 최저) vs 직구 $56.2 비교 글(댓글 22). 150달러 이하라 면세, 다만 차이가 15% 안팎이라 애매일 수 있음",
-      "at": "2026-11-18T23:30:23.381Z",
+      "at": "2026-11-24T16:26:42.125Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
-          "id": "8956012039",
-          "name": "에디파이어 QR30 멀티 미디어 블루투스 스피커",
-          "price": 122550,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/93cynn2_pVmqnQjT9_iThuKyOHELCevuPXwZyLQU5T5isAkGkF1N7UolxvALb6O_5LnUXoAe1RQSPvHWL4nZrGegcvvGZq5te79FFMA8tYEWDKeaITqufpsY28e9Y8Gr1xMaMCZRXPj0hZ8H7uyx1k4UvsRJ5MvHOxNFbRavLzhOBQAYWRl3BrmBIDfv87asTUmOXS4KjX4oA39wZDfP71V4Ct-7xaQWEUnWEEcZ5hoHJz0OV9pfB2DuRiN3U_cZHPXtmN9hcgsHo91xnJQMJdTLgafL7OpYaCBqL0YI8j9BoT0lEwJ8qW0p8YWGg0Rb0RmxKhfglOp9W5NU7tQx0zSEa5etgADyonPKSbFJS0me-8l4BM2mRqWnZLoVf6YuJ2YDc-xhUXGpLPl7eQy8lInep0fz1R0HyHUK-TJO35ZuMxHyr6l0t9K9wQdd5SZ90MJmWDnmQ3JKD5IFqNPXrJIwV7VDGBDDbCsvEwf99YJQdT7FwFnoUTeQikqxj9znPSGDk1ZDQA7jkAF8JepE3E9D",
-          "url": "https://www.coupang.com/vp/products/8956012039"
-        },
-        {
-          "id": "8956012039",
-          "name": "에디파이어 QR30 멀티 미디어 블루투스 스피커",
-          "price": 122550,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/S_mSgPinD9FmgvkAS1vJQnlh_8G-aUTqQidpySvsk2vkc8bOujusyZO0NAbLrnmpP6yKSqRFcTsmqUQMh5QDxBvFYtSnDF1Yk3Rkk6zVTM-LUezMX4jZ1wVwLrfhT4rVQRa3ch-PX0zX1HiN4ry9Lz5mKCzVz2Z2rVfRL23utEY9uKd0RFCGbpXjG65IvT9CH4U2KNafWMqYeg4Bo4Ia8EOXbbKNUKuVBo_eYZOvEVwct0EaLyquJfADEdWj125QASSqWgnR01pdsnlt8blOVtpYfKd9yxTqf6XOnXsITm8-jdhAPGKkxiAQ8Ey03UlmM-zXzXjtJ2rxPdOWrbXwQkEoUXfdRWiTl3Z5JOelNo2vwXuEIm0c76rCXblJQcWfSWYU9IDPcKr3N01BJm0TKP28rvAdmzxm0fnSc7lFc93hVUUD8K88Q_lmWEbuq1wEU26RxeCQGeX-veiFQ_NlWVYKzSFsUpmLBUc6MCgQp5yKFGjzkPseLQAjIPT_zxqERQPzO5rbWTHmZAQAtF0rwy1sjA==",
-          "url": "https://www.coupang.com/vp/products/8956012039"
+          "id": "8744873775",
+          "name": "에디파이어 멀티미디어 블루투스 스피커 QR30",
+          "price": 99000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/aptxcQxttM978cSfasmkJPDZDZYmhShqPOa9lgj_IJg-V1CMROxv_dRSqoCC2dlg0qDZMJjVihA0bmi-lEgqu_h4DjhgYhTu_AumnJRjJa6Yhr8Cwfs_8ZKO9ygDNd0Ut4ceCPq__u1IU7vX6x1fcb4XLv5mCC3tGt3d_IA4_oEjZMOjpcE_ogXNTgpEce0XyzhYv6KP8INfDJsu9S1jDzU8xbDWP-sXN-dfI0K_gYmZc9mAxIs3dy6ysx5vTo5qf8FuQGF3iF6SvLcNL-P2fxDeqOlyKEE2rOVfcn1o12_vR6O3-SirNqZ45WdKtmhTsMHcguuZ_RINcozbgGOHeHR65YMyFYRbK3q7xqrze7ihNCcCyMrSCODQdgssskmO1m0s3Kt9YaV2h_2sFYpq5ClX4YEK0I2iCiGTs_IDTz956EgtrK2RhdHl3p7e6wu2ME8mQ5rOsltqSGpbvVW8wprAogDdgLaZmkLGY0agtvk00fMqWvMRSUlnhQ0KnuvNHAzlOZnuqSUlMOWgtuMc7k8x_Uki7wBPkmPS-dKufpRDFY7W",
+          "url": "https://www.coupang.com/vp/products/8744873775"
         },
         {
           "id": "8744873775",
           "name": "에디파이어 멀티미디어 블루투스 스피커 QR30",
-          "price": 129000,
+          "price": 99000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/ucsxGe8sbTERts_NualZl7aGayJ_11mJsqckY--fdaGyWr_qH94usm08J0Z8G2KarGkWHiU_lLhMZlL-RLYeUkXRImAnwkZ4gfVtychR1rps3zA2R7vnApatrPHVsKGDBYoEAvDphfgc-UiDSJUPq9IdFNzXIZNnf-kstil7FjKTudMFSz-JQm8V46CbZEOb5MiDq9VA7C7Ohl0oHaV9MH_GwGUMzaFUFLkhrR1NzsCZnvDL2_GExVjmfBc-zDwkMpi5lGlj6PhKL-bm2UQgqU36Pih6WchojtRBQKd3-YGAtdU7j9dS1_F33282mAQhOoLyeyKOW_prilyc4Jj4pu_gLOkbZlA_MISRzkz33J8eJ3BzQcQn4C-iDeHuJ9sIjrxe5MgwNrX6eIR5bjsmPR1zlo0l3rqPj7HK5jGzS2SWSJngG2vOgvZ8PtO_Cn9eREZAgfxjlcqgKjkMfrgyLImqUyOo4YuMrvJFUteUeJJRUVcR3q4wc4yRyUVItp78AGKmSBKBY_6RwRTjSkwazyEqbC4g1dKlk3UKPVGMKpii8w==",
+          "image": "https://ads-partners.coupang.com/image1/QjahFL5Mz6lbSOu3Qgyt7bx2CVPcYkWJrUrmp4JQu8AcMYOCHV3INkCMMnFJfksEcgdkq_vb9qkAng0Bj0VISZtf2tFAgFsvtJ2_7HF4f2yz4VKcJDgZ6p5HrGyMRdqxF_dQkhhiHo7YorztS9pT2Xbk_PVrGTOT3TzlVCZiOE7lSQC-olOvd_pfsK5cAWcfxVrqrJOkWv-vcHfw0i3e1GgDdnrdxPEeAJNbRF0pLr5yI_DZkT5uyAMp-bE2vZ-V2P--F86YfGJch-R_eBRdG5eYC5flas5fEp7ZuFtJvcNP6F4UtYMVDPU6M2jB9W4H0_JIpk8KEktZXaUVbTv3KiabHj6rq58Lctr2q3C1mrhrmBBaTXDcegNCYepRlcyKzawXvXIKe2Wmn-aQ_qj1aEv_Wzc42zOULwGWNAQWAwtXpJOwayPjfmT0CySrVWK_ccqJPW_9Ec2BdTK8VqwR2oYfyHfPwR65k7tsxX3i6f_olM1Qx017wZLChfPoSQi3uQKByMgAIpkXioc9TcrMWo_t6jREM47nrdNLB-GPJFhvWQ==",
           "url": "https://www.coupang.com/vp/products/8744873775"
+        },
+        {
+          "id": "8956012039",
+          "name": "에디파이어 QR30 멀티 미디어 블루투스 스피커",
+          "price": 122550,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/HCYb7xThJSwcMlAPHJecXU-3SbyyZej0rflkl-pQ2gtxKlC6i2eChikCC7K0esy5blwNbrefEaYeFpAaX3cjz6zlXlIWS_zGfla5OrNOAdoQHeXy2epdYETxOCFKfmk_jISVz75vTMso3alTQdVNcLCxRdXC8GMGI6FqJlBpZOPtTYBGc1ynz1QeFvbFBPB2wy4cdMS4ZGnsqYPyhsRQ-xaMR8ARlitze0dI-vnkSLtETy27x_f5vFBfJu5RAxdOC0t1OKkDLf8krpbcV8sRmEED7ZBKzXuHQz_XO4f3528bnTy4pfsPVHm0rrsi8D3Xf_SQYHLLTDs73sAmxlm4LWNsBobPiVm8Sdh9rwRz5CtamrA3M2hvOG7xn4gXtjB8Qf1eu3Q6F2L_bm4ABviYAxO9ug6N0YGVvOT8jseDk67rd7rsg2c5A4dIuXB5WDfEcKLmYt0aYSK_9joPluA0yIxfv275S7Ad1r9OsrSENmWkJ0HIiPJRKJZxby0GCpUTcGk5GFKJiB9O43hA6D8HVG529g==",
+          "url": "https://www.coupang.com/vp/products/8956012039"
         }
       ]
     },
@@ -7245,5 +7278,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-24T04:59:49.453Z"
+  "updatedAt": "2026-11-24T16:26:45.983Z"
 }
