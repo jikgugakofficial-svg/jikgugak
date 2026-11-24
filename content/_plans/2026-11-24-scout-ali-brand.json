@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-24",
+  "source": "알리 제휴 API 검색·item(일반가=item API 가격) + 쿠팡 공식 API 실시간 검색(사이트 /api/coupang 14회 사용·같은 검색어 캐시 재조회 1회, 4초 이상 간격, 403·429·stop 없음). 제휴 링크·쿠팡·아마존 화면은 열지 않음, 웹 검색은 하지 않아 등록 가치 1번(찾는 사람) 근거 주소 없음 → 매니저가 확인. 알리 item 가격은 가장 싼 옵션일 수 있고 국제 배송비는 API로 알 수 없어 차이에 넣지 않음. 가격은 11/24 조회 시점 값. 이어폰은 면세 $150 이내(일반 물품). 알리 API는 스마트워치(Amazfit·QCY 워치)·INIU·CUKTECH 공식 스토어 상품이 거의 안 나와(액세서리·3P뿐) 이어폰·샤지 중심.",
+  "candidates": [
+    {
+      "rank": 1,
+      "name": "에디파이어 X3 Pro ANC 무선 이어폰 (블루투스 5.4, IP54)",
+      "ali": {"id": "1005008524813010", "itemPrice": 32563, "store": "Edifier Official Store (주문 209건, 평점 94.4%)", "note": "공식 스토어. 검색가 30,400, item 가격 32,563(옵션별 차이 가능)"},
+      "coupang": {"id": "9543665355", "name": "EDIFIER X3 Pro ANC Bluetooth 5.4 IP54 무선 이어폰 탑재 캐널형 노이즈 캔슬링", "price": 69950, "rocket": false, "note": "쿠팡 최저(3P 재판매). 다른 판매자 에디파이어 X3 프로 86,000(9688607413)도 있음. 로켓 없음"},
+      "diff": 37387,
+      "pct": 53.4,
+      "verdictDraft": "직구각",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 3P 상품, 바코드 미확인", "overseas": "알리 Edifier Official Store, 바코드 없음", "model": "Edifier X3 Pro (BT 5.4, IP54, ANC)", "note": "쿠팡 제목이 알리 공식 스토어 사양(5.4·IP54·ANC)과 같음. 바코드·색 옵션은 브라우저 확인 필요", "checkedAt": "2026.11.24"},
+      "risks": "쿠팡이 3P 한 곳이라 가격이 내려가면 차이가 줄어요. 알리 색·번들 옵션 가격이 다를 수 있음. 에디파이어 국내 정식 유통(로켓) 가격은 검색에 안 나옴 → 쿠팡 상세에서 한국 정식판인지 확인",
+      "value3": {
+        "q1_searched": "예(추정). 에디파이어는 국내 가성비 ANC 이어폰으로 자주 언급됨. 근거 주소는 확인 못 함 → 매니저 확인",
+        "q2_samePair": "조건부 예. 모델명·사양(5.4·IP54)이 같음, 바코드는 못 봄",
+        "q3_usefulVerdict": "예. 쿠팡이 알리의 2배라 직구각이 분명하고, 재판매 가격 격차 자체가 독자에게 쓸모 있음"
+      }
+    },
+    {
+      "rank": 2,
+      "name": "에디파이어 에보버즈(Evobuds) 무선 이어폰 (AI 번역, 블루투스 6.1, IP54)",
+      "ali": {"id": "1005009928084299", "itemPrice": 54341, "store": "Edifier Official Store (주문 89건, 평점 95.8%)", "note": "공식 스토어. 기존 등록 상품 '에보버즈 프로'와 다른 모델(프로 아님)"},
+      "coupang": {"id": "9311329842", "name": "에디파이어 에보버즈 트루 와이어리스 이어버드 블루투스 이어폰 AI 음성 번역 소음 제거 6.1 하이 레졸루션", "price": 124900, "rocket": false, "note": "검색에 나온 에보버즈 유일한 상품(3P). 제목이 알리 공식 제목과 거의 같음"},
+      "diff": 70559,
+      "pct": 56.5,
+      "verdictDraft": "직구각",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 3P 상품, 바코드 미확인", "overseas": "알리 Edifier Official Store, 바코드 없음", "model": "Edifier Evobuds (BT 6.1, AI 번역, IP54)", "note": "쿠팡 상세에서 Evobuds vs Evobuds Pro 구분·색 확인 필요", "checkedAt": "2026.11.24"},
+      "risks": "쿠팡이 알리 가격의 2배 이상이라 3P 재판매가 곧 내려갈 수 있음. 에보버즈 프로와 혼동되기 쉬움(상품명 정확히). AI 번역 기능은 앱·언어 지원 차이 가능",
+      "value3": {
+        "q1_searched": "조건부. 에디파이어 이어폰 인지도는 있으나 에보버즈 일반판 검색량은 근거 없음 → 매니저 확인",
+        "q2_samePair": "조건부 예. 제목·사양이 같음, 바코드 미확인",
+        "q3_usefulVerdict": "예. 격차가 커 판정이 분명하고 같은 시리즈 에보버즈 프로와 짝으로 보여 줄 수 있음"
+      }
+    },
+    {
+      "rank": 3,
+      "name": "사운드피츠 POP Clip2 오픈형 이어클립 무선 이어폰 (블루투스 6.0, LDAC)",
+      "ali": {"id": "1005012825291018", "itemPrice": 51432, "store": "SoundPEATS Official Store (주문 530건, 평점 94.9%)", "note": "공식 스토어. 검색가 57,600, item 가격 51,432. 색 옵션별 가격 차이 가능"},
+      "coupang": {"id": "9552899870", "name": "사운드피츠 SoundPEATS POP Clip2 블루투스 무선 이어폰 AI 번역 운동용 사무용 2026 new", "price": 82900, "rocket": false, "note": "쿠팡 POP Clip2 유일한 본품(3P). 나머지는 케이스 액세서리. 로켓 없음"},
+      "diff": 31468,
+      "pct": 38.0,
+      "verdictDraft": "직구각",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 3P 상품, 바코드 미확인", "overseas": "알리 SoundPEATS Official Store, 바코드 없음", "model": "SoundPEATS POP Clip2 (UU2)", "note": "알리 제목에 UU2 모델코드 있음. 쿠팡 상세에 UU2·색 확인", "checkedAt": "2026.11.24"},
+      "risks": "쿠팡 가격이 3P 한 곳 기준. 알리 옵션(색)별 가격 확인 필요. 쿠팡 제목의 AI 번역은 판매자 문구일 수 있음",
+      "value3": {
+        "q1_searched": "예(추정). 오픈형 이어클립은 올해 인기 카테고리, 사운드피츠는 알리 공식 스토어 주문 많음. 근거 주소는 확인 못 함",
+        "q2_samePair": "조건부 예. 모델명 같음, 바코드 미확인",
+        "q3_usefulVerdict": "예. 38% 차이로 직구각이 나오고 같은 브랜드 C30·Clip1과 묶어 보여 줄 수 있음"
+      }
+    },
+    {
+      "rank": 4,
+      "name": "사운드피츠 C30 하이브리드 ANC 무선 이어폰 (블루투스 6.0, LDAC)",
+      "ali": {"id": "1005010388312396", "itemPrice": 41135, "store": "SoundPEATS Official Store (주문 136건, 평점 92.6%)", "note": "공식 스토어. 검색가 46,100, item 가격 41,135"},
+      "coupang": {"id": "9537670309", "name": "사운드피츠 C30 무선 블루투스 이어폰 하이브리드 노이즈 캔슬링 Hi-Res LDAC (White/Black, C30)", "price": 65000, "rocket": true, "note": "로켓 배송, 색 White·Black 같은 가격"},
+      "diff": 23865,
+      "pct": 36.7,
+      "verdictDraft": "직구각",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 로켓 상품, 바코드 미확인(상세 Global Trade Item Number 확인 필요)", "overseas": "알리 SoundPEATS Official Store, 바코드 없음", "model": "SoundPEATS C30 (-52dB 하이브리드 ANC, BT 6.0, LDAC, IP54)", "note": "제목·사양 일치. 쿠팡 로켓 가격이라 비교가 가장 깔끔함", "checkedAt": "2026.11.24"},
+      "risks": "알리 색 옵션별 가격·충전 케이블 포함 여부 확인. 로켓 세일 시 차이가 줄 수 있음. 알리 일반가가 신규 회원가보다 높을 수 있음(item API가 일반가)",
+      "value3": {
+        "q1_searched": "예(추정). 3~4만 원대 ANC 이어폰은 검색량이 큰 가격대. 근거 주소는 확인 못 함",
+        "q2_samePair": "예(모델 수준). 로켓 상품이라 쿠팡 상세에서 바코드 확인 가능",
+        "q3_usefulVerdict": "예. 쿠팡이 로켓이어도 36% 비싸 국내 로켓이라 안심하지만 직구가 싼 사례로 쓸모 있음"
+      }
+    },
+    {
+      "rank": 5,
+      "name": "사운드피츠 Clip1 오픈형 이어클립 무선 이어폰 (블루투스 5.4, 돌비 오디오·LDAC)",
+      "ali": {"id": "1005010270567752", "itemPrice": 57536, "store": "SoundPEATS Official Store (주문 45건, 평점 92.0%)", "note": "공식 스토어. 검색가 64,600, item 가격 57,536. 주문 수가 적음"},
+      "coupang": {"id": "9205300277", "name": "사운드피츠 Clip1 오픈형 이어클립 블루투스 무선이어폰 돌비오디오 LDAC Hi-Res 클립1 (Black/Dark Black)", "price": 85000, "rocket": true, "note": "로켓 배송. 3P 98,000(9330735996)도 있음"},
+      "diff": 27464,
+      "pct": 32.3,
+      "verdictDraft": "직구각",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 로켓 상품, 바코드 미확인", "overseas": "알리 SoundPEATS Official Store, 바코드 없음", "model": "SoundPEATS Clip1 (BT 5.4, 12mm 듀얼 마그넷, 돌비·LDAC)", "note": "쿠팡 색 Black·Dark Black, 알리 색 옵션 확인 필요", "checkedAt": "2026.11.24"},
+      "risks": "알리 주문 45건으로 적음(신뢰도 낮음). 색 옵션별 가격 차이. 후속 POP Clip2와 혼동 주의",
+      "value3": {
+        "q1_searched": "조건부. 오픈형 이어클립 인기는 있으나 Clip1 단독 검색량은 근거 없음",
+        "q2_samePair": "예(모델 수준)",
+        "q3_usefulVerdict": "예. 로켓 85,000 vs 알리 약 57,500으로 격차가 분명"
+      }
+    },
+    {
+      "rank": 6,
+      "name": "샤지(SHARGE) ICEMAG 3 마그네틱 무선 보조배터리 (10000mAh, Qi2.2 25W)",
+      "ali": {"id": "1005012286582196", "itemPrice": 89752, "store": "Sharge Flagship Store (주문 62건, 평점 95.0%)", "note": "공식 플래그십. 검색가 91,600, item 가격 89,752"},
+      "coupang": {"id": "9677388216", "name": "Sharge Icemag 3 MagSafe 휴대용 충전기 Qi2.2 25W 자기 전원 은행 10000mAh 35W 내장 케이블 능동 냉각 및 접이식 스탠드 iPhone 호환17", "price": 146000, "rocket": false, "note": "쿠팡 유일한 Icemag 3(3P, 해외직구 느낌의 제목)"},
+      "diff": 56248,
+      "pct": 38.5,
+      "verdictDraft": "직구각",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 3P 상품, 바코드 미확인", "overseas": "알리 Sharge Flagship Store, 바코드 없음", "model": "SHARGE ICEMAG 3 (10000mAh, Qi2.2 25W, 능동 냉각)", "note": "쿠팡 제목에 35W 내장 케이블이 있어 알리 옵션(케이블 포함 여부) 확인 필요", "checkedAt": "2026.11.24"},
+      "risks": "리튬 보조배터리라 알리 배송 가능 노선·항공 제한·KC 인증 확인 필요(과거 UGREEN 보조배터리를 비슷한 이유로 뺀 적 있음). 쿠팡 가격이 3P 한 곳. 면세는 약 $65로 $150 이내",
+      "value3": {
+        "q1_searched": "조건부. 마그네틱 Qi2 보조배터리는 검색량 큼, ICEMAG 3 단독은 근거 없음",
+        "q2_samePair": "조건부. 용량·규격 같음, 케이블 번들 옵션 확인 필요",
+        "q3_usefulVerdict": "조건부 예. 격차는 크지만 배터리 배송 제한 때문에 판정이 직구각이어도 주의점이 큼"
+      }
+    },
+    {
+      "rank": 7,
+      "name": "샤지 레트로 67 GaN 67W 3포트 충전기 (조건부: 쿠팡 모델 확인 필요)",
+      "ali": {"id": "1005007010728606", "itemPrice": 52002, "store": "Sharge Flagship Store (주문 27건, 평점 98.1%)", "note": "공식 플래그십. 검색가 50,400, item 가격 52,002"},
+      "coupang": {"id": "9405696012", "name": "SHARGEEK 샤긱 레트로 3포트", "price": 97800, "rocket": false, "note": "제목에 67W 표기가 없음. 같은 계열 번들 134,700(9689278527, 플로우 미니 2 번들)·246,500(9688826706, 140 파워뱅크 번들)은 다른 구성이라 제외"},
+      "diff": 45798,
+      "pct": 46.8,
+      "verdictDraft": "직구각(모델 확인되면)",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 3P 상품, 바코드 미확인", "overseas": "알리 Sharge Flagship Store, 바코드 없음", "model": "SHARGE Retro 67 (67W, USB-C 3포트)", "note": "쿠팡 제목 레트로 3포트가 67W 모델인지 확정 못 함. 브라우저에서 와트 수·구성 확인 후에만 등록", "checkedAt": "2026.11.24"},
+      "risks": "쿠팡 제목에 와트·구성이 없어 같은 모델 확정 못 함. 확인 실패 시 빼야 함. 충전기는 전압·플러그 규격(220V 한국 호환) 확인",
+      "value3": {
+        "q1_searched": "조건부. 샤지(샤긱) 레트로는 레트로 디자인 충전기로 알려졌으나 근거 주소 없음",
+        "q2_samePair": "아니오에 가까운 조건부. 쿠팡 쪽 모델·와트가 불확실 → 매니저가 쿠팡 상세에서 맞으면 통과",
+        "q3_usefulVerdict": "예(맞는 경우). 격차가 큼"
+      }
+    },
+    {
+      "rank": 8,
+      "name": "사운드피츠 Air6 HS 무선 이어폰 (블루투스 6.0, LDAC, 13mm 트리플 마그넷)",
+      "ali": {"id": "1005011874310777", "itemPrice": 43309, "store": "SoundPEATS Official Store (주문 1,393건, 평점 93.3%)", "note": "공식 스토어. 검색가 46,000, item 가격 43,309. 주문 수 가장 많음"},
+      "coupang": {"id": "9537343515", "name": "사운드피츠 에어6 HS 무선 블루투스 이어폰 Air6 HS Hi-Res Audio&LDAC 지원", "price": 53100, "rocket": true, "note": "로켓 배송"},
+      "diff": 9791,
+      "pct": 18.4,
+      "verdictDraft": "애매 (20%·₩10,000 미달, 알리 배송비 포함하면 국내가 나음 가능)",
+      "matchMethod": "model",
+      "match": {"method": "model", "domestic": "쿠팡 로켓 상품, 바코드 미확인", "overseas": "알리 SoundPEATS Official Store, 바코드 없음", "model": "SoundPEATS Air6 HS", "note": "모델명 일치. 쿠팡 상세 바코드·색 확인", "checkedAt": "2026.11.24"},
+      "risks": "차이가 문턱 근처라 가격이 조금만 움직여도 판정이 바뀜(알리 쿠폰·로켓 세일). 알리 배송비·옵션 확인 필요",
+      "value3": {
+        "q1_searched": "예(추정). 알리 주문 1,393건으로 사운드피츠 중 가장 많이 팔림. 근거 주소는 확인 못 함",
+        "q2_samePair": "예(모델 수준)",
+        "q3_usefulVerdict": "예. 국내 로켓이 거의 비슷한 가격인 애매/국내가 나음 사례로, 사운드피츠 다른 모델이 직구각인 것과 대비되어 쓸모 있음"
+      }
+    }
+  ],
+  "rejected": [
+    {"name": "QCY MeloBuds N60 (알리 1005013604406847, item 42,581)", "reason": "쿠팡 9126475142 QCY 멜로버즈 N60 HT19 48,220(3P)로 차이 5,639원·11.7%라 국내가 나음/애매, 격차가 작아 쓸모 낮음. 같은 계열 N65는 이미 11/23에 뺌"},
+    {"name": "사운드피츠 Air6 Pro (알리 공식 1005013261556257 124,800)", "reason": "쿠팡 Air6 Pro 127,870(3P)·139,000으로 차이 3천 원 이하, 국내가 나음"},
+    {"name": "사운드피츠 H3 (알리 공식 1005009684386541 129,800)", "reason": "쿠팡 검색에 H3 본품이 없고 케이스뿐 — 같은 모델 못 찾음"},
+    {"name": "에디파이어 X5 Pro (알리 공식 1005006579297904 40,200)", "reason": "쿠팡엔 X5 pro Gen 2(블루투스 6.0) 71,740만 있어 알리 X5 Pro(구판 추정)와 세대가 다름, 모델 불일치"},
+    {"name": "에디파이어 Comfo Q (알리 공식 1005009510792940 45,469)", "reason": "쿠팡엔 Comfo Clip Q2 109,700·Comfo C만 있고 Comfo Q 본품 없음"},
+    {"name": "EarFun Tune Pro·Air 2 등", "reason": "알리 검색에 Tune Pro 없음, Air Pro 4·4+만 나오고 Air Pro 4는 11/19에 뺌. 공식 스토어 상품 안 나옴"},
+    {"name": "1MORE 이어폰 전체", "reason": "11/19 1MORE 계열 이미 뺀 범위라 다시 내지 않음"},
+    {"name": "Amazfit·QCY 워치 (Bip 6·Active 2·Balance 2·Helio Strap·QCY GT/GTS)", "reason": "알리 제휴 API 검색에 본품이 안 나오고 스트랩·충전 독·보호 필름 액세서리뿐. 본품은 재생품·3P 99new 위주라 같은 모델·옵션 확인 불가(11/20에도 Amazfit 계열 뺌)"},
+    {"name": "CUKTECH(쿡텍) 10 GaN 충전기·25000mAh LPB252N·No.30 충전기", "reason": "알리에 공식 스토어 상품이 없고 3P 스토어(주문 5~24건, 평점 0~84%)뿐, 상품에 여러 모델·옵션이 섞임. 쿡텍 쿠팡 검색은 한도 때문에 못 함"},
+    {"name": "INIU 보조배터리", "reason": "알리 검색에 INIU 본품이 없고 케이스·커버뿐"},
+    {"name": "Sharge Flow Mini 2 (알리 1005008980761296 31,100)", "reason": "쿠팡 검색에 같은 모델이 안 나옴(엉뚱한 상품), 번들(134,700)만 있어 단품 짝 못 맞춤"},
+    {"name": "SHARGE 140W·65W GaN 충전기, MagLoop 240W 케이블, SHARGEEK 170 (알리 25,550~170,500)", "reason": "쿠팡 검색 한도(15회)·간격 때문에 같은 모델 확인 못 함, 후속 조사 가능"},
+    {"name": "소노프·Aqara", "reason": "11/16~11/23 알리 파일에서 이미 여러 모델 뺌, 이번 범위에서 새 개별 상품 안 찾음"}
+  ]
+}
