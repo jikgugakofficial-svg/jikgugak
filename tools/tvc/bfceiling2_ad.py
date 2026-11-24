@@ -40,7 +40,7 @@ def read_numbers():
     return {'dom': p['domesticKrw'], 'usd': usd, 'won': int(usd * pf['usdKrw']) // 1000 * 1000, 'payFx': pf['usdKrw'], 'payDate': pf['date'],
             'checked': f'{m[2]}.{m[3]}', 'taxPct': '18.8', 'taxNote': '관세 8% + 부가세 10%',
             'endSmall': '블프는 내일, 27일 금요일', 'hook1': '200달러 넘으면', 'hook2': '포기할까요?',
-            'domLabel': '보스 QC 울트라 2세대'}  # 기둥 위 작은 글자(소리 없이 봐도 무슨 상품인지 보이게, 11/24 팀장 검수)
+            'domLabel': '보스 QC 울트라 2세대', 'img': 'img/bose.jpg'}  # 기둥 위 작은 글자(소리 없이 봐도 무슨 상품인지 보이게, 11/24 팀장 검수)
 
 
 def sync_caption(n):

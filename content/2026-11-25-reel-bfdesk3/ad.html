@@ -97,9 +97,14 @@ function drawHook(t) {
 }
 function drawItem(t, p, i) {
   const c = column(t, p.dom, bt(p.b0) + 0.1, bt(p.b1), { label: `국내 ${manwon(p.dom)}` }); if (!c) return;
+  // 상품 사진(쿠팡 파트너스 제공 이미지, 배지·로고 띠 잘라냄): 이름 아래에 한눈에
+  if (p.img) { const ip = spring(t - bt(p.b0) - 0.2, 1.9, 0.42), ig = el('g', { transform: `translate(540 672) scale(${ip})` }, c.g);
+    el('rect', { x: -101, y: -93, width: 210, height: 210, rx: 34, fill: '#000', opacity: 0.07 }, ig);
+    el('rect', { x: -105, y: -105, width: 210, height: 210, rx: 34, fill: '#fff', stroke: '#E4DFDA', 'stroke-width': 4 }, ig);
+    el('image', { href: p.img, x: -92, y: -92, width: 184, height: 184, preserveAspectRatio: 'xMidYMid meet' }, ig); }
   const by = Hy(p.won), land = bt(p.land), dropStart = land - 0.55;
   if (t < dropStart) return;
-  const q = pg(t, dropStart, land), y = t < land ? lerp(Math.min(620, by - 60), by, iq(q)) : by - 18 * Math.exp(-(t - land) * 9) * Math.cos((t - land) * 30);
+  const q = pg(t, dropStart, land), y = t < land ? lerp(Math.min(p.img ? 800 : 620, by - 60), by, iq(q)) : by - 18 * Math.exp(-(t - land) * 9) * Math.cos((t - land) * 30);
   // 바 위쪽(국내가와 목표가 사이)은 흐리게: 이만큼 싸야 해요
   if (t >= land) el('rect', { x: 540 - CW / 2 + 6, y: c.top + 6, width: CW - 12, height: Math.max(0, by - c.top - 6), rx: 18, fill: '#fff', opacity: 0.6 * oc(pg(t, land, land + 0.3)) }, c.g);
   el('rect', { x: 540 - BW / 2, y: y - 18, width: BW, height: 36, rx: 18, fill: C.navy }, c.g);

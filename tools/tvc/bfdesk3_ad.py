@@ -25,6 +25,8 @@ PORT = '8796'
 ITEMS = [('amazon-logitech-mx-master-3s', 'MX Master 3S', '로지텍 MX Master 3S', 'MX Master'),
          ('amazon-logitech-g-pro-x-superlight-2', 'G PRO X 슈퍼라이트 2', '로지텍 G PRO X 슈퍼라이트 2', 'G PRO X'),
          ('amazon-razer-huntsman-v3-pro-tkl', '헌츠맨 V3 프로 TKL', '레이저 헌츠맨 V3 프로 TKL', '헌츠맨')]
+# 상품 사진: 쿠팡 파트너스 제공 이미지(products.json image)를 받아 배지·로고 띠를 잘라 content 폴더 img/에 둔 것(11/24 운영자: 이름을 넣으면 사진도)
+IMGS = ['img/1-mx.jpg', 'img/2-gpro.jpg', 'img/3-huntsman.jpg']
 CIRCLE = '①②③'
 
 
@@ -46,7 +48,7 @@ def read_numbers():
         p = next(x for x in P if (x.get('slug') or x.get('id')) == slug)
         dom, usd = p['domesticKrw'], L[slug]['breakeven']
         b0 = 4 + 8 * i
-        items.append({'name': name, 'key': key, 'dom': dom, 'usd': usd, 'won': int(usd * pay) // 1000 * 1000,
+        items.append({'name': name, 'key': key, 'img': IMGS[i], 'dom': dom, 'usd': usd, 'won': int(usd * pay) // 1000 * 1000,
                       'b0': b0, 'b1': 30 if i == len(ITEMS) - 1 else b0 + 8, 'land': b0 + 3})
     return {'items': items, 'payFx': pay, 'payDate': pf['date'], 'endLine1': '블프는 27일 금요일', 'endLine2': '블프 위크는 30일까지',
             'hookIdx': 0, 'hook1': f"마우스 {manwon(items[0]['dom'])},"}

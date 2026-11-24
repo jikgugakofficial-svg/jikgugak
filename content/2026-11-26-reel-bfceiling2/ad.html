@@ -122,6 +122,10 @@ function drawScene(t) {
     const s = spring(t - bt(l0) + 0.1, 1.7, 0.42), top = lerp(BASE, DTOP, cl(s, 0, 1.05));
     el('rect', { x: DX - DW / 2, y: top, width: DW, height: BASE - top, rx: 24, fill: C.salmon, stroke: C.orange, 'stroke-width': 6 }, G);
     txt(G, DX, top - 46, T.domLabel || '국내가', { class: 'lbl', 'font-size': 40, fill: C.navy, opacity: pg(s, 0.6, 1) });
+    // 상품 사진(쿠팡 파트너스 제공 이미지): 국내가 기둥 안 아래쪽
+    if (T.img) { const ip = spring(t - bt(l0) - 0.35, 1.9, 0.42), ig = el('g', { transform: `translate(${DX} 1262) scale(${ip})` }, G);
+      el('rect', { x: -90, y: -90, width: 180, height: 180, rx: 30, fill: '#fff', stroke: '#E4DFDA', 'stroke-width': 4 }, ig);
+      el('image', { href: T.img, x: -78, y: -78, width: 156, height: 156, preserveAspectRatio: 'xMidYMid meet' }, ig); }
     const lp = oc(pg(t, bt(l0) + 0.7, bt(l0) + 1.4));
     if (lp > 0) {
       el('line', { x1: DX + DW / 2 + 10, y1: LINE, x2: lerp(DX + DW / 2 + 10, 150, lp), y2: LINE, stroke: C.green, 'stroke-width': 8, 'stroke-dasharray': '22 14', 'stroke-linecap': 'round' }, G);
