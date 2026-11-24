@@ -254,7 +254,31 @@
       "found": true,
       "apiPrice": 75719,
       "result": "applied"
+    },
+    "ali-edifier-x3-pro": {
+      "itemId": "1005008524813010",
+      "at": "2026-11-24T05:00:49.556Z",
+      "recordedKrw": 32563,
+      "found": true,
+      "apiPrice": 32563,
+      "result": "same"
+    },
+    "ali-edifier-evobuds": {
+      "itemId": "1005009928084299",
+      "at": "2026-11-24T05:00:52.399Z",
+      "recordedKrw": 54341,
+      "found": true,
+      "apiPrice": 54341,
+      "result": "same"
+    },
+    "ali-soundpeats-pop-clip2": {
+      "itemId": "1005012825291018",
+      "at": "2026-11-24T05:00:53.218Z",
+      "recordedKrw": 51432,
+      "found": true,
+      "apiPrice": 51432,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-23T20:35:28.808Z"
+  "updatedAt": "2026-11-24T05:00:53.603Z"
 }
