@@ -430,10 +430,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9hkMSa",
     "sample": false,
-    "checkedAt": "2026.11.19 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 30525,
+    "priceKrw": 30862,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -527,6 +527,13 @@
         "from": 31537,
         "to": 30525,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 30525,
+        "to": 30862,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -1651,10 +1658,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynD4kVspU",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "ali-xiaomi-smart-band-10-pro",
     "name": "샤오미 스마트 밴드 10 프로 (글로벌 버전)",
-    "priceKrw": 102231,
+    "priceKrw": 102996,
     "domesticKrw": 99600,
     "domesticSource": "쿠팡 글레이셔 실버, 로켓배송(쿠폰 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4okvS3MbRdwUhRdllp9a3epejeIib4mTnmHpKwrcmhK0BCwKBUvrCkx8Ap54dU2nSGWdirshATX9f4m2dBi023s9EMzdWTgQdKlUv7L3DTkwLvliouCCFTkReKWVRlgAq1yOUL80KruQG8uHX3zcOkQPuqwfQzA3COf5wfElkSUPRft3GBAWtoxlXqZhOO3GTdcM9s3lwOOzCq3WkR2fIBVZVcByKHvIeJIigO97DWdObFA98Lyc80sBRQETQTVKNrxSVo0tgF4bena5eXIZCwNO7eeDbtlaCge8CDh9uYdrGxw2pZRtaQZbSvETRRg3xtT79hVwIHacg5OLHU28H9cTQe3QgnSUlJOvDjUKTvnLodRWsfPC0XpAHofMKfeHcvGnTRE00u6mI5alDfKltGklgLyhXdFj1CuYctaJVyn4nYA9Ex5iIDSfcTzddQcy74PPvCFOMi5EWO07TXDThTlALfx47zO64p709rrgLfGTQeoSOSv8mjqZBGgERy6oH4OBew4etSKQBvYvdqytEn4qUBfuPLdrQb7iR55uAiElvOcX9vZwiiTtuNK1WBGNkjdH1KbwoRzktSEPXW4vn98gAS0p4mX6b6OyveIt3mcb1zpIzEK2N7EDOsiZZWRwBYFhhE3Y8Anwy6IlDgObxqByHDK3nulpY5Tfn50trXFsb1AOU7uL8Mxzo16yMgfxscTtjpwn4H8b4o",
@@ -1749,6 +1756,13 @@
         "from": 101754,
         "to": 102231,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 102231,
+        "to": 102996,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -1976,10 +1990,10 @@
     "domesticUrl": "https://link.coupang.com/a/iynD4M1Kii",
     "buyUrl": "https://kr.iherb.com/pr/sports-research-omega-3-fish-oil-180-softgels/113871",
     "sample": false,
-    "checkedAt": "2026.11.23 저녁",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "iherb-sr-omega3-triple-180",
     "name": "스포츠리서치 오메가3 피쉬 오일 트리플 스트렝스 180정",
-    "priceKrw": 74719,
+    "priceKrw": 74720,
     "domesticKrw": 47350,
     "domesticSource": "쿠팡 로켓직구 1개 상품가(배송비 제외)",
     "risks": [
@@ -2079,6 +2093,13 @@
         "field": "priceKrw",
         "from": 74234,
         "to": 74719,
+        "source": "아이허브 화면(매니저 저녁)"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 74719,
+        "to": 74720,
         "source": "아이허브 화면(매니저 저녁)"
       }
     ]
@@ -3381,10 +3402,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau667gDOC",
     "sample": false,
-    "checkedAt": "2026.11.21 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "ali-soundcore-liberty-4-pro",
     "name": "앤커 사운드코어 리버티 4 프로 (A3954, 화이트)",
-    "priceKrw": 128361,
+    "priceKrw": 129450,
     "domesticKrw": 125900,
     "domesticSource": "쿠팡, 앤커코리아 정식 판매, 로켓 무료배송",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CoyL4rsYxgLtV6Ru80gIl84olqj7MqbXORZdtnSCkc1fvhaVYL3WQPOuK6RPBRJpPloZT443BW2P7SVnVyA1hxaTVY0akq9NtinwUFXLh0OfyFvczv4skIoGQyS9ovGW0CLUbRBkiX1Ox100yzPvTwKTLniRvZ87HjEEp3RVOQ3iEldkPHIsJCmqyZKbuEk08kvs131sTMH6aMViXej9ASVt8Fsn7YH65HHIWrjqngwCAdQHj9TLqgHrSskXMYKvHIUmWkZ8EuQkTmUyhrCMVRokKlTg0PEdhtQuyrlpRIwdxCwsDkLp1PFNbXOGPDFl6zE07wTOVfOrgioJKEVmYFIFS4QcFRvcRuIoaAAW4AgXm8okwh7KOOt5g9zPHSXrRSQd9Z6NxRsk7qRRh6K1hOVFoa9fJ39aPlgMstrQIK7tq6xOFbe1lYrjYRbVwjJVQFiHGYlOVmnef9kVdwPiKTAiltxBUTOW7HtysWwBclftGpd1ilJlkjJXIxqslFiTivUAbzP7gwHE5kvjG3JhsIDMZeSO1LcgbPphODoBerRWTd15Lg3Tj7zkmChDZSyKJ03pXFSmsWVD4F2QosZrcpliSlB8eUlDAvdRvqUatPK0uNWpgfXOc7QFIGpaAqaLCJa4Nyd74NK2XnJCgj6br2gV1ocMTtVwvS9aR0CEz5gqdYPQClgv0YYjUyYXHMD1m2Vrr2IljPdxjZ",
@@ -3479,6 +3500,13 @@
         "from": 127935,
         "to": 128361,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 128361,
+        "to": 129450,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -4747,11 +4775,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.21 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "ali-moondrop-space-travel-2",
     "name": "무드롭 스페이스 트래블 2 노이즈캔슬링 이어폰",
     "category": "audio",
-    "priceKrw": 35112,
+    "priceKrw": 35336,
     "domesticKrw": 56070,
     "domesticUrl": "https://link.coupang.com/a/iw00qqT0xg",
     "domesticSource": "쿠팡 판매자 상품(병행 수입)",
@@ -4840,6 +4868,13 @@
         "from": 34948,
         "to": 35112,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 35112,
+        "to": 35336,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -4851,11 +4886,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.21 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "ali-redragon-k617-fizz",
     "name": "레드드래곤 K617 피즈 60% 기계식 키보드 (레드 스위치)",
     "category": "it",
-    "priceKrw": 43515,
+    "priceKrw": 43791,
     "domesticKrw": 68600,
     "domesticUrl": "https://link.coupang.com/a/iw00qwJNzo",
     "domesticSource": "쿠팡 판매자 상품",
@@ -4945,6 +4980,13 @@
         "from": 43312,
         "to": 43515,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 43515,
+        "to": 43791,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -5979,13 +6021,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "ali-truthear-zero-blue2",
     "domesticUrl": "https://link.coupang.com/a/iDBoD2z4zA",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4kHHbp3TDqGITuVjyLBOJb2rCkBj0zAzxTSJtOe2Io3RbTVDr9T1HBfvL2hkBfkFc1mvIqYXQitsRzlVwLm46ekub51BmgHVVSaBgpas0b9twRGnz7GkcjNFlYgE8jivOGYCzsIWvSkxJbNwv2F1SrMs0XlYiYToH5c1buUT4QzgvPbcIxUOw1mqpNrUGEIa8DiOkai46Gbe2Aezmkfjo4J7NLijXY6lgZPD449RjvSY5qVTwydVew6F83j4tQtIgAMeW9JeZARslGzUfspa3A3cTMrReO3jMBBRcQrpfII8mnO9KDMbMmz1tDyUfW75Dpi13Vk8RhoSFt0jmg1Co4Uho8o9WWIYGQbe6NDqegtqURf72gSJM5qrGzrXUqiWBu4p21hFAWNlQoJlcDuUSzcnGMYKzwDC7qdyqcjWmXnLF8CompFD7ljYxCTeuHZx1L3hCUbDIfHNnRMyVtD8tpCTxyQgUk2DzYU9YQEQhv1683Ugx5jPWB24R0NZWExDoTpkiMxYoxFy1Rkp9iDWGoEhizGqHVxtbTw169fnVhjUGZJmtQkX51hzz7PwQpPlZ2Ozqw04dBVd1pV37NO8xTOW91OFSXKkGVaY7S6PK1VgOjbXdHgaKSLtCN0Bsw8l3svs84sEoSDszYprI1dPFRUwqeudPrWtmtMDlQrK5ymh8FaPx8YfzyKDK4AfcGDYZfwA1W1cnQWza",
     "name": "트루히어 x 크리나클 제로:블루2 유선 이어폰 (3.5mm)",
     "category": "audio",
-    "priceKrw": 76092,
+    "priceKrw": 76577,
     "domesticKrw": 136900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8704415331",
@@ -6045,6 +6087,13 @@
         "from": 75738,
         "to": 76092,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 76092,
+        "to": 76577,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -6274,12 +6323,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "slug": "ali-sonoff-snzb-02d",
     "domesticUrl": "https://link.coupang.com/a/iIA5cW37Ku",
     "name": "소노프 SNZB-02D 지그비 온습도 센서 (LCD, 1개)",
     "category": "it",
-    "priceKrw": 13486,
+    "priceKrw": 13571,
     "domesticKrw": 27900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8807347296",
@@ -6333,6 +6382,13 @@
         "from": 13422,
         "to": 13486,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 13486,
+        "to": 13571,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -6852,14 +6908,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9555459833",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005260044338.html",
     "slug": "ali-sonoff-minir4",
     "domesticUrl": "https://link.coupang.com/a/iKe18gOkTs",
     "name": "소노프 MINIR4 와이파이 스마트 스위치 모듈",
     "category": "it",
-    "priceKrw": 11398,
+    "priceKrw": 11409,
     "domesticKrw": 21870,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -6911,6 +6967,13 @@
         "from": 11344,
         "to": 11398,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 11398,
+        "to": 11409,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
@@ -6961,13 +7024,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.21 알리 자동",
+    "checkedAt": "2026.11.24 저녁",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9774599606",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005004887739101.html",
     "slug": "ali-redragon-k530-pro",
     "name": "레드라곤 K530 PRO 드라코닉 60% 무선 기계식 키보드",
     "category": "it",
-    "priceKrw": 29217,
+    "priceKrw": 29403,
     "domesticKrw": 75290,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
@@ -7008,6 +7071,13 @@
         "from": 29081,
         "to": 29217,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.24",
+        "field": "priceKrw",
+        "from": 29217,
+        "to": 29403,
+        "source": "알리 제휴 API(매니저 저녁)"
       }
     ]
   },
