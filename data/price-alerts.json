@@ -10,7 +10,27 @@
       "change": "24%",
       "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
       "source": "쿠팡"
+    },
+    "ali-edifier-evobuds-pro:domesticKrw": {
+      "at": "2026-11-25T01:06:44.504Z",
+      "slug": "ali-edifier-evobuds-pro",
+      "field": "domesticKrw",
+      "recorded": 79020,
+      "api": 106620,
+      "change": "35%",
+      "reason": "변화가 커서(30% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
+    },
+    "amazon-elgato-stream-deck-mk2:domesticKrw": {
+      "at": "2026-11-25T01:07:00.430Z",
+      "slug": "amazon-elgato-stream-deck-mk2",
+      "field": "domesticKrw",
+      "recorded": 222000,
+      "api": 182000,
+      "change": "18%",
+      "reason": "변화가 커서(15% 넘음) 반영 안 함. 옵션·판매자 확인 필요",
+      "source": "쿠팡"
     }
   },
-  "updatedAt": "2026-11-24T16:27:49.590Z"
+  "updatedAt": "2026-11-25T01:07:24.677Z"
 }
