@@ -4621,11 +4621,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iw0RFRNgJw",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 자동",
+    "checkedAt": "2026.11.25 쿠팡 자동",
     "slug": "amazon-apple-airpods-pro-3",
     "name": "애플 에어팟 프로 3",
     "category": "audio",
-    "domesticKrw": 299900,
+    "domesticKrw": 296000,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9024163013",
@@ -4676,6 +4676,13 @@
         "field": "domesticKrw",
         "from": 296000,
         "to": 299900,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.25",
+        "field": "domesticKrw",
+        "from": 299900,
+        "to": 296000,
         "source": "쿠팡"
       }
     ]
@@ -6498,13 +6505,13 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.25 오전",
+    "checkedAt": "2026.11.25 쿠팡 자동",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
     "priceKrw": 46689,
-    "domesticKrw": 65370,
+    "domesticKrw": 66390,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
     "risks": [
@@ -6578,6 +6585,13 @@
         "from": 46394,
         "to": 46689,
         "source": "알리"
+      },
+      {
+        "at": "2026.11.25",
+        "field": "domesticKrw",
+        "from": 65370,
+        "to": 66390,
+        "source": "쿠팡"
       }
     ]
   },
@@ -7567,7 +7581,8 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(나우푸드 로디올라 500mg 120 베지캡슐, 상품 번호 356512)과 아이허브 화면(120정 1회 구매가 38,982원, UPC 733739047670)으로 맞춤. 아이허브 25% 코드 할인은 넣지 않음",
       "checkedAt": "2026.11.25"
     },
-    "domesticUrl": "https://link.coupang.com/a/iXvkJ6zcoC"
+    "domesticUrl": "https://link.coupang.com/a/iXvkJ6zcoC",
+    "image": "https://ads-partners.coupang.com/image1/95UooRyKh39WTa7N95crGiURUQUSHShtpTCZZ9oKmQYvXJNrDrteW5zAzmSyQ15EQd7ahS2GV9XYIOIHlkGpOKVM-5XTbrwDEu4fgwDzIQwDllj0lSHq3FxRjPh7LOfTAOOnoaWGDJy5_5On6dabv-2A-ELoi5RVyodpIOcVTTVc-GwUI_JZf_yz48NIsRNknF9FfJniR2XT8r-P1di0lBqgl8U575blkKo06AJWYSHUcFz35QVNhdwW66XA-ygb5oaFJeoE3KqNjNEcNp4oZqxQD-5Pq_nZ0WhiX-99vZRQ8tC0S3vywh9_4yHbTVplmlzKIqaHprxVPVGlKI0tVkg0gwBcODmqkQQhy1GByYilE3OFnYkjlJC9XndYlhbuF_D5XI88Tb8zr1qCt5Irj9ZkCaxVDKn1zaV-FXqy1PjSMqYhYWnXuwKjVd3BzspFcH-6CwbfCQdYtR3C_tK6keY8l_arsFOZHqRVhuHqaMR9qWhArX5XuyP9LgObNrPgNuEzfagfpmpDQaP6PGVxIb6MD2GpC6_v8vbn"
   },
   {
     "store": "aliexpress",
@@ -7617,14 +7632,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.25 쿠팡 API 매니저",
+    "checkedAt": "2026.11.25 쿠팡 자동",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9553969101",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005009135052399.html",
     "slug": "ali-ravemen-fr500",
     "name": "레이브맨 FR500 자전거 전조등(가민·와후 마운트 호환)",
     "category": "home",
     "priceKrw": 58757,
-    "domesticKrw": 99110,
+    "domesticKrw": 99260,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
       "배송 1~3주",
@@ -7647,7 +7662,16 @@
     },
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4tuZm9NJdZaeJG5aHHpB2PdNoIrqDWdH49Fyt3tbdBQYBNG7ekb5AgO1TEjH4u8u6kXhWYjpufsi9e5jmUBTKo57PqtplGOj1OvbL1BA1C6u5c5vxkIe4MXZTicUGlHKLyGbhKF8ymbJqta34NHiMxLyHoQICIBo8dkIWxEasq7ek4ciok2Nmu21XN64HdWe1hzloQpDuJM1ci2IUpwWpClwpbUIeDhFjeqWhBtU9jTrbO37vTXcq6Gk18zCYk2KRCjZ6gxj6wZKKFwG0FE3qFKxIrioAoik5qPtO13Wp0zBB3oqC2anJIN0LZU5k18cNhRaK7sHEEOXgAcJpGnQi3SvWuH9yhB4jGRd4et8orKQGug3oz1o46MLnaQJOzVjlJs8JEpLxYgM1Fy4t1ivvLrR7HSIfe4zEBOCOMu1LRPGgQspTwfhhCUCDUjt6rQqxfs6YagxWyIM7V0N2K2qrYvUeuNz0bD0CgVGIXoTi38VhdZwHdXO5j0O6p6Iaoo3dOisKD6wqdLZYH72w1rI7z6gl91Pzp3tJ6lkKjYo5v6qU9sKTBuY2hZfwacc3UUGOLqNWm5RsFp3H9hv222JiXiTlxxWB9kaBsGWYrylUkorrDVv21hxmYpiiO66Oq7fc8nETurwFKz7ty7Jby638KxfoTQ5VpVjyxt711Cx8RzrHZX89sJRReKlA9NoYvcZ79G4zVCTSR3ud",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sca5aa0ee8fb8488382ae0103da292fc5L.jpg",
-    "domesticUrl": "https://link.coupang.com/a/iXvkKiFMse"
+    "domesticUrl": "https://link.coupang.com/a/iXvkKiFMse",
+    "priceLog": [
+      {
+        "at": "2026.11.25",
+        "field": "domesticKrw",
+        "from": 99110,
+        "to": 99260,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "aliexpress",

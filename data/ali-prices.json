@@ -293,7 +293,31 @@
       "found": true,
       "apiPrice": 57536,
       "result": "same"
+    },
+    "ali-nitecore-edc37": {
+      "itemId": "1005010375163129",
+      "at": "2026-11-25T10:31:04.038Z",
+      "recordedKrw": 124009,
+      "found": true,
+      "apiPrice": 124009,
+      "result": "same"
+    },
+    "ali-ravemen-fr500": {
+      "itemId": "1005009135052399",
+      "at": "2026-11-25T10:31:06.344Z",
+      "recordedKrw": 58757,
+      "found": true,
+      "apiPrice": 58757,
+      "result": "same"
+    },
+    "ali-magene-s3plus": {
+      "itemId": "1005004995165695",
+      "at": "2026-11-25T10:31:07.078Z",
+      "recordedKrw": 17833,
+      "found": true,
+      "apiPrice": 17833,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-25T01:07:24.673Z"
+  "updatedAt": "2026-11-25T10:31:07.547Z"
 }
