@@ -3158,10 +3158,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iau66YgbCe",
     "sample": false,
-    "checkedAt": "2026.11.21 쿠팡 자동",
+    "checkedAt": "2026.11.25 오전",
     "slug": "ali-qcy-melobuds-n70",
     "name": "QCY 멜로버즈 N70 (HT18) 노이즈캔슬링 이어폰",
-    "priceKrw": 71740,
+    "priceKrw": 72196,
     "domesticKrw": 58180,
     "domesticSource": "쿠팡 로켓직구, 미드나이트 블랙",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cn3M0mIEYOGmw2TZYQnYSn2Bwn9PEriM7h8ZXNSqc0KHmzoH2Tl1waUMm6FZtUoFyKfpknF8cUC7KUX86k1C8ATybmKpD06eENjAXBJ3ou1eQdz44U1rLXWOuY8uMwEk7lIJ5zaqk4vFOg3JCUDEa0WZ8hsoyfmcSRYA1rIERb9jBjgP5PH45u8pI15qzvUCmeCzcaQG0mxH8OFmHbBj9GsVYdttkaldhALcVMHGpPflAgH4sxnNz3LnkVhcJr6sSOst2TrkYad0JFCZUbVSXflBBpEBivO8mXwHWqFjOMCwVzIF8b5lg0c0kiAho0RAv5bc9N8R74oRhDgtdHvw26eWbAVhYCNUSQT2VmlBk7ZOQhWebaJ4KWRemInxKXtXKBXofzDrsc86rWFb1p5iVemXYbu0AnA6c7VaiOkiOMp3p5B01PSwmdoWcyJSJZtKcm156LIZRzI0WKWxplzl4d36pFWRFlFRBDu8NB5rzeXC87E6WTHqQHnTnYA7LU3L2UC0H3qFJ7gwNvukgrStT8b9tuNYWl4xgdpzH0oF1EfprDtwSvgLlWzIu6qDmcnIq3MQF0SBBd42O1xhM5MaiWIq0k7ZX748cwXVnKT1W4Gm2hIhsr1wCeOsbIsVc7XJxNSSRBOz7RYkGZyKsZeNDOridKcmhN5Rc4Wpppq8a6g1oPARRZffjmW9Aq0SeDL2bH6s2xC0EBrC2g",
@@ -3256,6 +3256,13 @@
         "from": 58730,
         "to": 58180,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.25",
+        "field": "priceKrw",
+        "from": 71740,
+        "to": 72196,
+        "source": "알리"
       }
     ]
   },
@@ -3499,12 +3506,12 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/ib10yPa4XY",
     "sample": false,
-    "checkedAt": "2026.11.21 알리 자동",
+    "checkedAt": "2026.11.25 오전",
     "slug": "ali-edifier-evobuds-pro",
     "name": "에디파이어 에보버즈 프로 (EvoBuds Pro) 노이즈캔슬링 이어폰",
-    "priceKrw": 66119,
-    "domesticKrw": 79020,
-    "domesticSource": "쿠팡 해외 판매자, 실버, 무료배송(국내 정식 판매 없음)",
+    "priceKrw": 66540,
+    "domesticKrw": 96840,
+    "domesticSource": "쿠팡 해외 판매자(같은 상품 번호 최저가), 실버, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmHnoM0Mfq08w2m3iBO7fM9h5GvpSFJFDBOwqUjuEiUAWDUCyZLRcRuMJCcqdfoEyDU1S7jtMhfxAtcPRwZgDkltn6k10GZtfMdnIi0kWLog5STOsTMyIDc9B9vA2IXhMTsHOoNXBt4QcoWsiQtWiY9Ndz5FizQZncEQwJYhSkl74K7JhJORPGcSW8s2UexU1EEDNqjHcUvtQvYSS53IGXeQi0dhDEMy3LsPXA2lJlCSANe3QNixn8LRfAp1nu4dieQ5ZC4zzbMTt34LHvZfEYd7veeEH2Hz1wvRySDOsdIW3WBAMIsHZqmPYB3z2Tv307ic9WcalTogbYPXCbS0JTwDmeWLKnd0Is5LTZhj5anawroHI5x7eMG0Tre9oDGp6LfJLsUyYjkbvJ1yxWfDilvscsXXL328RlT6ZbAbjTDVQ98CptihUtQCvRRxgWxzCtiYRQgX7QD7IxSKb7VzwkS37vWeGg85NrPBPzau2HdAfN1NeTPemyGWooaVCBWUYF8jkv4fRKHj4pRC7bfgAPOCBFcpCzqKaOkaDr9d8QiPpqbvZta0jJiuCeyqrRD4MBBB8AlPIRRdq4yTTjSY3z77VZVLqIBs1sxcrGk0L2u87ZckDkU9kqAZPhl2pTMvwf5qj3OfZ8fc26DCwsYXRFGoJ4GNlgYaaAUwdOnsGQD9qTFMTVkkMvnsZxuPDWEaIhOFrlcuEYlBlA",
     "risks": [
       "배송 1~2주",
@@ -3513,7 +3520,7 @@
     ],
     "summary": [
       "에디파이어 공식 스토어의 에보버즈 프로와 쿠팡 같은 모델·같은 실버를 비교했어요.",
-      "알리가 {diff}({pct}) 싸지만 직구각 기준(20%)엔 못 미쳐 애매해요. 알리가 {beKrw} 이하로 떨어지면 직구각이에요.",
+      "알리가 {diff}({pct}) 싸서 직구각이에요. 쿠팡은 예전의 싼 판매자가 빠져 같은 상품 최저가가 올랐어요.",
       "쿠팡엔 국내 정식판이 없고 해외 판매자 상품만 있어요."
     ],
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9340326719?itemId=27699634076",
@@ -3597,6 +3604,20 @@
         "field": "priceKrw",
         "from": 65811,
         "to": 66119,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.25",
+        "field": "domesticKrw",
+        "from": 79020,
+        "to": 96840,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.25",
+        "field": "priceKrw",
+        "from": 66119,
+        "to": 66540,
         "source": "알리"
       }
     ]
@@ -5298,7 +5319,7 @@
     "summary": [
       "엘가토 스트림 덱 MK.2(15키, 10GBA9901)끼리 비교했어요. 국내 최저가는 쿠팡 로켓배송이에요.",
       "아마존가가 {be} 이하일 때 직구각이에요.",
-      "미국 정가는 $149.99라 할인할 때만 노려볼 만해요."
+      "평소 가격보다는 할인할 때 노려볼 만해요."
     ],
     "match": {
       "method": "model",
@@ -6242,7 +6263,7 @@
     "summary": [
       "레이저 헌츠맨 V3 프로 TKL(US 배열, RZ03-04980200)끼리 비교했어요. 국내 최저가는 쿠팡 로켓배송이에요.",
       "아마존가가 {be} 이하일 때 직구각이에요.",
-      "미국 정가는 $219.99라 할인할 때 노려볼 만해요."
+      "평소 가격보다는 할인할 때 노려볼 만해요."
     ],
     "match": {
       "method": "model",
@@ -6281,7 +6302,7 @@
     "summary": [
       "슈어 MV7+ 화이트(MV7+-W)끼리 비교했어요. 국내 최저가는 쿠팡 판매자 상품이에요.",
       "아마존가가 {be} 이하일 때 직구각이에요.",
-      "미국 정가는 $279라 면세 한도($200)를 넘어 세금까지 넣은 기준이에요."
+      "손익분기는 면세 한도($200)를 넘을 때 붙는 세금까지 넣어 계산했어요."
     ],
     "match": {
       "method": "model",
@@ -6463,12 +6484,12 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.21 쿠팡 자동",
+    "checkedAt": "2026.11.25 오전",
     "slug": "ali-trn-vx-pro-plus",
     "domesticUrl": "https://link.coupang.com/a/iIA5c7AhmC",
     "name": "TRN VX Pro+ 8BA+1DD 하이브리드 유선 이어폰",
     "category": "audio",
-    "priceKrw": 46394,
+    "priceKrw": 46689,
     "domesticKrw": 65370,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8379294884",
@@ -6536,6 +6557,13 @@
         "from": 65480,
         "to": 65370,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.25",
+        "field": "priceKrw",
+        "from": 46394,
+        "to": 46689,
+        "source": "알리"
       }
     ]
   },
@@ -6650,7 +6678,7 @@
     "summary": [
       "비츠 필 2024년형 블랙끼리 비교했어요. 국내 최저가는 쿠팡 판매자 상품이에요.",
       "아마존가가 {be} 이하일 때 직구각이에요.",
-      "미국 정가는 $149.99라 면세 한도($200) 안이에요."
+      "손익분기가 면세 한도($200) 안이라 세금 없이 계산했어요."
     ],
     "match": {
       "method": "model",
