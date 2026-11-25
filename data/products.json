@@ -437,10 +437,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9hkMSa",
     "sample": false,
-    "checkedAt": "2026.11.24 저녁",
+    "checkedAt": "2026.11.26 알리 자동",
     "slug": "ali-ugreen-7in1-usbc-hub",
     "name": "유그린 7in1 USB-C 허브 (HDMI 4K60·기가 랜·PD 100W)",
-    "priceKrw": 30862,
+    "priceKrw": 30789,
     "domesticKrw": 59900,
     "domesticSource": "쿠팡 CM512, 무료배송 · 내일 도착",
     "buyUrl": "https://s.click.aliexpress.com/e/_c3gfgUZT",
@@ -465,20 +465,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.12",
-        "field": "priceKrw",
-        "from": 30610,
-        "to": 32017,
-        "source": "알리"
-      },
-      {
-        "at": "2026.11.12",
-        "field": "priceKrw",
-        "from": 32017,
-        "to": 31939,
-        "source": "알리"
-      },
       {
         "at": "2026.11.12",
         "field": "priceKrw",
@@ -541,6 +527,13 @@
         "from": 30525,
         "to": 30862,
         "source": "알리 제휴 API(매니저 저녁)"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "priceKrw",
+        "from": 30862,
+        "to": 30789,
+        "source": "알리"
       }
     ]
   },
@@ -712,11 +705,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9wnwLA",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "amazon-lego-10309-succulents",
     "name": "레고 보태니컬 다육식물 10309",
     "category": "toy",
-    "domesticKrw": 64690,
+    "domesticKrw": 64620,
     "domesticSource": "쿠팡 ₩56,290 + 배송비 ₩10,000",
     "buyUrl": "https://www.amazon.com/dp/B09Q4GWMZQ",
     "risks": [
@@ -774,6 +767,13 @@
         "from": 74900,
         "to": 64690,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 64690,
+        "to": 64620,
+        "source": "쿠팡"
       }
     ],
     "match": {
@@ -795,11 +795,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9BNa5A",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "amazon-lego-10280-flower-bouquet",
     "name": "레고 보태니컬 플라워 부케 10280",
     "category": "toy",
-    "domesticKrw": 71500,
+    "domesticKrw": 71490,
     "domesticSource": "쿠팡, 무료배송",
     "buyUrl": "https://www.amazon.com/dp/B08HW1L75J",
     "risks": [
@@ -828,6 +828,13 @@
         "field": "domesticKrw",
         "from": 71570,
         "to": 71500,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 71500,
+        "to": 71490,
         "source": "쿠팡"
       }
     ]
@@ -903,11 +910,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9ORzhI",
     "sample": false,
-    "checkedAt": "2026.11.23 쿠팡 자동",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "amazon-logitech-mx-master-3s",
     "name": "로지텍 MX Master 3S 무선 마우스",
     "category": "it",
-    "domesticKrw": 91500,
+    "domesticKrw": 87900,
     "domesticSource": "쿠팡 로켓직구, 무료배송 · 3일 도착",
     "buyUrl": "https://www.amazon.com/dp/B0B11LJ69K",
     "risks": [
@@ -969,6 +976,13 @@
         "field": "domesticKrw",
         "from": 95320,
         "to": 91500,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 91500,
+        "to": 87900,
         "source": "쿠팡"
       }
     ],
@@ -3520,10 +3534,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/ib10yPa4XY",
     "sample": false,
-    "checkedAt": "2026.11.25 오전",
+    "checkedAt": "2026.11.26 알리 자동",
     "slug": "ali-edifier-evobuds-pro",
     "name": "에디파이어 에보버즈 프로 (EvoBuds Pro) 노이즈캔슬링 이어폰",
-    "priceKrw": 66540,
+    "priceKrw": 66382,
     "domesticKrw": 96840,
     "domesticSource": "쿠팡 해외 판매자(같은 상품 번호 최저가), 실버, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmHnoM0Mfq08w2m3iBO7fM9h5GvpSFJFDBOwqUjuEiUAWDUCyZLRcRuMJCcqdfoEyDU1S7jtMhfxAtcPRwZgDkltn6k10GZtfMdnIi0kWLog5STOsTMyIDc9B9vA2IXhMTsHOoNXBt4QcoWsiQtWiY9Ndz5FizQZncEQwJYhSkl74K7JhJORPGcSW8s2UexU1EEDNqjHcUvtQvYSS53IGXeQi0dhDEMy3LsPXA2lJlCSANe3QNixn8LRfAp1nu4dieQ5ZC4zzbMTt34LHvZfEYd7veeEH2Hz1wvRySDOsdIW3WBAMIsHZqmPYB3z2Tv307ic9WcalTogbYPXCbS0JTwDmeWLKnd0Is5LTZhj5anawroHI5x7eMG0Tre9oDGp6LfJLsUyYjkbvJ1yxWfDilvscsXXL328RlT6ZbAbjTDVQ98CptihUtQCvRRxgWxzCtiYRQgX7QD7IxSKb7VzwkS37vWeGg85NrPBPzau2HdAfN1NeTPemyGWooaVCBWUYF8jkv4fRKHj4pRC7bfgAPOCBFcpCzqKaOkaDr9d8QiPpqbvZta0jJiuCeyqrRD4MBBB8AlPIRRdq4yTTjSY3z77VZVLqIBs1sxcrGk0L2u87ZckDkU9kqAZPhl2pTMvwf5qj3OfZ8fc26DCwsYXRFGoJ4GNlgYaaAUwdOnsGQD9qTFMTVkkMvnsZxuPDWEaIhOFrlcuEYlBlA",
@@ -3550,27 +3564,6 @@
       "checkedAt": "2026.10.27"
     },
     "priceLog": [
-      {
-        "at": "2026.11.11",
-        "field": "domesticKrw",
-        "from": 79440,
-        "to": 78560,
-        "source": "쿠팡"
-      },
-      {
-        "at": "2026.11.11",
-        "field": "priceKrw",
-        "from": 66504,
-        "to": 66124,
-        "source": "알리"
-      },
-      {
-        "at": "2026.11.12",
-        "field": "priceKrw",
-        "from": 66124,
-        "to": 65962,
-        "source": "알리"
-      },
       {
         "at": "2026.11.13",
         "field": "domesticKrw",
@@ -3632,6 +3625,13 @@
         "field": "priceKrw",
         "from": 66119,
         "to": 66540,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "priceKrw",
+        "from": 66540,
+        "to": 66382,
         "source": "알리"
       }
     ]
@@ -4907,11 +4907,11 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.24 저녁",
+    "checkedAt": "2026.11.26 알리 자동",
     "slug": "ali-redragon-k617-fizz",
     "name": "레드드래곤 K617 피즈 60% 기계식 키보드 (레드 스위치)",
     "category": "it",
-    "priceKrw": 43791,
+    "priceKrw": 43687,
     "domesticKrw": 68600,
     "domesticUrl": "https://link.coupang.com/a/iw00qwJNzo",
     "domesticSource": "쿠팡 판매자 상품",
@@ -4939,13 +4939,6 @@
       "checkedAt": "2026.11.09"
     },
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "priceKrw",
-        "from": 44219,
-        "to": 43769,
-        "source": "알리"
-      },
       {
         "at": "2026.11.11",
         "field": "priceKrw",
@@ -5008,6 +5001,13 @@
         "from": 43515,
         "to": 43791,
         "source": "알리 제휴 API(매니저 저녁)"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "priceKrw",
+        "from": 43791,
+        "to": 43687,
+        "source": "알리"
       }
     ]
   },
@@ -7233,11 +7233,11 @@
     "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.25 저녁",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "iherb-now-sunflower-lecithin-powder-454g",
     "name": "나우푸드 해바라기 레시틴 순수 분말 454g",
     "priceKrw": 25267,
-    "domesticKrw": 43480,
+    "domesticKrw": 46270,
     "domesticUrl": "https://link.coupang.com/a/iPcTEO9xFk",
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "buyUrl": "https://kr.iherb.com/pr/now-foods-sunflower-lecithin-pure-powder-1-lb-454-g/59514",
@@ -7286,6 +7286,13 @@
         "from": 25103,
         "to": 25267,
         "source": "아이허브 화면(매니저 저녁)"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 43480,
+        "to": 46270,
+        "source": "쿠팡"
       }
     ]
   },
