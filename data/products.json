@@ -7506,5 +7506,166 @@
     "domesticUrl": "https://link.coupang.com/a/iVQzssuI9Y",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4LUuLhLyl2xQECWIveQqyYUTYdicYebiX7q4YQ5dOiakSaxwbfSQiMCvJf5PMTCrnMfzZNJhgV1k2EgDPg8sL9h5brOglv71eh6NnZtZjOVRxl3eEB1wKbEQQa6Kp3Lg8UgAzowVFtTRCLGapL52QiubLAi6xSOgcqzmf0cjlPtByosKyrfc6AmHAe9GlsEEgWKe7tmyFIKFj4ikdrtPN4OQ9cRB3vUPdW0NwbevGnnL93qTQXmJoS1veTL4hZGObAgDJpp1cv8yxMqG27P38yuEO2fE6zhesyw8JyKMGUtW7mRzXHgMyiCs3lCpqA42ArHzcoxm5X8zFvpQRPtjZJjfn1z9hJnelo0m4fmibLcT1c2P20f5rpGwp0CgJtUeo43VEqfsQ48waJH0mtcTmxop5zoBEmpcUyvHeGQzOnkrZlIf7SF45bMIvr24m5HaQATV0OqOAiDRhBkwxOwShdIkk9qjVtpqbXr2taGdfzH0iP01pOnIVBUBKIzgJkgppLQtztWnqvGcFvJ3JHy4YAw0g0jqNu90wksSOFAymRMzVs3QIix3f76HoEVHZTTs2bzNl6ln37aP3aTlqPabC8qSj4uWHcJ64rgM3J6t7p5QoMkbTgTopUziCyTNAfUNCwpRK5i3rBkx83KnOAQ9Dl4nDLXZjE8ww8fJxgZVbIgbr7iqmxYZX8qwfNa07k39xohMQ7ghm8pZ2",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sda9274f2652a4ead82e972b8b26faf3aR.jpg"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 6000,
+    "shipNote": "₩40,000 미만 주문 시 (이상이면 무료)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.25 쿠팡 API 매니저",
+    "slug": "iherb-now-rhodiola-500-120",
+    "name": "나우푸드 로디올라(홍경천) 500mg 베지캡슐 120정",
+    "priceKrw": 38982,
+    "domesticKrw": 77600,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "buyUrl": "https://kr.iherb.com/pr/now-foods-rhodiola-500-mg-120-veg-capsules/123463",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/356512",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/now-foods-rhodiola-500-mg-120-veg-capsules/123463",
+    "coupangKeyword": "나우푸드 로디올라 500mg 120",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준(배송비 포함)",
+      "6병까지 자가사용 인정",
+      "₩40,000 이상 담으면 배송비 ₩6,000 절약",
+      "60정짜리는 다른 상품이에요. 120정끼리 비교했어요",
+      "쿠팡 같은 상품 번호에 60정 옵션(35,500원)도 있어요. 120정 옵션 가격인지 확인하세요"
+    ],
+    "summary": [
+      "나우푸드 로디올라 500mg 120정끼리 비교했어요.",
+      "하나만 사서 배송비 ₩6,000이 붙어도 아이허브가 쿠팡보다 {diff}({pct}) 싸요.",
+      "다른 영양제와 ₩40,000 이상 담으면 배송비가 없어져 차이가 더 커져요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "733739047670",
+      "model": "NOW Foods Rhodiola 500 mg, 120 Veg Capsules (NOW-04767)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(나우푸드 로디올라 500mg 120 베지캡슐, 상품 번호 356512)과 아이허브 화면(120정 1회 구매가 38,982원, UPC 733739047670)으로 맞춤. 아이허브 25% 코드 할인은 넣지 않음",
+      "checkedAt": "2026.11.25"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iXvkJ6zcoC"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.25 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8942890682",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005010375163129.html",
+    "slug": "ali-nitecore-edc37",
+    "name": "나이트코어 EDC37 8000루멘 EDC 손전등",
+    "category": "home",
+    "priceKrw": 124009,
+    "domesticKrw": 189370,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~3주",
+      "배터리 내장(리튬) 제품이라 배송이 늦거나 막힐 수 있어요",
+      "알리 판매처는 나이트코어 공식 스토어가 아니에요(Global Outdoor Light Store, 주문 503건)",
+      "알리는 첫 구매 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요"
+    ],
+    "summary": [
+      "나이트코어 EDC37 손전등을 알리와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Nitecore EDC37 (8000lm, USB-C, 내장 배터리)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(NITECORE EDC37 8000, 상품 번호 8942890682, 쿠팡 검색 본품은 이 하나)과 알리 제휴 API 제목·알리 화면(옵션 선택 없음)으로 맞춤(11/25 매니저)",
+      "checkedAt": "2026.11.25"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2pzvZk0Yox66sUp5EA0v2sP1fC7t1CgZOjScyTlgw1qc64WQkP6RYNutqbSjlx7iPfIYhtm3BJHWjepp4w43qAUaB7BAkEZ6AEEBim4tmWMsILj2m97uXqsekQwSDVX1iRY1T4WjzhHVK1TJqhDaRGqD5zCVlQSaHZMMqTroEIN3bzWUBUbMgiR5RZtsxIgoxFogGIei18L7zdlOiw2ZWeMW58hRTg3V1GV3mudoHX5l0J8ZOixMyxj8yKIw8UItvd9jTcjzzFepaBM7NaakrNT51mAXUCxhJlYhFg4DmOfixQnisfrwofVbFITcd9G3NY9wL2LFVD8PS6pN0errE5XfgCbjS7D5sCKewn7slyA7bxnI9shiTOK2qH9YzGkhfznK9jOQw3UBwPi0IpI0glnrFvZTZkO4mWiCyggfpaxlUEZGXyNrISRP3ZtkVLhXgztO3J1FJQ17Zc6us6tqJHemQHVfteRq4I1flnfWrBzfC8OtVsGxENT2IyD10pZvn5J9ZgBRL5VpwzsPL5ZhZ8ozoATHi0yDAgRkrvPjKu5Pa79uiQ1axNlvGoDblEommgor6mhBHujlMyXW9fqgMAWihHufwdVfrzh2WAW6gTPxGUnTmozz8vWBtD5ACYOYhrdk7gdKjT8Y3BeZm4Jdh2xnUI2q36ewMPZOliab3j1UTOJYHpXnbcBrlPpW1E87tlTxZoDbP7hsN",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S54ec760a539b4065b914d0fa251dfab9k.jpg",
+    "domesticUrl": "https://link.coupang.com/a/iXvkKcR4lU"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.25 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9553969101",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005009135052399.html",
+    "slug": "ali-ravemen-fr500",
+    "name": "레이브맨 FR500 자전거 전조등(가민·와후 마운트 호환)",
+    "category": "home",
+    "priceKrw": 58757,
+    "domesticKrw": 99110,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~3주",
+      "배터리 내장(리튬) 제품이라 배송이 늦거나 막힐 수 있어요",
+      "쿠팡엔 마운트를 더한 구성이 104,930~129,000원으로 따로 있어요. 사이트는 본품 최저가로 비교했어요",
+      "알리는 첫 구매 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요"
+    ],
+    "summary": [
+      "레이브맨 FR500 전조등을 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "RAVEMEN FR500 (300~600루멘, 검정)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(RAVEMEN 와후 FR500 프론트 컴퓨터 자전거 라이트, 상품 번호 9553969101)과 알리 제휴 API 제목(RAVEMEN Official Store)·알리 화면(색 검정 한 가지)으로 맞춤. FR500 SE·FR1100·세트 상품은 비교에서 뺌(11/25 매니저)",
+      "checkedAt": "2026.11.25"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C4tuZm9NJdZaeJG5aHHpB2PdNoIrqDWdH49Fyt3tbdBQYBNG7ekb5AgO1TEjH4u8u6kXhWYjpufsi9e5jmUBTKo57PqtplGOj1OvbL1BA1C6u5c5vxkIe4MXZTicUGlHKLyGbhKF8ymbJqta34NHiMxLyHoQICIBo8dkIWxEasq7ek4ciok2Nmu21XN64HdWe1hzloQpDuJM1ci2IUpwWpClwpbUIeDhFjeqWhBtU9jTrbO37vTXcq6Gk18zCYk2KRCjZ6gxj6wZKKFwG0FE3qFKxIrioAoik5qPtO13Wp0zBB3oqC2anJIN0LZU5k18cNhRaK7sHEEOXgAcJpGnQi3SvWuH9yhB4jGRd4et8orKQGug3oz1o46MLnaQJOzVjlJs8JEpLxYgM1Fy4t1ivvLrR7HSIfe4zEBOCOMu1LRPGgQspTwfhhCUCDUjt6rQqxfs6YagxWyIM7V0N2K2qrYvUeuNz0bD0CgVGIXoTi38VhdZwHdXO5j0O6p6Iaoo3dOisKD6wqdLZYH72w1rI7z6gl91Pzp3tJ6lkKjYo5v6qU9sKTBuY2hZfwacc3UUGOLqNWm5RsFp3H9hv222JiXiTlxxWB9kaBsGWYrylUkorrDVv21hxmYpiiO66Oq7fc8nETurwFKz7ty7Jby638KxfoTQ5VpVjyxt711Cx8RzrHZX89sJRReKlA9NoYvcZ79G4zVCTSR3ud",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sca5aa0ee8fb8488382ae0103da292fc5L.jpg",
+    "domesticUrl": "https://link.coupang.com/a/iXvkKiFMse"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.25 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9816361107",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005004995165695.html",
+    "slug": "ali-magene-s3plus",
+    "name": "마진 S3+ 자전거 속도·케이던스 센서(1개)",
+    "category": "it",
+    "priceKrw": 17833,
+    "domesticKrw": 46200,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~3주",
+      "센서 1개는 속도나 케이던스 중 한 가지로 써요. 둘 다 재려면 2개가 필요해요",
+      "쿠팡 같은 상품 번호에 46,200·64,800원 두 옵션이 있어 낮은 값을 1개로 봤어요. 결제 전 개수를 확인하세요",
+      "알리는 첫 구매 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요"
+    ],
+    "summary": [
+      "마진 S3+ 센서 1개를 알리와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Magene S3+ 속도·케이던스 센서 1개(ANT+·블루투스)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(알리 제목과 같음, 상품 번호 9816361107에 46,200·64,800원)과 알리 화면(옵션 1Pc S3 Sensor, 정가 16,280원)으로 맞춤. 쿠팡 낮은 값을 1개로 봄(11/25 매니저)",
+      "checkedAt": "2026.11.25"
+    },
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C269NnKb47ybAXgP9ksLWgMgNIITuYhtg3ZGWi4v8Wlk6kSAwVFirlr5SfSp6eBmXdkKfJq4T5VVENqvpjofKNGaN6qYeLdGvnPHM8VubWa4VQqu7EjQsntKrrm7ghidqLoBipCn6gfhFwbmwVO2kNnFxStWjg2Hl3x3mKn03kIVRmW0pvSBKcLactJutisze53YyX7trMdc5YBExifL8ugmMu3CPhisdXSJ5DYI5FWonVDSr1Ut12IEOgp41JQRFfKRPssLOQyQVVEMtiXeD7etblWBPGXWWguTAmGRO4lRItCnCGU1xvIesmZH9rBhGBMR6Fn3Q957HRhQkOKV9OCmgZjCZNeKKPYVeXL9jsQqPaNskKaANvWj02nYCaJPJ3k15F7WbXI9J9lbDn10EClWEXUwrAuSiD6t0DEXSGdwSUwOeSAYIVVZzJBRi9hvEPWN7dsQobfQHUj1X1jNI7ZoaJzyLMdclGa8QZAx453LgGFqj60n4ucH9h9T9pqdV479EEKIakFxipGzsB0Kl78rD5mzipeIhsUwHad6AzLN8kgxMw2XIPJcbNvGGBafY23vPIbHbrlvVMsjc5EKfIK5tb1rd1R042Eqyr4fli5Hynb23xrZLtw0ZqUJuYKOuHvKsqk2yKOxtzx008KlBnUyMZRUyQbFoL1pE5Nl1hakhruFZOPMJ87IyaB1pYR1xBOx7yvPxLPmdO",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7dd98424e36145f2b4c62ebc3e15a197s.jpg",
+    "domesticUrl": "https://link.coupang.com/a/iXvkKowtXM"
   }
 ]
