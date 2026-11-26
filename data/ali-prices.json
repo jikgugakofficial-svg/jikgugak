@@ -99,10 +99,10 @@
     },
     "ali-baseus-bowie-mh1": {
       "itemId": "1005007015955340",
-      "at": "2026-11-21T21:55:03.120Z",
-      "recordedKrw": 86340,
+      "at": "2026-11-26T22:37:31.481Z",
+      "recordedKrw": 86745,
       "found": true,
-      "apiPrice": 86745,
+      "apiPrice": 86753,
       "result": "applied"
     },
     "ali-moondrop-chu2": {
@@ -130,10 +130,10 @@
     },
     "ali-baseus-bowie-mc2-air": {
       "itemId": "1005010724623265",
-      "at": "2026-11-21T16:25:12.583Z",
-      "recordedKrw": 37582,
+      "at": "2026-11-26T22:37:31.082Z",
+      "recordedKrw": 37758,
       "found": true,
-      "apiPrice": 37758,
+      "apiPrice": 37884,
       "result": "applied"
     },
     "ali-simgot-ew300": {
@@ -341,7 +341,15 @@
       "found": true,
       "apiPrice": 55549,
       "result": "same"
+    },
+    "ali-nitecore-ap01": {
+      "itemId": "1005012029682239",
+      "at": "2026-11-26T22:37:28.299Z",
+      "recordedKrw": 26896,
+      "found": true,
+      "apiPrice": 26896,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-26T13:11:33.518Z"
+  "updatedAt": "2026-11-26T22:37:31.930Z"
 }

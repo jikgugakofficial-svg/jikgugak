@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-26T13:11:34.675Z",
+  "at": "2026-11-26T22:37:34.262Z",
   "mode": "hourly",
   "ok": true,
-  "message": "- 사진 추가: amazon-beats-studio-pro (매니저가 사이트에서 사진이 비교 구성과 맞는지 확인, 안 맞으면 image 지우고 imageSkip에 이유)"
+  "message": "- 사진 못 찾음: amazon-beats-powerbeats-pro-2 (검색어 '비츠 파워비츠 프로 2 운동용 이어폰' 상위 10개에 같은 상품 번호 없음 → coupangKeyword 고치기)"
 }

@@ -1297,36 +1297,73 @@
       "model": "GO 3S",
       "cat": "it",
       "why": "인스타360 초소형 액션캠, 알리 공식 스토어 판매·국내 정발. 저장 용량(64/128GB)·번들 구성 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-19T14:36:20.963Z",
-      "status": "no_ali",
+      "at": "2026-11-26T22:35:56.200Z",
+      "status": "new",
       "coupangTop": 10,
-      "ali": [],
+      "ali": [
+        {
+          "id": "1005009506709148",
+          "title": "Insta360 Go 3/GO 3S 충전식 베이스 마운트 카메라 액세서리용 Go 3 마그네틱 퀵 릴리즈 어댑터 (1/4 및 Gopro 인터페이스 포함)",
+          "price": 9430,
+          "orders": 212,
+          "rating": "92.5%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S22bfa8a43a7347ab94f4693243a1b6c1a.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009506709148.html"
+        },
+        {
+          "id": "1005007315759840",
+          "title": "Insta360 GO3 / GO 3S PULUZ 마그네틱 ABS 퀵 릴리스 베이스 마운트용",
+          "price": 12850,
+          "orders": 207,
+          "rating": "94.3%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9dc7f9a6678e48569f80e487141daad03.jpg",
+          "url": "https://ko.aliexpress.com/item/1005007315759840.html"
+        },
+        {
+          "id": "1005009505675763",
+          "title": "Insta360 Go 3/GO 3S 카메라 브래킷 충전식 베이스 마운트 액션 카메라 액세서리 용 VRIG Go 3 마그네틱 퀵 릴리스 어댑터",
+          "price": 8560,
+          "orders": 205,
+          "rating": "96.6%",
+          "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saa67f224197842a786733a34a3ebf6ear.jpg",
+          "url": "https://ko.aliexpress.com/item/1005009505675763.html"
+        }
+      ],
       "coupang": [
         {
-          "id": "9617871305",
-          "name": "인스타360 GO 3S 레트로 번들 128GB",
-          "price": 425000,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/v8D83YAmbCpRZrIVv8OdMC6RUsHxUMV2y0F5HHUbFV4R2uXzlu8tmmO4zpL5g0TPP2H594ZTalfqETx7oLY52aYxvsTTk8242Hq6jQtUj59gkTV7WBY6ZvIJVKLp6fFKr97XfE-DY2i3iFXZSd7aSQZnKZvONqUbca0OTMx_YYoTpbqWCuC4li_x9f4Ccz1F96RzYw6jeMDYtzmHPTOAXCUrhhxSxNtIpsXKrd8qhimJLg35FiOYZ20O1srzZ7DsSpy9TpT8Mw8X6NvV2o9JBM69LYio91iFQXh_o2oKUwRpd0m5pWN989feOiG9icUon3QqALPQ9896UJDW4Yq0wlJhkj2_BG_DLd967JQJ9sYHvj8NqpfBatays_1Nzh4PBKj55CBwCArtDcIru0cfJ8GmHfVvZ-jKMKnSMW7LecoUwhuruuazDdD0KPhFg3tXZsSnqWW5ma-XWx_aZuEE3V4TnZWTUELhOPiDOLv_Y134pUOqF1XxQvJEw-AJ4_-acbaoD8rDBmRJBbKl-W2qGUJoB_yFmXPu7SNnDQ48DgRN-f92",
-          "url": "https://www.coupang.com/vp/products/9617871305"
+          "id": "9699381646",
+          "name": "PULUZ 마그네틱 ABS 퀵 릴리스 베이스 마운트, 1개, 인스타360 Go 3/Go 3S",
+          "price": 18450,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/WBbodhizcJnjHfMIWJZXoIvHcX0pUZCZDxqMJKb--c5hlnCIPAhcgTFVVPFmg7-SV5pUf98-FE8_61sm_0utUhXgMzzjhBIs9b-dfEG5B5k2vXkr5llIxMIdSiVik-O5UeA84Twv3P4_chMr7XzxNlc6HmEbCzC59ueNt0GhQ0A0yBxdH0mTSYScVj7sbKOifiNjTOaebXHpSX75dU54_CdV16A89uLt81eS8m0EGy5h_C9io6vSqq5Ly4Lj1D--l0-eZx34KA0aQFzRd5-tnUW66UJvPUNe0Fajn0-NR-4WSvhqSdQNw0752fkyLQmialqpm1jajAJHdDVjJUVwqVU2nDG0rHnyAdb_p9MmPtSzd-I1__ih29e5jRSXIDhQum6izAGYIhVGUl9aWrhJGyE8QLiGjOgE-wgr6bf0pHrM4T0_PolaKCe3koU7l2VRVr4w5uWzU98vcEXWsohcpv_EFFIVcGYlofUAFO8FXWWXF1f5Mr79NuGoqNVGdqK7LPS30kxEq4YKp5L_4tcPgfXJBUos6lIA",
+          "url": "https://www.coupang.com/vp/products/9699381646"
+        },
+        {
+          "id": "9510574589",
+          "name": "스페이스쉴드 아스트로 2in1 일체형 트리포드 확장 로드 셀피 스틱 삼각대 1.2m, 1개, 인스타360 GO 3S",
+          "price": 32810,
+          "rocket": true,
+          "image": "https://ads-partners.coupang.com/image1/eV0QytN6ltqQ55XmeWyeR4we3hkQLPd0YTNky39RPNIW72A1Yf0oc7zNR-0n5dFrwvm7FkFgNFCYvNf0FHI1lOfr6fku1YgiM0Vk9f7Z5mc7n70aIJYgcvGoFR8x20UdhL0ix6SCvoe_sibvAZJyNy027p-JMU_Das_n-mWdh40nUyr2fosr69JneAoksNyIPXZMcGPphtKN4QD9jWO2f3qKT1LmwHZaZMpoUfukOt7dfAibYu9m9bPfl5BBSp6iSqgC_2P9zwY_b_-XWaz1bvtSN8Fp-eDVV4-7CvqUuDv0ouwkR2hy30zVAcAKlmXoF1R5URt4aI-bPcBg9pezuyzNMmBV1kLqgvwAx4lH2V9xFuO_0X1TA4W7IPjXo8DngN4kWlKYjtEMU_dREXgtioNPJ_Tn27s5pLBvo21ZeGoZirpdqky6GVfSaGk2mP_RUOzic_O8gv9TPnv2GLvFHKUFQPg4AotZSb7rwXUVckTEmJPqLXBqwdioaWvXmKcMs_ZQMh4mK4s=",
+          "url": "https://www.coupang.com/vp/products/9510574589"
         },
         {
           "id": "9617871278",
           "name": "인스타360 GO 3S 레트로 번들 128GB",
           "price": 425000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/uSW2okzH2m5efBT4ufb41MrU3uJufzwHrQau5EHK0P2Cvan6VjWj7arh9cvn1TBPHsc-5QYN_QxW2hIeqkKQb_pVGtNxD6aysW1J3rXN-_EsdPTg0TGyd3cCGTRoQ8REURHb5DXngSlrDGLZA-93p3ORE_kFIxQn4f0Xm_RvB_EznqQ3bvxowMUfAVJorRyNmVq_phdfRZ_lBLDRZ3LyjfYuo19hdGOYx_Dn4RE4iUPzAMGGP5t9ojLt7HUAd39Yjbc3qpCf9_Mo3POyk55EMdohowCZgymgznrDJ41g1p344JCX3kHzOuBbZWj3YZT7t3sxYXTO13OPAUGJ-gGiZ7u0GYLqaXbZj5Haukv0Ct_DqaVVpw_F0iKwX_STsXJKNAEYlEOfbkMt5aO7Y40UBZCVcYrItyTIy2HsZ9VxyFe0YUyekw50VxOsT8xYyBREA_L3hBKgg0K_NlVn-tAozUV6HRKcVZ2ItRzDdt-4WcEvrqOFcwOLAilnLBRyZY_Ik2XxLA3xCbW3TCmvAU2yhdhmOWc5l3ft6f_yWZECD84tOQ==",
+          "image": "https://ads-partners.coupang.com/image1/96L0qZSggzXPSy_e999MKwwgxHGSSTgKa9fbahPCxS-vruaUkliEbQRYASv93hTXdQ42_pzBUqjGUPMIFbo3NZOleik3EcD17coD_qS-iRlNYTyALW2z1QpbyCEncdqCNrlbSWjSqrP9w9_8rCxHZRkD0nDkcYwG3Rhk1Z5BTEe0ejaarBmmSLlwN7muM4xeveZrLmW-IGiFnrQK_uakQs93s6cWXCzU4y3VmCfWymVFJhiZAZ--cirC6KhViCwKCfvuMwuHVkygWcIDY7Z7nYK0zP7-sXyN91ubSYO6lbMg2PepeIMrhJEA_wbi1NjkqGa0rG6aBUHxoM1ZKlgH3Bmqhn2_zoNZVefNWHGzaUFfB0KIpGSqsxynaNdG7Kyandf7uyo4c7X3C_UmVkbLBj75O7-CBlqGjTwleK1gYqdxvY4OGNIMvjM8eZWB5EyICRpY79LLs3DXIIxQieAvHEbfa_m79ZLOvxZHuDkahyfBZYT910Ate2UV3csgg18GC1sdtuwLIP0CH5Lw0ZKF4giKWrGxAu4AembhFVSEMDrcHkDf",
           "url": "https://www.coupang.com/vp/products/9617871278"
-        },
-        {
-          "id": "8540911210",
-          "name": "인스타360 GO 3S 액션캠 128GB",
-          "price": 1001500,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/dbeoSGpPiWQVyoVTdYA9euVXhgszhjX29eYdRpLtlWnxCYZz0_Vx67Uw7JCsEafuNTxAPQL5zI8ZJjx1iMjlvS09LLcj6QtJYOFSmxRjKhqurr1pFCrrEB1uiO3gdizddxMkuxHKoARk8YkPeo0wmBGXFJzEVV6WJO6JRzkQ6wId1Y-8b-RODKq-89zjgZlA8YeuRlYKfieuhcpqVezCiWqoR559LNR1zaVkQDM3T-5Q_o0rnCzLPcG9_Tmqzz3fWq0pwu3gCyu8Y-DXn1PVpP0KxgkkirMWQDkFkL-gs7-DPgnQU6h-Kc6rgfh4EkJ9U1h1I6PEYqfZVHZQdbQDSyHoqQWlzWw9_6U4OPq5G_QXkjV4lFTsUuYkCnJwWrakMqgOvqiz5_Ri-QHIXhLuFHYW5BlXuJCO3tHt3O9sq4QOZSTIhfAOy7cNBgAYx048fG5-p-SAd4XZo_wgV1628P9bBDVej690SyW1VDtm9oZTH6UgsgQNV-C8kR1zpBwU-HCEtCFzT4-9VXoYnMSW71ZeWJBuxs6GVqzj9--yi1cdcg==",
-          "url": "https://www.coupang.com/vp/products/8540911210"
         }
-      ]
+      ],
+      "best": {
+        "aliId": "1005009506709148",
+        "coupangId": "9699381646",
+        "aliTotal": 9430,
+        "coupangPrice": 18450,
+        "verdict": "meh",
+        "diff": 9020,
+        "pct": 49
+      }
     },
     "Insta360 Ace Pro 2": {
       "q": "Insta360 Ace Pro 2",
@@ -1334,34 +1371,34 @@
       "model": "Ace Pro 2",
       "cat": "it",
       "why": "인스타360 액션캠 상위 모델, 알리 공식 스토어 판매·국내 정발. 번들(스탠다드/올인원) 맞춰야 함. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-19T14:36:24.831Z",
+      "at": "2026-11-26T22:36:00.253Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
-          "id": "9428312644",
-          "name": "인스타360 Ace Pro 2 싱글 배터리 표준 번들 액션캠",
-          "price": 416000,
+          "id": "8527428569",
+          "name": "인스타360 ACE PRO 2 XPLORER BUNDLE 익스플로러 번들 아틱화이트 & 문라이트 실버",
+          "price": 598000,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/osSekIlLEVByk6JMosZzlrlba37-R5DAEkhlJl-8kk0Ulvp9dK2RD6Yk9E47Xq1sddq9iAV72e45LbKDbu1REUPzHf9J_nGV15XQhngcgg8bq5f3m6-VqzoSC6pVFHaggkwnrlFb-GzPwkyEJ1MJCjrwkFCCfoAfRHHJFFHnnOWerA-0kj8Ulj2AZiLltxddMxzDZNQDGkY8zU3A7u40jGK11gv7BWauidRDmdrLz8bGl-KXBHrP4rLzkfMpr--VhC36AtY4e5kL42BRlEC0N30BoWNUWELK8j2UU5TJ9HHtQEc1oeVC2eJjZApU2MVNO8i-tym2qpcsUaspb4zWdv81EJr_amqFx8wq0hml8MLDTWPxB3N0cojjD2l3IpsC1pk5VOucmRGqb0UmhcWWJ_oOqwmMHsPcggHhlGu_yH-4zmIqgHww3_3CBhk69q9N1jOrxgFCcpk2mfB4c1i-rdegBx2rQuzzu62tz9LDKAhBx2e_PctV3vpwBhsbac5Ic3rCJzg3wchLic0na9czVdgJ",
-          "url": "https://www.coupang.com/vp/products/9428312644"
+          "image": "https://ads-partners.coupang.com/image1/qZJUaK8MEs4oII2WqbrWP3nG8ldhhntYZolBN5LDx2bHeMdUpkCvgTsAFs5ZnDu_OM495yTcRaAIz4Mubuug3shQclZ4tJBvkmdpvbYC4RoIwUtSFBzKmVwliGclp7vI1ldtYTSOBgab6qMVWBlJq748wV95XIv2JfkmpMi41_D0PNXHa6bY5GVACDWETnOS0vZgaV83sTtXr3AIwe4V2ve3wZrsQsUzzbHyGuBvquTtA0A6FRP_Su0oUDFhBCdm1D5Qht-nrVPLRXiYj-QpU4ZWAlCsu7Zp8sovJ_JoZYlhiInSNuVUz7jKyVWaw7BxKv7qOXaCLrc-612DkauGyNA3CcbaDbQi9jzHLlw5Gs6I71nH9odcMLdc5JsBAqxGmDnAUSWKuRZ5LIUMI8bUsaJbH_Pah56v4ST4W4Vj1fvbRnEJBF0yL95i_kCqazpJDQwFzFRmCFcvgVYjcIoJjfalECS6PbXz-kukhW1wMLJS-Ot768lSvJkk9x6iJPO2vavLj40-4rMC1Y4NwkxNGofpRFNZ5K_ySkota5FarzE=",
+          "url": "https://www.coupang.com/vp/products/8527428569"
         },
         {
-          "id": "8514006087",
-          "name": "인스타360 듀얼 배터리 액션 카메라 Ace Pro 2",
-          "price": 437000,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/HYS-PcT1Xl6QitmRHce25F8pgDDPNlM9WUi_SQBVsfd6lQOT2hlKsBjkzksRzrfAiPi3MZssMuMgmwwdvbS-RaE3u5T4VUCStpztFXTPrXEpoQoRcU1hreg6h1-_mQjUzBaOWQ6-ieGv7Iy-2e8qbKpsJiGNNRpTrX85YLG7PKkbkPeAFH9n-9eKWmft_n6agri6GkroPCocLXViPrG2TdhNULmiECoWpcXq2mxvV7C5XZMPfr3vxgKUREr-hlnLe_soa4PpBRX6RwlCb8YJ04INQ4fcnca0DSI7QKxbTmlFOWWujupBMzT2MJ8HpN6e_XcLdAsJDR2QcQXwWPX4ywV2SKLYSFih54NS5ekDtKmAxg4iO1qGTIQLxV4p56ESh0Th2Z6Io6sHDIlv9atQ0Kh0ZIFJqU5bAtxPsQAEwF91Y_q2TgbPNE0wr8_zsEMb178TlWf6eNchpfjtNalW6xGROh-t7NtcRmoA0iZU9WaD-qPJzagktA7JJ921ztQBD0fRey2h-hmvYw7sqe42rDzAdg==",
-          "url": "https://www.coupang.com/vp/products/8514006087"
+          "id": "9832154999",
+          "name": "Insta360 인스타360 Ace Pro 2 브이로그 키트 8K 액션캠 128GB SD카드 포함",
+          "price": 694200,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/2cXc1PsCa2NMRGQv2evkBstuCtLP0hBWW0MiD61kYXDePF-vlsI2kw8Hlhh-Jifj1B1mkuip-armJ-ZLkcTU23AsvfeSBNMXshdsF8ulxgKgO7kXzmtu6cw3fxZAeUUPIkN4pRyt8FH4-E6lEHOcNfJ9KyRI7YPvNTpk5kaEnzAKcRbvCqzZ1MRF4rDIt0IsW68G5cYLxFyx7F-6ORl4EkwQ09dKU9KwhJPtPditJQHUuSHAV5QQlszdY1Ngcryu_8GJ_EsZ1u2q6loxq3eu_v9c45Nb82AWAzS-MChcHi2RUqmuO0kUI-zz9nCwiYd1Ar3d76arUciKfIc1H3iw8BFFV-hLB-2pxcIQoR_5C0PpGp2zV-zhpZQaeypn0mjsRfRdCVlj-CfhJOBUAYDCXyZHsnFZ7V3hz71grzUBPRtIM1yT0kAqbfLbG-6tmUIaxmDIa7Eh7i_GS7n8FhtzlbdnTWlWtCuE3UQX4-3Bc-hhqQiBdhoZyVPrATs8gjJMgS0u6wFI7Rjqm3rpYHcHI1Orac1lj3nTP6bIqE7bRe2ZtB8D",
+          "url": "https://www.coupang.com/vp/products/9832154999"
         },
         {
-          "id": "8801277234",
-          "name": "인스타360 싱글배터리 스냅샷 액션캠 Ace Pro 2",
-          "price": 497000,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/VmmHGq1JbYnti-2zVjmeMCSBnBZfVyU8ot38YCv_gfxdG4bQCXauQez6pJiE1jOzflYOips_Nn783X_Sc7wxezSrkHV06UEPNoUCx8DNnMeu0weYqNU0pABcg3Cz3_nCpjZV1kkqH96PphsyiT53VdAl_vl5N3YzBDwt-UCS7rVloTGr43Nvh3g6FgrZUCAtpW6PGDwbJJAxcFbNzPk2wXvsJhRSHPnqUIxovP7c7v0p2MkQpgdgtaKBoVLAIzz18hirxE85VO9G-eTwiDofOQQgeNXsSyq-8J7iymGjv1cOlS4UTJsWQKdWVJH7U_A4-5dj1XL2LMgNaygZCTHXPcZcGw705V9kEQs18BBnh2hxovDB0BDTljEyghkTlgKMsDSW0dTKdnm6HEARFCBxpnsrFU7ZYHoHTn9tNu9Z4GCrWdOv1_XyY_wBQZmOoHuZECtsJMBLcgtZtaaFfHSwJ7F3wjCVAXdooVk0XgJAuoiW__Tn4HduCGm3-ef_dVYnFBZzT1Oh-gMKRo0JTIdlkuVzLWQ=",
-          "url": "https://www.coupang.com/vp/products/8801277234"
+          "id": "9746511143",
+          "name": "[여름토끼네] Insta360 Ace Pro 2 에이스 프로2 스냅샷 키트",
+          "price": 961500,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/fhWFslrxAZSmRG4hfopr2nxhKElY-t1Xirs1b7-IYwNaSDvNiDUlQnx7PWYtN811L_Qz8Fskp8GK1BQgxpmPz_DQKFz3DIsDpOHZeS_sPbw-cHcmZT7P1dBFCZVjyLGl93M6tHFs8iINB-UKexio6L9BPVTRyb0zds_5LMzAucupeQICO7cZatKAf6i1fD3IYSbyG2d5L9DSYkSOYnCznffB90b2-L-DBYYNUadt26yt0KkODBYz401WoLIM-_h-0gMv0HwkL4B8FvQRLPDn_6V8gy6KXRy6Z6o24nLRepu7w7hlcGoxX5Nv0IBT0F6S618gytu2lUEIq8qJEu0h7BicJbbPcB4wGwTCm2W2dBULWY_b9HSIwOGkwqPW8Wqb8gGKVE6HuPOliVTL_g7JRtE_VDk0QXUjWuFAlfny3819cVvaZyYr6Fvs1Wr9gV0YHGMjfPw_-9nMM2pinmPxe8dgwpbqkovAlAyTZb27T_nXY88ZSV-oo7vjevfvDJnKq6bOpPhidjq-xBoiwHONWdxYXYPWT0IE51GyKH7lXzJPKFM=",
+          "url": "https://www.coupang.com/vp/products/9746511143"
         }
       ]
     },
@@ -1371,7 +1408,7 @@
       "model": "Flow 2 Pro",
       "cat": "it",
       "why": "인스타360 스마트폰 짐벌 신제품, 국내 정발·알리 공식 판매. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-19T16:45:23.089Z",
+      "at": "2026-11-26T22:36:04.197Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1381,7 +1418,7 @@
           "name": "인스타360 Flow 2 Pro 표준 번들",
           "price": 147870,
           "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/8shW4GrOsOZoNZlF8ij_qDmyGFWkPTbW866gQV5cOlwOUM0K1hm0mKOA1AV7QTaCWiThlab5AiH4uBd1pDlSR-hZ4JPQYkf4gRztnqcIs1r7sw-thQnp0Hx21IeLFRIzAITT60nDDuj1zbxH_htl9mGli-bjFKxz-hcKdNMFabhXTV1bqet7MktxKDXssHIKg6ub_LpXD8jjMNLFoI-MqAKfnvhHTyJu8HGGkGTn6wfDLyhFidwj4HIOhOhNSyAhowg3a-kKTXErEmjSrMgfsh7Kz5OZfvHx8Sof9Gn7cplfrmbD0oAN3K4yonBJD7UFjezaTEGngYT67zNlRErXp6YwuLeD_xyF7nlSbO_ELQVH0VJuHoEQYQh5kthZ063xm91dQlbHiJ_zghpCMpmEXVsdN2qcN6EBG8fMKYSDsZzrANb-tv8qcu74fJ8Dt78W-QoZeREMLp_ayjApDxTgxwYhZlgS8iTeigM6GAyKiAr6QQSA2sfGMYnA-xlgy5GfKda5RMkVkjQIsNqTEzg3eA88",
+          "image": "https://ads-partners.coupang.com/image1/1uP-mVe-f2LgHRa61jB8RXYfO4UyTI_g6VUYu2pMDCE_EEsMCGd2a4VqBgOLZkbrSJ-vlvKowv-NS9qaDVbugZWmOghhU-bkLyHFJyGCMgDha43NFqPIfysJ8zSshaI0MHqbnDASi6opFF09jrsAPgtVUvqQecnrKEQOYxWW7FDtfVHXOsOalFS_jLILz62sa6-zDRdA8ziyDclvCjYcExwL1lM33tfzUdl416ZmiufQuQFQppW52_WA7AZmebiaTgL-uIbf0YozGtrRGIex-KBd2FT1s5ClIcMmcheJerYVSUuT0NMjZ4P3x5HH3lI_Uf1dAsHpMb_gwBR3xWmBO4b1Ow4c-F_oxJWIjSYF1ejTiSUra6EfDVgy05tVkERdK1hyxryYhc8-f7iZi3pkcY0EmGaWYDLEzSU6-ACEfre8kXVa3phcqNVuXpv2UDim7ktsDDt4XfYTVoYWptn8O7r04Z9_GHgCvJbxz7bPvMcpv4TLtsUqu6skHrmNjUREeIfWjerMouzv29eFokKWdNbxUQ==",
           "url": "https://www.coupang.com/vp/products/8680370593"
         },
         {
@@ -1389,7 +1426,7 @@
           "name": "인스타360 Flow 2 Pro AI 트래커 번들 스마트폰 짐벌",
           "price": 179000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/pAbIyqTa9E6NrblrpGjOsaIVR-u4MGrx_ZLwCzHhO1nV7KS6-7Xea0bAshjhoIFRoBqDiPqU7eutZmu8nAdltPO9cEKgCK4RwHJPTMb27zm6M3IqAsmiB9xf-eMFFbOkgCx_SW939AIsAyhnLVyI1qmcVIBtIt1Fix1T5vyiVxOUqe6eFbXgoEwx9tRpiyW0N1eX5Ixo8camCQ1rZZVQPDk18LcLUju7mlMxkb7egl-b_8vSxyG2pBLUJw5poDruY__ZbGp30to4hDaaV4JWyNsbumoBrOK8uDVWcZVxa1X4DMDcu8W_kcgknQDxxwzCwhxCKZK6M0kPMSCvPNzmZ0l1Q3gDFepHnsp0MR2vMom5ay8TyZhCZpE83K8J94_RxyfAxao9xhoPO42mxIbUjUC0jAfq9z9ozDpbzHNqc4SYkR996DkqZuTyHfIIp91tjljcCMt9dDvQjEhTacfJpFkvpshAoo17gluncPVj_qSQX_VCJizQ9a8K0lNtdB58A1PQsrTrWDxEWsyk9ypuJ4ywMijZXjcxX3fbedFyRR3GR0k=",
+          "image": "https://ads-partners.coupang.com/image1/gYIPDaWXfojUPfuhgbI8oud5yZ_EyPAMjad0IJD7-8PA_QjfWgka5aLs8bDjcW072MQz2-ugOBIfvC9TmOZVdi-dtuZkl2CxPaCRdjy50JxD7rdm0Owx0LwmheVL46F78f3l-Z2c36hk4_lviJp7a_Cn_I7EYm80ILxjlyEhVNhH5zHSWK-7FySCTcW6SKliT_E5q4QZS6V3x6XqYronjZyi7nQSYaRzhVq6MxTDzSwf1jh7So0hVrxw1133HbeVqn2uE89MyTm939rv8FsepWM-Q__cMpKS4SFFcG__gy3iSF7y5QwtcHTmIye_dztzaf5pwk_V6tSDzyGo4znTNfkaQ5U_X0YrGGeLFRGWEnOvqFdAtQugHb2n7kH-lV-1eUiwAlH-AqHgDT7UcdsSxkMtlVP5OY0AVmq-VtujkVD47I8m6Df_De_mphfdFG6y0w3Lqi6O1Kk5yew6wKNmnLIrdiuWVuxA0dducbzEFWJIkLEY-tsrvADb4eDGP9t3eg4JMEEJQ28rkSkBHo_TYiCSzALRntnkkla_8rev7pAAklI=",
           "url": "https://www.coupang.com/vp/products/8700850284"
         },
         {
@@ -1397,7 +1434,7 @@
           "name": "[정품인증] 인스타360 Flow 2 Pro AI 트렉커번들 그레이 / 스마트폰짐벌",
           "price": 179000,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Kzl8A_lXVnejVZLjK365zCq1pkK0h2X11TqrA22bEsSH7oBMfH1I516XIk1OHTo6uqsu_0xGw8rhi1GJCrh-XjwxrmGiVWt0eWyy4RPATMCdOBteS-sc-j__95YuYQY6cbo9zzUiDS4GUr5gxPRZHloJJ8jylS2mcv-2qxASnJMs4GAFJBj2r0pw6etPnnsCgMuL64eeSCGJi5idzlwPSjclqyBKafcyDO6qcwRR5OyTCrXduv-mv6rOyOpyYN5eiQRpILqb3VDnijsa9MWhkOysiB5j43D-gjQiSSCfdYQ4HpC7_GyT1Ihm9G0iv8c_Xn4YvXiYeCy5KiIssThyMiWqzkYXnibSUM71TYfVPR788v1dXCpeyE1himltEjKsvAkEWSrNWVt-GSoqZ0iDvwubIfbZGkysBKoycKvknNKfPXBcMxCYCf-wLpRoQ-he7LEWEzGJefga2PbubkxE21fTpJ4GDj63Tdw00cQM5buHckKGpKtMtzMAuZF-2Ouo5IDRu9MADYI_rdVpHIA-slgOkJCJX62QlaAkRNvqEpDdmK3awg==",
+          "image": "https://ads-partners.coupang.com/image1/6fn4tZMlaYmM5tA86TXesyYfJp-3sIhShvu6oz8A5pu-ZYWjVsKyg6DdTu6JoF97xZhjmmB2iBCFTwafiZpId2PELK_xDfSfZef-Ap5jF5gGg4XM6t-cpopSoSeqTwQZT44AmEtrnrVrEb9K617ZVZqCTY0AvZsqGnHfWzERt7FZCKbIlaeNJBnrL_Xre0YEk1HkiY3ddHDHxFSrh3xla3amD3qNnkRfZXcZABkQcEGoRgipHNYULo7tnuXCL4N0ivXJz6y3c0swQByg3OTErUdulgPLNeWzdXVNZYAZka8lVRKflSvs_5qQmXTBRR3FrdiQurWIGC-L0FzWd5qPsaJcwuriev038nR7t96CS8SRHj8bch7nhtRj_jHYjE7TL2Ywl4GRxHQal0P8Ykjr-Enc46YMq8WDRSd_x8-EqYiZHUB85YO4W1p1o8nT8mE1VPFdGhvWvgAzFwBcuQ8huQ0bHuvdep7AUympFddhPID1Y9FAo-aMsSsOQWWhxWfaUQGp-PJM1fuCEUPhkzfuymw0kSrgoA3PIBQ3NWXYFoSdI62I",
           "url": "https://www.coupang.com/vp/products/8673037646"
         }
       ]
@@ -1408,34 +1445,26 @@
       "model": "GO Ultra",
       "cat": "it",
       "why": "인스타360 초소형 액션캠 신작(2025), 국내 정발·알리 공식 판매. 번들·용량 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-19T16:45:27.377Z",
+      "at": "2026-11-26T22:36:08.207Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
       "coupang": [
         {
-          "id": "9020977113",
-          "name": "인스타360 GO Ultra 액션캠 표준 번들",
-          "price": 479000,
+          "id": "9057764463",
+          "name": "Insta360 GO Ultra - & FlowState & 일반 버전 블랙 포켓에서 세계가 바뀌는 경량",
+          "price": 559040,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/Naf2WwHKeBwqEzoWNcETM9jerNXN1ufhtTnIRhHUkUiBW7_y0HSYH9ccU2brCx6IZKc9IIet6YP1dc6E7mUoX8A7tAQua0YmxEyoevHb5Xmy0qHVcunNhjRZMWSxAXb2LMlQQXxGj4J2Ohb3DWB6M8Ql266RuWVsU83lrHVBQaaqRIHdWfWXTBzXdctnkfPhxqFGugrMWaxHAvCEJj2q49BsbdH-G16lW-_bJ5u2iz6WYOhiaJZqYUZ-O-7qryo499AjB7sCgNv49V6r4fFdsOpqa9vuMCZZN3q9NNDZZpG5o31ku_Y9116ABEdnasSP-28BpuYeifxDbCE4IzL6oHlv3MCc6XVPabirCAWGQLvZhkTWkIn4DcFjydKq4cntx55GivinUcgvGw9XgWav47e8v-im5VZOO7Yft1xBJRq_ayl4fyS62P9yl4NlO_yGVzcn1EFd4Wovklhdkub4AoPK3Q9z87Cu-Z1LpuWccO0ZazPy1QJikEmjCGIVxjw-yzEJY5m8o01IU2xIUsdySIsiU8iEgV_ZXE9L79U8Z6yP2uE=",
-          "url": "https://www.coupang.com/vp/products/9020977113"
+          "image": "https://ads-partners.coupang.com/image1/wLaQ242bHoMstMOKwDTyzK8G5Q1a-vuzKeF6tIhtLvdMu_lT0QGAPmhwc4nQUV_L4A5e99QFJJjgnOMpa7F6DJXq_6WnQpoIBMRhNpMV7gx7iGqDTy_-2WuM0EvY0Y5Za4jVhJO9vZb23Du46t5ZV7vKIbsQx4P2CQlAKT8vCoRJZjFec7cF2vijJ5P3rgxDZvEnhEuvfK-ntDSaWx3YXSCN9Ra4M35VCURkS2eILc19v_iBUBQNHFQhHX1avrwtUNBj98Ikx_bw5V2aUBgOXkYmJjR49WaOW3NkHK_8Fivy9m7A_o07wtsCi9P7W5rD_OtmWZTWTQ7Qpir06r0ngZ5Ri4WMwcXowZh11PdF82lM3vDTOILfJB9r56mjfq3EWUb3PYsWiE0Rplkij20B5kWZBTG7hlTKl2IDSmX1lCzSGc96CvhulNLKpZzj9Kzvs9eRtl8HNBHgrxqHGfdpxeocoji2grGVTGZp0R2mgO9KPX2NaGwZSiSltan2QcH_YlNsKJnYsOdvEU0Wv-dZfniM2TFhwIP5z598XA8l7A==",
+          "url": "https://www.coupang.com/vp/products/9057764463"
         },
         {
-          "id": "9020977113",
-          "name": "인스타360 GO Ultra 액션캠 표준 번들",
-          "price": 486390,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/HhZnP44Fj9DkjF9YHiadKvogdZpOQQjLG9tFurdrH9odr6XkspIT_mdQBt2mrWdzTXlv7dMAnr46KaGmWNSGqVBOoHqfjHYfcACwQk_hIrkA8GU7T3EDYkqo8M4eoGVSfol_MRJvbFuykK4uqNbSA4EVlfFqK3-cv65vcDisTQ7ZDbJ31PbnRGs3HwMzkXjicwt8DvnOj6y8Hf-apFI3h5-IROfSb2BuBs-UjWxdG4pXpjCRdIo3HGEdBdSEWGzEbtfDCZ3bHrz1p_52W6gdZNe69i4ByUxTLp8K1RHRl2mwI5hV999L-cRBsYctBhtdEVwZEzITSYsFIitkpxHelilof75OfxjzLjyDeI_n72E4sWHRcdmHxWksn97LHfhGOk4XbT6qPJEcCV3Xd0usVyVhSSEMGSt6MaGwLcFr0myAf8nVX-OniGi5Ru43bgLXt0ZNI3WGHnvA6dwCtjOHxlosyN4BRZ04qgp6BU5OFNBPuAIYQKtNRPPiLucluna9HUaMls1vsQpqrbcr82NbRjkd",
-          "url": "https://www.coupang.com/vp/products/9020977113"
-        },
-        {
-          "id": "9141324559",
-          "name": "인스타360 GO Ultra 액션캠 크리에이터 번들, CINSBBEA, 미드나잇 블랙",
-          "price": 583000,
-          "rocket": true,
-          "image": "https://ads-partners.coupang.com/image1/1HCdk9WRpZPbtsWT1CpiJiMNgem6wMgZESNCZYItHIUNhKLB_cGBTw6mFLW8JHRT_6WougyirSo9Oq6PQzv328hc7za9lRqu7ppTG8Mcys_ogBJqfkpax97f9wJLbtFdyFqp7gHfEj0hpNeWLF08_5RYNOHanQXfvIKxamtBGsLVtNeOwulqL8j6yIe-mYnOb709bFkKJ42y3Blif7H0LIh4JSrv0xKQqZPBgNoiGhQNSlXJ_tbsMRdaEwiVuIwDd9--gcejKH09yFM7UgLdpN4roH8sy8_NHSCLBK2X5mz17cOIN7phUnjuW6016-dHTVZspvpKjxAzX2iNKU1xUNjVRJe3tf7GkpDw2KMFKU3wYa8qYTDvuvk4EnSCcz6xTD7eqjZkQQwPRMjLaU2R7KjwMcUOOoueDOTRUVAcnsTwJPFi1MI44rxLZZcyWl3cZWwxoV4DKeeoyDYnTfq53iD4Cepn8HTnjZhYeSQJHvNEU-iKsLWxFezyLuvCoy32Zbr-etgUHPc=",
-          "url": "https://www.coupang.com/vp/products/9141324559"
+          "id": "9812927582",
+          "name": "인스타360 GO Ultra 아틱 화이트 크리에이터 번들",
+          "price": 686000,
+          "rocket": false,
+          "image": "https://ads-partners.coupang.com/image1/gFumt9GdJ1cPo7EPgMazAJ03W8fApK6l2hW6nxQJg69Lt50sDMPk6LwEff191XJhplFZ6HS0bK-dxtHt4BZejN108O2sqzqcTeUM2uYm4NU9GvelcSzaJIY-UY6U19u5UZzlyQUVzCso2Bdz_l_myyFDiiPKKG992nvgWfowvv1j_GyXXZJn4CIJdPA2B8zbBjB6uT1dFDtUJdPtIu4UnF6bFATm0A6UfBJRSX8QgjFxnMSMpqiEsdihGqyVB6wx9yH7YxSRwdiuqHqtz8z31QD7hIaAU4ZHjlu3qfZ6cb8tRVaoM0CuY8EV-D1RfY1vaDIU-V8DGHZFrQLwYxK-gMfxQ6VyNUXvKrXF7U8R7GuhR5qjPSDpzJGvw-SzLzx0zujJvi36U-Z-hhSAtRj-Kjt7BjPeYJxnqKZTQ6r-qRdKBLOIjNn_lvcrHF0g4D0QNSiqRx_d_tstx4GF4tHeA3YPRRM5m-PmYjCp-Z8SDWXcRM-cd_iYZP8u7CQbQSnHqgXt-0CZ4OWliwXYmnL2cMG0Xzc_vcIK7Mgz_e6ma6s=",
+          "url": "https://www.coupang.com/vp/products/9812927582"
         }
       ]
     },
@@ -1445,7 +1474,7 @@
       "model": "P40i",
       "cat": "audio",
       "why": "앤커 사운드코어 P31i가 퀘이사존·클리앙 가성비 ANC 이어폰으로 반복 언급(2026.06 국내 정발 3.1만 원대) → 상위 후속 P40i 비교. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-19T19:44:11.954Z",
+      "at": "2026-11-26T22:36:12.268Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1453,9 +1482,9 @@
         {
           "id": "8452898124",
           "name": "앤커 P40i 슈퍼 에너지 이스터 에그 2.0 블루투스 이어폰",
-          "price": 50300,
+          "price": 74490,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/A_aCmYKyB6p6OdK-A_cksb301MXsu5pcZydcki1WujN5PPtRqR9Sg7GaltOjXW2PdndMEOpxuiWZ7ssWLu2oWPOORLW_P_0jX970xzCw-XyJ1cAIlDGTBSNMUHTepzFo7syFwLEBsErFZDPpZ6xnp0LuDXcqiYwEGd2Rf9E8IXWb3ny76JKaYIoayPKH25dLOOzbQ-KXnEdGfYS8Lk4TFDj-QkImHyu0Rg3vHzHe9NE1uNANEYHfvfN52raEWJADDu8_vuYQ3l5pXbjXpinxLcmyet6TnO57H7fBF7DyPw2I1bTfm8CjrYVjQCt-zQv4CcSkAprqgf9_8pfLRm7e4TwM_lKDWaSxx8Zb9ltk4PWDHYPTLY7b3ST_7zHxdGtP7dp1UQTGEPe5I_yN0t25FmGfW5Ykk25BfRKCFwsOcRGuLqv_rt0xf0ZOpnG-CwV8fDO4Fmknyzmu7qnLzB-PO1Yu-hj2xuBsfydOjt287tGepKrvx3xWI4KJY_hZZIEVTTgw8oO4Gzw7ZYk5dhOJXalGao8xO5YB1cfqj2wLXLSAoQ==",
+          "image": "https://ads-partners.coupang.com/image1/lqiCbsML1MAmxhLRltae9YzSnZOkOjE6mJxAqTuFGWjduifSgvae11jZWP4M3H_GbAkPR_EIfUiFtn1NLrpKFK5HwP1jw0ugYaRUxYK5Rqx34D8mOTFvt1BZrvc_-bvCnydA-NQFMvQRrPji25vRTu7Jmjx3_Cc_XG7RTD0-FstzlYNE6wBCq_9GzoSAEQt1anbQsDtEfveNsw9WN6sv7ZQNLCLTcWnapv8U1k2LEAbhpXIYdhsPFj_HKiRXeyFuM-8Vb3EstcT62QrtqbWQIqzSBUEVN1FgLhSudC9JxQ9zBzzeW3doP_ld4jhIZm3fgUnMrZy6gZs7hNBZSWsLEZBORGGXwE1N0GycsPAc85lIXbDo--guJaStAn1FlRsG2ferzLSeZoWNzZcexVfjFBhuvK7zbhhVugjteKnSmwtN8z8ws_fqAMarOSqMo1cZ3kEE08F10EbFe2e-X7pLId-vWx8nNF2Yt_KDwNQrwxqyf66jGrW-JH7OSqS_h1JzHc97LsMkxmbdSpvjdWRwqozMX5qexk3O7sVYk0y7EgUDVQ==",
           "url": "https://www.coupang.com/vp/products/8452898124"
         },
         {
@@ -1463,15 +1492,15 @@
           "name": "앤커 P40i 슈퍼 에너지 이스터 에그 2.0 블루투스 이어폰",
           "price": 75560,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/QJ6rkaou5bCNYiE8QMlvlhfCpfsg8ScyzIGhrsm96gthq5o-_Fso_9nzKV4Be8bX2fKudnbgzElT0oRPbl3fOWb8WyoFZAiNeoxMuGbowBfZo5uS-HQUQ6es1J1KAth3VG8w21Di4nvzL0zTzT6kIjHe68Vgfue6QcyPDOVGddFv0Tr_3xYJV3Sh1TPuXZy7Z9hXlj_SdvVqaBoNWHG8KsuwLYRWXN7abR6GZUkhRt8JFSCJLWb9fqHA9T8K5VAcYiMlKki-XC1dPl4kTKLCMkHi6tHFn8u1GS2oWHZmfdbRTqURfHpVz6IJBHnVr9qMli6qpBl_suErOtoe-KWWtihYgL8uQjoCKT93mpwC4NCWmcQlMnFk84S3dfPVBVv6rMoASix7pWSwiw0gRXPkYpoMlszgcf6cqXkRobksKNHt6L8rbdjBlkmnKYU_9O_xLXJ8xHgrt0ULLbqEhkvKxBpsybOEVKmwdcxcAcg4P-5qfNoD3lBFtUq5wXmU9bM1ltJsADA6HfUYVwNnLJNvtPNK5wML7_uDlBZJh-tbbjGSRB0=",
+          "image": "https://ads-partners.coupang.com/image1/V-yvMAG4BFXmDOtjV5Uo0eDMDO0cQ9aG25-55kaFB2L30izQjpjn2odK0NIEnrqIoanexsRWU18cMWxwOp32tmIVUd07CqyOier-S80iA9zOZiYNbo3TMq0oRtVoVO4eKUnwLT-gsuvwnu9W7DlG7H7xPe_x2MV2Mucl1mvZcImc7wV84ErHvftXPnvdfmv_Qb_sb2EY9lojufk5gV7d31vfCUCcWOmFrrTKcC6Xf9Rcl8-QzOB17S4ewo0D9df8xwes6A9c9F9g8dmpcqwz0iF8v4TAjj3uIJj-y4s73wwz--nHOJdl8mdXDVKMLZ537ETj5hRok3QkMc0f86H7_yWFyeBop0iQQyZfzPuIK7LAVGgUbVtyIFIoInoyOY2iTpCo5Gefee7Bmi2JgVmBSoMcYGa51Ij4jehCR5oDpYloeGKoot0btxdO_gHaE0AEOOVigCBkormmXs2TgZ8zJTYCdwOSGAXMUoBFTlkP0zr9D9ocy3lkft9Uxbdrgrobsh2_ycWeOmmKCnNtXwJyVgY3_w-prLFIuhHgTee-F81vPq9R",
           "url": "https://www.coupang.com/vp/products/8452898124"
         },
         {
           "id": "8452898124",
           "name": "앤커 P40i 슈퍼 에너지 이스터 에그 2.0 블루투스 이어폰",
-          "price": 75560,
+          "price": 84300,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/E4xjktbMn5gZThOuE9lcCA9SIP7hE1QtYg9sk-iGljElk5nrxEBW1b53VWFwEEPjzekB58poX2mbXT2tnB0UQcvVP4oTQJl4HzWgsMAYokyL0l0WovGM--oNwEEEvB4MpWW5oeLs75Yl64hBdNWLaHMo-MLHLe_eazVF1W9HelBkwKdDFXAvJNFu7tVhJemQ4k-H2bkpwhfdEB5UyKh7jTDXmpdLrY0nzPtDrbetCbDqvYo4uJMYbGn4sfADgNZtjfsGEbe2jH45n5dfOqp7x9EYocVCJLbE6if-ZSjK-3Qk_WvhhwauJ0pegestGg1nI2kBeGTL4FwL_l8FqShUHlwWw4z3QYQdpLL1WfWSGvmo4Aaf_6NejzUtLpJsqJRFIH5pPvz98-L-HC9mgXubNU6vIjkKmY18us9GpF7xVPVBkHj54O21NHT2lp3yh0oFH2gPXj175gwTyqgT4giXTfDgbr9VulOSdl_2PXGnROb-PpmI5ZqO5K6r0HlSBIDe5yXXWlA2MOCOwojdpoAo9JU4kWpQ4fWDEw8kSRZK9IaFPik=",
+          "image": "https://ads-partners.coupang.com/image1/zUbBXU_ixiCVfvE5zTiyXojKV2wj81hOAB7O2t6nJp6JV5CE9jgXVQEcYHbDKGzRxqeaHOH6Swg_BX5qT8ZwcFWG11edt01JTrm6BhqUf48ww6wTH1JQVovcvYAXg5bXRKFHyLbzQLTJcvtB9lHIoLVVznynAld1enLZzjD3QscD_SwaDX_QCDRipjaBzkRvSZfhVHmyVdUZOhfAy4XqUdHDjAeWLUW8faj2DpIFenHrmq2b2LKFlsbX4VviOHz2D1loiG8m_hG1bD6P-myp7eJjwzzoBwg16J-MYOoTGG7LCj9g4iZqPh37efS3i_6pR5zddITLkIjJRaY3FqzMVKdNimxuprLxqKJBd8EL_2OUBuHTCLgq-liDV2GRhYdzCgc4zGme7vsfDeu_oyjdrHKZFzNiP1-BelylUE5CnAcXBA6v7B4Kx_snXxsj49Ga7rW4p8eW-UnSiuy4ZD_QB2jGS3piH1BCXXFs-DvcgK7O4-ZlWeD9V5R1L-nFM5PdUQf-wac9PauhI-uO3rksVqPubXpEcGtamYYq4I8w9RG_Pn8=",
           "url": "https://www.coupang.com/vp/products/8452898124"
         }
       ]
@@ -1482,7 +1511,7 @@
       "model": "Q20i",
       "cat": "audio",
       "why": "퀘이사존 에디파이어 W820NB Plus 알리 핫딜 글 댓글에서 앤커 Q45와 비교 질문이 나옴 → 같은 Q 시리즈 보급형 Q20i를 가성비 ANC 헤드폰 비교 대상으로. 국내 정발가 확인 전",
-      "at": "2026-11-19T19:44:15.971Z",
+      "at": "2026-11-26T22:36:16.222Z",
       "status": "no_ali",
       "coupangTop": 10,
       "ali": [],
@@ -1492,24 +1521,8 @@
           "name": "앤커 Q20I 라이프 무선 블루투스 헤드폰",
           "price": 41710,
           "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/4Kxb9b-AjxUQHG6I4FxbM6gUN5hRNDl5ATQzZc4xcIASnfnsUcNeQK2MeWcjsDoUBIAwYenpKxi4lNSR6kmurqQ6Y77sFu8t3OqDUwcFpKigPR1ZoXag99Dd32JWFL9EF4UrsIAP1dSPBUB4RsHgnjlleyb56NbMk5yqkDcowHhUGZubtxTzJw6uDkHxTTTrnu2kPoSX_9gxivAbKhQvsLXUBt2x3F3DyomgHNrdf3TeCqweig6BiGzShy27-K0SZO-gzS_Q1VW7E7ix9J4vOetdkd6mlKxt8WMc7aDwNTYk17nKvCMdiUmVwLtmt4EoPhKhfdH-rKT9XRzUrz_mb_j9BngtdqD1-1001-x-0iJXd76h5TAZfYiaiftYYXIBTSZfILzFB8s9vNFx8phkQc385cN1jCuiMunTWpxx56tOWVPBsX1-uGiX57m1Q_mPevSaLbioz7sp6jMYevEVInOzS_CVP0guAm14ySjw3o7wyf28l4-B5A6TrUHGCpUSeMGjUSWWGMWeSZe5hWehLdJkfF8go75ib0AS6VNdX7XZGTs=",
+          "image": "https://ads-partners.coupang.com/image1/OtCsUn1-6KM1kmiPOtT2k19lB6OI4dUuucyk7hYcEugz1XBH_NfvwouyLhXKU88QO2bByr7sGhDnNa6CsKLXCE2zNQBJeVzG_bLcFgagfdwHFvcJ3zKrzDhUxy_C6457ziK4RmdsiWFR4Brz6UU46TaIBDoUfzLNG2NsH-CJ5DShCjekm-DiHHwqWe9RkCgp3TE6uwB9HuejT5Q0oxBzl26jO5Qj1lkwG7MQ3nBLT7DJ-xI7r47sJ9ozfFP4mCOC-Np9e2rq91qaCB1onDSH7mXt3SgJjz8cp_oleroWBzYEa_eezIIXFY9LgjIiLT4ObMHQLKl0KIsBo-cHMf80WvxbD3haBN5FlR46iBeSGS_exObjwTI2QRTDWHmO5UGtH1_luBtKjnFIjA7cri9_r8_45np164yv7szBLxJm_qKrAceOpZrcG9C-bMNiT1LfoxnvUvfhVdb9IlzGmzfrR3TnPBqoRylJtzNo7ePaFWRlmbuRlrnPqtmzwFguL16yb_QTNLjgG0i8fT46niaia8nNWD3NmQ0c1ClGpO1j5FpcPLk=",
           "url": "https://www.coupang.com/vp/products/7935515755"
-        },
-        {
-          "id": "8424219357",
-          "name": "Anker Soundcore Q20i（Bluetooth 5.0 무선 헤드폰）",
-          "price": 75890,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/ZSUunQWPvOrul2_QZYr7NAO4vnURJU9NYiMTUnuE3uGa7_uyA7sLIXgFG4Ey_MMoDGZI7eTdXSme8OptcUJE24VyYhcHMW3tATmLemH3DsO0XpH9mo96arecJ3CfJKKihUitqothcaBEPL0-IHK7tkCSVQz6_y47clESBWKmQQB9U_O9mkiuxUA15abYKMpiL3hSk5QtsbXAF4py07z0BA8eEjSz4B4aCBQNAcQFbsJ55LlOhZuAGppxmgjOL_NMbLhEdAPvl41HY9C8Av9Ohvp978egfLBsd71Jl7n2IAfeBFO8zN35M7HdbWUv5tsNY6hQ0D5S2Q-pwqyaCdHJrPZ-sSSMjoOG0vLp4LQHOlAmRCsecyihiBQcTb1Mgjq9GL6DwcGRuoGsC3A9OJ5026TSF37ISXxAZrctgrJzAR9167fEvwo20dR7lk3goNiqv9zWXszhjHPp-AsWVCpbBjBVJO86IPQPBNCNKH-_9rG5cwLo_iJTdJ0vud2n_ah15kJtu-DWeOR0wOxqSeVjFD_hrpVj0deRpM1WW58OBZcTek__",
-          "url": "https://www.coupang.com/vp/products/8424219357"
-        },
-        {
-          "id": "9803883382",
-          "name": "Anker Soundcore Q20i 핑크 베이지",
-          "price": 77510,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/nnjbwPPRSiqgNfMTnhZ2D3PyhOFUvB6CH6xyy94UYi0HRjauM2UEbvQeCuO39FmoFhCMfcY1OK2k42sATOU8sIRzFZF082Bns2aBIE5W-oijgOpr6ZMeGJ84YDCxo5vdwFoJatSScsgWzbnypsn-V0gSSE6wdZ3Te29t4pr_XDjpn8SDubIOhgLtkgsDr6GrS7kTHVuk3DkguvNyrV6WATFDrCwJb068iRZEZin9zXhB23GwNpVS7oiea4w7PAxuDSTINLCe8SOFzXC0qEQlWWnmKxuHHBMua_RfpwsmCSY7VNl11OtHwmuLaIkClCBX461cGov_Avx6K4zcvv4whDWjZowUuibjEf6n4ZZk5c90Y403JWBiK38cPqgUQDLFhPDQ-xhlXrctaL-HX0lrTt1gz3PcGCplUl5YZMVofHX6PbIaXphBgp1HsA12-JTgKnmdhZof3LHN2QkaVV71tNeBz2UWyS1tTdPeEswdbpe-EtOXhoOhGXLabGVLS9etxlTvWJS_mhWyCahVzhWkG4Ubqr09xxe9RXl9zOoOQq2jgV8=",
-          "url": "https://www.coupang.com/vp/products/9803883382"
         }
       ]
     },
@@ -1519,39 +1532,21 @@
       "model": "Space One",
       "cat": "audio",
       "why": "사운드코어 ANC 헤드폰 인기 모델(Space A40의 헤드폰 라인), 국내 정발·알리 공식 판매. Space One Pro와 구분 필요. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-19T19:44:19.959Z",
-      "status": "new",
+      "at": "2026-11-26T22:36:20.348Z",
+      "status": "no_coupang",
       "coupangTop": 10,
       "ali": [
         {
           "id": "1005005975276303",
           "title": "Anker SoundCore Space One /Hires/LDAC/블루투스 무선 능동형 소음 감소 이어폰",
-          "price": 105000,
-          "orders": 70,
+          "price": 105800,
+          "orders": 71,
           "rating": "96.2%",
           "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc9d0c1e7dbad4682986c9cadccfa95eej.jpg",
           "url": "https://ko.aliexpress.com/item/1005005975276303.html"
         }
       ],
-      "coupang": [
-        {
-          "id": "9771967331",
-          "name": "Anker Soundcore Space One 블랙",
-          "price": 128360,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/cFGRs7Z9dv-NjPokcKPcWGzGvaKbWOduT5WEFVGd8H6DBz52ZkgI0jbc9SeglhEe5KygIWEHoe_7-Pb-BF6DyQ-cz_3gQNhdxE3lBImfCWO8Zxt-abRcTBrXChuUX1D2-kGsLbsb6XykoJ9uznfWfYjOOUZ5IGshlX06goSdHPS3LahCyGp1OhJ-2JrOqEFpcmDxn13kLQWLltt-XuKhmuAS2gcXu28z0CnkFCoeXP_xdFeuJOUTpha_mQGHqWCWB7ozAjfyO9jSc9rhxKBe8XBDICzaCqQbIEdNj-cSSz6ZnhGP6GtCDPABDfCCwVFfKVuDBIbMjAQMLd7alrQ_MKrrzty8iGWETwnE9wVPrGFKkwYhbdMdO2ZAm8zCwvuqU2_VEocJ24W2wbg06H5Kn2rcQ2-UQ4wOXTef3RYZz5eW5Lzxmu8h4Iw_321mYlvuTDw897vs1NfBwTvX7QntLcO75DJg-2YqY_A77x5z362piH67piqVQ_pgAXblX7SKN42iRRPC2tlKM_SK0jSnNqSbqcDl3CUbx2-4UtBbwQUPr08=",
-          "url": "https://www.coupang.com/vp/products/9771967331"
-        }
-      ],
-      "best": {
-        "aliId": "1005005975276303",
-        "coupangId": "9771967331",
-        "aliTotal": 105000,
-        "coupangPrice": 128360,
-        "verdict": "meh",
-        "diff": 23360,
-        "pct": 18
-      }
+      "coupang": []
     },
     "Soundcore Space One Pro": {
       "q": "Soundcore Space One Pro",
@@ -1559,20 +1554,11 @@
       "model": "Space One Pro",
       "cat": "audio",
       "why": "사운드코어 ANC 헤드폰 상위(LDAC), 국내 정발·알리 공식 판매. Space One과 구분. [근거 약함: 개별 핫딜 글은 못 찾음, 브랜드·가격대 일반 정보]",
-      "at": "2026-11-20T03:32:29.938Z",
-      "status": "no_ali",
+      "at": "2026-11-26T22:36:24.275Z",
+      "status": "none",
       "coupangTop": 10,
       "ali": [],
-      "coupang": [
-        {
-          "id": "9731892902",
-          "name": "Anker Soundcore Space One Pro 미드나이트 블랙",
-          "price": 214730,
-          "rocket": false,
-          "image": "https://ads-partners.coupang.com/image1/C156z14e8YCdI0HxC01tUyrlH-023YfiV59_ArTwXmZZuQ9yWGiWV2psYC5GA_tA75Hxk2qP2zB2yL_z9xrZ-QuEW05QNuli-Xihixn6D9R94mdrvNeTZFeJB3BaVfz4yK5ou444jRlSRhJRyF1oZ5r0h3Wion0-CFBxKtOq6VXq4uRIkF5bq3Cb6TJvm2EzXcd2kQrqIkIzCjSJcHe7gaBIS1ZUeuRjsdgo7cuHsJZ48QHedqSXBIw40oNVETY5DGOUsVl311HY5_lFEghyfuNtql1wICThEsIvwTix7bEm6EUtd00Y1RZZMhpGmA8I59f2OIGOrQdhR49p8RKCEG28voG-sAu4Efx1j9NJ6HniJYRprZNXBWHqr8CqzgHiRiNfwEVujTyl4Gv5ZsxgTcDw5G8jF79vJUvAqt78IFVWAmRG9YA7YqthpZf0Gg2hIOr5XSCbl9fR67S7X1zQy0zY5WfeEuuKSpBe_w-FQiUoUzuS9o8P6sToAz98LCDGUqJESFM--UjksMpRuYI6f0Z8RnCoTQnht-pBSBemY_p3wA==",
-          "url": "https://www.coupang.com/vp/products/9731892902"
-        }
-      ]
+      "coupang": []
     },
     "Soundcore Liberty 4 NC": {
       "q": "Soundcore Liberty 4 NC",
@@ -7284,5 +7270,5 @@
       "review": "11/9 알리 API 25,300~26,700(공식 스토어 아님) → 소액이라 1만 원 차이 나기 어려움"
     }
   },
-  "updatedAt": "2026-11-26T13:10:30.378Z"
+  "updatedAt": "2026-11-26T22:36:28.208Z"
 }
