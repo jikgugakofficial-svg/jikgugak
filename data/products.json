@@ -602,10 +602,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynB9pSRP2",
     "sample": false,
-    "checkedAt": "2026.11.22 알리 자동",
+    "checkedAt": "2026.11.26 알리 자동",
     "slug": "ali-qcy-t13-earbuds",
     "name": "QCY T13 무선 블루투스 이어폰",
-    "priceKrw": 24805,
+    "priceKrw": 24412,
     "domesticKrw": 22660,
     "domesticSource": "쿠팡 화이트, 무료배송 · 11/3 확인",
     "buyUrl": "https://s.click.aliexpress.com/e/_c421DlQp",
@@ -630,13 +630,6 @@
       "checkedAt": "2026.10.26"
     },
     "priceLog": [
-      {
-        "at": "2026.11.12",
-        "field": "priceKrw",
-        "from": 23513,
-        "to": 27027,
-        "source": "알리"
-      },
       {
         "at": "2026.11.12",
         "field": "priceKrw",
@@ -698,6 +691,13 @@
         "field": "priceKrw",
         "from": 24223,
         "to": 24805,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "priceKrw",
+        "from": 24805,
+        "to": 24412,
         "source": "알리"
       }
     ]
@@ -1339,12 +1339,12 @@
     "shipUsd": 0,
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 자동",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "amazon-bose-qc-ultra-headphones-2",
     "name": "보스 QC 울트라 헤드폰 2세대",
     "category": "audio",
     "shipNote": "미국→한국 무료 배송(11.03 확인)",
-    "domesticKrw": 519000,
+    "domesticKrw": 467700,
     "domesticSource": "쿠팡, 로켓배송",
     "domesticUrl": "https://link.coupang.com/a/iynCarFhMy",
     "buyUrl": "https://www.amazon.com/dp/B0FDKR293G",
@@ -1361,13 +1361,6 @@
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9153372586",
     "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/9251/b5b67e869837e0a35a1adf7e04e0640bc455b92c9d48463d3b8348dff49a.jpg",
     "priceLog": [
-      {
-        "at": "2026.11.10",
-        "field": "domesticKrw",
-        "from": 482700,
-        "to": 519000,
-        "source": "쿠팡"
-      },
       {
         "at": "2026.11.10",
         "field": "domesticKrw",
@@ -1429,6 +1422,13 @@
         "field": "domesticKrw",
         "from": 467700,
         "to": 519000,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 519000,
+        "to": 467700,
         "source": "쿠팡"
       }
     ],
@@ -3730,11 +3730,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/icLoGHV3gy",
     "sample": false,
-    "checkedAt": "2026.11.24 쿠팡 자동",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "ali-baseus-inspire-xh1",
     "name": "베이스어스 인스파이어 XH1 노이즈캔슬링 헤드폰 (Sound by Bose)",
     "priceKrw": 174901,
-    "domesticKrw": 316300,
+    "domesticKrw": 326800,
     "domesticSource": "쿠팡 해외 판매자, 코스믹 블랙, 무료배송(국내 정식 판매 없음)",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C27y349f6dLxpGxw0ruz6J5gZhLNS4iyjYDmpb5aNOZEzWD8P54TQMFzGcsDGcyHAym9Rwk7L6Z3lmA7sM4hBsWvgt6f3mrBU2JTj9hcpwGwStMNKP8cZ7Af2tGgWGYloaYuu0LjBOznWf7tunuIZwE5eEhfrxG9cBcmKSSZHPw9pAN5AC104xN2Sl7vqDPpLn9OaqAb2ctuz2WjOe15tCnywLcIA6NlutrPLwrDthkNnJ348grTpjjsHq8yBbfHFiZBGIxI6kVSMI4AXGWS0sc3X7SX0EDwFfPPXlm8KpLkdZg4ojJXEonur2j3erkTyYTyBzQwrbG73MsZ52HpF8drVI4ni6PIC9kn6obSk24JQpbBt5Fsf7VV3i2q82Yz5JmMc8MkI1OVH6ZjDR6870m8rqkdAP5bZFmHUwIx0FMgJ4kc27qryAQARZtxDfr3vck38E4lAWZHHHszQwsOQ9ufLtLnezIAdXCSdGODxRxmSbgs3Qu87GLXd1JAYEUKU7SXlEyOAzZgVyYh5NUhKqFcAgt82TCE32yPh1ZMTrSsDWOeg7LiriTpID11nYLQq2KMWDsRH9IMPNCwONZPheyO8Q2PiFwty2m6D5vURCMwCoy7Ui4uOTNeBao2qHN71iXyDu7Tw8vXJhI4lBEcYx2dw1brmmFXvooYMN8bVScrdgIIk6Qz6rwQNQ7M2ZGgB6YWF354d81lfp",
     "risks": [
@@ -3760,13 +3760,6 @@
       "checkedAt": "2026.10.28"
     },
     "priceLog": [
-      {
-        "at": "2026.11.09",
-        "field": "priceKrw",
-        "from": 181957,
-        "to": 183021,
-        "source": "알리"
-      },
       {
         "at": "2026.11.10",
         "field": "priceKrw",
@@ -3828,6 +3821,13 @@
         "field": "domesticKrw",
         "from": 315500,
         "to": 316300,
+        "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 316300,
+        "to": 326800,
         "source": "쿠팡"
       }
     ]
@@ -5664,14 +5664,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.22 알리 자동",
+    "checkedAt": "2026.11.26 알리 자동",
     "slug": "ali-ugreen-nexode-air-65w",
     "domesticUrl": "https://link.coupang.com/a/iBYTJWEq9k",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3CmyH9YFbcdrf7wjUSwbCj003MaHic22LKqNgmHQyfHpkAyTjzAOBpVFIPerq3SIEmLXaLdVhi0KffVdKJvOT9rXGrF13sg7bkeeZdXFvQenLAVLuEFjAwYEqSufUFEYWM1Ailj7x8eW8o2PDOzdB3WSnDx3dHCy1cM5a6nPlvV99eZOjpmewHDo8UZh7c6u6LpYROnc2NhKUeuOMHA8yr4BuYplbMUAvTcWaxxEDzxavmsTFpX6iXDlvbXxftfxZhjhzaeOrww9iB06I4Z2ZGqCw3HZ5UHp8JRviOZE3MelcU6Fid7PzgtN6j3izhfQRhfN16nbiGKjPD3iNX1pFX1UyTOC2wVTt7TqjW2LebZ2DDais0XWLH3wOpPSolOWnhYNA4Ayh8FqMC1bvceVzup9WDcYyf69KPT2Utyqj7SE8pcafVQ4nIgP3lUYZm0QqU0lJy6XhmpUdM3IKak6KAPVfxitzqWf8cNsjtOhruqGl46TTTwtwuYVHjZAD8DcrFPQfOZz5G8UY9kExKhIgU9qfXoBhc20Jp78QpjRgRQZGh52G8zNJYXZRtZlA9hLy9KkubgSvQB9NHW5avtpg6YzJQgwNXLr5J6yb5WRxSE0JWRm16V6FSyxiBgtsV3tj8NMs9FGmxWu8x51sRQYEMi0bR5QCb48Fk68RNG5JWDLKfakUXXp0ybNPp1F3VRIeH8K4X8YKWzgzC8",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa1381f441eea416d9504e0d6a600c793q.jpg",
     "name": "유그린 넥소드 에어 65W GaN 초소형 충전기",
     "category": "it",
-    "priceKrw": 33257,
+    "priceKrw": 33045,
     "domesticKrw": 53900,
     "domesticSource": "쿠팡 판매자 상품(해외 판매자)",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9780240448",
@@ -5757,6 +5757,13 @@
         "field": "priceKrw",
         "from": 33137,
         "to": 33257,
+        "source": "알리"
+      },
+      {
+        "at": "2026.11.26",
+        "field": "priceKrw",
+        "from": 33257,
+        "to": 33045,
         "source": "알리"
       }
     ]
