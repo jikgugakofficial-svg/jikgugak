@@ -1,0 +1,277 @@
+[
+ {
+  "name": "8BitDo Pro 3 블루투스 게임패드",
+  "aliItemId": "1005010023840411",
+  "aliStore": "DreamPi Store",
+  "aliPriceKrw": 76000,
+  "coupangQuery": "8BitDo Pro 3",
+  "coupangBest": {
+   "id": "8919125217",
+   "name": "8BitDo 프로 3 블루투스 게임패드",
+   "price": 51310,
+   "rocket": false
+  },
+  "diffKrw": -24690,
+  "pct": -48.1,
+  "pass": false,
+  "matchNote": "쿠팡 정발 9155978252는 79,000(로켓). 최저 51,310은 비로켓, 색·구성 미확인. 어느 쪽이든 알리가 비쌈.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "모델 일치 추정, 바코드 미확인",
+   "q3_판정쓸모": "아니오 - 국내가 더 싸 직구각 불가, 판정이 늘 한쪽으로 쏠림"
+  },
+  "verdict": "국내가 나음",
+  "excluded": true,
+  "reason": "쿠팡이 알리보다 24,690원 쌈"
+ },
+ {
+  "name": "게임서 사이클론 2 블루투스 게임패드",
+  "aliItemId": "1005008154368347",
+  "aliStore": "GameSir Direct Store",
+  "aliPriceKrw": 64350,
+  "coupangQuery": "게임서 사이클론 2",
+  "coupangBest": {
+   "id": "8730129312",
+   "name": "GameSir 사이클론 2 블루투스 게임패드",
+   "price": 38880,
+   "rocket": false
+  },
+  "diffKrw": -25470,
+  "pct": -65.5,
+  "pass": false,
+  "matchNote": "쿠팡에 38,880~45,800 여러 옵션. 알리 옵션(Blue 등) 불명.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "모델 일치, 옵션 미확인",
+   "q3_판정쓸모": "아니오 - 국내가 더 싸 직구각 불가, 판정이 늘 한쪽으로 쏠림"
+  },
+  "verdict": "국내가 나음",
+  "excluded": true,
+  "reason": "쿠팡이 25,470원 쌈"
+ },
+ {
+  "name": "게임서 G7 SE Xbox 유선 컨트롤러",
+  "aliItemId": "1005004904927328",
+  "aliStore": "GameSir Official Store",
+  "aliPriceKrw": 57453,
+  "coupangQuery": "게임서 G7 SE",
+  "coupangBest": {
+   "id": "8409319613",
+   "name": "게임서 G7 SE 유선 게임 컨트롤러 화이트",
+   "price": 44520,
+   "rocket": false
+  },
+  "diffKrw": -12933,
+  "pct": -29.1,
+  "pass": false,
+  "matchNote": "쿠팡 최저는 화이트 옵션, 알리 색 불명(교체 패널 포함).",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "모델 일치, 색 미확인",
+   "q3_판정쓸모": "아니오 - 국내가 더 싸 직구각 불가, 판정이 늘 한쪽으로 쏠림"
+  },
+  "verdict": "국내가 나음",
+  "excluded": true,
+  "reason": "쿠팡이 12,933원 쌈"
+ },
+ {
+  "name": "게임서 노바 라이트 스위치 컨트롤러",
+  "aliItemId": "1005007093085200",
+  "aliStore": "GameSir Official Store",
+  "aliPriceKrw": 27158,
+  "coupangQuery": "GameSir Nova Lite",
+  "coupangBest": {
+   "id": "9268829451",
+   "name": "GameSir Nova Lite 스위치 컨트롤러",
+   "price": 20950,
+   "rocket": false
+  },
+  "diffKrw": -6208,
+  "pct": -29.6,
+  "pass": false,
+  "matchNote": "쿠팡 다른 판매자 34,390도 있음. 알리 색 불명.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "모델 일치, 색 미확인",
+   "q3_판정쓸모": "아니오 - 국내가 더 싸 직구각 불가, 판정이 늘 한쪽으로 쏠림"
+  },
+  "verdict": "국내가 나음",
+  "excluded": true,
+  "reason": "쿠팡이 6,208원 쌈"
+ },
+ {
+  "name": "로지텍 C270 HD 웹캠",
+  "aliItemId": "1005012292125908",
+  "aliStore": "Hong Kong Digital 3C Boutique Store",
+  "aliPriceKrw": 32005,
+  "coupangQuery": "로지텍 C270 웹캠",
+  "coupangBest": {
+   "id": "6628646668",
+   "name": "로지텍 C270 HD 웹캠",
+   "price": 24800,
+   "rocket": true
+  },
+  "diffKrw": -7205,
+  "pct": -29.1,
+  "pass": false,
+  "matchNote": "C270/C270i 혼재 판매. 쿠팡 로켓 24,800.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "모델 일치",
+   "q3_판정쓸모": "아니오 - 국내가 더 싸 직구각 불가, 판정이 늘 한쪽으로 쏠림"
+  },
+  "verdict": "국내가 나음",
+  "excluded": true,
+  "reason": "쿠팡이 7,205원 쌈"
+ },
+ {
+  "name": "로지텍 G435 라이트스피드 무선 헤드셋",
+  "aliItemId": "1005012705546036",
+  "aliStore": "Logitech Original Shop Store",
+  "aliPriceKrw": 74597,
+  "coupangQuery": "로지텍 G435 헤드셋",
+  "coupangBest": {
+   "id": "7136335265",
+   "name": "로지텍 G435 게이밍 무선 블루투스 헤드셋",
+   "price": 54410,
+   "rocket": false
+  },
+  "diffKrw": -20187,
+  "pct": -37.1,
+  "pass": false,
+  "matchNote": "쿠팡 같은 상품번호에 54,410~153,780 옵션 혼재(색 차이 추정). 최저 옵션 기준.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "모델 일치, 색 미확인",
+   "q3_판정쓸모": "아니오 - 국내가 더 싸 직구각 불가, 판정이 늘 한쪽으로 쏠림"
+  },
+  "verdict": "국내가 나음",
+  "excluded": true,
+  "reason": "쿠팡 최저가가 20,187원 쌈"
+ },
+ {
+  "name": "스틸시리즈 QcK 헤비 마우스패드 (Large 추정)",
+  "aliItemId": "1005010731184280",
+  "aliStore": "The River Esports Store",
+  "aliPriceKrw": 52307,
+  "coupangQuery": "스틸시리즈 QcK 마우스패드",
+  "coupangBest": {
+   "id": "200660649",
+   "name": "스틸시리즈 Qck Heavy Large 게이밍 마우스 패드",
+   "price": 38590,
+   "rocket": true
+  },
+  "diffKrw": -13717,
+  "pct": -35.5,
+  "pass": false,
+  "matchNote": "알리 옵션(크기) 불명, 검색 표시가 34,400과 상세 52,307이 다름. 옵션별 가격 편차 큼.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "크기 옵션 불명으로 짝 확정 불가",
+   "q3_판정쓸모": "아니오 - 국내가 더 싸 직구각 불가, 판정이 늘 한쪽으로 쏠림"
+  },
+  "verdict": "국내가 나음(추정)",
+  "excluded": true,
+  "reason": "쿠팡 로켓이 쌈, 알리 옵션 불명"
+ },
+ {
+  "name": "키크론 K2 HE 무선 마그네틱 키보드",
+  "aliItemId": "1005008285430854",
+  "aliStore": "Keychron Official Store",
+  "aliPriceKrw": 186831,
+  "coupangQuery": "키크론 K2 HE",
+  "coupangBest": {
+   "id": "8644785312",
+   "name": "Keychron K2 HE 무선 기계식 키보드 (RGB)",
+   "price": 240000,
+   "rocket": false
+  },
+  "diffKrw": 53169,
+  "pct": 22.2,
+  "pass": null,
+  "matchNote": "알리 상품은 ISO 레이아웃(스페셜 에디션 표기), 쿠팡 8830896046은 US 278,930. 배열·에디션 불일치 가능성이 커서 숫자만 통과.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "아니오 - 알리 ISO와 쿠팡 US/JIS 배열이 달라 같은 구성 확인 불가(한국은 ANSI 한글 선호)",
+   "q3_판정쓸모": "예(고가 키보드라 차이 큼)"
+  },
+  "verdict": "보류",
+  "excluded": true,
+  "reason": "배열(ISO vs US) 불일치로 짝 불가. 알리 ANSI 옵션 있으면 매니저 재확인"
+ },
+ {
+  "name": "안베르닉 RG406V 안드로이드 휴대용 게임기",
+  "aliItemId": "1005007727839859",
+  "aliStore": "Anbernic Official Store",
+  "aliPriceKrw": 226137,
+  "coupangQuery": "안베르닉 RG406V",
+  "coupangBest": {
+   "id": "9549227891",
+   "name": "Anbernic 안베르닉 RG406V 휴대용 게임 콘솔",
+   "price": 576000,
+   "rocket": false
+  },
+  "diffKrw": 349863,
+  "pct": 60.7,
+  "pass": null,
+  "matchNote": "숫자만 보면 통과이나 알리 대표 옵션(램/저장장치)과 쿠팡 옵션을 모름. 쿠팡 576,000~598,900은 상위 저장 옵션 추정. 알리가 $150(약 20만원) 초과라 관세·부가세 약 10% 가산.",
+  "values": {
+   "q1_찾는사람": "근거 미조사(숫자에서 탈락)",
+   "q2_같은제품짝": "아니오 - 램·저장 옵션 확인 불가(저장장치 옵션 주의 범위)",
+   "q3_판정쓸모": "예"
+  },
+  "verdict": "보류(옵션 확인 시 직구각 가능)",
+  "excluded": true,
+  "reason": "같은 옵션 확인 불가"
+ },
+ {
+  "name": "안베르닉 RG35XX H 휴대용 게임기 (3.5인치)",
+  "aliItemId": "1005006567254326",
+  "aliStore": "Anbernic Official Store",
+  "aliPriceKrw": 84968,
+  "coupangQuery": "안베르닉 RG35XX H",
+  "coupangBest": {
+   "id": "9805395579",
+   "name": "안베르닉 RG35XXH 휴대용 게임기 3.5인치 IPS 4K WiFi 온라인 게임 콘솔",
+   "price": 159900,
+   "rocket": false
+  },
+  "diffKrw": 74932,
+  "pct": 46.9,
+  "pass": true,
+  "matchNote": "쿠팡 같은 상품번호에 159,900/204,900/257,900 옵션(저장·게임 구성 추정). 알리는 '5000개 이상 게임 탑재' 대표 옵션, TF 용량 불명. 면세 한도($63.7) 안이라 관세 없음. 사전탑재 게임은 저작권 이슈로 주의 문구 필요. 출고지에 따라 펌웨어(리눅스 64비트) 차이.",
+  "values": {
+   "q1_찾는사람": "예(근거: 알리 위키·해외 딜 사이트 반복 등장, 알리 주문 수 수백 건 / https://slickdeals.net/f/18627466-anbernic-rg35xx-h-retro-gaming-handheld-40-65-fs-aliexpress)",
+   "q2_같은제품짝": "조건부 - 모델명 일치, 저장장치(TF) 옵션·바코드 미확인. 매니저가 쿠팡 옵션 확인 필요",
+   "q3_판정쓸모": "예 - 가격 격차가 커 헷갈릴 만함(쿠팡이 쌀 수도 있는 옵션 확인 필요)"
+  },
+  "verdict": "직구각(조건부: 같은 옵션 확인 시)",
+  "excluded": false,
+  "reason": ""
+ },
+ {
+  "name": "노스바유 NB F80 싱글 모니터암 (17~30인치, 2~9kg)",
+  "aliItemId": "1005003330207949",
+  "aliStore": "Easy-Living",
+  "aliPriceKrw": 14678,
+  "coupangQuery": "노스베이유 F80 모니터암",
+  "coupangBest": {
+   "id": "8561094194",
+   "name": "노스바유 싱글 모니터암 NB F80 (화이트/매트차콜)",
+   "price": 29000,
+   "rocket": true
+  },
+  "diffKrw": 14322,
+  "pct": 49.4,
+  "pass": true,
+  "matchNote": "알리 'F80 A5' 표기(색·A5 의미 불명, 모델 같은지 상세 확인 필요). 알리 배송비는 API로 모름: 약 4,300원 넘으면 차이가 10,000원 아래로 떨어져 탈락. 국내 다른 곳 26,970 표기도 있음. 클램프형 2~9kg 가스스프링.",
+  "values": {
+   "q1_찾는사람": "예(근거: 컴퓨존·다나와 판매 상품, 알리에서 모니터암 찾는 글 / https://zod.kr/display/1260436, 쿠팡 로켓 판매)",
+   "q2_같은제품짝": "조건부 - NB F80 모델명·하중 일치, 'A5' 표기와 색 확인 필요",
+   "q3_판정쓸모": "예 - 저가 상품 퍼센트는 크나 배송비가 판정을 바꿈"
+  },
+  "verdict": "직구각(조건부: 알리 배송비 4,300원 이하일 때)",
+  "excluded": false,
+  "reason": ""
+ }
+]

@@ -7733,5 +7733,166 @@
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C269NnKb47ybAXgP9ksLWgMgNIITuYhtg3ZGWi4v8Wlk6kSAwVFirlr5SfSp6eBmXdkKfJq4T5VVENqvpjofKNGaN6qYeLdGvnPHM8VubWa4VQqu7EjQsntKrrm7ghidqLoBipCn6gfhFwbmwVO2kNnFxStWjg2Hl3x3mKn03kIVRmW0pvSBKcLactJutisze53YyX7trMdc5YBExifL8ugmMu3CPhisdXSJ5DYI5FWonVDSr1Ut12IEOgp41JQRFfKRPssLOQyQVVEMtiXeD7etblWBPGXWWguTAmGRO4lRItCnCGU1xvIesmZH9rBhGBMR6Fn3Q957HRhQkOKV9OCmgZjCZNeKKPYVeXL9jsQqPaNskKaANvWj02nYCaJPJ3k15F7WbXI9J9lbDn10EClWEXUwrAuSiD6t0DEXSGdwSUwOeSAYIVVZzJBRi9hvEPWN7dsQobfQHUj1X1jNI7ZoaJzyLMdclGa8QZAx453LgGFqj60n4ucH9h9T9pqdV479EEKIakFxipGzsB0Kl78rD5mzipeIhsUwHad6AzLN8kgxMw2XIPJcbNvGGBafY23vPIbHbrlvVMsjc5EKfIK5tb1rd1R042Eqyr4fli5Hynb23xrZLtw0ZqUJuYKOuHvKsqk2yKOxtzx008KlBnUyMZRUyQbFoL1pE5Nl1hakhruFZOPMJ87IyaB1pYR1xBOx7yvPxLPmdO",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7dd98424e36145f2b4c62ebc3e15a197s.jpg",
     "domesticUrl": "https://link.coupang.com/a/iXvkKowtXM"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.26 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9835304316",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005005292253988.html",
+    "slug": "ali-fnirsi-dso-tc3",
+    "name": "FNIRSI DSO-TC3 휴대용 오실로스코프·부품 테스터(3in1)",
+    "category": "it",
+    "priceKrw": 47805,
+    "domesticKrw": 93400,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~3주",
+      "알리는 NO.1(Standard)·NO.2(Option) 두 구성이 있어요. 사이트 가격은 기본 구성 기준이에요",
+      "쿠팡 'DSO-TC3 기본형' 상품과 비교했어요. 쿠팡은 구매대행 판매자라 구성품을 결제 전 확인하세요",
+      "비슷한 이름의 DSO-TC4(상위 모델)와 헷갈리지 마세요",
+      "알리는 첫 구매 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요"
+    ],
+    "summary": [
+      "FNIRSI DSO-TC3를 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "FNIRSI DSO-TC3 (500kHz, 오실로스코프·트랜지스터 테스터·신호 발생기 3in1), 기본 구성",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명 'DSO-TC3 기본형'(9835304316, 93,400)과 알리 FNIRSI Factory Store 화면(옵션 NO.1 Standard, 무료 배송)으로 맞춤(11/26 매니저)",
+      "checkedAt": "2026.11.26"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iZayGacj5E",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C2290FbQn3IcMxMkgTBoiGh1ockhIXcabmL6vCnRUhGiPEzbPAb0yPxbJ2rpxytKphRL6nu6ccJVcaEEbV9Zw1ZQ2pQBBS4l9g4D5SZMOHOate6tGJgPWRuM7RWpXjwYSH3LkSst975nPzLVZaFtQxA8pKlwALjDGFFlvuQPzF30h7dKaGL4dG9U7goNEczLJr6CtEp5lbIBcxyKNs4vJKiPZ2X4onQQ9KZA8IQSRvAMuPgDDbZTbFLZF2jRo1fZcz2QoYLKnTQchbVAuFmUgNIOjvCuLOQWzBCgklLf0MWIigow4D6SBgUNQWOOdMjzyhZGuwSbrf34zBM7a5s2zydsTnw0aJkw5CU2vpkeknU6J1PofYimXi9puQiR4WMIT5dyXK8n6SE44pFYZERKn8qoDQMacQym0PQhXwmXFnM2aADVoASwIFVhfx0WfXprcBHb5gnJfEQtS4fgzhDeW5r7eTdcf1RzHt8KclVueh8F8VxyD7vMijlgPOB64sU34yO50GjYQp98Lewv99pHWP7AbHQxcvtyO9Y0WwlO4FigXJwCLfnBXjyQ8vaVylSy7y3o52NagpppeGFH3VKLrKploKyCwllCi6h1qDx9g2uu06rT9RudJiMZwww7imVM5Y1e1DmsLR1HjUvkQWcSLyRfrSq5bYCdMwYQ3Eysj5f0Pa4PDkFZXBGcozsY5eZelIOt4MGJNurCNw",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb9816845128a414983f927dce04457c4M.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.26 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9836959193",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005008545098725.html",
+    "slug": "ali-fnirsi-dso152",
+    "name": "FNIRSI DSO152 미니 오실로스코프",
+    "category": "it",
+    "priceKrw": 29106,
+    "domesticKrw": 48600,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~3주",
+      "쿠팡 최저가 상품은 DSO152·DSO153·DSO510이 한 상품에 묶인 옵션이라, 가장 싼 값을 DSO152로 봤어요. 결제 전 옵션을 확인하세요",
+      "알리 판매 수가 아직 적어요(공식 스토어)",
+      "알리는 첫 구매 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요"
+    ],
+    "summary": [
+      "FNIRSI DSO152를 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "FNIRSI DSO152 (200kHz, 2.5MSa/s)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API(9836959193 DSO-152/153/510 묶음 48,600, 9672690164 DSO152 단독 54,200) 중 낮은 값을 씀. 알리 FNIRSI Factory Store 화면 옵션 DSO152, 무료 배송(11/26 매니저)",
+      "checkedAt": "2026.11.26"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iZayGeGNi0",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C40mWD1Nvt9RAJ7OumBlDxRWZH2lL2LE1xsPXTZ9QiMUwfiTIMeKk84fvasdGZrbx3LcJivZSwp9ESQIIL5pfjL2YDPgv9TzDDRSJL8hAVkc7Rh1wDtsurmFm3Lc7tvOM28qUUeLYtL507imXyenB1d7thJKRMn03x5TqJsySh1Rx7tvyJF8w9m2pvvYjL520jgT7xikI3IQcaqwU7fMc7b4oWhgahwRqwzVZkqqkVDGWnhl9HZtsXYc6AYBogqi5V07Z2rgWkEnnXfYdQVLwdt485LSp6Qvdsg2RYHomc4VOX1dmKjhit5GnxLzXzwz4TCIiTlnHg6QKGUobT8qce2vD8436flu8L0i679prbqWyfl2lHmF2iFp1BMzrbhD0UCNpIPXcAlsWw8JplEtbeIJzzhDYW7U3BTFKlHA6BCt5HOYuV6jYjiikUDIPuSnmDVkRiingrNzMmBrZ2eFwY0lLJtXDvApI8qCG0UlzDLmCmmwkUuqu4vrUymMxKUJyrzb7IMjih86gjjw73xXCCARBU5NvSLPh7ENdBNveRwlrQUhAMFXvYne9waD2OW0MwE4W0kYlDw1VCCWW0vZuOpoK6BgDUEQj6HgiHSh03hq4xasmWOopiQZFofDGwHBk4iPjkuFySWoCXiduOlZj9CdtJmbmpyuXloKbJCndooyM3w7vBrsLjXb6Rt9wmP1FiYn5VLgrSp1dA",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S547b5bf57014476a9a33c6dddea6815b9.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.26 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/8499922883",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005007519615764.html",
+    "slug": "ali-ulanzi-ua20",
+    "name": "울란지 UA20 20W 에어 튜브 라이트",
+    "category": "it",
+    "priceKrw": 55549,
+    "domesticKrw": 90100,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~3주",
+      "리튬 배터리 내장 제품이라 배송이 늦거나 막힐 수 있어요",
+      "알리 옵션에 2개 묶음(2PCS)이 있어요. 사이트 가격은 1개 기준이에요",
+      "알리는 첫 구매 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요"
+    ],
+    "summary": [
+      "울란지 UA20을 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "Ulanzi UA20 20W 바이컬러 에어 튜브 라이트 1개",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(8499922883, 90,100)과 알리 Ulanzi Official Store 화면(옵션 UA20/2PCS, 무료 배송)으로 맞춤(11/26 매니저)",
+      "checkedAt": "2026.11.26"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iZayGjErPU",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3Cmyf3XJbgArb6brjj99LMWmDr3unRdRmoOw2XxDD5eYbWMWZT4nR1WvGTm3pgX2JYqOnipSLeioYtS5bckrmI6WRewpLUgDJJjMp4gNTphRIg5J2GfUXddHmcZ59vZU4E7TuxslMOOQb5hojb90mbzxb2kzXpUgTGiZseWOkP8KJaiexhZdoEQbo5oCrC4G1MZ6cxWkWCueanM6ZkenRBp8Ya5WWzb6ZMaLUWXPcNoBDWXvFvSxxUScwv1JhpyPvfIDjQGVnDuOnNQQtIaz5SJ663BDPwwJJd9C6NU2nHpG4GmZXoejKWWSAdNiQ5gzWHwZpbBmsYm6lUNYUhXsVYOdoIzZwrCm54bqlZwv5h735NQBqSjjL90l9oh4DkUUMbOs86yBwapZ7ealFb92MnGVTZ3dwB73voeTSXD5UfcEVqYgXJDg8sQwTkTlyy3j1c6zmWFxwSapne80upYJcf5cTUWMC9XMdejhqx706RhzEee0PK1RBHB30kSFDEOfL2XjyxKQv8u5JesTvlYXqiebROOya6TzWHC6rxdbTdEh0KB9MIxHiPSJGJgjkvckHHoIcfkYC2ViWseqSvlneqlaHrpZK8Gp9ba4OGoZODFjPU6Mupop9aC9XKVwnKffNpiNHjKJwL6G39OTUSU0OPmRDT1olZmjxNZVvxVnOoQURuMSSQmgXDfFBR08buPduEP9N40sT8eyRfe",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S188370dfb3da40659e621cdb796a768f7.jpg"
+  },
+  {
+    "store": "aliexpress",
+    "origin": "other",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.26 쿠팡 API 매니저",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/9705544582",
+    "overseasCheckUrl": "https://ko.aliexpress.com/item/1005012029682239.html",
+    "slug": "ali-nitecore-ap01",
+    "name": "나이트코어 AP01 초경량 에어 펌프",
+    "category": "home",
+    "priceKrw": 26896,
+    "domesticKrw": 42600,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "risks": [
+      "배송 1~3주",
+      "리튬 배터리 내장 제품이라 배송이 늦거나 막힐 수 있어요",
+      "알리 화면 가격은 행사 기간에 따라 API 일반가와 몇천 원 다를 수 있어요",
+      "알리는 첫 구매 할인으로 더 싸게 보일 때가 있어요. 사이트는 일반가 기준이에요"
+    ],
+    "summary": [
+      "나이트코어 AP01을 알리 공식 스토어와 쿠팡 같은 모델로 비교했어요.",
+      "알리가 쿠팡보다 {diff}({pct}) 싸요.",
+      "알리가 {beKrw} 이하면 직구각이에요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "",
+      "model": "NITECORE AP01 휴대용 에어 펌프(22g, USB-C)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(9705544582 'NITECORE AP01 초경량 휴대용 에어 펌프', 42,600)과 알리 NITECORE 공식 스토어 화면(옵션 AP01 하나, 무료 배송)으로 맞춤(11/26 매니저)",
+      "checkedAt": "2026.11.26"
+    },
+    "domesticUrl": "https://link.coupang.com/a/iZayGpe3Y4",
+    "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C40VK5WPZZYQxZGshAwR316frualU2ddDhAvjX7szeQ74WJhAk0jrkW3P3E59uURgbM7QLeQM5mu0W512R7im96H4cCi8lLj80ZK98z5yoVg9k3PqakdmUCYZ9B4BBMxQbZGr5XqPDinMGV0us7BTWgIMZRfYME5pFhU7yxipERLtvEX4iFlOSAmM3TtQfO8quUgKeYxLt3386JjqTNTZtghR663CZj3vxYS3dlHfTlLTPA39HcQ89r33ctpeP82BuEi7EVlmGKoSdxYnPISgcO1gOZhPdPuIqYyQzi7yLyVL7uT8MIcZBXx4KwpRsHidu4W7baJHTLAqlNXVwboHW5ObBRbDb7czporpQlO1pC1A8n1QSEuP3d4v8FPgMatOfmQLkNZS6wwf1TkprLz9ar000NnAdx1R5a7WzM0N6jbUKDZUEYRWljaJwKyCJYpgEPquov4OnzoBcyaaojXctt5JRKH32w0zFSAqnkBeNLXl3CFyN4V4RVOpEheT5FEW8DSffKp2O1gvhhUodCqCF5vFt36TJoZzF5GU8z9u63GY6VFLnLk2FsVY8gIn5FyqyzHpFmMCg3RKY0rWMCeebc79qxz37qdHZgN6e1phf9hSYgC7b0lIpp2BFggJnPXx1vkNri2qqQ8jOQTDdWL6fXb0GBl9O6dQn8EpMBIc4Ce0AkPkiQaAcNWZZQtMibVH4c10LlQ8SbpOo",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S37ceabd46b28429380f7687bee823493F.png"
   }
 ]
