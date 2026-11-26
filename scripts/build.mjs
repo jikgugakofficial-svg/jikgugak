@@ -1150,7 +1150,16 @@ fs.copyFileSync(path.join(root, 'src', 'rank.js'), path.join(dist, 'assets', 'ra
 // 승인된 SNS 게시물 이미지(content/<폴더>/publish/*.jpg)를 공개 주소로: 인스타 API가 이미지를 URL로만 받아요
 for (const d of fs.existsSync(path.join(root, 'content')) ? fs.readdirSync(path.join(root, 'content')) : []) {
   const src = path.join(root, 'content', d, 'publish');
-  if (fs.existsSync(src)) fs.cpSync(src, path.join(dist, 'social', d), { recursive: true });
+  if (!fs.existsSync(src)) continue;
+  // 게시가 끝난 지 3일 넘은 폴더는 올리지 않아요(11/26: 지난 릴스 영상 전부가 배포마다 올라가 Vercel 배포 저장 공간 10GB가 4~5일마다 참).
+  // 게시 도구(tools/publish/run.mjs)는 publish-result.json이 있는 폴더를 다시 올리지 않으니, 공개 주소는 게시 전과 게시 직후에만 필요해요.
+  const done = path.join(root, 'content', d, 'publish-result.json');
+  if (fs.existsSync(done)) {
+    let at = 0;
+    try { at = Date.parse(JSON.parse(fs.readFileSync(done, 'utf8')).at) || 0; } catch { at = 0; }
+    if (Date.now() - at > 3 * 86400000) continue;
+  }
+  fs.cpSync(src, path.join(dist, 'social', d), { recursive: true });
 }
 
 const write = (rel, content) => { const f = path.join(dist, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, content); };
