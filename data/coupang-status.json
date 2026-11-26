@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-26T08:20:06.756Z",
-  "mode": "report",
+  "at": "2026-11-26T13:11:34.675Z",
+  "mode": "hourly",
   "ok": true,
-  "message": "쿠팡 실적 20261119~20261125: 클릭 2 · 주문 0건 · 수익 0원"
+  "message": "- 사진 추가: amazon-beats-studio-pro (매니저가 사이트에서 사진이 비교 구성과 맞는지 확인, 안 맞으면 image 지우고 imageSkip에 이유)"
 }

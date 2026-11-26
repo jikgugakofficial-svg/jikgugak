@@ -202,7 +202,7 @@
     "amazon-samsung-t7-shield-1tb": {
       "productId": "6888265108",
       "keyword": "삼성 T7 Shield 포터블 SSD 1TB",
-      "at": "2026-11-23T20:35:09.609Z",
+      "at": "2026-11-26T13:11:06.434Z",
       "recordedKrw": 415000,
       "found": true,
       "apiPrice": 415000,
@@ -378,7 +378,7 @@
     "iherb-cgn-marine-collagen-500g": {
       "productId": "9127064765",
       "keyword": "캘리포니아골드뉴트리션 가수분해 해양 콜라겐 펩타이드 무맛 500g",
-      "at": "2026-11-23T20:35:01.324Z",
+      "at": "2026-11-26T13:10:58.289Z",
       "recordedKrw": 82000,
       "found": true,
       "apiPrice": 82000,
@@ -389,7 +389,7 @@
     "iherb-jarrow-ultra-boneup-240": {
       "productId": "8340015166",
       "keyword": "Jarrow Formulas 울트라 본 업 칼슘 400mg Ultra BoneUp 240정",
-      "at": "2026-11-23T20:35:05.459Z",
+      "at": "2026-11-26T13:11:02.340Z",
       "recordedKrw": 79400,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -405,15 +405,18 @@
     "amazon-beats-studio-pro": {
       "productId": "7568571509",
       "keyword": "비츠 스튜디오 프로 무선 헤드폰",
-      "at": "2026-11-23T20:35:13.455Z",
+      "at": "2026-11-26T13:11:10.348Z",
       "recordedKrw": 218000,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 218000,
+      "isRocket": true,
+      "diff": 0,
+      "result": "same"
     },
     "amazon-beats-powerbeats-pro-2": {
       "productId": "8605086546",
       "keyword": "비츠 파워비츠 프로 2 운동용 이어폰",
-      "at": "2026-11-23T20:35:17.287Z",
+      "at": "2026-11-26T13:11:14.370Z",
       "recordedKrw": 254030,
       "found": false,
       "note": "검색 상위 1개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -421,10 +424,13 @@
     "amazon-beats-solo-4": {
       "productId": "8163708318",
       "keyword": "비츠 솔로 4 무선 헤드폰",
-      "at": "2026-11-23T20:35:21.331Z",
+      "at": "2026-11-26T13:11:18.487Z",
       "recordedKrw": 179000,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 201750,
+      "isRocket": true,
+      "diff": 22750,
+      "result": "applied"
     },
     "amazon-bose-qc-headphones": {
       "productId": "7579231557",
@@ -660,7 +666,7 @@
     "ali-truthear-zero-blue2": {
       "productId": "8704415331",
       "keyword": "트루히어 x 크리나클 제로:블루2 유선 이어폰",
-      "at": "2026-11-23T20:34:49.338Z",
+      "at": "2026-11-26T13:10:46.312Z",
       "recordedKrw": 136900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -668,7 +674,7 @@
     "ali-kz-zsn-pro-2": {
       "productId": "8502968328",
       "keyword": "KZ ZSN Pro 2 하이브리드 유선 이어폰",
-      "at": "2026-11-23T20:34:53.512Z",
+      "at": "2026-11-26T13:10:50.295Z",
       "recordedKrw": 30000,
       "found": true,
       "apiPrice": 30000,
@@ -679,13 +685,13 @@
     "amazon-marshall-emberton-3": {
       "productId": "9225565449",
       "keyword": "마샬 엠버튼 3 블루투스 스피커",
-      "at": "2026-11-23T20:34:57.320Z",
+      "at": "2026-11-26T13:10:54.469Z",
       "recordedKrw": 244810,
       "found": true,
-      "apiPrice": 244810,
+      "apiPrice": 264860,
       "isRocket": false,
-      "diff": 0,
-      "result": "same"
+      "diff": 20050,
+      "result": "applied"
     },
     "amazon-razer-huntsman-v3-pro-tkl": {
       "productId": "9689633221",
@@ -850,7 +856,7 @@
     "ali-edifier-x3-pro": {
       "productId": "9543665355",
       "keyword": "에디파이어 X3 Pro 노이즈캔슬링 무선 이어폰",
-      "at": "2026-11-24T04:59:49.784Z",
+      "at": "2026-11-26T13:11:22.305Z",
       "recordedKrw": 69950,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -858,7 +864,7 @@
     "ali-edifier-evobuds": {
       "productId": "9143978758",
       "keyword": "에디파이어 에보버즈 세미인이어 노이즈캔슬링 이어폰",
-      "at": "2026-11-24T04:59:53.545Z",
+      "at": "2026-11-26T13:11:26.450Z",
       "recordedKrw": 96240,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -931,7 +937,42 @@
       "isRocket": false,
       "diff": 0,
       "result": "same"
+    },
+    "ali-fnirsi-dso-tc3": {
+      "productId": "9835304316",
+      "keyword": "FNIRSI DSO-TC3 휴대용 오실로스코프·부품 테스터",
+      "at": "2026-11-26T13:10:30.382Z",
+      "recordedKrw": 93400,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-fnirsi-dso152": {
+      "productId": "9836959193",
+      "keyword": "FNIRSI DSO152 미니 오실로스코프",
+      "at": "2026-11-26T13:10:34.394Z",
+      "recordedKrw": 48600,
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-ulanzi-ua20": {
+      "productId": "8499922883",
+      "keyword": "울란지 UA20 20W 에어 튜브 라이트",
+      "at": "2026-11-26T13:10:38.374Z",
+      "recordedKrw": 90100,
+      "found": false,
+      "note": "검색 상위 6개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+    },
+    "ali-nitecore-ap01": {
+      "productId": "9705544582",
+      "keyword": "나이트코어 AP01 초경량 에어 펌프",
+      "at": "2026-11-26T13:10:42.305Z",
+      "recordedKrw": 42600,
+      "found": true,
+      "apiPrice": 42600,
+      "isRocket": false,
+      "diff": 0,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-26T03:08:40.445Z"
+  "updatedAt": "2026-11-26T13:11:30.365Z"
 }

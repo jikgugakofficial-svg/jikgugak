@@ -4142,7 +4142,8 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션은 화면을 못 봐서 미확인",
       "checkedAt": "2026.11.09"
     },
-    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요",
+    "image": "https://ads-partners.coupang.com/image1/LeyO_LNS0JH_brDlLTrD2HtIP3EHcBNLo8f7RrYuvd49IMiYvqso2H6LCb9phpZnniXklyQSeb57SCFbXx6g_RBm5wjeqcJ3et_lAKYRUBa35dQY3gZfJPKTDv9_XFQuTXKTxQvzJpmsG1VSM06LUxy-gdO82JeAeQcfZxG0FNVfUlcqKVnjvrcGkv-ikyixu-4gOVNjMk5e4rwLv8xF5oo_MQFgkOs7xFjq2ZOaEyINW3uqSCPZKx42zYAanpRJ0Wq0ZyGP59JJPVf1lkMtbhk-B3MXTUYJUUiA5uFlXQhtf7Ajl97ER5AR8Pj-vSVbdlyGTKAm9qOBgYS303JeXb4Aoo7X-TjHA4WlBfhtjMdqTgE3v9-tfyns3g73iFuIMRpiwmg3Nr4yR3djIpa6ftpY6dQG9uvK7Z4TA1ca254n9d6Ro85IJ0x5IvtdNzJCylT1XGpWaf4bm2wdJvNT8GXrQ_mYvya-RW3ipyQmHGPtMlB07R8y3F_cIMAaZyd8gD_eSG8OLrA="
   },
   {
     "store": "amazon",
@@ -4193,11 +4194,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iwLzXNeD8u",
     "sample": false,
-    "checkedAt": "2026.11.09 쿠팡 API 매니저",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "amazon-beats-solo-4",
     "name": "비츠 솔로 4 무선 헤드폰",
     "category": "audio",
-    "domesticKrw": 179000,
+    "domesticKrw": 201750,
     "domesticSource": "쿠팡, 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0CZPLV566",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/8163708318",
@@ -4219,7 +4220,17 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명과 아마존 ASIN(웹 검색으로 모델 확인, 아마존 화면은 열지 않음)으로 맞춤(11/9 매니저). 쿠팡 색 옵션 미확인",
       "checkedAt": "2026.11.09"
     },
-    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
+    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요",
+    "image": "https://ads-partners.coupang.com/image1/M3Z8tESRUG3WKPaZM9dQfbYEyJE2cB6AXnBHLQEwarjPRrLJkMn-sovwp26sq0cOgJvsmNNAArOKviKiIK5YVGz2YAaroQ1FoEJHmxP-smHwXwO8d3nZXyy2L5EP7dn8vGsIPUDi8HaCbDpJ5RDO4JoyjFQHIgBv01t_uZt_wn7A3EwTVzAxvkHbDWt1EJ-vGjjlFF-rfFenGwqsN82j9lIRRPXt5YcqRhNnT6UcAsxQPmlgUUbSSLIpO6ZYONwjR7ioSY0nBPzv2JdTkk5khuHd6WL0AZGfIzfiaeaIrZplwvyCetCC2Hwz42yvnGFkHMIcDHIO87vuE02fSDj_sr7HYpoC9jy3-G4N4pQz-O-J7IrGGS_nh_EvCXDVN_Rs2AOao6vFCTx1koGwSDyCUx03rRh7vmCtqxtko1dh4HbkdHRJGk5uGHeLfjqTYZPX53cFLGMfxIO7WyLFB9ZEF4JGBGIeZzWJo5IMfMQ5d9h-BPH3UPoIfEHQRgUhPEA5vgEdqViEN-XJtGvQW1EA0w==",
+    "priceLog": [
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 179000,
+        "to": 201750,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",
@@ -6240,12 +6251,12 @@
     "shipNote": "US$49 이상 무료 배송(적합 상품, 결제 전 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.20 쿠팡 API 매니저",
+    "checkedAt": "2026.11.26 쿠팡 자동",
     "slug": "amazon-marshall-emberton-3",
     "domesticUrl": "https://link.coupang.com/a/iDBoEc0TRI",
     "name": "마샬 엠버튼 3 블루투스 스피커 (블랙 앤 브라스)",
     "category": "audio",
-    "domesticKrw": 244810,
+    "domesticKrw": 264860,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "buyUrl": "https://www.amazon.com/dp/B0DDCJMDJC",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9225565449",
@@ -6268,7 +6279,16 @@
       "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(마샬 엠버튼3 블루투스 스피커, 옵션가 244,810~268,000)과 아마존 ASIN(웹 검색: camelcamelcamel·mac.bid·슬릭딜, 아마존 화면은 열지 않음)으로 맞춤(11/13 매니저). 쿠팡 색 옵션 미확인, 최저 옵션가 기준",
       "checkedAt": "2026.11.13"
     },
-    "image": "https://ads-partners.coupang.com/image1/1HnYw07LYmU6NN9F1O97G29P-8sovLcomP_dxzLBa-RcFYY5LoocWGY1c1Sc2u32rf2nP8uFkqimJ_6V9zh409Tc9JaCetJ0d0au1KnHcmckOvogcWBC6ULrtZfnCc-ghplcBWs9rL5fHzqYDpAKb_-lmLg6cMHxO7kfP1_RSfnCV2p8W3KvVRmLPAKM0gAIHIajhIWwJbH7PfYjeT4cnHcLrCB9FYCFcbk0Lzoy0gx9yQajYh2w65b0Wvh7tK6Wvu_yzybF-rRW-tnCXfVtZaXphKJFIxeBe_Lss7Nm_eejM_c-Wsg7wzfLt2nqGEmENVFBrPVU3aMMS3wYDkO_aynkFLI3NRcYr6mVIDuVsuo64C4Jw-nNdeB5USJc0yAatCmix9ZPtqFBp-I_VDeFBp-hX58SGLOq1NZQEoJhGM6SVX6WOqid1OQJpzffKSHNTaArNd1wGSawsbB9KW7kn-zBHRxpvdLArrn3Set1yypnpIMWvCqGktlJ8-cguGur_KZXKpCaip7ycy5ywSokTzc5k4bN2iX-RtldkrozpsCbhw=="
+    "image": "https://ads-partners.coupang.com/image1/1HnYw07LYmU6NN9F1O97G29P-8sovLcomP_dxzLBa-RcFYY5LoocWGY1c1Sc2u32rf2nP8uFkqimJ_6V9zh409Tc9JaCetJ0d0au1KnHcmckOvogcWBC6ULrtZfnCc-ghplcBWs9rL5fHzqYDpAKb_-lmLg6cMHxO7kfP1_RSfnCV2p8W3KvVRmLPAKM0gAIHIajhIWwJbH7PfYjeT4cnHcLrCB9FYCFcbk0Lzoy0gx9yQajYh2w65b0Wvh7tK6Wvu_yzybF-rRW-tnCXfVtZaXphKJFIxeBe_Lss7Nm_eejM_c-Wsg7wzfLt2nqGEmENVFBrPVU3aMMS3wYDkO_aynkFLI3NRcYr6mVIDuVsuo64C4Jw-nNdeB5USJc0yAatCmix9ZPtqFBp-I_VDeFBp-hX58SGLOq1NZQEoJhGM6SVX6WOqid1OQJpzffKSHNTaArNd1wGSawsbB9KW7kn-zBHRxpvdLArrn3Set1yypnpIMWvCqGktlJ8-cguGur_KZXKpCaip7ycy5ywSokTzc5k4bN2iX-RtldkrozpsCbhw==",
+    "priceLog": [
+      {
+        "at": "2026.11.26",
+        "field": "domesticKrw",
+        "from": 244810,
+        "to": 264860,
+        "source": "쿠팡"
+      }
+    ]
   },
   {
     "store": "amazon",

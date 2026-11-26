@@ -317,7 +317,31 @@
       "found": true,
       "apiPrice": 17833,
       "result": "same"
+    },
+    "ali-fnirsi-dso-tc3": {
+      "itemId": "1005005292253988",
+      "at": "2026-11-26T13:11:30.366Z",
+      "recordedKrw": 47805,
+      "found": true,
+      "apiPrice": 47805,
+      "result": "same"
+    },
+    "ali-fnirsi-dso152": {
+      "itemId": "1005008545098725",
+      "at": "2026-11-26T13:11:32.337Z",
+      "recordedKrw": 29106,
+      "found": true,
+      "apiPrice": 29106,
+      "result": "same"
+    },
+    "ali-ulanzi-ua20": {
+      "itemId": "1005007519615764",
+      "at": "2026-11-26T13:11:33.130Z",
+      "recordedKrw": 55549,
+      "found": true,
+      "apiPrice": 55549,
+      "result": "same"
     }
   },
-  "updatedAt": "2026-11-26T03:08:44.709Z"
+  "updatedAt": "2026-11-26T13:11:33.518Z"
 }
