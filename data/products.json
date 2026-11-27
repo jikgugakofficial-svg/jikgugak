@@ -1554,10 +1554,10 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iynD4fhASy",
     "sample": false,
-    "checkedAt": "2026.11.23 오전",
+    "checkedAt": "2026.11.27 오전",
     "slug": "ali-qcy-h3-anc-headphones",
     "name": "QCY H3 ANC 노이즈캔슬링 헤드폰",
-    "priceKrw": 42569,
+    "priceKrw": 43151,
     "domesticKrw": 40870,
     "domesticSource": "쿠팡 로켓배송 화이트 일반판매가 · 11/23 확인",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EydPsOg4Uc4qLmGyI22dVeyiRAGQdhn97ikfmRL8tCkQDasFnWX7stpAXWtLzOa0br0xccZYUZagKETm0o3ZCTR9H8NF1junybBgi4C85g9Lsmrl8TJssO58E3IWPx9oCcQoDSyuvNoYioaYb46pzUx97vgGu0RqIIpFnXhsE6shbjp05jQomWWzAaufzwbnqjkbm23nRakjJH68rfB6YCxEgyTse2diDoKpkCl2kyDVYlbDKDnKukKpSbHMqOzrs8NEm4RA2U5iB4ghrMGkxIV3mrSbZ2bRPcgjeLQjtltiAjlJsJ01eDyaIEnvJ9WBPoFNAUvbLV6cjnKaWNKJCxAclbo0OcnkXYG4uIKQAXeW8CqiDQJvL50HH8ZSrgTWse8zNCV4WpanUqPCMG7IDuGYoZoPFcDvgGZL14Pvu5ldQGU9pkiHDVtfW1A63XjSfKOPX59fJEfpUopwLThnvTVpfeB3xfg91wTPHKZKFDNFhepq5cOkx5m9KgajG5TW8HL8k7rD4uoD7Eua7lYSyiVe9stO2NZzUVwpKuVpSP7vdl5xNxzwNzHF4cdjahxE4df0FxYoVP5zXZDr5XRTq0EIYWofUZ3RWTzGsWV2eoPzQSBhUA8zHlAo8eOJX9pYP37anAAspnN4m717V2hh8A84mLPBOxudjsrGuVvzNG7BuQzCkk6mWzjJfa1iZd7k3VtStmwCC83l2",
@@ -5078,11 +5078,11 @@
     "domesticStore": "쿠팡",
     "domesticUrl": "https://link.coupang.com/a/iyCmqpFIgm",
     "sample": false,
-    "checkedAt": "2026.11.16 쿠팡 자동",
+    "checkedAt": "2026.11.27 오전 쿠팡 화면",
     "slug": "amazon-sennheiser-momentum-4",
     "name": "젠하이저 모멘텀 4 와이어리스 헤드폰",
     "category": "audio",
-    "domesticKrw": 398990,
+    "domesticKrw": 304300,
     "domesticSource": "쿠팡 로켓배송",
     "buyUrl": "https://www.amazon.com/dp/B0B6GHW1SX",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/7776776856",
@@ -5169,9 +5169,15 @@
         "from": 356840,
         "to": 398990,
         "source": "쿠팡"
+      },
+      {
+        "at": "2026.11.27",
+        "field": "domesticKrw",
+        "from": 398990,
+        "to": 304300,
+        "source": "쿠팡 화면(블랙 로켓 일반판매가)"
       }
-    ],
-    "bfHold": "11/20: 쿠팡가 확인이 11/17 전이거나 API 값이 기록과 다름. 쿠팡 화면·API로 다시 확인되면 지워요"
+    ]
   },
   {
     "store": "amazon",
@@ -6759,14 +6765,14 @@
     "shipNote": "무료 배송(알리 제휴 API 기준, 결제 화면에서 확인)",
     "domesticStore": "쿠팡",
     "sample": false,
-    "checkedAt": "2026.11.22 알리 자동",
+    "checkedAt": "2026.11.27 오전",
     "domesticCheckUrl": "https://www.coupang.com/vp/products/9719002042",
     "overseasCheckUrl": "https://ko.aliexpress.com/item/1005009920180201.html",
     "slug": "ali-baseus-bowie-mp1",
     "domesticUrl": "https://link.coupang.com/a/iKe171rCO4",
     "name": "베이스어스 보위 MP1 ANC 무선 이어폰",
     "category": "audio",
-    "priceKrw": 45462,
+    "priceKrw": 45614,
     "domesticKrw": 135900,
     "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
     "risks": [
