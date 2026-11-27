@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-27T04:34:23.164Z",
-  "mode": "hourly",
+  "at": "2026-11-27T04:43:51.237Z",
+  "mode": "links",
   "ok": true,
-  "message": "- 사진 못 찾음: amazon-beats-powerbeats-pro-2 (검색어 '비츠 파워비츠 프로 2 운동용 이어폰' 상위 10개에 같은 상품 번호 없음 → coupangKeyword 고치기)"
+  "message": "링크 만들기: 쿠팡 1개, 알리 0개 → data/new-links.json"
 }
