@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<title>직구각 릴스 모션 강화 샘플 (일본 한도 퀴즈 앞 8초)</title>
+<style>
+  @font-face{font-family:D;src:url("../../tools/tvc/fonts/Freesentation-9Black.ttf")}
+  @font-face{font-family:P;src:url("../../tools/cards/fonts/PretendardVariable.ttf");font-weight:100 900}
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#1F2E57}
+  svg{position:absolute;inset:0}
+</style></head>
+<body>
+<svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"><defs id="defs"></defs><g id="cam"></g></svg>
+<script src="timeline.js"></script>
+<script>
+// 11/27 매니저: 운영자 "모션그래픽 느낌이 더 났으면" → 같은 박자(120 BPM)·같은 숫자로 화면만 굵게 다시 짠 샘플.
+// 바꾼 것: 화면을 꽉 채우는 색 면, 큰 글자가 글자마다 튀어 들어옴, 장면 전환은 색 번짐, 굵은 게이지와 출렁이는 액체, 그림자 스티커, 정답 순간 색 번짐·햇살·종이 조각.
+document.fonts.load('900 100px D'); document.fonts.load('800 40px P');
+const T = window.TL, BT = 60 / T.bpm, bt = (b) => b * BT;
+window.DURATION = 8;
+const C = { navy: '#1F2E57', orange: '#D23A10', salmon: '#FFC7A6', white: '#FFFFFF', gray: '#5B6170', green: '#0E7C4A', green2: '#0A6B3F', bg: '#FBF7F3', line: '#E4DFDA' };
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const pg = (t, a, b) => cl((t - a) / (b - a));
+const oc = (x) => 1 - Math.pow(1 - x, 3);
+const o5 = (x) => 1 - Math.pow(1 - x, 5);
+const spring = (dt, f = 1.4, z = 0.32) => dt <= 0 ? 0 : 1 - Math.exp(-z * 2 * Math.PI * f * dt) * (Math.cos(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt) + z / Math.sqrt(1 - z * z) * Math.sin(2 * Math.PI * f * Math.sqrt(1 - z * z) * dt));
+const lerp = (a, b, p) => a + (b - a) * p;
+const NS = 'http://www.w3.org/2000/svg';
+const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; };
+const txt = (par, x, y, s, attrs) => { const e = el('text', { x, y, 'text-anchor': 'middle', 'dominant-baseline': 'middle', ...attrs }, par); e.textContent = s; return e; };
+const DEFS = document.getElementById('defs'), CAM = document.getElementById('cam');
+const ctx = document.createElement('canvas').getContext('2d');
+const widths = (str, size, font = 'D', wt = 900) => { ctx.font = `${wt} ${size}px ${font}`; return [...str].map((ch) => ctx.measureText(ch).width * 0.97); };
+
+// 글자마다 스프링으로 튀어 들어오는 큰 글자
+function kin(par, str, cx, cy, size, fill, t, t0, o = {}) {
+  const st = o.st ?? 0.035, ws = widths(str, size), total = ws.reduce((a, b) => a + b, 0), out = o.out ?? 1e9;
+  let x = cx - total / 2;
+  [...str].forEach((ch, i) => {
+    const w = ws[i], dt = t - t0 - i * st, q = pg(t, out - 0.14 + i * 0.008, out);
+    if (dt > 0 && q < 1 && ch !== ' ') {
+      const s = spring(dt, o.f ?? 2.2, o.z ?? 0.4);
+      const yy = cy + (1 - s) * size * 0.9 - q * size * 1.1, rot = (1 - cl(s)) * (i % 2 ? 14 : -14), sc = 0.5 + 0.5 * cl(s, 0, 1.3);
+      const g = el('g', { transform: `translate(${x + w / 2} ${yy}) rotate(${rot}) scale(${sc})`, opacity: 1 - q }, par);
+      if (o.shadow) txt(g, o.shadow, o.shadow, ch, { 'font-family': 'D', 'font-size': size, fill: o.shadowCol || 'rgba(0,0,0,.25)' });
+      txt(g, 0, 0, ch, { 'font-family': 'D', 'font-size': size, fill });
+    }
+    x += w;
+  });
+}
+
+// ── 장면 A (0~4박): 남색 화면을 꽉 채우는 훅 ──
+function sceneA(t, g) {
+  el('rect', { x: -150, y: -150, width: 1380, height: 2220, fill: C.navy }, g);
+  const sg = el('g', { opacity: 0.06, transform: 'rotate(-24 540 960)' }, g);
+  for (let i = -6; i < 16; i++) el('rect', { x: -700, y: i * 220 + ((t * 160) % 220), width: 2500, height: 90, fill: '#fff' }, sg);
+  el('circle', { cx: 940, cy: 430, r: 430 + 16 * Math.sin(t * 2), fill: 'none', stroke: C.orange, 'stroke-width': 26, opacity: 0.55, 'stroke-dasharray': '120 60', transform: `rotate(${t * 40} 940 430)` }, g);
+  el('circle', { cx: 120, cy: 1500, r: 360, fill: 'none', stroke: '#fff', 'stroke-width': 10, opacity: 0.18, 'stroke-dasharray': '30 30', transform: `rotate(${-t * 30} 120 1500)` }, g);
+  const qs = spring(t - 0.1, 1.2, 0.5);
+  txt(g, 780, 1330, '?', { 'font-family': 'D', 'font-size': 1000 * (0.6 + 0.4 * qs), fill: '#fff', opacity: 0.07, transform: `rotate(${12 + 6 * Math.sin(t * 2.4)} 780 1330)` });
+  // 주황 띠가 밀려 들어오고 그 위에 '일본 직구'
+  const band = el('g', { transform: 'rotate(-4 400 560)' }, g);
+  el('rect', { x: 78, y: 472, width: 644 * o5(pg(t, 0.03, 0.38)), height: 176, rx: 26, fill: C.orange }, band);
+  kin(band, '일본 직구', 400, 566, 132, '#fff', t, 0.14, { st: 0.04 });
+  kin(g, '면세 한도', 540, 820, 216, '#fff', t, bt(1), { st: 0.05, shadow: 10, shadowCol: C.orange });
+  kin(g, '몇 달러?', 540, 1090, 250, C.salmon, t, bt(2), { st: 0.06, f: 2.6, z: 0.3 });
+  el('rect', { x: 150, y: 1236, width: 780 * o5(pg(t, bt(3), bt(3) + 0.3)), height: 20, rx: 10, fill: C.orange }, g);
+}
+
+// ── 장면 B (4~9박): 굵은 게이지에 상자를 담음 ──
+const GX = 290, GW = 240, YB = 1340, YT = 600, MAXV = 250;
+const Y = (v) => YB - (v / MAXV) * (YB - YT);
+const DROPS = [[6.5, 60], [7.25, 115], [8, 135]];
+function level(t) {
+  let v = 0; for (const [b, val] of DROPS) { const s = spring(t - bt(b), 2.2, 0.45); v = lerp(v, val, cl(s, 0, 1.15)); }
+  return lerp(v, 150, oc(pg(t, bt(8.3), bt(9))));
+}
+function pill(par, cx, cy, w, h, fill, label, size, col, sc, rot = 0, font = 'D', wt = 900) {
+  const g = el('g', { transform: `translate(${cx} ${cy}) rotate(${rot}) scale(${sc})` }, par);
+  el('rect', { x: -w / 2 + 10, y: -h / 2 + 10, width: w, height: h, rx: h / 2, fill: 'rgba(31,46,87,.22)' }, g);
+  el('rect', { x: -w / 2, y: -h / 2, width: w, height: h, rx: h / 2, fill }, g);
+  txt(g, 0, size * 0.06, label, { 'font-family': font, 'font-weight': wt, 'font-size': size, fill: col });
+  return g;
+}
+function sceneB(t, g) {
+  el('rect', { x: -150, y: -150, width: 1380, height: 2220, fill: C.bg }, g);
+  const dg = el('g', {}, g);
+  for (let i = 0; i < 10; i++) for (let j = 0; j < 18; j++) el('circle', { cx: 30 + i * 120, cy: ((j * 120 + t * 60) % 2160) - 120, r: 5, fill: C.line }, dg);
+  el('circle', { cx: 1090, cy: 1560, r: 430, fill: C.salmon, opacity: 0.4 }, g);
+  el('circle', { cx: -40, cy: 330, r: 220, fill: C.salmon, opacity: 0.3 }, g);
+  // 제목
+  const p0 = spring(t - bt(4) - 0.05, 2.2, 0.4) * (1 - pg(t, bt(6) - 0.15, bt(6)));
+  if (p0 > 0.01) pill(g, 540, 350, 800, 124, C.navy, '일본 직구 면세 한도는?', 64, '#fff', p0, (1 - cl(p0)) * -6);
+  kin(g, '하나씩 담으면', 540, 350, 128, C.navy, t, bt(6), { st: 0.035 });
+  // 게이지
+  const rise = spring(t - bt(4) + 0.05, 1.8, 0.45);
+  const gg = el('g', { transform: `translate(0 ${(1 - rise) * 1300})` }, g);
+  const box = { x: GX - GW / 2, y: YT, width: GW, height: YB - YT, rx: 70 };
+  el('rect', box, el('clipPath', { id: 'gc' }, DEFS));
+  el('rect', { ...box, x: box.x + 18, y: box.y + 18, fill: 'rgba(31,46,87,.2)' }, gg);
+  el('rect', { ...box, fill: '#fff' }, gg);
+  const v = level(t), fy = Y(v);
+  let amp = 6; for (const [b] of DROPS) { const d = t - bt(b); if (d > 0) amp += 26 * Math.exp(-d * 4); }
+  if (v > 0.5) {
+    let d = `M ${box.x} ${YB + 10}`;
+    for (let i = 0; i <= 12; i++) d += ` L ${box.x + GW * i / 12} ${fy + amp * Math.sin(i * 0.9 + t * 9)}`;
+    el('path', { d: d + ` L ${box.x + GW} ${YB + 10} Z`, fill: C.orange, 'clip-path': 'url(#gc)' }, gg);
+    const bg2 = el('g', { 'clip-path': 'url(#gc)' }, gg);
+    for (let k = 0; k < 6; k++) { const span = Math.max(40, YB - fy - 30); el('circle', { cx: GX - 85 + k * 34, cy: YB - ((t * 130 + k * 97) % span), r: 7 + (k % 3) * 3, fill: '#fff', opacity: 0.3 }, bg2); }
+  }
+  el('rect', { ...box, fill: 'none', stroke: C.navy, 'stroke-width': 14 }, gg);
+  el('rect', { x: box.x + 34, y: YT + 60, width: 16, height: 300, rx: 8, fill: C.navy, opacity: 0.12 }, gg);
+  // 떨어지는 상자와 물 튐
+  DROPS.forEach(([b], i) => {
+    const land = bt(b), p = pg(t, land - 0.32, land), q = pg(t, land, land + 0.12), sy0 = Y(i ? DROPS[i - 1][1] : 0);
+    if (p > 0 && q < 1) {
+      const bx = el('g', { transform: `translate(${GX} ${lerp(-160, sy0 - 70, p * p)}) rotate(${(1 - p) * 40 * (i - 1)}) scale(${1 + q * 0.5} ${1 - q * 0.6})`, opacity: 1 - q }, g);
+      el('rect', { x: -65, y: -65, width: 130, height: 130, rx: 22, fill: ['#F29270', C.salmon, '#E86A40'][i], stroke: C.navy, 'stroke-width': 8 }, bx);
+      el('rect', { x: -65, y: -12, width: 130, height: 24, fill: C.navy, opacity: 0.25 }, bx);
+    }
+    const d = t - land;
+    if (d > 0 && d < 0.5) for (let k = 0; k < 9; k++) { const a = (-160 + k * 17.5) * Math.PI / 180, r = 210 * oc(d / 0.5); el('circle', { cx: GX + Math.cos(a) * r, cy: Y(DROPS[i][1]) + Math.sin(a) * r + 520 * d * d, r: 15 * (1 - d / 0.5), fill: C.orange }, g); }
+  });
+  // 보기 알약
+  [[100, '① 100달러', 4], [150, '② 150달러', 4.5], [200, '③ 200달러', 5]].forEach(([val, label, b], i) => {
+    const d0 = t - bt(b); if (d0 < 0) return;
+    const sp = spring(d0, 2.4, 0.4), ly = Y(val), passed = i === 0 && t >= bt(7.25) + 0.1, dp = passed ? pg(t, bt(7.25) + 0.1, bt(7.25) + 0.8) : 0;
+    if (dp >= 1) return;
+    el('line', { x1: GX + GW / 2 + 14, y1: ly, x2: lerp(GX + GW / 2 + 14, 548, cl(sp)), y2: ly, stroke: C.navy, 'stroke-width': 8, 'stroke-dasharray': '2 22', 'stroke-linecap': 'round', opacity: 1 - dp }, g);
+    const cg = el('g', { transform: `translate(${lerp(1500, 770, sp)} ${ly + dp * dp * 1200}) rotate(${(1 - cl(sp)) * 18 + dp * 70})` }, g);
+    el('rect', { x: -198, y: -50, width: 420, height: 124, rx: 62, fill: C.navy }, cg);
+    el('rect', { x: -210, y: -62, width: 420, height: 124, rx: 62, fill: passed ? '#C9CDD6' : '#fff', stroke: C.navy, 'stroke-width': 10 }, cg);
+    txt(cg, 0, 5, label, { 'font-family': 'D', 'font-size': 64, fill: C.navy });
+  });
+}
+
+// ── 장면 C (9~16박): 정답 색 번짐 → 원화로 바뀜 ──
+const HIT = 9, CX = 540, CY = 900;
+function sceneC(t, g) {
+  const h = bt(HIT), d = t - h, m = o5(pg(t, bt(13) - 0.05, bt(13) + 0.3));
+  el('rect', { x: -150, y: -150, width: 1380, height: 2220, fill: C.green }, g);
+  const sb = el('g', { transform: `rotate(${t * 12} ${CX} ${CY})` }, g);
+  for (let i = 0; i < 12; i++) { const a0 = i * 30 * Math.PI / 180, a1 = (i * 30 + 15) * Math.PI / 180, R = 1700; el('path', { d: `M ${CX} ${CY} L ${CX + Math.cos(a0) * R} ${CY + Math.sin(a0) * R} L ${CX + Math.cos(a1) * R} ${CY + Math.sin(a1) * R} Z`, fill: C.green2 }, sb); }
+  // 13박: 남색 면이 비스듬히 밀고 들어옴
+  if (m > 0) { const x = lerp(-400, 1900, m); el('path', { d: `M -500 -200 L ${x} -200 L ${x - 500} 2200 L -500 2200 Z`, fill: C.navy }, g); el('path', { d: `M ${x} -200 L ${x + 60} -200 L ${x - 440} 2200 L ${x - 500} 2200 Z`, fill: C.orange }, g); }
+  // 고리·종이 조각
+  for (const [dl, r1] of [[0, 900], [0.08, 600]]) { const p = pg(d, dl, dl + 0.5); if (p > 0 && p < 1) el('circle', { cx: CX, cy: CY, r: 120 + (r1 - 120) * oc(p), fill: 'none', stroke: '#fff', 'stroke-width': 26 * (1 - p) }, g); }
+  if (d < 1.6) for (let i = 0; i < 30; i++) {
+    const a = i * 137.5 * Math.PI / 180, sp = 800 + (i * 53) % 600, k = d / (1 + d * 0.9);
+    el('rect', { x: -20, y: -11, width: 40, height: 22, rx: 5, fill: ['#fff', C.navy, C.salmon, C.orange][i % 4], opacity: 1 - pg(d, 1.0, 1.6), transform: `translate(${CX + Math.cos(a) * sp * k} ${CY + Math.sin(a) * sp * k + 620 * d * d}) rotate(${d * 420 * (i % 2 ? 1 : -1) + i * 30})` }, g);
+  }
+  // 정답 스티커
+  const ss = spring(d - 0.12, 2.4, 0.35) * (1 - pg(t, bt(13) - 0.15, bt(13)));
+  if (ss > 0.01) { const sg = el('g', { transform: `translate(540 470) rotate(${-7 + (1 - cl(ss)) * 20}) scale(${ss})` }, g); el('rect', { x: -178, y: -58, width: 380, height: 140, rx: 28, fill: C.navy }, sg); el('rect', { x: -190, y: -70, width: 380, height: 140, rx: 28, fill: '#fff' }, sg); txt(sg, 0, 6, '정답 ②', { 'font-family': 'D', 'font-size': 84, fill: C.green }); }
+  // 큰 숫자: 100 → 150 굴러 올라간 뒤 13박에 위로 올라가 작은 배지가 됨
+  const n = Math.round(lerp(100, 150, oc(pg(d, 0, 0.35)))), s0 = 0.3 + 0.7 * spring(d, 2.0, 0.35);
+  const ng = el('g', { transform: `translate(540 ${lerp(900, 520, m)}) scale(${s0 * lerp(1, 0.4, m)})` }, g);
+  txt(ng, 12, -78, String(n), { 'font-family': 'D', 'font-size': 420, fill: 'rgba(0,0,0,.18)' });
+  txt(ng, 0, -90, String(n), { 'font-family': 'D', 'font-size': 420, fill: '#fff' });
+  txt(ng, 0, 210, '달러', { 'font-family': 'D', 'font-size': 210, fill: C.salmon });
+  // 원화
+  if (t >= bt(13)) {
+    kin(g, '이번 주 원화로', 540, 330, 104, C.salmon, t, bt(13) + 0.05, { st: 0.03 });
+    const ws = spring(t - bt(13) - 0.12, 2.0, 0.4), val = Math.floor(T.k150 * oc(pg(t, bt(13) + 0.15, bt(13) + 0.75)));
+    const wg = el('g', { transform: `translate(540 930) scale(${0.4 + 0.6 * ws}) rotate(${(1 - cl(ws)) * -5})`, opacity: cl(ws * 3) }, g);
+    txt(wg, 10, 10, val.toLocaleString('ko-KR') + '원', { 'font-family': 'D', 'font-size': 196, fill: C.orange });
+    txt(wg, 0, 0, val.toLocaleString('ko-KR') + '원', { 'font-family': 'D', 'font-size': 196, fill: '#fff' });
+    const ps = spring(t - bt(14), 2.2, 0.4);
+    if (ps > 0.01) pill(g, 540, 1130, 800, 96, '#fff', `${T.period} 과세환율 ${T.fxText}원`, 44, C.navy, ps, (1 - cl(ps)) * 5, 'P', 800);
+  }
+}
+
+// ── 카메라: 박마다 살짝, 정답에 크게 ──
+function cam(t) {
+  let z = 0, sx = 0, sy = 0;
+  const hit = (b, amt, sh) => { const d = t - bt(b); if (d >= 0 && d < 0.6) z = Math.max(z, amt * Math.exp(-d * 8)); if (sh && d >= 0 && d < 0.25) { const a = sh * (1 - d / 0.25); sx += a * Math.sin(d * 95); sy += 0.7 * a * Math.cos(d * 81); } };
+  [0, 1, 2, 3].forEach((b) => hit(b, 0.035, 0)); [4, 4.5, 5].forEach((b) => hit(b, 0.025, 5)); DROPS.forEach(([b]) => hit(b, 0.03, 8));
+  hit(HIT, 0.09, 18); hit(13, 0.05, 8); [10, 11, 12, 14, 15].forEach((b) => hit(b, 0.018, 0));
+  return `translate(${540 + sx} ${960 + sy}) scale(${1 + z}) translate(-540 -960)`;
+}
+
+window.seek = (t0) => {
+  const t = t0 + 0.04;
+  DEFS.innerHTML = ''; CAM.innerHTML = '';
+  CAM.setAttribute('transform', cam(t));
+  const a = bt(4), h = bt(HIT);
+  if (t < a + 0.2) { const g = el('g', {}, CAM); sceneA(t, g); const p = pg(t, a - 0.28, a - 0.02); if (p > 0) el('circle', { cx: 540, cy: 1080, r: 2400 * oc(p), fill: C.orange }, g); }
+  if (t >= a - 0.12 && t < h + 0.32) { el('circle', { cx: 540, cy: 1080, r: Math.max(1, 2400 * oc(pg(t, a - 0.12, a + 0.2))) }, el('clipPath', { id: 'cB' }, DEFS)); sceneB(t, el('g', { 'clip-path': 'url(#cB)' }, CAM)); }
+  if (t >= h) { el('circle', { cx: 770, cy: Y(150), r: Math.max(1, 2500 * oc(pg(t, h, h + 0.32))) }, el('clipPath', { id: 'cC' }, DEFS)); sceneC(t, el('g', { 'clip-path': 'url(#cC)' }, CAM)); }
+};
+</script>
+</body></html>
