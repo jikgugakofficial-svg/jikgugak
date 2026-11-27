@@ -7927,5 +7927,46 @@
     "domesticUrl": "https://link.coupang.com/a/iZayGpe3Y4",
     "buyUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLe5mOF3ZxRkgXTxDel4NhdR1WLVYSoygR9Mm1fajL9UmwmCVRVHwLPp0N3C40VK5WPZZYQxZGshAwR316frualU2ddDhAvjX7szeQ74WJhAk0jrkW3P3E59uURgbM7QLeQM5mu0W512R7im96H4cCi8lLj80ZK98z5yoVg9k3PqakdmUCYZ9B4BBMxQbZGr5XqPDinMGV0us7BTWgIMZRfYME5pFhU7yxipERLtvEX4iFlOSAmM3TtQfO8quUgKeYxLt3386JjqTNTZtghR663CZj3vxYS3dlHfTlLTPA39HcQ89r33ctpeP82BuEi7EVlmGKoSdxYnPISgcO1gOZhPdPuIqYyQzi7yLyVL7uT8MIcZBXx4KwpRsHidu4W7baJHTLAqlNXVwboHW5ObBRbDb7czporpQlO1pC1A8n1QSEuP3d4v8FPgMatOfmQLkNZS6wwf1TkprLz9ar000NnAdx1R5a7WzM0N6jbUKDZUEYRWljaJwKyCJYpgEPquov4OnzoBcyaaojXctt5JRKH32w0zFSAqnkBeNLXl3CFyN4V4RVOpEheT5FEW8DSffKp2O1gvhhUodCqCF5vFt36TJoZzF5GU8z9u63GY6VFLnLk2FsVY8gIn5FyqyzHpFmMCg3RKY0rWMCeebc79qxz37qdHZgN6e1phf9hSYgC7b0lIpp2BFggJnPXx1vkNri2qqQ8jOQTDdWL6fXb0GBl9O6dQn8EpMBIc4Ce0AkPkiQaAcNWZZQtMibVH4c10LlQ8SbpOo",
     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S37ceabd46b28429380f7687bee823493F.png"
+  },
+  {
+    "store": "iherb",
+    "category": "supplement",
+    "origin": "us",
+    "method": "express",
+    "shipKrw": 0,
+    "shipNote": "₩40,000 이상 주문이라 무료 배송",
+    "domesticStore": "쿠팡",
+    "sample": false,
+    "checkedAt": "2026.11.27 쿠팡 API 매니저",
+    "slug": "iherb-gol-mykind-mens-once-daily-60",
+    "name": "가든오브라이프 마이카인드 오가닉 남성용 원스데일리 멀티비타민 60정",
+    "priceKrw": 53582,
+    "domesticKrw": 93410,
+    "domesticSource": "쿠팡 판매자 상품(로켓 아님)",
+    "buyUrl": "https://kr.iherb.com/pr/garden-of-life-organics-men-s-once-daily-60-vegan-tablets/58123",
+    "domesticCheckUrl": "https://www.coupang.com/vp/products/6079323575",
+    "overseasCheckUrl": "https://kr.iherb.com/pr/garden-of-life-organics-men-s-once-daily-60-vegan-tablets/58123",
+    "coupangKeyword": "가든오브라이프 마이카인드 남성 원스데일리 60",
+    "risks": [
+      "건강기능식품: 미국발도 $150 기준(배송비 포함)",
+      "6병까지 자가사용 인정",
+      "30정짜리는 다른 상품이에요. 60정끼리 비교했어요",
+      "쿠팡 같은 상품 번호에 93,410원·155,200원 두 줄이 있고 이름에 30정/60정이 같이 적혀 있어요. 낮은 값을 60정으로 봤으니 결제 전 60정 옵션 가격을 확인하세요",
+      "아이허브 할인 코드 가격은 넣지 않았어요"
+    ],
+    "summary": [
+      "가든오브라이프 마이카인드 남성용 원스데일리 60정끼리 비교했어요.",
+      "아이허브가 쿠팡보다 {diff}({pct}) 싸요.",
+      "₩40,000이 넘어 배송비 없이 받을 수 있어요."
+    ],
+    "match": {
+      "method": "model",
+      "domestic": "",
+      "overseas": "658010117678",
+      "model": "Garden of Life mykind Organics Men's Once Daily, 60 Vegan Tablets (GOL-11767)",
+      "note": "쿠팡 화면이 막혀 바코드는 못 봤고, 쿠팡 공식 API 상품명(6079323575 '가든 오브 라이프 마이카인드 유기농 남성 종합비타민 30정/60정' 93,410·'mykind Men's Once Daily' 155,200)과 아이허브 화면(60정 1회 구매가 53,582원, UPC 658010117678)으로 맞춤. 쿠팡 두 줄 중 낮은 값을 60정으로 봄(11/27 매니저)",
+      "checkedAt": "2026.11.27"
+    },
+    "domesticUrl": "https://link.coupang.com/a/i0Pj2b0YWO"
   }
 ]
