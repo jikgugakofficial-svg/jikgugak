@@ -115,11 +115,11 @@
     },
     "ali-fosi-q4": {
       "itemId": "1005002448803062",
-      "at": "2026-11-22T10:22:44.905Z",
+      "at": "2026-11-27T14:23:00.742Z",
       "recordedKrw": 47262,
       "found": true,
-      "apiPrice": 47262,
-      "result": "same"
+      "apiPrice": 47434,
+      "result": "applied"
     },
     "ali-ugreen-nexode-air-65w": {
       "itemId": "1005012274502051",
@@ -217,19 +217,19 @@
     },
     "ali-tangzu-waner-sg2-red-lion": {
       "itemId": "1005011615420740",
-      "at": "2026-11-22T02:40:59.195Z",
-      "recordedKrw": 26909,
+      "at": "2026-11-27T14:22:57.382Z",
+      "recordedKrw": 24245,
       "found": true,
-      "apiPrice": 24245,
+      "apiPrice": 24382,
       "result": "applied"
     },
     "ali-sonoff-minir4": {
       "itemId": "1005005260044338",
-      "at": "2026-11-22T02:41:00.066Z",
-      "recordedKrw": 11398,
+      "at": "2026-11-27T14:22:59.977Z",
+      "recordedKrw": 11409,
       "found": true,
-      "apiPrice": 11398,
-      "result": "same"
+      "apiPrice": 11378,
+      "result": "applied"
     },
     "ali-redragon-k530-pro": {
       "itemId": "1005004887739101",
@@ -351,5 +351,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-27T04:34:22.039Z"
+  "updatedAt": "2026-11-27T14:23:01.494Z"
 }

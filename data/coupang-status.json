@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-27T08:36:04.938Z",
-  "mode": "report",
+  "at": "2026-11-27T14:23:03.490Z",
+  "mode": "hourly",
   "ok": true,
-  "message": "쿠팡 실적 20261120~20261126: 클릭 2 · 주문 0건 · 수익 0원"
+  "message": "- 사진 못 찾음: amazon-beats-powerbeats-pro-2 (검색어 '비츠 파워비츠 프로 2 운동용 이어폰' 상위 10개에 같은 상품 번호 없음 → coupangKeyword 고치기)"
 }
