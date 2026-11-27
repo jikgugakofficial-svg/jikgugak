@@ -107,10 +107,11 @@
     },
     "ali-moondrop-chu2": {
       "itemId": "1005006499470555",
-      "at": "2026-11-21T21:55:04.817Z",
+      "at": "2026-11-27T04:34:18.538Z",
       "recordedKrw": 32773,
-      "found": false,
-      "note": "not_found"
+      "found": true,
+      "apiPrice": 27014,
+      "result": "held"
     },
     "ali-fosi-q4": {
       "itemId": "1005002448803062",
@@ -201,19 +202,18 @@
     },
     "ali-baseus-bowie-mp1": {
       "itemId": "1005009920180201",
-      "at": "2026-11-21T21:55:05.130Z",
-      "recordedKrw": 45251,
+      "at": "2026-11-27T04:34:20.849Z",
+      "recordedKrw": 45614,
       "found": true,
-      "apiPrice": 45462,
+      "apiPrice": 45628,
       "result": "applied"
     },
     "ali-truthear-zero-red": {
       "itemId": "1005005589751589",
-      "at": "2026-11-22T02:40:56.889Z",
-      "recordedKrw": 75738,
-      "found": true,
-      "apiPrice": 76092,
-      "result": "applied"
+      "at": "2026-11-27T04:34:21.714Z",
+      "recordedKrw": 76092,
+      "found": false,
+      "note": "not_found"
     },
     "ali-tangzu-waner-sg2-red-lion": {
       "itemId": "1005011615420740",
@@ -351,5 +351,5 @@
       "result": "same"
     }
   },
-  "updatedAt": "2026-11-26T22:37:31.930Z"
+  "updatedAt": "2026-11-27T04:34:22.039Z"
 }
