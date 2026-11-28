@@ -31,7 +31,7 @@
     "ali-ugreen-7in1-usbc-hub": {
       "productId": "6908511046",
       "keyword": "유그린 7in1 USB-C 허브",
-      "at": "2026-11-25T20:12:37.681Z",
+      "at": "2026-11-28T04:58:38.900Z",
       "recordedKrw": 59900,
       "found": true,
       "apiPrice": 59900,
@@ -42,7 +42,7 @@
     "ali-aula-f75-keyboard": {
       "productId": "8721422294",
       "keyword": "AULA F75 무선 기계식 키보드",
-      "at": "2026-11-25T20:12:41.740Z",
+      "at": "2026-11-28T04:58:43.049Z",
       "recordedKrw": 59900,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -50,70 +50,70 @@
     "ali-qcy-t13-earbuds": {
       "productId": "6572373138",
       "keyword": "QCY T13 무선 블루투스 이어폰",
-      "at": "2026-11-25T20:12:45.766Z",
+      "at": "2026-11-28T04:58:47.036Z",
       "recordedKrw": 22660,
-      "found": true,
-      "apiPrice": 22660,
-      "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "found": false,
+      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
     },
     "amazon-lego-10309-succulents": {
       "productId": "6498210958",
       "keyword": "레고 보태니컬 다육식물 10309",
-      "at": "2026-11-25T20:12:49.766Z",
-      "recordedKrw": 64690,
+      "at": "2026-11-28T04:58:51.199Z",
+      "recordedKrw": 64620,
       "found": true,
       "apiPrice": 54620,
       "isRocket": false,
-      "diff": -10070,
-      "result": "applied"
+      "diff": -10000,
+      "result": "same"
     },
     "amazon-lego-10280-flower-bouquet": {
       "productId": "4899605928",
       "keyword": "레고 보태니컬 플라워 부케 10280",
-      "at": "2026-11-25T20:12:53.705Z",
-      "recordedKrw": 71500,
+      "at": "2026-11-28T04:58:54.945Z",
+      "recordedKrw": 71490,
       "found": true,
-      "apiPrice": 71490,
+      "apiPrice": 69740,
       "isRocket": false,
-      "diff": -10,
+      "diff": -1750,
       "result": "applied"
     },
     "amazon-sony-wh-1000xm6": {
       "productId": "8832674019",
       "keyword": "소니 WH-1000XM6 노이즈캔슬링 헤드폰",
-      "at": "2026-11-25T20:13:09.865Z",
+      "at": "2026-11-28T04:59:10.910Z",
       "recordedKrw": 468000,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 459000,
+      "isRocket": true,
+      "diff": -9000,
+      "result": "applied"
     },
     "amazon-logitech-mx-master-3s": {
       "productId": "7242698793",
       "keyword": "로지텍 MX Master 3S 무선 마우스",
-      "at": "2026-11-25T20:13:13.729Z",
-      "recordedKrw": 91500,
+      "at": "2026-11-28T04:59:14.893Z",
+      "recordedKrw": 87900,
       "found": true,
-      "apiPrice": 87900,
+      "apiPrice": 91500,
       "isRocket": false,
-      "diff": -3600,
+      "diff": 3600,
       "result": "applied"
     },
     "amazon-crocs-classic-clog": {
       "productId": "7320672616",
       "keyword": "크록스 클래식 클로그 10001",
-      "at": "2026-11-25T20:13:17.718Z",
+      "at": "2026-11-28T04:59:19.067Z",
       "recordedKrw": 56900,
       "found": true,
-      "apiPrice": 56900,
-      "isRocket": true,
-      "diff": 0,
-      "result": "same"
+      "apiPrice": 55640,
+      "isRocket": false,
+      "diff": -1260,
+      "result": "applied"
     },
     "amazon-stanley-quencher-40oz": {
       "productId": "6792297030",
       "keyword": "스탠리 퀜처 H2.0 텀블러 1.18L",
-      "at": "2026-11-25T20:13:21.792Z",
+      "at": "2026-11-28T04:59:23.093Z",
       "recordedKrw": 38400,
       "found": false,
       "note": "검색 상위 5개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -121,15 +121,18 @@
     "amazon-timemore-c3s-grinder": {
       "productId": "7320682315",
       "keyword": "타임모어 C3S 핸드 커피 그라인더",
-      "at": "2026-11-25T20:13:25.810Z",
+      "at": "2026-11-28T04:59:26.927Z",
       "recordedKrw": 51080,
-      "found": false,
-      "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
+      "found": true,
+      "apiPrice": 48530,
+      "isRocket": false,
+      "diff": -2550,
+      "result": "applied"
     },
     "iherb-on-gold-standard-whey-5lb": {
       "productId": "6714215076",
       "keyword": "옵티멈 골드 스탠다드 100% 웨이 프로틴 2.27kg",
-      "at": "2026-11-26T03:07:40.520Z",
+      "at": "2026-11-28T04:59:31.013Z",
       "recordedKrw": 137500,
       "found": false,
       "note": "검색 상위 10개에 같은 상품 번호가 없어요. coupangKeyword 를 더 정확하게"
@@ -538,7 +541,7 @@
     "ali-redragon-k617-fizz": {
       "productId": "7795587320",
       "keyword": "레드드래곤 K617 피즈 60% 기계식 키보드",
-      "at": "2026-11-25T20:12:33.698Z",
+      "at": "2026-11-28T04:58:34.895Z",
       "recordedKrw": 68600,
       "found": true,
       "apiPrice": 68600,
@@ -826,7 +829,7 @@
     "iherb-doctors-best-ala-600-180": {
       "productId": "8460206154",
       "keyword": "닥터스베스트 알파리포산 600",
-      "at": "2026-11-25T20:12:57.808Z",
+      "at": "2026-11-28T04:58:59.044Z",
       "recordedKrw": 82680,
       "found": true,
       "apiPrice": 82680,
@@ -837,18 +840,18 @@
     "iherb-now-sunflower-lecithin-powder-454g": {
       "productId": "823789",
       "keyword": "나우푸드 선플라워 레시틴 파우더",
-      "at": "2026-11-25T20:13:01.789Z",
-      "recordedKrw": 43480,
+      "at": "2026-11-28T04:59:02.933Z",
+      "recordedKrw": 46270,
       "found": true,
-      "apiPrice": 46270,
+      "apiPrice": 41460,
       "isRocket": false,
-      "diff": 2790,
+      "diff": -4810,
       "result": "applied"
     },
     "ali-ugreen-nexode-mini-100w-12000": {
       "productId": "9780240425",
       "keyword": "유그린 넥소드 미니 100W 보조배터리 12000mAh",
-      "at": "2026-11-25T20:13:05.746Z",
+      "at": "2026-11-28T04:59:06.925Z",
       "recordedKrw": 103700,
       "found": true,
       "apiPrice": 103700,
@@ -982,5 +985,5 @@
       "result": "held"
     }
   },
-  "updatedAt": "2026-11-27T22:58:26.633Z"
+  "updatedAt": "2026-11-28T04:59:34.900Z"
 }
